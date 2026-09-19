@@ -1,0 +1,2604 @@
+[
+  {
+    "number": 1,
+    "slug": "rates-and-returns",
+    "title": "Rates and Returns",
+    "topic": "Quantitative Methods",
+    "overview": "Return measures translate changes in value and cash flows into comparable performance rates.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "1.1",
+        "title": "Interest Rates and Return Measurement",
+        "explanation": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "steps": [
+          "Write beginning value, ending value, and distributions with consistent signs.",
+          "Calculate the return for the observed period, then compound when converting across time.",
+          "Name the convention used: nominal or real, gross or net, leveraged or unleveraged."
+        ],
+        "check": "Explain how interest rates and return measurement changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "1.2",
+        "title": "Time-Weighted and Money-Weighted Returns",
+        "explanation": "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate.",
+        "steps": [
+          "Place every contribution, withdrawal, and ending value on a timeline.",
+          "Use linked subperiod returns for manager performance; use an internal rate of return for the investor experience.",
+          "Check the sign and timing of each cash flow before interpreting the result."
+        ],
+        "check": "Explain how time-weighted and money-weighted returns changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "1.3",
+        "title": "Common Measures of Return",
+        "explanation": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "steps": [
+          "Write beginning value, ending value, and distributions with consistent signs.",
+          "Calculate the return for the observed period, then compound when converting across time.",
+          "Name the convention used: nominal or real, gross or net, leveraged or unleveraged."
+        ],
+        "check": "Explain how common measures of return changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "slug": "time-value-of-money-in-finance",
+    "title": "Time Value of Money in Finance",
+    "topic": "Quantitative Methods",
+    "overview": "Time-value analysis moves cash flows across dates by compounding forward and discounting backward.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "2.1",
+        "title": "Discounted Cash Flow Valuation",
+        "explanation": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "steps": [
+          "Draw the cash-flow timeline and choose a valuation date.",
+          "Discount each cash flow with a rate and period that match its risk and timing.",
+          "Add present values and test whether the answer moves correctly when the rate changes."
+        ],
+        "check": "Explain how discounted cash flow valuation changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "2.2",
+        "title": "Implied Returns and Cash Flow Additivity",
+        "explanation": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "steps": [
+          "Draw the cash-flow timeline and choose a valuation date.",
+          "Discount each cash flow with a rate and period that match its risk and timing.",
+          "Add present values and test whether the answer moves correctly when the rate changes."
+        ],
+        "check": "Explain how implied returns and cash flow additivity changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "slug": "statistical-measures-of-asset-returns",
+    "title": "Statistical Measures of Asset Returns",
+    "topic": "Quantitative Methods",
+    "overview": "Statistical measures describe the center, spread, shape, and relationships within return data.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "3.1",
+        "title": "Central Tendency and Dispersion",
+        "explanation": "Location measures describe a typical observation; dispersion measures describe how widely observations vary. Averages can disagree when data are skewed, and standard deviation is meaningful only in the context of the distribution and the measurement scale.",
+        "steps": [
+          "Inspect the observations for outliers and skew before selecting an average.",
+          "Calculate a location measure and a matching dispersion measure.",
+          "Interpret both together instead of treating an average as a complete description."
+        ],
+        "check": "Explain how central tendency and dispersion changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "3.2",
+        "title": "Skewness, Kurtosis, and Correlation",
+        "explanation": "Skewness describes asymmetry, kurtosis highlights tail weight, and correlation measures linear co-movement. Correlation is bounded between minus one and one but does not establish causation and may change during stressed markets.",
+        "steps": [
+          "Center the question on distribution shape or co-movement.",
+          "Use the sign for direction and magnitude for strength.",
+          "Check outliers, nonlinearity, and regime changes before relying on the statistic."
+        ],
+        "check": "Explain how skewness, kurtosis, and correlation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "slug": "probability-trees-and-conditional-expectations",
+    "title": "Probability Trees and Conditional Expectations",
+    "topic": "Quantitative Methods",
+    "overview": "Conditional probability updates an initial view when new evidence changes the relevant information set.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "4.1",
+        "title": "Probability Models, Expected Values, and Bayes’ Formula",
+        "explanation": "A probability model assigns likelihoods to outcomes. Expected value is a probability-weighted average, while Bayes' rule updates a prior probability by asking how likely the new evidence would be under each possible state.",
+        "steps": [
+          "List mutually exclusive outcomes and confirm their probabilities sum to one.",
+          "Multiply each outcome by its probability or build the conditional-probability tree.",
+          "Normalize the updated branches and explain what evidence changed the prior view."
+        ],
+        "check": "Explain how probability models, expected values, and bayes’ formula changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "slug": "portfolio-mathematics",
+    "title": "Portfolio Mathematics",
+    "topic": "Quantitative Methods",
+    "overview": "Portfolio mathematics combines expected returns, variances, covariances, and correlations to describe total risk.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "5.1",
+        "title": "Probability Models for Portfolio Return and Risk",
+        "explanation": "A probability model assigns likelihoods to outcomes. Expected value is a probability-weighted average, while Bayes' rule updates a prior probability by asking how likely the new evidence would be under each possible state.",
+        "steps": [
+          "List mutually exclusive outcomes and confirm their probabilities sum to one.",
+          "Multiply each outcome by its probability or build the conditional-probability tree.",
+          "Normalize the updated branches and explain what evidence changed the prior view."
+        ],
+        "check": "Explain how probability models for portfolio return and risk changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "slug": "simulation-methods",
+    "title": "Simulation Methods",
+    "topic": "Quantitative Methods",
+    "overview": "Simulation models a range of possible outcomes when a closed-form answer is unavailable or unrealistic.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "6.1",
+        "title": "Lognormal Distributions and Simulation Techniques",
+        "explanation": "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials.",
+        "steps": [
+          "Specify the uncertain inputs, distributions, and correlations.",
+          "Generate many scenarios and calculate the outcome in each one.",
+          "Summarize percentiles and sensitivity, then stress assumptions the model may miss."
+        ],
+        "check": "Explain how lognormal distributions and simulation techniques changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "slug": "estimation-and-inference",
+    "title": "Estimation and Inference",
+    "topic": "Quantitative Methods",
+    "overview": "Estimation uses samples to infer population properties while making uncertainty explicit.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "7.1",
+        "title": "Sampling Techniques and the Central Limit Theorem",
+        "explanation": "Sampling uses a subset to learn about a population. The central limit theorem explains why many sample means approach a normal distribution as sample size grows, which supports confidence intervals even when individual observations are not normal.",
+        "steps": [
+          "Define the target population and a sampling method that can represent it.",
+          "Calculate the sample statistic and its standard error.",
+          "Report the estimate with uncertainty and identify selection or nonresponse bias."
+        ],
+        "check": "Explain how sampling techniques and the central limit theorem changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "slug": "hypothesis-testing",
+    "title": "Hypothesis Testing",
+    "topic": "Quantitative Methods",
+    "overview": "Hypothesis testing weighs sample evidence against a stated claim and controls decision error rates.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "8.1",
+        "title": "Hypothesis Testing Basics",
+        "explanation": "Hypothesis testing compares sample evidence with a null claim. The significance level limits false rejections, the p-value measures how surprising the data are under the null, and power reflects the chance of detecting a real effect.",
+        "steps": [
+          "State the null, alternative, and one- or two-tailed decision rule before calculating.",
+          "Choose a statistic whose assumptions match the data and compute its p-value or critical value.",
+          "Make the statistical decision and separately explain its economic importance."
+        ],
+        "check": "Explain how hypothesis testing basics changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "8.2",
+        "title": "Types of Hypothesis Tests",
+        "explanation": "Hypothesis testing compares sample evidence with a null claim. The significance level limits false rejections, the p-value measures how surprising the data are under the null, and power reflects the chance of detecting a real effect.",
+        "steps": [
+          "State the null, alternative, and one- or two-tailed decision rule before calculating.",
+          "Choose a statistic whose assumptions match the data and compute its p-value or critical value.",
+          "Make the statistical decision and separately explain its economic importance."
+        ],
+        "check": "Explain how types of hypothesis tests changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "slug": "parametric-and-non-parametric-tests-of-independence",
+    "title": "Parametric and Non-Parametric Tests of Independence",
+    "topic": "Quantitative Methods",
+    "overview": "Tests of independence determine whether observed relationships are statistically distinguishable from chance.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "9.1",
+        "title": "Tests for Independence",
+        "explanation": "Hypothesis testing compares sample evidence with a null claim. The significance level limits false rejections, the p-value measures how surprising the data are under the null, and power reflects the chance of detecting a real effect.",
+        "steps": [
+          "State the null, alternative, and one- or two-tailed decision rule before calculating.",
+          "Choose a statistic whose assumptions match the data and compute its p-value or critical value.",
+          "Make the statistical decision and separately explain its economic importance."
+        ],
+        "check": "Explain how tests for independence changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 10,
+    "slug": "simple-linear-regression",
+    "title": "Simple Linear Regression",
+    "topic": "Quantitative Methods",
+    "overview": "Linear regression estimates how a dependent variable changes with an explanatory variable and measures fit.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "10.1",
+        "title": "Linear Regression Basics",
+        "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "steps": [
+          "Define the dependent variable, explanatory variable, and proposed functional form.",
+          "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+          "Check residual assumptions before using the equation for explanation or prediction."
+        ],
+        "check": "Explain how linear regression basics changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "10.2",
+        "title": "Analysis of Variance (ANOVA) and Goodness of Fit",
+        "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "steps": [
+          "Define the dependent variable, explanatory variable, and proposed functional form.",
+          "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+          "Check residual assumptions before using the equation for explanation or prediction."
+        ],
+        "check": "Explain how analysis of variance (anova) and goodness of fit changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "10.3",
+        "title": "Predicted Values and Functional Forms of Regression",
+        "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "steps": [
+          "Define the dependent variable, explanatory variable, and proposed functional form.",
+          "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+          "Check residual assumptions before using the equation for explanation or prediction."
+        ],
+        "check": "Explain how predicted values and functional forms of regression changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 11,
+    "slug": "introduction-to-big-data-techniques",
+    "title": "Introduction to Big Data Techniques",
+    "topic": "Quantitative Methods",
+    "overview": "Big-data methods turn large, varied datasets into investment signals while guarding against overfitting and bias.",
+    "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+    "modules": [
+      {
+        "id": "11.1",
+        "title": "Introduction to Fintech",
+        "explanation": "Financial technology combines large datasets, statistical learning, automation, and digital delivery. Useful models separate training from evaluation data, control data leakage, and remain interpretable enough to detect bias and failure.",
+        "steps": [
+          "Define the prediction or decision and the data available at that time.",
+          "Train and validate with separated samples and a baseline for comparison.",
+          "Monitor drift, false signals, explainability, privacy, and operational risk."
+        ],
+        "check": "Explain how introduction to fintech changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 12,
+    "slug": "the-firm-and-market-structures",
+    "title": "The Firm and Market Structures",
+    "topic": "Economics",
+    "overview": "Market structure links competition, pricing power, output decisions, and barriers to entry.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "12.1",
+        "title": "Breakeven, Shutdown, and Scale",
+        "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "steps": [
+          "Separate fixed cost, variable cost, average cost, and marginal cost.",
+          "Compare price and marginal revenue with the relevant cost threshold.",
+          "Use entry barriers and strategic interaction to identify the likely market structure."
+        ],
+        "check": "Explain how breakeven, shutdown, and scale changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "12.2",
+        "title": "Characteristics of Market Structures",
+        "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "steps": [
+          "Separate fixed cost, variable cost, average cost, and marginal cost.",
+          "Compare price and marginal revenue with the relevant cost threshold.",
+          "Use entry barriers and strategic interaction to identify the likely market structure."
+        ],
+        "check": "Explain how characteristics of market structures changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "12.3",
+        "title": "Identifying Market Structures",
+        "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "steps": [
+          "Separate fixed cost, variable cost, average cost, and marginal cost.",
+          "Compare price and marginal revenue with the relevant cost threshold.",
+          "Use entry barriers and strategic interaction to identify the likely market structure."
+        ],
+        "check": "Explain how identifying market structures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 13,
+    "slug": "understanding-business-cycles",
+    "title": "Understanding Business Cycles",
+    "topic": "Economics",
+    "overview": "Business-cycle analysis connects changes in growth, employment, inflation, credit, and corporate activity.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "13.1",
+        "title": "Business Cycles",
+        "explanation": "Business cycles move through expansion, slowdown, contraction, and recovery, but their timing and depth differ. Leading, coincident, and lagging indicators help organize evidence from production, employment, inflation, credit, and inventories.",
+        "steps": [
+          "Identify the direction and momentum of growth and employment.",
+          "Cross-check inflation, credit, inventory, and sentiment indicators.",
+          "Form a stage hypothesis and list evidence that would disconfirm it."
+        ],
+        "check": "Explain how business cycles changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 14,
+    "slug": "fiscal-policy",
+    "title": "Fiscal Policy",
+    "topic": "Economics",
+    "overview": "Fiscal policy changes aggregate demand through government spending, taxation, and borrowing.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "14.1",
+        "title": "Fiscal Policy Objectives",
+        "explanation": "Fiscal policy changes demand and incentives through spending, transfers, taxes, and borrowing. Its impact depends on implementation lags, spare capacity, household responses, financing conditions, and possible crowding out.",
+        "steps": [
+          "Identify whether the measure changes government spending, taxes, or transfers.",
+          "Trace the first-round effect into aggregate demand and the budget balance.",
+          "Assess multipliers, timing, debt sustainability, and monetary-policy interaction."
+        ],
+        "check": "Explain how fiscal policy objectives changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "14.2",
+        "title": "Fiscal Policy Tools and Implementation",
+        "explanation": "Fiscal policy changes demand and incentives through spending, transfers, taxes, and borrowing. Its impact depends on implementation lags, spare capacity, household responses, financing conditions, and possible crowding out.",
+        "steps": [
+          "Identify whether the measure changes government spending, taxes, or transfers.",
+          "Trace the first-round effect into aggregate demand and the budget balance.",
+          "Assess multipliers, timing, debt sustainability, and monetary-policy interaction."
+        ],
+        "check": "Explain how fiscal policy tools and implementation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 15,
+    "slug": "monetary-policy",
+    "title": "Monetary Policy",
+    "topic": "Economics",
+    "overview": "Monetary policy influences financial conditions through policy rates, liquidity tools, and expectations.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "15.1",
+        "title": "Central Bank Objectives and Tools",
+        "explanation": "Monetary policy steers short-term financial conditions with policy rates, market operations, reserve tools, and communication. Transmission runs through borrowing costs, asset prices, credit, exchange rates, and expectations before affecting activity and inflation.",
+        "steps": [
+          "Compare inflation and economic slack with the central bank's objective.",
+          "Map the chosen tool into market rates, credit, and expectations.",
+          "Account for lags, credibility, financial stability, and the effective lower bound."
+        ],
+        "check": "Explain how central bank objectives and tools changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "15.2",
+        "title": "Monetary Policy Effects and Limitations",
+        "explanation": "Monetary policy steers short-term financial conditions with policy rates, market operations, reserve tools, and communication. Transmission runs through borrowing costs, asset prices, credit, exchange rates, and expectations before affecting activity and inflation.",
+        "steps": [
+          "Compare inflation and economic slack with the central bank's objective.",
+          "Map the chosen tool into market rates, credit, and expectations.",
+          "Account for lags, credibility, financial stability, and the effective lower bound."
+        ],
+        "check": "Explain how monetary policy effects and limitations changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "slug": "introduction-to-geopolitics",
+    "title": "Introduction to Geopolitics",
+    "topic": "Economics",
+    "overview": "Geopolitical analysis identifies how state power, cooperation, and conflict alter investment risks.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "16.1",
+        "title": "Geopolitics",
+        "explanation": "Geopolitical risk arises when state power, security goals, alliances, or conflict alter trade, capital flows, supply chains, or property rights. Scenario analysis is more useful than a single-point forecast because political outcomes are discrete and path dependent.",
+        "steps": [
+          "Identify the actors, objectives, dependencies, and sources of leverage.",
+          "Build distinct scenarios with observable signposts.",
+          "Translate each scenario into revenue, cost, currency, liquidity, and valuation effects."
+        ],
+        "check": "Explain how geopolitics changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "slug": "international-trade",
+    "title": "International Trade",
+    "topic": "Economics",
+    "overview": "Trade analysis explains why specialization creates gains and how restrictions redistribute those gains.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "17.1",
+        "title": "International Trade",
+        "explanation": "Comparative advantage explains why specialization can raise total output even when one country is more productive in every activity. Tariffs, quotas, and subsidies redistribute gains among consumers, producers, and governments and can provoke retaliation.",
+        "steps": [
+          "Calculate opportunity costs rather than comparing absolute productivity alone.",
+          "Identify the efficient specialization and terms-of-trade range.",
+          "Trace a trade barrier through price, quantity, surplus, revenue, and deadweight loss."
+        ],
+        "check": "Explain how international trade changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "slug": "capital-flows-and-the-fx-market",
+    "title": "Capital Flows and the FX Market",
+    "topic": "Economics",
+    "overview": "Capital flows and foreign-exchange markets connect cross-border investment with currency supply and demand.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "18.1",
+        "title": "The Foreign Exchange Market",
+        "explanation": "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+        "steps": [
+          "Write the currency pair and label base and price currency.",
+          "Invert or chain quotes only after aligning units.",
+          "Check that appreciation, depreciation, and forward points move in the economically correct direction."
+        ],
+        "check": "Explain how the foreign exchange market changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "18.2",
+        "title": "Managing Exchange Rates",
+        "explanation": "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+        "steps": [
+          "Write the currency pair and label base and price currency.",
+          "Invert or chain quotes only after aligning units.",
+          "Check that appreciation, depreciation, and forward points move in the economically correct direction."
+        ],
+        "check": "Explain how managing exchange rates changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 19,
+    "slug": "exchange-rate-calculations",
+    "title": "Exchange Rate Calculations",
+    "topic": "Economics",
+    "overview": "Exchange-rate calculations keep quotation conventions, cross rates, forward points, and percentage changes consistent.",
+    "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+    "modules": [
+      {
+        "id": "19.1",
+        "title": "Foreign Exchange Rates",
+        "explanation": "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+        "steps": [
+          "Write the currency pair and label base and price currency.",
+          "Invert or chain quotes only after aligning units.",
+          "Check that appreciation, depreciation, and forward points move in the economically correct direction."
+        ],
+        "check": "Explain how foreign exchange rates changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 20,
+    "slug": "organizational-forms-corporate-issuer-features-and-ownership",
+    "title": "Organizational Forms, Corporate Issuer Features, and Ownership",
+    "topic": "Corporate Issuers",
+    "overview": "Organizational form determines ownership rights, liability, governance, financing access, and disclosure duties.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "20.1",
+        "title": "Features of Corporate Issuers",
+        "explanation": "Corporate form assigns ownership, control, liability, and disclosure rights. Governance mechanisms use boards, voting, incentives, controls, and transparency to manage conflicts among owners, managers, creditors, employees, customers, and society.",
+        "steps": [
+          "Map each stakeholder's contribution, claim, information, and decision rights.",
+          "Identify the conflict and the mechanism intended to constrain it.",
+          "Evaluate whether incentives, oversight, and disclosure support durable value creation."
+        ],
+        "check": "Explain how features of corporate issuers changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "slug": "investors-and-other-stakeholders",
+    "title": "Investors and Other Stakeholders",
+    "topic": "Corporate Issuers",
+    "overview": "Stakeholder analysis maps who supplies resources, bears risk, and can influence a corporate issuer.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "21.1",
+        "title": "Stakeholders and ESG Factors",
+        "explanation": "Corporate form assigns ownership, control, liability, and disclosure rights. Governance mechanisms use boards, voting, incentives, controls, and transparency to manage conflicts among owners, managers, creditors, employees, customers, and society.",
+        "steps": [
+          "Map each stakeholder's contribution, claim, information, and decision rights.",
+          "Identify the conflict and the mechanism intended to constrain it.",
+          "Evaluate whether incentives, oversight, and disclosure support durable value creation."
+        ],
+        "check": "Explain how stakeholders and esg factors changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 22,
+    "slug": "corporate-governance-conflicts-mechanisms-risks-and-benefits",
+    "title": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+    "topic": "Corporate Issuers",
+    "overview": "Corporate governance aligns managers, boards, owners, and other stakeholders through oversight and incentives.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "22.1",
+        "title": "Corporate Governance",
+        "explanation": "Corporate form assigns ownership, control, liability, and disclosure rights. Governance mechanisms use boards, voting, incentives, controls, and transparency to manage conflicts among owners, managers, creditors, employees, customers, and society.",
+        "steps": [
+          "Map each stakeholder's contribution, claim, information, and decision rights.",
+          "Identify the conflict and the mechanism intended to constrain it.",
+          "Evaluate whether incentives, oversight, and disclosure support durable value creation."
+        ],
+        "check": "Explain how corporate governance changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 23,
+    "slug": "working-capital-and-liquidity",
+    "title": "Working Capital and Liquidity",
+    "topic": "Corporate Issuers",
+    "overview": "Working-capital management balances operating liquidity against the cost and risk of short-term financing.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "23.1",
+        "title": "Liquidity Measures and Management",
+        "explanation": "Working-capital management coordinates cash, receivables, inventory, payables, and short-term funding. More liquidity lowers disruption risk but can carry an opportunity cost, so policies should match the operating cycle and cash-flow uncertainty.",
+        "steps": [
+          "Map the cash conversion cycle from purchase through collection.",
+          "Calculate liquidity and turnover measures with consistent period data.",
+          "Test whether financing maturity and liquidity buffers can absorb a downside scenario."
+        ],
+        "check": "Explain how liquidity measures and management changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 24,
+    "slug": "capital-investments-and-capital-allocation",
+    "title": "Capital Investments and Capital Allocation",
+    "topic": "Corporate Issuers",
+    "overview": "Capital allocation compares project cash flows, required returns, strategic fit, and managerial flexibility.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "24.1",
+        "title": "Capital Investments and Project Measures",
+        "explanation": "Capital budgeting compares incremental after-tax cash flows with the return required for their risk. Net present value measures value creation; real options capture managerial choices to delay, expand, contract, or abandon as uncertainty resolves.",
+        "steps": [
+          "Include only incremental cash flows and working-capital effects.",
+          "Discount at a rate consistent with project risk and calculate NPV.",
+          "Stress key drivers and value flexibility that a static forecast omits."
+        ],
+        "check": "Explain how capital investments and project measures changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "24.2",
+        "title": "Capital Allocation Principles and Real Options",
+        "explanation": "Capital budgeting compares incremental after-tax cash flows with the return required for their risk. Net present value measures value creation; real options capture managerial choices to delay, expand, contract, or abandon as uncertainty resolves.",
+        "steps": [
+          "Include only incremental cash flows and working-capital effects.",
+          "Discount at a rate consistent with project risk and calculate NPV.",
+          "Stress key drivers and value flexibility that a static forecast omits."
+        ],
+        "check": "Explain how capital allocation principles and real options changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 25,
+    "slug": "capital-structure",
+    "title": "Capital Structure",
+    "topic": "Corporate Issuers",
+    "overview": "Capital structure examines how debt and equity choices affect risk, flexibility, and the cost of capital.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "25.1",
+        "title": "Weighted-Average Cost of Capital",
+        "explanation": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "steps": [
+          "Estimate component costs using market values and matching risk benchmarks.",
+          "Weight debt and equity consistently and apply tax effects correctly.",
+          "Test how leverage changes coverage, distress exposure, flexibility, and required returns."
+        ],
+        "check": "Explain how weighted-average cost of capital changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "25.2",
+        "title": "Capital Structure Theories",
+        "explanation": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "steps": [
+          "Estimate component costs using market values and matching risk benchmarks.",
+          "Weight debt and equity consistently and apply tax effects correctly.",
+          "Test how leverage changes coverage, distress exposure, flexibility, and required returns."
+        ],
+        "check": "Explain how capital structure theories changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "slug": "business-models",
+    "title": "Business Models",
+    "topic": "Corporate Issuers",
+    "overview": "A business model explains how a firm creates value, delivers it to customers, and captures economics for owners.",
+    "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+    "modules": [
+      {
+        "id": "26.1",
+        "title": "Business Model Features and Types",
+        "explanation": "A business model links the customer problem, value proposition, activities, resources, revenue logic, and cost structure. Strong analysis separates growth from unit economics and asks whether advantages persist as competitors and customers respond.",
+        "steps": [
+          "Identify the customer, need, product, channel, and source of revenue.",
+          "Break economics into volume, price, variable cost, fixed cost, and reinvestment.",
+          "Assess scalability, bargaining power, switching costs, and threats to the model."
+        ],
+        "check": "Explain how business model features and types changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "slug": "introduction-to-financial-statement-analysis",
+    "title": "Introduction to Financial Statement Analysis",
+    "topic": "Financial Statement Analysis",
+    "overview": "Financial-statement analysis begins by connecting reports, notes, audit evidence, and management commentary.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "27.1",
+        "title": "Financial Statement Roles",
+        "explanation": "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm.",
+        "steps": [
+          "Identify the reporting period, accounting framework, and auditor conclusion.",
+          "Reconcile income, balance-sheet movements, and cash flows.",
+          "Use notes and management commentary to test classifications and estimates."
+        ],
+        "check": "Explain how financial statement roles changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 28,
+    "slug": "analyzing-income-statements",
+    "title": "Analyzing Income Statements",
+    "topic": "Financial Statement Analysis",
+    "overview": "Income-statement analysis separates sustainable operating performance from accounting choices and unusual items.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "28.1",
+        "title": "Revenue Recognition",
+        "explanation": "Income-statement analysis asks when revenue and expenses are recognized and whether reported profit is sustainable. Classification, estimates, unusual items, dilution, and common-size margins can materially change comparisons.",
+        "steps": [
+          "Identify the economic event and the recognition rule applied to it.",
+          "Separate recurring operations from financing, tax, and unusual effects.",
+          "Normalize where justified and explain the effect on margins and per-share results."
+        ],
+        "check": "Explain how revenue recognition changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "28.2",
+        "title": "Expense Recognition",
+        "explanation": "Income-statement analysis asks when revenue and expenses are recognized and whether reported profit is sustainable. Classification, estimates, unusual items, dilution, and common-size margins can materially change comparisons.",
+        "steps": [
+          "Identify the economic event and the recognition rule applied to it.",
+          "Separate recurring operations from financing, tax, and unusual effects.",
+          "Normalize where justified and explain the effect on margins and per-share results."
+        ],
+        "check": "Explain how expense recognition changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "28.3",
+        "title": "Nonrecurring Items",
+        "explanation": "Income-statement analysis asks when revenue and expenses are recognized and whether reported profit is sustainable. Classification, estimates, unusual items, dilution, and common-size margins can materially change comparisons.",
+        "steps": [
+          "Identify the economic event and the recognition rule applied to it.",
+          "Separate recurring operations from financing, tax, and unusual effects.",
+          "Normalize where justified and explain the effect on margins and per-share results."
+        ],
+        "check": "Explain how nonrecurring items changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "28.4",
+        "title": "Earnings Per Share",
+        "explanation": "Income-statement analysis asks when revenue and expenses are recognized and whether reported profit is sustainable. Classification, estimates, unusual items, dilution, and common-size margins can materially change comparisons.",
+        "steps": [
+          "Identify the economic event and the recognition rule applied to it.",
+          "Separate recurring operations from financing, tax, and unusual effects.",
+          "Normalize where justified and explain the effect on margins and per-share results."
+        ],
+        "check": "Explain how earnings per share changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "28.5",
+        "title": "Ratios and Common-Size Income Statements",
+        "explanation": "Income-statement analysis asks when revenue and expenses are recognized and whether reported profit is sustainable. Classification, estimates, unusual items, dilution, and common-size margins can materially change comparisons.",
+        "steps": [
+          "Identify the economic event and the recognition rule applied to it.",
+          "Separate recurring operations from financing, tax, and unusual effects.",
+          "Normalize where justified and explain the effect on margins and per-share results."
+        ],
+        "check": "Explain how ratios and common-size income statements changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "slug": "analyzing-balance-sheets",
+    "title": "Analyzing Balance Sheets",
+    "topic": "Financial Statement Analysis",
+    "overview": "Balance-sheet analysis evaluates resources, obligations, liquidity, solvency, and measurement choices at a point in time.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "29.1",
+        "title": "Intangible Assets and Marketable Securities",
+        "explanation": "Balance-sheet analysis evaluates resources and claims at a reporting date. Measurement bases, recognition limits, classification, and netting can make book values differ from economic values and can distort comparisons across firms.",
+        "steps": [
+          "Classify each item by liquidity, operating role, and measurement basis.",
+          "Convert to common-size percentages and examine changes across periods.",
+          "Use disclosures to identify off-balance-sheet exposure and estimation uncertainty."
+        ],
+        "check": "Explain how intangible assets and marketable securities changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "29.2",
+        "title": "Common-Size Balance Sheets",
+        "explanation": "Balance-sheet analysis evaluates resources and claims at a reporting date. Measurement bases, recognition limits, classification, and netting can make book values differ from economic values and can distort comparisons across firms.",
+        "steps": [
+          "Classify each item by liquidity, operating role, and measurement basis.",
+          "Convert to common-size percentages and examine changes across periods.",
+          "Use disclosures to identify off-balance-sheet exposure and estimation uncertainty."
+        ],
+        "check": "Explain how common-size balance sheets changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 30,
+    "slug": "analyzing-statements-of-cash-flows-i",
+    "title": "Analyzing Statements of Cash Flows I",
+    "topic": "Financial Statement Analysis",
+    "overview": "Cash-flow analysis classifies operating, investing, and financing activity and reconciles profit with cash generation.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "30.1",
+        "title": "Cash Flow Introduction and Direct Method CFO",
+        "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "steps": [
+          "Classify each cash movement by its economic purpose and reporting rules.",
+          "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+          "Calculate free cash flow and compare cash generation with earnings and financing needs."
+        ],
+        "check": "Explain how cash flow introduction and direct method cfo changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "30.2",
+        "title": "Indirect Method CFO",
+        "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "steps": [
+          "Classify each cash movement by its economic purpose and reporting rules.",
+          "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+          "Calculate free cash flow and compare cash generation with earnings and financing needs."
+        ],
+        "check": "Explain how indirect method cfo changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "30.3",
+        "title": "Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences",
+        "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "steps": [
+          "Classify each cash movement by its economic purpose and reporting rules.",
+          "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+          "Calculate free cash flow and compare cash generation with earnings and financing needs."
+        ],
+        "check": "Explain how investing and financing cash flows and ifrs/u.s. gaap differences changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 31,
+    "slug": "analyzing-statements-of-cash-flows-ii",
+    "title": "Analyzing Statements of Cash Flows II",
+    "topic": "Financial Statement Analysis",
+    "overview": "Advanced cash-flow analysis uses free-cash-flow and coverage measures to judge earnings quality and financial flexibility.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "31.1",
+        "title": "Analyzing Statements of Cash Flows II",
+        "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "steps": [
+          "Classify each cash movement by its economic purpose and reporting rules.",
+          "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+          "Calculate free cash flow and compare cash generation with earnings and financing needs."
+        ],
+        "check": "Explain how analyzing statements of cash flows ii changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 32,
+    "slug": "analysis-of-inventories",
+    "title": "Analysis of Inventories",
+    "topic": "Financial Statement Analysis",
+    "overview": "Inventory accounting affects cost of sales, profit, taxes, asset values, and financial ratios.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "32.1",
+        "title": "Inventory Measurement",
+        "explanation": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "steps": [
+          "Reconcile beginning inventory plus purchases with cost of sales and ending inventory.",
+          "Apply the chosen cost-flow assumption consistently.",
+          "Adjust comparisons for price trends, write-downs, and method differences."
+        ],
+        "check": "Explain how inventory measurement changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "32.2",
+        "title": "Inflation Impact on FIFO and LIFO",
+        "explanation": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "steps": [
+          "Reconcile beginning inventory plus purchases with cost of sales and ending inventory.",
+          "Apply the chosen cost-flow assumption consistently.",
+          "Adjust comparisons for price trends, write-downs, and method differences."
+        ],
+        "check": "Explain how inflation impact on fifo and lifo changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "32.3",
+        "title": "Presentation and Disclosure",
+        "explanation": "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability.",
+        "steps": [
+          "Locate the reported amount and determine how it is classified.",
+          "Read the related policy, estimate, roll-forward, and risk disclosures.",
+          "Reconcile the note with the statements and adjust comparisons when policies differ."
+        ],
+        "check": "Explain how presentation and disclosure changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 33,
+    "slug": "analysis-of-long-term-assets",
+    "title": "Analysis of Long-Term Assets",
+    "topic": "Financial Statement Analysis",
+    "overview": "Long-lived asset analysis tracks capitalization, depreciation, impairment, and disposal through the statements.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "33.1",
+        "title": "Intangible Long-Lived Assets",
+        "explanation": "Long-lived assets are capitalized when they create future benefits and expensed over useful lives through depreciation or amortization. Impairment and derecognition update carrying value when expected benefits fall or the asset is sold.",
+        "steps": [
+          "Determine which expenditures are capitalized and which are expensed.",
+          "Apply useful life, residual value, and depreciation or amortization method.",
+          "Trace impairment or disposal through profit, assets, cash flow, and future ratios."
+        ],
+        "check": "Explain how intangible long-lived assets changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "33.2",
+        "title": "Impairment and Derecognition",
+        "explanation": "Long-lived assets are capitalized when they create future benefits and expensed over useful lives through depreciation or amortization. Impairment and derecognition update carrying value when expected benefits fall or the asset is sold.",
+        "steps": [
+          "Determine which expenditures are capitalized and which are expensed.",
+          "Apply useful life, residual value, and depreciation or amortization method.",
+          "Trace impairment or disposal through profit, assets, cash flow, and future ratios."
+        ],
+        "check": "Explain how impairment and derecognition changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "33.3",
+        "title": "Long-Term Asset Disclosures",
+        "explanation": "Long-lived assets are capitalized when they create future benefits and expensed over useful lives through depreciation or amortization. Impairment and derecognition update carrying value when expected benefits fall or the asset is sold.",
+        "steps": [
+          "Determine which expenditures are capitalized and which are expensed.",
+          "Apply useful life, residual value, and depreciation or amortization method.",
+          "Trace impairment or disposal through profit, assets, cash flow, and future ratios."
+        ],
+        "check": "Explain how long-term asset disclosures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 34,
+    "slug": "topics-in-long-term-liabilities-and-equity",
+    "title": "Topics in Long-Term Liabilities and Equity",
+    "topic": "Financial Statement Analysis",
+    "overview": "Long-term liability and equity analysis evaluates leases, compensation promises, and claims on owners.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "34.1",
+        "title": "Leases",
+        "explanation": "Leases and deferred compensation create claims that extend beyond the current period. Analysis focuses on the present value, timing, uncertainty, and classification of future obligations and the effect on leverage and performance measures.",
+        "steps": [
+          "List contractual or expected payments and their timing.",
+          "Estimate the obligation with a justified discount rate and assumptions.",
+          "Recast ratios when necessary to compare firms with different classifications."
+        ],
+        "check": "Explain how leases changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "34.2",
+        "title": "Deferred Compensation and Disclosures",
+        "explanation": "Leases and deferred compensation create claims that extend beyond the current period. Analysis focuses on the present value, timing, uncertainty, and classification of future obligations and the effect on leverage and performance measures.",
+        "steps": [
+          "List contractual or expected payments and their timing.",
+          "Estimate the obligation with a justified discount rate and assumptions.",
+          "Recast ratios when necessary to compare firms with different classifications."
+        ],
+        "check": "Explain how deferred compensation and disclosures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "slug": "analysis-of-income-taxes",
+    "title": "Analysis of Income Taxes",
+    "topic": "Financial Statement Analysis",
+    "overview": "Income-tax analysis explains temporary differences, deferred tax balances, effective rates, and realizability.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "35.1",
+        "title": "Differences Between Accounting Profit and Taxable Income",
+        "explanation": "Accounting income and taxable income differ because recognition rules and timing differ. Temporary differences create deferred tax assets or liabilities; permanent differences affect the effective tax rate without reversing later.",
+        "steps": [
+          "Reconcile statutory tax with reported tax expense.",
+          "Classify each difference as temporary or permanent and determine its direction.",
+          "Assess reversal, realizability, valuation allowances, and sustainable cash tax rates."
+        ],
+        "check": "Explain how differences between accounting profit and taxable income changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "35.2",
+        "title": "Deferred Tax Assets and Liabilities",
+        "explanation": "Accounting income and taxable income differ because recognition rules and timing differ. Temporary differences create deferred tax assets or liabilities; permanent differences affect the effective tax rate without reversing later.",
+        "steps": [
+          "Reconcile statutory tax with reported tax expense.",
+          "Classify each difference as temporary or permanent and determine its direction.",
+          "Assess reversal, realizability, valuation allowances, and sustainable cash tax rates."
+        ],
+        "check": "Explain how deferred tax assets and liabilities changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "35.3",
+        "title": "Tax Rates and Disclosures",
+        "explanation": "Accounting income and taxable income differ because recognition rules and timing differ. Temporary differences create deferred tax assets or liabilities; permanent differences affect the effective tax rate without reversing later.",
+        "steps": [
+          "Reconcile statutory tax with reported tax expense.",
+          "Classify each difference as temporary or permanent and determine its direction.",
+          "Assess reversal, realizability, valuation allowances, and sustainable cash tax rates."
+        ],
+        "check": "Explain how tax rates and disclosures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 36,
+    "slug": "financial-reporting-quality",
+    "title": "Financial Reporting Quality",
+    "topic": "Financial Statement Analysis",
+    "overview": "Reporting-quality analysis distinguishes decision-useful information from biased estimates and aggressive presentation.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "36.1",
+        "title": "Reporting Quality",
+        "explanation": "High-quality reporting faithfully represents sustainable economics and gives users enough detail to assess uncertainty. Aggressive estimates, classification shifts, weak cash conversion, related-party activity, and repeated nonrecurring items can signal bias.",
+        "steps": [
+          "Compare accounting choices with industry practice and business economics.",
+          "Reconcile earnings growth with cash flow, balances, and disclosures.",
+          "Treat red flags as prompts for evidence, then estimate the analytical adjustment."
+        ],
+        "check": "Explain how reporting quality changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "36.2",
+        "title": "Accounting Choices and Estimates",
+        "explanation": "High-quality reporting faithfully represents sustainable economics and gives users enough detail to assess uncertainty. Aggressive estimates, classification shifts, weak cash conversion, related-party activity, and repeated nonrecurring items can signal bias.",
+        "steps": [
+          "Compare accounting choices with industry practice and business economics.",
+          "Reconcile earnings growth with cash flow, balances, and disclosures.",
+          "Treat red flags as prompts for evidence, then estimate the analytical adjustment."
+        ],
+        "check": "Explain how accounting choices and estimates changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "36.3",
+        "title": "Warning Signs",
+        "explanation": "High-quality reporting faithfully represents sustainable economics and gives users enough detail to assess uncertainty. Aggressive estimates, classification shifts, weak cash conversion, related-party activity, and repeated nonrecurring items can signal bias.",
+        "steps": [
+          "Compare accounting choices with industry practice and business economics.",
+          "Reconcile earnings growth with cash flow, balances, and disclosures.",
+          "Treat red flags as prompts for evidence, then estimate the analytical adjustment."
+        ],
+        "check": "Explain how warning signs changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 37,
+    "slug": "financial-analysis-techniques",
+    "title": "Financial Analysis Techniques",
+    "topic": "Financial Statement Analysis",
+    "overview": "Ratio analysis converts financial statements into comparable measures of activity, liquidity, solvency, and profitability.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "37.1",
+        "title": "Introduction to Financial Ratios",
+        "explanation": "Ratios compress statements into measures of activity, liquidity, solvency, and profitability. DuPont analysis decomposes return on equity into margin, efficiency, and leverage, helping identify the actual driver of change.",
+        "steps": [
+          "Use comparable numerators, denominators, averages, and periods.",
+          "Decompose the result into operating and financing drivers.",
+          "Compare across time and peers while controlling for accounting and business-model differences."
+        ],
+        "check": "Explain how introduction to financial ratios changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "37.2",
+        "title": "Financial Ratios, Part 1",
+        "explanation": "Ratios compress statements into measures of activity, liquidity, solvency, and profitability. DuPont analysis decomposes return on equity into margin, efficiency, and leverage, helping identify the actual driver of change.",
+        "steps": [
+          "Use comparable numerators, denominators, averages, and periods.",
+          "Decompose the result into operating and financing drivers.",
+          "Compare across time and peers while controlling for accounting and business-model differences."
+        ],
+        "check": "Explain how financial ratios, part 1 changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "37.3",
+        "title": "Financial Ratios, Part 2",
+        "explanation": "Ratios compress statements into measures of activity, liquidity, solvency, and profitability. DuPont analysis decomposes return on equity into margin, efficiency, and leverage, helping identify the actual driver of change.",
+        "steps": [
+          "Use comparable numerators, denominators, averages, and periods.",
+          "Decompose the result into operating and financing drivers.",
+          "Compare across time and peers while controlling for accounting and business-model differences."
+        ],
+        "check": "Explain how financial ratios, part 2 changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "37.4",
+        "title": "DuPont Analysis",
+        "explanation": "Ratios compress statements into measures of activity, liquidity, solvency, and profitability. DuPont analysis decomposes return on equity into margin, efficiency, and leverage, helping identify the actual driver of change.",
+        "steps": [
+          "Use comparable numerators, denominators, averages, and periods.",
+          "Decompose the result into operating and financing drivers.",
+          "Compare across time and peers while controlling for accounting and business-model differences."
+        ],
+        "check": "Explain how dupont analysis changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "37.5",
+        "title": "Industry-Specific Financial Ratios",
+        "explanation": "Ratios compress statements into measures of activity, liquidity, solvency, and profitability. DuPont analysis decomposes return on equity into margin, efficiency, and leverage, helping identify the actual driver of change.",
+        "steps": [
+          "Use comparable numerators, denominators, averages, and periods.",
+          "Decompose the result into operating and financing drivers.",
+          "Compare across time and peers while controlling for accounting and business-model differences."
+        ],
+        "check": "Explain how industry-specific financial ratios changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 38,
+    "slug": "introduction-to-financial-statement-modeling",
+    "title": "Introduction to Financial Statement Modeling",
+    "topic": "Financial Statement Analysis",
+    "overview": "Financial-statement models turn operating assumptions into linked forecasts of income, balance sheets, and cash flows.",
+    "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+    "modules": [
+      {
+        "id": "38.1",
+        "title": "Financial Statement Modeling",
+        "explanation": "A financial model links operating drivers to the income statement, balance sheet, and cash-flow statement. The statements must reconcile, financing must respond to cash needs, and assumptions should be explicit enough for scenarios and sensitivity analysis.",
+        "steps": [
+          "Forecast volume, price, margins, working capital, and investment from business drivers.",
+          "Link statements and solve the cash or financing plug without circular errors.",
+          "Run scenarios, check accounting identities, and explain the most sensitive assumptions."
+        ],
+        "check": "Explain how financial statement modeling changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 39,
+    "slug": "market-organization-and-structure",
+    "title": "Market Organization and Structure",
+    "topic": "Equity Investments",
+    "overview": "Market structure explains how assets, intermediaries, orders, positions, leverage, and settlement fit together.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "39.1",
+        "title": "Markets, Assets, and Intermediaries",
+        "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "steps": [
+          "Identify the asset, venue, counterparty, and settlement process.",
+          "Translate long, short, or leveraged positions into payoff and loss exposure.",
+          "Choose order type and validity based on urgency, liquidity, and price risk."
+        ],
+        "check": "Explain how markets, assets, and intermediaries changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "39.2",
+        "title": "Positions and Leverage",
+        "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "steps": [
+          "Identify the asset, venue, counterparty, and settlement process.",
+          "Translate long, short, or leveraged positions into payoff and loss exposure.",
+          "Choose order type and validity based on urgency, liquidity, and price risk."
+        ],
+        "check": "Explain how positions and leverage changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "39.3",
+        "title": "Order Execution and Validity",
+        "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "steps": [
+          "Identify the asset, venue, counterparty, and settlement process.",
+          "Translate long, short, or leveraged positions into payoff and loss exposure.",
+          "Choose order type and validity based on urgency, liquidity, and price risk."
+        ],
+        "check": "Explain how order execution and validity changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 40,
+    "slug": "security-market-indexes",
+    "title": "Security Market Indexes",
+    "topic": "Equity Investments",
+    "overview": "Indexes summarize market performance, but weighting and rebalancing rules shape the result.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "40.1",
+        "title": "Index Weighting Methods",
+        "explanation": "An index follows a defined basket under rules for eligibility, weighting, rebalancing, and return calculation. Price, equal, and market-cap weighting give different influence to constituents and therefore different risk and performance.",
+        "steps": [
+          "Define the eligible universe and weighting rule.",
+          "Calculate constituent weights and the index return consistently.",
+          "Assess concentration, rebalancing turnover, float adjustments, and intended use."
+        ],
+        "check": "Explain how index weighting methods changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "40.2",
+        "title": "Uses and Types of Indexes",
+        "explanation": "An index follows a defined basket under rules for eligibility, weighting, rebalancing, and return calculation. Price, equal, and market-cap weighting give different influence to constituents and therefore different risk and performance.",
+        "steps": [
+          "Define the eligible universe and weighting rule.",
+          "Calculate constituent weights and the index return consistently.",
+          "Assess concentration, rebalancing turnover, float adjustments, and intended use."
+        ],
+        "check": "Explain how uses and types of indexes changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 41,
+    "slug": "market-efficiency",
+    "title": "Market Efficiency",
+    "topic": "Equity Investments",
+    "overview": "Market-efficiency analysis asks how quickly prices incorporate information and what anomalies imply.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "41.1",
+        "title": "Market Efficiency",
+        "explanation": "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly.",
+        "steps": [
+          "Define the weak, semi-strong, or strong information set being tested.",
+          "Measure abnormal return against an explicit risk-adjusted benchmark.",
+          "Account for costs, data mining, limits to arbitrage, and alternative risk explanations."
+        ],
+        "check": "Explain how market efficiency changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 42,
+    "slug": "overview-of-equity-securities",
+    "title": "Overview of Equity Securities",
+    "topic": "Equity Investments",
+    "overview": "Equity securities differ in voting rights, cash-flow claims, priority, and exposure to issuer and market risk.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "42.1",
+        "title": "Types of Equity Investments",
+        "explanation": "Equity represents a residual claim whose voting, dividend, conversion, and priority rights vary by security. Foreign ownership adds currency, market-access, custody, governance, liquidity, and political risks.",
+        "steps": [
+          "Identify cash-flow, voting, and priority rights of the security.",
+          "Map business and financial risks into the residual claim.",
+          "Add market, currency, custody, and governance effects when investing across borders."
+        ],
+        "check": "Explain how types of equity investments changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "42.2",
+        "title": "Foreign Equities and Equity Risk",
+        "explanation": "Equity represents a residual claim whose voting, dividend, conversion, and priority rights vary by security. Foreign ownership adds currency, market-access, custody, governance, liquidity, and political risks.",
+        "steps": [
+          "Identify cash-flow, voting, and priority rights of the security.",
+          "Map business and financial risks into the residual claim.",
+          "Add market, currency, custody, and governance effects when investing across borders."
+        ],
+        "check": "Explain how foreign equities and equity risk changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 43,
+    "slug": "company-analysis-past-and-present",
+    "title": "Company Analysis: Past and Present",
+    "topic": "Equity Investments",
+    "overview": "Company analysis reconstructs historical revenue, margins, reinvestment, financing, and competitive performance.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "43.1",
+        "title": "Company Research Reports",
+        "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "steps": [
+          "Define the industry, value chain, market size, and competitive forces.",
+          "Decompose company results into volume, price, margin, turnover, and financing.",
+          "Forecast from operational drivers and test base, upside, and downside cases."
+        ],
+        "check": "Explain how company research reports changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "43.2",
+        "title": "Revenue, Profitability, and Capital",
+        "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "steps": [
+          "Define the industry, value chain, market size, and competitive forces.",
+          "Decompose company results into volume, price, margin, turnover, and financing.",
+          "Forecast from operational drivers and test base, upside, and downside cases."
+        ],
+        "check": "Explain how revenue, profitability, and capital changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 44,
+    "slug": "industry-and-competitive-analysis",
+    "title": "Industry and Competitive Analysis",
+    "topic": "Equity Investments",
+    "overview": "Industry analysis evaluates structure, life cycle, rivalry, substitutes, suppliers, buyers, and entry barriers.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "44.1",
+        "title": "Industry Analysis",
+        "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "steps": [
+          "Define the industry, value chain, market size, and competitive forces.",
+          "Decompose company results into volume, price, margin, turnover, and financing.",
+          "Forecast from operational drivers and test base, upside, and downside cases."
+        ],
+        "check": "Explain how industry analysis changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "44.2",
+        "title": "Industry Structure and Competitive Positioning",
+        "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "steps": [
+          "Define the industry, value chain, market size, and competitive forces.",
+          "Decompose company results into volume, price, margin, turnover, and financing.",
+          "Forecast from operational drivers and test base, upside, and downside cases."
+        ],
+        "check": "Explain how industry structure and competitive positioning changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 45,
+    "slug": "company-analysis-forecasting",
+    "title": "Company Analysis: Forecasting",
+    "topic": "Equity Investments",
+    "overview": "Forecasting converts business drivers into internally consistent estimates rather than extending trends mechanically.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "45.1",
+        "title": "Forecasting in Company Analysis",
+        "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "steps": [
+          "Define the industry, value chain, market size, and competitive forces.",
+          "Decompose company results into volume, price, margin, turnover, and financing.",
+          "Forecast from operational drivers and test base, upside, and downside cases."
+        ],
+        "check": "Explain how forecasting in company analysis changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 46,
+    "slug": "equity-valuation-concepts-and-basic-tools",
+    "title": "Equity Valuation: Concepts and Basic Tools",
+    "topic": "Equity Investments",
+    "overview": "Equity valuation connects expected cash flows, growth, risk, and market multiples to an estimate of value.",
+    "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+    "modules": [
+      {
+        "id": "46.1",
+        "title": "Dividends, Splits, and Repurchases",
+        "explanation": "Equity valuation connects expected shareholder cash flows and growth with a required return. Dividend models value future distributions directly, while multiples compare price with earnings, book value, sales, or cash flow and require consistent fundamentals.",
+        "steps": [
+          "Choose a cash-flow or multiple approach suited to the business and available data.",
+          "Forecast normalized fundamentals and a sustainable growth path.",
+          "Apply the required return or comparable multiple and test sensitivity and consistency."
+        ],
+        "check": "Explain how dividends, splits, and repurchases changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "46.2",
+        "title": "Dividend Discount Models",
+        "explanation": "Equity valuation connects expected shareholder cash flows and growth with a required return. Dividend models value future distributions directly, while multiples compare price with earnings, book value, sales, or cash flow and require consistent fundamentals.",
+        "steps": [
+          "Choose a cash-flow or multiple approach suited to the business and available data.",
+          "Forecast normalized fundamentals and a sustainable growth path.",
+          "Apply the required return or comparable multiple and test sensitivity and consistency."
+        ],
+        "check": "Explain how dividend discount models changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "46.3",
+        "title": "Relative Valuation Measures",
+        "explanation": "Equity valuation connects expected shareholder cash flows and growth with a required return. Dividend models value future distributions directly, while multiples compare price with earnings, book value, sales, or cash flow and require consistent fundamentals.",
+        "steps": [
+          "Choose a cash-flow or multiple approach suited to the business and available data.",
+          "Forecast normalized fundamentals and a sustainable growth path.",
+          "Apply the required return or comparable multiple and test sensitivity and consistency."
+        ],
+        "check": "Explain how relative valuation measures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 47,
+    "slug": "fixed-income-instrument-features",
+    "title": "Fixed-Income Instrument Features",
+    "topic": "Fixed Income",
+    "overview": "Bond features define promised cash flows, legal protections, embedded options, and priority of claims.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "47.1",
+        "title": "Fixed-Income Instrument Features",
+        "explanation": "Fixed-income securities promise or condition cash flows through coupon, maturity, seniority, collateral, and embedded options. Issuance and trading conventions determine liquidity, price discovery, settlement, and investor access.",
+        "steps": [
+          "Draw the contractual cash flows and identify option or contingency clauses.",
+          "Map seniority, collateral, covenants, and issuer type to risk.",
+          "Account for issuance method, quotation, accrued interest, liquidity, and settlement."
+        ],
+        "check": "Explain how fixed-income instrument features changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 48,
+    "slug": "fixed-income-cash-flows-and-types",
+    "title": "Fixed-Income Cash Flows and Types",
+    "topic": "Fixed Income",
+    "overview": "Fixed-income cash-flow structures redistribute interest-rate, credit, reinvestment, and optionality risk.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "48.1",
+        "title": "Fixed-Income Cash Flows and Types",
+        "explanation": "Fixed-income securities promise or condition cash flows through coupon, maturity, seniority, collateral, and embedded options. Issuance and trading conventions determine liquidity, price discovery, settlement, and investor access.",
+        "steps": [
+          "Draw the contractual cash flows and identify option or contingency clauses.",
+          "Map seniority, collateral, covenants, and issuer type to risk.",
+          "Account for issuance method, quotation, accrued interest, liquidity, and settlement."
+        ],
+        "check": "Explain how fixed-income cash flows and types changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 49,
+    "slug": "fixed-income-issuance-and-trading",
+    "title": "Fixed-Income Issuance and Trading",
+    "topic": "Fixed Income",
+    "overview": "Primary issuance and secondary trading determine how fixed-income capital is raised, priced, and exchanged.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "49.1",
+        "title": "Fixed-Income Issuance and Trading",
+        "explanation": "Fixed-income securities promise or condition cash flows through coupon, maturity, seniority, collateral, and embedded options. Issuance and trading conventions determine liquidity, price discovery, settlement, and investor access.",
+        "steps": [
+          "Draw the contractual cash flows and identify option or contingency clauses.",
+          "Map seniority, collateral, covenants, and issuer type to risk.",
+          "Account for issuance method, quotation, accrued interest, liquidity, and settlement."
+        ],
+        "check": "Explain how fixed-income issuance and trading changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 50,
+    "slug": "fixed-income-markets-for-corporate-issuers",
+    "title": "Fixed-Income Markets for Corporate Issuers",
+    "topic": "Fixed Income",
+    "overview": "Corporate bond markets match issuer funding needs with investor demand across ratings, maturities, and covenants.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "50.1",
+        "title": "Fixed-Income Markets for Corporate Issuers",
+        "explanation": "Corporate form assigns ownership, control, liability, and disclosure rights. Governance mechanisms use boards, voting, incentives, controls, and transparency to manage conflicts among owners, managers, creditors, employees, customers, and society.",
+        "steps": [
+          "Map each stakeholder's contribution, claim, information, and decision rights.",
+          "Identify the conflict and the mechanism intended to constrain it.",
+          "Evaluate whether incentives, oversight, and disclosure support durable value creation."
+        ],
+        "check": "Explain how fixed-income markets for corporate issuers changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 51,
+    "slug": "fixed-income-markets-for-government-issuers",
+    "title": "Fixed-Income Markets for Government Issuers",
+    "topic": "Fixed Income",
+    "overview": "Government debt markets finance public issuers through auctions, dealer systems, and money-market instruments.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "51.1",
+        "title": "Fixed-Income Markets for Government Issuers",
+        "explanation": "Fixed-income securities promise or condition cash flows through coupon, maturity, seniority, collateral, and embedded options. Issuance and trading conventions determine liquidity, price discovery, settlement, and investor access.",
+        "steps": [
+          "Draw the contractual cash flows and identify option or contingency clauses.",
+          "Map seniority, collateral, covenants, and issuer type to risk.",
+          "Account for issuance method, quotation, accrued interest, liquidity, and settlement."
+        ],
+        "check": "Explain how fixed-income markets for government issuers changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 52,
+    "slug": "fixed-income-bond-valuation-prices-and-yields",
+    "title": "Fixed-Income Bond Valuation: Prices and Yields",
+    "topic": "Fixed Income",
+    "overview": "Bond valuation discounts contractual cash flows at rates appropriate for timing and risk.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "52.1",
+        "title": "Fixed-Income Bond Valuation: Prices and Yields",
+        "explanation": "A bond's price is the present value of coupons and principal discounted at market-required rates. Price and yield move inversely; the correct quotation and accrued-interest convention distinguish clean price from the cash paid.",
+        "steps": [
+          "Lay out coupon and principal cash flows at their exact dates.",
+          "Discount at the relevant periodic yield or spot rates.",
+          "Reconcile clean price, accrued interest, full price, and the direction of price sensitivity."
+        ],
+        "check": "Explain how fixed-income bond valuation: prices and yields changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 53,
+    "slug": "yield-and-yield-spread-measures-for-fixed-rate-bonds",
+    "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+    "topic": "Fixed Income",
+    "overview": "Yield and spread measures provide different views of return, benchmark compensation, and embedded-option effects.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "53.1",
+        "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+        "explanation": "Yield measures summarize return under different reinvestment and holding assumptions, while spreads compare a bond with a benchmark curve. Option-adjusted measures are needed when borrower or issuer choices can change cash-flow timing.",
+        "steps": [
+          "Select the yield definition that matches the instrument and decision.",
+          "Identify the benchmark and calculate the spread consistently.",
+          "Separate credit, liquidity, tax, and option effects before comparing bonds."
+        ],
+        "check": "Explain how yield and yield spread measures for fixed-rate bonds changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 54,
+    "slug": "yield-and-yield-spread-measures-for-floating-rate-instruments",
+    "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+    "topic": "Fixed Income",
+    "overview": "Floating-rate instruments reset coupons to a reference rate, changing price sensitivity and quoted-margin analysis.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "54.1",
+        "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+        "explanation": "Yield measures summarize return under different reinvestment and holding assumptions, while spreads compare a bond with a benchmark curve. Option-adjusted measures are needed when borrower or issuer choices can change cash-flow timing.",
+        "steps": [
+          "Select the yield definition that matches the instrument and decision.",
+          "Identify the benchmark and calculate the spread consistently.",
+          "Separate credit, liquidity, tax, and option effects before comparing bonds."
+        ],
+        "check": "Explain how yield and yield spread measures for floating-rate instruments changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 55,
+    "slug": "the-term-structure-of-interest-rates-spot-par-and-forward-curves",
+    "title": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+    "topic": "Fixed Income",
+    "overview": "Spot, par, and forward curves are different representations of the same term structure of interest rates.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "55.1",
+        "title": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+        "explanation": "The term structure represents rates across maturities. Spot rates discount single dated cash flows, par rates set coupon bonds at par, and forward rates are future borrowing rates implied by today's spot curve under no arbitrage.",
+        "steps": [
+          "Match each cash flow to its maturity-specific spot rate.",
+          "Bootstrap missing spot rates from observable bond prices when required.",
+          "Derive par or forward rates and verify that equivalent cash-flow strategies have equal value."
+        ],
+        "check": "Explain how the term structure of interest rates: spot, par, and forward curves changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 56,
+    "slug": "interest-rate-risk-and-return",
+    "title": "Interest Rate Risk and Return",
+    "topic": "Fixed Income",
+    "overview": "Bond return comes from coupon income, reinvestment, price change, and credit effects as yields evolve.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "56.1",
+        "title": "Interest Rate Risk and Return",
+        "explanation": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "steps": [
+          "Identify the relevant yield or curve shock and cash-flow timing.",
+          "Apply duration for the linear effect and convexity for curvature.",
+          "Check limits from embedded options, nonparallel shifts, and historical estimation."
+        ],
+        "check": "Explain how interest rate risk and return changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 57,
+    "slug": "yield-based-bond-duration-measures-and-properties",
+    "title": "Yield-Based Bond Duration Measures and Properties",
+    "topic": "Fixed Income",
+    "overview": "Duration approximates price sensitivity to yield changes and depends on cash-flow timing and yield.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "57.1",
+        "title": "Yield-Based Bond Duration Measures and Properties",
+        "explanation": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "steps": [
+          "Identify the relevant yield or curve shock and cash-flow timing.",
+          "Apply duration for the linear effect and convexity for curvature.",
+          "Check limits from embedded options, nonparallel shifts, and historical estimation."
+        ],
+        "check": "Explain how yield-based bond duration measures and properties changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 58,
+    "slug": "yield-based-bond-convexity-and-portfolio-properties",
+    "title": "Yield-Based Bond Convexity and Portfolio Properties",
+    "topic": "Fixed Income",
+    "overview": "Convexity improves duration estimates for larger yield changes and reveals curvature in price-yield relationships.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "58.1",
+        "title": "Yield-Based Bond Convexity and Portfolio Properties",
+        "explanation": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "steps": [
+          "Identify the relevant yield or curve shock and cash-flow timing.",
+          "Apply duration for the linear effect and convexity for curvature.",
+          "Check limits from embedded options, nonparallel shifts, and historical estimation."
+        ],
+        "check": "Explain how yield-based bond convexity and portfolio properties changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 59,
+    "slug": "curve-based-and-empirical-fixed-income-risk-measures",
+    "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+    "topic": "Fixed Income",
+    "overview": "Curve and empirical risk measures capture nonparallel rate changes and observed price behavior.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "59.1",
+        "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+        "explanation": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "steps": [
+          "Identify the relevant yield or curve shock and cash-flow timing.",
+          "Apply duration for the linear effect and convexity for curvature.",
+          "Check limits from embedded options, nonparallel shifts, and historical estimation."
+        ],
+        "check": "Explain how curve-based and empirical fixed-income risk measures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 60,
+    "slug": "credit-risk",
+    "title": "Credit Risk",
+    "topic": "Fixed Income",
+    "overview": "Credit risk combines default probability, loss severity, migration risk, and liquidity effects.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "60.1",
+        "title": "Credit Risk",
+        "explanation": "Credit analysis estimates the chance of default or migration and the loss if default occurs. Capacity depends on business or sovereign fundamentals, cash-flow resilience, leverage, coverage, liquidity, seniority, collateral, and covenants.",
+        "steps": [
+          "Assess the issuer's economic or business risk and sources of cash.",
+          "Measure leverage, coverage, liquidity, maturity concentration, and structural priority.",
+          "Form downside recovery and migration scenarios, then compare compensation with expected loss."
+        ],
+        "check": "Explain how credit risk changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 61,
+    "slug": "credit-analysis-for-government-issuers",
+    "title": "Credit Analysis for Government Issuers",
+    "topic": "Fixed Income",
+    "overview": "Sovereign credit analysis evaluates institutions, economic strength, fiscal capacity, and external stability.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "61.1",
+        "title": "Credit Analysis for Government Issuers",
+        "explanation": "Credit analysis estimates the chance of default or migration and the loss if default occurs. Capacity depends on business or sovereign fundamentals, cash-flow resilience, leverage, coverage, liquidity, seniority, collateral, and covenants.",
+        "steps": [
+          "Assess the issuer's economic or business risk and sources of cash.",
+          "Measure leverage, coverage, liquidity, maturity concentration, and structural priority.",
+          "Form downside recovery and migration scenarios, then compare compensation with expected loss."
+        ],
+        "check": "Explain how credit analysis for government issuers changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 62,
+    "slug": "credit-analysis-for-corporate-issuers",
+    "title": "Credit Analysis for Corporate Issuers",
+    "topic": "Fixed Income",
+    "overview": "Corporate credit analysis links business risk, cash flow, leverage, coverage, structure, and covenants.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "62.1",
+        "title": "Credit Analysis for Corporate Issuers",
+        "explanation": "Corporate form assigns ownership, control, liability, and disclosure rights. Governance mechanisms use boards, voting, incentives, controls, and transparency to manage conflicts among owners, managers, creditors, employees, customers, and society.",
+        "steps": [
+          "Map each stakeholder's contribution, claim, information, and decision rights.",
+          "Identify the conflict and the mechanism intended to constrain it.",
+          "Evaluate whether incentives, oversight, and disclosure support durable value creation."
+        ],
+        "check": "Explain how credit analysis for corporate issuers changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 63,
+    "slug": "fixed-income-securitization",
+    "title": "Fixed-Income Securitization",
+    "topic": "Fixed Income",
+    "overview": "Securitization transfers pools of financial assets into securities through a bankruptcy-remote vehicle.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "63.1",
+        "title": "Fixed-Income Securitization",
+        "explanation": "Securitization pools assets in a separate vehicle and allocates cash flows and losses across tranches. Credit enhancement changes loss priority, while prepayment and extension make timing uncertain, especially for mortgage-backed securities.",
+        "steps": [
+          "Map borrowers' asset cash flows through the vehicle to each tranche.",
+          "Identify subordination, reserves, guarantees, and triggers.",
+          "Stress default, recovery, prepayment, extension, and liquidity assumptions."
+        ],
+        "check": "Explain how fixed-income securitization changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 64,
+    "slug": "asset-backed-security-abs-instrument-and-market-features",
+    "title": "Asset-Backed Security (ABS) Instrument and Market Features",
+    "topic": "Fixed Income",
+    "overview": "Asset-backed securities redistribute prepayment, credit, liquidity, and structural risk across tranches.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "64.1",
+        "title": "Asset-Backed Security (ABS) Instrument and Market Features",
+        "explanation": "Securitization pools assets in a separate vehicle and allocates cash flows and losses across tranches. Credit enhancement changes loss priority, while prepayment and extension make timing uncertain, especially for mortgage-backed securities.",
+        "steps": [
+          "Map borrowers' asset cash flows through the vehicle to each tranche.",
+          "Identify subordination, reserves, guarantees, and triggers.",
+          "Stress default, recovery, prepayment, extension, and liquidity assumptions."
+        ],
+        "check": "Explain how asset-backed security (abs) instrument and market features changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 65,
+    "slug": "mortgage-backed-security-mbs-instrument-and-market-features",
+    "title": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+    "topic": "Fixed Income",
+    "overview": "Mortgage-backed securities add borrower prepayment behavior and path-dependent cash flows to bond analysis.",
+    "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+    "modules": [
+      {
+        "id": "65.1",
+        "title": "Mortgage-Backed Security Instrument and Market Features",
+        "explanation": "Securitization pools assets in a separate vehicle and allocates cash flows and losses across tranches. Credit enhancement changes loss priority, while prepayment and extension make timing uncertain, especially for mortgage-backed securities.",
+        "steps": [
+          "Map borrowers' asset cash flows through the vehicle to each tranche.",
+          "Identify subordination, reserves, guarantees, and triggers.",
+          "Stress default, recovery, prepayment, extension, and liquidity assumptions."
+        ],
+        "check": "Explain how mortgage-backed security instrument and market features changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 66,
+    "slug": "derivative-instrument-and-derivative-market-features",
+    "title": "Derivative Instrument and Derivative Market Features",
+    "topic": "Derivatives",
+    "overview": "Derivative contracts derive value from an underlying and trade through exchange or over-the-counter markets.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "66.1",
+        "title": "Derivatives Markets",
+        "explanation": "A derivative transfers exposure to an underlying through a forward commitment or a contingent claim. It can hedge or reshape risk efficiently, but leverage, basis, liquidity, documentation, and counterparty exposure can amplify losses.",
+        "steps": [
+          "Define the underlying, notional, maturity, settlement, and payoff rule.",
+          "Draw each party's payoff and identify what risk is transferred.",
+          "Evaluate leverage, collateral, basis, liquidity, and counterparty risk."
+        ],
+        "check": "Explain how derivatives markets changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 67,
+    "slug": "forward-commitment-and-contingent-claim-features-and-instruments",
+    "title": "Forward Commitment and Contingent Claim Features and Instruments",
+    "topic": "Derivatives",
+    "overview": "Forward commitments create bilateral future obligations, while contingent claims give one party an exercise choice.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "67.1",
+        "title": "Forwards and Futures",
+        "explanation": "A derivative transfers exposure to an underlying through a forward commitment or a contingent claim. It can hedge or reshape risk efficiently, but leverage, basis, liquidity, documentation, and counterparty exposure can amplify losses.",
+        "steps": [
+          "Define the underlying, notional, maturity, settlement, and payoff rule.",
+          "Draw each party's payoff and identify what risk is transferred.",
+          "Evaluate leverage, collateral, basis, liquidity, and counterparty risk."
+        ],
+        "check": "Explain how forwards and futures changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "67.2",
+        "title": "Swaps and Options",
+        "explanation": "A derivative transfers exposure to an underlying through a forward commitment or a contingent claim. It can hedge or reshape risk efficiently, but leverage, basis, liquidity, documentation, and counterparty exposure can amplify losses.",
+        "steps": [
+          "Define the underlying, notional, maturity, settlement, and payoff rule.",
+          "Draw each party's payoff and identify what risk is transferred.",
+          "Evaluate leverage, collateral, basis, liquidity, and counterparty risk."
+        ],
+        "check": "Explain how swaps and options changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 68,
+    "slug": "derivative-benefits-risks-and-issuer-and-investor-uses",
+    "title": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+    "topic": "Derivatives",
+    "overview": "Derivatives can hedge, transform, or acquire exposures efficiently, but introduce leverage, basis, liquidity, and counterparty risks.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "68.1",
+        "title": "Uses, Benefits, and Risks of Derivatives",
+        "explanation": "A derivative transfers exposure to an underlying through a forward commitment or a contingent claim. It can hedge or reshape risk efficiently, but leverage, basis, liquidity, documentation, and counterparty exposure can amplify losses.",
+        "steps": [
+          "Define the underlying, notional, maturity, settlement, and payoff rule.",
+          "Draw each party's payoff and identify what risk is transferred.",
+          "Evaluate leverage, collateral, basis, liquidity, and counterparty risk."
+        ],
+        "check": "Explain how uses, benefits, and risks of derivatives changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 69,
+    "slug": "arbitrage-replication-and-the-cost-of-carry-in-pricing-derivatives",
+    "title": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+    "topic": "Derivatives",
+    "overview": "No-arbitrage pricing uses replication and carrying costs to link spot and derivative prices.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "69.1",
+        "title": "Arbitrage, Replication, and Carrying Costs",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how arbitrage, replication, and carrying costs changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 70,
+    "slug": "pricing-and-valuation-of-forward-contracts-and-for-an-underlying-with-varying-maturities",
+    "title": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+    "topic": "Derivatives",
+    "overview": "A forward contract begins near zero value and changes value as the market forward price moves.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "70.1",
+        "title": "Forward Contract Valuation",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how forward contract valuation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 71,
+    "slug": "pricing-and-valuation-of-futures-contracts",
+    "title": "Pricing and Valuation of Futures Contracts",
+    "topic": "Derivatives",
+    "overview": "Daily settlement and the relationship between prices and rates can make futures differ from otherwise similar forwards.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "71.1",
+        "title": "Futures Valuation",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how futures valuation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 72,
+    "slug": "pricing-and-valuation-of-interest-rates-and-other-swaps",
+    "title": "Pricing and Valuation of Interest Rates and Other Swaps",
+    "topic": "Derivatives",
+    "overview": "A swap can be valued as offsetting cash-flow streams or as a series of forward contracts.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "72.1",
+        "title": "Swap Valuation",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how swap valuation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 73,
+    "slug": "pricing-and-valuation-of-options",
+    "title": "Pricing and Valuation of Options",
+    "topic": "Derivatives",
+    "overview": "Option value reflects intrinsic value, time, volatility, rates, and the asymmetry created by exercise rights.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "73.1",
+        "title": "Option Valuation",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how option valuation changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 74,
+    "slug": "option-replication-using-put-call-parity",
+    "title": "Option Replication Using Put-Call Parity",
+    "topic": "Derivatives",
+    "overview": "Put-call parity links calls, puts, the underlying, and a risk-free bond through equivalent payoffs.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "74.1",
+        "title": "Put-Call Parity",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how put-call parity changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 75,
+    "slug": "valuing-a-derivative-using-a-one-period-binomial-model",
+    "title": "Valuing a Derivative Using a One-Period Binomial Model",
+    "topic": "Derivatives",
+    "overview": "A one-period binomial model prices a contingent claim by replication or risk-neutral expected payoff.",
+    "example": "Write the payoff at expiration, build an equivalent position, and use no-arbitrage to compare values.",
+    "modules": [
+      {
+        "id": "75.1",
+        "title": "Binomial Model for Option Values",
+        "explanation": "No-arbitrage valuation compares a derivative with a replicating portfolio that has the same future payoff. Carrying costs link spot and forward prices, swaps can be decomposed into forward cash flows, and options can be replicated across states.",
+        "steps": [
+          "Write the derivative payoff at each relevant date or state.",
+          "Construct the equivalent position in the underlying, borrowing, lending, or simpler derivatives.",
+          "Set equal-payoff strategies to equal value and check signs, discounting, and exercise assumptions."
+        ],
+        "check": "Explain how binomial model for option values changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 76,
+    "slug": "alternative-investment-features-methods-and-structures",
+    "title": "Alternative Investment Features, Methods, and Structures",
+    "topic": "Alternative Investments",
+    "overview": "Alternative investments use less-liquid assets, specialized structures, and active ownership to pursue differentiated returns.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "76.1",
+        "title": "Alternative Investment Structures",
+        "explanation": "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience.",
+        "steps": [
+          "Map legal structure, control rights, liquidity terms, leverage, and valuation method.",
+          "Place contributions, distributions, fees, and ending value on a timeline.",
+          "Use a return measure suited to cash-flow control and test stale pricing and survivorship effects."
+        ],
+        "check": "Explain how alternative investment structures changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 77,
+    "slug": "alternative-investment-performance-and-returns",
+    "title": "Alternative Investment Performance and Returns",
+    "topic": "Alternative Investments",
+    "overview": "Alternative-investment performance must account for fees, timing, appraisal effects, leverage, and uneven cash flows.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "77.1",
+        "title": "Performance Appraisal and Return Calculations",
+        "explanation": "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience.",
+        "steps": [
+          "Map legal structure, control rights, liquidity terms, leverage, and valuation method.",
+          "Place contributions, distributions, fees, and ending value on a timeline.",
+          "Use a return measure suited to cash-flow control and test stale pricing and survivorship effects."
+        ],
+        "check": "Explain how performance appraisal and return calculations changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 78,
+    "slug": "investments-in-private-capital-equity-and-debt",
+    "title": "Investments in Private Capital: Equity and Debt",
+    "topic": "Alternative Investments",
+    "overview": "Private capital finances companies outside public markets through staged equity ownership or negotiated debt.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "78.1",
+        "title": "Private Capital",
+        "explanation": "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty.",
+        "steps": [
+          "Identify the security, ownership rights, seniority, and investment stage.",
+          "Build entry, operating, financing, and exit cash flows.",
+          "Separate operating value creation from leverage and valuation-multiple effects."
+        ],
+        "check": "Explain how private capital changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 79,
+    "slug": "real-estate-and-infrastructure",
+    "title": "Real Estate and Infrastructure",
+    "topic": "Alternative Investments",
+    "overview": "Real estate and infrastructure combine long-lived assets, contractual cash flows, operating risk, and financing choices.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "79.1",
+        "title": "Real Estate",
+        "explanation": "Real estate and infrastructure produce long-dated cash flows from occupancy, usage, contracts, and residual value. Analysis combines property or project operations with maintenance, regulation, financing, and terminal-value assumptions.",
+        "steps": [
+          "Forecast utilization, pricing, operating cost, maintenance, and capital spending.",
+          "Choose a direct capitalization or discounted-cash-flow method with consistent inputs.",
+          "Stress vacancy or demand, refinancing, regulation, and terminal value."
+        ],
+        "check": "Explain how real estate changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "79.2",
+        "title": "Infrastructure",
+        "explanation": "Real estate and infrastructure produce long-dated cash flows from occupancy, usage, contracts, and residual value. Analysis combines property or project operations with maintenance, regulation, financing, and terminal-value assumptions.",
+        "steps": [
+          "Forecast utilization, pricing, operating cost, maintenance, and capital spending.",
+          "Choose a direct capitalization or discounted-cash-flow method with consistent inputs.",
+          "Stress vacancy or demand, refinancing, regulation, and terminal value."
+        ],
+        "check": "Explain how infrastructure changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 80,
+    "slug": "natural-resources",
+    "title": "Natural Resources",
+    "topic": "Alternative Investments",
+    "overview": "Natural-resource investments gain value from biological growth, land, scarcity, extraction, and commodity prices.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "80.1",
+        "title": "Farmland, Timberland, and Commodities",
+        "explanation": "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics.",
+        "steps": [
+          "Identify the return sources and physical operating cycle.",
+          "Model production, price, cost, storage, and timing assumptions.",
+          "Stress weather, regulation, liquidity, and the difference between spot exposure and futures returns."
+        ],
+        "check": "Explain how farmland, timberland, and commodities changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 81,
+    "slug": "hedge-funds",
+    "title": "Hedge Funds",
+    "topic": "Alternative Investments",
+    "overview": "Hedge funds combine flexible mandates, leverage, shorting, derivatives, and incentive-fee structures.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "81.1",
+        "title": "Hedge Funds",
+        "explanation": "Hedge funds use flexible mandates, short selling, derivatives, leverage, and incentive fees across diverse strategies. Reported volatility may understate risk when positions are illiquid or option-like, so exposures and drawdowns matter alongside average return.",
+        "steps": [
+          "Classify the strategy and its intended source of return.",
+          "Map gross and net exposures, leverage, liquidity, and fee terms.",
+          "Assess drawdown, tail, funding, counterparty, and style-drift risk."
+        ],
+        "check": "Explain how hedge funds changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 82,
+    "slug": "introduction-to-digital-assets",
+    "title": "Introduction to Digital Assets",
+    "topic": "Alternative Investments",
+    "overview": "Digital assets use distributed ledgers to represent value, ownership, execution rules, and network participation.",
+    "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+    "modules": [
+      {
+        "id": "82.1",
+        "title": "Distributed Ledger Technology",
+        "explanation": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "steps": [
+          "Identify what the token represents and which network validates transfers.",
+          "Map issuance, consensus, custody, governance, and economic incentives.",
+          "Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes."
+        ],
+        "check": "Explain how distributed ledger technology changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "82.2",
+        "title": "Digital Asset Characteristics",
+        "explanation": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "steps": [
+          "Identify what the token represents and which network validates transfers.",
+          "Map issuance, consensus, custody, governance, and economic incentives.",
+          "Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes."
+        ],
+        "check": "Explain how digital asset characteristics changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 83,
+    "slug": "portfolio-risk-and-return-part-i",
+    "title": "Portfolio Risk and Return: Part I",
+    "topic": "Portfolio Management",
+    "overview": "Portfolio risk depends on how asset returns move together, not only on the risk of each asset in isolation.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "83.1",
+        "title": "Historical Risk and Return",
+        "explanation": "Portfolio risk depends on both individual asset volatility and covariance. Diversification improves the feasible risk-return set when correlations are imperfect; the efficient frontier contains portfolios with the highest expected return for each level of risk.",
+        "steps": [
+          "Estimate expected returns, variances, and pairwise covariances consistently.",
+          "Calculate portfolio return and variance using weights and cross terms.",
+          "Compare feasible portfolios with investor risk tolerance and diversification limits."
+        ],
+        "check": "Explain how historical risk and return changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "83.2",
+        "title": "Risk Aversion",
+        "explanation": "Portfolio risk depends on both individual asset volatility and covariance. Diversification improves the feasible risk-return set when correlations are imperfect; the efficient frontier contains portfolios with the highest expected return for each level of risk.",
+        "steps": [
+          "Estimate expected returns, variances, and pairwise covariances consistently.",
+          "Calculate portfolio return and variance using weights and cross terms.",
+          "Compare feasible portfolios with investor risk tolerance and diversification limits."
+        ],
+        "check": "Explain how risk aversion changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "83.3",
+        "title": "Portfolio Standard Deviation",
+        "explanation": "Portfolio risk depends on both individual asset volatility and covariance. Diversification improves the feasible risk-return set when correlations are imperfect; the efficient frontier contains portfolios with the highest expected return for each level of risk.",
+        "steps": [
+          "Estimate expected returns, variances, and pairwise covariances consistently.",
+          "Calculate portfolio return and variance using weights and cross terms.",
+          "Compare feasible portfolios with investor risk tolerance and diversification limits."
+        ],
+        "check": "Explain how portfolio standard deviation changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "83.4",
+        "title": "The Efficient Frontier",
+        "explanation": "Portfolio risk depends on both individual asset volatility and covariance. Diversification improves the feasible risk-return set when correlations are imperfect; the efficient frontier contains portfolios with the highest expected return for each level of risk.",
+        "steps": [
+          "Estimate expected returns, variances, and pairwise covariances consistently.",
+          "Calculate portfolio return and variance using weights and cross terms.",
+          "Compare feasible portfolios with investor risk tolerance and diversification limits."
+        ],
+        "check": "Explain how the efficient frontier changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 84,
+    "slug": "portfolio-risk-and-return-part-ii",
+    "title": "Portfolio Risk and Return: Part II",
+    "topic": "Portfolio Management",
+    "overview": "CAPM separates diversifiable risk from systematic risk and links beta to required return.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "84.1",
+        "title": "Systematic Risk and Beta",
+        "explanation": "Beta measures sensitivity to market risk that diversification cannot remove. CAPM links that beta to required return through the security market line, providing a benchmark whose assumptions and estimation error must be understood.",
+        "steps": [
+          "Estimate or interpret beta relative to the chosen market portfolio.",
+          "Apply risk-free rate plus beta times the market risk premium.",
+          "Compare expected and required return, then test horizon, benchmark, and stability assumptions."
+        ],
+        "check": "Explain how systematic risk and beta changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "84.2",
+        "title": "The CAPM and the SML",
+        "explanation": "Beta measures sensitivity to market risk that diversification cannot remove. CAPM links that beta to required return through the security market line, providing a benchmark whose assumptions and estimation error must be understood.",
+        "steps": [
+          "Estimate or interpret beta relative to the chosen market portfolio.",
+          "Apply risk-free rate plus beta times the market risk premium.",
+          "Compare expected and required return, then test horizon, benchmark, and stability assumptions."
+        ],
+        "check": "Explain how the capm and the sml changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 85,
+    "slug": "portfolio-management-an-overview",
+    "title": "Portfolio Management: An Overview",
+    "topic": "Portfolio Management",
+    "overview": "Portfolio management is a repeatable process of planning, execution, monitoring, and revision for a client objective.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "85.1",
+        "title": "Portfolio Management Process",
+        "explanation": "Portfolio management begins with objectives and constraints, converts them into a policy and strategic allocation, implements exposures efficiently, and monitors results as markets and client circumstances change.",
+        "steps": [
+          "Specify return objective, risk tolerance, horizon, liquidity, taxes, legal limits, and unique needs.",
+          "Choose strategic exposures and implementation vehicles consistent with those constraints.",
+          "Monitor performance, risk, drift, and life changes, then rebalance under stated rules."
+        ],
+        "check": "Explain how portfolio management process changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "85.2",
+        "title": "Asset Management and Pooled Investments",
+        "explanation": "Portfolio management begins with objectives and constraints, converts them into a policy and strategic allocation, implements exposures efficiently, and monitors results as markets and client circumstances change.",
+        "steps": [
+          "Specify return objective, risk tolerance, horizon, liquidity, taxes, legal limits, and unique needs.",
+          "Choose strategic exposures and implementation vehicles consistent with those constraints.",
+          "Monitor performance, risk, drift, and life changes, then rebalance under stated rules."
+        ],
+        "check": "Explain how asset management and pooled investments changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 86,
+    "slug": "basics-of-portfolio-planning-and-construction",
+    "title": "Basics of Portfolio Planning and Construction",
+    "topic": "Portfolio Management",
+    "overview": "Portfolio construction turns objectives and constraints into strategic allocation, implementation, and rebalancing rules.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "86.1",
+        "title": "Portfolio Planning and Construction",
+        "explanation": "Portfolio management begins with objectives and constraints, converts them into a policy and strategic allocation, implements exposures efficiently, and monitors results as markets and client circumstances change.",
+        "steps": [
+          "Specify return objective, risk tolerance, horizon, liquidity, taxes, legal limits, and unique needs.",
+          "Choose strategic exposures and implementation vehicles consistent with those constraints.",
+          "Monitor performance, risk, drift, and life changes, then rebalance under stated rules."
+        ],
+        "check": "Explain how portfolio planning and construction changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 87,
+    "slug": "the-behavioral-biases-of-individuals",
+    "title": "The Behavioral Biases of Individuals",
+    "topic": "Portfolio Management",
+    "overview": "Behavioral biases create predictable judgment errors that can distort saving, trading, and portfolio decisions.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "87.1",
+        "title": "Cognitive Errors vs. Emotional Biases",
+        "explanation": "Behavioral biases cause systematic decision errors. Cognitive errors often respond to better information or process, while emotional biases may require portfolio accommodations that preserve the investor's ability to stay with the plan.",
+        "steps": [
+          "Identify the observed behavior without inferring motive too quickly.",
+          "Classify the likely bias and show how it distorts belief or choice.",
+          "Use a decision rule, reframing, education, or portfolio constraint to reduce harm."
+        ],
+        "check": "Explain how cognitive errors vs. emotional biases changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "87.2",
+        "title": "Emotional Biases",
+        "explanation": "Behavioral biases cause systematic decision errors. Cognitive errors often respond to better information or process, while emotional biases may require portfolio accommodations that preserve the investor's ability to stay with the plan.",
+        "steps": [
+          "Identify the observed behavior without inferring motive too quickly.",
+          "Classify the likely bias and show how it distorts belief or choice.",
+          "Use a decision rule, reframing, education, or portfolio constraint to reduce harm."
+        ],
+        "check": "Explain how emotional biases changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 88,
+    "slug": "introduction-to-risk-management",
+    "title": "Introduction to Risk Management",
+    "topic": "Portfolio Management",
+    "overview": "Risk management identifies exposures, chooses responses, and monitors whether residual risk remains acceptable.",
+    "example": "Start with an investor objective and constraints, then connect exposures, diversification, and implementation choices.",
+    "modules": [
+      {
+        "id": "88.1",
+        "title": "Introduction to Risk Management",
+        "explanation": "Risk management identifies exposures, measures their likelihood and impact, chooses whether to avoid, accept, transfer, or mitigate them, and monitors residual risk against the organization's capacity and tolerance.",
+        "steps": [
+          "Define objectives, risk appetite, exposures, and ownership.",
+          "Measure risk with scenarios and metrics appropriate to the exposure.",
+          "Select controls or hedges and monitor residual risk, model limits, and emerging threats."
+        ],
+        "check": "Explain how introduction to risk management changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 89,
+    "slug": "ethics-and-trust-in-the-investment-profession",
+    "title": "Ethics and Trust in the Investment Profession",
+    "topic": "Ethical and Professional Standards",
+    "overview": "Ethical conduct supports trust by putting client interests, market integrity, competence, and honest judgment first.",
+    "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+    "modules": [
+      {
+        "id": "89.1",
+        "title": "Ethics and Trust",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how ethics and trust changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 90,
+    "slug": "code-of-ethics-and-standards-of-professional-conduct",
+    "title": "Code of Ethics and Standards of Professional Conduct",
+    "topic": "Ethical and Professional Standards",
+    "overview": "The Code and Standards define professional duties to clients, employers, markets, the profession, and candidates.",
+    "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+    "modules": [
+      {
+        "id": "90.1",
+        "title": "Code and Standards",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how code and standards changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 91,
+    "slug": "guidance-for-standards-i-vii",
+    "title": "Guidance for Standards I–VII",
+    "topic": "Ethical and Professional Standards",
+    "overview": "Standards guidance applies ethical principles to conflicts, information, research, trading, communication, and professional conduct.",
+    "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+    "modules": [
+      {
+        "id": "91.1",
+        "title": "Guidance for Standards I(A) and I(B)",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standards i(a) and i(b) changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.2",
+        "title": "Guidance for Standards I(C), I(D), and I(E)",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standards i(c), i(d), and i(e) changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.3",
+        "title": "Guidance for Standard II",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standard ii changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.4",
+        "title": "Guidance for Standards III(A) and III(B)",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standards iii(a) and iii(b) changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.5",
+        "title": "Guidance for Standards III(C), III(D), and III(E)",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standards iii(c), iii(d), and iii(e) changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.6",
+        "title": "Guidance for Standard IV",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standard iv changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.7",
+        "title": "Guidance for Standard V",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standard v changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.8",
+        "title": "Guidance for Standard VI",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standard vi changes an analyst's conclusion, including one limitation."
+      },
+      {
+        "id": "91.9",
+        "title": "Guidance for Standard VII",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how guidance for standard vii changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 92,
+    "slug": "introduction-to-the-global-investment-performance-standards-gips",
+    "title": "Introduction to the Global Investment Performance Standards (GIPS)",
+    "topic": "Ethical and Professional Standards",
+    "overview": "GIPS provides firm-wide principles for presenting investment performance fairly and comparably.",
+    "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+    "modules": [
+      {
+        "id": "92.1",
+        "title": "Introduction to GIPS",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how introduction to gips changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  },
+  {
+    "number": 93,
+    "slug": "ethics-application",
+    "title": "Ethics Application",
+    "topic": "Ethical and Professional Standards",
+    "overview": "Ethics application requires identifying stakeholders, duties, conflicts, alternatives, and the conduct that best preserves integrity.",
+    "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+    "modules": [
+      {
+        "id": "93.1",
+        "title": "Ethics Application",
+        "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "steps": [
+          "Gather the facts and identify clients, employers, markets, and other affected parties.",
+          "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+          "Choose and document the action that protects client interests, market integrity, and professional independence."
+        ],
+        "check": "Explain how ethics application changes an analyst's conclusion, including one limitation."
+      }
+    ]
+  }
+]
