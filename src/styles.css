@@ -37,7 +37,7 @@ html {
 
 body {
   margin: 0;
-  min-width: 320px;
+  min-width: 0;
   min-height: 100vh;
   background:
     linear-gradient(rgba(23, 27, 32, 0.026) 1px, transparent 1px),
