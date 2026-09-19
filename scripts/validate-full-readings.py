@@ -195,7 +195,7 @@ def validate_content(inventory: dict, content_dir: Path, failures: list[str], wa
         } for quiz_set in actual.get("quizSets", [])]
         if actual_quizzes != expected["quizzes"]:
             failures.append(f"{prefix}: numbered module-quiz questions differ from the original inventory")
-        images = [b for b in blocks if b.get("type") in {"image", "math"}]
+        images = [b for b in blocks if b.get("type") in {"image", "math", "worked-example"}]
         counts["images"] += len(images)
         if audit:
             statistics = audit.get("readings", {}).get(str(number), {})
@@ -229,9 +229,12 @@ def validate_content(inventory: dict, content_dir: Path, failures: list[str], wa
             warnings.append(f"{prefix}: practice field empty; verify quizzes retained in module blocks")
         for block in blocks:
             kind = block.get("type")
-            if kind not in {"paragraph", "heading", "question", "image", "math"}:
+            if kind not in {"paragraph", "heading", "question", "image", "math", "worked-example"}:
                 failures.append(f"{prefix}: unsupported block type {kind!r}")
-            if kind not in {"image", "math"}:
+            if kind == "worked-example":
+                if not block.get("title") or not block.get("steps"):
+                    failures.append(f"{prefix}: empty worked-example block")
+            elif kind not in {"image", "math"}:
                 if not str(block.get("text", "")).strip():
                     failures.append(f"{prefix}: empty {kind} block")
                 continue

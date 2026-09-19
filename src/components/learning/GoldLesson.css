@@ -240,12 +240,13 @@
 
 .gold-table-scroll {
   max-width: 100%;
-  overflow-x: auto;
+  overflow: hidden;
 }
 
 .gold-table-scroll table {
   width: 100%;
-  min-width: 560px;
+  min-width: 0;
+  table-layout: fixed;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -273,6 +274,7 @@
   border-top: 1px solid var(--line);
   text-align: left;
   vertical-align: top;
+  overflow-wrap: anywhere;
 }
 
 .gold-table-scroll thead th {

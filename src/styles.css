@@ -967,7 +967,7 @@ p {
 }
 
 .math-text--display {
-  overflow-x: auto;
+  overflow: hidden;
   overflow-y: hidden;
   padding: 4px 0;
 }

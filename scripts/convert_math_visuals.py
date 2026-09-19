@@ -160,6 +160,58 @@ HPR_2=\frac{\$260+\$4}{\$240}-1=10\% \\[6pt]
 \text{Time-weighted rate of return}=[(1.22)(1.10)]^{0.5}-1=15.84\%
 \end{gathered}""",
 }
+
+WORKED_EXAMPLE_OVERRIDES = {
+    "f8259749ec97b07048f9.png": {
+        "type": "worked-example",
+        "title": "Money-weighted return calculation",
+        "steps": [
+            {
+                "title": "Identify and net the cash flows",
+                "body": ["Use the portfolio-account perspective: contributions are inflows and dividends or sale proceeds are outflows."],
+                "rows": [
+                    ["t = 0", "Purchase first share", "+$100 inflow"],
+                    ["t = 1", "Purchase second share", "+$120 inflow"],
+                    ["t = 1", "Dividend from first share", "−$2 outflow"],
+                    ["t = 1", "Net cash flow", "+$118 inflow"],
+                    ["t = 2", "Dividends from two shares", "−$4 outflow"],
+                    ["t = 2", "Sale proceeds from two shares", "−$260 outflow"],
+                    ["t = 2", "Net cash flow", "−$264 outflow"],
+                ],
+            },
+            {
+                "title": "Set the present value of inflows equal to the present value of outflows",
+                "equations": [r"100+\frac{118}{1+r}=\frac{264}{(1+r)^2}"],
+            },
+            {
+                "title": "Solve for the periodic return",
+                "body": ["Solve for r with trial and error, a financial calculator, or a spreadsheet IRR function."],
+                "equations": [r"r=13.86\%"],
+            },
+        ],
+    },
+    "ddc8204d112236ef752c.png": {
+        "type": "worked-example",
+        "title": "Time-weighted return calculation",
+        "steps": [
+            {
+                "title": "Split the evaluation period when the external cash flow occurs",
+                "rows": [
+                    ["Holding period 1", "Beginning value: $100", "Dividend: $2", "Ending value: $120"],
+                    ["Holding period 2", "Beginning value: $240 (2 shares)", "Dividends: $4", "Ending value: $260 (2 shares)"],
+                ],
+            },
+            {
+                "title": "Calculate each holding-period return",
+                "equations": [r"HPR_1=\frac{120+2}{100}-1=22\%", r"HPR_2=\frac{260+4}{240}-1=10\%"],
+            },
+            {
+                "title": "Link the returns and annualize the two-year result",
+                "equations": [r"(1+R_{TW})^2=(1.22)(1.10)", r"R_{TW}=[(1.22)(1.10)]^{1/2}-1=15.84\%"],
+            },
+        ],
+    },
+}
 LATEX_OVERRIDES.update({
     "026cb4e13d873bf7822f.png": r"H_0:b_1=0\qquad\text{versus}\qquad H_a:b_1\ne0",
     "06630bd05fba27519a9d.png": r"""\begin{gathered}
@@ -514,7 +566,11 @@ def main() -> None:
                 record["verification"] = ["source-traced", "katex-parse-checked"] + (["confidence-checked"] if name in scores else [])
             prose = block.get("text", "").strip()
             block.clear()
-            block.update({"type": "math", "latex": cache[name], "display": True, "sourceAsset": name})
+            if name in WORKED_EXAMPLE_OVERRIDES:
+                block.update(WORKED_EXAMPLE_OVERRIDES[name])
+                block["sourceAsset"] = name
+            else:
+                block.update({"type": "math", "latex": cache[name], "display": True, "sourceAsset": name})
             if prose:
                 block["prose"] = prose
         else:

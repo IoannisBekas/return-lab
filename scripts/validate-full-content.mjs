@@ -20,7 +20,8 @@ let objectiveCount = 0;
 let quizCount = 0;
 
 function visibleText(value) {
-  return [value.text, value.prose, value.alt, value.prompt, value.explanation, value.latex]
+  const stepText = value.steps?.flatMap((step) => [step.title, ...(step.body || []), ...(step.rows || []).flat(), ...(step.equations || [])]) || [];
+  return [value.text, value.prose, value.alt, value.prompt, value.explanation, value.latex, ...stepText]
     .filter((item) => typeof item === "string").join("\n");
 }
 
@@ -36,7 +37,7 @@ function validateBlocks(blocks, location) {
   assert(Array.isArray(blocks), `${location}: missing content array`);
   for (const block of blocks) {
     blockCount += 1;
-    assert(["heading", "paragraph", "question", "image", "math"].includes(block.type), `${location}: invalid block type ${block.type}`);
+    assert(["heading", "paragraph", "question", "image", "math", "worked-example"].includes(block.type), `${location}: invalid block type ${block.type}`);
     const text = visibleText(block);
     assert(!text.includes("\uFFFD"), `${location}: unreadable character`);
     assert(!forbidden.test(text), `${location}: source-only reference in learner content`);
@@ -45,6 +46,17 @@ function validateBlocks(blocks, location) {
       assert(typeof block.latex === "string" && block.latex.trim(), `${location}: empty LaTeX`);
       assert(typeof block.sourceAsset === "string" && /^[a-zA-Z0-9-]+\.png$/.test(block.sourceAsset), `${location}: missing math source asset`);
       validateKatex(block.latex, `${location} asset ${block.sourceAsset}`, block.display !== false);
+      continue;
+    }
+    if (block.type === "worked-example") {
+      mathOccurrences += 1;
+      assert(typeof block.sourceAsset === "string" && /^[a-zA-Z0-9-]+\.png$/.test(block.sourceAsset), `${location}: missing worked-example source asset`);
+      assert(typeof block.title === "string" && block.title.trim(), `${location}: missing worked-example title`);
+      assert(Array.isArray(block.steps) && block.steps.length > 0, `${location}: missing worked-example steps`);
+      for (const step of block.steps) {
+        assert(typeof step.title === "string" && step.title.trim(), `${location}: missing worked-example step title`);
+        for (const equation of step.equations || []) validateKatex(equation, `${location} asset ${block.sourceAsset}`);
+      }
       continue;
     }
     if (block.type === "image") {

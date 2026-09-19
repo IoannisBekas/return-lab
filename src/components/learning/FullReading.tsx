@@ -3,7 +3,7 @@ import { MathText } from "./MathText";
 import "./FullReading.css";
 
 export type ContentBlock = {
-  type: "paragraph" | "heading" | "question" | "image" | "math";
+  type: "paragraph" | "heading" | "question" | "image" | "math" | "worked-example";
   text?: string;
   prose?: string;
   latex?: string;
@@ -16,6 +16,8 @@ export type ContentBlock = {
   height?: number;
   visualKind?: string;
   sourceAsset?: string;
+  title?: string;
+  steps?: Array<{ title: string; body?: string[]; rows?: string[][]; equations?: string[] }>;
 };
 
 type QuizOption = { id: string; text: string };
@@ -29,6 +31,7 @@ const asset = (path: string) => `${import.meta.env.BASE_URL}${path.replace(/^\//
 export function ReadingBlocks({ blocks, onZoom, headingLevel = 4 }: { blocks: ContentBlock[]; onZoom: (block: ContentBlock) => void; headingLevel?: 3 | 4 }) {
   return blocks.map((block, index) => {
     if (block.type === "math" && block.latex) return <div className="full-reading-math" key={index}>{block.prose ? <p>{block.prose}</p> : null}<MathText display={block.display !== false} latex={block.latex} /></div>;
+    if (block.type === "worked-example" && block.steps) return <section className="full-reading-worked" key={index}><h5>{block.title || "Worked example"}</h5>{block.steps.map((step, stepIndex) => <div className="full-reading-worked-step" key={stepIndex}><div className="full-reading-worked-number">{stepIndex + 1}</div><div><h6>{step.title}</h6>{step.body?.map((text) => <p key={text}>{text}</p>)}{step.rows?.length ? <div className="full-reading-worked-table" role="table">{step.rows.map((row, rowIndex) => <div className="full-reading-worked-row" role="row" key={rowIndex}>{row.map((cell, cellIndex) => <span role="cell" key={cellIndex}>{cell}</span>)}</div>)}</div> : null}{step.equations?.map((latex) => <div className="full-reading-worked-equation" key={latex}><MathText display latex={latex} /></div>)}</div></div>)}</section>;
     if (block.type === "image" && block.src) {
       return <figure className="full-reading-figure" key={index}><button className="full-reading-image-button" onClick={() => onZoom(block)} type="button" aria-label={`Enlarge ${block.alt || "instructional visual"}`}><img alt={block.alt || "Instructional diagram, chart, or table"} src={asset(block.src)} width={block.width} height={block.height} loading="lazy" decoding="async" /><span className="full-reading-zoom-hint">Enlarge ↗</span></button></figure>;
     }
