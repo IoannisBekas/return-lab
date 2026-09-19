@@ -1,0 +1,480 @@
+{
+  "readingId": 59,
+  "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "59.1",
+      "title": "Curve-Based and Empirical Fixed-Income Risk Measures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "59.a",
+          "text": "How can we explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options?"
+        },
+        {
+          "type": "question",
+          "objectiveId": "59.b",
+          "text": "How do we calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity?"
+        },
+        {
+          "type": "paragraph",
+          "text": "So far, all of our duration measures have been calculated using the YTM and prices of straight (option-free) bonds. This is straightforward because both the future cash flows and their timing are known. This is not the case with bonds that have embedded options, such as callable bonds, putable bonds, or a mortgage-backed security (MBS). Embedded options may bring about the early termination of a bond, either at the choice of the investor (for a putable bond) or at the choice of the issuer or underlying borrowers (for callable bonds and MBSs)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that a callable bond gives the issuer the right to buy the bond back before maturity. As such, it is equivalent to a straight (option-free) bond and a short call option position. A putable bond gives the investor the right to sell the bond back to the issuer before maturity. As such, it is equivalent to a straight (option-free) bond and a long put option position."
+        },
+        {
+          "type": "paragraph",
+          "text": "MBSs are similar to callable bonds because mortgage borrowers have the right to prepay their loans. We will explain MBSs in detail in our reading on Mortgage-Backed Security Instrument and Market Features."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fact that bonds with embedded options have uncertain future cash flows and redemption dates means they do not have a single well-defined yield. The yield of the bond will depend on whether the option embedded in the bond is exercised (recall that we can calculate a yield to maturity and a yield to each call date for a callable bond)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, analyzing interest rate risk for bonds with embedded options is based on shifts in the benchmark curve (e.g., government par rates), rather than changes in the bond’s own yield. This measure of price sensitivity is referred to as effective duration (EffDur)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculating effective duration is the same as calculating approximate modified duration, but we replace the change in YTM with ΔCurve, the change in the benchmark yield curve (used with a bond pricing model to generate V− and V+). The formula for calculating effective duration is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{sf~effective~duration=} \\frac{\\mathrm{V}_{-}-\\mathrm{V}_{+}} {2 \\mathrm{V}_{0} \\Delta\\mathrm{Curve}}",
+          "display": true,
+          "sourceAsset": "b497df210a44279aea40.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another difference between effective duration and the methods we have discussed so far is that effective duration separates the effects of changes in benchmark yields from changes in the spread for credit and liquidity risk. Modified duration makes no distinction between changes in the benchmark yield and changes in the spread. Effective duration reflects only the sensitivity of the bond’s value to changes in the benchmark yield curve and assumes all else (including spreads) remains the same."
+        },
+        {
+          "type": "paragraph",
+          "text": "When calculating the convexity of bonds with embedded options, we use an analogous measure, effective convexity (EffCon), which is once again based on changes in the benchmark curve, rather than on changes in the bond’s YTM:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{bf~effective~convexity} \\!=\\! \\frac{\\mathrm{V}_{-}+\\mathrm{V}_{+}-2 \\mathrm{V}_{0}} {( \\Delta\\mathrm{Curve} )^{2} \\mathrm{V}_{0}}",
+          "display": true,
+          "sourceAsset": "0aefc9e3164bffc58584.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the convexity of any option-free bond is positive, a callable bond can exhibit negative convexity. This is because at low yields, the call option becomes more valuable, and the call price puts an effective limit on increases in bond value, as shown in Figure 59.1. For a bond with negative convexity, the price increase that results from a decrease in YTM is smaller than the price decrease that results from an equal-sized increase in YTM. This means the duration of a callable bond is less than that of an equivalent option-free bond at low yields."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 59.1: Price-Yield Function of Callable vs. Option-Free Bond With a Call Price of 102"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/7a435d62f34d9005f653.png",
+          "alt": "Equation, table, or diagram: Figure 59.1: Price-Yield Function of Callable vs. Option-Free Bond With a Call Price of 102",
+          "width": 455,
+          "height": 276,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A putable bond always has positive convexity. In Figure 59.2, we illustrate the price-yield relation for a putable bond. At higher yields, the put becomes more valuable, so that the value of the putable bond decreases less than that of an option-free bond as"
+        },
+        {
+          "type": "paragraph",
+          "text": "yield increases. This means the duration of a putable bond is less than that of an equivalent option-free bond at high yields."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 59.2: Comparing the Price-Yield Curves for Option-Free and Putable Bonds"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d1e38ef8eea046d0f3c7.png",
+          "alt": "Equation, table, or diagram: Figure 59.2: Comparing the Price-Yield Curves for Option-Free and Putable Bonds",
+          "width": 502,
+          "height": 256,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For an option-free bond, small differences can be observed between modified duration (with respect to ∆YTM) and effective duration (with respect to ∆Curve). This may be surprising, because it seems natural to assume that any shift in government par yield curve would automatically flow through into a similar change in the yields of risky bonds. However, in a nonflat yield curve environment, a shift in the benchmark par yield curve will generate a nonparallel shift in the government spot curve. If we assume that credit spreads above government spot rates remain the same, this will mean the change in the risky bond’s yield will be slightly different to the original shift in government par yield curves, causing ModDur to be slightly different to EffDur."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that bond yields are a weighted average of the spot rates that apply to the individual cash flows of the bond. When we shift the government par yield curve to calculate EffDur, we must also change the government spot rate curve that generates these yields. Not all spot rates have an equal weight in calculating a particular par yield; hence, spot rates change by different amounts (the spot curve undergoes a nonparallel shift). This nonparallel shift in spots means that the yields of risky bonds, assumed to offer a constant spread above government spot rates, may not move exactly in line with the original ∆Curve shift. This is a fairly technical point, so for the exam just understand that for option-free bonds, ModDur and EffDur are not exactly the same for a given ∆Curve unless the yield curve is flat."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can estimate the expected price change for a bond with respect to an expected change in the yield curve using EffDur and EffCon in the same way we use modified duration and convexity with respect to ∆YTM:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathsf{c h a n g e ~ i n ~ f u l l ~ b o n d ~ p r i c e}}=-{\\mathsf{E f f D u r}} \\times( \\Delta{\\mathsf{C u r v e}} )+{\\frac{1} {2}} \\times{\\mathsf{E f f C o n}} \\times( \\Delta{\\mathsf{C u r v e}} )^{2}",
+          "display": true,
+          "sourceAsset": "ba96f16765368aed85a2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike modified duration and convexity, effective duration and convexity do not necessarily provide better estimates of bond prices for smaller changes in yield. This is because for bonds with embedded options, considerations other than the level of government rates determine whether the option is likely to be exercised (e.g., the level of credit spreads on a corporate bond or the amount of principal outstanding on a mortgage)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "59.c",
+          "text": "How do we define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that effective duration is an adequate measure of bond price risk only for parallel shifts in the benchmark yield curve. The impact of nonparallel shifts can be measured using a concept known as key rate duration. A key rate duration, also known as a partial duration, is defined as the sensitivity of the value of a bond or portfolio to changes in the benchmark yield for a specific maturity, holding other yields constant. The sum of a bond’s key rate durations equals its effective duration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key rate duration is particularly useful for measuring shaping risk, defined as the effect of a nonparallel shift in the yield curve on a bond portfolio. We can use the key rate duration for each maturity to compute the effect on the portfolio of a yield change at that maturity. The effect on the overall portfolio is the sum of these individual effects."
+        },
+        {
+          "type": "paragraph",
+          "text": "The key rate duration of a cash flow in a portfolio is the cash flow’s modified duration multiplied by its weight in the portfolio. This key rate duration can then be used to assess the impact of a nonparallel shift in the yield curve, as demonstrated in the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Key rate duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "A portfolio has equally weighted investments in a 5-year zero-coupon bond yielding 5% and a 10-year bond yielding 6%. Yields are quoted on an annual coupon basis. What would be the performance of the portfolio if 5-year yields increase by 50 basis points and 10-year yields decrease by 25 basis points?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that modified duration is equal to Macaulay duration divided by (1 + periodic yield). Also recall that the Macaulay duration of a single cash flow is equal to its maturity."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the 5-year cash flow: ModDur = 5 / (1.05) = 4.762"
+        },
+        {
+          "type": "paragraph",
+          "text": "The 5-year key rate duration is ModDur × weight in portfolio = 4.762 × 0.5 = 2.381."
+        },
+        {
+          "type": "paragraph",
+          "text": "The impact of a 50 bp increase in the 5-year yield is, therefore, −2.381 × 0.0050 = −0.0119, or −1.19%."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the 10-year cash flow: ModDur = 10 / (1.06) = 9.434"
+        },
+        {
+          "type": "paragraph",
+          "text": "The 10-year key rate duration is ModDur × weight in portfolio = 9.434 × 0.5 = 4.717."
+        },
+        {
+          "type": "paragraph",
+          "text": "The impact of a 25 bp decrease in the 10-year yield is, therefore, −4.717 × −0.0025 = 0.0118, or 1.18%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Overall, the portfolio value will change by −1.19% + 1.18% = −0.01%. The portfolio value is expected to remain roughly unchanged in response to this nonparallel shift in yields."
+        },
+        {
+          "type": "question",
+          "objectiveId": "59.d",
+          "text": "What should we know about the difference between empirical duration and analytical duration?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The duration measures we have introduced so far, based on mathematical analysis, are often referred to as analytical durations. A different approach is to estimate empirical durations using the actual observed historical relationship between benchmark yield changes and bond price changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we estimate corporate bond durations based on a shift in the benchmark (government) yield curve, we implicitly assume that the credit spread for the corporate bond remains unchanged (i.e., changes in the benchmark yield curve and a bond’s yield spread are uncorrelated). When this assumption is not justified, estimates of empirical duration, based on the actual relationship between changes in the benchmark yield curve and bond values, may be more appropriate."
+        },
+        {
+          "type": "paragraph",
+          "text": "An example of such a situation is an increase in market uncertainty during which investor demand shifts sharply toward bonds with low credit risk (a “flight to quality”). Yields on government bonds decrease, but credit spreads increase at the same time. As a result, government bond prices increase, but corporate bond prices increase by less or possibly even fall. For a corporate bond portfolio, an estimate of empirical duration that accounts for this effect would be lower (i.e., less price response to a decrease in benchmark yields) than an estimate of analytical duration would indicate. An analytical estimate of the duration of a portfolio consisting primarily of government debt securities, in this case, would still be appropriate, while an empirically derived estimate of duration would be more appropriate for a portfolio comprising corporate bonds (risky credits)."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "59.a",
+      "text": "How can we explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because bonds with embedded options have uncertain cash flows, they do not have a single well-defined yield. Therefore, effective duration and effective convexity must be calculated with respect to shifts in the benchmark curve rather than the bond’s yield for bonds with embedded options."
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective duration is a linear estimate of the percentage change in a bond’s price that would result from a 1% change in the benchmark yield curve:"
+    },
+    {
+      "type": "math",
+      "latex": "\\text{Effective duration}=\\frac{V_--V_+}{2V_0\\Delta\\text{Curve}},\\qquad\n\\text{Effective convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta\\text{Curve})^2V_0}",
+      "display": true,
+      "sourceAsset": "dbf65e859947adcc4384.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Callable bonds and MBS may exhibit negative convexity at low yields."
+    },
+    {
+      "type": "question",
+      "objectiveId": "59.b",
+      "text": "How do we calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The expected price change for a bond with respect to an expected ∆Curve is estimated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\mathsf{c h a n g e ~ i n ~ f u l l ~ b o n d ~ p r i c e}}=-{\\mathsf{E f f D u r}} \\times( \\Delta{\\mathsf{C u r v e}} )+{\\frac{1} {2}} \\times{\\mathsf{E f f C o n}} \\times( \\Delta{\\mathsf{C u r v e}} )^{2}",
+      "display": true,
+      "sourceAsset": "d703456449719e74afcc.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "59.c",
+      "text": "How do we define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key rate duration is a measure of the price sensitivity of a bond or a bond portfolio to a change in yield for a specific maturity while other yields remain the same. Key rate durations of a bond or portfolio can be used to estimate price sensitivity to changes in the shape of the yield curve."
+    },
+    {
+      "type": "question",
+      "objectiveId": "59.d",
+      "text": "What should we know about the difference between empirical duration and analytical duration?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Macaulay, modified, and effective duration are examples of analytical duration. Empirical duration is estimated from historical data using models. Empirical duration may be lower than analytical duration in interest rate environments where the"
+    },
+    {
+      "type": "paragraph",
+      "text": "assumptions underlying analytical duration may not hold, such as for credit-risky bonds in a flight-to-quality scenario."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "59.a",
+      "statement": "Explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options.",
+      "question": "How can we explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options?"
+    },
+    {
+      "id": "59.b",
+      "statement": "Calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity.",
+      "question": "How do we calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity?"
+    },
+    {
+      "id": "59.c",
+      "statement": "Define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes.",
+      "question": "How do we define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes?"
+    },
+    {
+      "id": "59.d",
+      "statement": "Describe the difference between empirical duration and analytical duration.",
+      "question": "What should we know about the difference between empirical duration and analytical duration?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-59-quiz-1",
+      "title": "Knowledge check 59.1",
+      "moduleId": "59.1",
+      "questions": [
+        {
+          "id": "r59-q1",
+          "number": 1,
+          "objectiveIds": [
+            "59.a"
+          ],
+          "prompt": "Effective duration is more appropriate than modified duration for estimating interest rate risk for bonds with embedded options because these bonds:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "tend to have greater credit risk than option-free bonds."
+            },
+            {
+              "id": "B",
+              "text": "exhibit high convexity that makes modified duration less accurate."
+            },
+            {
+              "id": "C",
+              "text": "have uncertain cash flows that depend on the path of interest rate changes."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Because bonds with embedded options have cash flows that are uncertain and depend on future interest rates, effective duration must be used.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because bonds with embedded options have cash flows that are uncertain and"
+            },
+            {
+              "type": "paragraph",
+              "text": "depend on future interest rates, effective duration must be used."
+            }
+          ]
+        },
+        {
+          "id": "r59-q2",
+          "number": 2,
+          "objectiveIds": [
+            "59.b"
+          ],
+          "prompt": "When an embedded option has significant value, relative to an equivalent option-free bond, the effective duration of a bond with an embedded option will most likely be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lower."
+            },
+            {
+              "id": "B",
+              "text": "the same."
+            },
+            {
+              "id": "C",
+              "text": "higher."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Embedded options decrease the duration of the bond relative to an equivalent option-free bond when the option has significant value.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Embedded options decrease the duration of the bond relative to an equivalent"
+            },
+            {
+              "type": "paragraph",
+              "text": "option-free bond when the option has significant value."
+            }
+          ]
+        },
+        {
+          "id": "r59-q3",
+          "number": 3,
+          "objectiveIds": [
+            "59.b"
+          ],
+          "prompt": "Which of the following bonds is most likely to exhibit negative convexity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Callable bonds in a low-yield environment."
+            },
+            {
+              "id": "B",
+              "text": "Callable bonds in a high-yield environment."
+            },
+            {
+              "id": "C",
+              "text": "Putable bonds in a high-yield environment."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Negative convexity is exhibited only by callable bonds in a low-yield environment where the call price creates a ceiling on the price of the callable bond, causing the rate of price rises to decrease as yields fall. Putable bonds never exhibit negative convexity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Negative convexity is exhibited only by callable bonds in a low-yield environment"
+            },
+            {
+              "type": "paragraph",
+              "text": "where the call price creates a ceiling on the price of the callable bond, causing the rate of price rises to decrease as yields fall. Putable bonds never exhibit negative convexity."
+            }
+          ]
+        },
+        {
+          "id": "r59-q4",
+          "number": 4,
+          "objectiveIds": [
+            "59.c"
+          ],
+          "prompt": "A bond portfolio manager who wants to estimate the sensitivity of the portfolio’s value to changes in the 5-year yield only should use a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "key rate duration."
+            },
+            {
+              "id": "B",
+              "text": "Macaulay duration."
+            },
+            {
+              "id": "C",
+              "text": "effective duration."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Key rate duration refers to the sensitivity of a bond or portfolio value to a change in one specific maturity yield.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Key rate duration refers to the sensitivity of a bond or portfolio value to a change"
+            },
+            {
+              "type": "paragraph",
+              "text": "in one specific maturity yield."
+            }
+          ]
+        },
+        {
+          "id": "r59-q5",
+          "number": 5,
+          "objectiveIds": [
+            "59.b"
+          ],
+          "prompt": "Assume that a bond has an effective duration of 10.5 and a convexity of 97.3. Using both of these measures, the estimated percentage change in price for this bond, in response to a decline in the yield curve of 200 basis points, is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "19.05%."
+            },
+            {
+              "id": "B",
+              "text": "22.95%."
+            },
+            {
+              "id": "C",
+              "text": "24.89%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Total estimated price change = (duration effect + convexity effect) = {[−10.5 × (−0.02)] + [1/2 × 97.3 × (−0.02)²]} × 100 = 21.0% + 1.95% = 22.95%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Total estimated price change = (duration effect + convexity effect)"
+            },
+            {
+              "type": "paragraph",
+              "text": "= {[−10.5 × (−0.02)] + [1/2 × 97.3 × (−0.02)²]} × 100 = 21.0% + 1.95% = 22.95%"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

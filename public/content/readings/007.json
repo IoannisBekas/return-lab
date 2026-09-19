@@ -1,0 +1,419 @@
+{
+  "readingId": 7,
+  "title": "Estimation and Inference",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "7.1",
+      "title": "Sampling Techniques and the Central Limit Theorem",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "7.a",
+          "text": "How do we compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Probability sampling refers to selecting a sample when we know the probability of each sample member in the overall population. With random sampling, each item is assumed to have the same probability of being selected. If we have a population of data and select our sample by using a computer to randomly select a number of observations from the population, each data point has an equal probability of being selected—we call this simple random sampling. If we want to estimate the mean profitability for a population of firms, this may be an appropriate method."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonprobability sampling is based on either low cost and easy access to some data items, or on using the judgment of the researcher in selecting specific data items. Less randomness in selection may lead to greater sampling error."
+        },
+        {
+          "type": "heading",
+          "text": "Probability Sampling Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "Simple random sampling is a method of selecting a sample in such a way that each item or person in the population being studied has the same likelihood of being included in the sample. As an example of simple random sampling, assume that you want to draw a sample of 5 items out of a group of 50 items. This can be accomplished by numbering each of the 50 items, placing them in a hat, and shaking the hat. Next, one number can be drawn randomly from the hat. Repeating this process (experiment) four more times results in a set of five numbers. The five drawn numbers (items) comprise a simple random sample from the population. In applications like this one, a random-number table or a computer random-number generator is often used to create the sample. Another way to form an approximately random sample is systematic sampling— selecting every nth member from a population."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stratified random sampling uses a classification system to separate the population into smaller groups based on one or more distinguishing characteristics. From each subgroup, or stratum, a random sample is taken and the results are pooled. The size of"
+        },
+        {
+          "type": "paragraph",
+          "text": "the samples from each stratum is based on the size of the stratum relative to the population."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stratified sampling is often used in bond indexing because of the difficulty and cost of completely replicating the entire population of bonds. In this case, bonds in a population are categorized (stratified) according to major bond risk factors including, but not limited to, duration, maturity, and coupon rate. Then, samples are drawn from each separate category and combined to form a final sample."
+        },
+        {
+          "type": "paragraph",
+          "text": "To see how this works, suppose you want to construct a portfolio of 100 bonds that is indexed to a major municipal bond index of 1,000 bonds, using a stratified random sampling approach. First, the entire population of 1,000 municipal bonds in the index can be classified on the basis of maturity and coupon rate. Then, cells (stratum) can be created for different maturity/coupon combinations, and random samples can be drawn from each of the maturity/coupon cells. To sample from a cell containing 50 bonds with 2-to-4-year maturities and coupon rates less than 5%, we would select five bonds. The number of bonds drawn from a given cell corresponds to the cell’s weight relative to the population (index), or (50/1,000) × 100 = 5 bonds. This process is repeated for all the maturity/coupon cells, and the individual samples are combined to form the portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "By using stratified sampling, we guarantee that we sample five bonds from this cell. If we had used simple random sampling, there would be no guarantee that we would sample any of the bonds in the cell. Or, we may have selected more than five bonds from this cell."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cluster sampling is also based on subsets of a population, but in this case, we are assuming that each subset (cluster) is representative of the overall population with respect to the item we are sampling. For example, we may have data on personal incomes for a state’s residents by county. The data for each county is a cluster."
+        },
+        {
+          "type": "paragraph",
+          "text": "In one-stage cluster sampling, a random sample of clusters is selected, and all the data in those clusters comprise the sample. In two-stage cluster sampling, random samples from each of the selected clusters comprise the sample. Contrast this with stratified random sampling, in which random samples are selected from every subgroup."
+        },
+        {
+          "type": "paragraph",
+          "text": "To the extent that the subgroups do not have the same distribution as the entire population of the characteristic of interest, cluster sampling will have greater sampling error than simple random sampling. Two-stage cluster sampling can be expected to have greater sampling error than one-stage cluster sampling. Lower cost and less time required to assemble the sample are the primary advantages of cluster sampling, and it may be most appropriate for a smaller pilot study."
+        },
+        {
+          "type": "heading",
+          "text": "Nonprobability Sampling Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "Convenience sampling refers to selecting sample data based on ease of access, using data that are readily available. Because such a sample is typically not random, sampling error will be greater. An analyst should initially look at the data before adopting a sampling method with less sampling error."
+        },
+        {
+          "type": "paragraph",
+          "text": "Judgmental sampling refers to samples for which each observation is selected from a larger dataset by the researcher, based on one’s experience and judgment. As an example, a researcher interested in assessing company compliance with accounting standards may have experience suggesting that evidence of noncompliance is typically found in certain ratios derived from the financial statements. The researcher may select only data on these items. Researcher bias (or simply poor judgment) may lead to samples that have excessive sampling error. In the absence of bias or poor judgment, judgmental sampling may produce a more representative sample or allow the researcher to focus on a sample that offers good data on the characteristic or statistic of interest."
+        },
+        {
+          "type": "paragraph",
+          "text": "An important consideration when sampling is ensuring that the distribution of data of interest is constant for the whole population being sampled. For example, judging a characteristic of U.S. banks using data from 2005 to 2015 may not be appropriate. Regulatory reform of the banking industry after the financial crisis of 2007–2008 may have resulted in significant changes in banking practices, so that the mean of a statistic precrisis and its mean value across the population of banks postcrisis are quite different. Pooling the data over the entire period from 2005 to 2015 would not be appropriate if this is the case, and the sample mean calculated from these data would not be a good estimate of either precrisis or postcrisis mean values."
+        },
+        {
+          "type": "question",
+          "objectiveId": "7.b",
+          "text": "How can we explain the central limit theorem and its importance for the distribution and standard error of the sample mean?"
+        },
+        {
+          "type": "math",
+          "latex": "\\bar X\\xrightarrow{d}N\\!\\left(\\mu,\\frac{\\sigma^2}{n}\\right)",
+          "display": true,
+          "sourceAsset": "2ccaec4603cff359e6ef.png",
+          "prose": "The central limit theorem states that for simple random samples of size n from a population with a mean μ and a finite variance σ2, the sampling distribution of the sample mean approaches a normal probability distribution with mean μ and a"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{~ v a r i a n c e ~ e q u a l ~ t o ~ \\frac{\\sigma^2} {n} ~ a s ~ t h e ~ s a m p l e ~ s i z e ~ b e c o m e s ~ l a r g e .}",
+          "display": true,
+          "sourceAsset": "694c92406a27f52d5744.png",
+          "prose": "variance equal to as the sample size becomes large."
+        },
+        {
+          "type": "paragraph",
+          "text": "The central limit theorem is extremely useful because the normal distribution is relatively easy to apply to hypothesis testing and to the construction of confidence intervals. Specific inferences about the population mean can be made from the sample mean, regardless of the population’s distribution, as long as the sample size is sufficiently large, which usually means n ≥ 30."
+        },
+        {
+          "type": "paragraph",
+          "text": "Important properties of the central limit theorem include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the sample size n is sufficiently large (n ≥ 30), the sampling distribution of the sample means will be approximately normal. Remember what’s going on here: random samples of size n are repeatedly being taken from an overall larger population. Each of these random samples has its own mean, which is itself a random variable, and this set of sample means has a distribution that is approximately normal. The mean of the population, μ, and the mean of the distribution of all possible sample means are equal."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{T h e ~ v a r i a n c e ~ o f ~ t h e ~ d i s t r i b u t i o n ~ o f ~ s a m p l e ~ m e a n s ~ i s ~ \\frac{\\sigma^2} {n} , t h e ~ p o p u l a t i o n ~ v a r i a n c e}} \\\\ {\\mathrm{divided~by~the~sample~size.}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "042678b8bbec30a70c8d.png",
+          "prose": "The variance of the distribution of sample means is , the population variance divided by the sample size."
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard error of the sample mean is the standard deviation of the distribution of the sample means."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the standard deviation of the population, σ, is known, the standard error of the sample mean is calculated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n},\\quad \\sigma_{\\bar X}=\\text{standard error},\\quad \\sigma=\\text{population standard deviation}",
+          "display": true,
+          "sourceAsset": "dfee94b44545573e05df.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{However,practically~speaking,the~} p o p u l a t i o n^{\\prime} s \\ t a n d a r d \\ d e v i a t i o n \\ i s \\ a l m o s t \\ n e v e r} \\\\ {k n o w n . \\mathrm{Instead,the~standard~error~of~the~sample~mean~must~be~estimated~by~dividing~of~conding~of~devially}} \\\\ {\\mathrm{the~standard~deviation~of~} t h e \\ s a m p l e \\mathrm{~by~} \\sqrt{n} \\colon} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "08229e360d1586ea9a6e.png",
+          "prose": "However, practically speaking, the population’s standard deviation is almost never known. Instead, the standard error of the sample mean must be estimated by dividing the standard deviation of the sample by :"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{s_{n}=\\frac{s} {\\sqrt{11}}}",
+          "display": true,
+          "sourceAsset": "34227744305bc29df3f6.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Standard error of sample mean (unknown population variance)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose a sample contains the past 30 monthly returns for McCreary, Inc. The mean return is 2%, and the sample standard deviation is 20%. Calculate and interpret the standard error of the sample mean."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because σ is unknown, this is the standard error of the sample mean:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathsf{s_{x}=\\frac{s} {\\sqrt{n}}=\\frac{20^{0} \\! / \\!_{0}} {\\sqrt{30}}=3.6^{0} /_{0}}",
+          "display": true,
+          "sourceAsset": "a369ec81356d2a572d22.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This implies that if we took all possible samples of the size of 30 from McCreary’s monthly returns and prepared a sampling distribution of the sample means, the mean would be 2% with a standard error of 3.6%."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Standard error of sample mean (unknown population variance)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuing with our example, suppose that instead of a sample size of 30, we take a sample of the past 200 monthly returns for McCreary, Inc. To highlight the effect of sample size on the sample standard error, let’s assume that the mean return and standard deviation of this larger sample remain at 2% and 20%, respectively. Now, calculate the standard error of the sample mean for the 200-return sample."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard error of the sample mean is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt s}_{\\tt x} \\!=\\! {\\frac{s} {\\sqrt{11}}} \\!=\\! {\\frac{20 \\%} {\\sqrt{200}}} \\!=\\! 1.4 \\% \\! \\! \\! /_{0}",
+          "display": true,
+          "sourceAsset": "639706fbcd99ec24e8e5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The result of the preceding two examples illustrates an important property of sampling distributions. Notice that the value of the standard error of the sample mean decreased from 3.6% to 1.4% as the sample size increased from 30 to 200. This is because as the"
+        },
+        {
+          "type": "paragraph",
+          "text": "sample size increases, the sample mean gets closer, on average, to the true mean of the population. In other words, the distribution of the sample means about the population mean gets smaller and smaller, so the standard error of the sample mean decreases."
+        },
+        {
+          "type": "question",
+          "objectiveId": "7.c",
+          "text": "What should we know about the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Previously, we used the sample variance to calculate the standard error of our estimate of the mean. The standard error provides better estimates of the distribution of sample means when the sample is unbiased and the distribution of sample means is approximately normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two alternative methods of estimating the standard error of the sample mean involve resampling of the data. The first of these, termed the jackknife, calculates multiple sample means, each with one of the observations removed from the sample. The standard deviation of these sample means can then be used as an estimate of the standard error of sample means. The jackknife is a computationally simple tool and can be used when the number of observations available is relatively small. This method can remove bias from statistical estimates."
+        },
+        {
+          "type": "paragraph",
+          "text": "The jackknife (so named because it is a handy and readily available tool) was developed when computational power was not as readily available and as low cost as today. A bootstrap method is more computationally demanding, but it has some advantages. To estimate the standard error of the sample mean, we draw repeated samples of size n from the full dataset (replacing the sampled observations each time). We can then directly calculate the standard deviation of these sample means as our estimate of the standard error of the sample mean."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bootstrap method can improve accuracy compared to using only the data in a single sample, and it can be used to construct confidence intervals for various statistics in addition to the mean, such as the median. This method can also be used to estimate the distributions of complex statistics, including those that do not have an analytic form."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "7.a",
+      "text": "How do we compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Simple random sampling is a method of selecting a sample in such a way that each item or person in the population being studied has the same probability of being included in the sample."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stratified random sampling involves randomly selecting samples proportionally from subgroups that are formed based on one or more distinguishing characteristics of the data, so that random samples from the subgroups will have the same distribution of these characteristics as the overall population."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cluster sampling is also based on subgroups (not necessarily based on data characteristics) of a larger dataset. In one-stage cluster sampling, the sample is formed from randomly chosen clusters (subsets) of the overall dataset. In two-stage cluster sampling, random samples are taken from each of the randomly chosen clusters (subgroups)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Convenience sampling refers to selecting sample data based on ease of access, using data that are readily available. Judgmental sampling refers to samples for which each observation is selected from a larger dataset by the researcher, based on the researcher’s experience and judgment. Both are examples of nonprobability sampling and are nonrandom."
+    },
+    {
+      "type": "question",
+      "objectiveId": "7.b",
+      "text": "How can we explain the central limit theorem and its importance for the distribution and standard error of the sample mean?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The central limit theorem states that for a population with a mean μ and a finite variance σ², the sampling distribution of the sample mean of all possible samples of size n (for n ≥ 30) will be approximately normally distributed with a mean equal to μ and a variance equal to σ²/n."
+    },
+    {
+      "type": "paragraph",
+      "text": "The standard error of the sample mean is the standard deviation of the distribution of"
+    },
+    {
+      "type": "math",
+      "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n}",
+      "display": true,
+      "sourceAsset": "50cc04e7dfa0423d251a.png",
+      "prose": "the sample means and is calculated as (where σ, the population standard"
+    },
+    {
+      "type": "math",
+      "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n},\\qquad s_{\\bar X}=\\frac{s}{\\sqrt n}",
+      "display": true,
+      "sourceAsset": "943bbd70c25c20bc936e.png",
+      "prose": "deviation, is known) and as (where s, the sample standard deviation, is used because the population standard deviation is unknown)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "7.c",
+      "text": "What should we know about the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two resampling techniques to improve our estimates of the distribution of sample statistics are the jackknife and bootstrap. With the jackknife, we calculate n sample means, one with each observation in a sample of size n removed, and base our estimate on the standard error of sample means of size n. This can remove bias from our estimates based on the sample standard deviation without resampling."
+    },
+    {
+      "type": "paragraph",
+      "text": "With bootstrap resampling, we use the distribution of sample means (or other statistics) from a large number of samples of size n, drawn from a large dataset."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bootstrap resampling can improve our estimates of the distribution of various sample statistics and provide such estimates when analytical methods will not."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "7.a",
+      "statement": "Compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem.",
+      "question": "How do we compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem?"
+    },
+    {
+      "id": "7.b",
+      "statement": "Explain the central limit theorem and its importance for the distribution and standard error of the sample mean.",
+      "question": "How can we explain the central limit theorem and its importance for the distribution and standard error of the sample mean?"
+    },
+    {
+      "id": "7.c",
+      "statement": "Describe the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic.",
+      "question": "What should we know about the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-7-quiz-1",
+      "title": "Knowledge check 7.1",
+      "moduleId": "7.1",
+      "questions": [
+        {
+          "id": "r7-q1",
+          "number": 1,
+          "objectiveIds": [
+            "7.a"
+          ],
+          "prompt": "A simple random sample is a sample drawn in such a way that each member of the population has:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "some chance of being selected in the sample."
+            },
+            {
+              "id": "B",
+              "text": "an equal chance of being included in the sample."
+            },
+            {
+              "id": "C",
+              "text": "a 1% chance of being included in the sample."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "In a simple random sample, each element of the population has an equal probability of being selected. The 1% chance answer option allows for an equal chance, but only if there are 100 elements in the population from which the random sample is drawn.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a simple random sample, each element of the population has an equal"
+            },
+            {
+              "type": "paragraph",
+              "text": "probability of being selected. The 1% chance answer option allows for an equal chance, but only if there are 100 elements in the population from which the random sample is drawn."
+            }
+          ]
+        },
+        {
+          "id": "r7-q2",
+          "number": 2,
+          "objectiveIds": [
+            "7.b"
+          ],
+          "prompt": "To apply the central limit theorem to the sampling distribution of the sample mean, the sample is usually considered to be large if n is at least:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "20."
+            },
+            {
+              "id": "B",
+              "text": "25."
+            },
+            {
+              "id": "C",
+              "text": "30."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Sample sizes of 30 or greater are typically considered large.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Sample sizes of 30 or greater are typically considered large."
+            }
+          ]
+        },
+        {
+          "id": "r7-q3",
+          "number": 3,
+          "objectiveIds": [
+            "7.c"
+          ],
+          "prompt": "Which of the following techniques to improve the accuracy of confidence intervals on a statistic is most computationally demanding?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Jackknife resampling."
+            },
+            {
+              "id": "B",
+              "text": "Systematic resampling."
+            },
+            {
+              "id": "C",
+              "text": "Bootstrap resampling."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bootstrap resampling, repeatedly drawing samples of equal size from a large dataset, is more computationally demanding than the jackknife. We have not defined systematic resampling as a specific technique.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Bootstrap resampling, repeatedly drawing samples of equal size from a large"
+            },
+            {
+              "type": "paragraph",
+              "text": "dataset, is more computationally demanding than the jackknife. We have not defined systematic resampling as a specific technique."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

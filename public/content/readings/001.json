@@ -1,0 +1,1196 @@
+{
+  "readingId": 1,
+  "title": "Rates and Returns",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "1.1",
+      "title": "Interest Rates and Return Measurement",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "1.a",
+          "text": "How should we interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest rates measure the time value of money, although risk differences in financial securities lead to differences in their equilibrium interest rates. Equilibrium interest rates are the required rate of return for a particular investment, in the sense that the market rate of return is the return that investors and savers require to get them to willingly lend their funds. Interest rates are also referred to as discount rates and, in fact, the terms are often used interchangeably. If an individual can borrow funds at an interest rate of 10%, then that individual should discount payments to be made in the future at that rate to get their equivalent value in current dollars or other currencies. Finally, we can also view interest rates as the opportunity cost of current consumption. If the market rate of interest on 1-year securities is 5%, earning an additional 5% is the opportunity forgone when current consumption is chosen rather than saving (postponing consumption)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The real risk-free rate of interest is a theoretical rate on a single-period loan that contains no expectation of inflation and zero probability of default. What the real risk-free rate represents in economic terms is time preference, the degree to which current consumption is preferred to equal future consumption."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we speak of a real rate of return, we are referring to an investor’s increase in purchasing power (after adjusting for inflation). Because expected inflation in future periods is not zero, the rates we observe on U.S. Treasury bills (T-bills), for example, are essentially risk-free rates, but not real rates of return. T-bill rates are nominal risk-free rates because they contain an inflation premium. This is the relation:"
+        },
+        {
+          "type": "math",
+          "latex": "( 1+{\\mathrm{nominal~risk-free~rate}} )=( 1+{\\mathrm{real~risk-free~rate}} ) ( 1+{\\mathrm{expected~inflation~rate}} )",
+          "display": true,
+          "sourceAsset": "265f8e5c2d14686a3a3f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Often, including in many parts of the CFA curriculum, this relation is approximated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{nominal~risk-free~rate} \\approx\\mathrm{real~risk-free~rate}+\\mathrm{expected~inflation~rate}",
+          "display": true,
+          "sourceAsset": "4aa7eb4c0be6881859b7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities may have one or more types of risk, and each added risk increases the required rate of return. These types of risks are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Default risk. This is the risk that a borrower will not make the promised payments in a timely manner."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity risk. This is the risk of receiving less than fair value for an investment if it must be sold quickly for cash."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maturity risk. As we will see in the Fixed Income topic area, the prices of longer-term bonds are more volatile than those of shorter-term bonds. Longer-maturity bonds have more maturity risk than shorter-term bonds and require a maturity risk premium."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of these risk factors is associated with a risk premium that we add to the nominal risk-free rate to adjust for greater default risk, less liquidity, and longer maturity relative to a liquid, short-term, default risk-free rate such as that on T-bills. We can write the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{nominal~rate~of~interest}=\\mathrm{real~risk-free~rate}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\mathrm{~default~risk~premium}}} \\end{array}\\\\[6pt]+ \\mathrm{~liquidity~premium} \\,+\\mathrm{~maturity~premium}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "012a2171072096685c6c.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "1.b",
+          "text": "How do we calculate and interpret different approaches to return measurement over time and describe their appropriate uses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Holding period return (HPR) is simply the percentage increase in the value of an investment over a given period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{holding~period~return}={\\frac{\\mathrm{end-of-period~value}} {\\mathrm{beginning-of-period~value}}}-1",
+          "display": true,
+          "sourceAsset": "f5b9b30f36ceab6c2a73.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, a stock that pays a dividend during a holding period has an HPR for that period equal to:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{\\mathrm{P}_{\\mathrm{t}}+\\mathrm{Div}_{\\mathrm{t}}} {\\mathrm{P}_{0}}}-1 , \\, {\\mathrm{or}} \\, {\\frac{\\mathrm{P}_{\\mathrm{t}}-\\mathrm{P}_{0}+\\mathrm{Div}_{\\mathrm{t}}} {\\mathrm{P}_{0}}}",
+          "display": true,
+          "sourceAsset": "fcbf70fd06d043113438.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a stock is valued at €20 at the beginning of the period, pays €1 in dividends over the period, and at the end of the period is valued at €22, the HPR is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{HPR}=\\left( 22+1 \\right) / \\ 20-1=0.15=15 \\%_{\\mathsf{0}}",
+          "display": true,
+          "sourceAsset": "a2ab643f6c9472eeb52a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Returns over multiple periods reflect compounding. For example, given HPRs for Years 1, 2, and 3, the HPR for the entire three-year period is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{HPR}=\\big( 1+\\mathrm{HPR}_{\\mathrm{Year} \\; 1} \\big) \\big( 1+\\mathrm{HPR}_{\\mathrm{Year} \\; 2} \\big) \\big( 1+\\mathrm{HPR}_{\\mathrm{Year} \\; 3} \\big)-1 \\big)",
+          "display": true,
+          "sourceAsset": "854e295922bfa74e7e27.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Later in this reading, we will see that a return over multiple years is typically stated as an annualized return rather than an HPR."
+        },
+        {
+          "type": "heading",
+          "text": "Average Returns"
+        },
+        {
+          "type": "paragraph",
+          "text": "The arithmetic mean return is the simple average of a series of periodic returns. It has the statistical property of being an unbiased estimator of the true mean of the underlying distribution of returns:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{arithmetic~mean~return}}={\\frac{\\left( \\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}+\\ldots+\\mathrm{R}_{n} \\right)} {\\mathrm{n}}}",
+          "display": true,
+          "sourceAsset": "794018a36655774c9ddf.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The geometric mean return is a compound rate. When periodic rates of return vary from period to period, the geometric mean return will have a value less than the arithmetic mean return:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathsf{g e o m e t r i c ~ m e a n ~ r e t u r n}}={\\sqrt{\\left( 1+{\\mathsf{R}}_{1} \\right) \\times\\left( 1+{\\mathsf{R}}_{2} \\right) \\times\\left( 1+{\\mathsf{R}}_{3} \\right) \\times\\ldots\\times\\left( 1+{\\mathsf{R}}_{n} \\right)}}-1",
+          "display": true,
+          "sourceAsset": "e1c9270e8be9fc06f9f5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, for returns Rt over three annual periods, the geometric mean return is calculated as the following example shows."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Geometric mean return"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the last three years, the returns for Acme Corporation common stock have been −9.34%, 23.45%, and 8.92%. Calculate the compound annual rate of return over the three-year period."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{aligned} {\\mathbb{R}_{\\mathbf{G}}} & {{}=\\sqrt{( 1-0.0934 ) \\times( 1+0.2345 ) \\times( 1+0.0892 )}-1} \\\\ {} & {{}=\\sqrt[3]{0.9066 \\times1.2345 \\times1.0892}-1} \\\\ {} & {{}=\\sqrt[3]{1.21903}-1} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{R}_{G}=1.06825-1=6.825 \\% \\! \\! /_{\\! 0}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "da5f3ab26dc5a13391a1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solve this type of problem with your calculator as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the TI, enter 1.21903 [yx] 3 [1/x] [=]"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the HP, enter 1.21903 [ENTER] 3 [1/x] [yx]"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the previous example, the geometric mean results in an annual rate of return because the holding periods were years. If the holding periods are other than years, the geometric mean is not the same as the annual return. The root for the geometric mean is the number of periods, while the root for the annual return is the number of years."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Geometric mean vs. annual return"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the last four semiannual periods, the 6-month holding period returns on an investment were 2.0%, 0.5%, −1.0%, and 1.5%. Calculate the geometric mean and the annual rate of return."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{Geometric~mean}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.007435=0.7435^{a} /_{0} .} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "74478541ac45ab4bc70b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the geometric mean of the 6-month holding period returns."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{Annual~return}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.0149=1.4996.} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "f98ca53a42b5cb8fd88f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The four semiannual periods equal two years, so to get an annual return we use 2 as the root."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The geometric mean is always less than or equal to the arithmetic mean, and the difference increases as the dispersion of the observations increases. The only time the arithmetic and geometric means are equal is when there is no variability in the observations (i.e., all observations are equal)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A harmonic mean is used for certain computations, such as the average cost of shares"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{~ p u r c h a s e d ~ o v e r ~ t i m e . ~ T h e ~ h a r m o n i c ~ m e a n ~ i s ~ c a l c u l a t e d ~ a s ~ \\sum_{i=1}^{N} \\frac{N} {X_{i}} ~ w h e r e ~ t h e r e ~ a r e ~ N ~}} \\\\ {\\mathrm{~values~of~X_i~.}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "0486dc9db2e43eccde06.png",
+          "prose": "purchased over time. The harmonic mean is calculated as where there are N values of Xi."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating average cost with the harmonic mean"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor purchases $1,000 of mutual fund shares each month, and over the last three months, the prices paid per share were $8, $9, and $10. What is the average cost per share?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\overline{{X}}}_{\\mathrm{H}}={\\cfrac{3} {{\\cfrac{1} {8}}+{\\cfrac{1} {9}}+{\\cfrac{1} {10}}}}={\\cfrac{8} {8}} 8.926 {\\mathrm{~per~share}}",
+          "display": true,
+          "sourceAsset": "3fa096cc9152fe681ee3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "To check this result, calculate the total shares purchased as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{1 , 000} {8}+\\frac{1 , 000} {9}+\\frac{1 , 000} {10}=336.11 \\mathrm{~shares}",
+          "display": true,
+          "sourceAsset": "840dde5aa5daf5e9e911.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~average~price~is~} \\frac{\\$3 , 000} {336.11}=\\$8.926 \\mathrm{~per~share.}",
+          "display": true,
+          "sourceAsset": "ad471fe97965f6ba57fa.png",
+          "prose": "The average price is per share."
+        },
+        {
+          "type": "paragraph",
+          "text": "The previous example illustrates the interpretation of the harmonic mean in its most common application. Note that the average price paid per share ($8.93) is less than the"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{arithmetic~average~of~the~share~prices,which~is} \\, \\frac{8 \\overline{{+9}}+10} {3}=9.",
+          "display": true,
+          "sourceAsset": "c140870716c1c45abb72.png",
+          "prose": "arithmetic average of the share prices, which is"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can only calculate a harmonic mean of positive numbers. For a set of returns that includes negative numbers, we can treat them the same way we did with geometric means, using (1 + return) for each period, then subtracting 1 from the result."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Harmonic mean with negative returns"
+        },
+        {
+          "type": "paragraph",
+          "text": "For four periods, the returns on an investment were 2.0%, 0.5%, −1.0%, and 1.5%. Calculate the harmonic mean of these returns."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{Harmonic~mean}=} & {{} \\frac{4} {\\frac{1} {( 1+0.02 )}+\\frac{1} {( 1+0.005 )}+\\frac{1} {( 1-0.01 )}+\\frac{1} {( 1+0.015 )}}-1} \\\\ {=} & {{} \\ 0.007369=0.73699 / 8} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "dc424ee876958870cf09.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The relationship among arithmetic, geometric, and harmonic means can be stated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{arithmetic~mean} \\times\\mathrm{harmonic~mean}=( \\mathrm{geometric~mean} )^{2}",
+          "display": true,
+          "sourceAsset": "593fdc19ff4b42a1d2db.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The proof of this is beyond the scope of the Level I exam."
+        },
+        {
+          "type": "paragraph",
+          "text": "For values that are not all equal, harmonic mean < geometric mean < arithmetic mean. This mathematical fact is the basis for the claimed benefit of purchasing the same money amount of mutual fund shares each month or each week. Some refer to this practice as cost averaging."
+        },
+        {
+          "type": "paragraph",
+          "text": "Measures of average return can be affected by outliers, which are unusual observations in a dataset. Two of the methods for dealing with outliers are a trimmed mean and a winsorized mean. We will examine these in our reading on Statistical Measures of Asset Returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Appropriate uses for the various return measures are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arithmetic mean. Include all values, including outliers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geometric mean. Compound the rate of returns over multiple periods. Harmonic mean. Calculate the average share cost from periodic purchases in a fixed money amount. Trimmed or winsorized mean. Decrease the effect of outliers."
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Time-Weighted and Money-Weighted Returns",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "1.c",
+          "text": "How can we compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The money-weighted return applies the concept of the internal rate of return (IRR) to investment portfolios. An IRR is the interest rate at which a series of cash inflows and outflows sum to zero when discounted to their present value. That is, they have a net present value (NPV) of zero. The IRR and NPV are built-in functions on financial calculators that CFA Institute permits candidates to use for the exam."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The money-weighted rate of return is defined as the IRR on a portfolio, taking into account all cash inflows and outflows. The beginning value of the account is an inflow, as are all deposits into the account. All withdrawals from the account are outflows, as is the ending value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Money-weighted rate of return"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume an investor buys a share of stock for $100 at t = 0, and at the end of the year (t = 1), she buys an additional share for $120. At the end of Year 2, the investor sells both shares for $130 each. At the end of each year in the holding period, the stock paid a $2 per share dividend. What is the money-weighted rate of return?"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {S t e p \\mathrm{~1:~Determine~the~timing~of~each~cash~flow~and~whether~the~cash~flow~is~;}} \\\\ {\\mathrm{an~inflow~(+),~into~the~account,~or~an~outflow~(-),~available~from~the~;}} \\\\ {\\mathrm{account.}} \\\\ {\\mathrm{~t=0:~purchase~of~first~share~} \\qquad=+\\$100.00 \\mathrm{~inflow~to~account}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {r c l} {\\mathrm{~t=1;~purchase~of~second~share}} & {=} & {+\\$120.00} \\\\ {\\mathrm{dividends~from~first~share}} & {=} & {-\\$2.00} \\\\ {\\mathrm{~subtotaL} ,} & {\\mathrm{~t=1~}} & {+\\$118.00 \\mathrm{~inflow~to~account}} \\\\ {\\mathrm{~t=2;~dividend~from~two~shares}} & {=} & {-\\$4.00} \\\\ \\end{array}\\\\[6pt]\\begin{array} {c} {\\mathrm{proceds~from~selling~shares}=-\\underline{{\\$260.00}}} \\\\ {\\mathrm{subtotal} , \\, \\imath=2} \\\\ {\\mathrm{~-\\$264.00~~outflow~from~account}} \\\\ {\\mathrm{~Step~2:~Net~the~cash~flows~for~each~period~and~set~the~PV~of~cash~inflows}} \\\\ {\\mathrm{~equal~to~the~PV~of~cash~outflows.}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{P V_{\\scriptsize\\mathrm{infiows}}=\\mathrm{P V_{\\scriptsize\\mathrm{outfiows}}}}}} \\\\ {{\\mathrm{S 100+\\frac{\\mathrm{S118}} {( 1+\\mathrm{r} )}=\\frac{\\mathrm{S264}} {( 1+\\mathrm{r} )^{2}}}}} \\end{array}\\\\[6pt]\\begin{array} {l l} {{S t e p ~ 3 \\! :}} & {{\\! \\! \\mathrm{Solve~for~r~to~find~the~money-weighted~rate~of~return.~This~can~be}}} \\\\ {{}} & {{\\! \\! \\mathrm{~done~using~trial~and~error~or~by~using~the~JRR~function~on~a~financial~}}} \\\\ {{}} & {{\\! \\! \\mathrm{calculator~or~spreadsheet.}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "f8259749ec97b07048f9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition here is that we deposited $100 into the account at t = 0, then added $118 to the account at t = 1 (which, with the $2 dividend, funded the purchase of one more share at $120), and ended with a total value of $264."
+        },
+        {
+          "type": "paragraph",
+          "text": "To compute this value with a financial calculator, use these net cash flows and follow the procedure(s) described to calculate the IRR:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{inet~cash~flows:~CF_0=+100;~CF_1=+120-2=+118;}} \\\\ {\\mathrm{CF_2=-260+-4=-264}} \\end{array}",
+          "display": true,
+          "sourceAsset": "65a2141ac33793ae54c9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculating money-weighted return with the TI Business Analyst II Plus®"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note the values for F01, F02, and so on, are all equal to 1."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4b973189367edba55ab4.png",
+          "alt": "Equation, table, or diagram: Note the values for F01, F02, and so on, are all equal to 1.",
+          "width": 496,
+          "height": 145,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The money-weighted rate of return for this problem is 13.86%."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the preceding example, we entered the flows into the account as a positive and the ending value as a negative (the investor could withdraw this amount from the account). Note that there is no difference in the solution if we enter the cash flows into the account as negative values (out of the investor’s pocket) and the ending value as a positive value (into the investor’s pocket)."
+        },
+        {
+          "type": "paragraph",
+          "text": "As long as payments into the account and payments out of the account (including the ending value) are entered with opposite signs, the computed IRR will be correct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Time-weighted rate of return measures compound growth and is the rate at which $1 compounds over a specified performance horizon. Time-weighting is the process of averaging a set of values over time. The annual time-weighted return for an investment may be computed by performing the following steps:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: Value the portfolio immediately preceding significant additions or withdrawals. Form subperiods"
+        },
+        {
+          "type": "paragraph",
+          "text": "over the evaluation period that correspond to the dates of deposits and withdrawals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: Compute the holding period return (HPR) of the portfolio for each subperiod."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 3: Compute the product of (1 + HPR) for each subperiod to obtain a total return for the entire"
+        },
+        {
+          "type": "paragraph",
+          "text": "measurement period [i.e., (1 + HPR1) × (1 + HPR2) … (1 + HPRn)] − 1. If the total investment period is greater than one year, you must take the geometric mean of the measurement period return to find the annual time-weighted rate of return."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Time-weighted rate of return"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor purchases a share of stock at t = 0 for $100. At the end of the year, t = 1, the investor buys another share of the same stock for $120. At the end of Year 2, the investor sells both shares for $130 each. At the end of both Years 1 and 2, the stock paid a $2 per share dividend. What is the annual time-weighted rate of return for this investment? (This is the same investment as the preceding example.)"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Step 1: Break the evaluation period into two subperiods based on the timing of cash flows.} \\\\[3pt]\n\\begin{aligned}\n\\text{Holding period 1:}\\quad \\text{Beginning value}&=\\$100 & \\text{Dividends paid}&=\\$2 & \\text{Ending value}&=\\$120 \\\\\n\\text{Holding period 2:}\\quad \\text{Beginning value}&=\\$240\\ (2\\text{ shares}) & \\text{Dividends paid}&=\\$4\\ (\\$2\\text{ per share}) & \\text{Ending value}&=\\$260\\ (2\\text{ shares})\n\\end{aligned} \\\\[6pt]\n\\text{Step 2: Calculate the HPR for each holding period.} \\\\\nHPR_1=\\frac{\\$120+\\$2}{\\$100}-1=22\\%,\\qquad\nHPR_2=\\frac{\\$260+\\$4}{\\$240}-1=10\\% \\\\[6pt]\n\\text{Step 3: Find the compound annual rate that produces the account's two-year total return.} \\\\\n(1+\\text{time-weighted rate of return})^2=(1.22)(1.10) \\\\\n\\text{Time-weighted rate of return}=[(1.22)(1.10)]^{0.5}-1=15.84\\%\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ddc8204d112236ef752c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The time-weighted rate of return is not affected by the timing of cash inflows and outflows. In the investment management industry, time-weighted return is the preferred method of performance measurement because portfolio managers typically"
+        },
+        {
+          "type": "paragraph",
+          "text": "do not control the timing of deposits to and withdrawals from the accounts they manage."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the preceding examples, the time-weighted rate of return for the portfolio was 15.84%, while the money-weighted rate of return for the same portfolio was 13.86%. The results are different because the money-weighted rate of return gave a larger weight to the Year 2 HPR, which was 10%, versus the 22% HPR for Year 1. This is because there was more money in the account at the beginning of the second period."
+        },
+        {
+          "type": "paragraph",
+          "text": "If funds are contributed to an investment portfolio just before a period of relatively poor portfolio performance, the money-weighted rate of return will tend to be lower than the time-weighted rate of return. On the other hand, if funds are contributed to a portfolio at a favorable time (just before a period of relatively high returns), the money-weighted rate of return will be higher than the time-weighted rate of return. The use of the time-weighted return removes these distortions, and thus provides a better measure of a manager’s ability to select investments over the period. If the manager has complete control over money flows into and out of an account, the money-weighted rate of return would be the more appropriate performance measure."
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Common Measures of Return",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "1.d",
+          "text": "How do we calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest rates and market returns are typically stated as annualized returns, regardless of the actual length of the time period over which they occur. To annualize an HPR that is realized over a specific number of days, use the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{annualized~return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
+          "display": true,
+          "sourceAsset": "29ffbd3aed56905ada5b.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Annualized return, shorter than one year"
+        },
+        {
+          "type": "paragraph",
+          "text": "A saver deposits $100 into a bank account. After 90 days, the account balance is $100.75. What is the saver’s annualized rate of return?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{HPR}=\\frac{100.75} {100}-1} & {{}=0.0075=0.759_{6}} \\\\ {\\mathrm{annualized~return}} & {{}=( 1+0.0075 )^{365 / 90}-1=0.0308=3.089_{6}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "d160dc44453cbc30bdd6.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Annualized return, longer than one year"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor buys a 500-day government bill for $970 and redeems it at maturity for $1,000. What is the investor’s annualized return?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{HPR}=\\frac{1000} {970}-1} & {{}=0.0309=3.09^{9} \\! \\! \\vee_{\\! 6}} \\\\ {\\mathrm{annualized~return}=( 1+0.0309 )^{365 / 500}-1} & {{}=0.0225=2.25^{9} \\! \\! \\vee_{\\! 6}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "a53dd9fc1295af9462d0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In time value of money calculations (which we will address in more detail in our reading on The Time Value of Money in Finance), more frequent compounding has an impact on future value and present value computations. Specifically, because an increase in the frequency of compounding increases the effective interest rate, it also increases the future value of a given cash flow and decreases the present value of a given cash flow."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the general formula for the present value of a future cash flow:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{PV}=\\mathrm{FV}_{\\mathrm{N}} \\left( 1+{\\frac{\\mathrm{r}} {\\mathrm{m}}} \\right)^{-\\mathrm{mN}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r~=quoted~annual~interest~rate}}} \\\\ {{\\mathrm{N=number~of~years}}} \\\\ {{\\mathrm{m=compounding~periods~per~year}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "d130a2e7e08040d86aee.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The effect of compounding frequency on FV and PV"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute the PV of $1,000 to be received one year from now using a stated annual interest rate of 6% with a range of compounding periods."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "With semiannual compounding, m = 2:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{PV}=1 {,} 000 \\left( 1+{\\frac{0.06} {2}} \\right)^{-2}=942 {.} 60",
+          "display": true,
+          "sourceAsset": "f323555518aa435afdc9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "With quarterly compounding, m = 4:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{PV}=1 {,} 000 \\left( 1+{\\frac{0.06} {4}} \\right)^{-4}=942.18",
+          "display": true,
+          "sourceAsset": "0452dfb594c84373523b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "With monthly compounding, m = 12:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{PV}=1 {,} 000 \\left( 1+{\\frac{0.06} {12}} \\right)^{-12}=941.91",
+          "display": true,
+          "sourceAsset": "f3ab7f9dd7b23919c2df.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "With daily compounding, m = 365:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{PV}=1 {\\mathrm{,}} 000 \\left( 1+{\\frac{0.06} {365}} \\right)^{-365}=941.77",
+          "display": true,
+          "sourceAsset": "908adac19381168a7fa1.png"
+        },
+        {
+          "type": "heading",
+          "text": "Compounding Frequency Effect"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l l l} {{\\mathrm{Compounding}}} & {{\\mathrm{Interest~Rate}}} & {{\\mathrm{Present}}} \\\\ {{\\mathrm{Frequency}}} & {{\\mathrm{per~Period}}} & {{\\mathrm{Value}}} \\\\ \\hline{{\\mathrm{Annual~} ( m=1 )}} & {{\\mathrm{6.000^{9} /_{6} ~}}} & {{\\mathrm{S943.40}}} \\\\ {{\\mathrm{Semiannual~} ( m=2 )}} & {{\\mathrm{~3.000~}}} & {{\\mathrm{~942.60}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\operatorname{Q u a r t e r l y} {( m=4 )}} & {{} \\qquad1.500 \\qquad\\qquad942.18} \\\\ {\\operatorname{M o n t h l y} {( m=12 )}} & {{} \\qquad0.500 \\qquad\\qquad941.91} \\\\ {\\operatorname{D a i l y} {( m=365 )}} & {{} \\qquad0.016438 \\qquad} & {941.77} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "948af8310dca6ae50ad3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mathematical limit of shortening the compounding period is known as continuous compounding. Given an HPR, we can use the natural logarithm (ln, or LN on your financial calculator) to state its associated continuously compounded return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{R}_{C C}=\\ln( 1+\\mathrm{HPR} )=\\ln\\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
+          "display": true,
+          "sourceAsset": "ae70f4c52d7c7004a66e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that because the calculation is based on 1 plus the HPR, we can also perform it directly from the price relative. The price relative is just the end-of-period value divided by the beginning-of-period value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating continuously compounded returns"
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock was purchased for $100 and sold one year later for $120. Calculate the investor’s annual rate of return on a continuously compounded basis."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{l n} \\Bigl( \\frac{120} {100} \\Bigr)=18.232 \\%",
+          "display": true,
+          "sourceAsset": "e67c7335e0a840ba2c9e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we had been given the return (20%) instead, the calculation is this:"
+        },
+        {
+          "type": "paragraph",
+          "text": "ln (1 + 0.20) = 18.232%"
+        },
+        {
+          "type": "paragraph",
+          "text": "A useful property of continuously compounded rates of return is that they are additive for multiple periods. That is, a continuously compounded return from t = 0 to t = 2 is the sum of the continuously compounded return from t = 0 to t = 1 and the continuously compounded return from t = 1 to t = 2."
+        },
+        {
+          "type": "question",
+          "objectiveId": "1.e",
+          "text": "How do we calculate and interpret major return measures and describe their appropriate uses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross return refers to the total return on a security portfolio before deducting fees for the management and administration of the investment account. Net return refers to the return after these fees have been deducted. Commissions on trades and other costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "that are necessary to generate the investment returns are deducted in both gross and net return measures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pretax nominal return refers to the return before paying taxes. Dividend income, interest income, short-term capital gains, and long-term capital gains may all be taxed at different rates. After-tax nominal return refers to the return after the tax liability is deducted."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real return is nominal return adjusted for inflation. Consider an investor who earns a nominal return of 7% over a year when inflation is 2%. The investor’s approximate real return is simply 7 − 2 = 5%. The investor’s exact real return is slightly lower: 1.07 / 1.02 − 1 = 0.049 = 4.9%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the components of an interest rate we defined earlier, we can state a real return as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "( 1+\\mathrm{real~return} )={\\frac{( 1+\\mathrm{nominal~risk-free~rate} ) ( 1+\\mathrm{risk~premium} )} {( 1+\\mathrm{inflation~premium} )}}",
+          "display": true,
+          "sourceAsset": "1b2338bb058730c3ef39.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Level I curriculum states this relationship as"
+        },
+        {
+          "type": "math",
+          "latex": "( 1+\\mathrm{real~return} )={\\frac{( 1+\\mathrm{real~risk-free~rate} ) ( 1+\\mathrm{risk~premium} )} {( 1+\\mathrm{inflation~premium} )}} .",
+          "display": true,
+          "sourceAsset": "9bb899a83dd9589f4249.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stating it this way assumes the risk premium includes inflation risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real return measures the increase in an investor’s purchasing power—how much more goods she can purchase at the end of one year due to the increase in the value of her investments. If she invests $1,000 and earns a nominal return of 7%, she will have $1,070 at the end of the year. If the price of the goods she consumes has gone up 2%, from $1.00 to $1.02, she will be able to consume 1,070 / 1.02 = 1,049 units. She has given up consuming 1,000 units today, but instead, she is able to purchase 1,049 units at the end of one year. Her purchasing power has gone up 4.9%; this is her real return."
+        },
+        {
+          "type": "paragraph",
+          "text": "A leveraged return refers to a return to an investor that is a multiple of the return on the underlying asset. The leveraged return is calculated as the gain or loss on the investment as a percentage of an investor’s cash investment. An investment in a derivative security, such as a futures contract, produces a leveraged return because the cash deposited is only a fraction of the value of the assets underlying the futures contract. Leveraged investments in real estate are common: investors pay only a portion of a property’s cost in cash and borrow the rest."
+        },
+        {
+          "type": "paragraph",
+          "text": "To illustrate the effect of leverage on returns, consider a fund that can invest the amount V0 without leverage, and earn the rate of return r. The fund’s unleveraged return (as a money amount) is simply r × V0. Now let’s say this fund can borrow the amount VB at an interest rate of rB, and earn r by investing the proceeds. The fund’s leveraged return (again as a money amount), after subtracting the interest cost, then becomes r × (V0 + VB) − (rB × VB)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, stated as a rate of return on the initial value of V0, the leveraged rate of return is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{\\mathrm{B}} \\right)-\\mathrm{r_{B} V_{\\mathrm{B}}}} {\\mathrm{V}_{0}}}",
+          "display": true,
+          "sourceAsset": "53f5468c2f9042862a3f.png"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "1.a",
+      "text": "How should we interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An interest rate can be interpreted as the rate of return required in equilibrium for a particular investment, the discount rate for calculating the present value of future cash flows, or as the opportunity cost of consuming now, rather than saving and investing."
+    },
+    {
+      "type": "paragraph",
+      "text": "The real risk-free rate reflects time preference for present goods versus future goods. Nominal risk-free rate ≈ real risk-free rate + expected inflation rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Securities may have several risks, and each increases the required rate of return. These include default risk, liquidity risk, and maturity risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "We can view a nominal interest rate as the sum of a real risk-free rate, expected inflation, a default risk premium, a liquidity premium, and a maturity premium."
+    },
+    {
+      "type": "question",
+      "objectiveId": "1.b",
+      "text": "How do we calculate and interpret different approaches to return measurement over time and describe their appropriate uses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holding period return is used to measure an investment’s return over a specific period. Arithmetic mean return is the simple average of a series of periodic returns. Geometric mean return is a compound annual rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arithmetic mean return includes all observations, including outliers. Geometric mean return is used for compound returns over multiple periods. Harmonic mean is used to calculate the average price paid with equal periodic investments. Trimmed mean or winsorized mean are used to reduce the effect of outliers."
+    },
+    {
+      "type": "question",
+      "objectiveId": "1.c",
+      "text": "How can we compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The money-weighted rate of return is the IRR calculated using periodic cash flows into and out of an account and is the discount rate that makes the PV of cash inflows equal to the PV of cash outflows."
+    },
+    {
+      "type": "paragraph",
+      "text": "The time-weighted rate of return measures compound growth and is the rate at which money compounds over a specified performance horizon."
+    },
+    {
+      "type": "paragraph",
+      "text": "If funds are added to a portfolio just before a period of poor performance, the money-weighted return will be lower than the time-weighted return. If funds are added just before a period of high returns, the money-weighted return will be higher than the time-weighted return."
+    },
+    {
+      "type": "paragraph",
+      "text": "The time-weighted return is the preferred measure of a manager’s ability to select investments. If the manager controls the money flows into and out of an account, the money-weighted return is the more appropriate performance measure."
+    },
+    {
+      "type": "question",
+      "objectiveId": "1.d",
+      "text": "How do we calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interest rates and market returns are typically stated on an annualized basis:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{annualized~return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
+      "display": true,
+      "sourceAsset": "5864fa91d058bccfc1b3.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Given a holding period return, this is the associated continuously compounded return:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{R}_{\\mathrm{cc}}=\\ln( 1+\\mathrm{HPR} )=\\ln\\! \\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
+      "display": true,
+      "sourceAsset": "36a16e473d5428d00246.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "1.e",
+      "text": "How do we calculate and interpret major return measures and describe their appropriate uses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gross return is the total return after deducting commissions on trades and other costs necessary to generate the returns, but before deducting fees for the management and administration of the investment account. Net return is the return after management and administration fees have been deducted."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pretax nominal return is the numerical percentage return of an investment, without considering the effects of taxes and inflation. After-tax nominal return is the numerical return after the tax liability is deducted, without adjusting for inflation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Real return is the increase in an investor’s purchasing power, roughly equal to nominal return minus inflation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leveraged return is the gain or loss on an investment as a percentage of an investor’s cash investment."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "1.a",
+      "statement": "Interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk.",
+      "question": "How should we interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk?"
+    },
+    {
+      "id": "1.b",
+      "statement": "Calculate and interpret different approaches to return measurement over time and describe their appropriate uses.",
+      "question": "How do we calculate and interpret different approaches to return measurement over time and describe their appropriate uses?"
+    },
+    {
+      "id": "1.c",
+      "statement": "Compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures.",
+      "question": "How can we compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures?"
+    },
+    {
+      "id": "1.d",
+      "statement": "Calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses.",
+      "question": "How do we calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses?"
+    },
+    {
+      "id": "1.e",
+      "statement": "Calculate and interpret major return measures and describe their appropriate uses.",
+      "question": "How do we calculate and interpret major return measures and describe their appropriate uses?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-1-quiz-1",
+      "title": "Knowledge check 1.1",
+      "moduleId": "1.1",
+      "questions": [
+        {
+          "id": "r1-q1",
+          "number": 1,
+          "objectiveIds": [
+            "1.a"
+          ],
+          "prompt": "An interest rate is best interpreted as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "discount rate or a measure of risk."
+            },
+            {
+              "id": "B",
+              "text": "measure of risk or a required rate of return."
+            },
+            {
+              "id": "C",
+              "text": "required rate of return or the opportunity cost of consumption."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Interest rates can be interpreted as required rates of return, discount rates, or opportunity costs of current consumption. A risk premium can be, but is not always, a component of an interest rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Interest rates can be interpreted as required rates of return, discount rates, or"
+            },
+            {
+              "type": "paragraph",
+              "text": "opportunity costs of current consumption. A risk premium can be, but is not always, a component of an interest rate."
+            }
+          ]
+        },
+        {
+          "id": "r1-q2",
+          "number": 2,
+          "objectiveIds": [
+            "1.a"
+          ],
+          "prompt": "An interest rate from which the inflation premium has been subtracted is known as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "real interest rate."
+            },
+            {
+              "id": "B",
+              "text": "risk-free interest rate."
+            },
+            {
+              "id": "C",
+              "text": "real risk-free interest rate."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Real interest rates are those that have been adjusted for inflation.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Real interest rates are those that have been adjusted for inflation."
+            }
+          ]
+        },
+        {
+          "id": "r1-q3",
+          "number": 3,
+          "objectiveIds": [
+            "1.b"
+          ],
+          "prompt": "The harmonic mean of 3, 4, and 5 is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "3.74."
+            },
+            {
+              "id": "B",
+              "text": "3.83."
+            },
+            {
+              "id": "C",
+              "text": "4.12."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\overline{{{\\mathrm{X}}}}_{\\mathrm{H}}=\\frac{3} {\\frac{1} {3}+\\frac{1} {4}+\\frac{1} {5}}=3.83",
+              "display": true,
+              "sourceAsset": "3ec6268f12c7e133d611.png"
+            }
+          ]
+        },
+        {
+          "id": "r1-q4",
+          "number": 4,
+          "objectiveIds": [
+            "1.b"
+          ],
+          "prompt": "XYZ Corp. Annual Stock Returns The mean annual return on XYZ stock is most appropriately calculated using the:",
+          "supportingBlocks": [
+            {
+              "type": "image",
+              "src": "content/figures/f420d9455267c8f1a99b.png",
+              "alt": "Equation, table, or diagram: 4. XYZ Corp. Annual Stock Returns",
+              "width": 336,
+              "height": 47,
+              "visualKind": "diagram-chart-or-table"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "harmonic mean."
+            },
+            {
+              "id": "B",
+              "text": "arithmetic mean."
+            },
+            {
+              "id": "C",
+              "text": "geometric mean."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Because returns are compounded, the geometric mean is appropriate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because returns are compounded, the geometric mean is appropriate."
+            },
+            {
+              "type": "math",
+              "latex": "\\left[ ( 1.22 ) ( 1.05 ) ( 0.93 ) ( 1.11 ) ( 1.02 ) ( 1.11 ) \\right]^{1 / 6}-1=6.96^{\\circ} \\! \\! \\! /_{\\phi}",
+              "display": true,
+              "sourceAsset": "1c6c9f7e119b585d1830.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-1-quiz-2",
+      "title": "Knowledge check 1.2",
+      "moduleId": "1.2",
+      "questions": [
+        {
+          "id": "r1-q5",
+          "number": 1,
+          "objectiveIds": [
+            "1.c"
+          ],
+          "prompt": "An investor buys a share of stock for $40 at time t = 0, buys another share of the same stock for $50 at t = 1, and sells both shares for $60 each at t = 2. The stock paid a dividend of $1 per share at t = 1 and at t = 2. The periodic money-weighted rate of return on the investment is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "22.2%."
+            },
+            {
+              "id": "B",
+              "text": "23.0%."
+            },
+            {
+              "id": "C",
+              "text": "23.8%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Using the cash flow functions on your financial calculator, enter CF0 = −40; CF1 = −50 + 1 = −49; CF2 = 60 × 2 + 2 = 122; and CPT IRR = 23.82%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Using the cash flow functions on your financial calculator, enter CF0 = −40; CF1 ="
+            },
+            {
+              "type": "paragraph",
+              "text": "−50 + 1 = −49; CF2 = 60 × 2 + 2 = 122; and CPT IRR = 23.82%."
+            }
+          ]
+        },
+        {
+          "id": "r1-q6",
+          "number": 2,
+          "objectiveIds": [
+            "1.c"
+          ],
+          "prompt": "An investor buys a share of stock for $40 at time t = 0, buys another share of the same stock for $50 at t = 1, and sells both shares for $60 each at t = 2. The stock paid a dividend of $1 per share at t = 1 and at t = 2. The time-weighted rate of return on the investment for the period is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "24.7%."
+            },
+            {
+              "id": "B",
+              "text": "25.7%."
+            },
+            {
+              "id": "C",
+              "text": "26.8%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{HPR}_{1}=} & {{} \\frac{50+1} {40}-1=27.59_{6}} \\\\ {\\mathrm{HPR}_{2}=} & {{} \\frac{120+2} {100}-1=22.09_{6}} \\\\ \\end{aligned}\\\\[6pt]\\mathbf{2. A} \\, \\mathbf{\\dot{T} W R}=\\sqrt{( 1+0.275 ) ( 1+0.22 )}-1=24.7296\\end{gathered}",
+              "display": true,
+              "sourceAsset": "7960c885d7c1021a5ccf.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-1-quiz-3",
+      "title": "Knowledge check 1.3",
+      "moduleId": "1.3",
+      "questions": [
+        {
+          "id": "r1-q7",
+          "number": 1,
+          "objectiveIds": [
+            "1.d"
+          ],
+          "prompt": "If an investment loses 3% of its value over 120 days, its annualized return is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "−8.0%."
+            },
+            {
+              "id": "B",
+              "text": "−8.5%."
+            },
+            {
+              "id": "C",
+              "text": "−9.0%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Annualized return",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "(1-0.03)^{365/120}-1=-0.0885=-8.85\\%",
+              "display": true,
+              "sourceAsset": "6245af464970b5ba8a09.png",
+              "prose": "Annualized return"
+            }
+          ]
+        },
+        {
+          "id": "r1-q8",
+          "number": 2,
+          "objectiveIds": [
+            "1.d"
+          ],
+          "prompt": "If a stock’s initial price is $20 and its price increases to $23, its continuously compounded rate of return is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "13.64%."
+            },
+            {
+              "id": "B",
+              "text": "13.98%."
+            },
+            {
+              "id": "C",
+              "text": "15.00%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "ln (23/20) = 0.1398",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "ln (23/20) = 0.1398"
+            }
+          ]
+        },
+        {
+          "id": "r1-q9",
+          "number": 3,
+          "objectiveIds": [
+            "1.e"
+          ],
+          "prompt": "The value of an investment increases 5% before commissions and fees. This 5% increase represents:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the investment’s net return."
+            },
+            {
+              "id": "B",
+              "text": "the investment’s gross return."
+            },
+            {
+              "id": "C",
+              "text": "neither the investment’s gross return nor its net return."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Gross return is the total return after deducting commissions on trades and other costs necessary to generate the returns, but before deducting fees for the management and administration of the investment account. Net return is the return after management and administration fees have been deducted.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Gross return is the total return after deducting commissions on trades and other"
+            },
+            {
+              "type": "paragraph",
+              "text": "costs necessary to generate the returns, but before deducting fees for the management and administration of the investment account. Net return is the return after management and administration fees have been deducted."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

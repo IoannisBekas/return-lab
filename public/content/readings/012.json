@@ -1,0 +1,1211 @@
+{
+  "readingId": 12,
+  "title": "The Firm and Market Structures",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "12.1",
+      "title": "Breakeven, Shutdown, and Scale",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "12.a",
+          "text": "How do we determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In economics, we define the short run for a firm as the time period over which some factors of production are fixed. Typically, we assume that capital is fixed in the short run so that a firm cannot change its scale of operations (plant and equipment) over the short run. All factors of production (costs) are variable in the long run. The firm can let its leases expire and sell its equipment, thereby avoiding costs that are fixed in the short run."
+        },
+        {
+          "type": "heading",
+          "text": "Shutdown and Breakeven Under Perfect Competition"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a simple example of shutdown and breakeven analysis, consider a retail store with a one-year lease (fixed cost) and one employee (quasi-fixed cost), so that variable costs are simply the store’s cost of merchandise. If the total sales (total revenue) just cover both fixed and variable costs, price equals both average revenue and average total cost —so we are at the breakeven output quantity, and economic profit equals zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "During the period of the lease (the short run), as long as items are being sold for more than their variable cost, the store should continue to operate to minimize losses. If items are being sold for less than their average variable cost, losses would be reduced by shutting down the business in the short run."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the long run, a firm should shut down if the price is less than average total cost, regardless of the relation between price and average variable cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a firm under perfect competition (a price-taker), we can use a graph of cost functions to examine the profitability of the firm at different output prices. In Figure 12.1, at price P1, price and average revenue equal average total cost. At the output level of Point A, the firm is making an economic profit of zero. At a price above P1, economic profit is positive, and at prices less than P1, economic profit is negative (the firm has economic losses)."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.1: Shutdown and Breakeven"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b944e55e4e9c6c186e17.png",
+          "alt": "Equation, table, or diagram: Figure 12.1: Shutdown and Breakeven",
+          "width": 348,
+          "height": 192,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because some costs are fixed in the short run, it will be better for the firm to continue production in the short run as long as average revenue is greater than average variable costs. At prices between P1 and P2 in Figure 12.1, the firm has losses, but the losses are smaller than would occur if all production were stopped. As long as total revenue is greater than total variable cost, at least some of the firm’s fixed costs are covered by continuing to produce and sell its product. If the firm were to shut down, losses would be equal to the fixed costs that still must be paid. As long as price is greater than average variable costs, the firm will minimize its losses in the short run by continuing in business."
+        },
+        {
+          "type": "paragraph",
+          "text": "If average revenue is less than average variable cost, the firm’s losses are greater than its fixed costs, and it will minimize its losses by shutting down production in the short run. In this case (a price less than P2 in Figure 12.1), the loss from continuing to operate is greater than the loss (total fixed costs) if the firm is shut down."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the long run, all costs are variable, so a firm can avoid its (short-run) fixed costs by shutting down. For this reason, if price is expected to remain below minimum average total cost (Point A in Figure 12.1) in the long run, the firm will shut down rather than continue to generate losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "To sum up, if average revenue is less than average variable cost in the short run, the firm should shut down. This is its short-run shutdown point. If average revenue is greater than average variable cost in the short run, the firm should continue to operate, even if it has losses. In the long run, the firm should shut down if average revenue is less than average total cost. This is the long-run shutdown point. If average revenue is just equal to average total cost, total revenue is just equal to total (economic) cost, and this is the firm’s breakeven point."
+        },
+        {
+          "type": "paragraph",
+          "text": "If AR ≥ ATC, the firm should stay in the market in both the short and long run."
+        },
+        {
+          "type": "paragraph",
+          "text": "If AR ≥ AVC, but AR < ATC, the firm should stay in the market in the short run but will exit the market in the long run. If AR < AVC, the firm should shut down in the short run and exit the market in the long run."
+        },
+        {
+          "type": "heading",
+          "text": "Shutdown and Breakeven Under Imperfect Competition"
+        },
+        {
+          "type": "paragraph",
+          "text": "For price-searcher firms (those that face downward-sloping demand curves), we could compare average revenue to ATC and AVC, just as we did for price-taker firms, to identify shutdown and breakeven points. However, marginal revenue is no longer equal to price."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can, however, still identify the conditions under which a firm is breaking even, should shut down in the short run, and should shut down in the long run in terms of total costs and total revenue. These conditions are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "TR = TC: break even TC > TR > TVC: firm should continue to operate in the short run but shut down in the long run TR < TVC: firm should shut down in the short run and the long run"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because price does not equal marginal revenue for a firm in imperfect competition, analysis based on total costs and revenues is better suited for examining breakeven and shutdown points."
+        },
+        {
+          "type": "paragraph",
+          "text": "The previously described relations hold for both price-taker and price-searcher firms. We illustrate these relations in Figure 12.2 for a price-taker firm (TR increases at a constant rate with quantity). Total cost equals total revenue at the breakeven quantities QBE1 and QBE2. The quantity for which economic profit is maximized is shown as Qmax."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.2: Breakeven Point Using the Total Revenue/Total Cost Approach"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4e752c6e7bf5691839bc.png",
+          "alt": "Equation, table, or diagram: Figure 12.2: Breakeven Point Using the Total Revenue/Total Cost Approach",
+          "width": 311,
+          "height": 243,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the entire TC curve exceeds TR (i.e., no breakeven point), the firm will want to minimize the economic loss in the short run by operating at the quantity corresponding to the smallest (negative) value of TR − TC."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Short-run shutdown decision"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the last fiscal year, Legion Gaming reported total revenue of $700,000, total variable costs of $800,000, and total fixed costs of $400,000. Should the firm continue to operate in the short run?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The firm should shut down. Total revenue of $700,000 is less than total costs of $1,200,000, and it is also less than total variable costs of $800,000. By shutting down, the firm will lose an amount equal to fixed costs of $400,000. This is less than the loss of operating, which is TR − TC = $500,000."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Long-run shutdown decision"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose, instead, that Legion Gaming reported total revenue of $850,000. Should the firm continue to operate in the short run? Should it continue to operate in the long run?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the short run, TR > TVC, and the firm should continue operating. The firm should consider exiting the market in the long run, as TR is not sufficient to cover all of the fixed costs and variable costs."
+        },
+        {
+          "type": "heading",
+          "text": "Economies and Diseconomies of Scale"
+        },
+        {
+          "type": "paragraph",
+          "text": "While plant size is fixed in the short run, in the long run, firms can choose their most profitable scale of operations. Because the long-run average total cost (LRATC) curve is drawn for many different plant sizes or scales of operation, each point along the curve represents the minimum ATC for a given plant size or scale of operations. In Figure 12.3, we show a firm’s LRATC curve along with short-run average total cost (SRATC) curves for many different plant sizes, with SRATCn+1 representing a larger scale of operations than SRATCn."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.3: Economies and Diseconomies of Scale"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/abde5c4cb1ee91e8bb8f.png",
+          "alt": "Equation, table, or diagram: Figure 12.3: Economies and Diseconomies of Scale",
+          "width": 493,
+          "height": 265,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "We draw the LRATC curve as U-shaped. Average total costs first decrease with larger scale, but eventually begin to increase with larger scale. The lowest point on the LRATC corresponds to the scale or plant size at which the average total cost of production is at a minimum. This scale is sometimes called the minimum efficient scale. Under perfect"
+        },
+        {
+          "type": "paragraph",
+          "text": "competition, firms must operate at minimum efficient scale in long-run equilibrium, and LRATC will equal the market price. Recall that under perfect competition, firms earn zero economic profit in long-run equilibrium. Firms that have chosen a different scale of operations with higher average total costs will have economic losses and must either leave the industry or change to the minimum efficient scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "The downward-sloping segment of the LRATC curve presented in Figure 12.3 indicates that economies of scale (or increasing returns to scale) are present. Economies of scale result from factors such as labor specialization, mass production, and investment in more efficient equipment and technology. In addition, the firm may be able to negotiate lower input prices with suppliers as it increases in size and purchases more resources. A firm operating with economies of scale can increase its competitiveness by expanding production and reducing costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The upward-sloping segment of the LRATC curve indicates that diseconomies of scale are present. Diseconomies of scale may result as the increasing bureaucracy of larger firms leads to inefficiency, problems with motivating a larger workforce, and greater barriers to innovation and entrepreneurial activity. A firm operating under diseconomies of scale will want to decrease output and move back toward the minimum efficient scale. The U.S. auto industry is an example of an industry that has exhibited diseconomies of scale."
+        },
+        {
+          "type": "paragraph",
+          "text": "There may be a relatively flat portion at the bottom of the LRATC curve that exhibits constant returns to scale, or relatively constant costs across a range of plant sizes."
+        }
+      ]
+    },
+    {
+      "id": "12.2",
+      "title": "Characteristics of Market Structures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "12.b",
+          "text": "What should we know about characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from the prerequisite readings that perfect competition results in firm demand that is horizontal (perfectly elastic) at the market price. The firm demand curves for the three other market structures we discuss are all downward sloping. When a firm’s demand curve slopes downward, marginal revenue (MR) is less than price. For both horizontal and downward-sloping demand curves, a firm will maximize profits by producing the quantity for which MR is just equal to marginal cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "While it may not be true in every case, it may be useful to think of firms under pure monopoly as having the steepest demand curves. Firms under monopolistic competition typically have relatively elastic downward-sloping demand curves, while firms in an oligopoly market will face downward-sloping demand curves somewhere between these two extremes."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can analyze where a market falls along the spectrum from perfect competition to pure monopoly by examining five factors:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Number of firms and their relative sizes\n2. Degree to which firms differentiate their products"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Bargaining power of firms with respect to pricing\n4. Barriers to entry into or exit from the industry\n5. Degree to which firms compete on factors other than price"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perfect competition refers to a market in which many firms produce identical products, barriers to entry into the market are very low, and firms compete for sales only on the basis of price. Firms face perfectly elastic (horizontal) demand curves at the price determined in the market because no firm has a large enough portion of the overall market to affect the market price of the good. The market for wheat in a region is a good approximation of such a market. Overall market supply and demand determine the price of wheat, and each producer can sell all that they choose to at that price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monopolistic competition differs from perfect competition in that products are not identical. Each firm differentiates its product(s) from those of other firms through some combination of differences in product quality, product features, and marketing. The demand curve faced by each firm is downward sloping (i.e., neither perfectly elastic nor perfectly inelastic). Prices that producers charge are not identical because of perceived differences among their products, and typically, barriers to entry are low. The market for toothpaste is a good example of monopolistic competition. Firms differentiate their products through features and marketing with claims of more attractiveness, whiter teeth, fresher breath, and even actually cleaning your teeth and preventing decay. If the price of your personal favorite increases, you are not likely to immediately switch to"
+        },
+        {
+          "type": "paragraph",
+          "text": "another brand as we assume under perfect competition. Some customers may switch brands in response to a 10% increase in price, and some may not. This is why firm demand is downward sloping rather than perfectly elastic."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most important characteristic of an oligopoly market is that only a few firms are in the industry. In such a market, each firm must consider the actions and responses of other firms in setting price and business strategy. We say that such firms are interdependent. While the firms’ products are typically good substitutes for each other, they may be either quite similar or differentiated through features, branding, marketing, and quality. Barriers to entry are typically high, often because of economies of scale in production or marketing, which accounts for the existence of a small number of firms with relatively large market shares. Demand can be more or less elastic than for firms in monopolistic competition. The automobile market is dominated by a small number of large firms and can be characterized as an oligopoly. The product and pricing decisions of Toyota certainly affect those of Ford, and vice versa. Automobile makers compete based on price, but they also compete through marketing, product features, and quality, which are often signaled strongly through the brand name. The oil industry also has a few firms with large market shares, but their products are, in most cases, good substitutes for each other."
+        },
+        {
+          "type": "paragraph",
+          "text": "A monopoly market is characterized by a single seller of a product with no good substitutes. This fact alone means that the firm faces a downward-sloping demand curve (the market demand curve) and has the power to choose the price at which it sells its product. High barriers to entry protect a monopoly producer from competition. One source of monopoly power is the protection offered by copyrights and patents. Another possible source of monopoly power is control over a resource specifically needed to produce the product. Most frequently, monopoly power is supported by specific laws or government regulation (e.g., a local electric utility)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 12.4 shows the key features of each market structure."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.4: Characteristics of Market Structures"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/ee24809342f1814b5faa.png",
+          "alt": "Equation, table, or diagram: Figure 12.4: Characteristics of Market Structures",
+          "width": 536,
+          "height": 252,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "12.c",
+          "text": "How can we explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing?"
+        },
+        {
+          "type": "heading",
+          "text": "strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monopolistic competition has the following market characteristics:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A large number of independent sellers. (1) Each firm has a relatively small market share, so no individual firm has any significant power over price. (2) Firms only need to pay attention to average market price, not the prices of individual competitors. (3) There are too many firms in the industry for collusion (price-fixing) to be possible. Differentiated products. Each producer has a product that is, in some way, different from those of its competitors (in the minds of consumers). The competing products are considered close substitutes for one another. Firms compete less on price and more on marketing, perceived quality, and differences in features. Firms must make price and output decisions because they face downward-sloping demand curves. Low barriers to entry. The cost of entering the market and exiting the market are relatively low."
+        },
+        {
+          "type": "paragraph",
+          "text": "Think about the market for toothpaste. Brands of toothpaste are quite similar, and it is reasonable to assume that toothpaste is not too difficult or costly to produce. But brands are differentiated based on specific features, on influential advertising and marketing, and on the reputations of the producers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The price/output decision for monopolistic competition is illustrated in Figure 12.5. Panel A of Figure 12.5 illustrates the short-run price/output characteristics of monopolistic competition for a single firm. As indicated, firms in monopolistic competition maximize economic profits by producing where marginal revenue (MR) equals marginal cost (MC), and by charging the price for that quantity from the demand curve, D. Here, the firm earns positive economic profits because price, P*, exceeds average total cost, ATC*. Due to low barriers to entry, competitors can enter the market in pursuit of these economic profits."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.5: Characteristics of Market Structures"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/1e03e995e853f2a4c920.png",
+          "alt": "Equation, table, or diagram: Figure 12.5: Characteristics of Market Structures",
+          "width": 472,
+          "height": 218,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Panel B of Figure 12.5 illustrates long-run equilibrium for a representative firm after new firms have entered the market. As indicated, the entry of new firms shifts the demand curve faced by each individual firm down to the point where price equals average total cost (P* = ATC*), such that economic profit is zero. At this point, there is"
+        },
+        {
+          "type": "paragraph",
+          "text": "no longer an incentive for new firms to enter the market, and long-run market equilibrium is established. A firm in monopolistic competition continues to produce at the quantity where MR = MC, but it no longer earns positive economic profits. We can get to a similar long-run equilibrium even without entry of new firms if each firm increases its marketing spending (a component of ATC) to either increase or defend its market share until ATC has increased to that shown in Panel B. If all firms compete in this way, each firm will produce Q* and sell at P* but earn no economic profit because marketing costs have increased ATC to ATC*, which is equal to price. Advertising expenses are often relatively high for firms in monopolistic competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 12.6 illustrates the differences between long-run equilibrium in markets with monopolistic competition and markets with perfect competition. Note that with monopolistic competition, price is greater than MC (i.e., producers can realize an economic profit), average total cost is not at a minimum for the quantity produced (suggesting excess capacity, or an inefficient scale of production), and the price is slightly higher than under perfect competition. The point to consider here, however, is that perfect competition is characterized by no product differentiation. The question of the efficiency of monopolistic competition becomes, “Is there an economically efficient amount of product differentiation?”"
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.6: Firm Output Under Monopolistic and Perfect Competition"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4015f5270826986c79d6.png",
+          "alt": "Equation, table, or diagram: Figure 12.6: Firm Output Under Monopolistic and Perfect Competition",
+          "width": 447,
+          "height": 199,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a world with only one brand of toothpaste, clearly, average production costs would be lower. That fact alone probably does not mean that a world with only one brand or type of toothpaste would be a better world. While product differentiation has costs, it also has benefits to consumers. Consider the market for a pharmaceutical that reduces blood pressure to prolong life. There may be several competing drugs that are more or less effective for, or well or poorly tolerated by, different groups of patients. In this case, we may find that firm demand curves are relatively steep compared to those for brands of toothpaste, indicating that the competing drugs are not considered good substitutes for many patients."
+        },
+        {
+          "type": "question",
+          "objectiveId": "12.d",
+          "text": "How can we explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to monopolistic competition, an oligopoly market has higher barriers to entry and fewer firms. The other key difference is that the firms are interdependent; a"
+        },
+        {
+          "type": "paragraph",
+          "text": "price change by one firm can be expected to be met by a price change by its competitors in response. This means that the actions of another firm will directly affect a given firm’s demand curve for the product. Given this complicating fact, models of oligopoly pricing and profits must make numerous important assumptions. In the following, we describe four of these models and their implications for price and quantity:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Kinked demand curve model\n2. Cournot duopoly model"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Nash equilibrium model\n4. Stackelberg dominant firm model"
+        },
+        {
+          "type": "paragraph",
+          "text": "One traditional model of oligopoly, the kinked demand curve model, is based on the assumption that competitors are unlikely to match a price increase by a competitor, but very likely to match a price decrease by a competitor. This results in a kink in the demand curves faced by each producer, at the current market price. Each firm believes that it faces a demand curve that is more elastic (flatter) above the current price (the kink in the demand curve) than it is below the given price. The kinked demand curve model is illustrated in Figure 12.7. The kink price is at price PK, where a firm produces QK. A firm believes that if it raises its price above PK, its competitors will remain at PK, and it will lose market share because it has the highest price. Above PK, the demand curve is considered to be relatively elastic (i.e., a small price increase will result in a large decrease in demand). On the other hand, if a firm decreases its price below PK, other firms will match the price cut, and all firms will experience a relatively small increase in sales relative to any price reduction. Therefore, QK is the profit-maximizing level of output."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.7: Kinked Demand Curve Model"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/519ffb7b5d0e37f9640d.png",
+          "alt": "Equation, table, or diagram: Figure 12.7: Kinked Demand Curve Model",
+          "width": 317,
+          "height": 225,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "With a kink in the demand curve, we also get a gap in the associated MR curve, as shown in Figure 12.8. For any firm with a MC curve passing through this gap, the price where the kink is located is the firm’s profit-maximizing price."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.8: Marginal Revenue With Kinked Demand Curve"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/75fa5c08f42a1f1146e8.png",
+          "alt": "Equation, table, or diagram: Figure 12.8: Marginal Revenue With Kinked Demand Curve",
+          "width": 517,
+          "height": 320,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "We say that the decisions of firms in an oligopoly are interdependent; that is, the pricing decision of one firm depends on the pricing decisions of other firms. Some models of market price equilibrium have a set of rules for the actions of oligopolists. These rules assume they choose prices based on the choices of the other firms. By specifying the decision rules that each firm follows, we can design a model that allows us to determine the equilibrium prices and quantities for firms operating in an oligopoly market."
+        },
+        {
+          "type": "paragraph",
+          "text": "An early model of oligopoly pricing decisions is the Cournot model. In Cournot’s duopoly model, two firms with identical MC curves each choose their preferred selling price based on the price the other firm chose in the previous period. Firms assume that the competitor’s price will not change. The long-run equilibrium for an oligopoly with two firms (duopoly), in the Cournot model, is for both firms to sell the same quantity, dividing the market equally at the equilibrium price. The equilibrium price is less than the price that a single monopolist would charge, but greater than the equilibrium price that would result under perfect competition. With a greater number of producers, the long-run market equilibrium price moves toward the competitive price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another model, the Stackelberg model, uses a different set of rules and produces a different result. While the Cournot model assumes the competitors choose price simultaneously each period, the Stackelberg model assumes pricing decisions are made sequentially. One firm, the “leader,” chooses its price first, and the other firm chooses a price based on the leader’s price. In long-run equilibrium, under these rules, the leader charges a higher price and receives a greater proportion of the firms’ total profits."
+        },
+        {
+          "type": "paragraph",
+          "text": "These models are early versions of rules-based models, which fall under the heading of what are now generally termed strategic games. Strategic games comprise decision models in which the best choice for a firm depends on the expected actions (reactions) of other firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "A more general model of strategic games was developed by Nobel Prize winner John Nash, who developed the concept of a Nash equilibrium. A Nash equilibrium is reached when the choices of all firms are such that there is no other choice that makes any firm better off (increases profits or decreases losses). The Cournot model results in a Nash equilibrium. In equilibrium, neither competitor can increase profits by changing the price they charge."
+        },
+        {
+          "type": "paragraph",
+          "text": "The concept of a Nash equilibrium can be illustrated with the situation presented in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 12.9, which shows the choices and resulting profits for two firms. Each firm can charge either a high price or a low price. If both firms charge a high price, Firm A earns 1,000 and Firm B earns 600. While Firm A would not charge the low price (it would earn less regardless of Firm B’s decision), Firm B can increase profits to 700 by charging a low price. With Firm A charging a high price and Firm B charging a low price, neither firm can increase profits by unilaterally changing its price strategy. Thus, we can identify the Nash equilibrium in this scenario as Firm B charging a low price and Firm A charging a high price."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.9: Nash Equilibrium"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9bb58cab42a7d9df27ac.png",
+          "alt": "Equation, table, or diagram: Figure 12.9: Nash Equilibrium",
+          "width": 403,
+          "height": 115,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus far, we have assumed that firms act competitively to maximize their individual profits. We can illustrate the potential of cooperative behavior among producers to increase the total profits of all firms in the market. Collusion refers to competitors making a joint agreement to charge a given price—or, alternatively, to agree to specific levels of output. In Figure 12.9, the greatest joint profits (1,600) are earned when both firms charge a high price. If Firm A offers to pay Firm B 200 for charging a high price, Firm A’s profits increase from 600 to 1,000. After paying 200 to Firm B, Firm A still gains 200. Firm B’s profits (including the payment of 200) increase from 700 to 800. Collusion, in this case, increases the profits of both firms, compared to the Nash equilibrium. If firms can enter into and enforce an agreement regarding pricing and output, often they can all benefit. Such agreements among producers are illegal in many countries because they reduce competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "An example of a collusive agreement is the OPEC cartel. Cartel-member countries agree to restrict their oil production to increase the world price of oil. Members sometimes choose to “cheat” on the cartel agreement by producing more than the amount of oil they have agreed to produce. If members of a cartel do not adhere to the agreement (taking advantage of the higher market price but failing to restrict output to the agreed-upon amount), the agreement can quickly break down."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, collusive agreements to increase price in an oligopoly market will be more successful (have less cheating) under the following conditions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are fewer firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Products are more similar (less differentiated). Cost structures are more similar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Purchases are relatively small and frequent. Retaliation by other firms for cheating is more certain and more severe."
+        },
+        {
+          "type": "paragraph",
+          "text": "There is less actual or potential competition from firms outside the cartel."
+        },
+        {
+          "type": "paragraph",
+          "text": "A final model of oligopoly behavior to consider is the dominant firm model. In this model, a single firm has a significantly large market share because of its greater scale and lower cost structure—the dominant firm (DF). In such a model, the market price is essentially determined by the DF, and the other competitive firms (CFs) take this market price as given."
+        },
+        {
+          "type": "paragraph",
+          "text": "The DF believes that the quantity supplied by the other firms decreases at lower prices, so that the DF’s demand curve is related to the market demand curve, as shown in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 12.10. Based on this demand curve (DDF) and its associated marginal revenue (MRDF) curve, the firm will maximize profits at a price of P*. The CFs maximize profits by producing the quantity for which their marginal cost (MCCF) equals P*, quantity QCF."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.10: Dominant Firm Oligopoly"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/8f9111240bfabae88740.png",
+          "alt": "Equation, table, or diagram: Figure 12.10: Dominant Firm Oligopoly",
+          "width": 492,
+          "height": 322,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A price decrease by one of the CFs, which increases QCF in the short run, will lead to a decrease in price by the DF, and CFs will decrease output or exit the industry in the long run. The long-run result of such a price decrease by competitors below P* would then be to decrease the overall market share of competitor firms and increase the market share of the DF."
+        },
+        {
+          "type": "paragraph",
+          "text": "Clearly, oligopoly markets exhibit many possible outcomes that depend on the characteristics of the firms and of the market itself. The important point is that the firms’ decisions are interdependent so that the expected reactions of other firms are an important consideration. Overall, the resulting price will be somewhere between the"
+        },
+        {
+          "type": "paragraph",
+          "text": "price based on perfect collusion that would maximize total profits to all firms in the market (which is actually the monopoly price), and the price that would result from perfect competition and generate zero economic profits in the long run. These two limiting outcomes are illustrated in Figure 12.11 as Pcollusion with Qcollusion for perfect collusion, and Pcompetition and Qcompetition for perfect competition."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.11: Collusion vs. Perfect Competition"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b75d144111f7833fae2c.png",
+          "alt": "Equation, table, or diagram: Figure 12.11: Collusion vs. Perfect Competition",
+          "width": 490,
+          "height": 323,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    },
+    {
+      "id": "12.3",
+      "title": "Identifying Market Structures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "12.e",
+          "text": "How can we identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use the characteristics we outlined earlier to identify the type of market structure within which a firm is operating. Our earlier table is repeated here in Figure 12.12. For an analyst attempting to determine the degree of pricing power that firms in the industry have, the focus is on the number of firms in the industry, its barriers to entry, the nature of substitute products, and the nature of industry competition. Significant interdependence among firm pricing and output decisions is a characteristic of all oligopoly markets, although some interdependence may be present under monopolistic competition—even with many more firms than for an oligopoly structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following table illustrates the differences in characteristics among the various market structures."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 12.12: Characteristics of Market Structures"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fc4be2a57f8069b508ea.png",
+          "alt": "Equation, table, or diagram: Figure 12.12: Characteristics of Market Structures",
+          "width": 535,
+          "height": 253,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the differences in cost structures, suitability of substitutes, and the degree of differentiation, simply classifying the primary characteristics of a market does not tell us the degree of pricing power for individual firms or the magnitude of the difference between market prices and the prices implied by perfect competition. What we would really like (especially for the regulation of markets) is to be able to measure the elasticity of firm demand directly, but that is difficult and subject to estimation error."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consequently, regulators often use market shares (percentages of market sales) to measure the degree of monopoly or market power of firms in an industry. Often, mergers or acquisitions of companies in the same industry or market are not permitted by government authorities when they determine that the market share of the combined firms will be too high and, therefore, detrimental to the economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Market or industry concentration measures are often used as an indicator of market power. One concentration measure is the N-firm concentration ratio, which is calculated as the sum of the percentage market shares of the largest N firms in a market. While this measure is simple to calculate and understand, it does not directly measure market power or elasticity of demand."
+        },
+        {
+          "type": "paragraph",
+          "text": "One limitation of the N-firm concentration ratio is that it may be relatively insensitive to mergers of firms within an industry. This problem is reduced by using an alternative measure of market concentration, the Herfindahl-Hirschman Index (HHI). The HHI is calculated as the sum of the squares of the market shares of the largest firms in the market. The following example illustrates this difference between the two measures and their calculation."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: 4-firm concentration ratio and 4-firm HHI"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the market shares of the following firms, calculate the 4-firm concentration ratio and the 4-firm HHI, both before and after a merger of Acme and Blake."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c c} \\hline{\\begin{array} {c c c} {\\mathrm{Firm}} & {\\qquad} & {\\mathrm{Market~Share}} \\\\ \\hline{\\mathrm{Acme}} & {\\qquad} & {25 \\%_{6}} \\\\ {\\mathrm{Blake}} & {\\qquad} & {15 \\%_{6}} \\\\ {\\mathrm{Curtis}} & {\\qquad} & {15 \\%_{6}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{Dent} \\qquad}} & {{\\qquad\\qquad10 \\ \\%_{0}}} \\\\ {{\\mathrm{Erie} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\\\ {{\\mathrm{Federal} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "6ac72c7dd404fa6b9475.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the merger, the 4-firm concentration ratio for the market is 25 + 15 + 15 + 10 = 65%. After the merger, the Acme + Blake firm has 40% of the market, and the 4-firm concentration ratio is 40 + 15 + 10 + 5 = 70%. Although the 4-firm concentration ratio has only increased slightly, the market power of the largest firm in the industry has increased significantly, from 25% to 40%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the merger, the 4-firm HHI is 0.25² + 0.15² + 0.15² + 0.10² = 0.1175."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the merger, the 4-firm HHI is 0.40² + 0.15² + 0.10² + 0.05² = 0.1950, a significant increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "A limitation that applies to both of our simple concentration measures is that barriers to entry are not considered in either case. Even a firm with high market share may not have much pricing power if barriers to entry are low and there is potential competition. With low barriers to entry, it may be the case that other firms stand ready to enter the market if firms currently in the market attempt to increase prices significantly. In this case, the elasticity of demand for existing firms may be high, even though they have relatively high market shares and industry concentration measures."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "12.a",
+      "text": "How do we determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The breakeven quantity of production is the quantity for which price (P) = average total cost (ATC), and total revenue (TR) = total cost (TC)."
+    },
+    {
+      "type": "paragraph",
+      "text": "A firm should shut down in the long run if P < ATC so that TR < TC. A firm should shut down in the short run (and the long run) if P < average variable cost (AVC) so that TR < total variable cost (TVC)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The long-run average total cost (LRATC) curve shows the minimum average total cost for each level of output, assuming that the plant size (scale of the firm) can be adjusted. A downward-sloping segment of an LRATC curve indicates economies of scale (increasing returns to scale). Over such a segment, increasing the scale of the firm reduces ATC. An upward-sloping segment of an LRATC curve indicates diseconomies of scale, where average unit costs will rise as the scale of the business (and long-run output) increases."
+    },
+    {
+      "type": "question",
+      "objectiveId": "12.b",
+      "text": "What should we know about characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Perfect competition is characterized by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many firms, each small relative to the market Very low barriers to entry into or exit from the industry Homogeneous products that are perfect substitutes; no advertising or branding"
+    },
+    {
+      "type": "paragraph",
+      "text": "No pricing power"
+    },
+    {
+      "type": "paragraph",
+      "text": "Monopoly is characterized by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "A single firm that comprises the whole market Very high barriers to entry into or exit from the industry Advertising used to compete with substitute products"
+    },
+    {
+      "type": "paragraph",
+      "text": "Significant pricing power"
+    },
+    {
+      "type": "paragraph",
+      "text": "Monopolistic competition is characterized by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Many firms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Low barriers to entry into or exit from the industry Differentiated products; heavy advertising and marketing expenditure"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some pricing power"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oligopoly markets are characterized by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Few sellers High barriers to entry into or exit from the industry"
+    },
+    {
+      "type": "paragraph",
+      "text": "Products that may be homogeneous or differentiated by branding and advertising Firms that may have significant pricing power"
+    },
+    {
+      "type": "question",
+      "objectiveId": "12.c",
+      "text": "How can we explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under monopolistic competition, firms face downward-sloping demand curves so that marginal revenue is less than price, and the price from the demand curve at the profit-maximizing quantity is the price at the optimal (profit-maximizing) level of output. Resources expended on product differentiation may increase ATC so that there are no economic profits at long-run equilibrium. There is no well-defined firm supply curve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Monopolistic competition:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Price > marginal revenue = marginal cost (in equilibrium) Zero economic profit in long-run equilibrium"
+    },
+    {
+      "type": "question",
+      "objectiveId": "12.d",
+      "text": "How can we explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under oligopoly, the pricing strategy is not clear. Because firm decisions are interdependent, the optimal pricing and output strategy depends on assumptions made about other firms’ cost structures and about competitors’ responses to a firm’s price changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Models of oligopoly pricing include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cournot. Firms with a given MC that make pricing decisions simultaneously share the market equally in LR equilibrium."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stackelberg. When firm pricing decisions are sequential, the first firm to set its price (price leader) will maintain a larger share of the market, even in the long run."
+    },
+    {
+      "type": "paragraph",
+      "text": "Dominant firm. A firm with a significantly lower cost of production will gain a disproportionate share of the market and essentially set the price that other competitors can charge."
+    },
+    {
+      "type": "paragraph",
+      "text": "In general, in the absence of collusion, the long-run oligopoly equilibrium is Nash equilibrium, one in which no competitor can unilaterally change price to increase its profits. There is no well-defined firm supply curve."
+    },
+    {
+      "type": "paragraph",
+      "text": "Oligopoly:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Price > marginal revenue = marginal cost (in equilibrium)"
+    },
+    {
+      "type": "paragraph",
+      "text": "May have positive economic profit in long-run equilibrium, but may move toward zero economic profit over time"
+    },
+    {
+      "type": "question",
+      "objectiveId": "12.e",
+      "text": "How can we identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures?"
+    },
+    {
+      "type": "paragraph",
+      "text": "To identify the market structure in which a firm is operating, we can examine the number of firms in its industry, the prevalence of nonprice competition, and barriers to entry, then compare these to the characteristics that define each market structure. However, none of this provides us with the elasticity of firm demand."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because direct estimation of the elasticity of firm demand is statistically difficult and imprecise, industry concentration measures are often used as a proxy for the degree of competition. A concentration ratio for N firms is calculated as the percentage of market sales accounted for by the N largest firms in the industry and is used as a simple measure of market structure and market power."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Herfindahl-Hirschman Index measure of concentration is calculated as the sum of the squared market shares of the largest N firms in an industry and better reflects the effect of mergers on industry concentration."
+    },
+    {
+      "type": "paragraph",
+      "text": "Neither measure indicates market power directly. Both can be misleading when potential competition restricts pricing power."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "12.a",
+      "statement": "Determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition.",
+      "question": "How do we determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition?"
+    },
+    {
+      "id": "12.b",
+      "statement": "Describe characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly.",
+      "question": "What should we know about characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly?"
+    },
+    {
+      "id": "12.c",
+      "statement": "Explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing",
+      "question": "How can we explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing?"
+    },
+    {
+      "id": "12.d",
+      "statement": "Explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy.",
+      "question": "How can we explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy?"
+    },
+    {
+      "id": "12.e",
+      "statement": "Identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures.",
+      "question": "How can we identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-12-quiz-1",
+      "title": "Knowledge check 12.1",
+      "moduleId": "12.1",
+      "questions": [
+        {
+          "id": "r12-q1",
+          "number": 1,
+          "objectiveIds": [
+            "12.a"
+          ],
+          "prompt": "In a purely competitive market, economic losses indicate that:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "price is below average total costs."
+            },
+            {
+              "id": "B",
+              "text": "collusion is occurring in the marketplace."
+            },
+            {
+              "id": "C",
+              "text": "firms need to expand output to reduce costs."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In a purely competitive market, economic losses indicate that firms are overproducing, causing prices to fall below average total costs. This can occur in the short run. In the long run, however, market supply will decrease as firms exit the industry, and prices will rise to the point where economic profits are zero.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a purely competitive market, economic losses indicate that firms are"
+            },
+            {
+              "type": "paragraph",
+              "text": "overproducing, causing prices to fall below average total costs. This can occur in the short run. In the long run, however, market supply will decrease as firms exit the industry, and prices will rise to the point where economic profits are zero."
+            }
+          ]
+        },
+        {
+          "id": "r12-q2",
+          "number": 2,
+          "objectiveIds": [
+            "12.a"
+          ],
+          "prompt": "A firm is likely to operate in the short run as long as price is at least as great as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "marginal cost."
+            },
+            {
+              "id": "B",
+              "text": "average total cost."
+            },
+            {
+              "id": "C",
+              "text": "average variable cost."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "If price is greater than average variable cost, a firm will continue to operate in the short run because it is covering at least some of its fixed costs.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If price is greater than average variable cost, a firm will continue to operate in the"
+            },
+            {
+              "type": "paragraph",
+              "text": "short run because it is covering at least some of its fixed costs."
+            }
+          ]
+        },
+        {
+          "id": "r12-q3",
+          "number": 3,
+          "objectiveIds": [
+            "12.a"
+          ],
+          "prompt": "A firm’s average revenue is greater than its average variable cost and less than its average total cost. If this situation is expected to persist, the firm should:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "shut down in the short run and in the long run."
+            },
+            {
+              "id": "B",
+              "text": "shut down in the short run, but operate in the long run."
+            },
+            {
+              "id": "C",
+              "text": "operate in the short run, but shut down in the long run."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "If a firm is generating sufficient revenue to cover its variable costs and part of its fixed costs, it should continue to operate in the short run. If average revenue is likely to remain below average total costs in the long run, the firm should shut down.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If a firm is generating sufficient revenue to cover its variable costs and part of its"
+            },
+            {
+              "type": "paragraph",
+              "text": "fixed costs, it should continue to operate in the short run. If average revenue is likely to remain below average total costs in the long run, the firm should shut down."
+            }
+          ]
+        },
+        {
+          "id": "r12-q4",
+          "number": 4,
+          "objectiveIds": [
+            "12.a"
+          ],
+          "prompt": "If a firm increases its plant size by 10% and its minimum average total cost increases by 10%, the firm is experiencing:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "constant returns to scale."
+            },
+            {
+              "id": "B",
+              "text": "diseconomies of scale."
+            },
+            {
+              "id": "C",
+              "text": "economies of scale."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If minimum average total costs increase as plant size is increased, the firm is experiencing diseconomies of scale.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If minimum average total costs increase as plant size is increased, the firm is"
+            },
+            {
+              "type": "paragraph",
+              "text": "experiencing diseconomies of scale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-12-quiz-2",
+      "title": "Knowledge check 12.2",
+      "moduleId": "12.2",
+      "questions": [
+        {
+          "id": "r12-q5",
+          "number": 1,
+          "objectiveIds": [
+            "12.c"
+          ],
+          "prompt": "The demand for products from monopolistic competitors is relatively elastic due to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "high barriers to entry."
+            },
+            {
+              "id": "B",
+              "text": "the availability of many close substitutes."
+            },
+            {
+              "id": "C",
+              "text": "the availability of many complementary goods."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The demand for products from firms competing in monopolistic competition is relatively elastic due to the availability of many close substitutes. If a firm increases its product price, it will lose customers to firms selling substitute products at lower prices.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The demand for products from firms competing in monopolistic competition is"
+            },
+            {
+              "type": "paragraph",
+              "text": "relatively elastic due to the availability of many close substitutes. If a firm increases its product price, it will lose customers to firms selling substitute products at lower prices."
+            }
+          ]
+        },
+        {
+          "id": "r12-q6",
+          "number": 2,
+          "objectiveIds": [
+            "12.c"
+          ],
+          "prompt": "Compared to a perfectly competitive industry, in an industry characterized by monopolistic competition:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "both price and quantity are likely to be lower."
+            },
+            {
+              "id": "B",
+              "text": "price is likely to be higher, and quantity is likely to be lower."
+            },
+            {
+              "id": "C",
+              "text": "quantity is likely to be higher, and price is likely to be lower."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Monopolistic competition is likely to result in a higher price and lower quantity of output compared to perfect competition.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Monopolistic competition is likely to result in a higher price and lower quantity"
+            },
+            {
+              "type": "paragraph",
+              "text": "of output compared to perfect competition."
+            }
+          ]
+        },
+        {
+          "id": "r12-q7",
+          "number": 3,
+          "objectiveIds": [
+            "12.c"
+          ],
+          "prompt": "A firm will most likely maximize profits at the quantity of output for which:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "price equals marginal cost."
+            },
+            {
+              "id": "B",
+              "text": "price equals marginal revenue."
+            },
+            {
+              "id": "C",
+              "text": "marginal cost equals marginal revenue."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The profit-maximizing output is the quantity at which marginal revenue equals marginal cost. In a price-searcher industry structure (i.e., any structure that is not perfect competition), price is greater than marginal revenue.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The profit-maximizing output is the quantity at which marginal revenue equals"
+            },
+            {
+              "type": "paragraph",
+              "text": "marginal cost. In a price-searcher industry structure (i.e., any structure that is not perfect competition), price is greater than marginal revenue."
+            }
+          ]
+        },
+        {
+          "id": "r12-q8",
+          "number": 4,
+          "objectiveIds": [
+            "12.d"
+          ],
+          "prompt": "An oligopolistic industry has:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "few barriers to entry."
+            },
+            {
+              "id": "B",
+              "text": "few economies of scale."
+            },
+            {
+              "id": "C",
+              "text": "a great deal of interdependence among firms."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An oligopolistic industry has a great deal of interdependence among firms. One firm’s pricing decisions or advertising activities will affect the other firms.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An oligopolistic industry has a great deal of interdependence among firms. One"
+            },
+            {
+              "type": "paragraph",
+              "text": "firm’s pricing decisions or advertising activities will affect the other firms."
+            }
+          ]
+        },
+        {
+          "id": "r12-q9",
+          "number": 5,
+          "objectiveIds": [
+            "12.d"
+          ],
+          "prompt": "Consider a firm in an oligopoly market that believes the demand curve for its product is more elastic above a certain price than below this price. This belief fits most appropriately to which of the following models?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Cournot model."
+            },
+            {
+              "id": "B",
+              "text": "Dominant firm model."
+            },
+            {
+              "id": "C",
+              "text": "Kinked demand model."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The kinked demand model assumes that each firm in a market believes that at some price, demand is more elastic for a price increase than for a price decrease.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The kinked demand model assumes that each firm in a market believes that at"
+            },
+            {
+              "type": "paragraph",
+              "text": "some price, demand is more elastic for a price increase than for a price decrease."
+            }
+          ]
+        },
+        {
+          "id": "r12-q10",
+          "number": 6,
+          "objectiveIds": [
+            "12.d"
+          ],
+          "prompt": "Consider an agreement between France and Germany that will restrict wine production so that maximum economic profit can be realized. The possible outcomes of the agreement are presented in the following table. Based on the concept of a Nash equilibrium, the most likely strategy followed by the two countries with respect to whether they comply with or default on the agreement will be:",
+          "supportingBlocks": [
+            {
+              "type": "image",
+              "src": "content/figures/d8be056bd0ca5ca9b3fd.png",
+              "alt": "Equation, table, or diagram: maximum economic profit can be realized. The possible outcomes of the agreement are presented in the following table.",
+              "width": 453,
+              "height": 113,
+              "visualKind": "diagram-chart-or-table"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "both countries will default."
+            },
+            {
+              "id": "B",
+              "text": "both countries will comply."
+            },
+            {
+              "id": "C",
+              "text": "one country will default and the other will comply."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The Nash equilibrium results when each nation pursues the strategy that is best, given the strategy that is pursued by the other nation. Given that Germany complies with the agreement: France will get €8 billion if it complies, but €10 billion if it defaults. Therefore, France should default. Given that Germany defaults: France will get €2 billion if it complies, but €4 billion if it defaults. Therefore, France should default. Because France is better off in either case by defaulting, France will default. Germany will follow the same logic and reach the same conclusion.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The Nash equilibrium results when each nation pursues the strategy that is best,"
+            },
+            {
+              "type": "paragraph",
+              "text": "given the strategy that is pursued by the other nation."
+            },
+            {
+              "type": "paragraph",
+              "text": "Given that Germany complies with the agreement: France will get €8 billion if it complies, but €10 billion if it defaults. Therefore, France should default. Given that Germany defaults: France will get €2 billion if it complies, but €4 billion if it defaults. Therefore, France should default. Because France is better off in either case by defaulting, France will default. Germany will follow the same logic and reach the same conclusion."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-12-quiz-3",
+      "title": "Knowledge check 12.3",
+      "moduleId": "12.3",
+      "questions": [
+        {
+          "id": "r12-q11",
+          "number": 1,
+          "objectiveIds": [
+            "12.e"
+          ],
+          "prompt": "Which of the following is most likely an advantage of the Herfindahl-Hirschman Index (HHI) relative to the N-firm concentration ratio?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The HHI is simpler to calculate."
+            },
+            {
+              "id": "B",
+              "text": "The HHI considers barriers to entry."
+            },
+            {
+              "id": "C",
+              "text": "The HHI is more sensitive to mergers."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Although the N-firm concentration ratio is simple to calculate, it can be relatively insensitive to mergers between companies with large market shares. Neither the HHI nor the N-firm concentration ratio consider barriers to entry.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Although the N-firm concentration ratio is simple to calculate, it can be relatively"
+            },
+            {
+              "type": "paragraph",
+              "text": "insensitive to mergers between companies with large market shares. Neither the HHI nor the N-firm concentration ratio consider barriers to entry."
+            }
+          ]
+        },
+        {
+          "id": "r12-q12",
+          "number": 2,
+          "objectiveIds": [
+            "12.e"
+          ],
+          "prompt": "A market characterized by low barriers to entry, good substitutes, limited pricing power, and marketing of product features is best characterized as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "oligopoly."
+            },
+            {
+              "id": "B",
+              "text": "perfect competition."
+            },
+            {
+              "id": "C",
+              "text": "monopolistic competition."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "These characteristics are associated with a market structure of monopolistic competition. Firms in perfect competition do not compete on product features. Oligopolistic markets have high barriers to entry.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "These characteristics are associated with a market structure of monopolistic"
+            },
+            {
+              "type": "paragraph",
+              "text": "competition. Firms in perfect competition do not compete on product features. Oligopolistic markets have high barriers to entry."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

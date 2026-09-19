@@ -1,0 +1,463 @@
+{
+  "readingId": 49,
+  "title": "Fixed-Income Issuance and Trading",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "49.1",
+      "title": "Fixed-Income Issuance and Trading",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "49.a",
+          "text": "What should we know about fixed-income market segments and their issuer and investor participants?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Global bond markets are primarily segmented by the type of issuer (or sector), credit quality, and time to maturity. Other classifications used include currency, the issuer’s geography, and environmental, social, and governance (ESG) features."
+        },
+        {
+          "type": "paragraph",
+          "text": "Type of issuer. Major classifications of bond issuers are governments (sovereign and non-sovereign), corporates, and special purpose entities issuing asset-backed securities (ABSs). Credit quality. Standard & Poor’s (S&P) and Moody’s are major examples of credit rating agencies that provide credit ratings on bonds. Ratings from AAA down to BBB− (for S&P) and Aaa through Baa3 (Moody’s) are considered investment-grade bonds. Bonds BB+ or lower (Ba1 or lower for Moody’s) are termed high-yield bonds (speculative, or “junk” bonds). Original maturities. Fixed-income markets are usually segmented into short-term investments with original maturities of less than 1 year (known as money market securities), intermediate-term securities with original maturities of 1 to 10 years, and long-term securities with original maturities over 10 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The credit/maturity spectrum for issuers is summarized in Figure 49.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 49.1: Issuer Credit/Maturity Spectrum"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/dd14baf42741ba494d49.png",
+          "alt": "Equation, table, or diagram: Figure 49.1: Issuer Credit/Maturity Spectrum",
+          "width": 529,
+          "height": 422,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Repos here refers to sale and repurchase agreements, which we will describe in a later reading. For now, it is enough to know that repos are short-term secured borrowing agreements that can be used for short-term financing. Asset-backed commercial paper is a form of short-term asset-backed securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Secured corporate bonds appear in the “high-yield” category because we are referring to new issues. Companies with less reliable operating cash flows will have to offer security to investors when issuing debt. The high-yield sector also includes the bonds of previously investment-grade issuers that have been downgraded by credit rating agencies due to deteriorating credit quality (such bonds are known as fallen angels)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The type of bond that a corporate issuer chooses to issue is generally driven by the access the issuer has to capital markets and by the intended use of the proceeds of the issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "A well-established, investment-grade company could choose to issue commercial paper to fund short-term working capital requirements, intermediate-term debt to fund medium-term investments and permanent working capital, and long-term debt to fund capital investment in fixed assets. The short- and medium-term issues could be arranged for a fee with a syndicate of banks offering credit facilities, allowing the issuer to issue securities when required for their business operations. However, a riskier company with less stable operating cash flows is likely to have limited access to secured short-term financing and leveraged loans."
+        },
+        {
+          "type": "heading",
+          "text": "Investor Positioning in the Credit/Maturity Spectrum"
+        },
+        {
+          "type": "paragraph",
+          "text": "Where in the credit/maturity spectrum investors choose to invest will depend on their desired interest rate and credit risk exposure, and the maturity of any obligations they need to meet with the cash flows from the bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Common positioning for different types of fixed-income investors is summarized in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 49.2."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 49.2: Investor Positioning in Credit/Maturity Spectrum"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5136fa555016721788f2.png",
+          "alt": "Equation, table, or diagram: Figure 49.2: Investor Positioning in Credit/Maturity Spectrum",
+          "width": 530,
+          "height": 396,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Key points here are the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pension funds and insurance companies invest in long-term, investment-grade securities to match their long-term liabilities (paying pensions and claims on insurance policies). These institutions are often prohibited by regulations from owning high-yield securities. Corporations seek to earn returns on excess liquidity by investing in commercial paper, repos, and ABCP. Central banks use intermediate-term Treasury notes as a monetary policy tool to increase or decrease the monetary reserves of commercial banks. Bond funds and ETFs will position according to their stated mandate, usually in investment-grade intermediate securities excluding Treasuries. Asset managers seeking higher returns would invest in riskier high-yield intermediate securities, alongside hedge funds and, at the lowest end of the credit spectrum, distressed debt funds (discussed later in this reading)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial intermediaries (banks) use Treasuries across the whole maturity spectrum to manage interest rate and liquidity risks."
+        },
+        {
+          "type": "question",
+          "objectiveId": "49.b",
+          "text": "What should we know about types of fixed-income indexes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fixed-income indexes differ from equity indexes in the following three ways:\n1. Corporate bond issuers can, and often do, have many different bonds outstanding,"
+        },
+        {
+          "type": "paragraph",
+          "text": "while they will likely have no more than two or three different classes of shares. This leads to fixed-income indexes having many more constituents than equity indexes. Consequently, bond tracker funds employ sampling techniques rather than purchasing all the constituents of a fixed-income index to keep transaction complexity reasonable.\n2. Bonds maturing and being issued more frequently cause a higher frequency of"
+        },
+        {
+          "type": "paragraph",
+          "text": "removal and replacement of constituents (called turnover) in fixed-income indexes versus in equity indexes.\n3. Bonds are issued across multiple sectors. Usually, governments are the largest issuer"
+        },
+        {
+          "type": "paragraph",
+          "text": "of bonds; hence, broad bond indexes have large weights in sovereign bonds. Changes in debt issuance trends in terms of maturity and credit quality affect the weights of fixed-income indexes over time. Bond indexes that contain a broad selection of bonds are called aggregate indexes. An example of an aggregate index is the Bloomberg Barclays Aggregate Index, which includes bonds from all sectors across 28 currencies. The index excludes high-yield and unrated issues and bonds that do not meet minimum size for inclusion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Indexes can have a narrower focus on geography, credit quality, sector, or maturity. For example, the JP Morgan Emerging Markets Bond Index Plus contains U.S. dollar-denominated emerging market sovereign debt with a rating of Baa1/BBB+ or below, with minimum size and maturity limits."
+        },
+        {
+          "type": "paragraph",
+          "text": "Indexes can also incorporate ESG factors in their construction. For example, the Bloomberg Barclays MSCI Euro Corporate Sustainable SRI Index has a minimum credit rating of Baa3/BBB− and a minimum ESG rating of BBB. The index also screens out certain business sectors deemed incompatible with sustainable investing (e.g., alcohol or generation of thermal coal)."
+        },
+        {
+          "type": "paragraph",
+          "text": "An index chosen to act as a benchmark for a bond fund should match the exposure of the fund in terms of sector focus, credit quality, and maturity."
+        },
+        {
+          "type": "question",
+          "objectiveId": "49.c",
+          "text": "How can we compare primary and secondary fixed-income markets to equity markets?"
+        },
+        {
+          "type": "heading",
+          "text": "Primary Markets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sales of newly issued bonds are referred to as primary market transactions, whereby the issuer sells new securities to investors and receives new capital in return. Newly issued bonds can be registered with securities regulators for sale to the public (a public offering) or sold only to selected investors (a private placement). Both are usually"
+        },
+        {
+          "type": "paragraph",
+          "text": "carried out through financial intermediaries (i.e., investment banks). An issuer that is offering its first-ever bond is referred to as a debut issuer and is typically a growing and maturing firm that is replacing bank loans in its capital structure with the proceeds from the bond issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bonds can be sold through an underwritten offering or a best-efforts offering. In an underwritten offering, the bond issue price is guaranteed by the financial intermediaries conducting the bond sale to investors. Issues that are not underwritten are said to be conducted on a best-efforts basis. An issue price is not guaranteed by the intermediaries, but they will charge a commission for placing the bonds with investors at the best price possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a shelf registration, a bond issue is registered with securities regulators in its aggregate value with a master prospectus. The bonds can then be issued over time when the issuer needs to raise funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Debut issues usually require weeks of “roadshows” by underwriters prior to the issue date to introduce investors to the debut issuer. Subsequent repeat issues of fixed-income securities usually take much less time. For an investment-grade frequent issuer with a fully underwritten shelf registration, the time between the transaction being agreed and being completed and allocated to investors may be a matter of hours, because bond funds and other investors are likely already familiar with the issuer and regulatory registrations have already been made. Issuance is likely to take significantly longer for a smaller high-yield issue with more detailed covenants and collateral provisions, made on a best-efforts basis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some bonds, especially government bonds, are sold through a public auction, a process we will describe in our reading on Fixed-Income Markets for Government Issuers."
+        },
+        {
+          "type": "heading",
+          "text": "Secondary Markets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Secondary markets refer to the trading of previously issued bonds among investors. While some electronic trading platforms and exchange-based trading exist, the majority of trading in the secondary market remains in the dealer, or over-the-counter (OTC), market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dealers post quotes comprising bid (purchase) prices and ask or offer (selling) prices for various bond issues. The difference between the bid and ask prices is the dealer’s spread. The spread varies across individual bonds according to their liquidity, ranging from a fraction of a basis point for liquid, recently issued (“on-the-run”), developed market sovereign bonds and high-credit-quality corporate frequent issuers, to 10–20 basis points or more for less liquid, smaller, or older (“seasoned”) corporate issues."
+        },
+        {
+          "type": "paragraph",
+          "text": "Distressed debt is a name given to the bonds of issuers that are in, or expected to file for, bankruptcy. A distressed debt investor might buy the debt from other institutions that are prohibited from owning securities with low credit ratings, and aims to profit from the issuer’s fortunes reversing, higher-than-expected recovery rates in liquidation, or value-enhancing restructuring of the issuer. For an otherwise infrequently traded issue, entering a distressed situation may temporarily increase its trading activity."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "49.a",
+      "text": "What should we know about fixed-income market segments and their issuer and investor participants?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Global bond markets can be classified by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Type of issuer. Sovereign, corporate, and special purpose entities issuing ABSs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Credit quality. Investment-grade (Baa3/BBB- and above), non-investment grade (Ba1/BB+ and below)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Original maturity. Short term/money market (one year or less), intermediate term (one year to 10 years), long term (more than 10 years)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Well-established investment-grade corporations may issue commercial paper to fund short-term working capital requirements; intermediate-term debt to fund medium-term investments and permanent working capital; and long-term debt to fund capital investment in fixed assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Where in the credit/maturity spectrum investors choose to invest will depend on their desired interest rate and credit risk exposure and the maturity of any obligations they need to meet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pension funds and insurance companies: long-term investment grade Corporations: short-term investment grade (excluding Treasury bills)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Central banks: intermediate-term Treasury notes used to conduct monetary policy"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bond funds and ETFs: intermediate investment-grade (excluding Treasury notes) Asset managers seeking higher returns: high-yield intermediate securities, distressed debt Financial intermediaries (banks): Treasuries across the maturity spectrum"
+    },
+    {
+      "type": "question",
+      "objectiveId": "49.b",
+      "text": "What should we know about types of fixed-income indexes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Relative to equity indexes, fixed-income indexes have more constituents, higher turnover, and weights more affected by issuer sector and changes in borrowing trends over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Broad bond indexes that include all relevant bonds are referred to as aggregate indexes. Narrower indexes focus on sector, credit quality, geography, or ESG considerations."
+    },
+    {
+      "type": "question",
+      "objectiveId": "49.c",
+      "text": "How can we compare primary and secondary fixed-income markets to equity markets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bonds may be issued in the primary market through a public offering or a private placement. Bond issues that are underwritten have a price guaranteed by financial intermediaries; those on a best-efforts basis have no such guarantee. Public offerings of government debt commonly take place through auctions. Debut issues are likely to be more time consuming and costly than subsequent repeat issues."
+    },
+    {
+      "type": "paragraph",
+      "text": "In secondary markets, while some bonds trade on electronic platforms or exchanges, most are traded in OTC dealer markets. Spreads between bid and ask prices are narrower for liquid issues and wider for less liquid issues."
+    },
+    {
+      "type": "paragraph",
+      "text": "Distressed debt refers to bonds of issuers that are in, or expected to file for, bankruptcy."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "49.a",
+      "statement": "Describe fixed-income market segments and their issuer and investor participants.",
+      "question": "What should we know about fixed-income market segments and their issuer and investor participants?"
+    },
+    {
+      "id": "49.b",
+      "statement": "Describe types of fixed-income indexes.",
+      "question": "What should we know about types of fixed-income indexes?"
+    },
+    {
+      "id": "49.c",
+      "statement": "Compare primary and secondary fixed-income markets to equity markets.",
+      "question": "How can we compare primary and secondary fixed-income markets to equity markets?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-49-quiz-1",
+      "title": "Knowledge check 49.1",
+      "moduleId": "49.1",
+      "questions": [
+        {
+          "id": "r49-q1",
+          "number": 1,
+          "objectiveIds": [
+            "49.a"
+          ],
+          "prompt": "Funds required by a corporation to finance investment in seasonal working capital are most likely raised through issuing:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "secured bonds."
+            },
+            {
+              "id": "B",
+              "text": "Treasury notes."
+            },
+            {
+              "id": "C",
+              "text": "commercial paper."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Corporations are most likely to fund short-term seasonal investment in working capital by issuing short-term commercial paper because its maturity (less than a year) will match the required investment period in working capital. Intermediate-term corporate bonds are usually issued to invest in longer-term working capital requirements and medium-term fixed capital investments. A corporation cannot issue Treasury notes, which are intermediate-term securities issued by governments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Corporations are most likely to fund short-term seasonal investment in working"
+            },
+            {
+              "type": "paragraph",
+              "text": "capital by issuing short-term commercial paper because its maturity (less than a year) will match the required investment period in working capital. Intermediate-term corporate bonds are usually issued to invest in longer-term working capital requirements and medium-term fixed capital investments. A corporation cannot issue Treasury notes, which are intermediate-term securities issued by governments."
+            }
+          ]
+        },
+        {
+          "id": "r49-q2",
+          "number": 2,
+          "objectiveIds": [
+            "49.b"
+          ],
+          "prompt": "Compared to equity indexes, aggregate fixed-income indexes are most likely to have a lower:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "turnover."
+            },
+            {
+              "id": "B",
+              "text": "weight in the corporate sector."
+            },
+            {
+              "id": "C",
+              "text": "number of constituents."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Aggregate fixed-income indexes include constituents from all sectors. Hence, fixed-income indexes will have higher weights allocated to sovereign issuers and lower weights to corporate issuers than equity indexes, which are based purely on corporate issuers of equity. A fixed-income index is expected to have higher turnover (due to maturing bonds and frequent re-issues) and a higher number of constituents (due to a single issuer typically having more bond issues in existence than equity issues).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Aggregate fixed-income indexes include constituents from all sectors. Hence,"
+            },
+            {
+              "type": "paragraph",
+              "text": "fixed-income indexes will have higher weights allocated to sovereign issuers and lower weights to corporate issuers than equity indexes, which are based purely on corporate issuers of equity. A fixed-income index is expected to have higher turnover (due to maturing bonds and frequent re-issues) and a higher number of constituents (due to a single issuer typically having more bond issues in existence than equity issues)."
+            }
+          ]
+        },
+        {
+          "id": "r49-q3",
+          "number": 3,
+          "objectiveIds": [
+            "49.c"
+          ],
+          "prompt": "In which type of primary market transaction does an investment bank sell bonds on a commission basis?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Single-price auction."
+            },
+            {
+              "id": "B",
+              "text": "Best-efforts offering."
+            },
+            {
+              "id": "C",
+              "text": "Underwritten offering."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "In a best-efforts offering, the investment bank or banks do not underwrite (i.e., purchase all of) a bond issue, but rather sell the bonds on a commission basis. Bonds sold by auction are offered directly to buyers by the issuer, typically a government.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a best-efforts offering, the investment bank or banks do not underwrite (i.e.,"
+            },
+            {
+              "type": "paragraph",
+              "text": "purchase all of) a bond issue, but rather sell the bonds on a commission basis."
+            },
+            {
+              "type": "paragraph",
+              "text": "Bonds sold by auction are offered directly to buyers by the issuer, typically a government."
+            }
+          ]
+        },
+        {
+          "id": "r49-q4",
+          "number": 4,
+          "objectiveIds": [
+            "49.c"
+          ],
+          "prompt": "Secondary market bond transactions most likely take place:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "in dealer markets."
+            },
+            {
+              "id": "B",
+              "text": "in brokered markets."
+            },
+            {
+              "id": "C",
+              "text": "on organized exchanges."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The secondary market for bonds is primarily a dealer market in which dealers post bid and ask prices.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The secondary market for bonds is primarily a dealer market in which dealers"
+            },
+            {
+              "type": "paragraph",
+              "text": "post bid and ask prices."
+            }
+          ]
+        },
+        {
+          "id": "r49-q5",
+          "number": 5,
+          "objectiveIds": [
+            "49.c"
+          ],
+          "prompt": "Sovereign bonds are described as “on the run” when they:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "are the most recent issue in a specific maturity."
+            },
+            {
+              "id": "B",
+              "text": "have increased substantially in price since they were issued."
+            },
+            {
+              "id": "C",
+              "text": "receive greater-than-expected demand from auction bidders."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Sovereign bonds are described as “on the run” when they represent the most recent issue in a specific maturity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Sovereign bonds are described as “on the run” when they represent the most"
+            },
+            {
+              "type": "paragraph",
+              "text": "recent issue in a specific maturity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

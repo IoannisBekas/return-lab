@@ -1,0 +1,335 @@
+{
+  "readingId": 20,
+  "title": "Organizational Forms, Corporate Issuer Features, and Ownership",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "20.1",
+      "title": "Features of Corporate Issuers",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "20.a",
+          "text": "How can we compare the organizational forms of businesses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizational forms refer to how businesses are set up from a legal and organizational point of view. Key features of organizational forms include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether the business is a separate legal entity from the owner(s)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether the owners of the business also operate the business, and if not, the nature of the relationship between its owners and operators"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether the owners’ liability for the actions and debts of the business is limited or unlimited The tax treatment of profits or losses from the business"
+        },
+        {
+          "type": "paragraph",
+          "text": "Access to additional capital to fund expansion and to distribute risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "To understand these features, we can compare them among four commonly used types of business structures: sole proprietorships, general partnerships, limited partnerships, and corporations."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sole proprietorship is a business owned and operated by an individual. Legally, the business is an extension of the owner, who is personally responsible for claims against the business (i.e., unlimited liability) and receives all profits/losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Profits are then taxed as personal income of the owner. Sole proprietorships tend to be small in scale because they can only expand within the limits of the individual owner’s ability to secure financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "To do business on a scale that exceeds that of a sole proprietorship, two or more individuals can form a general partnership. In this structure, the partnership agreement specifies each partner’s responsibilities for business operations and their shares of the partnership profits or losses. The agreement may be written, verbal, or even incidental through the actions of the partners. As with a sole proprietorship, the partners have unlimited liability for claims against the business, and profits from the business allocated to each partner are taxed as personal income."
+        },
+        {
+          "type": "paragraph",
+          "text": "A limited partnership involves two levels of partners. One or more general partners operate the business and have unlimited liability, as in a general partnership, but this"
+        },
+        {
+          "type": "paragraph",
+          "text": "structure also has limited partners who are liable only for the amount they invest in the partnership (i.e., limited liability) and have claims to its profits that are proportionate to their investments. Limited partners typically are not involved in appointing or removing general partners. How the profits are divided among the general and limited partners is specified in the partnership agreement. Because they are responsible for managing the business, the general partners typically receive a larger portion of profits than the limited partners. Profits allocated to the partners are taxed as personal income to each partner. Some jurisdictions allow a limited liability partnership (LLP) wherein a general partner is not required, and all the partners are limited partners. In the United States, LLPs are only allowed for providers of professional services such as law, accounting, and so on, and there are restrictions on the number of partners and the amount of equity investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The feature that distinguishes a corporation, or limited company, from the other business structures is that a corporation is a legal entity separate from its owners and managers. In this case, all of the corporation’s shareholders have limited liability. An owner can lose his entire investment if the company goes bankrupt and the value of his shares goes to zero. Beyond their initial investments, shareholders are not responsible for claims against the corporation. A corporation may, but is not required to, distribute its profits to its owners. Most large firms are corporations because that structure gives them the greatest access to capital, both debt (borrowed capital) and equity (ownership capital)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another distinguishing feature of corporations is the separation of its owners and managers. An investor who buys shares of a corporation does not directly influence the company’s day-to-day operations. Instead, the owners appoint a board of directors that is responsible for hiring the senior managers to operate the company. The board and the managers it hires are responsible for acting in the interests of the shareholders."
+        },
+        {
+          "type": "paragraph",
+          "text": "A public corporation (or a public limited company) is one that has shares that are sold to the public and trade in an organized market (stock exchange). A private limited company is similar to a public company, but it has a limited number of shareholders and restrictions on transfer of shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depending on the country, a corporation’s profits may be subject to double taxation if the government taxes companies on their earnings and it taxes dividends (which are distributions of earnings to owners) as personal income."
+        },
+        {
+          "type": "question",
+          "objectiveId": "20.b",
+          "text": "What should we know about key features of corporate issuers?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A corporation’s legal identity is separate from that of its owners and is formed by filing an articles of incorporation with a regulatory body. As a legal entity, a corporation has many of the rights and responsibilities of an individual, such as the right to hire employees, enter into contracts, borrow and lend money, and so on."
+        },
+        {
+          "type": "paragraph",
+          "text": "A corporation issues shares to the owners (shareholders), which allows it to raise large amounts of capital. Shareholders have voting rights that allow them to elect the board of directors. Shares are easily transferable if they are traded on an exchange. The board"
+        },
+        {
+          "type": "paragraph",
+          "text": "of directors may distribute a portion of the company’s earnings to the shareholders as dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "The disadvantage of double taxation of corporate income is less for investors in companies that pay out a smaller fraction of their profits in dividends and reinvest the remaining, as illustrated in the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Double taxation of dividends"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABC Corporation has pretax earnings of $10 million and a corporate tax rate of 25%. Shareholders are taxed at 20% on their dividend income. Calculate the effective tax rate if:"
+        },
+        {
+          "type": "paragraph",
+          "text": "(a) 100% of the profits are paid out in dividends, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "(b) 40% of the profits are paid out in dividends."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d843edeaafc984cf511d.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 454,
+          "height": 206,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "20.c",
+          "text": "How can we compare publicly and privately owned corporate issuers?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most public limited companies are listed companies, which means their shares are listed on an exchange, allowing investors to trade shares. A stock exchange is a rules-based open market, providing price and volume transparency. Shareholders in a company can be individuals, other corporations, nonprofits, or government. Shares that are actively traded (i.e., not held by insiders, strategic investors, or sponsors) are called the company’s free float. Free float is typically expressed as a percentage of total outstanding shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Public companies are subject to compliance and reporting requirements. For example, companies are required to file quarterly or annual financial reports with a regulatory body, and to disclose any material changes in the company’s business or ownership."
+        },
+        {
+          "type": "paragraph",
+          "text": "Shares in private limited companies do not trade on an exchange. As a result, their value is not readily observable, and transfer between investors is difficult. Typically, investors in a private limited company have to wait until the company goes public or is sold to exit their investment. Private companies have fewer regulatory requirements and typically disclose less information than public companies. Also, with fewer investors, private companies can take a longer-term view of the business."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private companies can raise equity capital through private placements of securities. Private placements are typically restricted to accredited investors such as corporate and institutional investors or high net worth individuals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private companies can become public companies (“go public”) in one of three ways: initial public offering, direct listing, or acquisition by a special purpose entity."
+        },
+        {
+          "type": "paragraph",
+          "text": "A company can become public by issuing shares in an initial public offering (IPO). To conduct an IPO, the company must meet exchange-specific requirements. Companies typically engage the services of an investment bank to underwrite the issue. Once the shares are listed on an exchange, owners can sell shares, and new owners can buy shares, without dealing directly with the company."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a direct listing, a stock exchange agrees to list a private company’s existing shares. This differs from an IPO in that a direct listing does not raise any new capital for the company, but it has advantages in that it can be done more quickly than an IPO and without involving an underwriter. A special purpose acquisition company (SPAC) is a corporate structure set up to acquire a private company in the future. The SPAC raises capital through an IPO and puts the funds into a trust that it must use to make an acquisition within a specified time. The acquired company does not have to be identified at the time of the IPO. For this reason, SPACs are also known as “blank check” companies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes there can be a benefit to taking an underperforming public company private to restructure it and unlock its potential value. In such a case, an acquirer purchases all the outstanding shares of a public company, and the company is delisted from the exchange. The benefits of going private include a lower regulatory burden and the associated cost savings."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "20.a",
+      "text": "How can we compare the organizational forms of businesses?"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{gathered}\\begin{array} {l l l l l l l} \\hline{} & {\\mathrm{Sole}} & {} & {\\mathrm{General}} & {} & {\\mathrm{Limited}} & {} & {} \\\\ {\\mathrm{Feature}} & {} & {\\mathrm{Proprietorship}} & {} & {\\mathrm{Partuership}} & {} & {\\mathrm{Partuership}} & {} & {\\mathrm{Corporation}} & {} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c c c c c} {{\\mathrm{Separate}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{Yes}}} \\\\ {{\\mathrm{legal}}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{entity?}}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{Managed}}} & {{\\mathrm{Owner}}} & {{\\mathrm{Partners}}} & {{\\mathrm{GPs}}} & {{\\mathrm{Board~and}}} \\\\ {{\\mathrm{by}}} & {{\\mathrm{by}}} & {{}} & {{}} & {{}} & {{\\mathrm{managers}}} \\end{array}\\\\[6pt]\\begin{array} {l l l l l} {{\\mathrm{Owner} \\quad}} & {{\\mathrm{Unlimited} \\quad}} & {{\\quad}} & {{\\mathrm{Unlimited} \\quad}} & {{\\quad}} & {{\\mathrm{GPs:~unlimited} \\quad}} & {{\\mathrm{Limited} \\quad}} \\\\ {{\\mathrm{liability} \\quad}} & {{}} & {{}} & {{\\quad}} & {{\\mathrm{LPs:~limited} \\quad}} & {{\\mathrm{Limited} \\quad}} & {{\\mathrm{Limited} \\quad}} \\\\ \\end{array}\\\\[6pt]{\\begin{array} {l l l l l} {\\mathrm{Access~to}} & {\\mathrm{Limited}} & {\\mathrm{Limited}} & {\\mathrm{Limited}} & {\\mathrm{Vimally}} \\\\ {\\mathrm{capital}} & {} & {} & {} & {} & {\\mathrm{unlimited}} \\\\ {\\mathrm{Taxation}} & {\\mathrm{Pass~through}} & {\\mathrm{Pass~through}} & {\\mathrm{Pass~through}} & {\\mathrm{Potential}} \\\\ {\\mathrm{of~profits}} & {\\mathrm{to~owner~as}} & {\\mathrm{to~owner~as}} & {\\mathrm{to~owner~as}} & {\\mathrm{double}} \\\\ {} & {\\mathrm{personal~income}} & {\\mathrm{personal~income}} & {\\mathrm{personal~income}} & {\\mathrm{taxation}} \\end{array}}\\end{gathered}",
+      "display": true,
+      "sourceAsset": "9e5716d3827f249ab639.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "20.b",
+      "text": "What should we know about key features of corporate issuers?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Corporations incorporate as a separate legal entity by registering with a regulatory body. Owners are shareholders with a limited liability, but profits may be subject to double taxation. Shareholders vote for a board of directors who then hire managers and declare dividend payments to the shareholders."
+    },
+    {
+      "type": "question",
+      "objectiveId": "20.c",
+      "text": "How can we compare publicly and privately owned corporate issuers?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Public limited companies list their shares on a stock exchange for trading. Free float, or actively traded shares, is typically quoted as a fraction of total shares outstanding. Exchange listing requires regulatory compliance and extensive disclosure requirements."
+    },
+    {
+      "type": "paragraph",
+      "text": "Private companies raise capital in private placements. A private company can become public by issuing shares in an initial public offering, carrying out a direct listing on a stock exchange, or being acquired by a public company, which may be a special purpose acquisition company."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "20.a",
+      "statement": "Compare the organizational forms of businesses.",
+      "question": "How can we compare the organizational forms of businesses?"
+    },
+    {
+      "id": "20.b",
+      "statement": "Describe key features of corporate issuers.",
+      "question": "What should we know about key features of corporate issuers?"
+    },
+    {
+      "id": "20.c",
+      "statement": "Compare publicly and privately owned corporate issuers.",
+      "question": "How can we compare publicly and privately owned corporate issuers?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-20-quiz-1",
+      "title": "Knowledge check 20.1",
+      "moduleId": "20.1",
+      "questions": [
+        {
+          "id": "r20-q1",
+          "number": 1,
+          "objectiveIds": [
+            "20.a"
+          ],
+          "prompt": "Which organizational form has the highest degree of separation between the owners and operators of a business?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Corporation."
+            },
+            {
+              "id": "B",
+              "text": "Limited partnership."
+            },
+            {
+              "id": "C",
+              "text": "General partnership."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In a corporation, owners are most often not directly involved in operating the business. Both general partnerships and limited partnerships have general partners who operate the business.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a corporation, owners are most often not directly involved in operating the"
+            },
+            {
+              "type": "paragraph",
+              "text": "business. Both general partnerships and limited partnerships have general partners who operate the business."
+            }
+          ]
+        },
+        {
+          "id": "r20-q2",
+          "number": 2,
+          "objectiveIds": [
+            "20.b"
+          ],
+          "prompt": "A corporation is subject to a corporate income tax of 10%. Shareholders are taxed on dividends at a rate of 15%. Assume that the company pays out all its after-tax profits in dividends. The effective tax rate on the corporation’s profit is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "12.5%."
+            },
+            {
+              "id": "B",
+              "text": "23.5%."
+            },
+            {
+              "id": "C",
+              "text": "25.0%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The effective tax rate on profits distributed as dividends = 0.10 + 0.15 (1 - 0.10) = 23.5%. Alternatively: Starting with a hypothetical $100 of pretax profit, the corporate tax @10% is $10. Dividends = after-tax profit = $90. Tax on dividends @ 15% = 0.15 × 90 = $13.50. Total tax = 10 + 13.50 = $23.50, or 23.5% of the pretax profit of $100.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The effective tax rate on profits distributed as dividends = 0.10 + 0.15 (1 - 0.10) ="
+            },
+            {
+              "type": "paragraph",
+              "text": "23.5%. Alternatively:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Starting with a hypothetical $100 of pretax profit, the corporate tax @10% is $10. Dividends = after-tax profit = $90. Tax on dividends @ 15% = 0.15 × 90 = $13.50. Total tax = 10 + 13.50 = $23.50, or 23.5% of the pretax profit of $100."
+            }
+          ]
+        },
+        {
+          "id": "r20-q3",
+          "number": 3,
+          "objectiveIds": [
+            "20.c"
+          ],
+          "prompt": "A private company can become a public company through a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "private placement."
+            },
+            {
+              "id": "B",
+              "text": "leveraged buyout."
+            },
+            {
+              "id": "C",
+              "text": "special purpose acquisition company."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An IPO, direct listing, and special purpose acquisition company are methods for a private company to go public. Private placements allow a private company to raise capital but not take it public. Buyouts can result in a public company going private.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An IPO, direct listing, and special purpose acquisition company are methods for a"
+            },
+            {
+              "type": "paragraph",
+              "text": "private company to go public. Private placements allow a private company to raise capital but not take it public. Buyouts can result in a public company going private."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

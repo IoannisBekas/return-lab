@@ -1,0 +1,619 @@
+{
+  "readingId": 5,
+  "title": "Portfolio Mathematics",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "5.1",
+      "title": "Probability Models for Portfolio Return and Risk",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "5.a",
+          "text": "How do we calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected return of a portfolio composed of n assets with weights, wi, and expected returns, Ri, can be determined using the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} ( \\mathrm{R}_{\\mathrm{P}} )=\\sum_{i=1}^{n} \\mathbf{w}_{i} \\operatorname{E} ( \\mathrm{R}_{i} )=\\mathbf{w}_{1} \\operatorname{E} ( \\mathrm{R}_{1} )+\\mathbf{w}_{2} \\operatorname{E} ( \\mathrm{R}_{2} )+\\ldots+\\mathbf{w}_{n} \\operatorname{E} ( \\mathrm{R}_{n} )",
+          "display": true,
+          "sourceAsset": "41384152c1d4a411b3be.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected return and variance for a portfolio of assets can be determined using the properties of the individual assets in the portfolio. To do this, it is necessary to establish the portfolio weight for each asset. As indicated in the formula below, the weight, w, of Asset i is simply the market value currently invested in the asset divided by the current market value of the entire portfolio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{w_{i}}=\\frac{\\mathrm{market~value~of~investment~in~Asset~i~}} {\\mathrm{market~value~of~the~portfolio}}",
+          "display": true,
+          "sourceAsset": "e6d219177f9bbca4553b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In many finance situations, we are interested in how two random variables move in relation to each other. For investment applications, one of the most frequently analyzed pairs of random variables is the returns of two assets. Investors and managers frequently ask questions such as, “What is the relationship between the return for Stock A and Stock B?” or, “What is the relationship between the performance of the S&P 500 and that of the automotive industry?”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Covariance is a measure of how two assets move together. It is the expected value of the product of the deviations of the two random variables from their respective expected values. A common symbol for the covariance between random variables X and Y is Cov(X,Y). Because we will be mostly concerned with the covariance of asset returns, the following formula has been written in terms of the covariance of the return of Asset i, Ri, and the return of Asset j, Rj:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cov(Ri,Rj) = E{[Ri - E(Ri)][Rj - E(Rj)]}"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following are properties of covariance:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The covariance of a random variable with itself is its variance; that is, Cov(RA,RA) = Var(RA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Covariance may range from negative infinity to positive infinity."
+        },
+        {
+          "type": "paragraph",
+          "text": "A positive covariance indicates that when one random variable is above its mean, the other random variable also tends to be above its mean."
+        },
+        {
+          "type": "paragraph",
+          "text": "A negative covariance indicates that when one random variable is above its mean, the other random variable tends to be below its mean."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sample covariance for a sample of returns data can be calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}s_{X , Y}={\\frac{\\displaystyle\\sum_{i=1}^{n} \\left\\{\\left[ \\mathrm{R}_{1 , i}-{\\overline{{\\mathrm{R}}}}_{1} \\right] \\left[ \\mathrm{R}_{2 , i}-{\\overline{{\\mathrm{R}}}}_{2} \\right] \\right\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {l} {{\\mathrm{R}_{1 , i}=\\mathrm{an~observation~of~returns~on~Asset~1}}} \\\\ {{\\mathrm{R}_{2 , i}=\\mathrm{an~observation~of~returns~on~Asset~2}}} \\\\ {{\\mathrm{overline{{{\\mathrm{R}_{1}}}}}=\\mathrm{mean~return~of~Asset~1}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\overline{{\\mathrm{R}_{2}}}} & {{}=\\mathrm{mean~return~of~Asset~2~}} \\\\ {\\mathbf{n}} & {{}=\\mathrm{number~of~observations~in~the~sample.}} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "9c448e841028409113a4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A covariance matrix shows the covariances between returns on a group of assets."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 5.1: Covariance Matrix for Assets A, B, and C"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/745bc52701b2b9451cfc.png",
+          "alt": "Equation, table, or diagram: Figure 5.1: Covariance Matrix for Assets A, B, and C",
+          "width": 342,
+          "height": 96,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the diagonal terms from top left are the variances of each asset’s returns—in other words, Cov(RA,RA) = Var(RA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The covariance between the returns on two assets does not depend on order—in other words, Cov(RA,RB) = Cov(RB,RA)—so in this covariance matrix, only three of the (off-diagonal) covariance terms are unique. In general for n assets, there are n variance terms (on the diagonal) and n(n − 1) / 2 unique covariance terms."
+        },
+        {
+          "type": "paragraph",
+          "text": "With portfolio variance, to calculate the variance of portfolio returns, we use the asset weights, returns variances, and returns covariances:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V a r ( R_{p} )}={\\sum_{i=1}^{N} \\sum_{j=1}^{N}} \\mathbf{w_{i}} \\mathbf{w_{j}} \\, \\mathrm{C o v ( R_{i} , R_{j} )}",
+          "display": true,
+          "sourceAsset": "ce11e16df44ee5c4f9d0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The variance of a portfolio composed of two risky assets, A and B, can be expressed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {{\\mathrm{V a r ( R_{\\mathrm{tiny~p}} )=w_{A} w_{A} \\operatorname{C o v} ( R_{A} , R_{A} )+w_{A} w_{B} \\operatorname{C o v} ( R_{A} , R_{B} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )}}} \\\\ {{\\mathrm{w_{B} w_{B} \\operatorname{C o v} ( R_{B} , R_{B} )}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "7b398e4376fc94313065.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can write this more simply as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{p}} \\right)=\\mathrm{w}_{\\mathrm{A}}^{2} \\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)+\\mathrm{w}_{\\mathrm{B}}^{2} \\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right)+2 \\mathrm{w}_{\\mathrm{A}} \\mathrm{w}_{\\mathrm{B}} \\operatorname{C o v} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)",
+          "display": true,
+          "sourceAsset": "3f966ccb13f82540aa15.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "or:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ C o v}}_{\\mathrm{{\\tiny~ A B}}}",
+          "display": true,
+          "sourceAsset": "786ec88b2308713ae283.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a three-asset portfolio, the portfolio variance is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_P^2=w_A^2\\sigma_A^2+w_B^2\\sigma_B^2+w_C^2\\sigma_C^2\n+2w_Aw_B\\operatorname{Cov}_{AB}+2w_Aw_C\\operatorname{Cov}_{AC}+2w_Bw_C\\operatorname{Cov}_{BC}",
+          "display": true,
+          "sourceAsset": "aa57a481468bfa3a46fb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a portfolio with three assets: an index of domestic stocks (60%), an index of domestic bonds (30%), and an index of international equities (10%). A covariance matrix of the three assets is shown here."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 5.2: Covariance Matrix for the Three Assets"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9b0a3f99e30c7ffe5158.png",
+          "alt": "Equation, table, or diagram: Figure 5.2: Covariance Matrix for the Three Assets",
+          "width": 493,
+          "height": 108,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Portfolio returns variance ="
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {( 0.6^{2} ) 400+( 0.3^{2} ) 70+( 0.1^{2} ) 450+2 ( 0.6 ) ( 0.3 ) 44+2 ( 0.6 ) ( 0.1 ) 180+2} \\\\ {2 ( 0.3 ) ( 0.1 ) 35=194.34} \\end{array}",
+          "display": true,
+          "sourceAsset": "92b9e747fb5929490cd8.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{Portfolio~returns~standard}=\\sqrt{194.34}=13.94 \\%",
+          "display": true,
+          "sourceAsset": "fc8f4e8463995f277ee3.png",
+          "prose": "Portfolio returns standard"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the units of variance and covariance are %² (i.e., 0.001). When we put these values in as whole numbers (in %²), the portfolio variance is in %², and the standard deviation is in whole percentages. We could also put variance and covariance in as decimals and get both the portfolio returns variance and standard deviation as decimals."
+        },
+        {
+          "type": "paragraph",
+          "text": "From the formula for portfolio returns variance, we can see that the lower the covariance terms, the lower the portfolio variance (and standard deviation). This is true for positive values of covariance, as well as negative values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that the correlation coefficient for two variables is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\rho_{\\mathrm{{A B}}} \\!=\\! {\\frac{\\mathrm{{C o v}_{\\mathrm{{A B}}}}} {\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}}} \\sigma, \\, {\\mathrm{so~that}} \\, ( \\mathrm{{C o v}_{\\mathrm{{A B}}}} ) \\!=\\rho_{\\mathrm{{A B}}} \\times\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}",
+          "display": true,
+          "sourceAsset": "a3af23281ea352059b14.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This can be substituted for CovAB in our formula for portfolio returns variance. With this substitution, we can use a correlation matrix to calculate portfolio returns variance, rather than using covariances."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 5.3: Correlation Matrix for the Three Assets"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/bb5e586146c55e47237c.png",
+          "alt": "Equation, table, or diagram: Figure 5.3: Correlation Matrix for the Three Assets",
+          "width": 493,
+          "height": 109,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the correlations of asset returns with themselves (the diagonal terms) are all 1."
+        },
+        {
+          "type": "question",
+          "objectiveId": "5.b",
+          "text": "How do we calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns?"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Covariance of returns from a joint probability function"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that the economy can be in three possible states (S) next year: boom, normal, or slow economic growth. An expert source has calculated that P(boom) = 0.30, P(normal) = 0.50, and P(slow) = 0.20. The returns for Asset A, RA, and Asset B, RB, under each of the economic states are provided in the probability model as follows. What is the covariance of the returns for Asset A and Asset B?"
+        },
+        {
+          "type": "heading",
+          "text": "Joint Probability Function"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0a88218aa63cbad38f1c.png",
+          "alt": "Equation, table, or diagram: Joint Probability Function",
+          "width": 346,
+          "height": 100,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The table gives us the joint probability of returns on Assets A and B (e.g., there is a 30% probability that the return on Asset A is 20% and the return on Asset B is 30%, and there is a 50% probability that the return on Asset A is 12% and the return on Asset B is 10%)."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we must calculate the expected returns for each of the assets:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(RA) = (0.3)(0.20) + (0.5)(0.12) + (0.2)(0.05) = 0.13"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(RB) = (0.3)(0.30) + (0.5)(0.10) + (0.2)(0.00) = 0.14"
+        },
+        {
+          "type": "paragraph",
+          "text": "The covariance can now be computed using the procedure described in the following table."
+        },
+        {
+          "type": "heading",
+          "text": "Covariance Calculation"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/ad827ab290b1c8660a15.png",
+          "alt": "Equation, table, or diagram: Covariance Calculation",
+          "width": 474,
+          "height": 96,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The covariance of returns for Asset A and Asset B is 0.00336 + 0.00020 + 0.00224 = 0.0058."
+        },
+        {
+          "type": "question",
+          "objectiveId": "5.c",
+          "text": "How do we define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Shortfall risk is the probability that a portfolio value or return will fall below a particular target value or return over a given period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Roy’s safety-first criterion states that the optimal portfolio minimizes the probability that the return of the portfolio falls below some minimum acceptable level. This minimum acceptable level is called the threshold level. Symbolically, Roy’s safety-first criterion can be stated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\mathrm{minimize~P(R_p<R_L)}} \\\\ {} & {{} \\mathrm{where:}} \\\\ {} & {{} \\mathrm{~R_p=portfolio~return}} \\\\ {} & {{} \\mathrm{~R_L=threshold~level~return}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "1fb8a6f8f67aa5416aab.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If portfolio returns are normally distributed, then Roy’s safety-first criterion can be stated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{maximize~safety-first~ratio,which~equals}} \\frac{\\mathrm{E ( R_{P} )}-\\mathrm{R_{L}}} {\\sigma_{\\mathrm{P}}}",
+          "display": true,
+          "sourceAsset": "52dca6acb47c9e90f65f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The reasoning behind the safety-first criterion is illustrated in Figure 5.4. Assume an investor is choosing between two portfolios: Portfolio A, with an expected return of 12% and standard deviation of returns of 18%, and Portfolio B, with an expected return of 10% and standard deviation of returns of 12%. The investor has stated that he wants to minimize the probability of losing money (negative returns). Assuming that returns are normally distributed, the portfolio with the larger safety-first ratio using 0% as the threshold return (RL) will be the one with the lower probability of negative returns."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 5.4: The Safety-First Criterion and Shortfall Risk"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b77962b177f73d87f044.png",
+          "alt": "Equation, table, or diagram: Figure 5.4: The Safety-First Criterion and Shortfall Risk",
+          "width": 495,
+          "height": 387,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Panel B of Figure 5.4 relates the safety-first ratio to the standard normal distribution. Note that the safety-first ratio is the number of standard deviations below the mean. Thus, the portfolio with the larger safety-first ratio has the lower probability of returns below the threshold return, which is a return of 0% in our example. Using a z-table for negative values, we can find the probabilities in the left-hand tails as indicated. These probabilities (25% for Portfolio A and 20% for Portfolio B) are also the shortfall risk for a target return of 0%—that is, the probability of negative returns. Portfolio B has the higher safety-first ratio, which means it has the lower probability of negative returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "In summary, when choosing among portfolios with normally distributed returns using Roy’s safety-first criterion, there are two steps:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathsf{S t e p ~ 1 : ~ C a l c u l a t e ~ t h e ~ s a f e t y-f i r s t ~ r a t i o}} \\,={\\frac{{\\mathrm{E}} \\left( {\\mathrm{R}}_{\\mathrm{p}} \\right)-{\\mathrm{R}}_{\\mathrm{L}}} {{\\sigma}_{\\mathrm{p}}}} .",
+          "display": true,
+          "sourceAsset": "6c8cb6afad7e90f528c5.png",
+          "prose": "Step 1: Calculate the safety-first ratio ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: Choose the portfolio that has the largest safety-first ratio."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Roy’s safety-first criterion"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the next year, the managers of a $120 million college endowment plan have set a minimum acceptable end-of-year portfolio value of $123.6 million. Three portfolios are being considered that have the expected returns and standard deviation shown in the first two rows of the following table. Determine which of these portfolios is the most desirable using Roy’s safety-first criterion and the probability that the portfolio value will fall short of the target amount."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The threshold return is RL = (123.6 − 120) / 120 = 0.030 = 3%. The safety-first ratios are shown in the following table. As indicated, the best choice is Portfolio A because it has the largest safety-first ratio."
+        },
+        {
+          "type": "heading",
+          "text": "Roy’s Safety-First Ratios"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b8f7f76b5f0bf28f896b.png",
+          "alt": "Equation, table, or diagram: Roy’s Safety-First Ratios",
+          "width": 407,
+          "height": 104,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The probability of an ending value for Portfolio A less than $123.6 million (a return less than 3%) is simply F(−0.5), which we can find on the z-table for negative values. The probability is 0.3085 = 30.85%."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "5.a",
+      "text": "How do we calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The expected return of a portfolio composed of n assets with weights, wi, and expected returns, Ri, is:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{E} ( \\mathrm{R}_{\\mathrm{p}} )=\\sum_{i=1}^{n} \\mathrm{w}_{i} \\mathrm{E} ( \\mathrm{R}_{i} )=\\mathrm{w}_{1} \\, \\mathrm{E} ( \\mathrm{R}_{1} )+\\mathrm{w}_{2} \\, \\mathrm{E} ( \\mathrm{R}_{2} )+\\ldots+\\mathrm{w}_{n} \\, \\mathrm{E} ( \\mathrm{R}_{n} )",
+      "display": true,
+      "sourceAsset": "bd2a5223be6a349c4992.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The variance of a portfolio composed of two risky assets, A and B, can be expressed as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ C o v}}_{\\mathrm{{\\tiny~ A B}}}",
+      "display": true,
+      "sourceAsset": "d3374ec611f7256ec743.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The variance of a two-asset portfolio can also be expressed as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {{\\mathrm{Var} \\big( \\mathrm{R}_{\\mathrm{B}} \\big)=\\mathrm{w}_{\\mathrm{A}}^{2} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{w}_{\\mathrm{B}}^{2} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\mathrm{w}_{\\mathrm{A}} \\, \\mathrm{w}_{\\mathrm{B}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}} \\, \\rho_{\\mathrm{A,B}}}} \\\\ {{\\mathrm{where~} \\rho_{\\mathrm{A,B}} {\\mathrm{~is~the~correlation~of~the~two~assets\"returns.}}}} \\end{array}",
+      "display": true,
+      "sourceAsset": "d293a864e9b30c3e23c3.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "5.b",
+      "text": "How do we calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Given the joint probabilities for Ai and Bi, the covariance is calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\sum_{i=1}^{n} \\! \\mathrm{P ( A_{i} B_{i} ) {\\left[ A_{i}-E ( A ) \\right]}} \\left[ B_{i}-E ( B ) \\right]",
+      "display": true,
+      "sourceAsset": "4c06743ccbf7cdeff2c3.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "5.c",
+      "text": "How do we define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Shortfall risk is the probability that a portfolio’s value (or return) will fall below a specific value over a given period."
+    },
+    {
+      "type": "paragraph",
+      "text": "The safety-first ratio for Portfolio P, based on a target return RT, is:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\mathrm{SFRatio}} \\!=\\! {\\frac{\\operatorname{E} ( \\mathrm{R}_{\\mathrm{P}} ) \\!-\\! \\mathrm{R}_{\\mathrm{T}}} {\\sigma_{\\mathrm{p}}}}",
+      "display": true,
+      "sourceAsset": "e97773993999c7e0bbd7.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Greater safety-first ratios are preferred and indicate a smaller shortfall probability. Roy’s safety-first criterion states that the optimal portfolio minimizes shortfall risk."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "5.a",
+      "statement": "Calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns.",
+      "question": "How do we calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns?"
+    },
+    {
+      "id": "5.b",
+      "statement": "Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns.",
+      "question": "How do we calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns?"
+    },
+    {
+      "id": "5.c",
+      "statement": "Define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion.",
+      "question": "How do we define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-5-quiz-1",
+      "title": "Knowledge check 5.1",
+      "moduleId": "5.1",
+      "questions": [
+        {
+          "id": "r5-q1",
+          "number": 1,
+          "objectiveIds": [
+            "5.a"
+          ],
+          "prompt": "The correlation of returns between Stocks A and B is 0.50. The covariance between these two securities is 0.0043, and the standard deviation of the return of Stock B is 26%. The variance of returns for Stock A is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.0011."
+            },
+            {
+              "id": "B",
+              "text": "0.0331."
+            },
+            {
+              "id": "C",
+              "text": "0.2656."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\operatorname{C o r r} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)={\\frac{\\operatorname{C o v} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)} {\\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{A}} \\right) \\right] \\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{B}} \\right) \\right]}}\\\\[6pt]\\sigma^{2} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)=\\left[ \\frac{\\mathrm{Cov} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} {\\sigma\\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right) \\mathrm{Corr} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} \\right]^{2}\\\\[6pt]\\qquad\\qquad\\qquad=\\left[ {\\frac{0.0043} {( 0.26 ) ( 0.5 )}} \\right]^{2}=0.0331^{2}=0.0011\\end{gathered}",
+              "display": true,
+              "sourceAsset": "d679af8f7aa745329d0d.png"
+            }
+          ]
+        },
+        {
+          "id": "r5-q2",
+          "number": 2,
+          "objectiveIds": [
+            "5.b"
+          ],
+          "prompt": "Given the following joint probability table for the returns on Assets P and Q: The covariance between P and Q is closest to:",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}{\\begin{array} {l l c c} \\hline{} & {{\\bf Q=796}} & {{\\bf Q=496}} & {{\\bf Q=096}} \\\\ \\hline{{\\bf P=1596}} & {0.2} & {0} & {0} \\\\ {{\\bf P=1296}} & {0} & {0.2} & {0} \\\\ \\end{array}}\\\\[6pt]{\\sf P}=096 \\qquad0 \\qquad\\qquad0 \\qquad\\qquad0.6\\end{gathered}",
+              "display": true,
+              "sourceAsset": "f4864f97397c82659731.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "18.0."
+            },
+            {
+              "id": "B",
+              "text": "18.7."
+            },
+            {
+              "id": "C",
+              "text": "19.3."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Expected value of P = 0.2 × 15 + 0.2 × 12 + 0.6 × 0 = 5.4% Expected value of Q = 0.2 × 7 + 0.2 × 4 + 0.6 × 0 = 2.2% Covariance = 0.2 × (15 − 5.4) × (7 − 2.2) + 0.2 × (12 − 5.4) × (4 − 2.2) + 0.6 (0 − 5.4) (0 − 2.2) = 18.72",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Expected value of P = 0.2 × 15 + 0.2 × 12 + 0.6 × 0 = 5.4%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Expected value of Q = 0.2 × 7 + 0.2 × 4 + 0.6 × 0 = 2.2%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Covariance = 0.2 × (15 − 5.4) × (7 − 2.2) + 0.2 × (12 − 5.4) × (4 − 2.2) + 0.6 (0 − 5.4) (0 − 2.2) = 18.72"
+            }
+          ]
+        },
+        {
+          "id": "r5-q3",
+          "number": 3,
+          "objectiveIds": [
+            "5.c"
+          ],
+          "prompt": "Expected returns and standard deviations of returns for three portfolios are as follows: Given a threshold level of return of 4%, the optimal portfolio using Roy’s safety-first criterion is:",
+          "supportingBlocks": [
+            {
+              "type": "image",
+              "src": "content/figures/b433e6e32eee7e9616c8.png",
+              "alt": "Equation, table, or diagram: 3. Expected returns and standard deviations of returns for three portfolios are as follows:",
+              "width": 355,
+              "height": 70,
+              "visualKind": "diagram-chart-or-table"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "Portfolio A."
+            },
+            {
+              "id": "B",
+              "text": "Portfolio B."
+            },
+            {
+              "id": "C",
+              "text": "Portfolio C."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Safety-first ratio for Portfolio A = (5 − 4) / 8 = 0.125 Safety-first ratio for Portfolio B = (11 − 4) / 21 = 0.333 Safety-first ratio for Portfolio C = (18 − 4) / 40 = 0.350 The largest value is 0.35, so Portfolio C has the smallest probability of a return below the threshold.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Safety-first ratio for Portfolio A = (5 − 4) / 8 = 0.125"
+            },
+            {
+              "type": "paragraph",
+              "text": "Safety-first ratio for Portfolio B = (11 − 4) / 21 = 0.333"
+            },
+            {
+              "type": "paragraph",
+              "text": "Safety-first ratio for Portfolio C = (18 − 4) / 40 = 0.350"
+            },
+            {
+              "type": "paragraph",
+              "text": "The largest value is 0.35, so Portfolio C has the smallest probability of a return below the threshold."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

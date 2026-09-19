@@ -1,0 +1,1113 @@
+{
+  "readingId": 8,
+  "title": "Hypothesis Testing",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "8.1",
+      "title": "Hypothesis Testing Basics",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "8.a",
+          "text": "How can we explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A hypothesis is a statement about the value of a population parameter developed for the purpose of testing a theory or belief. Hypotheses are stated in terms of the population parameter to be tested, like the population mean, μ. For example, a researcher may be interested in the mean daily return on stock options. Hence, the hypothesis may be that the mean daily return on a portfolio of stock options is positive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hypothesis testing procedures, based on sample statistics and probability theory, are used to determine whether a hypothesis is a reasonable statement and should not be rejected, or if it is an unreasonable statement and should be rejected. The process of hypothesis testing consists of a series of steps shown in Figure 8.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.1: Hypothesis Testing Procedure"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/56512ee0e05d283785ae.png",
+          "alt": "Equation, table, or diagram: Figure 8.1: Hypothesis Testing Procedure",
+          "width": 518,
+          "height": 284,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The null hypothesis, designated H0, is the hypothesis that the researcher wants to reject. It is the hypothesis that is actually tested and is the basis for the selection of the test statistics. The null is generally stated as a simple statement about a population parameter. A typical statement of the null hypothesis for the population mean is H0: μ ="
+        },
+        {
+          "type": "paragraph",
+          "text": "μ0, where μ is the population mean and μ0 is the hypothesized value of the population mean."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The null hypothesis always includes the “equal to” condition."
+        },
+        {
+          "type": "paragraph",
+          "text": "The alternative hypothesis, designated Ha, is what is concluded if there is sufficient evidence to reject the null hypothesis and is usually what you are really trying to assess. Why? You can never really prove anything with statistics—when the null hypothesis is discredited, the implication is that the alternative hypothesis is valid."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a null hypothesis H0: μ = μ0, the alternative hypothesis is Ha: μ ≠ μ0. Notice that the null and alternative hypotheses are mutually exclusive and exhaustive. They include all possible outcomes of the test (they are exhaustive), and no possible outcome of the test satisfies both hypotheses (they are mutually exclusive)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let’s look at the development of the decision rule for a two-tailed test using a z-distributed test statistic (a z-test) at a 5% level of significance, α = 0.05:"
+        },
+        {
+          "type": "paragraph",
+          "text": "At α = 0.05, the computed test statistic is compared with the critical z-values of ±1.96. The values of ±1.96 correspond to ±zα/2 = ±z0.025, which is the range of z-values within which 95% of the probability lies. These values are obtained from the cumulative probability table for the standard normal distribution (z-table), which is included in the statistical reference library. If the computed test statistic falls outside the range of critical z-values (i.e., test statistic > 1.96, or test statistic < −1.96), we reject the null and conclude that the sample statistic is sufficiently different from the hypothesized value. If the computed test statistic falls within the range ±1.96, we conclude that the sample statistic is not sufficiently different from the hypothesized value (μ = μ0, in this case), and we fail to reject the null hypothesis."
+        },
+        {
+          "type": "paragraph",
+          "text": "The decision rule (rejection rule) for a two-tailed z-test at α = 0.05 can be stated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if test statistic < −1.96 or test statistic > 1.96"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 8.2 shows the standard normal distribution for a two-tailed hypothesis test using the z-distribution. Notice that the significance level of 0.05 means that there is 0.05 / 2 = 0.025 probability (area) under each tail of the distribution beyond ±1.96."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.2: Two-Tailed Hypothesis Test Using the Standard Normal (z) Distribution"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/62247c76b2a3dfe8951a.png",
+          "alt": "Equation, table, or diagram: Figure 8.2: Two-Tailed Hypothesis Test Using the Standard Normal (z) Distribution",
+          "width": 322,
+          "height": 205,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hypothesis testing involves two statistics: (1) the test statistic calculated from the sample data and (2) the critical value of the test statistic. The value of the computed test statistic relative to the critical value is a key step in assessing the validity of a hypothesis."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from the prerequisite readings that candidates are expected to know the most frequently used critical values for hypothesis tests with z-statistics:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e784f812f521b3b450fe.png",
+          "alt": "Equation, table, or diagram: Recall from the prerequisite readings that candidates are expected to know the most frequently used critical values for hypothesis tests with z-statistics:",
+          "width": 411,
+          "height": 131,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A test statistic is calculated by comparing the point estimate of the population parameter with the hypothesized value of the parameter (i.e., the value specified in the null hypothesis). As indicated in the following expression, the test statistic is the difference between the sample statistic and the hypothesized value, scaled by the standard error of the sample statistic:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{test~statistic}}={\\frac{\\mathrm{sample~statistic}-\\mathrm{hypothesized~value}} {\\mathrm{standard~error~of~the~sample~statistic}}}",
+          "display": true,
+          "sourceAsset": "79b836f084be0e0a5d2a.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{The~standard~error~of~the~sample~statistic~is~the~adjusted~standard~deviation~of~the~stample.}} \\\\ {\\mathrm{s a m p l e . ~ W h e n ~ t h e ~ s a m p l e ~ s t a t i s t i c ~ i s ~ t h e ~ s a m p l e ~ m e a n , ~ \\overline{{x}} , ~ t h e ~ s t a n d a r d ~ e r r o r ~ o f ~ t h e ~ \\overline{{x}}_{1} ~}} \\\\ {\\mathrm{sample~statistic~for~sample~size~n,~is~calculated~as:}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "8ba8ada4e0bb245a1d36.png",
+          "prose": "The standard error of the sample statistic is the adjusted standard deviation of the sample. When the sample statistic is the sample mean, , the standard error of the sample statistic for sample size n, is calculated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\bar{x}}={\\frac{\\sigma} {\\sqrt{n}}}",
+          "display": true,
+          "sourceAsset": "e4877c928a2c2d358ea7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "when the population standard deviation, σ, is known, or:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathfrak{s}}_{x}={\\frac{\\mathfrak{s}} {\\sqrt{n}}}",
+          "display": true,
+          "sourceAsset": "9a62ec5a44dc7db55225.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "when the population standard deviation, σ, is not known. In this case, it is estimated using the standard deviation of the sample, s."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathsf{P R o r t s s o r s ~ w o r e ~}} \\\\ {\\mathsf{D o n^{\\prime} t ~ b e ~ c o n f u s e d ~ b y ~ t h e ~ n o t a t i o n ~ h e r e . A ~ l o t ~ o f ~ t h e ~ l i t e r a t u r e ~ y o u ~ w i l l}} \\\\ {\\mathsf{e n c o u n t e r ~ i n ~ y o u r ~ s t u d i e s ~ s i m p l y ~ u s e s ~ t h e ~ t e r m ~}^{\\sigma} r \\mathrm{~for~the~standard~error~of~}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{the~test~statistic,regardless~of~whether~the~population~standard~deviation~or~}} \\\\ {\\mathrm{sample~standard~deviation~was~used~in~its~computation.}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "a38b270081b03ba09da7.png",
+          "prose": "Study note Don’t be confused by the notation here. A lot of the literature you will encounter in your studies simply uses the term for the standard error of the test statistic, regardless of whether the population standard deviation or sample standard deviation was used in its computation."
+        },
+        {
+          "type": "paragraph",
+          "text": "As you will soon see, a test statistic is a random variable that may follow one of several distributions, depending on the characteristics of the sample and the population. We will look at four distributions for test statistics: the t-distribution, the z-distribution (standard normal distribution), the chi-square distribution, and the F-distribution. The critical value for the appropriate test statistic—the value against which the computed test statistic is compared—depends on its distribution."
+        },
+        {
+          "type": "heading",
+          "text": "Type I and Type II Errors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep in mind that hypothesis testing is used to make inferences about the parameters of a given population on the basis of statistics computed for a sample that is drawn from that population. We must be aware that there is some probability that the sample, in some way, does not represent the population, and any conclusion based on the sample about the population may be made in error."
+        },
+        {
+          "type": "paragraph",
+          "text": "When drawing inferences from a hypothesis test, there are two types of errors:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Type I error. This is the rejection of the null hypothesis when it is actually true. Type II error. This is the failure to reject the null hypothesis when it is actually false."
+        },
+        {
+          "type": "paragraph",
+          "text": "The significance level is the probability of making a Type I error (rejecting the null when it is true) and is designated by the Greek letter alpha (α). For instance, a significance level of 5% (α = 0.05) means there is a 5% chance of rejecting a true null hypothesis. When conducting hypothesis tests, a significance level must be specified to identify the critical values needed to evaluate the test statistic."
+        },
+        {
+          "type": "paragraph",
+          "text": "While the significance level of a test is the probability of rejecting the null hypothesis when it is true, the power of a test is the probability of correctly rejecting the null hypothesis when it is false. The power of a test is actually one minus the probability of making a Type II error, or 1 − P(Type II error). In other words, the probability of rejecting the null when it is false (power of the test) equals one minus the probability of not rejecting the null when it is false (Type II error). When more than one test statistic may be used, the power of the test for the competing test statistics may be useful in deciding which test statistic to use. Ordinarily, we wish to use the test statistic that provides the most powerful test among all possible tests."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 8.3 shows the relationship between the level of significance, the power of a test, and the two types of errors."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.3: Type I and Type II Errors in Hypothesis Testing"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/2ccbecb6fc5317f7554b.png",
+          "alt": "Equation, table, or diagram: Figure 8.3: Type I and Type II Errors in Hypothesis Testing",
+          "width": 415,
+          "height": 183,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sample size and the choice of significance level (Type I error probability) will together determine the probability of a Type II error. The relation is not simple, however, and calculating the probability of a Type II error in practice is quite difficult. Decreasing the significance level (probability of a Type I error) from 5% to 1%, for example, will increase the probability of failing to reject a false null (Type II error)—and, therefore, reduce the power of the test. Conversely, for a given sample size, we can increase the power of a test only with the cost that the probability of rejecting a true null (Type I error) increases. For a given significance level, we can decrease the probability of a Type II error and increase the power of a test only by increasing the sample size."
+        },
+        {
+          "type": "paragraph",
+          "text": "The decision for a hypothesis test is to either reject the null hypothesis or fail to reject the null hypothesis. Note that it is statistically incorrect to say “accept” the null hypothesis; it can only be supported or rejected. The decision rule for rejecting or failing to reject the null hypothesis is based on the distribution of the test statistic. For example, if the test statistic follows a normal distribution, the decision rule is based on critical values determined from the standard normal distribution (z-distribution). Regardless of the appropriate distribution, it must be determined if a one-tailed or two-tailed hypothesis test is appropriate before a decision rule (rejection rule) can be determined."
+        },
+        {
+          "type": "paragraph",
+          "text": "A decision rule is specific and quantitative. Once we have determined whether a one- or two-tailed test is appropriate, the significance level we require, and the distribution of the test statistic, we can calculate the exact critical value for the test statistic. Then, we have a decision rule of the following form: if the test statistic is (greater, less than) the value X, reject the null."
+        },
+        {
+          "type": "paragraph",
+          "text": "The p-value is the probability of obtaining a test statistic that would lead to a rejection of the null hypothesis, assuming the null hypothesis is true. It is the smallest level of significance for which the null hypothesis can be rejected."
+        }
+      ]
+    },
+    {
+      "id": "8.2",
+      "title": "Types of Hypothesis Tests",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "8.b",
+          "text": "How do we construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here, we will show examples of hypothesis tests for population means and population variances:"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a hypothesis concerning the value of a population mean, we use a t-test (or a z-test if the sample size is large enough). To test a hypothesis concerning the equality of two population means, we use a t-test. The nature of that test depends on whether the samples are independent (a difference in means test) or dependent (a paired comparisons test)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a hypothesis concerning the value of a population variance, we use a chi-square test. To test a hypothesis concerning the equality of two population variances, we use an F-test."
+        },
+        {
+          "type": "heading",
+          "text": "Value of a Population Mean"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Hypothesis test of a population mean"
+        },
+        {
+          "type": "paragraph",
+          "text": "A researcher has gathered data on the daily returns on a portfolio of call options over a recent 250-day period. The mean daily return has been 0.1%, and the sample standard deviation of daily portfolio returns is 0.25%. The researcher believes that the mean daily portfolio return is not equal to zero. Construct a hypothesis test of the researcher’s belief."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we need to specify the null and alternative hypotheses:"
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: μ0 = 0 versus Ha: μ0 ≠ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "The t-distribution is used to test a hypothesis about the value of a population mean. With 250 observations, however, this sample is considered to be large, so the z-distribution is acceptable. Because our sample is so large, the critical values for the t and z are almost identical. Hence, there is almost no difference in the likelihood of rejecting a true null."
+        },
+        {
+          "type": "paragraph",
+          "text": "At a 5% level of significance, the critical z-values for a two-tailed test are ±1.96, so the decision rule can be stated as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if test statistic < −1.96 or test statistic > +1.96"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given a sample size of 250 with a standard deviation of 0.25%, the standard error can be computed as:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt s_{\\pi} \\!=\\! \\frac{s} {\\sqrt{n}} \\!=\\! \\frac{0.25 \\% \\!} {\\sqrt{250}} \\!=0.0158 \\%}",
+          "display": true,
+          "sourceAsset": "810be4d8d44e1253925f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the standard error of the sample mean, our test statistic is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\cfrac{0.001} {\\left( \\cfrac{0.0025} {\\sqrt{250}} \\right)}=\\cfrac{0.001} {0.000158}=6.33",
+          "display": true,
+          "sourceAsset": "1667f8b95beef287b529.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because 6.33 > 1.96, we can reject the null hypothesis that the mean daily option return is equal to zero."
+        },
+        {
+          "type": "heading",
+          "text": "Difference Between Means (Independent Samples)"
+        },
+        {
+          "type": "paragraph",
+          "text": "We frequently want to know if there is a difference between the means of two populations. The t-test for differences between means requires that we are reasonably certain that our samples are independent and that they are taken from two populations that are normally distributed."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Please note the language of the Candidates must “[c]onstruct hypothesis tests and determine their statistical significance …” Certainly, you should know that this is a t-test, and that we reject the hypothesis of equality when the test statistic is outside the critical t-values. Don’t worry about memorizing the following formulas."
+        },
+        {
+          "type": "paragraph",
+          "text": "A pooled variance is used with the t-test for testing the hypothesis that the means of two normally distributed populations are equal, when the variances of the populations are unknown but assumed to be equal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assuming independent samples, the t-statistic is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nt=\\frac{(\\bar X_1-\\bar X_2)-(\\mu_1-\\mu_2)}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\\\\ns_p^2=\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2},\\quad df=n_1+n_2-2\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "18a0c7fb21bd309fe325.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because we assume that the variances are equal, we just add the variances of the two sample means to calculate the standard error in the denominator."
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition here is straightforward. If the sample means are close together, the numerator of the t-statistic (and the t-statistic itself) are small, and we do not reject equality. If the sample means are far apart, the numerator of the t-statistic (and the t-statistic itself) are large, and we reject equality. Perhaps not as easy to remember is the fact that this test is only valid for two populations that are independent and normally distributed."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Difference between means—equal variances"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sue Smith is investigating whether the abnormal returns for acquiring firms during merger announcement periods differ for horizontal and vertical mergers. She estimates the abnormal returns for a sample of acquiring firms associated with horizontal mergers and a sample of acquiring firms involved in vertical mergers. Smith finds that abnormal returns from horizontal mergers have a mean of 1.0% and a standard deviation of 1.0%, while abnormal returns from vertical mergers have a mean of 2.5% and a standard deviation of 2.0%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Smith assumes the samples are independent, the population means are normally distributed, and the population variances are equal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Smith calculates the t-statistic as −5.474 and the degrees of freedom as 120. Using a 5% significance level, should Smith reject or fail to reject the null hypothesis that the abnormal returns to acquiring firms during the announcement period are the same for horizontal and vertical mergers?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because this is a two-tailed test, the structure of the hypotheses takes the following form:"
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: μ1 − μ2 = 0 versus Ha: μ1 − μ2 ≠ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "where:"
+        },
+        {
+          "type": "paragraph",
+          "text": "μ1 = mean of the abnormal returns for the horizontal mergers"
+        },
+        {
+          "type": "paragraph",
+          "text": "μ2 = mean of the abnormal returns for the vertical mergers"
+        },
+        {
+          "type": "paragraph",
+          "text": "From the following t-table segment, the critical t-value for a 5% level of significance at α / 2 = p = 0.025 with df = 120, is 1.980."
+        },
+        {
+          "type": "heading",
+          "text": "Partial t-Table"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {| l | c | c | c |} \\hline{\\mathrm{df}} & {\\mathrm{One-Tailed~Probabilities~(p)}} \\\\ \\hline{} & {\\mathrm{p=0.10}} & {\\mathrm{p=0.05}} & {\\mathrm{p=0.025}} \\\\ \\hline{110} & {1.289} & {1.659} & {1.982} \\\\ \\hline{120} & {1.289} & {1.658} & {1.980} \\\\ \\hline{200} & {1.286} & {1.653} & {1.972} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "2650a486ca28254a17dc.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, the decision rule can be stated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if t-statistic < −1.980 or t-statistic > 1.980"
+        },
+        {
+          "type": "paragraph",
+          "text": "The rejection region for this test is illustrated in the following figure."
+        },
+        {
+          "type": "heading",
+          "text": "Decision Rule for Two-Tailed t-Test"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, {\\mathrm{df}}=120 )\\\\[6pt]\\sum_{1}^{2.596} \\boxed{9596} \\uparrow\\natural^{2.596}\\\\[6pt]\\begin{array} {c | c c c} {{-1.980}} & {{}} & {{1.980}} \\\\ \\hline{{\\mid}} & {{}} & {{}} \\\\ \\hline{{\\mathrm{~ R e j e c t ~ H_{o} ~}}} & {{\\mathrm{~ F a i l ~ t o ~ R e j e c t ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ R e j e c t ~ H_{o} ~}}} \\\\ \\hline{{\\mathrm{~ R e j e c t ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ F a i l ~ t o ~ R e j e c t ~ H_{o} ~}}} & {{}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ee7fb6439edbe3b04caf.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the test statistic, −5.474, falls to the left of the lower critical t-value, Smith can reject the null hypothesis and conclude that mean abnormal returns are different for horizontal and vertical mergers."
+        },
+        {
+          "type": "heading",
+          "text": "Paired Comparisons (Means of Dependent Samples)"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the test in the previous section was of the difference between the means of two independent samples, sometimes, our samples may be dependent. If the observations in the two samples both depend on some other factor, we can construct a paired comparisons test of whether the means of the differences between observations for the two samples are different. Dependence may result from an event that affects both sets of observations for a number of companies, or because observations for two firms over time are both influenced by market returns or economic conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an example of a paired comparisons test, consider a test of whether the returns on two steel firms were equal over a five-year period. We can’t use the difference in means test because we have reason to believe that the samples are not independent. To some extent, both will depend on the returns on the overall market (market risk) and the conditions in the steel industry (industry-specific risk). In this case, our pairs will be the returns on each firm over the same time periods, so we use the differences in monthly returns for the two companies. The paired comparisons test is just a test of whether the average difference between monthly returns is significantly different from some value, typically zero, based on the standard error of the differences in monthly returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember, the paired comparisons test also requires that the sample data be normally distributed. Although we frequently just want to test the hypothesis that the mean of the differences in the pairs is zero (μdz = 0), the general form of the test for any hypothesized mean difference, μdz, is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "H_0:\\mu_d=\\mu_{d0}\\qquad\\text{versus}\\qquad H_a:\\mu_d\\ne\\mu_{d0}",
+          "display": true,
+          "sourceAsset": "f94ce9166c1748a54124.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For one-tail tests, the hypotheses are structured as either of these:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H}_{0} ; \\mu_{\\tt d} \\le\\mu_{\\tt d z} \\mathrm{~versus~H}_{\\tt a} ; \\mu_{\\tt d} > \\mu_{\\tt d z} , \\mathrm{~or~H}_{0} ; \\mu_{\\tt d} \\ge\\mu_{\\tt d z} \\mathrm{~versus~H}_{\\tt a} ; \\mu_{\\tt d} < \\mu_{\\tt d z}",
+          "display": true,
+          "sourceAsset": "3a8b1a38db57ea0e3c84.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the paired comparisons test, the t-statistic with n − 1 degrees of freedom is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nt=\\frac{\\bar d-\\mu_d}{s_{\\bar d}},\\quad \\bar d=\\frac1n\\sum_{i=1}^{n}d_i,\\quad\ns_{\\bar d}=\\frac{s_d}{\\sqrt n}\\\\\ns_d=\\sqrt{\\frac{\\sum_{i=1}^{n}(d_i-\\bar d)^2}{n-1}},\\quad n=\\text{number of paired observations}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "1b7cc19ce9ef01c0769f.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Paired comparisons test"
+        },
+        {
+          "type": "paragraph",
+          "text": "Joe Andrews is examining changes in estimated betas for the common stock of companies in the telecommunications industry before and after deregulation. Andrews believes the betas may decline because of deregulation, because companies are no longer subject to the uncertainties of rate regulation—or that they may increase because there is more uncertainty regarding competition in the industry. Andrews calculates a t-statistic of 10.26 for this hypothesis test, based on a sample size of 39. Using a 5% significance level, determine whether there is a change in betas."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the mean difference may be positive or negative, a two-tailed test is in order here. Thus, the hypotheses are structured as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: μd = 0 versus Ha: μd ≠ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are 39 − 1 = 38 degrees of freedom. Using the t-distribution, the two-tailed critical t-values for a 5% level of significance with df = 38 is ±2.024. As indicated in the following table, the critical t-value of 2.024 is located at the intersection of the p = 0.025 column and the df = 38 row. The one-tailed probability of 0.025 is used because we need 2.5% in each tail for 5% significance with a two-tailed test."
+        },
+        {
+          "type": "heading",
+          "text": "Partial t-Table"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c | c | c | c | c} {\\mathrm{df}} & {\\mathrm{One-Tailed~Probabilities~(p)}} \\\\ \\hline{} & {\\mathrm{p=0.10}} & {\\mathrm{p=0.05}} & {\\mathrm{p=0.025}} \\\\ \\hline{38} & {1.304} & {1.686} & {2.024} \\\\ \\hline{39} & {1.304} & {1.685} & {2.023} \\\\ \\hline{40} & {1.303} & {1.684} & {2.021} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "448f0b574d80ae590d30.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, this is the decision rule:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if t-statistic < −2.024, or t-statistic > 2.024"
+        },
+        {
+          "type": "paragraph",
+          "text": "This decision rule is illustrated in the following figure."
+        },
+        {
+          "type": "heading",
+          "text": "Decision Rule for a Two-Tailed Paired Comparisons Test"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, \\mathrm{df}=38 )\\\\[6pt]\\frac{2.596} {1} \\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\\\[6pt]\\begin{array} {c | c c | c} {{-2.024}} & {{}} & {{2.024}} \\\\ {{}} & {{}} & {{}} & {{}} \\\\ \\hline{{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{R e j e c t \\, H_{o}}}} & {{}} & {{\\mathrm{F a i l ~ t o ~ R e j e c t \\, H_{o}}}} & {{}} & {{\\mathrm{R e j e c t \\, H_{o}}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "11369a9311fe8de699f7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The test statistic, 10.26, is greater than the critical t-value, 2.024—it falls in the rejection region to the right of 2.024 in the previous figure. Thus, we reject the null hypothesis of no difference, concluding that there is a statistically significant difference between mean firm betas before and after deregulation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep in mind that we have been describing two distinct hypothesis tests: one about the significance of the difference between the means of two populations and one about the significance of the mean of the differences between pairs of observations. Here are rules for when these tests may be applied:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The test of the differences in means is used when there are two independent samples."
+        },
+        {
+          "type": "paragraph",
+          "text": "A test of the significance of the mean of the differences between paired observations is used when the samples are not independent."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Again, the says “[c]onstruct hypothesis tests and determine their statistical significance …” We can’t believe candidates are expected to memorize these formulas (or that you would be a better analyst if you did). You should instead focus on the fact that both of these tests involve t-statistics and depend on the degrees of freedom. Also note that when samples are independent, you can use the difference in means test, and when they are dependent, we must use the paired comparison (mean differences) test. In that"
+        },
+        {
+          "type": "paragraph",
+          "text": "case, with a null hypothesis that there is no difference in means, the test statistic is simply the mean of the differences between each pair of observations, divided by the standard error of those differences. This is just a straightforward t-test of whether the mean of a sample is zero, which might be considered fair game for the exam."
+        },
+        {
+          "type": "heading",
+          "text": "Value of a Population Variance"
+        },
+        {
+          "type": "paragraph",
+          "text": "The chi-square test is used for hypothesis tests concerning the variance of a normally distributed population. Letting σ² represent the true population variance and σ0"
+        },
+        {
+          "type": "paragraph",
+          "text": "2"
+        },
+        {
+          "type": "paragraph",
+          "text": "represent the hypothesized variance, the hypotheses for a two-tailed test of a single population variance are structured as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H}_{0} \\colon\\sigma^{2}=\\sigma_{0}^{2} \\; \\mathrm{versus\\;H}_{\\mathrm{a}} \\colon\\sigma^{2} \\neq\\sigma_{0}^{2}",
+          "display": true,
+          "sourceAsset": "39d3ca9e856419b191b4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The hypotheses for one-tailed tests are structured as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H}_{0} \\colon\\sigma^{2} \\leq\\sigma_{0}^{2} \\; \\mathrm{versus\\;H}_{\\mathrm{a}} \\colon\\sigma^{2} > \\sigma_{0}^{2} \\; \\mathrm{or\\;H}_{0} \\colon\\sigma^{2} \\geq\\sigma_{0}^{2} \\; \\mathrm{versus\\;H}_{\\mathrm{a}} \\colon\\sigma^{2} < \\sigma_{0}^{2}",
+          "display": true,
+          "sourceAsset": "4f99bf28d72fcad85155.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hypothesis testing of the population variance requires the use of a chi-square distributed test statistic, denoted χ². The chi-square distribution is asymmetrical and approaches the normal distribution in shape as the degrees of freedom increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "To illustrate the chi-square distribution, consider a two-tailed test with a 5% level of significance and 30 degrees of freedom. As displayed in Figure 8.4, the critical chi-square values are 16.791 and 46.979 for the lower and upper bounds, respectively. These values are obtained from a chi-square table, which is used in the same manner as a t-table. A portion of a chi-square table is presented in Figure 8.5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the chi-square values in Figure 8.5 correspond to the probabilities in the right tail of the distribution. As such, the 16.791 in Figure 8.4 is from the column headed 0.975 because 95% + 2.5% of the probability is to the right of it. The 46.979 is from the column headed 0.025 because only 2.5% probability is to the right of it. Similarly, at a 5% level of significance with 10 degrees of freedom, Figure 8.5 shows that the critical chi-square values for a two-tailed test are 3.247 and 20.483."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.4: Decision Rule for a Two-Tailed Chi-Square Test"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fd24dc32709058032574.png",
+          "alt": "Equation, table, or diagram: Figure 8.4: Decision Rule for a Two-Tailed Chi-Square Test",
+          "width": 316,
+          "height": 253,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.5: Chi-Square Table"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/ec0853b98c6f21d14c84.png",
+          "alt": "Equation, table, or diagram: Figure 8.5: Chi-Square Table",
+          "width": 472,
+          "height": 137,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The chi-square test statistic, χ², with n − 1 degrees of freedom, is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\chi_{n-1}^2=\\frac{(n-1)s^2}{\\sigma_0^2},\\quad\nn=\\text{sample size},\\ s^2=\\text{sample variance},\\ \\sigma_0^2=\\text{hypothesized population variance}",
+          "display": true,
+          "sourceAsset": "21bef3e9ea0c32f7b80a.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{S i m i l a r ~ t o ~ o t h e r ~ h y p o t h e s i s ~ t e s t s , t h e ~ c h i-s q u a r e ~ t e s t ~ c o m p a r e s ~ t h e ~ t e s t ~ s t a t i s t i c , ~ \\chi_{a-1}^2 ~ , ~ \\ldots, ~ \\underbrace{2}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\mu}} \\\\ {\\mathrm{a~critical~chi-square~value~at~a~given~level~of~significance~and~n-1~degrees~of~freedom.~}} \\\\ {\\mathrm{Because~the~chi-square~distribution~is~bounded~below~by~zero,~chi-square~values~cannot~\\mu=\\mu}} \\\\ {\\mathrm{be~negstive.~}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6806b7731d44425ea82c.png",
+          "prose": "Similar to other hypothesis tests, the chi-square test compares the test statistic, , to a critical chi-square value at a given level of significance and n − 1 degrees of freedom. Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Chi-square test for a single population variance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Historically, the High-Return Equity Fund has advertised that its monthly returns have a standard deviation equal to 4%. This was based on estimates from the 2005– 2013 period. High-Return wants to verify whether this claim still adequately describes the standard deviation of the fund’s returns. High-Return collected monthly returns for the 24-month period between 2013 and 2015 and measured a standard deviation of monthly returns of 3.8%. High-Return calculates a test statistic of 20.76. Using a 5% significance level, determine if the more recent standard deviation is different from the advertised standard deviation."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The null hypothesis is that the standard deviation is equal to 4% and, therefore, the variance of monthly returns for the population is (0.04)² = 0.0016. Because High-Return simply wants to test whether the standard deviation has changed, up or down, a two-sided test should be used. The hypothesis test structure takes this form:"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 = 0.0016 versus Ha: σ2 ≠ 0.0016"
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: σ0"
+        },
+        {
+          "type": "paragraph",
+          "text": "The appropriate test statistic for tests of variance is a chi-square statistic."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a 24-month sample, there are 23 degrees of freedom. Using the table of chi-square values in the statistical reference library (table E), for 23 degrees of freedom and probabilities of 0.975 and 0.025, we find two critical values, 11.689 and 38.076. Thus, this is the decision rule:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if χ² < 11.689, or χ² > 38.076"
+        },
+        {
+          "type": "paragraph",
+          "text": "This decision rule is illustrated in the following figure."
+        },
+        {
+          "type": "heading",
+          "text": "Decision Rule for a Two-Tailed Chi-Square Test of a Single Population Variance"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/1f29a430552ac9b5702b.png",
+          "alt": "Equation, table, or diagram: Decision Rule for a Two-Tailed Chi-Square Test of a Single Population Variance",
+          "width": 363,
+          "height": 281,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the computed test statistic, χ², falls between the two critical values, we cannot reject the null hypothesis that the variance is equal to 0.0016. The recently measured standard deviation is close enough to the advertised standard deviation that we cannot say that it is different from 4%, at a 5% level of significance."
+        },
+        {
+          "type": "heading",
+          "text": "Comparing Two Population Variances"
+        },
+        {
+          "type": "paragraph",
+          "text": "The hypotheses concerned with the equality of the variances of two populations are tested with an F-distributed test statistic. Hypothesis testing using a test statistic that follows an F-distribution is referred to as the F-test. The F-test is used under the assumption that the populations from which samples are drawn are normally distributed, and that the samples are independent."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{~lf~we~let~} \\sigma_{1}^{2} \\mathrm{~and~} \\sigma_{2}^{2} \\mathrm{~represent~the~variances~of~normal~Population~1~and~Population~2,}} \\\\ {\\mathrm{~respectively,~the~hypotheses~for~the~two-tailed~} F \\mathrm{-test~of~differences~in~the~variances~cand~and~nond~non~2,}} \\\\ {\\mathrm{~be~structured~as~follows;}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "65ed8789c4c041ce2ba6.png",
+          "prose": "If we let represent the variances of normal Population 1 and Population 2, respectively, the hypotheses for the two-tailed F-test of differences in the variances can be structured as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\ \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{v e r s u s ~ H_{a}} \\mathrm{:} \\ \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
+          "display": true,
+          "sourceAsset": "8482ddbe95916d5a936c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The one-sided test structures can be specified as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "H_0:\\sigma_1^2\\le\\sigma_2^2\\ \\text{ versus }\\ H_a:\\sigma_1^2>\\sigma_2^2,\\quad\\text{or}\\quad H_0:\\sigma_1^2\\ge\\sigma_2^2\\ \\text{ versus }\\ H_a:\\sigma_1^2<\\sigma_2^2",
+          "display": true,
+          "sourceAsset": "7cf4743908e6350a5436.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The test statistic for the F-test is the ratio of the sample variances. The F-statistic is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {r l} {\\mathrm{F=} \\! \\displaystyle\\frac{s_{1}^{2}} {s_{2}^{2}}} \\\\ {\\mathrm{where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {{S_{1}^{2}=\\mathrm{variance~of~the~sample~of~} n_{1} \\mathrm{~observations~drawn~from~Population~1}}} \\\\ {{{}}} \\\\ {{S_{2}^{2}=\\mathrm{variance~of~the~sample~of~} n_{2} \\mathrm{~observations~drawn~from~Population~2}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b69f45974c05327fba42.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that n1 − 1 and n2 − 1 are the degrees of freedom used to identify the appropriate critical value from the F-table (provided in the statistical reference library)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Always put the larger variance in the numerator (s1"
+        },
+        {
+          "type": "paragraph",
+          "text": "2). Following this convention means that we only have to consider the critical value for the right-hand tail."
+        },
+        {
+          "type": "paragraph",
+          "text": "An F-distribution is presented in Figure 8.6. As indicated, the F-distribution is right skewed and is bounded by zero on the left-hand side. The shape of the F-distribution is determined by two separate degrees of freedom: the numerator degrees of freedom, df1, and the denominator degrees of freedom, df2."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 8.6: F-Distribution"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d08a345f77902d0c0c6d.png",
+          "alt": "Equation, table, or diagram: Figure 8.6: F-Distribution",
+          "width": 311,
+          "height": 273,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that when the sample variances are equal, the value of the test statistic is 1. The upper critical value is always greater than one (the numerator is significantly greater than the denominator), and the lower critical value is always less than one (the numerator is significantly smaller than the denominator). In fact, the lower critical value is the reciprocal of the upper critical value. For this reason, in practice, we put the larger sample variance in the numerator and consider only the upper critical value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: F-test for equal variances"
+        },
+        {
+          "type": "paragraph",
+          "text": "Annie Cower is examining the earnings for two different industries. Cower suspects that the variance of earnings in the textile industry is different from the variance of"
+        },
+        {
+          "type": "paragraph",
+          "text": "earnings in the paper industry. To confirm this suspicion, Cower has looked at a sample of 31 textile manufacturers and a sample of 41 paper companies. She measured the sample standard deviation of earnings across the textile industry to be $4.30, and that of the paper industry companies to be $3.80. Cower calculates a test statistic of 1.2805. Using a 5% significance level, determine if the earnings of the textile industry have a different standard deviation than those of the paper industry."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this example, we are concerned with whether the variance of earnings for companies in the textile industry is equal to the variance of earnings for companies in the paper industry. As such, the test hypotheses can be appropriately structured as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{v e r s u s ~ H_{a}} \\mathrm{:} \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
+          "display": true,
+          "sourceAsset": "e0c77fc3adcccac64c9a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For tests of difference between variances, the appropriate test statistic is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{F}={\\frac{\\mathrm{s_{1}^{2}}} {\\mathrm{s_{2}^{2}}}}",
+          "display": true,
+          "sourceAsset": "0f2eecb540d936ed22c3.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{where~}^{s_{1}^{2}} \\mathrm{~is~the~larger~sample~variance.}",
+          "display": true,
+          "sourceAsset": "9068d8699e95ffbed784.png",
+          "prose": "where is the larger sample variance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the sample sizes for the two industries, the critical F-value for our test is found to be 1.94. This value is obtained from the table of the F-distribution for 2.5% in the upper tail, with df1 = 30 and df2 = 40. Thus, if the computed F-statistic is greater than the critical value of 1.94, the null hypothesis is rejected. The decision rule, illustrated in the following figure, can be stated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reject H0 if F > 1.94"
+        },
+        {
+          "type": "heading",
+          "text": "Decision Rule for F-Test"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/510d77a276c7184557a9.png",
+          "alt": "Equation, table, or diagram: Decision Rule for F-Test",
+          "width": 306,
+          "height": 271,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the calculated F-statistic of 1.2805 is less than the critical F-statistic of 1.94, Cower cannot reject the null hypothesis. Cower should conclude that the earnings variances of the industries are not significantly different from one another at a 5% level of significance."
+        },
+        {
+          "type": "question",
+          "objectiveId": "8.c",
+          "text": "How do parametric and nonparametric tests differ, and when should we use each one?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parametric tests rely on assumptions regarding the distribution of the population and are specific to population parameters. For example, the z-test relies upon a mean and a standard deviation to define the normal distribution. The z-test also requires that either the sample is large, relying on the central limit theorem to assure a normal sampling distribution, or that the population is normally distributed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonparametric tests either do not consider a particular population parameter or have few assumptions about the population that is sampled. Nonparametric tests are used when there is concern about quantities other than the parameters of a distribution, or when the assumptions of parametric tests can’t be supported. They are also used when the data are not suitable for parametric tests (e.g., ranked observations)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some situations where a nonparametric test is called for may include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The assumptions about the distribution of the random variable that support a"
+        },
+        {
+          "type": "paragraph",
+          "text": "parametric test are not met. An example would be a hypothesis test of the mean value for a variable that comes from a distribution that is not normal and is of small size, so that neither the t-test nor the z-test is appropriate.\n2. A nonparametric test is called for when data are ranks (an ordinal measurement"
+        },
+        {
+          "type": "paragraph",
+          "text": "scale) rather than values.\n3. The hypothesis does not involve the parameters of the distribution, such as testing"
+        },
+        {
+          "type": "paragraph",
+          "text": "whether a variable is normally distributed. We can use a nonparametric test, called a runs test, to determine whether data are random. A runs test provides an estimate of the probability that a series of changes (e.g., +, +, −, −, +, −,….) are random."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "8.a",
+      "text": "How can we explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The hypothesis testing process requires a statement of a null and an alternative hypothesis, the selection of the appropriate test statistic, specification of the significance level, a decision rule, the calculation of a sample statistic, a decision regarding the hypotheses based on the test, and a decision based on the test results."
+    },
+    {
+      "type": "paragraph",
+      "text": "The null hypothesis is what the researcher wants to reject. The alternative hypothesis is what the researcher wants to support, and it is accepted when the null hypothesis is rejected."
+    },
+    {
+      "type": "paragraph",
+      "text": "A Type I error is the rejection of the null hypothesis when it is actually true, while a Type II error is the failure to reject the null hypothesis when it is actually false."
+    },
+    {
+      "type": "paragraph",
+      "text": "The significance level can be interpreted as the probability that a test statistic will reject the null hypothesis by chance when it is actually true (i.e., the probability of a Type I error). A significance level must be specified to select the critical values for the test."
+    },
+    {
+      "type": "paragraph",
+      "text": "The power of a test is the probability of rejecting the null when it is false. The power of a test = 1 − P(Type II error)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The p-value for a hypothesis test is the smallest significance level for which the hypothesis would be rejected."
+    },
+    {
+      "type": "question",
+      "objectiveId": "8.b",
+      "text": "How do we construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level?"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/deb5a22a0f8120f6c7e7.png",
+      "alt": "Equation, table, or diagram:",
+      "width": 440,
+      "height": 132,
+      "visualKind": "diagram-chart-or-table"
+    },
+    {
+      "type": "question",
+      "objectiveId": "8.c",
+      "text": "How do parametric and nonparametric tests differ, and when should we use each one?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parametric tests, like the t-test, F-test, and chi-square test, make assumptions regarding the distribution of the population from which samples are drawn. Nonparametric tests either do not consider a particular population parameter or have few assumptions about the sampled population. Nonparametric tests are used when the assumptions of parametric tests can’t be supported, or when the data are not suitable for parametric tests."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "8.a",
+      "statement": "Explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test.",
+      "question": "How can we explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test?"
+    },
+    {
+      "id": "8.b",
+      "statement": "Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level.",
+      "question": "How do we construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level?"
+    },
+    {
+      "id": "8.c",
+      "statement": "Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test.",
+      "question": "How do parametric and nonparametric tests differ, and when should we use each one?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-8-quiz-1",
+      "title": "Knowledge check 8.1",
+      "moduleId": "8.1",
+      "questions": [
+        {
+          "id": "r8-q1",
+          "number": 1,
+          "objectiveIds": [
+            "8.a"
+          ],
+          "prompt": "For a hypothesis test with a probability of a Type II error of 60% and a probability of a Type I error of 5%, which of the following statements is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The power of the test is 40%, and there is a 5% probability that the test statistic will exceed the critical value(s)."
+            },
+            {
+              "id": "B",
+              "text": "There is a 95% probability that the test statistic will be between the critical values, if this is a two-tailed test."
+            },
+            {
+              "id": "C",
+              "text": "There is a 5% probability that the null hypothesis will be rejected when actually true, and the probability of rejecting the null when it is false is 40%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A Type I error is rejecting the null hypothesis when it is true. The probability of rejecting a false null is [1 − Prob Type II] = [1 − 0.60] = 40%, which is called the power of the test. The other answer choices are not necessarily true, because the null may be false and the probability of rejection unknown.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A Type I error is rejecting the null hypothesis when it is true. The probability of"
+            },
+            {
+              "type": "paragraph",
+              "text": "rejecting a false null is [1 − Prob Type II] = [1 − 0.60] = 40%, which is called the power of the test. The other answer choices are not necessarily true, because the null may be false and the probability of rejection unknown."
+            }
+          ]
+        },
+        {
+          "id": "r8-q2",
+          "number": 2,
+          "objectiveIds": [
+            "8.a"
+          ],
+          "prompt": "If the significance level of a test is 0.05 and the probability of a Type II error is 0.15, what is the power of the test?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.850."
+            },
+            {
+              "id": "B",
+              "text": "0.950."
+            },
+            {
+              "id": "C",
+              "text": "0.975."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The power of a test is 1 − P(Type II error) = 1 − 0.15 = 0.85.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The power of a test is 1 − P(Type II error) = 1 − 0.15 = 0.85."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-8-quiz-2",
+      "title": "Knowledge check 8.2",
+      "moduleId": "8.2",
+      "questions": [
+        {
+          "id": "r8-q3",
+          "number": 1,
+          "objectiveIds": [
+            "8.b"
+          ],
+          "prompt": "Which of the following assumptions is least likely required for the difference in means test based on two samples?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The two samples are independent."
+            },
+            {
+              "id": "B",
+              "text": "The two populations are normally distributed."
+            },
+            {
+              "id": "C",
+              "text": "The two populations have known variances."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The difference in means test does not require the two population variances to be known.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The difference in means test does not require the two population variances to be"
+            },
+            {
+              "type": "paragraph",
+              "text": "known."
+            }
+          ]
+        },
+        {
+          "id": "r8-q4",
+          "number": 2,
+          "objectiveIds": [
+            "8.b"
+          ],
+          "prompt": "The appropriate test statistic for a test of the equality of variances for two normally distributed random variables, based on two independent random samples, is the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "t-test."
+            },
+            {
+              "id": "B",
+              "text": "F-test."
+            },
+            {
+              "id": "C",
+              "text": "χ² test."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The F-test is the appropriate test.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The F-test is the appropriate test."
+            }
+          ]
+        },
+        {
+          "id": "r8-q5",
+          "number": 3,
+          "objectiveIds": [
+            "8.b"
+          ],
+          "prompt": "The appropriate test statistic to test the hypothesis that the variance of a normally distributed population is equal to 13 is the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "t-test."
+            },
+            {
+              "id": "B",
+              "text": "F-test."
+            },
+            {
+              "id": "C",
+              "text": "χ² test."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A test of the population variance is a chi-square test.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A test of the population variance is a chi-square test."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "readingId": 40,
+  "title": "Security Market Indexes",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "40.1",
+      "title": "Index Weighting Methods",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "40.a",
+          "text": "What should we know about a security market index?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A security market index is used to represent the performance of an asset class, security market, or segment of a market. They are usually created as portfolios of individual securities, which are referred to as the constituent securities of the index. An index has a numerical value that is calculated from the market prices (actual when available, or estimated) of its constituent securities at a point in time. An index return is the percentage change in the index’s value over a period of time."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.b",
+          "text": "How do we calculate and interpret the value, price return, and total return of an index?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An index return may be calculated using a price index or a return index. A price index uses only the prices of the constituent securities in the return calculation. A rate of return that is calculated based on a price index is referred to as a price return."
+        },
+        {
+          "type": "paragraph",
+          "text": "A return index includes both prices and income from the constituent securities. A rate of return that is calculated based on a return index is called a total return. If the assets in an index produce interim cash flows such as dividends or interest payments, the total return will be greater than the price return."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once returns are calculated for each period, they then can be compounded together to arrive at the return for the measurement period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{~ R_{P}=( 1+R_{S 1} ) ( 1+R_{S 2} ) ( 1+R_{S 3} ) ( 1+R_{S 4} ) . . . ( 1+R_{S L} )-1 ) ~}}} \\\\ {{\\mathrm{~where:~}}} \\\\ {{\\mathrm{~ R_{P} ~=p o r t f o l i o ~ r e t u r n ~ d u r i n g ~ t h e ~ m e a s u r e m e n t ~ p e r i o d}}} \\\\ {{\\mathrm{~k~}}} \\\\ {{\\mathrm{~ R_{S t}=p o r t f o l i o ~ r e t u r n ~ d u r i n g ~ t h e ~ s u b p e r i o d ~} k}} \\end{array}",
+          "display": true,
+          "sourceAsset": "a301ef98fa36967156ca.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if the returns for the first two periods were 0.50% and 1.04%, they would be geometrically linked to produce 1.55%:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{R}_{\\mathrm{P}}=( 1+\\mathrm{R}_{\\mathrm{S1}} ) ( 1+\\mathrm{R}_{\\mathrm{S2}} )-1=( 1.005 ) ( 1.0104 )-1=0.0155 \\ \\mathrm{or} \\ 1.559_{0}",
+          "display": true,
+          "sourceAsset": "7ca49934497dda301160.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the starting index value is 100, its value after two periods would be 100 × 1.0155 = 101.55."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.c",
+          "text": "What should we know about the choices and issues in index construction and management?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Index providers must make several decisions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the target market the index is intended to measure? Which securities from the target market should be included?"
+        },
+        {
+          "type": "paragraph",
+          "text": "How should the securities be weighted in the index? How often should the index be rebalanced?"
+        },
+        {
+          "type": "paragraph",
+          "text": "When should the selection and weighting of securities be re-examined?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The target market may be defined broadly (e.g., stocks in the United States) or narrowly (e.g., small-cap value stocks in the United States). It may also be defined by geographic region or by economic sector (e.g., cyclical stocks). The constituent stocks in the index could be all the stocks in that market or just a representative sample. The selection process may be determined by an objective rule or subjectively by a committee."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.d",
+          "text": "How can we compare the different weighting methods used in index construction?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Weighting schemes for stock indexes include price weighting, equal weighting, market capitalization weighting, float-adjusted market capitalization weighting, and fundamental weighting."
+        },
+        {
+          "type": "paragraph",
+          "text": "A price-weighted index is simply an arithmetic average of the prices of the securities included in the index. The divisor of a price-weighted index is adjusted for stock splits and changes in the composition of the index when securities are added or deleted, such that the index value is unaffected by such changes."
+        },
+        {
+          "type": "paragraph",
+          "text": "The advantage of a price-weighted index is that its computation is simple. One disadvantage is that a given percentage change in the price of a higher priced stock has a greater impact on the index’s value than does an equal percentage change in the price of a lower priced stock. Put another way, higher priced stocks have more weight in the calculation of a price-weighted index. Additionally, a stock’s weight in the index going forward changes if the firm splits its stock, repurchases stock, or issues stock dividends, as all of these actions will affect the price of the stock and therefore its weight in the index. A portfolio that has an equal number of shares in each of the constituent stocks will have price returns (ignoring dividends) that will match the returns of a price-weighted index."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two major price-weighted indexes are the Dow Jones Industrial Average (DJIA) and the Nikkei Dow Jones Stock Average. The DJIA is a price-weighted index based on 30 U.S. stocks. The Nikkei Dow is constructed from the prices of 225 stocks that trade in the first section of the Tokyo Stock Exchange."
+        },
+        {
+          "type": "paragraph",
+          "text": "An equal-weighted index is calculated as the arithmetic average return of the index stocks and, for a given time period, would be matched by the returns on a portfolio that had equal dollar amounts invested in each index stock. As with a price-weighted index, an advantage of an equal-weighted index is its simplicity."
+        },
+        {
+          "type": "paragraph",
+          "text": "One complication with an equal-weighted index return is that a matching portfolio would have to be adjusted periodically (rebalanced) as prices change so that the values of all security positions are made equal each period. The portfolio rebalancing required to match the performance of an equal-weighted index creates high transactions costs that would decrease portfolio returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another concern with an equal-weighted index is that the weights placed on the returns of the securities of smaller capitalization firms are greater than their proportions of the overall market value of the index stocks. Conversely, the weights on the returns of large capitalization firms in the index are smaller than their proportions of the overall market value of the index stocks."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Value Line Composite Average and the Financial Times Ordinary Share Index are well-known examples of equal-weighted indexes."
+        },
+        {
+          "type": "paragraph",
+          "text": "A market capitalization-weighted index (or value-weighted index) has weights based on the market capitalization of each index stock (current stock price multiplied by the number of shares outstanding) as a proportion of the total market capitalization of all the stocks in the index. A market capitalization-weighted index return can be matched with a portfolio in which the value of each security position in the portfolio is the same proportion of the total portfolio value as the proportion of that security’s market capitalization to the total market capitalization of all of the securities included in the index. This weighting method more closely represents changes in aggregate investor wealth than price weighting. Because the weight of an index stock is based on its market capitalization, a market capitalization-weighted index does not need to be adjusted when a stock splits or pays a stock dividend."
+        },
+        {
+          "type": "paragraph",
+          "text": "An alternative to using a firm’s market capitalization to calculate its weight in an index is to use its market float. A firm’s market float is the total value of the shares that are actually available to the investing public and excludes the value of shares held by controlling stockholders because they are unlikely to sell their shares. For example, the float for Microsoft would exclude shares owned by Bill Gates and Paul Allen (the founders) and those of certain other large shareholders as well. The market float is often calculated excluding those shares held by corporations or governments as well. Sometimes the market float calculation excludes shares that are not available to foreign buyers and is then referred to as the free float. The reason for this is to better match the index weights of stocks to their proportions of the total value of all the shares of index stocks that are actually available to investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "A float-adjusted market capitalization-weighted index is constructed like a market capitalization-weighted index. The weights, however, are based on the proportionate value of each firm’s shares that are available to investors to the total market value of the shares of index stocks that are available to investors. Firms with relatively large percentages of their shares held by controlling stockholders will have less weight than they have in an unadjusted market-capitalization index."
+        },
+        {
+          "type": "paragraph",
+          "text": "The advantage of market capitalization-weighted indexes of either type is that index security weights represent proportions of total market value. The primary disadvantage of value-weighted indexes is that the relative impact of a stock’s return on the index increases as its price rises and decreases as its price falls. This means that stocks that"
+        },
+        {
+          "type": "paragraph",
+          "text": "are possibly overvalued are given disproportionately high weights in the index and stocks that are possibly undervalued are given disproportionately low weights. Holding a portfolio that tracks a value-weighted index is, therefore, similar to following a momentum strategy, under which the most successful stocks are given the greatest weights and poor performing stocks are underweighted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Standard and Poor’s 500 (S&P 500) Index Composite is an example of a market capitalization-weighted index."
+        },
+        {
+          "type": "paragraph",
+          "text": "An index that uses fundamental weighting uses weights based on firm fundamentals, such as earnings, dividends, or cash flow. In contrast to market capitalization index weights, these weights are unaffected by the share prices of the index stocks (although related to them over the long term). Fundamental weights can be based on a single measure or some combination of fundamental measures."
+        },
+        {
+          "type": "paragraph",
+          "text": "An advantage of a fundamental-weighted index is that it avoids the bias of market capitalization-weighted indexes toward the performance of the shares of overvalued firms and away from the performance of the shares of undervalued firms. A fundamental-weighted index will actually have a value tilt, overweighting firms with high value-based metrics such as book-to-market ratios or earnings yields. Note that a firm with a high earnings yield (total earnings to total market value) relative to other index firms will by construction have a higher weight in an earnings-weighted index because, among index stocks, its earnings are high relative to its market value."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.e",
+          "text": "How do we calculate and analyze the value and return of an index given its weighting method?"
+        },
+        {
+          "type": "heading",
+          "text": "Price Weighting"
+        },
+        {
+          "type": "paragraph",
+          "text": "A price-weighted index adds the market prices of each stock in the index and divides this total by the number of stocks in the index. The divisor, however, must be adjusted for stock splits and other changes in the index portfolio to maintain the continuity of the series over time."
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{price-weighted~index}} \\,=\\, {\\frac{\\mathrm{sum~of~stock~prices}} {\\mathrm{number~of~stocks~in~index~adjusted~for~splits}}}",
+          "display": true,
+          "sourceAsset": "118d36b2a46784ae53af.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Price-weighted index"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the information for the three stocks presented in the following figure, calculate a price-weighted index return over a one-month period."
+        },
+        {
+          "type": "heading",
+          "text": "Index Firm Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cf286e73fdd3d5bfdacd.png",
+          "alt": "Equation, table, or diagram: Index Firm Data",
+          "width": 346,
+          "height": 109,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The price-weighted index is (10 + 20 + 60) / 3 = 30 as of December 31 and (20 + 15 + 40) / 3 = 25 as of January 31. Hence, the price-weighted 1-month percentage return is:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{25} {30}}-1=-16.7 \\%",
+          "display": true,
+          "sourceAsset": "2e30c441d0ce097e667a.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Adjusting a price-weighted index for stock splits"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the market close on Day 1, Stock A has a price of $10, Stock B has a price of $20, and Stock C has a price of $90. The value of a price-weighted index of these three stocks is (10 + 20 + 90) / 3 = 40 at the close of trading. If Stock C splits 2-for-1, effective on Day 2, what is the new denominator for the index?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The effect of the split on the price of Stock C, in the absence of any change from the price at the end of Day 1, would be to reduce it to $90 / 2 = $45. The index denominator will be adjusted so that the index value would remain at 40 if there were no changes in the stock prices other than to adjust for the split. The new denominator, d, must satisfy (10 + 20 + 45) / d = 40 and equals 1.875."
+        },
+        {
+          "type": "paragraph",
+          "text": "The returns on a price-weighted index could be matched by purchasing an equal number of shares of each stock represented in the index. Because the index is price weighted, a percentage change in a high-priced stock will have a relatively greater effect on the index than the same percentage change in a low-priced stock."
+        },
+        {
+          "type": "heading",
+          "text": "Market Capitalization Weighting"
+        },
+        {
+          "type": "paragraph",
+          "text": "A market capitalization-weighted index is calculated by summing the total value (current stock price multiplied by the number of shares outstanding) of all the stocks in the index. This sum is then divided by a similar sum calculated during the selected base period. The ratio is then multiplied by the index’s base value (typically 100)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if the total market values of the index portfolio on December 31 and January 31 are $80 million and $95 million, respectively, the index value at the end of January is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {r} {{\\mathrm{current~index~value~}}={\\frac{{\\mathrm{current~total~market~value~of~index~stocks}}} {{\\mathrm{base~year~total~market~value~of~index~stocks}}}}} \\\\ {{} \\times{\\mathrm{base~year~index~value}}} \\end{array}\\\\[6pt]{\\mathrm{current~index~value}} \\,=\\, {\\frac{\\$95 \\ \\mathrm{miflion}} {\\$80 \\ \\mathrm{miflion}}} \\, {\\times} \\, 100 \\,=\\, 118.75\\end{gathered}",
+          "display": true,
+          "sourceAsset": "5fce87d33d98249e939d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, the market capitalization-weighted index percentage return is:"
+        },
+        {
+          "type": "math",
+          "latex": "( 118.75 \\ / \\ 100 )-1=18.75 \\%",
+          "display": true,
+          "sourceAsset": "3f3bf7a44c2e346d6222.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following example of price-weighting versus market value-weighting shows how these two indexes are calculated and how they differ."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Price-weighted vs. market capitalization-weighted indexes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the three firms described in the following table. Compare the effects on a price-weighted index and a market capitalization-weighted index if Stock A doubles in price or if Stock C doubles in price. Assume the period shown in the table is the base period for the market capitalization-weighted index and that its base value is 100."
+        },
+        {
+          "type": "heading",
+          "text": "Index Firm Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d0de22b301608827e621.png",
+          "alt": "Equation, table, or diagram: Index Firm Data",
+          "width": 407,
+          "height": 109,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The price-weighted index equals:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{100+10+1} {3}=37",
+          "display": true,
+          "sourceAsset": "569faf15fd3e92581104.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If Stock A doubles in price to $200, the price-weighted index value is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{200+10+1} {3}=70.33",
+          "display": true,
+          "sourceAsset": "d20669688dc9c9be66bc.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If Stock C doubles in price to $2, the price-weighted index value is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{100+10+2} {3}=37.33",
+          "display": true,
+          "sourceAsset": "115602c0193f79eec869.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If Stock A doubles in value, the index goes up 33.33 points, while if Stock C doubles in value, the index only goes up 0.33 points. Changes in the value of the firm with the highest stock price have a disproportionately large influence on a price-weighted index."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a market capitalization-weighted index, the base period market capitalization is (100,000 × $100) + (1,000,000 × $10) + (20,000,000 × $1) = $40,000,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "If Stock A doubles in price to $200, the index goes to:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{100 , 000 \\times\\, {\\mathfrak{S 2}} 00+1 , 000 , 000 \\times\\, {\\mathfrak{S 1}} 0+20 , 000 , 000 \\times\\, {\\mathfrak{S 1}}} {540 , 000 , 000}} \\times100 \\,=\\, 125",
+          "display": true,
+          "sourceAsset": "3dbe8ac6cf26ab55990e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If Stock C doubles in price to $2, the index goes to:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{100 , 000 \\times{\\cfrac{5100} {840}}+1 , 000 , 000 \\times{\\cfrac{510} {840 , 000 , 000}}+20 , 000 , 000 \\times{\\cfrac{52} {840 , 000 , 000}}} {{\\cfrac{540 , 000 , 000} {800}}}} \\times100 \\,=\\, 150",
+          "display": true,
+          "sourceAsset": "4e2e4cb89e98fb6d0e87.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the market capitalization-weighted index, the returns on Stock C have the greatest influence on the index return because Stock C’s market capitalization is larger than that of Stock A or Stock B."
+        },
+        {
+          "type": "heading",
+          "text": "Equal Weighting"
+        },
+        {
+          "type": "paragraph",
+          "text": "An equal-weighted index places an equal weight on the returns of all index stocks, regardless of their prices or market values. A $2 change in the price of a $20 stock has the same effect on the index as a $30 change in the price of a $300 stock regardless of the size of the company. The return of an equal-weighted index over a given period is often calculated as a simple average of the returns of the index stocks."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Equally weighted index"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the equal-weighted index value for the three stocks described in the following table, assuming an initial index value of 131."
+        },
+        {
+          "type": "heading",
+          "text": "Equal-Weighted Index Data"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c c c} \\hline{\\begin{array} {c c c c} {\\mathrm{Stock}} & {\\mathrm{Initial~Price}} & {\\mathrm{Current}} & {\\mathrm{Price~Change}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {c c c c} {\\mathrm{A}} & {\\$12} & {\\$15} & {\\qquad+25.09 /_{6}} \\\\ {\\mathrm{B}} & {\\$52} & {\\$48} & {\\qquad-7.79 /_{6}} \\end{array}} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]C \\qquad\\qquad\\ 838 \\qquad\\qquad\\qquad\\$45 \\qquad\\qquad+18.4 \\%\\end{gathered}",
+          "display": true,
+          "sourceAsset": "13581c5666a7d33c088b.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{change~in~index}=\\frac{259_{\\mathrm{o}}-7.79_{\\mathrm{o}}+18.49_{\\mathrm{o}}} {3}=11.99_{\\mathrm{o}}}} \\\\ {{\\mathrm{new~index~value}=131 ( 1+0.119 )=146.59}} \\end{array}",
+          "display": true,
+          "sourceAsset": "5eaddb4cad8581b5b5f6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that for a total return index, period returns would include any dividends paid over the period."
+        }
+      ]
+    },
+    {
+      "id": "40.2",
+      "title": "Uses and Types of Indexes",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "40.f",
+          "text": "What should we know about rebalancing and reconstitution of an index?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rebalancing refers to adjusting the weights of securities in a portfolio to their target weights after price changes have affected the weights. For index calculations, rebalancing to target weights on the index securities is done on a periodic basis, usually quarterly. Because the weights in price- and value-weighted indexes (portfolios) are adjusted to their correct values by changes in prices, rebalancing is an issue primarily for equal-weighted indexes. As noted previously, the weights on security returns in an (initially) equal-weighted portfolio are not equal as securities prices change over time. Therefore, rebalancing the portfolio at the end of each period used to calculate index returns is necessary for the portfolio return to match the index return."
+        },
+        {
+          "type": "paragraph",
+          "text": "Index reconstitution refers to periodically adding and deleting securities that make up an index. Securities are deleted if they no longer meet the index criteria and are replaced by other securities that do. Indexes are reconstituted to reflect corporate events such as bankruptcy or delisting of index firms and are at the subjective judgment of a committee."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a security is added to an index, its price tends to rise as portfolio managers seeking to track that index in a portfolio buy the security. The prices of deleted securities tend to fall as portfolio managers sell them. Note that additions and deletions also require that the weights on the returns of other index stocks be adjusted to conform to the desired weighting scheme."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.g",
+          "text": "What should we know about uses of security market indexes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Security market indexes have several uses:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reflection of market sentiment. Indexes provide a representative market return and thus reflect investor confidence. Although the Dow Jones Industrial Average is a popular index, it reflects the performance of only 30 stocks and thus may not be a good measure of sentiment with regard to the broader market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benchmark of manager performance. An index can be used to evaluate the performance of an active manager. Because portfolio performance depends to a large degree on its chosen style, the benchmark should be consistent with the manager’s investment approach and style to assess the manager’s skill accurately. The index stocks should be those that the manager will actually choose from. For example, a value manager should be compared against a value index, not a broad market index, because portfolio securities will be selected from among value stocks. Measure of market return and risk. In asset allocation, estimates of the expected return and standard deviation of returns for various asset classes are based on historical returns for an index of securities representing that asset class. Measure of beta and risk-adjusted return. The use of the capital asset pricing model (CAPM) to determine a stock’s expected return requires an estimate of its beta and the return on the market. Index portfolio returns are used as a proxy for the returns on the market portfolio, both in estimating a stock’s beta, and then again in calculating its expected return based on its systematic (beta) risk. Expected returns can then be compared to actual stock returns to determine systematic risk-adjusted returns. Model portfolio for index funds. Investors who wish to invest passively can invest in an index fund, which seeks to replicate the performance of a market index. There are index mutual funds and index exchange-traded funds, as well as private portfolios that are structured to match the return of an index."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.h",
+          "text": "What should we know about types of equity indexes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors can use a variety of equity market indexes. These equity indexes can be classified as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Broad market index. Provides a measure of a market’s overall performance and usually contains more than 90% of the market’s total value. For example, the Wilshire 5000 Index contains more than 6,000 equity securities and is, therefore, a good representation of the overall performance of the U.S. equity market. Multi-market index. Typically constructed from the indexes of markets in several countries and is used to measure the equity returns of a geographic region (e.g., Latin America indexes), markets based on their stage of economic development (e.g., emerging markets indexes), or the entire world (e.g., MSCI World Index)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Multi-market index with fundamental weighting. Uses market capitalization-weighting for the country indexes but then weights the country index returns in the global index by a fundamental factor (e.g., GDP). This prevents a country with previously high stock returns from being overweighted in a multi-market index. Sector index. Measures the returns for an industry sector such as health care, financial, or consumer goods firms. Investors can use these indexes in cyclical analysis because some sectors do better than others in various phases of the business"
+        },
+        {
+          "type": "paragraph",
+          "text": "cycle. Sector indexes can be for a particular country or global. These indexes are used to evaluate portfolio managers and to construct index portfolios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Style index. Measures the returns to market capitalization and value or growth strategies. Some indexes reflect a combination of the two (e.g., small-cap value fund). Because there is no widely accepted definition of large-cap, mid-cap, or small-cap stocks, different indexes use different definitions. These definitions may be specified values of market capitalization or relative definitions, such as defining large-cap stocks as the largest 500 firms in a given market. In constructing value stock and growth stock indexes, price-to-earnings ratios or dividend yields are often used to identify value and growth stocks. Over time, stocks can migrate from one classification to another. For example, a successful small-cap company might grow to become a mid-cap or large-cap company. This causes style indexes to typically have higher turnover of constituent firms than broad market indexes."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.i",
+          "text": "How can we compare types of security market indexes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following table summarizes some of the noteworthy characteristics of various global indexes. Notice from the table that most security market indexes are market capitalization-weighted and often adjusted for the float (securities actually available for purchase). The number of securities in many of these indexes can vary."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e4933d08a761e2b5810d.png",
+          "alt": "Equation, table, or diagram: ndexes are market capitalization-weighted and often adjusted for the float (securities actually available for purchase). The number of securities in many of these indexes can vary.",
+          "width": 582,
+          "height": 705,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.j",
+          "text": "What should we know about types of fixed-income indexes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fixed-income securities vary widely with respect to their coupon rates, ratings, maturities, and embedded options such as convertibility to common stock. Consequently, a wide variety of fixed-income indexes is available. Like equity indexes, fixed-income indexes are created for various sectors, geographic regions, and levels of country economic development. They can also be constructed based on type of issuer or collateral, coupon, maturity, default risk, or inflation protection. Broad market indexes, sector indexes, style indexes, and other specialized indexes are available."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors should be aware of several issues with the construction of fixed-income indexes:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Large universe of securities. The fixed-income security universe is much broader than the universe of stocks. Fixed-income securities are issued not just by firms, but also by governments and government agencies. Each of these entities may also issue various types of fixed-income securities. Also, unlike stocks, bonds mature and must be replaced in fixed-income indexes. As a result, turnover is high in fixed-income indexes. Dealer markets and infrequent trading. Fixed-income securities are primarily traded by dealers, so index providers must depend on dealers for recent prices. Because fixed-income securities are typically illiquid, a lack of recent trades may require index providers to estimate the value of index securities from recent prices of securities with similar characteristics."
+        },
+        {
+          "type": "paragraph",
+          "text": "The large number of fixed-income securities results in large differences in the number of index securities among fixed-income indexes. Illiquidity, transactions costs, and high turnover of constituent securities make it both difficult and expensive for fixed-income portfolio managers to replicate a fixed-income index."
+        },
+        {
+          "type": "question",
+          "objectiveId": "40.k",
+          "text": "What should we know about indexes representing alternative investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative assets are of interest to investors because of their potential diversification benefits. Three of the most widely held alternative assets are commodities, real estate, and hedge funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Commodity indexes represent futures contracts on commodities such as grains, livestock, metals, and energy. Examples include the Thomson Reuters/Core Commodity CRB Index (previously the Commodity Research Bureau Index) and the S&P GSCI (previously the Goldman Sachs Commodity Index)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The issues in commodity indexes relevant for investors are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Weighting method. Commodity index providers use a variety of weighting schemes. Some use equal weighting, others weight commodities by their global production values, and others use fixed weights that the index provider determines. As a result, different indexes have significantly different commodity exposures and risk and return characteristics. For example, one index may have a large exposure to the prices of energy commodities while another has a large exposure to the prices of agricultural products. Futures vs. actual. Commodity indexes are based on the prices of commodity futures contracts, not the spot prices of commodities. Commodity futures contracts reflect the risk-free rate of return, changes in futures prices, and the roll yield. Furthermore, the contracts mature and must be replaced over time by other contracts. For these reasons, the return on commodity futures differs from the returns on a long position in the commodity itself."
+        },
+        {
+          "type": "paragraph",
+          "text": "Real estate indexes can be constructed using returns based on appraisals of properties, repeat property sales, or the performance of Real Estate Investment Trusts (REITs). REITs are similar to closed-end mutual funds in that they invest in properties"
+        },
+        {
+          "type": "paragraph",
+          "text": "or mortgages and then issue ownership interests in the pool of assets to investors. While real properties are quite illiquid, REIT shares trade like any common shares and many offer very good liquidity to investors. FTSE International produces a family of REIT indexes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedge funds pool investor money and invest in nontraditional assets, using leverage (borrowed money or derivative contracts) and both long and short positions. Most hedge fund indexes equally weight the returns of the hedge funds included in the index."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedge funds are largely unregulated and are not required to report their performance to index providers. Consequently, some funds will report to one index but not another. The performance of different indexes can thus vary substantially."
+        },
+        {
+          "type": "paragraph",
+          "text": "Furthermore, it is often the case that those funds that report are the funds that have been successful, as the poorly performing funds do not want to publicize their performance. Funds that have reported in the past but have recently had poor returns may stop reporting their performance. The result is an upward bias in index returns, with hedge funds appearing to be better investments than they actually are."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "40.a",
+      "text": "What should we know about a security market index?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A security market index represents the performance of an asset class, security market, or segment of a market. The performance of the market or segment over a period of time is represented by the percentage change in (i.e., the return on) the value of the index."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.b",
+      "text": "How do we calculate and interpret the value, price return, and total return of an index?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A price index uses only the prices of the constituent securities in the return calculation. The rate of return is called a price return."
+    },
+    {
+      "type": "paragraph",
+      "text": "A total return index uses both the price of and the income from the index securities in the return calculation."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.c",
+      "text": "What should we know about the choices and issues in index construction and management?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Decisions that index providers must make when constructing and managing indexes include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "The target market the index will measure. Which securities from the target market to include."
+    },
+    {
+      "type": "paragraph",
+      "text": "The appropriate weighting method. How frequently to rebalance the index to its target weights. How frequently to re-examine the selection and weighting of securities."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.d",
+      "text": "How can we compare the different weighting methods used in index construction?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A price-weighted index is the arithmetic mean of the prices of the index securities. The divisor, which is initially equal to the number of securities in the index, must be adjusted for stock splits and changes in the composition of the index over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "An equal-weighted index assigns the same weight to each of its constituent securities."
+    },
+    {
+      "type": "paragraph",
+      "text": "A market capitalization-weighted index gives each constituent security a weight equal to its proportion of the total market value of all securities in the index. Market capitalization can be adjusted for a security’s market float or free float to reflect the fact that not all outstanding shares are available for purchase."
+    },
+    {
+      "type": "paragraph",
+      "text": "A fundamental-weighted index uses weights that are independent of security prices, such as company earnings, revenue, assets, or cash flow."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.e",
+      "text": "How do we calculate and analyze the value and return of an index given its weighting method?"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{gathered}\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks adjusted for splits}}\\\\\n\\text{Market-capitalization-weighted index}=\\frac{\\text{current total market value}}{\\text{base-year total market value}}\\times\\text{base-year index value}\\\\\n\\text{Equal-weighted index}=(1+\\text{average percentage change})\\times\\text{initial index value}\n\\end{gathered}",
+      "display": true,
+      "sourceAsset": "edb55bee849c0f137bc1.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.f",
+      "text": "What should we know about rebalancing and reconstitution of an index?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Index providers periodically rebalance the weights of the constituent securities. This is most important for equal-weighted indexes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reconstitution refers to changing the securities that are included in an index. This is necessary when securities mature or when they no longer have the required characteristics to be included."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.g",
+      "text": "What should we know about uses of security market indexes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indexes are used for the following purposes:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reflection of market sentiment. Benchmark of manager performance. Measure of market return."
+    },
+    {
+      "type": "paragraph",
+      "text": "Measure of beta and excess return. Model portfolio for index funds."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.h",
+      "text": "What should we know about types of equity indexes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Broad market equity indexes represent the majority of stocks in a market."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multi-market equity indexes contain the indexes of several countries. Multi-market equity indexes with fundamental weighting use market capitalization weighting for the securities within a country’s market but then weight the countries within the global index by a fundamental factor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sector indexes measure the returns for a sector (e.g., health care) and are useful because some sectors do better than others in certain business cycle phases. These indexes are used to evaluate portfolio managers and as models for sector investment funds."
+    },
+    {
+      "type": "paragraph",
+      "text": "Style indexes measure the returns to market capitalization and value or growth strategies. Stocks tend to migrate among classifications, which causes style indexes to have higher constituent turnover than broad market indexes."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.i",
+      "text": "How can we compare types of security market indexes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Security market indexes available from commercial providers represent a variety of asset classes and reflect target markets that can be classified by:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Geographic location, such as country, regional, or global indexes. Sector or industry, such as indexes of energy producers."
+    },
+    {
+      "type": "paragraph",
+      "text": "Level of economic development, such as emerging market indexes. Fundamental factors, such as indexes of value stocks or growth stocks."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.j",
+      "text": "What should we know about types of fixed-income indexes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fixed-income indexes can be classified by issuer, collateral, coupon, maturity, credit risk (e.g., investment grade versus high-yield), and inflation protection. They can be delineated as broad market, sector, style, or other specialized indexes. Indexes exist for various sectors, regions, and levels of development."
+    },
+    {
+      "type": "paragraph",
+      "text": "The fixed-income security universe is much broader than the equity universe, and fixed-income indexes have higher turnover. Index providers must depend on dealers for fixed-income security prices, and the securities are often illiquid. Fixed-income security indexes vary widely in their numbers of constituent securities and can be difficult and expensive to replicate."
+    },
+    {
+      "type": "question",
+      "objectiveId": "40.k",
+      "text": "What should we know about indexes representing alternative investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Indexes have been developed to represent markets for alternative assets such as commodities, real estate, and hedge funds."
+    },
+    {
+      "type": "paragraph",
+      "text": "Issues in creating commodity indexes include the weighting method (different indexes can have vastly different commodity weights and resulting risk and return) and the fact that commodity indexes are based on the performance of commodity futures contracts, not the actual commodities, which can result in different performance for a commodity index versus the actual commodity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Real estate indexes include appraisal indexes, repeat property sales indexes, and indexes of real estate investment trusts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because hedge funds report their performance to index providers voluntarily, the performance of different hedge fund indexes can vary substantially and index returns have an upward bias."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "40.a",
+      "statement": "Describe a security market index.",
+      "question": "What should we know about a security market index?"
+    },
+    {
+      "id": "40.b",
+      "statement": "Calculate and interpret the value, price return, and total return of an index.",
+      "question": "How do we calculate and interpret the value, price return, and total return of an index?"
+    },
+    {
+      "id": "40.c",
+      "statement": "Describe the choices and issues in index construction and management.",
+      "question": "What should we know about the choices and issues in index construction and management?"
+    },
+    {
+      "id": "40.d",
+      "statement": "Compare the different weighting methods used in index construction.",
+      "question": "How can we compare the different weighting methods used in index construction?"
+    },
+    {
+      "id": "40.e",
+      "statement": "Calculate and analyze the value and return of an index given its weighting method.",
+      "question": "How do we calculate and analyze the value and return of an index given its weighting method?"
+    },
+    {
+      "id": "40.f",
+      "statement": "Describe rebalancing and reconstitution of an index.",
+      "question": "What should we know about rebalancing and reconstitution of an index?"
+    },
+    {
+      "id": "40.g",
+      "statement": "Describe uses of security market indexes.",
+      "question": "What should we know about uses of security market indexes?"
+    },
+    {
+      "id": "40.h",
+      "statement": "Describe types of equity indexes.",
+      "question": "What should we know about types of equity indexes?"
+    },
+    {
+      "id": "40.i",
+      "statement": "Compare types of security market indexes.",
+      "question": "How can we compare types of security market indexes?"
+    },
+    {
+      "id": "40.j",
+      "statement": "Describe types of fixed-income indexes.",
+      "question": "What should we know about types of fixed-income indexes?"
+    },
+    {
+      "id": "40.k",
+      "statement": "Describe indexes representing alternative investments.",
+      "question": "What should we know about indexes representing alternative investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-40-quiz-1",
+      "title": "Knowledge check 40.1",
+      "moduleId": "40.1",
+      "questions": [
+        {
+          "id": "r40-q1",
+          "number": 1,
+          "objectiveIds": [
+            "40.a"
+          ],
+          "prompt": "Choices that must be made when constructing a security market index least likely include whether to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "use a nominal or interval scale."
+            },
+            {
+              "id": "B",
+              "text": "measure the performance of an entire market or market segment."
+            },
+            {
+              "id": "C",
+              "text": "weight the securities equally or by some firm-specific characteristic."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "To be useful, a security market index must have a numerical value. Selecting the target market and determining the weighting method are among the choices that must be made when constructing a securities index.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To be useful, a security market index must have a numerical value. Selecting the"
+            },
+            {
+              "type": "paragraph",
+              "text": "target market and determining the weighting method are among the choices that must be made when constructing a securities index."
+            }
+          ]
+        },
+        {
+          "id": "r40-q2",
+          "number": 2,
+          "objectiveIds": [
+            "40.b"
+          ],
+          "prompt": "The 1-year return on a price-weighted index of these three stocks is closest to:",
+          "supportingBlocks": [
+            {
+              "type": "heading",
+              "text": "Use the information in the following table to answer Questions 2 through 4."
+            },
+            {
+              "type": "image",
+              "src": "content/figures/d9dc8b8fdd4ad6fc9027.png",
+              "alt": "Equation, table, or diagram: Use the information in the following table to answer Questions 2 through 4.",
+              "width": 476,
+              "height": 144,
+              "visualKindHint": "table",
+              "visualKind": "diagram-chart-or-table"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "12.5%."
+            },
+            {
+              "id": "B",
+              "text": "13.5%."
+            },
+            {
+              "id": "C",
+              "text": "18.0%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\mathbf{\\rho_{2. A}} \\quad\\frac{22+40+34} {3} \\!=32 , \\, \\frac{28+50+30} {3} \\!=36 , \\frac{36} {32}-1=0.125=12.5 \\%",
+              "display": true,
+              "sourceAsset": "e630745521e6d69ab68b.png"
+            }
+          ]
+        },
+        {
+          "id": "r40-q3",
+          "number": 3,
+          "objectiveIds": [
+            "40.b"
+          ],
+          "prompt": "The 1-year return on an equal-weighted index of these three stocks is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "12.0%."
+            },
+            {
+              "id": "B",
+              "text": "12.5%."
+            },
+            {
+              "id": "C",
+              "text": "13.5%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\textbf{3. c} \\Big[ \\Big( \\frac{28} {22}-1 \\Big)+\\Big( \\frac{50} {40}-1 \\Big)+\\Big( \\frac{30} {34}-1 \\Big) \\Big] \\Big( \\frac13 \\Big)=0.135=13.596",
+              "display": true,
+              "sourceAsset": "6b743f1561694fe049aa.png"
+            }
+          ]
+        },
+        {
+          "id": "r40-q4",
+          "number": 4,
+          "objectiveIds": [
+            "40.b"
+          ],
+          "prompt": "The 1-year return on a market capitalization-weighted index of these stocks is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "12.5%."
+            },
+            {
+              "id": "B",
+              "text": "13.5%."
+            },
+            {
+              "id": "C",
+              "text": "18.0%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Total portfolio value January 1:",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Total portfolio value January 1:"
+            },
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {l} {22 ( 1 , 500 )+40 ( 10 , 000 )+34 ( 3 , 000 )=5535 {,} 000} \\\\ {\\mathrm{Total~portfolio~value~December~31:}} \\\\ {28 ( 1 , 500 )+50 ( 10 , 000 )+30 ( 3 , 000 )=5632 {,} 000} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\frac{632} {535}-1=0.1813 \\approx189_{6}}} \\\\ {{\\mathrm{From~a~base~value~of~100,~the~December~31~index~value~would~be}}} \\\\ {{\\frac{632} {535} \\times100=118.13.}} \\end{array}\\end{gathered}",
+              "display": true,
+              "sourceAsset": "bda50c817dd110115564.png"
+            }
+          ]
+        },
+        {
+          "id": "r40-q5",
+          "number": 5,
+          "objectiveIds": [
+            "40.d"
+          ],
+          "prompt": "Market float of a stock is best described as its:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "total outstanding shares."
+            },
+            {
+              "id": "B",
+              "text": "shares that are available to domestic investors."
+            },
+            {
+              "id": "C",
+              "text": "outstanding shares, excluding those held by controlling shareholders."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Market float represents shares available to the investing public and excludes shares held by controlling shareholders. Free float is a narrower measure that also excludes shares that are not available to foreign investors.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Market float represents shares available to the investing public and excludes"
+            },
+            {
+              "type": "paragraph",
+              "text": "shares held by controlling shareholders. Free float is a narrower measure that also excludes shares that are not available to foreign investors."
+            }
+          ]
+        },
+        {
+          "id": "r40-q6",
+          "number": 6,
+          "objectiveIds": [
+            "40.d"
+          ],
+          "prompt": "For which of the following indexes will rebalancing occur most frequently?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A price-weighted index."
+            },
+            {
+              "id": "B",
+              "text": "An equal-weighted index."
+            },
+            {
+              "id": "C",
+              "text": "A market capitalization-weighted index."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An equal-weighted index will be rebalanced most frequently because as stock prices change, their representation in the index needs to be adjusted. Price-weighted and market capitalization-weighted indexes do not usually need rebalancing.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An equal-weighted index will be rebalanced most frequently because as stock"
+            },
+            {
+              "type": "paragraph",
+              "text": "prices change, their representation in the index needs to be adjusted. Price-weighted and market capitalization-weighted indexes do not usually need rebalancing."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-40-quiz-2",
+      "title": "Knowledge check 40.2",
+      "moduleId": "40.2",
+      "questions": [
+        {
+          "id": "r40-q7",
+          "number": 1,
+          "objectiveIds": [
+            "40.f"
+          ],
+          "prompt": "The publisher of an index that includes 50 corporate bonds removes from the index three bonds that are nearing maturity and one whose issuer has defaulted and selects four actively traded bonds to replace them in the index. This bond index is said to have been:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "redefined."
+            },
+            {
+              "id": "B",
+              "text": "rebalanced."
+            },
+            {
+              "id": "C",
+              "text": "reconstituted."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Changing the constituent securities of an index is referred to as reconstituting the index. Rebalancing refers to adjusting the index weights to their target levels.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Changing the constituent securities of an index is referred to as reconstituting the"
+            },
+            {
+              "type": "paragraph",
+              "text": "index. Rebalancing refers to adjusting the index weights to their target levels."
+            }
+          ]
+        },
+        {
+          "id": "r40-q8",
+          "number": 2,
+          "objectiveIds": [
+            "40.g"
+          ],
+          "prompt": "Which of the following would most likely represent an inappropriate use of an index?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "As a reflection of market sentiment."
+            },
+            {
+              "id": "B",
+              "text": "Comparing a small-cap manager against a broad market."
+            },
+            {
+              "id": "C",
+              "text": "Using the CAPM to determine the expected return and beta."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Comparing a small-cap manager against a broad market would be an inappropriate use of an index. A benchmark should be consistent with the manager’s investment approach and style. A manager’s performance will depend to a large degree on its chosen style.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Comparing a small-cap manager against a broad market would be an inappropriate"
+            },
+            {
+              "type": "paragraph",
+              "text": "use of an index. A benchmark should be consistent with the manager’s investment approach and style. A manager’s performance will depend to a large degree on its chosen style."
+            }
+          ]
+        },
+        {
+          "id": "r40-q9",
+          "number": 3,
+          "objectiveIds": [
+            "40.h"
+          ],
+          "prompt": "An index of 200 mid-cap growth stocks is best described as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "style index."
+            },
+            {
+              "id": "B",
+              "text": "sector index."
+            },
+            {
+              "id": "C",
+              "text": "broad market index."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An index for mid-cap growth stocks is best described as a style index. Sector indexes typically measure returns for a specific industry or sector of the economy (e.g., utilities or financial services firms).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An index for mid-cap growth stocks is best described as a style index. Sector"
+            },
+            {
+              "type": "paragraph",
+              "text": "indexes typically measure returns for a specific industry or sector of the economy (e.g., utilities or financial services firms)."
+            }
+          ]
+        },
+        {
+          "id": "r40-q10",
+          "number": 4,
+          "objectiveIds": [
+            "40.j"
+          ],
+          "prompt": "Which of the following is least accurate regarding fixed-income indexes?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Replicating the return on a fixed-income security index is difficult for investors."
+            },
+            {
+              "id": "B",
+              "text": "There is a great deal of heterogeneity in the composition of fixed-income security indexes."
+            },
+            {
+              "id": "C",
+              "text": "Due to the large universe of fixed-income security issues, data for fixed-income securities are relatively easy to obtain."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Fixed-income securities are largely traded by dealers and trade infrequently. Data are therefore difficult to obtain.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Fixed-income securities are largely traded by dealers and trade infrequently. Data"
+            },
+            {
+              "type": "paragraph",
+              "text": "are therefore difficult to obtain."
+            }
+          ]
+        },
+        {
+          "id": "r40-q11",
+          "number": 5,
+          "objectiveIds": [
+            "40.k"
+          ],
+          "prompt": "Which of the following indexes of alternative investments is most likely to be calculated from derivatives prices?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Real estate index."
+            },
+            {
+              "id": "B",
+              "text": "Commodity index."
+            },
+            {
+              "id": "C",
+              "text": "Hedge fund index."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Commodity indexes are typically calculated from prices of commodity futures contracts.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Commodity indexes are typically calculated from prices of commodity futures"
+            },
+            {
+              "type": "paragraph",
+              "text": "contracts."
+            }
+          ]
+        },
+        {
+          "id": "r40-q12",
+          "number": 6,
+          "objectiveIds": [
+            "40.i"
+          ],
+          "prompt": "Most of the widely used global security indexes are:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "price weighted."
+            },
+            {
+              "id": "B",
+              "text": "equal weighted."
+            },
+            {
+              "id": "C",
+              "text": "market capitalization weighted."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Most global security indexes are market capitalization-weighted with a float adjustment to reflect the amount of shares available to investors.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Most global security indexes are market capitalization-weighted with a float"
+            },
+            {
+              "type": "paragraph",
+              "text": "adjustment to reflect the amount of shares available to investors."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

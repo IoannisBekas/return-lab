@@ -1,0 +1,1541 @@
+{
+  "readingId": 84,
+  "title": "Portfolio Risk and Return: Part II",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "84.1",
+      "title": "Systematic Risk and Beta",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "84.a",
+          "text": "What should we know about the implications of combining a risk-free asset with a portfolio of risky assets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the previous reading, we covered the mathematics of calculating the risk and return of a portfolio with a percentage weight of WA invested in a risky portfolio (P) and a weight of WB = 1 – WA invested in a risk-free asset."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nE(R_P)=w_AE(R_A)+w_BE(R_B)\\\\\n\\sigma_P=\\sqrt{w_A^2\\sigma_A^2+w_B^2\\sigma_B^2+2w_Aw_B\\rho_{AB}\\sigma_A\\sigma_B}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "c23d0417de3fdf1393de.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because a risk-free asset has zero standard deviation and zero correlation of returns with a risky portfolio, allowing Asset B to be the risk-free asset and Asset A to be the risky asset portfolio results in the following reduced equation:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{{\\mathsf{P}}}}={\\sqrt{\\operatorname{W}_{\\mathrm{{\\mathsf{A}}}}^{2} \\sigma_{\\mathrm{{\\mathsf{A}}}}^{2}}}=\\operatorname{W}_{\\mathrm{{\\mathsf{A}}}} \\sigma_{\\mathrm{{\\mathsf{A}}}}",
+          "display": true,
+          "sourceAsset": "3f42b9f9e60661df1847.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our result is that the risk (standard deviation of returns) and expected return of portfolios with varying weights in the risk-free asset and a risky portfolio can be plotted as a line that begins at the risk-free rate of return and extends through the risky portfolio. This result is illustrated in Figure 84.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.1: Combining a Risk-Free Asset With a Risky Asset"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b1f1a12cd1d52c9b5334.png",
+          "alt": "Equation, table, or diagram: Figure 84.1: Combining a Risk-Free Asset With a Risky Asset",
+          "width": 448,
+          "height": 293,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.b",
+          "text": "How can we explain the capital allocation line (CAL) and the capital market line (CML)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The line of possible portfolio risk and return combinations given the risk-free rate and the risk and return of a portfolio of risky assets is referred to as the capital allocation line (CAL). For an individual investor, the best CAL is the one that offers the most-preferred set of possible portfolios in terms of their risk and return. Figure 84.2 illustrates three possible investor CALs for three different risky Portfolios A, B, and C. The optimal risky portfolio for this investor is Portfolio A because it results in the most preferred set of possible portfolios constructed by combining the risk-free asset with the risky portfolio. Of all the portfolios available to the investor, a combination of the risk-free asset with risky Portfolio A offers the investor the greatest expected utility."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.2: Risky Portfolios and Their Associated Capital Allocation Lines"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/38bbc7eb089de5e88e55.png",
+          "alt": "Equation, table, or diagram: Figure 84.2: Risky Portfolios and Their Associated Capital Allocation Lines",
+          "width": 426,
+          "height": 294,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "If each investor has different expectations about the expected returns of, standard deviations of, or correlations between risky asset returns, each investor will have a different optimal risky asset portfolio and a different CAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "A simplifying assumption underlying modern portfolio theory (and the capital asset pricing model, which is introduced later in this reading) is that investors have homogeneous expectations (i.e., they all have the same estimates of risk, return, and correlations with other risky assets for all risky assets). Under this assumption, all investors face the same efficient frontier of risky portfolios and will all have the same optimal risky portfolio and CAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 84.3 illustrates the determination of the optimal risky portfolio and optimal CAL for all investors under the assumption of homogeneous expectations. Note that, under this assumption, the optimal CAL for any investor is the one that is just tangent to the efficient frontier. Depending on their preferences for risk and return (their indifference curves), investors may choose different portfolio weights for the risk-free asset and the risky (tangency) portfolio. Every investor, however, will use the same risky portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "When this is the case, that portfolio must be the market portfolio of all risky assets because all investors that hold any risky assets hold the same portfolio of risky assets."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.3: Determining the Optimal Risky Portfolio and Optimal CAL Assuming Homogeneous"
+        },
+        {
+          "type": "heading",
+          "text": "Expectations"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{matrix} {\\mathrm{E} ( k )} & {\\mathrm{Capital~Market~Line}} \\\\ {} & {\\mathrm{Optimal~Risly~Portfolio)}} \\\\ {} & {\\mathrm{Harket~Portfolio)}} \\\\ {} & {\\mathrm{Frontier}} \\\\ {} & {\\mathrm{Risk~Fre~Asset}} \\\\ \\end{matrix}",
+          "display": true,
+          "sourceAsset": "54770f97b2405c7ba97c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the assumption of homogeneous expectations, this optimal CAL for all investors is termed the capital market line (CML). Along this line, expected portfolio return, E(RP), is a linear function of portfolio risk, σP. The equation of this line is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} ( \\mathbb{R}_{\\mathbb{P}} ) \\!=\\! \\operatorname{R}_{\\mathbb{f}} \\!+\\! \\left( {\\frac{\\operatorname{E} ( \\mathbb{R}_{\\mathbb{M}} ) \\!-\\! \\operatorname{R}_{\\mathbb{f}}} {\\sigma_{\\mathbb{M}}}} \\right) \\! \\sigma_{\\mathbb{P}}",
+          "display": true,
+          "sourceAsset": "caa42df0b0d26eb1a8f1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The y-intercept of this line is Rf and the slope (rise over run) of this line is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( {\\frac{\\operatorname{E} ( \\operatorname{R}_{\\mathrm{M}} )-\\operatorname{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{M}}}} \\right)",
+          "display": true,
+          "sourceAsset": "bdaaf07b0e4f6ac04f0e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition of this relation is straightforward. An investor who chooses to take on no risk (σP = 0) will earn the risk-free rate, Rf. The difference between the expected return on the market and the risk-free rate is termed the market risk premium. If we rewrite the CML equation as"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} ( \\mathbb{R}_{\\mathbb{P}} ) \\!=\\! \\mathrm{R}_{\\mathbb{f}} \\!+\\! \\left( \\operatorname{E} ( \\mathbb{R}_{\\mathbb{M}} ) \\!-\\! \\mathrm{R}_{\\mathbb{f}} \\! \\right) \\! \\left( \\! {\\frac{\\sigma_{\\mathbb{P}}} {\\sigma_{\\mathbb{M}}}} \\! \\right)",
+          "display": true,
+          "sourceAsset": "40e4f9f579c995838c9f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "we can see that an investor can expect to get one unit of market risk premium in additional return (above the risk-free rate) for every unit of market risk, σM, that the investor is willing to accept."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we assume that investors can both lend (invest in the risk-free asset) at the risk-free rate and borrow (as with a margin account) at the risk-free rate, they can select portfolios to the right of the market portfolio, as illustrated in Figure 84.4."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.4: Borrowing and Lending Portfolios"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/853ba8e8cc02b4cd6a13.png",
+          "alt": "Equation, table, or diagram: Figure 84.4: Borrowing and Lending Portfolios",
+          "width": 491,
+          "height": 323,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors who believe market prices are informationally efficient often follow a passive investment strategy (i.e., invest in an index of risky assets that serves as a proxy for the market portfolio and allocate a portion of their investable assets to a risk-free asset, such as short-term government securities). In practice, many investors and portfolio managers believe their estimates of security values are correct and market prices are incorrect. Such investors will not use the weights of the market portfolio but will invest more than the market weights in securities that they believe are undervalued and less than the market weights in securities which they believe are overvalued. This is referred to as active portfolio management to differentiate it from a passive investment strategy that utilizes a market index for the optimal risky asset portfolio."
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.c",
+          "text": "How can we explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk?"
+        },
+        {
+          "type": "paragraph",
+          "text": "When an investor diversifies across assets that are not perfectly correlated, the portfolio’s risk is less than the weighted average of the risks of the individual securities in the portfolio. The risk that is eliminated by diversification is called unsystematic risk (also called unique, diversifiable, or firm-specific risk). Because the market portfolio contains all risky assets, it must be a well-diversified portfolio. All the risk that can be diversified away has been. The risk that remains cannot be diversified away and is called the systematic risk (also called nondiversifiable risk or market risk)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The concept of systematic risk applies to individual securities as well as to portfolios. Some securities’ returns are highly correlated with overall market returns. Examples of firms that are highly correlated with market returns are luxury goods manufacturers such as Ferrari automobiles and Harley Davidson motorcycles. These firms have high systematic risk (i.e., they are very responsive to market, or systematic, changes). Other firms, such as utility companies, respond very little to changes in the systematic risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "factors. These firms have very little systematic risk. Hence, total risk (as measured by standard deviation) can be broken down into its component parts: unsystematic risk and systematic risk. Mathematically:"
+        },
+        {
+          "type": "paragraph",
+          "text": "total risk = systematic risk + unsystematic risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Do you actually have to buy all the securities in the market to diversify away unsystematic risk? No. Academic studies have shown that as you increase the number of stocks in a portfolio, the portfolio’s risk falls toward the level of market risk. One study showed that it only took about 12 to 18 stocks in a portfolio to achieve 90% of the maximum diversification possible. Another study indicated it took 30 securities. Whatever the number, it is significantly less than all the securities. Figure 84.5 provides a general representation of this concept. Note, in the figure, that once you get to 30 or so securities in a portfolio, the standard deviation remains constant. The remaining risk is systematic, or nondiversifiable, risk. We will develop this concept later when we discuss beta, a measure of systematic risk."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.5: Risk vs. Number of Portfolio Assets"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0c67b0ae6bfd5406b1b5.png",
+          "alt": "Equation, table, or diagram: Figure 84.5: Risk vs. Number of Portfolio Assets",
+          "width": 342,
+          "height": 247,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Systematic Risk Is Relevant in Portfolios"
+        },
+        {
+          "type": "paragraph",
+          "text": "One important conclusion of capital market theory is that equilibrium security returns depend on a stock’s or a portfolio’s systematic risk, not its total risk as measured by standard deviation. One of the assumptions of the model is that diversification is free. The reasoning is that investors will not be compensated for bearing risk that can be eliminated at no cost. If you think about the costs of a no-load index fund compared to buying individual stocks, diversification is actually very low cost if not actually free."
+        },
+        {
+          "type": "paragraph",
+          "text": "The implications of this conclusion are very important to asset pricing (expected returns). The riskiest stock, with risk measured as standard deviation of returns, does not necessarily have the greatest expected return. Consider a biotech stock with one new drug product that is in clinical trials to determine its effectiveness. If it turns out that the drug is effective and safe, stock returns will be quite high. If, on the other hand, the subjects in the clinical trials are killed or otherwise harmed by the drug, the stock will fall to approximately zero and returns will be quite poor. This describes a stock with high standard deviation of returns (i.e., high total risk)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The high risk of our biotech stock, however, is primarily from firm-specific factors, so its unsystematic risk is high. Because market factors such as economic growth rates have little to do with the eventual outcome for this stock, systematic risk is a small proportion of the total risk of the stock. Capital market theory says that the equilibrium return on this stock may be less than that of a stock with much less firm-specific risk but more sensitivity to the factors that drive the return of the overall market. An established manufacturer of machine tools may not be a very risky investment in terms of total risk, but may have a greater sensitivity to market (systematic) risk factors (e.g., GDP growth rates) than our biotech stock. Given this scenario, the stock with more total risk (the biotech stock) has less systematic risk and will therefore have a lower equilibrium rate of return according to capital market theory."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that holding many biotech firms in a portfolio will diversify away the firm-specific risk. Some will have blockbuster products and some will fail, but you can imagine that when 50 or 100 such stocks are combined into a portfolio, the uncertainty about the portfolio return is much less than the uncertainty about the return of a single biotech firm stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "To sum up, unsystematic risk is not compensated in equilibrium because it can be eliminated for free through diversification. Systematic risk is measured by the contribution of a security to the risk of a well-diversified portfolio, and the expected equilibrium return (required return) on an individual security will depend only on its systematic risk."
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.d",
+          "text": "How can we explain return generating models (including the market model) and their uses?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Return generating models are used to estimate the expected returns on risky securities based on specific factors. For each security, we must estimate the sensitivity of its returns to each specific factor. Factors that explain security returns can be classified as macroeconomic, fundamental, and statistical factors. Multifactor models most commonly use macroeconomic factors such as GDP growth, inflation, or consumer confidence, along with fundamental factors such as earnings, earnings growth, firm size, and research expenditures. Statistical factors often have no basis in finance theory and are suspect in that they may represent only relations for a specific time period which have been identified by data mining (repeated tests on a single dataset)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The general form of a multifactor model with k factors is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{E ( R_{i} )-R_{f}=\\beta_{i 1} \\times E ( F a c t o r \\ 1 )+\\beta_{i 2} \\times E ( F a c t o r \\ 2 )+. . . .+\\beta_{i k} \\times E ( F a c t o r \\ k )}",
+          "display": true,
+          "sourceAsset": "eed272798b2e9f62fe87.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This model states that the expected excess return (above the risk-free rate) for Asset i is the sum of each factor sensitivity or factor loading (the βs) for Asset i multiplied by the expected value of that factor for the period. The first factor is often the expected excess return on the market, E(Rm – Rf)."
+        },
+        {
+          "type": "paragraph",
+          "text": "One multifactor model that is often used is that of Fama and French. They estimated the sensitivity of security returns to three factors: firm size, firm book value to market"
+        },
+        {
+          "type": "paragraph",
+          "text": "value ratio, and the return on the market portfolio minus the risk-free rate (excess return on the market portfolio). Carhart suggests a fourth factor that measures price momentum using prior period returns. Together, these four factors do a relatively good job of explaining returns differences for U.S. equity securities over the period for which the model has been estimated."
+        },
+        {
+          "type": "paragraph",
+          "text": "The simplest factor model is a single-factor model. A single-factor model with the return on the market, Rm, as its only risk factor can be written (in excess returns form) as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(Ri) – Rf = βi ×[E(Rm) – Rf]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here, the expected excess return (return above the risk-free rate) is the product of the factor weight or factor sensitivity, Beta i, and the risk factor, which in this model is the excess return on the market portfolio or market index, so that this is also sometimes called a single-index model."
+        },
+        {
+          "type": "paragraph",
+          "text": "A simplified form of a single-index model is the market model, which is used to estimate a security’s (or portfolio’s) beta and to estimate a security’s abnormal return (return above its expected return) based on the actual market return."
+        },
+        {
+          "type": "paragraph",
+          "text": "The form of the market model is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ri = αi + βiRm + ei"
+        },
+        {
+          "type": "paragraph",
+          "text": "where: Ri = return on Asset i"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rm = market return βi = slope coefficient"
+        },
+        {
+          "type": "paragraph",
+          "text": "αi = intercept"
+        },
+        {
+          "type": "paragraph",
+          "text": "ei = abnormal return on Asset i"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intercept αi and slope coefficient βi are estimated from historical return data. We can require that αi is the risk-free rate times (1 – βi) to be consistent with the general form of a single-index model in excess returns form."
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected return on Asset i is αi + βiE(Rm). A deviation from the expected return in a given period is the abnormal return on Asset i, ei, or Ri – (αi + βiRm)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the market model, the factor sensitivity or beta for Asset i is a measure of how sensitive the return on Asset i is to the return on the overall market portfolio (market index)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.e",
+          "text": "How do we calculate and interpret beta?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sensitivity of an asset’s return to the return on the market index in the context of the market model is referred to as its beta. Beta is a standardized measure of the covariance of the asset’s return with the market return. Beta can be calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\beta_{\\mathrm{i}}={\\frac{\\mathrm{covariance~of~Asset~i's~return~with~the~market~return}} {\\mathrm{variance~of~the~market~return}}} \\!=\\! {\\frac{\\mathrm{C o v_{i m}}} {\\sigma_{\\mathrm{m}}^{2}}}",
+          "display": true,
+          "sourceAsset": "f74741d98e8f28c27efc.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use the definition of the correlation between the returns on Asset i with the returns on the market index:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r} {\\rho_{\\mathrm{im}}={\\frac{{\\bf C o v}_{\\mathrm{im}}} {\\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}}} \\\\ {{\\mathrm{to} \\, \\mathrm{get} \\, {\\bf C o v}_{\\mathrm{im}}=\\rho_{\\mathrm{im}} \\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "d3221435d350195c7625.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Substituting for Covim in the equation for Bi, we can also calculate beta as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\beta_{\\mathbf{i}} \\!=\\! {\\frac{\\rho_{\\mathbf{i m}} \\sigma_{\\mathbf{i}} \\sigma_{\\mathbf{m}}} {\\sigma_{\\mathbf{m}}^{2}}} \\!=\\rho_{\\mathbf{i m}} \\! \\left( {\\frac{\\sigma_{\\mathbf{i}}} {\\sigma_{\\mathbf{m}}}} \\right)",
+          "display": true,
+          "sourceAsset": "67c430ba86869e4da673.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating an asset’s beta"
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard deviation of the return on the market index is estimated as 20%."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. If Asset A’s standard deviation is 30% and its correlation of returns with the"
+        },
+        {
+          "type": "paragraph",
+          "text": "market index is 0.8, what is Asset A’s beta?"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{Using~the~formula~}}^{\\beta_{\\hat{\\imath}}=\\rho_{\\hat{\\imath} \\hat{\\imath}} \\Big( \\frac{\\sigma_{\\hat{\\imath}}} {\\sigma_{\\hat{\\imath}}} \\Big)} ,_{\\mathrm{scriptsize~we~have:}}^{\\mathrm{~}} \\beta_{\\hat{\\imath}}=0.80 \\big( \\frac{0.30} {0.20} \\big)=1.2.",
+          "display": true,
+          "sourceAsset": "3e0d0fd5ea7930386bbe.png",
+          "prose": "Using the formula we have:"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. If the covariance of Asset A’s returns with the returns on the market index is 0.048,"
+        },
+        {
+          "type": "paragraph",
+          "text": "what is the beta of Asset A?"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {{\\beta_{\\mathrm{i}} \\!=\\! \\frac{\\mathrm{Cov}_{\\mathrm{im}}} {\\sigma_{\\mathrm{m}}^{2}} \\! ,}} \\\\ {{\\mathrm{~we~have}}} \\end{array} \\beta_{\\mathrm{i}} \\!=\\! \\frac{0.048} {0.2^{2}} \\!=1.2.",
+          "display": true,
+          "sourceAsset": "b6a11f2e7ab92ea3098b.png",
+          "prose": "Using the formula we have"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "You should be able to calculate beta using either of the approaches illustrated in this example."
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, we estimate asset betas by regressing returns on the asset on those of the market index. In Figure 84.5, we represent the excess returns on Asset i as the dependent variable and the excess returns on the market index as the independent variable. The least squares regression line is the line that minimizes the sum of the squared distances of the points plotted from the line (this is what is meant by the line of best fit). The slope of this line is our estimate of beta. In Figure 84.6, the line is steeper than 45 degrees, the slope is greater than one, and the asset’s estimated beta is greater than one. Our interpretation is that the returns on Asset i are more variable in response to systematic risk factors than is the overall market, which has a beta of one."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.6: Regression of Asset Excess Returns Against Market Asset Returns"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b8a8e0722a8acfaa2703.png",
+          "alt": "Equation, table, or diagram: Figure 84.6: Regression of Asset Excess Returns Against Market Asset Returns",
+          "width": 487,
+          "height": 301,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "This regression line is referred to as the asset’s security characteristic line."
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Slope of the security characteristic line}=\\frac{\\operatorname{Cov}_{i,m}}{\\sigma_m^2}",
+          "display": true,
+          "sourceAsset": "59a299036c135770e493.png",
+          "prose": "Mathematically, the slope of the security characteristic line is which is the same formula we used earlier to calculate beta."
+        }
+      ]
+    },
+    {
+      "id": "84.2",
+      "title": "The CAPM and the SML",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "84.f",
+          "text": "How can we explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)?"
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.g",
+          "text": "How do we calculate and interpret the expected return of an asset using the CAPM?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given that the only relevant (priced) risk for an individual Asset i is measured by the covariance between the asset’s returns and the returns on the market, Covi,mkt, we can plot the relationship between risk and return for individual assets using Covi,mkt as our measure of systematic risk. The resulting line, plotted in Figure 84.7, is one version of what is referred to as the security market line (SML)."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.7: Security Market Line"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d51ed93c1b0872cc3b93.png",
+          "alt": "Equation, table, or diagram: Figure 84.7: Security Market Line",
+          "width": 342,
+          "height": 239,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The equation of the SML is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{i}} \\right)=\\mathrm{R}_{\\mathrm{f}}+{\\frac{\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{mikt}} \\right)-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{mikt}}^{2}}} \\! \\left( \\operatorname{C o v}_{\\mathrm{i,mkt}} \\right)",
+          "display": true,
+          "sourceAsset": "5cc14fb3f7545a971847.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which can be rearranged and stated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{i}} \\right)=\\mathrm{R}_{\\mathrm{f}}+{\\frac{\\mathrm{Cov}_{\\mathrm{i,mkt}}} {\\sigma_{\\mathrm{mkt}}^{2}}} \\big[ \\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{mkt}} \\right)-\\mathrm{R}_{\\mathrm{f}} \\big]",
+          "display": true,
+          "sourceAsset": "849d8a7dcc061008c995.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The line described by this last equation is presented in Figure 84.8, where we let the"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\boldsymbol{\\epsilon}_{\\mathrm{standardized~covariance~term} ,} \\frac{C_{\\mathrm{ov}_{i , \\mathrm{~mint}}}} {\\sigma_{\\mathrm{mit}}^{2}} ,} & {{} \\boldsymbol{\\epsilon}_{\\mathrm{be~defined~as~beta} ,} \\beta_{i} .} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "f2f4fd1cb3e37e778906.png",
+          "prose": "standardized covariance term, be defined as beta, βi."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the most common means of describing the SML, and this relation between beta (systematic risk) and expected return is known as the capital asset pricing model (CAPM)."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.8: The Capital Asset Pricing Model"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/73de09a9a85d8de3ae53.png",
+          "alt": "Equation, table, or diagram: Figure 84.8: The Capital Asset Pricing Model",
+          "width": 332,
+          "height": 238,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "math",
+          "latex": "\\boldsymbol{\\mathrm{So,we~can~define~beta,}} \\boldsymbol{\\beta=} \\boldsymbol{\\frac{C o \\ v_{i , \\, \\mathbf{m i t} t}} {\\sigma_{\\mathbf{m i t} t}^{2}}} , \\boldsymbol{\\mathrm{as~a~standardized~measure~of~systematic~risk.}}",
+          "display": true,
+          "sourceAsset": "eb7f359c65a0d3f19f81.png",
+          "prose": "So, we can define beta, as a standardized measure of systematic risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beta measures the relation between a security’s excess returns and the excess returns to the market portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Formally, the CAPM is stated as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(Ri) = Rf + βi[E(Rmkt) – Rf]"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CAPM holds that, in equilibrium, the expected return on risky asset E(Ri) is the risk-free rate (Rf) plus a beta-adjusted market risk premium, βi[E(Rmkt) – Rf]. Beta measures systematic (market or covariance) risk."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Capital asset pricing model"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected return on the market is 8%, the risk-free rate is 2%, and the beta for Stock A is 1.2. Calculate the rate of return that would be expected (required) on this stock."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(RA) = 2% + 1.2(8% - 2%) = 9.2%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: βA > 1, so E(RA) > E(Rmkt)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The assumptions of the CAPM are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk aversion. To accept a greater degree of risk, investors require a higher expected return."
+        },
+        {
+          "type": "paragraph",
+          "text": "Utility maximizing investors. Investors choose the portfolio, based on their individual preferences, with the risk and return combination that maximizes their (expected) utility. Frictionless markets. There are no taxes, transaction costs, or other impediments to trading."
+        },
+        {
+          "type": "paragraph",
+          "text": "One-period horizon. All investors have the same one-period time horizon. Homogeneous expectations. All investors have the same expectations for assets’ expected returns, standard deviation of returns, and returns correlations between assets. Divisible assets. All investments are infinitely divisible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Competitive markets. Investors take the market price as given and no investor can influence prices with their trades."
+        },
+        {
+          "type": "heading",
+          "text": "Comparing the CML and the SML"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is important to recognize that the CML and SML are very different. Recall the equation of the CML:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{E} \\left( \\mathbb{R}_{\\mathbb{P}} \\right)=\\mathbb{R}_{\\mathbb{f}}+\\sigma_{\\mathbb{P}} \\left\\{{\\frac{\\left[ \\mathbb{E} \\left( \\mathbb{R}_{\\mathbb{M}} \\right)-\\mathbb{R}_{\\mathbb{f}} \\right]} {\\sigma_{\\mathbb{M}}}} \\right\\}",
+          "display": true,
+          "sourceAsset": "f3bc2ed4b860131743c8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CML uses total risk = σp on the x-axis. Hence, only efficient portfolios will plot on the CML. On the other hand, the SML uses beta (systematic risk) on the x-axis. So in a CAPM world, all properly priced securities and portfolios of securities will plot on the SML, as shown in Figure 84.9."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.9: Comparing the CML and the SML"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9bc56c65e5dbd991498b.png",
+          "alt": "Equation, table, or diagram: Figure 84.9: Comparing the CML and the SML",
+          "width": 415,
+          "height": 560,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Portfolios that are not well diversified (efficient) plot inside the efficient frontier and are represented by risk-return combinations such as Points A, B, and C in Panel A of"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 84.9. Individual securities are one example of such inefficient portfolios. According to the CAPM, the expected returns on all portfolios, well diversified or not, are determined by their systematic risk. Thus, according to the CAPM, Point A represents a high-beta stock or portfolio, Point B a stock or portfolio with a beta of one, and Point C a low-beta stock or portfolio. We know this because the expected return at Point B is equal to the expected return on the market, and the expected returns at Point A and C are greater and less than the expected return on the market (tangency) portfolio, respectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that a low-beta stock, such as represented by Point C, is not necessarily low-risk when total risk is considered. While its contribution to the risk of a well-diversified portfolio may be low, its risk when held by itself can be considered quite high. A firm whose only activity is developing a new, but as yet unproven, drug may be quite speculative with highly uncertain returns. It may also have quite low systematic risk if the uncertainty about its future returns depends primarily on firm-specific factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "All stocks and portfolios that plot along the line labeled β = 1 in Figure 84.9 have the same expected return as the market portfolio and, thus, according to the CAPM, have the same systematic risk as the market portfolio (i.e., they all have betas of one)."
+        },
+        {
+          "type": "paragraph",
+          "text": "All points on the CML (except the tangency point) represent the risk-return characteristics of portfolios formed by either combining the market portfolio with the risk-free asset or borrowing at the risk-free rate in order to invest more than 100% of the portfolio’s net value in the risky market portfolio (investing on margin). Point D in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 84.9 represents a portfolio that combines the market portfolio with the risk-free asset, while points above the point of tangency, such as Point E, represent portfolios created by borrowing at the risk-free rate to invest in the market portfolio. Portfolios that do not lie on the CML are not efficient and therefore have risk that will not be rewarded with higher expected returns in equilibrium."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the CAPM, all securities and portfolios, diversified or not, will plot on the SML in equilibrium. In fact, all stocks and portfolios along the line labeled β = 1 in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 84.9, including the market portfolio, will plot at the same point on the SML. They will plot at the point on the SML with beta equal to one and expected return equal to the expected return on the market, regardless of their total risk."
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.h",
+          "text": "What should we know about and demonstrate applications of the CAPM and the SML?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have used beta to estimate a security’s expected return based on our estimate of the risk-free rate and the expected return on the market. In equilibrium, a security’s expected return and its required return (by investors) are equal. Therefore, we can use the CAPM to estimate a security’s required return."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the SML shows the equilibrium (required) return for any security or portfolio based on its beta (systematic risk), analysts often compare their forecast of a security’s return to its required return based on its beta risk. The following example illustrates this technique."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Identifying mispriced securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following figure contains information based on analyst’s forecasts for three stocks. Assume a risk-free rate of 7% and a market return of 15%. Calculate the expected and required return on each stock, determine whether each stock is undervalued, overvalued, or properly valued, and outline an appropriate trading strategy."
+        },
+        {
+          "type": "heading",
+          "text": "Forecast Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9dc5da52e5cce1eda307.png",
+          "alt": "Equation, table, or diagram: Forecast Data",
+          "width": 412,
+          "height": 104,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expected and required returns computations are shown in the following figure."
+        },
+        {
+          "type": "heading",
+          "text": "Forecasts vs. Required Returns"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/7599db3f980f38142f2b.png",
+          "alt": "Equation, table, or diagram: Forecasts vs. Required Returns",
+          "width": 468,
+          "height": 98,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock A is overvalued. It is expected to earn 12%, but based on its systematic risk, it should earn 15%. It plots below the SML."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock B is undervalued. It is expected to earn 17.5%, but based on its systematic risk, it should earn 13.4%. It plots above the SML."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock C is properly valued. It is expected to earn 16.6%, and based on its systematic risk, it should earn 16.6%. It plots on the SML."
+        },
+        {
+          "type": "paragraph",
+          "text": "The appropriate trading strategy is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Short sell Stock A."
+        },
+        {
+          "type": "paragraph",
+          "text": "Buy Stock B. Buy, sell, or ignore Stock C."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can do this same analysis graphically. The expected return/beta combinations of all three stocks are graphed in the following figure relative to the SML."
+        },
+        {
+          "type": "heading",
+          "text": "Identifying Mispriced Securities"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c34a22880904740b85c0.png",
+          "alt": "Equation, table, or diagram: Identifying Mispriced Securities",
+          "width": 362,
+          "height": 221,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the estimated return plots “over” the SML, the security is “under” valued. If the estimated return plots “under” the SML, the security is “over” valued."
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember, all stocks should plot on the SML; any stock not plotting on the SML is mispriced. Notice that Stock A falls below the SML, Stock B lies above the SML, and Stock C is on the SML. If you plot a stock’s expected return and it falls below the SML, the stock is overpriced. That is, the stock’s expected return is too low given its systematic risk. If a stock plots above the SML, it is underpriced and is offering an expected return greater than required for its systematic risk. If it plots on the SML, the stock is properly priced."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the equation of the SML is the capital asset pricing model, you can determine if a stock is over- or underpriced graphically or mathematically. Your answers will"
+        },
+        {
+          "type": "paragraph",
+          "text": "always be the same."
+        },
+        {
+          "type": "question",
+          "objectiveId": "84.i",
+          "text": "How do we calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Performance evaluation of an active manager’s portfolio choices refers to the analysis of the risk and return of the portfolio. Attribution analysis, an analysis of the sources of returns differences between active portfolio returns and those of a passive benchmark portfolio, is part of performance evaluation. Success in active portfolio management cannot be determined simply by comparing portfolio returns to benchmark portfolio returns; the risk taken to achieve returns must also be considered. A portfolio with greater risk than the benchmark portfolio (especially beta risk) is expected to produce higher returns over time than the benchmark portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "When evaluating the performance of a portfolio with risk that differs from that of a benchmark portfolio, we need to adjust the active portfolio return’s risk. Of the alternative ways to consider both risk and return in evaluating portfolio performance, the most commonly used is the Sharpe ratio. The Sharpe ratio of a portfolio is its excess returns per unit of total portfolio risk. Higher Sharpe ratios indicate better risk-adjusted portfolio performance."
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{Sharpe~ratio}} \\!=\\! {\\frac{\\mathrm{E} \\left[ \\mathrm{R}_{\\mathrm{portfolio}} \\right]-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{portfolio}}}}",
+          "display": true,
+          "sourceAsset": "0b2bae4d407448868e04.png",
+          "prose": "Sharpe ratio"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have shown the Sharpe ratio as an ex ante (before the fact) measure, using the expected values of portfolio returns and standard deviation. However, it can also be used as an ex post (after the fact) measure of portfolio performance, using mean returns and sample standard deviation over a period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Sharpe ratio is based on total risk (standard deviation of returns), rather than systematic risk (beta). For this reason, the Sharpe ratio can be used to evaluate the performance of concentrated portfolios (those affected by unsystematic risk) as well as well-diversified portfolios (those with only systematic, or beta, risk). Note that the value of the Sharpe ratio is only useful for comparison with the Sharpe ratio of another portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Figure 84.10, we illustrate that the Sharpe ratio of a portfolio is the slope of the CAL for that portfolio and can be compared to the slope of the CML, which is the Sharpe ratio for portfolios that lie on the CML."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.10: Sharpe Ratios as Slopes"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/db07dafad4c5b4570ed2.png",
+          "alt": "Equation, table, or diagram: Figure 84.10: Sharpe Ratios as Slopes",
+          "width": 481,
+          "height": 234,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a portfolio of risky assets, M-squared (M2) is an alternative to the Sharpe ratio as a risk-adjusted rate of return, expressed as a percentage rather than as a slope. Given a Portfolio P, we can calculate the return on a Portfolio P* that is leveraged (when σM > σP), or deleveraged (when σM < σP), so that P* has the same risk (standard deviation of"
+        },
+        {
+          "type": "math",
+          "latex": "R_{P^*}=R_f+\\frac{\\sigma_M}{\\sigma_P}(R_P-R_f)",
+          "display": true,
+          "sourceAsset": "1cd00ea273bcbd8b83de.png",
+          "prose": "returns) as the market portfolio. The return on P* is and we refer to that as the M2 measure for Portfolio P. We illustrate the return on the leveraged Portfolio P*, given the standard deviation and return on Portfolio P, in Figure 84.11. The extra return on the Portfolio P* above the return on the market portfolio, (P* - RM), is referred to as M2 alpha. Note that in Figure 84.11, P* is created by borrowing at Rf and investing the proceeds in Portfolio P, in an amount so that the standard deviation of P* = σM."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.11: M-Squared for a Portfolio"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e5d02d0e339378b8eb6b.png",
+          "alt": "Equation, table, or diagram: Figure 84.11: M-Squared for a Portfolio",
+          "width": 403,
+          "height": 202,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The M2 measure produces the same risk-adjusted portfolio rankings as the Sharpe ratio, but is stated in percentage terms. Note that M2 can be derived from the Sharpe ratio (SR) for Portfolio P, SR = (RP - Rf)/σP, as SR (σM) + Rf, so that if the Sharpe ratio of Portfolio P is greater than the slope of the CML, M2 > Rm and M2 alpha > 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example, consider a Portfolio P with return of 10% and standard deviation of returns of 20%, when Rf = 5%, RM = 11% and σM = 30%. The Sharpe ratio of Portfolio P"
+        },
+        {
+          "type": "paragraph",
+          "text": "= (10 - 5)/20 = 0.25, and M2 = 0.25(0.30) + 0.05 = 12.5%. Comparing that to RM = 11%, we can see that M2 alpha is 1.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two measures of portfolio performance based on systematic (beta) risk rather than total risk are the Treynor measure and Jensen’s alpha. They are analogous to the Sharpe ratio and M² in that the Treynor measure is a measure of slope and Jensen’s alpha is a measure of percentage returns in excess of those from a portfolio that has the same risk (beta) but lies on the SML."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{~The~Treynor~measure~is~calculated~as~}^{\\frac{\\mathbb{R}_{p} ~-~ \\mathbb{R}_{q}} {\\mathbb{R}_{p}}} , \\mathrm{interpreted~as~excess~returns~per~unit~of~}} \\\\ {\\mathrm{~systematic~risk,~and~represented~by~the~slope~of~a~line~as~illustrated~in~Figure~84.12.}} \\\\ {\\mathrm{~lensen's~alpha~for~Portfolio~P~is~calculated~as~}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "15a8c8e9da509b01ef09.png",
+          "prose": "The Treynor measure is calculated as interpreted as excess returns per unit of systematic risk, and represented by the slope of a line as illustrated in Figure 84.12. Jensen’s alpha for Portfolio P is calculated as"
+        },
+        {
+          "type": "paragraph",
+          "text": "αP = Rp – [Rf + βP(RM – Rf)]"
+        },
+        {
+          "type": "paragraph",
+          "text": "and is the percentage portfolio return above that of a portfolio (or security) with the same beta as the portfolio that lies on the SML, as illustrated in Figure 84.12."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 84.12: Treynor Measure and Jensen’s Alpha"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a6f9f340aa67b6b629a0.png",
+          "alt": "Equation, table, or diagram: Figure 84.12: Treynor Measure and Jensen’s Alpha",
+          "width": 401,
+          "height": 239,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether risk adjustment should be based on standard deviation of returns or portfolio beta depends on whether a manager’s portfolio bears unsystematic risk. If a single manager is used, then the total risk (including any nonsystematic risk) is the relevant measure and risk adjustment using total risk, as with the Sharpe and M² measures, is appropriate. If a fund uses multiple managers so that the overall fund portfolio is well diversified (has no unsystematic risk), then performance measures based on systematic (beta) risk, such as the Treynor measure and Jensen’s alpha, are appropriate."
+        },
+        {
+          "type": "paragraph",
+          "text": "These measures of risk-adjusted returns are often used to compare the performance of actively managed funds to passively managed funds. Note in Figure 84.10 and Figure 84.11 that portfolios that lie above the CML have Sharpe ratios greater than those of any portfolios along the CML and have positive M² measures. Similarly, in Figure 84.12, we can see that portfolios that lie above the SML have Treynor measures greater than those of any security or portfolio that lies along the SML and also have positive values for Jensen’s alpha."
+        },
+        {
+          "type": "paragraph",
+          "text": "One final note of caution is that estimating the values needed to apply these theoretical models and performance measures is often difficult and is done with error. The expected return on the market, and thus the market risk premium, may not be equal to its average historical value. Estimating security and portfolio betas is done with error as well."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "84.a",
+      "text": "What should we know about the implications of combining a risk-free asset with a portfolio of risky assets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The availability of a risk-free asset allows investors to build portfolios with superior risk-return properties. By combining a risk-free asset with a portfolio of risky assets, the overall risk and return can be adjusted to appeal to investors with various degrees of risk aversion."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.b",
+      "text": "How can we explain the capital allocation line (CAL) and the capital market line (CML)?"
+    },
+    {
+      "type": "paragraph",
+      "text": "On a graph of return versus risk, the various combinations of a risky asset and the risk-free asset form the capital allocation line (CAL). In the specific case where the risky asset is the market portfolio, the combinations of the risky asset and the risk-free asset form the capital market line (CML)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.c",
+      "text": "How can we explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Systematic (market) risk is due to factors, such as GDP growth and interest rate changes, that affect the values of all risky securities. Systematic risk cannot be reduced by diversification. Unsystematic (firm-specific) risk can be reduced by portfolio diversification."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because one of the assumptions underlying the CAPM is that portfolio diversification to eliminate unsystematic risk is costless, investors cannot increase expected equilibrium portfolio returns by taking on unsystematic risk."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.d",
+      "text": "How can we explain return generating models (including the market model) and their uses?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A return generating model is an equation that estimates the expected return of an investment, based on a security’s exposure to one or more macroeconomic, fundamental, or statistical factors."
+    },
+    {
+      "type": "paragraph",
+      "text": "The simplest return generating model is the market model, which assumes the return on an asset is related to the return on the market portfolio in the following manner:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ri = αi + βiRm + ei"
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.e",
+      "text": "How do we calculate and interpret beta?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Beta can be calculated using the following equation:"
+    },
+    {
+      "type": "math",
+      "latex": "\\beta_{\\mathrm{i}} \\!=\\! {\\frac{[ {\\mathrm{Cov}} ( {\\mathrm{R}}_{\\mathrm{i}} , {\\mathrm{R}}_{\\mathrm{m}} ) ]} {\\sigma_{\\mathrm{m}}^{2}}} \\!=\\rho_{\\mathrm{im}} \\! \\left( {\\frac{\\sigma_{\\mathrm{i}}} {\\sigma_{\\mathrm{m}}}} \\right)",
+      "display": true,
+      "sourceAsset": "7d91173de0d586929f6e.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "where [Cov (Ri,Rm)] and ρi,m are the covariance and correlation between the asset and the market, and σi and σm are the standard deviations of asset returns and market returns."
+    },
+    {
+      "type": "paragraph",
+      "text": "The theoretical average beta of stocks in the market is 1. A beta of zero indicates that a security’s return is uncorrelated with the returns of the market."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.f",
+      "text": "How can we explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The capital asset pricing model (CAPM) requires several assumptions:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investors are risk averse, utility maximizing, and rational."
+    },
+    {
+      "type": "paragraph",
+      "text": "Markets are free of frictions like costs and taxes. All investors plan using the same time period."
+    },
+    {
+      "type": "paragraph",
+      "text": "All investors have the same expectations of security returns. Investments are infinitely divisible. Prices are unaffected by an investor’s trades."
+    },
+    {
+      "type": "paragraph",
+      "text": "The security market line (SML) is a graphical representation of the CAPM that plots expected return versus beta for any security."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.g",
+      "text": "How do we calculate and interpret the expected return of an asset using the CAPM?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CAPM relates expected return to the market factor (beta) using the following formula:"
+    },
+    {
+      "type": "paragraph",
+      "text": "E(Ri) – Rf = βi[E(Rm) – Rf]"
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.h",
+      "text": "What should we know about and demonstrate applications of the CAPM and the SML?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The CAPM and the SML indicate what a security’s equilibrium required rate of return should be based on the security’s exposure to market risk. An analyst can compare his expected rate of return on a security to the required rate of return indicated by the SML to determine whether the security is overvalued, undervalued, or properly valued."
+    },
+    {
+      "type": "question",
+      "objectiveId": "84.i",
+      "text": "How do we calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Sharpe ratio measures excess return per unit of total risk and is useful for comparing portfolios on a risk-adjusted basis."
+    },
+    {
+      "type": "math",
+      "latex": "{\\underset{\\mathrm{Sharpe\\;ratio}} {}} {\\mathrm{Sharpe\\;ratio}}=\\left( {\\frac{{\\mathrm{R}}_{\\mathrm{P}}-{\\mathrm{Omega}}_{\\mathrm{f}}} {\\sigma_{\\mathrm{P}}}} \\right)",
+      "display": true,
+      "sourceAsset": "6547d93a60b17e18587d.png",
+      "prose": "Sharpe ratio"
+    },
+    {
+      "type": "paragraph",
+      "text": "Given a Portfolio P, we can calculate the return on a Portfolio P* that is leveraged or deleveraged, so that P* has the same risk as the market portfolio. The return on P* is the M-squared measure for Portfolio P."
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{M}^{2}=\\mathrm{R}_{\\mathrm{f}}+{\\frac{\\sigma_{\\mathrm{M}}} {\\sigma_{\\mathrm{p}}}} \\! \\left( \\mathrm{R}_{\\mathrm{P}}-\\mathrm{R}_{\\mathrm{f}} \\right)",
+      "display": true,
+      "sourceAsset": "f0706ab4ec355efac127.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "M-squared alpha is the extra return on Portfolio P* above the market portfolio."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Treynor measure measures a portfolio’s excess return per unit of systematic risk. Jensen’s alpha is the difference between a portfolio’s return and the return of a portfolio on the SML that has the same beta:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{~ \\Gamma_{\\mathrm{Treynor~measure}}=} \\frac{\\mathrm{R_{\\mathbb{P}}-\\mathbb{R}_{f}}} {\\mathrm{3_{\\mathbb{P}}}}",
+      "display": true,
+      "sourceAsset": "1eef4f679d3c862a1ee5.png",
+      "prose": "Treynor measure"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{\\ J e n s e n^{\\prime} s \\ a l p h a}=\\alpha_{\\mathrm{p}}=\\mathrm{R}_{\\mathrm{p}}-[ \\mathrm{R}_{\\mathrm{f}}+\\beta_{\\mathrm{p}} ( \\mathrm{R}_{\\mathrm{M}}-\\mathrm{R}_{\\mathrm{f}} ) ]",
+      "display": true,
+      "sourceAsset": "83003297a55136b8bec5.png",
+      "prose": "Jensen’s alpha"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "84.a",
+      "statement": "Describe the implications of combining a risk-free asset with a portfolio of risky assets.",
+      "question": "What should we know about the implications of combining a risk-free asset with a portfolio of risky assets?"
+    },
+    {
+      "id": "84.b",
+      "statement": "Explain the capital allocation line (CAL) and the capital market line (CML).",
+      "question": "How can we explain the capital allocation line (CAL) and the capital market line (CML)?"
+    },
+    {
+      "id": "84.c",
+      "statement": "Explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk.",
+      "question": "How can we explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk?"
+    },
+    {
+      "id": "84.d",
+      "statement": "Explain return generating models (including the market model) and their uses.",
+      "question": "How can we explain return generating models (including the market model) and their uses?"
+    },
+    {
+      "id": "84.e",
+      "statement": "Calculate and interpret beta.",
+      "question": "How do we calculate and interpret beta?"
+    },
+    {
+      "id": "84.f",
+      "statement": "Explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML).",
+      "question": "How can we explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)?"
+    },
+    {
+      "id": "84.g",
+      "statement": "Calculate and interpret the expected return of an asset using the CAPM.",
+      "question": "How do we calculate and interpret the expected return of an asset using the CAPM?"
+    },
+    {
+      "id": "84.h",
+      "statement": "Describe and demonstrate applications of the CAPM and the SML.",
+      "question": "What should we know about and demonstrate applications of the CAPM and the SML?"
+    },
+    {
+      "id": "84.i",
+      "statement": "Calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha.",
+      "question": "How do we calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-84-quiz-1",
+      "title": "Knowledge check 84.1",
+      "moduleId": "84.1",
+      "questions": [
+        {
+          "id": "r84-q1",
+          "number": 1,
+          "objectiveIds": [
+            "84.a"
+          ],
+          "prompt": "An investor put 60% of his portfolio into a risky asset offering a 10% return with a standard deviation of returns of 8% and put the balance of his portfolio in a risk-free asset offering 5%. What is the expected return and standard deviation of his portfolio?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Expected return 6.0%; standard deviation 6.8%."
+            },
+            {
+              "id": "B",
+              "text": "Expected return 8.0%; standard deviation 4.8%."
+            },
+            {
+              "id": "C",
+              "text": "Expected return 10.0%; standard deviation 6.6%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Expected return: (0.60 × 0.10) + (0.40 × 0.05) = 0.08, or 8.0% Standard deviation: 0.60 × 0.08 = 0.048, or 4.8%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Expected return: (0.60 × 0.10) + (0.40 × 0.05) = 0.08, or 8.0%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Standard deviation: 0.60 × 0.08 = 0.048, or 4.8%"
+            }
+          ]
+        },
+        {
+          "id": "r84-q2",
+          "number": 2,
+          "objectiveIds": [
+            "84.b"
+          ],
+          "prompt": "What is the risk measure associated with the capital market line (CML)?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Beta risk."
+            },
+            {
+              "id": "B",
+              "text": "Unsystematic risk."
+            },
+            {
+              "id": "C",
+              "text": "Total risk."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The capital market line (CML) plots return against total risk, which is measured by standard deviation of returns.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The capital market line (CML) plots return against total risk, which is measured by"
+            },
+            {
+              "type": "paragraph",
+              "text": "standard deviation of returns."
+            }
+          ]
+        },
+        {
+          "id": "r84-q3",
+          "number": 3,
+          "objectiveIds": [
+            "84.b"
+          ],
+          "prompt": "A portfolio to the right of the market portfolio on the CML is a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lending portfolio."
+            },
+            {
+              "id": "B",
+              "text": "borrowing portfolio."
+            },
+            {
+              "id": "C",
+              "text": "inefficient portfolio."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A portfolio to the right of a portfolio on the CML has more risk than the market portfolio. Investors seeking to take on more risk will borrow at the risk-free rate to purchase more of the market portfolio.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A portfolio to the right of a portfolio on the CML has more risk than the market"
+            },
+            {
+              "type": "paragraph",
+              "text": "portfolio. Investors seeking to take on more risk will borrow at the risk-free rate to purchase more of the market portfolio."
+            }
+          ]
+        },
+        {
+          "id": "r84-q4",
+          "number": 4,
+          "objectiveIds": [
+            "84.c"
+          ],
+          "prompt": "As the number of stocks in a portfolio increases, the portfolio’s systematic risk:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "can increase or decrease."
+            },
+            {
+              "id": "B",
+              "text": "decreases at a decreasing rate."
+            },
+            {
+              "id": "C",
+              "text": "decreases at an increasing rate."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "When you increase the number of stocks in a portfolio, unsystematic risk will decrease at a decreasing rate. However, the portfolio’s systematic risk can be increased by adding higher-beta stocks or decreased by adding lower-beta stocks.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "When you increase the number of stocks in a portfolio, unsystematic risk will"
+            },
+            {
+              "type": "paragraph",
+              "text": "decrease at a decreasing rate. However, the portfolio’s systematic risk can be increased by adding higher-beta stocks or decreased by adding lower-beta stocks."
+            }
+          ]
+        },
+        {
+          "id": "r84-q5",
+          "number": 5,
+          "objectiveIds": [
+            "84.c"
+          ],
+          "prompt": "Total risk equals:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "unique plus diversifiable risk."
+            },
+            {
+              "id": "B",
+              "text": "market plus nondiversifiable risk."
+            },
+            {
+              "id": "C",
+              "text": "systematic plus unsystematic risk."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Total risk equals systematic plus unsystematic risk. Unique risk is diversifiable and is unsystematic. Market (systematic) risk is nondiversifiable risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Total risk equals systematic plus unsystematic risk. Unique risk is diversifiable"
+            },
+            {
+              "type": "paragraph",
+              "text": "and is unsystematic. Market (systematic) risk is nondiversifiable risk."
+            }
+          ]
+        },
+        {
+          "id": "r84-q6",
+          "number": 6,
+          "objectiveIds": [
+            "84.d"
+          ],
+          "prompt": "A return generating model is least likely to be based on a security’s exposure to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "statistical factors."
+            },
+            {
+              "id": "B",
+              "text": "macroeconomic factors."
+            },
+            {
+              "id": "C",
+              "text": "fundamental factors."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Macroeconomic, fundamental, and statistical factor exposures can be included in a return generating model to estimate the expected return of an investment. However, statistical factors may not have any theoretical basis, so analysts prefer macroeconomic and fundamental factor models.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Macroeconomic, fundamental, and statistical factor exposures can be included in a"
+            },
+            {
+              "type": "paragraph",
+              "text": "return generating model to estimate the expected return of an investment. However, statistical factors may not have any theoretical basis, so analysts prefer macroeconomic and fundamental factor models."
+            }
+          ]
+        },
+        {
+          "id": "r84-q7",
+          "number": 7,
+          "objectiveIds": [
+            "84.e"
+          ],
+          "prompt": "The covariance of the market’s returns with a stock’s returns is 0.005 and the standard deviation of the market’s returns is 0.05. What is the stock’s beta?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "1.0."
+            },
+            {
+              "id": "B",
+              "text": "1.5."
+            },
+            {
+              "id": "C",
+              "text": "2.0."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "beta = covariance / market variance market variance = 0.05² = 0.0025 beta = 0.005 / 0.0025 = 2.0",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "beta = covariance / market variance"
+            },
+            {
+              "type": "paragraph",
+              "text": "market variance = 0.05² = 0.0025"
+            },
+            {
+              "type": "paragraph",
+              "text": "beta = 0.005 / 0.0025 = 2.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-84-quiz-2",
+      "title": "Knowledge check 84.2",
+      "moduleId": "84.2",
+      "questions": [
+        {
+          "id": "r84-q8",
+          "number": 1,
+          "objectiveIds": [
+            "84.f"
+          ],
+          "prompt": "Which of the following statements about the SML and the CML is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Securities that plot above the SML are undervalued."
+            },
+            {
+              "id": "B",
+              "text": "Investors expect to be compensated for systematic risk."
+            },
+            {
+              "id": "C",
+              "text": "Securities that plot on the SML have no value to investors."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Securities that plot on the SML are expected to earn their equilibrium rate of return and, therefore, do have value to an investor and may have diversification benefits as well. The other statements are true.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Securities that plot on the SML are expected to earn their equilibrium rate of"
+            },
+            {
+              "type": "paragraph",
+              "text": "return and, therefore, do have value to an investor and may have diversification benefits as well. The other statements are true."
+            }
+          ]
+        },
+        {
+          "id": "r84-q9",
+          "number": 2,
+          "objectiveIds": [
+            "84.g"
+          ],
+          "prompt": "According to the CAPM, what is the expected rate of return for a stock with a beta of 1.2, when the risk-free rate is 6% and the market rate of return is 12%?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "7.2%."
+            },
+            {
+              "id": "B",
+              "text": "12.0%."
+            },
+            {
+              "id": "C",
+              "text": "13.2%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "6 + 1.2(12 – 6) = 13.2%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "6 + 1.2(12 – 6) = 13.2%"
+            }
+          ]
+        },
+        {
+          "id": "r84-q10",
+          "number": 3,
+          "objectiveIds": [
+            "84.g"
+          ],
+          "prompt": "According to the CAPM, what is the required rate of return for a stock with a beta of 0.7, when the risk-free rate is 7% and the expected market rate of return is 14%?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "11.9%."
+            },
+            {
+              "id": "B",
+              "text": "14.0%."
+            },
+            {
+              "id": "C",
+              "text": "16.8%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "7 + 0.7(14 – 7) = 11.9%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "7 + 0.7(14 – 7) = 11.9%"
+            }
+          ]
+        },
+        {
+          "id": "r84-q11",
+          "number": 4,
+          "objectiveIds": [
+            "84.h"
+          ],
+          "prompt": "The risk-free rate is 6%, and the expected market return is 15%. A stock with a beta of 1.2 is selling for $25 and will pay a $1 dividend at the end of the year. If the stock is priced at $30 at year-end, it is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "overpriced, so short it."
+            },
+            {
+              "id": "B",
+              "text": "underpriced, so buy it."
+            },
+            {
+              "id": "C",
+              "text": "underpriced, so short it."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "required rate = 6 + 1.2(15 – 6) = 16.8% return on stock = (30 – 25 + 1) / 25 = 24% Based on risk, the stock plots above the SML and is underpriced, so buy it.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "required rate = 6 + 1.2(15 – 6) = 16.8%"
+            },
+            {
+              "type": "paragraph",
+              "text": "return on stock = (30 – 25 + 1) / 25 = 24%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Based on risk, the stock plots above the SML and is underpriced, so buy it."
+            }
+          ]
+        },
+        {
+          "id": "r84-q12",
+          "number": 5,
+          "objectiveIds": [
+            "84.h"
+          ],
+          "prompt": "A stock with a beta of 0.7 currently priced at $50 is expected to increase in price to $55 by year-end and pay a $1 dividend. The expected market return is 15%, and the risk-free rate is 8%. The stock is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "overpriced, so do not buy it."
+            },
+            {
+              "id": "B",
+              "text": "underpriced, so buy it."
+            },
+            {
+              "id": "C",
+              "text": "properly priced, so buy it."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "required rate = 8 + 0.7(15 – 8) = 12.9% return on stock = (55 – 50 + 1) / 50 = 12% The stock falls below the SML, so it is overpriced.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "required rate = 8 + 0.7(15 – 8) = 12.9%"
+            },
+            {
+              "type": "paragraph",
+              "text": "return on stock = (55 – 50 + 1) / 50 = 12%"
+            },
+            {
+              "type": "paragraph",
+              "text": "The stock falls below the SML, so it is overpriced."
+            }
+          ]
+        },
+        {
+          "id": "r84-q13",
+          "number": 6,
+          "objectiveIds": [
+            "84.i"
+          ],
+          "prompt": "Which of these return metrics is defined as excess return per unit of systematic risk?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Sharpe ratio."
+            },
+            {
+              "id": "B",
+              "text": "Jensen’s alpha."
+            },
+            {
+              "id": "C",
+              "text": "Treynor measure."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The Treynor measure is excess return (return in excess of the risk-free rate) per unit of systematic risk (beta). The Sharpe ratio is excess return per unit of total risk (portfolio standard deviation). Jensen’s alpha is the difference between a portfolio’s actual rate of return and the equilibrium rate of return for a portfolio with the same level of beta (systematic) risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The Treynor measure is excess return (return in excess of the risk-free rate) per"
+            },
+            {
+              "type": "paragraph",
+              "text": "unit of systematic risk (beta). The Sharpe ratio is excess return per unit of total risk (portfolio standard deviation). Jensen’s alpha is the difference between a portfolio’s actual rate of return and the equilibrium rate of return for a portfolio with the same level of beta (systematic) risk."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "readingId": 47,
+  "title": "Fixed-Income Instrument Features",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "47.1",
+      "title": "Fixed-Income Instrument Features",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "47.a",
+          "text": "What should we know about the features of a fixed-income security?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Major types of fixed-income instruments include loans, which are private (nontradable) agreements between a borrower and lender, and bonds (or fixed-income securities), which are standardized, tradable securities representing a debt investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors in bonds are lending capital (referred to as principal, par, or face value) to the issuer of the bond. The issuer of the bond promises to repay this principal amount plus interest, typically in the form of a regular periodic coupon that is stated as a percentage of par. The capital raised is usually used to finance the long-term investments of the bond issuer. For a corporate issuer, loans and bonds are classified as long-term liabilities in the balance sheet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key features that are specified in a fixed-income security include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Issuer. Major issuers of bonds are sovereign national governments and corporations. Other issuers include local governments, supranational entities (e.g., the International Monetary Fund), quasi-government entities sponsored by the government (e.g., national railways), and special purpose entities, which are corporations set up to purchase financial assets and issue asset-backed securities, which are bonds backed by the cash flows from those assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maturity. The maturity date of a bond is the date on which the final cash flow is to be paid. Once a bond has been issued, the time remaining until maturity is referred to as the tenor of a bond. Bonds with original maturities (their tenor when they were first issued) of one year or less are referred to as money market securities. Bonds with original maturities of more than one year are referred to as capital market securities. Bonds that have no stated maturity date are called perpetual bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Principal (par or face value). The par value of a bond is the principal amount that will be repaid. Repayment of principal typically occurs at maturity, but debt instruments may specify that principal is paid back gradually over the life of the instrument, such as with a mortgage loan. Coupon rate and frequency. The coupon rate on a bond is the annual percentage of its par value that will be paid to bondholders. Some bonds make coupon interest payments annually, while others make semiannual, quarterly, or monthly payments. A"
+        },
+        {
+          "type": "paragraph",
+          "text": "$1,000 par value semiannual-pay bond with a fixed 5% coupon would pay 2.5% of $1,000, or $25, every six months. –  Some bonds pay coupons based on a variable market rate of interest at the date of"
+        },
+        {
+          "type": "paragraph",
+          "text": "coupon payment. These bonds are called floating-rate notes (FRNs) or floaters. The variable market rate of interest is called the market reference rate (MRR), and an FRN promises to pay the variable reference rate plus a fixed margin. This added margin is typically expressed in basis points, which are hundredths of 1%. –  Some bonds pay no interest before maturity and are called zero-coupon bonds or"
+        },
+        {
+          "type": "paragraph",
+          "text": "pure discount bonds. Pure discount refers to the fact that these bonds are sold at a discount to their par value, and the interest is all paid at maturity when bondholders receive the par value. A 10-year, $1,000, zero-coupon bond yielding 7% would sell for a bit more than $500 initially and pay $1,000 at maturity. (In our reading on Fixed-Income Bond Valuation we will show how to calculate the exact price.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Seniority. In the event of bankruptcy or liquidation of an issuer, debt investors’ claims on the issuer’s assets rank above those of equity investors, making debt senior to equity in the capital structure of the issuer. However, not all debt claims rank equally. Senior debt ranks higher than junior debt (also called subordinated debt), making senior debt a less risky investment from a credit risk perspective."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contingency provisions. A bond may have an embedded option, such as a call option, put option, or the right to convert the debt into equity. We will describe these options in later readings."
+        },
+        {
+          "type": "heading",
+          "text": "Yield Measures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given a bond’s price and its expected cash flows, we can calculate the expected return from investing in the bond, referred to as the bond’s yield. For a fixed-coupon bond, when prices fall, the bond offers a higher yield, and when prices rise, the bond offers a lower yield. As such, prices and yields are inversely related. We will perform yield calculations in later readings."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The inverse price/yield relationship for fixed-coupon bonds is a crucial concept that runs through the whole fixed income topic. If a bond with fixed cash flows is to offer a higher return (yield), the only way this is possible is through investors paying a lower price for the bond today. Hence, increasing bond yields imply decreasing bond prices, and decreasing bond yields imply increasing bond prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a given issuer, we will likely find that bonds of different maturity will offer different yields. A graphical plot of these yields versus maturity is referred to as a yield curve. An example of yield curves for U.S. Treasury bonds is displayed in Figure 47.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 47.1: U.S. Treasury Yield Curve"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cae0e11b0b300886d0c4.png",
+          "alt": "Equation, table, or diagram: Figure 47.1: U.S. Treasury Yield Curve",
+          "width": 479,
+          "height": 287,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "An upward-sloping yield curve (i.e., higher expected returns for longer-dated maturities), as U.S Treasuries exhibited in mid-2018, is referred to as a normal yield curve because this is the shape most frequently observed. A normal yield curve reflects investor demand for higher returns for longer-dated maturities due to higher levels of uncertainty (i.e., risk) over longer time frames. A downward-sloping yield curve, as U.S. Treasuries exhibited in mid-2023, is less common and is referred to as an inverted yield curve."
+        },
+        {
+          "type": "paragraph",
+          "text": "Government bonds are often deemed to be of the lowest credit risk (highest credit quality) in a particular market due to the fact the bonds are backed by the tax-raising powers of the government. A government bond yield curve is commonly used as a benchmark to assess the extra returns (called spreads) offered by more risky issuers, such as corporations. For example, if a 5-year corporate bond were yielding 6% and 5-year government bonds were yielding 5%, then the spread offered by the corporate bond is 6% − 5% = 1%. We will discuss credit spreads in more detail in later readings."
+        },
+        {
+          "type": "question",
+          "objectiveId": "47.b",
+          "text": "What should we know about the contents of a bond indenture and contrast affirmative and negative covenants?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The legal contract between the bond issuer (borrower) and bondholders (lenders) is called the bond indenture. The indenture defines obligations of, and restrictions on, the borrower, including the sources of repayment, and it forms the basis for all future interactions between the bondholder and the issuer."
+        },
+        {
+          "type": "heading",
+          "text": "Sources of Repayment"
+        },
+        {
+          "type": "paragraph",
+          "text": "The source of the cash flows required to be paid by the bond issuer depends on the nature of the issuer and type of bond issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sovereign (national government) bonds are repaid from taxes on economic activity and, in some cases, the ability of a government to create new currency. This tends to result"
+        },
+        {
+          "type": "paragraph",
+          "text": "in sovereign debt being perceived as the lowest credit risk in a particular region."
+        },
+        {
+          "type": "paragraph",
+          "text": "Local government bonds are repaid from local government taxes or revenue from operational infrastructure, such as toll roads."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sources of repayment for a corporate bond depend on the type of bond issue. A secured bond is repaid from the operating cash flow of the company, with the added security of a legal claim (called a lien or pledge) on specific assets of the company (referred to as collateral) in the event of issuer default. This contrasts with an unsecured bond, which, having no such claim, is repaid only from the operating cash flow of the issuing company."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an asset-backed security (ABS), financial assets held by the special purpose entity that has issued the ABS provide the cash flows promised to the ABS investors. We will discuss these in more detail in later readings."
+        },
+        {
+          "type": "heading",
+          "text": "Bond Covenants"
+        },
+        {
+          "type": "paragraph",
+          "text": "While debt investments do not provide voting rights in the same way as an equity investment, certain legal rules known as covenants can be written into the bond indenture."
+        },
+        {
+          "type": "paragraph",
+          "text": "Affirmative covenants specify requirements the issuer must fulfill. These may require the issuer to provide timely financial reports to bondholders, specify the use of proceeds from the bond issue, or specify a bondholder’s right to redeem at a premium to par if the issuer is acquired in a merger or corporate takeover."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two examples of affirmative covenants are cross-default and pari passu provisions. A cross-default clause states that if the issuer defaults on any other debt obligation, the issuer will also be considered in default on this bond. A pari passu clause states that the bond will have the same priority of claims as the issuer’s other senior debt issues."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negative covenants place restrictions on the issuer. These can include restrictions on:"
+        },
+        {
+          "type": "paragraph",
+          "text": "entering into asset sales and leaseback agreements; pledges of collateral (the company cannot use the same assets to back several debt issues simultaneously);"
+        },
+        {
+          "type": "paragraph",
+          "text": "issuance of debt that ranks more senior than existing debt (referred to as a negative pledge clause); and"
+        },
+        {
+          "type": "paragraph",
+          "text": "additional borrowings, share repurchases, or dividend payments. These actions can be subject to an incurrence test relating to the financial ratios of the company—for example, they can only be carried out if debt/EBITDA is below a specified threshold."
+        },
+        {
+          "type": "paragraph",
+          "text": "Negative covenants protect the interests of bondholders and prevent the issuing firm from taking actions that would increase the risk of default. However, covenants must not be so restrictive that they prevent the firm from taking advantage of opportunities or responding appropriately to changing business circumstances."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "47.a",
+      "text": "What should we know about the features of a fixed-income security?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Basic features of a fixed income security include the issuer, maturity date, par value, coupon rate, coupon frequency, seniority, and contingency provisions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Issuers include corporations, governments, quasi-government entities, supranational entities and special purpose entities set up to issue asset-backed securities. Bonds with original maturities of one year or less are money market securities. Bonds with original maturities of more than one year are capital market securities. Bonds with no stated maturity are perpetual bonds. Par value is the principal amount that will be repaid to bondholders, usually at maturity. Coupon rate is the percentage of par value that is paid annually as interest. Coupon frequency may be annual, semiannual, quarterly, or monthly. Zero-coupon bonds pay no coupon interest and are pure discount securities. Senior debt ranks above junior (subordinated) debt should an issuer file for bankruptcy or undergo liquidation. Junior bonds with lower credit quality must offer investors higher yields to compensate for the greater probability of default. Contingency provisions are rights to take actions in response to some potential future event, such as the right for the issuer to call the bond back earlier than maturity."
+    },
+    {
+      "type": "paragraph",
+      "text": "The return earned from investing in a bond is referred to as the bond’s yield. For a fixed coupon bond, there is an inverse relationship between the price and the yield (return) of the instrument. A plot of yield versus maturity for a certain issuer or class of bond is referred to as a yield curve."
+    },
+    {
+      "type": "paragraph",
+      "text": "The source of repayment for sovereign bonds is the country’s taxing authority. For non-sovereign government bonds, the sources may be taxing authority or revenues from a"
+    },
+    {
+      "type": "paragraph",
+      "text": "project. Corporate bonds are repaid with funds from the firm’s operations. Securitized bonds are repaid with cash flows from a pool of financial assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bonds are secured if they are backed by specific collateral or unsecured if they represent an overall claim against the issuer’s cash flows and assets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "47.b",
+      "text": "What should we know about the contents of a bond indenture and contrast affirmative and negative covenants?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A bond indenture is a contract between a bond issuer and the bondholders which defines the bond’s features and the issuer’s obligations. An indenture specifies the entity issuing the bond, the source of funds for repayment, assets pledged as collateral, credit enhancements, and any covenants with which the issuer must comply. Affirmative covenants specify actions an issuer must take, negative covenants specify restrictions on the issuer."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "47.a",
+      "statement": "Describe the features of a fixed-income security.",
+      "question": "What should we know about the features of a fixed-income security?"
+    },
+    {
+      "id": "47.b",
+      "statement": "Describe the contents of a bond indenture and contrast affirmative and negative covenants.",
+      "question": "What should we know about the contents of a bond indenture and contrast affirmative and negative covenants?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-47-quiz-1",
+      "title": "Knowledge check 47.1",
+      "moduleId": "47.1",
+      "questions": [
+        {
+          "id": "r47-q1",
+          "number": 1,
+          "objectiveIds": [
+            "47.a"
+          ],
+          "prompt": "A fixed-coupon bond will pay a coupon equal to its:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "yield multiplied by price."
+            },
+            {
+              "id": "B",
+              "text": "stated coupon rate multiplied by price."
+            },
+            {
+              "id": "C",
+              "text": "stated coupon rate multiplied by face value."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A fixed-coupon bond has a stated coupon rate that is applied to the bond’s face (principal or par) value. The yield of the bond is the return earned through paying the bond’s price today and holding the bond to maturity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A fixed-coupon bond has a stated coupon rate that is applied to the bond’s face"
+            },
+            {
+              "type": "paragraph",
+              "text": "(principal or par) value. The yield of the bond is the return earned through paying the bond’s price today and holding the bond to maturity."
+            }
+          ]
+        },
+        {
+          "id": "r47-q2",
+          "number": 2,
+          "objectiveIds": [
+            "47.a"
+          ],
+          "prompt": "When fixed-coupon bond prices fall:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "their yields rise."
+            },
+            {
+              "id": "B",
+              "text": "their yields fall."
+            },
+            {
+              "id": "C",
+              "text": "their coupon rates fall."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "For fixed-coupon bonds, prices and yields have an inverse relationship. If the price of the bond is falling, then the return (yield) from buying the bond at the lower price is rising.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For fixed-coupon bonds, prices and yields have an inverse relationship. If the price"
+            },
+            {
+              "type": "paragraph",
+              "text": "of the bond is falling, then the return (yield) from buying the bond at the lower price is rising."
+            }
+          ]
+        },
+        {
+          "id": "r47-q3",
+          "number": 3,
+          "objectiveIds": [
+            "47.b"
+          ],
+          "prompt": "A bond’s indenture:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "contains its covenants."
+            },
+            {
+              "id": "B",
+              "text": "is only required in the event of a lien on collateral."
+            },
+            {
+              "id": "C",
+              "text": "relates only to its interest and principal payments."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An indenture is the contract between the company and its bondholders and contains the bond’s covenants.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An indenture is the contract between the company and its bondholders and"
+            },
+            {
+              "type": "paragraph",
+              "text": "contains the bond’s covenants."
+            }
+          ]
+        },
+        {
+          "id": "r47-q4",
+          "number": 4,
+          "objectiveIds": [
+            "47.b"
+          ],
+          "prompt": "A clause in a bond indenture that requires the borrower to perform a certain action is most accurately described as a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "trust deed."
+            },
+            {
+              "id": "B",
+              "text": "negative covenant."
+            },
+            {
+              "id": "C",
+              "text": "affirmative covenant."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Affirmative covenants require the borrower to perform certain actions. Negative covenants restrict the borrower from performing certain actions. Trust deed is another name for a bond indenture.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Affirmative covenants require the borrower to perform certain actions. Negative"
+            },
+            {
+              "type": "paragraph",
+              "text": "covenants restrict the borrower from performing certain actions. Trust deed is another name for a bond indenture."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

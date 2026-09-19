@@ -1,0 +1,645 @@
+{
+  "readingId": 88,
+  "title": "Introduction to Risk Management",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "88.1",
+      "title": "Introduction to Risk Management",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "88.a",
+          "text": "How do we define risk management?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk management process seeks to (1) identify the risk tolerance of the organization, (2) identify and measure the risks that the organization faces, and (3) modify and monitor these risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "The process does not seek to minimize or eliminate all of these risks. The organization may increase its exposure to risks it decides to take because it is better able to manage and respond to them. The organization may decrease its exposure to risks that it is less well able to manage and respond to by making organizational changes, purchasing insurance, or entering into hedging transactions. Through these choices the firm aligns the risks it takes with its risk tolerances for these various types of risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk (uncertainty) is not something to be avoided by an organization or in an investment portfolio. Returns above the risk-free rate are earned by taking on risk. While returns for any period are not under the control of managers, the specific risks and overall level of risk the organization takes are under their control. We can think of risk management as determining organizational risks, determining the optimal bundle of risks for the organization, and implementing risk mitigation strategies to achieve that bundle of risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "We describe the principles of risk management here in a framework that can be applied broadly, not only to firms or organizations in general, but also to the management of investment portfolios and financial firms, and even to individuals deciding how much risk and which specific risks they will take. Individuals follow a similar approach, selecting a bundle of risks that is optimal for maximizing their expected utility (rather than returns or profit)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.b",
+          "text": "What should we know about features of a risk management framework?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An overall risk management framework encompasses several activities, including:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Establishing processes and policies for risk governance. Determining the organization’s risk tolerance. Identifying and measuring existing risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Managing and mitigating risks to achieve the optimal bundle of risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monitoring risk exposures over time. Communicating across the organization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Performing strategic risk analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "This framework is general, but all of these elements should be addressed in any comprehensive risk management framework. Only by understanding the risks the organization faces, and having the processes and procedures in place to effectively manage and monitor these risks, can an organization align its risk exposures to the goals of the organization."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.c",
+          "text": "How do we define risk governance and describe elements of effective risk governance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk governance refers to senior management’s determination of the risk tolerance of the organization, the elements of its optimal risk exposure strategy, and the framework for oversight of the risk management function. Risk governance seeks to manage risk in a way that supports the overall goals of the organization so it can achieve the best business outcome consistent with the organization’s overall risk tolerance. Risk governance provides organization-wide guidance on the risks that should be pursued in an efficient manner, risks that should be subject to limits, and risks that should be reduced or avoided."
+        },
+        {
+          "type": "paragraph",
+          "text": "A risk management committee can provide a way for various parts of the organization to bring up issues of risk measurement, integration of risks, and the best ways to mitigate undesirable risks."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.d",
+          "text": "How can we explain how risk tolerance affects risk management?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Determining an organization’s risk tolerance involves setting the overall risk exposure the organization will take by identifying the risks the firm can effectively take and the risks that the organization should reduce or avoid. Some of the factors that determine an organization’s risk tolerance are its expertise in its lines of business, its skill at responding to negative outside events, its regulatory environment, and its financial strength and ability to withstand losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "When analyzing risk tolerance, management should examine risks that may exist within the organization as well as those that may arise from outside. The various risks the firm is exposed to must each be considered and weighted against the expected benefits of bearing those risks and how these fit the overall goals of the organization."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.e",
+          "text": "What should we know about risk budgeting and its role in risk governance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk budgeting is the process of allocating firm resources to assets (or investments) by considering their various risk characteristics and how they combine to meet the organization’s risk tolerance. The goal is to allocate the overall amount of acceptable risk to the mix of assets or investments that have the greatest expected returns over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk budget may be a single metric, such as portfolio beta, value at risk, portfolio duration, or returns variance. A risk budget may be constructed based on categories of investments, such as domestic equities, domestic debt securities, international equities, and international debt securities. Another way to allocate a risk budget is to identify specific risk factors that comprise the overall risk of the portfolio or organization. In this case, specific risk factors that affect asset classes to varying degrees, such as interest rate risk, equity market risk, and foreign exchange rate risk, are estimated and aggregated to determine whether they match the overall risk tolerance of the organization."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.f",
+          "text": "How can we identify financial and non-financial sources of risk and describe how they may interact?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial risks are those that arise from exposure to financial markets. Examples are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit risk. This is the uncertainty about whether the counterparty to a transaction will fulfill its contractual obligations. Liquidity risk. This is the risk of loss when selling an asset at a time when market conditions make the sales price less than the underlying fair value of the asset. Market risk. This is the uncertainty about market prices of assets (stocks, commodities, and currencies) and interest rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Non-financial risks arise from the operations of the organization and from sources external to the organization. Examples are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Operational risk. This is the risk that human error, faulty organizational processes, inadequate security, or business interruptions will result in losses. An example of an operational risk is cyber risk, which refers to disruptions of an organization’s information technology. Solvency risk. This is the risk that the organization will be unable to continue to operate because it has run out of cash."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulatory risk. This is the risk that the regulatory environment will change, imposing costs on the firm or restricting its activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Governmental or political risk (including tax risk). This is the risk that political actions outside a specific regulatory framework, such as increases in tax rates, will impose significant costs on an organization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Legal risk. This is the uncertainty about the organization’s exposure to future legal action. Model risk. This is the risk that asset valuations based on the organization’s analytical models are incorrect. Tail risk. This is the risk that extreme events (those in the tails of the distribution of outcomes) are more likely than the organization’s analysis indicates, especially from incorrectly concluding that the distribution of outcomes is normal. Accounting risk. This is the risk that the organization’s accounting policies and estimates are judged to be incorrect."
+        },
+        {
+          "type": "paragraph",
+          "text": "For individuals, risks, such as risk of death (mortality risk) prior to providing for their families’ future needs and the risk of living longer than anticipated (longevity risk) so that assets run out, are very important in financial planning. Mortality risk is most often addressed with life insurance, and longevity risk can be reduced by purchasing a lifetime annuity. Risk of health care expenses is addressed with health insurance. Although the risks for an individual are in some ways different from those of organizations, the overall approach is the same, choosing which risks to bear (self-insure), which risks to prevent or avoid, and which risks to take in order to maximize the expected outcome in terms of personal utility or satisfaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "The various risks an organization faces are not independent; they interact in many ways. Consider a firm with market risk that it reduces with option contracts. If markets decline significantly, the firm is owed a payment from the firm on the other side of the option trade, so now there is significant counterparty or credit risk. There also may be legal risks if the counterparty seeks to avoid the payment through loopholes in the contract. Credit losses and legal losses may result in greater liquidity risk as positions must be sold. Additional losses from selling in a declining or less liquid market may increase solvency risk because of the negative impact on the firm’s cash position."
+        },
+        {
+          "type": "paragraph",
+          "text": "Interactions among risks must be considered because such interactions are many and frequent. They can be especially important during periods of stress in financial markets, when risk management is most important to the health and possibly the survival of the organization."
+        },
+        {
+          "type": "question",
+          "objectiveId": "88.g",
+          "text": "What should we know about methods for measuring and modifying risk exposures and factors to consider in choosing among the methods?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Measures of risk for specific asset types include standard deviation, beta, and duration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard deviation is a measure of the volatility of asset prices and interest rates. Standard deviation may not be the appropriate measure of risk for non-normal probability distributions, especially those with negative skew or positive excess kurtosis (fat tails)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beta measures the market risk of equity securities and portfolios of equity securities. This measure considers the risk reduction benefits of diversification and is appropriate for securities held in a well-diversified portfolio, whereas standard deviation is a measure of risk on a stand-alone basis. Duration is a measure of the price sensitivity of debt securities to changes in interest rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivatives risks (sometimes referred to as “the Greeks”) include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Delta. This is the sensitivity of derivatives values to the price of the underlying asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gamma. This is the sensitivity of delta to changes in the price of the underlying asset. Vega. This is the sensitivity of derivatives values to the volatility of the price of the underlying asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rho. This is the sensitivity of derivatives values to changes in the risk-free rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tail risk is the uncertainty about the probability of extreme (negative) outcomes. Commonly used measures of tail risk (sometimes referred to as downside risk) include Value at Risk and Conditional VaR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Value at risk (VaR) is the minimum loss over a period that will occur with a specific probability. Consider a bank that has a one-month VaR of $1 million with a probability of 5%. That means that a one-month loss of at least $1 million is expected to occur 5% of the time. Note that this is not the maximum one-month loss the bank will experience; it is the minimum loss that will occur 5% of the time. VaR does not provide a maximum loss for a period. VaR has become accepted as a risk measure for banks and is used in establishing minimum capital requirements."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are various methods of calculating VaR, and both the inputs and models used will affect the calculated value, perhaps significantly. As is always the case with estimates of risk, incorrect inputs or inappropriate distribution assumptions will lead to misleading results. Given these limitations, VaR should be used in conjunction with other risk measures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conditional VaR (CVaR) is the expected value of a loss, given that the loss exceeds a minimum amount. Relating this to the VaR measure presented previously, the CVaR would be the expected loss, given that the loss was at least $1 million. It is calculated as the probability-weighted average loss for all losses expected to be at least $1 million. CVaR is similar to the measure of loss given default that is used in estimating risk for debt securities."
+        },
+        {
+          "type": "heading",
+          "text": "Subjective and Market-Based Estimates of Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Two methods of risk assessment that are used to supplement measures such as VaR and CVaR are stress testing and scenario analysis. Stress testing examines the effects of a specific (usually extreme) change in a key variable such as an interest rate or exchange rate. Scenario analysis refers to a similar what-if analysis of expected loss but incorporates changes in multiple inputs. A given scenario might combine an interest rate change with a significant change in oil prices or exchange rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantifying the risk to an organization of very infrequent events is quite difficult. The risk of the bankruptcy of a firm that has never experienced significant financial distress is often a subjective estimate rather than a data-driven estimate. Estimates of risk can also be based on the market prices of insurance, derivatives, or other securities that can be used to hedge those risks. These hedging costs provide information on market participants’ aggregate estimate of the expected loss of specific risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operational risks are difficult to quantify for a single organization because they are very difficult to predict and may result in very large costs to the organization. One way to approach this problem is to examine a large sample of firms in order to determine an overall probability of significant losses due to operational risks and the average loss of firms that have experienced such losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unexpected changes in tax laws or the regulatory environment can impose large costs on an organization. The political nature of such changes makes them quite difficult to predict. Subjective estimates, rather than data-driven quantitative estimates, are"
+        },
+        {
+          "type": "paragraph",
+          "text": "necessary. As is often the case, even a subjective, non-quantitative estimate of risk probabilities and magnitudes is better than not addressing the risk factor at all."
+        },
+        {
+          "type": "heading",
+          "text": "Modifying Risk Exposures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk management does not seek to eliminate all risks. The goal is to retain the optimal mix of risks for the organization. This may mean taking on more of some risks, decreasing others, and eliminating some altogether. Once the risk management team has estimated various risks, management may decide to prevent or avoid a risk, accept a risk, transfer a risk, or shift a risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to avoid a risk is to not engage in the activity with the uncertain outcome. If political risks in a country are to be avoided, simply not investing in securities of firms based in that country or not expanding a business enterprise to that country would avoid those risks. A decision to avoid certain risks typically would come from top management as a part of establishing the risk tolerance of the organization and would be instituted because the risks are judged to outweigh the potential benefits of specific activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some risks can be prevented. The risk of a data breach can be prevented with a greater level of security for the data and stronger processes. In this case, the benefits of reducing or eliminating the risk are judged to be greater than the cost of doing so."
+        },
+        {
+          "type": "paragraph",
+          "text": "For risks that management has decided to bear, the organization will seek to bear them efficiently. Diversification may offer a way to more efficiently bear a specific risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes the term self-insurance is used to describe a situation where an organization has decided to bear a risk. Note, however, that this simply means that it will bear any associated losses from this risk factor. It is possible that this represents inaction rather than the result of analysis and strategic decision-making. In some cases, the firm will establish a reserve account to cover losses as a way of mitigating the impact of losses on the organization."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a risk an organization has decided not to bear, risk transfer or risk shifting can be employed. With a risk transfer, another party takes on the risk. Insurance is a type of risk transfer. The risk of fire destroying a warehouse complex is shifted to an insurance company by buying an insurance policy and paying the policy premiums. Insurance companies diversify across many risks so the premiums of some insured parties pay the losses of others. Ideally, the various risks the insurance company insures are not highly correlated, as that can reduce or eliminate any diversification benefits. An insurance company with highly correlated risks (or a single very large risk) may itself shift some of the resulting risk by buying reinsurance from another company."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a surety bond, an insurance company has agreed to make a payment if a third party fails to perform under the terms of a contract or agreement with the organization. For example, a company may be exposed to losses if a key supplier does not deliver on time, slowing a project and resulting in penalty payments by the company. Insurers also issue fidelity bonds, which will pay for losses that result from employee theft or misconduct. Managements that purchase insurance, surety bonds, or fidelity bonds have determined that the benefits of risk reduction are greater than the cost of the insurance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk shifting is a way to change the distribution of possible outcomes and is accomplished primarily with derivative contracts. For example, financial firms that do not want to bear currency risk on some foreign currency denominated debt securities can use forward currency contracts, futures contracts, or swaps to reduce or eliminate that risk. A firm with a large position in a specific stock can buy put options that provide a minimum sale price for the securities, altering the distribution of possible outcomes (in this case providing a floor value for the securities). On the other hand, a firm could sell call options on a specific stock, altering the distribution of possible outcomes by giving up some of the upside potential of the stock but decreasing its downside risk by the amount of the premiums received from the sale of the call options."
+        },
+        {
+          "type": "heading",
+          "text": "Choosing Among Risk Modification Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organizations may use multiple methods of risk modification to reduce a single risk. The criterion is always a comparison of the costs and benefits of risk modification. Some risks may be mitigated by diversification, some shifted by insurance where it is available and economical, some shifted though the use of derivatives, and some simply borne or self-insured. The end result is a risk profile that matches the risk tolerance established for the organization and includes the risks that top management has determined match the goals of the organization in terms of cost versus potential returns."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "88.a",
+      "text": "How do we define risk management?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk management is the process of identifying and measuring the risks an organization (or portfolio manager or individual) faces, determining an acceptable level of overall risk (establishing risk tolerance), deciding which risks should be taken and which risks should be reduced or avoided, and putting the structure in place to maintain the bundle of risks that is expected to best achieve the goals of the organization."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.b",
+      "text": "What should we know about features of a risk management framework?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An overall risk management framework should address the following activities:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Identifying and measuring existing risks. Determining the organization’s overall risk tolerance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Establishing the processes and policies for risk governance. Managing and mitigating risks to achieve the optimal bundle of risks. Monitoring risk exposures over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Communicating across the organization. Performing strategic risk analysis."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.c",
+      "text": "How do we define risk governance and describe elements of effective risk governance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk governance refers to senior management’s determination of the risk tolerance of the organization, the elements of its optimal risk exposure strategy, and the framework for oversight of the risk management function."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.d",
+      "text": "How can we explain how risk tolerance affects risk management?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The risk tolerance for an organization is the overall amount of risk it will take in pursuing its goals and is determined by top management."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.e",
+      "text": "What should we know about risk budgeting and its role in risk governance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk budgeting is the process of allocating the total risk the firm will take (risk tolerance) to assets or investments by considering the risk characteristics of each and how they can be combined to best meet the organization’s goals. The budget can be a single risk measure or the sum of various risk factors."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.f",
+      "text": "How can we identify financial and non-financial sources of risk and describe how they may interact?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial risks are those that arise from exposure to financial markets, including credit risk, liquidity risk, and market risk. Non-financial risks are the risks from the operation of the organization and from sources external to the organization. Individuals face mortality and longevity risk, in addition to financial risks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interactions among risks are frequent and can be especially significant during periods of stress in financial markets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "88.g",
+      "text": "What should we know about methods for measuring and modifying risk exposures and factors to consider in choosing among the methods?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk of assets is measured by standard deviation, beta, or duration. Derivatives risk measures include delta, gamma, vega, and rho. Tail risk is measured with value at risk (VaR) or conditional VaR. Some risks must be measured subjectively."
+    },
+    {
+      "type": "paragraph",
+      "text": "An organization may decide to bear a risk (self-insurance), avoid or take steps to prevent a risk, efficiently manage a risk through diversification, transfer a risk with insurance or a surety bond, or shift a risk (change the distribution of uncertain outcomes) with derivatives."
+    },
+    {
+      "type": "paragraph",
+      "text": "Organizations may use multiple methods of risk modification after considering the costs and benefits of the various methods. The end result is a risk profile that matches the organization’s risk tolerance and includes the risks that top management has determined match the organization’s goals."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "88.a",
+      "statement": "Define risk management.",
+      "question": "How do we define risk management?"
+    },
+    {
+      "id": "88.b",
+      "statement": "Describe features of a risk management framework.",
+      "question": "What should we know about features of a risk management framework?"
+    },
+    {
+      "id": "88.c",
+      "statement": "Define risk governance and describe elements of effective risk governance.",
+      "question": "How do we define risk governance and describe elements of effective risk governance?"
+    },
+    {
+      "id": "88.d",
+      "statement": "Explain how risk tolerance affects risk management.",
+      "question": "How can we explain how risk tolerance affects risk management?"
+    },
+    {
+      "id": "88.e",
+      "statement": "Describe risk budgeting and its role in risk governance.",
+      "question": "What should we know about risk budgeting and its role in risk governance?"
+    },
+    {
+      "id": "88.f",
+      "statement": "Identify financial and non-financial sources of risk and describe how they may interact.",
+      "question": "How can we identify financial and non-financial sources of risk and describe how they may interact?"
+    },
+    {
+      "id": "88.g",
+      "statement": "Describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods.",
+      "question": "What should we know about methods for measuring and modifying risk exposures and factors to consider in choosing among the methods?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-88-quiz-1",
+      "title": "Knowledge check 88.1",
+      "moduleId": "88.1",
+      "questions": [
+        {
+          "id": "r88-q1",
+          "number": 1,
+          "objectiveIds": [
+            "88.a"
+          ],
+          "prompt": "An investor has the most control over her portfolio’s:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "risk."
+            },
+            {
+              "id": "B",
+              "text": "relative returns."
+            },
+            {
+              "id": "C",
+              "text": "risk-adjusted returns."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An investor can select securities to achieve a given level of portfolio risk. Returns cannot be controlled.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An investor can select securities to achieve a given level of portfolio risk. Returns"
+            },
+            {
+              "type": "paragraph",
+              "text": "cannot be controlled."
+            }
+          ]
+        },
+        {
+          "id": "r88-q2",
+          "number": 2,
+          "objectiveIds": [
+            "88.b"
+          ],
+          "prompt": "A risk management framework least likely includes:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "risk governance, risk mitigation, and strategic risk analysis."
+            },
+            {
+              "id": "B",
+              "text": "identifying and measuring risks, risk policies and processes, and risk governance."
+            },
+            {
+              "id": "C",
+              "text": "risk mitigation, tracking the organization’s risk profile, and establishing position limits."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A risk management framework includes the procedures, analytical tools, and infrastructure to conduct the risk governance process. It includes all of the items listed with the exception of establishing position limits, which is an example of the operational implementation of a system of risk management.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A risk management framework includes the procedures, analytical tools, and"
+            },
+            {
+              "type": "paragraph",
+              "text": "infrastructure to conduct the risk governance process. It includes all of the items listed with the exception of establishing position limits, which is an example of the operational implementation of a system of risk management."
+            }
+          ]
+        },
+        {
+          "id": "r88-q3",
+          "number": 3,
+          "objectiveIds": [
+            "88.c"
+          ],
+          "prompt": "Risk governance should most appropriately be addressed within an organization at the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "enterprise level."
+            },
+            {
+              "id": "B",
+              "text": "business unit level."
+            },
+            {
+              "id": "C",
+              "text": "individual employee level."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Risk governance should be approached from an enterprise view, with senior management determining risk tolerance and a risk management strategy on an organization-wide level.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Risk governance should be approached from an enterprise view, with senior"
+            },
+            {
+              "type": "paragraph",
+              "text": "management determining risk tolerance and a risk management strategy on an organization-wide level."
+            }
+          ]
+        },
+        {
+          "id": "r88-q4",
+          "number": 4,
+          "objectiveIds": [
+            "88.d"
+          ],
+          "prompt": "Effective risk management would most likely attempt to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "maximize expected return for a given level of risk."
+            },
+            {
+              "id": "B",
+              "text": "minimize risk for a given level of expected return."
+            },
+            {
+              "id": "C",
+              "text": "reduce any significant risks the firm is exposed to."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Risk management requires establishment of a risk tolerance (maximum acceptable level of risk) for the organization and will attempt to maximize expected returns for that level of risk. Some significant risks the firm is exposed to may be borne by the firm or even increased as a result of risk management.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Risk management requires establishment of a risk tolerance (maximum"
+            },
+            {
+              "type": "paragraph",
+              "text": "acceptable level of risk) for the organization and will attempt to maximize expected returns for that level of risk. Some significant risks the firm is exposed to may be borne by the firm or even increased as a result of risk management."
+            }
+          ]
+        },
+        {
+          "id": "r88-q5",
+          "number": 5,
+          "objectiveIds": [
+            "88.e"
+          ],
+          "prompt": "Risk budgeting can best be described as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "setting an annual limit on risk taken."
+            },
+            {
+              "id": "B",
+              "text": "selecting assets by their risk characteristics."
+            },
+            {
+              "id": "C",
+              "text": "establishing a maximum amount of risk to be taken."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Risk budgeting refers to selecting assets or securities by their risk characteristics up to the maximum allowable amount of risk. The maximum amount of risk to be taken is established through risk governance.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Risk budgeting refers to selecting assets or securities by their risk characteristics"
+            },
+            {
+              "type": "paragraph",
+              "text": "up to the maximum allowable amount of risk. The maximum amount of risk to be taken is established through risk governance."
+            }
+          ]
+        },
+        {
+          "id": "r88-q6",
+          "number": 6,
+          "objectiveIds": [
+            "88.f"
+          ],
+          "prompt": "Which of the following is most appropriately termed a financial risk?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Credit risk."
+            },
+            {
+              "id": "B",
+              "text": "Solvency risk."
+            },
+            {
+              "id": "C",
+              "text": "Settlement risk."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The main sources of financial risk are market risk, credit risk, and liquidity risk. Solvency risk and settlement risk are classified as non-financial risks.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The main sources of financial risk are market risk, credit risk, and liquidity risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Solvency risk and settlement risk are classified as non-financial risks."
+            }
+          ]
+        },
+        {
+          "id": "r88-q7",
+          "number": 7,
+          "objectiveIds": [
+            "88.g"
+          ],
+          "prompt": "Risk shifting is most likely achieved by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "risk mitigation."
+            },
+            {
+              "id": "B",
+              "text": "using derivative securities."
+            },
+            {
+              "id": "C",
+              "text": "transferring risk to an insurance company."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Risk shifting changes the distribution of possible outcomes, typically through the use of derivative securities. Risk shifting is one technique for mitigating risk. Transferring risk to an insurance company is termed risk transfer.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Risk shifting changes the distribution of possible outcomes, typically through the"
+            },
+            {
+              "type": "paragraph",
+              "text": "use of derivative securities. Risk shifting is one technique for mitigating risk. Transferring risk to an insurance company is termed risk transfer."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "readingId": 61,
+  "title": "Credit Analysis for Government Issuers",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "61.1",
+      "title": "Credit Analysis for Government Issuers",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "61.a",
+          "text": "How can we explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues?"
+        },
+        {
+          "type": "heading",
+          "text": "Sovereign Government Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ability of a sovereign debt issuer to service its debts comes primarily from its ability to tax economic activity in its jurisdiction. Assessing the credit risk of sovereign issuers requires an analyst to evaluate the factors that provide for stable economic growth with low inflation. These factors can generally be split into five qualitative factors and three quantitative factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following are five qualitative factors in sovereign creditworthiness:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Institutions and policy factors address whether a government encourages political"
+        },
+        {
+          "type": "paragraph",
+          "text": "and economic stability. Economically, this means enforcement of basic legal protections and property rights, a culture of debt repayment, transparency and consistency in data reporting, and policies that encourage business activity. Politically, this means a stable political system and peaceful coexistence with neighboring countries. The willingness of a government to repay debt is also important (unlike with corporate issues) because bondholders usually have no legal recourse if a government refuses to pay its debts (national governments are said to have sovereign immunity)."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Fiscal flexibility factors relate to the government’s ability to increase tax collection"
+        },
+        {
+          "type": "paragraph",
+          "text": "or decrease public spending to ensure debt service payments are made."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Monetary effectiveness factors relate to the ability of the central bank to vary the"
+        },
+        {
+          "type": "paragraph",
+          "text": "money supply and interest rates in a credible manner to encourage stable economic growth. A central bank that is independent from the government is less likely to print money to service government debts, reducing the risk of high inflation and currency weakness."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Economic flexibility factors relate to growth trends, income per capita, and diversity"
+        },
+        {
+          "type": "paragraph",
+          "text": "of sources for economic growth.\n5. External status factors relate to the standing of a country’s currency in international"
+        },
+        {
+          "type": "paragraph",
+          "text": "markets. Countries with reserve currencies, which are widely held as foreign exchange reserves at central banks across the world, have more ability to issue debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "to foreign investors in their domestic currency and maintain larger budget deficits and higher levels of debt. Geopolitical risks relating to international conflict are also a consideration."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following are three quantitative factors in sovereign creditworthiness:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Fiscal strength is measured by low debt burden ratios (debt to GDP and debt to"
+        },
+        {
+          "type": "paragraph",
+          "text": "revenue) and low interest-to-GDP or interest-to-revenue ratios (which measure debt affordability).\n2. Economic growth and stability is measured by high real GDP growth, large real"
+        },
+        {
+          "type": "paragraph",
+          "text": "economy size, high per-capita GDP, and low volatility of real GDP growth.\n3. External stability is measured by high foreign exchange reserves to GDP, high foreign"
+        },
+        {
+          "type": "paragraph",
+          "text": "exchange reserves to external debt, low long-term external debt to GDP, and low near-term external debt (due in the next 12 months) relative to GDP. Foreign exchange reserves are usually built up by a country that exports more than it imports (has a current account surplus). If exports are concentrated in a specific commodity, sovereign credit risk becomes aligned with the price of that commodity."
+        },
+        {
+          "type": "heading",
+          "text": "Non-Sovereign Government Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Issuers of non-sovereign government debt include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Agencies. These quasi-government entities are established to carry out a particular government-sponsored role, such as infrastructure development and operation. Backed by law, and with implicit government support, credit ratings for agency debt issues are usually similar to the relevant sovereign debt rating."
+        },
+        {
+          "type": "paragraph",
+          "text": "Government sector banks or financing institutions. These financial intermediaries are set up with a specific government-sponsored mission, such as issuing green bonds to raise finance for projects designed to mitigate climate change. Similar to agencies, implied government support means that credit ratings are similar to the sovereign entity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supranational issuers. Entities such as the World Bank and the Development Bank of Latin America are set up by groups of sovereign governments to carry out projects with varied missions, such as alleviating poverty or encouraging sustainable economic growth. Credit ratings for these issues depend on the implicit support of the governments and global development institutions that sponsor them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regional governments. These include provinces, states, and local governments (the debt issues of which are referred to as municipal bonds in the United States). Most regional government bonds can be classified as general obligation bonds or revenue bonds. General obligation (GO) bonds are unsecured bonds backed by the full faith and credit of the issuing non-sovereign government entity, which is to say they are supported by its taxing power. Revenue bonds are issued to finance specific projects, such as airports, toll bridges, hospitals, and power generation facilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike sovereigns, regional governments cannot use monetary policy to service their debt and usually must balance their operating budgets. Municipal governments’ ability to service their general obligation debt depends ultimately on the local"
+        },
+        {
+          "type": "paragraph",
+          "text": "economy (i.e., the tax base). Revenue bonds often have higher credit risk than GO bonds because the project is the sole source of funds to service the debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis of revenue bonds uses techniques similar to those for analyzing corporate bonds, with a focus on the cash flows generated by the project and the ability of the issuer to service their debt as measured by the debt-service coverage ratio (revenue after operating costs relative to interest and principal repayments required)."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "61.a",
+      "text": "How can we explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The five qualitative factors relevant for assessing sovereign debt are (1) government institutions and policy, (2) fiscal flexibility, (3) monetary effectiveness, (4) economic flexibility, and (5) external status."
+    },
+    {
+      "type": "paragraph",
+      "text": "The three quantitative factors relevant for assessing sovereign debt are (1) fiscal strength, (2) economic growth and stability, and (3) external stability."
+    },
+    {
+      "type": "paragraph",
+      "text": "Non-sovereign government debt issuers include agencies, government sector banks, supranational entities, and regional governments. Major types of regional government bonds include general obligation (GO) bonds, backed by tax-raising powers, and revenue bonds, issued to fund a specific project."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "61.a",
+      "statement": "Explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues.",
+      "question": "How can we explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-61-quiz-1",
+      "title": "Knowledge check 61.1",
+      "moduleId": "61.1",
+      "questions": [
+        {
+          "id": "r61-q1",
+          "number": 1,
+          "objectiveIds": [
+            "61.a"
+          ],
+          "prompt": "One key difference between sovereign bonds and municipal bonds is that sovereign issuers:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "can print money."
+            },
+            {
+              "id": "B",
+              "text": "have government taxing power."
+            },
+            {
+              "id": "C",
+              "text": "are affected by economic conditions."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Sovereign entities can print money to repay debt, while municipal borrowers cannot. Both sovereign and municipal entities have taxing powers, and both are affected by economic conditions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Sovereign entities can print money to repay debt, while municipal borrowers"
+            },
+            {
+              "type": "paragraph",
+              "text": "cannot. Both sovereign and municipal entities have taxing powers, and both are affected by economic conditions."
+            }
+          ]
+        },
+        {
+          "id": "r61-q2",
+          "number": 2,
+          "objectiveIds": [
+            "61.a"
+          ],
+          "prompt": "All else equal, a sovereign debt issuer with higher credit quality will most likely have a higher:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "debt burden ratio."
+            },
+            {
+              "id": "B",
+              "text": "debt affordability ratio."
+            },
+            {
+              "id": "C",
+              "text": "foreign exchange reserve ratio."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A foreign exchange reserve ratio looks at the level of foreign exchange reserves relative to external debt. A high ratio implies higher credit quality on an external stability basis. Debt burden ratios measure the level of sovereign debt relative to GDP or tax revenue. As such, a higher ratio indicates a more indebted nation and therefore lower credit quality due to less fiscal strength. Debt affordability ratios compare interest payments to GDP or revenue. When these ratios are high, this suggests lower credit quality on a fiscal strength basis.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A foreign exchange reserve ratio looks at the level of foreign exchange reserves"
+            },
+            {
+              "type": "paragraph",
+              "text": "relative to external debt. A high ratio implies higher credit quality on an external stability basis. Debt burden ratios measure the level of sovereign debt relative to GDP or tax revenue. As such, a higher ratio indicates a more indebted nation and therefore lower credit quality due to less fiscal strength. Debt affordability ratios compare interest payments to GDP or revenue. When these ratios are high, this suggests lower credit quality on a fiscal strength basis."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

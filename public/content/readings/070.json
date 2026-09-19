@@ -1,0 +1,384 @@
+{
+  "readingId": 70,
+  "title": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "70.1",
+      "title": "Forward Contract Valuation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "70.a",
+          "text": "How can we explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a forward contract that is initially priced at its no-arbitrage value of F0(T) ="
+        },
+        {
+          "type": "paragraph",
+          "text": "S0(1 + Rf)T. At initiation, the value of such a forward is: V0(T) = S0 – F0(T) (1 + Rf)−T = 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "At any time during its life, the value of the forward contract to the buyer will be Vt(T) ="
+        },
+        {
+          "type": "paragraph",
+          "text": "St – F0(T) (1 + Rf)−⁽T−t⁾. This is simply the current spot price of the asset minus the present value of the forward contract price."
+        },
+        {
+          "type": "paragraph",
+          "text": "This value can be realized by selling the asset short at St and investing F0(T) (1 + Rf)−"
+        },
+        {
+          "type": "paragraph",
+          "text": "(T−t) in a pure discount bond at Rf. These transactions end any exposure to the forward; at settlement, the proceeds of the bond will cover the cost of the asset at the forward price, and the asset can be delivered to cover the short position."
+        },
+        {
+          "type": "paragraph",
+          "text": "At expiration, time T, the value of a forward to the buyer is = ST – F0(T)(1 + Rf)−⁽T−T⁾ = ST – F0(T). The long buys an asset valued at ST for the forward contract price of F0(T), gaining if ST > F0(T), losing if ST < F0(T). If the forward buyer has a gain, the forward seller has an equal loss, and vice versa."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the more general case, when there are costs and benefits of holding the underlying asset, the value of a forward to the buyer at time = t < T is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vt(T) = [St+ PVt (costs) – PVt(benefit)] – F0(T) (1 + Rf)−⁽T−t⁾"
+        },
+        {
+          "type": "question",
+          "objectiveId": "70.b",
+          "text": "How can we explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forward rates are yields for future periods. The rate of interest on a 1-year loan to be made two years from today is a forward rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The notation for forward rates must identify both the length of the loan period and how far in the future the money will be loaned (or borrowed). 1y1y or F1,1 is the rate for a 1-year loan one year from now; 2y1y or F2,1 is the rate for a 1-year loan to be made two years from now; the 2-year forward rate three years from today is 3y2y or F3,2; and so on."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 70.1: Forward Rates"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/6c280119591a1c902e62.png",
+          "alt": "Equation, table, or diagram: Figure 70.1: Forward Rates",
+          "width": 494,
+          "height": 116,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For money market rates the notation is similar, with 3m6m denoting a 6-month rate three months in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that spot rates are zero-coupon rates. We will denote the YTM (with annual compounding) on a zero-coupon bond maturing in n years as Zn."
+        },
+        {
+          "type": "paragraph",
+          "text": "An implied forward rate is the forward rate for which the following two strategies have the same yield over the total period:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investing from t = 0 to the forward date, and rolling over the proceeds for the period of the forward. Investing from t = 0 until the end of the forward period."
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example, lending for two years at Z2 would produce the same ending value as lending for one year at Z1 and, at t = 1, lending the proceeds of that loan for one year at"
+        },
+        {
+          "type": "paragraph",
+          "text": "F1,1. That is, (1 + Z2)² = (1 + Z1)(1 + F1,1). When this condition holds, F1,1 is the implied (no-arbitrage) forward rate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Implied forward rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two zero-coupon bonds, one that matures in two years and one that matures in three years, when Z2 = 2% and Z3 = 3%. Calculate the implied 1-year forward rate two years from now, F2,1."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "As illustrated in Figure 70.2, lending for three years at Z3 should be equivalent to lending for two years at Z2 and then for the third year at F2,1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 70.2: Implied Forward Rate"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/17e494178314731d85e6.png",
+          "alt": "Equation, table, or diagram: Figure 70.2: Implied Forward Rate",
+          "width": 248,
+          "height": 117,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lending $100 for two years at Z2 (2%) results in a payment of $100(1.02)² = $104.04 at t = 2, while lending $100 for three years at Z3 (3%) results in a payment of"
+        },
+        {
+          "type": "paragraph",
+          "text": "$100(1.03)³ = $109.27. The forward interest rate F2,1 must be 109.27/104.04 – 1 = 5.03%, the implied forward rate from t = 2 to t = 3."
+        },
+        {
+          "type": "paragraph",
+          "text": "An example of an interest rate derivative is a forward rate agreement (FRA). An FRA is a method for locking in an interest rate today for a loan that will begin in the future. Typically, a borrower cannot lock in a future interest rate directly with a lender, but with an FRA they can achieve the same result."
+        },
+        {
+          "type": "paragraph",
+          "text": "In an FRA, a “long” counterparty (the FRA buyer) will pay a fixed rate (the forward rate in the contract) on a notional amount of principal at a future date, and a “short” counterparty (the FRA seller) will pay the MRR at that date on the same amount of notional principal. In practice, only the net amount is exchanged."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 3-month forward on a 6-month MRR (F3m6m) with a notional principal of $1 million and a fixed rate of 1%. At settlement in three months, the buyer receives or pays the present value of (realized 6-month MRR – 1%) / 2 × $1 million. If the MRR is greater than 1%, the FRA buyer receives a net payment, which will offset the higher interest cost of the loan. If the MRR is less than 1%, the FRA buyer makes a net payment, but it will be offset by the lower interest cost of the loan."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We use simple division because these are money market rates, which use 30-day months and are annualized to 360-day years. We take the present value of the interest difference because the settlement payment is at the beginning of the 6-month period, but the interest savings come at the end of the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 70.3 illustrates the time line for this FRA."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 70.3: 3-Month Forward on a 6-Month Market Reference Rate"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/166332d92fa56b78f1dd.png",
+          "alt": "Equation, table, or diagram: Figure 70.3: 3-Month Forward on a 6-Month Market Reference Rate",
+          "width": 496,
+          "height": 255,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Calculating Implied Forward Money Market Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that the current 3-month MRR is 1.0% and 9-month MRR is 1.2%. Adjusting for periodicity, the no-arbitrage condition for the value of F3m6m is:"
+        },
+        {
+          "type": "math",
+          "latex": "1+0.012 \\! \\left( \\! {\\frac{9} {12}} \\! \\right) \\!=\\! \\left[ 1+0.01 \\! \\left( {\\frac{3} {12}} \\right) \\! \\right] \\! \\left[ 1+\\operatorname{F}_{3 \\mathrm{m} , 6 \\mathrm{m}} \\! \\left( {\\frac{6} {12}} \\right) \\right] \\! ]",
+          "display": true,
+          "sourceAsset": "ee220812fb982a0026de.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The implied forward rate, F3m6m, as an annualized rate, is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{F}_{\\mathrm{3m,6m}} \\!=\\! \\left[ {\\frac{1+0.012 \\! \\left( {\\frac{9} {12}} \\right)} {1+0.01 \\! \\left( {\\frac{3} {12}} \\right)}}-1 \\right] \\! \\times{\\frac{12} {6}} \\!=0.013",
+          "display": true,
+          "sourceAsset": "96ae28c441d7c7ad1bae.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now let’s examine the payoff to the fixed-rate payer in an F3m6m FRA with a notional principal of $1 million when the 6-month MRR three months from now is 1.5%. Because the realized 6-month MRR is greater than the forward rate, the fixed-rate payer (floating-rate receiver) will have a gain."
+        },
+        {
+          "type": "paragraph",
+          "text": "The payment to the fixed-rate payer is the present value (discounted at 6-month MRR) of the interest differential between two 6-month loans, one at 1.3% and one at 1.5% (both annualized rates). The fixed-rate payer in the FRA receives:"
+        },
+        {
+          "type": "math",
+          "latex": "\\$1 \\mathrm{~million~} \\times\\Big( \\frac{0.015-0.013} {2} \\Big) \\Big( \\frac{1} {1+( 0.015 / 2 )} \\Big)=\\$992.56",
+          "display": true,
+          "sourceAsset": "0c433007a74925330b59.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "FRAs are used primarily by financial institutions to manage the volatility of their interest-sensitive assets and liabilities. FRAs are also the building blocks of interest rate swaps over multiple periods. An FRA is equivalent to a single-period swap. Multiple-period swaps are used primarily by investors and issuers to manage interest rate risk."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "70.a",
+      "text": "How can we explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The value of a forward contract at initiation is zero."
+    },
+    {
+      "type": "paragraph",
+      "text": "During its life, the value of a forward contract to the buyer is the spot price of the asset minus the present value of the forward contract price, and the value to the seller is the present value of the forward contract price minus the spot price of the asset."
+    },
+    {
+      "type": "paragraph",
+      "text": "At expiration, the value of a forward contract to the buyer is the spot price of the asset minus the forward contract price, and the value to the seller is the forward contract price minus the spot price of the asset."
+    },
+    {
+      "type": "question",
+      "objectiveId": "70.b",
+      "text": "How can we explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An implied forward rate is the forward rate for which the following two strategies have the same yield over the total period:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investing from t = 0 to the forward date, and rolling over the proceeds for the period of the forward."
+    },
+    {
+      "type": "paragraph",
+      "text": "Investing from t = 0 until the end of the forward period."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a forward rate agreement (FRA), the fixed-rate payer (long) will pay the forward rate on a notional amount of principal at a future date, and the floating-rate payer will pay a future reference rate times that same amount of principal. FRAs are used primarily by financial institutions to manage the volatility of their interest-sensitive assets and liabilities."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "70.a",
+      "statement": "Explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration.",
+      "question": "How can we explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration?"
+    },
+    {
+      "id": "70.b",
+      "statement": "Explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates.",
+      "question": "How can we explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-70-quiz-1",
+      "title": "Knowledge check 70.1",
+      "moduleId": "70.1",
+      "questions": [
+        {
+          "id": "r70-q1",
+          "number": 1,
+          "objectiveIds": [
+            "70.a"
+          ],
+          "prompt": "Two parties agree to a forward contract to exchange 100 shares of a stock one year from now for $72 per share. Immediately after they initiate the contract, the price of the underlying stock increases to $74 per share. This share price increase represents a gain for:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the buyer."
+            },
+            {
+              "id": "B",
+              "text": "the seller."
+            },
+            {
+              "id": "C",
+              "text": "neither the buyer nor the seller."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "If the value of the underlying is greater than the forward price, this increases the value of the forward contract, which represents a gain for the buyer and a loss for the seller.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the value of the underlying is greater than the forward price, this increases the"
+            },
+            {
+              "type": "paragraph",
+              "text": "value of the forward contract, which represents a gain for the buyer and a loss for the seller."
+            }
+          ]
+        },
+        {
+          "id": "r70-q2",
+          "number": 2,
+          "objectiveIds": [
+            "70.b"
+          ],
+          "prompt": "The forward rate 2y3y represents the interest rate on a loan period that begins:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "2 years from now and ends 3 years from now."
+            },
+            {
+              "id": "B",
+              "text": "2 years from now and ends 5 years from now."
+            },
+            {
+              "id": "C",
+              "text": "3 years from now and ends 5 years from now."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "2y3y is the 2-year forward 3-year rate, covering a period that begins two years from now and extends for three years after that.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "2y3y is the 2-year forward 3-year rate, covering a period that begins two years"
+            },
+            {
+              "type": "paragraph",
+              "text": "from now and extends for three years after that."
+            }
+          ]
+        },
+        {
+          "id": "r70-q3",
+          "number": 3,
+          "objectiveIds": [
+            "70.b"
+          ],
+          "prompt": "Given zero-coupon bond yields for 1, 2, and 3 years, an analyst can least likely derive an implied:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "1-year forward 1-year rate."
+            },
+            {
+              "id": "B",
+              "text": "2-year forward 1-year rate."
+            },
+            {
+              "id": "C",
+              "text": "2-year forward 2-year rate."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The forward rate F2,2 extends four years into the future and cannot be derived using zero-coupon yields that only extend three years. From zero-coupon bond yields for 1, 2, and 3 years, we can derive implied forward rates F1,1, F1,2, and F2,1.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The forward rate F2,2 extends four years into the future and cannot be derived"
+            },
+            {
+              "type": "paragraph",
+              "text": "using zero-coupon yields that only extend three years. From zero-coupon bond yields for 1, 2, and 3 years, we can derive implied forward rates F1,1, F1,2, and F2,1."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

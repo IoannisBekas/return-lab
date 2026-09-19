@@ -1,0 +1,455 @@
+{
+  "readingId": 79,
+  "title": "Real Estate and Infrastructure",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "79.1",
+      "title": "Real Estate",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "79.a",
+          "text": "How can we explain features and characteristics of real estate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Real estate can provide income in the form of rent, as well as the potential for price appreciation. Investment in real estate can be made directly in properties or indirectly through limited partnerships and publicly traded securities. The types of real estate we will discuss here include single-family residential and commercial. The four largest subcategories of commercial real estate are office buildings, shopping, industrial/warehouse/distribution, and rental residential (single-family detached and multifamily apartment)."
+        },
+        {
+          "type": "paragraph",
+          "text": "As shown in Figure 79.1, real estate investment can be described in terms of a quadrant. In the first (vertical) dimension, investment is differentiated between public and private real estate."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the private market, ownership usually involves direct investment, such as purchasing property or lending money to a purchaser. Direct investments can be solely owned or indirectly owned through partnerships, where the general partner (GP) provides property management services and limited partners (LPs) are investors (e.g., pension plans). The public market does not involve direct investment. Rather, ownership involves securities that serve as claims on the underlying assets. Public real estate investment includes ownership of real estate investment trust (REIT) shares, equity in a real estate company, exchange-traded funds (ETFs), residential mortgage-backed securities (MBSs), commercial mortgage-backed securities (CMBSs), mortgage REITs, and mortgage ETFs."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 79.1: Basic Forms of Real Estate Investments¹"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/489b2d67b13bcdea028c.png",
+          "alt": "Equation, table, or diagram: Figure 79.1: Basic Forms of Real Estate Investments¹",
+          "width": 519,
+          "height": 302,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The second (horizontal) dimension describes whether a real estate investment is in debt or equity."
+        },
+        {
+          "type": "paragraph",
+          "text": "An equity investor has an ownership interest in real estate or securities of an entity that owns real estate. Equity investors control decisions such as borrowing money, property management, and the exit strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "A debt investor is a lender that owns a mortgage or mortgage-backed securities. A mortgage is collateralized (secured) by the underlying real estate. The lender has a higher priority claim than an equity investor in the event of default. Because the lender must be repaid first, the value of an equity investor’s interest is equal to the value of the property less the value of outstanding debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of the basic forms has its own risk, expected returns, regulations, legal issues, and market structure. Private real estate investments are usually larger than public investments because real estate is indivisible and illiquid. With public real estate investments, the investors can divide ownership without having to divide the property. As a result, public real estate investments are liquid and enable investors to diversify by participating in more properties."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private real estate investment requires property management expertise on the part of the owner. In the case of publicly traded securities or private limited partnerships, the real estate is professionally managed."
+        },
+        {
+          "type": "heading",
+          "text": "Direct Real Estate Investment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Direct investment involves purchasing and financing a real estate investment. Benefits of direct investment include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Control. The owner can decide on what to purchase, how to finance it, what improvements to make, to which segment of tenants to market the property, and when to sell."
+        },
+        {
+          "type": "paragraph",
+          "text": "Diversification. Real estate returns are less than perfectly correlated with the returns of stocks and bonds. Thus, adding private real estate investment to a portfolio can reduce risk relative to the expected portfolio return. Tax benefits. Real estate can provide deductions for noncash depreciation (even as properties typically appreciate) as well as interest expense."
+        },
+        {
+          "type": "paragraph",
+          "text": "Drawbacks of direct real estate investment include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Illiquidity and price opacity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Complexity of managing property Need for specialized knowledge about current market conditions High initial investment/capital needed"
+        },
+        {
+          "type": "paragraph",
+          "text": "Concentration risk if a portfolio has one or few properties"
+        },
+        {
+          "type": "heading",
+          "text": "Indirect Real Estate Investment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indirect investments in real estate can be through limited partnerships, joint ventures, or publicly traded securities. REITs are a popular form of investment for income-producing real estate as they are exempt from double taxation. REITs are exchange traded, and therefore (unlike mutual funds) they do not face redemption/liquidation risk. REITs have managers with the specialized knowledge necessary to invest in properties successfully. REITs report GAAP metrics such as earnings per share (EPS). Some REITs also provide non-GAAP metrics such as net asset value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Types of REITs include equity REITs, which invest in real estate directly or via partnerships; mortgage REITs, which lend money for real estate or invest in MBSs/CMBSs; or hybrid REITS that invest in both real estate and mortgages."
+        },
+        {
+          "type": "paragraph",
+          "text": "REITs that pursue core real estate strategies invest in high-quality commercial and residential properties that deliver stable returns. These REITs typically have open-end structures with indefinite lives. Like open-end mutual funds, this structure gives investors the opportunity to invest or redeem at any time."
+        },
+        {
+          "type": "paragraph",
+          "text": "REITs with riskier investment strategies are most often structured as closed-end funds with finite lives. These strategies include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Core-plus real estate strategies, which accept a bit more risk than core strategies by undertaking modest development and redevelopment. Value-add real estate strategies, which undertake development and redevelopment on a somewhat larger scale than core-plus strategies. Opportunistic real estate strategies, which pursue large-scale redevelopment and repurposing of assets, invest in distressed properties, or speculate on upturns in real estate markets."
+        },
+        {
+          "type": "question",
+          "objectiveId": "79.b",
+          "text": "How can we explain the investment characteristics of real estate investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Among real estate investments, first mortgages or investment-grade CMBSs are the least risky and are similar to investing in bonds. Core strategies are the next-least risky and also have bond-like characteristics, in that they receive stable rental income from"
+        },
+        {
+          "type": "paragraph",
+          "text": "many lessors (i.e., a diversified income pool). Value-add and opportunistic strategies are the most risky and are more equity-like in their risk-and-return characteristics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because REITs invest in many properties, they provide diversification benefits in addition to liquidity of a publicly traded security. However, the correlation of REIT returns with equity returns is higher than that for direct investment, and correlations increase during steep market downturns. Even so, real estate investments do improve the risk-return profile of a portfolio relative to one comprising only traditional asset classes."
+        }
+      ]
+    },
+    {
+      "id": "79.2",
+      "title": "Infrastructure",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "79.c",
+          "text": "How can we explain features and characteristics of infrastructure?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Infrastructure investments include transportation assets (e.g., roads, airports, ports, railways), utility assets (e.g., gas distribution facilities, electric generation and distribution facilities, and waste disposal and treatment facilities), information and communication technology (e.g., telecom towers and cable systems), and social infrastructure (e.g., prisons, schools, and health care facilities)."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to invest in infrastructure is to construct the assets and either sell or lease them to the government or operate them directly. Alternatively, an investor might buy existing assets from a government to lease back or operate. Infrastructure investments can also be made by a public-private partnership."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash flows generated from infrastructure investments include availability payments for making the infrastructure available, usage-based payments such as highway tolls, and take-or-pay arrangements that require the buyer to pay minimum purchase price for an agreed-upon volume."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investments in infrastructure assets that are to be constructed are referred to as greenfield investments. Greenfield investments typically follow a life cycle known as build-operate-transfer (BOT), with cash outflows during the building phase, increasing cash inflows as the private investor begins operating the facility, and finally a transfer of the facility to a government entity or a third party."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investments to expand or privatize an existing infrastructure asset are known as brownfield investments. An example of a brownfield investment is a sale-leaseback"
+        },
+        {
+          "type": "paragraph",
+          "text": "arrangement whereby the asset is purchased from and leased back to the government. Investments in fully operational facilities that do not need any further development are called secondary-stage investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Infrastructure assets typically have a long life and are quite large in cost and scale, so direct investment in them has low liquidity. However, more liquid investments backed by infrastructure assets are available through ETFs, mutual funds, private equity funds, or master limited partnerships (MLPs). Publicly traded vehicles for investing in infrastructure are a small part of the overall universe of infrastructure investments and are relatively concentrated in a few categories of assets. Debt issued to fund infrastructure can be privately placed or publicly traded."
+        },
+        {
+          "type": "question",
+          "objectiveId": "79.d",
+          "text": "How can we explain the investment characteristics of infrastructure investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, investing in brownfield investments provides stable cash flows and relatively high current yields, but offers little potential for growth. Secondary-stage brownfield investments (e.g., existing toll roads and hospitals) are the least risky and offer the lowest return. Greenfield investments (e.g., new toll roads, renewable energy facilities) are subject to more uncertainty and may provide relatively lower yields in the near term, but offer greater growth potential. Infrastructure projects that rely on revenues from uncertain future demand tend to be the riskiest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because of long-term contracts and barriers to entry, cash flows from equity investment in infrastructure are stable and have low correlation with public equities. Infrastructure debt also tends to be safer and less affected by economic cycles. Greenfield investments in developing economies, while risky, have generated attractive returns over the long term as they benefit from increasing per-capita incomes and wealth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investing in infrastructure assets can provide diversification benefits, but investors should be aware that these investments are often subject to regulatory risk, risk from financial leverage, and the possibility that cash flows will be less than expected. Projects that involve building infrastructure assets have construction risk. When the assets are operated by a private owner, operational risk must also be considered."
+        },
+        {
+          "type": "paragraph",
+          "text": "Infrastructure investments tend to be most suitable for long-term institutional investors such as pension plans, life insurance companies, and sovereign wealth funds."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "79.a",
+      "text": "How can we explain features and characteristics of real estate?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Equity or debt investments in real estate can be direct or indirect. Advantages of direct (equity) investment include more operational control, higher tax savings, and diversification to reduce portfolio risk. Drawbacks of direct real estate investment include illiquidity, operational complexity, a need for specialized knowledge, high initial investment, and concentration risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Publicly traded securities such as REITs offer liquidity, professional management, exposure to a diversified pool of real estate, and exemption from double taxation. REITs following core strategies invest in high-quality commercial property. Core-plus strategies involve higher risk as they entail some redevelopment of the properties acquired. Value-add strategies take even more risk as they seek to undertake major redevelopment. Opportunistic strategies have the highest risk."
+    },
+    {
+      "type": "question",
+      "objectiveId": "79.b",
+      "text": "How can we explain the investment characteristics of real estate investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Real estate investments with bond-like risk-and-return characteristics include senior debt (the least risky) and core strategies. Real estate investments with equity-like characteristics include core-plus, value-add, and opportunistic strategies."
+    },
+    {
+      "type": "question",
+      "objectiveId": "79.c",
+      "text": "How can we explain features and characteristics of infrastructure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Infrastructure investments include transportation assets, utility assets, information and communication technology, and social infrastructure."
+    },
+    {
+      "type": "paragraph",
+      "text": "Brownfield investments are already constructed infrastructure facilities, while greenfield investments are yet to be constructed. Fully operational facilities that generate stable cash flows are called secondary-stage brownfield investments."
+    },
+    {
+      "type": "question",
+      "objectiveId": "79.d",
+      "text": "How can we explain the investment characteristics of infrastructure investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brownfield investments are less risky than greenfield investments. Demand-based infrastructure projects tend to be the riskiest. Equity investment in infrastructure has a low correlation with public equities, while debt tends to be safer and less affected by economic cycles."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "79.a",
+      "statement": "Explain features and characteristics of real estate.",
+      "question": "How can we explain features and characteristics of real estate?"
+    },
+    {
+      "id": "79.b",
+      "statement": "Explain the investment characteristics of real estate investments.",
+      "question": "How can we explain the investment characteristics of real estate investments?"
+    },
+    {
+      "id": "79.c",
+      "statement": "Explain features and characteristics of infrastructure.",
+      "question": "How can we explain features and characteristics of infrastructure?"
+    },
+    {
+      "id": "79.d",
+      "statement": "Explain the investment characteristics of infrastructure investments.",
+      "question": "How can we explain the investment characteristics of infrastructure investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-79-quiz-1",
+      "title": "Knowledge check 79.1",
+      "moduleId": "79.1",
+      "questions": [
+        {
+          "id": "r79-q1",
+          "number": 1,
+          "objectiveIds": [
+            "79.a"
+          ],
+          "prompt": "Which of the following is most likely an advantage of direct real estate investment as compared to investing in a REIT?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Diversification within the asset class."
+            },
+            {
+              "id": "B",
+              "text": "Higher liquidity."
+            },
+            {
+              "id": "C",
+              "text": "Greater control."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Direct investments tend to have lower diversification within the asset class (concentration risk), lower liquidity, but greater control (deciding on which property to invest/develop/sell) relative to investment in REITs.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Direct investments tend to have lower diversification within the asset class"
+            },
+            {
+              "type": "paragraph",
+              "text": "(concentration risk), lower liquidity, but greater control (deciding on which property to invest/develop/sell) relative to investment in REITs."
+            }
+          ]
+        },
+        {
+          "id": "r79-q2",
+          "number": 2,
+          "objectiveIds": [
+            "79.b"
+          ],
+          "prompt": "Which of the following real estate investment strategies is less risky than a core real estate strategy?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "First mortgage debt."
+            },
+            {
+              "id": "B",
+              "text": "Core-plus strategies."
+            },
+            {
+              "id": "C",
+              "text": "Opportunistic strategies."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The risk levels (lowest to highest) are senior debt, core strategies, core-plus strategies, value-add strategies, and opportunistic strategies.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The risk levels (lowest to highest) are senior debt, core strategies, core-plus"
+            },
+            {
+              "type": "paragraph",
+              "text": "strategies, value-add strategies, and opportunistic strategies."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-79-quiz-2",
+      "title": "Knowledge check 79.2",
+      "moduleId": "79.2",
+      "questions": [
+        {
+          "id": "r79-q3",
+          "number": 1,
+          "objectiveIds": [
+            "79.c"
+          ],
+          "prompt": "Which of the following infrastructure investments provides the greatest degree of certainty about cash flows?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Secondary-stage investments."
+            },
+            {
+              "id": "B",
+              "text": "Sale and leaseback arrangements."
+            },
+            {
+              "id": "C",
+              "text": "Greenfield investments."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Secondary-stage investments are brownfield investments that are fully operational, do not require further investment, and generate predictable periodic cash flows. Other brownfield investments, such as the privatization of public assets or sale and leaseback arrangements, may have a short operating history and uncertainty of cash flows. Greenfield investments tend to be the most risky, requiring development of new assets with uncertain cash flows.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Secondary-stage investments are brownfield investments that are fully"
+            },
+            {
+              "type": "paragraph",
+              "text": "operational, do not require further investment, and generate predictable periodic cash flows. Other brownfield investments, such as the privatization of public assets or sale and leaseback arrangements, may have a short operating history and uncertainty of cash flows. Greenfield investments tend to be the most risky, requiring development of new assets with uncertain cash flows."
+            }
+          ]
+        },
+        {
+          "id": "r79-q4",
+          "number": 2,
+          "objectiveIds": [
+            "79.c"
+          ],
+          "prompt": "Which of the following is best characterized as a direct investment in infrastructure?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Infrastructure exchange-traded fund."
+            },
+            {
+              "id": "B",
+              "text": "Master limited partnership."
+            },
+            {
+              "id": "C",
+              "text": "First mortgage on a toll road."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A first mortgage on a toll road is a direct debt investment in infrastructure. The other choices are indirect investments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A first mortgage on a toll road is a direct debt investment in infrastructure. The"
+            },
+            {
+              "type": "paragraph",
+              "text": "other choices are indirect investments."
+            }
+          ]
+        },
+        {
+          "id": "r79-q5",
+          "number": 3,
+          "objectiveIds": [
+            "79.d"
+          ],
+          "prompt": "Which of the following infrastructure projects is most likely to offer the highest expected return?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "First-lien mortgage on an existing toll road."
+            },
+            {
+              "id": "B",
+              "text": "Equity investment in a new airport in a developed country."
+            },
+            {
+              "id": "C",
+              "text": "Equity investment in a new passenger rail line in a developing country."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Projects that are most risky would generally have the highest expected returns. A new rail line in a developing country is a greenfield investment. Greenfield investments in developing economies, while risky, have generated attractive returns over the long term as per-capita incomes and wealth increase. An existing toll road is a brownfield investment, the debt of which is likely to be less risky and therefore offer a lower expected return. A greenfield investment in a developed country would most likely be in the middle of risk and return profile of the other two choices.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Projects that are most risky would generally have the highest expected returns. A"
+            },
+            {
+              "type": "paragraph",
+              "text": "new rail line in a developing country is a greenfield investment. Greenfield investments in developing economies, while risky, have generated attractive returns over the long term as per-capita incomes and wealth increase. An existing toll road is a brownfield investment, the debt of which is likely to be less risky and therefore offer a lower expected return. A greenfield investment in a developed country would most likely be in the middle of risk and return profile of the other two choices."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

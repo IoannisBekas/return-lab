@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  goldDecisionLessonsByReading,
   goldDecisionLessonDetails,
   type AssessmentItem,
   type DecisionLessonDetail,
@@ -13,6 +12,7 @@ import {
   type GoldLesson as GoldQuantLesson,
 } from "../../data/goldQuantLessons";
 import sourceManifestData from "../../data/sourceManifest.json";
+import objectiveQuestionsData from "../../data/objectiveQuestions.json";
 import type {
   DeepAssessment,
   DeepLesson,
@@ -38,18 +38,14 @@ const decisionLessonsByReading = new Map<number, DecisionLessonDetail>(
 );
 
 type SourceManifestEntry = {
-  moduleId: string;
   readingId: number;
-  readingTitle: string;
-  moduleTitle: string;
-  source: { book: number; pdfPage: number; heading: string };
   objectives: { id: string; sourceStatement: string }[];
-  status: string;
 };
 
 type DeepDataModule = Record<string, DeepLesson[]>;
 
 const sourceManifest = sourceManifestData as SourceManifestEntry[];
+const objectiveQuestions = new Map((objectiveQuestionsData as { id: string; question: string }[]).map((item) => [item.id, item.question]));
 const deepDataLoaders = import.meta.glob<DeepDataModule>("../../data/deep/*.ts");
 
 function deepDataPath(readingId: number) {
@@ -116,34 +112,6 @@ function visualFor(readingId: number) {
   if ([84, 86, 88].includes(readingId)) return <EfficientFrontier />;
   if ([89, 90, 92, 93].includes(readingId)) return <EthicsDecisionFlow />;
   return null;
-}
-
-function SourceRefs({ lesson }: { lesson: GoldQuantLesson | DecisionLessonDetail }) {
-  return (
-    <details className="gold-sources">
-      <summary>Source map and verification scope</summary>
-      <ul>
-        {lesson.sourceRefs.map((source, index) => (
-          <li key={`${source.book}-${index}`}>
-            {"pdfPage" in source ? (
-              <>
-                <strong>Book {source.book}, PDF page {source.pdfPage}</strong>
-                <span>{source.heading}</span>
-              </>
-            ) : (
-              <>
-                <strong>Book {source.book}: {source.locator}</strong>
-                <span>Outcomes {source.outcomeIds.join(", ")} · modules {source.moduleIds.join(", ")}</span>
-              </>
-            )}
-          </li>
-        ))}
-      </ul>
-      <p>
-        Source pages were used to verify concepts, notation, and scope. The teaching copy, examples, visuals, and questions on this page are original.
-      </p>
-    </details>
-  );
 }
 
 function QuantFormulaCard({ formula }: { formula: GoldFormula }) {
@@ -269,7 +237,7 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
         const promptId = `${item.id}-prompt`;
         return (
           <article className="gold-question" key={item.id}>
-            <p className="gold-question-meta">OBJECTIVE {item.objective}{item.skill ? ` · ${item.skill.toUpperCase()}` : ""}</p>
+            <p className="gold-question-meta">QUESTION {itemIndex + 1}{item.skill ? ` · ${item.skill.toUpperCase()}` : ""}</p>
             <h3 id={promptId}><span>{itemIndex + 1}</span>{item.prompt}</h3>
             <div aria-labelledby={promptId} className="gold-options" role="radiogroup">
               {item.options.map((option) => (
@@ -345,14 +313,13 @@ function QuantLesson({ lesson }: { lesson: GoldQuantLesson }) {
   return (
     <section className="gold-lesson" id="deep-dive">
       <header className="gold-intro">
-        <div><span className="gold-badge">SOURCE-VERIFIED DEEP LESSON</span><h2>{lesson.title}</h2></div>
-        <p>Every objective below is connected to explanation, formal notation, assumptions, a worked application, misconceptions, and assessment.</p>
+        <div><span className="gold-badge">GUIDED EXAMPLES AND PRACTICE</span><h2>{lesson.title}</h2></div>
+        <p>Learn the concepts and notation, follow the worked examples, and check your understanding with guided practice.</p>
       </header>
       <section className="gold-objectives">
-        <span className="section-code">YOU WILL BE ABLE TO</span>
-        <ol>{lesson.objectives.map((objective) => <li key={objective.id}><strong>{objective.id}</strong><span>{objective.description}</span></li>)}</ol>
+        <span className="section-code">QUESTIONS THIS LESSON ANSWERS</span>
+        <ol>{lesson.objectives.map((objective) => <li key={objective.id}><span>{objectiveQuestions.get(objective.id) || objective.description}</span></li>)}</ol>
       </section>
-      <SourceRefs lesson={lesson} />
       <div className="gold-explanations">
         {lesson.sections.map((section, index) => <article key={section.heading}><span>{String(index + 1).padStart(2, "0")}</span><div><h3>{section.heading}</h3>{section.body.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div></article>)}
       </div>
@@ -375,15 +342,13 @@ function Misconceptions({ items }: { items: { claim: string; correction: string;
 }
 
 function DecisionLesson({ lesson }: { lesson: DecisionLessonDetail }) {
-  const sourceMappedLesson = goldDecisionLessonsByReading.get(lesson.readingId);
   return (
     <section className="gold-lesson" id="deep-dive">
       <header className="gold-intro">
-        <div><span className="gold-badge">SOURCE-VERIFIED DEEP LESSON</span><h2>{lesson.title}</h2></div>
+        <div><span className="gold-badge">GUIDED EXAMPLES AND PRACTICE</span><h2>{lesson.title}</h2></div>
         <p>Use the frameworks to separate facts, classifications, judgments, and effects before choosing an answer.</p>
       </header>
-      <section className="gold-objectives"><span className="section-code">YOU WILL BE ABLE TO</span><ol>{lesson.objectives.map((objective) => <li key={objective.id}><strong>{objective.id}</strong><span>{objective.text}</span></li>)}</ol></section>
-      {sourceMappedLesson ? <SourceRefs lesson={sourceMappedLesson} /> : null}
+      <section className="gold-objectives"><span className="section-code">QUESTIONS THIS LESSON ANSWERS</span><ol>{lesson.objectives.map((objective) => <li key={objective.id}><span>{objectiveQuestions.get(objective.id) || objective.text}</span></li>)}</ol></section>
       <div className="gold-explanations">
         {lesson.explanatorySections.map((section) => (
           <article id={`deep-module-${section.moduleId}`} key={section.moduleId}>
@@ -413,25 +378,6 @@ function DecisionLesson({ lesson }: { lesson: DecisionLessonDetail }) {
 
 function CaseList({ title, items }: { title: string; items: string[] }) {
   return <section><strong>{title}</strong><ol>{items.map((item) => <li key={item}>{item}</li>)}</ol></section>;
-}
-
-function UniversalSourceScope({ entries }: { entries: SourceManifestEntry[] }) {
-  return (
-    <details className="gold-sources">
-      <summary>Source map and verification scope</summary>
-      <ul>
-        {entries.map((entry) => (
-          <li key={entry.moduleId}>
-            <strong>Book {entry.source.book}, PDF page {entry.source.pdfPage}</strong>
-            <span>{entry.moduleId} · {entry.source.heading} · outcomes {entry.objectives.map((objective) => objective.id).join(", ")}</span>
-          </li>
-        ))}
-      </ul>
-      <p>
-        These locations verify coverage, terminology, and notation. The explanations, examples, diagrams, and questions are original teaching material.
-      </p>
-    </details>
-  );
 }
 
 function LearningMap({ lesson }: { lesson: DeepLesson }) {
@@ -521,21 +467,20 @@ function UniversalLesson({ readingId }: { readingId: number }) {
       <button type="button" onClick={() => window.location.reload()}>Retry lesson</button>
     </section>
   );
-  if (!lesson) return <p className="deep-lesson-loading" aria-live="polite">Loading the source-verified lesson…</p>;
+  if (!lesson) return <p className="deep-lesson-loading" aria-live="polite">Loading the lesson…</p>;
 
   const objectives = sourceEntries.flatMap((entry) => entry.objectives);
 
   return (
     <section className="gold-lesson" id="deep-dive">
       <header className="gold-intro">
-        <div><span className="gold-badge">SOURCE-VERIFIED DEEP LESSON</span><h2>{lesson.title}</h2></div>
-        <p>Every mapped module includes original explanation, a worked application, misconception checks, and objective-linked assessment.</p>
+        <div><span className="gold-badge">GUIDED EXAMPLES AND PRACTICE</span><h2>{lesson.title}</h2></div>
+        <p>Build your understanding one concept at a time, follow worked examples, and test how you would apply each method.</p>
       </header>
       <section className="gold-objectives">
-        <span className="section-code">YOU WILL BE ABLE TO</span>
-        <ol>{objectives.map((objective) => <li key={objective.id}><strong>{objective.id}</strong><span>{objective.sourceStatement}</span></li>)}</ol>
+        <span className="section-code">QUESTIONS THIS LESSON ANSWERS</span>
+        <ol>{objectives.map((objective) => <li key={objective.id}><span>{objectiveQuestions.get(objective.id) || objective.sourceStatement}</span></li>)}</ol>
       </section>
-      <UniversalSourceScope entries={sourceEntries} />
       <LearningMap lesson={lesson} />
       <div className="gold-explanations">
         {lesson.sections.map((section, index) => (

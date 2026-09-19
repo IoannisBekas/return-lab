@@ -1,0 +1,540 @@
+{
+  "readingId": 31,
+  "title": "Analyzing Statements of Cash Flows II",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "31.1",
+      "title": "Analyzing Statements of Cash Flows II",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "31.a",
+          "text": "How do we analyze and interpret both reported and common-size cash flow statements?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flow statement provides information to assess the firm’s liquidity, solvency, and financial flexibility. An analyst can use the statement of cash flows to determine the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether regular operations generate enough cash to sustain the business Whether enough cash is generated to pay off existing debts as they mature"
+        },
+        {
+          "type": "paragraph",
+          "text": "Whether the firm is likely to need additional financing Whether unexpected obligations can be met Whether the firm can take advantage of new business opportunities as they arise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash flow analysis begins with evaluating the firm’s sources and uses of cash from operating, investing, and financing activities. Sources and uses of cash change as the firm moves through its life cycle. For example, when a firm is in the early stages of growth, it may experience negative operating cash flow as it uses cash to increase inventory and receivables. Early-stage firms usually finance this negative operating cash flow externally by issuing debt or equity securities. These sources of financing are not sustainable. Eventually, the firm must begin generating positive operating cash flow or external investors will stop providing capital. Over the long term, successful firms must generate operating cash flows that exceed capital expenditures and provide a return to debt and equity holders."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should identify how a firm is generating its operating cash flow. The firm’s earnings-related activities should provide its operating cash flow. However, a firm can also generate positive operating cash flow in the near term by decreasing noncash working capital, such as by liquidating inventory and receivables or increasing payables. Decreasing noncash working capital is not sustainable because inventories and receivables cannot fall below zero and creditors will not extend credit indefinitely unless payments are made when due."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating cash flow provides a check on the quality of a firm’s earnings. A stable relationship of operating cash flow and net income is an indication of quality earnings. Earnings that significantly exceed operating cash flow may be an indication of"
+        },
+        {
+          "type": "paragraph",
+          "text": "aggressive (or even improper) accounting choices such as recognizing revenues too soon or delaying the recognition of expenses. An analyst should also evaluate the variability of net income and operating cash flow as an indicator of a firm’s risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should also examine a firm’s sources and uses of cash from investing activities. Increasing capital expenditures, a use of cash, is usually an indication of growth. Conversely, a firm may reduce capital expenditures or even sell capital assets to save or generate cash. An analyst should inquire into the reasons for this because it may result in higher cash outflows in the future when the firm needs to replace older fixed assets. Investing cash flows may also result from acquisitions or investments in securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The financing activities section of the cash flow statement reveals information about whether the firm is generating cash flow by issuing debt or equity. It also indicates whether the firm is using cash to repay debt, reacquire stock, or pay dividends. For example, an analyst would certainly want to know if a firm issued debt and used the proceeds to reacquire stock or pay dividends to shareholders."
+        },
+        {
+          "type": "heading",
+          "text": "Common-Size Cash Flow Statements"
+        },
+        {
+          "type": "paragraph",
+          "text": "As with the income statement and balance sheet, an analyst can use common-size analysis to interpret a cash flow statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flow statement can be converted to common-size format by expressing each line item as a percentage of revenue. Alternatively, each inflow of cash can be expressed as a percentage of total cash inflows, and each outflow of cash can be expressed as a percentage of total cash outflows."
+        },
+        {
+          "type": "paragraph",
+          "text": "A revenue-based common-size cash flow statement is useful for identifying trends and forecasting future cash flow. Because each line item of the cash flow statement is stated in terms of revenue, once future revenue is forecast, cash flows can be estimated for those items that are tied to revenue."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Common-size cash flow statement analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Triple Y Corporation’s common-size cash flow statement is shown in the following table. Each item has been stated as a percentage of revenue. Explain the decrease in Triple Y’s total cash flow as a percentage of revenues."
+        },
+        {
+          "type": "heading",
+          "text": "Triple Y Corporation"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/740e8bf422d1a74b9e15.png",
+          "alt": "Equation, table, or diagram: Triple Y Corporation",
+          "width": 425,
+          "height": 410,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating cash flow has decreased as a percentage of revenues. This appears to be due largely to accumulating inventories. Investing activities, specifically purchases of plant and equipment, have also required an increasing percentage of the firm’s cash flow. These observations are consistent with a growing firm, but an analyst should inquire whether the increase in inventories was intended or unintended."
+        },
+        {
+          "type": "question",
+          "objectiveId": "31.b",
+          "text": "How do we calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Free cash flow is a measure of cash available for discretionary use, after a firm has covered its capital expenditures. This fundamental cash flow measure is often used for valuation. Analysts have several ways to measure free cash flow. Two of the more common measures are free cash flow to the firm and free cash flow to equity."
+        },
+        {
+          "type": "heading",
+          "text": "Free Cash Flow to the Firm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Free cash flow to the firm (FCFF) is cash available to all investors, both equity owners and debtholders. FCFF can be calculated by starting with either net income or operating cash flow. FCFF is calculated from net income as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{NI}}} \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{INCC}}} & {{}={\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{\\mathrm{Int}}} & {{}={\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{WC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{working~capital~investment}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "80d78a030ac1c861af61.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fixed capital investment is cash spent on fixed assets minus cash received from selling fixed assets. We cannot assume it is the same as CFI, which may also include cash flows from investments in securities and repaid principal from loans made."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash interest paid, net of tax, is added back to net income. This is because FCFF is the cash flow available to stockholders and debtholders. Because interest is paid to (and therefore “available to”) the debtholders, it must be included in FCFF."
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that three components of the equation are just computing operating cash flows under the indirect method:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{CFO}=\\mathrm{NI}+\\mathrm{NCC}-\\mathrm{WC}_{\\mathrm{DNW}}",
+          "display": true,
+          "sourceAsset": "a090066c94adbab00034.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For this reason, FCFF can also be calculated from operating cash flow as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{CFO}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{CFO~}=\\operatorname{c a s h ~ f l o w ~ f r o m ~ o p e r a t i o n s}}} \\\\ {{\\mathrm{Int} ~ ~ ~ ~=\\operatorname{c a s h ~ i n t e r e s t ~ p a i d}}} \\\\ {{\\mathrm{FC}_{\\mathrm{TNV}}=\\operatorname{f i x e d ~ c a p i t a l ~ i n v e s t m e n t ~ ( n e t ~ c a p i t a l ~ e x p e n d i t u r e s )}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "6832a5a679adfea2709d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For firms that follow IFRS, it is not necessary to adjust for interest that is included as a part of financing activities. Additionally, firms that follow IFRS can report dividends paid as operating activities. In this case, the dividends paid would be added back to CFO. Again, the goal is to calculate the cash flow that is available to the shareholders and debtholders. It is not necessary to adjust dividends for taxes because dividends paid are not tax deductible."
+        },
+        {
+          "type": "heading",
+          "text": "Free Cash Flow to Equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Free cash flow to equity (FCFE) is the cash flow available for distribution to common shareholders. FCFE can be calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-FC}_{\\mathrm{{B N V}}}+{\\mathrm{net~borrowing}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ {{\\mathrm{FC}_{\\mathrm{{B N V}}}}} \\\\ {{\\mathrm{net~borrowing}=\\mathrm{debt~issued-debt~repaid}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "87d1d99be17c7d6a5845.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "If net borrowing is negative (debt repaid exceeds debt issued), we would subtract net borrowing in calculating FCFE."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a firm that follows IFRS has subtracted dividends paid in calculating CFO, dividends must be added back when calculating FCFE."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Free cash flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the financial statement extracts presented next, calculate the company’s FCFF and FCFE. Assume a tax rate of 40%."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} & {} \\\\ {} & {} & {} \\\\ {\\mathrm{Depreciation}} & {} & {} & {7 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability} \\qquad} & {5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PP\\&E}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {} & {{} \\mathrm{underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Investment~in~working~capital}} \\\\ {} & {{} \\mathrm{Increase~in~receivables}} \\\\ {} & {{} \\mathrm{Decrease~in~inventories}} \\\\ {} & {{} \\mathrm{Increase~in~accounts~payable}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Decrease~in~wages~payable}} & {{}} & {{}} & {{} ( 3 , 500 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {{}} & {{}} & {{} 500} \\\\ {\\mathrm{Increase~in~unearned~revenue~liability}} & {{}} & {{} 4 , 000} \\\\ {\\mathrm{Increase~in~taxes~payable}} & {{}} & {{}} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ca6ef3f4adc88bf5b0b4.png"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a76fcd5d6139f16612bc.png",
+          "alt": "Equation, table, or diagram: Using the financial statement extracts presented next, calculate the company’s FCFF and FCFE. Assume a tax rate of 40%.",
+          "width": 385,
+          "height": 324,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this example, CFI is equal to FCINV due to the absence of cash flows related to financial investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "FCFF = CFO + [cash interest paid × (1 − tax rate)] − fixed capital investment"
+        },
+        {
+          "type": "paragraph",
+          "text": "= $50,000 + $500(1 − 0.4) − $0 = $50,300"
+        },
+        {
+          "type": "paragraph",
+          "text": "FCFE = CFO − fixed capital investment + net borrowing"
+        },
+        {
+          "type": "paragraph",
+          "text": "= $50,000 − $0 + $5,000 = $55,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, FCFE = FCFF − [interest paid × (1 − tax rate)] + net borrowing"
+        },
+        {
+          "type": "paragraph",
+          "text": "= $50,300 − $500(1 − 0.4) + $5,000 = $55,000"
+        },
+        {
+          "type": "heading",
+          "text": "Other Cash Flow Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Just as with the income statement and balance sheet, the cash flow statement can be analyzed either over time or by comparing it to those of other firms. Cash flow ratios can be categorized as performance ratios and coverage ratios."
+        },
+        {
+          "type": "heading",
+          "text": "Performance Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flow-to-revenue ratio measures the amount of operating cash flow generated for each dollar of revenue:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{cash-flow-to-revenue~ratio=} \\frac{\\mathrm{CFO}} {\\mathrm{net~revenue}}",
+          "display": true,
+          "sourceAsset": "487f9ccb61b169b08834.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash return-on-assets ratio measures the return of operating cash flow attributed to all providers of capital:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{c a s h-r e t u r n-o n-a s s e t s \\; r a t i o}=\\frac{\\mathrm{CFO}} {\\operatorname{a v e r a g e \\; t o t a l \\; a s s e t s}}",
+          "display": true,
+          "sourceAsset": "0d170e5d91320fcc7ae0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash return-on-equity ratio measures the return of operating cash flow attributed to shareholders:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt c a s h-r e t u r n-o n-e q u i t y r a t i o}={\\frac{C F O} {a v e r a g e \\ t o t a l \\ e q u i t y}}",
+          "display": true,
+          "sourceAsset": "e5694160c76dce46512f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash-to-income ratio measures the ability to generate cash from firm operations:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt c a s h-t o-i n c o m e ~ r a t i o}={\\frac{C F O} {o p e r a t i n g ~ i n c o m e}}",
+          "display": true,
+          "sourceAsset": "58c566bbc36b29a01c3e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash flow per share is a variation of basic earnings per share measured by using CFO instead of net income:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{cash~flow~per~share}}={\\frac{\\mathrm{CFO-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares}}}",
+          "display": true,
+          "sourceAsset": "c5d65a9516be2315a7a2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: If common dividends were classified as operating activities under IFRS, they should be added back to CFO for calculating cash flow per share."
+        },
+        {
+          "type": "heading",
+          "text": "Coverage Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "The debt coverage ratio measures financial risk and leverage:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt d e b t c o v e r a g e r a t i o}={\\tt C F O}",
+          "display": true,
+          "sourceAsset": "afede3ba88a12a8eb6c1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The interest coverage ratio measures the firm’s ability to meet its interest obligations:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{interest~coverage~ratio}}={\\frac{\\mathrm{CFO}+{\\mathrm{interest~paid}}+{\\mathrm{taxes~paid}}} {{\\mathrm{interest~paid}}}}",
+          "display": true,
+          "sourceAsset": "7c8babceed0c389cb516.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note: If interest paid was classified as a financing activity under IFRS, no interest adjustment is necessary."
+        },
+        {
+          "type": "paragraph",
+          "text": "The reinvestment ratio measures the firm’s ability to acquire long-term assets with operating cash flow:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{reinvestment~ratio}={\\frac{\\mathrm{CFO}} {\\mathrm{cash~paid~for~long-term~assets}}}",
+          "display": true,
+          "sourceAsset": "30ed7d131aaf6b898db7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The debt payment ratio measures the firm’s ability to satisfy long-term debt with operating cash flow:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{debt~payment}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~long-term~debt~repayment}}",
+          "display": true,
+          "sourceAsset": "446169c77f7786c6a0bb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dividend payment ratio measures the firm’s ability to make dividend payments from operating cash flow:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{dividend~payment~ratio}}={\\frac{\\mathrm{CFO}} {\\mathrm{dividends~paid}}}",
+          "display": true,
+          "sourceAsset": "3947850878d2c559a105.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The investing and financing ratio measures the firm’s ability to purchase assets, satisfy debts, and pay dividends:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{investing~and~financing~ratio}}={\\frac{\\mathrm{CFO}} {\\mathrm{cash~outflows~from~investing~and~financing~activities}}}",
+          "display": true,
+          "sourceAsset": "cbbddcf538d59b9a7fed.png"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "31.a",
+      "text": "How do we analyze and interpret both reported and common-size cash flow statements?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst should determine whether a company is generating positive operating cash flow over time that is greater than its capital spending needs and whether the company’s accounting policies are causing reported earnings to diverge from operating cash flow."
+    },
+    {
+      "type": "paragraph",
+      "text": "A common-size cash flow statement shows each item as a percentage of revenue, or shows each cash inflow as a percentage of total inflows and each outflow as a percentage of total outflows."
+    },
+    {
+      "type": "question",
+      "objectiveId": "31.b",
+      "text": "How do we calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Free cash flow to the firm (FCFF) is the cash available to all investors, both equity owners and debtholders:"
+    },
+    {
+      "type": "paragraph",
+      "text": "FCFF = net income + noncash charges + [cash interest paid × (1 − tax rate)] − fixed capital investment − working capital investment"
+    },
+    {
+      "type": "paragraph",
+      "text": "FCFF = CFO + [cash interest paid × (1 − tax rate)] − fixed capital investment"
+    },
+    {
+      "type": "paragraph",
+      "text": "Free cash flow to equity (FCFE) is the cash flow that is available for distribution to the common shareholders after all obligations have been paid."
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{FCFE=CFO-fixed~capital~investment+net~borrowing}",
+      "display": true,
+      "sourceAsset": "45ef1d9a0d5654b08864.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cash flow performance ratios (e.g., cash return on equity or on assets) and cash coverage ratios (e.g., debt coverage or cash interest coverage) provide information about the firm’s operating performance and financial strength."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "31.a",
+      "statement": "Analyze and interpret both reported and common-size cash flow statements.",
+      "question": "How do we analyze and interpret both reported and common-size cash flow statements?"
+    },
+    {
+      "id": "31.b",
+      "statement": "Calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios.",
+      "question": "How do we calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-31-quiz-1",
+      "title": "Knowledge check 31.1",
+      "moduleId": "31.1",
+      "questions": [
+        {
+          "id": "r31-q1",
+          "number": 1,
+          "objectiveIds": [
+            "31.a"
+          ],
+          "prompt": "In preparing a common-size cash flow statement, each cash flow is expressed as a percentage of:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "total assets."
+            },
+            {
+              "id": "B",
+              "text": "total revenue."
+            },
+            {
+              "id": "C",
+              "text": "the change in cash."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The cash flow statement can be converted to common-size format by expressing each line item as a percentage of revenue.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The cash flow statement can be converted to common-size format by expressing"
+            },
+            {
+              "type": "paragraph",
+              "text": "each line item as a percentage of revenue."
+            }
+          ]
+        },
+        {
+          "id": "r31-q2",
+          "number": 2,
+          "objectiveIds": [
+            "31.b"
+          ],
+          "prompt": "To calculate free cash flow to the firm based on operating cash flow, an analyst should add interest expense net of tax and subtract:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "noncash charges."
+            },
+            {
+              "id": "B",
+              "text": "fixed capital investment."
+            },
+            {
+              "id": "C",
+              "text": "working capital investment."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "FCFF can be calculated from CFO by adding interest expense net of tax and subtracting fixed capital investment.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "FCFF can be calculated from CFO by adding interest expense net of tax and"
+            },
+            {
+              "type": "paragraph",
+              "text": "subtracting fixed capital investment."
+            }
+          ]
+        },
+        {
+          "id": "r31-q3",
+          "number": 3,
+          "objectiveIds": [
+            "31.b"
+          ],
+          "prompt": "The reinvestment ratio measures a firm’s ability to use its operating cash flow to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "pay dividends."
+            },
+            {
+              "id": "B",
+              "text": "invest in working capital."
+            },
+            {
+              "id": "C",
+              "text": "acquire long-lived assets."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The reinvestment ratio is CFO/cash paid for long-term assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The reinvestment ratio is CFO/cash paid for long-term assets."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,825 @@
+{
+  "readingId": 15,
+  "title": "Monetary Policy",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "15.1",
+      "title": "Central Bank Objectives and Tools",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "15.a",
+          "text": "What should we know about the roles and objectives of central banks?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are several key roles of central banks:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Sole supplier of currency. Central banks have the sole authority to supply money."
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditionally, such money was backed by gold; the central bank stood ready to convert the money into a prespecified quantity of gold. Later on, the gold backing was removed, and money supplied by the central bank was deemed legal tender by law. Money not backed by any tangible value is termed fiat money. As long as fiat money holds its value over time and is acceptable for transactions, it can continue to serve as a medium of exchange.\n2. Banker to the government and other banks. Central banks provide banking services"
+        },
+        {
+          "type": "paragraph",
+          "text": "to the government and other banks in the economy.\n3. Regulator and supervisor of payments system. In many countries, central banks may"
+        },
+        {
+          "type": "paragraph",
+          "text": "regulate the banking system by imposing standards of risk-taking allowed and reserve requirements of banks under its jurisdiction. Central banks also oversee the payments system to ensure smooth clearing operations domestically and in conjunction with other central banks for international transactions.\n4. Lender of last resort. Central banks’ ability to print money allows them to supply"
+        },
+        {
+          "type": "paragraph",
+          "text": "money to banks that are experiencing shortages. This government backing tends to prevent runs on banks (i.e., large-scale withdrawals) by assuring depositors that their funds are secure."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Holder of gold and foreign exchange reserves. Central banks are often the repositories"
+        },
+        {
+          "type": "paragraph",
+          "text": "of the nation’s gold and reserves of foreign currencies.\n6. Conductor of monetary policy. Central banks control or influence the quantity of"
+        },
+        {
+          "type": "paragraph",
+          "text": "money supplied in an economy and growth of money supply over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "The primary objective of a central bank is to control inflation so as to promote price stability. High inflation is not conducive to a stable economic environment. High inflation leads to menu costs (i.e., cost to businesses of constantly having to change their prices) and shoe leather costs (i.e., costs to individuals of making frequent trips to the bank so as to minimize their holdings of cash that are depreciating in value due to inflation)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to price stability, some central banks have other stated goals:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stability in exchange rates with foreign currencies Full employment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sustainable positive economic growth Moderate long-term interest rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "The target inflation rate in most developed countries is a range around 2% to 3%. A target of zero inflation is not used because that increases the risk of deflation, which can be disruptive for an economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "While most developed countries have an explicit target inflation rate, the U.S. Fed and the Bank of Japan do not. In the United States, this is because the Fed has the additional goals of maximum employment and moderate long-term interest rates. In Japan, it is because deflation, rather than inflation, has been a persistent problem in recent years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some developed countries, and several developing countries, choose a target level for the exchange rate of their currency with that of another country, primarily the U.S. dollar. This is referred to as pegging their exchange rate with the dollar. If their currency appreciates (i.e., becomes relatively more valuable), they can sell their domestic currency reserves for dollars to reduce the exchange rate. While such actions may be effective in the short run, for stability of the exchange rate over time, the monetary authorities in the pegging country must manage interest rates and economic activity to achieve their goal. This can lead to increased volatility of their money supply and interest rates. The pegging country essentially commits to a policy intended to make its inflation rate equal to the inflation rate of the country to which it pegs its currency."
+        },
+        {
+          "type": "question",
+          "objectiveId": "15.b",
+          "text": "What should we know about tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monetary policy is implemented using the monetary policy tools of the central bank. The three main policy tools of central banks are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Policy rate. In the United States, banks can borrow funds from the Fed if they have"
+        },
+        {
+          "type": "paragraph",
+          "text": "temporary shortfalls in reserves. The rate at which banks can borrow reserves from the Fed is called the discount rate. For the European Central Bank (ECB), it is called the refinancing rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to lend money to banks is through a repurchase agreement. The central bank purchases securities from banks that, in turn, agree to repurchase the securities at a higher price in the future. The percentage difference between the purchase price and the repurchase price is effectively the rate at which the central bank is lending to member banks. The Bank of England uses this method, and its policy rate is called the two-week repo (repurchase) rate. A lower rate reduces banks’ cost of funds, encourages lending, and tends to decrease interest rates overall. A higher policy rate has the opposite effect, decreasing lending and increasing interest rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United States, the federal funds rate is the rate that banks charge each other on overnight loans of reserves. The Fed sets a target for this market-determined rate and uses open market operations to influence it toward the target rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Reserve requirements. By increasing the reserve requirement (the percentage of"
+        },
+        {
+          "type": "paragraph",
+          "text": "deposits that banks are required to retain as reserves), the central bank effectively decreases the funds that are available for lending and thereby decreases the money supply, which will tend to increase interest rates. A decrease in the reserve requirement will increase the funds available for lending and the money supply, which will tend to decrease interest rates. This tool only works well to increase the money supply if banks are willing to lend and customers are willing to borrow."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Open market operations. Buying and selling of securities by the central bank is"
+        },
+        {
+          "type": "paragraph",
+          "text": "referred to as open market operations. When the central bank buys securities, cash replaces securities in investor accounts, banks have excess reserves, more funds are available for lending, the money supply increases, and interest rates decrease. Sales of securities by the central bank have the opposite effect, reducing cash in investor accounts, excess reserves, funds available for lending, and the money supply, which will tend to cause interest rates to increase. In the United States, open market operations are the Fed’s most commonly used tool and are important in achieving the federal funds target rate."
+        },
+        {
+          "type": "heading",
+          "text": "Monetary Transmission Mechanism"
+        },
+        {
+          "type": "paragraph",
+          "text": "The monetary transmission mechanism refers to the ways in which a change in monetary policy, specifically the central bank’s policy rate, affects the price level and inflation. A change in the policy rates that the monetary authorities control directly is transmitted to prices through four channels: other short-term rates, asset values, currency exchange rates, and expectations."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can examine the transmission mechanism in more detail by considering the effects of a change to a contractionary monetary policy implemented through an increase in the policy rate:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Banks’ short-term lending rates will increase in line with the increase in the policy rate. The higher rates will decrease aggregate demand as consumers reduce credit purchases and businesses cut back on investment in new projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond prices, equity prices, and asset prices in general will decrease as the discount rates applied to future expected cash flows are increased. This may have a wealth effect because a decrease in the value of households’ assets may increase the savings rate and decrease consumption. Both consumers and businesses may decrease their expenditures because their expectations for future economic growth decrease. The increase in interest rates may attract foreign investment in debt securities, leading to an appreciation of the domestic currency relative to foreign currencies. An appreciation of the domestic currency increases the foreign currency prices of exports and can reduce demand for the country’s export goods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taken together, these effects act to decrease aggregate demand and put downward pressure on the price level. A decrease in the policy rate would affect the price level through the same channels, but in the opposite direction."
+        },
+        {
+          "type": "heading",
+          "text": "Monetary Policy Relation With Economic Growth, Inflation, Interest, and Exchange Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "If money neutrality holds, changes in monetary policy and the policy rate will have no effect on real output. In the short run, however, changes in monetary policy can affect real economic growth as well as interest rates, inflation, and foreign exchange rates. The effects of a change to a more expansionary monetary policy may include any or all of the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The central bank buys securities, which increases bank reserves. The interbank lending rate decreases as banks are more willing to lend each other reserves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other short-term rates decrease as the increase in the supply of loanable funds decreases the equilibrium rate for loans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Longer-term interest rates also decrease. The decrease in real interest rates causes the currency to depreciate in the foreign exchange market."
+        },
+        {
+          "type": "paragraph",
+          "text": "The decrease in long-term interest rates increases business investments in plant and equipment. Lower interest rates cause consumers to increase their purchases of houses, autos, and durable goods. Depreciation of the currency increases foreign demand for domestic goods."
+        },
+        {
+          "type": "paragraph",
+          "text": "The increases in consumption, investment, and net exports all increase aggregate demand. The increase in aggregate demand increases inflation, employment, and real GDP."
+        }
+      ]
+    },
+    {
+      "id": "15.2",
+      "title": "Monetary Policy Effects and Limitations",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "15.c",
+          "text": "What should we know about qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a central bank to succeed in its inflation targeting policies, it should have three essential qualities:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Independence. For a central bank to be effective in achieving its goals, it should be"
+        },
+        {
+          "type": "paragraph",
+          "text": "free from political interference. Reducing the money supply to reduce inflation can also be expected to decrease economic growth and employment. The political party in power has an incentive to boost economic activity and reduce unemployment before elections. For this reason, politicians may interfere with the central bank’s activities, compromising its ability to manage inflation. Independence should be thought of in relative terms (degrees of independence) rather than absolute terms. Even in the case of relatively independent central banks, the heads of the banks may be appointed by politicians."
+        },
+        {
+          "type": "paragraph",
+          "text": "Independence can be evaluated based on both operational independence and target independence. Operational independence means that the central bank is allowed to independently determine the policy rate. Target independence means the central bank also defines how inflation is computed, sets the target inflation level, and determines the horizon over which the target is to be achieved. The ECB has both target and operational independence, while most other central banks have only operational independence."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Credibility. To be effective, central banks should follow through on their stated"
+        },
+        {
+          "type": "paragraph",
+          "text": "intentions. If a government with large debts, instead of a central bank, sets an inflation target, the target would not be credible because the government has an incentive to allow inflation to exceed the target level. On the other hand, a credible central bank’s targets can become self-fulfilling prophecies. If the market believes that a central bank is serious about achieving a target inflation rate of 3%, wages and other nominal contracts will be based on 3% inflation, and actual inflation will then be close to that level."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Transparency. Transparency on the part of central banks aids their credibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transparency means that central banks periodically disclose the state of the economic environment by issuing inflation reports. Transparent central banks"
+        },
+        {
+          "type": "paragraph",
+          "text": "periodically report their views on the economic indicators and other factors they consider in their interest rate setting policy. When a central bank makes clear the economic indicators it uses in establishing monetary policy and how they will be used, it not only gains credibility, but also makes policy changes easier to anticipate and implement."
+        },
+        {
+          "type": "heading",
+          "text": "Inflation, Interest Rate, and Exchange Rate Targeting by Central Banks"
+        },
+        {
+          "type": "paragraph",
+          "text": "Central banks have used various economic variables and indicators over the years to make monetary policy decisions. In the past, some have used interest rate targeting, increasing the money supply when specific interest rates rose above the target band and decreasing the money supply (or the rate of money supply growth) when interest rates fell below the target band. Currently, inflation targeting is the most widely used tool for making monetary policy decisions, and it is the method required by law in some countries. Central banks that currently use inflation targeting include the United Kingdom, Brazil, Canada, Australia, Mexico, and the ECB."
+        },
+        {
+          "type": "paragraph",
+          "text": "The neutral interest rate of an economy is the growth rate of the money supply that neither increases nor decreases the economic growth rate:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{neutral~interest~rate}=\\mathrm{real~trend~rate~of~economic~growth}+\\mathrm{inflation~target}",
+          "display": true,
+          "sourceAsset": "844a61f69431a27d7f52.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the policy rate is above the neutral rate, monetary policy is said to be contractionary; when the policy rate is below the neutral rate, monetary policy is said to be expansionary."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common inflation rate target is 2%, with a permitted deviation of ±1% so the target band is 1% to 3%. The reason the inflation target is not 0% is that variations around that rate would allow for negative inflation (i.e., deflation), which is considered disruptive to the smooth functioning of an economy. Central banks are not necessarily targeting current inflation, which is the result of prior policy and events, but inflation in the range of two years in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some countries, especially developing countries, use exchange rate targeting. That is, they target a foreign exchange rate between their currency and another (often the U.S. dollar), rather than targeting inflation. As an example, consider a country that has targeted an exchange rate for its currency versus the U.S. dollar. If the foreign exchange value of the domestic currency falls relative to the U.S. dollar, the monetary authority must use foreign reserves to purchase their domestic currency (which will reduce money supply growth and increase interest rates) to reach the target exchange rate. Conversely, an increase in the foreign exchange value of the domestic currency above the target rate will require sale of the domestic currency in currency markets to reduce its value (increasing the domestic money supply and decreasing interest rates) to move toward the target exchange rate. One result of exchange rate targeting may be greater volatility of the money supply because domestic monetary policy must adapt to the necessity of maintaining a stable foreign exchange rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Over the short term, the targeting country can purchase or sell its currency in the foreign exchange markets to influence the exchange rate. There are limits, however, on"
+        },
+        {
+          "type": "paragraph",
+          "text": "how much influence currency purchases or sales can have on exchange rates over time. For example, a country may run out of foreign reserves with which to purchase its currency when the exchange value of its currency is still below the target exchange rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The net effect of exchange rate targeting is that the targeting country will have the same inflation rate as the country with the targeted currency, and the targeting country will need to follow monetary policy and accept interest rates that are consistent with this goal regardless of domestic economic circumstances."
+        },
+        {
+          "type": "heading",
+          "text": "Limitations of Monetary Policy"
+        },
+        {
+          "type": "paragraph",
+          "text": "This transmission mechanism for monetary policy previously described does not always produce the intended results. In particular, long-term rates may not rise and fall with short-term rates because of the effect of monetary policy changes on expected inflation."
+        },
+        {
+          "type": "paragraph",
+          "text": "If individuals and businesses believe that a decrease in the money supply intended to reduce inflation will be successful, they will expect lower future inflation rates. Because long-term bond yields include a premium for expected inflation, long-term rates could fall (tending to increase economic growth), even while the central bank has increased short-term rates to slow economic activity. Conversely, increasing the money supply to stimulate economic activity could lead to an increase in expected inflation rates and long-term bond yields, even as short-term rates fall."
+        },
+        {
+          "type": "paragraph",
+          "text": "From a different perspective, monetary tightening may be viewed as too extreme— increasing the probability of a recession, making long-term bonds more attractive, and reducing long-term interest rates. If money supply growth is seen as inflationary, higher expected future asset prices will make long-term bonds relatively less attractive and will increase long-term interest rates. Bond market participants that act in this way have been called bond market vigilantes. When the central bank’s policy is credible and investors believe that the inflation target rate will be maintained over time, this effect on long-term rates will be small."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another situation in which the transmission mechanism may not perform as expected is if demand for money becomes very elastic and individuals willingly hold more money, even without a decrease in short-term rates. Such a situation is called a liquidity trap. Increasing the growth of the money supply will not decrease short-term rates under these conditions because individuals hold the money in cash balances instead of investing in interest-bearing securities. If an economy is experiencing deflation even though monetary policy has been expansionary, liquidity trap conditions may be present."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to inflation, deflation is more difficult for central banks to reverse. In a deflationary environment, monetary policy needs to be expansionary. However, the central bank is limited to reducing the nominal policy rate to zero. Once it reaches zero, the central bank has a limited ability to further stimulate the economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another reason standard tools for increasing the money supply might not increase economic activity is that even with increasing excess reserves, banks may not be"
+        },
+        {
+          "type": "paragraph",
+          "text": "willing to lend. When what has become known as the credit bubble collapsed in 2008, banks around the world lost equity capital and desired to rebuild it. For this reason, they decreased their lending even as money supplies were increased, and short-term rates fell. With short-term rates near zero, economic growth still poor, and a threat of deflation, central banks began a policy termed quantitative easing."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United Kingdom, quantitative easing entailed large purchases of British government bonds in the maturity range of three to five years. The intent was to reduce interest rates to encourage borrowing and to generate excess reserves in the banking system to encourage lending. Uncertainty about the economy’s future caused banks to behave quite conservatively and willingly hold more excess reserves, rather than make loans."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United States, billions of dollars were made available for the Fed to buy assets other than short-term Treasury securities. Large amounts of mortgage securities were purchased from banks to encourage bank lending and to reduce mortgage rates in an attempt to revive the housing market, which had collapsed. When this program did not have the desired effect, a second round of quantitative easing (QE2) was initiated. The Fed purchased long-term Treasury bonds in large quantities (hundreds of billions of dollars) with the goal of bringing down longer-term interest rates and generating excess reserves to increase lending and economic growth. The Fed has also purchased securities with credit risk as part of its quantitative easing, improving banks’ balance sheets but perhaps shifting risk from the private sector to the public sector."
+        },
+        {
+          "type": "heading",
+          "text": "Monetary Policy in Developing Economies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Developing countries face problems in successfully implementing monetary policy. Without a liquid market in their government debt, interest rate information may be distorted and open market operations difficult to implement. In a very rapidly developing economy, it may be quite difficult to determine the neutral rate of interest for policy purposes. Rapid financial innovation may change the demand to hold monetary aggregates. Central banks may lack credibility because of past failure(s) to maintain inflation rates in a target band and might not be given independence by the political authority."
+        },
+        {
+          "type": "question",
+          "objectiveId": "15.d",
+          "text": "How can we explain the interaction of monetary and fiscal policy?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monetary policy and fiscal policy may each be either expansionary or contractionary, so there are four possible scenarios:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Expansionary fiscal and monetary policy. In this case, the impact will be highly"
+        },
+        {
+          "type": "paragraph",
+          "text": "expansionary, taken together. Interest rates will usually be lower (due to monetary policy), and the private and public sectors will both expand."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Contractionary fiscal and monetary policy. In this case, aggregate demand and"
+        },
+        {
+          "type": "paragraph",
+          "text": "GDP would be lower, and interest rates would be higher due to tight monetary policy. Both the private and public sectors would contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Expansionary fiscal policy and contractionary monetary policy. In this case,"
+        },
+        {
+          "type": "paragraph",
+          "text": "aggregate demand will likely be higher (due to fiscal policy), while interest rates will"
+        },
+        {
+          "type": "paragraph",
+          "text": "be higher (due to increased government borrowing and tight monetary policy). Government spending as a proportion of GDP will increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Contractionary fiscal policy and expansionary monetary policy. In this case,"
+        },
+        {
+          "type": "paragraph",
+          "text": "interest rates will fall from decreased government borrowing and from the expansion of the money supply, increasing both private consumption and output. Government spending as a proportion of GDP will decrease due to contractionary fiscal policy. The private sector would grow as a result of lower interest rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Not surprisingly, the fiscal multipliers for different types of fiscal stimulus differ, and the effects of expansionary fiscal policy are greater when it is combined with expansionary monetary policy. The fiscal multiplier for direct government spending increases has been much higher than the fiscal multiplier for increases in transfers to individuals or tax reductions for workers. Transfer payments to the poor have the greatest relative impact, followed by tax cuts for workers, and broader-based transfers to individuals (not targeted). For all types of fiscal stimulus, the impact is greater when the fiscal actions are combined with expansionary monetary policy. This may reflect the impact of greater inflation, falling real interest rates, and the resulting increase in business investments."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "15.a",
+      "text": "What should we know about the roles and objectives of central banks?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Central bank roles include supplying currency, acting as a banker to the government and to other banks, regulating and supervising the payments system, acting as a lender of last resort, holding the nation’s gold and foreign currency reserves, and conducting monetary policy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Central banks have the objective of controlling inflation, and some have additional goals of maintaining currency stability, full employment, positive sustainable economic growth, or moderate interest rates."
+    },
+    {
+      "type": "question",
+      "objectiveId": "15.b",
+      "text": "What should we know about tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Policy tools available to central banks include the policy rate, reserve requirements, and open market operations. The policy rate is called the discount rate in the United States, the refinancing rate by the ECB, and the two-week repo rate in the United Kingdom."
+    },
+    {
+      "type": "paragraph",
+      "text": "Decreasing the policy rate, decreasing reserve requirements, and making open market purchases of securities are all expansionary. Increasing the policy rate, increasing reserve requirements, and making open market sales of securities are all contractionary."
+    },
+    {
+      "type": "paragraph",
+      "text": "The transmission mechanism for changes in the central bank’s policy rate through to prices and inflation includes one or more of the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Short-term bank lending rates Asset prices Expectations for economic activity and future policy rate changes"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exchange rates with foreign currencies"
+    },
+    {
+      "type": "paragraph",
+      "text": "A contractionary monetary policy (increase in policy rate) will tend to decrease economic growth, increase market interest rates, decrease inflation, and lead to appreciation of the domestic currency in foreign exchange markets. An expansionary monetary policy (decrease in policy rate) will have opposite effects, tending to increase economic growth, decrease market interest rates, increase inflation, and reduce the value of the currency in foreign exchange markets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "15.c",
+      "text": "What should we know about qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Effective central banks exhibit independence, credibility, and transparency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Independence. The central bank is free from political interference."
+    },
+    {
+      "type": "paragraph",
+      "text": "Credibility. The central bank follows through on its stated policy intentions. Transparency. The central bank makes it clear what economic indicators it uses and reports on the state of those indicators."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most central banks set target inflation rates, typically 2%–3%, rather than targeting interest rates, as was once common. When inflation is expected to rise above (fall below) the target band, the money supply is decreased (increased) to reduce (increase) economic activity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Developing economies sometimes target a stable exchange rate for their currency relative to that of a developed economy, selling their currency when its value rises above the target rate and buying their currency with foreign reserves when the rate falls below the target. The developing country must follow a monetary policy that supports the target exchange rate and essentially commits to having the same inflation rate as the developed country."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reasons that monetary policy may not work as intended:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Monetary policy changes may affect inflation expectations to such an extent that long-term interest rates move opposite to short-term interest rates."
+    },
+    {
+      "type": "paragraph",
+      "text": "Individuals may be willing to hold greater cash balances without a change in short-term rates (liquidity trap)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Banks may be unwilling to lend greater amounts, even when they have increased excess reserves."
+    },
+    {
+      "type": "paragraph",
+      "text": "Short-term rates cannot be reduced below zero. Developing economies face unique challenges in using monetary policy due to undeveloped financial markets, rapid financial innovation, and lack of credibility of the monetary authority."
+    },
+    {
+      "type": "question",
+      "objectiveId": "15.d",
+      "text": "How can we explain the interaction of monetary and fiscal policy?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Interaction of monetary and fiscal policies:"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/5e4e36a280ec13ad21f8.png",
+      "alt": "Equation, table, or diagram: Interaction of monetary and fiscal policies:",
+      "width": 417,
+      "height": 148,
+      "visualKind": "diagram-chart-or-table"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "15.a",
+      "statement": "Describe the roles and objectives of central banks.",
+      "question": "What should we know about the roles and objectives of central banks?"
+    },
+    {
+      "id": "15.b",
+      "statement": "Describe tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates.",
+      "question": "What should we know about tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates?"
+    },
+    {
+      "id": "15.c",
+      "statement": "Describe qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy.",
+      "question": "What should we know about qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy?"
+    },
+    {
+      "id": "15.d",
+      "statement": "Explain the interaction of monetary and fiscal policy.",
+      "question": "How can we explain the interaction of monetary and fiscal policy?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-15-quiz-1",
+      "title": "Knowledge check 15.1",
+      "moduleId": "15.1",
+      "questions": [
+        {
+          "id": "r15-q1",
+          "number": 1,
+          "objectiveIds": [
+            "15.a"
+          ],
+          "prompt": "A central bank’s policy goals least likely include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "price stability."
+            },
+            {
+              "id": "B",
+              "text": "minimizing long-term interest rates."
+            },
+            {
+              "id": "C",
+              "text": "maximizing the sustainable growth rate of the economy."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Central bank goals often include the following: maximum employment, which is interpreted as the maximum sustainable growth rate of the economy; stable prices; and moderate (not minimum) long-term interest rates.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Central bank goals often include the following: maximum employment, which is"
+            },
+            {
+              "type": "paragraph",
+              "text": "interpreted as the maximum sustainable growth rate of the economy; stable prices; and moderate (not minimum) long-term interest rates."
+            }
+          ]
+        },
+        {
+          "id": "r15-q2",
+          "number": 2,
+          "objectiveIds": [
+            "15.a"
+          ],
+          "prompt": "A country that targets a stable exchange rate with another country’s currency least likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "accepts the inflation rate of the other country."
+            },
+            {
+              "id": "B",
+              "text": "will sell its currency if its foreign exchange value rises."
+            },
+            {
+              "id": "C",
+              "text": "must also match the money supply growth rate of the other country."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The money supply growth rate may need to be adjusted to keep the exchange rate within acceptable bounds, but it is not necessarily the same as that of the other country. The other two statements are true.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The money supply growth rate may need to be adjusted to keep the exchange rate"
+            },
+            {
+              "type": "paragraph",
+              "text": "within acceptable bounds, but it is not necessarily the same as that of the other country. The other two statements are true."
+            }
+          ]
+        },
+        {
+          "id": "r15-q3",
+          "number": 3,
+          "objectiveIds": [
+            "15.b"
+          ],
+          "prompt": "If a country’s inflation rate is below the central bank’s target rate, the central bank is most likely to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "sell government securities."
+            },
+            {
+              "id": "B",
+              "text": "increase the reserve requirement."
+            },
+            {
+              "id": "C",
+              "text": "decrease the overnight lending rate."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Decreasing the overnight lending rate would add reserves to the banking system, which would encourage bank lending, expand the money supply, reduce interest rates, and allow GDP growth and the rate of inflation to increase. Selling government securities or increasing the reserve requirement would have the opposite effect, reducing the money supply and decreasing the inflation rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Decreasing the overnight lending rate would add reserves to the banking system,"
+            },
+            {
+              "type": "paragraph",
+              "text": "which would encourage bank lending, expand the money supply, reduce interest rates, and allow GDP growth and the rate of inflation to increase. Selling government securities or increasing the reserve requirement would have the opposite effect, reducing the money supply and decreasing the inflation rate."
+            }
+          ]
+        },
+        {
+          "id": "r15-q4",
+          "number": 4,
+          "objectiveIds": [
+            "15.b"
+          ],
+          "prompt": "A central bank conducts monetary policy primarily by altering the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "policy rate."
+            },
+            {
+              "id": "B",
+              "text": "inflation rate."
+            },
+            {
+              "id": "C",
+              "text": "long-term interest rate."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The primary method by which a central bank conducts monetary policy is through changes in the target short-term rate or policy rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The primary method by which a central bank conducts monetary policy is"
+            },
+            {
+              "type": "paragraph",
+              "text": "through changes in the target short-term rate or policy rate."
+            }
+          ]
+        },
+        {
+          "id": "r15-q5",
+          "number": 5,
+          "objectiveIds": [
+            "15.b"
+          ],
+          "prompt": "Purchases of securities in the open market by the monetary authorities are least likely to increase:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "excess reserves."
+            },
+            {
+              "id": "B",
+              "text": "cash in investor accounts."
+            },
+            {
+              "id": "C",
+              "text": "the interbank lending rate."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Open market purchases by monetary authorities decrease the interbank lending rate by increasing excess reserves that banks can lend to one another—and therefore, increasing their willingness to lend.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Open market purchases by monetary authorities decrease the interbank lending"
+            },
+            {
+              "type": "paragraph",
+              "text": "rate by increasing excess reserves that banks can lend to one another—and therefore, increasing their willingness to lend."
+            }
+          ]
+        },
+        {
+          "id": "r15-q6",
+          "number": 6,
+          "objectiveIds": [
+            "15.b"
+          ],
+          "prompt": "An increase in the policy rate will most likely lead to an increase in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "business investments in fixed assets."
+            },
+            {
+              "id": "B",
+              "text": "consumer spending on durable goods."
+            },
+            {
+              "id": "C",
+              "text": "the foreign exchange value of the domestic currency."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An increase in the policy rate is likely to increase longer-term interest rates, causing decreases in consumption spending on durable goods and business investments in plant and equipment. The increase in rates, however, makes investment in the domestic economy more attractive to foreign investors, increasing demand for the domestic currency and causing the currency to appreciate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An increase in the policy rate is likely to increase longer-term interest rates,"
+            },
+            {
+              "type": "paragraph",
+              "text": "causing decreases in consumption spending on durable goods and business"
+            },
+            {
+              "type": "paragraph",
+              "text": "investments in plant and equipment. The increase in rates, however, makes investment in the domestic economy more attractive to foreign investors, increasing demand for the domestic currency and causing the currency to appreciate."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-15-quiz-2",
+      "title": "Knowledge check 15.2",
+      "moduleId": "15.2",
+      "questions": [
+        {
+          "id": "r15-q7",
+          "number": 1,
+          "objectiveIds": [
+            "15.c"
+          ],
+          "prompt": "Qualities of effective central banks include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "credibility and verifiability."
+            },
+            {
+              "id": "B",
+              "text": "comparability and relevance."
+            },
+            {
+              "id": "C",
+              "text": "independence and transparency."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The three qualities of effective central banks are independence, credibility, and transparency.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The three qualities of effective central banks are independence, credibility, and"
+            },
+            {
+              "type": "paragraph",
+              "text": "transparency."
+            }
+          ]
+        },
+        {
+          "id": "r15-q8",
+          "number": 2,
+          "objectiveIds": [
+            "15.c"
+          ],
+          "prompt": "Monetary policy is likely to be least responsive to domestic economic conditions if policymakers employ:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "inflation targeting."
+            },
+            {
+              "id": "B",
+              "text": "interest rate targeting."
+            },
+            {
+              "id": "C",
+              "text": "exchange rate targeting."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Exchange rate targeting requires monetary policy to be consistent with the goal of a stable exchange rate with the targeted currency, regardless of domestic economic conditions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Exchange rate targeting requires monetary policy to be consistent with the goal of"
+            },
+            {
+              "type": "paragraph",
+              "text": "a stable exchange rate with the targeted currency, regardless of domestic economic conditions."
+            }
+          ]
+        },
+        {
+          "id": "r15-q9",
+          "number": 3,
+          "objectiveIds": [
+            "15.c"
+          ],
+          "prompt": "Monetary policy is most likely to fail to achieve its objectives when the economy is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "growing rapidly."
+            },
+            {
+              "id": "B",
+              "text": "experiencing deflation."
+            },
+            {
+              "id": "C",
+              "text": "experiencing disinflation."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Monetary policy has a limited ability to act effectively against deflation because the policy rate cannot be reduced below zero, and demand for money may be highly elastic (liquidity trap).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Monetary policy has a limited ability to act effectively against deflation because"
+            },
+            {
+              "type": "paragraph",
+              "text": "the policy rate cannot be reduced below zero, and demand for money may be highly elastic (liquidity trap)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "readingId": 43,
+  "title": "Company Analysis: Past and Present",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "43.1",
+      "title": "Company Research Reports",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "43.a",
+          "text": "What should we know about the elements that should be covered in a thorough company research report?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A company research report includes an analyst’s valuation and investment recommendations, based on the company’s projected earnings, cash flows, and financial position."
+        },
+        {
+          "type": "paragraph",
+          "text": "An initial research report for external distribution (said to be “initiating coverage” of a company) is likely to be thorough, followed by subsequent reports that are less thorough. These may focus on more specific topics or serve as updates to previously issued reports. A research report that is only for internal distribution is likely to be less thorough and may even be provided verbally."
+        },
+        {
+          "type": "paragraph",
+          "text": "Key items typically included in an initial company research report are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Front matter (e.g., issuer name, buy/hold/sell recommendation, target buy/sell prices, and legal disclosures) Rationales for the recommendation Company description (e.g., business model, strategy)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry overview and competitive positioning (e.g., industry size, growth rate and main drivers, profitability, competitive analysis)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial analysis and model (e.g., past and pro forma financial statements; analysis and projection of revenue, cost, and cash flow drivers and sources and uses of capital) Valuation (e.g., value vs. target price, using either or both of relative and present value methodologies) Environmental, social, and governance factors Key upside and downside risks and their valuation impact"
+        },
+        {
+          "type": "paragraph",
+          "text": "Key items typically included in a subsequent company research report are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Front matter Recommendation, including rationales for changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis of new information (e.g., variance analysis of expected vs. actual results; updated financial statements)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes to the initial valuation with supporting rationales"
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes in risks since the initial or most recent report"
+        },
+        {
+          "type": "question",
+          "objectiveId": "43.b",
+          "text": "How do we determine a company’s business model?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A company’s business model will highlight the key drivers that ultimately affect its income statement and balance sheet. The business model is the foundation for determining the analyst’s expectations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The business model considers the following items that describe its operations: (1) products and services, (2) customers, (3) sales channels, (4) pricing and payment terms, and (5) suppliers and other key relationships. Analysts should inquire into what and to whom the company is selling, its methods of obtaining customers, its methods of distributing its products or providing its services, its price setting, and its key supplier relationships. They should also analyze the bargaining power of customers (e.g., few or many customers) and the bargaining power of suppliers (e.g., specialized or common inputs). If a company uses a traditional business model, an analyst should highlight any ways this specific company’s model differs from those used by its peers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts use four general types of information to determine a company’s business model:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Information directly from the company (e.g., annual or quarterly regulatory filings,"
+        },
+        {
+          "type": "paragraph",
+          "text": "investor presentations, press releases, investor relations department, website)"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Publicly available third-party information (e.g., analyst reports, government research"
+        },
+        {
+          "type": "paragraph",
+          "text": "and reports, news outlets, social media)\n3. Proprietary third-party information (e.g., analyst reports, Bloomberg)"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Proprietary primary research, performed or commissioned by the analyst"
+        },
+        {
+          "type": "paragraph",
+          "text": "(e.g., surveys, market studies)"
+        }
+      ]
+    },
+    {
+      "id": "43.2",
+      "title": "Revenue, Profitability, and Capital",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "43.c",
+          "text": "How should we evaluate a company’s revenue and revenue drivers, including pricing power?"
+        },
+        {
+          "type": "heading",
+          "text": "Revenue Drivers"
+        },
+        {
+          "type": "paragraph",
+          "text": "After analyzing a company’s business model, and before financial forecasting that leads to an eventual valuation of a company, an analyst must examine the company’s past and current financial statements. Financial statement analysis most commonly begins with the income statement—specifically, revenues. The focus is on revenue drivers, which can be analyzed on a bottom-up or top-down basis. In a bottom-up analysis, revenue is broken down into specific drivers such as price and volume, business segments, or geography. In a top-down analysis, macroeconomic variables such as market share or GDP growth serve as drivers of revenue. Analysts often use both approaches to evaluate a company."
+        },
+        {
+          "type": "heading",
+          "text": "Pricing Power"
+        },
+        {
+          "type": "paragraph",
+          "text": "Revenues are driven by prices, and prices are limited by the company’s pricing power, the extent to which a company can determine its selling prices without hurting sales. Recall from Economics that pricing power depends on the market structure of an industry, as well as the company’s competitive position in the market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Highly competitive markets are characterized by companies that sell virtually identical items. In such cases, companies have low pricing power, and the price is determined by supply and demand. This means that all participants are price takers (will sell at the market price). In the long run, price-taker markets usually result in returns being close to the cost of capital, so there is zero economic profit. One notable exception is a low-cost producer. A company that has significantly lower costs than its competitors may earn returns exceeding the cost of capital, but to sustain such profits in the long run would require the company to maintain its cost advantage permanently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Highly competitive markets are also characterized as follows: absence of product differentiation, many substitutes, few or no barriers to entry, little or no brand loyalty, and low or no switching costs. Commoditization describes an industry that is evolving toward this state as more participants enter the market. In a commoditizing industry, participants tend to innovate less and imitate each other more."
+        },
+        {
+          "type": "paragraph",
+          "text": "Less competitive markets (monopoly, oligopoly, monopolistic competition) are characterized by greater product differentiation, few or no substitutes, high barriers to entry, high customer loyalty, and high switching costs. In such markets, companies may have some or considerable pricing power, which allows for price increases without significant declines in sales. Strategies such as value-based pricing and price discrimination require a company to have pricing power."
+        },
+        {
+          "type": "paragraph",
+          "text": "Profit margins can be an indicator of pricing power. When prices rise more than costs over time, this demonstrates the ability of a company to transfer those costs to its customers through higher prices without losing sales. This is more likely in a market that exhibits high switching costs or for a product that does not have good substitutes."
+        },
+        {
+          "type": "heading",
+          "text": "Macro Factors"
+        },
+        {
+          "type": "paragraph",
+          "text": "A top-down approach considers how external (macro) factors affect revenue, including market size and the company’s market share. Market size refers to the total revenue of all the companies in the market. Market share is the ratio of the company’s revenue to the market size. Tracking market share over time provides insights as to how favorably the company is viewed by customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Computing market size can be problematic. For example, should it include only sales of identical products, or should it include sales of similar or substitute products? Analysts typically include identical and similar products but exclude substitute products, but that is not always appropriate."
+        },
+        {
+          "type": "question",
+          "objectiveId": "43.d",
+          "text": "How should we evaluate a company’s operating profitability and working capital using key measures?"
+        },
+        {
+          "type": "heading",
+          "text": "Operating Costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company financial statements reflect three types of costs: operating costs, investing costs (e.g., purchase of capital and intangible assets), and financing costs (e.g., interest expense). Here we focus on operating costs, which are those a company incurs in generating current period revenue. An analyst might not necessarily regard a company’s costs the same way IFRS and U.S. GAAP treat them. For example, research and development costs would logically be considered investing costs, but the accounting standards treat them as operating costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating costs are driven by business model and company size. We can categorize operating costs in the following three ways:"
+        },
+        {
+          "type": "paragraph",
+          "text": "By their relationship with output (fixed or variable) By nature (e.g., work in process, utilities, promotion)"
+        },
+        {
+          "type": "paragraph",
+          "text": "By function (e.g., selling, advertising, travel, income tax)"
+        },
+        {
+          "type": "heading",
+          "text": "Analyzing Costs by Relationship With Output"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can state operating profit in terms of fixed and variable costs, as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Operating profit}=Q(P-VC)-FC\\\\\nQ=\\text{units sold},\\quad P=\\text{price per unit},\\quad VC=\\text{variable cost per unit},\\quad FC=\\text{fixed costs}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "df8541a59ac291e2c69d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The term (P – VC) in this equation is known as the contribution margin (CM) per unit. A company will earn profits when the CM per unit is positive and Q is large enough that the total contribution margin is greater than fixed costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating leverage results from the fixed portion of a company’s operating costs. The larger the proportion of a company’s costs that are fixed, the more rapidly operating profits will increase with a given increase in quantity sold (and the faster they will decrease with a given decrease in quantity). We can express operating leverage using a metric called degree of operating leverage (DOL):"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{DOL}=\\%\\Delta \\Delta\\mathrm{~operating~profit~/~\\%\\Delta\\Delta~sales}",
+          "display": true,
+          "sourceAsset": "0193cf52a48665097099.png"
+        },
+        {
+          "type": "heading",
+          "text": "Analyzing Costs by Nature or Function"
+        },
+        {
+          "type": "paragraph",
+          "text": "In looking at costs from an accounting perspective, a functional classification is usually the norm. The result is consistency among companies in how they present income statement line items that refer to specific functions (e.g., “cost of sales” and “selling, general, and administrative”)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Common metrics used for operating profitability include gross profit; earnings before interest, taxes, depreciation, and amortization (EBITDA); and earnings before interest and taxes (EBIT). EBIT is often referred to as operating profit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross profit = revenue − cost of sales"
+        },
+        {
+          "type": "paragraph",
+          "text": "EBITDA = gross profit − operating expenses EBIT = EBITDA − depreciation and amortization"
+        },
+        {
+          "type": "paragraph",
+          "text": "We may divide each of these measures by revenue to produce the ratios gross margin, EBITDA margin, and EBIT margin (or operating margin)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although functional cost classifications are not the same as classifying based on fixed and variable costs, the concepts overlap. For many companies the cost of sales is highly variable, so that gross margin and contribution margin are often similar amounts. Many operating expenses reported as separate line items on the income statement, such as rent, promotion, and management salaries, are mainly fixed in nature."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating costs are largely driven by the level of output. That is obvious for variable costs, but it is also true in the long run for fixed costs because increases in output eventually require cash outlays such as the purchase of more productive equipment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because companies within a particular industry earn the same types of revenues and incur similar input costs, it is competition among the companies that determines industry profitability. For example, in a highly competitive industry, if one company decreases its prices, then other companies are likely to follow. The end result may be reduced industry profitability. Analysts should consider individual company profitability in the context of overall industry profitability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economies of scale occur when increasing output decreases unit costs. The basic idea is that the company’s fixed costs are being allocated over a greater amount of output. However, even a company with a high proportion of variable costs can experience economies of scale if it becomes large enough to exert greater bargaining power over its suppliers and reduce its variable costs over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economies of scope occur when adding divisions or product lines results in decreasing unit costs. This can result if multiple divisions or product lines share costs and reduce redundancies. For example, each division would need its own human resources department if it were a stand-alone company, but as divisions of a larger firm they can use the same human resources department."
+        },
+        {
+          "type": "heading",
+          "text": "Working Capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from Corporate Issuers that analysts can evaluate a company’s working capital management in terms of its cash conversion cycle. The longer the cash conversion cycle, the more need a company has to finance working capital."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another key measure is the ratio of net working capital to sales. When net working capital is positive, the company can finance its working capital needs from internal sources. When net working capital is negative, financing is being provided by external sources (e.g., suppliers)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "43.e",
+          "text": "How should we evaluate a company’s capital investments and capital structure?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A company’s sources of capital include cash flows from operations, proceeds from debt and share issuances, and proceeds from asset sales. Uses of capital include liquidity in the form of cash and marketable securities; purchases of tangible and intangible assets; debt repayment; dividend payments; and share repurchases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Evaluating a company’s capital investments involves determining whether the company has earned at least the required rate of return in the long run, and therefore created economic value from the investors’ capital. Evaluating its capital structure involves determining whether its opportunities exceed the risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "In assessing capital structure risks, analysts use measures such as leverage ratios, coverage ratios, and the degree of financial leverage (DFL)."
+        },
+        {
+          "type": "paragraph",
+          "text": "DFL = %Δ net income / %Δ operating income"
+        },
+        {
+          "type": "paragraph",
+          "text": "DFL increases when a company adds fixed interest expense by borrowing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlevered returns are expressed as return on assets (ROA) or return on invested capital (ROIC). Financial leverage is reflected in return on equity (ROE). Recall from Financial Statement Analysis that ROE can be decomposed using DuPont analysis to highlight the factors that affect it, including financial leverage."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "43.a",
+      "text": "What should we know about the elements that should be covered in a thorough company research report?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key items typically included in an initial company research report are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Front matter"
+    },
+    {
+      "type": "paragraph",
+      "text": "Recommendation, including rationales behind the recommendation Company description Industry overview and competitive positioning"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial analysis Valuation"
+    },
+    {
+      "type": "paragraph",
+      "text": "ESG factors Risks and their valuation impact"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key items typically included in a subsequent company research report are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Front matter Changes in recommendation with rationales Analysis of new information"
+    },
+    {
+      "type": "paragraph",
+      "text": "Changes in valuation and risks"
+    },
+    {
+      "type": "question",
+      "objectiveId": "43.b",
+      "text": "How do we determine a company’s business model?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A business model considers a company’s products and services, customers, sales channels, pricing and payment terms, and reliance on key suppliers."
+    },
+    {
+      "type": "question",
+      "objectiveId": "43.c",
+      "text": "How should we evaluate a company’s revenue and revenue drivers, including pricing power?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revenue drivers can be analyzed bottom-up based on financial statements or top-down based on economic and industry factors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pricing power is a function of market structure and a company’s competitive position in the market. Companies in highly competitive markets have low pricing power. Pricing power for companies in less competitive markets may result from greater product differentiation, lack of good substitutes, high barriers to entry, high customer loyalty, and high switching costs."
+    },
+    {
+      "type": "question",
+      "objectiveId": "43.d",
+      "text": "How should we evaluate a company’s operating profitability and working capital using key measures?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Operating profit = [Q × (P − VC)] − FC"
+    },
+    {
+      "type": "paragraph",
+      "text": "Contribution margin per unit = (P − VC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Degree of operating leverage = %Δ operating profit / %Δ sales"
+    },
+    {
+      "type": "paragraph",
+      "text": "Economies of scale occur when increases in output decrease unit costs. Economies of scope occur adding divisions or product lines decreases unit costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "A long (short) conversion cycle indicates greater (less) need for external financing."
+    },
+    {
+      "type": "question",
+      "objectiveId": "43.e",
+      "text": "How should we evaluate a company’s capital investments and capital structure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In assessing capital structure risks, the degree of financial leverage (DFL) is often used."
+    },
+    {
+      "type": "paragraph",
+      "text": "DFL = %Δ net income / %Δ operating income"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlevered returns are expressed as return on assets (ROA) or return on invested capital (ROIC). Levered returns are expressed as return on equity (ROE)."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "43.a",
+      "statement": "Describe the elements that should be covered in a thorough company research report.",
+      "question": "What should we know about the elements that should be covered in a thorough company research report?"
+    },
+    {
+      "id": "43.b",
+      "statement": "Determine a company’s business model.",
+      "question": "How do we determine a company’s business model?"
+    },
+    {
+      "id": "43.c",
+      "statement": "Evaluate a company’s revenue and revenue drivers, including pricing power.",
+      "question": "How should we evaluate a company’s revenue and revenue drivers, including pricing power?"
+    },
+    {
+      "id": "43.d",
+      "statement": "Evaluate a company’s operating profitability and working capital using key measures.",
+      "question": "How should we evaluate a company’s operating profitability and working capital using key measures?"
+    },
+    {
+      "id": "43.e",
+      "statement": "Evaluate a company’s capital investments and capital structure.",
+      "question": "How should we evaluate a company’s capital investments and capital structure?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-43-quiz-1",
+      "title": "Knowledge check 43.1",
+      "moduleId": "43.1",
+      "questions": [
+        {
+          "id": "r43-q1",
+          "number": 1,
+          "objectiveIds": [
+            "43.a"
+          ],
+          "prompt": "Which of the following statements regarding company research reports subsequent to initiating coverage is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The report updates the recommendation in light of new information about the company."
+            },
+            {
+              "id": "B",
+              "text": "The primary audience is those who are not already knowledgeable about the company or security."
+            },
+            {
+              "id": "C",
+              "text": "The report provides information such as industry overview, competitive positioning, and ESG considerations."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Subsequent research reports update the recommendation and rationale from an initial research report. The primary audience for an initial company report is those who are not already knowledgeable about the issuer or security.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Subsequent research reports update the recommendation and rationale from an"
+            },
+            {
+              "type": "paragraph",
+              "text": "initial research report. The primary audience for an initial company report is those who are not already knowledgeable about the issuer or security."
+            }
+          ]
+        },
+        {
+          "id": "r43-q2",
+          "number": 2,
+          "objectiveIds": [
+            "43.b"
+          ],
+          "prompt": "Reports and data from Bloomberg are best considered to be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "public third-party sources."
+            },
+            {
+              "id": "B",
+              "text": "proprietary primary research."
+            },
+            {
+              "id": "C",
+              "text": "proprietary third-party sources."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Reports and data from platforms such as Bloomberg and FactSet are classified as proprietary third-party sources, available for a fee. They are not publicly available for free (e.g., general news, social media), and the information provided is not primary research.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Reports and data from platforms such as Bloomberg and FactSet are classified as"
+            },
+            {
+              "type": "paragraph",
+              "text": "proprietary third-party sources, available for a fee. They are not publicly available for free (e.g., general news, social media), and the information provided is not primary research."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-43-quiz-2",
+      "title": "Knowledge check 43.2",
+      "moduleId": "43.2",
+      "questions": [
+        {
+          "id": "r43-q3",
+          "number": 1,
+          "objectiveIds": [
+            "43.c"
+          ],
+          "prompt": "A pet food company earned $500 million in revenue in the current year. Based on an estimated market share of 10%, what is the market size for pet food?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$50.0 million."
+            },
+            {
+              "id": "B",
+              "text": "$4.5 billion."
+            },
+            {
+              "id": "C",
+              "text": "$5.0 billion."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Market share = revenue / market size = 0.10 = $500 million / market size. So, market size = $5 billion.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Market share = revenue / market size = 0.10 = $500 million / market size. So,"
+            },
+            {
+              "type": "paragraph",
+              "text": "market size = $5 billion."
+            }
+          ]
+        },
+        {
+          "id": "r43-q4",
+          "number": 2,
+          "objectiveIds": [
+            "43.d"
+          ],
+          "prompt": "Jayco, Inc., sells 10,000 units at a price of $5 per unit. Jayco’s fixed costs are $8,000, interest expense is $2,000, variable costs are $3 per unit, and EBIT is $12,000. Disregarding taxes, the degree of operating leverage (DOL) and degree of financial leverage (DFL) are closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "2.50 DOL and 1.00 DFL."
+            },
+            {
+              "id": "B",
+              "text": "1.67 DOL and 2.00 DFL."
+            },
+            {
+              "id": "C",
+              "text": "1.67 DOL and 1.20 DFL."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Jayco’s operating income is $12,000. If its sales increase by 1%, its operating income will increase to 1.01(10,000)($5 – $3) – $8,000 = $12,200, which is an increase of $200 / $12,000 = 0.0167 or 1.67%. Therefore Jayco’s DOL is 1.67% / 1% = 1.67. Jayco’s net income is $12,000 – $2,000 = $10,000. If its operating income increases by 1% to 1.01($12,000) = $12,120, its net income will increase to $12,120 – $2,000 = $10,120, which is an increase of $120 / $10,000 = 0.012 or 1.2%. Therefore Jayco’s DFL is 1.20% / 1% = 1.20.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Jayco’s operating income is $12,000. If its sales increase by 1%, its operating"
+            },
+            {
+              "type": "paragraph",
+              "text": "income will increase to 1.01(10,000)($5 – $3) – $8,000 = $12,200, which is an increase of $200 / $12,000 = 0.0167 or 1.67%. Therefore Jayco’s DOL is 1.67% / 1% = 1.67."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jayco’s net income is $12,000 – $2,000 = $10,000. If its operating income increases by 1% to 1.01($12,000) = $12,120, its net income will increase to $12,120 – $2,000 = $10,120, which is an increase of $120 / $10,000 = 0.012 or 1.2%. Therefore Jayco’s DFL is 1.20% / 1% = 1.20."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

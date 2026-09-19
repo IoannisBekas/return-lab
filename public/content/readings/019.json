@@ -1,0 +1,576 @@
+{
+  "readingId": 19,
+  "title": "Exchange Rate Calculations",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "19.1",
+      "title": "Foreign Exchange Rates",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "19.a",
+          "text": "How do we calculate and interpret currency cross-rates?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A cross rate is the exchange rate between two currencies implied by their exchange rates with a common third currency. Cross-rates are necessary when there is no active FX market in a currency pair. The rate must be computed from the exchange rates between each of these two currencies and a third currency, usually the USD or EUR."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let’s assume that we have the following quotations for Mexican pesos and Australian dollars: MXN/USD = 10.70 and USD/AUD = 0.60. The cross rate between Australian dollars and pesos (MXN/AUD) is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "M O N / A U D=U S D / A U D \\times M N / U S D=0.60 \\times10.70=0.42",
+          "display": true,
+          "sourceAsset": "ab2c482af8a967b354dd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "So, our MXN/AUD cross rate is 6.42 pesos per Australian dollar. The key to calculating cross-rates is to note that the basis of the quotations must be such that we get the desired result algebraically. If we had started with an AUD/USD quotation of 1.67, we would have taken the inverse to get the quotation into USD/AUD terms. Another approach is to divide through, as is illustrated in the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: CROSS RATE CALCULATION"
+        },
+        {
+          "type": "paragraph",
+          "text": "The spot exchange rate between the Swiss franc (CHF) and the USD is CHF/USD = 1.7799, and the spot exchange rate between the New Zealand dollar (NZD) and the U.S. dollar is NZD/USD = 2.2529. Calculate the CHF/NZD spot rate."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CHF/NZD cross rate is (CHF/USD) / (NZD/USD) = 1.7799 / 2.2529 = 0.7900."
+        },
+        {
+          "type": "question",
+          "objectiveId": "19.b",
+          "text": "How can we explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium?"
+        },
+        {
+          "type": "paragraph",
+          "text": "When currencies are freely traded and forward currency contracts exist, the percentage difference between forward and spot exchange rates is approximately equal to the difference between the two countries’ interest rates. This is because there is an arbitrage trade with a riskless profit to be made when this relation does not hold."
+        },
+        {
+          "type": "paragraph",
+          "text": "We call this a no-arbitrage condition because if it doesn’t hold, there is an opportunity to make a profit without risk. The possible arbitrage is as follows: borrow Currency A at Interest Rate A, convert it to Currency B at the spot rate and invest it to earn Interest Rate B, and sell the proceeds from this investment forward at the forward rate to turn it back into Currency A. If the forward rate does not correctly reflect the difference between interest rates, such an arbitrage could generate a profit to the extent that the return from investing Currency B and converting it back to Currency A with a forward contract is greater than the cost of borrowing Currency A for the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The no-arbitrage condition requires that “you cannot earn more than your domestic riskless rate of interest by borrowing your domestic currency, converting it to a foreign currency to invest at the foreign riskless rate, and exchanging back to your domestic currency.” So:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( 1+\\mathrm{r}_{\\sf d o m e s t i c} \\right)={\\frac{1} {\\sf s p o t}} \\! \\left( 1+\\mathrm{r}_{\\sf f o r e i g n} \\right) \\sf f o r w a r d_{\\sf d / f}",
+          "display": true,
+          "sourceAsset": "374ab524237c9caf906b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The three terms on the right-hand side are equivalent to units of foreign currency for one unit of the domestic currency, growth if invested at the foreign interest rate, and then exchanged back to domestic currency at the forward rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Equivalent relationships are as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}{\\frac{\\mathrm{f o r w a r d_{d / f}}} {\\mathrm{s p o t_{d / f}}}} \\!=\\! {\\frac{\\left( 1+\\mathrm{r_{d o m e s t i c}} \\right)} {\\left( 1+\\mathrm{r_{f o r e i g n}} \\right)}}\\\\[6pt]\\begin{aligned} {\\operatorname* {f o r w a r d}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} \\mathsf{s p o t}_{\\mathrm{d/f}}} \\\\ {\\operatorname* {s p o t}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} \\mathsf{f o r w a r d}_{\\mathrm{d/f}}} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ba207222685cd2123d12.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: CALCULATING THE ARBITRAGE-FREE FORWARD EXCHANGE RATE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two currencies, the ABE and the DUB. The spot ABE/DUB exchange rate is 4.5671, the 1-year riskless ABE rate is 5%, and the 1-year riskless DUB rate is 3%. What is the 1-year no-arbitrage forward exchange rate?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\mathrm{forward}_{\\tt A / D}=\\mathrm{spot}_{\\tt A / D} \\! \\left( \\! \\frac{1+r_{\\tt A}} {1+r_{\\tt D}} \\right)} \\\\ {} & {{} \\mathrm{forward}_{\\tt A / D} \\! \\!=4.5671 \\! \\left( \\! \\frac{1.05} {1.03} \\! \\right)=4.6558_{\\tt A / D}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "ecde1d4df7083bc0acde.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the forward rate is greater than the spot rate by 4.6558 / 4.5671 − 1 = 1.94%. This is approximately equal to the interest rate differential of 5% − 3% = 2%. The currency with the higher interest rate must depreciate over time by approximately the amount of the interest rate differential, to prevent arbitrage."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we are calculating a 30-, 90-, or 180-day forward exchange rate, we need to use interest rates for 30-, 90-, and 180-day periods rather than annual rates. Note that these"
+        },
+        {
+          "type": "paragraph",
+          "text": "shorter-term rates are quoted as money market yields."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: CALCULATING THE ARBITRAGE-FREE FORWARD EXCHANGE RATE WITH 90-DAY INTEREST"
+        },
+        {
+          "type": "heading",
+          "text": "RATES"
+        },
+        {
+          "type": "paragraph",
+          "text": "The spot ABE/DUB exchange rate is 4.5671, the 90-day riskless ABE rate is 5%, and the 90-day riskless DUB rate is 3%. What is the 90-day forward exchange rate that will prevent arbitrage profits?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{no-arbitrage~forward}} & {{}=4.5671 \\! \\! \\left[ \\frac{1+0.05 \\left( \\frac{90} {360} \\right)} {1+0.03 \\left( \\frac{90} {360} \\right)} \\right] \\! \\!=4.5671 \\! \\left( \\frac{1.0125} {1.0075} \\right)} \\\\ {} & {{}=4.5898. \\mathrm{ABE/DUB}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "3a75a897065f42951394.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In our previous example, we calculated the no-arbitrage one-year forward ABE/DUB exchange rate as 4.6558. Next, we illustrate the arbitrage profit that could be gained if the forward exchange rate differs from this no-arbitrage rate. Consider a forward rate of 4.6000 so that the depreciation in the ABE is less than that implied by the no-arbitrage relationship. This makes the ABE attractive to a DUB investor who can earn a riskless profit as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Borrow 1,000 DUB for one year at 3% to purchase ABE and get 4,567.1 ABE. Invest the 4,567.1 ABE at the ABE rate of 5% to have 1.05(4,567.1) = 4,795.45 ABE at the end of one year. Enter into a currency forward contract to exchange 4,795.45 ABE in one year at the forward rate of 4.6000 ABE/DUB to receive 4,795.45 / 4.6000 = 1,042.49 DUB."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investor has ended the year with a 4.249% return on his 1,000 DUB investment, which is higher than the 3% 1-year DUB interest rate. After repaying the 1,000 DUB loan plus interest (1,030 DUB), the investor has a profit of 1,042.49 − 1,030 = 12.49 DUB with no risk and no initial out-of-pocket investment (i.e., a pure arbitrage profit)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Arbitrageurs will pursue this opportunity, buying ABE (driving down the spot ABE/DUB exchange rate) and selling ABE forward (driving up the forward ABE/DUB exchange rate), until the interest rate parity relation is restored and arbitrage profits are no longer available."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the no-arbitrage forward exchange rate is approximately proportional to the annual interest rate differential and the time period of the forward contract."
+        },
+        {
+          "type": "heading",
+          "text": "Calculating a Forward Exchange Rate From a Forward Quote in Points or in Percentage Terms"
+        },
+        {
+          "type": "paragraph",
+          "text": "A forward exchange rate quote typically differs from the spot quotation and is expressed in terms of the difference between the spot exchange rate and the forward exchange rate. One way to indicate this is with points. The unit of points is the last decimal place in the spot rate quote. For a spot currency quote to four decimal places,"
+        },
+        {
+          "type": "paragraph",
+          "text": "such as 2.3481, each point is 0.0001, or 1/10,000th. A quote of +18.3 points for a 90-day forward exchange rate means that the forward rate is 0.00183 greater than the spot exchange rate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: FORWARD EXCHANGE RATES IN POINTS"
+        },
+        {
+          "type": "paragraph",
+          "text": "The AUD/EUR spot exchange rate is 0.7313 with the 1-year forward rate quoted at +3.5 points. What is the 1-year forward AUD/EUR exchange rate?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The forward exchange rate is 0.7313 + 0.00035 = 0.73165."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: FORWARD EXCHANGE RATES IN PERCENTAGE"
+        },
+        {
+          "type": "paragraph",
+          "text": "The AUD/EUR spot rate is quoted at 0.7313, and the 120-day forward exchange rate is given as –0.062%. What is the 120-day forward AUD/EUR exchange rate?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The forward exchange rate is 0.7313 (1 − 0.00062) = 0.7308."
+        },
+        {
+          "type": "paragraph",
+          "text": "While forward rates are typically quoted as forward points, one application where percentage forward quotes are useful is if we are interpreting a forward rate as the expected future spot rate, st+1. We can write our no-arbitrage relation as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{\\tt s_{t+1}} {\\tt s_{t}}}-1=\\tt r_{0} \\Delta s_{t+1}={\\frac{\\tt r_{f}-\\tt r_{d}} {1+\\tt r_{d}}}",
+          "display": true,
+          "sourceAsset": "59a7bab092c93340df5c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis of capital markets suggests that an increase in a country’s interest rate will attract foreign investment, which will lead to appreciation of the domestic currency (spot rate decreases). This is opposite to our conclusion from our no-arbitrage forward rate result that higher domestic rates are associated with a depreciation of the domestic currency. Historically, interest rate differences are poor predictors of future spot rates, although they may be unbiased and tend to get the direction of change correct."
+        },
+        {
+          "type": "paragraph",
+          "text": "It’s best to think of the no-arbitrage forward rate as simply the forward rate at a point in time that prevents currency arbitrage, rather than the expected future spot rate. Our no-arbitrage relation holds at a point in time and does not address the question of how changes in interest rates affect spot exchange rates over time."
+        },
+        {
+          "type": "heading",
+          "text": "Interpreting a Forward Discount or Premium"
+        },
+        {
+          "type": "paragraph",
+          "text": "The forward discount or forward premium for a currency is calculated relative to the spot exchange rate. The forward discount or premium for the base currency is the percentage difference between the forward price and the spot price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the following spot and forward exchange rates:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\mathrm{USD/EUR~spot}=\\$1.312} \\\\ {} & {{} \\mathrm{USD/EUR~90-day~forward}=\\$1.320} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "ebb5b3e0a378439dfc11.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The (90-day) forward premium or discount on the euro = forward / spot − 1 = 1.320 / 1.312 − 1 = 0.610%. Because this is positive, it is interpreted as a forward premium on the euro of 0.610%. Because we have the forward rate for three months, we could annualize the discount simply by multiplying by 4 (= 12 / 3)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the forward quote is greater than the spot quote, it will take more dollars to buy one euro 90 days from now, so the euro is expected to appreciate versus the dollar, and the dollar is expected to depreciate relative to the euro."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the forward quote were less than the spot quote, the calculated amount would be negative, and we would interpret that as a forward discount for the euro relative to the U.S. dollar."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "19.a",
+      "text": "How do we calculate and interpret currency cross-rates?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Given two exchange rate quotes for three different currencies, we can calculate a currency cross rate. If the MXN/USD quote is 12.1 and the USD/EUR quote is 1.42, we can calculate the cross rate of MXN/EUR as 12.1 × 1.42 = 17.18."
+    },
+    {
+      "type": "question",
+      "objectiveId": "19.b",
+      "text": "How can we explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The condition that must be met so that there is no arbitrage opportunity available is as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\frac{\\mathrm{forward}} {\\mathrm{spot}}}={\\frac{\\left( 1+\\mathrm{i}_{\\mathrm{price~cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\mathrm{bace~cuereacy}} \\right)}} {\\mathrm{so~that~forward}}={\\mathrm{spot}} \\times{\\frac{\\left( 1+\\mathrm{i}_{\\mathrm{price~cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\mathrm{base~cuereacy}} \\right)}}",
+      "display": true,
+      "sourceAsset": "41335252ac38508acb46.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the spot exchange rate for the euro is 1.25 USD/EUR, the euro interest rate is 4% per year, and the dollar interest rate is 3% per year, the no-arbitrage one-year forward rate can be calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "1.25 \\times( 1.03 / 1.04 )=1.238 \\mathrm{USD/EUR}",
+      "display": true,
+      "sourceAsset": "4f6bef0bf19e68920df1.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Points in a foreign currency quotation are in units of the last digit of the quotation. For example, a forward quote of +25.3 when the USD/EUR spot exchange rate is 1.4158 means that the forward exchange rate is 1.4158 + 0.00253 = 1.41833 USD/EUR."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a forward exchange rate quote given as a percentage, the percentage (change in the spot rate) is calculated as forward / spot − 1. A forward exchange rate quote of +1.787%, when the spot USD/EUR exchange rate is 1.4158, means that the forward exchange rate is 1.4158 (1 + 0.01787) = 1.4411 USD/EUR."
+    },
+    {
+      "type": "paragraph",
+      "text": "If a forward exchange rate does not correctly reflect the difference between the interest rates for two currencies, an arbitrage opportunity for a riskless profit exists. In this case, borrowing one currency, converting it to the other currency at the spot rate, investing the proceeds for the period, and converting the end-of-period amount back to the borrowed currency at the forward rate will produce more than enough to pay off the initial loan, with the remainder being a riskless profit on the arbitrage transaction."
+    },
+    {
+      "type": "paragraph",
+      "text": "To calculate a forward premium or discount for the base currency, use the following formula:"
+    },
+    {
+      "type": "paragraph",
+      "text": "(forward / spot) − 1"
+    },
+    {
+      "type": "paragraph",
+      "text": "Forward exchange rates are poor predictors of future exchange rates. Forward exchange rates should be interpreted as simply the no-arbitrage forward rates at a point in time, not as predictors of future spot rates."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "19.a",
+      "statement": "Calculate and interpret currency cross-rates.",
+      "question": "How do we calculate and interpret currency cross-rates?"
+    },
+    {
+      "id": "19.b",
+      "statement": "Explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium.",
+      "question": "How can we explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-19-quiz-1",
+      "title": "Knowledge check 19.1",
+      "moduleId": "19.1",
+      "questions": [
+        {
+          "id": "r19-q1",
+          "number": 1,
+          "objectiveIds": [
+            "19.a"
+          ],
+          "prompt": "Today’s spot rate for the Indonesian rupiah (IDR) is IDR/USD 2,400.00, and the New Zealand dollar trades at NZD/USD 1.6000. The NZD/IDR cross rate is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.00067."
+            },
+            {
+              "id": "B",
+              "text": "1,492.53."
+            },
+            {
+              "id": "C",
+              "text": "3,840.00."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Start with one NZD and exchange for 1 / 1.6 = 0.625 USD. Exchange the USD for 0.625 × 2,400 = 1,500 IDR. We get a cross rate of 1,500 IDR/NZD, or 1 / 1,500 = 0.00067 NZD/IDR.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Start with one NZD and exchange for 1 / 1.6 = 0.625 USD. Exchange the USD for"
+            },
+            {
+              "type": "paragraph",
+              "text": "0.625 × 2,400 = 1,500 IDR. We get a cross rate of 1,500 IDR/NZD, or 1 / 1,500 = 0.00067 NZD/IDR."
+            }
+          ]
+        },
+        {
+          "id": "r19-q2",
+          "number": 2,
+          "objectiveIds": [
+            "19.a"
+          ],
+          "prompt": "The New Zealand dollar (NZD) is trading at USD/NZD 0.3500, and the Swedish krona (SEK) is trading at NZD/SEK 0.3100. The USD/SEK cross rate is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.1085."
+            },
+            {
+              "id": "B",
+              "text": "8.8573."
+            },
+            {
+              "id": "C",
+              "text": "9.2166."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "USD/NZD 0.3500 × NZD/SEK 0.3100 = USD/SEK 0.1085. Notice that the NZD term cancels in the multiplication.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "USD/NZD 0.3500 × NZD/SEK 0.3100 = USD/SEK 0.1085. Notice that the NZD term"
+            },
+            {
+              "type": "paragraph",
+              "text": "cancels in the multiplication."
+            }
+          ]
+        },
+        {
+          "id": "r19-q3",
+          "number": 3,
+          "objectiveIds": [],
+          "prompt": "The spot Swiss franc/British pound (CHF/GBP) exchange rate is 1.3050. In the 180-day forward market, the CHF/GBP exchange rate is −42.5 points. The 180-day forward CHF/GBP exchange rate is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "1.2625."
+            },
+            {
+              "id": "B",
+              "text": "1.3008."
+            },
+            {
+              "id": "C",
+              "text": "1.3093."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The 180-day forward exchange rate is 1.3050 − 0.00425 = CHF/GBP 1.30075.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The 180-day forward exchange rate is 1.3050 − 0.00425 = CHF/GBP 1.30075."
+            }
+          ]
+        },
+        {
+          "id": "r19-q4",
+          "number": 4,
+          "objectiveIds": [
+            "19.b"
+          ],
+          "prompt": "The spot rate on the New Zealand dollar (NZD) is NZD/USD 1.4286, and the 180-day forward rate is NZD/USD 1.3889. This difference means:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "interest rates are lower in the United States than in New Zealand."
+            },
+            {
+              "id": "B",
+              "text": "interest rates are higher in the United States than in New Zealand."
+            },
+            {
+              "id": "C",
+              "text": "it takes more NZD to buy one USD in the forward market than in the spot market."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Interest rates are higher in the United States than in New Zealand. It takes fewer NZD to buy one USD in the forward market than in the spot market.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Interest rates are higher in the United States than in New Zealand. It takes fewer"
+            },
+            {
+              "type": "paragraph",
+              "text": "NZD to buy one USD in the forward market than in the spot market."
+            }
+          ]
+        },
+        {
+          "id": "r19-q5",
+          "number": 5,
+          "objectiveIds": [
+            "19.b"
+          ],
+          "prompt": "The current spot rate for the British pound (GBP) in terms of U.S. dollars is $1.533 and the 180-day forward rate is $1.508. Relative to the pound, the dollar is trading closest to a 180-day forward:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "discount of 1.63%."
+            },
+            {
+              "id": "B",
+              "text": "premium of 1.66%."
+            },
+            {
+              "id": "C",
+              "text": "discount of 1.66%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "To calculate a percentage forward premium or discount for the U.S. dollar, we use the dollar to be the base currency. The spot and forward quotes given are U.S. dollars per British pound (USD/GBP), so we must invert them to GBP/USD. The spot GBP/USD price is 1 / 1.533 = 0.6523 and the forward GBP/USD price is 1 / 1.508 = 0.6631. Because the forward price is greater than the spot price, we say the dollar is at a forward premium of 0.6631 / 0.6523 − 1 = 1.66%. Alternatively, we can calculate this premium with the given quotes as spot / forward − 1 to get 1.533 / 1.508 − 1 = 1.66%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "To calculate a percentage forward premium or discount for the U.S. dollar, we use"
+            },
+            {
+              "type": "paragraph",
+              "text": "the dollar to be the base currency. The spot and forward quotes given are U.S. dollars per British pound (USD/GBP), so we must invert them to GBP/USD. The spot GBP/USD price is 1 / 1.533 = 0.6523 and the forward GBP/USD price is 1 / 1.508 = 0.6631. Because the forward price is greater than the spot price, we say the dollar is at a forward premium of 0.6631 / 0.6523 − 1 = 1.66%. Alternatively, we can calculate this premium with the given quotes as spot / forward − 1 to get 1.533 / 1.508 − 1 = 1.66%."
+            }
+          ]
+        },
+        {
+          "id": "r19-q6",
+          "number": 6,
+          "objectiveIds": [
+            "19.b"
+          ],
+          "prompt": "The annual interest rates in the United States (USD) and Sweden (SEK) are 4% and 7% per year, respectively. If the current spot rate is SEK/USD 9.5238, then the 1-year forward rate in SEK/USD is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "9.2568."
+            },
+            {
+              "id": "B",
+              "text": "9.7985."
+            },
+            {
+              "id": "C",
+              "text": "10.2884."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The forward rate in SEK/USD is Because the SEK interest rate is the higher of the two, the SEK must depreciate approximately 3%.",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\n\\text{Forward rate in SEK/USD}=9.5238\\left(\\frac{1.07}{1.04}\\right)=9.7985\\\\\n\\text{The higher SEK interest rate implies approximately }3\\%\\text{ depreciation.}\n\\end{gathered}",
+              "display": true,
+              "sourceAsset": "2cadc8d820d707ee896a.png",
+              "prose": "The forward rate in SEK/USD is Because the SEK interest rate is the higher of the two, the SEK must depreciate approximately 3%."
+            }
+          ]
+        },
+        {
+          "id": "r19-q7",
+          "number": 7,
+          "objectiveIds": [
+            "19.b"
+          ],
+          "prompt": "The annual risk-free interest rate is 10% in the United States (USD) and 4% in Switzerland (CHF), and the 1-year forward rate is USD/CHF 0.80. Today’s USD/CHF spot rate is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.7564."
+            },
+            {
+              "id": "B",
+              "text": "0.8462."
+            },
+            {
+              "id": "C",
+              "text": "0.8888."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "We can solve for the spot rate as follows. With the exchange rates quoted as USD/CHF, the spot is Because the interest rate is higher in the United States, it should take fewer USD to buy CHF in the spot market. In other words, the USD must be at a forward discount relative to the CHF.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "We can solve for the spot rate as follows. With the exchange rates quoted as"
+            },
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{USD/CHF,the~spot~is~} 0.80 \\big( \\frac{1.04} {1.10} \\big)=0.7564.} \\\\ {\\mathrm{the~United~States,it~should~take~fewer~USD~to~buy~CHF~in~the~spot~market.~In~}} \\\\ {\\mathrm{other~words,the~USD~must~be~at~a~forward~discount~relative~to~the~CHE.~In~}} \\\\ \\end{array}\\\\[6pt]\\text{See the accompanying mathematical explanation.}\\end{gathered}",
+              "display": true,
+              "sourceAsset": "7973c9e97fb289306ab9.png",
+              "prose": "USD/CHF, the spot is Because the interest rate is higher in the United States, it should take fewer USD to buy CHF in the spot market. In other words, the USD must be at a forward discount relative to the CHF."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "readingId": 80,
+  "title": "Natural Resources",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "80.1",
+      "title": "Farmland, Timberland, and Commodities",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "80.a",
+          "text": "How can we explain features of raw land, timberland, and farmland and their investment characteristics?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Natural resources comprise raw land, land used for growing crops or timber, and commodities. Investment in natural resources can be a direct investment or via commingled funds such as exchange-traded funds, real estate investment trusts (REITs), limited partnerships, and limited liability companies (LLCs). Derivatives such as commodity futures and swaps are also commonly used for exposure to this asset class."
+        },
+        {
+          "type": "paragraph",
+          "text": "Raw land, farmland, and timberland are all illiquid investments, and their value is primarily driven by location. For timberland and farmland, proximity to transportation and markets increases value, as does access to water and quality of soil. While all three kinds of land can generate lease income and price appreciation, farmland and timberland also generate income from their output."
+        },
+        {
+          "type": "paragraph",
+          "text": "Farmland is primarily held by individuals, while institutions are most likely investors in raw land and timberland. Timberland lot sizes tend to be much larger than farmland. Timberland also requires specialized expertise. Investors who lack the expertise can invest through timberland investment management organizations (TIMOs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Farmland and timberland have fewer financing alternatives than residential and commercial real estate. Financing is often in the form of bank loans or direct private debt. Newer REITs in farmland allow retail investors to get a foothold in this category."
+        },
+        {
+          "type": "paragraph",
+          "text": "While most agricultural crops must be harvested within a short period, the choice of when to harvest timber is based on current prices and expected growth rates. Because commodity prices fluctuate, farmers often use short positions in commodity futures to hedge their expected harvest. Agricultural crops (including trees) consume carbon, and therefore, they are attractive to investors with an environmental, social, and governance (ESG) focus on climate change."
+        },
+        {
+          "type": "question",
+          "objectiveId": "80.b",
+          "text": "What should we know about features of commodities and their investment characteristics?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can divide commodities into three major sectors: metals (including base or industrial metals and precious metals), agricultural products, and energy products. Commodity contracts are also classified based on grade (quality) and delivery location."
+        },
+        {
+          "type": "paragraph",
+          "text": "Governments may provide subsidies for some food crops for consumers or price support to farmers. They may also control access to extractable natural resources or even be directly involved in production. Climate change–related regulation may decrease demand for fossil fuels while increasing demand for minerals such as lithium, cobalt, and nickel."
+        },
+        {
+          "type": "paragraph",
+          "text": "While it is possible to invest directly in commodities such as grain and gold, derivatives such as futures are more commonly used to gain exposure to commodities. Because commodities are physical goods, they have costs for storage and transportation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Futures, forwards, and options on futures are all available forms of commodity derivatives. Futures trade on exchanges and therefore have no counterparty risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other methods of exposure to commodities include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exchange-traded products (ETPs) include exchange-traded funds (ETFs) or exchange-traded notes (ETNs). ETPs are suitable for investors who are limited to buying equity shares. ETFs can invest in commodities or commodity futures and can track prices or indexes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Managed futures funds, such as commodity trading advisers (CTAs), are actively managed. Some managers concentrate on specific sectors (e.g., agricultural commodities), while others are more diversified. Managed futures funds can be structured as limited partnerships with fees like those of hedge funds and restrictions on the number, net worth, and liquidity of the investors. They can also be structured like mutual funds with shares that are publicly traded so that retail investors can benefit from professional management. This structure allows a lower minimum investment and offers greater liquidity than a limited partnership structure. Separately managed accounts (SMAs) are appropriate for larger investors who may require custom portfolios based on their individual preferences and needs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Specialized funds in specific commodity sectors can be organized under any of the structures we have discussed and focus on commodities such as oil and gas, grains, precious metals, or industrial metals."
+        },
+        {
+          "type": "heading",
+          "text": "Commodity Valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Wheat today and wheat six months from today are different products. Purchasing the commodity today will give the buyer the use of it if needed, while contracting for wheat to be delivered six months from today avoids storage costs (warehouse cost, insurance, and spoilage) and having cash tied up. An equation that considers these aspects is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs – convenience yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "Convenience yield is the nonmonetary value of having a physical commodity for use over the period of a futures contract. If there is little or no convenience yield, futures prices will be higher than spot prices, a situation termed contango. When the convenience yield is high enough to more than offset storage costs, futures prices will be less than spot prices, a situation referred to as backwardation. Contango decreases the return of long-only investors, while backwardation increases it."
+        },
+        {
+          "type": "question",
+          "objectiveId": "80.c",
+          "text": "How do we analyze sources of risk, return, and diversification among natural resource investments?"
+        },
+        {
+          "type": "heading",
+          "text": "Commodity Prices and Investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spot prices for commodities are a function of supply and demand. Demand is affected by the value of the commodity to end users and by global economic conditions. Supply is affected by production, storage costs, and existing inventories."
+        },
+        {
+          "type": "paragraph",
+          "text": "For many commodities, supply is inelastic in the short run because of long lead times to alter production levels (e.g., drill oil wells, plant crops, or decide to plant less of them). As a result, commodity prices can be volatile when demand changes significantly over the economic cycle, or when there are supply shocks such as natural disasters."
+        },
+        {
+          "type": "paragraph",
+          "text": "Production of some commodities, especially agricultural commodities, can be significantly affected by the weather and plant disease, leading to high prices when production is low and low prices when production is high. Costs of extracting oil and minerals increase as more expensive methods or more remote areas are used."
+        },
+        {
+          "type": "paragraph",
+          "text": "To estimate future needs, commodity producers analyze economic events, government policy, and forecasts of future supply. Investors analyze inventory levels, forecasts of production, changes in government policy, and expectations of economic growth to forecast commodity prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "In recent decades, returns and the volatility of returns have been higher for commodities than for global stocks or bonds. Timberland and farmland also have higher average returns, but with lower volatility than global stocks (but similar volatility to global bonds). As with other investments, speculators can earn high returns over short periods when their expectations about short-term commodity price movements are correct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Historically, correlations of commodity returns with the returns of global equities and global bonds have been low. As a result, adding commodities to a portfolio of traditional assets can provide diversification benefits. Because commodity prices tend to move with inflation rates, holding commodities can act as a hedge of inflation risk. During periods of high (low) inflation, commodities outperform (underperform) both stocks and bonds. Commodity prices are more sensitive to geopolitical and weather-related risk factors."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "80.a",
+      "text": "How can we explain features of raw land, timberland, and farmland and their investment characteristics?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Returns on farmland and timberland are driven by changes in land prices and prices for the underlying output. Risks of investing in farmland and timberland include low liquidity, variable cash flows that depend on weather, and potential losses from natural disasters."
+    },
+    {
+      "type": "question",
+      "objectiveId": "80.b",
+      "text": "What should we know about features of commodities and their investment characteristics?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Natural resource investments include commodities, farmland, and timberland."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exposure to commodity prices is most commonly achieved with derivatives. Other methods of exposure include commodity ETFs, managed futures funds, and specialized funds in specific commodity sectors."
+    },
+    {
+      "type": "paragraph",
+      "text": "futures price = spot price + net cost of carry"
+    },
+    {
+      "type": "paragraph",
+      "text": "When the convenience yield is sufficiently high (low), net cost of carry is negative (positive), a situation known as backwardation (contango). Contango decreases the return of long-only investors, while backwardation increases it."
+    },
+    {
+      "type": "question",
+      "objectiveId": "80.c",
+      "text": "How do we analyze sources of risk, return, and diversification among natural resource investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Returns on farmland and timberland include sales of the products raised on the land. Timberland returns also include price changes on the land, which depend on expected lumber prices and how much timber has been harvested. Farmland returns also depend on land price changes, changes in farm commodity prices, and the quality and quantity of the crops produced."
+    },
+    {
+      "type": "paragraph",
+      "text": "Commodity returns have low correlation with traditional asset classes and provide diversification benefits as well as a hedge against inflation."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "80.a",
+      "statement": "Explain features of raw land, timberland, and farmland and their investment characteristics.",
+      "question": "How can we explain features of raw land, timberland, and farmland and their investment characteristics?"
+    },
+    {
+      "id": "80.b",
+      "statement": "Describe features of commodities and their investment characteristics.",
+      "question": "What should we know about features of commodities and their investment characteristics?"
+    },
+    {
+      "id": "80.c",
+      "statement": "Analyze sources of risk, return, and diversification among natural resource investments.",
+      "question": "How do we analyze sources of risk, return, and diversification among natural resource investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-80-quiz-1",
+      "title": "Knowledge check 80.1",
+      "moduleId": "80.1",
+      "questions": [
+        {
+          "id": "r80-q1",
+          "number": 1,
+          "objectiveIds": [
+            "80.a"
+          ],
+          "prompt": "Which of the following is most likely an attribute of timberland and farmland?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "There is a flexibility option to increase output when market prices are high."
+            },
+            {
+              "id": "B",
+              "text": "They both cater to institutional investors."
+            },
+            {
+              "id": "C",
+              "text": "The investment is relatively illiquid."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Timberland and farmland are relatively illiquid. While timberland mostly caters to institutional investors due to the large investment required, most farms are family owned (individual investors). Only timberland enjoys the flexibility option, whereby the trees can be cut when the market price of timber is high. Farm products need to be harvested when ready.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Timberland and farmland are relatively illiquid. While timberland mostly caters to"
+            },
+            {
+              "type": "paragraph",
+              "text": "institutional investors due to the large investment required, most farms are family owned (individual investors). Only timberland enjoys the flexibility option, whereby the trees can be cut when the market price of timber is high. Farm products need to be harvested when ready."
+            }
+          ]
+        },
+        {
+          "id": "r80-q2",
+          "number": 2,
+          "objectiveIds": [
+            "80.b"
+          ],
+          "prompt": "Which of the following is least likely when net cost of carry for a commodity is negative?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Futures prices will be in backwardation."
+            },
+            {
+              "id": "B",
+              "text": "Futures prices will be in contango."
+            },
+            {
+              "id": "C",
+              "text": "Long-only investors will generally earn a higher return."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "When the cost of carry is negative, futures prices will be lower than the spot prices, which is called backwardation. Under backwardation, long-only investors will generally earn a higher return.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "When the cost of carry is negative, futures prices will be lower than the spot"
+            },
+            {
+              "type": "paragraph",
+              "text": "prices, which is called backwardation. Under backwardation, long-only investors will generally earn a higher return."
+            }
+          ]
+        },
+        {
+          "id": "r80-q3",
+          "number": 3,
+          "objectiveIds": [
+            "80.c"
+          ],
+          "prompt": "Which of the following is least accurate about commodity returns?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Returns and volatility have been higher for commodities than for stocks or bonds."
+            },
+            {
+              "id": "B",
+              "text": "Timberland and farmland returns have lower volatility as compared to global stock returns."
+            },
+            {
+              "id": "C",
+              "text": "Because commodity prices tend to have negative correlation with inflation rates, holding commodities can act as a hedge of inflation risk."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Because commodity prices tend to move with inflation rates (positive correlation), holding commodities can act as a hedge of inflation risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because commodity prices tend to move with inflation rates (positive"
+            },
+            {
+              "type": "paragraph",
+              "text": "correlation), holding commodities can act as a hedge of inflation risk."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

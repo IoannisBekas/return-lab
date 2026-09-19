@@ -1,0 +1,847 @@
+{
+  "readingId": 56,
+  "title": "Interest Rate Risk and Return",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "56.1",
+      "title": "Interest Rate Risk and Return",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "56.a",
+          "text": "How do we calculate and interpret the sources of return from investing in a fixed- rate bond?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are three sources of returns from investing in a fixed-rate bond:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Coupon and principal payments\n2. Interest earned on coupon payments that are reinvested over the investor’s holding"
+        },
+        {
+          "type": "paragraph",
+          "text": "period for the bond\n3. Any capital gain or loss if the bond is sold before maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "We will assume that a bond makes all of its promised coupon and principal payments on time (i.e., we are not addressing credit risk). Additionally, we assume that the interest rate earned on reinvested coupon payments is the same as the prevailing yield to maturity (YTM) on the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the assumptions just listed, we may draw five key results:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. An investor who holds a fixed-rate bond to maturity will earn an annualized rate of"
+        },
+        {
+          "type": "paragraph",
+          "text": "return equal to the YTM of the bond when purchased, if the YTM of the bond (and hence the reinvestment rate) does not change over the life of the bond.\n2. An investor who sells a bond before maturity will earn a rate of return equal to the"
+        },
+        {
+          "type": "paragraph",
+          "text": "YTM at purchase if the YTM has not changed since purchase.\n3. If the market YTM for the bond, our assumed reinvestment rate, increases"
+        },
+        {
+          "type": "paragraph",
+          "text": "(decreases) after the bond is purchased but before the first coupon date, an investor who holds the bond to maturity will earn a realized return that is higher (lower) than the original YTM of the bond when purchased."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. If the market YTM for the bond, our assumed reinvestment rate, increases after the"
+        },
+        {
+          "type": "paragraph",
+          "text": "bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a short period.\n5. If the market YTM for the bond, our assumed reinvestment rate, decreases after the"
+        },
+        {
+          "type": "paragraph",
+          "text": "bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a long period."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will present mathematical examples to demonstrate each of these results as well as some intuition as to why these results must hold."
+        },
+        {
+          "type": "paragraph",
+          "text": "We call the time that the bond will be held the investor’s investment horizon, which may be shorter than the bond’s maturity. A bond investor’s horizon yield is the compound annual return earned from the bond over the investment horizon. It is calculated by comparing the purchase price of the bond to the end value derived from holding the bond, which includes coupons, interest earned on reinvested coupons, and the sale price (or principal payment amount, if the bond is held to maturity)."
+        },
+        {
+          "type": "heading",
+          "text": "Unchanged YTM, Bond Held to Maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "We will illustrate this calculation (and the first result listed earlier) with a 6% annual-pay 3-year bond purchased at a YTM of 7% and held to maturity."
+        },
+        {
+          "type": "paragraph",
+          "text": "With an annual YTM of 7%, the bond’s purchase price is 97.376:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 3; I/Y = 7; PMT = 6; FV = 100; CPT → PV = −97.376"
+        },
+        {
+          "type": "paragraph",
+          "text": "At maturity, the investor will have received coupon income and reinvestment income equal to the future value of an annuity of three $6 coupon payments calculated with an interest rate equal to the bond’s YTM. This is the amount:"
+        },
+        {
+          "type": "paragraph",
+          "text": "6(1.07)² + 6(1.07) + 6 = $19.289"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 3; I/Y = 7; PV = 0; PMT = 6; CPT → FV = −19.289"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can easily calculate the amount earned from reinvestment of the coupons as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "19.289 − 3(6) = $1.289"
+        },
+        {
+          "type": "paragraph",
+          "text": "Adding the principal payment at maturity of $100 to $19.289, we can calculate the"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{investor's~rate~of~return~over~the~3-year~holding~period~as} \\left( \\frac{8119.289} {897.376} \\right)^{1 / 3}-1=7 \\mathcal{V}_{0} \\mathrm{~and~and~} \\frac{1} {19.289}",
+          "display": true,
+          "sourceAsset": "7236993357b4359e1de9.png",
+          "prose": "investor’s rate of return over the 3-year holding period as and"
+        },
+        {
+          "type": "paragraph",
+          "text": "demonstrate that $97.376 invested at a compound annual rate of 7% would return $119.289 after three years."
+        },
+        {
+          "type": "paragraph",
+          "text": "With this example, we have demonstrated our first result: for a fixed-rate bond that does not default and has a reinvestment rate equal to the YTM, an investor who holds the bond until maturity will earn a rate of return equal to the YTM at purchase."
+        },
+        {
+          "type": "heading",
+          "text": "Unchanged YTM, Bond Sold Before Maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now let’s examine the second result—that an investor who sells a bond before maturity will earn a rate of return equal to the YTM as long as the YTM has not changed since purchase. If the YTM of the bond remains unchanged, the value of a bond will move toward the par value of the bond by the maturity date. At dates between the purchase and the maturity, the value of a bond at the same YTM as when it was purchased is its carrying value, and it reflects the amortization of the discount or premium since the bond was purchased."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Carrying value is a price along a bond’s constant-yield price trajectory (in other words, it is the value of the bond at a certain time after purchase, assuming the original yield of the bond has not changed). It is referred to as carrying value because it is the value that is often shown on the balance sheet in financial reporting when a bond is held to maturity. This is not the same as the market value of the bond if its yield has changed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital gains or losses at the time a bond is sold are measured relative to this carrying value, as illustrated in the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Capital gain or loss on a bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor purchases a 20-year bond with a 5% semiannual coupon and a yield to maturity of 6%. Five years later, the investor sells the bond for a price of 91.40. Determine whether the investor realizes a capital gain or loss, and calculate its amount."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any capital gain or loss is based on the bond’s carrying value at the time of sale, when it has 15 years (30 semiannual periods) to maturity. The carrying value is calculated using the bond’s YTM at the time the investor purchased it:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 30; I/Y = 3; PMT = 2.5; FV = 100; CPT → PV = −90.20"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the selling price of 91.40 is greater than the carrying value of 90.20, the investor realizes a capital gain of 91.40 − 90.20 = 1.20 per 100 of face value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bonds held to maturity have no capital gain or loss. Bonds sold before maturity at the same YTM as at purchase will also have no capital gain or loss. Using the 6% 3-year bond from our earlier examples, we can demonstrate this for an investor with a two-year holding period (investment horizon)."
+        },
+        {
+          "type": "paragraph",
+          "text": "After the bond is purchased at a YTM of 7% (for 97.376), we have the following."
+        },
+        {
+          "type": "paragraph",
+          "text": "Price at sale (at end of Year 2, YTM = 7%):"
+        },
+        {
+          "type": "paragraph",
+          "text": "106 / 1.07 = 99.065"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 1; I/Y = 7; FV = 100; PMT = 6; CPT → PV = −99.065"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is the carrying value of the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupon interest and reinvestment income for two years:"
+        },
+        {
+          "type": "paragraph",
+          "text": "6(1.07) + 6 = $12.420"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 2; I/Y = 7; PV = 0; PMT = 6; CPT → FV = −12.420"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investor’s annual compound rate of return over the two-year holding period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( \\frac{12.420+99.065} {97.376} \\right)^{1 / 2}-1=7 \\%",
+          "display": true,
+          "sourceAsset": "87cda687944846ca91e7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This demonstrates the second key result we listed: that for a bond investor with a horizon less than the bond’s term to maturity, the annual return will be equal to the YTM at purchase if the bond is sold at that YTM and all coupons are reinvested at the original YTM."
+        },
+        {
+          "type": "heading",
+          "text": "Changed YTM, Bond Held to Maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Next let’s examine our third result—that if rates rise (fall) before the first coupon date, an investor who holds a bond to maturity will earn a rate of return greater (less) than the YTM at purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on our previous result that an investor who holds a bond to maturity will earn a rate of return equal to the YTM at purchase if the reinvestment rate is also equal to the YTM at purchase, the intuition of the third result is straightforward. If the YTM, which is also the reinvestment rate for the bond, increases (decreases) after purchase, the return from coupon payments and reinvestment income will increase (decrease) as a result, which will increase (decrease) the investor’s rate of return on the bond above (below) its YTM at purchase. The following calculations demonstrate these results for the 3-year 6% bond in our previous examples."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a 3-year 6% bond purchased at 97.376 (YTM of 7%), first assume that the YTM and reinvestment rate increases to 8% after purchase but before the first coupon payment date. The bond’s annualized holding period return is calculated as follows."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupons and reinvestment interest:"
+        },
+        {
+          "type": "paragraph",
+          "text": "6(1.08)² + 6(1.08) + 6 = $19.478"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 3; I/Y = 8; PV = 0; PMT = 6; CPT → FV = −19.478"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investor’s annual compound holding period return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( \\frac{119.478} {97.376} \\right)^{1 / 3}-1=7.06 \\%",
+          "display": true,
+          "sourceAsset": "f39f9effeb6190dea249.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is greater than the 7% YTM at purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the YTM decreases to 6% after purchase but before the first coupon date, we have the following."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupons and reinvestment interest:"
+        },
+        {
+          "type": "paragraph",
+          "text": "6(1.06)² + 6(1.06) + 6 = $19.102"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 3; I/Y = 6; PV = 0; PMT = 6; CPT → FV = −19.102"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investor’s annual compound holding period return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( \\frac{119.102} {97.376} \\right)^{1 / 3}-1=6.94 \\%",
+          "display": true,
+          "sourceAsset": "c0c3a7b559ed55b371c6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is less than the 7% YTM at purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that in both cases, the investor’s rate of return is between the YTM at purchase and the assumed reinvestment rate (the new YTM)."
+        },
+        {
+          "type": "heading",
+          "text": "Changed YTM, Bond Sold Before Maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "We now turn our attention to the fourth and fifth results concerning the effects of the length of an investor’s holding period on the rate of return for a bond that experiences an increase or decrease in its YTM before the first coupon date."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 3-year 6% bond purchased at 97.376 by an investor with a one-year investment horizon. If the YTM increases from 7% to 8% after purchase and the bond is sold after one year, the rate of return can be calculated as follows."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond price just after first coupon has been paid with YTM = 8%:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 2; I/Y = 8; FV = 100; PMT = 6; CPT → PV = −96.433"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no reinvestment income and only one coupon of $6 received, so the holding period rate of return is simply:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( \\frac{6+96.433} {97.376} \\right) \\! \\!-1=5.19 \\%",
+          "display": true,
+          "sourceAsset": "e8a80e2264b3e5aedce7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is less than the YTM at purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the YTM decreases to 6% after purchase and the bond is sold at the end of one year, the investor’s rate of return can be calculated as follows."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond price just after first coupon has been paid with YTM = 6%:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 2; I/Y = 6; FV = 100; PMT = 6; CPT → PV = −100.00"
+        },
+        {
+          "type": "paragraph",
+          "text": "And the holding period rate of return is simply:"
+        },
+        {
+          "type": "math",
+          "latex": "\\left( \\frac{6+100.00} {97.376} \\right) \\! \\!-1=8.86 \\%",
+          "display": true,
+          "sourceAsset": "c4866e99ccdb2b15fa7a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is greater than the YTM at purchase."
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition of this result is based on the idea of a tradeoff between price risk (the uncertainty about a bond’s price due to uncertainty about the prevailing market YTM at a time of sale) and reinvestment risk (uncertainty about the total of coupon payments and reinvestment income on those payments due to the uncertainty about future reinvestment rates)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Previously, we showed that for a bond held to maturity, the investor’s rate of return increased with an increase in the bond’s YTM and decreased with a decrease in the bond’s YTM. For an investor who intends to hold a bond to maturity, there is no price risk as we have defined it (because they do not intend to sell the bond). Assuming no default, the bond’s value at maturity is its par value regardless of interest rate changes, so that the investor has only reinvestment risk. Her realized return will increase when interest earned on reinvested cash flows increases, and decrease when the reinvestment rate decreases."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an investor with a short investment horizon, because they intend to sell the bond before maturity, price risk increases and reinvestment risk decreases. For the investor with a one-year investment horizon, there was no reinvestment risk because the bond was sold before any interest on coupon payments was earned. The investor had only price risk, so an increase in yield decreased the rate of return over the one-year holding"
+        },
+        {
+          "type": "paragraph",
+          "text": "period because the sale price was lower. Conversely, a decrease in yield increased the one-year holding period return to more than the YTM at purchase because the sale price was higher."
+        },
+        {
+          "type": "paragraph",
+          "text": "To summarize:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Short investment horizon: price risk > reinvestment risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long investment horizon: reinvestment risk > price risk"
+        },
+        {
+          "type": "question",
+          "objectiveId": "56.b",
+          "text": "What should we know about the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon?"
+        },
+        {
+          "type": "question",
+          "objectiveId": "56.c",
+          "text": "What should we understand about define, calculate, and interpret Macaulay duration?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Is there an investment horizon where price risk and reinvestment risk are in balance? There is, as demonstrated by the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Investment horizon yields"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 5-year, 11% annual coupon bond priced at 86.59 to yield 15% to maturity. Calculate the horizon yield for an investment horizon of 4 years, assuming that the YTM does the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. Falls to 14% before the first coupon date"
+        },
+        {
+          "type": "paragraph",
+          "text": "b. Rises to 16% before the first coupon date"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. Falls to 14% before the first coupon date"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sale after 4 years"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond price:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 1; PMT = 11; FV = 100; I/Y = 14; CPT → PV = 97.368"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupons and interest on reinvested coupons:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 4; PMT = 11; PV = 0; I/Y = 14; CPT → FV = 54.133"
+        },
+        {
+          "type": "paragraph",
+          "text": "Horizon return:"
+        },
+        {
+          "type": "paragraph",
+          "text": "[(97.368 + 54.133) / 86.59]¹/⁴ − 1 = 15.0% b. Rises to 16% before the first coupon date"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sale after 4 years"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond price:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 1; PMT = 11; FV = 100; I/Y = 16; CPT → PV = 95.690"
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupons and interest on reinvested coupons:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 4; PMT = 11; PV = 0; I/Y = 16; CPT → FV = 55.731"
+        },
+        {
+          "type": "paragraph",
+          "text": "Horizon return:"
+        },
+        {
+          "type": "paragraph",
+          "text": "[(95.690 + 55.731) / 86.59]¹/⁴ − 1 = 15.0%"
+        },
+        {
+          "type": "paragraph",
+          "text": "For an investment horizon of 4 years, the horizon return is equal to the original YTM of 15%, regardless of changes in the YTM of the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "This example shows that for a particular fixed-coupon bond, we can find an investment horizon that is neither short enough to face price risk nor long enough to face reinvest‐ ment risk. For this bond it was an investment horizon of four years. At this horizon, if the YTM decreases, losses on reinvestment income are just balanced by a gain in price. If the YTM increases, gains in reinvestment income are just offset by a loss in price."
+        },
+        {
+          "type": "paragraph",
+          "text": "How can we easily find this “sweet spot” investment horizon? We can determine the average time until the receipt of the cash flows of the bond, referred to as its Macaulay duration."
+        },
+        {
+          "type": "paragraph",
+          "text": "A bond’s (annual) Macaulay duration is calculated as the weighted average of the number of years until each of the bond’s promised cash flows is to be paid, where the weights are the present values of each cash flow as a percentage of the bond’s full value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the bond in the example. The present values of each of the bond’s promised payments, discounted at the bond’s YTM of 15%, and their weights in the calculation of Macaulay duration, are shown in the following table."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d192ade09369af125bf7.png",
+          "alt": "Equation, table, or diagram: nt values of each of the bond’s promised payments, discounted at the bond’s YTM of 15%, and their weights in the calculation of Macaulay duration, are shown in the following table.",
+          "width": 489,
+          "height": 138,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The present values of all the promised cash flows sum to 86.59 (the full price of the bond) and the weights sum to 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now that we have the weights, and because we know the time until each promised payment is to be made, we can calculate the Macaulay duration for this bond:"
+        },
+        {
+          "type": "paragraph",
+          "text": "0.1105(1) + 0.0961(2) + 0.0835(3) + 0.0726(4) + 0.6373(5) = 4.03 years"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our interpretation of this Macaulay duration is that, as demonstrated in the example, if we have an investment horizon of four years, then we still earn the original YTM of the bond out to this horizon—even if the YTM of the bond immediately changes after purchasing the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Macaulay duration of a semiannual-pay bond can be calculated in the same way: as a weighted average of the number of semiannual periods until the cash flows are to be received. In this case, the result is the number of semiannual periods rather than years (to express this in annualized terms, divide the number of semiannual periods by two)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference between a bond’s Macaulay duration and the bondholder’s investment horizon is referred to as a duration gap. A positive duration gap (Macaulay duration greater than the investment horizon) exposes the investor to price risk from increasing"
+        },
+        {
+          "type": "paragraph",
+          "text": "interest rates. A negative duration gap (Macaulay duration less than the investment horizon) exposes the investor to reinvestment risk from decreasing interest rates."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "56.a",
+      "text": "How do we calculate and interpret the sources of return from investing in a fixed- rate bond?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sources of return from a bond investment include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Coupon and principal payments"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reinvestment of coupon payments Capital gain or loss if bond is sold before maturity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Changes in yield to maturity (YTM) produce price risk (uncertainty about a bond’s price) and reinvestment risk (uncertainty about income from reinvesting coupon"
+    },
+    {
+      "type": "paragraph",
+      "text": "payments). An increase (a decrease) in YTM decreases (increases) a bond’s price but increases (decreases) its reinvestment income."
+    },
+    {
+      "type": "question",
+      "objectiveId": "56.b",
+      "text": "What should we know about the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Over a short investment horizon, a change in YTM affects price more than it affects reinvestment income."
+    },
+    {
+      "type": "paragraph",
+      "text": "Over a long investment horizon, a change in YTM affects reinvestment income more than it affects price."
+    },
+    {
+      "type": "paragraph",
+      "text": "The Macaulay duration may be interpreted as the investment horizon for which a bond’s price risk and reinvestment risk offset each other:"
+    },
+    {
+      "type": "paragraph",
+      "text": "duration gap = Macaulay duration − investment horizon"
+    },
+    {
+      "type": "question",
+      "objectiveId": "56.c",
+      "text": "What should we understand about define, calculate, and interpret Macaulay duration?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Macaulay duration is calculated as the weighted average of the number of years until each of the bond’s promised cash flows is to be paid, where the weights are the present values of each cash flow as a percentage of the bond’s full value."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "56.a",
+      "statement": "Calculate and interpret the sources of return from investing in a fixed- rate bond.",
+      "question": "How do we calculate and interpret the sources of return from investing in a fixed- rate bond?"
+    },
+    {
+      "id": "56.b",
+      "statement": "Describe the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon.",
+      "question": "What should we know about the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon?"
+    },
+    {
+      "id": "56.c",
+      "statement": "Define, calculate, and interpret Macaulay duration.",
+      "question": "What should we understand about define, calculate, and interpret Macaulay duration?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-56-quiz-1",
+      "title": "Knowledge check 56.1",
+      "moduleId": "56.1",
+      "questions": [
+        {
+          "id": "r56-q1",
+          "number": 1,
+          "objectiveIds": [
+            "56.a"
+          ],
+          "prompt": "The largest component of returns for a 7-year zero-coupon bond yielding 8% and held to maturity is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "capital gains."
+            },
+            {
+              "id": "B",
+              "text": "interest income."
+            },
+            {
+              "id": "C",
+              "text": "reinvestment income."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The increase in value of a zero-coupon bond over its life is interest income. A zero-coupon bond has no reinvestment risk over its life. A bond held to maturity has no capital gain or loss.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The increase in value of a zero-coupon bond over its life is interest income. A"
+            },
+            {
+              "type": "paragraph",
+              "text": "zero-coupon bond has no reinvestment risk over its life. A bond held to maturity has no capital gain or loss."
+            }
+          ]
+        },
+        {
+          "id": "r56-q2",
+          "number": 2,
+          "objectiveIds": [
+            "56.a"
+          ],
+          "prompt": "An investor buys a 10-year bond with a 6.5% annual coupon and a YTM of 6%. Before the first coupon payment is made, the YTM for the bond decreases to 5.5%. Assuming coupon payments are reinvested at the YTM, the investor’s return when the bond is held to maturity is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "less than 6.0%."
+            },
+            {
+              "id": "B",
+              "text": "equal to 6.0%."
+            },
+            {
+              "id": "C",
+              "text": "greater than 6.0%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The investment horizon is maturity, which means that the investor faces reinvestment risk (on average, the cash flows of the bond are received before maturity) and zero price risk. The decrease in the YTM to 5.5% will decrease the reinvestment income over the life of the bond so that the investor will earn less than 6%, the YTM at purchase.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The investment horizon is maturity, which means that the investor faces"
+            },
+            {
+              "type": "paragraph",
+              "text": "reinvestment risk (on average, the cash flows of the bond are received before maturity) and zero price risk. The decrease in the YTM to 5.5% will decrease the reinvestment income over the life of the bond so that the investor will earn less than 6%, the YTM at purchase."
+            }
+          ]
+        },
+        {
+          "id": "r56-q3",
+          "number": 3,
+          "objectiveIds": [
+            "56.a"
+          ],
+          "prompt": "Assuming coupon interest is reinvested at a bond’s YTM, what is the interest portion of an 18-year, $1,000 par, 5% annual coupon bond’s return if it is purchased at par and held to maturity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$576.95."
+            },
+            {
+              "id": "B",
+              "text": "$1,406.62."
+            },
+            {
+              "id": "C",
+              "text": "$1,476.95."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The interest portion of a bond’s return is the sum of the coupon payments and interest earned from reinvesting coupon payments over the holding period: N = 18; PMT = 50; PV = 0; I/Y = 5%; CPT → FV = −1,406.62",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The interest portion of a bond’s return is the sum of the coupon payments and"
+            },
+            {
+              "type": "paragraph",
+              "text": "interest earned from reinvesting coupon payments over the holding period:"
+            },
+            {
+              "type": "paragraph",
+              "text": "N = 18; PMT = 50; PV = 0; I/Y = 5%; CPT → FV = −1,406.62"
+            }
+          ]
+        },
+        {
+          "id": "r56-q4",
+          "number": 4,
+          "objectiveIds": [
+            "56.a"
+          ],
+          "prompt": "An investor buys a 15-year, £800,000, zero-coupon bond with an annual YTM of 7.3%. If she sells the bond after three years for £346,333, she will have:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a capital gain."
+            },
+            {
+              "id": "B",
+              "text": "a capital loss."
+            },
+            {
+              "id": "C",
+              "text": "neither a capital gain nor a capital loss."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The price of the bond after three years that will generate neither a capital gain nor a capital loss is the price if the YTM remains at 7.3%. After three years, the present value of the bond is 800,000 / 1.073¹² = 343,473.57, so she will have a capital gain relative to the bond’s carrying value.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The price of the bond after three years that will generate neither a capital gain nor"
+            },
+            {
+              "type": "paragraph",
+              "text": "a capital loss is the price if the YTM remains at 7.3%. After three years, the present value of the bond is 800,000 / 1.073¹² = 343,473.57, so she will have a capital gain relative to the bond’s carrying value."
+            }
+          ]
+        },
+        {
+          "id": "r56-q5",
+          "number": 5,
+          "objectiveIds": [
+            "56.b"
+          ],
+          "prompt": "An investor with an investment horizon of six years buys a bond with a Macaulay duration of seven years. This investment has:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "no duration gap."
+            },
+            {
+              "id": "B",
+              "text": "a positive duration gap."
+            },
+            {
+              "id": "C",
+              "text": "a negative duration gap."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Duration gap is the Macaulay duration minus the investment horizon. This bond has a Macaulay duration greater than six years, and the investment has a positive duration gap.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Duration gap is the Macaulay duration minus the investment horizon. This bond"
+            },
+            {
+              "type": "paragraph",
+              "text": "has a Macaulay duration greater than six years, and the investment has a positive duration gap."
+            }
+          ]
+        },
+        {
+          "id": "r56-q6",
+          "number": 6,
+          "objectiveIds": [
+            "56.c"
+          ],
+          "prompt": "The Macaulay duration (in years) of a 2-year semiannual-pay 7% coupon bond yielding 5% is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.38."
+            },
+            {
+              "id": "B",
+              "text": "1.90."
+            },
+            {
+              "id": "C",
+              "text": "3.81."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The Macaulay duration is, therefore, calculated as weighted average time as follows: 0.0329(1) + 0.0321(2) + 0.0313(3) + 0.9037(4) = 3.806 Then, the annualized Macaulay duration is 3.806 / 2 = 1.90 years.",
+          "solutionBlocks": [
+            {
+              "type": "image",
+              "src": "content/figures/bee5e481e40d6ac920ad.png",
+              "alt": "Equation, table, or diagram: 6. B",
+              "width": 534,
+              "height": 112,
+              "visualKind": "diagram-chart-or-table"
+            },
+            {
+              "type": "paragraph",
+              "text": "The Macaulay duration is, therefore, calculated as weighted average time as follows:"
+            },
+            {
+              "type": "paragraph",
+              "text": "0.0329(1) + 0.0321(2) + 0.0313(3) + 0.9037(4) = 3.806"
+            },
+            {
+              "type": "paragraph",
+              "text": "Then, the annualized Macaulay duration is 3.806 / 2 = 1.90 years."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

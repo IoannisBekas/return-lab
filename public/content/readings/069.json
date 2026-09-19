@@ -1,0 +1,462 @@
+{
+  "readingId": 69,
+  "title": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "69.1",
+      "title": "Arbitrage, Replication, and Carrying Costs",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "69.a",
+          "text": "How can we explain how the concepts of arbitrage and replication are used in pricing derivatives?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast to valuing risky assets as the (risk-adjusted) present value of expected future cash flows, the valuation of derivative securities is based on a no-arbitrage condition. Arbitrage refers to a transaction in which an investor purchases one asset or portfolio of assets at one price and simultaneously sells an asset or portfolio of assets that has the same future payoffs, regardless of future events, at a higher price, realizing a risk-free gain on the transaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "While arbitrage opportunities may be rare, the reasoning is that when they do exist, they will be exploited rapidly. Therefore, we can use a no-arbitrage condition to determine the current value of a derivative, based on the known value of a portfolio of assets that has the same future payoffs as the derivative, regardless of future events. Because there are transaction costs of exploiting an arbitrage opportunity, small differences in price may persist when the arbitrage gain is less than the transaction costs of exploiting it."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can illustrate no-arbitrage pricing with a 1-year forward contract, with a forward price of F0(1), on an Acme share that pays no dividends and is trading at a current price, S0, of $30."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two strategies to own an Acme share at t =1:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Portfolio 1: Buy a pure discount bond with a yield of 5% that pays F0(1) at t = 1. The current cost of the bond is F0(1)/1.05. Additionally, enter a forward contract on one Acme share at F0(1) as the buyer. The forward has a zero cost, so the cost of Portfolio 1 is F0(1)/1.05."
+        },
+        {
+          "type": "paragraph",
+          "text": "At t = 1 the bond pays F0(1), which will buy an Acme share at the forward price, so that the payoff on Portfolio 1 is the value of one share at t = 1, S1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Portfolio 2: Buy a share of Acme at S0 = 30 and hold it for one year. Cost at t = 0 is $30."
+        },
+        {
+          "type": "paragraph",
+          "text": "At t = 1 the value of the Acme share is S1, and this is the payoff for Portfolio 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "The no-arbitrage condition (law of one price) requires that two portfolios with the same payoff in the future for any future value of Acme have the same cost today. Because our two portfolios have a payoff of S1, they must have the same cost at t = 0 to prevent arbitrage. That is, F0(1)/1.05 = $30, so we can solve for the no-arbitrage forward price as F0(1) = 30(1.05) = 31.50."
+        },
+        {
+          "type": "paragraph",
+          "text": "To better understand the no-arbitrage condition, we will consider two situations in which the forward price is not at its no-arbitrage value: F0(1) > 31.50 and F0(1) < 31.50."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the forward contract price is 32 (F0(1) > 31.50), the profitable arbitrage is to sell the forward (because the forward price is “too high”) and buy a share of stock. At t = 1, deliver the share under the forward contract and receive 32, for a return of 32/30 – 1 = 6.67%, which is higher than the risk-free rate. We can also view this transaction as borrowing 30 at the risk-free rate (5%) to buy the Acme share at t = 0, and at t = 1 paying 31.50 to settle the loan. The share delivered under the forward has a contract price of 32, so the arbitrageur has an arbitrage profit of 32 – 31.50 = 0.50 with no risk and no initial cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the forward contract price is 31 (F0(1) < 31.50), the profitable arbitrage is to buy the forward and sell short an Acme share at t = 0. The proceeds of the short sale, 30, can be invested at the risk-free rate to produce 30(1.05) = 31.50 at t = 1. The forward contract requires the purchase of a share of Acme for 31, which the investor can return to close out the short position. The profit to an arbitrageur is 31.50 – 31 = 0.50. With no cash investment at t = 0, the investor receives an arbitrage profit of 0.50 at t = 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the forward price is “too high,” the arbitrage is to sell the forward and buy the underlying asset. When the forward price is “too low,” the arbitrage is to buy the forward and sell (short) the underlying asset. In either case, the actions of arbitrageurs will move the forward price toward its no-arbitrage level until arbitrage profits are no longer possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Replication refers to creating a portfolio with cash market transactions that has the same payoffs as a derivative for all possible future values of the underlying."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our arbitrage example for Acme forwards will serve to illustrate replication."
+        },
+        {
+          "type": "paragraph",
+          "text": "A long forward on an Acme share can be replicated by borrowing 30 at 5% to purchase an Acme share, and repaying the loan on the settlement date of the forward. At settlement (t = 1), the payoff on the replication is S1 – 30(1.05) = S1 – 31.50 (value of one share minus the repayment of the loan), the same as the payoff on a long forward at 31.50, for any value of Acme shares at settlement."
+        },
+        {
+          "type": "paragraph",
+          "text": "A short forward on an Acme share can be replicated by shorting an Acme share and investing the proceeds of 30 at 5%. At settlement the investor receives 31.50 from the investment of short sale proceeds, and must buy a share of Acme for S1. The payoff on the replicating portfolio is 31.50 – S1, the same as the payoff on a short forward at 31.50, for any value of Acme shares at settlement."
+        },
+        {
+          "type": "paragraph",
+          "text": "These replications allow us to calculate the no-arbitrage forward price of an asset, just as we did in our example using Acme shares. Because our replicating portfolio for a long forward has the same payoff as a long forward at time = T, the payoff at settlement on a portfolio that is long the replicating portfolio and short the forward must be zero to prevent arbitrage. For this strategy, when the forward is priced at its no-arbitrage value the payoff at time = T is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{S_{T}-S_{0} ( 1+R f )^{T}-[ S_{T}-F_{0} ( T ) ]=0 ~}}} \\\\ {{\\mathrm{s o ~ t h a t ~ F_{0} ( T )-S_{0} ( 1+R f )^{T}=0 ~ a n d ~ F_{0} ( T )=S_{0} ( 1+R f )^{T} .}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "c6c753f06b3f91e1c010.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a portfolio that is short the replicating portfolio and long the forward, the payoff at time T is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r l} {} & {{} {\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}} \\! \\!-S_{\\mathrm{T}}+[ \\mathrm{S}_{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} ) ]=0} \\\\ {} & {{} {\\mathrm{so~that~S}}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} )=0 {\\mathrm{~and~}} \\mathrm{F}_{0} ( \\mathrm{T} )=\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}} .} \\end{array}",
+          "display": true,
+          "sourceAsset": "f149b9a1e0a4292e7632.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The forward price that will prevent arbitrage is S0(1 + Rf)T, just as we found in our example of a forward contract on an Acme share."
+        },
+        {
+          "type": "question",
+          "objectiveId": "69.b",
+          "text": "How can we explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset?"
+        },
+        {
+          "type": "paragraph",
+          "text": "When we derived the no-arbitrage forward price for an asset as F0(T) = S0(1 + Rf)T, we assumed there were no benefits of holding the asset and no costs of holding the asset, other than the opportunity cost of the funds to purchase the asset (the risk-free rate of interest)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Any additional costs or benefits of holding the underlying asset must be accounted for in calculating the no-arbitrage forward price. There may be additional costs of owning an asset, especially with commodities, such as storage and insurance costs. For financial assets, these costs are very low and not significant."
+        },
+        {
+          "type": "paragraph",
+          "text": "There may also be monetary benefits to holding an asset, such as dividend payments for equities and interest payments for debt instruments. Holding commodities may have non-monetary benefits, referred to as convenience yield. If an asset is difficult to sell short in the market, owning it may convey benefits in circumstances where selling the asset is advantageous. For example, a shortage of the asset may drive prices up temporarily, making sale of the asset in the short term profitable."
+        },
+        {
+          "type": "paragraph",
+          "text": "We denote the present value of any costs of holding the asset from time 0 to settlement at time T (e.g., storage, insurance, spoilage) as PV0(cost), and the present value of any cash flows from the asset or convenience yield over the holding period as PV0(benefit)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider first a case where there are storage costs of holding the asset, but no benefits. For an asset with no costs or benefits of holding the asset, we established the no-arbitrage forward price as S0(1 + Rf)T, the cost of buying and holding the underlying asset until time T. When there are storage costs to hold the asset until time T, an arbitrageur must both buy the asset and pay the present value of storage costs at t = 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "This increases the no-arbitrage price of a 1-year forward to [S0+ PV0(cost)](1 + Rf)T. Here we see that costs of holding an asset increase its no-arbitrage forward price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Next consider a case where holding the asset has benefits, but no costs. Returning to our example of a 1-year forward on a share of Acme stock trading at 30, now consider the costs of buying and holding an Acme share that pays a dividend of $1 during the life of the forward contract. In this case, an arbitrageur can now borrow the present value of the dividend (discounted at Rf), and repay that loan when the dividend is received. The cost to buy and hold Acme stock with an annual dividend of $1 is [30 – PV0(1)] (1.05) = 30(1.05) – 1. This illustrates that benefits of holding an asset decrease its no-arbitrage forward price."
+        },
+        {
+          "type": "paragraph",
+          "text": "The no-arbitrage price of a forward on an asset that has both costs and benefits of holding the asset is simply [S0 + PV0 (costs) – PV0(benefit)](1 + Rf)T."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also describe these relationships when costs and benefits are expressed as continuously compounded rates of return. Recall from Quantitative Methods that given a stated annual rate of r with continuous compounding, the effective annual return is er"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1, and the relationships between present and future values of S for a 1-year period are FV = Ser and PV = Se−r. For a period of T years, FV = SerT and PV = Se−rT. With continuous compounding the following relationships hold:"
+        },
+        {
+          "type": "paragraph",
+          "text": "With no costs or benefits of holding the underlying asset, the no-arbitrage price of a forward that settles at time T is S0erT, where r is the stated annual risk-free rate with continuous compounding."
+        },
+        {
+          "type": "paragraph",
+          "text": "With storage costs at a continuously compounded annual rate of c, the no-arbitrage forward price until time T is S0e⁽r⁺c⁾T."
+        },
+        {
+          "type": "paragraph",
+          "text": "With benefits, such as a dividend yield, expressed at a continuously compounded annual rate of b, the no-arbitrage forward price is until time T is S0e⁽r⁺c−b⁾T."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: No-arbitrage price with continuous compounding"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a stock index trading at 1,550 with a dividend yield of 1.3% (continuously compounded rate) when the risk-free rate is 3% (continuously compounded rate). Calculate the no-arbitrage 6-month forward price of the stock index."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The no-arbitrage price of a long 6-month forward is 1,550 × e⁽⁰.⁰³ − ⁰.⁰¹³⁾⁽⁰.⁵⁾ = 1,563.23."
+        },
+        {
+          "type": "heading",
+          "text": "Forward Contracts on Currencies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from Economics that we defined the no-arbitrage price of a forward on a currency as the forward price that satisfies the equality:"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Forward exchange rate (p/b)}\n=\\frac{1+\\text{interest rate}_{\\text{price currency}}}\n{1+\\text{interest rate}_{\\text{base currency}}}\n\\times\\text{spot exchange rate}",
+          "display": true,
+          "sourceAsset": "7caaa04c50c969d43382.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use this no-arbitrage forward rate to examine how an arbitrage profit can be made when the exchange rate in a forward contract is greater or less than the no-arbitrage forward exchange rate. The forward exchange rate depends on the spot exchange rate and the difference between the interest rates on the base and price currencies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a situation at t = 0 where the risk-free rate in euros is 3%, the risk-free rate in U.S. dollars is 2%, and the current USD/EUR exchange rate is 1.10. We will examine the arbitrage transactions that establish this relationship by looking at the trades for an investor based in the United States that seeks to profit from the higher interest rate on euros. The investor borrows 100 USD for one year at 2%, exchanges the USD for euros, invests the euros for one year at 3%, and then exchanges the resulting euros for USD. At the end of one year the arbitrageur will have 100/1.10 × 1.03 = 93.64 euros and owe 100(1.02) = 102 USD."
+        },
+        {
+          "type": "paragraph",
+          "text": "As these transactions have no net cost, there should be no gain from this transaction relative to simply investing the USD for one year at 2%. If this is the case, the 93.64 euros should equal 102 USD. This is the case if the exchange rate at the end of the year is 102/93.64, which equals a USD/EUR exchange rate of 1.0893. This is the no-arbitrage forward rate. From the formula we saw in Economics we can arrive at the same solution by 1.10 × (1.02/1.03) = 1.0893."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the arbitrageur has a forward contract to buy USD with a price of 1/1.0893 = 0.9180 euros, he can exchange the 93.64 euros for 93.64/0.9180 = 102 USD, which is the amount owed on the original loan of 100 USD. The depreciation of the euro in the forward price just offsets the higher euro interest, and the arbitrage transaction returns zero. With a forward exchange rate greater than 1.0893, the arbitrage would have a profit, and with a forward exchange rate less than 1.0893, an arbitrageur could profit from the opposite transactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we convert the effective annual rates to equivalent stated annual rates with continuous compounding, we get RUSD = ln 1.02 = 1.98% and REUR = ln 1.03 = 2.96%. In"
+        },
+        {
+          "type": "paragraph",
+          "text": "this case we can say: forward exchange rate = 1.10 × e⁽⁰.⁰¹⁹⁸−⁰.⁰²⁹⁶⁾ = 1.0893."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "69.a",
+      "text": "How can we explain how the concepts of arbitrage and replication are used in pricing derivatives?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Valuation of derivative securities is based on a no-arbitrage condition. When the forward price is too high, the arbitrage is to sell the forward and buy the underlying asset. When the forward price is too low, the arbitrage is to buy the forward and sell short the underlying asset. Arbitrage will move the forward price toward its no-arbitrage level."
+    },
+    {
+      "type": "paragraph",
+      "text": "Replication refers to creating a portfolio with cash market transactions that has the same payoffs as a derivative for all possible future values of the underlying. Replication allows us to calculate the no-arbitrage forward price of an asset."
+    },
+    {
+      "type": "question",
+      "objectiveId": "69.b",
+      "text": "How can we explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assuming no costs or benefits of holding the underlying asset, the forward price that will prevent arbitrage is the spot price compounded at the risk-free rate over the time until expiration."
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost of carry is the benefits of holding the asset minus the costs of holding the asset."
+    },
+    {
+      "type": "paragraph",
+      "text": "Greater costs of holding an asset increase its no-arbitrage forward price."
+    },
+    {
+      "type": "paragraph",
+      "text": "Greater benefits of holding an asset decrease its no-arbitrage forward price."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "69.a",
+      "statement": "Explain how the concepts of arbitrage and replication are used in pricing derivatives.",
+      "question": "How can we explain how the concepts of arbitrage and replication are used in pricing derivatives?"
+    },
+    {
+      "id": "69.b",
+      "statement": "Explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset.",
+      "question": "How can we explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-69-quiz-1",
+      "title": "Knowledge check 69.1",
+      "moduleId": "69.1",
+      "questions": [
+        {
+          "id": "r69-q1",
+          "number": 1,
+          "objectiveIds": [
+            "69.a"
+          ],
+          "prompt": "Derivatives pricing models use the risk-free rate to discount future cash flows because these models:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "are based on portfolios with certain payoffs."
+            },
+            {
+              "id": "B",
+              "text": "assume that derivatives investors are risk-neutral."
+            },
+            {
+              "id": "C",
+              "text": "assume that risk can be eliminated by diversification."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Derivatives pricing models use the risk-free rate to discount future cash flows because they are based on arbitrage relationships that are theoretically riskless.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Derivatives pricing models use the risk-free rate to discount future cash flows"
+            },
+            {
+              "type": "paragraph",
+              "text": "because they are based on arbitrage relationships that are theoretically riskless."
+            }
+          ]
+        },
+        {
+          "id": "r69-q2",
+          "number": 2,
+          "objectiveIds": [
+            "69.a"
+          ],
+          "prompt": "Arbitrage prevents:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "market efficiency."
+            },
+            {
+              "id": "B",
+              "text": "earning returns higher than the risk-free rate of return."
+            },
+            {
+              "id": "C",
+              "text": "two assets with identical payoffs from selling at different prices."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Arbitrage forces two assets with the same expected future value to sell for the same current price.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Arbitrage forces two assets with the same expected future value to sell for the"
+            },
+            {
+              "type": "paragraph",
+              "text": "same current price."
+            }
+          ]
+        },
+        {
+          "id": "r69-q3",
+          "number": 3,
+          "objectiveIds": [
+            "69.b"
+          ],
+          "prompt": "The underlying asset of a derivative is most likely to have a convenience yield when the asset:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is difficult to sell short."
+            },
+            {
+              "id": "B",
+              "text": "pays interest or dividends."
+            },
+            {
+              "id": "C",
+              "text": "must be stored and insured."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Convenience yield refers to nonmonetary benefits from holding an asset. One example of convenience yield is the advantage of owning an asset that is difficult to sell short when it is perceived to be overvalued. Interest and dividends are monetary benefits. Storage and insurance are carrying costs.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Convenience yield refers to nonmonetary benefits from holding an asset. One"
+            },
+            {
+              "type": "paragraph",
+              "text": "example of convenience yield is the advantage of owning an asset that is difficult"
+            },
+            {
+              "type": "paragraph",
+              "text": "to sell short when it is perceived to be overvalued. Interest and dividends are monetary benefits. Storage and insurance are carrying costs."
+            }
+          ]
+        },
+        {
+          "id": "r69-q4",
+          "number": 4,
+          "objectiveIds": [
+            "69.a"
+          ],
+          "prompt": "An investor can replicate a long forward on a stock that pays no dividends by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "selling the underlying short and investing the proceeds at the risk-free rate."
+            },
+            {
+              "id": "B",
+              "text": "buying the underlying in the spot market and holding it."
+            },
+            {
+              "id": "C",
+              "text": "borrowing at the risk-free rate to buy the underlying."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Borrowing S0 at Rf to buy the underlying asset at S0 has a zero cost and pays the spot price of the underlying asset minus the loan repayment of at time = T of S0(1 + Rf)T, which is the same payoff as a long forward at F0 = S0(1 + Rf)T, the no-arbitrage forward price.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Borrowing S0 at Rf to buy the underlying asset at S0 has a zero cost and pays the"
+            },
+            {
+              "type": "paragraph",
+              "text": "spot price of the underlying asset minus the loan repayment of at time = T of S0(1"
+            },
+            {
+              "type": "paragraph",
+              "text": "+ Rf)T, which is the same payoff as a long forward at F0 = S0(1 + Rf)T, the no-arbitrage forward price."
+            }
+          ]
+        },
+        {
+          "id": "r69-q5",
+          "number": 5,
+          "objectiveIds": [
+            "69.b"
+          ],
+          "prompt": "The forward price of a commodity will most likely be equal to the current spot price if the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "convenience yield equals the storage costs as a percentage."
+            },
+            {
+              "id": "B",
+              "text": "convenience yield is equal to the risk-free rate plus storage costs as a percentage."
+            },
+            {
+              "id": "C",
+              "text": "risk-free rate equals the storage costs as a percentage minus the convenience yield."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "When the opportunity cost of funds (Rf) and storage costs just offset the benefits of holding the commodity, the no-arbitrage forward price is equal to the current spot price of the underlying commodity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "When the opportunity cost of funds (Rf) and storage costs just offset the benefits"
+            },
+            {
+              "type": "paragraph",
+              "text": "of holding the commodity, the no-arbitrage forward price is equal to the current spot price of the underlying commodity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

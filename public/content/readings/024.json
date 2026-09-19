@@ -1,0 +1,761 @@
+{
+  "readingId": 24,
+  "title": "Capital Investments and Capital Allocation",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "24.1",
+      "title": "Capital Investments and Project Measures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "24.a",
+          "text": "What should we know about types of capital investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The four types of capital investments include going concern projects, regulatory/compliance projects, expansion projects, and other projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Going concern projects may be needed to maintain the business or reduce costs. Projects that maintain the business do not require detailed analysis. The only issues are whether the existing operations should continue and, if so, whether existing procedures or processes should be maintained. Projects to improve efficiency may involve determining if equipment that is obsolete, but still usable, should be replaced. To reduce financing risk, companies often use a match funding approach, financing projects with capital sources that are consistent with the project life. Analysts often use a company’s annual depreciation expense as an estimate of the capital investment it needs for going concern projects. Regulatory/compliance projects may be required by a government agency or insurance company and often involve safety-related or environmental concerns. These projects typically generate little to no revenue and require the company to evaluate alternative ways of carrying out the projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Expansion projects grow the business and require a complex decision-making process that includes forecasting future demand. Expansion projects can involve entering new markets or introducing new products within the same market. A detailed analysis including forecasting revenues and expenses is required. Other projects, such as new investments outside a company’s existing lines of business, also entail a complex decision-making process with detailed analysis due to the uncertainty involved. Other projects are often similar to startups that explore a new technology or business idea. These projects can also involve buying out an existing company in a new industry, which involve risks that include overpaying."
+        },
+        {
+          "type": "question",
+          "objectiveId": "24.b",
+          "text": "What should we know about the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and?"
+        },
+        {
+          "type": "heading",
+          "text": "contrast their use in capital allocation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The capital allocation process is identifying and evaluating capital projects (i.e., projects where the cash flows to the firm will be received over a period longer than a year). Any corporate decisions with an impact on future earnings can be examined using this framework. Decisions about buying a new machine, expanding business into another geographic area, moving the corporate headquarters to Cleveland, or replacing a delivery truck, to name a few, can be examined using a capital allocation analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a number of good reasons, capital allocation may be the most important responsibility that a financial manager has. First, because a capital allocation decision often involves the purchase of costly long-term assets with lives of many years, the decisions made may determine the future success of the firm. Second, the principles underlying the capital allocation process also apply to other corporate decisions, such as working capital management and making strategic mergers and acquisitions. Finally, making good capital allocation decisions is consistent with management’s primary goal of maximizing shareholder value."
+        },
+        {
+          "type": "paragraph",
+          "text": "The capital allocation process has four administrative steps:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1:  Idea generation. The most important step in the capital allocation process is"
+        },
+        {
+          "type": "paragraph",
+          "text": "generating good project ideas. Ideas can come from a number of sources, including senior management, functional divisions, employees, or sources outside the company. Step 2:  Analyzing project proposals. Because the decision to accept or reject a capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "project is based on the project’s expected future cash flows, a cash flow forecast must be made for each project to determine its expected profitability. Step 3:  Create the firm-wide capital budget. Firms must prioritize profitable projects"
+        },
+        {
+          "type": "paragraph",
+          "text": "according to the timing of the project’s cash flows, available company resources, and the company’s overall strategic plan. Many projects that are attractive individually may not make sense strategically. Step 4:  Monitoring decisions and conducting a post-audit. It is important to follow up"
+        },
+        {
+          "type": "paragraph",
+          "text": "on all capital allocation decisions. An analyst should compare the actual results to the projected results, and project managers should explain why projections did or did not match actual performance. Because the capital allocation process is only as good as the estimates of the inputs into the model used to forecast cash flows, a post-audit should be used to identify systematic errors in the forecasting process and improve company operations."
+        },
+        {
+          "type": "heading",
+          "text": "Net Present Value (NPV)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net present value (NPV) is the sum of the present values of all the expected incremental cash flows if a project is undertaken. The discount rate used is the firm’s cost of capital, adjusted for the risk level of the project. For a normal project, with an initial cash outflow followed by a series of expected after-tax cash inflows, the NPV is the present value of the expected inflows minus the initial cost of the project."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nNPV=CF_0+\\frac{CF_1}{(1+k)^1}+\\frac{CF_2}{(1+k)^2}+\\cdots+\\frac{CF_n}{(1+k)^n}\n=\\sum_{t=0}^{n}\\frac{CF_t}{(1+k)^t}\\\\\nCF_0=\\text{initial investment outlay};\\quad CF_t=\\text{after-tax cash flow at time }t;\\quad\nk=\\text{required rate of return}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "0e824a9a1e09a3080901.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A positive NPV project is expected to increase shareholder wealth, a negative NPV project is expected to decrease shareholder wealth, and a zero NPV project has no expected effect on shareholder wealth."
+        },
+        {
+          "type": "paragraph",
+          "text": "For independent projects, the NPV decision rule is simply to accept any project with a positive NPV and to reject any project with a negative NPV."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Net present value"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the project cash flows presented in Figure 24.1, calculate the NPV of the project and determine whether it should be accepted or rejected. Assume that the cost of capital is 9%."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 24.1: Expected Net After-Tax Cash Flows"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b71b7cae1deda1f0d8cf.png",
+          "alt": "Equation, table, or diagram: Figure 24.1: Expected Net After-Tax Cash Flows",
+          "width": 192,
+          "height": 115,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{NPV}}=-100+{\\frac{25} {1.09}}+{\\frac{50} {( 1.09 )^{2}}}+{\\frac{75} {( 1.09 )^{3}}}=22.93",
+          "display": true,
+          "sourceAsset": "40977cd1f9c3e5c96d68.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The project has a positive NPV, so it should be accepted."
+        },
+        {
+          "type": "paragraph",
+          "text": "You may calculate NPV directly by using the cash flow (CF) keys on your calculator. The process is illustrated in Figure 24.2."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 24.2: Calculating NPV With the TI BA II Plus™"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5542ca21f605a2cfa982.png",
+          "alt": "Equation, table, or diagram: Figure 24.2: Calculating NPV With the TI BA II Plus™",
+          "width": 479,
+          "height": 278,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Internal Rate of Return (IRR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a normal project, the internal rate of return (IRR) is the discount rate that makes the present value of the expected incremental after-tax cash inflows just equal to the initial cost of the project. More generally, the IRR is the discount rate that makes the present value of a project’s estimated cash inflows equal to the present value of the project’s estimated cash outflows. That is, IRR is the discount rate that makes the following relationship hold:"
+        },
+        {
+          "type": "paragraph",
+          "text": "PV inflows = PV outflows"
+        },
+        {
+          "type": "paragraph",
+          "text": "The IRR is also the discount rate for which the NPV of a project is equal to zero:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{NPV}=0=\\mathrm{CF}_{0}+{\\frac{\\mathrm{CF}_{1}} {( 1+\\mathrm{IRR} )^{1}}}+{\\frac{\\mathrm{CF}_{2}} {( 1+\\mathrm{IRR} )^{2}}}+. . .+{\\frac{\\mathrm{CF}_{\\mathrm{a}}} {( 1+\\mathrm{IRR} )^{\\mathrm{a}}}}=\\sum_{t=0}^{\\mathrm{a}} {\\frac{\\mathrm{CF}_{t}} {( 1+\\mathrm{IRR} )^{\\mathrm{a}}}}",
+          "display": true,
+          "sourceAsset": "fcf2cfeb3fcecfa4f571.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "IRR decision rule: If IRR is greater than the required rate of return, accept the project. If IRR is less than the required rate of return, reject the project."
+        },
+        {
+          "type": "paragraph",
+          "text": "The required rate of return for a given project is usually the firm’s cost of capital. However, a project analyst may adjust the required rate of return above or below the firm’s cost of capital to account for differences between the project’s risk and the average risk of all of the firm’s projects (which is reflected in the firm’s current cost of capital)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For this reason, the minimum IRR above which a project will be accepted is often referred to as the hurdle rate. Projects with IRRs above this rate will be accepted, while those with IRRs below this rate will not be accepted."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Internal rate of return"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuing with the cash flows presented in Figure 24.1 for the previous example, calculate the IRR of the project and determine whether it should be accepted or"
+        },
+        {
+          "type": "paragraph",
+          "text": "rejected. Assume that the required rate of return is 9%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "0=-100+\\frac{25} {( 1+\\mathrm{IRR} )}+\\frac{50} {( 1+\\mathrm{IRR} )^{2}}+\\frac{75} {( 1+\\mathrm{IRR} )^{3}}",
+          "display": true,
+          "sourceAsset": "b6d86e6daa7026256be4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flows should be entered as in Figure 24.2 (if you haven’t changed or cleared them, they are still there from the previous calculation of NPV)."
+        },
+        {
+          "type": "paragraph",
+          "text": "With the TI calculator, the IRR can be calculated with [IRR] [CPT] to get 19.4377%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The project should be accepted because its IRR is greater than the 9% required rate of return."
+        },
+        {
+          "type": "paragraph",
+          "text": "A project has a conventional cash flow pattern if the sign on the cash flows changes only once, with one or more cash outflows followed by one or more cash inflows. An unconventional cash flow pattern has more than one sign change. For example, a project might have an initial investment outflow, a series of cash inflows, and a cash outflow for asset retirement costs at the end of the project’s life. Another example of unconventional cash flow is when the time intervals between cash flows differ, for example if the first cash flow occurs 1 year after project inception while the second cash flow occurs 1.5 years after the first. Spreadsheet software is most suitable for calculating NPV and IRR with unconventional cash flows."
+        },
+        {
+          "type": "heading",
+          "text": "Relative Advantages and Disadvantages of the NPV and IRR Methods"
+        },
+        {
+          "type": "paragraph",
+          "text": "A key advantage of NPV is that it is a direct measure of the expected increase in the value of the firm. In theory, a positive NPV project should cause a proportionate increase in a company’s stock price."
+        },
+        {
+          "type": "paragraph",
+          "text": "A key advantage of IRR is that it measures profitability as a percentage, showing the return on each dollar invested. The IRR provides information on the margin of safety that the NPV does not. From the IRR, we can tell how much below the IRR (estimated return) the actual project return could fall, in percentage terms, before the project becomes uneconomic (has a negative NPV)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The disadvantages of the IRR method are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "It assumes that project’s cash flows are reinvested at the IRR while NPV assumes that those cash flows are reinvested at the project’s required rate of return. It is more realistic to assume the latter."
+        },
+        {
+          "type": "paragraph",
+          "text": "For multiple sign changes, a project may have multiple IRRs that are difficult to interpret."
+        },
+        {
+          "type": "heading",
+          "text": "Return on Invested Capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to examine whether a company is creating value for its shareholders is to compare the return on the company’s investment in assets to its cost of capital. A company’s return on invested capital (ROIC), or simply return on capital, is defined as its net operating profit after tax (NOPAT), or simply after-tax operating profit, divided by the average book value of its total capital over the period:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{net~operating~profit~after~tax}} {\\mathrm{average~book~value~of~invested~capital}}}",
+          "display": true,
+          "sourceAsset": "1ddcf8a3c7f8bbfdccd8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "After-tax operating profit is net income plus after-tax interest expense. We use this because we want to measure the return to all sources of capital (both debt and equity). Invested capital includes long-term debt and equity, but excludes working capital."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can rewrite the ROIC equation as:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{ROIC}}=\\left( {\\frac{\\mathrm{NOPAT}} {\\mathrm{Average~Invested~Capital}}} \\right)=\\left( {\\frac{\\mathrm{NOPAT}} {\\mathrm{Sales}}} \\right) \\times\\left( {\\frac{\\mathrm{Sales}} {\\mathrm{Average~Invested~Capital}}} \\right)",
+          "display": true,
+          "sourceAsset": "3fafc770615b21a67cf4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We refer to the ratio of after-tax operating profit to sales as operating margin after tax, and we refer to the ratio of sales to invested capital as capital turnover or asset turnover. This means that ROIC is the product of operating margin after-tax and invested capital turnover. A company can increase its ROIC by improving its operating margin or by increasing its capital turnover."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts compare ROIC to investors’ required rate of return. In this context, the required rate of return is a blended rate for both debt and equity. If ROIC is greater than the required rate, the firm is adding value over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "One attraction of ROIC is that it is based on accounting data, which are available to outside investors. While NPV and IRR are project-specific, ROIC is for the firm as a whole. ROIC is more relevant for outside investors because they typically cannot invest in a firm’s individual projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are three concerns with using ROIC:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Because accounting treatments differ, ROIC may not be comparable across"
+        },
+        {
+          "type": "paragraph",
+          "text": "companies.\n2. ROIC is backward-looking and can be volatile from year to year."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Because ROIC is for the whole company, it may let profitable projects and good"
+        },
+        {
+          "type": "paragraph",
+          "text": "decisions mask unprofitable projects and poor decisions."
+        }
+      ]
+    },
+    {
+      "id": "24.2",
+      "title": "Capital Allocation Principles and Real Options",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "24.c",
+          "text": "What should we know about principles of capital allocation and common capital allocation pitfalls?"
+        },
+        {
+          "type": "heading",
+          "text": "Principles of Capital Allocation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The capital allocation process involves the following key principles:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Decisions are based on after-tax cash flows, not accounting income. Accounting income is based on accruals and does not consider the timing of cash flows. The impact of taxes must be considered when analyzing all capital allocation projects. Firm value is based on cash flows firms get to keep, not those they send to the government. Any tax savings from non-cash tax deductions, such as depreciation and amortization, should also be included in the analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incremental cash flows only. Incremental cash flows are those that change if the project is undertaken. Sunk costs are costs that cannot be avoided even if the project is not undertaken. Because these costs are not affected by the accept/reject decision, they should not be included in the analysis. An example of a sunk cost is a consulting fee paid to a marketing research firm to estimate demand for a new product before making a decision on the project. Project analysis should consider the cash flow impact on other parts of the business. A negative effect, called cannibalization, occurs when a new project replaces sales from an existing product. An example of cannibalization is when a soft drink company introduces a diet version of an existing beverage. A positive externality exists when doing the project would have a positive effect on sales of a firm’s other product lines. The timing of cash flows is important. Capital allocation decisions account for the time value of money, which means that cash flows received earlier are worth more than cash flows to be received later."
+        },
+        {
+          "type": "paragraph",
+          "text": "Common mistakes managers make when evaluating capital projects have two categories: cognitive errors (calculation errors) and behavioral biases (errors of judgment)."
+        },
+        {
+          "type": "heading",
+          "text": "Cognitive Errors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Poor forecasting. Examples include incorrectly allocating overhead costs or neglecting to anticipate how competitors will respond to a project. Not considering the cost of internal funds. Often, the cost of internally generated funds is not accounted for (it should be same as cost of equity because those funds would have been paid as dividends if not for the project). Companies that have an aversion to paying dividends are potentially using the retained earnings to fund poor projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incorrectly accounting for inflation. Firms can analyze projects either in nominal or real terms. An analysis based on real cash flows must also use a real discount rate."
+        },
+        {
+          "type": "heading",
+          "text": "Behavioral Biases"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pet projects of senior management. Projects that have the personal backing of influential members of senior management may contain overly optimistic projections that make the project appear more profitable than it really is. In addition, the project might not be subjected to the same level of scrutiny as other projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inertia in setting the entire capital budget. Capital budgets for many companies are similar from one year to the next. This indicates anchoring of capital budgets to the prior year rather than appropriately considering what opportunities exist every year. In a company with a culture of maximizing shareholder value, managers will return excess funds to shareholders whenever there is a lack of positive NPV projects and make a case for expanding the budget when there are multiple positive NPV opportunities. Analysts should watch for companies with static or rising capital budgets coupled with declining returns as a sign of this bias."
+        },
+        {
+          "type": "paragraph",
+          "text": "Basing investment decisions on EPS or ROE. Managers whose incentive compensation is tied to increasing EPS or ROE may avoid positive long-term NPV investments that are expected to reduce EPS or ROE in the short run. Failure to generate alternative investment ideas. Generating investment ideas is a crucial step in the capital allocation process. However, once a manager comes up with a “good” idea, he or she may go with it rather than searching for an idea that is “better.”"
+        },
+        {
+          "type": "question",
+          "objectiveId": "24.d",
+          "text": "What should we know about types of real options relevant to capital investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Real options are future actions that a firm can take, given that they invest in a project today. Real options are similar to financial options (put and call options) in that they give the option holder the right, but not the obligation, to take a future action. The value of real options could enhance a project’s NPV. Options never have negative values because if, in the future, the specified action will have a negative value, the option holder will not take the action (i.e., not exercise the option)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Types of real options include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing options allow a company to delay making an investment because it expects to have better information in the future. Abandonment options allow management to abandon a project if the present value of the incremental cash flows from exiting a project exceeds the present value of the incremental cash flows from continuing the project. Expansion options or growth options allow a company to make additional investments in future projects if the company decides they will create value. Flexibility options give managers choices regarding the operational aspects of a project. The two main forms are price-setting and production-flexibility options."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Price-setting options allow the company to change the price of a product. For example, the"
+        },
+        {
+          "type": "paragraph",
+          "text": "company may raise prices if demand for a product is high in order to benefit from that demand without increasing production."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Production-flexibility options may include paying workers overtime, using different materials as"
+        },
+        {
+          "type": "paragraph",
+          "text": "inputs, or producing a different variety of product. Fundamental options are projects that are options themselves because the payoffs depend on the price of an underlying asset. For example, the payoff for a copper mine is dependent on the market price for copper. If copper prices are low, it may not make sense to open a copper mine, but if copper prices are high, opening the copper mine could be very profitable. The operator has the option to close the mine when prices are low and open it when prices are high."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way companies can include real options in their project analysis is to estimate their value and add it to the NPV (while subtracting any extra cost to acquire the real option). This can incorporate available techniques such as option pricing models or decision trees. Another approach is to simply consider the NPV without real options to be the project’s minimum value."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "24.a",
+      "text": "What should we know about types of capital investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capital investments include going concern projects to maintain a business or to reduce costs, required regulatory/compliance projects, expansion projects, and other projects that increase the size and scope of a company."
+    },
+    {
+      "type": "question",
+      "objectiveId": "24.b",
+      "text": "What should we know about the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capital allocation is the process of evaluating capital projects (i.e., projects with cash flows over a period longer than one year)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Steps of the capital allocation process are: (1) generate investment ideas; (2) analyze project ideas; (3) create a firm-wide capital budget; and (4) monitor decisions and conduct a post-audit."
+    },
+    {
+      "type": "paragraph",
+      "text": "NPV is the sum of the present values of a project’s expected cash flows and represents the change in firm value from undertaking a project. Positive NPV projects should be undertaken, but negative NPV projects should not because they are expected to decrease the value of the firm."
+    },
+    {
+      "type": "paragraph",
+      "text": "An IRR is the discount rate at which the present values of a project’s expected cash inflows and cash outflows are equal (i.e., the discount rate for which the NPV of a project is zero). A project for which the IRR is greater (less) than the appropriate discount rate for the project will have an NPV that is positive (negative) and should be accepted (not accepted)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Return on invested capital can be compared to a company’s required rate of return to indicate whether the company has increased or decreased firm value over time."
+    },
+    {
+      "type": "question",
+      "objectiveId": "24.c",
+      "text": "What should we know about principles of capital allocation and common capital allocation pitfalls?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capital allocation decisions should be based on after-tax cash flows, ignore sunk costs, and capture any spillover effects on other parts of the business. Timing of cash flows is important."
+    },
+    {
+      "type": "paragraph",
+      "text": "Common mistakes in the capital allocation process include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Having overly optimistic assumptions for pet projects of senior management"
+    },
+    {
+      "type": "paragraph",
+      "text": "Basing long-term investment decisions on short-term EPS or ROE considerations Poor cash flow estimation, misestimating overhead costs, and improper accounting for inflation"
+    },
+    {
+      "type": "paragraph",
+      "text": "Not accounting for cost of internally generated funds in the estimate of required rate of return"
+    },
+    {
+      "type": "paragraph",
+      "text": "Static capital budgets without regard to actual investment opportunities Failure to generate alternative investment ideas"
+    },
+    {
+      "type": "question",
+      "objectiveId": "24.d",
+      "text": "What should we know about types of real options relevant to capital investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Real options allow managers to make future decisions that change the value of capital allocation decisions made today."
+    },
+    {
+      "type": "paragraph",
+      "text": "Timing options allow a company to delay making an investment. Abandonment options allow management to abandon a project if the present value of the incremental cash flows from exiting a project exceeds the present value of the incremental cash flows from continuing a project. Expansion options allow a company to make additional investments in a project if doing so creates value."
+    },
+    {
+      "type": "paragraph",
+      "text": "Flexibility options give managers choices regarding the operational aspects of a project. The two main forms are price-setting and production-flexibility options."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fundamental options are projects that are options themselves because the payoffs depend on the price of an underlying asset."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "24.a",
+      "statement": "Describe types of capital investments.",
+      "question": "What should we know about types of capital investments?"
+    },
+    {
+      "id": "24.b",
+      "statement": "Describe the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and",
+      "question": "What should we know about the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and?"
+    },
+    {
+      "id": "24.c",
+      "statement": "Describe principles of capital allocation and common capital allocation pitfalls.",
+      "question": "What should we know about principles of capital allocation and common capital allocation pitfalls?"
+    },
+    {
+      "id": "24.d",
+      "statement": "Describe types of real options relevant to capital investments.",
+      "question": "What should we know about types of real options relevant to capital investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-24-quiz-1",
+      "title": "Knowledge check 24.1",
+      "moduleId": "24.1",
+      "questions": [
+        {
+          "id": "r24-q1",
+          "number": 1,
+          "objectiveIds": [
+            "24.a"
+          ],
+          "prompt": "Which of the following is most likely a going concern project?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Opening a retail outlet in a new region."
+            },
+            {
+              "id": "B",
+              "text": "Acquiring and merging with a supplier to secure a source for a key component."
+            },
+            {
+              "id": "C",
+              "text": "Purchasing a new model of a factory machine that will decrease unit production costs."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Going concern projects are those to maintain the business or to increase the efficiency of existing operations. The other two projects are business growth investments that increase the size of the company.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Going concern projects are those to maintain the business or to increase the"
+            },
+            {
+              "type": "paragraph",
+              "text": "efficiency of existing operations. The other two projects are business growth investments that increase the size of the company."
+            }
+          ]
+        },
+        {
+          "id": "r24-q2",
+          "number": 2,
+          "objectiveIds": [
+            "24.b"
+          ],
+          "prompt": "In the capital allocation process, a post-audit is used to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "improve cash flow forecasts and stimulate management to improve operations and bring results into line with forecasts."
+            },
+            {
+              "id": "B",
+              "text": "improve cash flow forecasts and eliminate potentially profitable but risky projects."
+            },
+            {
+              "id": "C",
+              "text": "stimulate management to improve operations, bring results into line with forecasts, and eliminate potentially profitable but risky projects."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A post-audit identifies what went right and what went wrong. It is used to improve forecasting and operations.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A post-audit identifies what went right and what went wrong. It is used to"
+            },
+            {
+              "type": "paragraph",
+              "text": "improve forecasting and operations."
+            }
+          ]
+        },
+        {
+          "id": "r24-q3",
+          "number": 3,
+          "objectiveIds": [
+            "24.b"
+          ],
+          "prompt": "A company is considering the purchase of a copier that costs $5,000. Assume a required rate of return of 10% and the following cash flow schedule: Year 1: $3,000. Year 2: $2,000. Year 3: $2,000. The project’s NPV is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "-$309."
+            },
+            {
+              "id": "B",
+              "text": "+$883."
+            },
+            {
+              "id": "C",
+              "text": "+$1,523."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "CF0 = −5,000; CF1 = 3,000; CF2 = 2,000; CF3 = 2,000; I / Y = 10; NPV = $883.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "CF0 = −5,000; CF1 = 3,000; CF2 = 2,000; CF3 = 2,000; I / Y = 10; NPV = $883."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-24-quiz-2",
+      "title": "Knowledge check 24.2",
+      "moduleId": "24.2",
+      "questions": [
+        {
+          "id": "r24-q4",
+          "number": 1,
+          "objectiveIds": [
+            "24.c"
+          ],
+          "prompt": "Which of the following statements concerning the principles underlying the capital allocation process is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Cash flows should include tax benefits of non-cash expense deductions."
+            },
+            {
+              "id": "B",
+              "text": "The net income for a project is essential for making a correct capital allocation decision."
+            },
+            {
+              "id": "C",
+              "text": "Cash flows should be project specific, ignoring sunk costs and impacts on other parts of the business."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Cash flows should be after-tax and include any tax savings from non-cash deductions (e.g., depreciation and amortization). While sunk costs should be ignored, the impact on other parts of the business (positive or negative) should be accounted for by adjusting cash flows. Accounting net income, which includes non-cash expenses, is irrelevant. Incremental cash flows are essential for making correct capital allocation decisions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Cash flows should be after-tax and include any tax savings from non-cash"
+            },
+            {
+              "type": "paragraph",
+              "text": "deductions (e.g., depreciation and amortization). While sunk costs should be ignored, the impact on other parts of the business (positive or negative) should be accounted for by adjusting cash flows. Accounting net income, which includes non-cash expenses, is irrelevant. Incremental cash flows are essential for making correct capital allocation decisions."
+            }
+          ]
+        },
+        {
+          "id": "r24-q5",
+          "number": 2,
+          "objectiveIds": [
+            "24.c"
+          ],
+          "prompt": "A manufacturer of clothes washing machines decides to add matching clothes dryers to its product line. In this case, it is most likely important in the project analysis to consider:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "sunk costs."
+            },
+            {
+              "id": "B",
+              "text": "negative impact on other parts of the business."
+            },
+            {
+              "id": "C",
+              "text": "positive impact on other parts of the business."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "It is quite possible that offering a matching dryer will increase sales of their washers because some consumers will prefer a matching set. The increased sales of their washers is a positive impact, and those incremental profits should be considered in the analysis. A negative impact on another part of the business would be a consideration if introducing dryers could be expected to decrease washer sales. Sunk costs should not be considered in project analysis.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "It is quite possible that offering a matching dryer will increase sales of their"
+            },
+            {
+              "type": "paragraph",
+              "text": "washers because some consumers will prefer a matching set. The increased sales of their washers is a positive impact, and those incremental profits should be considered in the analysis. A negative impact on another part of the business would be a consideration if introducing dryers could be expected to decrease washer sales. Sunk costs should not be considered in project analysis."
+            }
+          ]
+        },
+        {
+          "id": "r24-q6",
+          "number": 3,
+          "objectiveIds": [
+            "24.c"
+          ],
+          "prompt": "An analyst is estimating the NPV of a project to introduce a new spicier version of its well-known barbeque sauce into its product line. A cost that should most likely be excluded from his analysis is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$200,000 to develop a recipe for the new sauce."
+            },
+            {
+              "id": "B",
+              "text": "$100,000 for a marketing survey that was conducted to determine demand for a spicier sauce."
+            },
+            {
+              "id": "C",
+              "text": "a $150,000 decrease in sales of its current sauce as some current customers switch to the spicier sauce."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The cost of the marketing survey should not be included because it is a sunk cost; it will be incurred whether they decide to do the project or not. The decrease in sales of their current sauce if the spicier version is introduced (cannibalization) should be considered in the analysis. The cost of recipe development should be included because it will only be incurred if they decide to go ahead with the introduction of the new spicier sauce.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The cost of the marketing survey should not be included because it is a sunk cost;"
+            },
+            {
+              "type": "paragraph",
+              "text": "it will be incurred whether they decide to do the project or not. The decrease in sales of their current sauce if the spicier version is introduced (cannibalization) should be considered in the analysis. The cost of recipe development should be included because it will only be incurred if they decide to go ahead with the introduction of the new spicier sauce."
+            }
+          ]
+        },
+        {
+          "id": "r24-q7",
+          "number": 4,
+          "objectiveIds": [
+            "24.d"
+          ],
+          "prompt": "Albert Duffy, a project manager at Crane Plastics, is considering taking on a new capital project. When presenting the project, Duffy shows members of Crane’s executive management team that, because the company has the ability to have employees work overtime, the project makes sense. The project Duffy is taking on would be best described as having a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "flexibility option."
+            },
+            {
+              "id": "B",
+              "text": "expansion option."
+            },
+            {
+              "id": "C",
+              "text": "fundamental option."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The project described has production flexibility regarding the level of production. Other flexibility options might be to produce a different product or to use different inputs at some future date. Including the value of real options can improve the NPV estimates for individual projects.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The project described has production flexibility regarding the level of production."
+            },
+            {
+              "type": "paragraph",
+              "text": "Other flexibility options might be to produce a different product or to use different inputs at some future date. Including the value of real options can improve the NPV estimates for individual projects."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

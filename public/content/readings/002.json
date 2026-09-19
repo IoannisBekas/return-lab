@@ -1,0 +1,1065 @@
+{
+  "readingId": 2,
+  "title": "Time Value of Money in Finance",
+  "introduction": [
+    {
+      "type": "heading",
+      "text": "Study note"
+    },
+    {
+      "type": "paragraph",
+      "text": "The examples we use in this reading are meant to show how the time value of money appears throughout finance. Don’t worry if you are not yet familiar with the securities we describe in this reading. We will see these examples again when we cover bonds and forward interest rates in Fixed Income, stocks in Equity Investments, foreign exchange in Economics, and options in Derivatives."
+    },
+    {
+      "type": "heading",
+      "text": "WARM-UP: USING A FINANCIAL CALCULATOR"
+    },
+    {
+      "type": "paragraph",
+      "text": "For the exam, you must be able to use a financial calculator when working time value of money problems. You simply do not have the time to solve these problems any other way."
+    },
+    {
+      "type": "paragraph",
+      "text": "CFA Institute allows only two types of calculators to be used for the exam: (1) the Texas Instruments® TI BA II Plus™ (including the BA II Plus Professional™) and (2) the HP®"
+    },
+    {
+      "type": "paragraph",
+      "text": "12C (including the HP 12C Platinum). This reading is written primarily with the TI BA II Plus in mind. If you do not already own a calculator, purchase a TI BA II Plus! However, if you already own the HP 12C and are comfortable with it, by all means, continue to use it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Before we begin working with financial calculators, you should familiarize yourself with your TI BA II Plus by locating the keys noted below. These are the only keys you need to know to calculate virtually all of the time value of money problems:"
+    },
+    {
+      "type": "paragraph",
+      "text": "N = number of compounding periods"
+    },
+    {
+      "type": "paragraph",
+      "text": "I/Y = interest rate per compounding period PV = present value FV = future value"
+    },
+    {
+      "type": "paragraph",
+      "text": "PMT = annuity payments, or constant periodic cash flow CPT = compute"
+    },
+    {
+      "type": "paragraph",
+      "text": "The TI BA II Plus comes preloaded from the factory with the periods per year function (P/Y) set to 12. This automatically converts the annual interest rate (I/Y) into monthly rates. While appropriate for many loan-type problems, this feature is not suitable for the vast majority of the time value of money applications we will be studying. So, before using these lessons, please set your P/Y key to “1” using the following sequence of keystrokes:"
+    },
+    {
+      "type": "paragraph",
+      "text": "[2nd] [P/Y] “1” [ENTER] [2nd] [QUIT]"
+    },
+    {
+      "type": "paragraph",
+      "text": "As long as you do not change the P/Y setting, it will remain set at one period per year until the battery from your calculator is removed (it does not change when you turn the calculator on and off). If you want to check this setting at any time, press [2nd] [P/Y]. The display should read P/Y = 1.0. If it does, press [2nd] [QUIT] to get out of the “programming” mode. If it does not, repeat the procedure previously described to set the P/Y key. With P/Y set to equal 1, it is now possible to think of I/Y as the interest rate per compounding period and N as the number of compounding periods under analysis. Thinking of these keys in this way should help you keep things straight as we work through time value of money problems."
+    },
+    {
+      "type": "heading",
+      "text": "Study note"
+    }
+  ],
+  "modules": [
+    {
+      "id": "2.1",
+      "title": "Discounted Cash Flow Valuation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "2.a",
+          "text": "How do we calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In our Rates and Returns reading, we gave examples of the relationship between present values and future values. We can simplify that relationship as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{FV}=\\mathrm{PV} \\, ( 1+\\mathrm{r} )^{\\mathrm{t}}} \\\\ {\\mathrm{PV}=\\mathrm{~ \\frac{F V} {( 1+\\mathrm{r} )^{\\mathrm{t}}} ~}=\\mathrm{FV} ( 1+\\mathrm{r} )^{-\\mathrm{t}}} \\\\ {\\mathrm{~where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{r=interest~rate~per~compounding~period}} \\\\ {\\mathrm{t=number~of~compounding~periods}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "8671866fa675e4bad04b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we are using continuous compounding, this is the relationship:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathbf{F V}} & {{}=\\mathbf{P V} \\times e^{\\mathfrak{a}}} \\\\ {\\mathbf{P V}} & {{}=\\mathbf{F V} \\times e^{-\\mathfrak{a}}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "71511a64b2da8a8adb89.png"
+        },
+        {
+          "type": "heading",
+          "text": "Fixed-Income Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the simplest examples of the time value of money concept is a pure discount debt instrument, such as a zero-coupon bond. With a pure discount instrument, the investor pays less than the face value to buy the instrument and receives the face value at maturity. The price the investor pays depends on the instrument’s yield to maturity (the discount rate applied to the face value) and the time until maturity. The amount of interest the investor earns is the difference between the face value and the purchase price."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Zero-coupon bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "A zero-coupon bond with a face value of $1,000 will mature 15 years from today. The bond has a yield to maturity of 4%. Assuming annual compounding, what is the bond’s price?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P V \\!=\\! \\frac{\\$1 , 000} {( 1+0.04 )^{15}} \\!=\\$555.26}",
+          "display": true,
+          "sourceAsset": "7958ae634a36dc39b6ef.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can infer a bond’s yield from its price using the same relationship. Rather than solving for r with algebra, we typically use our financial calculators. For this example, if we were given the price of $555.26, the face value of $1,000, and annual compounding over 15 years, we would enter the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{PV}=-555.26}} \\\\ {{\\mathrm{FV}=1 , 000}} \\\\ {{\\mathrm{PMT}=0}} \\end{array}\\\\[6pt]\\mathbf{N}=15\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b459cb951923e96df662.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Then, to get the yield, CPT I/Y = 4.00."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember to enter cash outflows as negative values and cash inflows as positive values. From the investor’s point of view, the purchase price (PV) is an outflow, and the return of the face value at maturity (FV) is an inflow."
+        },
+        {
+          "type": "paragraph",
+          "text": "In some circumstances, interest rates can be negative. A zero-coupon bond with a negative yield would be priced at a premium, which means its price is greater than its face value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Zero-coupon bond with a negative yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the bond in the previous example has a yield to maturity of −0.5%, what is its price, assuming annual compounding?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P V \\!=\\! \\frac{\\$1 , 000} {( 1-0.005 )^{15}} \\!=\\$1 , \\! 078.09}",
+          "display": true,
+          "sourceAsset": "92218c0e04930c366544.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A fixed-coupon bond is only slightly more complex. With a coupon bond, the investor receives a cash interest payment each period in addition to the face value at maturity. The bond’s coupon rate is a percentage of the face value and determines the amount of the interest payments. For example, a 3% annual coupon, $1,000 bond pays 3% of $1,000, or $30, each year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The coupon rate and the yield to maturity are two different things. We only use the coupon rate to determine the coupon payment (PMT). The yield to maturity (I/Y) is the"
+        },
+        {
+          "type": "paragraph",
+          "text": "discount rate implied by the bond’s price."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Price of an annual coupon bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 10-year, $1,000 par value, 10% coupon, annual-pay bond. What is the value of this bond if its yield to maturity is 8%?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The coupon payments will be 10% × $1,000 = $100 at the end of each year. The $1,000 par value will be paid at the end of Year 10, along with the last coupon payment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of this bond with a discount rate (yield to maturity) of 8% is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{100} {1.08}+\\frac{100} {1.08^{2}}+\\frac{100} {1.08^{3}}+\\ldots+\\frac{100} {1.08^{9}}+\\frac{1 {,} 100} {1.08^{10}}=1 {,} 134.20",
+          "display": true,
+          "sourceAsset": "d941f5a8164652704f1a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The calculator solution is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; PMT = 100; FV = 1,000; I/Y = 8; CPT PV = −1,134.20"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bond’s value is $1,134.20."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "For this reading where we want to illustrate time value of money concepts, we are only using annual coupon payments and compounding periods. In the Fixed Income topic area, we will also perform these calculations for semiannual-pay bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some bonds exist that have no maturity date. We refer to these as perpetual bonds or perpetuities. We cannot speak meaningfully of the future value of a perpetuity, but its present value simplifies mathematically to the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P V \\ o f \\ a \\ p e r p e t u i t y=\\frac{p a y m e n t} {r}}",
+          "display": true,
+          "sourceAsset": "6ca32a11be38a3477947.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "An amortizing bond is one that pays a level amount each period, including its maturity period. The difference between an amortizing bond and a fixed-coupon bond is that for an amortizing bond, each payment includes some portion of the principal. With a fixed-coupon bond, the entire principal is paid to the investor on the maturity date."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amortizing bonds are an example of an annuity instrument. For an annuity, the payment each period is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{aligned} {} & {{} \\mathrm{annuity~payment}=\\frac{\\mathrm{r} \\times\\mathrm{PV}} {1-( 1+\\mathrm{r} )^{-\\mathrm{t}}}} \\\\ {} & {{} \\mathrm{where:}} \\\\ {} & {{} \\mathrm{r}=\\mathrm{interest~rate~per~period}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{t}=\\mathrm{number~of~periods}}} \\\\ {{\\mathrm{PV}=\\mathrm{present~value~(principal)}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "207c8ab9f42e395ca64e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also determine an annuity payment using a financial calculator."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Computing a loan payment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose you are considering applying for a $2,000 loan that will be repaid with equal end-of-year payments over the next 13 years. If the annual interest rate for the loan is 6%, how much are your payments?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The size of the end-of-year loan payment can be determined by inputting values for the three known variables and computing PMT. Note that FV = 0 because the loan will be fully paid off after the last payment:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 13; I/Y = 6; PV = −2,000; FV = 0; CPT → PMT = $225.92"
+        },
+        {
+          "type": "heading",
+          "text": "Equity Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "As with fixed-income securities, we value equity securities such as common and preferred stock as the present value of their future cash flows. The key differences are that equity securities do not mature, and their cash flows may change over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferred stock pays a fixed dividend that is stated as a percentage of its par value (similar to the face value of a bond). As with bonds, we must distinguish between the stated percentage that determines the cash flows and the discount rate we apply to the cash flows. We say that equity investors have a required return that will induce them to own an equity share. This required return is the discount rate we use to value equity securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because we can consider a preferred stock’s fixed stream of dividends to be infinite, we can use the perpetuity formula to determine its value:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{preferred~stock~value}=\\mathrm{~ \\frac{D_p ~} {k_p ~} ~}} \\\\ {\\mathrm{where:}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{D_{p}=\\mathrm{dividend~per~period}}} \\\\ {{{}}} \\\\ {{\\mathrm{k}_{p}=\\mathrm{t h e ~ m a r k e t^{\\prime} s ~ r e q u i r e d ~ r e t u r n ~ o n ~ t h e ~ p r e f e r r e d ~ s t o c k}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "38a3a057492ae32667d7.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Preferred stock valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A company’s $100 par preferred stock pays a $5.00 annual dividend and has a required return of 8%. Calculate the value of the preferred stock."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Value of the preferred stock: Dp/kP = $5.00/0.08 = $62.50"
+        },
+        {
+          "type": "paragraph",
+          "text": "Common stock is a residual claim to a company’s assets after it satisfies all other claims. Common stock typically does not promise a fixed dividend payment. Instead, the company’s management decides whether and when to pay common dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the future cash flows are uncertain, we must use models to estimate the value of common stock. Here, we will look at three approaches analysts use frequently, which we call dividend discount models (DDMs). We will return to these examples in the Equity Investments topic area and explain when each model is appropriate."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Assume a constant future dividend. Under this assumption, we can value a common"
+        },
+        {
+          "type": "paragraph",
+          "text": "stock the same way we value a preferred stock, using the perpetuity formula.\n2. Assume a constant growth rate of dividends. With this assumption, we can apply the"
+        },
+        {
+          "type": "paragraph",
+          "text": "constant growth DDM, also known as the Gordon growth model. In this model, we state the value of a common share as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle V_{0}=\\frac{D_{1}} {k_{e}-g_{c}}}} \\\\ {{\\displaystyle\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{0}=\\mathrm{value~of~a~share~this~period}}} \\\\ {{\\mathrm{}}} \\\\ {{D_{1}=\\mathrm{dividend~expected~to~be~paid~} n e x t ~ p e r i o d}} \\\\ {{\\mathrm{} {k_{e}=r e q u i r e d ~ r e t u r n ~ o n ~ c o m m o n ~ e q u i t y}}} \\end{array}\\\\[6pt]\\mathbf{g_{c}=c o n s t a n t \\; g r o w t h \\; r a t e \\; o f \\; d i v i d e n d s}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "17ce9817dac87f8be1b7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this model, V0 represents the PV of all the dividends in future periods, beginning with D1. Note that ke must be greater than gc or the math will not work."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Gordon growth model valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the value of a stock that is expected to pay a $1.62 dividend next year, if dividends are expected to grow at 8% forever and the required return on equity is 12%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{Calculate~the~stock's~value}} & {{}={\\mathbb D}_{1} / ( {\\mathbb k_{e}}-{\\mathbb g}_{c} )} \\\\ {} & {{}={\\mathbb S} 1.62 / ( 0.12-\\, 0.08 )} \\\\ {} & {{}={\\mathbb S} 40.50} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "5846bc53f462f209f809.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Assume a changing growth rate of dividends. This can be done in many ways. The"
+        },
+        {
+          "type": "paragraph",
+          "text": "example we will use here (and the one that is required for the Level I CFA exam) is known as a multistage DDM. Essentially, we assume a pattern of dividends in the short term, such as a period of high growth, followed by a constant growth rate of dividends in the long term. To use a multistage DDM, we discount the expected dividends in the short term as individual cash flows, then apply the constant growth DDM to the long term. As we saw in the previous example, the constant growth DDM gives us a value for an equity share one period before the dividend we use in the numerator."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Multistage growth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a stock with dividends that are expected to grow at 15% per year for two years, after which they are expected to grow at 5% per year, indefinitely. The last dividend paid was $1.00, and ke = 11%. Calculate the value of this stock using the multistage growth model."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the dividends over the high growth period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{D}_{1}=\\mathrm{D}_{0} ( 1+\\mathrm{g}^{*} )=1.00 ( 1.15 )=\\$1.15}} \\\\ {{\\mathrm{D}_{2}=\\mathrm{D}_{1} ( 1+\\mathrm{g}^{*} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
+          "display": true,
+          "sourceAsset": "e96ce179efd8570e5e42.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the first dividend of the constant-growth period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{D}_{3}=\\mathrm{D}_{2} ( 1+\\mathrm{g} )=1.32 \\times1.05=\\mathrm{S1.386}",
+          "display": true,
+          "sourceAsset": "35df5994aaca76e35292.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the constant growth model to get P2, a value for all the (infinite) dividends expected from time = 3 onward:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P_{2} \\!=\\! {\\frac{D_{3}} {k_{e}-g_{c}} \\!=\\! {\\frac{1.386} {0.11-0.05}} \\!=\\bar{5} 23.10}}",
+          "display": true,
+          "sourceAsset": "7d8bb9de4420c369a1eb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, we can sum the present values of dividends 1 and 2 and of P2 to get the present value of all the expected future dividends during both the high-growth and constant-growth periods:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\mathtt{S 20.86}",
+          "display": true,
+          "sourceAsset": "91875a5063a9bb00343e.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "A key point to notice in this example is that when we applied the dividend in Period 3 to the constant growth model, it gave us a value for the stock in Period 2. To get a value for the stock today, we had to discount this value back by two periods, along with the dividend in Period 2 that was not included in the constant growth value."
+        }
+      ]
+    },
+    {
+      "id": "2.2",
+      "title": "Implied Returns and Cash Flow Additivity",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "2.b",
+          "text": "How do we calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The examples we have seen so far illustrate the relationships among present value, future cash flows, and the required rate of return. We can easily rearrange these relationships and solve for the required rate of return, given a security’s price and its future cash flows."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Rate of return for a pure discount bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "A zero-coupon bond with a face value of $1,000 will mature 15 years from today. The bond’s price is $650. Assuming annual compounding, what is the investor’s annualized return?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle\\frac{\\$1 {,} 000} {( 1+\\mathrm{r} )^{15}}=\\$650}} \\\\ {{}} \\\\ {{( 1+\\mathrm{r} )^{15}=\\displaystyle\\frac{\\$1 {,} 000} {\\$650}=1.5385}} \\end{array}\\\\[6pt]\\mathrm{r}=1.5385^{\\, 1 / 15}-1=0.0291=2.91 \\%_{\\phi}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b5a5f1c37f051fa083f7.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Yield of an annual coupon bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the 10-year, $1,000 par value, 10% coupon, annual-pay bond we examined in an earlier example, when its price was $1,134.20 at a yield to maturity of 8%. What is its yield to maturity if its price decreases to $1,085.00?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; PMT = 100; FV = 1,000; PV = −1,085; CPT I/Y = 8.6934"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bond’s yield to maturity increased to 8.69%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that the relationship between prices and yields is inverse. When the price decreases, the yield to maturity increases. When the price increases, the yield to maturity decreases. Or, equivalently, when the yield increases, the price decreases. When the yield decreases, the price increases. We will use this concept again and again when we study bonds in the Fixed Income topic area."
+        },
+        {
+          "type": "paragraph",
+          "text": "In our examples for equity share values, we assumed the investor’s required rate of return. In practice, the required rate of return on equity is not directly observable. Instead, we use share prices that we can observe in the market to derive implied required rates of return on equity, given our assumptions about their future cash flows."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if we assume a constant rate of dividend growth, we can rearrange the constant growth DDM to solve for the required rate of return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c} {{\\mathrm{V}_{0}=\\frac{\\mathrm{D}_{1}} {\\mathrm{k}_{\\mathrm{e}}-\\mathrm{g}_{\\mathrm{c}}}}} \\\\ {{\\mathrm{k}_{\\mathrm{e}}-\\mathrm{g}_{\\mathrm{c}}=\\frac{\\mathrm{D}_{1}} {\\mathrm{V}_{0}}}} \\end{array}\\\\[6pt]\\mathrm{k}_{\\mathrm{e}}={\\frac{\\mathrm{D}_{1}} {\\mathrm{V}_{0}}}+\\mathrm{g}_{\\mathrm{c}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "382bf0fe7abe8c5d6790.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "That is, the required rate of return on equity is the ratio of the expected dividend to the current price (which we refer to as a share’s dividend yield) plus the assumed constant growth rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also rearrange the model to solve for a stock’s implied growth rate, given a required rate of return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {{\\tt k}_{\\tt e}} & {{}=\\frac{{\\tt D}_{1}} {{\\tt V}_{0}}+{\\tt g}_{\\tt c}} \\\\ {{\\tt g}_{\\tt c}} & {{}={\\tt k}_{\\tt e}-\\frac{{\\tt D}_{1}} {{\\tt V}_{0}}} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "600409185df2dfa4c1c4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "That is, the implied growth rate is the required rate of return minus the dividend yield."
+        },
+        {
+          "type": "question",
+          "objectiveId": "2.c",
+          "text": "How can we explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flow additivity principle refers to the fact that the PV of any stream of cash flows equals the sum of the PVs of the cash flows. If we have two series of cash flows, the sum of the PVs of the two series is the same as the PVs of the two series taken together, adding cash flows that will be paid at the same point in time. We can also divide up a series of cash flows any way we like, and the PV of the “pieces” will equal the PV of the original series."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Cash flow additivity principle"
+        },
+        {
+          "type": "paragraph",
+          "text": "A security will make the following payments at the end of the next four years: $100, $100, $400, and $100. Calculate the PV of these cash flows using the concept of the PV of an annuity when the appropriate discount rate is 10%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can divide the cash flows so that we have:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r r r r l} {t=1} & {t=2} & {t=3} & {t=4} \\\\ {100} & {100} & {100} & {100} & {\\mathrm{Cash~flow~series~\\#1}} \\\\ {\\frac{0} {8100}} & {\\frac{0} {8100}} & {\\frac{300} {8400}} & {\\frac{0} {8100}} & {\\mathrm{Cash~flow~series~\\#2}} \\end{array}",
+          "display": true,
+          "sourceAsset": "b9272972d2de3d3478c2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The additivity principle tells us that to get the PV of the original series, we can just add the PVs of cash flow series #1 (a 4-period annuity) and cash flow series #2 (a"
+        },
+        {
+          "type": "paragraph",
+          "text": "single payment three periods from now)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the annuity: N = 4; PMT = 100; FV = 0; I/Y = 10; CPT → PV = −$316.99"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the single payment: N = 3; PMT = 0; FV = 300; I/Y = 10; CPT → PV = −$225.39"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sum of these two values is 316.99 + 225.39 = $542.38."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sum of these two (present) values is identical (except for rounding) to the sum of the present values of the payments of the original series:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{100} {1.1}+\\frac{100} {1.1^{2}}+\\frac{400} {1.1^{3}}+\\frac{100} {1.1^{4}}=\\$542.38",
+          "display": true,
+          "sourceAsset": "893512f31d87164111bd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is a simple example of replication. In effect, we created the equivalent of the given series of uneven cash flows by combining a 4-year annuity of 100 with a 3-year zero-coupon bond of 300."
+        },
+        {
+          "type": "paragraph",
+          "text": "We rely on the cash flow additivity principle in many of the pricing models we see in the Level I CFA curriculum. It is the basis for the no-arbitrage principle, or “law of one price,” which says that if two sets of future cash flows are identical under all conditions, they will have the same price today (or if they don’t, investors will quickly buy the lower-priced one and sell the higher-priced one, which will drive their prices together)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three examples of valuation based on the no-arbitrage condition are forward interest rates, forward exchange rates, and option pricing using a binomial model. We will explain each of these examples in greater detail when we address the related concepts in the Fixed Income, Economics, and Derivatives topic areas. For now, just focus on how they apply the principle that equivalent future cash flows must have the same present value."
+        },
+        {
+          "type": "heading",
+          "text": "Forward Interest Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "A forward interest rate is the interest rate for a loan to be made at some future date. The notation used must identify both the length of the loan and when in the future the money will be borrowed. Thus, 1y1y is the rate for a 1-year loan to be made one year from now; 2y1y is the rate for a 1-year loan to be made two years from now; 3y2y is the 2-year forward rate three years from now; and so on."
+        },
+        {
+          "type": "paragraph",
+          "text": "By contrast, a spot interest rate is an interest rate for a loan to be made today. We will use the notation S1 for a 1-year rate today, S2 for a 2-year rate today, and so on."
+        },
+        {
+          "type": "paragraph",
+          "text": "The way the cash flow additivity principle applies here is that, for example, borrowing for three years at the 3-year spot rate, or borrowing for one-year periods in three successive years, should have the same cost today. This relation is illustrated as follows: (1 + S3)³ = (1 + S1)(1 + 1y1y)(1 + 2y1y)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In fact, any combination of spot and forward interest rates that cover the same time period should have the same cost. Using this idea, we can derive implied forward rates from spot rates that are observable in the fixed-income markets."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Computing a forward rate from spot rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2-period spot rate, S2, is 8%, and the 1-period spot rate, S1, is 4%. Calculate the forward rate for one period, one period from now, 1y1y."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following figure illustrates the problem."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b411d4a82216ae464aef.png",
+          "alt": "Equation, table, or diagram: The following figure illustrates the problem.",
+          "width": 409,
+          "height": 188,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "From our original equality, (1 + S2)² = (1 + S1)(1 + 1y1y), we can get the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\big( 1+\\mathbb{S}_{2} \\big)^{2}} {\\big( 1+\\mathbb{S}_{1} \\big)}=\\left( 1+1 \\mathrm{y1y} \\right)",
+          "display": true,
+          "sourceAsset": "0b392b48819b27de76c3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Or, because we know that both choices have the same payoff in two years:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {( 1.08 )^{2}=( 1.04 ) ( 1+1 \\mathrm{y1y} )} \\\\ {( 1+1 \\mathrm{y1y} )={\\frac{( 1.08 )^{2}} {( 1.04 )}}} \\end{array}\\\\[6pt]\\mathrm{1y1y}=\\frac{( 1.08 )^{2}} {( 1.04 )}-1=\\frac{1.1664} {1.04}-1=12.154 \\%\\end{gathered}",
+          "display": true,
+          "sourceAsset": "27528eb2b013c479c2c6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In other words, investors are willing to accept 4.0% on the 1-year bond today (when they could get 8.0% on the 2-year bond today) only because they can get 12.154% on a 1-year bond one year from today. This future rate that can be locked in today is a forward rate."
+        },
+        {
+          "type": "heading",
+          "text": "Forward Currency Exchange Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "An exchange rate is the price of one country’s currency in terms of another country’s currency. For example, an exchange rate of 1.416 USD/EUR means that one euro (EUR) is worth 1.416 U.S. dollars (USD). The Level I CFA curriculum refers to the currency in the numerator (USD, in this example) as the price currency and the one in the denominator (EUR in this example) as the base currency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Like interest rates, exchange rates can be quoted as spot rates for currency exchanges to be made today, or as forward rates for currency exchanges to be made at a future date."
+        },
+        {
+          "type": "paragraph",
+          "text": "The percentage difference between forward and spot exchange rates is approximately the difference between the two countries’ interest rates. This is because there is an arbitrage trade with a riskless profit to be made when this relation does not hold."
+        },
+        {
+          "type": "paragraph",
+          "text": "The possible arbitrage is as follows: borrow Currency A at Interest Rate A, convert it to Currency B at the spot rate and invest it to earn Interest Rate B, and sell the proceeds from this investment forward at the forward rate to turn it back into Currency A. If the forward rate does not correctly reflect the difference between interest rates, such an arbitrage could generate a profit to the extent that the return from investing Currency B and converting it back to Currency A with a forward contract is greater than the cost of borrowing Currency A for the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "For spot and forward rates expressed as price currency/base currency, the no-arbitrage relation is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{\\mathrm{forward}} {\\mathrm{spot}}}={\\frac{\\left( 1+\\mathrm{interest~rate}_{\\mathrm{price~currency}} \\right)} {\\left( 1+\\mathrm{interest~rate}_{\\mathrm{base~currency}} \\right)}}",
+          "display": true,
+          "sourceAsset": "40510a988672f4adb434.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This formula can be rearranged as necessary to solve for specific values of the relevant terms."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating the arbitrage-free forward exchange rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two currencies, the ABE and the DUB. The spot ABE/DUB exchange rate is 4.5671, the 1-year riskless ABE rate is 5%, and the 1-year riskless DUB rate is 3%. What is the 1-year forward exchange rate that will prevent arbitrage profits?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rearranging our formula, we have:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{forward}=\\mathrm{spot} \\left( \\frac{1+\\mathrm{I}_{\\mathrm{ABE}}} {1+\\mathrm{I}_{\\mathrm{DUB}}} \\right)",
+          "display": true,
+          "sourceAsset": "4c03cf6ab4b951ea1241.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "and we can calculate the forward rate as:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{forward}}=4.5671 \\, \\left( {\\frac{1.05} {1.03}} \\right)=4.6558 \\, \\, {\\mathrm{ABE}} \\, \\, / \\, \\, {\\mathrm{DUB}}",
+          "display": true,
+          "sourceAsset": "5ebba32434225099651b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "As you can see, the forward rate is greater than the spot rate by 4.6558 / 4.5671 − 1 = 1.94%. This is approximately equal to the interest rate differential of 5% − 3% = 2%."
+        },
+        {
+          "type": "heading",
+          "text": "Option Pricing Model"
+        },
+        {
+          "type": "paragraph",
+          "text": "An option is the right, but not the obligation, to buy or sell an asset on a future date for a specified price. The right to buy an asset is a call option, and the right to sell an asset is a put option."
+        },
+        {
+          "type": "paragraph",
+          "text": "Valuing options is different from valuing other securities because the owner can let an option expire unexercised. A call option owner will let the option expire if the underlying asset can be bought in the market for less than the price specified in the option. A put option owner will let the option expire if the underlying asset can be sold in the market for more than the price specified in the option. In these cases, we say an option is out of the money. If an option is in the money on its expiration date, the owner has the right to buy the asset for less, or sell the asset for more, than its market price— and, therefore, will exercise the option."
+        },
+        {
+          "type": "paragraph",
+          "text": "An approach to valuing options that we will use in the Derivatives topic area is a binomial model. A binomial model is based on the idea that, over the next period, some value will change to one of two possible values. To construct a one-period binomial model for pricing an option, we need the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A value for the underlying asset at the beginning of the period"
+        },
+        {
+          "type": "paragraph",
+          "text": "An exercise price for the option; the exercise price can be different from the value of the underlying, and we assume the option expires one period from now"
+        },
+        {
+          "type": "paragraph",
+          "text": "Returns that will result from an up-move and a down-move in the value of the underlying over one period The risk-free rate over the period"
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example, we can model a call option with an exercise price of $55 on a stock that is currently valued (S0) at $50. Let us assume that in one period, the stock’s value will either increase (S 1 u) to $60 or decrease (S 1 d) to $42. We state the return from an up-move (Ru) as $60 / $50 = 1.20, and the return from a down-move (Rd) as $42 / $50 = 0.84."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 2.1: One-Period Binomial Tree"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/af267f54944c49376754.png",
+          "alt": "Equation, table, or diagram: Figure 2.1: One-Period Binomial Tree",
+          "width": 223,
+          "height": 104,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The call option will be in the money after an up-move or out of the money after a down-move. Its value at expiration after an up-move, c 1 u, is $60 − $55 = $5. Its value after a down-move, c 1 d, is zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now, we can use no-arbitrage pricing to determine the initial value of the call option (c0). We do this by creating a portfolio of the option and the underlying stock, such that the portfolio will have the same value following either an up-move (V 1 u) or a down-move (V 1 d) in the stock. For our example, we would write the call option (that is, we grant someone else the option to buy the stock from us) and buy a number of shares of the stock that we will denote as h. We must solve for the h that results in V 1 u = V 1 d:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The initial value of our portfolio, V0, is hS0 − c0 (we subtract c0 because we are short the call option)."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~portfolio~value~after~an~up-move,~V^u_1,~is~hS^u_1-c^u_1~}",
+          "display": true,
+          "sourceAsset": "d0a8953faed46d962b39.png",
+          "prose": "The portfolio value after an up-move, ."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~portfolio~value~after~a~down-move,~V^d_1,~is~hS_1^d-c^d_1~}",
+          "display": true,
+          "sourceAsset": "d9800d44ed03f845bf82.png",
+          "prose": "The portfolio value after a down-move, ."
+        },
+        {
+          "type": "paragraph",
+          "text": "In our example, V 1 u = h($60) − $5, and V 1 d = h($42) − 0. Setting V 1 u = V 1 d and solving for h, we get the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{h} ( \\mathfrak{s} 60 )-\\mathfrak{s} 5=\\mathrm{h} ( \\mathfrak{s} 42 )}} \\\\ {{\\mathrm{h} ( \\mathfrak{s} 60 )-\\mathrm{h} ( \\mathfrak{s} 42 )=\\mathfrak{s} 5}} \\\\ {{\\mathrm{h}=\\mathfrak{s} 5 / \\left( \\mathfrak{s} 60-\\mathfrak{s} 42 \\right)=0.278}} \\end{array}",
+          "display": true,
+          "sourceAsset": "7c6407df19760e0d6394.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This result—the number of shares of the underlying we would buy for each call option we would write—is known as the hedge ratio for this option."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{With~V^u_1=V^d_1,the~value~of~the~portfolio~after~one~period~is~known~with~certainty.~This~of~\\ell~\\geq~V^u_1~,~of~\\ell~}} \\\\ {\\mathrm{means~we~can~say~that~either~V^u_1~or~V^d_1~must~equal~V_0~compounded~at~the~risk-free~rate~pound~at~the~valuend~at~of~\\ell~\\geq~V^u_1~must~equal~V_0~.~of~\\ell~\\geq~V^u_1~,~of~\\ell~}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "a9ed912c7993dfa2c4b1.png",
+          "prose": "With , the value of the portfolio after one period is known with certainty. This means we can say that either must equal V0 compounded at the risk-free rate"
+        },
+        {
+          "type": "math",
+          "latex": "V_1^d=0.278(\\$42)=\\$11.68,\n\\qquad \\text{or}\\qquad V_1^u=0.278(\\$60)-\\$5=\\$11.68",
+          "display": true,
+          "sourceAsset": "5eba0cad6e36196ef2a2.png",
+          "prose": "for one period. In this example,"
+        },
+        {
+          "type": "paragraph",
+          "text": ". Let us assume the risk-free rate over one period is 3%. Then, V0 = $11.68 / 1.03 = $11.34."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now, we can solve for the value of the call option, c0. Recall that V0 = hS0 − c0, so c0 = hS0 − V0. Here, c0 = 0.278($50) − $11.34 = $2.56."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "2.a",
+      "text": "How do we calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The value of a fixed-income instrument or an equity security is the present value of its future cash flows, discounted at the investor’s required rate of return:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{PV}={\\frac{\\mathrm{FV}} {( 1+\\mathrm{r} )^{\\mathrm{r}}}}=\\mathrm{FV} ( 1+\\mathrm{r} )^{-\\mathrm{r}}} \\\\ {\\mathrm{where:}} \\\\ {\\mathrm{r}=\\mathrm{interest~rate~per~compounding~period}} \\\\ {\\mathrm{t}=\\mathrm{number~of~compounding~periods}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{annuity~payment}=\\frac{\\mathrm{r} \\times\\mathrm{PV}} {1-( 1+\\mathrm{r} )^{-\\mathrm{t}}}}} \\\\ {{\\mathrm{where:}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r}=\\mathrm{interest~rate~per~period}}} \\\\ {{\\mathrm{t}=\\mathrm{number~of~periods}}} \\\\ {{\\mathrm{PV}=\\mathrm{present~value~(principal)}}} \\end{array}\\end{gathered}",
+      "display": true,
+      "sourceAsset": "7b9ac28334895dd7ee8e.png"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{The~PV~of~a~perpetual~bond~or~a~preferred}=\\mathrm{frac{p a y m e n t} {r}} , \\mathrm{where} \\mathrm{~} r=\\mathrm{required~rate~of~return.}",
+      "display": true,
+      "sourceAsset": "8c3e2ae3b1e5637ef3ac.png",
+      "prose": "The PV of a perpetual bond or a preferred , where r = required rate of return."
+    },
+    {
+      "type": "paragraph",
+      "text": "The PV of a common stock with a constant growth rate of dividends is:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{V_{0}}={\\frac{\\mathbf{D_{1}}} {\\mathbf{k_{e}}-\\mathbf{g_{c}}}}",
+      "display": true,
+      "sourceAsset": "2974e4529f73a4b53685.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "2.b",
+      "text": "How do we calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows?"
+    },
+    {
+      "type": "paragraph",
+      "text": "By rearranging the present value relationship, we can calculate a security’s required rate of return based on its price and its future cash flows. The relationship between prices and required rates of return is inverse."
+    },
+    {
+      "type": "paragraph",
+      "text": "For an equity share with a constant rate of dividend growth, we can estimate the required rate of return as the dividend yield plus the assumed constant growth rate, or we can estimate the implied growth rate as the required rate of return minus the dividend yield."
+    },
+    {
+      "type": "question",
+      "objectiveId": "2.c",
+      "text": "How can we explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Using the cash flow additivity principle, we can divide up a series of cash flows any way we like, and the present value of the pieces will equal the present value of the original series. This principle is the basis for the no-arbitrage condition, under which two sets of future cash flows that are identical must have the same present value."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "2.a",
+      "statement": "Calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows.",
+      "question": "How do we calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows?"
+    },
+    {
+      "id": "2.b",
+      "statement": "Calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows.",
+      "question": "How do we calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows?"
+    },
+    {
+      "id": "2.c",
+      "statement": "Explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values.",
+      "question": "How can we explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-2-quiz-1",
+      "title": "Knowledge check 2.1",
+      "moduleId": "2.1",
+      "questions": [
+        {
+          "id": "r2-q1",
+          "number": 1,
+          "objectiveIds": [
+            "2.a"
+          ],
+          "prompt": "Terry Corporation preferred stock is expected to pay a $9 annual dividend in perpetuity. If the required rate of return on an equivalent investment is 11%, one share of Terry preferred should be worth:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$81.82."
+            },
+            {
+              "id": "B",
+              "text": "$99.00."
+            },
+            {
+              "id": "C",
+              "text": "$122.22."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "9 / 0.11 = $81.82",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "9 / 0.11 = $81.82"
+            }
+          ]
+        },
+        {
+          "id": "r2-q2",
+          "number": 2,
+          "objectiveIds": [
+            "2.a"
+          ],
+          "prompt": "Dover Company wants to issue a $10 million face value of 10-year bonds with an annual coupon rate of 5%. If the investors’ required yield on Dover’s bonds is 6%, the amount the company will receive when it issues these bonds (ignoring transactions costs) will be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "less than $10 million."
+            },
+            {
+              "id": "B",
+              "text": "equal to $10 million."
+            },
+            {
+              "id": "C",
+              "text": "greater than $10 million."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because the required yield is greater than the coupon rate, the present value of the"
+            },
+            {
+              "type": "paragraph",
+              "text": "bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-2-quiz-2",
+      "title": "Knowledge check 2.2",
+      "moduleId": "2.2",
+      "questions": [
+        {
+          "id": "r2-q3",
+          "number": 1,
+          "objectiveIds": [
+            "2.b"
+          ],
+          "prompt": "For an equity share with a constant growth rate of dividends, we can estimate its:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "value as the next dividend discounted at the required rate of return."
+            },
+            {
+              "id": "B",
+              "text": "growth rate as the sum of its required rate of return and its dividend yield."
+            },
+            {
+              "id": "C",
+              "text": "required return as the sum of its constant growth rate and its dividend yield."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Using the constant growth dividend discount model, we can estimate the required rate of return as . The estimated value of a share is all of its future dividends discounted at the required rate of return, which simplifies to if we assume a constant growth rate. We can estimate the constant growth rate as the required rate of return minus the dividend yield.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Using the constant growth dividend discount model, we can estimate the required"
+            },
+            {
+              "type": "math",
+              "latex": "\\begin{array} {l} {\\mathrm{~rate~of~return~as}^{\\mathrm{~k_e~}}=\\frac{\\mathrm{~D_1~}} {\\mathrm{~V_0~}}+\\mathrm{~g_c~}_{\\mathrm{c~}} \\mathrm{.~The~estimated~value~of~a~share~is~} a l l \\mathrm{~of~its~future}} \\\\ {\\mathrm{~dividends~discounted~at~the~required~rate~of~return,~which~simplifies~to}} \\\\ \\end{array}",
+              "display": true,
+              "sourceAsset": "2add70f5a615e9eb9feb.png",
+              "prose": "rate of return as . The estimated value of a share is all of its future dividends discounted at the required rate of return, which simplifies to"
+            },
+            {
+              "type": "math",
+              "latex": "V_0=\\frac{D_1}{k_e-g_c},\\quad\n\\text{assuming a constant growth rate; }g_c=\\text{required return}-\\text{dividend yield}",
+              "display": true,
+              "sourceAsset": "c6f77f6806809dcb944b.png",
+              "prose": "if we assume a constant growth rate. We can estimate the constant growth rate as the required rate of return minus the dividend yield."
+            }
+          ]
+        },
+        {
+          "id": "r2-q4",
+          "number": 2,
+          "objectiveIds": [
+            "2.b"
+          ],
+          "prompt": "An investment of €5 million today is expected to produce a one-time payoff of €7 million three years from today. The annual return on this investment, assuming annual compounding, is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "12%."
+            },
+            {
+              "id": "B",
+              "text": "13%."
+            },
+            {
+              "id": "C",
+              "text": "14%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "2. \\textbf{A} \\left( \\frac{7} {5} \\right)^{\\frac{1} {3}}-1=0.1187",
+              "display": true,
+              "sourceAsset": "eae5d5799b43cb89de86.png"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

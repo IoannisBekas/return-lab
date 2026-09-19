@@ -1,0 +1,682 @@
+{
+  "readingId": 53,
+  "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "53.1",
+      "title": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "53.a",
+          "text": "How do we calculate annual yield on a bond for varying compounding periods in a year?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given a bond’s price in the market, we can say that the yield to maturity (YTM) is the discount rate that makes the present value of a bond’s cash flows equal to its price."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a 5-year, annual-pay 7% bond that is priced in the market at 102.078, the YTM will satisfy the following equation:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{1}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{2}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{3}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{4}}+\\frac{107} {( 1+\\Upsilon T \\mathrm{M} )^{5}}} \\\\ {} & {{}=102.078} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "9cf5320b1e6e2a62908e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can calculate the YTM (discount rate) that satisfies this equality as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 5; PMT = 7; FV = 100; PV = −102.078; CPT → I/Y = 6.5%"
+        },
+        {
+          "type": "paragraph",
+          "text": "By convention, the YTM on a semiannual coupon bond is stated as two times the semiannual discount rate. For a 5-year, semiannual-pay 7% coupon bond, we can calculate the semiannual discount rate as YTM / 2 and then double it to get the YTM expressed as an annualized yield:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{1}}}+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{2}}}+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{3}}}+\\ldots+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{9}}}+\\\\[6pt]\\begin{aligned} {} & {{} \\frac{103.5} {\\left( 1+\\frac{\\mathrm{YTM}} {2} \\right)^{10}} \\!=102.078} \\\\ {} & {{} \\mathrm{N}=10 ; \\, \\mathrm{PMT}=3.5 ; \\, \\mathrm{FV}=100 ; \\, \\mathrm{PV}=-102.078 ; \\, \\mathrm{CPT} \\to\\mathrm{L/Y}=3.25396} \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "7b2c0a64ad3b7eeaf1c9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The quoted annualized YTM is 3.253 × 2 = 6.506%."
+        },
+        {
+          "type": "heading",
+          "text": "Yield Measures for Fixed-Rate Bonds"
+        },
+        {
+          "type": "paragraph",
+          "text": "The number of bond coupon payments per year is referred to as the periodicity of a bond. A bond with a periodicity of 2 will have its YTM quoted on a semiannual bond basis. For a given coupon rate, the greater the periodicity, the more compounding periods, and the greater the effective annual yield (which reflects compounding)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, the effective annual yield for a bond with its YTM stated for a periodicity of n (n compounding periods per year) is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{annual~yield}}=\\left( 1+{\\frac{\\mathrm{YTM}} {n}} \\right)^{n}-1",
+          "display": true,
+          "sourceAsset": "fc6d684eff966cb4579e.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Effective annual yields"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the effective annual yield for a bond with a stated YTM of 10%:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. When the periodicity of the bond is 2 (pays semiannually)?\n2. When the periodicity of the bond is 4 (pays quarterly)?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {{\\mathrm{1.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {2}} \\right)^{2}-1=1.05^{2}-1=0.1025=10.25^{9} \\! /_{\\! 6}} \\\\ {{\\mathrm{2.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {4}} \\right)^{4}-1=1.025^{4}-1=0.1038=10.3896} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "e5ab0f2c64e8ccdaf492.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "It may be necessary to adjust the quoted yield on a bond to make it comparable with the yield on a bond with a different periodicity. This is illustrated in the following example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Adjusting yields for periodicity"
+        },
+        {
+          "type": "paragraph",
+          "text": "An Atlas Corporation bond is quoted with a YTM of 4% on a semiannual bond basis. What yields should be used to compare it with a quarterly-pay bond and an annual-pay bond?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first thing to note is that a YTM of 4% on a semiannual bond basis means a periodic return of 2% per 6-month period."
+        },
+        {
+          "type": "paragraph",
+          "text": "To compare this with the yield on an annual-pay bond, which is an effective annual yield, we need to calculate the effective annual yield on the semiannual coupon bond, which is 1.02² − 1 = 4.04%."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the quoted annual YTM on the quarterly-pay bond, we need to calculate the effective quarterly yield and multiply by four. The quarterly yield (yield per quarter) that is equivalent to a yield of 2% per six months is 1.02¹/² − 1 = 0.995%. The quoted annual rate for the equivalent yield on a quarterly bond basis is 4 × 0.995% = 3.98%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that we have shown that the effective annual yields are the same for the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "An annual coupon bond with a yield of 4.04% on an annual basis (periodicity of one)"
+        },
+        {
+          "type": "paragraph",
+          "text": "A semiannual coupon bond with a yield of 4.0% on a semiannual basis (periodicity of two)"
+        },
+        {
+          "type": "paragraph",
+          "text": "A quarterly coupon bond with a yield of 3.98% on quarterly basis (periodicity of four)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond yields calculated using the stated coupon payment dates are referred to as following the street convention. When coupon dates fall on weekends and holidays, coupon payments will actually be made the next business day. The yield calculated using these actual coupon payment dates is referred to as the true yield. Because coupon payments will be made later when holidays and weekends are taken into account, true yields are usually slightly lower than street convention yields, if only by a few basis points."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current yield (also called income yield or running yield) looks at just one source of return, which is a bond’s annual interest income—it does not consider capital gains or losses or reinvestment income. The formula for the current yield is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{current~yield=} \\frac{\\mathrm{annual~cash~coupon~payment}} {\\mathrm{bond~price}}",
+          "display": true,
+          "sourceAsset": "fb10b3a2c77f9c10eff4.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Computing current yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 20-year, $1,000 par value, 6% semiannual-pay bond that is currently trading at a flat price of $802.07. Calculate the current yield."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The annual cash coupon payments total:"
+        },
+        {
+          "type": "paragraph",
+          "text": "annual cash coupon payment = par value × stated coupon rate = $1,000 × 0.06 = $60"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the bond is trading at $802.07, the current yield is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{current~yield}=\\frac{60} {802.07}=0.0748 , \\, \\mathrm{or} \\, \\, 7.48 \\%_{\\circ}",
+          "display": true,
+          "sourceAsset": "c5fa56264488e19e5816.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that current yield is based on annual coupon interest so that it is the same for a semiannual-pay and annual-pay bond with the same coupon rate and price."
+        },
+        {
+          "type": "paragraph",
+          "text": "A bond’s simple yield takes a discount or premium into account by assuming that any discount or premium declines evenly over the remaining years to maturity. The sum of the annual coupon payment plus (minus) the straight-line amortization of a discount (premium) is divided by the flat price to get the simple yield."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Computing simple yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 3-year, 8% coupon, semiannual-pay bond is priced at 90.165. Calculate the simple yield."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The discount from par value is 100 − 90.165 = 9.835. Annual straight-line amortization of the discount is 9.835 / 3 = 3.278:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{simple~yield=} \\frac{8+3.278} {90.165}=12.51 \\%",
+          "display": true,
+          "sourceAsset": "5ef1be85101dfcd328c2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a callable bond, an investor’s yield will depend on whether and when the bond is called. The yield to call can be calculated for each possible call date and price. The lowest of YTM and the various yields to call is termed the yield to worst. The following example illustrates these calculations."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Yield to call and yield to worst"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 5-year, semiannual-pay 6% bond trading at 102 on January 1, 20X4. The bond is callable according to the following schedule:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Callable at 102 on or after January 1, 20X7 Callable at 101 on or after January 1, 20X8"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the bond’s YTM, yield to first call, yield to second call, and yield to worst."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The yield to maturity on the bond is calculated as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; PMT = 3; FV = 100; PV = −102; CPT → I/Y = 2.768%"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 × 2.768 = 5.54% = YTM"
+        },
+        {
+          "type": "paragraph",
+          "text": "To calculate the yield to first call, we calculate the YTM using the number of semiannual periods until the first call date in 20X7 (6) for N and the call price (102) for FV:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 6; PMT = 3; FV = 102; PV = −102; CPT → I/Y = 2.941%"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 × 2.941 = 5.88% = yield to first call"
+        },
+        {
+          "type": "paragraph",
+          "text": "To calculate the yield to second call, we calculate the YTM using the number of semiannual periods until the second call date in 20X8 (8) for N and the call price (101) for FV:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 8; PMT = 3; FV = 101; PV = −102; CPT → I/Y = 2.830%"
+        },
+        {
+          "type": "paragraph",
+          "text": "2 × 2.830 = 5.66% = yield to second call"
+        },
+        {
+          "type": "paragraph",
+          "text": "The lowest yield, 5.54%, is realized if the bond is held to maturity and not called, so the yield to worst is 5.54%."
+        },
+        {
+          "type": "paragraph",
+          "text": "A callable bond can be viewed as an equivalent straight (option-free) bond combined with a short call option position (because the right to call the bond lies with the issuer, not the investor):"
+        },
+        {
+          "type": "paragraph",
+          "text": "callable bond value = straight bond value − call option value"
+        },
+        {
+          "type": "paragraph",
+          "text": "Stated differently, we can view the value of an equivalent straight bond (known as the option-adjusted price) as the value of the callable bond plus the value of the call option embedded in the callable bond (which could be derived from an option pricing model)."
+        },
+        {
+          "type": "paragraph",
+          "text": "This option-adjusted price can then be used to calculate an option-adjusted yield, which represents the yield that the bond would be offering if it were not callable. Because the existence of the call option decreases the bond price and increases an investor’s required yield, “removing” the option in this manner will cause the option-adjusted yield to be lower than the yield of the callable bond. The option-adjusted yield is useful because it can be used to compare the yields of bonds with various embedded options to each other and to similar option-free bonds on a consistent basis."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Take care to understand that option-adjusted prices and yields remove the impact of the option from a bond with an embedded option. It is a common mistake when first encountering these measures to incorrectly think they are adjusting to incorporate the impact of the option, when in fact they are doing the opposite. When you see “option-adjusted,” think “option removed” or “option taken away.”"
+        },
+        {
+          "type": "question",
+          "objectiveId": "53.b",
+          "text": "What should we understand about compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A yield spread, or benchmark spread, is the difference between the yields of a bond and a benchmark security. For example, if a 5-year corporate bond has a yield of 6.25% and its benchmark, the 5-year Treasury note, has a yield of 3.50%, the corporate bond has a benchmark spread of 625 − 350 = 275 basis points."
+        },
+        {
+          "type": "paragraph",
+          "text": "For fixed-coupon bonds, on-the-run government bond yields for the same or nearest maturity are frequently used as benchmarks because they are the most actively traded bonds, and therefore give the most useful price and yield information. A yield spread in basis points over a government bond is also known as a G-spread. If a benchmark government bond with exactly the same maturity as the riskier bond does not exist, interpolation should be used to estimate the appropriate maturity benchmark yield."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: G-spread"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 3-year, 8% coupon, semiannual-pay bond is priced at 103.165, and 1-year and 4-year U.S. Treasury yields are 3% and 5%, respectively. Calculate the G-spread of the bond."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The YTM of the bond is calculated as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 6; PMT = 4; FV = 100; PV = −103.165; CPT → I/Y = 3.408%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quoted YTM = 2 × 3.408% = 6.82%"
+        },
+        {
+          "type": "paragraph",
+          "text": "The interpolated 3-year government bond yield is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "3% + [(3 − 1) / (4 − 1)] × (5% − 3%) = 4.33%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Then, the G-spread = 6.82% − 4.33% = 2.49%, or 249 basis points."
+        },
+        {
+          "type": "paragraph",
+          "text": "An alternative to using government bond yields as benchmarks is to use rates for interest rate swaps in the same currency and with the same tenor as a bond. Yield spreads relative to swap rates are known as interpolated spreads or I-spreads and represent the extra return of a bond in excess of the interbank market reference rates (MRRs) used in swap contracts. I-spreads are frequently stated for bonds denominated in euros."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yield spreads are useful for analyzing the factors that affect a bond’s yield. If a corporate bond’s yield increases from 6.25% to 6.50%, this may have been caused by factors that affect all bond yields (macroeconomic factors) or by firm-specific or industry-specific (microeconomic) factors. If a bond’s yield increases but its spread remains the same, the yield on its benchmark must have also increased, which suggests macroeconomic factors caused bond yields in general to increase. However, if the yield spread increases, this suggests the increase in the bond’s yield was caused by microeconomic factors, such as credit risk of the issuer increasing or the issue’s liquidity deteriorating."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from Quantitative Methods that an interest rate is composed of the real risk-free rate, the expected inflation rate, and a risk premium. We can think of macroeconomic factors as those that affect the real risk-free rate and expected inflation (which make up the benchmark yield), and microeconomic factors as those that affect credit and liquidity risk premiums (which make up the yield spread). Differences in taxation of the returns from bonds of different issuers can also affect yield spreads."
+        },
+        {
+          "type": "heading",
+          "text": "Zero-Volatility and Option-Adjusted Spreads"
+        },
+        {
+          "type": "paragraph",
+          "text": "The G-spread and I-spread are based on the difference between the yields of a specific bond and a benchmark. Recall that the YTM of a bond is the single discount rate that sets the present value of the cash flows of the bond equal to its market price."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can observe from the prices of zero-coupon bonds that different individual cash flows occurring at different maturities can have different yields. Yields earned by individual cash flows at different maturities are referred to as spot rates. The single YTM of a coupon-paying bond represents a weighted average of the different spot rates offered by the individual cash flows of the bond."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Spot rates are formally introduced and discussed later in our reading on The Term Structure of Interest Rates. For now, it is enough to know that calculating spreads over benchmark spot rates is a more precise way of calculating spreads than basing the measure on YTMs because it better captures how rates vary over different maturities (referred to as the term structure of rates)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A method for deriving a bond’s yield spread to a benchmark spot yield curve that accounts for the shape of the yield curve is to add an equal amount to each benchmark spot rate and value the bond with those rates. When we find an amount which, when added to the benchmark spot rates, produces a value equal to the market price of the bond, we have the appropriate yield curve spread. A yield spread calculated this way is known as a zero-volatility spread or Z-spread."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Zero-volatility spread"
+        },
+        {
+          "type": "paragraph",
+          "text": "The 1-, 2-, and 3-year spot rates on Treasuries are 4%, 8.167%, and 12.377%, respectively. Consider a 3-year, 9% annual coupon corporate bond trading at 89.464. The YTM is 13.50%, and the YTM of a 3-year Treasury is 12%. Calculate the G-spread and the Z-spread of the corporate bond."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The G-spread is YTMbond − YTMTreasury = 13.50 − 12.00 = 1.50%."
+        },
+        {
+          "type": "paragraph",
+          "text": "To compute the Z-spread, set the present value of the bond’s cash flows equal to today’s market price. Discount each cash flow at the appropriate zero-coupon bond spot rate plus a fixed-spread ZS. Solve for ZS in the following equation, and you have the Z-spread:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {89.464={\\frac{9} {( 1.04+Z S )^{1}}}+{\\frac{9} {( 1.08167+Z S )^{2}}}+{\\frac{109} {( 1.12377+Z S )^{3}}}} \\\\ {\\mathrm{~}} \\\\ {\\Rightarrow\\mathrm{ZS}=1.67 {\\frac{9} {6}} , {\\mathrm{~or~} 167 {\\mathrm{~basis~points}}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "f55d351ab55aee656ffc.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that this spread is found by trial and error. In other words, pick a number “ZS,” plug it into the right-hand side of the equation, and see if the result equals 89.464. If the right-hand side equals the left, then you have found the Z-spread. If not, adjust ZS in the appropriate direction and recalculate."
+        },
+        {
+          "type": "paragraph",
+          "text": "An option-adjusted spread (OAS) is used for bonds with embedded options. Loosely speaking, the OAS takes the option yield component out of the Z-spread measure; the OAS is the spread to the government spot rate curve that the bond would have if it were option free. This is similar to the option-adjusted yields discussed earlier, the only difference being OAS respects the term structure of rates instead of being based on YTM."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we calculate an OAS for a callable bond, it will be less than the bond’s Z-spread. The difference is the extra yield required to compensate bondholders for the call option. That extra yield is referred to as the option value. Thus, we can write the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "option value = Z-spread − OAS"
+        },
+        {
+          "type": "paragraph",
+          "text": "OAS = Z-spread − option value"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if a callable bond has a Z-spread of 180 bp and the value of the call option is 60 bp, the bond’s OAS is 180 − 60 = 120 bp."
+        },
+        {
+          "type": "paragraph",
+          "text": "The interpretation here is that investors are demanding the Z-spread (180 bp) for the credit, liquidity, taxation, and optionality risks of the callable bond. When the"
+        },
+        {
+          "type": "paragraph",
+          "text": "component of the spread relating to optionality is removed, we are left with the OAS (120 bp) that rewards investors for facing credit, liquidity, and taxation risks."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "53.a",
+      "text": "How do we calculate annual yield on a bond for varying compounding periods in a year?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The effective yield of a bond depends on its periodicity, or frequency of coupon payments. For an annual-pay bond, the effective yield is equal to the yield to maturity (YTM). For bonds with greater periodicity, the effective yield is greater than the YTM."
+    },
+    {
+      "type": "paragraph",
+      "text": "A YTM quoted on a semiannual bond basis is two times the semiannual discount rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bond yields that follow street convention use the stated coupon payment dates. A true yield accounts for coupon payments that are delayed by weekends or holidays and may be slightly lower than a street convention yield."
+    },
+    {
+      "type": "paragraph",
+      "text": "Current yield is the ratio of a bond’s annual coupon payments to its price. Simple yield adjusts current yield by using straight-line amortization of any discount or premium."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a callable bond, a yield to call may be calculated using each of its call dates and prices. The lowest of these yields or its YTM is a callable bond’s yield to worst."
+    },
+    {
+      "type": "question",
+      "objectiveId": "53.b",
+      "text": "What should we understand about compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A yield spread or benchmark spread is the difference between a bond’s yield and a benchmark yield or yield curve. If the benchmark is a government bond yield, the spread is known as a government spread or G-spread. If the benchmark is a swap rate, the spread is known as an interpolated spread or I-spread."
+    },
+    {
+      "type": "paragraph",
+      "text": "A zero-volatility spread or Z-spread is the percentage spread that must be added to each spot rate on the benchmark yield curve to make the present value of a bond’s cash flows equal to its price."
+    },
+    {
+      "type": "paragraph",
+      "text": "An option-adjusted spread (OAS) is used for bonds with embedded options and represents the spread the bond would offer if it had no embedded options. For a callable bond, the OAS is equal to the Z-spread minus the call option value in basis points."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "53.a",
+      "statement": "Calculate annual yield on a bond for varying compounding periods in a year.",
+      "question": "How do we calculate annual yield on a bond for varying compounding periods in a year?"
+    },
+    {
+      "id": "53.b",
+      "statement": "Compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds.",
+      "question": "What should we understand about compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-53-quiz-1",
+      "title": "Knowledge check 53.1",
+      "moduleId": "53.1",
+      "questions": [
+        {
+          "id": "r53-q1",
+          "number": 1,
+          "objectiveIds": [
+            "53.a"
+          ],
+          "prompt": "Based on semiannual compounding, what is the YTM of a 15-year, zero-coupon, $1,000 par value bond that is currently trading at $331.40?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "3.750%."
+            },
+            {
+              "id": "B",
+              "text": "5.151%."
+            },
+            {
+              "id": "C",
+              "text": "7.500%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\\nCPT\\to I/Y&=3.750\\times2=7.500\\% \\\\\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
+              "display": true,
+              "sourceAsset": "1faede774541a1a6ade5.png"
+            }
+          ]
+        },
+        {
+          "id": "r53-q2",
+          "number": 2,
+          "objectiveIds": [
+            "53.a"
+          ],
+          "prompt": "An analyst observes a Widget & Co. 7.125%, 4-year, semiannual-pay bond trading at 102.347. The bond is callable at 101 in two years. The bond’s yield to call is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "3.2%."
+            },
+            {
+              "id": "B",
+              "text": "6.3%."
+            },
+            {
+              "id": "C",
+              "text": "9.4%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "N = 4; FV = 101; PMT = 3.5625; PV = −102.347; CPT → I/Y = 3.167 × 2 = 6.334%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "N = 4; FV = 101; PMT = 3.5625; PV = −102.347; CPT → I/Y = 3.167 × 2 = 6.334%"
+            }
+          ]
+        },
+        {
+          "id": "r53-q3",
+          "number": 3,
+          "objectiveIds": [
+            "53.a"
+          ],
+          "prompt": "Holding the effective annual yield constant, if the periodicity of a bond is increased, its stated YTM will:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "decrease."
+            },
+            {
+              "id": "B",
+              "text": "stay the same."
+            },
+            {
+              "id": "C",
+              "text": "increase."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Due to their increased compounding frequency, bonds with higher periodicity will have a lower stated YTM for a certain level of effective annual yield (EAY). For example, for an EAY of 5% and periodicity of 2, the stated YTM must solve [1 + (YTM / 2)]² = 1.05. Hence, YTM = 2 (1.05¹/² − 1) = 4.94%. With periodicity of 4, the stated YTM must solve [1 + (YTM / 4)]⁴ = 1.05. Hence, YTM = 4 (1.05¹/⁴ − 1) = 4.91%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Due to their increased compounding frequency, bonds with higher periodicity will"
+            },
+            {
+              "type": "paragraph",
+              "text": "have a lower stated YTM for a certain level of effective annual yield (EAY). For example, for an EAY of 5% and periodicity of 2, the stated YTM must solve [1 + (YTM / 2)]² = 1.05. Hence, YTM = 2 (1.05¹/² − 1) = 4.94%. With periodicity of 4, the stated YTM must solve [1 + (YTM / 4)]⁴ = 1.05. Hence, YTM = 4 (1.05¹/⁴ − 1) = 4.91%."
+            }
+          ]
+        },
+        {
+          "id": "r53-q4",
+          "number": 4,
+          "objectiveIds": [
+            "53.b"
+          ],
+          "prompt": "A corporate bond is quoted at a spread of +235 basis points over an interpolated 12-year U.S. Treasury bond yield. This spread is a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "G-spread."
+            },
+            {
+              "id": "B",
+              "text": "I-spread."
+            },
+            {
+              "id": "C",
+              "text": "Z-spread."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "G-spreads are quoted relative to an actual or interpolated government bond yield. I-spreads are quoted relative to swap rates. Z-spreads are calculated based on the shape of the benchmark yield curve.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "G-spreads are quoted relative to an actual or interpolated government bond yield."
+            },
+            {
+              "type": "paragraph",
+              "text": "I-spreads are quoted relative to swap rates. Z-spreads are calculated based on the shape of the benchmark yield curve."
+            }
+          ]
+        },
+        {
+          "id": "r53-q5",
+          "number": 5,
+          "objectiveIds": [
+            "53.b"
+          ],
+          "prompt": "For a callable bond, relative to its option-adjusted spread, its Z-spread is most likely to be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lower."
+            },
+            {
+              "id": "B",
+              "text": "the same."
+            },
+            {
+              "id": "C",
+              "text": "higher."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A callable bond will offer a higher yield than an equivalent straight bond because the investor faces the call risk of the option. Hence, the Z-spread, which includes the impact of the option, will be higher than the OAS, which has removed the impact of the option.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A callable bond will offer a higher yield than an equivalent straight bond because"
+            },
+            {
+              "type": "paragraph",
+              "text": "the investor faces the call risk of the option. Hence, the Z-spread, which includes the impact of the option, will be higher than the OAS, which has removed the impact of the option."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

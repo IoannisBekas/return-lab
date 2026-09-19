@@ -2,6 +2,8 @@ import { Component, lazy, Suspense, useEffect, useMemo, useRef, useState, type R
 import curriculumData from "./data/manifest.json";
 
 const GoldLesson = lazy(() => import("./components/learning/GoldLesson"));
+const FullReading = lazy(() => import("./components/learning/FullReading"));
+const ReferenceLibrary = lazy(() => import("./components/learning/ReferenceLibrary"));
 
 type ModuleSummary = {
   id: string;
@@ -57,6 +59,7 @@ class LessonErrorBoundary extends Component<{ children: ReactNode }, { failed: b
 }
 
 function readRoute() {
+  if (/^#\/reference(?:\/|$)/.test(window.location.hash)) return "reference";
   const match = window.location.hash.match(/^#\/reading\/(\d+)/);
   return match ? Number(match[1]) : null;
 }
@@ -86,7 +89,7 @@ function openReading(number: number) {
 }
 
 function App() {
-  const [readingNumber, setReadingNumber] = useState<number | null>(() =>
+  const [readingNumber, setReadingNumber] = useState<number | "reference" | null>(() =>
     readRoute(),
   );
   const reading = readingNumber === null
@@ -123,7 +126,9 @@ function App() {
   return (
     <>
       <Header completed={complete.length} />
-      {readingNumber !== null && reading ? (
+      {readingNumber === "reference" ? (
+        <LessonErrorBoundary><Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the reference…</p>}><ReferenceLibrary /></Suspense></LessonErrorBoundary>
+      ) : readingNumber !== null && reading ? (
         <LessonPage
           key={reading.number}
           complete={complete.includes(reading.number)}
@@ -160,6 +165,7 @@ function Header({ completed }: { completed: number }) {
       <nav aria-label="Primary navigation">
         <a href="#/section/curriculum">Curriculum</a>
         <a href="#/section/topics">Topics</a>
+        <a href="#/reference">Reference</a>
         <a href="#/section/progress">Progress</a>
       </nav>
       <div className="header-progress">
@@ -200,9 +206,9 @@ function HomePage({ complete }: { complete: number[] }) {
           <p className="eyebrow">FINANCE / EXPLAINED AS A SYSTEM</p>
           <h1>Learn every measure behind the number.</h1>
           <p className="hero-intro">
-            Ninety-three readings. One connected learning path. Every mapped
-            module is taught with original explanation, precise notation where it applies,
-            a worked application, misconception checks, and feedback-rich practice.
+            Ninety-three readings. One connected learning path. Build your
+            understanding with clear explanations, precise notation, worked
+            examples, and practice with step-by-step feedback.
           </p>
           <div className="hero-actions">
             <button
@@ -226,7 +232,7 @@ function HomePage({ complete }: { complete: number[] }) {
             </div>
             <div>
               <dt>365</dt>
-              <dd>mapped outcomes</dd>
+              <dd>learning outcomes</dd>
             </div>
           </dl>
         </div>
@@ -284,9 +290,9 @@ function HomePage({ complete }: { complete: number[] }) {
             <h2>Every reading has a deep lesson.</h2>
           </div>
           <p>
-            Search titles and module names, or focus the list by topic. The
-            source books remain local; this repository contains an original
-            educational treatment of their curriculum structure.
+            Search titles and module names, or focus the list by topic.
+            Work through the lessons in order or return to a concept you
+            want to strengthen.
           </p>
         </div>
 
@@ -323,7 +329,7 @@ function HomePage({ complete }: { complete: number[] }) {
                 <p>{reading.topic}</p>
                 <h3>{reading.title}</h3>
                 <span>
-                  Source-verified deep lesson · objective-linked practice
+                  Complete lesson · guided practice
                 </span>
                 <ul>
                   {reading.modules.slice(0, 3).map((module) => (
@@ -358,7 +364,6 @@ function LessonPage({
 }) {
   const previous = curriculum[reading.number - 2];
   const next = curriculum[reading.number];
-  const hasCustomGoldLayout = [1, 57, 83].includes(reading.number);
 
   useEffect(() => {
     document.title = `${String(reading.number).padStart(2, "0")} ${reading.title} | Return Lab`;
@@ -375,7 +380,7 @@ function LessonPage({
         <div>
           <p>{reading.topic}</p>
           <h1>{reading.title}</h1>
-          <strong>Source-verified deep lesson · objective-based practice</strong>
+          <strong>Complete lesson · guided practice</strong>
         </div>
         <button
           className={complete ? "complete-action is-complete" : "complete-action"}
@@ -391,13 +396,16 @@ function LessonPage({
           <span className="section-code">IN THIS READING</span>
           <ol>
             <li><a href={`#/reading/${reading.number}/section/overview`}>Core idea</a></li>
-            <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Source-verified deep lesson</a></li>
-            {!hasCustomGoldLayout ? reading.modules.map((module) => (
-              <li key={module.id}><a href={`#/reading/${reading.number}/section/deep-module-${module.id}`}>{module.id} {module.title}</a></li>
-            )) : null}
+            <li><a href={`#/reading/${reading.number}/section/full-reading`}>Complete lesson</a></li>
+            {reading.modules.map((module) => (
+              <li key={module.id}><a href={`#/reading/${reading.number}/section/full-module-${module.id}`}>{module.id} {module.title}</a></li>
+            ))}
+            <li><a href={`#/reading/${reading.number}/section/full-quiz`}>Module quiz</a></li>
+            <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Guided examples and practice</a></li>
             <li><a href={`#/reading/${reading.number}/section/deep-assessment`}>Application check</a></li>
             {reading.number === 1 ? <li><a href={`#/reading/${reading.number}/section/return-lab`}>Interactive return lab</a></li> : null}
-            <li><a href={`#/reading/${reading.number}/section/knowledge-check`}>Knowledge check</a></li>
+            <li><a href={`#/reading/${reading.number}/section/knowledge-check`}>Reflection check</a></li>
+            <li><a href="#/reference">Formula and statistical reference</a></li>
           </ol>
         </aside>
 
@@ -406,15 +414,21 @@ function LessonPage({
             <span className="section-code">CORE IDEA</span>
             <h2>{reading.overview}</h2>
             <div>
-              <p><strong>Coverage</strong></p>
+              <p><strong>What you will learn</strong></p>
               <p>
-                {reading.modules.map((module) => module.title).join("; ")}. The lesson connects each mapped module to explanation, assumptions, a worked application, and objective-linked practice.
+                {reading.modules.map((module) => module.title).join("; ")}. Explore the concepts, learn when each method applies, and put your understanding into practice.
               </p>
             </div>
           </section>
 
+          <LessonErrorBoundary key={`full-${reading.number}`}>
+            <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the complete reading…</p>}>
+              <FullReading readingId={reading.number} />
+            </Suspense>
+          </LessonErrorBoundary>
+
           <LessonErrorBoundary key={reading.number}>
-            <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the source-verified lesson…</p>}>
+            <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the lesson…</p>}>
               <GoldLesson readingId={reading.number} />
             </Suspense>
           </LessonErrorBoundary>
@@ -522,7 +536,7 @@ function KnowledgeCheck({ reading }: { reading: Reading }) {
 
   return (
     <section className="knowledge-check" id="knowledge-check">
-      <span className="section-code">KNOWLEDGE CHECK</span>
+      <span className="section-code">REFLECTION CHECK</span>
       <h2>Explain the reading without looking back.</h2>
       <p className="retrieval-prompt">
         In three to five sentences, explain how {reading.title.toLowerCase()} changes an analyst&apos;s decision. Include one method, one assumption, and one limitation.
@@ -619,7 +633,7 @@ function Footer() {
         An independent finance course with structured lessons, worked
         applications, practice sets, answer explanations, and progress tracking.
       </p>
-      <small>93 readings · 152 modules · 365 source-mapped learning outcomes</small>
+      <small>93 readings · 152 modules · 365 learning outcomes<a className="reference-footer-link" href="#/reference">Formula and statistical reference ↗</a></small>
     </footer>
   );
 }

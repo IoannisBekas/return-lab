@@ -1,0 +1,302 @@
+{
+  "readingId": 26,
+  "title": "Business Models",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "26.1",
+      "title": "Business Model Features and Types",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "26.a",
+          "text": "What should we know about key features of business models?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A successful firm must provide a product or service, find customers, deliver the product or service, and make a profit. A business model explains how a firm either does or proposes to do this."
+        },
+        {
+          "type": "paragraph",
+          "text": "“How we will provide it, sell it, and make a profit” is clearly an oversimplification, but this is the essence of a business model. In practice, the answers to these questions have many facets. Here, we present a framework that incorporates some of the complexities involved. It involves answering the questions of who, what, how, where, and how much."
+        },
+        {
+          "type": "paragraph",
+          "text": "A business model should do the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Identify the firm’s potential customers (who), how they are acquired, the cost of customer acquisition, and how the company will monitor and maintain customer satisfaction. Potential customers can be defined in innumerable ways, ranging from every consumer within a geographic area, to dog owners, to only the home country’s military in the case of a weapon. This characterization of customer groups is called segmenting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Describe the key assets and suppliers of the firm (how). Key assets may be, for example, a patent, software, or skilled employees. Key suppliers may be a battery manufacturer for an electric vehicle company, a lithium miner for a battery maker, or a supplier of large excavation machinery for a lithium miner. Describe the firm’s product or service (what), how it meets a need for its potential customers, and what differentiates its products from those of competitors (e.g., low price, premium quality, innovative features). Explain how the firm will sell its product or service (where), such as online, physical location, direct mail, trade shows, or through sales representatives; whether the firm will sell directly to the buyers (direct sales) or use intermediaries such as wholesalers, retailers, agents, or franchisees; and how the firm will deliver its product or service. The answers to these questions comprise a firm’s channel strategy. A strategy that includes both digital and physical channels, such as internet sales with delivery at a physical location, is referred to as an omnichannel strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Firms that sell to other businesses are said to be B2B (business to business) firms, while firms that sell to consumers are said to be B2C (business to consumer) firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Explain its pricing strategy (how much) and why buyers will pay that price for its product, given the competitive landscape of the market."
+        },
+        {
+          "type": "heading",
+          "text": "Pricing Strategies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies with undifferentiated products, called commodity producers, are price takers (e.g., oil and gas, home loans). Industries with few competitors or highly differentiated products enjoy pricing power (e.g., patented drugs). Companies may be able to charge a premium price by including services or features that are valued by customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Price discrimination refers to setting different prices for different customers or identifiable groups of customers. Common examples are tiered pricing (based on volume of purchases); dynamic pricing (depending on the time of day or day of the week), such as peak and off-peak pricing and low-priced airline tickets for very early or very late flights; value-based pricing (e.g., a new drug that offers a marginally better protection compared to existing drugs); and auction pricing (e.g., eBay)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pricing models for multiple products include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bundling. Where multiple products are complimentary (e.g., a furnished apartment), bundling the products may be a profitable strategy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Razors-and-blades. A company may find it profitable to sell a piece of equipment for a relatively low price (low margins) and make profits by selling a consumable used with the equipment. Printers and ink cartridges, and an e-reader and e-books are common examples. Add-on pricing. Options or add-ons priced with high margins are added to the product after the purchase decision has been made. An example is the many pricey options that may be offered after a customer has decided to purchase an automobile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other pricing models include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Penetration pricing. A company offers a product at low margins or even at a loss for a period of time to grow market share and achieve greater scale of operations. Netflix followed this strategy to grow its subscriber base rapidly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Freemium pricing. Offer a product with basic functionality at no cost, but sell or unlock other functionality for a fee. Video game makers have used this strategy to encourage wide usage and then profit on sales of greater functionality (e.g., upgraded weapons). Hidden revenue. Online content may be “free” but generate revenue through ads. For example, an internet search is free to the user while the search engine’s revenue comes from selling user data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Models that offer alternatives to outright purchases include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Subscription model. Microsoft’s model for software has changed from selling the software to a subscription (paying monthly for access) to their Office suite of software."
+        },
+        {
+          "type": "paragraph",
+          "text": "Licensing and franchising. For a biotech company that has developed a new and effective drug, it may be most profitable to license the production of the drug to an"
+        },
+        {
+          "type": "paragraph",
+          "text": "established drug maker with a large sales force and established distribution channels, rather than developing those resources itself for the single drug. A franchisee typically is permitted to sell in a specific area and pays a percentage of sales to the franchisor, which provides some level of product and marketing support."
+        },
+        {
+          "type": "heading",
+          "text": "Value Proposition and Value Chain"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm’s value proposition refers to how customers will value the characteristics of the product or service, given the competing products and their prices. How the firm executes its value proposition is referred to as its value chain. A firm’s value chain comprises the assets of the firm and how its organization will add value and exploit the firm’s competitive advantage. The value chain encompasses the quality of the product, its functionality, service that is included, the sale process, and pricing relative to the competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "In his 1985 book Competitive Advantage, Michael Porter presents five activities (value chain analysis) in which firms should strive to execute well:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Inbound logistics"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Operations\n3. Outbound logistics\n4. Marketing"
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Sales and service"
+        },
+        {
+          "type": "question",
+          "objectiveId": "26.b",
+          "text": "What should we know about various types of business models?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conventional business models tend to be industry-specific. Examples include those followed by natural resource producers, manufacturers, distributors, retailers, banks, brokers, service providers, and software. Other business models include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Private label manufacturers or contract manufacturers. Companies produce products for others to market under their own brand name (e.g., Costco’s Kirkland-branded products)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Licensing agreements. A company brand is used by another company on its products for a fee, such as a lunch box branded with a Marvel character. Value-added resellers. They offer such things as installation, service, support, or customization for complex equipment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Innovations in business models often occur due to new entrants sometimes bringing new technology into the industry to challenge the incumbents. Examples include pricing of software as a service (SaaS), ultra-low-cost airlines, and discount brokers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Network effects refer to the increase in the value of a network as its user base grows. Examples of this include WhatsApp, eBay, and Facebook. Network effects support an initial strategy of penetration pricing. Network effects capitalize on both size and scope. Some networks are two-sided or multi-sided—such as Airbnb, which has a multitude of hosts and guests."
+        },
+        {
+          "type": "paragraph",
+          "text": "Crowdsourcing models benefit from user contributions—content in the case of Wikipedia, traffic conditions and events in the case of Waze, and product improvements or new applications in the case of open-source software."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "26.a",
+      "text": "What should we know about key features of business models?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A business model should identify a firm’s potential customers, describe its products or services and explain how it will sell them, describe its key assets and suppliers, and explain its pricing strategy."
+    },
+    {
+      "type": "paragraph",
+      "text": "A value proposition refers to how a firm’s customers will value the characteristics of the product or service. A value chain refers to how a firm executes its value proposition."
+    },
+    {
+      "type": "question",
+      "objectiveId": "26.b",
+      "text": "What should we know about various types of business models?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Apart from industry-specific conventional business models, other business models include private label manufacturers, value-added resellers, and licensing agreements."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "26.a",
+      "statement": "Describe key features of business models.",
+      "question": "What should we know about key features of business models?"
+    },
+    {
+      "id": "26.b",
+      "statement": "Describe various types of business models.",
+      "question": "What should we know about various types of business models?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-26-quiz-1",
+      "title": "Knowledge check 26.1",
+      "moduleId": "26.1",
+      "questions": [
+        {
+          "id": "r26-q1",
+          "number": 1,
+          "objectiveIds": [
+            "26.a"
+          ],
+          "prompt": "A business model is least likely to include details about a company’s:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "largest customers."
+            },
+            {
+              "id": "B",
+              "text": "workforce characteristics."
+            },
+            {
+              "id": "C",
+              "text": "revenue and expense estimates."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Detailed forecasts of revenue in expenses would be in a financial plan, but typically not in a business model. A firm’s largest customers and information about its workforce and its value are likely elements of a business model.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Detailed forecasts of revenue in expenses would be in a financial plan, but"
+            },
+            {
+              "type": "paragraph",
+              "text": "typically not in a business model. A firm’s largest customers and information about its workforce and its value are likely elements of a business model."
+            }
+          ]
+        },
+        {
+          "id": "r26-q2",
+          "number": 2,
+          "objectiveIds": [
+            "26.a"
+          ],
+          "prompt": "A pricing strategy of offering a basic product at no cost, and unlocking other functionality for a fee, is most accurately called:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "optional products."
+            },
+            {
+              "id": "B",
+              "text": "freemium pricing."
+            },
+            {
+              "id": "C",
+              "text": "subscription pricing."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Freemium pricing offers a product with basic functionality at no cost, but sells or unlocks other functionality for a fee.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Freemium pricing offers a product with basic functionality at no cost, but sells or"
+            },
+            {
+              "type": "paragraph",
+              "text": "unlocks other functionality for a fee."
+            }
+          ]
+        },
+        {
+          "id": "r26-q3",
+          "number": 3,
+          "objectiveIds": [
+            "26.b"
+          ],
+          "prompt": "A start-up business provides consumers with professional chefs at home. For its business model to work, the company needs a sufficient number of chefs available to their customers when they have a need. Similarly, sufficient demand from customers is needed to keep the chefs interested in making themselves available. Which of the following is the company’s business model most likely reliant on?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Licensing."
+            },
+            {
+              "id": "B",
+              "text": "Bundling."
+            },
+            {
+              "id": "C",
+              "text": "Network effects."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Network effects refer to the increase in the value of the business as its user base grows. In this instance, the network is two-sided; a sufficient number of customers and service providers are needed for the business to succeed.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Network effects refer to the increase in the value of the business as its user base"
+            },
+            {
+              "type": "paragraph",
+              "text": "grows. In this instance, the network is two-sided; a sufficient number of customers and service providers are needed for the business to succeed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

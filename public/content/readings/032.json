@@ -1,0 +1,1116 @@
+{
+  "readingId": 32,
+  "title": "Analysis of Inventories",
+  "introduction": [
+    {
+      "type": "heading",
+      "text": "INTRODUCTION"
+    },
+    {
+      "type": "paragraph",
+      "text": "This reading assumes that you are familiar with the cost flow methodologies first-in, first-out (FIFO), last-in, first-out (LIFO), and average cost. You should also be able to compute cost of sales (cost of goods sold, or COGS), gross profit margin, and ending inventory under each cost flow approach. You should also be aware of how to adjust financial statements from LIFO to FIFO using disclosures relating to the LIFO reserve. Ensure that you are aware of which costs can be capitalized in ending inventory and which costs must be expensed. These topics are covered in the prerequisite readings."
+    }
+  ],
+  "modules": [
+    {
+      "id": "32.1",
+      "title": "Inventory Measurement",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "32.a",
+          "text": "What should we know about the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, inventory is reported on the balance sheet at the lower of cost or net realizable value. Net realizable value (NRV) is equal to the expected sales price less the estimated selling costs and completion costs. If NRV is less than the balance sheet value of inventory, the inventory is “written down” to NRV, and the loss is recognized in the income statement either as a separate line item or by increasing cost of goods sold. If the value of the inventory recovers later, the inventory can be “written up,” and the gain is recognized in the income statement as a separate line item or by reducing COGS by the amount of the recovery. Because inventory is valued at the lower of cost or NRV, inventory cannot be written up by more than it was previously written down."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The write-down (or subsequent write-up) of inventory is usually accomplished through the use of a valuation allowance account, which is a contra-asset account similar to accumulated depreciation. By using a valuation allowance account, the firm is able to separate the original cost of inventory from the carrying value of the inventory."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, companies that use inventory cost methods other than LIFO or the retail method report inventories at the lower of cost or NRV. For companies using LIFO or the retail method, inventory is reported on the balance sheet at the lower of cost or market. Market is usually equal to replacement cost, but it cannot be greater than NRV or less than NRV minus a normal profit margin. If replacement cost exceeds NRV, then"
+        },
+        {
+          "type": "paragraph",
+          "text": "market is NRV. If replacement cost is less than NRV minus a normal profit margin, then market is NRV minus a normal profit margin."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Think of lower of cost or market, where market cannot be outside a range of values. The range is from NRV minus a normal profit margin, to NRV. So, the size of the range is the normal profit margin. Net means the sales price less selling and completion costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The retail method is not explained in the Level I curriculum. Companies that resell merchandise can use this method. The methodology involves computing the cost of goods available for sale (beginning inventory + purchases). The cost of goods sold is estimated by taking sales and deducting the normal profit margin. Finally, ending inventory is computed as cost of goods sold less goods available for sale."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the market value of inventory decreases below its cost, the inventory is written down to market on the balance sheet. The decrease in value is recognized in the income statement by increasing COGS for relatively small changes in value, or by recording the loss from the inventory write-down separately for a relatively large change in value. The market value becomes the new cost basis."
+        },
+        {
+          "type": "paragraph",
+          "text": "If there is a subsequent recovery in value, no write-up is allowed under U.S. GAAP. This applies to companies using lower of cost or NRV as well as those using lower of cost or market."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Inventory write-down"
+        },
+        {
+          "type": "paragraph",
+          "text": "Zoom, Inc. (Zoom), sells digital cameras. Per-unit cost information pertaining to Zoom’s inventory is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l l} \\hline{\\mathrm{Original~cost}} & {\\$210} \\\\ {\\mathrm{Estimated~selling~price~}} & {\\$225} \\\\ {\\mathrm{Estimated~selling~costs~}} & {\\$22} \\\\ {\\mathrm{Net~realizable~value~}} & {\\$203} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Replacement~cost}} & {} & {{} \\$197} \\\\ {} & {{} \\mathrm{Normal~profit~margin}} & {} & {{} \\$12} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "8491832d9a1fa235d68e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "What are the per-unit carrying values of Zoom’s inventory using (1) lower of cost or NRV and (2) lower of cost or market?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the lower of cost or NRV, because the original cost of $210 exceeds net realizable value ($225 − $22 = $203), the inventory is written down to the net realizable value of $203. The $7 decrease in value ($203 NRV − $210 original cost) is reported in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the lower of cost or market, market is equal to the replacement cost of $197 because NRV of $203 is greater than replacement cost, and NRV minus a normal profit margin ($203 − $12 = $191) is less than replacement cost. Because original cost"
+        },
+        {
+          "type": "paragraph",
+          "text": "exceeds market (replacement cost), the inventory is written down to $197, and a $13 loss ($197 replacement cost − $210 original cost) is reported in the income statement."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Inventory write-up"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that in the year after the write-down in the previous example, NRV and replacement cost both increase by $10. What is the impact of the recovery under IFRS, and under U.S. GAAP if lower of cost or market is used?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, Zoom will write up inventory to $210 per unit and recognize a $7 gain in its income statement. The write-up (gain) is limited to the original write-down of $7. The carrying value cannot exceed original cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, no write-up is allowed. The per-unit carrying value will remain at $197. Zoom will simply recognize higher profit when the inventory is sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from the prerequisite readings that LIFO ending inventory is based on older, lower costs (assuming inflation) than under FIFO. Because cost is the basis for determining whether an impairment has occurred, LIFO firms are less likely to recognize inventory write-downs than firms using FIFO or weighted average cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts must understand how an inventory write-down or write-up affects a firm’s ratios. For example, a write-down may significantly affect inventory turnover in current and future periods. Thus, comparability of ratios across periods may be an issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "In certain industries, reporting inventory above historical cost is permitted under IFRS and U.S. GAAP. This exception applies primarily to producers and dealers of commodities, such as agricultural and forest products, mineral ores, and precious metals. Under this exception, inventory is reported at NRV, and any unrealized gains and losses from changing market prices are recognized in the income statement. If an active market exists for the commodity, the quoted market price is used to value the inventory. Otherwise, recent market transactions are used."
+        },
+        {
+          "type": "paragraph",
+          "text": "A write-down of inventory to NRV affects the financial statements and ratios in several ways. Assuming the write-down is reported as part of the cost of sales, these effects in the period of the write-down include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because inventory is a current asset, an inventory write-down decreases both current and total assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current ratio (CA/CL) decreases. The quick ratio is unaffected because inventories are not included in its numerator."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory turnover (COGS/average inventory) increases, which decreases days’ inventory on hand and the cash conversion cycle. The decrease in total assets increases total asset turnover and increases the debt-to-assets ratio. Equity decreases, increasing the debt-to-equity ratio. The increase in COGS decreases gross margin, operating margin, and net margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "The percentage decrease in net income can be expected to be greater than the percentage decrease in assets or equity. As a result, both return on assets (ROA) and return on equity (ROE) decrease."
+        },
+        {
+          "type": "paragraph",
+          "text": "For periods that follow a write-down of inventory to NRV, COGS may be decreased by lower inventory carrying values, which will increase profitability. Together with the decreases in assets and equity from the write-down, an increase in net income from decreased COGS will increase reported ROA and ROE in subsequent periods."
+        }
+      ]
+    },
+    {
+      "id": "32.2",
+      "title": "Inflation Impact on FIFO and LIFO",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "32.b",
+          "text": "How do we calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods?"
+        },
+        {
+          "type": "paragraph",
+          "text": "During inflationary periods and with stable or increasing inventory quantities, LIFO COGS is higher than FIFO COGS. This is because the last units purchased have a higher cost than the first units purchased. Under LIFO, the more costly last units purchased are assumed to be the first units sold. Of course, higher COGS under LIFO will result in lower gross profit and net income compared to FIFO."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using similar logic, we can see that LIFO ending inventory is lower than FIFO ending inventory because under LIFO, ending inventory is valued using older, lower costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "During deflationary periods, assuming stable or increasing inventory quantities, the cost flow effects of using LIFO and FIFO will be reversed; that is, LIFO COGS will be lower, and LIFO ending inventory will be higher. This makes sense because the most recent lower-cost purchases are assumed to be sold first under LIFO, and the units in ending inventory are assumed to be the earliest purchases with higher costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the diagram in Figure 32.1 to help visualize the FIFO-LIFO difference during periods of rising prices and growing inventory levels."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 32.1: LIFO and FIFO Diagram—Rising Prices and Growing Inventory Balances"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b37305a00c0bfecd1165.png",
+          "alt": "Equation, table, or diagram: Figure 32.1: LIFO and FIFO Diagram—Rising Prices and Growing Inventory Balances",
+          "width": 430,
+          "height": 332,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember, it’s not the older or newer physical inventory units that are reported in the income statement and balance sheet; rather, it is the costs that are assigned to the units sold and to the units remaining in inventory."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Be able to describe the effects of LIFO and FIFO, assuming inflation, in your sleep. When prices are falling, the effects are simply reversed. When you are finished with this review, take the time to look at these graphs and relationships again to solidify the concepts in your mind."
+        },
+        {
+          "type": "paragraph",
+          "text": "During periods of stable prices, the LIFO, FIFO, and average cost methods will yield the same results for inventory, COGS, and gross profit. During periods of trending prices (up or down), different cost flow methods may result in significant differences in these items."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The presumption in this section is that inventory quantities are stable or increasing."
+        },
+        {
+          "type": "paragraph",
+          "text": "When prices are rising or falling, FIFO provides the most useful measure of ending inventory. Recall that FIFO inventory is made up of the most recent purchases. These purchase costs can be viewed as a better approximation of current cost, and thus a better approximation of economic value. LIFO inventory, by contrast, is based on older costs that may differ significantly from current economic value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Changing prices can also produce significant differences between COGS under LIFO and FIFO. Recall that LIFO COGS is based on the most recent purchases. As a result, when prices are rising, LIFO COGS will be higher than FIFO COGS. When prices are falling, LIFO COGS will be lower than FIFO COGS. Because LIFO COGS is based on the most"
+        },
+        {
+          "type": "paragraph",
+          "text": "recent purchases, LIFO COGS produces a better approximation of current cost in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "When prices are changing, the average cost method will produce values of COGS and ending inventory between those of FIFO and LIFO."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because COGS is subtracted from revenue in calculating gross profit, gross profit is also affected by the choice of cost flow method. Assuming inflation, higher COGS under LIFO will result in lower gross profit. In fact, all profitability measures (gross profit, operating profit, income before taxes, and net income) will be affected by the choice of cost flow method."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 32.2: Effects of Inventory Valuation Methods"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/123fa52a8926520c282f.png",
+          "alt": "Equation, table, or diagram: Figure 32.2: Effects of Inventory Valuation Methods",
+          "width": 514,
+          "height": 116,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Effects on Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Again, assuming increasing prices and stable or rising inventory levels, we can trace the ratio effects of the adjustments of LIFO values to FIFO values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Profitability. Compared to FIFO, LIFO produces higher COGS in the income statement and results in lower earnings. Any profitability measure that includes COGS will be higher under FIFO. For example, FIFO COGS will result in higher gross margins, operating margins, and net profit margins as compared to LIFO."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity. Compared to FIFO, LIFO results in a lower inventory value on the balance sheet. Because inventory (a current asset) is higher under FIFO, the current ratio, a popular measure of liquidity, is also higher under FIFO. Working capital is higher under FIFO as well, because current assets are higher."
+        },
+        {
+          "type": "paragraph",
+          "text": "Activity. Inventory turnover (COGS / average inventory) is higher for firms that use LIFO compared to firms that use FIFO. Under LIFO, COGS is valued at more recent, higher costs (higher numerator), while inventory is valued at older, lower costs (lower denominator). Adjusting to FIFO values will result in lower turnover and higher days of inventory on hand (365 / inventory turnover)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solvency. Adjusting to FIFO results in higher total assets because inventory is higher. Higher total assets under FIFO result in higher stockholders’ equity (assets − liabilities). Because total assets and stockholders’ equity are higher under FIFO, the debt ratio and the debt-to-equity ratio are lower under FIFO compared to LIFO."
+        },
+        {
+          "type": "heading",
+          "text": "LIFO Liquidation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A LIFO liquidation occurs when a LIFO firm’s inventory quantities decline. Older, lower costs are included in COGS compared to a situation in which inventory quantities"
+        },
+        {
+          "type": "paragraph",
+          "text": "are not declining. LIFO liquidation results in higher profit margins and higher income taxes compared to what they would be if inventory quantities were not declining. The extra profit reported with a LIFO liquidation inflates operating margins by recognizing historical inflationary gains from increasing inventory prices as income in the current period. Increases in profit margins from LIFO liquidation are not sustainable, however, because a firm cannot continue forever to sell existing inventory without replenishment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Management could use a LIFO liquidation (draw down inventory) to artificially inflate current period earnings. Inventory declines can also be caused by events outside the management’s control, such as strikes or materials shortages at a key supplier that make inventory reduction involuntary, or a decline in expected customer orders that results in a voluntary reduction in inventory to suit market conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts must look to the LIFO reserve disclosures in the footnotes to see if the LIFO reserve has decreased over the period, which would indicate the possibility of a LIFO liquidation that requires adjustment of profit margins if its impact has been significant."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Comparing FIFO and LIFO with a LIFO liquidation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Willock Corporation is a retailer incorporated at the start of Year 1. Sales prices and purchase costs have been inflating at 5% per annum. Using the data provided on sales and purchase units and prices compute Willocks gross profit and gross profit margin using FIFO and LIFO cost flow methodology. (Assume all purchases each year are made at the beginning of the year for the indicated prices.)"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/24346a116202b57c819e.png",
+          "alt": "Equation, table, or diagram: cks gross profit and gross profit margin using FIFO and LIFO cost flow methodology. (Assume all purchases each year are made at the beginning of the year for the indicated prices.)",
+          "width": 446,
+          "height": 245,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/284193a7c2047e6687d1.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 444,
+          "height": 427,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In Year 1, LIFO and FIFO gross profit is the same. This is because there was no beginning inventory and we assumed the purchases in the year were all at the same price. If purchases had been made at different prices during Year 1, FIFO and LIFO results would differ."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Year 2, FIFO gives a higher gross margin because ending inventory is valued at the most recent purchase price of $84, compared to LIFO which values 4,000 units of ending inventory at the older purchase price of $80 and the remaining 3,000 units at $84. This result should not be a surprise as both purchase prices and ending inventory quantities increased."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Year 3, LIFO gives a higher gross margin even though purchase prices are inflating. This unusual result is caused by a LIFO liquidation. Inventory levels decreased during the year because the number of units purchased was less than the number of units sold."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c1ff69501c6d5344b906.png",
+          "alt": "Equation, table, or diagram: ating. This unusual result is caused by a LIFO liquidation. Inventory levels decreased during the year because the number of units purchased was less than the number of units sold.",
+          "width": 444,
+          "height": 70,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The impact of the LIFO liquidation can be detected in the company’s gross profit margins. In Year 2, because of both rising purchase prices and increasing inventory levels, FIFO reports a higher gross margin (gross profit/sales). In Year 3 the LIFO liquidation releases older purchase prices previously stored in ending inventory through cost of goods sold, resulting in a lower cost of goods sold figure and a higher gross profit margin."
+        }
+      ]
+    },
+    {
+      "id": "32.3",
+      "title": "Presentation and Disclosure",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "32.c",
+          "text": "What should we know about the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s?"
+        },
+        {
+          "type": "heading",
+          "text": "inventory disclosures and other sources of information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory disclosures, usually found in the financial statement footnotes, are useful for evaluating the firm’s inventory management. The disclosures are also useful for adjusting a firm’s financial statements to make them comparable with other firms in the industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Required inventory disclosures are similar under U.S. GAAP and IFRS and include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cost flow method (LIFO, FIFO, etc.) used Total carrying value of inventory, with carrying value by classification (raw materials, work in progress, and finished goods), if appropriate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Carrying value of inventories reported at fair value less selling costs The cost of inventory recognized as an expense (COGS) during the period Amount of inventory write-downs (valuation allowances) during the period"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reversals of inventory write-downs during the period, including a discussion of the circumstances of reversal (IFRS only because U.S. GAAP does not allow reversals)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Carrying value of inventories pledged as collateral"
+        },
+        {
+          "type": "heading",
+          "text": "Inventory Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Merchandising firms, such as wholesalers and retailers, purchase inventory that is ready for sale. In this case, inventory is reported in one account on the balance sheet. Manufacturing firms normally report inventory using three separate accounts: raw materials, work in progress, and finished goods. Analysts can use these disclosures, along with other sources of information such as Management’s Discussion and Analysis, economic data specific to the industry, industry trade publications, and other sections of the firm’s financial reports, as a signal of a firm’s future revenues and earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, an increase in raw materials or work in progress inventory may indicate that the firm expects increase in demand. Higher demand should result in higher revenues and earnings. Conversely, an increase in finished goods inventory, while raw materials and work in progress are decreasing, may indicate decreasing demand and potential inventory write-downs in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should also examine the relationship between sales and finished goods. Finished goods inventory growing faster than sales may indicate declining demand and excessive or potentially obsolete inventory. Obsolete inventory will result in lower earnings in the future when the inventory is written down. In addition, too much inventory is costly, as the firm may incur storage costs, insurance premiums, and inventory taxes. Holding too much inventory uses cash that might be deployed more efficiently somewhere else."
+        },
+        {
+          "type": "paragraph",
+          "text": "The inventory turnover ratio measures how quickly a firm is selling its inventory. Generally, high inventory turnover (low days of inventory on hand) is desirable. However, inventory turnover can be too high. A firm with an inventory turnover ratio that is too high may not be carrying enough inventory to satisfy customers’ needs,"
+        },
+        {
+          "type": "paragraph",
+          "text": "which can cause the firm to lose sales. High inventory turnover may also indicate that inventory write-downs have occurred. Write-downs are usually the result of poor inventory management."
+        },
+        {
+          "type": "paragraph",
+          "text": "To further assess the explanation for high inventory turnover, we can look at inventory turnover relative to sales growth within the firm and industry. High turnover with slower growth may be a sign of inadequate inventory quantities. Alternatively, sales growth at or above the industry average supports the conclusion that high inventory turnover reflects greater efficiency."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Inventory ratio analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a59a1286e797537fd1d0.png",
+          "alt": "Equation, table, or diagram: Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:",
+          "width": 335,
+          "height": 431,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9daa03cc4a34d1747f8b.png",
+          "alt": "Equation, table, or diagram: Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:",
+          "width": 334,
+          "height": 472,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A review of the footnote disclosure reveals that Hyzer uses FIFO to establish the cost of raw materials. Hyzer records balance sheet inventory values at the lower of cost and NRV."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following footnote disclosure is given for inventory balances:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3b212816f81575ac9df8.png",
+          "alt": "Equation, table, or diagram: The following footnote disclosure is given for inventory balances:",
+          "width": 316,
+          "height": 276,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the data in the financial statements to calculate and comment on the following ratios for 20X6 and 20X7:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory turnover and days of inventory on hand"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross profit margin and sales growth Current and quick ratios"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5d68f4c1921b12dd0247.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 286,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory turnover (cost of sales / average inventory):"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {20 X 6 \\! : \\$2 , 600 , 000 \\ / \\left[ \\left( \\$500 , 000+\\$900 , 000 \\right) / \\ 2 \\right]=3.71} \\\\ {20 X 7 \\! : \\$4 , 100 , 000 \\ / \\left[ \\left( \\$900 , 000+\\$300 , 000 \\right) / \\ 2 \\right]=6.83} \\end{array}",
+          "display": true,
+          "sourceAsset": "65d908c800ab3136acc1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Days of inventory on hand (365 / inventory turnover):"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{matrix} 20 \\mathrm{X6:365/3.71}=98 \\mathrm{~days} \\\\ 20 \\mathrm{X7:365/6.83}=53 \\mathrm{~days} \\end{matrix}",
+          "display": true,
+          "sourceAsset": "28c9d5ee90ae3d239365.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory turnover has increased dramatically in 20X7, and as a result, days of inventory on hand has dropped. At first glance, this could be assumed to be due to improvements in working capital management. Inventory balances at year-end have dropped dramatically from $900,000 in 20X6 to $300,000 in 20X7, which is a significant decline—and therefore, is unlikely to be explained purely by improvements in inventory management."
+        },
+        {
+          "type": "paragraph",
+          "text": "The decrease in inventory balances could be misinterpreted as indicating that the company expects demand for its products to decline significantly. The inventory disclosure shows that raw materials, work in progress, and finished goods have declined substantially in 20X7. Typically, if customer demand declined significantly, we would expect raw materials and work in progress to decline relative to finished goods. This indicates that raw materials were 20% of inventory in 20X6 ($180,000 / $900,000) and 22% in 20X7 ($66,000 / $300,000), while work in progress was 10% in 20X6 ($90,000 / $900,000) and remained at 10% in 20X7 ($30,000 / $300,000). Raw materials and work in progress have not declined proportionately relative to finished goods. This indicates that lower future demand is not expected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another clue for the analyst is that the valuation allowance for finished goods has decreased as a proportion of the cost of finished goods, rather than increased."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X6:} \\; {\\mathfrak S 76} , 000 \\; / \\; {\\mathfrak S 706} , 000=10.7 {\\mathcal\\%}} \\\\ {} & {{} 20 \\mathrm{X7:} \\; {\\mathfrak S 17} , 000 \\; / \\; {\\mathfrak S 221} , 000=7.7 {\\mathcal\\%}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "ed1f9ef9eae6166c9e4c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If product obsolescence due to expected future decreases in sales was a significant factor, the valuation allowance for finished goods should have increased"
+        },
+        {
+          "type": "paragraph",
+          "text": "proportionally. Remember that the valuation allowance indicates that NRV has declined below cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "These factors combined indicate to the analyst that slowing customer demand and obsolescence is not the reason for the dramatic decline in 20X7 ending inventory."
+        },
+        {
+          "type": "paragraph",
+          "text": "Looking at sales growth, the analyst can see a significant increase in 20X7:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {20 \\mathbf{X} 6 \\colon( \\$5 {,} 500 {,} 000 {\\,} / \\$5 {,} 300 {,} 000 )-1=3.779_{0}} \\\\ {20 \\mathbf{X} 7 {:} \\left( \\$7 {,} 500 {,} 000 {\\,} / \\$5 {,} 500 {,} 000 \\right)-1=36.369_{0}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6259dbbc4d7aa1ca285f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "It would seem unlikely (but not impossible) that a company seeing such increases in sales would be facing a dramatic decline in the next period. This is another indicator that the declining inventory balances are not caused by obsolescence or falling demand."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross profit margins, however, did decline in 20X7, suggesting that the cost of raw materials, manufacturing costs, or both increased:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {20 \\mathrm{X6} \\colon\\$2 {,} 900 {,} 000 {\\,} / \\$5 {,} 500 {,} 000=52.739 \\natural} \\\\ {20 \\mathrm{X7} \\colon\\$3 {,} 400 {,} 000 {\\,} / \\$7 {,} 500 {,} 000=45.339 \\natural} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "f4b90a04a9f20f4ced8b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Positive sales growth, coupled with declining margins, shows that the cost of producing disc golf products has increased. This, coupled with the decline in inventory balances in 20X7, could indicate that the company is facing supply-side shocks. Declining margins reinforce the suspicion that the significant drop in inventory levels is unlikely to be solely explained by efficiency improvements. The sales growth of 36% in 20X7 should also make the analyst question why inventory balances have declined so substantially."
+        },
+        {
+          "type": "paragraph",
+          "text": "The analyst should seek out further explanation for the decline. Potential sources are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management discussion and analysis Significant events disclosed in the accounts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conferences and communication with the senior management Media and industry reports and journals The accounts of companies in the same industry"
+        },
+        {
+          "type": "paragraph",
+          "text": "Looking at Hyzer’s liquidity, the current ratio declined between 20X6 and 20X7 while the quick ratio improved. The major difference between the two measures is the inclusion of inventory in the current ratio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current ratio: (current assets / current liabilities)"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X} 6 \\! : \\ 53 {,} 670 {,} 000 {~} / \\ 5866 {,} 000=4.24} \\\\ {} & {{} 20 \\mathrm{X} 7 \\! : \\ 55 {,} 995 {,} 000 {~} / \\ 51 {,} 505 {,} 000=3.98} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "b986d5352c23c4c021b8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quick ratio: (cash + market securities + receivables) / current liabilities"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X} 6 \\! : \\mathfrak{S} 2 , 770 , \\! 000 \\ / \\mathfrak{S} 866 , \\! 000=3.20} \\\\ {} & {{} 20 \\mathrm{X} 7 \\! : \\mathfrak{S} 5 {,} 695 {,} 000 \\ / \\mathfrak{S} 1 , \\! 505 {,} 000=3.78} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "d5ad9a044f086d8dc29e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some analysts prefer the quick ratio because it removes the impact of inventory on liquidity. Inventory is one of the most illiquid of current assets, as there can be a significant delay (days of inventory on hand + days sales outstanding) between holding inventory and receiving cash. Using this measure, Hyzer’s liquidity shows a moderate improvement."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "32.a",
+      "text": "What should we know about the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, inventories are valued at the lower of cost or net realizable value (NRV). Inventory write-ups are allowed, but only to the extent that a previous write-down to NRV was recorded."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under U.S. GAAP, inventories are valued at the lower of cost or NRV for companies using cost methods other than LIFO or the retail method. For companies using LIFO or the retail method, inventories are valued at the lower of cost or market. Market is usually equal to replacement cost, but it cannot exceed NRV or be less than NRV minus a normal profit margin. No subsequent write-up is allowed for any company reporting under U.S. GAAP."
+    },
+    {
+      "type": "paragraph",
+      "text": "A write-down of inventory value from cost to NRV will do the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Decrease inventory, assets, and equity. A contra account (valuation allowance) is used to reduce the carrying value of inventory and most often increase cost of sales. If the write-down is materially large, it will be disclosed on the face of the income statement as its own line item. Increase asset turnover, the debt-to-equity ratio, and the debt-to-assets ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Decrease net income and the net profit margin, as well as ROA and ROE for a typical firm."
+    },
+    {
+      "type": "question",
+      "objectiveId": "32.b",
+      "text": "How do we calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In periods where inventory levels and purchase costs are rising, the following occur:"
+    },
+    {
+      "type": "paragraph",
+      "text": "FIFO produces the highest ending inventory value and the lowest cost of sales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Average cost will produce ending inventory and cost of sales between LIFO and FIFO. LIFO produces the lowest ending inventory and the highest cost of sales."
+    },
+    {
+      "type": "paragraph",
+      "text": "FIFO results in higher profitability and liquidity ratios, and lower inventory turnover and solvency ratios. If inventory levels are increasing but costs are decreasing, these results are reversed."
+    },
+    {
+      "type": "paragraph",
+      "text": "If LIFO is used and inventory levels decline, a LIFO liquidation has occurred, which will distort profit margins in that period."
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysts may have to adjust financial statements to compare firms that use different inventory cost methods."
+    },
+    {
+      "type": "question",
+      "objectiveId": "32.c",
+      "text": "What should we know about the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Required inventory disclosures areas are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost flow method (LIFO, FIFO, etc.) used"
+    },
+    {
+      "type": "paragraph",
+      "text": "Total carrying value of inventory and carrying value by classification (raw materials, work in progress, and finished goods), if appropriate Carrying value of inventories reported at fair value less selling costs"
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost of inventory recognized as an expense (COGS) during the period Amount of inventory write-downs during the period"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reversals of inventory write-downs during the period (IFRS only because U.S. GAAP does not allow reversals) Carrying value of inventories pledged as collateral"
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst should examine inventory disclosures to determine the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Whether the finished goods category is growing while raw materials and goods in process are declining, which may indicate decreasing demand and potential future inventory write-downs Whether raw materials and goods in process are increasing, which may indicate increasing future demand and higher earnings Whether increases in finished goods are greater than increases in sales, which may indicate decreasing demand or inventory obsolescence and potential future inventory write-downs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inventory turnover, days of inventory on hand, and gross profit margin can be used to evaluate the quality of a firm’s inventory management:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inventory turnover that is too low (high days of inventory on hand) may be an indication of slow-moving or obsolete inventory. High inventory turnover, together with low sales growth relative to the industry, may indicate inadequate inventory levels and lost sales because customer orders could not be fulfilled."
+    },
+    {
+      "type": "paragraph",
+      "text": "High inventory turnover, together with high sales growth relative to the industry average, suggest that high inventory turnover reflects greater efficiency rather than inadequate inventory."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "32.a",
+      "statement": "Describe the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios.",
+      "question": "What should we know about the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios?"
+    },
+    {
+      "id": "32.b",
+      "statement": "Calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods.",
+      "question": "How do we calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods?"
+    },
+    {
+      "id": "32.c",
+      "statement": "Describe the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s",
+      "question": "What should we know about the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-32-quiz-1",
+      "title": "Knowledge check 32.1, 32.2",
+      "moduleId": "32.2",
+      "questions": [
+        {
+          "id": "r32-q1",
+          "number": 1,
+          "objectiveIds": [],
+          "prompt": "Kamp, Inc., sells specialized bicycle shoes. At year-end, due to a sudden increase in manufacturing costs, the replacement cost per pair of shoes is $55. The original cost is $43, and the current selling price is $50. The normal profit margin is 10% of the selling price, and the selling costs are $3 per pair. According to U.S. GAAP, which of the following amounts should each pair of shoes be reported on Kamp’s year-end balance sheet?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$42."
+            },
+            {
+              "id": "B",
+              "text": "$43."
+            },
+            {
+              "id": "C",
+              "text": "$47."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Market is equal to the replacement cost as long as replacement cost is within a specific range. The upper bound is net realizable value (NRV), which is equal to the selling price ($50) less selling costs ($3) for an NRV of $47. The lower bound is NRV ($47) less normal profit margin (10% of selling price = $5) for a net amount of $42. Since replacement cost is greater than NRV ($47), market equals NRV ($47). Additionally, we have to use the lower of cost ($43) or market ($47) principle, so the shoes should be recorded at cost of $43.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Market is equal to the replacement cost as long as replacement cost is within a"
+            },
+            {
+              "type": "paragraph",
+              "text": "specific range. The upper bound is net realizable value (NRV), which is equal to the selling price ($50) less selling costs ($3) for an NRV of $47. The lower bound is NRV ($47) less normal profit margin (10% of selling price = $5) for a net amount of $42. Since replacement cost is greater than NRV ($47), market equals NRV ($47). Additionally, we have to use the lower of cost ($43) or market ($47) principle, so the shoes should be recorded at cost of $43."
+            }
+          ]
+        },
+        {
+          "id": "r32-q2",
+          "number": 2,
+          "objectiveIds": [],
+          "prompt": "Poulter Products reports under IFRS and wrote its inventory value down from cost of $400,000 to net realizable value of $380,000. The most likely financial statement effect of this change is a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "increase in cost of sales."
+            },
+            {
+              "id": "B",
+              "text": "decrease in depreciation charges."
+            },
+            {
+              "id": "C",
+              "text": "loss reported as other comprehensive income."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The write-down in inventory value from cost to NRV is reported on the income statement either as an addition to cost of sales or as a separate line item, not as other comprehensive income. Depreciation will not be affected as inventory is not depreciated.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The write-down in inventory value from cost to NRV is reported on the income"
+            },
+            {
+              "type": "paragraph",
+              "text": "statement either as an addition to cost of sales or as a separate line item, not as other comprehensive income. Depreciation will not be affected as inventory is not depreciated."
+            }
+          ]
+        },
+        {
+          "id": "r32-q3",
+          "number": 3,
+          "objectiveIds": [],
+          "prompt": "Which of the following statements relating to U.S. GAAP inventory valuation is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Companies using FIFO should report inventory in the balance sheet at the lower of cost or market value."
+            },
+            {
+              "id": "B",
+              "text": "Inventory can be written up, but not by more than it was previously written down."
+            },
+            {
+              "id": "C",
+              "text": "When establishing market value, net realizable value should be used as the upper limit if replacement cost exceeds net realizable value."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "When establishing market value, replacement cost should be used subject to upper and lower limits. The upper limit is net realizable value, and the lower limit is net realizable value minus the normal profit margin. The lower of cost or market value is only applicable to companies using either the LIFO or retail sales method. Companies using specific identification, FIFO, or average cost should use the lower of cost or NRV. Inventory write-downs under U.S. GAAP cannot be reversed.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "When establishing market value, replacement cost should be used subject to upper"
+            },
+            {
+              "type": "paragraph",
+              "text": "and lower limits. The upper limit is net realizable value, and the lower limit is net realizable value minus the normal profit margin. The lower of cost or market value is only applicable to companies using either the LIFO or retail sales method. Companies using specific identification, FIFO, or average cost should use the lower of cost or NRV. Inventory write-downs under U.S. GAAP cannot be reversed."
+            }
+          ]
+        },
+        {
+          "id": "r32-q4",
+          "number": 4,
+          "objectiveIds": [],
+          "prompt": "Which of the following statements relating to the effects of an inventory write-down is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Asset turnover will increase."
+            },
+            {
+              "id": "B",
+              "text": "The quick ratio will decrease."
+            },
+            {
+              "id": "C",
+              "text": "The debt-to-equity ratio will increase."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The quick ratio [(cash + receivables + marketable securities) / current liabilities] will not be affected because the numerator does not include inventory. Inventory write-downs will decrease the carrying value of inventory in the balance sheet, reducing current and total assets. The write-down will decrease income for the period. Asset turnover (revenue / average total assets) will increase as revenue (sales) is not affected, but balance sheet assets decline. The debt-to-equity ratio (interest-bearing liabilities / stockholders’ equity) will increase as the write-down reduces net income and therefore retained earnings and stockholders’ equity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The quick ratio [(cash + receivables + marketable securities) / current liabilities]"
+            },
+            {
+              "type": "paragraph",
+              "text": "will not be affected because the numerator does not include inventory. Inventory"
+            },
+            {
+              "type": "paragraph",
+              "text": "write-downs will decrease the carrying value of inventory in the balance sheet, reducing current and total assets. The write-down will decrease income for the period. Asset turnover (revenue / average total assets) will increase as revenue (sales) is not affected, but balance sheet assets decline. The debt-to-equity ratio (interest-bearing liabilities / stockholders’ equity) will increase as the write-down reduces net income and therefore retained earnings and stockholders’ equity."
+            }
+          ]
+        },
+        {
+          "id": "r32-q5",
+          "number": 5,
+          "objectiveIds": [],
+          "prompt": "Under which inventory cost flow assumption does inventory on the balance sheet best approximate its current cost?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "First-in, first-out."
+            },
+            {
+              "id": "B",
+              "text": "Weighted average cost."
+            },
+            {
+              "id": "C",
+              "text": "Last-in, first-out."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Under FIFO, ending inventory is made up of the most recent purchases, thereby providing a closer approximation of current cost.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Under FIFO, ending inventory is made up of the most recent purchases, thereby"
+            },
+            {
+              "type": "paragraph",
+              "text": "providing a closer approximation of current cost."
+            }
+          ]
+        },
+        {
+          "id": "r32-q6",
+          "number": 6,
+          "objectiveIds": [],
+          "prompt": "In periods of rising prices and stable inventory quantities, which of the following best describes the effect on gross profit of using LIFO as compared to using FIFO?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Lower."
+            },
+            {
+              "id": "B",
+              "text": "Higher."
+            },
+            {
+              "id": "C",
+              "text": "The same."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Compared to FIFO, COGS calculated under LIFO will be higher because the most recent, higher-cost units are assumed to be the first units sold. Higher COGS under LIFO will result in lower gross profit (revenue − COGS).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Compared to FIFO, COGS calculated under LIFO will be higher because the most"
+            },
+            {
+              "type": "paragraph",
+              "text": "recent, higher-cost units are assumed to be the first units sold. Higher COGS under LIFO will result in lower gross profit (revenue − COGS)."
+            }
+          ]
+        },
+        {
+          "id": "r32-q7",
+          "number": 7,
+          "objectiveIds": [],
+          "prompt": "In an inflationary environment, a LIFO liquidation will most likely result in an increase in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "inventory."
+            },
+            {
+              "id": "B",
+              "text": "accounts payable."
+            },
+            {
+              "id": "C",
+              "text": "operating profit margin."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "In a LIFO liquidation, older and lower costs are included in cost of sales. Thus, cost of sales per unit decreases and profit margins increase.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a LIFO liquidation, older and lower costs are included in cost of sales. Thus, cost"
+            },
+            {
+              "type": "paragraph",
+              "text": "of sales per unit decreases and profit margins increase."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-32-quiz-2",
+      "title": "Knowledge check 32.3",
+      "moduleId": "32.3",
+      "questions": [
+        {
+          "id": "r32-q8",
+          "number": 1,
+          "objectiveIds": [
+            "32.c"
+          ],
+          "prompt": "Which of the following inventory disclosures would least likely be found in the footnotes of a firm following IFRS?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The amount of loss reversals, from previously written-down inventory, recognized during the period."
+            },
+            {
+              "id": "B",
+              "text": "The carrying value of inventories that collateralize a short-term loan."
+            },
+            {
+              "id": "C",
+              "text": "The separate carrying values of raw materials, work in progress, and finished goods computed under the LIFO cost flow method."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "While the separate carrying values of raw materials, work in progress, and finished goods are required disclosure for some firms, LIFO is not permitted under IFRS.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "While the separate carrying values of raw materials, work in progress, and finished"
+            },
+            {
+              "type": "paragraph",
+              "text": "goods are required disclosure for some firms, LIFO is not permitted under IFRS."
+            }
+          ]
+        },
+        {
+          "id": "r32-q9",
+          "number": 2,
+          "objectiveIds": [
+            "32.c"
+          ],
+          "prompt": "Paul Neimer calculates the following horizontal common-size inventory data for Redpine Manufacturing, Inc.: Based on these data, Neimer should most likely conclude that Redpine:",
+          "supportingBlocks": [
+            {
+              "type": "image",
+              "src": "content/figures/3c5c5a60d2869949ed95.png",
+              "alt": "Equation, table, or diagram: Manufacturing, Inc.:",
+              "width": 361,
+              "height": 136,
+              "visualKind": "diagram-chart-or-table"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "has an increasing inventory turnover ratio."
+            },
+            {
+              "id": "B",
+              "text": "anticipates declining demand for its products."
+            },
+            {
+              "id": "C",
+              "text": "might be losing sales due to inadequate inventory."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Redpine’s finished goods inventory is growing faster than sales, while work in progress inventory is growing more slowly than sales and raw materials inventory is decreasing. These data are consistent with Redpine reducing production in response to decreasing demand. Inventory turnover ratios cannot be calculated directly from the common-size data given, but finished goods inventory increasing faster than sales suggests inventory turnover is likely decreasing.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Redpine’s finished goods inventory is growing faster than sales, while work in"
+            },
+            {
+              "type": "paragraph",
+              "text": "progress inventory is growing more slowly than sales and raw materials inventory is decreasing. These data are consistent with Redpine reducing production in response to decreasing demand. Inventory turnover ratios cannot be calculated directly from the common-size data given, but finished goods inventory increasing faster than sales suggests inventory turnover is likely decreasing."
+            }
+          ]
+        },
+        {
+          "id": "r32-q10",
+          "number": 3,
+          "objectiveIds": [
+            "32.c"
+          ],
+          "prompt": "Which of the following is most likely for a firm with high inventory turnover and lower sales growth than the industry average? The firm:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is managing its inventory effectively."
+            },
+            {
+              "id": "B",
+              "text": "may have obsolete inventory that requires a write-down."
+            },
+            {
+              "id": "C",
+              "text": "may be losing sales by not carrying enough inventory."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "High inventory turnover coupled with low sales growth relative to the industry may be an indication of inadequate inventory levels. In this case, the firm may be losing sales by not carrying enough inventory.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "High inventory turnover coupled with low sales growth relative to the industry"
+            },
+            {
+              "type": "paragraph",
+              "text": "may be an indication of inadequate inventory levels. In this case, the firm may be losing sales by not carrying enough inventory."
+            }
+          ]
+        },
+        {
+          "id": "r32-q11",
+          "number": 4,
+          "objectiveIds": [
+            "32.c"
+          ],
+          "prompt": "During a period of increasing prices, compared to reporting under LIFO, a firm that reports using FIFO for inventory will have a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lower gross margin."
+            },
+            {
+              "id": "B",
+              "text": "higher current ratio."
+            },
+            {
+              "id": "C",
+              "text": "higher asset turnover."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Compared to using LIFO, using FIFO would produce lower COGS, higher gross operating income, and higher ending inventory, so current assets and the current ratio would be higher. Consequently, gross margin would be higher and asset turnover would be lower under the FIFO inventory method.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Compared to using LIFO, using FIFO would produce lower COGS, higher gross"
+            },
+            {
+              "type": "paragraph",
+              "text": "operating income, and higher ending inventory, so current assets and the current ratio would be higher. Consequently, gross margin would be higher and asset turnover would be lower under the FIFO inventory method."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

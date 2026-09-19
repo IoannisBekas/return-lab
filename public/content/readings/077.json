@@ -1,0 +1,749 @@
+{
+  "readingId": 77,
+  "title": "Alternative Investment Performance and Returns",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "77.1",
+      "title": "Performance Appraisal and Return Calculations",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "77.a",
+          "text": "What should we know about the performance appraisal of alternative investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative investments are typically exposed to greater risks than unleveraged long-only traditional investments. These additional risks arise from the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Timing of cash flows over an investment’s life cycle Use of leverage by fund managers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valuation of investments that may or may not have observable market prices Complexity of fees, taxes, and accounting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ideally, returns on alternative investments should be adjusted for these risks, although that may be difficult in practice. It is clear, however, that evaluating alternative investment returns (or expected returns) without considering these additional risks would be naïve and possibly misleading."
+        },
+        {
+          "type": "heading",
+          "text": "Timing of Cash Flows"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative investments often have a life cycle that exhibits three phases:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. In the capital commitment phase, a fund’s managers are identifying investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "and making capital calls from the partners. Recall that limited partners commit a stated amount of capital that they will invest, but they do not necessarily deliver the entire amount immediately in cash. Managers make capital calls as they identify investments for which they require cash. Because of these cash outflows and the long-term nature of the typical investments, returns tend to be negative during the capital commitment phase.\n2. During the capital deployment phase, the managers fund, and often involve"
+        },
+        {
+          "type": "paragraph",
+          "text": "themselves directly in, the firms or projects in which they invest. Returns typically remain negative in this phase, especially if the investments are in start-up companies or troubled firms that the managers are attempting to turn around."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. If the fund’s investments succeed and begin to generate income and cash flows, the"
+        },
+        {
+          "type": "paragraph",
+          "text": "fund enters a capital distribution phase during which its returns turn positive and"
+        },
+        {
+          "type": "paragraph",
+          "text": "accelerate."
+        },
+        {
+          "type": "paragraph",
+          "text": "A J-curve effect (illustrated in Figure 77.1) reflects the norm of negative returns in the capital commitment phase, followed by increasing returns in the capital deployment phase and maximum returns in the capital distribution phase. Returns may reach a plateau toward the end of a fund’s life as the managers exit any remaining investments."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 77.1: J-Curve Example"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/07e7ceaae7b1462c4c0f.png",
+          "alt": "Equation, table, or diagram: Figure 77.1: J-Curve Example",
+          "width": 427,
+          "height": 225,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the variability of cash flows over a fund’s life and the importance of management decisions in the timing and magnitude of after-tax cash flows, an IRR over the life of a fund is the most appropriate measure of after-tax investment performance. (Recall from Quantitative Methods that a money-weighted rate of return, which is an IRR, is appropriate when a manager controls the timing of cash inflows and outflows.) A drawback to using IRRs is that they rest on assumptions about the cost of capital for cash outflows and the reinvestment rate for cash inflows."
+        },
+        {
+          "type": "paragraph",
+          "text": "A simpler measure of investment success is the multiple of invested capital (or money multiple)’the ratio of total capital returned plus the value of any remaining assets, to the total capital paid in over the life of the investment. Because this measure does not consider the timing of cash inflows and outflows, which can affect annual returns on invested capital significantly, it can be considered somewhat naïve."
+        },
+        {
+          "type": "heading",
+          "text": "Use of Leverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some alternative investments, particularly hedge funds, use borrowing to magnify their gains (at the risk of magnifying losses). Hedge funds may arrange margin financing with prime brokers or employ leverage by means of derivatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "To state the effect of leverage on returns, consider a fund that can invest the amount V0 without leverage, and earn the rate of return r. The fund’s unleveraged portfolio return (as a money amount) is simply this: r × V0. Now, let’s say this fund can borrow the amount VB at an interest rate of rB, and earn r by investing the proceeds. The fund’s leveraged portfolio return (again, as a money amount), after subtracting the interest cost, then becomes:"
+        },
+        {
+          "type": "paragraph",
+          "text": "r ×(V0 + VB) – (rB ×VB)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, stated as a rate of return on the initial portfolio value of V0, the leveraged rate of return is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{B} \\right)-\\mathrm{r}_{B} \\mathrm{V}_{B}} {\\mathrm{V}_{0}}}",
+          "display": true,
+          "sourceAsset": "ac90bf6520e099459217.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the reasons that funds use leverage is that some strategies attempt to exploit relatively small pricing anomalies that might not produce meaningful results without leverage. A risk from using leverage is that a lender may issue margin calls if a fund’s equity position decreases below a certain level. These can result in a fund having to realize losses by closing positions or liquidating investments at unfavorable prices. If the fund must sell a large position in a security, doing so may depress its price further. Another important risk of funds that depends on leverage is that lenders may limit their access to additional borrowing."
+        },
+        {
+          "type": "heading",
+          "text": "Valuation of Investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "As we have discussed, many alternative investments involve illiquid assets that do not trade frequently in transparent markets. While funds must recognize investments at fair value to comply with accounting standards, fair value might rest on assumptions of which an investor in a fund should be aware. A fair value hierarchy groups these assumptions into the following three levels:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Level 1. The assets trade in active markets and have quoted prices readily available, such as exchange-traded securities. Level 2. The assets do not have readily available quoted prices, but they can be valued based on directly or indirectly observable inputs, such as many derivatives that can be priced using models. Level 3. The assets require unobservable inputs to establish a fair value, such as real estate or private equity investments, for which there have been few or no market transactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Particularly for Level 3 investments, the absence of market activity can result in valuations that remain near their initial cost for long periods. As a result, these values might not reflect the actual exit costs of the investments. Importantly, this relative lack of change in fair values can make reported returns for alternative investments appear higher, less risky, and less correlated with traditional investments than they really are."
+        },
+        {
+          "type": "heading",
+          "text": "Fee Structures"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the this lesson, we will examine some of the effects on investors’ returns of different fee specifications, such as high-water marks, hard or soft hurdle rates, and waterfall structures. Keep in mind that fee structures are subject to negotiation (e.g., a limited partner might agree to a higher management fee in exchange for fewer restrictions on redemptions) and may differ depending on how early in a fund’s life cycle an investor commits capital. Thus, different investors in the same fund might realize significantly different returns."
+        },
+        {
+          "type": "question",
+          "objectiveId": "77.b",
+          "text": "How do we calculate and interpret alternative investment returns both before and after fees?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have seen how margin calls may require a leveraged fund to exit investments at unfavorable prices and unintended times. A similar risk arises from investor redemptions. The more negative a fund’s returns, the more likely investors are to ask the manager to redeem their positions. For this reason, and because of the J-curve effect of negative returns in the early years, alternative investment funds (particularly hedge funds) typically take measures to restrict early redemptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "A lockup period is the time after initial investment over which limited partners either cannot request redemptions or incur significant fees for redemptions. A notice period (typically between 30 and 90 days) is the amount of time a fund has to fulfill a redemption request. Notice periods allow time for managers to reduce positions in an orderly manner. Fund managers often incur significant transactions costs when they redeem shares. Redemption fees can offset these costs. Managers may also have the discretion to implement a gate that restricts redemptions for a temporary period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors should be aware that other investors may receive terms that differ from those stated in the partnership agreement. Customized fee structures are contained in side letters with individual investors detailing how their terms differ from those in the standard offering documents."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although “2 and 20” and “1 and 10” were, at one time, fairly standard fee structures for fund and fund-of-funds investments, these fee structures continue to be under competitive pressure. Investors making larger commitments can negotiate lower fees. There can also be a tradeoff between liquidity provisions and fees. Investors can negotiate for lower fees or better liquidity (shorter lockups and notice periods). Hurdle rates, hard versus soft hurdles, and catch-up provisions may also be subject to negotiation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Early investors in a fund may also receive lower fees or better liquidity terms as an incentive to invest at the fund’s inception. The investment interests of early investors who receive such relatively better terms are called founders class shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Annual investor fees can also be either-or fees, the maximum of the management fee or the incentive fee. Under such a structure, with a 1% management fee and a 30% incentive fee, investor fees each year would simply be the management fee unless the calculated incentive fee is higher. Such a structure may also stipulate that the 1% management fee be subtracted from the incentive fee in a subsequent year."
+        },
+        {
+          "type": "heading",
+          "text": "Biases in Alternative Investment Returns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Numerous alternative investment indexes exist to measure historical performance. However, they may not provide much meaningful information on the asset class because each fund’s structure is unique, and the funds that exist at any given time can be in widely different phases of their life cycles. One way around this latter issue is to compare funds that originated in the same vintage year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The effect of survivorship bias is greater for a hedge fund database than for other asset classes because by some estimates, more than 25% of hedge funds fail in the first three years of their existence. An index that does not include failed funds will overstate the returns and understate the risk of hedge funds as an asset class. These effects may be magnified by backfill bias, which occurs when managers only select their successful funds for inclusion in indexes."
+        },
+        {
+          "type": "heading",
+          "text": "Return Calculations for Alternative Investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before-fee returns on alternative investments are calculated the same way we calculate returns on any investment. The calculation of holding period returns and periodic rates of return, both with and without interim cash distributions, is described in Quantitative Methods and expanded on by application in other topic areas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculating after-fee returns simply requires adjustment of the cash flows or values for the various fees involved, typically management and performance fees. For a simple case in which management fees are a fixed percentage of end-of-period assets and performance fees are a fixed percentage of total return with no hurdle rate, we can state the general partner’s total fees in money terms as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "total fees = mV1 + max[0, p(V1 – V0)]"
+        },
+        {
+          "type": "paragraph",
+          "text": "where: m = management fee p = performance fee V0 = beginning-of-period assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "V1 = end-of-period assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the rate of return for an investor after fees:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{r}={\\frac{\\mathrm{V}_{1}-\\mathrm{V}_{0}-\\mathrm{total~fees}} {\\mathrm{V}_{0}}}",
+          "display": true,
+          "sourceAsset": "17dbd2ef55606cf28b4f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fee structure provisions, such as hurdle rates and high-water marks, make calculating total fees more complex than this simple formula. Other provisions may state whether the performance fee is net of the management fee or independent of it, or whether the management fee is based on beginning-of-period assets or end-of-period assets."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because none of these provisions are standard across alternative investment funds, exam questions that require calculations will have to specify all of those that apply. Do not assume any provision applies unless it is stated in the question."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some examples will illustrate the application of various fees and the relevant terminology."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Hedge fund fees"
+        },
+        {
+          "type": "paragraph",
+          "text": "BJI Funds is a hedge fund with a value of $110 million at initiation. BJI Funds charges a 2% management fee based on assets under management at the beginning of the year and a 20% performance fee with a 5% soft hurdle rate, and uses a high-water mark."
+        },
+        {
+          "type": "paragraph",
+          "text": "Performance fees are calculated on gains net of management fees. The year-end values before fees are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 1: $100.2 million Year 2: $119.0 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the total fees and the investor’s after-fee return for both years."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 1:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management fee:"
+        },
+        {
+          "type": "paragraph",
+          "text": "110.0 million × 2% = $2.2 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Return net of management fees:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{100.2-2.2} {110.0}-1=-10.9 \\%",
+          "display": true,
+          "sourceAsset": "db2da9c70d47e3211ba2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is no performance fee because the return after the management fee is less than the 5% hurdle rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total fees:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$2.2 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ending value net of fees:"
+        },
+        {
+          "type": "paragraph",
+          "text": "100.2 million – $2.2 million = $98.0 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 1 after-fees return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{98.0} {110.0}-1=-10.9 \\%",
+          "display": true,
+          "sourceAsset": "beb26ca2137850930091.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 2:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management fee:"
+        },
+        {
+          "type": "paragraph",
+          "text": "98.0 million × 2% = $1.96 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year-end value net of management fee:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$119.0 – $1.96 = $117.04 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "The high-water mark is $110 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 2 value net of management fee, above high-water mark:"
+        },
+        {
+          "type": "paragraph",
+          "text": "117.04 million – 110.0 million = $7.04 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 2 return net of management fee, above high-water mark:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{7.04} {110.0}=6.4 \\%",
+          "display": true,
+          "sourceAsset": "713e0d9cbb4271120dbb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to the high-water mark, the performance fee is calculated based on gains in value above $110 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The performance fee is calculated on the entire gain above the high-water mark because 6.4% is greater than the soft hurdle rate. If the 5% was a hard hurdle rate, the"
+        },
+        {
+          "type": "paragraph",
+          "text": "performance fee would be calculated only on the gains more than 5% above the high-water mark."
+        },
+        {
+          "type": "paragraph",
+          "text": "Performance fee:"
+        },
+        {
+          "type": "paragraph",
+          "text": "7.04 × 0.20 = $1.41 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Total fees:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$1.96 million + $1.41 million = $3.37 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 2 year-end value after fees:"
+        },
+        {
+          "type": "paragraph",
+          "text": "119.0 – 3.37 = $115.63 million"
+        },
+        {
+          "type": "paragraph",
+          "text": "Year 2 after-fee return:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{115.63} {98.0}-1=18.0 \\%",
+          "display": true,
+          "sourceAsset": "a347131773e882231e55.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Fund-of-funds"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor makes a total investment of $60 million in a fund-of-funds that has a “1 and 10” fee structure, with management and performance fees calculated independently based on year-end values. Of the $60 million investment, $40 million is allocated to the Alpha fund and $20 million is allocated to the Beta fund. One year later, the value of the Alpha fund investment is $45 million, and the value of the Beta fund investment is $28 million, both net of fund fees. Calculate the investor’s return for the year net of fees."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "At year-end, the gross value of the investor’s investment is $45 + $28 = $73 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fund-of-funds management fee is 1% of $73 million, which is $0.73 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investor’s gain for the year before fund-of-funds fees is $73 – $60 = $13 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fund-of-funds manager’s performance fee is 10% of $13 million, which is $1.3 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "The year-end value of the investor’s fund-of-funds investment is $73 – $0.73 – $1.3 = $70.97 million."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~investor's~one-year~return~after~fees~is:} \\; \\frac{70.97} {60}-1=18.396",
+          "display": true,
+          "sourceAsset": "d0dbce70e1f1588c905f.png",
+          "prose": "The investor’s one-year return after fees is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the same investments made directly with the Alpha and Beta funds would"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{~have~returned~} \\frac{73} {60}-1=21.7 \\%_{\\mathsf{d}}",
+          "display": true,
+          "sourceAsset": "adac6a6934a7033d477c.png",
+          "prose": "have returned ."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Waterfall structure and clawback provision"
+        },
+        {
+          "type": "paragraph",
+          "text": "A private equity fund invests $100 million in a venture company that is sold for $130 million. The fund also invests $100 million in an LBO that goes poorly and is liquidated for $80 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. If the carried interest performance fee for the GP is 20% and there is no clawback"
+        },
+        {
+          "type": "paragraph",
+          "text": "provision, calculate the investor’s return after performance fees, assuming the investment outcomes are realized in the same year under the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. An American-style (deal-by-deal) waterfall structure b. A European-style (whole-of-fund) waterfall structure"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. How would the answers be affected if the venture investment was sold in Year 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "and the LBO investment was sold in Year 2?\n3. How would including a clawback provision affect investor returns calculated in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Question 1?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Under an American-style (deal-by-deal) waterfall structure, a performance fee of"
+        },
+        {
+          "type": "paragraph",
+          "text": "20% × ($130 – $100) = $6 million would be paid on the venture investment. Because there is a loss on the LBO investment, no performance fee is paid."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{investor's~return~on~investment:} \\, \\frac{130+80-6} {200}-1=296",
+          "display": true,
+          "sourceAsset": "2ab715a6f0de958dc0cd.png",
+          "prose": "investor’s return on investment:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under a European-style (whole-of-fund) waterfall structure, the gain for the period is 130 + 80 – 200 = $10 million, and the performance fee is 20% × 10 = $2 million."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{investor's~return~on~investment:} \\, \\frac{130+80-6} {200}-1=296",
+          "display": true,
+          "sourceAsset": "dd53dd2ba57ddf9493a0.png",
+          "prose": "investor’s return on investment:"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The European-style waterfall structure would have the same overall return as the"
+        },
+        {
+          "type": "paragraph",
+          "text": "American-style structure, as the performance fee for the venture investment of $6 million would be paid in Year 1 and no performance fee would be received on the LBO investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. With a clawback provision, after the LBO investment is sold, the performance fee"
+        },
+        {
+          "type": "paragraph",
+          "text": "of $6 million paid on the venture investment is more than 20% of the return on the total investment. The fee is 60% of the total (net) gain of $10 million. The investor could “claw back” $4 million of the $6 million paid as a performance fee on the venture investment, which would reduce the total performance fee to 20% of the $10 million gain."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "77.a",
+      "text": "What should we know about the performance appraisal of alternative investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternative investments are typically exposed to risks that traditional investments are not, including timing of cash flows, use of leverage, valuation assumptions for illiquid investments, and complex fee structures and taxation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Alternative investment returns typically exhibit a J-curve effect: negative during the capital commitment phase, less negative during the capital deployment phase, and positive during the capital distribution phase."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because managers control cash inflows and outflows, an IRR is appropriate for measuring returns. The multiple of invested capital is a simpler measure that does not depend on the timing of cash flows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{\\Sigma}_{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} ( \\mathrm{V_{0}}+\\mathrm{V_{B}} )-\\mathrm{r_{B} V_{B}}} {\\mathrm{V_{0}}}}",
+      "display": true,
+      "sourceAsset": "a346a147f68a5464b5e4.png",
+      "prose": "leveraged return"
+    },
+    {
+      "type": "paragraph",
+      "text": "where: V0 = initial assets"
+    },
+    {
+      "type": "paragraph",
+      "text": "VB = borrowed funds r = rate of return on investments rB = borrowing interest rate"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assumptions underlying the fair value of assets can be described by a three-level hierarchy:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Level 1. Quoted prices readily available."
+    },
+    {
+      "type": "paragraph",
+      "text": "Level 2. Can be valued based on observable inputs. Level 3. Require unobservable inputs to establish a fair value."
+    },
+    {
+      "type": "paragraph",
+      "text": "Fair values of Level 3 assets might be updated infrequently due to a lack of market activity. This can bias return measures upward and risk measures downward."
+    },
+    {
+      "type": "question",
+      "objectiveId": "77.b",
+      "text": "How do we calculate and interpret alternative investment returns both before and after fees?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before-fee returns on alternative investments are calculated the same way we calculate fees on any investment. Calculating after-fee returns requires us to adjust the cash flows or values for the various fees involved (typically management and performance fees), and for specifications such as hurdle rates and high-water marks."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "77.a",
+      "statement": "Describe the performance appraisal of alternative investments.",
+      "question": "What should we know about the performance appraisal of alternative investments?"
+    },
+    {
+      "id": "77.b",
+      "statement": "Calculate and interpret alternative investment returns both before and after fees.",
+      "question": "How do we calculate and interpret alternative investment returns both before and after fees?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-77-quiz-1",
+      "title": "Knowledge check 77.1",
+      "moduleId": "77.1",
+      "questions": [
+        {
+          "id": "r77-q1",
+          "number": 1,
+          "objectiveIds": [
+            "77.a"
+          ],
+          "prompt": "Returns to investors in an alternative investment fund are most likely to be positive during its phase of capital:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "distribution."
+            },
+            {
+              "id": "B",
+              "text": "deployment."
+            },
+            {
+              "id": "C",
+              "text": "commitment."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A successful fund is most likely to generate positive returns in its capital distribution phase.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A successful fund is most likely to generate positive returns in its capital"
+            },
+            {
+              "type": "paragraph",
+              "text": "distribution phase."
+            }
+          ]
+        },
+        {
+          "id": "r77-q2",
+          "number": 2,
+          "objectiveIds": [
+            "77.b"
+          ],
+          "prompt": "A hedge fund has a return of 30% before fees in its first year. The fund has a management fee of 1.5% on end-of-year fund value and a 15% incentive fee, with an 8% hard hurdle rate on gains net of the management fee. The return after fees for an investor in this fund is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "20.5%."
+            },
+            {
+              "id": "B",
+              "text": "21.5%."
+            },
+            {
+              "id": "C",
+              "text": "25.0%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "This is easiest to see using an initial investment amount of 100. Year-end gross value = 100 × 1.30 = 130 Management fee = 1.5% × 130 = 1.95 Gains net of management fee = 30 – 1.95 = 28.05 Hurdle gains = 8% × 100 = 8 Incentive fee = 15% × (30 – 1.95 – 8) = 3.0075 Total fees = 1.95 + 3.0075 = 4.9575 Ending value after fees = 130 – 4.9575 = 125.0425 Return after fees = 125.0425 / 100 – 1 = 25.0425%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This is easiest to see using an initial investment amount of 100."
+            },
+            {
+              "type": "paragraph",
+              "text": "Year-end gross value = 100 × 1.30 = 130"
+            },
+            {
+              "type": "paragraph",
+              "text": "Management fee = 1.5% × 130 = 1.95"
+            },
+            {
+              "type": "paragraph",
+              "text": "Gains net of management fee = 30 – 1.95 = 28.05"
+            },
+            {
+              "type": "paragraph",
+              "text": "Hurdle gains = 8% × 100 = 8"
+            },
+            {
+              "type": "paragraph",
+              "text": "Incentive fee = 15% × (30 – 1.95 – 8) = 3.0075"
+            },
+            {
+              "type": "paragraph",
+              "text": "Total fees = 1.95 + 3.0075 = 4.9575"
+            },
+            {
+              "type": "paragraph",
+              "text": "Ending value after fees = 130 – 4.9575 = 125.0425"
+            },
+            {
+              "type": "paragraph",
+              "text": "Return after fees = 125.0425 / 100 – 1 = 25.0425%"
+            }
+          ]
+        },
+        {
+          "id": "r77-q3",
+          "number": 3,
+          "objectiveIds": [
+            "77.b"
+          ],
+          "prompt": "A private equity fund has a “2 and 20” fee structure with the performance fee independent of management fees. The fund will sell a holding for a profit of 9%. The hurdle rate is specified as 8%. The provision that would result in an incentive fee of 1% is a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "hard hurdle rate."
+            },
+            {
+              "id": "B",
+              "text": "soft hurdle rate."
+            },
+            {
+              "id": "C",
+              "text": "catch-up provision."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "With a catch-up provision, the limited partners receive the first 8% of gross return, and the general partner gets all returns above that to a maximum of 2%. Gains above that are shared 80% to the limited partners and 20% to the general partner. With a soft hurdle rate of 8%, the performance fee would be 20% of 9%, or 1.8%. With a hard hurdle rate of 8%, the performance fee would be 20% of (9% – 8%), or 0.2%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "With a catch-up provision, the limited partners receive the first 8% of gross"
+            },
+            {
+              "type": "paragraph",
+              "text": "return, and the general partner gets all returns above that to a maximum of 2%. Gains above that are shared 80% to the limited partners and 20% to the general partner."
+            },
+            {
+              "type": "paragraph",
+              "text": "With a soft hurdle rate of 8%, the performance fee would be 20% of 9%, or 1.8%."
+            },
+            {
+              "type": "paragraph",
+              "text": "With a hard hurdle rate of 8%, the performance fee would be 20% of (9% – 8%), or 0.2%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

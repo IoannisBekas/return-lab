@@ -58,6 +58,13 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+.reference-footer-link {
+  display: block;
+  width: fit-content;
+  margin-top: 12px;
+  border-bottom: 1px solid currentColor;
+}
+
 button {
   color: inherit;
 }

@@ -1,0 +1,851 @@
+{
+  "readingId": 44,
+  "title": "Industry and Competitive Analysis",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "44.1",
+      "title": "Industry Analysis",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "44.a",
+          "text": "What should we know about the purposes of, and steps involved in, industry and competitive analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry and competitive analysis is a macro approach to analyzing what drives industry size, profits, and market share, as well as determining a company’s position within its industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Different industries have different long-run levels of profitability that depend on the opportunities they have and the risks to which they are exposed. Whether a company can sustain economic profits over time depends largely on its industry. Competition tends to drive company profitability toward an industry base rate over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Within a given industry, differences in profitability among the participants result from differences in business model, company size, and competitive strategy. While industry factors function as a limit on companies’ profitability, company-specific factors have tended to be more to blame when firms underperform their industries."
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of industry and competitive analysis is to determine an industry’s base rate of profitability and what factors affect that rate. Based on this, an analyst can project the future profitability of the industry and assess companies’ positions in relation to the industry median or mean."
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry analysis is useful for improving financial forecasts by examining industry drivers and compiling industry-wide data. For an analyst, it is important not to underestimate the impact of macro factors and to remember that company-specific factors alone have a limited impact on a company’s success."
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry analysis is also useful for finding desirable investments that may have been overlooked without analyzing the overall industry and its participants. From a portfolio perspective, investors may desire more industry-specific risk and less company-specific risk. This can be achieved through smaller investments in multiple companies within a targeted industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry and competitive analysis involves five steps:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1:   Define the industry. This involves some subjectivity as to what factors define an"
+        },
+        {
+          "type": "paragraph",
+          "text": "industry (such as product similarity or geographical region) and how to treat"
+        },
+        {
+          "type": "paragraph",
+          "text": "companies that operate in multiple industries. Classification systems produced by third parties can be useful. Step 2:   Survey the industry in terms of its size, growth rate, profitability, and trends in"
+        },
+        {
+          "type": "paragraph",
+          "text": "the market shares of its participants. Step 3:   Analyze the industry structure using a framework such as Porter’s five forces"
+        },
+        {
+          "type": "paragraph",
+          "text": "and determine which forces are key for the industry’s profitability. Step 4:   Examine external influences on the industry, such as political, economic, social,"
+        },
+        {
+          "type": "paragraph",
+          "text": "technological, legal, and environmental impacts (PESTLE). Step 5:   Analyze companies’ competitive strategies in terms of how each company fits"
+        },
+        {
+          "type": "paragraph",
+          "text": "within the industry and what competitive advantages each company has."
+        },
+        {
+          "type": "question",
+          "objectiveId": "44.b",
+          "text": "What should we know about industry classification methods and compare methods by which companies can be grouped?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many problems exist in properly defining an industry. Initially, there were government-created classification systems that were production based (e.g., manufacturing, distribution, retail) and infrequently updated with new companies. With the rise of global markets and evolving technology, such national classification systems eventually become obsolete. As a result, third-party firms developed more global industry classification systems that are more useful to analysts. Classifying firms by industry provides a method of examining trends and firm valuations. It also allows analysts to compare firms in different countries."
+        },
+        {
+          "type": "heading",
+          "text": "Commercial Classifications"
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to group companies into an industry is by the products and services they offer. For example, firms that produce automobiles constitute the auto industry. A sector is a group of similar industries. Hospitals, doctors, pharmaceutical firms, and other industries are included in the health care sector. Systems that are grouped by products and services usually classify firms by their principal business activity (largest source of sales or earnings)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Commercial industry classifications include the Global Industry Classification Standard (GICS), which was developed by S&P Dow Jones Indices and MSCI, and the Industry Classification Benchmark (ICB), which was developed by FTSE Russell for public companies. The Refinitiv Business Classification (TRBC) includes public companies, private companies, not-for-profits, and government entities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The hierarchical structures (four or five tiers) for these classification systems are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "GICS: sector, industry groups, industries, subindustries"
+        },
+        {
+          "type": "paragraph",
+          "text": "ICB: industries, supersectors, sectors, subsectors TRBC: economic sectors, business sectors, industry groups, industries, activities"
+        },
+        {
+          "type": "paragraph",
+          "text": "While their nomenclature may differ, the top level for all three systems consists of 11 common sectors or industries as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Energy"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Financials\n3. Basic materials"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Information technology\n5. Industrials"
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Telecommunications services\n7. Consumer discretionary/cyclicals\n8. Utilities"
+        },
+        {
+          "type": "paragraph",
+          "text": "9. Consumer staples/noncyclicals\n10. Real estate"
+        },
+        {
+          "type": "paragraph",
+          "text": "11. Health care"
+        },
+        {
+          "type": "paragraph",
+          "text": "The process these providers use to classify firms may be summarized as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm with one business line is classified in that business line. A firm with multiple business lines is classified in the one that comprises more than 60% of total revenue. If no business line meets the 60% test, classify the firm by a business line that accounts for more than 50% of total revenue, profits, or assets. If no business line meets the 50% test, use judgment to select the most appropriate business line, or classify the firm as a conglomerate."
+        },
+        {
+          "type": "heading",
+          "text": "Potential Limitations of Classification Systems"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inappropriate Groupings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the industry groupings may be either too wide or too narrow for an analyst’s specific needs. When this occurs, an analyst might choose to use different classification tiers and possibly alter the groupings on a subjective basis. In some instances, firms may be classified in the same group when an analyst would prefer to separate them. For example, “computer software” could range from accounting and bookkeeping software to nutrition management software. An analyst might want to focus on a smaller group that produces directly competing products. In other instances, companies that sell a wide variety of products (such as large retailers like Costco or Walmart) might be classified in different industries or subindustries, even if an analyst might consider them competitors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies Selling Multiple Products"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the nature of the classification systems, a single company with multiple divisions in differing industries is assigned to one group only. This creates comparability issues if a given division of a company is not in the same industry as the one assigned to the overall company. A prominent example would be Amazon being assigned to the “consumer discretionary retailer” industry, even though most of its profits come from its activities in IT service management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geography"
+        },
+        {
+          "type": "paragraph",
+          "text": "For services such as health care or insurance that companies largely cannot offer on a global basis, it makes sense to analyze them in terms of local or national markets. The reverse is true for media companies that were local in nature in the pre-internet age, but can now compete on a global level by offering their services to virtually anyone in any place."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grouping Changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "To recognize natural business changes over time, classification system providers update their groupings periodically. This can disrupt the continuity of industry-level statistics, and it may be necessary to revise historical data to be consistent with current grouping systems. For example, some existing sectors may be further subdivided with new sectors established, which means the historical results of the subdivided sector will be difficult to compare with future results. New companies being established and companies going out of business change the constituents of groupings and can impair comparability. Over long periods, industry data may exhibit survivorship bias."
+        },
+        {
+          "type": "heading",
+          "text": "Other Ways to Group Companies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies can be grouped in ways other than by product or service. These ways are often useful for constructing indexes and performing investment attribution analysis."
+        },
+        {
+          "type": "heading",
+          "text": "Geography"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies can be grouped by countries, which in turn can be assigned categories such as developed, emerging, or frontier economies. The country is most often where a company is headquartered or listed on an exchange, even if it does most of its business elsewhere. For example, Toyota is considered a Japanese company but generates most of its revenues in North America."
+        },
+        {
+          "type": "heading",
+          "text": "Business Cycle Sensitivity"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can describe companies’ sensitivity to business cycles on a range from defensive to cyclical. A defensive company produces goods and services for which demand is relatively stable over the business cycle. Examples of defensive sectors include health care, utilities, telecommunications, and consumer staples. Those are items required for day-to-day living, for which demand is not affected significantly by the business cycle stage."
+        },
+        {
+          "type": "paragraph",
+          "text": "A cyclical company is one whose earnings are highly dependent on the stage of the business cycle. Such firms have high earnings volatility and typically high operating leverage. Their products are often materials or equipment sold to other producers, or high-unit-value items whose purchase can be delayed until the economy improves. Examples of cyclical industries include basic materials and processing, consumer discretionary, energy, financial services, industrial and producer durables, and technology."
+        },
+        {
+          "type": "heading",
+          "text": "Financial Measures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Groupings may occur based on company size (e.g., market capitalization) or other financial measures such as valuation and profitability ratios or growth rates of earnings or sales. Groupings based on financial measures demonstrate more turnover in their composition than groupings based on country or product, because a company’s financial measures are much likelier to change than its country or industry. Alternatively, statistical methods like cluster analysis can be used. This method groups firms that historically have had highly correlated returns. The resulting groups should then have lower returns correlations with each other."
+        },
+        {
+          "type": "heading",
+          "text": "Environmental, Social, and Governance (ESG)"
+        },
+        {
+          "type": "paragraph",
+          "text": "ESG factors such as the level of personnel diversity or use of “green” production methods can be quantified and reported as standardized ESG scores."
+        },
+        {
+          "type": "question",
+          "objectiveId": "44.c",
+          "text": "How do we determine an industry’s size, growth characteristics, profitability, and market share trends?"
+        },
+        {
+          "type": "heading",
+          "text": "Industry Size"
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry size is total annual sales of the product, which is not always the same as total annual sales of all the companies in the industry. Because some of the companies included in the industry operate in multiple product lines, only a fraction of a company’s total annual sales might be relevant for a given industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "In some industries, the overall size may include a significant percentage of sales from private companies and unincorporated businesses, which creates problems in gathering relevant data. In these cases, industry size is usually approximated using alternative data, such as government economic indicators or independent third-party data."
+        },
+        {
+          "type": "heading",
+          "text": "Industry Growth Characteristics"
+        },
+        {
+          "type": "paragraph",
+          "text": "An industry growth rate can be calculated as an annual rate each year or as a compound annual growth rate over several years. Analysts classify industry groups broadly as growth industries or mature industries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Growth industries are those with product markets that have considerable growth potential, which is often related to new technology. Drivers of success in growth industries tend to be independent of the general economy. Analysts must judge the persistence of the high growth rates and estimate when they will begin to decline. This is more problematic when growth is based on an emerging technology."
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast, mature industries have little or no growth potential remaining in their markets. Industry growth rates are likely in line with the general economy, or may be declining if the industry faces threats from substitute products. Analysts should focus on any significant changes in the intensity of competition among industry participants as well as any signs that the industry might be declining overall."
+        },
+        {
+          "type": "paragraph",
+          "text": "Business cycle sensitivity also needs to be considered. Cyclical industries experience more volatility in returns, but varying perceptions of the duration and severity of"
+        },
+        {
+          "type": "paragraph",
+          "text": "business cycles can result in a wide range of valuations."
+        },
+        {
+          "type": "paragraph",
+          "text": "A style box can be used to classify industries based on business cycle sensitivity (cyclical vs. defensive) and growth rate (mature vs. growth). For example, utilities can be classified as a defensive and mature industry; crude oil production as cyclical and mature; biotechnology as defensive and growth; and digital advertising as cyclical and growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "This sort of analysis has some drawbacks. A broad economic recession will probably hurt all companies, so classification as cyclical or defensive is a matter of degree. It is also possible to have growth firms in a cyclical industry that are relatively unaffected by a recession as their product gains increasing acceptance with the public."
+        },
+        {
+          "type": "heading",
+          "text": "Industry Profitability"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ideally, industry profitability should be based on return on invested capital (ROIC), which is an after-tax metric independent of capital structure. Companies can be segmented in deciles or percentiles, for example, to observe a company’s relative profitability over time. Unfortunately, it is often impractical to estimate ROIC for private companies that do not have publicly available financial statements. Instead, analysts may use the returns of publicly traded companies and assume they are similar for private companies, based on publicly available market prices for the end products and production costs, or using data provided by the government or a third-party researcher."
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal is to determine if there are any clear trends—increasing, decreasing, or stable industry profits over time."
+        },
+        {
+          "type": "heading",
+          "text": "Market Share"
+        },
+        {
+          "type": "paragraph",
+          "text": "Market share is a company’s annual revenues divided by the industry size. Because measuring industry size is problematic, market shares are estimates rather than exact data. The trend in a company’s market share over time is crucial for determining whether its products are viewed favorably by customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acquiring a competitor automatically increases a company’s market share. Closer investigation is needed to determine if a company is increasing its market share net of acquisitions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Industry concentration is often expressed numerically through the Herfindahl-Hirschman Index (HHI). The HHI is the sum of the squares of the market shares of all participants. For example, a market consisting of five firms each with shares of 35, 25, 20, 10, and 10 would have an HHI of 35² + 25² + 20² + 10² + 10² = 2,450. An industry with an HHI less than 1,500 is considered to have low concentration; HHI between 1,500 and 2,500 is considered moderate concentration; and an HHI greater than 2,500 indicates high concentration."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general (with notable exceptions in the case of local industries and highly differentiated products), low or decreasing concentration implies higher competitive intensity, less pricing power, and lower profitability; while high or increasing"
+        },
+        {
+          "type": "paragraph",
+          "text": "concentration implies lower competitive intensity, more pricing power, and greater profitability."
+        }
+      ]
+    },
+    {
+      "id": "44.2",
+      "title": "Industry Structure and Competitive Positioning",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "44.d",
+          "text": "How do we analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks?"
+        },
+        {
+          "type": "heading",
+          "text": "Porter’s Five Forces"
+        },
+        {
+          "type": "paragraph",
+          "text": "One component of an analyst’s industry analysis should be industry structure analysis, which examines how an industry’s competitive environment influences a firm’s strategy. The analysis framework developed by Michael Porter¹ delineates five forces that determine industry competition—and ultimately, the industry’s long-run profitability. Of the five forces described next, if some or all of them are strong, then firms will likely earn zero or close to zero economic profits (return on invested capital minus cost)."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Rivalry among existing competitors. Rivalry increases when many firms of relatively"
+        },
+        {
+          "type": "paragraph",
+          "text": "equal size compete within an industry. Slow growth leads to competition as firms fight for market share, and high fixed costs lead to price decreases as firms try to operate at full capacity. For example, the high fixed costs in the auto industry from capital investments and labor contracts force firms to produce a large number of vehicles that they can only sell at low margins. Industries with products that are undifferentiated or have barriers (are costly) to exit tend to have high levels of competition.\n2. Threat of entry. Industries that have significant barriers to entry (e.g., large capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "outlays for facilities) will find it easier to maintain premium pricing. It is costly to enter the steel or oil production industries. Those industries have high barriers to entry and thus less competition from newcomers. An analyst should identify factors that discourage new entrants, such as economies of scale.\n3. Threat of substitutes. Substitute products limit the profit potential of an industry"
+        },
+        {
+          "type": "paragraph",
+          "text": "because they limit the prices firms can charge by increasing the elasticity of demand. Commodity-like products have high levels of competition and low profit margins. The more differentiated the products are within an industry, the less price"
+        },
+        {
+          "type": "paragraph",
+          "text": "competition there will be. For example, in the pharmaceutical industry, patents protect a producer from competition in the markets for patented drugs."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Power of buyers. Buyers’ ability to bargain for lower prices or higher quality"
+        },
+        {
+          "type": "paragraph",
+          "text": "influences industry profitability. Bargaining by governments and ever-larger health care providers have put downward pressure even on patented drugs.\n5. Power of suppliers. Suppliers’ ability to raise prices or limit supply influences"
+        },
+        {
+          "type": "paragraph",
+          "text": "industry profitability. Suppliers are more powerful if there are just a few of them and their products are scarce. For example, Microsoft is one of the few suppliers of operating system software and thus has pricing power."
+        },
+        {
+          "type": "paragraph",
+          "text": "The first two forces deserve further attention because almost all firms must be concerned about the threat of new entrants and competition that would erode profits. Studying these forces also helps the analyst better understand the subject firm’s competitors and prospects. The following summary describes how these two factors influence the competitive environment in an industry: –  Higher barriers to entry reduce competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Greater concentration (a small number of firms control a large part of the market)"
+        },
+        {
+          "type": "paragraph",
+          "text": "reduces competition, whereas market fragmentation (a large number of firms, each with a small market share) increases competition. –  Unused capacity in an industry, especially if prolonged, results in intense price"
+        },
+        {
+          "type": "paragraph",
+          "text": "competition. For example, underutilized capacity in the auto industry has resulted in very competitive pricing. –  Stability in market share reduces competition. For example, loyalty of a firm’s"
+        },
+        {
+          "type": "paragraph",
+          "text": "customers tends to stabilize market share and profits. –  More price sensitivity in customer buying decisions results in greater competition. –  Greater maturity of an industry results in slowing growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "An example of an analysis using Porter’s five forces is provided next."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Porter’s five forces analysis for U.S. retail²"
+        },
+        {
+          "type": "heading",
+          "text": "Threat of New Entrants: Very High"
+        },
+        {
+          "type": "paragraph",
+          "text": "Opening a retailer, especially an ecommerce retailer that uses third-party merchant services, is relatively easy and common. In the United States, retailers are the most common type of business formed—by a wide margin, with over 40,000 new firms filing formation papers each month (the next-most common is transportation and warehousing, with around half the number of retailer formations). Customers can easily switch retailers, as most do not have an ongoing relationship such as a subscription fee or contract, and there are minimal regulatory barriers such as licenses and patents."
+        },
+        {
+          "type": "heading",
+          "text": "Threat of Substitutes: Low"
+        },
+        {
+          "type": "paragraph",
+          "text": "Broadly speaking, the substitute for retail is consumer services (e.g., restaurants, travel, health care), which also includes digital services (e.g., streaming video subscriptions and gaming). Most categories of goods, however, are not easily replaceable with services (e.g., apparel and home decor), or they enjoy a cost"
+        },
+        {
+          "type": "paragraph",
+          "text": "advantage because of lower labor intensity (e.g., fresh food). There have been periods when services grew faster than goods, but as shown in an earlier exhibit, retail sales have grown essentially in line with U.S. nominal output/income. Retail is arguably one of the oldest industries, and while it has evolved over time, it has yet to be replaced."
+        },
+        {
+          "type": "heading",
+          "text": "Bargaining Power of Customers: Moderate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Retail customers are highly fragmented, with each consumer representing a distinct decision maker, as there are generally no group purchasing organizations. However, many products are sold by many retailers, and the internet has enabled easy comparison shopping at retailers. Customers are price sensitive, with respect to identical products sold by different retailers."
+        },
+        {
+          "type": "heading",
+          "text": "Bargaining Power of Suppliers: Low to Moderate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Key suppliers for retailers include manufacturers of goods, employees, and lessors of retail or fulfillment space. In most cases, numerous options are available. However, branded goods are sold exclusively by a sole manufacturer that may impose high prices and other economic terms, like shelf space and visibility, and may want to sell only to certain retailers (e.g., makers of luxury goods may not sell to discount retailers to maintain exclusivity)."
+        },
+        {
+          "type": "heading",
+          "text": "Rivalry Among Existing Competitors: High"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the sheer number of similarly sized firms selling similar or identical products, retailers compete fiercely, often with price promotions and discounts. Price is one of the few ways that they can lure customers away from competitors."
+        },
+        {
+          "type": "heading",
+          "text": "PESTLE Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "While Porter’s five forces are crucial for internal analysis of an industry, an analyst must also consider the external factors that may affect it. In that regard, a PESTLE analysis considers political, economic, social, technological, legal, and environmental factors. Because the nature of external factors is that they tend to evolve gradually, a PESTLE analysis does not need to be performed as frequently as an analysis of competitive forces. Not all of the influences might be key for a specific industry; analysis should focus on only the key influences."
+        },
+        {
+          "type": "paragraph",
+          "text": "Political influences have an important and widespread effect on businesses through various channels, including taxes and regulation. Three sectors that are most notably exposed to political influences are energy, health care, and defense."
+        },
+        {
+          "type": "paragraph",
+          "text": "The energy sector must consider three specific political influences:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Governments desire low and stable energy prices to maintain their popularity with"
+        },
+        {
+          "type": "paragraph",
+          "text": "the general public, who would otherwise have to bear most of the burden of rising energy prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Climate agreements and regulations, which are aimed at reducing emissions, conflict"
+        },
+        {
+          "type": "paragraph",
+          "text": "with the desire for low prices for nonrenewable energy sources (mainly fossil fuels). If governments remain focused on reducing fossil fuel use in the future, higher energy prices are unavoidable."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. The Organization of the Petroleum Exporting Countries (OPEC) has significant"
+        },
+        {
+          "type": "paragraph",
+          "text": "influence on energy prices. It is likely that as a group, the OPEC members desire to maintain low energy prices to lengthen the move to renewable energy sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "The influence of governments is substantial for the health care sector because governments are the largest purchasers of health care products and services. For political reasons, governments may increase the amount of public health care provided (by purchasing more products and services from the providers), or may implement price controls or ration services."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the defense sector, governments are usually the only buyers. The amount of defense spending depends on the level of geopolitical threats and military commitments among allied nations. Defense spending is also constrained by competing fiscal spending priorities, including health care."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economic influences can be cyclical trends (economic output as measured by GDP or some other measure) or structural trends such as productivity improvements and the size of the labor force. Interest rates affect financing costs for firms and individuals, as well as financial institution profitability. Credit availability affects consumer and business expenditures and funding. Inflation affects costs, prices, interest rates, and business and consumer confidence. Economic influences are key for cyclical sectors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Social influences relate to trends in how people work, play, spend their money, and conduct their lives. These factors are particularly important for industries that sell directly to individuals. For example, the increased presence of social media and “influencers” has increased the demand for high-quality beauty products. Some companies are bowing to pressures to use sustainable inputs and to ensure that production processes are ethical and observe human rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "Technological influences can change an industry dramatically through the introduction of new or improved products, which can make some existing products redundant. We can categorize technological innovations as sustaining or disruptive. Sustaining innovation refers to improvements in a product over time that do not fundamentally change its nature. In contrast, disruptive innovation creates a new market, or enters an existing market and creates value in a new way. An example of a business that experienced disruptive innovation is photography, which has largely moved from film to digital media. Disruptive innovation typically comes from new entrants to an industry. Existing firms may continue to succeed during the time it takes for customers to accept a new innovation, but to maintain market share in the long term, it is necessary to become part of the disruptive innovation, even though it will cannibalize their existing business."
+        },
+        {
+          "type": "paragraph",
+          "text": "Legal influences consider changes in laws and regulations that present both business risks and opportunities. Consider the tobacco industry, which has faced declining revenues due to laws implemented in many jurisdictions over the past few decades, such as prohibiting smoking in public places and requiring extensive disclosures on cigarette packages. In contrast, consider the relatively new cannabis industry that has developed in jurisdictions that have legalized its sale and use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Environmental influences, such as climate change and concerns about environmental sustainability of some industries, continue to gain importance as a factor in industry growth and profitability."
+        },
+        {
+          "type": "question",
+          "objectiveId": "44.e",
+          "text": "How should we evaluate the competitive strategy and position of a company?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Every company can be said to have a competitive strategy, whether intentionally or not. Intentional strategies are carefully planned and follow repeated cycles of execution and evaluation to refine. Unintentional strategies are haphazard, with little or no coordination and an emphasis on following past or industry practices. Much of the time, unintentional strategies do not provide optimal results, although there have been some notable exceptions—particularly in the pharmaceutical industry, where many new drugs were developed by smaller companies following a more informal and less organized approach."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effective competitive strategies are known with hindsight by producing consistent and positive economic profits over the long run. On a forward-looking basis, competitive strategies can be evaluated by considering whether the strategy can respond appropriately to the relevant forces, whether the strategy is neutral to or benefits from relevant external influences, and whether the firm is able to execute the strategy properly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Porter has identified three types of competitive strategies: a cost leadership (low-cost) strategy, a product or service differentiation strategy, and a focus strategy. According to Porter, a firm must choose one of these to compete effectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a cost leadership strategy, the firm seeks to have the lowest costs of production in its industry, offer the lowest prices, and generate enough volume to make a superior return. The strategy can be used defensively to protect market share, or offensively to gain market share. A cost leadership firm should have managerial incentives that are geared toward improving operating efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a differentiation strategy, the firm’s products and services should be distinctive in terms of type, quality, or delivery. For success, the firm’s cost of differentiation must be less than the price premium that buyers are willing to pay for it. The price premium should also be sustainable over time. Successful differentiators will have outstanding marketing research teams (to allow for premium pricing), strong production personnel (to allow for superior quality), and creative advertising personnel (to promote unique product features)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A focus strategy refers to targeting a niche market. Executing a focus strategy can include aspects of both cost leadership and differentiation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 44.1 summarizes the three generic competitive strategies."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 44.1: Generic Competitive Strategies³"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/8378d34541a04269f36e.png",
+          "alt": "Equation, table, or diagram: Figure 44.1: Generic Competitive Strategies³",
+          "width": 632,
+          "height": 724,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "44.a",
+      "text": "What should we know about the purposes of, and steps involved in, industry and competitive analysis?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industry and competitive analysis involves five steps:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Define the industry"
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Survey the industry’s size, growth, profitability, and market share trends\n3. Analyze the industry’s structure\n4. Analyze external influences on the industry"
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Determine industry participants’ competitive strategies"
+    },
+    {
+      "type": "question",
+      "objectiveId": "44.b",
+      "text": "What should we know about industry classification methods and compare methods by which companies can be grouped?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The three classification systems and their hierarchical structures (four or five tiers) are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "GICS: sector, industry groups, industries, subindustries ICB: industries, supersectors, sectors, subsectors TRBC: economic sectors, business sectors, industry groups, industries, activities"
+    },
+    {
+      "type": "paragraph",
+      "text": "Potential limitations of classification systems include inappropriate groupings, inaccurate classifications of companies selling multiple products, inability to deal with products and services offered in local or national markets only, and grouping changes over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Other ways to group companies are by country or region, business cycle sensitivity, financial measures, and ESG considerations."
+    },
+    {
+      "type": "question",
+      "objectiveId": "44.c",
+      "text": "How do we determine an industry’s size, growth characteristics, profitability, and market share trends?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Industry size is the total annual sales of the product, which is not always the same as total annual sales of all the companies in the industry."
+    },
+    {
+      "type": "paragraph",
+      "text": "Growth industries are those that have considerable growth potential, which is usually related to new technology. Mature industries have growth rates in line with the general economy or decreasing as the industry faces threats from substitute products."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cyclical industries involve sales of less essential items for consumers, while defensive industries involve sales of more essential items."
+    },
+    {
+      "type": "paragraph",
+      "text": "Market share is a company’s annual revenues as a percentage of the industry size. Industry concentration is often expressed numerically using the Herfindahl-Hirschman Index."
+    },
+    {
+      "type": "question",
+      "objectiveId": "44.d",
+      "text": "How do we analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Porter’s five forces that determine industry competition are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Threat of new entrants"
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Threat of substitutes\n3. Bargaining power of customers"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Bargaining power of suppliers\n5. Rivalry among existing competitors"
+    },
+    {
+      "type": "paragraph",
+      "text": "A PESTLE analysis consists of the following elements:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Political influences\n2. Economic influences\n3. Social influences"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Technology influences\n5. Legal influences"
+    },
+    {
+      "type": "paragraph",
+      "text": "6. Environmental influences"
+    },
+    {
+      "type": "question",
+      "objectiveId": "44.e",
+      "text": "How should we evaluate the competitive strategy and position of a company?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a cost leadership strategy, the firm seeks to have the lowest costs of production in its industry, offer the lowest prices, and generate enough volume to make a superior return."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a differentiation strategy, the firm’s products and services should be distinctive in terms of type, quality, or delivery."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a focus strategy, a niche market is targeted."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "44.a",
+      "statement": "Describe the purposes of, and steps involved in, industry and competitive analysis.",
+      "question": "What should we know about the purposes of, and steps involved in, industry and competitive analysis?"
+    },
+    {
+      "id": "44.b",
+      "statement": "Describe industry classification methods and compare methods by which companies can be grouped.",
+      "question": "What should we know about industry classification methods and compare methods by which companies can be grouped?"
+    },
+    {
+      "id": "44.c",
+      "statement": "Determine an industry’s size, growth characteristics, profitability, and market share trends.",
+      "question": "How do we determine an industry’s size, growth characteristics, profitability, and market share trends?"
+    },
+    {
+      "id": "44.d",
+      "statement": "Analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks.",
+      "question": "How do we analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks?"
+    },
+    {
+      "id": "44.e",
+      "statement": "Evaluate the competitive strategy and position of a company.",
+      "question": "How should we evaluate the competitive strategy and position of a company?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-44-quiz-1",
+      "title": "Knowledge check 44.1",
+      "moduleId": "44.1",
+      "questions": [
+        {
+          "id": "r44-q1",
+          "number": 1,
+          "objectiveIds": [
+            "44.b"
+          ],
+          "prompt": "Industry classification systems from commercial index providers typically classify firms by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "statistical methods."
+            },
+            {
+              "id": "B",
+              "text": "products and services."
+            },
+            {
+              "id": "C",
+              "text": "business cycle sensitivity."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Commercial classification systems (e.g., GICS, ICB, and TRBC) classify firms according to the product or service they produce.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Commercial classification systems (e.g., GICS, ICB, and TRBC) classify firms"
+            },
+            {
+              "type": "paragraph",
+              "text": "according to the product or service they produce."
+            }
+          ]
+        },
+        {
+          "id": "r44-q2",
+          "number": 2,
+          "objectiveIds": [
+            "44.c"
+          ],
+          "prompt": "Firms and industries are most appropriately classified as cyclical or non-cyclical based on:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "their stock price fluctuations relative to the market."
+            },
+            {
+              "id": "B",
+              "text": "the sensitivity of their earnings to the business cycle."
+            },
+            {
+              "id": "C",
+              "text": "the volatility of their earnings relative to their competitors."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "For industry analysis, cyclical firms and industries are those with earnings that are highly dependent on the business cycle, while defensive firms and industries are those with earnings that are relatively less sensitive to the business cycle.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For industry analysis, cyclical firms and industries are those with earnings that are"
+            },
+            {
+              "type": "paragraph",
+              "text": "highly dependent on the business cycle, while defensive firms and industries are those with earnings that are relatively less sensitive to the business cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-44-quiz-2",
+      "title": "Knowledge check 44.2",
+      "moduleId": "44.2",
+      "questions": [
+        {
+          "id": "r44-q3",
+          "number": 1,
+          "objectiveIds": [
+            "44.d"
+          ],
+          "prompt": "Two of the five competitive forces in the Porter framework are:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "threat of entry and barriers to exit."
+            },
+            {
+              "id": "B",
+              "text": "power of suppliers and threat of substitutes."
+            },
+            {
+              "id": "C",
+              "text": "rivalry among competitors and power of regulators."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Porter’s five forces are rivalry among existing competitors, threat of entry, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Porter’s five forces are rivalry among existing competitors, threat of entry, threat"
+            },
+            {
+              "type": "paragraph",
+              "text": "of substitutes, bargaining power of buyers, and bargaining power of suppliers."
+            }
+          ]
+        },
+        {
+          "id": "r44-q4",
+          "number": 2,
+          "objectiveIds": [
+            "44.e"
+          ],
+          "prompt": "Which of the following best describes a cost leadership strategy?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Volume sold can range from modest to high."
+            },
+            {
+              "id": "B",
+              "text": "Managerial incentives promote operational efficiency."
+            },
+            {
+              "id": "C",
+              "text": "Success depends heavily on investments in customer service and proprietary distribution channels."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Firms that use a cost leadership strategy should have managerial incentives to create efficient operations. In a cost leadership strategy, the firm seeks to generate a high-enough sales volume to make a superior return. Investments in customer service and proprietary distribution channels are key elements of a differentiation strategy. pp. 78–93.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Firms that use a cost leadership strategy should have managerial incentives to"
+            },
+            {
+              "type": "paragraph",
+              "text": "create efficient operations. In a cost leadership strategy, the firm seeks to generate a high-enough sales volume to make a superior return. Investments in customer service and proprietary distribution channels are key elements of a differentiation strategy."
+            },
+            {
+              "type": "paragraph",
+              "text": "pp. 78–93."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

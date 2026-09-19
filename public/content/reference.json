@@ -1,0 +1,800 @@
+{
+  "title": "Formula and statistical reference",
+  "sections": [
+    {
+      "id": "reference-1",
+      "title": "Quantitative methods, economics, corporate finance, and statistical tables",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Quantitative Methods"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{FV}=\\mathrm{PV} \\left( 1+\\mathrm{r} \\right)^{t}} \\\\ {\\mathrm{PV}=\\mathrm{~FV}} \\\\ {\\mathrm{~ ( 1+\\mathrm{r} )^t}=\\mathrm{FV} ( 1+\\mathrm{r} )^{-t}} \\\\ {\\mathrm{~where:}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {c} {{\\mathrm{r}=\\mathrm{interest~rate~per~compounding~period}}} \\\\ {{\\mathrm{t}=\\mathrm{number~of~compounding~periods}}} \\\\ {{\\mathrm{continuous~compounding;}}} \\\\ {{\\mathrm{FV}=\\mathrm{PV} \\times\\mathrm{e r^{n}}}} \\end{array}\\\\[6pt]\\begin{array} {c} {\\mathrm{PV}=\\mathrm{FV} \\times\\mathrm{e}^{-\\mathrm{r} \\mathrm{t}}} \\\\ {\\mathrm{PV~of~a~perpetuity}=\\frac{\\mathrm{payment}} {\\mathrm{r}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {c} {\\mathrm{annuity~payment}=\\mathrm{frac{r \\times P V} {1-( 1+r )^{-t}}}} \\\\ {\\mathrm{where:}} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{r}} & {{}=\\mathrm{interest~rate~per~period}} \\\\ {\\mathrm{t}} & {{}=\\mathrm{number~of~periods}} \\\\ {\\mathrm{PV}} & {{}=\\mathrm{present~value~(principal)}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{c o n s t a n t ~ g r o w t h ~ d i v i d e n d ~ d i s c o u n t ~ m o d e l : V_0=\\frac{D_{1}} {k_{e}-g_{c}}}}} \\\\ {{{}}} \\\\ {{\\mathrm{r e q u i r e d ~ r a t e ~ o f ~ r e t u r n : k_{e}=\\frac{D_{1}} {V_{0}}+g_{c} ~}}} \\end{array}\\\\[6pt]\\begin{array} {c} {{\\mathrm{implied~growth~rate:~} g_{c}={\\tt k}_{e}-{\\frac{D_{1}} {V_{0}}}}} \\\\ {{\\mathrm{~sample~mean:~} \\overline{{X}}={\\frac{\\mathrm{i}-1} {n}}}} \\end{array}\\\\[6pt]\\begin{array} {r} {\\mathrm{range=maximum~value-minimum~value}} \\\\ {{}} \\\\ {\\mathrm{mean~absolute~deviation}={\\frac{\\displaystyle{\\sum_{i=1}^{n} \\left| X_{i}-{\\overline{{X}}} \\right|}} {n}}} \\end{array}\\\\[6pt]\\begin{array} {r l} {\\operatorname{s a m p l e ~ v a r i a n c e : ~} s^{2}={\\frac{\\displaystyle{\\sum_{i=1}^{n} ( X_{i}-{\\overline{{X}}} )^{2}}} {{\\displaystyle n-1}}}} \\\\ {\\operatorname{s a m p l e ~ s t a n d a r d ~ d e v i a t i o n : ~} s={\\sqrt{\\displaystyle{\\sum_{i=1}^{n} \\left( X_{i}-{\\overline{{X}}} \\right)^{2}}}}} \\\\ {\\displaystyle{\\mathrm{~sample~standard~deviation:~} s={\\sqrt{\\displaystyle{\\sum_{i=1}^{n} \\left( X_{i}-{\\overline{{X}}} \\right)^{2}}}}}} \\end{array}\\\\[6pt]{\\bf c o e f f i c i e n t ~ o f ~ v a r i a t i o n}={\\frac{s_{x}} {\\overline{{X}}}}={\\frac{\\mathrm{standard~deviation~of~x}} {\\mathrm{average~value~of~x~}}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "3bf1c773e8d459b24845.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c} {{\\mathrm{target~downside~deviation:}}} \\\\ {{s_{\\mathrm{target}}=\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{i}} < B}^{n} ( X_{\\mathrm{i}}-B )^{2}} {\\displaystyle\\mathrm{n}-1}}}} \\end{array}\\\\[6pt]\\begin{array} {c} {\\mathrm{where~B=target~value}} \\\\ {\\mathrm{where~B=target~value}} \\\\ {\\mathrm{sample~covariance:}} \\\\ \\end{array}\\\\[6pt]s_{\\mathrm{X,Y}}={\\frac{\\displaystyle\\sum_{i=1}^{n} \\Bigl\\{\\bigl[ X_{i}-{\\overline{{X}}} \\bigr] \\bigl[ Y_{i}-{\\overline{{\\mathrm{Y}}}} \\bigr] \\Bigr\\}} {\\mathrm{n-1}}}\\\\[6pt]\\begin{array} {r l} {X_{\\mathrm{i}}} & {{}={\\mathrm{an~observation~of~variable}} \\ X} \\\\ {Y_{\\mathrm{i}}} & {{}={\\mathrm{an~observation~of~variable}} \\ Y} \\\\ {\\overline{{X}}} & {{}={\\mathrm{mean~of~variable}} \\ X} \\\\ {\\overline{{Y}}} & {{}={\\mathrm{mean~of~variable~}} Y} \\end{array}\\\\[6pt]\\begin{array} {c} {{\\mathrm{boldmath~n~}}=\\mathrm{number~of~periods}} \\\\ {{\\mathrm{boldmath~correlation~coefficient:~} \\rho_{X Y}=\\frac{s_{X Y}} {s_{X} s_{Y}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Bayes\"formula:} \\; {\\mathrm{P}} ( \\mathrm{I} \\, | \\, \\mathrm{O} )=\\frac{\\mathrm{P} ( \\mathrm{O} \\, | \\, \\mathrm{I} )} {\\mathrm{P} ( \\mathrm{O} )} \\times\\mathrm{P} ( \\mathrm{J} )}} \\\\ {{\\mathrm{slope~coefficient~for~a~simple~linear~regression:} \\; \\hat{\\mathrm{b}}_{1}=\\frac{\\mathrm{cov}_{\\mathrm{XY}}} {\\sigma_{X}^{2}}}} \\end{array}\\\\[6pt]\\begin{array} {c} {{\\mathrm{intercept~term~for~a~simple~linear~regression:}}} \\\\ {{{}}} \\\\ {{\\hat{\\mathrm{b}}_{0}=\\overline{{{\\mathrm{Y}}}}-\\hat{\\mathrm{b}}_{1} \\overline{{{\\mathrm{X}}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{where:}} \\\\ {\\overline{{\\mathrm{Y}}} \\ =\\mathrm{mean~of~Y}} \\\\ {\\overline{{\\mathrm{X}}} \\ =\\mathrm{mean~of~X}} \\end{array}\\\\[6pt]\\begin{array} {l} {{{\\mathrm{total~sum~of~squares~(SST);~SST}}=\\sum_{i=1}^{n} {( \\Upsilon_{i}-{\\overline{{\\Upsilon}}} )}^{2}}} \\\\ {{{\\mathrm{sum~of~squares~regression~(SSR);~SSR}}=\\sum_{i=1}^{n} ( {\\widehat{\\Upsilon}}_{i}-{\\overline{{\\Upsilon}}} )^{2}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{sum~of~squared~errors~(SSE);~SSE}=\\sum_{i=1}^{n} ( \\Upsilon_{i}-{\\widehat{\\Upsilon}} )^{2}}} \\\\ {{\\mathrm{c o e f f i c i e n t ~ o f ~ d e t e r m i n a t i o n : ~ R^{2}=S S R ~ / ~ S S T}}} \\end{array}\\\\[6pt]\\begin{array} {c} {{\\mathrm{F-statistic} ;}} \\\\ {{\\mathrm{F=\\frac{M S R} {M S E}=\\frac{S S R / k} {S S E / n-k-1}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{MSR}=\\mathrm{mean~regression~sum~of~squares}} \\\\ {\\mathrm{MSE}=\\mathrm{mean~squared~error}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "9c7480bee3dd12df7efa.png"
+        },
+        {
+          "type": "heading",
+          "text": "Economics"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}{\\mathrm{real~P/B~exchange~rate}}={\\mathrm{nominal~P/B~exchange~rate}} \\times\\left( {\\frac{{\\mathrm{CPI}}_{{\\mathrm{base~cuerency}}}} {{\\mathrm{CPI}}_{\\mathrm{price~cuerency}}}} \\right)\\\\[6pt]{\\mathrm{a r b i t r a g e-f r e e ~ f o r w a r d ~ e x c h a n g e ~ r a t e ~ r e l a t i o n s h i p : ~ {\\frac{f o r w a r d_{d / f}} {s p o t_{d / f}}}={\\frac{\\left( 1+r_{d o n s e r t i c} \\right)} {\\left( 1+r_{f o r e i g n} \\right)}}}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "e0cd75159982915c0cdd.png"
+        },
+        {
+          "type": "heading",
+          "text": "Corporate Issuers"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Cash conversion cycle}=\\text{days of inventory on hand}+\\text{days sales outstanding}-\\text{days payables outstanding}\\\\\n\\text{Total working capital}=\\text{current assets}-\\text{current liabilities}\\\\\n\\text{Net working capital}=\\text{current assets excluding cash and marketable securities}\n-\\text{current liabilities excluding short-term and current debt}\\\\\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash and marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\\n\\text{Cash ratio}=\\frac{\\text{cash and marketable securities}}{\\text{current liabilities}},\\quad\nNPV=CF_0+\\sum_{t=1}^{n}\\frac{CF_t}{(1+k)^t}\\\\\nROIC=\\frac{\\text{net operating profit after tax}}{\\text{average book value of total capital}}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "35e2f1e7f1dbc851fcc2.png"
+        },
+        {
+          "type": "heading",
+          "text": "APPENDIX A: AREAS UNDER THE NORMAL CURVE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most of the examples in these lessons have used one version of the z-table to find the area under the normal curve. This table provides the cumulative probabilities (or the area under the entire curve to left of the z-value)."
+        },
+        {
+          "type": "heading",
+          "text": "Probability Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that the annual earnings per share (EPS) for a large sample of firms is normally distributed with a mean of $5.00 and a standard deviation of $1.50. What is the approximate probability of an observed EPS value falling between $3.00 and $7.25?"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{If~} E P S=x=\\$7.25 , \\, \\mathrm{then~} z=( x-\\mu) / \\sigma=( \\$7.25-\\$5.00 ) / \\$1.50=+1.50} \\\\ {\\mathrm{~If~} E P S=x=\\$3.00 , \\, \\mathrm{then~} z=( x-\\mu) / \\sigma=( \\$3.00-\\$5.00 ) / \\$1.50=-1.33} \\end{array}",
+          "display": true,
+          "sourceAsset": "b13e36d68a57f72fc03a.png"
+        },
+        {
+          "type": "heading",
+          "text": "Solving Using the Cumulative Z-Table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For z-value of 1.50: Use the row headed 1.5 and the column headed 0 to find the value 0.9332. This represents the area under the curve to the left of the critical value 1.50."
+        },
+        {
+          "type": "paragraph",
+          "text": "For z-value of −1.33: Use the row headed 1.3 and the column headed 3 to find the value 0.9082. This represents the area under the curve to the left of the critical value +1.33. The area to the left of −1.33 is 1 − 0.9082 = 0.0918."
+        },
+        {
+          "type": "paragraph",
+          "text": "The area between these critical values is 0.9332 − 0.0918 = 0.8414, or 84.14%."
+        },
+        {
+          "type": "heading",
+          "text": "Hypothesis Testing—One-Tailed Test Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "A sample of a stock’s returns on 36 nonconsecutive days results in a mean return of 2.0%. Assume the population standard deviation is 20.0%. Can we say with 95% confidence that the mean return is greater than 0%?"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {{\\mathrm{H}_{0} : \\mu\\leq0.0 \\mathcal{Y}_{0} , \\, \\mathrm{H}_{\\mathrm{a}} \\! : \\mu> 0.0 \\mathcal{Y}_{0} . \\, \\mathrm{The~test~statistic}=z \\mathrm{-statistic}}} \\\\ {{=\\frac{\\overline{{{X}}}-\\mu_{0}} {\\sigma/ \\sqrt{\\overline{{{\\Omega}}}}}=\\left( 2.0-0.0 \\right) / \\left( 20.0 \\ / \\ 6 \\right)=0.60}} \\end{array}",
+          "display": true,
+          "sourceAsset": "25fcc334b0242892c96e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The significance level = 1.0 − 0.95 = 0.05, or 5%. Because we are interested in a return greater than 0.0%, this is a one-tailed test."
+        },
+        {
+          "type": "heading",
+          "text": "Using the Cumulative Z-Table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because this is a one-tailed test with an alpha of 0.05, we need to find the value 0.95 in the cumulative z-table. The closest value is 0.9505, with a corresponding critical z-value"
+        },
+        {
+          "type": "paragraph",
+          "text": "of 1.65. Because the test statistic is less than the critical value, we fail to reject H0."
+        },
+        {
+          "type": "heading",
+          "text": "Hypothesis Testing—Two-Tailed Test Example"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the same assumptions as before, suppose that the analyst now wants to determine if he can say with 99% confidence that the stock’s return is not equal to 0.0%."
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: μ = 0.0%, Ha: μ ≠ 0.0%. The test statistic (z-value) = (2.0 − 0.0) / (20.0 / 6) = 0.60. The significance level = 1.0 − 0.99 = 0.01, or 1%. Because we are interested in whether or not the stock return is nonzero, this is a two-tailed test."
+        },
+        {
+          "type": "heading",
+          "text": "Using the Cumulative Z-Table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because this is a two-tailed test with an alpha of 0.01, there is a 0.005 rejection region in both tails. Thus, we need to find the value 0.995 (1.0 − 0.005) in the table. The closest value is 0.9951, which corresponds to a critical z-value of 2.58. Because the test statistic is less than the critical value, we fail to reject H0 and conclude that the stock’s return equals 0.0%."
+        },
+        {
+          "type": "heading",
+          "text": "CUMULATIVE Z-TABLE"
+        },
+        {
+          "type": "heading",
+          "text": "Standard Normal Distribution"
+        },
+        {
+          "type": "paragraph",
+          "text": "P(Z ≤ z) = N(z) for z ≥ 0"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/236c50cbc08d6783fb2c.png",
+          "alt": "Equation, table, or diagram: P(Z ≤ z) = N(z) for z ≥ 0",
+          "width": 531,
+          "height": 806,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "CUMULATIVE Z-TABLE (CONT.)"
+        },
+        {
+          "type": "heading",
+          "text": "Standard Normal Distribution"
+        },
+        {
+          "type": "paragraph",
+          "text": "P(Z ≤ z) = N(z) for z ≥ 0"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d6ad52dc87eef482d15b.png",
+          "alt": "Equation, table, or diagram: P(Z ≤ z) = N(z) for z ≥ 0",
+          "width": 529,
+          "height": 724,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "APPENDIX B: STUDENT’S T-DISTRIBUTION"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5463b8f4d7dbe4792cb4.png",
+          "alt": "Equation, table, or diagram: APPENDIX B: STUDENT’S T-DISTRIBUTION",
+          "width": 516,
+          "height": 757,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "APPENDIX C: F-TABLE AT 5% (UPPER TAIL)"
+        },
+        {
+          "type": "heading",
+          "text": "F-Table, Critical Values, 5% in Upper Tail"
+        },
+        {
+          "type": "paragraph",
+          "text": "Degrees of freedom for the numerator along top row"
+        },
+        {
+          "type": "paragraph",
+          "text": "Degrees of freedom for the denominator along side row"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4c03d785ccda6e4dbc55.png",
+          "alt": "Equation, table, or diagram: Degrees of freedom for the denominator along side row",
+          "width": 585,
+          "height": 608,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "APPENDIX D: F-TABLE AT 2.5% (UPPER TAIL)"
+        },
+        {
+          "type": "heading",
+          "text": "F-Table, Critical Values, 2.5% in Upper Tails"
+        },
+        {
+          "type": "paragraph",
+          "text": "Degrees of freedom for the numerator along top row"
+        },
+        {
+          "type": "paragraph",
+          "text": "Degrees of freedom for the denominator along side row"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a5cbb7719f7458f34a22.png",
+          "alt": "Equation, table, or diagram: Degrees of freedom for the denominator along side row",
+          "width": 660,
+          "height": 608,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "APPENDIX E: CHI-SQUARED TABLE"
+        },
+        {
+          "type": "heading",
+          "text": "Values of χ² (Degrees of Freedom, Level of Significance)"
+        },
+        {
+          "type": "heading",
+          "text": "Probability in Right Tail"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fd7cdf02d96a2690be89.png",
+          "alt": "Equation, table, or diagram: Probability in Right Tail",
+          "width": 579,
+          "height": 673,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    },
+    {
+      "id": "reference-2",
+      "title": "Financial analysis and equity valuation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Free cash flow to the firm:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{aligned} {{}} & {{} \\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}} \\\\ {} & {{} \\mathrm{where:}} \\\\ {} & {{} \\mathrm{NI}} & {{}=\\mathrm{net~income}} \\end{aligned}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{NCC}}} & {{=\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{}} & {{}} \\\\ {{\\mathrm{Int}}} & {{=\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{NV}}}} & {{=\\mathrm{fixed~capital~mvestment~(net~capital~expenditures)}}} \\end{array}\\\\[6pt]\\mathrm{WC}_{\\mathrm{TNY}}=\\mathrm{working~capital~investment}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "4767f50c225f8db4e12e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Or:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{CFO}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO} \\ :=\\mathrm{cash\\,flow\\,from\\,operations}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Int} \\quad\\quad=\\mathrm{cash~interest~paid}} \\\\ {} & {{} \\mathrm{FC}_{\\mathrm{TNV}}=\\mathrm{fixed~capital~investment~(net~capital~expenditures)}} \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "bca94350018619ac5e9a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Free cash flow to equity:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{C F O-F C_{\\mathbb{N V}}+n e t ~ b o r r o w i n g}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{FC}_{\\tt T N V}=\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{net~borrowing}=\\tt d e b t ~ i s s u e d-\\tt d e b t ~ r e p a i d}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b52fe3c51c6c1ecf0276.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{cash-flow-to-revenue~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{net~revenue}}}} \\\\ {{\\mathrm{cash-return-on-assets~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{cash-return-on-equity~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{average~total~equity}}}} \\\\ {{\\mathrm{cash-to-income~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{operating~income}}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{cash~flow~per~share}=\\frac{\\mathrm{CFO-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares}}} \\\\ {} & {{}} \\\\ {} & {{} \\mathrm{debt~coverage}=\\frac{\\mathrm{CFO}} {\\mathrm{total~debr}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{interest~coverage}}={\\frac{\\mathrm{CFO+interest~paid}+\\mathrm{taxes~paid}} {\\mathrm{interest~paid}}}\\\\[6pt]\\begin{aligned} {\\mathrm{reinvestment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~paid~for~long-term~assets}}} \\\\ {\\mathrm{debt~payment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~long-term~debt~repayment}}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{dividend~payment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{dividends~paid}}} \\\\ {\\mathrm{investing~and~financing}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~outflows~from~investing~and~financing~activities}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{average~age}}={\\frac{\\mathrm{accummlated~depreciation}} {\\mathrm{annual~depreciation~expense}}}\\\\[6pt]{\\mathrm{total~useful~life}}={\\frac{\\mathrm{historical~cost~(gross~cost)}} {\\mathrm{annual~depreciation~expense}}}\\\\[6pt]\\begin{aligned} {\\mathrm{remaining~useful~life}=\\frac{\\mathrm{ending~net~PPRE}} {\\mathrm{annual~depreciation~expense}}} \\\\ {\\mathrm{tax~expense}=\\mathrm{tax~payable}+\\Delta\\mathrm{DTL}-\\Delta\\mathrm{DTA}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{effective~tax~rate}}={\\frac{\\mathrm{income~tax~expense}} {\\mathrm{pretax~income}}}} \\\\ {{\\mathrm{cash~tax~rate}}={\\frac{\\mathrm{tax~paid~(cash)}} {\\mathrm{pretax~income}}}} \\end{array}\\\\[6pt]{\\mathrm{vertical~common-size~balance~sheet~ratios}}=\\frac{\\mathrm{balance~sheet~account}} {\\mathrm{total~assets}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "09066eb4f2ed2e35dae2.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{vertical~common-size~income~statement~ratios}={\\frac{i n c o m e ~ s t a t e m e n t ~ a c c o u n t} {s a l e s}}} \\\\ {\\mathrm{~receivables~turnover}={\\frac{\\mathrm{anmual~sales}} {a v e r a g e ~ r e c e i v a b l e s}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~days~of~sales~outstanding}=\\frac{365} {\\mathrm{receivables~turnover}}}} \\\\ {{{}}} \\\\ {{\\mathrm{~inventory~turnover}=\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~inventory}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~days~of~inventory~on~hand}=\\frac{365} {\\mathrm{inventory~turnover}}}} \\\\ {{\\mathrm{~payables~turnover}=\\frac{\\mathrm{~cost~of~goods~sold}} {\\mathrm{~average~trade~payables}}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~mumber~of~days~of~payables}=\\frac{365} {\\mathrm{~payables~tumover~ratio}}}} \\\\ {{\\mathrm{~total~asset~tumover}=\\frac{\\mathrm{~revenne}} {\\mathrm{~average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{fixed~asset~turnover}=\\frac{\\mathrm{revemule}} {\\mathrm{average~net~fixed~assets}}}} \\\\ {{\\mathrm{working~capital~turnover}=\\frac{\\mathrm{revenue}} {\\mathrm{average~working~capital}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{current~liabilities}} {\\mathrm{curketable~securities}+\\mathrm{receivables}}}} \\\\ {{\\mathrm{current~liabilities}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{cash~ratio}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}}} \\\\ {{{}}} \\\\ {{\\mathrm{defensive~interval}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+r e c e i v a b l e s} {\\mathrm{average~daily~expenditures}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\mathrm{~-mumber~of~days~of~payables}} \\\\ {\\mathrm{~debt-to~equity}=\\frac{\\mathrm{total~debr}} {\\mathrm{total~shareholders\"~equity}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{debt-to-capital}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~debt+total~shareholders'~equity}}}}} \\\\ {{{}}} \\\\ {{\\mathrm{debt-to-assets}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~assets}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{financial~leverage}=\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~total~equity}}}} \\\\ {{\\mathrm{interest~coverage}=\\frac{\\mathrm{earnings~before~interest~and~taxes}} {\\mathrm{interest~payments}}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "bd49737c238d983f9c2d.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{d e b t-t o-E B T T D A=\\frac{t o t a l ~ d e b t} {E B T T D A}}}} \\\\ {{\\mathrm{f i x e d ~ c h a r g e ~ c o v e r a g e=\\frac{e a r n i m g s ~ b e f o r e ~ i n t e r e s t ~ a n d ~ t a x e s+l e a s e ~ p a y m e n t s} {i n t e r e s t ~ p a y m e n t s+l e a s e ~ p a y m e n t s}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{net~profit~margin}=\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}} \\\\ {{\\mathrm{}}} \\\\ {{\\mathrm{gross~profit~margin}=\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{operating~profit~margin}=\\mathrm{frac{o p e r a t i n g ~ i n c o m e} {r e v e n u e}} \\, \\mathrm{or} \\, \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}}} \\\\ {\\mathrm{pretax~margin}=\\mathrm{frac{E B T} {r e v e n u e}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~return~on~assets}=\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}}} \\\\ {{\\mathrm{~operating~return~on~assets}=\\frac{\\mathrm{operating~income}} {\\mathrm{average~total~assets}} \\, \\mathrm{or~} \\frac{\\mathrm{EBIT}} {\\mathrm{~average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~return~on~invested~capital}={\\frac{\\mathrm{after-tax~operating~profit}} {\\mathrm{average~long-term~capital}}}}} \\\\ {{\\mathrm{~return~on~equity}={\\frac{\\mathrm{~net~income}} {\\mathrm{average~total~equity}}}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{return~on~common~equity}} & {{}=\\frac{\\mathrm{net~income-prefered~dividends}} {\\mathrm{average~common~equity}}} \\\\ {} & {{}=\\frac{\\mathrm{net~income~available~to~common}} {\\mathrm{average~common~equity}}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Original~DuPont~decomposition:}}} \\\\ {{\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\left( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Extended~DuPont~decomposition:}}} \\\\ {{\\quad\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{EBT}} \\Big) \\Big( \\frac{\\mathrm{EBT}} {\\mathrm{EBTT}} \\Big) \\Big( \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}} \\Big) \\Big( \\frac{\\mathrm{revenue}} {\\mathrm{average~assets}} \\Big) \\Big( \\frac{\\mathrm{average~assets}} {\\mathrm{average~equity}} \\Big)}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Coefficients~of~variation:}}} \\\\ {{\\mathrm{CV~sales}={\\frac{\\mathrm{standard~deviation~of~sales}} {\\mathrm{mean~sales}}}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{CV~operating~income}=\\frac{\\mathrm{standard~deviation~of~operating~income}} {\\mathrm{mean~operating~income}}} \\\\ {} & {{} \\mathrm{CV~net~income}=\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "866c622294530622f91f.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Margin call price}=P_0\\left(\\frac{1-\\text{initial margin}}{1-\\text{maintenance margin}}\\right),\n\\quad P_0=\\text{initial purchase price} \\\\[6pt]\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks in index adjusted for splits}} \\\\[6pt]\n\\text{Market capitalization-weighted index}\n=\\frac{\\text{current total market value of index stocks}}{\\text{base-year total market value of index stocks}}\n\\times\\text{base-year index value} \\\\[6pt]\n\\text{Equal-weighted index}\n=(1+\\text{average percentage change in index stocks})\\times\\text{initial index value} \\\\[6pt]\n[Q(P-VC)]-FC,\n\\quad Q=\\text{units sold},\\ P=\\text{price per unit},\\ VC=\\text{variable costs},\\ FC=\\text{fixed costs} \\\\[6pt]\nDOL=\\frac{\\%\\Delta\\text{ operating profit}}{\\%\\Delta\\text{ sales}},\n\\qquad DFL=\\frac{\\%\\Delta\\text{ net income}}{\\%\\Delta\\text{ operating income}} \\\\[6pt]\n\\text{Preferred stock value}=\\frac{D_p}{k_p} \\\\[6pt]\n\\text{Constant-growth dividend discount model:}\\qquad V_0=\\frac{D_1}{k_e-g_c} \\\\[6pt]\n\\text{Sustainable growth rate:}\\qquad g=b\\times ROE,\\quad\nb=1-\\text{dividend payout rate}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "515855f8b9b9f78398d9.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {r l} {\\mathrm{{M u l t i s t a g e ~ d i v i d e n d ~ d i s c o u n t ~ m o d e l :}}} \\\\ {\\mathrm{quad~ v a l u e ~=~ {\\cfrac{D_{1}} {\\left( 1+k_{e} \\right)}}+{\\cfrac{D_{2}} {\\left( 1+k_{e} \\right)^{2}}}+\\ldots+{\\cfrac{D_{n}} {\\left( 1+k_{e} \\right)^{n}}}+{\\cfrac{P_{n}} {\\left( 1+k_{e} \\right)^{n}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{P_{n}}=\\frac{\\mathrm{D}_{n+1}} {\\mathrm{k_{e}}-\\mathrm{g}_{c}}}} \\end{array}\\\\[6pt]g_{\\mathrm{c}}=\\mathrm{constant~growth~rate~of~dividends} \\, \\mathrm{~n}=\\mathrm{number~of~periods~of~supernormal~growth} \\, \\mathrm{~Justified~P/E~ratio} ;\\\\[6pt]\\begin{aligned} {\\frac{\\mathbb{P}_{0}} {E_{1}}} & {{}=\\frac{\\mathbb{D}_{1} / E_{1}} {\\mathbb{k}-g}} \\\\ {\\mathrm{Enterprise~value}} & {{}=\\operatorname{m a r k e t ~ v a l u e ~ o f ~ c o m m o n ~ a n d ~ p r e f e r r e d ~ s t o c k}+\\operatorname{m a r k e t ~ v a l u e ~ o f}} \\\\ {\\mathrm{debt}} & {{}-\\operatorname{c a s h ~ a n d ~ s h o r t-t e r m ~ i n v e s t m e n t s}} \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "6535d7ff2e2fc55afa79.png"
+        }
+      ]
+    },
+    {
+      "id": "reference-3",
+      "title": "Fixed income and derivatives",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Rates, Returns, and Yields"
+        },
+        {
+          "type": "paragraph",
+          "text": "A holding period return (HPR), or holding period yield (HPY), can be for a period of any length and is simply the percentage increase in value over the period, which is calculated as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "HPR = ending value / beginning value − 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. If an investor puts $2,000 into an account and 565 days later it has grown in value to"
+        },
+        {
+          "type": "paragraph",
+          "text": "$2,700, the 565-day HPY is 2,700 / 2,000 − 1 = 35%."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. If an investor buys a share of stock for $20/share, receives a $0.40 dividend, and sells"
+        },
+        {
+          "type": "paragraph",
+          "text": "the shares after nine months, the nine-month HPY is (22 + 0.40) / 20 − 1 = 12%."
+        },
+        {
+          "type": "paragraph",
+          "text": "An HPR for a given period is also the effective yield for that period."
+        },
+        {
+          "type": "paragraph",
+          "text": "An effective annual yield is the HPR for a one-year investment or the HPY for a different period converted to its annual equivalent yield."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. If the six-month HPR is 2%, the effective annual yield is 1.02² − 1 = 4.040%."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. If the 125-day HPR is 1.5%, the effective annual yield is 1.015³⁶⁵/¹²⁵ − 1 = 4.443%."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. If the two-year HPR (two-year effective rate) is 9%, the effective annual yield is"
+        },
+        {
+          "type": "paragraph",
+          "text": "1.09¹/² − 1 = 4.4031%."
+        },
+        {
+          "type": "heading",
+          "text": "Compounding Frequency"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes the “rate” on an investment is expressed as a simple annual rate (or stated rate)—the annual rate with no compounding of returns. The number of compounding periods per year is called the periodicity of the rate. For a periodicity of one, the stated rate and the effective annual rate are the same. When the periodicity is greater than one (more than one compounding period per year), the effective annual rate is the effective rate for the sub-periods, compounded for the number of sub-periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "6. A bank CD has a stated annual rate of 6% with annual compounding (periodicity of"
+        },
+        {
+          "type": "paragraph",
+          "text": "1); the effective annual rate is 6% and a $1,000 investment will return $1,000(1.06) = $1,060 at the end of one year."
+        },
+        {
+          "type": "paragraph",
+          "text": "7. A bank CD has a stated annual rate of 6% with semiannual compounding (periodicity"
+        },
+        {
+          "type": "paragraph",
+          "text": "of 2); the effective annual rate is (1 + 0.06 / 2)² = 1.03² − 1 = 6.09% and a $1,000 investment will return $1,000 (1.0609) = $1,060.90 at the end of one year.\n8. A bank CD has a stated annual rate of 6% with quarterly compounding (periodicity"
+        },
+        {
+          "type": "paragraph",
+          "text": "of 4); the effective annual rate is (1 + 0.06 / 4)⁴ = 1.015⁴ − 1 = 6.136% and a $1,000 investment will return $1,000(1.06136) = $1,061.36 at the end of one year."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that increasing compounding frequency increases the effective annual yield for any given stated rate. In the limit, as compounding periods get shorter (more frequent), compounding is continuous. A stated rate of r %, with continuous compounding, results in an effective annual return of er − 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "9. A bank CD has a stated annual rate of 6%, continuously compounded; its effective"
+        },
+        {
+          "type": "paragraph",
+          "text": "annual yield is e ⁰.⁰⁶ − 1 = 6.184% and a $1,000 investment will return $1,000(1.06184) = $1,061.84 at the end of one year."
+        },
+        {
+          "type": "heading",
+          "text": "Bond Quotations and Terminology"
+        },
+        {
+          "type": "paragraph",
+          "text": "The coupon rate on a bond is the total cash coupon payments made over one year as a percentage of face value."
+        },
+        {
+          "type": "paragraph",
+          "text": "10. A bond with a face value of $1,000 that pays a coupon of $50 once each year (an"
+        },
+        {
+          "type": "paragraph",
+          "text": "annual-pay bond) has a coupon rate of 50 / 1,000 = 5% and we say it has a periodicity of 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "11. A bond with a face value of $1,000 that pays a coupon of $25 twice each year (a"
+        },
+        {
+          "type": "paragraph",
+          "text": "semiannual-pay bond) has a coupon rate of (25 + 25) / 1,000 = 5% and we say it has a periodicity of 2.\n12. A bond with a face value of $1,000 that pays a coupon of $12.50(1.25%) four times"
+        },
+        {
+          "type": "paragraph",
+          "text": "each year (a quarterly-pay bond) has a coupon rate of (12.50 + 12.50 + 12.50 + 12.50) / 1,000 = 5% and we say it has a periodicity of 4."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current yield on a bond is the coupon rate divided by the bond price as a percentage of face value or, alternatively, the sum of the coupon payments for one year divided by the bond price."
+        },
+        {
+          "type": "paragraph",
+          "text": "13. A bond with a stated coupon rate of 5% that is selling at 98.54% of face value has a"
+        },
+        {
+          "type": "paragraph",
+          "text": "current yield of 5 / 98.54 = 5.074%."
+        },
+        {
+          "type": "paragraph",
+          "text": "14. A bond that is trading at $1,058 and makes annual coupon payments that sum to $50"
+        },
+        {
+          "type": "paragraph",
+          "text": "has a current yield of 50 / 1,058 = 4.726%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The yield to maturity (YTM) of a bond, on an annual basis, is the effective annual yield and is used for bonds that pay an annual coupon. For bonds that pay coupons semiannually, we often quote the YTM on a semiannual basis, that is, two times the effective semiannual yield. To compare the yields of two bonds, we must calculate their YTMs on the same basis."
+        },
+        {
+          "type": "paragraph",
+          "text": "15. A bond with a YTM of 5% on a semiannual basis has a YTM on an annual basis"
+        },
+        {
+          "type": "paragraph",
+          "text": "(effective annual yield) of (1 + 0.05 / 2)² − 1 = 5.0625%.\n16. A bond with a YTM of 5% on an annual basis has a YTM on a semiannual basis of"
+        },
+        {
+          "type": "paragraph",
+          "text": "(1.05¹/² − 1) × 2 = 4.939%."
+        },
+        {
+          "type": "heading",
+          "text": "Internal Rate of Return (IRR)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The internal rate of return is the discount rate that makes the PV of a series of cash flows equal to zero. This calculation must be done with a financial calculator. We can use the IRR for calculating the return on a capital project, the YTM on a bond, and the money weighted rate of return for a portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "17. For the YTM of an annual-pay bond (YTM on an annual basis) on a coupon date with"
+        },
+        {
+          "type": "paragraph",
+          "text": "N years remaining until maturity, we calculate the annual IRR that satisfies:"
+        },
+        {
+          "type": "math",
+          "latex": "- {\\mathrm{bond~price}}+{\\frac{\\mathrm{coupon~1}} {1+\\mathrm{IRR}}}+{\\frac{\\mathrm{coupon~2}} {( 1+\\mathrm{IRR} )^{2}}}+. . . .+{\\frac{\\mathrm{coupon~N~+~face~value}} {( 1+\\mathrm{IRR} )^{N}}}=\\, 0",
+          "display": true,
+          "sourceAsset": "6166d8e46496f1f1f8b2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "18. For the YTM of a semiannual-pay bond on a coupon date with N years remaining"
+        },
+        {
+          "type": "paragraph",
+          "text": "until maturity, we calculate the IRR that satisfies:"
+        },
+        {
+          "type": "math",
+          "latex": "- {\\mathrm{bond~price~}}+{\\frac{\\mathrm{coupon~1}} {1+{\\frac{\\mathrm{IRR}} {2}}}}+{\\frac{\\mathrm{coupon~2}} {\\left( 1+{\\frac{\\mathrm{IRR}} {2}} \\right)^{2}}}+. . . .+{\\frac{\\mathrm{coupon~2N~+~face~value}} {\\left( 1+{\\frac{\\mathrm{IRR}} {2}} \\right)^{2 N}}} {=} ~ 0",
+          "display": true,
+          "sourceAsset": "2deff1f374adb143e779.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "After solving for IRR / 2, which is the IRR for semiannual periods, we must multiply it by 2 to get the bond’s YTM on a semiannual basis."
+        },
+        {
+          "type": "heading",
+          "text": "Money Market Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "For some money market securities, such as U.S. T-bills, price quotations are given on a bond discount (or simply discount) basis. The discount yield is the percentage discount from face value of a T-bill, annualized based on a 360-day year, and is therefore not an effective yield but simply an annualized discount from face value."
+        },
+        {
+          "type": "paragraph",
+          "text": "19. A T-bill that will pay $1,000 at maturity in 180 days is selling for $984, a discount of"
+        },
+        {
+          "type": "paragraph",
+          "text": "1 − 984 / 1,000 = 1.6%. The annualized discount is 1.6% × 360 / 180 = 3.2%.\n20. A 120-day T-bill is quoted at a discount yield of 2.83%, its price is [1 − (0.0283 × 120"
+        },
+        {
+          "type": "paragraph",
+          "text": "/ 360)] × 1,000 = $990.57. Its 120-day holding period return is 1,000 / 990.57 − 1 = 0.952%. Its effective annual yield is (1,000 / 990.57)³⁶⁵/¹²⁰ − 1 = 2.924%.\n21. HPY on a 30-day loan at a quoted market reference rate of 1.8% is 0.018 × 30 / 360 ="
+        },
+        {
+          "type": "paragraph",
+          "text": "0.15% so the interest on a $10,000 loan is 10,000 × 0.0015 = $15."
+        },
+        {
+          "type": "paragraph",
+          "text": "A related yield is the money market yield (MMY), which is HPY annualized based on a 360-day year."
+        },
+        {
+          "type": "paragraph",
+          "text": "22. A 120-day discount security with a maturity value of $1,000 that is priced at $995"
+        },
+        {
+          "type": "paragraph",
+          "text": "has a money market yield of (1,000 / 995 − 1) × 360 / 120 = 1.5075%."
+        },
+        {
+          "type": "heading",
+          "text": "Spot and Forward Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forward rates are rates for a loan to be made in a future period. They are quoted based on the period of the loan. For loans of one year, we write 1y1y for a 1-year loan to be made one year from today and 2y1y for a 1-year loan to be made two years from today."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spot rates are discount rates for single payments to be made in the future (such as for zero-coupon bonds)."
+        },
+        {
+          "type": "paragraph",
+          "text": "23. Given a 3-year spot rate expressed as a compound annual rate (S3) of 2%, a 3-year"
+        },
+        {
+          "type": "paragraph",
+          "text": "bond that makes a single payment of $1,000 in three years has a current value of 1,000 / (1 + 0.02)³ = $942.32."
+        },
+        {
+          "type": "paragraph",
+          "text": "An N-year spot rate is the geometric mean of the individual annual forward rates:"
+        },
+        {
+          "type": "paragraph",
+          "text": "SN = [(1 + S1)(1 + 1y1y)(1 + 2y1y)…(1 + Ny1y)] ¹/N − 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "and the annualized forward rate for M − N periods, N periods from now is:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\bf N y} ( {\\bf M}-{\\bf N} ) {\\bf y}=\\left[ {\\frac{( 1+{\\bf S_{M}} )^{{\\bf M}}} {( 1+{\\bf S_{N}} )^{{\\bf N}}}} \\right]^{\\frac{1} {{\\bf M_{-N}}}}-1",
+          "display": true,
+          "sourceAsset": "b9fb50feb2c065f019f3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "24. Given S5 = 2.4% and S7 = 2.6%, 5y2y = [(1.026)⁷ / (1.024)⁵]¹/² − 1 = 3.1017%, which"
+        },
+        {
+          "type": "paragraph",
+          "text": "is approximately equal to (7 × 2.6% − 5 × 2.4%) / 2 = 3.1%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par yields reflect the coupon rate that a hypothetical bond at each maturity would need to have to be priced at par, given a specific spot curve."
+        },
+        {
+          "type": "paragraph",
+          "text": "25. With spot rates of 1%, 2%, and 3%, a 3-year annual par bond will have a payment"
+        },
+        {
+          "type": "paragraph",
+          "text": "that will satisfy the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\mathrm{PMT}} {1.01}+\\frac{\\mathrm{PMT}} {( 1.02 )^{2}}+\\frac{\\mathrm{PMT}+100} {( 1.03 )^{3}}=100",
+          "display": true,
+          "sourceAsset": "58de1c97dd9050c2bf4f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The payment is 2.96 and the par bond coupon rate is 2.96%."
+        },
+        {
+          "type": "paragraph",
+          "text": "duration gap = Macaulay duration − investment horizon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modified duration (annual-pay bond):"
+        },
+        {
+          "type": "paragraph",
+          "text": "ModDur = MacDur / (1 + YTM)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modified duration (semiannual-pay bond):"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Approximate modified duration}=\\frac{V_--V_+}{2V_0\\Delta YTM},\\quad\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0}\\\\\n\\text{Portfolio duration}=w_1D_1+w_2D_2+\\cdots+w_ND_N\\\\\n\\text{Effective duration}=\\frac{V_--V_+}{2V_0\\Delta\\text{Curve}},\\quad\n\\text{Effective convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta\\text{Curve})^2V_0}\\\\\n\\text{Expected loss}=\\text{probability of default}\\times\\text{loss given default},\\quad\n\\text{Loan-to-value ratio}=\\frac{\\text{current mortgage amount}}{\\text{current appraised value}}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ca036f8ef817fb8d1dd7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "no-arbitrage forward price: F0(T) = S0 (1 + Rf)T"
+        },
+        {
+          "type": "paragraph",
+          "text": "payoff to long forward at expiration = ST − F0(T)"
+        },
+        {
+          "type": "paragraph",
+          "text": "value of forward at time t: Vt(T) = [St + PVt (costs) − PVt(benefit)] − F0(T) (1 + Rf)−⁽T−t⁾"
+        },
+        {
+          "type": "paragraph",
+          "text": "exercise value of a call = Max[0, S − X]"
+        },
+        {
+          "type": "paragraph",
+          "text": "exercise value of a put = Max[0, X − S]"
+        },
+        {
+          "type": "paragraph",
+          "text": "option value = exercise value + time value"
+        },
+        {
+          "type": "paragraph",
+          "text": "put-call parity: c + X(1 + Rf)⁻T = S + p"
+        },
+        {
+          "type": "paragraph",
+          "text": "put-call-forward parity: F0 (T)(1 + Rf)⁻T + p0 = c0 + X(1 + Rf)⁻T"
+        }
+      ]
+    },
+    {
+      "id": "reference-4",
+      "title": "Portfolio management and performance",
+      "blocks": [
+        {
+          "type": "math",
+          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V_{0}}+\\mathrm{V_{B}} \\right)-\\mathrm{r_{B} V_{B}}} {\\mathrm{V_{0}}}}",
+          "display": true,
+          "sourceAsset": "fa9493dcaa14da4e9263.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "rate of return for an investor after fees:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{r}={\\frac{\\mathrm{V}_{1}-\\mathrm{V}_{0}-\\mathrm{total~fees}} {\\mathrm{V}_{0}}}",
+          "display": true,
+          "sourceAsset": "81faeb586da36071a56c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs – convenience yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard deviation of a two-asset portfolio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{portfolio}}=\\sqrt{\\mathrm{W_{A}^{2}} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{W_{B}^{2}} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\, \\mathrm{W_{A}^{\\phantom{2}}} \\, \\mathrm{W_{B}^{\\phantom{2}}} \\, \\rho_{\\mathrm{AB}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}}}",
+          "display": true,
+          "sourceAsset": "20c1ec6c7fd73f41b4f2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard deviation of returns from historical data:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r l} {s^{2}=} & {{} {\\displaystyle\\sum_{t=1}^{\\mathrm{T}} \\left( \\mathbb{R}_{t}-{\\overline{{\\mathbb{R}}}} \\right)^{2}}} \\\\ {\\mathrm{T}-1} \\\\ {\\mathrm{where~T}=\\mathrm{number~of~obseryations}} \\end{array}",
+          "display": true,
+          "sourceAsset": "c0c3883130244f1aa128.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Covariance of returns from historical data:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\operatorname{C o v}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{\\tt n} \\left\\{\\left[ \\mathrm{R}_{t , 1}-\\overline{{{\\mathrm{R}}}}_{1} \\right] \\left[ \\mathrm{R}_{t , 2}-\\overline{{{\\mathrm{R}}}}_{2} \\right] \\right\\}} {\\mathrm{n-1}}}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{R}_{t , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{t , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\\\ {{\\mathrm{n}}} & {{=\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "7064d8038a925feadd6f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correlation:"
+        },
+        {
+          "type": "math",
+          "latex": "\\rho_{1 , 2} \\!=\\! {\\frac{\\mathrm{Cov}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+          "display": true,
+          "sourceAsset": "f988d835f752b8e9d75e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beta of Asset i with the market:"
+        },
+        {
+          "type": "math",
+          "latex": "\\beta_{\\mathrm{i}}={\\frac{[ \\mathrm{Cov} ( \\mathrm{R}_{\\mathrm{i}} , \\mathrm{R}_{\\mathrm{m}} ) ]} {\\sigma_{\\mathrm{m}}^{2}}}=\\rho_{\\mathrm{im}} \\! \\left( {\\frac{\\sigma_{\\mathrm{i}}} {\\sigma_{\\mathrm{m}}}} \\right)",
+          "display": true,
+          "sourceAsset": "8e90098c9dc0fb670ca4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "where [Cov (Ri,Rm)] and ρi,m are the covariance and correlation between the asset and the market, and σi and σm are the standard deviations of asset returns and market returns."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r} {{\\mathsf{e q u a t i o n ~ o f ~ t h e ~ C M L} ; \\mathrm{E ( R_{\\mathbb{P}} )}=\\mathrm{R_{\\mathbb{f}}}+\\bigg( \\frac{\\mathrm{E ( R_{\\mathbb{M}} )-R_{\\mathbb{f}}}} {\\sigma_{\\mathbb{M}}} \\bigg) \\sigma_{\\mathbb{P}}}} \\\\ {{\\mathrm{E ( R_{\\mathbb{P}} )}=\\mathrm{R_{\\mathbb{f}}}+\\big( \\mathrm{E ( R_{\\mathbb{M}} )-R_{\\mathbb{f}} \\big)} \\! \\! \\left( \\frac{\\sigma_{\\mathbb{P}}} {\\sigma_{\\mathbb{M}}} \\right)}} \\end{array}",
+          "display": true,
+          "sourceAsset": "37d031accc69305d0b0a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "total risk = systematic risk + unsystematic risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital Asset Pricing Model (CAPM): E(Ri) = Rf + βi[E(Rmkt) – Rf]"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Sharpe ratio}=\\frac{R_P-R_f}{\\sigma_P}",
+          "display": true,
+          "sourceAsset": "e2ac19ef8afcd5bf67ce.png",
+          "prose": "Sharpe ratio"
+        },
+        {
+          "type": "math",
+          "latex": "{\\underset{\\mathrm{M-squared}} {}} {\\mathrm{M-squared}}=\\mathrm{R_{f}}+{\\frac{\\sigma_{\\mathrm{M}}} {\\sigma_{\\mathrm{p}}}} ( \\mathrm{R_{\\mathrm{p}}}-\\mathrm{R_{\\mathrm{f}}} )",
+          "display": true,
+          "sourceAsset": "80250aed3b166358df5a.png",
+          "prose": "M-squared"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Treynor measure}=\\frac{R_P-R_f}{\\beta_P}",
+          "display": true,
+          "sourceAsset": "dc4a14f515b2202d88f0.png",
+          "prose": "Treynor measure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Jensen’s alpha = αP = RP – [Rf + βP(RM – Rf)]"
+        }
+      ]
+    }
+  ]
+}

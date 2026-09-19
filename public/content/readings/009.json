@@ -1,0 +1,375 @@
+{
+  "readingId": 9,
+  "title": "Parametric and Non-Parametric Tests of Independence",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "9.1",
+      "title": "Tests for Independence",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "9.a",
+          "text": "How can we explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correlation measures the strength of the relationship between two variables. If the correlation between two variables is zero, there is no linear relationship between them. When the sample correlation coefficient for two variables is different from zero, we must address the question of whether the true population correlation coefficient (ρ) is equal to zero. The appropriate test statistic for the hypothesis that the population correlation equals zero, when the two variables are normally distributed, is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\tt r=s a m p l e \\ c o r r e l a t i o n}} \\\\ {{\\tt n=s a m p l e \\ s i z e}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "980d5deecbd5667baeb5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This test statistic follows a t-distribution with n − 2 degrees of freedom. Note that the test statistic increases, not only with the sample correlation coefficient, but also with sample size."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Test of the hypothesis that the population correlation coefficient"
+        },
+        {
+          "type": "heading",
+          "text": "equals zero"
+        },
+        {
+          "type": "paragraph",
+          "text": "A researcher computes the sample correlation coefficient for two normally distributed random variables as 0.35, based on a sample size of 42. Determine whether to reject the hypothesis that the population correlation coefficient is equal to zero at a 5% significance level."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{~0ur~test~statistic~is~} \\frac{0.35 \\, \\sqrt{42-2}} {\\sqrt{1-0.35^{2}}}=2.363} \\\\ {\\mathrm{.}} \\\\ \\end{array} .",
+          "display": true,
+          "sourceAsset": "76823dcb1ae2eb977f6b.png",
+          "prose": "Our test statistic is ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the t-table with 42 − 2 = 40 degrees of freedom for a two-tailed test and a significance level of 5%, we can find the critical value of 2.021. Because our computed"
+        },
+        {
+          "type": "paragraph",
+          "text": "test statistic of 2.363 is greater than 2.021, we reject the hypothesis that the population correlation coefficient is zero and conclude that it is not equal to zero. That is, the two populations are correlated—in this case, positively."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The correlation coefficient we refer to here is the Pearson correlation coefficient, which is a measure of the linear relationship between two variables. There are other correlation coefficients that better measure the strength of any nonlinear relationship between two variables."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Spearman rank correlation test, a nonparametric test, can be used to test whether two sets of ranks are correlated. Ranks are simply ordered values. If there is a tie (equal values), the ranks are shared—so if second and third rank is the same, the ranks are shared, and each gets a rank of (2 + 3) / 2 = 2.5."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Spearman rank correlation, rs (when all ranks are integer values), is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c} {{{}_{\\mathrm{{\\scriptsize~ r_{s}=1-}}} {\\frac{6 {\\sum_{i=1}^{n} \\! \\mathrm{{\\scriptsize~ d_{i}^{2} ~}}}} {\\mathrm{{\\scriptsize~ n ( n^{2} \\!-\\! 1 ) ~}}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r}_{S}=\\mathrm{rank~correlation}}} \\\\ {{\\mathrm{n}=\\mathrm{sample~size}}} \\\\ {{\\mathrm{d}_{i}=\\mathrm{difference~between~two~ranks}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "567eeb7e3aa5824a249a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can test the significance of the Spearman rank correlation calculated with the formula just listed using the same test statistic we used for estimating the significance of a parametric correlation coefficient:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{{\\mathfrak{r}}_{\\mathfrak{s}} \\sqrt{{\\mathfrak{n}}-2}} {\\sqrt{1-{\\mathfrak{r}}_{\\mathfrak{s}}^{2}}}",
+          "display": true,
+          "sourceAsset": "877bc4cbaff9c9d12876.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the sample size is greater than 30, the test statistic follows a t-distribution with n − 2 degrees of freedom."
+        },
+        {
+          "type": "question",
+          "objectiveId": "9.b",
+          "text": "How can we explain tests of independence based on contingency table data?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A contingency or two-way table shows the number of observations from a sample that have a combination of two characteristics. Figure 9.1 is a contingency table where the characteristics are earnings growth (low, medium, or high) and dividend yield (low, medium, or high). We can use the data in the table to test the hypothesis that the two characteristics, earnings growth and dividend yield, are independent of each other."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 9.1: Contingency Table for Categorical Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cdeaad3ccf1b311495a8.png",
+          "alt": "Equation, table, or diagram: Figure 9.1: Contingency Table for Categorical Data",
+          "width": 329,
+          "height": 137,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "We index our three categories of earnings growth from low to high with i = 1, 2, or 3, and our three categories of dividend yield from low to high with j = 1, 2, or 3. From the table, we see in Cell 1,1 that 28 firms have both low earnings growth and low dividend yield. We see in Cell 3,2 that 25 firms have high earnings growth and medium dividend yields."
+        },
+        {
+          "type": "paragraph",
+          "text": "For our test, we are going to compare the actual table values to what the values would be if the two characteristics were independent. The test statistic is a chi-square test statistic calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\mathrm{X^{2}=\\sum_{s=1}^{r} \\sum_{j=1}^{c} \\frac{( O_{i j}-E_{i j} )^{2}} {E_{i j}}}\\\\[6pt]\\begin{array} {l} {O_{\\frac{i} {i}}=\\mathrm{number~of~observations~in~Cell~i,j} ; \\mathrm{~Row~} i \\mathrm{~and~Column~} j \\, ( \\mathrm{i.e.,~observed} )} \\\\ {\\mathrm{~frequency)}} \\\\ {\\mathrm{~ E_{i_{i}}}=\\mathrm{expected~mumber~of~observations~for~Cell~i,j~}} \\\\ {\\mathrm{~I'~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~column~categories}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "083fbe7940af1ac28945.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The degrees of freedom are (r − 1) × (c − 1), which is 4 in our example for dividend yield and earnings growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eij, the expected number of observations in Cell i,j, is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\mathrm{total~for~Row~i~} \\times\\mathrm{total~for~Column~j~}} {\\mathrm{total~for~all~columns~and~rows}}",
+          "display": true,
+          "sourceAsset": "a5ee3529a2048cb4d2b8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected number of observations for Cell 2,2 is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{110 \\times113} {324}=38.4",
+          "display": true,
+          "sourceAsset": "2bc179f262c363ac6d23.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In calculating our test statistic, the term for Cell 2,2 is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{( 32-38.4 )^{2}} {38.4}=1.0667",
+          "display": true,
+          "sourceAsset": "f85280678e1e89e07aae.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 9.2 shows the expected frequencies for each pair of categories in our earnings growth and dividend yield contingency table."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 9.2: Contingency Table for Expected Frequencies"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/bcb83a7a80c17a1f4534.png",
+          "alt": "Equation, table, or diagram: Figure 9.2: Contingency Table for Expected Frequencies",
+          "width": 368,
+          "height": 115,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For our test statistic, we sum, for all nine cells, the squared difference between the expected frequency and observed frequency, divided by the expected frequency. The resulting sum is 27.47. Figure 9.3 shows the results for each cell in calculating the test statistic."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 9.3: Squared Differences from Contingency Table"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b0c855a8963d32275a89.png",
+          "alt": "Equation, table, or diagram: Figure 9.3: Squared Differences from Contingency Table",
+          "width": 393,
+          "height": 141,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our degrees of freedom are (3 − 1) × (3 − 1) = 4. The critical value for a significance level of 5% (from the chi-square table in the statistical reference library) with 4 degrees of freedom is 9.488. Based on our sample data, we can reject the hypothesis that the earnings growth and dividend yield categories are independent."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "9.a",
+      "text": "How can we explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance?"
+    },
+    {
+      "type": "paragraph",
+      "text": "To test a hypothesis that a population correlation coefficient equals zero, the appropriate test statistic is a t-statistic with n − 2 degrees of freedom, calculated as"
+    },
+    {
+      "type": "math",
+      "latex": "\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}} , \\mathrm{where} \\, \\, r \\, \\, \\mathrm{is~the~sample~correlation~coefficient} .",
+      "display": true,
+      "sourceAsset": "5d63becd15843bc721c1.png",
+      "prose": ", where r is the sample correlation coefficient."
+    },
+    {
+      "type": "paragraph",
+      "text": "A nonparametric test of correlation can be performed when we have only ranks (e.g., deciles of investment performance). The Spearman rank correlation test examines whether the ranks for multiple periods are correlated. The rank correlation is"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n} d_i^2 ~} ~}}} \\\\ {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n-1} d_{i}^2 ~} ~ i s ~ t h e ~ s u m ~ o f ~ t h e ~ s q u a r e d ~ d i f f e r e n c e s ~ i n ~ p a i r s ~ o f ~ r a n k s ~ a n d ~} n \\mathrm{~is~the~}}} \\\\ {{\\mathrm{~number~of~sample~periods~The~test~statistic~follows~a~t-distribution~for~samples~sizes}}} \\\\ {{\\mathrm{~greater~than~30.}}} \\\\ \\end{array}",
+      "display": true,
+      "sourceAsset": "86e9bb925cceac7c8371.png",
+      "prose": "is the sum of the squared differences in pairs of ranks and n is the number of sample periods. The test statistic follows a t-distribution for samples sizes greater than 30."
+    },
+    {
+      "type": "question",
+      "objectiveId": "9.b",
+      "text": "How can we explain tests of independence based on contingency table data?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A contingency table can be used to test the hypothesis that two characteristics (categories) of a sample of items are independent. A contingency table shows the number of the sample items (e.g., firms that have both of two characteristics). The test statistic follows a chi-square distribution and is calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{X}^{2}=\\sum_{\\mathbf{i}=1}^{\\mathbf{r}} \\sum_{\\mathbf{j}=1}^{\\mathbf{c}} {\\frac{( \\mathbf{O}_{\\mathbf{i} , \\mathbf{j}}-\\mathbf{E}_{\\mathbf{i} , \\mathbf{j}} )^{2}} {\\mathbf{E}_{\\mathbf{i} , \\mathbf{j}}}}",
+      "display": true,
+      "sourceAsset": "fc9352ca449fbe4b7a19.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The degrees of freedom are (r − 1) × (c − 1). If the test statistic is greater than the critical chi-square value for a given level of significance, we reject the hypothesis that the two characteristics are independent."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "9.a",
+      "statement": "Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance.",
+      "question": "How can we explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance?"
+    },
+    {
+      "id": "9.b",
+      "statement": "Explain tests of independence based on contingency table data.",
+      "question": "How can we explain tests of independence based on contingency table data?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-9-quiz-1",
+      "title": "Knowledge check 9.1",
+      "moduleId": "9.1",
+      "questions": [
+        {
+          "id": "r9-q1",
+          "number": 1,
+          "objectiveIds": [
+            "9.a"
+          ],
+          "prompt": "The test statistic for a Spearman rank correlation test for a sample size greater than 30 follows a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "t-distribution."
+            },
+            {
+              "id": "B",
+              "text": "normal distribution."
+            },
+            {
+              "id": "C",
+              "text": "chi-square distribution."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The test statistic for a Spearman rank correlation test follows a t-distribution.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The test statistic for a Spearman rank correlation test follows a t-distribution."
+            }
+          ]
+        },
+        {
+          "id": "r9-q2",
+          "number": 2,
+          "objectiveIds": [
+            "9.b"
+          ],
+          "prompt": "A contingency table can be used to test:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a null hypothesis that rank correlations are equal to zero."
+            },
+            {
+              "id": "B",
+              "text": "whether multiple characteristics of a population are independent."
+            },
+            {
+              "id": "C",
+              "text": "the number of p-values from multiple tests that are less than adjusted critical values."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A contingency table is used to determine whether two characteristics of a group are independent.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A contingency table is used to determine whether two characteristics of a group"
+            },
+            {
+              "type": "paragraph",
+              "text": "are independent."
+            }
+          ]
+        },
+        {
+          "id": "r9-q3",
+          "number": 3,
+          "objectiveIds": [
+            "9.a"
+          ],
+          "prompt": "For a parametric test of whether a correlation coefficient is equal to zero, it is least likely that:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "degrees of freedom are n − 1."
+            },
+            {
+              "id": "B",
+              "text": "the test statistic follows a t-distribution."
+            },
+            {
+              "id": "C",
+              "text": "the test statistic increases with a greater sample size."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Degrees of freedom are n − 2 for a test of the hypothesis that correlation is equal to zero. The test statistic increases with sample size (degrees of freedom increase) and follows a t-distribution.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Degrees of freedom are n − 2 for a test of the hypothesis that correlation is equal"
+            },
+            {
+              "type": "paragraph",
+              "text": "to zero. The test statistic increases with sample size (degrees of freedom increase) and follows a t-distribution."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

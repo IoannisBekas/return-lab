@@ -1,0 +1,770 @@
+{
+  "readingId": 25,
+  "title": "Capital Structure",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "25.1",
+      "title": "Weighted-Average Cost of Capital",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "25.a",
+          "text": "How do we calculate and interpret the weighted-average cost of capital for a company?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An issuer’s weighted-average cost of capital (WACC) is a blended rate that includes its cost of debt and equity:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times\\left( 1-\\mathrm{tax~rate} \\right) \\right]+} \\\\ {\\left( \\mathrm{weight~of~equity} \\times\\mathrm{cost~of~equity} \\right)} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "e71cfb5fe7732c9303b3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost of debt is lower than the cost of equity because debt has priority of claims over equity. Because most jurisdictions allow tax deductions for corporate interest expense, we adjust the pretax cost of debt to its after-tax value in the WACC formula."
+        },
+        {
+          "type": "paragraph",
+          "text": "The weights for debt and equity can be target weights or market value weights. Analysts often estimate a company’s target weights based on book value of debt and equity. Market value weights are appropriate for estimating the current opportunity cost of capital as they reflect current market conditions."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: WACC"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABC, Inc.’s, capital structure is 50% debt and 50% equity. ABC’s cost of debt is 8%, while the cost of equity is 11%. ABC’s corporate tax rate is 30%. Calculate the WACC for ABC."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{WACC}=[ 0.50 \\, \\times\\, 0.08 \\, \\times\\, ( 1 \\,-\\, 0.30 ) ] \\,+( 0.50 \\, \\times\\, 0.11 )=0.083 , \\, \\mathrm{or} \\, \\, 8.30 \\%",
+          "display": true,
+          "sourceAsset": "f509c6d7123992aef21e.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "25.b",
+          "text": "How can we explain factors affecting capital structure and the weighted-average cost of capital?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital structures vary considerably among companies. Typically a company will target a capital structure that minimizes its WACC, while also considering the nature of its assets (i.e., long-lived or shorter-term) when choosing the duration of its financing sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "We may view factors that affect capital structures as those that determine a company’s capacity to service debt. These factors may be internal or external to a firm. Internal factors include the characteristics of the business or industry, a company’s life cycle stage, a company’s existing debt level, and the corporate tax rate. External factors include market and business cycle conditions, regulation, and industry norms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Company characteristics that influence the proportion of debt in a company’s capital structure include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Growth and stability of revenue. High growth of revenue or stability of significant revenue suggest a continuing ability to service debt. Growth and predictability of cash flow. Growing cash flow increases the ability to service debt. Significant and stable cash flows indicate a continuing ability to service debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amount of business risk. More business risk (operational risk and demand risk) means greater variability of earnings and cash flows, which decreases the ability to service debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amount and liquidity of company assets. Assets can be pledged as collateral to make a company’s debt more attractive. When assets are more liquid (easier to turn into cash, values more stable), they can be pledged more readily. Cost and availability of debt financing. Companies find debt relatively more attractive when the cost of debt is lower and investors are more willing to lend to the company."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, the more stable, predictable, and recurring are a company’s revenues and cash flows, the higher proportion of debt it can have in its capital structure. With this in mind, we can say, other things equal:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies in noncyclical industries are better able to support high proportions of debt than companies in cyclical industries. Companies with low fixed operating costs as a proportion of total costs (i.e., low operating leverage) are better able to support high proportions of debt than companies with high fixed costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies with subscription-based revenue models are better able to support high proportions of debt than companies with pay-per-use revenue models."
+        },
+        {
+          "type": "paragraph",
+          "text": "The types of assets companies use to generate revenues also affect their ability to issue and service debt. For example, creditors tend to view tangible assets as better collateral than intangible assets, especially when those assets can be sold for cash, if necessary, without losing significant value (i.e., are more liquid) or are more readily substituted for similar assets (i.e., are more fungible). A company that owns its productive assets outright as opposed to using assets owned by others (such as a franchise model) has more collateral, which improves access to debt financing and reduces borrowing costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the types of assets, other issuer-specific conditions include the levels of existing debt and volatility of revenues and earnings. High levels of debt or high volatility of earnings indicates a lower ability to issue additional debt. Leverage (e.g., debt-to-equity or debt-to-operating profit) and coverage ratios (e.g., interest coverage = EBIT / interest expense) are used for analyzing debt capacity."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can see the effects of these various factors on the debt-to-equity ratios of companies at different stages of their company’s life cycle. Consider the following three stages:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Start-up stage. Sales are just beginning, and operating earnings and cash flows tend to"
+        },
+        {
+          "type": "paragraph",
+          "text": "be low or negative. Business risk is relatively high. Company debt is quite risky and, if issued, would require high interest rates. Assets, both accounts receivable and fixed assets, typically are low; therefore, they are not available as collateral for debt. For these reasons, start-up companies are financed almost exclusively with equity. In some cases, high-growth companies with rapidly rising stock prices may find it possible to issue convertible debt, which allows the company to use a lower-cost source of capital and avoid immediate dilution of existing shareholders’ interests. Leasing assets is another source of debt financing available to companies in this stage of the life cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Growth stage. Revenue and cash flow are rising, and business risk is somewhat"
+        },
+        {
+          "type": "paragraph",
+          "text": "reduced. Debt financing cost is somewhat reduced (i.e., usage is conservative), and investors may be willing to lend to the company, often with the loans secured by fixed assets or accounts receivable.\n3. Mature stage. In this stage, revenue growth is slowing and business risk is much"
+        },
+        {
+          "type": "paragraph",
+          "text": "lower. Cash flow is significant and relatively stable. Debt financing, including unsecured debt, is widely available at a relatively low cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost of capital is also influenced by top-down factors. Top-down factors are macroeconomic factors that affect the benchmark interest rate (e.g., U.S. Treasury rate) and credit spreads to benchmark rates. These include inflation, the real GDP growth rate, monetary policy, and exchange rates. In business cycle downturns, debt investors demand greater yield spreads to benchmark bonds from corporate borrowers to compensate them for the increased risk of default. This is especially true for companies in cyclical industries. Some industries may be favorably affected by the economic environment. For example, oil industry profitability is linked to oil prices, and spreads for issuers in the industry tend to narrow when oil prices rise."
+        }
+      ]
+    },
+    {
+      "id": "25.2",
+      "title": "Capital Structure Theories",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "25.c",
+          "text": "How can we explain the Modigliani–Miller propositions regarding capital structure?"
+        },
+        {
+          "type": "heading",
+          "text": "MM Proposition I (No Taxes): Capital Structure Irrelevance"
+        },
+        {
+          "type": "paragraph",
+          "text": "In 1958, Nobel laureates Franco Modigliani and Merton Miller (we will refer to them as MM) published their seminal work on capital structure theory. In it, MM demonstrate that under certain assumptions, the value of a firm is unaffected by its capital structure. This result is referred to as MM I. The assumptions that lead to MM I are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital markets are perfectly competitive. There are no transactions costs, taxes, or bankruptcy costs. Investors have homogeneous expectations. They have the same expectations with respect to cash flows generated by the firm. There is riskless borrowing and lending. Investors can borrow and lend at the risk-free rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are no agency costs. There are no conflicts of interest between managers and shareholders."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investment decisions are unaffected by financing decisions. Operating income is independent of how the firm is financed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intuitively, we can explain MM I in terms of a pie. MM I essentially concludes that the amount of pie available (value of the firm) does not depend on how it is sliced (the capital structure). The value of a firm does not change depending on how the claims to its earnings are divided. This idea is illustrated in Figure 25.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 25.1: MM Capital Structure Irrelevance Proposition"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3d8e55b607417527f927.png",
+          "alt": "Equation, table, or diagram: Figure 25.1: MM Capital Structure Irrelevance Proposition",
+          "width": 406,
+          "height": 141,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider why the pie analogy holds. The operating earnings (EBIT) of a firm are available to providers of capital. In a company with no debt, all of the operating earnings are available to equity holders, and the value of the company is the discounted present value of these earnings, with a discount rate that depends on the risk of (uncertainty about) earnings. If a company is financed partly by debt and partly by equity, operating earnings are divided between debtholders and equity holders. If one entity purchased all the debt and all the equity of the firm, it would be entitled to all of the EBIT of the firm, so the total value of its holdings must equal the value of an all-equity firm—which also has a claim to all the operating earnings of the firm. Under the"
+        },
+        {
+          "type": "paragraph",
+          "text": "assumption that operating earnings are unaffected by financing decisions, the total value of debt and equity will be unaffected by the proportions of debt and equity in a firm’s capital structure."
+        },
+        {
+          "type": "heading",
+          "text": "MM Proposition II: Cost of Equity and Leverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "MM’s second proposition (MM II) is framed in terms of a firm’s cost of capital, rather than firm value. Based on the same assumptions as MM I, MM II states that the cost of equity increases linearly as a company increases its proportion of debt financing. The cash flows promised to bondholders have priority, so that equity holders receive the remaining cash flows after the claims of debtholders have been met. Because the cash flows promised to debtholders are more certain (less risky) than the residual cash flows promised to equity holders, the cost of debt will be less than the cost of equity. The greater the amount of debt in a firm’s capital structure, the more uncertain are the residual cash flows to equity holders. MM II tells us that as companies increase the proportion of debt financing, the risk of the cash flows to equity holders increases, which increases the cost of equity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The conclusion of MM II is that the decrease in financing costs from using a larger proportion of (lower-cost) debt is just offset by the increase in the cost of equity, resulting in no change in the firm’s WACC."
+        },
+        {
+          "type": "paragraph",
+          "text": "Given MM II (that the value of the firm, and therefore its WACC, is unaffected by changes in the proportion of debt financing), we can state the relation that must hold between a company’s debt-to-equity ratio and its cost of equity:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{r_{e}} \\,=\\, \\mathrm{r_{0}}+\\frac{\\mathrm{D}} {\\mathrm{E}} ( \\mathrm{r_{0}}-\\mathrm{r_{d}} )}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r_{e}=c o s t ~ o f ~ e q u i t y}}} \\\\ {{\\mathrm{r_{0}=c o s t ~ o f ~ e q u i t y ~ w i t h ~ n o ~ d e b t ~ ( a l l ~ e q u i t y )}}} \\\\ {{\\mathrm{r_{d}=c o s t ~ o f ~ d e b t}}} \\\\ {{\\mathrm{~ \\underline{{{D}}} ~=d e b t-t o-e q u i t y ~ r a t i o}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "6c9fcbbb3cf8dcbf3d91.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "As leverage (the debt-to-equity ratio) increases, the cost of equity increases, but the cost of debt and WACC are unchanged. This relationship between the cost of equity financing and the debt-to-equity ratio is illustrated in Figure 25.2."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 25.2: MM Proposition II (No Taxes)"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d28e321fce19050c46cc.png",
+          "alt": "Equation, table, or diagram: Figure 25.2: MM Proposition II (No Taxes)",
+          "width": 352,
+          "height": 236,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "MM II is consistent with MM I; if the benefits of greater use of lower-cost debt financing are just offset by the increased cost of equity, the proportions of debt versus equity in the firm’s capital structure do not affect the firm’s overall cost of capital or the value of the firm."
+        },
+        {
+          "type": "heading",
+          "text": "MM With Taxes: Value Is Maximized at 100% Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "As is often done in theoretical work, MM started with several simplifying assumptions. The next step is to examine the effects of relaxing some of those assumptions. Here, we examine the MM propositions under the assumptions that earnings are taxed and that interest payments to debtholders are tax deductible. Under the tax code of most countries, interest payments are a pretax expense and are therefore tax deductible, while dividends paid to equity holders are not tax deductible."
+        },
+        {
+          "type": "paragraph",
+          "text": "This differential tax treatment encourages firms to use debt financing because debt provides a tax shield that adds value to the company. The tax shield is equal to the tax rate multiplied by the amount of debt in the capital structure. In other words, the value of a levered firm is equal to the value of an unlevered firm plus the value of the tax shield provided by debt financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "To continue our analogy of a pie, with the introduction of taxes, the government gets a slice of the pie. When debt financing is used, the government’s slice of the pie is smaller, so that the amount of pie available to debt and equity holders is greater. The use of debt reduces taxes due to deductibility of interest expense giving rise to debt tax shield. If a firm were 100% financed with debt, the taxes avoided would be at a maximum, and the after-tax cash flows of the firm (size of the pie) would be maximized. The conclusion of MM I with taxes is that the value of the firm is maximized with 100% debt financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "If we assume a positive tax rate, the formula to solve for return on equity can be used to illustrate MM II with taxes:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{r_{e}}=\\mathrm{~ r_{0}+\\frac{D} {E} ( r_{0}-r_{d} ) \\big( 1-T_{C} \\big)}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{T_{C}=t a x ~ r a t e}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "38a90f5347627989645b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 25.3 illustrates that the tax shield provided by debt causes the WACC to decline as leverage increases. The value of the firm is maximized at the point where the WACC is minimized, which is 100% debt."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 25.3: MM Proposition II (With Taxes)"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a265036044abb2af4c89.png",
+          "alt": "Equation, table, or diagram: Figure 25.3: MM Proposition II (With Taxes)",
+          "width": 385,
+          "height": 237,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, we do not find that companies finance their assets with 100% debt, or close to it. MM suggested that differential investor tax rates on dividends and interest income could explain differences in capital structures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Current theory suggests that differences in value-maximizing choices of how much financial leverage to use are the result of additional costs of using debt financing that we have not yet considered—we assumed that there are no bankruptcy costs. However, we can expect these costs, also called the costs of financial distress, to increase at higher levels of debt financing. Costs of financial distress are the increased costs a company faces when earnings decline to the point where the firm has trouble paying its fixed financing costs (interest on debt). The expected costs of financial distress for a firm have two components:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Costs of financial distress and bankruptcy can be direct or indirect. Direct costs of"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial distress include the cash expenses associated with the bankruptcy, such as legal fees and administrative fees. Indirect costs include foregone investment opportunities and the costs that result from losing the trust of customers, creditors, suppliers, and employees. Additionally, during periods of financial distress, conflicts of interest between managers (who represent equity owners) and debtholders impose additional costs, referred to as the agency costs of debt.\n2. The probability of financial distress is related to the firm’s use of operating and"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial leverage. In general, higher amounts of financial leverage increase the probability of financial distress (higher probability that cash flows will fall to an amount that is insufficient to make their promised debt payments). Other factors to consider include the quality of a firm’s management and the company’s corporate governance structure. Lower-quality management and poor corporate governance lead to a higher probability of financial distress."
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher expected costs of financial distress tend to discourage companies from using large proportions of debt in their capital structures, all else equal. The expected costs of"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial distress shrink our pie as the proportion of debt financing is increased."
+        },
+        {
+          "type": "question",
+          "objectiveId": "25.d",
+          "text": "What should we know about optimal and target capital structures?"
+        },
+        {
+          "type": "heading",
+          "text": "Static Tradeoff Theory"
+        },
+        {
+          "type": "paragraph",
+          "text": "The static tradeoff theory seeks to balance the costs of financial distress with the tax shield benefits from using debt. There is an amount of debt financing at which the increase in the value of the tax shield from additional borrowing is exceeded by the value reduction of higher expected costs of financial distress. This point represents the optimal capital structure for a firm, where the WACC is minimized and the value of the firm is maximized."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting for the costs of financial distress, the expression for the value of a levered firm becomes the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V_{L}=V_{U}+( t \\times\\, d e b t )-P V \\left( c o s t s \\ o f \\ f i n a n c i a l \\ d i s t r e s s \\right)}",
+          "display": true,
+          "sourceAsset": "90f969d8eeafc7c605cd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We illustrate this relationship in Figure 25.4."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 25.4: Static Tradeoff Theory: Cost of Capital vs. Capital Structure"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/59d8c89cd55cf0482eb1.png",
+          "alt": "Equation, table, or diagram: Figure 25.4: Static Tradeoff Theory: Cost of Capital vs. Capital Structure",
+          "width": 372,
+          "height": 297,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 25.5 illustrates the tradeoff between firm value and capital structure. Note that each firm’s optimal capital structure depends on its business risk (operating risk and sales risk), tax rate, corporate governance, industry influences, and other factors."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 25.5: Static Tradeoff Theory: Firm Value vs. Capital Structure"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3895bfd131e7a1d49018.png",
+          "alt": "Equation, table, or diagram: Figure 25.5: Static Tradeoff Theory: Firm Value vs. Capital Structure",
+          "width": 471,
+          "height": 346,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "To summarize:"
+        },
+        {
+          "type": "paragraph",
+          "text": "MM’s propositions with no taxes or costs of financial distress are that a company’s capital structure is irrelevant because its WACC and its value (the discounted present value of its operating earnings) are unchanged by changes in capital structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "MM’s propositions with taxes but without costs of financial distress are that a company’s WACC is minimized and its value is maximized with 100% debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Static tradeoff theory indicates that firm value initially increases (and WACC decreases) with additional debt financing, but company value decreases at some point when the increase in the expected value of financial distress outweighs the tax benefits of additional debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Target capital structure is the capital structure that a firm seeks to achieve on average over time to maximize firm value. That is, it reflects management’s beliefs about its optimal capital structure as well as other internal and external factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "For analysis, the weights to use when estimating a firm’s WACC should be based on its target capital structure, the proportions (based on market values) of debt, preferred stock, and equity that the firm expects to achieve over time. An analyst may use management’s stated target proportions of equity and debt; however, most firms do not provide these."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the absence of stated capital structure weights, an external analyst must estimate a firm’s target capital structure. Alternatives for estimating target capital structure include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst may simply use the firm’s current capital structure (based on market values) as the best indication of its target capital structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "If there has been a noticeable trend in the firm’s capital structure, an analyst may incorporate this trend into her estimate of the firm’s target."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst may use the average capital structure weights for a firm’s industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "In contrast with independent analysts, company managers often focus on book values of debt and equity. Reasons book values may be appropriate for internal analysis include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Short-term fluctuations in the market values of debt and equity do not really affect a company’s appropriate level of debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "While market values reflect the perspectives of investors in a company, management’s perspective has more to do with how the company needs to deploy its capital to projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit rating agencies use book values in their measures of credit quality. Managers may make capital structure decisions with these measures in mind."
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, a firm’s actual capital structure tends to fluctuate around the target capital structure. Market fluctuations, especially in the market value of a firm’s equity, may cause the firm’s capital structure to vary from the target. Management may choose to exploit opportunities in a specific financing source. For example, a temporary rise in the firm’s stock price may create a good opportunity to issue additional equity, which would result in a higher percentage of equity than the target. Also, external capital is raised in minimum-size lots; hence, adherence to precise weights may not be possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Costs of asymmetric information arise from the fact that managers typically have more information about a company’s prospects and future performance than owners or creditors. Firms with complex products or little transparency in financial statements tend to have higher costs of asymmetric information, which result in higher required returns on both debt and equity capital."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because shareholders and creditors are aware that asymmetric information problems exist, these investors look for management behavior that signals what knowledge or opinions management may have about the firm’s prospects. For example, taking on the commitment to make fixed interest payments through debt financing sends a signal that management is confident in the firm’s ability to make these payments in the future. By contrast, issuing equity is typically viewed as a negative signal that managers believe a firm’s stock is overvalued. The cost of asymmetric information increases with the proportion of equity in the capital structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agency costs of equity are related to conflicts of interest between managers and owners. Managers who do not have a stake in the company do not bear the costs associated with excessive compensation or taking on too much (or too little) risk. Because shareholders are aware of this conflict, they take steps to reduce these costs. The result is called the net agency cost of equity. Net agency costs of equity have three components:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Monitoring costs are associated with supervising management and include the"
+        },
+        {
+          "type": "paragraph",
+          "text": "expenses of reporting to shareholders and paying the board of directors. Strong corporate governance systems reduce monitoring costs.\n2. Bonding costs relate to assuring shareholders that the managers are working in the"
+        },
+        {
+          "type": "paragraph",
+          "text": "shareholders’ best interest. Examples of bonding costs include premiums for"
+        },
+        {
+          "type": "paragraph",
+          "text": "insurance to guarantee performance and implicit costs associated with noncompete agreements."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Residual losses may occur even with adequate monitoring and bonding provisions"
+        },
+        {
+          "type": "paragraph",
+          "text": "because such provisions do not provide a perfect guarantee."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the free cash flow hypothesis, the use of debt forces managers to be disciplined with regard to how they spend cash because they have less free cash flow to use for their own benefit. It follows that greater amounts of financial leverage tend to reduce agency costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pecking order theory, based on asymmetric information, is related to the signals that management sends to investors through its financing choices. According to pecking order theory, managers prefer to make financing choices that are least likely to send negative signals to investors. Financing choices under pecking order theory follow a hierarchy based on visibility to investors. Internally generated capital is most preferred, debt is the next-best choice, and external equity is the least preferred financing option. Pecking order theory implies that the capital structure is a by-product of individual financing decisions."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "25.a",
+      "text": "How do we calculate and interpret the weighted-average cost of capital for a company?"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times( 1-t a x ~ r a t e ) \\right]+\\left( \\mathrm{weight~of~equity} \\right)} \\\\ {\\mathrm{equity} \\times\\mathrm{cost~of~equity} )} \\\\ \\end{array}",
+      "display": true,
+      "sourceAsset": "6ada376bed21ec590f6a.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "25.b",
+      "text": "How can we explain factors affecting capital structure and the weighted-average cost of capital?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capital structures vary among companies. Internal factors that affect capital structures include the characteristics of the business, the company’s existing debt level, their corporate tax rate, and the company’s life cycle stage. External factors include market and business cycle conditions."
+    },
+    {
+      "type": "paragraph",
+      "text": "A company’s ability to issue debt is greater with predictable cash flows sufficient to make required debt payments, and with liquid tangible assets that the company can pledge as collateral for debt."
+    },
+    {
+      "type": "paragraph",
+      "text": "New companies with few assets and negative or uncertain cash flows will use little to no debt. Growth companies with positive cash flows and decreasing business risk may use lower levels of debt. Mature companies with predictable cash flows tend to use significantly more debt."
+    },
+    {
+      "type": "question",
+      "objectiveId": "25.c",
+      "text": "How can we explain the Modigliani–Miller propositions regarding capital structure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "MM’s propositions with no taxes are that a company’s capital structure is irrelevant, because its WACC and firm value (the discounted present value of its operating earnings) are unchanged by changes in capital structure."
+    },
+    {
+      "type": "paragraph",
+      "text": "MM’s propositions with taxes are that a company’s WACC is minimized and its value is maximized with 100% debt financing."
+    },
+    {
+      "type": "question",
+      "objectiveId": "25.d",
+      "text": "What should we know about optimal and target capital structures?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Static tradeoff theory adds the expected costs of financial distress to the model. It indicates that firm value initially increases (and WACC decreases) with additional debt financing, but that company value decreases at some point with additional debt as the increase in the expected costs of financial distress outweigh the increase in tax benefits from additional debt."
+    },
+    {
+      "type": "paragraph",
+      "text": "In practice, a company’s capital structure will fluctuate around the target due to management’s exploitation of market opportunities and market value fluctuations (especially of equity) over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Pecking order theory is based on information asymmetry between firm management and investors and suggests that management’s choice of financing method signals their beliefs about firm value. The theory concludes that retained earnings are the most preferred source of funds, followed by debt financing, and then issuing new equity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under the free cash flow hypothesis, the agency costs of equity, which arise because management and shareholders may have conflicting interests, are reduced by increased debt issuance."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "25.a",
+      "statement": "Calculate and interpret the weighted-average cost of capital for a company.",
+      "question": "How do we calculate and interpret the weighted-average cost of capital for a company?"
+    },
+    {
+      "id": "25.b",
+      "statement": "Explain factors affecting capital structure and the weighted-average cost of capital.",
+      "question": "How can we explain factors affecting capital structure and the weighted-average cost of capital?"
+    },
+    {
+      "id": "25.c",
+      "statement": "Explain the Modigliani–Miller propositions regarding capital structure.",
+      "question": "How can we explain the Modigliani–Miller propositions regarding capital structure?"
+    },
+    {
+      "id": "25.d",
+      "statement": "Describe optimal and target capital structures.",
+      "question": "What should we know about optimal and target capital structures?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-25-quiz-1",
+      "title": "Knowledge check 25.1",
+      "moduleId": "25.1",
+      "questions": [
+        {
+          "id": "r25-q1",
+          "number": 1,
+          "objectiveIds": [
+            "25.a"
+          ],
+          "prompt": "Alpaca’s capital structure is 60% debt with an interest rate of 6%. Alpaca’s cost of equity is 12%, and the corporate tax rate is 15%. Alpaca’s WACC is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "6.3%."
+            },
+            {
+              "id": "B",
+              "text": "7.9%."
+            },
+            {
+              "id": "C",
+              "text": "9.7%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Weight of equity = 1 − 0.60 = 0.40, or 40%. WACC = [0.60 × 0.06 × (1 − 0.15)] + (0.4 × 0.12) = 7.86.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Weight of equity = 1 − 0.60 = 0.40, or 40%. WACC = [0.60 × 0.06 × (1 − 0.15)] + (0.4"
+            },
+            {
+              "type": "paragraph",
+              "text": "× 0.12) = 7.86."
+            }
+          ]
+        },
+        {
+          "id": "r25-q2",
+          "number": 2,
+          "objectiveIds": [
+            "25.b"
+          ],
+          "prompt": "A company is most likely to be financed only by equity during its:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "start-up stage."
+            },
+            {
+              "id": "B",
+              "text": "growth stage."
+            },
+            {
+              "id": "C",
+              "text": "mature stage."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "During the start-up stage, a firm is unlikely to have positive earnings and cash flows or significant assets that can be pledged as debt collateral, so firms in this stage are typically financed by equity only.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "During the start-up stage, a firm is unlikely to have positive earnings and cash"
+            },
+            {
+              "type": "paragraph",
+              "text": "flows or significant assets that can be pledged as debt collateral, so firms in this stage are typically financed by equity only."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-25-quiz-2",
+      "title": "Knowledge check 25.2",
+      "moduleId": "25.2",
+      "questions": [
+        {
+          "id": "r25-q3",
+          "number": 1,
+          "objectiveIds": [
+            "25.c"
+          ],
+          "prompt": "A company’s optimal capital structure:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "maximizes firm value and minimizes the weighted-average cost of capital."
+            },
+            {
+              "id": "B",
+              "text": "minimizes the interest rate on debt and maximizes expected earnings per share."
+            },
+            {
+              "id": "C",
+              "text": "maximizes expected earnings per share and maximizes the price per share of common stock."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The optimal capital structure minimizes the firm’s WACC and maximizes the firm’s value (stock price).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The optimal capital structure minimizes the firm’s WACC and maximizes the"
+            },
+            {
+              "type": "paragraph",
+              "text": "firm’s value (stock price)."
+            }
+          ]
+        },
+        {
+          "id": "r25-q4",
+          "number": 2,
+          "objectiveIds": [
+            "25.c"
+          ],
+          "prompt": "Which of the following statements regarding Modigliani and Miller’s Proposition II with no taxes is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A firm’s cost of debt financing increases as a firm’s financial leverage increases."
+            },
+            {
+              "id": "B",
+              "text": "A firm’s weighted-average cost of capital is not affected by its choice of capital structure."
+            },
+            {
+              "id": "C",
+              "text": "A firm’s cost of equity financing increases as the proportion equity in a firm’s capital structure is increased."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "MM’s Proposition II (with no taxes) states that capital structure is irrelevant because the decrease in a firm’s WACC from additional debt financing is just offset by the increase in WACC from a decrease in equity financing. The cost of debt is held constant, and the cost of equity financing increases as the proportion of debt in the capital structure is increased.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "MM’s Proposition II (with no taxes) states that capital structure is irrelevant"
+            },
+            {
+              "type": "paragraph",
+              "text": "because the decrease in a firm’s WACC from additional debt financing is just offset by the increase in WACC from a decrease in equity financing. The cost of debt is held constant, and the cost of equity financing increases as the proportion of debt in the capital structure is increased."
+            }
+          ]
+        },
+        {
+          "id": "r25-q5",
+          "number": 3,
+          "objectiveIds": [
+            "25.d"
+          ],
+          "prompt": "To determine their target capital structures in practice, it is least likely that firms will:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "use the book value of their debt to make financing decisions."
+            },
+            {
+              "id": "B",
+              "text": "match the maturities of their debt issues to specific firm investments."
+            },
+            {
+              "id": "C",
+              "text": "determine an optimal capital structure based on the expected costs of financial distress."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "While it is a useful theoretical concept, in practice, determining an optimal capital structure based on the cost savings of debt and the expected costs of financial distress is not feasible. Because debt rating companies often use book values of debt, firms often use book values of debt when choosing financing sources. It is common for firms to match debt maturities to the economic lives of specific investments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "While it is a useful theoretical concept, in practice, determining an optimal capital"
+            },
+            {
+              "type": "paragraph",
+              "text": "structure based on the cost savings of debt and the expected costs of financial distress is not feasible. Because debt rating companies often use book values of debt, firms often use book values of debt when choosing financing sources. It is common for firms to match debt maturities to the economic lives of specific investments."
+            }
+          ]
+        },
+        {
+          "id": "r25-q6",
+          "number": 4,
+          "objectiveIds": [
+            "25.d"
+          ],
+          "prompt": "The pecking order theory of financial structure decisions:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is based on information asymmetry."
+            },
+            {
+              "id": "B",
+              "text": "suggests that debt is the first choice for financing an investment of significant size."
+            },
+            {
+              "id": "C",
+              "text": "suggests that debt is the riskiest and least preferred source of financing."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Pecking order theory is based on information asymmetry and the resulting signals that different financing choices send to investors. It suggests that retained earnings are the first choice for financing an investment, and issuing new equity is the least preferred choice.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Pecking order theory is based on information asymmetry and the resulting signals"
+            },
+            {
+              "type": "paragraph",
+              "text": "that different financing choices send to investors. It suggests that retained earnings are the first choice for financing an investment, and issuing new equity is the least preferred choice."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

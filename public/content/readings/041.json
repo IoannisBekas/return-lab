@@ -1,0 +1,721 @@
+{
+  "readingId": 41,
+  "title": "Market Efficiency",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "41.1",
+      "title": "Market Efficiency",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "41.a",
+          "text": "What should we know about market efficiency and related concepts, including their importance to investment practitioners?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An informationally efficient capital market is one in which the current price of a security fully, quickly, and rationally reflects all available information about that security. This is really a statistical concept. An academic might say, “Given all available information, current securities prices are unbiased estimates of their values, so that the expected return on any security is just the equilibrium return necessary to compensate investors for the risk (uncertainty) regarding its future cash flows.” This concept is often put more intuitively as, “You can’t beat the market.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a perfectly efficient market, investors should use a passive investment strategy (i.e., buying a broad market index of stocks and holding it) because active investment strategies will underperform due to transactions costs and management fees. However, to the extent that market prices are inefficient, active investment strategies can generate positive risk-adjusted returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "One method of measuring a market’s efficiency is to determine the time it takes for trading activity to cause information to be reflected in security prices (i.e., the lag from the time information is disseminated to the time prices reflect the value implications of that information). In some very efficient markets, such as foreign currency markets, this lag can be as short as a minute. If there is a significant lag, informed traders can use the information to potentially generate positive risk-adjusted returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that market prices should not be affected by the release of information that is well anticipated. Only new information (information that is unexpected and changes expectations) should move prices. The announcement that a firm’s earnings were up 45% over the last quarter may be good news if the expected increase was 20%. On the other hand, this may be bad news if a 70% increase was anticipated or no news at all if market participants correctly anticipated quarterly earnings."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.b",
+          "text": "How can we distinguish market value and intrinsic value?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The market value of an asset is its current price. The intrinsic value or fundamental value of an asset is the value that a rational investor with full knowledge about the asset’s characteristics would willingly pay. For example, a bond investor would fully"
+        },
+        {
+          "type": "paragraph",
+          "text": "know and understand a bond’s coupon, maturity, default risk, liquidity, and other characteristics and would use these to estimate its intrinsic value."
+        },
+        {
+          "type": "paragraph",
+          "text": "In markets that are highly efficient, investors can typically expect market values to reflect intrinsic values. If markets are not completely efficient, active managers will buy assets for which they think intrinsic values are greater than market values and sell assets for which they think intrinsic values are less than market values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intrinsic values cannot be known with certainty and are estimated by investors who will have differing estimates of an asset’s intrinsic value. The more complex an asset, the more difficult it is to estimate its intrinsic value. Furthermore, intrinsic value is constantly changing as new (unexpected) information becomes available."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.c",
+          "text": "How can we explain factors that affect a market’s efficiency?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Markets are generally neither perfectly efficient nor completely inefficient. The degree of informational efficiency varies across countries, time, and market types. The following factors affect the degree of market efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Number of market participants. The larger the number of investors, analysts, and traders who follow an asset market, the more efficient the market. The number of participants can vary through time and across countries. For example, some countries prevent foreigners from trading in their markets, reducing market efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Availability of information. The more information is available to investors, the more efficient the market. In large, developed markets such as the New York Stock Exchange, information is plentiful and markets are quite efficient. In emerging markets, the availability of information is lower, and consequently, market prices are relatively less efficient. Some assets, such as bonds, currencies, swaps, forwards, mortgages, and money market securities that trade in over-the-counter (OTC) markets, may have less available information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Access to information should not favor one party over another. Therefore, regulations such as the U.S. Securities and Exchange Commission’s Regulation FD (fair disclosure) require that firms disclose the same information to the public that they disclose to stock analysts. Traders with material inside information about a firm are prohibited from trading on that information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Impediments to trading. Arbitrage refers to buying an asset in one market and simultaneously selling it at a higher price in another market. This buying and selling of assets will continue until the prices in the two markets are equal. Impediments to arbitrage, such as high transactions costs or lack of information, will limit arbitrage activity and allow some price inefficiencies (i.e., mispricing of assets) to persist."
+        },
+        {
+          "type": "paragraph",
+          "text": "Short selling improves market efficiency. The sales pressure from short selling prevents assets from becoming overvalued. Restrictions on short selling, such as an inability to borrow stock cheaply, can reduce market efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transaction and information costs. To the extent that the costs of information, analysis, and trading are greater than the potential profit from trading misvalued securities, market prices will be inefficient. It is generally accepted that markets are"
+        },
+        {
+          "type": "paragraph",
+          "text": "efficient if, after deducting costs, there are no risk-adjusted returns to be made from trading based on publicly available information."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.d",
+          "text": "How can we distinguish weak-form, semi-strong-form, and strong-form market efficiency?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Professor Eugene Fama originally developed the concept of market efficiency and identified three forms of market efficiency. The difference among them is that each is based on a different set of information."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Weak-form market efficiency. The weak form of the efficient markets hypothesis"
+        },
+        {
+          "type": "paragraph",
+          "text": "(EMH) states that current security prices fully reflect all currently available security market data. Thus, past price and volume (market) information will have no predictive power about the future direction of security prices because price changes will be independent from one period to the next. In a weak-form efficient market, an investor cannot achieve positive risk-adjusted returns on average by using technical analysis.\n2. Semi-strong-form market efficiency. The semi-strong form of the EMH holds that"
+        },
+        {
+          "type": "paragraph",
+          "text": "security prices rapidly adjust without bias to the arrival of all new public information. As such, current security prices fully reflect all publicly available information. The semi-strong form says security prices include all past security market information and nonmarket information available to the public. The implication is that an investor cannot achieve positive risk-adjusted returns on average by using fundamental analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Strong-form market efficiency. The strong form of the EMH states that security"
+        },
+        {
+          "type": "paragraph",
+          "text": "prices fully reflect all information from both public and private sources. The strong form includes all types of information: past security market information, public, and private (inside) information. This means that no group of investors has monopolistic access to information relevant to the formation of prices, and none should be able to consistently achieve positive abnormal returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the prohibition on insider trading in most markets, it would be unrealistic to expect markets to reflect all private information. The evidence supports the view that markets are not strong-form efficient."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a base level knowledge of the EMH, you should know that the weak form is based on past security market information; the semi-strong form is based on all public information (including market information); and the strong form is based on both public information and inside or private information."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.e",
+          "text": "How can we explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Abnormal profit (or risk-adjusted returns) calculations are often used to test market efficiency. To calculate abnormal profits, the expected return for a trading strategy is calculated given its risk, using a model of expected returns such as the CAPM or a"
+        },
+        {
+          "type": "paragraph",
+          "text": "multifactor model. If returns are, on average, greater than equilibrium expected returns, we can reject the hypothesis of efficient prices with respect to the information on which the strategy is based."
+        },
+        {
+          "type": "paragraph",
+          "text": "The results of tests of the various forms of market efficiency have implications about the value of technical analysis, fundamental analysis, and portfolio management in general."
+        },
+        {
+          "type": "paragraph",
+          "text": "Technical analysis seeks to earn positive risk-adjusted returns by using historical price and volume (trading) data. Tests of weak-form market efficiency have examined whether technical analysis produces abnormal profits. Generally, the evidence indicates that technical analysis does not produce abnormal profits, so we cannot reject the hypothesis that markets are weak-form efficient. However, technical analysis has been shown to have success in emerging markets, and there are so many possible technical analysis trading strategies that they cannot all be tested. As noted previously, the success of any technical analysis strategy should be evaluated considering the costs of information, analysis, and trading."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fundamental analysis is based on public information such as earnings, dividends, and various accounting ratios and estimates. The semi-strong form of market efficiency suggests that all public information is already reflected in stock prices. As a result, investors should not be able to earn abnormal profits by trading on this information."
+        },
+        {
+          "type": "paragraph",
+          "text": "One method of testing the semi-strong form is an event study. Event studies examine abnormal returns before and after the release of new information that affects a firm’s intrinsic value, such as earnings announcements or dividend changes. The null hypothesis is that investors should not be able to earn positive abnormal returns on average by trading based on firm events because prices will rapidly reflect news about a firm’s prospects. The evidence in developed markets indicates that markets are generally semi-strong form efficient. However, there is evidence of semi-strong form inefficiency in some emerging markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The evidence that developed markets are generally semi-strong form efficient raises questions about the usefulness of fundamental analysis. It must be fundamental analysis, however, that results in informationally efficient market prices. Fundamental analysis can also be of use to those exceptionally skilled investors who can generate abnormal profits through its use and to those who act rapidly before new information is reflected in prices."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Markets can be weak-form efficient without being semi-strong or strong-form efficient. If markets are semi-strong form efficient, they must be weak-form efficient because public information includes market information, but semi-strong form efficient markets need not be strong-form efficient."
+        },
+        {
+          "type": "heading",
+          "text": "Active vs. Passive Portfolio Management"
+        },
+        {
+          "type": "paragraph",
+          "text": "If markets are semi-strong form efficient, investors should invest passively (i.e., invest in an index portfolio that replicates the returns on a market index). Indeed, the evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "shows that most mutual fund managers cannot outperform a passive index strategy over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "If so, what is the role of a portfolio manager? Even if markets are efficient, portfolio managers can add value by establishing and implementing portfolio risk and return objectives and by assisting clients with portfolio diversification, asset allocation, and tax management."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.f",
+          "text": "What should we know about market anomalies?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An anomaly is something that deviates from the common rule. Tests of the EMH are frequently called anomaly studies, so in the efficient markets literature, a market anomaly is something that would lead us to reject the hypothesis of market efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Just by chance, some variables will be related to abnormal returns over a given period, although in fact these relationships are unlikely to persist over time. Thus, analysts using historical data can find patterns in security returns that appear to violate market efficiency but are unlikely to recur in the future. If the analyst uses a 5% significance level and examines the relationship between stock returns and 40 variables, two of the variables are expected to show a statistically significant relationship with stock returns by random chance. Recall that the significance level of a hypothesis test is the probability that the null hypothesis (efficiency here) will be rejected purely by chance, even when it is true. Investigating data until a statistically significant relation is found is referred to as data snooping or data mining. Note that 1,000 analysts, each testing different hypotheses on the same data set, could produce the same results as a single researcher who performed 1,000 hypothesis tests."
+        },
+        {
+          "type": "paragraph",
+          "text": "To avoid data snooping bias, analysts should first ask if there is an economic basis for the relationships they find between certain variables and stock returns and then test the discovered relationships with a large sample of data to determine if the relationships are persistent and present in various subperiods."
+        },
+        {
+          "type": "heading",
+          "text": "Anomalies in Time-Series Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calendar anomalies. The January effect or turn-of-the-year effect is the finding that during the first five days of January, stock returns, especially for small firms, are significantly higher than they are the rest of the year. In an efficient market, traders would exploit this profit opportunity in January, and in so doing, eliminate it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Possible explanations for the January effect are tax-loss selling, as investors sell losing positions in December to realize losses for tax purposes and then repurchase stocks in January, pushing their prices up, and window dressing, as portfolio managers sell risky stocks in December to remove them from their year-end statements and repurchase them in January. Evidence indicates that each of these explains only a portion of the January effect. However, after adjustments are made for risk, the January effect does not appear to persist over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other calendar anomalies that were found at one time but no longer appear to persist are the turn-of-the-month effect (stock returns are higher in the days surrounding month end), the day-of-the-week effect (average Monday returns are negative), the"
+        },
+        {
+          "type": "paragraph",
+          "text": "weekend effect (positive Friday returns are followed by negative Monday returns), and the holiday effect (pre-holiday returns are higher)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Overreaction and momentum anomalies. The overreaction effect refers to the finding that firms with poor stock returns over the previous three or five years (losers) have better subsequent returns than firms that had high stock returns over the prior period. This pattern has been attributed to investor overreaction to both unexpected good news and unexpected bad news. This pattern is also present for bonds and in some international markets. Momentum effects have also been found where high short-term returns are followed by continued high returns. This pattern is present in some international markets as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both the overreaction and momentum effects violate the weak form of market efficiency because they provide evidence of a profitable strategy based only on market data. Some researchers argue that the evidence of overreaction to new information is due to the nature of the statistical tests used and that evidence of momentum effects in securities prices reflects rational investor behavior."
+        },
+        {
+          "type": "heading",
+          "text": "Anomalies in Cross-Sectional Data"
+        },
+        {
+          "type": "paragraph",
+          "text": "The size effect refers to initial findings that small-cap stocks outperform large-cap stocks. This effect could not be confirmed in later studies, suggesting that either investors had traded on, and thereby eliminated, this anomaly or that the initial finding was simply a random result for the time period examined."
+        },
+        {
+          "type": "paragraph",
+          "text": "The value effect refers to the finding that value stocks [those with lower price-to-earnings (P/E), lower market-to-book (M/B), and higher dividend yields] have outperformed growth stocks (those with higher P/E, higher M/B, and lower dividend yields). This violates the semi-strong form of market efficiency because the information necessary to classify stocks as value or growth is publicly available. However, some researchers attribute the value effect to greater risk of value stocks that is not captured in the risk adjustment procedure used in the studies."
+        },
+        {
+          "type": "heading",
+          "text": "Other Anomalies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Closed-end investment funds. The shares of closed-end investment funds trade at prices that sometimes deviate from the net asset value (NAV) of the fund shares, often trading at large discounts to NAV. Such large discounts are an anomaly because, by arbitrage, the value of the pool of assets should be the same as the market price for closed-end shares. Various explanations have been put forth to explain this anomaly, including management fees, taxes on future capital gains, and share illiquidity. None of these explanations fully explains the pricing discrepancy. However, transactions costs would eliminate any profits from exploiting the unexplained portion of closed-end fund discounts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Earnings announcements. An earnings surprise is that portion of announced earnings that was not expected by the market. Positive earnings surprises (earnings higher than expected) precede periods of positive risk-adjusted post-announcement stock returns, and negative surprises lead to predictable negative risk-adjusted returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "The anomaly is that the adjustment process does not occur entirely on the announcement day. Investors could exploit this anomaly by buying positive earnings surprise firms and selling negative earnings surprise firms. Some researchers argue that evidence of predictable abnormal returns after earnings surprises is a result of estimating risk-adjusted returns incorrectly in the tests and that transactions costs would eliminate any abnormal profits from attempting to exploit this returns anomaly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Initial public offerings. IPOs are typically underpriced, with the offer price below the market price once trading begins. However, the long-term performance of IPO shares as a group is below average. This suggests that investors overreact, in that they are too optimistic about a firm’s prospects on the offer day. Some believe this is not an anomaly, but rather a result of the statistical methodologies used to estimate abnormal returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economic fundamentals. Research has found that stock returns are related to known economic fundamentals such as dividend yields, stock volatility, and interest rates. However, we would expect stock returns to be related to economic fundamentals in efficient markets. The relationship between stock returns and dividend yields is also not consistent over all time periods."
+        },
+        {
+          "type": "heading",
+          "text": "Implications for Investors"
+        },
+        {
+          "type": "paragraph",
+          "text": "The majority of the evidence suggests that reported anomalies are not violations of market efficiency but are due to the methodologies used in the tests of market efficiency. Furthermore, both underreaction and overreaction have been found in the markets, meaning that prices are efficient on average. Other explanations for the evidence of anomalies are that they are transient relations, too small to profit from, or simply reflect returns to risk that the researchers have failed to account for."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bottom line for investors is that portfolio management based on previously identified anomalies will likely be unprofitable. Investment management based solely on anomalies has no sound economic basis."
+        },
+        {
+          "type": "question",
+          "objectiveId": "41.g",
+          "text": "What should we know about behavioral finance and its potential relevance to understanding market anomalies?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Behavioral finance examines the actual decision-making processes of investors. Many observers have concluded that investors are not the rational utility-maximizing decision makers with complete information that traditional finance assumes they are. Investors appear to exhibit bias in their decision making, base decisions on the actions of others, and not evaluate risk in the way traditional models assume they do."
+        },
+        {
+          "type": "paragraph",
+          "text": "Various types of investor irrationality have been proposed as explanations for reported pricing anomalies. Whether widespread investor irrationality is the underlying cause of reported returns anomalies is an open question. Market efficiency does not require an assumption that every investor acts rationally in accordance with traditional finance theory. Semi-strong form market efficiency requires that investors cannot earn positive abnormal returns on average (beat the market) using public information. The evidence on market efficiency certainly suggests that this is the case. Evidence that some"
+        },
+        {
+          "type": "paragraph",
+          "text": "investors exhibit bias, or other deviations from perfect rationality, in their investment decision making does not necessarily mean that market prices themselves are irrational, at least not in ways that lead to violations of market efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Observed investor behaviors and biases that are considered evidence of irrational behavior include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Loss aversion, which refers to the tendency of investors to be more risk averse when faced with potential losses than they are when faced with potential gains. Put another way, investors dislike a loss more than they like a gain of an equal amount. Investor overconfidence, which is a tendency of investors to overestimate their abilities to analyze security information and identify differences between securities’ market prices and intrinsic values. Herding, which is a tendency of investors to act in concert on the same side of the market, acting not on private analysis, but mimicking the investment actions of other investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "An information cascade results when investors mimic the decisions of others. The idea is that uninformed or less-informed traders watch the actions of informed traders and follow their investment actions. If those who act first are more knowledgeable investors, others following their actions may, in fact, be part of the process of incorporating new information into securities prices and actually move market prices toward their intrinsic values, improving informational efficiency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Behavioral finance can explain how securities’ market prices can deviate from rational prices and be biased estimates of intrinsic value. If investor rationality is viewed as a prerequisite for market efficiency, then markets are not efficient. If market efficiency only requires that investors cannot consistently earn abnormal risk-adjusted returns, then research supports the belief that markets are efficient."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "41.a",
+      "text": "What should we know about market efficiency and related concepts, including their importance to investment practitioners?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In an informationally efficient capital market, security prices reflect all available information fully, quickly, and rationally. The more efficient a market is, the quicker its reaction will be to new information. Only unexpected information should elicit a response from traders."
+    },
+    {
+      "type": "paragraph",
+      "text": "If the market is fully efficient, active investment strategies cannot earn positive risk-adjusted returns consistently, and investors should therefore use a passive strategy."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.b",
+      "text": "How can we distinguish market value and intrinsic value?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An asset’s market value is the price at which it can currently be bought or sold."
+    },
+    {
+      "type": "paragraph",
+      "text": "An asset’s intrinsic value is the price that investors with full knowledge of the asset’s characteristics would place on the asset."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.c",
+      "text": "How can we explain factors that affect a market’s efficiency?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Large numbers of market participants and greater information availability tend to make markets more efficient."
+    },
+    {
+      "type": "paragraph",
+      "text": "Impediments to arbitrage and short selling and high costs of trading and gathering information tend to make markets less efficient."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.d",
+      "text": "How can we distinguish weak-form, semi-strong-form, and strong-form market efficiency?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The weak form of the efficient markets hypothesis (EMH) states that security prices fully reflect all past price and volume information."
+    },
+    {
+      "type": "paragraph",
+      "text": "The semi-strong form of the EMH states that security prices fully reflect all publicly available information."
+    },
+    {
+      "type": "paragraph",
+      "text": "The strong form of the EMH states that security prices fully reflect all public and private information."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.e",
+      "text": "How can we explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management?"
+    },
+    {
+      "type": "paragraph",
+      "text": "If markets are weak-form efficient, technical analysis does not consistently result in abnormal profits."
+    },
+    {
+      "type": "paragraph",
+      "text": "If markets are semi-strong form efficient, fundamental analysis does not consistently result in abnormal profits. However, fundamental analysis is necessary if market prices are to be semi-strong form efficient."
+    },
+    {
+      "type": "paragraph",
+      "text": "If markets are strong-form efficient, active investment management does not consistently result in abnormal profits."
+    },
+    {
+      "type": "paragraph",
+      "text": "Even if markets are strong-form efficient, portfolio managers can add value by establishing and implementing portfolio risk and return objectives and assisting with portfolio diversification, asset allocation, and tax minimization."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.f",
+      "text": "What should we know about market anomalies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A market anomaly is something that deviates from the efficient market hypothesis. Most evidence suggests anomalies are not violations of market efficiency but are due to the methodologies used in anomaly research, such as data mining or failing to adjust adequately for risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anomalies that have been identified in time-series data include calendar anomalies such as the January effect (small firm stock returns are higher at the beginning of January), overreaction anomalies (stock returns subsequently reverse), and momentum anomalies (high short-term returns are followed by continued high returns)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anomalies that have been identified in cross-sectional data include a size effect (small-cap stocks outperform large-cap stocks) and a value effect (value stocks outperform growth stocks)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Other identified anomalies involve closed-end investment funds selling at a discount to NAV, slow adjustments to earnings surprises, investor overreaction to and long-term underperformance of IPOs, and a relationship between stock returns and prior economic fundamentals."
+    },
+    {
+      "type": "question",
+      "objectiveId": "41.g",
+      "text": "What should we know about behavioral finance and its potential relevance to understanding market anomalies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Behavioral finance examines whether investors behave rationally, how investor behavior affects financial markets, and how cognitive biases may result in anomalies. Behavioral finance describes investor irrationality but does not necessarily refute market efficiency as long as investors cannot consistently earn abnormal risk-adjusted returns."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "41.a",
+      "statement": "Describe market efficiency and related concepts, including their importance to investment practitioners.",
+      "question": "What should we know about market efficiency and related concepts, including their importance to investment practitioners?"
+    },
+    {
+      "id": "41.b",
+      "statement": "Contrast market value and intrinsic value.",
+      "question": "How can we distinguish market value and intrinsic value?"
+    },
+    {
+      "id": "41.c",
+      "statement": "Explain factors that affect a market’s efficiency.",
+      "question": "How can we explain factors that affect a market’s efficiency?"
+    },
+    {
+      "id": "41.d",
+      "statement": "Contrast weak-form, semi-strong-form, and strong-form market efficiency.",
+      "question": "How can we distinguish weak-form, semi-strong-form, and strong-form market efficiency?"
+    },
+    {
+      "id": "41.e",
+      "statement": "Explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management.",
+      "question": "How can we explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management?"
+    },
+    {
+      "id": "41.f",
+      "statement": "Describe market anomalies.",
+      "question": "What should we know about market anomalies?"
+    },
+    {
+      "id": "41.g",
+      "statement": "Describe behavioral finance and its potential relevance to understanding market anomalies.",
+      "question": "What should we know about behavioral finance and its potential relevance to understanding market anomalies?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-41-quiz-1",
+      "title": "Knowledge check 41.1",
+      "moduleId": "41.1",
+      "questions": [
+        {
+          "id": "r41-q1",
+          "number": 1,
+          "objectiveIds": [
+            "41.a"
+          ],
+          "prompt": "In an informationally efficient capital market:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "active managers can generate abnormal profits."
+            },
+            {
+              "id": "B",
+              "text": "security prices quickly reflect new information."
+            },
+            {
+              "id": "C",
+              "text": "investors react to all information releases rapidly."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "In informationally efficient capital markets, new information is quickly reflected in security prices. Investors react only to unexpected information releases because information releases that are expected will already be reflected in securities prices. Active strategies will underperform in an efficient market because they have greater transactions and management costs than passive strategies and will not consistently create positive abnormal returns after adjusting for risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In informationally efficient capital markets, new information is quickly reflected"
+            },
+            {
+              "type": "paragraph",
+              "text": "in security prices. Investors react only to unexpected information releases because information releases that are expected will already be reflected in securities prices. Active strategies will underperform in an efficient market"
+            },
+            {
+              "type": "paragraph",
+              "text": "because they have greater transactions and management costs than passive strategies and will not consistently create positive abnormal returns after adjusting for risk."
+            }
+          ]
+        },
+        {
+          "id": "r41-q2",
+          "number": 2,
+          "objectiveIds": [
+            "41.b"
+          ],
+          "prompt": "The intrinsic value of an asset:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "changes through time as new information is released."
+            },
+            {
+              "id": "B",
+              "text": "is the price at which the asset can be bought or sold at a given point in time."
+            },
+            {
+              "id": "C",
+              "text": "can be easily determined with a financial calculator, given investor risk preferences."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Intrinsic value changes as new information arrives in the marketplace. It cannot be known with certainty and can only be estimated. The price of an asset at a given point in time is its market value, which will differ from its intrinsic value if markets are not fully efficient.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Intrinsic value changes as new information arrives in the marketplace. It cannot"
+            },
+            {
+              "type": "paragraph",
+              "text": "be known with certainty and can only be estimated. The price of an asset at a given point in time is its market value, which will differ from its intrinsic value if markets are not fully efficient."
+            }
+          ]
+        },
+        {
+          "id": "r41-q3",
+          "number": 3,
+          "objectiveIds": [
+            "41.c"
+          ],
+          "prompt": "In terms of market efficiency, short selling most likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "leads to excess volatility, which reduces market efficiency."
+            },
+            {
+              "id": "B",
+              "text": "promotes market efficiency by making assets less likely to become overvalued."
+            },
+            {
+              "id": "C",
+              "text": "has little effect on market efficiency because short sellers face the risk of unlimited losses."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Short selling promotes market efficiency because the sales pressure from short selling can reduce the prices of assets that have become overvalued.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Short selling promotes market efficiency because the sales pressure from short"
+            },
+            {
+              "type": "paragraph",
+              "text": "selling can reduce the prices of assets that have become overvalued."
+            }
+          ]
+        },
+        {
+          "id": "r41-q4",
+          "number": 4,
+          "objectiveIds": [
+            "41.d"
+          ],
+          "prompt": "The weak-form EMH asserts that stock prices fully reflect which of the following types of information?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Market only."
+            },
+            {
+              "id": "B",
+              "text": "Market and public."
+            },
+            {
+              "id": "C",
+              "text": "Public and private."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Weak-form EMH states that stock prices fully reflect all market (i.e., price and volume) information.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Weak-form EMH states that stock prices fully reflect all market (i.e., price and"
+            },
+            {
+              "type": "paragraph",
+              "text": "volume) information."
+            }
+          ]
+        },
+        {
+          "id": "r41-q5",
+          "number": 5,
+          "objectiveIds": [
+            "41.e"
+          ],
+          "prompt": "Research has revealed that the performance of professional money managers tends to be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "equal to the performance of a passive investment strategy."
+            },
+            {
+              "id": "B",
+              "text": "inferior to the performance of a passive investment strategy."
+            },
+            {
+              "id": "C",
+              "text": "superior to the performance of a passive investment strategy."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Tests indicate that mutual fund performance has been inferior to that of a passive index strategy.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Tests indicate that mutual fund performance has been inferior to that of a passive"
+            },
+            {
+              "type": "paragraph",
+              "text": "index strategy."
+            }
+          ]
+        },
+        {
+          "id": "r41-q6",
+          "number": 6,
+          "objectiveIds": [
+            "41.f"
+          ],
+          "prompt": "Which of the following best describes the majority of the evidence regarding anomalies in stock returns?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Weak-form market efficiency holds, but semi-strong form efficiency does not."
+            },
+            {
+              "id": "B",
+              "text": "Neither weak-form nor semi-strong form market efficiency holds."
+            },
+            {
+              "id": "C",
+              "text": "Reported anomalies are not violations of market efficiency but are the result of research methodologies."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The majority of evidence is that anomalies are not violations of market efficiency but are due to the research methodologies used. Portfolio management based on anomalies will likely be unprofitable after transactions costs are considered.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The majority of evidence is that anomalies are not violations of market efficiency"
+            },
+            {
+              "type": "paragraph",
+              "text": "but are due to the research methodologies used. Portfolio management based on anomalies will likely be unprofitable after transactions costs are considered."
+            }
+          ]
+        },
+        {
+          "id": "r41-q7",
+          "number": 7,
+          "objectiveIds": [
+            "41.g"
+          ],
+          "prompt": "Investors who exhibit loss aversion most likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "have symmetric risk preferences."
+            },
+            {
+              "id": "B",
+              "text": "are highly risk averse."
+            },
+            {
+              "id": "C",
+              "text": "dislike losses more than they like equal gains."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Loss aversion refers to the tendency of investors to be more risk averse when faced with potential losses and less risk averse when faced with potential gains. That is, they dislike losses more than they like gains of an equal amount. Their risk preferences are asymmetric.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Loss aversion refers to the tendency of investors to be more risk averse when"
+            },
+            {
+              "type": "paragraph",
+              "text": "faced with potential losses and less risk averse when faced with potential gains. That is, they dislike losses more than they like gains of an equal amount. Their risk preferences are asymmetric."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

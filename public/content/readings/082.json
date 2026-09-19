@@ -1,0 +1,782 @@
+{
+  "readingId": 82,
+  "title": "Introduction to Digital Assets",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "82.1",
+      "title": "Distributed Ledger Technology",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "82.a",
+          "text": "What should we know about financial applications of distributed ledger technology?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Digital assets are assets that can be electronically created, stored, and transferred. This relatively new alternative asset class includes cryptocurrencies, tokens, and digital collectibles. A digital asset is secured and validated using distributed ledger technology (DLT), also known as blockchain technology. Cryptocurrencies have their own blockchains, while crypto tokens are built on blockchains that already exist."
+        },
+        {
+          "type": "paragraph",
+          "text": "A distributed ledger is a database shared among market participants. It maintains a record of all transactions, which allows each participant to have an identical copy of the database. DLT benefits include accuracy, transparency, and security; rapid ownership transfer; and peer-to-peer (P2P) interactions for creating, trading, and monitoring digital assets. DLT disadvantages include data protection concerns, potential privacy violations, and the large amount of computational power needed for verifying transactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "A DLT network consists of a digital ledger, a consensus mechanism, and a network of participants. A consensus mechanism establishes a common state of the ledger, which involves validating transactions and updating the ledger. These two steps generate records that are immutable (i.e., unchangeable) while providing transparency for all network participants. DLT uses cryptography to encrypt data, which prevents unauthorized parties from accessing data."
+        },
+        {
+          "type": "paragraph",
+          "text": "DLT can also implement smart contracts, where a computer program self-executes based on predetermined terms and conditions. Automating contingent claims and collateral transfers during default events are examples of smart contract applications."
+        },
+        {
+          "type": "paragraph",
+          "text": "A blockchain is a digital ledger that records information sequentially within blocks. These blocks are linked together (i.e., chained), and information is secured using cryptographic techniques. Blocks within the chain contain a group of transactions as well as a secure link (known as a hash) to the previous block. A newly created transaction is only added to a chain after it has been validated by authorized participants."
+        },
+        {
+          "type": "heading",
+          "text": "Consensus Protocols"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consensus protocols determine how blocks are chained together. They are structured to protect against market manipulation. The main types of consensus protocols are proof of work and proof of stake."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the proof of work (PoW) protocol, when a transaction takes place, miners use computers to solve a cryptographic problem, which then verifies the transaction. Blocks are validated and locked into the blockchain thanks to powerful computers that use massive amounts of energy. This process rewards the miners with cryptocurrency. The resources required for mining impose substantial costs on any attempt to manipulate the blockchain’s historical record. To do so would require one party to control most (i.e., 51%) of the network. For this reason, a blockchain is more likely to succeed when there is a large number of network participants. PoW is the most widely used consensus mechanism."
+        },
+        {
+          "type": "paragraph",
+          "text": "The proof of stake (PoS) protocol is an emerging consensus mechanism in which certain network participants pledge collateral (a process known as staking) to guarantee the validity of a block. These participants, who are known as validators, use their stake to signal to the network that a transaction is ready to be added to the blockchain. Additional validators will then verify that the transaction is, indeed, authentic. Validators also protect the network from potential malicious attacks by controlling most of the network’s computational power. Validators are rewarded with a return on their staked collateral."
+        },
+        {
+          "type": "heading",
+          "text": "Permissionless and Permissioned Networks"
+        },
+        {
+          "type": "paragraph",
+          "text": "The two forms of DLT networks are permissionless and permissioned."
+        },
+        {
+          "type": "paragraph",
+          "text": "In permissionless networks, transactions are visible to all users within the network, and any user can execute a transaction. In addition, all network functions can be performed by any network participant. Bitcoin is considered a permissionless network, as are many other types of cryptocurrency."
+        },
+        {
+          "type": "paragraph",
+          "text": "An advantage of a permissionless (i.e., open) network is that transactions are confirmed or denied through consensus mechanisms rather than by a centralized authority. Blockchain transactions cannot be manipulated once they have been added to the ledger, which creates an immutable record of all transactions. Transacting parties do not have to trust each other in permissionless networks."
+        },
+        {
+          "type": "paragraph",
+          "text": "In permissioned networks, users may be restricted from some network activities. Permissions (or controls) can modify the level of ledger accessibility. These levels range from adding transactions (for network participants) to viewing only the transaction history (for regulators). Because permissioned blockchains have stronger restrictions, they are more cost effective than open and decentralized permissionless networks."
+        },
+        {
+          "type": "heading",
+          "text": "Digital Asset Categories"
+        },
+        {
+          "type": "paragraph",
+          "text": "DLT has many potential applications within the financial industry, including the creation of digital assets and the delivery of more efficient financial services. Figure 82.1 outlines the main types of digital assets currently available."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 82.1: Types of Digital Assets"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0ddb58387ccd4dc3e182.png",
+          "alt": "Equation, table, or diagram: Figure 82.1: Types of Digital Assets",
+          "width": 471,
+          "height": 176,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A cryptocurrency is a digital currency issued privately with no backing from a central bank. By using this digital medium of exchange, parties can execute near-real-time transactions without the need for an intermediary. Cryptocurrencies commonly limit how many currency units can be issued. The objective of this supply limit is to maintain the unit as a store of value; however, many cryptocurrencies still experience extreme price volatility."
+        },
+        {
+          "type": "paragraph",
+          "text": "Various cryptocurrencies exist because their blockchains are designed and optimized differently. As the most widely traded cryptocurrency, Bitcoin has influenced the development of many other types of digital assets. Alternate cryptocurrencies, known as altcoins, are based on the technology used by Bitcoin. The most well-known altcoin is Ether, which is built on the Ethereum network. The Ethereum blockchain allows users to develop applications (i.e., smart contracts) to secure and validate transactions. Therefore, the value of Ethereum and other programmable blockchains extends beyond being only a store of value. To date, Bitcoin and Ether are the two most popular cryptocurrencies; as of July 2022, they made up more than 80% of the total cryptocurrency market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stablecoins offer stable digital currency values. These coins are linked to the value of another asset, such as the U.S. dollar, and secured by a basket of assets. The value of stablecoins is protected from price volatility through this reserve basket, which minimizes risk from potential transaction failures. Smart stablecoins or algorithmic stablecoins control their supply by using algorithms to mint additional assets when demand increases. Stablecoins cannot be exchanged for fiat currency, and they have no legal or regulatory backing. One of the most popular stablecoins is Tether, which is pegged to the U.S. dollar. A special case of stablecoins is an asset-backed token, which maintains price parity with a target asset, such as gold. We will discuss these tokens in more detail later in this reading."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The TerraUSD stablecoin was pegged to the U.S. dollar “algorithmically” instead of being directly linked to the underlying collateral value. In May 2022, the 1:1 peg failed after significant investor withdrawals and its value collapsed, resulting in a run on several stablecoins."
+        },
+        {
+          "type": "paragraph",
+          "text": "In general, meme coins are launched for entertainment purposes. In some cases, their rapid rise in popularity has allowed early purchasers to sell these coins for a quick and significant profit. The most popular meme coin is Dogecoin, which is based on a popular internet meme. In May 2021, Dogecoin saw a dramatic increase in market value thanks to social media endorsements. However, a year later, its market value dropped sharply as its usefulness came into question."
+        },
+        {
+          "type": "paragraph",
+          "text": "As mentioned, governments do not currently back or regulate cryptocurrencies. Nevertheless, central banks are currently exploring the potential benefits of cryptocurrency equivalents as alternatives to physical currency. A central bank digital currency (CBDC) is essentially a digital version of a banknote or coin issued by a central bank."
+        },
+        {
+          "type": "paragraph",
+          "text": "When physical assets like real estate change hands, considerable work is required to verify ownership. Tokenization uses DLT to streamline this process by digitally tracking the historical record of ownership. A nonfungible token (NFT) is an example of tokenization in which a digital asset is linked to a certificate of authenticity. The key difference between NFTs and “fungible” tokens is that each NFT represents a distinct object. For example, digital artwork is a common application for NFTs."
+        },
+        {
+          "type": "paragraph",
+          "text": "A security token digitally tracks ownership rights in publicly traded securities. A blockchain can facilitate the custody, settlement, recordkeeping, and post-trade processing of security tokens. With this single ledger technology, participants can perform various transactions more easily and with more transparency. An example of a security token is an initial coin offering (ICO), which is an unregulated process in which companies offer crypto tokens in exchange for money or other cryptocurrency. In an ICO, tokens are issued to investors for future purchases of products or services. An ICO is an alternative to regulated initial public offerings (IPOs). ICOs are potentially less expensive and take less time to raise capital compared to IPOs; however, most ICOs do not have attached voting rights. Many jurisdictions are considering regulating ICOs due to an increase in fraud connected to these offerings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Utility tokens provide network services, such as service payments and network fees. In contrast to security tokens that may pay dividends, a utility token only compensates investors for network activities. Governance tokens are offered on permissionless networks and act as voting rights to determine how networks should operate. For example, a network can maintain stability and integrity by voting on solutions for a technical issue."
+        }
+      ]
+    },
+    {
+      "id": "82.2",
+      "title": "Digital Asset Characteristics",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "82.b",
+          "text": "How can we explain investment features of digital assets and contrast them with other asset classes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investing in digital assets is becoming more commonplace in the financial industry. In 2013, approximately 70 cryptocurrencies were recorded, but by early 2022, over 10,000 cryptocurrencies had been issued. Due to the high expected returns and diversification benefits of investing in cryptocurrencies, institutional investors are taking more interest in this alternative asset class. To accommodate the growing number of investors, financial service providers’including digital exchanges and custodians’have strengthened their infrastructures to support future institutional investment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The nature of digital assets differs from traditional financial assets. Key investment differences between digital assets and other asset classes are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inherent value differences. Most digital assets are not backed by underlying assets or the cash flows they generate, such as interest or dividends. Because digital assets lack expected earnings, they have no fundamental value. In general, digital asset prices are determined by projected asset growth, which is based on scarcity (due to the limited currency supply) and the ability to transfer value in the future. Transaction validation differences. Traditional financial instruments are typically recorded on private ledgers maintained by central intermediaries. In contrast, digital assets are typically recorded on decentralized digital ledgers. Medium of exchange differences. Traditional financial assets are traded and priced in globally accepted fiat currencies. Financial systems rely on these fiat currencies as a medium of exchange. In contrast, digital assets are used as an alternative to fiat currencies and are mainly used for online transactions. However, the mainstream"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial system is hesitant to accept cryptocurrencies as a medium of exchange. This is due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries. CBDCs are currently being evaluated as tokenized forms of fiat currencies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulatory differences. Most jurisdictions have clear and established rules governing financial instruments. However, unlike traditional financial assets, digital assets lack well-developed standards. Regulations specific to digital assets are currently under development. Regulators in the United States consider some digital currencies to be commodities, while other regulators consider them as nonfinancial assets. In addition, the cryptocurrency exchanges used to trade digital currencies are typically unregulated. As a result, participants in these exchanges are not specifically prohibited from engaging in behaviors like market manipulation."
+        },
+        {
+          "type": "question",
+          "objectiveId": "82.c",
+          "text": "What should we know about investment forms and vehicles used in digital asset investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investing in digital assets can be done directly on the blockchain, or indirectly through exchange-traded products and hedge funds. Direct ownership of cryptocurrencies requires the use of a “cryptocurrency wallet,” which contains digital encryption keys for accessing and trading assets. The two categories of exchanges for trading cryptocurrencies are centralized exchanges and decentralized exchanges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Centralized exchanges are privately held and offer trading platforms for price transparency and volume information. Despite being at odds with Bitcoin’s decentralized nature, centralized exchanges are the most popular type of cryptocurrency exchange. Traders on these exchanges trade directly and electronically on private servers, which may introduce security vulnerabilities. Compromised exchange servers can cause trading to halt and valuable user information to leak, such as keys to cryptocurrency wallets. Depending on the jurisdiction, some of these exchanges are regulated as financial exchanges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similar in concept to Bitcoin, decentralized exchanges implement decentralized blockchain principles. A decentralized exchange does not have a centralized authority and it operates on a distributed framework. Multiple computers are used to service this type of exchange, so if one computer is attacked, the exchange will remain in operation. Therefore, attacks on decentralized exchanges are substantially more difficult. In addition, because no one person, group, or organization controls a decentralized exchange, regulations are difficult to enforce."
+        },
+        {
+          "type": "paragraph",
+          "text": "On either type of exchange, a lack of regulatory oversight raises investor protection concerns. Fraud and market manipulation are more likely to occur, such as pump-and-dump schemes involving questionable promotion of cryptocurrencies on social media to deliberately increase prices."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The centralized exchange FTX became one of the largest crypto and stablecoin exchanges in 2021. However, falling cryptocurrency prices, increasing interest rates, and fraudulent management decisions led to extreme"
+        },
+        {
+          "type": "paragraph",
+          "text": "illiquidity issues for the exchange. In November 2022 these issues triggered substantial investor withdrawals, which ultimately led to the bankruptcy of FTX."
+        },
+        {
+          "type": "heading",
+          "text": "Direct Investment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Direct investment in cryptocurrencies occurs when a transaction is recorded on the blockchain. When a transaction takes place, it becomes validated and permanently stored on the blockchain. Examples of gaining direct exposure include purchasing tokens on a cryptocurrency exchange, trading an NFT, and investing in an ICO. Continuous trading is offered on most cryptocurrency exchanges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investing in cryptocurrencies directly has several risks. Fraud has become more prevalent with the rise in popularity of cryptocurrencies. This includes scam ICOs, pump-and-dump schemes, market manipulation, theft, and attempts to gain access to wallet credentials. Also, because cryptocurrencies are normally held in secure wallets that require unique passkeys to access, losing those passkeys makes the cryptocurrency in a wallet worthless. It is estimated that 20% of Bitcoin is in lost or abandoned wallets. In addition, many small cryptocurrencies are held primarily by a few large entities (known as whales) that may hold enough of a cryptocurrency to manipulate its price."
+        },
+        {
+          "type": "heading",
+          "text": "Indirect Investment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indirect exposure to cryptocurrencies can be achieved through coin trusts, futures contracts, exchange-traded products, stocks, and hedge funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency coin trusts offer shares in a trust that holds large amounts of cryptocurrency. This type of investment trades over the counter and is similar to a closed-end fund. Coin trusts increase transparency while eliminating the need for digital wallets and encryption keys. However, some trusts charge substantial fees and expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency futures contracts involve buying or selling a specific quantity of cryptocurrency at a predetermined future date. For example, the Chicago Mercantile Exchange trades Bitcoin futures based on spot Bitcoin prices from cryptocurrency exchanges. These contracts are typically cash settled and involve leverage. Because this market is newly developing, cryptocurrency futures are typically more volatile and less liquid than traditional futures markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency exchange-traded products, such as exchange-traded funds, attempt to mimic the returns of digital assets. These products typically gain exposure to cryptocurrency price movements using cash or cryptocurrency derivatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency stocks offer indirect exposure through their business connection to digital assets. Examples include public digital exchanges; payment providers that support cryptocurrencies; corporations that accept cryptocurrencies as payments, invest in cryptocurrencies, or mine cryptocurrencies; and companies that provide products or services for operating blockchain networks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency hedge funds employ strategies such as discretionary long, long/short, quantitative, and multistrategy to invest indirectly in cryptocurrencies. Some hedge funds also conduct Bitcoin mining activities to generate additional returns."
+        },
+        {
+          "type": "heading",
+          "text": "Digital Investment in Nondigital Assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset-backed tokens represent digital ownership of physical assets or financial assets (i.e., nondigital assets). These tokenized assets are collateralized by the underlying asset, such as oil, gold, or equities. Asset-backed tokens can potentially increase liquidity of high-priced assets, such as real estate, by allowing for fractional ownership. A digital representation also allows for an immutable record of ownership, which improves transparency and reduces transaction costs. Regulators generally classify asset-backed tokens as securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Ethereum network is often used to issue asset-backed tokens by allowing P2P interactions via smart contracts. Decentralized applications, referred to as dApps, enable transactions to be recorded on the blockchain without the need for a centralized system."
+        },
+        {
+          "type": "paragraph",
+          "text": "Decentralized finance (DeFi) grew out of this movement toward financial decentralization. DeFi seeks to develop sophisticated financial products and services using open-source financial applications. Essentially, DeFi is a marketplace of dApps that can offer a medium for exchange, a store of value, tokenization of assets, and immutable records of ownership. Currently, most dApps focus on digital asset speculation."
+        },
+        {
+          "type": "question",
+          "objectiveId": "82.d",
+          "text": "How do we analyze sources of risk, return, and diversification among digital asset investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cryptocurrency values depend largely on asset appreciation, and a significant driver of prices is their limited supply. For instance, Bitcoin is limited to 21 million units. As a result, some investors refer to Bitcoin as digital gold. To date, Bitcoin has generated high returns and high volatility compared to traditional asset classes. For example, Bitcoin’s price has risen from $0.05 when it was first made publicly available in mid-2010 to over $65,000 in November 2021, before falling below $20,000 in June 2022."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 82.2 illustrates the risk and return of Bitcoin compared to other major asset class indexes."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 82.2: Monthly Log Returns for Bitcoin and Asset Class Benchmarks (January 2011–January"
+        },
+        {
+          "type": "heading",
+          "text": "2022)¹"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d682dee61cc9d8cca45b.png",
+          "alt": "Equation, table, or diagram: 2022)¹",
+          "width": 536,
+          "height": 141,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Other cryptocurrencies exhibit similar price volatility to Bitcoin. This volatility reflects the overall uncertainty associated with this asset class. Even though some of these assets are regulated as digital commodities in the United States and formal rules in the European Union are under development, investors remain wary due to recent fraud and crime. Consequently, cryptocurrencies have been severely restricted by several countries, including China, which banned them outright in 2021."
+        },
+        {
+          "type": "paragraph",
+          "text": "Historically, cryptocurrency returns have demonstrated low correlations with traditional asset class returns. Therefore, cryptocurrencies have the potential to provide portfolio diversification benefits. However, correlations may increase during periods of extreme market stress. In general, cryptocurrency prices are influenced by the unique aspects of this asset class, including market adoption, risk appetite, technological innovation, network impacts, speculation, and regulation. Figure 82.3 displays a correlation matrix for Bitcoin and other major asset class indexes."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 82.3: Correlations Between Monthly Log Returns for Cryptocurrencies and Selected Asset"
+        },
+        {
+          "type": "heading",
+          "text": "Classes (January 2011–January 2022)²"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5b15780f0fb7c3e70358.png",
+          "alt": "Equation, table, or diagram: Classes (January 2011–January 2022)²",
+          "width": 536,
+          "height": 141,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "82.a",
+      "text": "What should we know about financial applications of distributed ledger technology?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Digital assets are those that can be electronically created, stored, and transferred. This alternative asset class includes cryptocurrencies, tokens, and digital collectibles. A digital asset relies on distributed ledger technology (DLT)."
+    },
+    {
+      "type": "paragraph",
+      "text": "A blockchain is a digital ledger that records information sequentially within blocks. Consensus protocols determine how blocks are chained together. The main types of consensus mechanisms are proof of work (miners use powerful computers to verify transactions) and proof of stake (validators pledge collateral to guarantee the validity of transactions)."
+    },
+    {
+      "type": "paragraph",
+      "text": "In permissionless networks, transactions are visible to all users within the network, and any user can execute a transaction. In permissioned networks, some network activities may be modified or restricted for users."
+    },
+    {
+      "type": "paragraph",
+      "text": "A cryptocurrency is a digital currency issued privately with no backing from a central bank. Stablecoins offer stable digital currency values by linking to another asset (e.g., the U.S. dollar). Meme coins are launched for entertainment purposes. A central bank digital currency is a digital version of a bank note or coin issued by a central bank."
+    },
+    {
+      "type": "paragraph",
+      "text": "Tokenization uses blockchain technology to digitally track the historical record of asset ownership."
+    },
+    {
+      "type": "question",
+      "objectiveId": "82.b",
+      "text": "How can we explain investment features of digital assets and contrast them with other asset classes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The key differences in investment features between digital assets and other asset classes are as follows:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Most digital assets are not backed by underlying assets or cash flows, as traditional financial instruments are. Digital assets do not have expected earnings, so they have no fundamental value."
+    },
+    {
+      "type": "paragraph",
+      "text": "Traditional financial assets are typically recorded on private ledgers maintained by central intermediaries. Digital assets are typically recorded on decentralized digital ledgers. Traditional financial assets are traded and priced in fiat currencies. Digital assets are an alternative to fiat currencies and are mainly used for online transactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most jurisdictions have clear and established rules that govern traditional financial instruments. Digital assets currently lack these well-developed standards."
+    },
+    {
+      "type": "question",
+      "objectiveId": "82.c",
+      "text": "What should we know about investment forms and vehicles used in digital asset investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Centralized exchanges allow participants to trade directly and electronically on private servers. Decentralized exchanges operate on a distributed framework where multiple computers service the network. For both exchanges, investor protection concerns arise due to a lack of regulatory oversight."
+    },
+    {
+      "type": "paragraph",
+      "text": "Direct investment in cryptocurrencies occurs when a transaction is recorded directly on the blockchain. Investing in cryptocurrencies directly has several risks, including scam ICOs, pump-and-dump schemes, market manipulation, theft, and attempts to gain access to cryptocurrency wallet credentials."
+    },
+    {
+      "type": "paragraph",
+      "text": "Indirect investment in cryptocurrencies can be achieved through coin trusts, futures contracts, exchange-traded products, stocks, and hedge funds."
+    },
+    {
+      "type": "paragraph",
+      "text": "Asset-backed tokens represent digital ownership of nondigital assets. The movement toward decentralization and using digital investment forms for nondigital assets has led to decentralized finance (DeFi) products and services."
+    },
+    {
+      "type": "question",
+      "objectiveId": "82.d",
+      "text": "How do we analyze sources of risk, return, and diversification among digital asset investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cryptocurrency values are driven by asset appreciation and the limited supply of currency units. To date, digital assets have generated high returns and high volatility compared to traditional asset classes. Because digital asset returns have demonstrated low correlations with traditional asset class returns, this alternative asset class has the potential to provide portfolio diversification benefits."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "82.a",
+      "statement": "Describe financial applications of distributed ledger technology.",
+      "question": "What should we know about financial applications of distributed ledger technology?"
+    },
+    {
+      "id": "82.b",
+      "statement": "Explain investment features of digital assets and contrast them with other asset classes.",
+      "question": "How can we explain investment features of digital assets and contrast them with other asset classes?"
+    },
+    {
+      "id": "82.c",
+      "statement": "Describe investment forms and vehicles used in digital asset investments.",
+      "question": "What should we know about investment forms and vehicles used in digital asset investments?"
+    },
+    {
+      "id": "82.d",
+      "statement": "Analyze sources of risk, return, and diversification among digital asset investments.",
+      "question": "How do we analyze sources of risk, return, and diversification among digital asset investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-82-quiz-1",
+      "title": "Knowledge check 82.1",
+      "moduleId": "82.1",
+      "questions": [
+        {
+          "id": "r82-q1",
+          "number": 1,
+          "objectiveIds": [
+            "82.a"
+          ],
+          "prompt": "Which of the following statements about distributed ledger technology (DLT) is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A disadvantage of blockchain is that past records are vulnerable to manipulation."
+            },
+            {
+              "id": "B",
+              "text": "Tokenization can potentially streamline transactions involving high-value physical assets."
+            },
+            {
+              "id": "C",
+              "text": "Only parties who trust each other should carry out transactions on a permissionless network."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "By enabling electronic proof of ownership, tokenization has the potential to streamline transfers of physical assets such as real estate. The high cost and difficulty of manipulating past records is a strength of blockchain technology. Permissionless networks do not require trust between the parties to a transaction because the record of a transaction is unchangeable and visible to all network participants.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "By enabling electronic proof of ownership, tokenization has the potential to"
+            },
+            {
+              "type": "paragraph",
+              "text": "streamline transfers of physical assets such as real estate. The high cost and difficulty of manipulating past records is a strength of blockchain technology. Permissionless networks do not require trust between the parties to a transaction because the record of a transaction is unchangeable and visible to all network participants."
+            }
+          ]
+        },
+        {
+          "id": "r82-q2",
+          "number": 2,
+          "objectiveIds": [
+            "82.a"
+          ],
+          "prompt": "The benefits of using distributed ledger technology (DLT) to validate transactions on a blockchain least likely include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "improved accuracy and transparency."
+            },
+            {
+              "id": "B",
+              "text": "quicker transfer of ownership records."
+            },
+            {
+              "id": "C",
+              "text": "using high-performance computers for verifying transactions."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The large amount of computational power needed for verifying transactions is considered a disadvantage of DLT. Benefits include accuracy, transparency, and security of transactions; rapid ownership transfer; and peer-to-peer interactions for creating, trading, and monitoring digital assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The large amount of computational power needed for verifying transactions is"
+            },
+            {
+              "type": "paragraph",
+              "text": "considered a disadvantage of DLT. Benefits include accuracy, transparency, and security of transactions; rapid ownership transfer; and peer-to-peer interactions for creating, trading, and monitoring digital assets."
+            }
+          ]
+        },
+        {
+          "id": "r82-q3",
+          "number": 3,
+          "objectiveIds": [
+            "82.a"
+          ],
+          "prompt": "The proof of work (PoW) consensus protocol involves:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "miners using computers to solve cryptographic problems."
+            },
+            {
+              "id": "B",
+              "text": "network participants pledging collateral to guarantee the validity of transactions."
+            },
+            {
+              "id": "C",
+              "text": "validators controlling most of the network’s computational power to prevent attacks."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The PoW protocol involves miners using powerful computers to verify transactions by solving cryptographic problems. The proof of stake (PoS) protocol involves network participants pledging collateral to guarantee the validity of a block. In both cases, a large number of network participants help to prevent malicious attacks; however, the term validators applies specifically to the PoS consensus mechanism.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The PoW protocol involves miners using powerful computers to verify"
+            },
+            {
+              "type": "paragraph",
+              "text": "transactions by solving cryptographic problems. The proof of stake (PoS) protocol involves network participants pledging collateral to guarantee the validity of a block. In both cases, a large number of network participants help to prevent malicious attacks; however, the term validators applies specifically to the PoS consensus mechanism."
+            }
+          ]
+        },
+        {
+          "id": "r82-q4",
+          "number": 4,
+          "objectiveIds": [
+            "82.a"
+          ],
+          "prompt": "Smart contracts are most likely to be used for:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "pegging cryptocurrency to the value of another asset."
+            },
+            {
+              "id": "B",
+              "text": "extending the value of a blockchain beyond a store of value."
+            },
+            {
+              "id": "C",
+              "text": "creating a digital version of a bank note issued by a central bank."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Smart contracts are often associated with the Ethereum blockchain and can help programmable blockchains add value beyond being only a store of value. Stablecoins involve pegging values to another asset, and central bank digital currencies involve creating a digital version of a bank note or coin issued by a central bank.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Smart contracts are often associated with the Ethereum blockchain and can help"
+            },
+            {
+              "type": "paragraph",
+              "text": "programmable blockchains add value beyond being only a store of value. Stablecoins involve pegging values to another asset, and central bank digital currencies involve creating a digital version of a bank note or coin issued by a central bank."
+            }
+          ]
+        },
+        {
+          "id": "r82-q5",
+          "number": 5,
+          "objectiveIds": [
+            "82.a"
+          ],
+          "prompt": "An initial coin offering (ICO) is best described as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "utility token."
+            },
+            {
+              "id": "B",
+              "text": "security token."
+            },
+            {
+              "id": "C",
+              "text": "nonfungible token."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An example of a security token is the ICO, an unregulated process in which companies offer crypto tokens for money or other cryptocurrency.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An example of a security token is the ICO, an unregulated process in which"
+            },
+            {
+              "type": "paragraph",
+              "text": "companies offer crypto tokens for money or other cryptocurrency."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-82-quiz-2",
+      "title": "Knowledge check 82.2",
+      "moduleId": "82.2",
+      "questions": [
+        {
+          "id": "r82-q6",
+          "number": 1,
+          "objectiveIds": [
+            "82.b"
+          ],
+          "prompt": "In contrast with traditional asset classes, digital assets most likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "are not typically backed by underlying asset cash flows."
+            },
+            {
+              "id": "B",
+              "text": "have established regulatory guidance in most jurisdictions."
+            },
+            {
+              "id": "C",
+              "text": "are recorded on private ledgers maintained by central intermediaries."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Most digital assets are not backed by underlying assets or the cash flows that they generate. Also, digital assets lack well-developed regulatory standards, and they are typically recorded on decentralized digital ledgers.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Most digital assets are not backed by underlying assets or the cash flows that they"
+            },
+            {
+              "type": "paragraph",
+              "text": "generate. Also, digital assets lack well-developed regulatory standards, and they are typically recorded on decentralized digital ledgers."
+            }
+          ]
+        },
+        {
+          "id": "r82-q7",
+          "number": 2,
+          "objectiveIds": [
+            "82.b"
+          ],
+          "prompt": "Mainstream financial systems are hesitant to accept cryptocurrencies as a medium of exchange due to which of the following factors?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Low transaction costs."
+            },
+            {
+              "id": "B",
+              "text": "Lack of cryptocurrency roadblocks in several countries."
+            },
+            {
+              "id": "C",
+              "text": "Cryptocurrencies not being considered legal tender in many countries."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Financial systems are hesitant to accept cryptocurrencies as a medium of exchange due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Financial systems are hesitant to accept cryptocurrencies as a medium of"
+            },
+            {
+              "type": "paragraph",
+              "text": "exchange due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries."
+            }
+          ]
+        },
+        {
+          "id": "r82-q8",
+          "number": 3,
+          "objectiveIds": [
+            "82.c"
+          ],
+          "prompt": "Which of the following statements is most accurate regarding centralized and decentralized cryptocurrency exchanges?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Decentralized exchanges are the prevalent type of cryptocurrency exchange."
+            },
+            {
+              "id": "B",
+              "text": "Centralized exchanges are more highly regulated than decentralized exchanges."
+            },
+            {
+              "id": "C",
+              "text": "Decentralized exchanges are less susceptible to network attacks and security vulnerabilities."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "For decentralized exchanges, multiple computers service the exchange, so if one computer is attacked, the exchange will remain operational. Thus, attacks on decentralized exchanges are more difficult than on centralized exchanges. However, centralized exchanges are the prevalent type of cryptocurrency exchange. Both types of exchange currently lack significant regulatory oversight.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For decentralized exchanges, multiple computers service the exchange, so if one"
+            },
+            {
+              "type": "paragraph",
+              "text": "computer is attacked, the exchange will remain operational. Thus, attacks on decentralized exchanges are more difficult than on centralized exchanges. However, centralized exchanges are the prevalent type of cryptocurrency exchange. Both types of exchange currently lack significant regulatory oversight."
+            }
+          ]
+        },
+        {
+          "id": "r82-q9",
+          "number": 4,
+          "objectiveIds": [
+            "82.c"
+          ],
+          "prompt": "An example of a digital form of investment in a nondigital asset is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "an asset-backed token."
+            },
+            {
+              "id": "B",
+              "text": "a cryptocurrency exchange-traded product."
+            },
+            {
+              "id": "C",
+              "text": "purchasing tokens on a cryptocurrency exchange."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Asset-backed tokens represent digital ownership of physical assets or financial assets (i.e., nondigital assets). A cryptocurrency exchange-traded product is an example of an indirect exposure to digital assets. Purchasing tokens on a cryptocurrency exchange is an example of a direct investment in digital assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Asset-backed tokens represent digital ownership of physical assets or financial"
+            },
+            {
+              "type": "paragraph",
+              "text": "assets (i.e., nondigital assets). A cryptocurrency exchange-traded product is an example of an indirect exposure to digital assets. Purchasing tokens on a cryptocurrency exchange is an example of a direct investment in digital assets."
+            }
+          ]
+        },
+        {
+          "id": "r82-q10",
+          "number": 5,
+          "objectiveIds": [
+            "82.d"
+          ],
+          "prompt": "The main driver of cryptocurrency values is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "low price volatility."
+            },
+            {
+              "id": "B",
+              "text": "asset appreciation."
+            },
+            {
+              "id": "C",
+              "text": "unlimited supply of currency units."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Cryptocurrency values are based largely on asset appreciation, given that these digital assets have no underlying cash flows. The supply of several cryptocurrencies is limited, which is a key driver of price increases. Cryptocurrencies exhibit extreme price volatility, which reflects investor uncertainty with this asset class. from CFA Institute. from CFA Institute.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Cryptocurrency values are based largely on asset appreciation, given that these"
+            },
+            {
+              "type": "paragraph",
+              "text": "digital assets have no underlying cash flows. The supply of several cryptocurrencies is limited, which is a key driver of price increases. Cryptocurrencies exhibit extreme price volatility, which reflects investor uncertainty with this asset class."
+            },
+            {
+              "type": "paragraph",
+              "text": "from CFA Institute."
+            },
+            {
+              "type": "paragraph",
+              "text": "from CFA Institute."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

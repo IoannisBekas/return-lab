@@ -1,0 +1,685 @@
+{
+  "readingId": 18,
+  "title": "Capital Flows and the FX Market",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "18.1",
+      "title": "The Foreign Exchange Market",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "18.a",
+          "text": "What should we know about the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Foreign currency markets serve companies and individuals that purchase or sell foreign goods and services denominated in foreign currencies. An even larger market, however, exists for capital flows. Foreign currencies are needed to purchase foreign physical assets as well as foreign financial securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Many companies have foreign exchange risk arising from their cross-border transactions. A Japanese company that expects to receive 10 million euros when a transaction is completed in 90 days has yen/euro exchange rate risk as a result. By entering into a forward currency contract to sell 10 million euros in 90 days for a specific quantity of yen, the firm can reduce or eliminate the foreign exchange risk associated with the transaction. When a firm takes a position in the foreign exchange market to reduce an existing risk, we say the firm is hedging its risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, when a transaction in the foreign exchange markets increases currency risk, we describe the transaction or position as speculating. Investors, companies, and financial institutions, such as banks and investment funds, all regularly enter into speculative foreign currency transactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The primary dealers in foreign exchange (FX) and originators of forward FX contracts are large multinational banks. This part of the FX market is often called the sell side. On the other hand, the buy side consists of the many buyers of foreign currencies and forward FX contracts. These buyers include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corporations regularly engage in cross-border transactions, purchase and sell foreign currencies as a result, and enter into FX forward contracts to hedge the risk of expected future receipts and payments denominated in foreign currencies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investment accounts of many types transact in foreign currencies, hold foreign securities, and may both speculate and hedge with currency derivatives. Real money accounts refer to mutual funds, pension funds, insurance companies, and other institutional accounts that do not use derivatives. Leveraged accounts refer to the various types of investment firms that use derivatives, including hedge funds, firms that trade for their own accounts, and other trading firms of various types."
+        },
+        {
+          "type": "paragraph",
+          "text": "Governments and government entities, including sovereign wealth funds and pension funds, acquire foreign exchange for transactional needs, investment, or speculation. Central banks sometimes engage in FX transactions to affect exchange rates in the short term in accordance with government policy."
+        },
+        {
+          "type": "paragraph",
+          "text": "The retail FX market refers to FX transactions by households and relatively small institutions, and it may be for tourism, cross-border investment, or speculative trading."
+        },
+        {
+          "type": "heading",
+          "text": "Types of Exchange Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "An exchange rate is simply the price or cost of units of one currency in terms of another. in these lessons we state exchange rates in the form 1.416 USD/EUR, to mean that each euro costs $1.416. If you read the “/” as per, you will have no trouble with the notation. We say the exchange rate is $1.416 per euro."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the way exchange rates are quoted in the Level I CFA curriculum. Foreign exchange traders typically use the inverse (an indirect quotation)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a foreign currency quotation, we have the price of one currency in units of another currency. These are often referred to as the base currency and the price currency. In the quotation 1.25 USD/EUR, the USD is the price currency and the EUR is the base currency. The price of one euro (base currency) is 1.25 USD (the price currency), so 1.25 is the price of one unit of the base currency in terms of the other. It may help to remember that the euro, in this example, is in the bottom or “base” of the exchange rate given in terms of USD/EUR."
+        },
+        {
+          "type": "paragraph",
+          "text": "An exchange rate expressed as price currency/base currency is referred to as a direct quote from the point of view of an investor in the price currency country and an indirect quote from the point of view of an investor in the base currency country. For example, a quote of 1.17 USD/EUR would be a direct quote for a USD-based investor and an indirect quote for a EUR-based investor. Conversely, a quote of 1 / 1.17 = 0.855 EUR/USD would be a direct quote for a EUR-based investor and an indirect quote for a USD-based investor."
+        },
+        {
+          "type": "paragraph",
+          "text": "The exchange rate at a point in time is referred to as a nominal exchange rate. If this rate (price/base) increases, the cost of a unit of the base currency in terms of the price currency has increased, so that the purchasing power of the price currency has decreased. If the USD/EUR exchange rate increases from 1.10 to 1.15, the cost of 100 euros increases from $110 to $115. The purchasing power of the dollar has decreased relative to the euro because the cost of 100 euros’ worth of goods to a consumer in the United States has increased over the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The purchasing power of one currency relative to another is also affected by changes in the price levels of the two countries. The real exchange rate between two currencies refers to the purchasing power of one currency in terms of the amount of goods priced in another currency, relative to an earlier (base) period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a situation in which the nominal USD/EUR exchange rate is unchanged at 1.00 over a period and the price level in the United States is unchanged, while prices in the"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eurozone have increased by 5%. Eurozone goods that cost 100 euros at the beginning of the period cost 105 euros at the end of the period. With the nominal exchange rate unchanged, the purchasing power of the USD in the Eurozone has decreased, because exchanging 100 USD for 100 EUR will now buy only 100 / 105 = 95.2% of the goods 100 EUR could buy at the beginning of the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here is a summary:"
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in the nominal USD/EUR rate decreases the purchasing power of the USD in the Eurozone (and increases the purchasing power of the EUR in the United States); the real USD/EUR exchange rate has increased. A decrease in the nominal USD/EUR rate increases the purchasing power of the USD in the Eurozone (and decreases the purchasing power of the EUR in the United States); the real USD/EUR exchange rate has decreased."
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in the Eurozone price level, relative to the price level in the United States, will increase the real USD/EUR exchange rate, decreasing the purchasing power of the USD in the Eurozone (and increasing the purchasing power of the EUR in the United States). A decrease in the Eurozone price level, relative to the price level in the United States, will decrease the real USD/EUR exchange rate, increasing the purchasing power of the USD in the Eurozone (and decreasing the purchasing power of the EUR in the United States)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The end-of-period real P/B exchange rate can be calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{real~P/B~exchange~rate}}={\\mathrm{nominal~P/B~exchange~rate}} \\times\\left( {\\frac{\\mathrm{CPI}_{\\mathrm{base~cucrency}}} {\\mathrm{CPI}_{\\mathrm{price~cucrency}}}} \\right)",
+          "display": true,
+          "sourceAsset": "59ed97471a5d34952baf.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "where the CPI values are relative to base period values of 100."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can see from the formula the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase (decrease) in the nominal exchange rate over the period increases (decreases) the end-of period real exchange rate, and the purchasing power of the price currency decreases (increases)."
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in the price level in the price currency country relative to the price level in the base currency country will decrease the real exchange rate, increasing the purchasing power of the price currency in terms of base country goods. Conversely, a decrease in the price level in the price currency country relative to the price level in the base currency country will increase the real exchange rate, decreasing the purchasing power of the price currency in terms of base country goods."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the following example, we calculate the end-of-period real $/£ exchange rate when the nominal $/£ exchange rate has decreased over the period (which tends to decrease the real exchange rate and increase the purchasing power of the price currency)—and when the price level in the United Kingdom has increased by more than the price level in the United States over the period (which tends to increase the real exchange rate and decrease the purchasing power of the price currency). The relative increase in U.K."
+        },
+        {
+          "type": "paragraph",
+          "text": "prices has reduced the effects of the decrease in the nominal exchange rate on the increase in the purchasing power of the USD."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Real exchange rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "At a base period, the CPIs of the United States and United Kingdom are both 100, and the exchange rate is $1.70/£. Three years later, the exchange rate is $1.60/£, and the CPI has risen to 110 in the United States and 112 in the United Kingdom. What is the real exchange rate at the end of the three-year period?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The real exchange rate is $1.60 / £ × 112 / 110 = $1.629 / £, which means that U.S. goods and services that cost $1.70 at the base period now cost only $1.629 (in real terms) if purchased in the United Kingdom and the real exchange rate, $/£, has fallen. The decrease in the real exchange rate (and the increase in the purchasing power of the USD in terms of U.K. goods) over the period is less than it would have been if the relative prices between the two countries had not changed."
+        },
+        {
+          "type": "paragraph",
+          "text": "A spot exchange rate is the currency exchange rate for immediate delivery, which for most currencies means the exchange of currencies takes place two days after the trade."
+        },
+        {
+          "type": "paragraph",
+          "text": "A forward exchange rate is a currency exchange rate for an exchange to be done in the future. Forward rates are quoted for various future dates (e.g., 30 days, 60 days, 90 days, or one year). A forward is actually an agreement to exchange a specific amount of one currency for a specific amount of another on a future date specified in the forward agreement."
+        },
+        {
+          "type": "paragraph",
+          "text": "A French firm that will receive 10 million GBP from a British firm six months from now has uncertainty about the amount of euros that payment will be equivalent to six months from now. By entering into a forward agreement covering 10 million GBP at the 6-month forward rate of 1.192 EUR/GBP, the French firm has agreed to exchange 10 million GBP for 11.92 million euros in six months."
+        },
+        {
+          "type": "heading",
+          "text": "Calculating the Percentage Change in the FX Value of a Currency"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a USD/EUR exchange rate that has changed from 1.42 to 1.39 USD/EUR. The percentage change in the dollar price of a euro is simply 1.39 / 1.42 − 1 = −0.0211 = −2.11%. Because the dollar price of a euro has fallen, the euro has depreciated relative to the dollar, and a euro now buys 2.11% fewer U.S. dollars. It is correct to say that the euro has depreciated by 2.11% relative to the dollar."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the other hand, it is not correct to say that the dollar has appreciated by 2.11%. To calculate the percentage appreciation of the dollar, we need to convert the quotes to EUR/USD. So, our beginning quote of 1.42 USD/EUR becomes 1 / 1.42 = 0.7042 EUR/USD, and our ending quote of 1.39 USD/EUR becomes 1 / 1.39 = 0.7194 EUR/USD. Using these exchange rates, we can calculate the change in the euro price of a dollar as 0.7194 / 0.7042 − 1 = 0.0216 = 2.16%. In this case, it is correct to say that the dollar has appreciated 2.16% with respect to the euro. Note that for the given exchange rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "quotes, the percentage appreciation of the dollar is not the same as the percentage depreciation in the euro."
+        }
+      ]
+    },
+    {
+      "id": "18.2",
+      "title": "Managing Exchange Rates",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "18.b",
+          "text": "What should we know about exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The IMF categorizes exchange rate regimes into the following types, which include two for countries that do not issue their own currencies and seven for countries that issue their own currencies."
+        },
+        {
+          "type": "heading",
+          "text": "Countries That Do Not Have Their Own Currency"
+        },
+        {
+          "type": "paragraph",
+          "text": "A country can use the currency of another country (formal dollarization). The country cannot have its own monetary policy, as it does not create money or issue currency."
+        },
+        {
+          "type": "paragraph",
+          "text": "A country can be a member of a monetary union in which several countries use a common currency. Within the European Union, for example, most countries use the euro. While individual countries give up the ability to set domestic monetary policy, they all participate in determining the monetary policy of the European Central Bank."
+        },
+        {
+          "type": "heading",
+          "text": "Countries That Have Their Own Currency"
+        },
+        {
+          "type": "paragraph",
+          "text": "A currency board arrangement is an explicit commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate. A notable example of"
+        },
+        {
+          "type": "paragraph",
+          "text": "such an arrangement is Hong Kong. In Hong Kong, currency is (and may be) only issued when fully backed by holdings of an equivalent amount of U.S. dollars. The Hong Kong Monetary Authority can earn interest on its U.S. dollar balances. With dollarization, there is no such income, as the income is earned by the U.S. Federal Reserve when it buys interest-bearing assets with the U.S. currency it issues. While the monetary authority gives up the ability to conduct independent monetary policy and essentially imports the inflation rate of the outside currency, there may be some latitude to affect interest rates over the short term."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a conventional fixed peg arrangement, a country pegs its currency within margins of ±1% versus another currency or a basket that includes the currencies of its major trading or financial partners. The monetary authority can maintain exchange rates within the band by purchasing or selling foreign currencies in the foreign exchange markets (direct intervention). In addition, the country can use indirect intervention, including changes in interest rate policy, regulation of foreign exchange transactions, and convincing people to constrain foreign exchange activity. The monetary authority retains more flexibility to conduct monetary policy than with dollarization, a monetary union, or a currency board. However, changes in policy are constrained by the requirements of the peg."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a system of pegged exchange rates within horizontal bands or a target zone, the permitted fluctuations in currency value relative to another currency or basket of currencies are wider (e.g., ±2%). Compared to a conventional peg, the monetary authority has more policy discretion because the bands are wider."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a crawling peg, the exchange rate is adjusted periodically, typically to adjust for higher inflation versus the currency used in the peg. This is termed a passive crawling peg as opposed to an active crawling peg, in which a series of exchange rate adjustments over time is announced and implemented. An active crawling peg can influence inflation expectations, adding some predictability to domestic inflation. Monetary policy is restricted in much the same way it is with a fixed peg arrangement."
+        },
+        {
+          "type": "paragraph",
+          "text": "With management of exchange rates within crawling bands, the width of the bands that identify permissible exchange rates is increased over time. This method can be used to transition from a fixed peg to a floating rate when the monetary authority’s lack of credibility makes an immediate change to floating rates impractical. Again, the degree of monetary policy flexibility increases with the width of the bands."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a system of managed floating exchange rates, the monetary authority attempts to influence the exchange rate in response to specific indicators such as the balance of payments, inflation rates, or employment without any specific target exchange rate or predetermined exchange rate path. Intervention may be direct or indirect. Such management of exchange rates may induce trading partners to respond in ways that reduce stability."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a currency is independently floating, the exchange rate is market determined, and foreign exchange market intervention is used only to slow the rate of change and reduce short-term fluctuations—not to keep exchange rates at a target level."
+        },
+        {
+          "type": "heading",
+          "text": "Changes in Exchange Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes in exchange rates can affect both imports and exports. If the USD/EUR exchange rate decreases, the USD has appreciated relative to the EUR. In this case, the USD prices of imports from the Eurozone have decreased, and it takes more euros to purchase a U.S. good at the new exchange rate. As a result, Eurozone imports from the United States (U.S. exports to the Eurozone) will decrease, and U.S. imports of Eurozone goods (Eurozone exports to the United States) will increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "The effects on the goods market (imports and exports of merchandise) occur more slowly than the effects on capital flows between countries. This is reflected in a country’s balance of payments. Essentially, the balance of payments refers to the fact that capital flows must offset any imbalance between the value of a country’s exports to and imports from another country."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two countries that have an imbalance between the value of their exports to and imports from another country, such as between China and the United States. Typically, U.S. imports from China have a greater value than U.S. exports to China. We say that the United States has a goods and services trade deficit with China and China has a trade surplus with the United States. Capital flows must offset this difference."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital flows result primarily from purchases of assets (both physical and financial) in one country by investors or governments in other countries. A large portion of the capital flows between the United States and China are purchases of U.S. debt securities by China. China has a capital account deficit that offsets its trade surplus with the United States."
+        },
+        {
+          "type": "paragraph",
+          "text": "The relation between the balance of trade and capital flows is expressed by the following identity, which was presented in the Economics prerequisite readings:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{(exports-imports)\\equiv(private~savings-investment~in~physical~capital)}}} \\\\ {{\\mathrm{+~(tax~revenue-government~spending)}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "8d1aa619580cef2d4a2b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "or:"
+        },
+        {
+          "type": "math",
+          "latex": "( \\mathrm{X}-\\mathrm{M} ) \\equiv( \\mathrm{S}-\\mathrm{I} )+( \\mathrm{T}-\\mathrm{G} )",
+          "display": true,
+          "sourceAsset": "01cee18f437fc74a8f12.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition is that a trade deficit (X − M < 0) means that the right-hand side must also be negative, which implies that total domestic savings (private savings + government savings) are less than domestic investment in physical capital. The additional amount to fund domestic investment must come from foreigners, which results in a surplus in the capital account to offset the deficit in the trade account. Another thing we can see from this identity is that any government deficit not funded by an excess of domestic saving over domestic investment is consistent with a trade deficit (imports > exports), which is offset by an inflow of foreign capital (a surplus in the capital account)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital flows adjust more rapidly than spending, savings, and asset prices, so they are the primary determinant of exchange rates in the short and intermediate term. Trade flows are more important in determining exchange rates in the long term as asset prices and saving/investment decisions adjust over time."
+        },
+        {
+          "type": "question",
+          "objectiveId": "18.c",
+          "text": "What should we know about common objectives of capital restrictions imposed by governments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Governments sometimes place restrictions on the flow of investment capital into their country, out of their country, or both. Commonly cited objectives of capital flow restrictions include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reduce the volatility of domestic asset prices. In times of macroeconomic crisis, capital flows out of the country can drive down asset prices drastically, especially with prices of liquid assets such as stocks and bonds. With no restrictions on inflows or outflows of foreign investment capital, the asset markets of countries with economies that are small relative to the amount of foreign investment can be quite volatile over a country’s economic cycle. Maintain fixed exchange rates. For countries with fixed exchange rate targets, limiting flows of foreign investment capital makes it easier to meet the exchange rate target— and, therefore, to be able to use monetary and fiscal policy to pursue only the economic goals for the domestic economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep domestic interest rates low. By restricting the outflow of investment capital, countries can keep their domestic interest rates low and manage the domestic economy with monetary policy, as investors cannot pursue higher rates in foreign countries. China is an example of a country with a fixed exchange rate regime where restrictions on capital flows allow policymakers to maintain the target exchange rate as well as to pursue a monetary policy independent of concerns about its effect on currency exchange rates. Protect strategic industries. Governments sometimes prohibit investment by foreign entities in industries considered to be important for national security, such as the telecommunications and defense industries."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "18.a",
+      "text": "What should we know about the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Currency exchange rates are given as the price of one unit of currency in terms of another. A nominal exchange rate of 1.44 USD/EUR is interpreted as $1.44 per euro. We refer to the USD as the price currency and the EUR as the base currency."
+    },
+    {
+      "type": "paragraph",
+      "text": "An increase (decrease) in an exchange rate represents an appreciation (depreciation) of the base currency relative to the price currency."
+    },
+    {
+      "type": "paragraph",
+      "text": "A spot exchange rate is the rate for immediate delivery. A forward exchange rate is a rate for exchange of currencies at some future date."
+    },
+    {
+      "type": "paragraph",
+      "text": "A real exchange rate measures changes in relative purchasing power over time:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\mathrm{real~exchange~rate}}={\\mathrm{nominal~exchange~rate}} \\times\\left( {\\frac{{\\mathrm{CPI}}_{{\\mathrm{base~currency}}}} {{\\mathrm{CPI}}_{{\\mathrm{price~currency}}}}} \\right)",
+      "display": true,
+      "sourceAsset": "0fe0d54ef8e6323463bb.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a change in an exchange rate, we can calculate the percentage appreciation (price goes up) or depreciation (price goes down) of the base currency. For example, a decrease in the USD/EUR exchange rate from 1.44 to 1.42 represents a depreciation of the EUR relative to the USD of 1.39% (1.42 / 1.44 − 1 = −0.0139) because the value of a euro has fallen 1.39%."
+    },
+    {
+      "type": "paragraph",
+      "text": "Given the depreciation of the EUR (base currency) of 1.39%, we can calculate the"
+    },
+    {
+      "type": "math",
+      "latex": "\\underbrace{\\mathrm{appreciation~of~the~price~currency~as~} \\frac{1} {( 1-0.0139 )}-1=0.0141=1.41 \\heartsuit_{b}}",
+      "display": true,
+      "sourceAsset": "e1309dd1d7fb8e69b33d.png",
+      "prose": "appreciation of the price currency as"
+    },
+    {
+      "type": "paragraph",
+      "text": "The market for foreign exchange is the largest financial market in terms of the value of daily transactions and has various participants, including large multinational banks (the sell side) and corporations, investment fund managers, hedge fund managers, investors, governments, and central banks (the buy side)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Participants in the foreign exchange markets are referred to as hedgers if they enter into transactions that decrease an existing foreign exchange risk, and as speculators if they enter into transactions that increase their foreign exchange risk."
+    },
+    {
+      "type": "question",
+      "objectiveId": "18.b",
+      "text": "What should we know about exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Exchange rate regimes for countries that do not have their own currency:"
+    },
+    {
+      "type": "paragraph",
+      "text": "With formal dollarization, a country uses the currency of another country."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a monetary union, several countries use a common currency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exchange rate regimes for countries that have their own currency:"
+    },
+    {
+      "type": "paragraph",
+      "text": "A currency board arrangement is an explicit commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate. In a conventional fixed peg arrangement, a country pegs its currency within margins of ±1% versus another currency. In a system of pegged exchange rates within horizontal bands or a target zone, the permitted fluctuations in currency value relative to another currency or basket of currencies are wider (e.g., ±2%). With a crawling peg, the exchange rate is adjusted periodically, typically to adjust for higher inflation versus the currency used in the peg."
+    },
+    {
+      "type": "paragraph",
+      "text": "With management of exchange rates within crawling bands, the width of the bands that identify permissible exchange rates is increased over time."
+    },
+    {
+      "type": "paragraph",
+      "text": "With a system of managed floating exchange rates, the monetary authority attempts to influence the exchange rate in response to specific indicators, such as the balance of payments, inflation rates, or employment, without any specific target exchange rate. When a currency is independently floating, the exchange rate is market determined."
+    },
+    {
+      "type": "question",
+      "objectiveId": "18.c",
+      "text": "What should we know about common objectives of capital restrictions imposed by governments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Commonly cited objectives of capital flow restrictions include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reducing the volatility of domestic asset prices Maintaining fixed exchange rates"
+    },
+    {
+      "type": "paragraph",
+      "text": "Keeping domestic interest rates low and enabling greater independence regarding monetary policy Protecting strategic industries from foreign ownership"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "18.a",
+      "statement": "Describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency.",
+      "question": "What should we know about the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency?"
+    },
+    {
+      "id": "18.b",
+      "statement": "Describe exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows.",
+      "question": "What should we know about exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows?"
+    },
+    {
+      "id": "18.c",
+      "statement": "Describe common objectives of capital restrictions imposed by governments.",
+      "question": "What should we know about common objectives of capital restrictions imposed by governments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-18-quiz-1",
+      "title": "Knowledge check 18.1",
+      "moduleId": "18.1",
+      "questions": [
+        {
+          "id": "r18-q1",
+          "number": 1,
+          "objectiveIds": [
+            "18.a"
+          ],
+          "prompt": "One year ago, the nominal exchange rate for USD/EUR was 1.300. Since then, the real exchange rate has increased by 3%. This most likely implies that:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the nominal exchange rate is less than USD/EUR 1.235."
+            },
+            {
+              "id": "B",
+              "text": "the purchasing power of the euro has increased approximately 3% in terms of U.S. goods."
+            },
+            {
+              "id": "C",
+              "text": "inflation in the euro zone was approximately 3% higher than inflation in the United States."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An increase in the real exchange rate USD/EUR (the number of USD per one EUR) means that a euro is worth more in purchasing power (real) terms in the United States. Changes in a real exchange rate depend on the change in the nominal exchange rate relative to the difference in inflation. By itself, a real exchange rate does not indicate the directions or degrees of change in either the nominal exchange rate or the inflation difference.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An increase in the real exchange rate USD/EUR (the number of USD per one EUR)"
+            },
+            {
+              "type": "paragraph",
+              "text": "means that a euro is worth more in purchasing power (real) terms in the United States. Changes in a real exchange rate depend on the change in the nominal exchange rate relative to the difference in inflation. By itself, a real exchange rate does not indicate the directions or degrees of change in either the nominal exchange rate or the inflation difference."
+            }
+          ]
+        },
+        {
+          "id": "r18-q2",
+          "number": 2,
+          "objectiveIds": [
+            "18.a"
+          ],
+          "prompt": "Sell-side participants in the foreign exchange market are most likely to include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "banks."
+            },
+            {
+              "id": "B",
+              "text": "hedge funds."
+            },
+            {
+              "id": "C",
+              "text": "insurance companies."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Large multinational banks make up the sell side of the foreign exchange market. The buy side includes corporations, real money and leveraged investment accounts, governments and government entities, and retail purchasers of foreign currencies.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Large multinational banks make up the sell side of the foreign exchange market."
+            },
+            {
+              "type": "paragraph",
+              "text": "The buy side includes corporations, real money and leveraged investment accounts, governments and government entities, and retail purchasers of foreign currencies."
+            }
+          ]
+        },
+        {
+          "id": "r18-q3",
+          "number": 3,
+          "objectiveIds": [
+            "18.a"
+          ],
+          "prompt": "Suppose that the quote for British pounds (GBP) in New York is USD/GBP 1.3110. What is the quote for U.S. dollars (USD) in London (GBP/USD)?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.3110."
+            },
+            {
+              "id": "B",
+              "text": "0.7628."
+            },
+            {
+              "id": "C",
+              "text": "1.3110."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "1 / 1.311 = 0.7628 GBP/USD",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "1 / 1.311 = 0.7628 GBP/USD"
+            }
+          ]
+        },
+        {
+          "id": "r18-q4",
+          "number": 4,
+          "objectiveIds": [
+            "18.a"
+          ],
+          "prompt": "The Canadian dollar (CAD) exchange rate with the Japanese yen (JPY) changes from JPY/CAD 75 to JPY/CAD 78. The CAD has:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "depreciated by 3.8%, and the JPY has appreciated by 4.0%."
+            },
+            {
+              "id": "B",
+              "text": "appreciated by 3.8%, and the JPY has depreciated by 4.0%."
+            },
+            {
+              "id": "C",
+              "text": "appreciated by 4.0%, and the JPY has depreciated by 3.8%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The CAD has appreciated because it is worth a larger number of JPY. The percentage appreciation is (78 − 75) / 75 = 4.0%. To calculate the percentage depreciation of the JPY against the CAD, convert the exchange rates to make JPY the base currency: 1 / 75 = 0.0133 CAD/JPY and 1 / 78 = 0.0128 CAD/JPY. Percentage depreciation = (0.0128 − 0.0133) / 0.0133 = −3.8%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The CAD has appreciated because it is worth a larger number of JPY. The"
+            },
+            {
+              "type": "paragraph",
+              "text": "percentage appreciation is (78 − 75) / 75 = 4.0%. To calculate the percentage depreciation of the JPY against the CAD, convert the exchange rates to make JPY the base currency: 1 / 75 = 0.0133 CAD/JPY and 1 / 78 = 0.0128 CAD/JPY. Percentage depreciation = (0.0128 − 0.0133) / 0.0133 = −3.8%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-18-quiz-2",
+      "title": "Knowledge check 18.2",
+      "moduleId": "18.2",
+      "questions": [
+        {
+          "id": "r18-q5",
+          "number": 1,
+          "objectiveIds": [
+            "18.b"
+          ],
+          "prompt": "The monetary authority of the Stoddard Islands will exchange its currency for U.S. dollars at a one-for-one ratio. As a result, the exchange rate of the Stoddard Islands currency with the U.S. dollar is 1.00, and many businesses in the Islands will accept U.S. dollars in transactions. This exchange rate regime is best described as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a fixed peg."
+            },
+            {
+              "id": "B",
+              "text": "dollarization."
+            },
+            {
+              "id": "C",
+              "text": "a currency board."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "This exchange rate regime is a currency board arrangement. The country has not formally dollarized because it continues to issue a domestic currency. A conventional fixed peg allows for a small degree of fluctuation around the target exchange rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This exchange rate regime is a currency board arrangement. The country has not"
+            },
+            {
+              "type": "paragraph",
+              "text": "formally dollarized because it continues to issue a domestic currency. A conventional fixed peg allows for a small degree of fluctuation around the target exchange rate."
+            }
+          ]
+        },
+        {
+          "id": "r18-q6",
+          "number": 2,
+          "objectiveIds": [
+            "18.b"
+          ],
+          "prompt": "Other things equal, which of the following is most likely to decrease a country’s trade deficit?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Increase the capital account surplus."
+            },
+            {
+              "id": "B",
+              "text": "Decrease expenditures relative to income."
+            },
+            {
+              "id": "C",
+              "text": "Decrease domestic saving relative to domestic investment."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An improvement in a trade deficit requires that domestic saving increase relative to domestic investment, which would decrease a capital account surplus. Decreasing expenditures relative to income means domestic savings increase. Decreasing domestic saving relative to domestic investment is consistent with a larger capital account surplus (an increase in net foreign borrowing) and a greater trade deficit.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An improvement in a trade deficit requires that domestic saving increase relative"
+            },
+            {
+              "type": "paragraph",
+              "text": "to domestic investment, which would decrease a capital account surplus. Decreasing expenditures relative to income means domestic savings increase. Decreasing domestic saving relative to domestic investment is consistent with a larger capital account surplus (an increase in net foreign borrowing) and a greater trade deficit."
+            }
+          ]
+        },
+        {
+          "id": "r18-q7",
+          "number": 3,
+          "objectiveIds": [
+            "18.c"
+          ],
+          "prompt": "The goal of a government that imposes restrictions on foreign capital flows is most likely to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "stimulate domestic interest rates."
+            },
+            {
+              "id": "B",
+              "text": "decrease domestic asset price volatility."
+            },
+            {
+              "id": "C",
+              "text": "encourage competition with domestic industries."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Decreasing the volatility of domestic asset prices may be a goal of a government that imposes capital restrictions. Other typical goals include keeping domestic interest rates low and protecting certain domestic industries, such as the defense industry.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Decreasing the volatility of domestic asset prices may be a goal of a government"
+            },
+            {
+              "type": "paragraph",
+              "text": "that imposes capital restrictions. Other typical goals include keeping domestic interest rates low and protecting certain domestic industries, such as the defense industry."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

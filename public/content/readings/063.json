@@ -1,0 +1,335 @@
+{
+  "readingId": 63,
+  "title": "Fixed-Income Securitization",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "63.1",
+      "title": "Fixed-Income Securitization",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "63.a",
+          "text": "How can we explain benefits of securitization for issuers, investors, economies, and financial markets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The securitization process involves the following steps:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: A bank making loans or a corporation extending credit to customers (referred to"
+        },
+        {
+          "type": "paragraph",
+          "text": "as the originator) creates a pool of debt-based assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: The pool of assets (referred to as the collateral) is sold to a separate legal entity,"
+        },
+        {
+          "type": "paragraph",
+          "text": "referred to as a special purpose entity (SPE)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 3: The SPE issues fixed-income securities (referred to as asset-backed securities, or"
+        },
+        {
+          "type": "paragraph",
+          "text": "ABSs) supported by the cash flows from the collateral (i.e., the borrowers making repayments on their loans). These ABSs are purchased by investors, such as pension funds or fixed-income funds, that deem the risk/reward of the underlying collateral to be attractive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Securitization connects the owners of capital (investors) with those that require capital (the borrowers in the collateral pool) and removes the originating bank or corporation from the intermediation process."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Care must be taken with the use of the word issuer, as the Level I curriculum applies it two different ways. In this lesson, we uses the term issuer to refer to the banks and corporations that act as originators in the securitization process in Step 1. In a securitization, the actual issuer of the ABS is the special purpose entity in Step 2. If you are asked about the “advantages of securitization to issuers,” you should assume the question is asking you about the advantages to the originator. However, a general reference to the issuer in a securitization should be assumed to refer to the SPE."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benefits of securitization to issuers (the originating bank/corporation) are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increased business activity. By securitizing loans, banks are able to lend more than they could if they had to finance the loans through their own balance sheet (i.e., by raising more deposits or other liabilities). When a loan portfolio is securitized, the bank receives the proceeds, which can then be used to make more loans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Improved profitability. The originating bank or corporation can charge fees for originating the initial transaction that creates the collateral (e.g., making the mortgage loan in the first place) and for selling the collateral to the SPE. Lower capital reserves for banks. By selling loans to the SPE, an originating bank removes credit risk from its balance sheet, thereby reducing the capital reserves that regulators require the bank to hold. This allows the bank to allocate more funds to profitable activities such as lending or other investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Improved liquidity. Banks can use securitization to sell illiquid loan portfolios, thereby operating more efficiently from a risk/return perspective."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benefits of securitization to investors are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tailored risk and return. Securitization allows issuers to create securities with risk/return profiles that align with the needs of investors. As an example, an investor with a long investment horizon can invest in a portfolio of long-term mortgage loans at acceptable levels of risk and earn returns higher than those of long-dated Treasuries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Access. By investing in ABSs, investors are able to access the collateral pool without having the specialized resources and expertise necessary to provide loan origination and loan servicing functions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity. ABSs are liquid securities that can be sold to other investors more easily than the underlying collateral, which allows investors to react more quickly to changes in market conditions than they could if they held the loans directly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Benefits of securitization to economies and financial markets are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Decreased liquidity risk. ABSs are more liquid than the underlying collateral. Hence, securitization improves liquidity in financial markets. Improved market efficiency. The greater liquidity of ABSs than the underlying collateral allows investors to set equilibrium prices, which makes the market more efficient (i.e., more reflective of current investor opinion). Lower financing costs for originators. Securitization can provide a source of finance for originators that is lower than the cost of issuing debt or equity directly to investors. Lower leverage for originators. Securitization allows originators to grow their business without having to increase debt on their balance sheets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The risks to investors in ABSs are twofold:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flows from the collateral to the ABS investors are uncertain and can vary in timing and size (e.g., mortgage borrowers may prepay their mortgages at a rate that is different to what was expected). The credit risk of the collateral is passed through to investors in the ABS. Systemic buildup of credit risk in ABSs can create risks for the financial system, as shown by the financial crisis of 2007–2009."
+        },
+        {
+          "type": "question",
+          "objectiveId": "63.b",
+          "text": "What should we know about securitization, including the parties and the roles they play?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can illustrate the basic structure of a securitization transaction with this simplified, fictitious example of Fred Motor Company."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fred Motor Company (Fred) sells most of its cars on retail sales installment contracts (i.e., auto loans). The customers buy the automobiles, and Fred loans the customers the money for the purchase (i.e., Fred originates the loans) secured on the autos and receives principal and interest payments on the loans until they mature. Fred is also the servicer of the loans (i.e., collects principal and interest payments, sends out delinquency notices, and repossesses and disposes of autos if customers do not make timely payments) through a subsidiary established by Fred to perform financial services."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fred has 50,000 auto loans totaling $1 billion that it would like to remove from its balance sheet and use the proceeds to make more auto loans. It accomplishes this by selling the loan portfolio to an SPE called Auto Loan Trust for $1 billion (Fred is called the seller or depositor). The SPE, which is set up for the specific purpose of buying these auto loans and selling ABSs, is referred to as the trust or the issuer. The SPE then sells ABSs to investors. The loan portfolio is the collateral supporting the ABS because the cash flows from the loans are the source of the funds to make the promised payments to ABS investors. An SPE is sometimes also called a special purpose company or special purpose vehicle (SPV). The SPE is a separate legal entity from Fred."
+        },
+        {
+          "type": "paragraph",
+          "text": "Let’s review the parties to this transaction and their functions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The seller or depositor (Fred) originates the auto loans and sells the portfolio of loans to Auto Loan Trust, the SPE."
+        },
+        {
+          "type": "paragraph",
+          "text": "The issuer/trust (Auto Loan Trust) is the SPE that buys the loans from the seller and issues ABSs to investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The servicer (Fred) services the loans. In this case, the seller and the servicer are the same entity (Fred Motor Company), but that is not always the case."
+        },
+        {
+          "type": "paragraph",
+          "text": "The structure of this securitization transaction is illustrated in Figure 63.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 63.1: Structure of Fred Motor Company Asset Securitization"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/297803755043c81bcb67.png",
+          "alt": "Equation, table, or diagram: Figure 63.1: Structure of Fred Motor Company Asset Securitization",
+          "width": 350,
+          "height": 249,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Subsequent to the initial transaction, the principal and interest payments on the original loans are allocated to pay servicing fees to the servicer and principal and interest payments to the owners of the ABSs. A trustee is also appointed to oversee the safekeeping of collateral and cash flows due to the ABS investors and provide information to ABS holders (known as a disinterested trustee because they have no other interest in the structure)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the SPE is a separate legal entity from Fred, a decline in the financial position of Fred does not affect the value of the claims of ABS owners to the cash flows from the trust collateral owned by the SPE. This is referred to as the SPE being bankruptcy remote from the originator. This also means that the buyers of the ABS have no claim on other assets of Fred—only on the collateral sold to the SPE. If Fred had instead issued corporate bonds to finance more auto loans, the bondholders would be subject to the financial risks of Fred."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outside of the bond indenture and covenants, important documents involved in the securitization process include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The purchase agreement, which describes the terms of the purchase of the collateral by the SPE from the seller"
+        },
+        {
+          "type": "paragraph",
+          "text": "The prospectus, which describes the terms of the securitization with respect to fees made to servicers and other administrators and how cash flows from the collateral are distributed to ABS investors"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "63.a",
+      "text": "How can we explain benefits of securitization for issuers, investors, economies, and financial markets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits of securitization to the originators of the collateral include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Increased business activity through re-lending the proceeds Improved profitability from fees for originating and arranging the sale of collateral"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower capital reserves after removing the collateral from their balance sheets Increased liquidity of the underlying collateral"
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits of securitization to ABS investors include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risk and return tailored to the requirements of the investor Access to collateral that investors would have difficulty accessing directly Greater liquidity than the underlying collateral"
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits of securitization to economies and financial markets include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Decreased liquidity risk, because ABSs can be traded more easily than the underlying collateral"
+    },
+    {
+      "type": "paragraph",
+      "text": "Improved market efficiency, because increased trading helps markets trade at equilibrium prices"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower financing costs and leverage for originators"
+    },
+    {
+      "type": "paragraph",
+      "text": "Risks to ABS investors include uncertain size and timing of cash flows and credit risk of the collateral."
+    },
+    {
+      "type": "question",
+      "objectiveId": "63.b",
+      "text": "What should we know about securitization, including the parties and the roles they play?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parties to a securitization are a seller of financial assets, an SPE, and a servicer:"
+    },
+    {
+      "type": "paragraph",
+      "text": "The seller is the firm that is raising funds through the securitization. An SPE is an entity independent of the seller. The SPE buys financial assets from the seller and issues ABSs supported by these financial assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "The servicer carries out collections and other responsibilities related to the financial assets. The servicer may be the same entity as the seller, but does not have to be."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "63.a",
+      "statement": "Explain benefits of securitization for issuers, investors, economies, and financial markets.",
+      "question": "How can we explain benefits of securitization for issuers, investors, economies, and financial markets?"
+    },
+    {
+      "id": "63.b",
+      "statement": "Describe securitization, including the parties and the roles they play.",
+      "question": "What should we know about securitization, including the parties and the roles they play?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-63-quiz-1",
+      "title": "Knowledge check 63.1",
+      "moduleId": "63.1",
+      "questions": [
+        {
+          "id": "r63-q1",
+          "number": 1,
+          "objectiveIds": [
+            "63.a"
+          ],
+          "prompt": "Economic benefits of securitization least likely include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "reducing excessive lending by banks."
+            },
+            {
+              "id": "B",
+              "text": "reducing funding costs for firms that securitize assets."
+            },
+            {
+              "id": "C",
+              "text": "increasing the liquidity of the underlying financial assets."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Companies that securitize loans they hold as assets receive cash with which they can make additional loans. The primary benefits of securitization to the economy include reducing firms’ funding costs and increasing the liquidity of the financial assets that are securitized.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Companies that securitize loans they hold as assets receive cash with which they"
+            },
+            {
+              "type": "paragraph",
+              "text": "can make additional loans. The primary benefits of securitization to the economy include reducing firms’ funding costs and increasing the liquidity of the financial assets that are securitized."
+            }
+          ]
+        },
+        {
+          "id": "r63-q2",
+          "number": 2,
+          "objectiveIds": [
+            "63.b"
+          ],
+          "prompt": "In a securitization, the issuer of asset-backed securities is best described as the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "special purpose entity."
+            },
+            {
+              "id": "B",
+              "text": "seller."
+            },
+            {
+              "id": "C",
+              "text": "servicer."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "ABSs are issued by a special purpose entity (SPE), which is an entity created for that specific purpose. In a securitization, the firm that is securitizing financial assets is described as the seller because it sells the assets to the SPE. The servicer is the entity that deals with collections on the securitized assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "ABSs are issued by a special purpose entity (SPE), which is an entity created for"
+            },
+            {
+              "type": "paragraph",
+              "text": "that specific purpose. In a securitization, the firm that is securitizing financial"
+            },
+            {
+              "type": "paragraph",
+              "text": "assets is described as the seller because it sells the assets to the SPE. The servicer is the entity that deals with collections on the securitized assets."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

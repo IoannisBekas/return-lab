@@ -1,0 +1,1651 @@
+{
+  "readingId": 39,
+  "title": "Market Organization and Structure",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "39.1",
+      "title": "Markets, Assets, and Intermediaries",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "39.a",
+          "text": "How can we explain the main functions of the financial system?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The three main functions of the financial system are to:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Allow entities to save and borrow money, raise equity capital, manage risks, trade"
+        },
+        {
+          "type": "paragraph",
+          "text": "assets currently or in the future, and trade based on their estimates of asset values.\n2. Determine the returns (i.e., interest rates) that equate the total supply of savings with"
+        },
+        {
+          "type": "paragraph",
+          "text": "the total demand for borrowing.\n3. Allocate capital to its most efficient uses."
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial system allows the transfer of assets and risks from one entity to another as well as across time. Entities who utilize the financial system include individuals, firms, governments, charities, and others."
+        },
+        {
+          "type": "heading",
+          "text": "Achievement of Purposes in the Financial System"
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial system allows entities to save, borrow, issue equity capital, manage risks, exchange assets, and to utilize information. The financial system is best at fulfilling these roles when the markets are liquid, transactions costs are low, information is readily available, and when regulation ensures the execution of contracts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Savings. Individuals will save (e.g., for retirement) and expect a return that compensates them for risk and the use of their money. Firms save a portion of their sales to fund future expenditures. Vehicles used for saving include stocks, bonds, certificates of deposit, real assets, and other assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Borrowing. Individuals may borrow in order to buy a house, fund a college education, or for other purposes. A firm may borrow in order to finance capital expenditures and for other activities. Governments may issue debt to fund their expenditures. Lenders can require collateral to protect them in the event of borrower defaults, take an equity position, or investigate the credit risk of the borrower."
+        },
+        {
+          "type": "paragraph",
+          "text": "Issuing equity. Another method of raising capital is to issue equity, where the capital providers will share in any future profits. Investment banks help with issuance, analysts value the equity, and regulators and accountants encourage the dissemination of information."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk management. Entities face risks from changing interest rates, currency values, commodities values, and defaults on debt, among other things. For example, a firm that owes a foreign currency in 90 days can lock in the price of this foreign currency in domestic currency units by entering into a forward contract. Future delivery of the foreign currency is guaranteed at a domestic-currency price set at inception of the contract. In this transaction, the firm would be referred to as a hedger. This hedging allows the firm to enter a market that it would otherwise be reluctant to enter by reducing the risk of the transaction. Hedging instruments are available from exchanges, investment banks, insurance firms, and other institutions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exchanging assets. The financial system also allows entities to exchange assets. For example, Proctor and Gamble may sell soap in Europe but have costs denominated in U.S. dollars. Proctor and Gamble can exchange their euros from soap sales for dollars in the currency markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Utilizing information. Investors with information expect to earn a return on that information in addition to their usual return. Investors who can identify assets that are currently undervalued or overvalued in the market can earn extra returns from investing based on their information (when their analysis is correct)."
+        },
+        {
+          "type": "heading",
+          "text": "Return Determination"
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial system also provides a mechanism to determine the rate of return that equates the amount of borrowing with the amount of lending (saving) in an economy. Low rates of return increase borrowing but reduce saving (increase current consumption). High rates of return increase saving but reduce borrowing. The equilibrium interest rate is the rate at which the amount individuals, businesses, and governments desire to borrow is equal to the amount that individuals, businesses, and governments desire to lend. Equilibrium rates for different types of borrowing and lending will differ due to differences in risk, liquidity, and maturity."
+        },
+        {
+          "type": "heading",
+          "text": "Allocation of Capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "With limited availability of capital, one of the most important functions of a financial system is to allocate capital to its most efficient uses. Investors weigh the expected risks and returns of different investments to determine their most preferred investments. As long as investors are well informed regarding risk and return and markets function well, this results in an allocation to capital to its most valuable uses."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.b",
+          "text": "What should we know about classifications of assets and markets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial assets include securities (stocks and bonds), derivative contracts, and currencies. Real assets include real estate, equipment, commodities, and other physical assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial securities can be classified as debt or equity. Debt securities are promises to repay borrowed funds. Equity securities represent ownership positions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Public (publicly traded) securities are traded on exchanges or through securities dealers and are subject to regulatory oversight. Securities that are not traded in public"
+        },
+        {
+          "type": "paragraph",
+          "text": "markets are referred to as private securities. Private securities are often illiquid and not subject to regulation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivative contracts have values that depend on (are derived from) the values of other assets. Financial derivative contracts are based on equities, equity indexes, debt, debt indexes, or other financial contracts. Physical derivative contracts derive their values from the values of physical assets such as gold, oil, and wheat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Markets for immediate delivery are referred to as spot markets. Contracts for the future delivery of physical and financial assets include forwards, futures, and options. Options provide the buyer the right, but not the obligation, to purchase (or sell) assets over some period or at some future date at predetermined prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "The primary market is the market for newly issued securities. Subsequent sales of securities are said to occur in the secondary market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Money markets refer to markets for debt securities with maturities of one year or less. Capital markets refer to markets for longer-term debt securities and equity securities that have no specific maturity date."
+        },
+        {
+          "type": "paragraph",
+          "text": "Traditional investment markets refer to those for debt and equity. Alternative markets refer to those for hedge funds, commodities, real estate, collectibles, gemstones, leases, and equipment. Alternative assets are often more difficult to value, illiquid, require investor due diligence, and therefore often sell at a discount."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.c",
+          "text": "What should we know about the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assets can be classified as securities, currencies, contracts, commodities, and real assets. Their characteristics and subtypes are as follows."
+        },
+        {
+          "type": "heading",
+          "text": "Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities can be classified as fixed-income or equity securities, and individual securities can be combined in pooled investment vehicles. Corporations and governments are the most common issuers of individual securities. The initial sale of a security is called an issue when the security is sold to the public."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fixed-income securities typically refer to debt securities that are promises to repay borrowed money in the future. Short-term fixed-income securities generally have a maturity of less than one or two years; long-term term maturities are longer than five to ten years, and intermediate term maturities fall in the middle of the maturity range."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the terms are used loosely, bonds are generally long term, whereas notes are intermediate term. Commercial paper refers to short-term debt issued by firms. Governments issue bills and banks issue certificates of deposit. In repurchase agreements, the borrower sells a high-quality asset and has both the right and obligation to repurchase it (at a higher price) in the future. Repurchase agreements can be for terms as short as one day."
+        },
+        {
+          "type": "paragraph",
+          "text": "Convertible debt is debt that an investor can exchange for a specified number of equity shares of the issuing firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Equity securities represent ownership in a firm and include common stock, preferred stock, and warrants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Common stock is a residual claim on a firm’s assets. Common stock dividends are paid only after interest is paid to debtholders and dividends are paid to preferred stockholders. Furthermore, in the event of firm liquidation, debtholders and preferred stockholders have priority over common stockholders and are usually paid in full before common stockholders receive any payment. Preferred stock is an equity security with scheduled dividends that typically do not change over the security’s life and must be paid before any dividends on common stock may be paid."
+        },
+        {
+          "type": "paragraph",
+          "text": "Warrants are similar to options in that they give the holder the right to buy a firm’s equity shares (usually common stock) at a fixed exercise price prior to the warrant’s expiration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pooled investment vehicles include mutual funds, depositories, and hedge funds. The term refers to structures that combine the funds of many investors in a portfolio of investments. The investor’s ownership interests are referred to as shares, units, depository receipts, or limited partnership interests."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mutual funds are pooled investment vehicles in which investors can purchase shares, either from the fund itself (open-end funds) or in the secondary market (closed-end funds). Exchange-traded funds (ETFs) and exchange-traded notes (ETNs) trade like closed-end funds but have special provisions allowing conversion into individual portfolio securities, or exchange of portfolio shares for ETF shares, that keep their market prices close to the value of their proportional interest in the overall portfolio. These funds are sometimes referred to as depositories, with their shares referred to as depository receipts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset-backed securities represent a claim to a portion of a pool of financial assets such as mortgages, car loans, or credit card debt. The return from the assets is passed through to investors, with different classes of claims (referred to as tranches) having different levels of risk. Hedge funds are organized as limited partnerships, with the investors as the limited partners and the fund manager as the general partner. Hedge funds utilize various strategies and purchase is usually restricted to investors of substantial wealth and investment knowledge. Hedge funds often use leverage. Hedge fund managers are compensated based on the amount of assets under management as well as on their investment results."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset-backed securities are described in more detail in Fixed Income. Mutual funds and ETFs are discussed in Portfolio Management. Hedge funds are discussed in Alternative Investments."
+        },
+        {
+          "type": "heading",
+          "text": "Currencies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Currencies are issued by a government’s central bank. Some are referred to as reserve currencies, which are those held by governments and central banks worldwide. These include the dollar and euro and, secondarily, the British pound, Japanese yen, and Swiss franc. In spot currency markets, currencies are traded for immediate delivery."
+        },
+        {
+          "type": "heading",
+          "text": "Contracts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contracts are agreements between two parties that require some action in the future, such as exchanging an asset for cash. Financial contracts are often based on securities, currencies, commodities, or security indexes (portfolios). They include futures, forwards, options, swaps, and insurance contracts."
+        },
+        {
+          "type": "paragraph",
+          "text": "A forward contract is an agreement to buy or sell an asset in the future at a price specified in the contract at its inception. An agreement to purchase 100 ounces of gold 90 days from now for $2,000 per ounce is a forward contract. Forward contracts are not traded on exchanges or in dealer markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Futures contracts are similar to forward contracts except that they are standardized as to amount, asset characteristics, and delivery time and are traded on an exchange (in a secondary market) so that they are liquid investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a swap contract, two parties make payments that are equivalent to one asset being traded (swapped) for another. In a simple interest rate swap, floating rate interest payments are exchanged for fixed-rate payments over multiple settlement dates. A currency swap involves a loan in one currency for the loan of another currency for a period of time. An equity swap involves the exchange of the return on an equity index or portfolio for the interest payment on a debt instrument."
+        },
+        {
+          "type": "paragraph",
+          "text": "An option contract gives its owner the right to buy or sell an asset at a specific exercise price at some specified time in the future. A call option gives the option buyer the right (but not the obligation) to buy an asset. A put option gives the option buyer the right (but not the obligation) to sell an asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sellers, or writers, of call (put) options receive a payment, referred to as the option premium, when they sell the options but incur the obligation to sell (buy) the asset at the specified price if the option owner chooses to exercise it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Options on currencies, stocks, stock indexes, futures, swaps, and precious metals are traded on exchanges. Customized options contracts are also sold by dealers in the over-the-counter market."
+        },
+        {
+          "type": "paragraph",
+          "text": "An insurance contract pays a cash amount if a future event occurs. They are used to hedge against unfavorable, unexpected events. Examples include life, liability, and automobile insurance contracts. Insurance contracts can sometimes be traded to other parties and often have tax-advantaged payouts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit default swaps are a form of insurance that makes a payment if an issuer defaults on its bonds. They can be used by bond investors to hedge default risk. They can also be used by parties that will experience losses if an issuer experiences financial"
+        },
+        {
+          "type": "paragraph",
+          "text": "distress and by others who are speculating that the issuer will experience more or less financial trouble than is currently expected."
+        },
+        {
+          "type": "heading",
+          "text": "Commodities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commodities trade in spot, forward, and futures markets. They include precious metals, industrial metals, agricultural products, energy products, and credits for carbon reduction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Futures and forwards allow both hedgers and speculators to participate in commodity markets without having to deliver or store the physical commodities."
+        },
+        {
+          "type": "heading",
+          "text": "Real Assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples of real assets are real estate, equipment, and machinery. Although they have been traditionally held by firms for their use in production, real assets are increasingly held by institutional investors both directly and indirectly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Buying real assets directly often provides income, tax advantages, and diversification benefits. However, they often entail substantial management costs. Furthermore, because of their heterogeneity, they usually require the investor to do substantial due diligence before investing. They are illiquid because their specialization may result in a limited pool of investors for a particular real asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than buying real assets directly, an investor may choose to buy them indirectly through an investment such as a real estate investment trust (REIT) or master limited partnership (MLP). The investor owns an interest in these vehicles, which hold the assets directly. Indirect ownership interests are typically more liquid than ownership of the assets themselves. Another indirect ownership method is to buy the stock of firms that have large ownership of real assets."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.d",
+          "text": "What should we know about types of financial intermediaries and services that they provide?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial intermediaries stand between buyers and sellers, facilitating the exchange of assets, capital, and risk. Their services allow for greater efficiency and are vital to a well-functioning economy. Financial intermediaries include brokers and exchanges, dealers, securitizers, depository institutions, insurance companies, arbitrageurs, and clearinghouses."
+        },
+        {
+          "type": "heading",
+          "text": "Brokers, Dealers, and Exchanges"
+        },
+        {
+          "type": "paragraph",
+          "text": "Brokers help their clients buy and sell securities by finding counterparties to trades in a cost efficient manner. They may work for large brokerage firms, for banks, or at exchanges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Block brokers help with the placement of large trades. Typically, large trades are difficult to place without moving the market. For example, a large sell order might cause a security’s price to decrease before the order can be fully executed. Block"
+        },
+        {
+          "type": "paragraph",
+          "text": "brokers help conceal their clients’ intentions so that the market does not move against them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investment banks help corporations sell common stock, preferred stock, and debt securities to investors. They also provide advice to firms, notably about mergers, acquisitions, and raising capital."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exchanges provide a venue where traders can meet. Exchanges sometimes act as brokers by providing electronic order matching. Exchanges regulate their members and require firms that list on the exchange to provide timely financial disclosures and to promote shareholder democratization. Exchanges acquire their regulatory power through member agreement or from their governments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternative trading systems (ATS), which serve the same trading function as exchanges but have no regulatory function, are also known as electronic communication networks (ECNs) or multilateral trading facilities (MTFs). ATS that do not reveal current client orders are known as dark pools."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dealers facilitate trading by buying for or selling from their own inventory. Dealers provide liquidity in the market and profit primarily from the spread (difference) between the price at which they will buy (bid price) and the price at which they will sell (ask price) the security or other asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some dealers also act as brokers. Broker-dealers have an inherent conflict of interest. As brokers, they should seek the best prices for their clients, but as dealers, their goal is to profit through prices or spreads. As a result, traders typically place limits on how their orders are filled when they transact with broker-dealers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dealers that trade with central banks when the banks buy or sell government securities in order to affect the money supply are referred to as primary dealers."
+        },
+        {
+          "type": "heading",
+          "text": "Securitizers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Securitizers pool large amounts of securities or other assets and then sell interests in the pool to other investors. The returns from the pool, net of the securitizer’s fees, are passed through to the investors. By securitizing the assets, the securitizer creates a diversified pool of assets with more predictable cash flows than the individual assets in the pool. This creates liquidity in the assets because the ownership interests are more easily valued and traded. There are also economies of scale in the management costs of large pools of assets and potential benefits from the manager’s selection of assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assets that are often securitized include mortgages, car loans, credit card receivables, bank loans, and equipment leases. The primary benefit of securitization is to decrease the funding costs for the assets in the pool. A firm may set up a special purpose vehicle (SPV) or special purpose entity (SPE) to buy firm assets, which removes them from the firm’s balance sheet and may increase their value by removing the risk that financial trouble at the firm will give other investors a claim to the assets’ cash flows."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash flows from securitized assets can be segregated by risk. The different risk categories are called tranches. The senior tranches provide the most certain cash flows, while the junior tranches have greater risk."
+        },
+        {
+          "type": "heading",
+          "text": "Depository Institutions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples of depository institutions include banks, credit unions, and savings and loans. They pay interest on customer deposits and provide transaction services such as checking accounts. These financial intermediaries then make loans with the funds, which offer diversification benefits. The intermediaries have expertise in evaluating credit quality and managing the risk of a portfolio of loans of various types."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other intermediaries, such as payday lenders and factoring companies, lend money to firms and individuals on the basis of their wages, accounts receivable, and other future cash flows. These intermediaries often finance the loans by issuing commercial paper or other debt securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities brokers provide loans to investors who purchase securities on margin. When this margin lending is to hedge funds and other institutions, the brokers are referred to as prime brokers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The equity owners (stockholders) of banks, brokers, and other intermediaries absorb any loan losses before depositors and other lenders. The more equity capital an intermediary has, the less risk for depositors. Poorly capitalized intermediaries (those with less equity) have less incentive to reduce the risk of their loan portfolios because they have less capital at risk."
+        },
+        {
+          "type": "heading",
+          "text": "Insurance Companies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurance companies are intermediaries, in that they collect insurance premiums in return for providing risk reduction to the insured. The insurance firm can do this efficiently because it provides protection to a diversified pool of policyholders, whose risks of loss are typically uncorrelated. This provides more predictable losses and cash flows compared to a single insurance contract, in the same way that a bank’s diversified portfolio of loans diversifies the risk of loan defaults."
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurance firms also provide a benefit to investors by managing the risks inherent in insurance: moral hazard, adverse selection, and fraud. Moral hazard occurs because the insured may take more risks once he is protected against losses. Adverse selection occurs when those most likely to experience losses are the predominant buyers of insurance. In fraud, the insured purposely causes damage or claims fictitious losses so he can collect on his insurance policy."
+        },
+        {
+          "type": "heading",
+          "text": "Arbitrageurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "In its pure (riskless) form, arbitrage refers to buying an asset in one market and reselling it in another at a higher price. By doing so, arbitrageurs act as intermediaries, providing liquidity to participants in the market where the asset is purchased and transferring the asset to the market where it is sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "In markets with good information, pure arbitrage is rare because traders will favor the markets with the best prices. More commonly, arbitrageurs try to exploit pricing differences for similar instruments. For example, a dealer who sells a call option will often also buy the stock because the call and stock price are highly correlated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Likewise, arbitrageurs will attempt to exploit discrepancies in the pricing of the call and stock. Many (risk) arbitrageurs use complex models for valuation of related securities and for risk control. Creating similar positions using different assets is referred to as replication. This is also a form of intermediation because similar risks are traded in different forms and in different markets."
+        },
+        {
+          "type": "heading",
+          "text": "Clearinghouses and Custodians"
+        },
+        {
+          "type": "paragraph",
+          "text": "Clearinghouses act as intermediaries between buyers and sellers in financial markets and provide:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Escrow services (transferring cash and assets to the respective parties). Guarantees of contract completion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assurance that margin traders have adequate capital. Limits on the aggregate net order quantity (buy orders minus sell orders) of members."
+        },
+        {
+          "type": "paragraph",
+          "text": "Through these activities, clearinghouses limit counterparty risk, the risk that the other party to a transaction will not fulfill its obligation. In some markets, the clearinghouse ensures only the trades of its member brokers and dealers, who, in turn, ensure the trades of their retail customers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Custodians also improve market integrity by holding client securities and preventing their loss due to fraud or other events that affect the broker or investment manager."
+        }
+      ]
+    },
+    {
+      "id": "39.2",
+      "title": "Positions and Leverage",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "39.e",
+          "text": "How can we compare positions an investor can take in an asset?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor who owns an asset, or has the right or obligation under a contract to purchase an asset, is said to have a long position. A short position can result from borrowing an asset and selling it, with the obligation to replace the asset in the future (a short sale). The party to a contract who must sell or deliver an asset in the future is also said to have a short position. In general, investors who are long benefit from an increase in the price of an asset and those who are short benefit when the asset price declines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedgers use short positions in one asset to hedge an existing risk from a long position in another asset that has returns that are strongly correlated with the returns of the asset shorted. For example, wheat farmers may take a short position in (i.e., sell) wheat futures contracts. If wheat prices fall, the resulting increase in the value of the short futures position offsets, partially or fully, the loss in the value of the farmer’s crop."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "As a rule of thumb, hedgers must “do in the futures market what they must do in the future.” Thus, the farmer who must sell wheat in the future can reduce the risk from wheat price fluctuations by selling wheat futures."
+        },
+        {
+          "type": "paragraph",
+          "text": "The buyer of an option contract is said to be long the option. The seller is short the option and is said to have written the option. Note that an investor who is long (buys) a call option on an asset profits when the value of the underlying asset increases in value, while the party short the option has losses. A long position in a put option on an asset has the right to sell the asset at a specified price and profits when the price of the underlying asset falls, while the party short the option has losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "In swaps, each party is long one asset and short the other, so the designation of the long and short side is often arbitrary. Usually, however, the side that benefits from an increase in the quoted price or rate is referred to as the long side."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a currency contract, each party is long one currency and short the other. For example, the buyer of a euro futures contract priced in dollars is long the euro and short the dollar."
+        },
+        {
+          "type": "heading",
+          "text": "Short Sales and Positions"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a short sale, the short seller (1) simultaneously borrows and sells securities through a broker, (2) must return the securities at the request of the lender or when the short sale is closed out, and (3) must keep a portion of the proceeds of the short sale on deposit with the broker. Short sellers hope to profit from a fall in the price of the security or asset sold short, buying at a lower price in the future in order to repay the loan of the asset originally sold at a higher price. The repayment of the borrowed security or other asset is referred to as “covering the short position.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a short sale, the short seller must pay all dividends or interest that the lender would have received from the security that has been loaned to the short seller. These payments are called payments-in-lieu of dividends or interest. The short seller must also deposit the proceeds of the short sale as collateral to guarantee the eventual repurchase of the security. The broker then earns interest on these funds and may return a portion of this interest to the short seller at a rate referred to as the short rebate rate. The short rebate rate is usually only provided to institutional investors and is typically 0.1% less than overnight interest rates. If the security is difficult to borrow, the short rebate rate may be lower or negative. The difference between the interest earned on the proceeds from the short sale and the short rebate paid is the return to the lender of the securities. A short sale may also require the short seller to deposit additional margin in the form of cash or short-term riskless securities."
+        },
+        {
+          "type": "heading",
+          "text": "Leveraged Positions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The use of borrowed funds to purchase an asset results in a leveraged position and the investor is said to be using leverage. Investors who use leverage to buy securities by borrowing from their brokers are said to buy on margin and the borrowed funds are referred to as a margin loan. The interest rate paid on the funds is the call money rate, which is generally higher than the government bill rate. The call money rate is lower for larger investors with better collateral."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the time of a new margin purchase, investors are required to provide a minimum amount of equity, referred to as the initial margin requirement. This requirement may"
+        },
+        {
+          "type": "paragraph",
+          "text": "be set by the government, exchange, clearinghouse, or broker. Lower risk in an investor’s portfolio will often result in the broker lending more funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "The use of leverage magnifies both the gains and losses from changes in the value of the underlying asset. The additional risk from the use of borrowed funds is referred to as risk from financial leverage."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.f",
+          "text": "How do we calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The leverage ratio of a margin investment is the value of the asset divided by the value of the equity position. For example, an investor who satisfies an initial margin requirement of 50% equity has a 2-to-1 leverage ratio so that a 10% increase (decrease) in the price of the asset results in a 20% increase (decrease) in the investor’s equity amount."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Margin transaction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the following information:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c} {\\mathrm{Shares~purchased}} & {1 , 000} \\\\ {\\mathrm{Purchase~price~per~share}} & {\\$100} \\\\ {\\mathrm{Anmual~dividend~per~share}} & {\\$2.00} \\\\ {\\mathrm{Initial~margin~requirement}} & {4099} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c r} {\\mathrm{Call~money~rate}} & {4 \\gamma_{0}} \\\\ {\\mathrm{Commission~per~share}} & {50.05} \\\\ {\\mathrm{Stock~price~after~one~year}} & {5110} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "fda5a48d0ac7e658f9e1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate (1) the leverage ratio and (2) the investor’s return on the margin transaction (return on equity) if the stock is sold at the end of one year."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The leverage ratio = 1 / 0.40 = 2.5.\n2. The total purchase price is 1,000 × $100 = $100,000. The investor must post initial"
+        },
+        {
+          "type": "paragraph",
+          "text": "margin of 40% × $100,000 = $40,000. The remaining $60,000 is borrowed. The commission on the purchase is 1,000 × $0.05 = $50. Thus, the total initial equity investment is $40,050."
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end of one year, the stock value is 1,000 × $110 = $110,000, for a gain of $9,950. Dividends received are 1,000 × $2.00 = $2,000. Interest paid is $60,000 × 4% = $2,400. The commission on the sale is 1,000 × $0.05 = $50."
+        },
+        {
+          "type": "paragraph",
+          "text": "The gain on the transaction in one year is $9,950 + $2,000 − $2,400 − $50 = $9,500. The return on the equity investment is $9,500 / $40,050 = 23.72%. The investor’s net return is less than the asset total return (10% price appreciation + 2% dividend = 12%) multiplied by the leverage ratio (12% × 2.5 = 30%) because of the loan interest and commissions."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also solve for the return on the margin transaction with the cash flow functions on a financial calculator. The initial cash outflow is the $40,000 initial margin + $50 purchase commission = $40,050. The inflow after one year is the $110,000 stock value + $2,000 dividends − $60,000 margin repayment − $2,400 margin interest − $50 sale commission = $49,550. Using the cash flow functions: CF0 = −40,050; CF1 = 49,550; CPT IRR = 23.72%."
+        },
+        {
+          "type": "paragraph",
+          "text": "To ensure that the loan is covered by the value of the asset, an investor must maintain a minimum equity percentage, called the maintenance margin requirement, in the account. This minimum is typically 25% of the current position value, but brokers may require a greater minimum equity percentage for volatile stocks."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the percentage of equity in a margin account falls below the maintenance margin requirement, the investor will receive a margin call, a request to bring the equity percentage in the account back up to the maintenance margin percentage. An investor can satisfy this request by depositing additional funds or depositing other unmargined securities that will bring the equity percentage up to the minimum requirement. If the investor does not meet the margin call, the broker must sell the position."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stock price which results in a margin call can be calculated by using the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{margin~call~price} \\;=\\; \\mathrm{P}_{0} \\left( \\frac{1-\\mathrm{initial~margin}} {1-\\mathrm{maintenance~margin}} \\right)}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P}_{0} \\;=\\; \\mathrm{initial~purchase~price}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "1b3a38df7d6257553a51.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Margin call price"
+        },
+        {
+          "type": "paragraph",
+          "text": "If an investor purchases a stock for $40 per share with an initial margin requirement of 50% and the maintenance margin requirement is 25%, at what price will the investor get a margin call?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{{\\tt S 40} ( 1-{\\tt0.5} )} {{\\tt1-0.25}} \\,=\\, {\\tt S 26.67}",
+          "display": true,
+          "sourceAsset": "07eaf7284b47126a6e5f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A margin call is triggered at a price below $26.67."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a short sale, the investor must deposit initial margin equal to a percentage of the value of the shares sold short to protect the broker in case the share price increases. An increase in the share price can decrease the margin percentage below the maintenance margin percentage and generate a margin call."
+        }
+      ]
+    },
+    {
+      "id": "39.3",
+      "title": "Order Execution and Validity",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "39.g",
+          "text": "How can we compare execution, validity, and clearing instructions?"
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.h",
+          "text": "How can we compare market orders with limit orders?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities dealers provide prices at which they will buy and sell shares. The bid price is the price at which a dealer will buy a security. The ask or offer price is the price at which a dealer will sell a security. The difference between the bid and ask prices is referred to as the bid-ask spread and is the source of a dealer’s compensation. The bid and ask are quoted for specific trade sizes (bid size and ask size)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculations with bid and ask prices are unlikely to appear on the Level I exam but they do appear at Level II. If you need to work with bid and ask prices, just remember that the price you get will be the one that is worse for you."
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities: If you are buying, you must pay the higher price. If you are selling, you only receive the lower price. Currencies: The bid or ask price you get is the one that gives you less of the currency you are acquiring. This works regardless of which way the exchange rate is quoted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quotation in the market is the highest dealer bid and lowest dealer ask from among all dealers in a particular security. More liquid securities have market quotations with bid-ask spreads that are lower (as a percentage of share price) and therefore have lower transactions costs for investors. Traders who post bids and offers are said to make a market, while those who trade with them at posted prices are said to take the market."
+        },
+        {
+          "type": "paragraph",
+          "text": "When investors want to buy or sell, they must enter orders that specify the size of the trade and whether to buy or sell. The order can also include execution instructions that specify how to trade, validity instructions that specify when the order can be filled, and clearing instructions that specify how to settle the trade."
+        },
+        {
+          "type": "heading",
+          "text": "Execution Instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common orders, in terms of execution instructions, are market or limit orders. A market order instructs the broker to execute the trade immediately at the best possible price. A limit order places a minimum execution price on sell orders and a maximum execution price on buy orders. For example, a buy order with a limit of $6 will be executed immediately as long as the shares can be purchased for $6 or less."
+        },
+        {
+          "type": "paragraph",
+          "text": "A market order is often appropriate when the trader wants to execute quickly, as when the trader has information she believes is not yet reflected in market prices. The disadvantage of market orders is that they may execute at unfavorable prices, especially if the security has low trading volume relative to the order size. A market buy order may execute at a high price or a market sell order may execute at a low price. Executing at an unfavorable price represents a concession by the trader for immediate liquidity. Unfortunately, these price concessions are unpredictable."
+        },
+        {
+          "type": "paragraph",
+          "text": "To avoid price execution uncertainty, a trader can place a limit order instead of the market order. The disadvantage of the limit order is that it might not be filled. For example, if a trader places a limit buy order of $50 and no one is willing to sell at $50, the order will not be filled. Furthermore, if the stock price rises over time, the trader misses out on the gains."
+        },
+        {
+          "type": "paragraph",
+          "text": "A limit buy order above the best ask or a limit sell order below the best bid are said to be marketable or aggressively priced because at least part of the order is likely to execute immediately. If the limit price is between the best bid and the best ask, a limit order is said to be making a new market or inside the market. Limit orders waiting to execute are called standing limit orders."
+        },
+        {
+          "type": "paragraph",
+          "text": "A limit buy order at the best bid or a limit sell order at the best ask are said to make the market. Again, the order might not be filled. A buy order with a limit price below the best bid, or a sell order with a limit price above the best ask, is said to be behind the market. It will likely not execute until security prices move toward the limit price. A limit buy order with a price considerably lower than the best bid, or a limit sell order with a price significantly higher than the best ask, is said to be far from the market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other execution instructions concern the volume of the trade. All-or-nothing orders execute only if the whole order can be filled. Orders can specify the minimum size of a trade, which is beneficial when trading costs depend on the number of executed trades rather than the size of the order."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trade visibility can also be specified. Hidden orders are those for which only the broker or exchange knows the trade size. These are useful for investors that have a large amount to trade and do not want to reveal their intentions. Traders can also specify display size, where some of the trade is visible to the market, but the rest is not. These are also referred to as iceberg orders because part of most of the order is hidden from view. They allow the investor to advertise some of the trade, with the rest of the trade potentially executed once the visible part has executed. Sometimes entering trades for part of the position the trader wishes to establish is a way to estimate the liquidity of, or the buying interest in, the security in question."
+        },
+        {
+          "type": "heading",
+          "text": "Validity Instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Validity instructions specify when an order should be executed. Most orders are day orders, meaning they expire if unfilled by the end of the trading day. Good til canceled orders last until they are filled. Immediate-or-cancel orders are canceled unless they can be filled immediately. They are also known as fill-or-kill orders. Good-on-close orders are only filled at the end of the trading day. If they are market orders, they are referred to as market-on-close orders. These are often used by mutual funds because their portfolios are valued using closing prices. There are also good-on-open orders."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stop orders are those that are not executed unless the stop price has been met. They are often referred to as stop loss orders because they can be used to prevent losses or to protect profits. Suppose an investor purchases a stock for $50. If the investor wants to sell out of the position if the price falls 10% to $45, he can enter a stop-sell order at $45. If the stock trades down to $45 or lower, this triggers a market order to sell. There is no guarantee that the order will execute at $45, and a rapidly falling stock could be sold at a price significantly lower than $45."
+        },
+        {
+          "type": "paragraph",
+          "text": "A stop-buy order is entered with a stop (trigger) above the current market price. There are two primary reasons a trader would enter a stop-buy order. (1) A trader with a short position could attempt to limit losses from an increasing stock price with a stop-buy order. (2) It is often said, “You don’t get paid for being right until the market agrees with you.” With this in mind, an investor who believes a stock is undervalued, but does not wish to own it until there are signs that market participants are being convinced of this undervaluation, may place a stop-buy order at a price some specific percentage above the current price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that stop orders reinforce market momentum. Stop-sell orders execute when market prices are falling, and stop-buy orders execute when the market is rising. Execution prices for stop orders are therefore often unfavorable."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Using stop orders"
+        },
+        {
+          "type": "paragraph",
+          "text": "Raymond Flowers believes that the shares of Acme Corp. that he owns are overvalued currently but knows that stocks often continue to increase above their intrinsic values for some time before correcting. What type of order should Flowers place if he wants to sell his shares when the price begins to fall a significant amount?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Flowers should enter a good til canceled stop-sell order at a price some percentage below the current level. If, for example, the shares are trading at 40, he could enter a stop-sell order at 36, 10% below the current level. Investors sometimes move these stops up as a stock continues to increase in price. In response to a price increase to 42, Flowers might move his stop-sell order up to 37.80, 10% below the new price. Note that a limit order to sell with a limit price below the current market price would likely execute immediately."
+        },
+        {
+          "type": "heading",
+          "text": "Clearing Instructions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Clearing instructions tell the trader how to clear and settle a trade. They are usually standing instructions and not attached to an order. Retail trades are typically cleared and settled by the broker, whereas institutional trades may be settled by a custodian or another broker, which might be the trader’s prime broker. Using two brokers allows the investor to keep one broker as her prime broker for margin and custodial services while using a variety of other brokers for specialized execution."
+        },
+        {
+          "type": "paragraph",
+          "text": "One important clearing instruction is whether a sell order is a short sale or long sale. In the former, the broker must confirm that the security can be borrowed and in the latter, that the security can be delivered."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.i",
+          "text": "How do we define primary and secondary markets and explain how secondary markets support primary markets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Primary capital markets refer to the sale of newly issued securities. New equity issues involve either:"
+        },
+        {
+          "type": "paragraph",
+          "text": "New shares issued by firms whose shares are already trading in the marketplace. These issues are called seasoned offerings or secondary issues. First-time issues by firms whose shares are not currently publicly traded. These are called initial public offerings (IPOs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Secondary financial markets are where securities trade after their initial issuance. Placing a buy order on the London Stock Exchange is an order in the secondary market and will result in purchase of existing shares from their current owner."
+        },
+        {
+          "type": "heading",
+          "text": "Primary Market: Public Offerings"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corporate stock or bond issues are almost always sold with the assistance of an investment banking firm. The investment bank finds investors who agree to buy part of the issue. These are not actual orders but are referred to as indications of interest. When the number of shares covered by indications of interest are greater (less) than the number of shares to be offered, the offering price may be adjusted upward (downward). This process of gathering indications of interest is referred to as book building. In London, the book builder is referred to as the book runner. In Europe, an accelerated book build occurs when securities must be issued quickly. To build a book, the"
+        },
+        {
+          "type": "paragraph",
+          "text": "investment bank disseminates information about the firm’s financials and prospects. The issuer must also make disclosures including how the funds will be used."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most common way an investment bank assists with a security issuance is through an underwritten offering. Here, the investment bank agrees to purchase the entire issue at a price that is negotiated between the issuer and bank. If the issue is undersubscribed, the investment bank must buy the unsold portion. In the case of an IPO, the investment bank also agrees to make a market in the stock for a period after the issuance to provide price support for the issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "An investment bank can also agree to distribute shares of an IPO on a best efforts basis, rather than agreeing to purchase the whole issue. If the issue is undersubscribed, the bank is not obligated to buy the unsold portion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that investment banks have a conflict of interest in an underwritten offer. As the issuer’s agents, they should set the price high to raise the most funds for the issuer. But, as underwriters, they would prefer that the price be set low enough that the whole issue sells. This also allows them to allocate portions of an undervalued IPO to their clients. This results in IPOs typically being underpriced. Issuers also could have an interest in underpricing the IPO because of the negative publicity when an undersubscribed IPO initially trades at a price below the IPO price investors pay. An IPO that is oversubscribed and has the expectation of trading significantly above its IPO price is referred to as a hot issue."
+        },
+        {
+          "type": "heading",
+          "text": "Primary Market: Private Placements and Other Transactions"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a private placement, securities are sold directly to qualified investors, typically with the assistance of an investment bank. Qualified investors are those with substantial wealth and investment knowledge. Private placements do not require the issuer to disclose as much information as they must when the securities are being sold to the public. The issuance costs are less with a private placement and the offer price is also lower because the securities cannot be resold in public markets, making them less valuable than shares registered for public trading."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a shelf registration, a firm makes its public disclosures as in a regular offering but then issues the registered securities over time when it needs capital and when the markets are favorable."
+        },
+        {
+          "type": "paragraph",
+          "text": "A dividend reinvestment plan (DRP or DRIP) allows existing shareholders to use their dividends to buy new shares from the firm at a slight discount."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a rights offering, existing shareholders are given the right to buy new shares at a discount to the current market price. Shareholders tend to dislike rights offerings because their ownership is diluted unless they exercise their rights and buy the additional shares. However, rights can be traded separately from the shares themselves in some circumstances."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to firms issuing securities, governments issue short-term and long-term debt, either by auction or through investment banks."
+        },
+        {
+          "type": "heading",
+          "text": "Importance of the Secondary Market"
+        },
+        {
+          "type": "paragraph",
+          "text": "Secondary markets are important because they provide liquidity and price/value information. Liquid markets are those in which a security can be sold quickly without incurring a discount from the current price. The better the secondary market, the easier it is for firms to raise external capital in the primary market, which results in a lower cost of capital for firms with shares that have adequate liquidity."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.j",
+          "text": "What should we know about how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The trading of securities in the secondary market has encouraged the development of market structures to facilitate trading. Trading can be examined according to when securities are traded and how they are traded."
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities markets may be structured as call markets or continuous markets. In call markets, the stock is only traded at specific times. Call markets are potentially very liquid when in session because all traders are present, but they are obviously illiquid between sessions. In a call market, all trades, bids, and asks are declared, and then one negotiated price is set that clears the market for the stock. This method is used in smaller markets but is also used to set opening prices and prices after trading halts on major exchanges."
+        },
+        {
+          "type": "paragraph",
+          "text": "In continuous markets, trades occur at any time the market is open. The price is set by either the auction process or by dealer bid-ask quotes."
+        },
+        {
+          "type": "heading",
+          "text": "Market Structures"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are three main categories of securities markets: quote-driven markets where investors trade with dealers, order-driven markets where rules are used to match buyers and sellers, and brokered markets where investors use brokers to locate a counterparty to a trade."
+        },
+        {
+          "type": "heading",
+          "text": "Quote-Driven Markets"
+        },
+        {
+          "type": "paragraph",
+          "text": "In quote-driven markets, traders transact with dealers (market makers) who post bid and ask prices. Dealers maintain an inventory of securities. Quote-driven markets are thus sometimes called dealer markets, price-driven markets, or over-the-counter markets. Most securities other than stocks trade in quote-driven markets. Trading often takes place electronically."
+        },
+        {
+          "type": "heading",
+          "text": "Order-Driven Markets"
+        },
+        {
+          "type": "paragraph",
+          "text": "In order-driven markets, orders are executed using trading rules, which are necessary because traders are usually anonymous. Exchanges and automated trading systems are examples of order-driven markets. Two sets of rules are used in these markets: order matching rules and trade pricing rules."
+        },
+        {
+          "type": "paragraph",
+          "text": "Order matching rules establish an order precedence hierarchy. Price priority is one criteria, where the trades given highest priority are those at the highest bid (buy) and lowest ask (sell). If orders are at the same prices, a secondary precedence rule gives"
+        },
+        {
+          "type": "paragraph",
+          "text": "priority to non-hidden orders and earliest arriving orders. These rules encourage traders to price their trades aggressively, display their entire orders, and trade earlier, thereby improving liquidity."
+        },
+        {
+          "type": "paragraph",
+          "text": "After orders are created using order matching rules, trade pricing rules are used to determine the price. Under the uniform pricing rule, all orders trade at the same price, which is the price that results in the highest volume of trading. The discriminatory pricing rule uses the limit price of the order that arrived first as the trade price."
+        },
+        {
+          "type": "paragraph",
+          "text": "In an electronic crossing network, the typical trader is an institution. Orders are batched together and crossed (matched) at fixed points in time during the day at the average of the bid and ask quotes from the exchange where the stock primarily trades. This pricing rule is referred to as the derivative pricing rule because it is derived from the security’s main market. The price is not determined by orders in the crossing network."
+        },
+        {
+          "type": "heading",
+          "text": "Brokered Markets"
+        },
+        {
+          "type": "paragraph",
+          "text": "In brokered markets, brokers find the counterparty in order to execute a trade. This service is especially valuable when the trader has a security that is unique or illiquid. Examples are large blocks of stock, real estate, and artwork. Dealers typically do not carry an inventory of these assets and there are too few trades for these assets to trade in order-driven markets."
+        },
+        {
+          "type": "heading",
+          "text": "Market Information"
+        },
+        {
+          "type": "paragraph",
+          "text": "A market is said to be pre-trade transparent if investors can obtain pre-trade information regarding quotes and orders. A market is post-trade transparent if investors can obtain post-trade information regarding completed trade prices and sizes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Buy-side traders value transparency because it allows them to better understand security values and trading costs. Dealers, on the other hand, prefer opaque markets because this provides them with an informational advantage over traders who trade less frequently in the security. Transactions costs and bid-ask spreads are larger in opaque markets."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.k",
+          "text": "What should we know about characteristics of a well-functioning financial system?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A well-functioning financial system allows entities to achieve their purposes. More specifically, complete markets fulfill the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors can save for the future at fair rates of return. Creditworthy borrowers can obtain funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedgers can manage their risks. Traders can obtain the currencies, commodities, and other assets they need."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a market can perform these functions at low trading costs (including commissions, bid-ask spreads, and price impacts), it is said to be operationally efficient. If security prices reflect all the information associated with fundamental value in a timely fashion, then the financial system is informationally efficient. A well-functioning financial"
+        },
+        {
+          "type": "paragraph",
+          "text": "system has complete markets that are operationally and informationally efficient, with prices that reflect fundamental values."
+        },
+        {
+          "type": "paragraph",
+          "text": "A well-functioning financial system has financial intermediaries that:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Organize trading venues, including exchanges, brokerages, and alternative trading systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supply liquidity. Securitize assets so that borrowers can obtain funds inexpensively."
+        },
+        {
+          "type": "paragraph",
+          "text": "Manage banks that use depositor capital to fund borrowers. Manage insurance firms that pool unrelated risks. Manage investment advisory services that assist investors with asset management inexpensively. Provide clearinghouses that settle trades."
+        },
+        {
+          "type": "paragraph",
+          "text": "Manage depositories that provide for asset safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "The benefits of a well-functioning financial system are tremendous. Savers can fund entrepreneurs who need capital to fund new companies. Company risks can be shared so that risky companies can be funded. These benefits are enhanced because the transactions can occur among strangers, widening the opportunities for capital formation and risk sharing in the economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Furthermore, in informationally efficiently markets, capital is allocated to its most productive use. That is, they are allocationally efficient. Informational efficiency is brought about by traders who bid prices up and down in response to new information that changes estimates of securities’ fundamental values. If markets are operationally efficient, security prices will be more informationally efficient because low trading costs encourage trading based on new information. The existence of accounting standards and financial reporting requirements also reduces the costs of obtaining information and increases security values."
+        },
+        {
+          "type": "question",
+          "objectiveId": "39.l",
+          "text": "What should we know about objectives of market regulation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Without market regulation, many problems could persist in financial markets:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fraud and theft: In complex financial markets, the potential for theft and fraud increases because investment managers and others can take advantage of unsophisticated investors. Furthermore, if returns are often random, it is difficult for investors to determine if their agents (e.g., investment managers and brokers) are performing well. Insider trading: If investors believe traders with inside information will exploit them, they will exit the market and liquidity will be reduced. Costly information: If obtaining information is relatively expensive, markets will not be as informationally efficient and investors will not invest as much. Defaults: Parties might not honor their obligations in markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "To solve these problems, market regulation should:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Protect unsophisticated investors so that trust in the markets is preserved. Require minimum standards of competency and make it easier for investors to evaluate performance. The CFA Program and the Global Investment Performance Standards are part of this effort."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prevent insiders from exploiting other investors. Require common financial reporting requirements (e.g., those of the International Accounting Standards Board) so that information gathering is less expensive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Require minimum levels of capital so that market participants will be able to honor their long-term commitments. This is especially important for insurance companies and pension funds that individuals depend on for their financial future. With capital at stake, market participants have more incentive to be careful about the risks they take."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulation can be provided by governments as well as industry groups. For example, most exchanges, clearinghouses, and dealer trade organizations are self-regulating organizations (SROs), meaning that they regulate their members. Governments sometimes delegate regulatory authority to SROs."
+        },
+        {
+          "type": "paragraph",
+          "text": "When they fail to address the problems mentioned previously, financial markets do not function well. Liquidity declines, firms shun risky projects, new ideas go unfunded, and economic growth slows."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "39.a",
+      "text": "How can we explain the main functions of the financial system?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The three main functions of the financial system are to:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Allow entities to save, borrow, issue equity capital, manage risks, exchange assets,"
+    },
+    {
+      "type": "paragraph",
+      "text": "and utilize information.\n2. Determine the return that equates aggregate savings and borrowing."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Allocate capital efficiently."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.b",
+      "text": "What should we know about classifications of assets and markets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assets and markets can be classified as:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial assets (e.g., securities, currencies, derivatives) versus real assets (e.g., real estate, equipment). Debt securities versus equity securities. Public securities that trade on exchanges or through dealers versus private securities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Physical derivative contracts (e.g., on grains or metals) versus financial derivative contracts (e.g., on bonds or equity indexes)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Spot versus future delivery markets. Primary markets (issuance of new securities) versus secondary markets (trading of previously issued securities)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Money markets (short-term debt instruments) versus capital markets (longer-term debt instruments and equities). Traditional investment markets (bonds, stocks) versus alternative investment markets (e.g., real estate, hedge funds, fine art)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.c",
+      "text": "What should we know about the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The major types of assets are securities, currencies, contracts, commodities, and real assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Securities include fixed income (e.g., bonds, notes, commercial paper), equity (common stock, preferred stock, warrants), and pooled investment vehicles (mutual funds, exchange-traded funds, hedge funds, asset-backed securities)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Contracts include futures, forwards, options, swaps, and insurance contracts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Commodities include agricultural products, industrial and precious metals, and energy products and are traded in spot, forward, and futures markets."
+    },
+    {
+      "type": "paragraph",
+      "text": "Most national currencies are traded in spot markets and some are also traded in forward and futures markets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.d",
+      "text": "What should we know about types of financial intermediaries and services that they provide?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial intermediaries perform the following roles:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Brokers, exchanges, and alternative trading systems connect buyers and sellers of the same security at the same location and time. They provide a centralized location for trading. Dealers match buyers and sellers of the same security at different points in time."
+    },
+    {
+      "type": "paragraph",
+      "text": "Arbitrageurs connect buyers and sellers of the same security at the same time but in different venues. They also connect buyers and sellers of non-identical securities of similar risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Securitizers and depository institutions package assets into a diversified pool and sell interests in it. Investors obtain greater liquidity and choose their desired risk level."
+    },
+    {
+      "type": "paragraph",
+      "text": "Insurance companies create a diversified pool of risks and manage the risk inherent in providing insurance. Clearinghouses reduce counterparty risk and promote market integrity."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.e",
+      "text": "How can we compare positions an investor can take in an asset?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A long position in an asset represents current or future ownership. A long position benefits when the asset increases in value."
+    },
+    {
+      "type": "paragraph",
+      "text": "A short position represents an agreement to sell or deliver an asset or results from borrowing an asset and selling it (i.e., a short sale). A short position benefits when the asset decreases in value."
+    },
+    {
+      "type": "paragraph",
+      "text": "When an investor buys a security by borrowing from a broker, the investor is said to buy on margin and has a leveraged position. The risk of investing borrowed funds is referred to as financial leverage. More leverage results in greater risk."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.f",
+      "text": "How do we calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The leverage ratio is the value of the asset divided by the value of the equity position. Higher leverage ratios indicate greater risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "The return on a margin transaction is the increase in the value of the position after deducting selling commissions and interest charges, divided by the amount of funds initially invested, including purchase commissions."
+    },
+    {
+      "type": "paragraph",
+      "text": "The maintenance margin is the minimum percentage of equity that a margin investor is required to maintain in his account. If the investor’s equity falls below the maintenance margin, the investor will receive a margin call. The stock price that will result in a margin call is:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {{\\mathrm{margin~call~price}} \\,=\\, \\mathrm{P}_{0} \\bigg( \\, {\\frac{1-\\mathrm{initial~margin}} {1-\\mathrm{maintenance~margin}}} \\, \\bigg)} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P}_{0}} \\,=\\, \\mathrm{initial~purchase~price}} \\end{array}",
+      "display": true,
+      "sourceAsset": "de6a013e263f6ad1d5de.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.g",
+      "text": "How can we compare execution, validity, and clearing instructions?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Execution instructions specify how to trade. Market orders and limit orders are examples of execution instructions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Validity instructions specify when an order can be filled. Day orders, good til canceled orders, and stop orders are examples of validity instructions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Clearing instructions specify how to settle a trade."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.h",
+      "text": "How can we compare market orders with limit orders?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A market order is an order to execute the trade immediately at the best possible price. A market order is appropriate when the trader wants to execute a transaction quickly. The disadvantage of a market order is that it may execute at an unfavorable price."
+    },
+    {
+      "type": "paragraph",
+      "text": "A limit order is an order to trade at the best possible price, subject to the price satisfying the limit condition. A limit order avoids price execution uncertainty. The disadvantage of a limit order is that it may not be filled. A buy (sell) order with a limit of $18 will only be executed if the security can be bought (sold) at a price of $18 or less (more)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.i",
+      "text": "How do we define primary and secondary markets and explain how secondary markets support primary markets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "New issues of securities are sold in primary capital markets. Secondary financial markets are where securities trade after their initial issuance."
+    },
+    {
+      "type": "paragraph",
+      "text": "In an underwritten offering, the investment bank guarantees that the issue will be sold at a price that is negotiated between the issuer and bank. In a best efforts offering, the bank acts only as a broker."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a private placement, a firm sells securities directly to qualified investors, without the disclosures of a public offering."
+    },
+    {
+      "type": "paragraph",
+      "text": "A liquid secondary market makes it easier for firms to raise external capital in the primary market, which results in a lower cost of capital for firms."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.j",
+      "text": "What should we know about how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are three main categories of securities markets:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Quote-driven markets: Investors trade with dealers that maintain inventories of"
+    },
+    {
+      "type": "paragraph",
+      "text": "securities, currencies, or contracts.\n2. Order-driven markets: Order-matching and trade-pricing rules are used to match the"
+    },
+    {
+      "type": "paragraph",
+      "text": "orders of buyers and sellers."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Brokered markets: Brokers locate a counterparty to take the other side of a buy or"
+    },
+    {
+      "type": "paragraph",
+      "text": "sell order."
+    },
+    {
+      "type": "paragraph",
+      "text": "In call markets, securities are only traded at specific times. In continuous markets, trades occur at any time the market is open."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.k",
+      "text": "What should we know about characteristics of a well-functioning financial system?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A well-functioning financial system has the following characteristics:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Complete markets: Savers receive a return, borrowers can obtain capital, hedgers can manage risks, and traders can acquire needed assets. Operational efficiency: Trading costs are low. Informational efficiency: Prices reflect fundamental information quickly."
+    },
+    {
+      "type": "paragraph",
+      "text": "Allocational efficiency: Capital is directed to its highest valued use."
+    },
+    {
+      "type": "question",
+      "objectiveId": "39.l",
+      "text": "What should we know about objectives of market regulation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The objectives of market regulation are to:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Protect unsophisticated investors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Establish minimum standards of competency. Help investors to evaluate performance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prevent insiders from exploiting other investors. Promote common financial reporting requirements so that information gathering is less expensive."
+    },
+    {
+      "type": "paragraph",
+      "text": "Require minimum levels of capital so that market participants will be able to honor their commitments and be more careful about their risks."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "39.a",
+      "statement": "Explain the main functions of the financial system.",
+      "question": "How can we explain the main functions of the financial system?"
+    },
+    {
+      "id": "39.b",
+      "statement": "Describe classifications of assets and markets.",
+      "question": "What should we know about classifications of assets and markets?"
+    },
+    {
+      "id": "39.c",
+      "statement": "Describe the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes.",
+      "question": "What should we know about the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes?"
+    },
+    {
+      "id": "39.d",
+      "statement": "Describe types of financial intermediaries and services that they provide.",
+      "question": "What should we know about types of financial intermediaries and services that they provide?"
+    },
+    {
+      "id": "39.e",
+      "statement": "Compare positions an investor can take in an asset.",
+      "question": "How can we compare positions an investor can take in an asset?"
+    },
+    {
+      "id": "39.f",
+      "statement": "Calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call.",
+      "question": "How do we calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call?"
+    },
+    {
+      "id": "39.g",
+      "statement": "Compare execution, validity, and clearing instructions.",
+      "question": "How can we compare execution, validity, and clearing instructions?"
+    },
+    {
+      "id": "39.h",
+      "statement": "Compare market orders with limit orders.",
+      "question": "How can we compare market orders with limit orders?"
+    },
+    {
+      "id": "39.i",
+      "statement": "Define primary and secondary markets and explain how secondary markets support primary markets.",
+      "question": "How do we define primary and secondary markets and explain how secondary markets support primary markets?"
+    },
+    {
+      "id": "39.j",
+      "statement": "Describe how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets.",
+      "question": "What should we know about how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets?"
+    },
+    {
+      "id": "39.k",
+      "statement": "Describe characteristics of a well-functioning financial system.",
+      "question": "What should we know about characteristics of a well-functioning financial system?"
+    },
+    {
+      "id": "39.l",
+      "statement": "Describe objectives of market regulation.",
+      "question": "What should we know about objectives of market regulation?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-39-quiz-1",
+      "title": "Knowledge check 39.1, 39.2",
+      "moduleId": "39.2",
+      "questions": [
+        {
+          "id": "r39-q1",
+          "number": 1,
+          "objectiveIds": [],
+          "prompt": "An investor who buys a government bond from a dealer’s inventory is said to obtain a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "real asset in a primary market transaction."
+            },
+            {
+              "id": "B",
+              "text": "financial asset in a primary market transaction."
+            },
+            {
+              "id": "C",
+              "text": "financial asset in a secondary market transaction."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bonds are financial assets. Real assets are physical things such as a commodity or a factory. Buying a bond from a dealer is a secondary market transaction. A primary market transaction is an issuance of securities by an entity that is raising funds.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Bonds are financial assets. Real assets are physical things such as a commodity or"
+            },
+            {
+              "type": "paragraph",
+              "text": "a factory. Buying a bond from a dealer is a secondary market transaction. A primary market transaction is an issuance of securities by an entity that is raising funds."
+            }
+          ]
+        },
+        {
+          "id": "r39-q2",
+          "number": 2,
+          "objectiveIds": [],
+          "prompt": "Daniel Ferramosco is concerned that a long-term bond he holds might default. He therefore buys a contract that will compensate him in the case of default. What type of contract does he hold?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Physical derivative contract."
+            },
+            {
+              "id": "B",
+              "text": "Primary derivative contract."
+            },
+            {
+              "id": "C",
+              "text": "Financial derivative contract."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Daniel holds a derivative contract that has a value determined by another financial contract; in this case, the long-term bond.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Daniel holds a derivative contract that has a value determined by another financial"
+            },
+            {
+              "type": "paragraph",
+              "text": "contract; in this case, the long-term bond."
+            }
+          ]
+        },
+        {
+          "id": "r39-q3",
+          "number": 3,
+          "objectiveIds": [],
+          "prompt": "A financial intermediary buys a stock and then resells it a few days later at a higher price. Which intermediary would this most likely describe?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Broker."
+            },
+            {
+              "id": "B",
+              "text": "Dealer."
+            },
+            {
+              "id": "C",
+              "text": "Arbitrageur."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "This situation best describes a dealer. A dealer buys an asset for its inventory in the hopes of reselling it later at a higher price. Brokers stand between buyers and sellers of the same security at the same location and time. Arbitrageurs trade in the same security simultaneously in different markets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This situation best describes a dealer. A dealer buys an asset for its inventory in"
+            },
+            {
+              "type": "paragraph",
+              "text": "the hopes of reselling it later at a higher price. Brokers stand between buyers and sellers of the same security at the same location and time. Arbitrageurs trade in the same security simultaneously in different markets."
+            }
+          ]
+        },
+        {
+          "id": "r39-q4",
+          "number": 4,
+          "objectiveIds": [
+            "39.e"
+          ],
+          "prompt": "Which of the following is most similar to a short position in the underlying asset?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Buying a put."
+            },
+            {
+              "id": "B",
+              "text": "Writing a put."
+            },
+            {
+              "id": "C",
+              "text": "Buying a call."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Buying a put is most similar to a short position in the underlying asset because the put increases in value if the underlying asset value decreases. The writer of a put and the holder of a call have a long exposure to the underlying asset because their positions increase in value if the underlying asset value increases. (Module 39.2,",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Buying a put is most similar to a short position in the underlying asset because the"
+            },
+            {
+              "type": "paragraph",
+              "text": "put increases in value if the underlying asset value decreases. The writer of a put and the holder of a call have a long exposure to the underlying asset because their positions increase in value if the underlying asset value increases. (Module 39.2,"
+            }
+          ]
+        },
+        {
+          "id": "r39-q5",
+          "number": 5,
+          "objectiveIds": [],
+          "prompt": "An investor buys 1,000 shares of a stock on margin at a price of $50 per share. The initial margin requirement is 40% and the margin lending rate is 3%. The investor’s broker charges a commission of $0.01 per share on purchases and sales. The stock pays an annual dividend of $0.30 per share. One year later, the investor sells the 1,000 shares at a price of $56 per share. The investor’s rate of return is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "12%."
+            },
+            {
+              "id": "B",
+              "text": "27%."
+            },
+            {
+              "id": "C",
+              "text": "36%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The total purchase price is 1,000 × $50 = $50,000. The investor must post initial margin of 40% × $50,000 = $20,000. The remaining $30,000 is borrowed. The commission on the purchase is 1,000 × $0.01 = $10. Thus, the initial equity investment is $20,010. In one year, the sales price is 1,000 × $56 = $56,000. Dividends received are 1,000 × $0.30 = $300. Interest paid is $30,000 × 3% = $900. The commission on the sale is 1,000 × $0.01 = $10. Thus, the ending value is $56,000 − $30,000 + $300 − $900 − $10 = $25,390. The return on the equity investment is $25,390 / $20,010 − 1 = 26.89%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The total purchase price is 1,000 × $50 = $50,000. The investor must post initial"
+            },
+            {
+              "type": "paragraph",
+              "text": "margin of 40% × $50,000 = $20,000. The remaining $30,000 is borrowed. The commission on the purchase is 1,000 × $0.01 = $10. Thus, the initial equity investment is $20,010."
+            },
+            {
+              "type": "paragraph",
+              "text": "In one year, the sales price is 1,000 × $56 = $56,000. Dividends received are 1,000 × $0.30 = $300. Interest paid is $30,000 × 3% = $900. The commission on the sale is 1,000 × $0.01 = $10. Thus, the ending value is $56,000 − $30,000 + $300 − $900 − $10 = $25,390. The return on the equity investment is $25,390 / $20,010 − 1 = 26.89%."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-39-quiz-2",
+      "title": "Knowledge check 39.3",
+      "moduleId": "39.3",
+      "questions": [
+        {
+          "id": "r39-q6",
+          "number": 1,
+          "objectiveIds": [
+            "39.g"
+          ],
+          "prompt": "A stock is selling at $50. An investor’s valuation model estimates its intrinsic value to be $40. Based on her estimate, she would most likely place a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "short-sale order."
+            },
+            {
+              "id": "B",
+              "text": "stop order to buy."
+            },
+            {
+              "id": "C",
+              "text": "market order to buy."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "If the investor believes the stock is overvalued in the market, the investor should place a short-sale order, which would be profitable if the stock moves toward her value estimate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the investor believes the stock is overvalued in the market, the investor should"
+            },
+            {
+              "type": "paragraph",
+              "text": "place a short-sale order, which would be profitable if the stock moves toward her value estimate."
+            }
+          ]
+        },
+        {
+          "id": "r39-q7",
+          "number": 2,
+          "objectiveIds": [
+            "39.h"
+          ],
+          "prompt": "Which of the following limit buy orders would be the most likely to go unexecuted?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A marketable order."
+            },
+            {
+              "id": "B",
+              "text": "An order behind the market."
+            },
+            {
+              "id": "C",
+              "text": "An order making a new market."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A behind-the-market limit order would be least likely executed. In the case of a buy, the limit buy order price is below the best bid and will likely not execute until security prices decline. A marketable buy order is the most likely to trade because it is close to the best ask price. In an order that is making a new market or inside the market, the limit buy order price is between the best bid and ask.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A behind-the-market limit order would be least likely executed. In the case of a"
+            },
+            {
+              "type": "paragraph",
+              "text": "buy, the limit buy order price is below the best bid and will likely not execute until security prices decline. A marketable buy order is the most likely to trade because it is close to the best ask price. In an order that is making a new market or inside the market, the limit buy order price is between the best bid and ask."
+            }
+          ]
+        },
+        {
+          "id": "r39-q8",
+          "number": 3,
+          "objectiveIds": [
+            "39.i"
+          ],
+          "prompt": "New issues of securities are transactions in the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "primary market."
+            },
+            {
+              "id": "B",
+              "text": "secondary market."
+            },
+            {
+              "id": "C",
+              "text": "seasoned market."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The primary market refers to the market for newly issued securities.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The primary market refers to the market for newly issued securities."
+            }
+          ]
+        },
+        {
+          "id": "r39-q9",
+          "number": 4,
+          "objectiveIds": [
+            "39.j"
+          ],
+          "prompt": "In which of the following types of markets do stocks trade any time the market is open?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Exchange markets."
+            },
+            {
+              "id": "B",
+              "text": "Call markets."
+            },
+            {
+              "id": "C",
+              "text": "Continuous markets."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Continuous markets are defined as markets where stocks can trade any time the market is open. Some exchange markets are call markets where orders are accumulated and executed at specific times.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Continuous markets are defined as markets where stocks can trade any time the"
+            },
+            {
+              "type": "paragraph",
+              "text": "market is open. Some exchange markets are call markets where orders are accumulated and executed at specific times."
+            }
+          ]
+        },
+        {
+          "id": "r39-q10",
+          "number": 5,
+          "objectiveIds": [
+            "39.k"
+          ],
+          "prompt": "A market is said to be informationally efficient if it features:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "market prices that reflect all available information about the value of the securities traded."
+            },
+            {
+              "id": "B",
+              "text": "timely and accurate information about current supply and demand conditions."
+            },
+            {
+              "id": "C",
+              "text": "many buyers and sellers that are willing to trade at prices above and below the prevailing market price."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Informational efficiency means the prevailing price reflects all available information about the value of the asset, and the price reacts quickly to new information.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Informational efficiency means the prevailing price reflects all available"
+            },
+            {
+              "type": "paragraph",
+              "text": "information about the value of the asset, and the price reacts quickly to new information."
+            }
+          ]
+        },
+        {
+          "id": "r39-q11",
+          "number": 6,
+          "objectiveIds": [
+            "39.l"
+          ],
+          "prompt": "Which of the following would least likely be an objective of market regulation?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduce burdensome accounting standards."
+            },
+            {
+              "id": "B",
+              "text": "Make it easier for investors to evaluate performance."
+            },
+            {
+              "id": "C",
+              "text": "Prevent investors from using inside information in securities trading."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Market regulation should require financial reporting standards so that information gathering is less expensive and the informational efficiency of the markets is enhanced.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Market regulation should require financial reporting standards so that information"
+            },
+            {
+              "type": "paragraph",
+              "text": "gathering is less expensive and the informational efficiency of the markets is enhanced."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

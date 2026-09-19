@@ -1,0 +1,1827 @@
+[
+  {
+    "id": "1.a",
+    "statement": "Interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk.",
+    "question": "How should we interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk?"
+  },
+  {
+    "id": "1.b",
+    "statement": "Calculate and interpret different approaches to return measurement over time and describe their appropriate uses.",
+    "question": "How do we calculate and interpret different approaches to return measurement over time and describe their appropriate uses?"
+  },
+  {
+    "id": "1.c",
+    "statement": "Compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures.",
+    "question": "How can we compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures?"
+  },
+  {
+    "id": "1.d",
+    "statement": "Calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses.",
+    "question": "How do we calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses?"
+  },
+  {
+    "id": "1.e",
+    "statement": "Calculate and interpret major return measures and describe their appropriate uses.",
+    "question": "How do we calculate and interpret major return measures and describe their appropriate uses?"
+  },
+  {
+    "id": "2.a",
+    "statement": "Calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows.",
+    "question": "How do we calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows?"
+  },
+  {
+    "id": "2.b",
+    "statement": "Calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows.",
+    "question": "How do we calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows?"
+  },
+  {
+    "id": "2.c",
+    "statement": "Explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values.",
+    "question": "How can we explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values?"
+  },
+  {
+    "id": "3.a",
+    "statement": "Calculate, interpret, and evaluate measures of central tendency and location to address an investment problem.",
+    "question": "What should we understand about calculate, interpret, and evaluate measures of central tendency and location to address an investment problem?"
+  },
+  {
+    "id": "3.b",
+    "statement": "Calculate, interpret, and evaluate measures of dispersion to address an investment problem.",
+    "question": "What should we understand about calculate, interpret, and evaluate measures of dispersion to address an investment problem?"
+  },
+  {
+    "id": "3.c",
+    "statement": "Interpret and evaluate measures of skewness and kurtosis to address an investment problem.",
+    "question": "How should we interpret and evaluate measures of skewness and kurtosis to address an investment problem?"
+  },
+  {
+    "id": "3.d",
+    "statement": "Interpret correlation between two variables to address an investment problem.",
+    "question": "How should we interpret correlation between two variables to address an investment problem?"
+  },
+  {
+    "id": "4.a",
+    "statement": "Calculate expected values, variances, and standard deviations and demonstrate their application to investment problems.",
+    "question": "How do we calculate expected values, variances, and standard deviations and demonstrate their application to investment problems?"
+  },
+  {
+    "id": "4.b",
+    "statement": "Formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application.",
+    "question": "How do we formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application?"
+  },
+  {
+    "id": "4.c",
+    "statement": "Calculate and interpret an updated probability in an investment setting using Bayes’ formula.",
+    "question": "How do we calculate and interpret an updated probability in an investment setting using Bayes’ formula?"
+  },
+  {
+    "id": "5.a",
+    "statement": "Calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns.",
+    "question": "How do we calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns?"
+  },
+  {
+    "id": "5.b",
+    "statement": "Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns.",
+    "question": "How do we calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns?"
+  },
+  {
+    "id": "5.c",
+    "statement": "Define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion.",
+    "question": "How do we define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion?"
+  },
+  {
+    "id": "6.a",
+    "statement": "Explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns.",
+    "question": "How can we explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns?"
+  },
+  {
+    "id": "6.b",
+    "statement": "Describe Monte Carlo simulation and explain how it can be used in investment applications.",
+    "question": "What should we know about monte Carlo simulation and explain how it can be used in investment applications?"
+  },
+  {
+    "id": "6.c",
+    "statement": "Describe the use of bootstrap resampling in conducting a simulation based on observed data in investment applications.",
+    "question": "What should we know about the use of bootstrap resampling in conducting a simulation based on observed data in investment applications?"
+  },
+  {
+    "id": "7.a",
+    "statement": "Compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem.",
+    "question": "How do we compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem?"
+  },
+  {
+    "id": "7.b",
+    "statement": "Explain the central limit theorem and its importance for the distribution and standard error of the sample mean.",
+    "question": "How can we explain the central limit theorem and its importance for the distribution and standard error of the sample mean?"
+  },
+  {
+    "id": "7.c",
+    "statement": "Describe the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic.",
+    "question": "What should we know about the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic?"
+  },
+  {
+    "id": "8.a",
+    "statement": "Explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test.",
+    "question": "How can we explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test?"
+  },
+  {
+    "id": "8.b",
+    "statement": "Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level.",
+    "question": "How do we construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level?"
+  },
+  {
+    "id": "8.c",
+    "statement": "Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test.",
+    "question": "How do parametric and nonparametric tests differ, and when should we use each one?"
+  },
+  {
+    "id": "9.a",
+    "statement": "Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance.",
+    "question": "How can we explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance?"
+  },
+  {
+    "id": "9.b",
+    "statement": "Explain tests of independence based on contingency table data.",
+    "question": "How can we explain tests of independence based on contingency table data?"
+  },
+  {
+    "id": "10.a",
+    "statement": "Describe a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients.",
+    "question": "What should we know about a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients?"
+  },
+  {
+    "id": "10.b",
+    "statement": "Explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated.",
+    "question": "How can we explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated?"
+  },
+  {
+    "id": "10.c",
+    "statement": "Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression.",
+    "question": "How do we calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression?"
+  },
+  {
+    "id": "10.d",
+    "statement": "Describe the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression.",
+    "question": "What should we know about the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression?"
+  },
+  {
+    "id": "10.e",
+    "statement": "Calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable.",
+    "question": "How do we calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable?"
+  },
+  {
+    "id": "10.f",
+    "statement": "Describe different functional forms of simple linear regressions.",
+    "question": "What should we know about different functional forms of simple linear regressions?"
+  },
+  {
+    "id": "11.a",
+    "statement": "Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data.",
+    "question": "What should we know about aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data?"
+  },
+  {
+    "id": "11.b",
+    "statement": "Describe Big Data, artificial intelligence, and machine learning.",
+    "question": "What should we know about big Data, artificial intelligence, and machine learning?"
+  },
+  {
+    "id": "11.c",
+    "statement": "Describe applications of Big Data and Data Science to investment management.",
+    "question": "What should we know about applications of Big Data and Data Science to investment management?"
+  },
+  {
+    "id": "12.a",
+    "statement": "Determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition.",
+    "question": "How do we determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition?"
+  },
+  {
+    "id": "12.b",
+    "statement": "Describe characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly.",
+    "question": "What should we know about characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly?"
+  },
+  {
+    "id": "12.c",
+    "statement": "Explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing",
+    "question": "How can we explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing?"
+  },
+  {
+    "id": "12.d",
+    "statement": "Explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy.",
+    "question": "How can we explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy?"
+  },
+  {
+    "id": "12.e",
+    "statement": "Identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures.",
+    "question": "How can we identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures?"
+  },
+  {
+    "id": "13.a",
+    "statement": "Describe the business cycle and its phases.",
+    "question": "What should we know about the business cycle and its phases?"
+  },
+  {
+    "id": "13.b",
+    "statement": "Describe credit cycles.",
+    "question": "What should we know about credit cycles?"
+  },
+  {
+    "id": "13.c",
+    "statement": "Describe how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators.",
+    "question": "What should we know about how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators?"
+  },
+  {
+    "id": "14.a",
+    "statement": "Compare monetary and fiscal policy.",
+    "question": "How can we compare monetary and fiscal policy?"
+  },
+  {
+    "id": "14.b",
+    "statement": "Describe roles and objectives of fiscal policy as well as arguments as to whether the size of a national debt relative to GDP matters.",
+    "question": "What should we know about roles and objectives of fiscal policy as well as arguments as to whether the size of a national debt relative to GDP matters?"
+  },
+  {
+    "id": "14.c",
+    "statement": "Describe tools of fiscal policy, including their advantages and disadvantages.",
+    "question": "What should we know about tools of fiscal policy, including their advantages and disadvantages?"
+  },
+  {
+    "id": "14.d",
+    "statement": "Explain the implementation of fiscal policy and difficulties of implementation as well as whether a fiscal policy is expansionary or contractionary.",
+    "question": "How can we explain the implementation of fiscal policy and difficulties of implementation as well as whether a fiscal policy is expansionary or contractionary?"
+  },
+  {
+    "id": "15.a",
+    "statement": "Describe the roles and objectives of central banks.",
+    "question": "What should we know about the roles and objectives of central banks?"
+  },
+  {
+    "id": "15.b",
+    "statement": "Describe tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates.",
+    "question": "What should we know about tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates?"
+  },
+  {
+    "id": "15.c",
+    "statement": "Describe qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy.",
+    "question": "What should we know about qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy?"
+  },
+  {
+    "id": "15.d",
+    "statement": "Explain the interaction of monetary and fiscal policy.",
+    "question": "How can we explain the interaction of monetary and fiscal policy?"
+  },
+  {
+    "id": "16.a",
+    "statement": "Describe geopolitics from a cooperation versus competition perspective.",
+    "question": "What should we know about geopolitics from a cooperation versus competition perspective?"
+  },
+  {
+    "id": "16.b",
+    "statement": "Describe geopolitics and its relationship with globalization.",
+    "question": "What should we know about geopolitics and its relationship with globalization?"
+  },
+  {
+    "id": "16.c",
+    "statement": "Describe functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,",
+    "question": "What should we know about functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,?"
+  },
+  {
+    "id": "16.d",
+    "statement": "Describe geopolitical risk.",
+    "question": "What should we know about geopolitical risk?"
+  },
+  {
+    "id": "16.e",
+    "statement": "Describe tools of geopolitics and their impact on regions and economies.",
+    "question": "What should we know about tools of geopolitics and their impact on regions and economies?"
+  },
+  {
+    "id": "16.f",
+    "statement": "Describe the impact of geopolitical risk on investments.",
+    "question": "What should we know about the impact of geopolitical risk on investments?"
+  },
+  {
+    "id": "17.a",
+    "statement": "Describe the benefits and costs of international trade.",
+    "question": "What should we know about the benefits and costs of international trade?"
+  },
+  {
+    "id": "17.b",
+    "statement": "Compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications.",
+    "question": "How can we compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications?"
+  },
+  {
+    "id": "17.c",
+    "statement": "Explain motivations for and advantages of trading blocs, common markets, and economic unions.",
+    "question": "How can we explain motivations for and advantages of trading blocs, common markets, and economic unions?"
+  },
+  {
+    "id": "18.a",
+    "statement": "Describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency.",
+    "question": "What should we know about the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency?"
+  },
+  {
+    "id": "18.b",
+    "statement": "Describe exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows.",
+    "question": "What should we know about exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows?"
+  },
+  {
+    "id": "18.c",
+    "statement": "Describe common objectives of capital restrictions imposed by governments.",
+    "question": "What should we know about common objectives of capital restrictions imposed by governments?"
+  },
+  {
+    "id": "19.a",
+    "statement": "Calculate and interpret currency cross-rates.",
+    "question": "How do we calculate and interpret currency cross-rates?"
+  },
+  {
+    "id": "19.b",
+    "statement": "Explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium.",
+    "question": "How can we explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium?"
+  },
+  {
+    "id": "20.a",
+    "statement": "Compare the organizational forms of businesses.",
+    "question": "How can we compare the organizational forms of businesses?"
+  },
+  {
+    "id": "20.b",
+    "statement": "Describe key features of corporate issuers.",
+    "question": "What should we know about key features of corporate issuers?"
+  },
+  {
+    "id": "20.c",
+    "statement": "Compare publicly and privately owned corporate issuers.",
+    "question": "How can we compare publicly and privately owned corporate issuers?"
+  },
+  {
+    "id": "21.a",
+    "statement": "Compare the financial claims and motivations of lenders and shareholders.",
+    "question": "How can we compare the financial claims and motivations of lenders and shareholders?"
+  },
+  {
+    "id": "21.b",
+    "statement": "Describe a company’s stakeholder groups and compare their interests.",
+    "question": "What should we know about a company’s stakeholder groups and compare their interests?"
+  },
+  {
+    "id": "21.c",
+    "statement": "Describe environmental, social, and governance factors of corporate issuers considered by investors.",
+    "question": "What should we know about environmental, social, and governance factors of corporate issuers considered by investors?"
+  },
+  {
+    "id": "22.a",
+    "statement": "Describe the principal-agent relationship and conflicts that may arise between stakeholder groups.",
+    "question": "What should we know about the principal-agent relationship and conflicts that may arise between stakeholder groups?"
+  },
+  {
+    "id": "22.b",
+    "statement": "Describe corporate governance and mechanisms to manage stakeholder relationships and mitigate associated risks.",
+    "question": "What should we know about corporate governance and mechanisms to manage stakeholder relationships and mitigate associated risks?"
+  },
+  {
+    "id": "22.c",
+    "statement": "Describe potential risks of poor corporate governance and stakeholder management and benefits of effective corporate governance and stakeholder management.",
+    "question": "What should we know about potential risks of poor corporate governance and stakeholder management and benefits of effective corporate governance and stakeholder management?"
+  },
+  {
+    "id": "23.a",
+    "statement": "Explain the cash conversion cycle and compare issuers’ cash conversion cycles.",
+    "question": "How can we explain the cash conversion cycle and compare issuers’ cash conversion cycles?"
+  },
+  {
+    "id": "23.b",
+    "statement": "Explain liquidity and compare issuers’ liquidity levels.",
+    "question": "How can we explain liquidity and compare issuers’ liquidity levels?"
+  },
+  {
+    "id": "23.c",
+    "statement": "Describe issuers’ objectives and compare methods for managing working capital and liquidity.",
+    "question": "What should we know about issuers’ objectives and compare methods for managing working capital and liquidity?"
+  },
+  {
+    "id": "24.a",
+    "statement": "Describe types of capital investments.",
+    "question": "What should we know about types of capital investments?"
+  },
+  {
+    "id": "24.b",
+    "statement": "Describe the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and",
+    "question": "What should we know about the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and?"
+  },
+  {
+    "id": "24.c",
+    "statement": "Describe principles of capital allocation and common capital allocation pitfalls.",
+    "question": "What should we know about principles of capital allocation and common capital allocation pitfalls?"
+  },
+  {
+    "id": "24.d",
+    "statement": "Describe types of real options relevant to capital investments.",
+    "question": "What should we know about types of real options relevant to capital investments?"
+  },
+  {
+    "id": "25.a",
+    "statement": "Calculate and interpret the weighted-average cost of capital for a company.",
+    "question": "How do we calculate and interpret the weighted-average cost of capital for a company?"
+  },
+  {
+    "id": "25.b",
+    "statement": "Explain factors affecting capital structure and the weighted-average cost of capital.",
+    "question": "How can we explain factors affecting capital structure and the weighted-average cost of capital?"
+  },
+  {
+    "id": "25.c",
+    "statement": "Explain the Modigliani–Miller propositions regarding capital structure.",
+    "question": "How can we explain the Modigliani–Miller propositions regarding capital structure?"
+  },
+  {
+    "id": "25.d",
+    "statement": "Describe optimal and target capital structures.",
+    "question": "What should we know about optimal and target capital structures?"
+  },
+  {
+    "id": "26.a",
+    "statement": "Describe key features of business models.",
+    "question": "What should we know about key features of business models?"
+  },
+  {
+    "id": "26.b",
+    "statement": "Describe various types of business models.",
+    "question": "What should we know about various types of business models?"
+  },
+  {
+    "id": "27.a",
+    "statement": "Describe the steps in the financial statement analysis framework.",
+    "question": "What should we know about the steps in the financial statement analysis framework?"
+  },
+  {
+    "id": "27.b",
+    "statement": "Describe the roles of financial statement analysis.",
+    "question": "What should we know about the roles of financial statement analysis?"
+  },
+  {
+    "id": "27.c",
+    "statement": "Describe the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports.",
+    "question": "What should we know about the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports?"
+  },
+  {
+    "id": "27.d",
+    "statement": "Describe implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards.",
+    "question": "What should we know about implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards?"
+  },
+  {
+    "id": "27.e",
+    "statement": "Describe information sources that analysts use in financial statement analysis besides annual and interim financial reports.",
+    "question": "What should we know about information sources that analysts use in financial statement analysis besides annual and interim financial reports?"
+  },
+  {
+    "id": "28.a",
+    "statement": "Describe general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis.",
+    "question": "What should we know about general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis?"
+  },
+  {
+    "id": "28.b",
+    "statement": "Describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred.",
+    "question": "What should we know about general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred?"
+  },
+  {
+    "id": "28.c",
+    "statement": "Describe the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies.",
+    "question": "What should we know about the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies?"
+  },
+  {
+    "id": "28.d",
+    "statement": "Describe how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities.",
+    "question": "What should we know about how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities?"
+  },
+  {
+    "id": "28.e",
+    "statement": "Evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement.",
+    "question": "How should we evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement?"
+  },
+  {
+    "id": "29.a",
+    "statement": "Explain the financial reporting and disclosures related to intangible assets.",
+    "question": "How can we explain the financial reporting and disclosures related to intangible assets?"
+  },
+  {
+    "id": "29.b",
+    "statement": "Explain the financial reporting and disclosures related to goodwill.",
+    "question": "How can we explain the financial reporting and disclosures related to goodwill?"
+  },
+  {
+    "id": "29.c",
+    "statement": "Explain the financial reporting and disclosures related to financial instruments.",
+    "question": "How can we explain the financial reporting and disclosures related to financial instruments?"
+  },
+  {
+    "id": "29.d",
+    "statement": "Explain the financial reporting and disclosures related to non-current liabilities.",
+    "question": "How can we explain the financial reporting and disclosures related to non-current liabilities?"
+  },
+  {
+    "id": "29.e",
+    "statement": "Calculate and interpret common-size balance sheets and related financial ratios.",
+    "question": "How do we calculate and interpret common-size balance sheets and related financial ratios?"
+  },
+  {
+    "id": "30.a",
+    "statement": "Describe how the cash flow statement is linked to the income statement and the balance sheet.",
+    "question": "What should we know about how the cash flow statement is linked to the income statement and the balance sheet?"
+  },
+  {
+    "id": "30.b",
+    "statement": "Describe the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data.",
+    "question": "What should we know about the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data?"
+  },
+  {
+    "id": "30.c",
+    "statement": "Demonstrate the conversion of cash flows from the indirect to direct method.",
+    "question": "How can we demonstrate the conversion of cash flows from the indirect to direct method?"
+  },
+  {
+    "id": "30.d",
+    "statement": "Contrast cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP).",
+    "question": "How can we distinguish cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP)?"
+  },
+  {
+    "id": "31.a",
+    "statement": "Analyze and interpret both reported and common-size cash flow statements.",
+    "question": "How do we analyze and interpret both reported and common-size cash flow statements?"
+  },
+  {
+    "id": "31.b",
+    "statement": "Calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios.",
+    "question": "How do we calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios?"
+  },
+  {
+    "id": "32.a",
+    "statement": "Describe the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios.",
+    "question": "What should we know about the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios?"
+  },
+  {
+    "id": "32.b",
+    "statement": "Calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods.",
+    "question": "How do we calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods?"
+  },
+  {
+    "id": "32.c",
+    "statement": "Describe the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s",
+    "question": "What should we know about the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s?"
+  },
+  {
+    "id": "33.a",
+    "statement": "Compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination.",
+    "question": "How can we compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination?"
+  },
+  {
+    "id": "33.b",
+    "statement": "Explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios.",
+    "question": "How can we explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios?"
+  },
+  {
+    "id": "33.c",
+    "statement": "Analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets.",
+    "question": "How do we analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets?"
+  },
+  {
+    "id": "34.a",
+    "statement": "Explain the financial reporting of leases from the perspectives of lessors and lessees.",
+    "question": "How can we explain the financial reporting of leases from the perspectives of lessors and lessees?"
+  },
+  {
+    "id": "34.b",
+    "statement": "Explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans.",
+    "question": "How can we explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans?"
+  },
+  {
+    "id": "34.c",
+    "statement": "Describe the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation.",
+    "question": "What should we know about the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation?"
+  },
+  {
+    "id": "35.a",
+    "statement": "Contrast accounting profit, taxable income, taxes payable, and income tax expense and temporary versus permanent differences between accounting profit and taxable income.",
+    "question": "How can we distinguish accounting profit, taxable income, taxes payable, and income tax expense and temporary versus permanent differences between accounting profit and taxable income?"
+  },
+  {
+    "id": "35.b",
+    "statement": "Explain how deferred tax liabilities and assets are created and the factors that determine how a company’s deferred tax liabilities and assets should be treated for the purposes of financial analysis.",
+    "question": "How can we explain how deferred tax liabilities and assets are created and the factors that determine how a company’s deferred tax liabilities and assets should be treated for the purposes of financial analysis?"
+  },
+  {
+    "id": "35.c",
+    "statement": "Calculate, interpret, and contrast an issuer’s effective tax rate, statutory tax rate, and cash tax rate.",
+    "question": "What should we understand about calculate, interpret, and contrast an issuer’s effective tax rate, statutory tax rate, and cash tax rate?"
+  },
+  {
+    "id": "35.d",
+    "statement": "Analyze disclosures relating to deferred tax items and the effective tax rate reconciliation and explain how information included in these disclosures",
+    "question": "How do we analyze disclosures relating to deferred tax items and the effective tax rate reconciliation and explain how information included in these disclosures?"
+  },
+  {
+    "id": "36.a",
+    "statement": "Compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items).",
+    "question": "How can we compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)?"
+  },
+  {
+    "id": "36.b",
+    "statement": "Describe a spectrum for assessing financial reporting quality.",
+    "question": "What should we know about a spectrum for assessing financial reporting quality?"
+  },
+  {
+    "id": "36.c",
+    "statement": "Explain the difference between conservative and aggressive accounting.",
+    "question": "How can we explain the difference between conservative and aggressive accounting?"
+  },
+  {
+    "id": "36.d",
+    "statement": "Describe motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports.",
+    "question": "What should we know about motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports?"
+  },
+  {
+    "id": "36.e",
+    "statement": "Describe mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms.",
+    "question": "What should we know about mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms?"
+  },
+  {
+    "id": "36.f",
+    "statement": "Describe presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion.",
+    "question": "What should we know about presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion?"
+  },
+  {
+    "id": "36.g",
+    "statement": "Describe accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items.",
+    "question": "What should we know about accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items?"
+  },
+  {
+    "id": "36.h",
+    "statement": "Describe accounting warning signs and methods for detecting manipulation of information in financial reports.",
+    "question": "What should we know about accounting warning signs and methods for detecting manipulation of information in financial reports?"
+  },
+  {
+    "id": "37.a",
+    "statement": "Describe tools and techniques used in financial analysis, including their uses and limitations.",
+    "question": "What should we know about tools and techniques used in financial analysis, including their uses and limitations?"
+  },
+  {
+    "id": "37.b",
+    "statement": "Calculate and interpret activity, liquidity, solvency, and profitability ratios.",
+    "question": "How do we calculate and interpret activity, liquidity, solvency, and profitability ratios?"
+  },
+  {
+    "id": "37.c",
+    "statement": "Describe relationships among ratios and evaluate a company using ratio analysis.",
+    "question": "What should we know about relationships among ratios and evaluate a company using ratio analysis?"
+  },
+  {
+    "id": "37.d",
+    "statement": "Demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components.",
+    "question": "How can we demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components?"
+  },
+  {
+    "id": "37.e",
+    "statement": "Describe the uses of industry-specific ratios used in financial analysis.",
+    "question": "What should we know about the uses of industry-specific ratios used in financial analysis?"
+  },
+  {
+    "id": "37.f",
+    "statement": "Describe how ratio analysis and other techniques can be used to model and forecast earnings.",
+    "question": "What should we know about how ratio analysis and other techniques can be used to model and forecast earnings?"
+  },
+  {
+    "id": "38.a",
+    "statement": "Demonstrate the development of a sales-based pro forma company model.",
+    "question": "How can we demonstrate the development of a sales-based pro forma company model?"
+  },
+  {
+    "id": "38.b",
+    "statement": "Explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases.",
+    "question": "How can we explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases?"
+  },
+  {
+    "id": "38.c",
+    "statement": "Explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs.",
+    "question": "How can we explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs?"
+  },
+  {
+    "id": "38.d",
+    "statement": "Explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation.",
+    "question": "How can we explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation?"
+  },
+  {
+    "id": "38.e",
+    "statement": "Explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon.",
+    "question": "How can we explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon?"
+  },
+  {
+    "id": "39.a",
+    "statement": "Explain the main functions of the financial system.",
+    "question": "How can we explain the main functions of the financial system?"
+  },
+  {
+    "id": "39.b",
+    "statement": "Describe classifications of assets and markets.",
+    "question": "What should we know about classifications of assets and markets?"
+  },
+  {
+    "id": "39.c",
+    "statement": "Describe the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes.",
+    "question": "What should we know about the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes?"
+  },
+  {
+    "id": "39.d",
+    "statement": "Describe types of financial intermediaries and services that they provide.",
+    "question": "What should we know about types of financial intermediaries and services that they provide?"
+  },
+  {
+    "id": "39.e",
+    "statement": "Compare positions an investor can take in an asset.",
+    "question": "How can we compare positions an investor can take in an asset?"
+  },
+  {
+    "id": "39.f",
+    "statement": "Calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call.",
+    "question": "How do we calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call?"
+  },
+  {
+    "id": "39.g",
+    "statement": "Compare execution, validity, and clearing instructions.",
+    "question": "How can we compare execution, validity, and clearing instructions?"
+  },
+  {
+    "id": "39.h",
+    "statement": "Compare market orders with limit orders.",
+    "question": "How can we compare market orders with limit orders?"
+  },
+  {
+    "id": "39.i",
+    "statement": "Define primary and secondary markets and explain how secondary markets support primary markets.",
+    "question": "How do we define primary and secondary markets and explain how secondary markets support primary markets?"
+  },
+  {
+    "id": "39.j",
+    "statement": "Describe how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets.",
+    "question": "What should we know about how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets?"
+  },
+  {
+    "id": "39.k",
+    "statement": "Describe characteristics of a well-functioning financial system.",
+    "question": "What should we know about characteristics of a well-functioning financial system?"
+  },
+  {
+    "id": "39.l",
+    "statement": "Describe objectives of market regulation.",
+    "question": "What should we know about objectives of market regulation?"
+  },
+  {
+    "id": "40.a",
+    "statement": "Describe a security market index.",
+    "question": "What should we know about a security market index?"
+  },
+  {
+    "id": "40.b",
+    "statement": "Calculate and interpret the value, price return, and total return of an index.",
+    "question": "How do we calculate and interpret the value, price return, and total return of an index?"
+  },
+  {
+    "id": "40.c",
+    "statement": "Describe the choices and issues in index construction and management.",
+    "question": "What should we know about the choices and issues in index construction and management?"
+  },
+  {
+    "id": "40.d",
+    "statement": "Compare the different weighting methods used in index construction.",
+    "question": "How can we compare the different weighting methods used in index construction?"
+  },
+  {
+    "id": "40.e",
+    "statement": "Calculate and analyze the value and return of an index given its weighting method.",
+    "question": "How do we calculate and analyze the value and return of an index given its weighting method?"
+  },
+  {
+    "id": "40.f",
+    "statement": "Describe rebalancing and reconstitution of an index.",
+    "question": "What should we know about rebalancing and reconstitution of an index?"
+  },
+  {
+    "id": "40.g",
+    "statement": "Describe uses of security market indexes.",
+    "question": "What should we know about uses of security market indexes?"
+  },
+  {
+    "id": "40.h",
+    "statement": "Describe types of equity indexes.",
+    "question": "What should we know about types of equity indexes?"
+  },
+  {
+    "id": "40.i",
+    "statement": "Compare types of security market indexes.",
+    "question": "How can we compare types of security market indexes?"
+  },
+  {
+    "id": "40.j",
+    "statement": "Describe types of fixed-income indexes.",
+    "question": "What should we know about types of fixed-income indexes?"
+  },
+  {
+    "id": "40.k",
+    "statement": "Describe indexes representing alternative investments.",
+    "question": "What should we know about indexes representing alternative investments?"
+  },
+  {
+    "id": "41.a",
+    "statement": "Describe market efficiency and related concepts, including their importance to investment practitioners.",
+    "question": "What should we know about market efficiency and related concepts, including their importance to investment practitioners?"
+  },
+  {
+    "id": "41.b",
+    "statement": "Contrast market value and intrinsic value.",
+    "question": "How can we distinguish market value and intrinsic value?"
+  },
+  {
+    "id": "41.c",
+    "statement": "Explain factors that affect a market’s efficiency.",
+    "question": "How can we explain factors that affect a market’s efficiency?"
+  },
+  {
+    "id": "41.d",
+    "statement": "Contrast weak-form, semi-strong-form, and strong-form market efficiency.",
+    "question": "How can we distinguish weak-form, semi-strong-form, and strong-form market efficiency?"
+  },
+  {
+    "id": "41.e",
+    "statement": "Explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management.",
+    "question": "How can we explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management?"
+  },
+  {
+    "id": "41.f",
+    "statement": "Describe market anomalies.",
+    "question": "What should we know about market anomalies?"
+  },
+  {
+    "id": "41.g",
+    "statement": "Describe behavioral finance and its potential relevance to understanding market anomalies.",
+    "question": "What should we know about behavioral finance and its potential relevance to understanding market anomalies?"
+  },
+  {
+    "id": "42.a",
+    "statement": "Describe characteristics of types of equity securities.",
+    "question": "What should we know about characteristics of types of equity securities?"
+  },
+  {
+    "id": "42.b",
+    "statement": "Describe differences in voting rights and other ownership characteristics among different equity classes.",
+    "question": "What should we know about differences in voting rights and other ownership characteristics among different equity classes?"
+  },
+  {
+    "id": "42.c",
+    "statement": "Compare and contrast public and private equity securities.",
+    "question": "How do we compare and contrast public and private equity securities?"
+  },
+  {
+    "id": "42.d",
+    "statement": "Describe methods for investing in non-domestic equity securities.",
+    "question": "What should we know about methods for investing in non-domestic equity securities?"
+  },
+  {
+    "id": "42.e",
+    "statement": "Compare the risk and return characteristics of different types of equity securities.",
+    "question": "How can we compare the risk and return characteristics of different types of equity securities?"
+  },
+  {
+    "id": "42.f",
+    "statement": "Explain the role of equity securities in the financing of a company’s assets.",
+    "question": "How can we explain the role of equity securities in the financing of a company’s assets?"
+  },
+  {
+    "id": "42.g",
+    "statement": "Contrast the market value and book value of equity securities.",
+    "question": "How can we distinguish the market value and book value of equity securities?"
+  },
+  {
+    "id": "42.h",
+    "statement": "Compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return.",
+    "question": "How can we compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return?"
+  },
+  {
+    "id": "43.a",
+    "statement": "Describe the elements that should be covered in a thorough company research report.",
+    "question": "What should we know about the elements that should be covered in a thorough company research report?"
+  },
+  {
+    "id": "43.b",
+    "statement": "Determine a company’s business model.",
+    "question": "How do we determine a company’s business model?"
+  },
+  {
+    "id": "43.c",
+    "statement": "Evaluate a company’s revenue and revenue drivers, including pricing power.",
+    "question": "How should we evaluate a company’s revenue and revenue drivers, including pricing power?"
+  },
+  {
+    "id": "43.d",
+    "statement": "Evaluate a company’s operating profitability and working capital using key measures.",
+    "question": "How should we evaluate a company’s operating profitability and working capital using key measures?"
+  },
+  {
+    "id": "43.e",
+    "statement": "Evaluate a company’s capital investments and capital structure.",
+    "question": "How should we evaluate a company’s capital investments and capital structure?"
+  },
+  {
+    "id": "44.a",
+    "statement": "Describe the purposes of, and steps involved in, industry and competitive analysis.",
+    "question": "What should we know about the purposes of, and steps involved in, industry and competitive analysis?"
+  },
+  {
+    "id": "44.b",
+    "statement": "Describe industry classification methods and compare methods by which companies can be grouped.",
+    "question": "What should we know about industry classification methods and compare methods by which companies can be grouped?"
+  },
+  {
+    "id": "44.c",
+    "statement": "Determine an industry’s size, growth characteristics, profitability, and market share trends.",
+    "question": "How do we determine an industry’s size, growth characteristics, profitability, and market share trends?"
+  },
+  {
+    "id": "44.d",
+    "statement": "Analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks.",
+    "question": "How do we analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks?"
+  },
+  {
+    "id": "44.e",
+    "statement": "Evaluate the competitive strategy and position of a company.",
+    "question": "How should we evaluate the competitive strategy and position of a company?"
+  },
+  {
+    "id": "45.a",
+    "statement": "Explain principles and approaches to forecasting a company’s financial results and position.",
+    "question": "How can we explain principles and approaches to forecasting a company’s financial results and position?"
+  },
+  {
+    "id": "45.b",
+    "statement": "Explain approaches to forecasting a company’s revenues.",
+    "question": "How can we explain approaches to forecasting a company’s revenues?"
+  },
+  {
+    "id": "45.c",
+    "statement": "Explain approaches to forecasting a company’s operating expenses and working capital.",
+    "question": "How can we explain approaches to forecasting a company’s operating expenses and working capital?"
+  },
+  {
+    "id": "45.d",
+    "statement": "Explain approaches to forecasting a company’s capital investments and capital structure.",
+    "question": "How can we explain approaches to forecasting a company’s capital investments and capital structure?"
+  },
+  {
+    "id": "45.e",
+    "statement": "Describe the use of scenario analysis in forecasting.",
+    "question": "What should we know about the use of scenario analysis in forecasting?"
+  },
+  {
+    "id": "46.a",
+    "statement": "Evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market.",
+    "question": "How should we evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market?"
+  },
+  {
+    "id": "46.b",
+    "statement": "Describe major categories of equity valuation models.",
+    "question": "What should we know about major categories of equity valuation models?"
+  },
+  {
+    "id": "46.c",
+    "statement": "Describe regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases.",
+    "question": "What should we know about regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases?"
+  },
+  {
+    "id": "46.d",
+    "statement": "Describe dividend payment chronology.",
+    "question": "What should we know about dividend payment chronology?"
+  },
+  {
+    "id": "46.e",
+    "statement": "Explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models.",
+    "question": "How can we explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models?"
+  },
+  {
+    "id": "46.g",
+    "statement": "Calculate the intrinsic value of a non-callable, non-convertible preferred stock.",
+    "question": "How do we calculate the intrinsic value of a non-callable, non-convertible preferred stock?"
+  },
+  {
+    "id": "46.h",
+    "statement": "Calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate.",
+    "question": "How do we calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate?"
+  },
+  {
+    "id": "46.i",
+    "statement": "Identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate.",
+    "question": "How can we identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate?"
+  },
+  {
+    "id": "46.j",
+    "statement": "Explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables.",
+    "question": "How can we explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables?"
+  },
+  {
+    "id": "46.k",
+    "statement": "Calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value.",
+    "question": "How do we calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value?"
+  },
+  {
+    "id": "46.l",
+    "statement": "Describe enterprise value multiples and their use in estimating equity value.",
+    "question": "What should we know about enterprise value multiples and their use in estimating equity value?"
+  },
+  {
+    "id": "46.m",
+    "statement": "Describe asset-based valuation models and their use in estimating equity value.",
+    "question": "What should we know about asset-based valuation models and their use in estimating equity value?"
+  },
+  {
+    "id": "46.f",
+    "statement": "Explain advantages and disadvantages of each category of valuation model.",
+    "question": "How can we explain advantages and disadvantages of each category of valuation model?"
+  },
+  {
+    "id": "47.a",
+    "statement": "Describe the features of a fixed-income security.",
+    "question": "What should we know about the features of a fixed-income security?"
+  },
+  {
+    "id": "47.b",
+    "statement": "Describe the contents of a bond indenture and contrast affirmative and negative covenants.",
+    "question": "What should we know about the contents of a bond indenture and contrast affirmative and negative covenants?"
+  },
+  {
+    "id": "48.a",
+    "statement": "Describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors.",
+    "question": "What should we know about common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors?"
+  },
+  {
+    "id": "48.b",
+    "statement": "Describe how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities.",
+    "question": "What should we know about how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities?"
+  },
+  {
+    "id": "49.a",
+    "statement": "Describe fixed-income market segments and their issuer and investor participants.",
+    "question": "What should we know about fixed-income market segments and their issuer and investor participants?"
+  },
+  {
+    "id": "49.b",
+    "statement": "Describe types of fixed-income indexes.",
+    "question": "What should we know about types of fixed-income indexes?"
+  },
+  {
+    "id": "49.c",
+    "statement": "Compare primary and secondary fixed-income markets to equity markets.",
+    "question": "How can we compare primary and secondary fixed-income markets to equity markets?"
+  },
+  {
+    "id": "50.a",
+    "statement": "Compare short-term funding alternatives available to corporations and financial institutions.",
+    "question": "How can we compare short-term funding alternatives available to corporations and financial institutions?"
+  },
+  {
+    "id": "50.b",
+    "statement": "Describe repurchase agreements (repos), their uses, and their benefits and risks.",
+    "question": "What should we know about repurchase agreements (repos), their uses, and their benefits and risks?"
+  },
+  {
+    "id": "50.c",
+    "statement": "Contrast the long-term funding of investment-grade versus high-yield corporate issuers.",
+    "question": "How can we distinguish the long-term funding of investment-grade versus high-yield corporate issuers?"
+  },
+  {
+    "id": "51.a",
+    "statement": "Describe funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies.",
+    "question": "What should we know about funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies?"
+  },
+  {
+    "id": "51.b",
+    "statement": "Contrast the issuance and trading of government and corporate fixed- income instruments.",
+    "question": "How can we distinguish the issuance and trading of government and corporate fixed- income instruments?"
+  },
+  {
+    "id": "52.a",
+    "statement": "Calculate a bond’s price given a yield-to-maturity on or between coupon dates.",
+    "question": "How do we calculate a bond’s price given a yield-to-maturity on or between coupon dates?"
+  },
+  {
+    "id": "52.b",
+    "statement": "Identify the relationships among a bond’s price, coupon rate, maturity, and yield-to-maturity.",
+    "question": "How can we identify the relationships among a bond’s price, coupon rate, maturity, and yield-to-maturity?"
+  },
+  {
+    "id": "52.c",
+    "statement": "Describe matrix pricing.",
+    "question": "What should we know about matrix pricing?"
+  },
+  {
+    "id": "53.a",
+    "statement": "Calculate annual yield on a bond for varying compounding periods in a year.",
+    "question": "How do we calculate annual yield on a bond for varying compounding periods in a year?"
+  },
+  {
+    "id": "53.b",
+    "statement": "Compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds.",
+    "question": "What should we understand about compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds?"
+  },
+  {
+    "id": "54.a",
+    "statement": "Calculate and interpret yield spread measures for floating-rate instruments.",
+    "question": "How do we calculate and interpret yield spread measures for floating-rate instruments?"
+  },
+  {
+    "id": "54.b",
+    "statement": "Calculate and interpret yield measures for money market instruments.",
+    "question": "How do we calculate and interpret yield measures for money market instruments?"
+  },
+  {
+    "id": "55.a",
+    "statement": "Define spot rates and the spot curve, and calculate the price of a bond using spot rates.",
+    "question": "How do we define spot rates and the spot curve, and calculate the price of a bond using spot rates?"
+  },
+  {
+    "id": "55.b",
+    "statement": "Define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates.",
+    "question": "How do we define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates?"
+  },
+  {
+    "id": "55.c",
+    "statement": "Compare the spot curve, par curve, and forward curve.",
+    "question": "How can we compare the spot curve, par curve, and forward curve?"
+  },
+  {
+    "id": "56.a",
+    "statement": "Calculate and interpret the sources of return from investing in a fixed- rate bond.",
+    "question": "How do we calculate and interpret the sources of return from investing in a fixed- rate bond?"
+  },
+  {
+    "id": "56.b",
+    "statement": "Describe the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon.",
+    "question": "What should we know about the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon?"
+  },
+  {
+    "id": "56.c",
+    "statement": "Define, calculate, and interpret Macaulay duration.",
+    "question": "What should we understand about define, calculate, and interpret Macaulay duration?"
+  },
+  {
+    "id": "57.a",
+    "statement": "Define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP).",
+    "question": "What should we understand about define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)?"
+  },
+  {
+    "id": "57.b",
+    "statement": "Explain how a bond’s maturity, coupon, and yield level affect its interest rate risk.",
+    "question": "How can we explain how a bond’s maturity, coupon, and yield level affect its interest rate risk?"
+  },
+  {
+    "id": "58.a",
+    "statement": "Calculate and interpret convexity and describe the convexity adjustment.",
+    "question": "How do we calculate and interpret convexity and describe the convexity adjustment?"
+  },
+  {
+    "id": "58.b",
+    "statement": "Calculate the percentage price change of a bond for a specified change in yield, given the bond’s duration and convexity.",
+    "question": "How do we calculate the percentage price change of a bond for a specified change in yield, given the bond’s duration and convexity?"
+  },
+  {
+    "id": "58.c",
+    "statement": "Calculate portfolio duration and convexity and explain the limitations of these measures.",
+    "question": "How do we calculate portfolio duration and convexity and explain the limitations of these measures?"
+  },
+  {
+    "id": "59.a",
+    "statement": "Explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options.",
+    "question": "How can we explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options?"
+  },
+  {
+    "id": "59.b",
+    "statement": "Calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity.",
+    "question": "How do we calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity?"
+  },
+  {
+    "id": "59.c",
+    "statement": "Define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes.",
+    "question": "How do we define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes?"
+  },
+  {
+    "id": "59.d",
+    "statement": "Describe the difference between empirical duration and analytical duration.",
+    "question": "What should we know about the difference between empirical duration and analytical duration?"
+  },
+  {
+    "id": "60.a",
+    "statement": "Describe credit risk and its components, probability of default and loss given default.",
+    "question": "What should we know about credit risk and its components, probability of default and loss given default?"
+  },
+  {
+    "id": "60.b",
+    "statement": "Describe the uses of ratings from credit rating agencies and their limitations.",
+    "question": "What should we know about the uses of ratings from credit rating agencies and their limitations?"
+  },
+  {
+    "id": "60.c",
+    "statement": "Describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads.",
+    "question": "What should we know about macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads?"
+  },
+  {
+    "id": "61.a",
+    "statement": "Explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues.",
+    "question": "How can we explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues?"
+  },
+  {
+    "id": "62.a",
+    "statement": "Describe the qualitative and quantitative factors used to evaluate a corporate borrower’s creditworthiness.",
+    "question": "What should we know about the qualitative and quantitative factors used to evaluate a corporate borrower’s creditworthiness?"
+  },
+  {
+    "id": "62.b",
+    "statement": "Calculate and interpret financial ratios used in credit analysis.",
+    "question": "How do we calculate and interpret financial ratios used in credit analysis?"
+  },
+  {
+    "id": "62.c",
+    "statement": "Describe the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings.",
+    "question": "What should we know about the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings?"
+  },
+  {
+    "id": "63.a",
+    "statement": "Explain benefits of securitization for issuers, investors, economies, and financial markets.",
+    "question": "How can we explain benefits of securitization for issuers, investors, economies, and financial markets?"
+  },
+  {
+    "id": "63.b",
+    "statement": "Describe securitization, including the parties and the roles they play.",
+    "question": "What should we know about securitization, including the parties and the roles they play?"
+  },
+  {
+    "id": "64.a",
+    "statement": "Describe characteristics and risks of covered bonds and how they differ from other asset-backed securities.",
+    "question": "What should we know about characteristics and risks of covered bonds and how they differ from other asset-backed securities?"
+  },
+  {
+    "id": "64.b",
+    "statement": "Describe typical credit enhancement structures used in securitizations.",
+    "question": "What should we know about typical credit enhancement structures used in securitizations?"
+  },
+  {
+    "id": "64.c",
+    "statement": "Describe types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type.",
+    "question": "What should we know about types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type?"
+  },
+  {
+    "id": "64.d",
+    "statement": "Describe collateralized debt obligations, including their cash flows and risks.",
+    "question": "What should we know about collateralized debt obligations, including their cash flows and risks?"
+  },
+  {
+    "id": "65.a",
+    "statement": "Define prepayment risk and describe time tranching structures in securitizations and their purpose.",
+    "question": "How do we define prepayment risk and describe time tranching structures in securitizations and their purpose?"
+  },
+  {
+    "id": "65.b",
+    "statement": "Describe fundamental features of residential mortgage loans that are securitized.",
+    "question": "What should we know about fundamental features of residential mortgage loans that are securitized?"
+  },
+  {
+    "id": "65.c",
+    "statement": "Describe types and characteristics of residential mortgage-backed securities, including mortgage pass-through securities and collateralized mortgage obligations, and explain the cash flows and risks for each type.",
+    "question": "What should we know about types and characteristics of residential mortgage-backed securities, including mortgage pass-through securities and collateralized mortgage obligations, and explain the cash flows and risks for each type?"
+  },
+  {
+    "id": "65.d",
+    "statement": "Describe characteristics and risks of commercial mortgage-backed securities.",
+    "question": "What should we know about characteristics and risks of commercial mortgage-backed securities?"
+  },
+  {
+    "id": "66.a",
+    "statement": "Define a derivative and describe basic features of a derivative instrument.",
+    "question": "How do we define a derivative and describe basic features of a derivative instrument?"
+  },
+  {
+    "id": "66.b",
+    "statement": "Describe the basic features of derivative markets, and contrast over- the-counter and exchange-traded derivative markets.",
+    "question": "What should we know about the basic features of derivative markets, and contrast over- the-counter and exchange-traded derivative markets?"
+  },
+  {
+    "id": "67.a",
+    "statement": "Define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics.",
+    "question": "How do we define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics?"
+  },
+  {
+    "id": "67.b",
+    "statement": "Determine the value at expiration and profit from a long or a short position in a call or put option.",
+    "question": "How do we determine the value at expiration and profit from a long or a short position in a call or put option?"
+  },
+  {
+    "id": "67.c",
+    "statement": "Contrast forward commitments with contingent claims.",
+    "question": "How can we distinguish forward commitments with contingent claims?"
+  },
+  {
+    "id": "68.a",
+    "statement": "Describe benefits and risks of derivative instruments.",
+    "question": "What should we know about benefits and risks of derivative instruments?"
+  },
+  {
+    "id": "68.b",
+    "statement": "Compare the use of derivatives among issuers and investors.",
+    "question": "How can we compare the use of derivatives among issuers and investors?"
+  },
+  {
+    "id": "69.a",
+    "statement": "Explain how the concepts of arbitrage and replication are used in pricing derivatives.",
+    "question": "How can we explain how the concepts of arbitrage and replication are used in pricing derivatives?"
+  },
+  {
+    "id": "69.b",
+    "statement": "Explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset.",
+    "question": "How can we explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset?"
+  },
+  {
+    "id": "70.a",
+    "statement": "Explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration.",
+    "question": "How can we explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration?"
+  },
+  {
+    "id": "70.b",
+    "statement": "Explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates.",
+    "question": "How can we explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates?"
+  },
+  {
+    "id": "71.a",
+    "statement": "Compare the value and price of forward and futures contracts.",
+    "question": "How can we compare the value and price of forward and futures contracts?"
+  },
+  {
+    "id": "71.b",
+    "statement": "Explain why forward and futures prices differ.",
+    "question": "How can we explain why forward and futures prices differ?"
+  },
+  {
+    "id": "72.a",
+    "statement": "Describe how swap contracts are similar to but different from a series of forward contracts.",
+    "question": "What should we know about how swap contracts are similar to but different from a series of forward contracts?"
+  },
+  {
+    "id": "72.b",
+    "statement": "Contrast the value and price of swaps.",
+    "question": "How can we distinguish the value and price of swaps?"
+  },
+  {
+    "id": "73.a",
+    "statement": "Explain the exercise value, moneyness, and time value of an option.",
+    "question": "How can we explain the exercise value, moneyness, and time value of an option?"
+  },
+  {
+    "id": "73.b",
+    "statement": "Contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims.",
+    "question": "How can we distinguish the use of arbitrage and replication concepts in pricing forward commitments and contingent claims?"
+  },
+  {
+    "id": "73.c",
+    "statement": "Identify the factors that determine the value of an option and describe",
+    "question": "How can we identify the factors that determine the value of an option and describe?"
+  },
+  {
+    "id": "74.a",
+    "statement": "Explain put–call parity for European options.",
+    "question": "How can we explain put–call parity for European options?"
+  },
+  {
+    "id": "74.b",
+    "statement": "Explain put–call forward parity for European options.",
+    "question": "How can we explain put–call forward parity for European options?"
+  },
+  {
+    "id": "75.a",
+    "statement": "Explain how to value a derivative using a one-period binomial model.",
+    "question": "How can we explain how to value a derivative using a one-period binomial model?"
+  },
+  {
+    "id": "75.b",
+    "statement": "Describe the concept of risk neutrality in derivatives pricing.",
+    "question": "What should we know about the concept of risk neutrality in derivatives pricing?"
+  },
+  {
+    "id": "76.a",
+    "statement": "Describe features and categories of alternative investments.",
+    "question": "What should we know about features and categories of alternative investments?"
+  },
+  {
+    "id": "76.b",
+    "statement": "Compare direct investment, co-investment, and fund investment methods for alternative investments.",
+    "question": "How can we compare direct investment, co-investment, and fund investment methods for alternative investments?"
+  },
+  {
+    "id": "76.c",
+    "statement": "Describe investment ownership and compensation structures commonly used in alternative investments.",
+    "question": "What should we know about investment ownership and compensation structures commonly used in alternative investments?"
+  },
+  {
+    "id": "77.a",
+    "statement": "Describe the performance appraisal of alternative investments.",
+    "question": "What should we know about the performance appraisal of alternative investments?"
+  },
+  {
+    "id": "77.b",
+    "statement": "Calculate and interpret alternative investment returns both before and after fees.",
+    "question": "How do we calculate and interpret alternative investment returns both before and after fees?"
+  },
+  {
+    "id": "78.a",
+    "statement": "Explain features of private equity and its investment characteristics.",
+    "question": "How can we explain features of private equity and its investment characteristics?"
+  },
+  {
+    "id": "78.b",
+    "statement": "Explain features of private debt and its investment characteristics.",
+    "question": "How can we explain features of private debt and its investment characteristics?"
+  },
+  {
+    "id": "78.c",
+    "statement": "Describe the diversification benefits that private capital can provide.",
+    "question": "What should we know about the diversification benefits that private capital can provide?"
+  },
+  {
+    "id": "79.a",
+    "statement": "Explain features and characteristics of real estate.",
+    "question": "How can we explain features and characteristics of real estate?"
+  },
+  {
+    "id": "79.b",
+    "statement": "Explain the investment characteristics of real estate investments.",
+    "question": "How can we explain the investment characteristics of real estate investments?"
+  },
+  {
+    "id": "79.c",
+    "statement": "Explain features and characteristics of infrastructure.",
+    "question": "How can we explain features and characteristics of infrastructure?"
+  },
+  {
+    "id": "79.d",
+    "statement": "Explain the investment characteristics of infrastructure investments.",
+    "question": "How can we explain the investment characteristics of infrastructure investments?"
+  },
+  {
+    "id": "80.a",
+    "statement": "Explain features of raw land, timberland, and farmland and their investment characteristics.",
+    "question": "How can we explain features of raw land, timberland, and farmland and their investment characteristics?"
+  },
+  {
+    "id": "80.b",
+    "statement": "Describe features of commodities and their investment characteristics.",
+    "question": "What should we know about features of commodities and their investment characteristics?"
+  },
+  {
+    "id": "80.c",
+    "statement": "Analyze sources of risk, return, and diversification among natural resource investments.",
+    "question": "How do we analyze sources of risk, return, and diversification among natural resource investments?"
+  },
+  {
+    "id": "81.a",
+    "statement": "Explain investment features of hedge funds and contrast them with other asset classes.",
+    "question": "How can we explain investment features of hedge funds and contrast them with other asset classes?"
+  },
+  {
+    "id": "81.b",
+    "statement": "Describe investment forms and vehicles used in hedge fund investments.",
+    "question": "What should we know about investment forms and vehicles used in hedge fund investments?"
+  },
+  {
+    "id": "81.c",
+    "statement": "Analyze sources of risk, return, and diversification among hedge fund investments.",
+    "question": "How do we analyze sources of risk, return, and diversification among hedge fund investments?"
+  },
+  {
+    "id": "82.a",
+    "statement": "Describe financial applications of distributed ledger technology.",
+    "question": "What should we know about financial applications of distributed ledger technology?"
+  },
+  {
+    "id": "82.b",
+    "statement": "Explain investment features of digital assets and contrast them with other asset classes.",
+    "question": "How can we explain investment features of digital assets and contrast them with other asset classes?"
+  },
+  {
+    "id": "82.c",
+    "statement": "Describe investment forms and vehicles used in digital asset investments.",
+    "question": "What should we know about investment forms and vehicles used in digital asset investments?"
+  },
+  {
+    "id": "82.d",
+    "statement": "Analyze sources of risk, return, and diversification among digital asset investments.",
+    "question": "How do we analyze sources of risk, return, and diversification among digital asset investments?"
+  },
+  {
+    "id": "83.a",
+    "statement": "Describe characteristics of the major asset classes that investors consider in forming portfolios.",
+    "question": "What should we know about characteristics of the major asset classes that investors consider in forming portfolios?"
+  },
+  {
+    "id": "83.b",
+    "statement": "Explain risk aversion and its implications for portfolio selection.",
+    "question": "How can we explain risk aversion and its implications for portfolio selection?"
+  },
+  {
+    "id": "83.c",
+    "statement": "Explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line.",
+    "question": "How can we explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line?"
+  },
+  {
+    "id": "83.d",
+    "statement": "Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data.",
+    "question": "How do we calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data?"
+  },
+  {
+    "id": "83.e",
+    "statement": "Calculate and interpret portfolio standard deviation.",
+    "question": "How do we calculate and interpret portfolio standard deviation?"
+  },
+  {
+    "id": "83.f",
+    "statement": "Describe the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated.",
+    "question": "What should we know about the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated?"
+  },
+  {
+    "id": "83.g",
+    "statement": "Describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio.",
+    "question": "What should we know about and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio?"
+  },
+  {
+    "id": "84.a",
+    "statement": "Describe the implications of combining a risk-free asset with a portfolio of risky assets.",
+    "question": "What should we know about the implications of combining a risk-free asset with a portfolio of risky assets?"
+  },
+  {
+    "id": "84.b",
+    "statement": "Explain the capital allocation line (CAL) and the capital market line (CML).",
+    "question": "How can we explain the capital allocation line (CAL) and the capital market line (CML)?"
+  },
+  {
+    "id": "84.c",
+    "statement": "Explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk.",
+    "question": "How can we explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk?"
+  },
+  {
+    "id": "84.d",
+    "statement": "Explain return generating models (including the market model) and their uses.",
+    "question": "How can we explain return generating models (including the market model) and their uses?"
+  },
+  {
+    "id": "84.e",
+    "statement": "Calculate and interpret beta.",
+    "question": "How do we calculate and interpret beta?"
+  },
+  {
+    "id": "84.f",
+    "statement": "Explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML).",
+    "question": "How can we explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)?"
+  },
+  {
+    "id": "84.g",
+    "statement": "Calculate and interpret the expected return of an asset using the CAPM.",
+    "question": "How do we calculate and interpret the expected return of an asset using the CAPM?"
+  },
+  {
+    "id": "84.h",
+    "statement": "Describe and demonstrate applications of the CAPM and the SML.",
+    "question": "What should we know about and demonstrate applications of the CAPM and the SML?"
+  },
+  {
+    "id": "84.i",
+    "statement": "Calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha.",
+    "question": "How do we calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha?"
+  },
+  {
+    "id": "85.a",
+    "statement": "Describe the portfolio approach to investing.",
+    "question": "What should we know about the portfolio approach to investing?"
+  },
+  {
+    "id": "85.b",
+    "statement": "Describe the steps in the portfolio management process.",
+    "question": "What should we know about the steps in the portfolio management process?"
+  },
+  {
+    "id": "85.c",
+    "statement": "Describe types of investors and distinctive characteristics and needs of each.",
+    "question": "What should we know about types of investors and distinctive characteristics and needs of each?"
+  },
+  {
+    "id": "85.d",
+    "statement": "Describe defined contribution and defined benefit pension plans.",
+    "question": "What should we know about defined contribution and defined benefit pension plans?"
+  },
+  {
+    "id": "85.e",
+    "statement": "Describe aspects of the asset management industry.",
+    "question": "What should we know about aspects of the asset management industry?"
+  },
+  {
+    "id": "85.f",
+    "statement": "Describe mutual funds and compare them with other pooled investment products.",
+    "question": "What should we know about mutual funds and compare them with other pooled investment products?"
+  },
+  {
+    "id": "86.a",
+    "statement": "Describe the reasons for a written investment policy statement (IPS).",
+    "question": "What should we know about the reasons for a written investment policy statement (IPS)?"
+  },
+  {
+    "id": "86.b",
+    "statement": "Describe the major components of an IPS.",
+    "question": "What should we know about the major components of an IPS?"
+  },
+  {
+    "id": "86.c",
+    "statement": "Describe risk and return objectives and how they may be developed for a client.",
+    "question": "What should we know about risk and return objectives and how they may be developed for a client?"
+  },
+  {
+    "id": "86.d",
+    "statement": "Explain the difference between the willingness and the ability (capacity) to take risk in analyzing an investor’s financial risk tolerance.",
+    "question": "How can we explain the difference between the willingness and the ability (capacity) to take risk in analyzing an investor’s financial risk tolerance?"
+  },
+  {
+    "id": "86.e",
+    "statement": "Describe the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique circumstances and their implications for the choice of portfolio assets.",
+    "question": "What should we know about the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique circumstances and their implications for the choice of portfolio assets?"
+  },
+  {
+    "id": "86.f",
+    "statement": "Explain the specification of asset classes in relation to asset allocation.",
+    "question": "How can we explain the specification of asset classes in relation to asset allocation?"
+  },
+  {
+    "id": "86.g",
+    "statement": "Describe the principles of portfolio construction and the role of asset allocation in relation to the IPS.",
+    "question": "What should we know about the principles of portfolio construction and the role of asset allocation in relation to the IPS?"
+  },
+  {
+    "id": "86.h",
+    "statement": "Describe how environmental, social, and governance (ESG) considerations may be integrated into portfolio planning and construction.",
+    "question": "What should we know about how environmental, social, and governance (ESG) considerations may be integrated into portfolio planning and construction?"
+  },
+  {
+    "id": "87.a",
+    "statement": "Compare and contrast cognitive errors and emotional biases.",
+    "question": "How do we compare and contrast cognitive errors and emotional biases?"
+  },
+  {
+    "id": "87.b",
+    "statement": "Discuss commonly recognized behavioral biases and their implications for financial decision making.",
+    "question": "What should we understand about commonly recognized behavioral biases and their implications for financial decision making?"
+  },
+  {
+    "id": "87.c",
+    "statement": "Describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance.",
+    "question": "What should we know about how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance?"
+  },
+  {
+    "id": "88.a",
+    "statement": "Define risk management.",
+    "question": "How do we define risk management?"
+  },
+  {
+    "id": "88.b",
+    "statement": "Describe features of a risk management framework.",
+    "question": "What should we know about features of a risk management framework?"
+  },
+  {
+    "id": "88.c",
+    "statement": "Define risk governance and describe elements of effective risk governance.",
+    "question": "How do we define risk governance and describe elements of effective risk governance?"
+  },
+  {
+    "id": "88.d",
+    "statement": "Explain how risk tolerance affects risk management.",
+    "question": "How can we explain how risk tolerance affects risk management?"
+  },
+  {
+    "id": "88.e",
+    "statement": "Describe risk budgeting and its role in risk governance.",
+    "question": "What should we know about risk budgeting and its role in risk governance?"
+  },
+  {
+    "id": "88.f",
+    "statement": "Identify financial and non-financial sources of risk and describe how they may interact.",
+    "question": "How can we identify financial and non-financial sources of risk and describe how they may interact?"
+  },
+  {
+    "id": "88.g",
+    "statement": "Describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods.",
+    "question": "What should we know about methods for measuring and modifying risk exposures and factors to consider in choosing among the methods?"
+  },
+  {
+    "id": "89.a",
+    "statement": "Explain ethics.",
+    "question": "How can we explain ethics?"
+  },
+  {
+    "id": "89.b",
+    "statement": "Describe the role of a code of ethics in defining a profession.",
+    "question": "What should we know about the role of a code of ethics in defining a profession?"
+  },
+  {
+    "id": "89.c",
+    "statement": "Describe professions and how they establish trust.",
+    "question": "What should we know about professions and how they establish trust?"
+  },
+  {
+    "id": "89.d",
+    "statement": "Describe the need for high ethical standards in investment management.",
+    "question": "What should we know about the need for high ethical standards in investment management?"
+  },
+  {
+    "id": "89.e",
+    "statement": "Explain professionalism in investment management.",
+    "question": "How can we explain professionalism in investment management?"
+  },
+  {
+    "id": "89.f",
+    "statement": "Identify challenges to ethical behavior.",
+    "question": "How can we identify challenges to ethical behavior?"
+  },
+  {
+    "id": "89.g",
+    "statement": "Compare and contrast ethical standards with legal standards.",
+    "question": "How do we compare and contrast ethical standards with legal standards?"
+  },
+  {
+    "id": "89.h",
+    "statement": "Describe a framework for ethical decision making.",
+    "question": "What should we know about a framework for ethical decision making?"
+  },
+  {
+    "id": "90.a",
+    "statement": "Describe the structure of the CFA Institute Professional Conduct Program and the process for the enforcement of the Code and Standards.",
+    "question": "What should we know about the structure of the CFA Institute Professional Conduct Program and the process for the enforcement of the Code and Standards?"
+  },
+  {
+    "id": "90.b",
+    "statement": "Identify the six components of the Code of Ethics and the seven Standards of Professional Conduct.",
+    "question": "How can we identify the six components of the Code of Ethics and the seven Standards of Professional Conduct?"
+  },
+  {
+    "id": "90.c",
+    "statement": "Explain the ethical responsibilities required by the Code and Standards, including the sub-sections of each Standard.",
+    "question": "How can we explain the ethical responsibilities required by the Code and Standards, including the sub-sections of each Standard?"
+  },
+  {
+    "id": "91.a",
+    "statement": "Demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity.",
+    "question": "How can we demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity?"
+  },
+  {
+    "id": "91.b",
+    "statement": "Recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct.",
+    "question": "How should we recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct?"
+  },
+  {
+    "id": "91.c",
+    "statement": "Identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards.",
+    "question": "How can we identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards?"
+  },
+  {
+    "id": "92.a",
+    "statement": "Explain why the GIPS standards were created, who can claim compliance, and who benefits from compliance.",
+    "question": "How can we explain why the GIPS standards were created, who can claim compliance, and who benefits from compliance?"
+  },
+  {
+    "id": "92.b",
+    "statement": "Describe the key concepts of the GIPS Standards for Firms.",
+    "question": "What should we know about the key concepts of the GIPS Standards for Firms?"
+  },
+  {
+    "id": "92.c",
+    "statement": "Explain the purpose of composites in performance reporting.",
+    "question": "How can we explain the purpose of composites in performance reporting?"
+  },
+  {
+    "id": "92.d",
+    "statement": "Describe the fundamentals of compliance, including the recommendations of the GIPS standards with respect to the definition of the firm",
+    "question": "What should we know about the fundamentals of compliance, including the recommendations of the GIPS standards with respect to the definition of the firm?"
+  },
+  {
+    "id": "92.e",
+    "statement": "Describe the concept of independent verification.",
+    "question": "What should we know about the concept of independent verification?"
+  },
+  {
+    "id": "93.a",
+    "statement": "Evaluate practices, policies, and conduct relative to the CFA Institute Code of Ethics and Standards of Professional Conduct.",
+    "question": "How should we evaluate practices, policies, and conduct relative to the CFA Institute Code of Ethics and Standards of Professional Conduct?"
+  },
+  {
+    "id": "93.b",
+    "statement": "Explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct.",
+    "question": "How can we explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct?"
+  }
+]

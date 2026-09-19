@@ -1,0 +1,547 @@
+{
+  "readingId": 73,
+  "title": "Pricing and Valuation of Options",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "73.1",
+      "title": "Option Valuation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "73.a",
+          "text": "How can we explain the exercise value, moneyness, and time value of an option?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Moneyness refers to whether an option is in the money or out of the money. If immediate exercise of the option would generate a positive payoff, it is in the money. If immediate exercise would result in a loss (negative payoff), it is out of the money. When the current asset price equals the exercise price, exercise will generate neither a gain nor loss, and the option is at the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following describes the conditions for a call option to be in, out of, or at the money. S is the price of the underlying asset and X is the exercise price of the option."
+        },
+        {
+          "type": "paragraph",
+          "text": "In-the-money call options. If S − X > 0, a call option is in the money. S − X is the amount of the payoff a call holder would receive from immediate exercise, buying a share for X and selling it in the market for a greater price S. Out-of-the-money call options. If S − X < 0, a call option is out of the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "At-the-money call options. If S = X, a call option is said to be at the money."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 73.1: Call Option Moneyness"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5cd0c5a01fc33431d8a2.png",
+          "alt": "Equation, table, or diagram: Figure 73.1: Call Option Moneyness",
+          "width": 288,
+          "height": 263,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following describes the conditions for a put option to be in, out of, or at the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "In-the-money put options. If X − S > 0, a put option is in the money. X − S is the amount of the payoff from immediate exercise, buying a share for S and exercising the put to receive X for the share. Out-of-the-money put options. When the stock’s price is greater than the exercise price, a put option is said to be out of the money. If X − S < 0, a put option is out of the money. At-the-money put options. If S = X, a put option is said to be at the money."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 73.2: Put Option Moneyness"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4a6b87d49267dda413df.png",
+          "alt": "Equation, table, or diagram: Figure 73.2: Put Option Moneyness",
+          "width": 293,
+          "height": 262,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Moneyness"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a July 40 call and a July 40 put, both on a stock that is currently selling for $37/share. Calculate how much these options are in or out of the money."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "A July 40 call is a call option with an exercise price of $40 and an expiration date in July."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The call is $3 out of the money because S − X = −$3.00. The put is $3 in the money because X − S = $3.00."
+        },
+        {
+          "type": "paragraph",
+          "text": "We define the exercise value (or intrinsic value) of an option as the maximum of zero and the amount that the option is in the money. That is, the exercise value is the amount an option is in the money, if it is in the money, or zero if the option is at or out of the money. The exercise value is the value of the option if exercised immediately."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prior to expiration, an option has time value in addition to its exercise value. The time value of an option is the amount by which the option premium (price) exceeds the exercise value and is sometimes called the speculative value of the option. This relationship can be written as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "option premium = exercise value + time value"
+        },
+        {
+          "type": "paragraph",
+          "text": "At any point during the life of an option, its value will typically be greater than its exercise value. This is because there is some probability that the underlying asset price will change in an amount that gives the option a positive payoff at expiration greater than the current exercise value. Recall that an option’s exercise value (to a buyer) is the amount of the payoff at expiration and has a lower bound of zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "When an option reaches expiration, there is no time remaining and the time value is zero. This means the value at expiration is either zero, if the option is at or out of the money, or its exercise value, if it is in the money."
+        },
+        {
+          "type": "question",
+          "objectiveId": "73.b",
+          "text": "How can we distinguish the use of arbitrage and replication concepts in pricing forward commitments and contingent claims?"
+        },
+        {
+          "type": "paragraph",
+          "text": "To model forward commitments, we used no-arbitrage pricing based on an initial value of zero to both parties. With options, however, the initial values of options are positive; the buyer pays a premium (the option price) to the writer (seller). Another difference is that where forward commitments have essentially unlimited gains or losses for both parties (except to the extent that prices are constrained by zero), options are one-sided: Potential losses for the buyer, and potential gains for the writer, are limited to the premium paid. For these reasons, the no-arbitrage approach we use for pricing contingent claims is different from the model we use for forward commitments."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following is some terminology that we will use to determine the minimum and maximum values for European options:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {r l} {S_{t}} & {{}={\\mathrm{price~of~the~underlying~stock~at~time~}} t} \\\\ {X} & {{}={\\mathrm{~exercise~price~of~the~option}}} \\\\ {\\mathrm{T-t~=~time~to~expiration}} \\\\ {c_{t}} & {{}={\\mathrm{~price~of~a~European~call~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time~=T~}} t} \\end{array}\\\\[6pt]\\begin{array} {r l} {p_{t}} & {{}={\\mathrm{price~of~a~European~put~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time}}=T} \\\\ {{\\mathrm{Rf}}} & {{}={\\mathrm{risk-free~rate}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "097536336ff0d2b0df16.png"
+        },
+        {
+          "type": "heading",
+          "text": "Upper Bound for Call Options"
+        },
+        {
+          "type": "paragraph",
+          "text": "The maximum value of a European call option at any time t is the time-t share price of the underlying stock. This makes sense because no one would pay more for the right to buy an asset than the asset’s market value. It would be cheaper simply to buy the underlying asset. At time t = 0, the upper boundary condition for European call options is c0 ≤ S0, and at any time t during a European call option’s life, the upper boundary condition is ct ≤ St."
+        },
+        {
+          "type": "heading",
+          "text": "Upper Bound for Put Options"
+        },
+        {
+          "type": "paragraph",
+          "text": "Logically the value of a put option cannot be more than its exercise price. This would be its exercise value if the underlying stock price goes to zero. However, because European puts cannot be exercised prior to expiration, their maximum value is the present value of the exercise price discounted at the risk-free rate. Even if the stock price goes to zero"
+        },
+        {
+          "type": "paragraph",
+          "text": "and is expected to stay at zero, the put buyer will not receive the intrinsic value, X, until the expiration date."
+        },
+        {
+          "type": "paragraph",
+          "text": "At time t = 0, the upper boundary condition can be expressed for European put options as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p0 ≤ X (1 + Rf)−T"
+        },
+        {
+          "type": "paragraph",
+          "text": "At any time t during a European put option’s life, the upper boundary condition is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "pt ≤ X (1 + Rf)−⁽T⁻t⁾"
+        },
+        {
+          "type": "heading",
+          "text": "Lower Bounds for Options"
+        },
+        {
+          "type": "paragraph",
+          "text": "Theoretically, no option will sell for less than its intrinsic value and no option can take on a negative value. For European options, however, the lower bound is not so obvious because these options are not exercisable immediately."
+        },
+        {
+          "type": "paragraph",
+          "text": "To determine the lower bounds for European options, we can examine the value of a portfolio in which the option is combined with a long or short position in the stock and a pure discount bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a European call option, construct the following portfolio:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A long at-the-money European call option with exercise price X, expiring at time T. A long discount bond priced to yield the risk-free rate that pays X at option expiration. A short position in one share of the underlying stock priced at S0 = X."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current value of this portfolio is c0 − S0 + X(1 + Rf)−T."
+        },
+        {
+          "type": "paragraph",
+          "text": "At expiration time T, this portfolio will pay cT − ST + X. That is, we will collect cT = max[0, ST − X] on the call option, pay ST to cover our short stock position, and collect X from the maturing bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "If ST ≥ X, the call is in-the-money, and the portfolio will have a zero payoff because the call pays ST − X, the bond pays +X, and we pay −ST to cover our short position. That is, the time t = T payoff is: ST − X + X − ST = 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "If ST < X, the call is out-of-the-money, and the portfolio has a positive payoff equal to X − ST because the call value, cT, is zero, we collect X on the bond, and pay –ST to cover the short position. So, the time t = T payoff is: 0 + X − ST = X − ST."
+        },
+        {
+          "type": "paragraph",
+          "text": "No matter whether the option expires in-the-money, at-the-money, or out-of-the-money, the portfolio value will be equal to or greater than zero. We will never have to make a payment."
+        },
+        {
+          "type": "paragraph",
+          "text": "To prevent arbitrage, any portfolio that has no possibility of a negative payoff cannot have a negative value. Thus, we can state the value of the portfolio at time t = 0 as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "c0 − S0 + X(1 + Rf)−T ≥ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "which allows us to conclude that:"
+        },
+        {
+          "type": "paragraph",
+          "text": "c0 ≥ S0 − X(1 + Rf)−T"
+        },
+        {
+          "type": "paragraph",
+          "text": "Combining this result with the earlier minimum on the call value of zero, we can write:"
+        },
+        {
+          "type": "paragraph",
+          "text": "c0 ≥ Max[0, S0 − X(1 + Rf)−T]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that X(1 + Rf)−T is the present value of a pure discount bond with a face value of X."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a European put option we can derive the minimum value by forming the following portfolio at time t = 0:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A long at-the-money European put option with exercise price X, expiring at T."
+        },
+        {
+          "type": "paragraph",
+          "text": "A short position on a risk-free bond priced at X(1 + Rf)−T, equivalent to borrowing X(1 + Rf)−T. A long position in a share of the underlying stock priced at S0."
+        },
+        {
+          "type": "paragraph",
+          "text": "At expiration time T, this portfolio will pay pT + ST − X. That is, we will collect pT = Max[0, X − ST] on the put option, receive ST from the stock, and pay X on the bond (loan)."
+        },
+        {
+          "type": "paragraph",
+          "text": "If ST > X, the payoff will equal: pT + ST − X = ST − X."
+        },
+        {
+          "type": "paragraph",
+          "text": "If ST ≤ X, the payoff will be zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Again, a no-arbitrage argument can be made that the portfolio value must be zero or greater, because there are no negative payoffs to the portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "At time t = 0, this condition can be written as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p0 + S0 − X(1 + Rf)−T ≥ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "and rearranged to state the minimum value for a European put option at time t = 0 as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p0 ≥ X(1 + Rf)−T − S0"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have now established the minimum bound on the price of a European put option as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p0 ≥ Max[0, X(1 + Rf)−T − S0]"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 73.3 summarizes what we now know regarding the boundary prices for European options at any time t prior to expiration at time t = T."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 73.3: Lower and Upper Bounds for Options"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/07defe9b974203ee0a55.png",
+          "alt": "Equation, table, or diagram: Figure 73.3: Lower and Upper Bounds for Options",
+          "width": 515,
+          "height": 78,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the exam, know the price limits in Figure 73.3. You will not be asked to derive them, but you may be expected to use them."
+        },
+        {
+          "type": "question",
+          "objectiveId": "73.c",
+          "text": "How can we identify the factors that determine the value of an option and describe?"
+        },
+        {
+          "type": "heading",
+          "text": "how each factor affects the value of an option."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are six factors that determine option prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Price of the underlying asset. For call options, the higher the price of the"
+        },
+        {
+          "type": "paragraph",
+          "text": "underlying, the greater its exercise value and the higher the value of the option. Conversely, the lower the price of the underlying, the less its exercise value and the lower the value of the call option. In general, call option values increase when the value of the underlying asset increases. For put options this relationship is reversed. An increase in the price of the underlying reduces the value of a put option.\n2. The exercise price. A higher exercise price decreases the values of call options and"
+        },
+        {
+          "type": "paragraph",
+          "text": "a lower exercise price increases the values of call options. A higher exercise price increases the values of put options and a lower exercise price decreases the values of put options."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. The risk-free rate of interest. An increase in the risk-free rate will increase call"
+        },
+        {
+          "type": "paragraph",
+          "text": "option values, and a decrease in the risk-free rate will decrease call option values."
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in the risk-free rate will decrease put option values, and a decrease in the risk-free rate will increase put option values."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to remember the effects of changes in the risk-free rate is to think about present values of the payments for calls and puts. These statements are strictly true only for in-the-money options, but it’s a way to remember the relationships. The holder of a call option will pay in the future to exercise a call option and the present value of that payment is lower when the risk-free rate is higher, so a higher risk-free rate increases a call option’s value. The holder of a put option will receive a payment in the future when the put is exercised and an increase in the risk-free rate decreases the present value of this payment, so a higher risk-free rate decreases a put option’s value."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Volatility of the underlying. Volatility is what makes options valuable. If there were"
+        },
+        {
+          "type": "paragraph",
+          "text": "no volatility in the price of the underlying asset (its price remained constant), options would always be equal to their exercise values and time or speculative value would be zero. An increase in the volatility of the price of the underlying asset increases the values of both put and call options and a decrease in volatility of the price of the underlying decreases both put values and call values.\n5. Time to expiration. Because volatility is expressed per unit of time, longer time to"
+        },
+        {
+          "type": "paragraph",
+          "text": "expiration effectively increases expected volatility and increases the value of a call option. Less time to expiration decreases the time value of a call option so that at expiration its value is simply its exercise value. For most put options, longer time to expiration will increase option values for the same reasons. For some European put options, however, extending the time to expiration can decrease the value of the put. In general, the deeper a put option is in the money, the higher the risk-free rate, and the longer the current time to expiration, the more likely that extending the option’s time to expiration will decrease its value."
+        },
+        {
+          "type": "paragraph",
+          "text": "To understand this possibility consider a put option at $20 on a stock with a value that has decreased to $1. The exercise value of the put is $19 so the upside is very limited, the downside (if the price of the underlying subsequently increases) is significant, and because no payment will be received until the expiration date, the current option value reflects the present value of any expected payment. Extending the time to expiration would decrease that present value. While overall we expect a longer time to expiration to increase the value of a European put option, in the case of a deep in-the-money put, a longer time to expiration could decrease its value.\n6. Costs and benefits of holding the asset. If there are benefits of holding the"
+        },
+        {
+          "type": "paragraph",
+          "text": "underlying asset (dividend or interest payments on securities or a convenience yield on commodities), call values are decreased and put values are increased. The reason for this is most easily understood by considering cash benefits. When a stock pays a dividend, or a bond pays interest, this reduces the value of the asset. Decreases in the value of the underlying asset decrease call values and increase put values. Positive storage costs make it more costly to hold an asset. We can think of this as making a call option more valuable because call holders can have long exposure to the asset without paying the costs of actually owning the asset. Puts, on the other hand, are less valuable when storage costs are higher."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "73.a",
+      "text": "How can we explain the exercise value, moneyness, and time value of an option?"
+    },
+    {
+      "type": "paragraph",
+      "text": "If immediate exercise of an option would generate a positive payoff, the option is in the money. If immediate exercise would result in a negative payoff, the option is out of the money. An option’s exercise value is the greater of zero or the amount it is in the money. Time value is the amount by which an option’s price is greater than its exercise value. Time value is zero at expiration."
+    },
+    {
+      "type": "question",
+      "objectiveId": "73.b",
+      "text": "How can we distinguish the use of arbitrage and replication concepts in pricing forward commitments and contingent claims?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The approach for pricing contingent claims is different from the model for forward commitments because contingent claims have one-sided payoffs and values at initiation"
+    },
+    {
+      "type": "paragraph",
+      "text": "that are not equal to zero. A replication model for European options is based on the value of a portfolio in which the option is combined with a pure discount bond and a long or short position in the underlying."
+    },
+    {
+      "type": "question",
+      "objectiveId": "73.c",
+      "text": "How can we identify the factors that determine the value of an option and describe?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Factors that determine the value of an option:"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/a3d4bd9e09fe6e397b5d.png",
+      "alt": "Equation, table, or diagram: Factors that determine the value of an option:",
+      "width": 533,
+      "height": 233,
+      "visualKind": "diagram-chart-or-table"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "73.a",
+      "statement": "Explain the exercise value, moneyness, and time value of an option.",
+      "question": "How can we explain the exercise value, moneyness, and time value of an option?"
+    },
+    {
+      "id": "73.b",
+      "statement": "Contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims.",
+      "question": "How can we distinguish the use of arbitrage and replication concepts in pricing forward commitments and contingent claims?"
+    },
+    {
+      "id": "73.c",
+      "statement": "Identify the factors that determine the value of an option and describe",
+      "question": "How can we identify the factors that determine the value of an option and describe?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-73-quiz-1",
+      "title": "Knowledge check 73.1",
+      "moduleId": "73.1",
+      "questions": [
+        {
+          "id": "r73-q1",
+          "number": 1,
+          "objectiveIds": [
+            "73.a"
+          ],
+          "prompt": "The price of an out-of-the-money option is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "less than its time value."
+            },
+            {
+              "id": "B",
+              "text": "equal to its time value."
+            },
+            {
+              "id": "C",
+              "text": "greater than its time value."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Because an out-of-the-money option has an exercise value of zero, its price is its time value.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because an out-of-the-money option has an exercise value of zero, its price is its"
+            },
+            {
+              "type": "paragraph",
+              "text": "time value."
+            }
+          ]
+        },
+        {
+          "id": "r73-q2",
+          "number": 2,
+          "objectiveIds": [
+            "73.b"
+          ],
+          "prompt": "The lower bound for the value of a European put option is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Max(0, S − X)."
+            },
+            {
+              "id": "B",
+              "text": "Max[0, X(1 + Rf)−⁽T−t⁾ − S]."
+            },
+            {
+              "id": "C",
+              "text": "Max[0, S − X(1 + Rf)−⁽T−t⁾]."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The lower bound for a European put ranges from zero to the present value of the exercise price less the current stock price, where the exercise price is discounted at the risk-free rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The lower bound for a European put ranges from zero to the present value of the"
+            },
+            {
+              "type": "paragraph",
+              "text": "exercise price less the current stock price, where the exercise price is discounted at the risk-free rate."
+            }
+          ]
+        },
+        {
+          "id": "r73-q3",
+          "number": 3,
+          "objectiveIds": [
+            "73.c"
+          ],
+          "prompt": "A decrease in the risk-free rate of interest will:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "increase put and call option prices."
+            },
+            {
+              "id": "B",
+              "text": "decrease put option prices and increase call option prices."
+            },
+            {
+              "id": "C",
+              "text": "increase put option prices and decrease call option prices."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A decrease in the risk-free rate will decrease call option values and increase put option values.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A decrease in the risk-free rate will decrease call option values and increase put"
+            },
+            {
+              "type": "paragraph",
+              "text": "option values."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

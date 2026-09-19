@@ -1,0 +1,314 @@
+{
+  "readingId": 51,
+  "title": "Fixed-Income Markets for Government Issuers",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "51.1",
+      "title": "Fixed-Income Markets for Government Issuers",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "51.a",
+          "text": "What should we know about funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies?"
+        },
+        {
+          "type": "heading",
+          "text": "Sovereign Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "National governments issue bonds to raise funds for spending on public goods and services and investment in public infrastructure. These sovereign issues are backed by the power to collect taxes and therefore typically carry the highest credit rating in their domestic market. Sovereign issuers are usually the largest debt issuers in their domestic market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Public sector issuers such as governments prepare financial reports, but the accounting standards that apply differ from those in the private sector. Generally, public sector accounting standards are based more on cash transactions and less on accruals (e.g., depreciation, unfunded liabilities). When assessing the financial statements of a government, an analyst should consider the issuer to have an “economic balance sheet” that includes implied assets (e.g., expected future tax revenues) and implied liabilities (e.g., promised future expenditures) in addition to the financial assets and liabilities reported in the public accounts."
+        },
+        {
+          "type": "paragraph",
+          "text": "A key distinction in sovereign debt markets is the difference between developed market versus emerging market issuers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Developed market sovereign issuers have stable, diversified economies with consistent and transparent fiscal policy. Debt is denominated in a reserve currency (i.e., a major currency held as reserves by central banks across the world and widely used in international trade, such as the U.S. dollar or the Chinese renminbi)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Emerging market sovereign issuers typically have faster growing, less stable, and more concentrated economies and, consequently, less stable tax revenues, which are sometimes tied to a dominant industry or commodity. Emerging market debt is often raised to fund investment in economic growth and can be domestic debt or external debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Domestic debt is issued in the nation’s home currency and is held by domestic investors. That currency might not be freely convertible into other currencies due to illiquidity or restrictions on capital flows. External debt is debt owed to foreign creditors and may be denominated in the government’s home currency or a foreign reserve currency. When external debt is denominated in a reserve currency, foreign investors avoid the direct currency risk of the issuer’s currency weakening, but the investor still faces indirect currency risk related to the emerging market government generating enough flows of the reserve currency to make repayments on its external debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "A government’s debt management policy sets out the amount and type of securities the government intends to issue. As we discussed in the Economics topic area, fiscal policy is often used as a tool to manage the business cycle. A government that believes the economy is below full employment may tax less and spend more to stimulate economic activity. This may require the government to issue new debt. Analysts who wish to forecast a government’s debt issuance needs should focus on its fiscal policy, as well as how cyclical and inflation-sensitive its revenues and spending are. Analysts should also be aware of debt features such as floating rates or inflation indexing, as well as whether the government guarantees any non-sovereign debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from the Economics topic area the condition of Ricardian equivalence, which suggests taxpayers expect that future taxes will have to repay any debt the government issues. This would imply that a government should be indifferent among the possible maturities of its debt, but only under all of the following assumptions about taxpayer behavior:"
+        },
+        {
+          "type": "paragraph",
+          "text": "They will increase savings when they expect higher future taxes. They have rational expectations, expecting tax decreases in the present to be offset by tax increases in the future. They can borrow and lend in capital markets that have no transactions costs. They can and will pass tax savings on to future generations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because these assumptions do not hold in practice, governments must manage how much of their debt is short-term or longer-term. Governments typically issue securities across maturities to maintain a stable split between long-term and short-term debt over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Different maturity sectors for sovereign debt have some benefits for market participants. For example, many investors view short-term sovereign debt as safe and highly liquid, and it may function as an alternative to bank deposits. This liquidity benefit to investors likely causes short-term government debt yields to be lower than they would be otherwise. While governments have a great deal of flexibility as to how much short-term debt they issue, relying too heavily on it creates rollover risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Having liquid markets in longer maturities of government debt also has benefits. Market participants use government debt yields as benchmarks against which to measure the credit risk of non-government debt. Asset managers and financial institutions often rely on government debt in their interest rate risk management, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "use it as collateral in transactions such as repurchase agreements. Central banks buy and sell government debt of various maturities to conduct monetary policy."
+        },
+        {
+          "type": "heading",
+          "text": "Nonsovereign Government Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonsovereign government bonds are issued by states, provinces, counties, and entities created to fund and provide services (e.g., for the construction of hospitals, airports, and other municipal services)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Agency bonds or quasi-government bonds are issued by entities that national governments create for specific purposes, such as financing infrastructure investment or providing mortgage financing. An example of such an agency is the Government National Mortgage Association (Ginnie Mae) in the United States, which securitizes and guarantees mortgage loans to facilitate home ownership. Ginnie Mae issues debt securities to finance its operations, the repayment sources for which are guarantor fees from their business alongside U.S. government backing. When they are backed by the sovereign entity, agency bonds typically have yields and credit ratings closely aligned with those of the government."
+        },
+        {
+          "type": "paragraph",
+          "text": "Local and regional government authorities may issue debt raised for general public spending backed by local tax raising powers (referred to as general obligation bonds or GO bonds), or debt issued to fund a specific project (called revenue bonds) where the source of repayment is fees from the use of the infrastructure funded by the bond issue (e.g., a toll road or bridge)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Supranational bonds are issued by international institutions such as the World Bank, the IMF, and the Asian Development Bank, which have been set up by multiple sovereign governments to promote economic cooperation, trade, or economic growth. Bonds issued by supranational agencies typically have high credit quality and some issues are highly liquid."
+        },
+        {
+          "type": "question",
+          "objectiveId": "51.b",
+          "text": "How can we distinguish the issuance and trading of government and corporate fixed- income instruments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "While corporate issuers of debt raise debt finance as required, sovereign issuers use regular public auctions to issue government debt securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Buyers can make competitive bids or noncompetitive bids at government debt auctions. Competitive bids are used to set the price of the debt issue, while noncompetitive bids are guaranteed to have their allocation met at the price determined by the competitive bids. The auction is conducted by first allocating bonds to noncompetitive bids. Then, competitive bids are ranked in order of highest price (lowest yield). Bonds are allocated to competitive bids starting with the highest price and moving through the auction order book until the offering amount is met. The yield of the successful competitive bid with the lowest price is referred to as the cut-off yield. Under a single-price auction, all investors pay the price associated with this cut-off yield, regardless of the yield they actually bid. Under a multiple-price auction, successful competitive bidders actually pay the price that they bid."
+        },
+        {
+          "type": "paragraph",
+          "text": "A government issuer that wishes to minimize yield volatility would likely choose to conduct single-price auctions because all the bonds will be issued at a single yield. This decrease in yield volatility may increase the chance of a successful auction, distribute bonds more broadly among investors, and result in a lower cost of funds for the issuer. Because successful competitive bidders in a multiple-price auction pay what they actually bid, it is likely that bids will be close together and large in size."
+        },
+        {
+          "type": "paragraph",
+          "text": "A sovereign issuer typically designates certain financial institutions as primary dealers that are required to make competitive bids in auctions, submit bids in auctions on behalf of third parties, and act as counterparty to the central bank when it buys and sells securities to carry out monetary policy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once issued, sovereign debt typically trades in quote-driven OTC dealer markets in a similar fashion to corporate bonds. Trading is most active, and prices most informative, for the most recently issued government securities of a particular maturity. These issues are referred to as on-the-run bonds and their yields are typically used to represent default-risk-free “benchmark” yields when constructing yield curves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors in government securities may have “noneconomic” objectives. For example, government bonds are often used by central banks to conduct monetary policy; foreign governments purchase sovereign bonds of other nations as reserves; and some financial institutions are required to hold government bonds to comply with regulations. The presence of such investors decreases the yields of sovereign bonds relative to those of non-sovereign issuers."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "51.a",
+      "text": "What should we know about funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sovereign issuers are usually the highest credit quality and largest issuers of debt in any given bond market."
+    },
+    {
+      "type": "paragraph",
+      "text": "Developed market sovereign issuers have stable, diversified economies with consistent and transparent fiscal policy, with debt denominated in a major reserve currency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Emerging market sovereign issuers typically have faster growing, less stable, and more concentrated economies and, consequently, less stable tax revenues, sometimes tied to a dominant industry or commodity. Emerging market debt can be domestic (issued in domestic currency and held by domestic investors) or external (owed to foreign creditors)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ricardian equivalence theory states that governments should be indifferent about raising taxes today or issuing debt of any maturity. The high rollover risk of short-term debt and the need for predictable fiscal policy means that, in practice, governments tend to issue debt evenly across the maturity spectrum."
+    },
+    {
+      "type": "paragraph",
+      "text": "Benefits of having a broad range of maturities of government securities in existence include the identification of benchmark government yield curves; the ability of investors to hedge interest rate risk; the ability to pledge the securities as collateral for repos; and the ability of the central bank to use government bonds to execute monetary policy."
+    },
+    {
+      "type": "paragraph",
+      "text": "Agency or quasi-government bonds are issued by entities created by national governments for specific purposes such as financing infrastructure investment or providing mortgage financing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Local and regional government authorities may issue debt for general public spending backed by local tax raising powers (general obligation bonds) or to fund a specific project (revenue bonds)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Supranational bonds are issued by international institutions that promote economic cooperation, trade, or economic growth."
+    },
+    {
+      "type": "question",
+      "objectiveId": "51.b",
+      "text": "How can we distinguish the issuance and trading of government and corporate fixed- income instruments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sovereign issuers use regular public auctions to issue government debt securities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Auctions bids can be either competitive or noncompetitive. Competitive bids are used to set the price of the debt issue, while noncompetitive bids are guaranteed to have their allocation met at the auction price."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a single-price auction, all investors pay the price associated with the cut-off yield. In a multiple-price auction, successful competitive bidders actually pay the price that they bid."
+    },
+    {
+      "type": "paragraph",
+      "text": "Primary dealers are financial institutions required to make competitive bids in auctions, submit bids in auctions on behalf of third parties, and act as counterparties to the central bank."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once issued, sovereign debt typically trades in quote-driven OTC dealer markets. Trading is most active and prices most informative for on-the-run bonds."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "51.a",
+      "statement": "Describe funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies.",
+      "question": "What should we know about funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies?"
+    },
+    {
+      "id": "51.b",
+      "statement": "Contrast the issuance and trading of government and corporate fixed- income instruments.",
+      "question": "How can we distinguish the issuance and trading of government and corporate fixed- income instruments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-51-quiz-1",
+      "title": "Knowledge check 51.1",
+      "moduleId": "51.1",
+      "questions": [
+        {
+          "id": "r51-q1",
+          "number": 1,
+          "objectiveIds": [
+            "51.a"
+          ],
+          "prompt": "Bonds issued by the World Bank are best described as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "quasi-government bonds."
+            },
+            {
+              "id": "B",
+              "text": "global bonds."
+            },
+            {
+              "id": "C",
+              "text": "supranational bonds."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bonds issued by the World Bank, which is a multilateral agency operating globally, are termed supranational bonds.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Bonds issued by the World Bank, which is a multilateral agency operating globally,"
+            },
+            {
+              "type": "paragraph",
+              "text": "are termed supranational bonds."
+            }
+          ]
+        },
+        {
+          "id": "r51-q2",
+          "number": 2,
+          "objectiveIds": [
+            "51.a"
+          ],
+          "prompt": "A foreign investor who invests in the USD-denominated external debt of an emerging market government has currency risk that is best described as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "direct."
+            },
+            {
+              "id": "B",
+              "text": "indirect."
+            },
+            {
+              "id": "C",
+              "text": "hedged."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "While the U.S. investor will not have the direct currency exposure of holding foreign-denominated debt, they still face indirect currency exposure from the emerging market government having to raise USD through international transactions to repay their external debt.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "While the U.S. investor will not have the direct currency exposure of holding"
+            },
+            {
+              "type": "paragraph",
+              "text": "foreign-denominated debt, they still face indirect currency exposure from the emerging market government having to raise USD through international transactions to repay their external debt."
+            }
+          ]
+        },
+        {
+          "id": "r51-q3",
+          "number": 3,
+          "objectiveIds": [
+            "51.b"
+          ],
+          "prompt": "Investors are guaranteed a bond allocation in a Treasury bond auction when:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "they submit a noncompetitive bid."
+            },
+            {
+              "id": "B",
+              "text": "the auction is a single-price auction."
+            },
+            {
+              "id": "C",
+              "text": "they submit a competitive bid in a multiple-price auction."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Investors who make noncompetitive bids in government bond auctions are guaranteed to have their allocations met at a price determined by the competitive bids. Competitive bidders are not guaranteed allocations in either single-price or multiple-price auctions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Investors who make noncompetitive bids in government bond auctions are"
+            },
+            {
+              "type": "paragraph",
+              "text": "guaranteed to have their allocations met at a price determined by the competitive bids. Competitive bidders are not guaranteed allocations in either single-price or multiple-price auctions."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1169 @@
+{
+  "readingId": 83,
+  "title": "Portfolio Risk and Return: Part I",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "83.1",
+      "title": "Historical Risk and Return",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "83.a",
+          "text": "What should we know about characteristics of the major asset classes that investors consider in forming portfolios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "An examination of the returns and standard deviation of returns for the major investable asset classes supports the idea of a tradeoff between risk and return. Using U.S. data over the period 1926–2017 as an example, shown in Figure 83.1, small-capitalization stocks have had the greatest average returns and greatest risk over the period. T-bills had the lowest average returns and the lowest standard deviation of returns."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.1: Risk and Return of Major Asset Classes in the United States (1926–2017)¹"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/64eafcc24c6871ad8c1d.png",
+          "alt": "Equation, table, or diagram: Figure 83.1: Risk and Return of Major Asset Classes in the United States (1926–2017)¹",
+          "width": 500,
+          "height": 169,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Results for other markets around the world are similar: asset classes with the greatest average returns also have the highest standard deviations of returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "The annual nominal return on U.S. equities has varied greatly from year to year, ranging from losses greater than 40% to gains of more than 50%. We can approximate the real returns over the period by subtracting inflation. The asset class with the least risk, T-bills, had a real return of only approximately 0.5% over the period, while the approximate real return on U.S. large-cap stocks was 7.3%. Because annual inflation fluctuated greatly over the period, real returns have been much more stable than nominal returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Evaluating investments using expected return and variance of returns is a simplification because returns do not follow a normal distribution; distributions are negatively skewed, with greater kurtosis (fatter tails) than a normal distribution. The negative skew reflects a tendency towards large downside deviations, while the positive excess kurtosis reflects frequent extreme deviations on both the upside and downside. These non-normal characteristics of skewness (≠ 0) and kurtosis (≠ 3) should be taken into account when analyzing investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity is an additional characteristic to consider when choosing investments because liquidity can affect the price and, therefore, the expected return of a security. Liquidity can be a major concern in emerging markets and for securities that trade infrequently, such as low-quality corporate bonds."
+        }
+      ]
+    },
+    {
+      "id": "83.2",
+      "title": "Risk Aversion",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "83.b",
+          "text": "How can we explain risk aversion and its implications for portfolio selection?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A risk-averse investor is simply one that dislikes risk (i.e., prefers less risk to more risk). Given two investments that have equal expected returns, a risk-averse investor will choose the one with less risk (standard deviation, σ). Financial models assume all investors are risk averse."
+        },
+        {
+          "type": "paragraph",
+          "text": "A risk-seeking (risk-loving) investor would actually prefer more risk to less and, given equal expected returns, would prefer the more risky investment. A risk-neutral investor would have no preference regarding risk and would therefore be indifferent between any two investments with equal expected returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider this gamble: A coin will be flipped; if it comes up heads, you receive $100; if it comes up tails, you receive nothing. The expected payoff is 0.5($100) + 0.5($0) = $50. A risk-averse investor would choose a payment of $50 (a certain outcome) over the gamble. A risk-seeking investor would prefer the gamble to a certain payment of $50. A risk-neutral investor would be indifferent between the gamble and a certain payment of $50."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the expected returns on two portfolios are equal, a risk-averse investor will always prefer the less risky portfolio. Those who choose high-risk portfolios feel that the increase in expected portfolio returns is adequate compensation for their portfolio’s higher risk."
+        },
+        {
+          "type": "question",
+          "objectiveId": "83.c",
+          "text": "How can we explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors’ utility functions represent their preferences regarding the tradeoff between risk and return (i.e., their degrees of risk aversion). For example, a utility function might be expressed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{{\\bf~ U}}=\\mathrm{{\\bf~ E ( r )}} \\mathrm{~-} \\frac{1} {2} \\mathrm{{\\bf~ A}} \\sigma^{2}}} \\\\ {{\\mathrm{{\\bf~ w h e r e :}}}} \\\\ {{\\mathrm{{\\bf~ U}} \\mathrm{~}=\\mathrm{utility}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathbf{E} ( \\mathbf{r} )} & {{}=\\mathbf{e x p e c t e d ~ r e t u m}} \\\\ {\\sigma^{2}} & {{}=\\mathbf{v a r i a n c e ~ o f ~ r e t u m s}} \\\\ {\\mathbf{A}} & {{}=\\mathbf{i n v e s t o r ` s ~ d e g r e e ~ o f ~ r i s k ~ a v e r s i o n}} \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "8cf32f859922333e68e4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The more risk-averse an investor is, the greater the A in the investor’s utility function. While a risk-neutral investor would have an A equal to zero and a risk-seeking investor would have a negative A, the theories of portfolio management we will discuss generally assume all investors are risk-averse (A greater than zero)."
+        },
+        {
+          "type": "paragraph",
+          "text": "An indifference curve is a tool from economics that, in this application, plots combinations of risk (standard deviation) and expected returns among which an investor is indifferent. In constructing indifference curves for portfolios based on only their expected return and standard deviation of returns, we are assuming that these are the only portfolio characteristics that investors care about. In Figure 83.2, we show three indifference curves for an investor. The investor’s expected utility is the same for all points (portfolios) along any single indifference curve. Portfolios along indifference curve I1 in Figure 83.2 are preferred to all portfolios along I2, which are preferred to all portfolios along I3."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.2: Risk-Averse Investor’s Indifference Curves"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/82dd442559bf99218e58.png",
+          "alt": "Equation, table, or diagram: Figure 83.2: Risk-Averse Investor’s Indifference Curves",
+          "width": 402,
+          "height": 276,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indifference curves slope upward for risk-averse investors because they will only take on more risk (standard deviation of returns) if they are compensated with greater expected returns. An investor who is more risk averse requires a greater increase in expected return to compensate for a given increase in risk than a less risk-averse investor. In other words, the indifference curves of a more risk-averse investor will be steeper than those of a less risk-averse investor, reflecting a higher risk aversion coefficient."
+        },
+        {
+          "type": "paragraph",
+          "text": "In our previous illustration of efficient portfolios available in the market, we included only risky assets. Now we will introduce a risk-free asset into our universe of available assets, and we will examine the risk and return characteristics of a portfolio that combines a portfolio of risky assets and a risk-free asset. As we have seen, we can calculate the expected return and standard deviation of a portfolio with weight WA allocated to risky Asset A and weight WB allocated to risky Asset B using the following formulas:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nE(R_p)=w_AE(R_A)+w_BE(R_B)\\\\\n\\sigma_p=\\sqrt{w_A^2\\sigma_A^2+w_B^2\\sigma_B^2+2w_Aw_B\\rho_{AB}\\sigma_A\\sigma_B}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "06630bd05fba27519a9d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Allow Asset B to be the risk-free asset and Asset A to be the risky asset portfolio. Because a risk-free asset has zero standard deviation and zero correlation of returns with those of a risky portfolio, this results in the reduced equation:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{{\\scriptsize~ p o r t f o l i o}}}={\\sqrt{\\operatorname{W}_{\\mathrm{{A}}}^{2} \\sigma_{\\mathrm{{A}}}^{2}}}=\\operatorname{W}_{\\mathrm{{A}}} \\sigma_{\\mathrm{{A}}}",
+          "display": true,
+          "sourceAsset": "40a3e3cf67f93acf08af.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intuition of this result is straightforward: If we put X% of our portfolio into the risky asset, and the rest into the risk-free asset, our portfolio will have X% of the risk of the risky asset. The relationship between portfolio risk and return for various portfolio allocations is linear, as illustrated in Figure 83.3."
+        },
+        {
+          "type": "paragraph",
+          "text": "Combining a risky portfolio with a risk-free asset is the process that supports the two-fund separation theorem, which states that all investors’ optimal portfolios will be made up of some combination of the optimal portfolio of risky assets and the risk-free asset. The line representing these possible combinations of risk-free assets and the optimal risky asset portfolio is referred to as the capital allocation line."
+        },
+        {
+          "type": "paragraph",
+          "text": "Point X on the capital allocation line in Figure 83.3 represents a portfolio that is 40% invested in the risky asset portfolio and 60% invested in the risk-free asset. Its expected return will be 0.40[E(Rrisky asset portfolio)] + 0.60(Rf), and its standard deviation will be 0.40(σrisky asset portfolio)."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.3: Capital Allocation Line and Risky Asset Weights"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/7d4f3ed23815cd023232.png",
+          "alt": "Equation, table, or diagram: Figure 83.3: Capital Allocation Line and Risky Asset Weights",
+          "width": 461,
+          "height": 277,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now that we have constructed a set of the possible efficient portfolios (the capital allocation line), we can combine this with indifference curves representing an individual’s preferences for risk and return to illustrate the logic of selecting an optimal portfolio (i.e., one that maximizes the investor’s expected utility). In Figure 83.4, we can see that Investor A, with preferences represented by indifference curves I1, I2, and I3, can reach the level of expected utility on I2 by selecting Portfolio X. This is the optimal portfolio for this investor, as any portfolio that lies on I2 is preferred to all portfolios that lie on I3 (and in fact to any portfolios that lie between I2 and I3). Portfolios on I1 are preferred to those on I2, but none of the portfolios that lie on I1 are available in the market."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.4: Risk-Averse Investor’s Indifference Curves"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d55fad9de3c1cc8c86a2.png",
+          "alt": "Equation, table, or diagram: Figure 83.4: Risk-Averse Investor’s Indifference Curves",
+          "width": 401,
+          "height": 274,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The final result of our analysis here is not surprising; investors who are less risk averse will select portfolios with more risk. Recall that the lower an investor’s risk aversion, the flatter his indifference curves. As illustrated in Figure 83.5, the flatter indifference"
+        },
+        {
+          "type": "paragraph",
+          "text": "curve for Investor B (IB) results in an optimal (tangency) portfolio that lies to the right of the one that results from a steeper indifference curve, such as that for Investor A (IA). An investor who is less risk averse should optimally choose a portfolio with more invested in the risky asset portfolio and less invested in the risk-free asset."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.5: Portfolio Choices Based on Two Investors’ Indifference Curves"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b5e73489a1bc733e739c.png",
+          "alt": "Equation, table, or diagram: Figure 83.5: Portfolio Choices Based on Two Investors’ Indifference Curves",
+          "width": 400,
+          "height": 276,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    },
+    {
+      "id": "83.3",
+      "title": "Portfolio Standard Deviation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "83.d",
+          "text": "How do we calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data?"
+        },
+        {
+          "type": "heading",
+          "text": "Variance (Standard Deviation) of Returns for an Individual Security"
+        },
+        {
+          "type": "paragraph",
+          "text": "In finance, the variance and standard deviation of returns are common measures of investment risk. Both of these are measures of the variability of a distribution of returns about its mean or expected value."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can calculate the population variance, σ², when we know the return Rt for each period, the total number periods (T), and the mean or expected value of the population’s distribution μ, as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma^{2}={\\frac{\\sum_{\\mathrm{t}=1}^{\\mathrm{T}} ( \\mathrm{R}_{\\mathrm{t}}-\\mu)^{2}} {\\mathrm{T}}}",
+          "display": true,
+          "sourceAsset": "4ab731e53c12d7025b1a.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{In~the~world~of~finance,we~are~typically~analyzing~only~a~sample~of~returns~data,ratherng~only~of~To~}} \\\\ {\\mathrm{than~the~entire~population~To~calculate~sample~variance,} \\, s^{2} , \\mathrm{using~a~sample~of~T~}} \\\\ {\\mathrm{historical~returns~and~the~mean,} \\, \\overline{{\\mathbb{R}}} , \\mathrm{~of~the~observations,~we~use~the~following~formula;}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "9557d92af148db7cbaee.png",
+          "prose": "In the world of finance, we are typically analyzing only a sample of returns data, rather than the entire population. To calculate sample variance, s2, using a sample of T historical returns and the mean, , of the observations, we use the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "s^{2} \\!=\\! {\\frac{\\sum_{\\mathrm{t}=1}^{\\mathrm{T}} \\left( \\mathrm{R}_{\\mathrm{t}}-{\\overline{{\\mathrm{R}}}} \\right)^{2}} {\\mathrm{T}-1}}",
+          "display": true,
+          "sourceAsset": "40fbe20417afb2257379.png"
+        },
+        {
+          "type": "heading",
+          "text": "Covariance and Correlation of Returns for Two Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Covariance measures the extent to which two variables move together over time. A positive covariance means that the variables (e.g., rates of return on two stocks) tend to move together. Negative covariance means that the two variables tend to move in opposite directions. A covariance of zero means there is no linear relationship between the two variables. To put it another way, if the covariance of returns between two assets is zero, knowing the return for the next period on one of the assets tells you nothing about the return of the other asset for the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here we will focus on the calculation of the covariance between two assets’ returns using historical data. The calculation of the sample covariance is based on the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{n} \\left\\{\\left[ R_{t , 1}-{\\overline{{R}}}_{1} \\right] \\left[ R_{t , 2}-{\\overline{{R}}}_{2} \\right] \\right\\}} {n-1}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{R}_{\\mathrm{t} , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{\\mathrm{t} , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\end{array}\\\\[6pt]{\\begin{array} {r l} {{\\mathrm{n}}} & {{}={\\mathrm{number~of~periods}}} \\end{array}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "c924de8e41074eefcba7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The magnitude of the covariance depends on the magnitude of the individual stocks’ standard deviations and the relationship between their co-movements. Covariance is an absolute measure and is measured in return units squared."
+        },
+        {
+          "type": "paragraph",
+          "text": "The covariance of the returns of two securities can be standardized by dividing by the product of the standard deviations of the two securities. This standardized measure of co-movement is called correlation and is computed as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{C o v}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+          "display": true,
+          "sourceAsset": "c9e108b6efad5087af4f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The relation can also be written as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{C o v}_{1 , 2}=\\rho_{1 , 2} \\sigma_{1} \\sigma_{2}",
+          "display": true,
+          "sourceAsset": "dc78530a4119bad43622.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The term ρ1,2 is called the correlation coefficient between the returns of securities 1 and\n2. The correlation coefficient has no units. It is a pure measure of the co-movement of the two stocks’ returns and is bounded by -1 and +1."
+        },
+        {
+          "type": "paragraph",
+          "text": "How should you interpret the correlation coefficient?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A correlation coefficient of +1 means that deviations from the mean or expected return are always proportional in the same direction. That is, they are perfectly positively correlated. A correlation coefficient of -1 means that deviations from the mean or expected return are always proportional in opposite directions. That is, they are perfectly negatively correlated. A correlation coefficient of zero means that there is no linear relationship between the two stocks’ returns. They are uncorrelated. One way to interpret a correlation (or covariance) of zero is that, in any period, knowing the actual value of one variable tells you nothing about the value of the other."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating mean return, returns variance, returns covariance, and"
+        },
+        {
+          "type": "heading",
+          "text": "correlation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given three years of percentage returns for Assets A and B in the following table, calculate the mean return and sample standard deviation for each asset, the sample covariance, and the correlation of returns."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c c c c} \\hline{\\mathrm{Year} \\qquad\\mathrm{Asset~A} \\qquad\\mathrm{Asset~B}} \\\\ \\hline{1} & {5 \\mathcal{Y}_{0}} & {7 \\mathcal{Y}_{0}} \\\\ {2} & {} & {-2 \\mathcal{Y}_{0}} & {} & {-4 \\mathcal{Y}_{0}} \\\\ {3} & {} & {12 \\mathcal{Y}_{0}} & {} & {18 \\mathcal{Y}_{0}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "d4e7083bdb1383817f6a.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\bar R_A=\\frac{5\\%-2\\%+12\\%}{3}=5\\%,\\qquad \\bar R_B=\\frac{7\\%-4\\%+18\\%}{3}=7\\%\\\\\ns_A^2=\\frac{(5-5)^2+(-2-5)^2+(12-5)^2}{3-1}=49,\\quad s_A=7\\%\\\\\ns_B^2=\\frac{(7-7)^2+(-4-7)^2+(18-7)^2}{3-1}=121,\\quad s_B=11\\%\\\\\n\\operatorname{Cov}_{A,B}=\\frac{(5-5)(7-7)+(-2-5)(-4-7)+(12-5)(18-7)}{3-1}=77,\\quad\n\\rho_{A,B}=\\frac{77}{7\\times11}=1\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "e5afd3dfc307ac42de17.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this example, the returns on Assets A and B are perfectly positively correlated."
+        },
+        {
+          "type": "question",
+          "objectiveId": "83.e",
+          "text": "How do we calculate and interpret portfolio standard deviation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The variance of returns for a portfolio of two risky assets is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\operatorname{V a r}_{\\mathrm{portfolio}}={\\bf w}_{1}^{2} \\sigma_{1}^{2}+{\\bf w}_{2}^{2} \\sigma_{2}^{2}+2 \\, {\\bf w}_{1} {\\bf w}_{2} \\, \\mathrm{Cov}_{12}",
+          "display": true,
+          "sourceAsset": "f13440f23f529e9bdb26.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "where w1 is the proportion of the portfolio invested in Asset 1, and w2 is the proportion of the portfolio invested in Asset 2. w2 must equal (1 − w1)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Previously, we established that the correlation of returns for two assets is calculated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\rho_{12} \\!=\\! \\frac{\\mathrm{Cov}_{12}} {\\sigma_{1} \\sigma_{2}} , \\, \\mathrm{so~that~we~can~also~write~Cov}_{12} \\!=\\rho_{12} \\sigma_{1} \\sigma_{2} \\, .",
+          "display": true,
+          "sourceAsset": "3f9a0b2331346a9d131b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Substituting this term for Cov12 in the formula for the variance of returns for a portfolio of two risky assets, we have the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{Var}_{\\mathrm{portfolio}}=\\mathrm{w}_{1}^{2} \\sigma_{1}^{2}+\\mathrm{w}_{2}^{2} \\sigma_{2}^{2}+2 \\, \\mathrm{w}_{1} \\, \\mathrm{w}_{2} \\, \\rho_{12} \\, \\sigma_{1} \\, \\sigma_{2}",
+          "display": true,
+          "sourceAsset": "4f9a365b11a77548baf5.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{Because~Var}_{\\mathrm{portfolic}}=\\sigma_{\\mathrm{portfolic}}^{2} \\, , \\, \\mathrm{this~can~also~be~written~as:}",
+          "display": true,
+          "sourceAsset": "e88129399dc1f666ea7f.png",
+          "prose": "Because , this can also be written as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{portfolio}}=\\sqrt{\\mathbf{w}_{1}^{2} \\sigma_{1}^{2}+\\mathbf{w}_{2}^{2} \\sigma_{2}^{2}+2 \\mathbf{w}_{1} \\mathbf{w}_{2} \\rho_{12} \\sigma_{1} \\sigma_{2}}",
+          "display": true,
+          "sourceAsset": "ebb0cb1e667c98047631.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Writing the formula in this form allows us to easily see the effect of the correlation of returns between the two assets on portfolio risk."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating portfolio standard deviation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A portfolio is 30% invested in stocks that have a standard deviation of returns of 20% and is 70% invested in bonds that have a standard deviation of returns of 12%. The correlation of bond returns with stock returns is 0.60. What is the standard deviation of portfolio returns? What would it be if stock and bond returns were perfectly positively correlated?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "portfolio standard deviation"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{=\\sqrt{( 0.3^{2} ) ( 0.2^{2} )+( 0.7^{2} ) ( 0.12^{2} )+2 ( 0.3 ) ( 0.7 ) ( 0.6 ) ( 0.2 ) ( 0.12 )}}} \\\\ {{=12.9 \\gamma_{0}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "93df4f772ffa47b9e062.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If stock and bond returns were perfectly positively correlated, portfolio standard deviation would simply be the weighted average of the assets’ standard deviations: 0.3(20%) + 0.7(12%) = 14.4%."
+        }
+      ]
+    },
+    {
+      "id": "83.4",
+      "title": "The Efficient Frontier",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "83.f",
+          "text": "What should we know about the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated?"
+        },
+        {
+          "type": "paragraph",
+          "text": "If two risky asset returns are perfectly positively correlated, ρ12 = +1, then the square root of portfolio variance (the portfolio standard deviation of returns) is equal to:"
+        },
+        {
+          "type": "math",
+          "latex": "\\sigma_{\\mathrm{portfolio}}={\\sqrt{\\mathrm{Var}_{\\mathrm{portfolio}}}}={\\sqrt{\\mathbf{w}_{1}^{2} \\sigma_{1}^{2}+\\mathbf{w}_{2}^{2} \\sigma_{2}^{2}+2 \\mathbf{w}_{1} \\mathbf{w}_{2} \\sigma_{1} \\sigma_{2} ( 1 )}}=\\mathbf{w}_{1} \\sigma_{1}+\\mathbf{w}_{2} \\sigma_{2}",
+          "display": true,
+          "sourceAsset": "b27a601799301a0e7930.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This might be easier to see by examining the algebra in reverse. If w1σ1 + w2σ2 equals the square root of the term under the radical in this special case,"
+        },
+        {
+          "type": "paragraph",
+          "text": "then (w1σ1 + w2σ2)² should equal the term under the radical. If we expand"
+        },
+        {
+          "type": "paragraph",
+          "text": "(w1σ1 + w2σ2)², we get:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\big( {\\bf w}_{1} \\sigma_{1}+{\\bf w}_{2} \\sigma_{2} \\big)^{2}} & {{}=\\Big( {\\bf w}_{1} \\sigma_{1} \\Big)^{2}+\\big( {\\bf w}_{1} \\sigma_{1} \\big) \\big( {\\bf w}_{2} \\sigma_{2} \\big)+\\big( {\\bf w}_{2} \\sigma_{2} \\big) \\big( {\\bf w}_{1} \\sigma_{1} \\big)+\\big( {\\bf w}_{2} \\sigma_{2} \\big)^{2}} \\\\ {} & {{}=\\Big( {\\bf w}_{1} \\sigma_{1} \\Big)^{2}+\\Big( {\\bf w}_{2} \\sigma_{2} \\Big)^{2}+2 \\big( {\\bf w}_{1} \\sigma_{1} \\big) \\big( {\\bf w}_{2} \\sigma_{2} \\big)} \\\\ {} & {{}={\\bf w}_{1}^{2} \\sigma_{1}^{2}+{\\bf w}_{2}^{2} \\sigma_{2}^{2}+2 {\\bf w}_{1} \\sigma_{1} {\\bf w}_{2} \\sigma_{2}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "7c5151c72428ecfb227b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this unique case, with ρ12 = 1, the portfolio standard deviation is simply a weighted average of the standard deviations of the individual asset returns. A portfolio 25% invested in Asset 1 and 75% invested in Asset 2 will have a standard deviation of returns equal to 25% of the standard deviation (σ1) of Asset 1’s return, plus 75% of the standard deviation (σ2) of Asset 2’s return."
+        },
+        {
+          "type": "paragraph",
+          "text": "Focusing on returns correlation, we can see that the greatest portfolio risk results when the correlation between asset returns is +1. For any value of correlation less than +1, portfolio variance is reduced. Note that for a correlation of zero, the entire third term in the portfolio variance equation is zero. For negative values of correlation ρ12, the third term becomes negative and further reduces portfolio variance and standard deviation."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will illustrate this property with an example."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Portfolio risk as correlation varies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider two risky assets that have returns variances of 0.0625 and 0.0324, respectively. The assets’ standard deviations of returns are then 25% and 18%, respectively. Calculate the variances and standard deviations of portfolio returns for an equal-weighted portfolio of the two assets when their correlation of returns is 1, 0.5, 0, and -0.5."
+        },
+        {
+          "type": "paragraph",
+          "text": "The calculations are as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\sigma_P^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2\\\\\n\\sigma_P=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2},\\quad\n\\rho_{12}=\\frac{\\operatorname{Cov}_{12}}{\\sigma_1\\sigma_2}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "eceab57bbc002ee18d2e.png"
+        },
+        {
+          "type": "heading",
+          "text": "ρ = correlation = +1:"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ = portfolio standard deviation = 0.5(25%) + 0.5(18%) = 21.5%"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ² = portfolio variance = 0.215² = 0.046225"
+        },
+        {
+          "type": "heading",
+          "text": "ρ = correlation = +1:"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ² = (0.5²)0.0625 + (0.5²)0.0324 + 2(0.5)(0.5)(0.5)(0.25)(0.18) = 0.034975"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ = 18.70%"
+        },
+        {
+          "type": "heading",
+          "text": "ρ= correlation = 0:"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ² = (0.5²)0.0625 + (0.5²)0.0324 = 0.023725"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ = 15.40%"
+        },
+        {
+          "type": "heading",
+          "text": "ρ= correlation = -0.5:"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ² = (0.5²)0.0625 + (0.5²)0.0324 + 2(0.5)(0.5)(-0.5)(0.25)(0.18) = 0.012475"
+        },
+        {
+          "type": "paragraph",
+          "text": "σ = 11.17%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that portfolio risk decreases as the correlation between the assets’ returns decreases. This is an important result of the analysis of portfolio risk: The lower the correlation of asset returns, the greater the risk reduction (diversification) benefit of combining assets in a portfolio. If asset returns were perfectly negatively correlated, portfolio risk could be eliminated altogether for a specific set of asset weights."
+        },
+        {
+          "type": "paragraph",
+          "text": "We show these relations graphically in Figure 83.6 by plotting the portfolio risk and return for all portfolios of two risky assets, for specific values of the assets’ returns correlation."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.6: Risk and Return for Different Values of p"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/1db93d5da685ddbe21f7.png",
+          "alt": "Equation, table, or diagram: Figure 83.6: Risk and Return for Different Values of p",
+          "width": 527,
+          "height": 221,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "From these analyses, the risk reduction benefits of investing in assets with low return correlations should be clear. The desire to reduce risk is what drives investors to invest in not just domestic stocks, but also bonds, foreign stocks, real estate, and other asset classes."
+        },
+        {
+          "type": "question",
+          "objectiveId": "83.g",
+          "text": "What should we know about and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For each level of expected portfolio return, we can vary the portfolio weights on the individual assets to determine the portfolio that has the least risk. These portfolios that have the lowest standard deviation of all portfolios with a given expected return are known as minimum-variance portfolios. Together they make up the minimum-variance frontier."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assuming that investors are risk averse, investors prefer the portfolio that has the greatest expected return when choosing among portfolios that have the same standard deviation of returns. Those portfolios that have the greatest expected return for each level of risk (standard deviation) make up the efficient frontier. The efficient frontier coincides with the top portion of the minimum-variance frontier. A risk-averse investor would only choose portfolios that are on the efficient frontier because all available portfolios that are not on the efficient frontier have lower expected returns than an efficient portfolio with the same risk. The portfolio on the efficient frontier that has the least risk is the global minimum-variance portfolio."
+        },
+        {
+          "type": "paragraph",
+          "text": "These concepts are illustrated in Figure 83.7."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 83.7: Minimum-Variance and Efficient Frontiers"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a2f54fe32d85ff40101f.png",
+          "alt": "Equation, table, or diagram: Figure 83.7: Minimum-Variance and Efficient Frontiers",
+          "width": 441,
+          "height": 276,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "83.a",
+      "text": "What should we know about characteristics of the major asset classes that investors consider in forming portfolios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "As predicted by theory, asset classes with the greatest average returns have also had the highest risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some of the major asset classes that investors consider when building a diversified portfolio include small-capitalization stocks, large-capitalization stocks, long-term corporate bonds, long-term Treasury bonds, and Treasury bills."
+    },
+    {
+      "type": "paragraph",
+      "text": "In addition to risk and return, when analyzing investments, investors also take into consideration an investment’s liquidity, as well as non-normal characteristics such as skewness and kurtosis."
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.b",
+      "text": "How can we explain risk aversion and its implications for portfolio selection?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A risk-averse investor is one that dislikes risk. Given two investments that have equal expected returns, a risk-averse investor will choose the one with less risk. However, a risk-averse investor will hold risky assets if he feels that the extra return he expects to earn is adequate compensation for the additional risk. Assets in the financial markets are priced according to the preferences of risk-averse investors."
+    },
+    {
+      "type": "paragraph",
+      "text": "A risk-seeking (risk-loving) investor prefers more risk to less and, given investments with equal expected returns, will choose the more risky investment."
+    },
+    {
+      "type": "paragraph",
+      "text": "A risk-neutral investor would be indifferent to risk and would be indifferent between two investments with the same expected return regardless of the investments’ standard deviation of returns."
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.c",
+      "text": "How can we explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An indifference curve plots combinations of risk and expected return that provide the same expected utility. Indifference curves for risk and return slope upward because risk-averse investors will only take on more risk if they are compensated with greater expected returns. A more risk-averse investor will have steeper indifference curves."
+    },
+    {
+      "type": "paragraph",
+      "text": "Flatter indifference curves (less risk aversion) result in an optimal portfolio with higher risk and higher expected return. An investor who is less risk averse will optimally choose a portfolio with more invested in the risky asset portfolio and less invested in the risk-free asset, compared to a more risk-averse investor."
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.d",
+      "text": "How do we calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data?"
+    },
+    {
+      "type": "paragraph",
+      "text": "We can calculate the population variance, σ², when we know the return Rt for period t, the total number T of periods, and the mean μ of the population’s distribution:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{population~variance}=\\sigma^{2} \\, {=} \\, {\\frac{\\sum_{\\mathrm{t}=1}^{\\mathrm{T}} ( \\mathrm{R}_{\\mathrm{t}}-\\mu)^{2}} {\\mathrm{T}}}",
+      "display": true,
+      "sourceAsset": "3358b26cbd69534c3ceb.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "In finance, we typically analyze only a sample of returns, so the sample variance applies instead:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{\\ s a m p l e \\ v a r i a n c e=S^{2} \\,=\\,} {\\frac{\\sum_{t=1}^{T} ( R_{t}-{\\bar{R}} )^{2}} {T-1}}",
+      "display": true,
+      "sourceAsset": "a21e1ab5159d80d9caec.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Covariance measures the extent to which two variables move together over time. Positive covariance means the variables (e.g., rates of return on two stocks) tend to move together. Negative covariance means that the two variables tend to move in opposite directions. Covariance of zero means there is no linear relationship between the two variables."
+    },
+    {
+      "type": "paragraph",
+      "text": "Correlation is a standardized measure of co-movement that is bounded by -1 and +1:"
+    },
+    {
+      "type": "math",
+      "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{C o v}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+      "display": true,
+      "sourceAsset": "3b2855c6a03b7a5d92e2.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.e",
+      "text": "How do we calculate and interpret portfolio standard deviation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The standard deviation of returns for a portfolio of two risky assets is calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\sigma_{\\mathrm{portfolio}}=\\sqrt{\\mathbf{w}_{1}^{2} \\sigma_{1}^{2}+\\mathbf{w}_{2}^{2} \\sigma_{2}^{2}+2 \\mathbf{w}_{1} \\mathbf{w}_{2} \\, \\rho_{1 , 2} \\, \\sigma_{1} \\, \\sigma_{2}}",
+      "display": true,
+      "sourceAsset": "534c22acba3f50b871fb.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.f",
+      "text": "What should we know about the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The greatest portfolio risk will result when the asset returns are perfectly positively correlated. As the correlation decreases from +1 to -1, portfolio risk decreases. The lower the correlation of asset returns, the greater the risk reduction (diversification) benefit of combining assets in a portfolio."
+    },
+    {
+      "type": "question",
+      "objectiveId": "83.g",
+      "text": "What should we know about and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For each level of expected portfolio return, the portfolio that has the least risk is known as a minimum-variance portfolio. Taken together, these portfolios form a line called the minimum-variance frontier."
+    },
+    {
+      "type": "paragraph",
+      "text": "On a risk versus return graph, the one risky portfolio that is farthest to the left (has the least risk) is known as the global minimum-variance portfolio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Those portfolios that have the greatest expected return for each level of risk make up the efficient frontier. The efficient frontier coincides with the top portion of the minimum variance frontier. Risk-averse investors would only choose a portfolio that lies on the efficient frontier."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "83.a",
+      "statement": "Describe characteristics of the major asset classes that investors consider in forming portfolios.",
+      "question": "What should we know about characteristics of the major asset classes that investors consider in forming portfolios?"
+    },
+    {
+      "id": "83.b",
+      "statement": "Explain risk aversion and its implications for portfolio selection.",
+      "question": "How can we explain risk aversion and its implications for portfolio selection?"
+    },
+    {
+      "id": "83.c",
+      "statement": "Explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line.",
+      "question": "How can we explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line?"
+    },
+    {
+      "id": "83.d",
+      "statement": "Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data.",
+      "question": "How do we calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data?"
+    },
+    {
+      "id": "83.e",
+      "statement": "Calculate and interpret portfolio standard deviation.",
+      "question": "How do we calculate and interpret portfolio standard deviation?"
+    },
+    {
+      "id": "83.f",
+      "statement": "Describe the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated.",
+      "question": "What should we know about the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated?"
+    },
+    {
+      "id": "83.g",
+      "statement": "Describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio.",
+      "question": "What should we know about and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-83-quiz-1",
+      "title": "Knowledge check 83.1",
+      "moduleId": "83.1",
+      "questions": [
+        {
+          "id": "r83-q1",
+          "number": 1,
+          "objectiveIds": [
+            "83.a"
+          ],
+          "prompt": "Liquidity is most likely a concern for:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "emerging market stocks."
+            },
+            {
+              "id": "B",
+              "text": "high-quality corporate bonds."
+            },
+            {
+              "id": "C",
+              "text": "U.S. Treasuries."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Liquidity can be a concern for emerging market stocks and for securities that trade infrequently, such as low-quality corporate bonds. U.S. Treasuries exhibit high degrees of liquidity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Liquidity can be a concern for emerging market stocks and for securities that"
+            },
+            {
+              "type": "paragraph",
+              "text": "trade infrequently, such as low-quality corporate bonds. U.S. Treasuries exhibit high degrees of liquidity."
+            }
+          ]
+        },
+        {
+          "id": "r83-q2",
+          "number": 2,
+          "objectiveIds": [
+            "83.a"
+          ],
+          "prompt": "Which of the following asset classes has historically had the highest returns and standard deviation of returns?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Small-cap stocks."
+            },
+            {
+              "id": "B",
+              "text": "Large-cap stocks."
+            },
+            {
+              "id": "C",
+              "text": "Long-term corporate bonds."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Small-cap stocks have had the highest annual return and standard deviation of return over time. Large-cap stocks and bonds have historically had lower risk and return than small-cap stocks.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Small-cap stocks have had the highest annual return and standard deviation of"
+            },
+            {
+              "type": "paragraph",
+              "text": "return over time. Large-cap stocks and bonds have historically had lower risk and return than small-cap stocks."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-83-quiz-2",
+      "title": "Knowledge check 83.2",
+      "moduleId": "83.2",
+      "questions": [
+        {
+          "id": "r83-q3",
+          "number": 1,
+          "objectiveIds": [
+            "83.b"
+          ],
+          "prompt": "Which of the following statements about risk-averse investors is most accurate? A risk-averse investor:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "seeks out the investment with minimum risk, while return is not a major consideration."
+            },
+            {
+              "id": "B",
+              "text": "will take additional investment risk if sufficiently compensated for this risk."
+            },
+            {
+              "id": "C",
+              "text": "avoids participating in global equity markets."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Risk-averse investors are generally willing to invest in risky investments, if the expected return of the investment is sufficient to reward the investor for taking on this risk. Participants in securities markets are generally assumed to be risk-averse investors.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Risk-averse investors are generally willing to invest in risky investments, if the"
+            },
+            {
+              "type": "paragraph",
+              "text": "expected return of the investment is sufficient to reward the investor for taking on this risk. Participants in securities markets are generally assumed to be risk-averse investors."
+            }
+          ]
+        },
+        {
+          "id": "r83-q4",
+          "number": 2,
+          "objectiveIds": [
+            "83.c"
+          ],
+          "prompt": "The capital allocation line is a line from the risk-free return through the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "global maximum-return portfolio."
+            },
+            {
+              "id": "B",
+              "text": "optimal risky portfolio."
+            },
+            {
+              "id": "C",
+              "text": "global minimum-variance portfolio."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An investor’s optimal portfolio will lie somewhere on the capital allocation line, which begins at the risk-free asset and runs through the optimal risky portfolio.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An investor’s optimal portfolio will lie somewhere on the capital allocation line,"
+            },
+            {
+              "type": "paragraph",
+              "text": "which begins at the risk-free asset and runs through the optimal risky portfolio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-83-quiz-3",
+      "title": "Knowledge check 83.3",
+      "moduleId": "83.3",
+      "questions": [
+        {
+          "id": "r83-q5",
+          "number": 1,
+          "objectiveIds": [
+            "83.d"
+          ],
+          "prompt": "In a 5-year period, the annual returns on an investment are 5%, -3%, -4%, 2%, and 6%. The standard deviation of annual returns on this investment is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "4.0%."
+            },
+            {
+              "id": "B",
+              "text": "4.5%."
+            },
+            {
+              "id": "C",
+              "text": "20.7%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "mean annual return = (5% - 3% - 4% + 2% + 6%) / 5 = 1.2% Squared deviations from the mean: sum of squared deviations = 14.44 + 17.64 + 27.04 + 0.64 + 23.04 = 82.8 sample variance = 82.8 / (5 - 1) = 20.7 sample standard deviation = 20.7¹/² = 4.55%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "mean annual return = (5% - 3% - 4% + 2% + 6%) / 5 = 1.2%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Squared deviations from the mean:"
+            },
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {c c c} {5 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=3.8 \\mathcal{Y_{0}}} & {} & {3.8^{2}=14.44} \\\\ {} & {} & {} \\\\ {-3 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-4.2 \\mathcal{Y_{0}}} & {} & {-4.2^{2}=17.64} \\\\ {} & {} & {} \\\\ {-4 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-5.2 \\mathcal{Y_{0}}} & {} & {-5.2^{2}=27.04} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {2 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=0.8 \\mathcal{Y_{0}}} & {\\qquad} & {0.8^{2}=0.64} \\\\ {{}} & {{}} & {{}} \\\\ {6 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=4.8 \\mathcal{Y_{0}}} & {\\qquad} & {4.8^{2}=23.04} \\\\ \\end{array}\\end{gathered}",
+              "display": true,
+              "sourceAsset": "598654398ca203d82d0d.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "sum of squared deviations = 14.44 + 17.64 + 27.04 + 0.64 + 23.04 = 82.8 sample variance = 82.8 / (5 - 1) = 20.7"
+            },
+            {
+              "type": "paragraph",
+              "text": "sample standard deviation = 20.7¹/² = 4.55%"
+            }
+          ]
+        },
+        {
+          "id": "r83-q6",
+          "number": 2,
+          "objectiveIds": [
+            "83.d"
+          ],
+          "prompt": "A measure of how the returns of two risky assets move in relation to each other is the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "range."
+            },
+            {
+              "id": "B",
+              "text": "covariance."
+            },
+            {
+              "id": "C",
+              "text": "standard deviation."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The covariance is defined as the co-movement of the returns of two assets or how well the returns of two risky assets move together. Range and standard deviation are measures of dispersion and measure risk, not how assets move together.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The covariance is defined as the co-movement of the returns of two assets or how well the returns"
+            },
+            {
+              "type": "paragraph",
+              "text": "of two risky assets move together. Range and standard deviation are measures of dispersion and measure risk, not how assets move together."
+            }
+          ]
+        },
+        {
+          "id": "r83-q7",
+          "number": 3,
+          "objectiveIds": [
+            "83.d"
+          ],
+          "prompt": "Which of the following statements about correlation is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Diversification reduces risk when correlation is less than +1."
+            },
+            {
+              "id": "B",
+              "text": "If the correlation coefficient is 0, a zero-variance portfolio can be constructed."
+            },
+            {
+              "id": "C",
+              "text": "The lower the correlation coefficient, the greater the potential benefits from diversification."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A zero-variance portfolio can only be constructed if the correlation coefficient between assets is -1. Diversification benefits can be had when correlation is less than +1, and the lower the correlation, the greater the expected benefit.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A zero-variance portfolio can only be constructed if the correlation coefficient"
+            },
+            {
+              "type": "paragraph",
+              "text": "between assets is -1. Diversification benefits can be had when correlation is less than +1, and the lower the correlation, the greater the expected benefit."
+            }
+          ]
+        },
+        {
+          "id": "r83-q8",
+          "number": 4,
+          "objectiveIds": [
+            "83.d"
+          ],
+          "prompt": "The variance of returns is 0.09 for Stock A and 0.04 for Stock B. The covariance between the returns of A and B is 0.006. The correlation of returns between A and B is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.10."
+            },
+            {
+              "id": "B",
+              "text": "0.20."
+            },
+            {
+              "id": "C",
+              "text": "0.30."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "correlation = 0.006 / [(0.30)(0.20)] = 0.10",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{aligned} {\\sqrt{A}} & {{}=\\sqrt{0.09}=0.30} \\\\ {\\sqrt{B}} & {{}=\\sqrt{0.04}=0.20} \\\\ {\\mathrm{correlation}} & {{}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10 \\mathrm{correlation}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10} \\\\ \\end{aligned}",
+              "display": true,
+              "sourceAsset": "ed991ff58fc0141c94c7.png",
+              "prose": "correlation = 0.006 / [(0.30)(0.20)] = 0.10"
+            }
+          ]
+        },
+        {
+          "id": "r83-q9",
+          "number": 5,
+          "objectiveIds": [
+            "83.e"
+          ],
+          "prompt": "A portfolio was created by investing 25% of the funds in Asset A (standard deviation = 15%) and the balance of the funds in Asset B (standard deviation = 10%). If the correlation coefficient is -0.75, what is the portfolio’s standard deviation?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "2.8%."
+            },
+            {
+              "id": "B",
+              "text": "4.2%."
+            },
+            {
+              "id": "C",
+              "text": "5.3%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{aligned} {} & {{} \\sqrt{( 0.25 )^{2} ( 0.15 )^{2}+( 0.75 )^{2} ( 0.10 )^{2}+2 ( 0.25 ) ( 0.75 ) ( 0.15 ) ( 0.10 ) (-0.75 )}=} \\\\ {} & {{} \\sqrt{0.001406+0.005625-0.004219}=\\sqrt{0.002812}=0.053=5.396} \\\\ \\end{aligned}",
+              "display": true,
+              "sourceAsset": "6988ab79d3f289854d92.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-83-quiz-4",
+      "title": "Knowledge check 83.4",
+      "moduleId": "83.4",
+      "questions": [
+        {
+          "id": "r83-q10",
+          "number": 1,
+          "objectiveIds": [
+            "83.f"
+          ],
+          "prompt": "Which of the following statements about covariance and correlation is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A zero covariance implies there is no linear relationship between the returns on two assets."
+            },
+            {
+              "id": "B",
+              "text": "If two assets have perfect negative correlation, the variance of returns for a portfolio that consists of these two assets will equal zero."
+            },
+            {
+              "id": "C",
+              "text": "The covariance of a 2-stock portfolio is equal to the correlation coefficient times the standard deviation of one stock’s returns times the standard deviation of the other stock’s returns."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If the correlation of returns between the two assets is -1, the set of possible portfolio risk/return combinations becomes two straight lines (see Figure 83.6). A portfolio of these two assets will have a positive returns variance unless the portfolio weights are those that minimize the portfolio variance. Covariance is equal to the correlation coefficient multiplied by the product of the standard deviations of the returns of the two stocks in a 2-stock portfolio. If covariance is zero, then correlation is also zero, which implies that there is no linear relationship between the two stocks’ returns.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the correlation of returns between the two assets is -1, the set of possible"
+            },
+            {
+              "type": "paragraph",
+              "text": "portfolio risk/return combinations becomes two straight lines (see Figure 83.6). A portfolio of these two assets will have a positive returns variance unless the portfolio weights are those that minimize the portfolio variance. Covariance is equal to the correlation coefficient multiplied by the product of the standard deviations of the returns of the two stocks in a 2-stock portfolio. If covariance is zero, then correlation is also zero, which implies that there is no linear relationship between the two stocks’ returns."
+            }
+          ]
+        },
+        {
+          "id": "r83-q11",
+          "number": 2,
+          "objectiveIds": [
+            "83.g"
+          ],
+          "prompt": "Which of the following available portfolios most likely falls below the efficient frontier?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Portfolio A: expected return 7%; expected standard deviation 14%."
+            },
+            {
+              "id": "B",
+              "text": "Portfolio B: expected return 9%; expected standard deviation 26%."
+            },
+            {
+              "id": "C",
+              "text": "Portfolio C: expected return 12%; expected standard deviation 22%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Portfolio B must be the portfolio that falls below the Markowitz efficient frontier because there is a portfolio (Portfolio C) that offers a higher return and lower risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Portfolio B must be the portfolio that falls below the Markowitz efficient frontier"
+            },
+            {
+              "type": "paragraph",
+              "text": "because there is a portfolio (Portfolio C) that offers a higher return and lower risk."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

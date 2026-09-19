@@ -1,0 +1,1952 @@
+{
+  "readingId": 28,
+  "title": "Analyzing Income Statements",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "28.1",
+      "title": "Revenue Recognition",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "28.a",
+          "text": "What should we know about general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a sale of goods where the goods or services are exchanged for cash and returns are not allowed, the recognition of revenue is straightforward: it is recognized at the time of the exchange. The recognition of revenue is not, however, dependent on receiving cash payment. If a sale of goods is made on credit, revenue can be recognized at the time of sale—and an asset, accounts receivable, is created on the balance sheet. As a general rule, revenue is recognized in the period in which it is earned, which may not necessarily be the same as the period in which cash is collected from the customer. Revenue is reported net of any returns and allowances in the income statement (e.g., estimated warranty provisions and customer discounts)."
+        },
+        {
+          "type": "paragraph",
+          "text": "If payment for the goods is received before the transfer of the goods or services, a liability, unearned revenue, is created when the cash is received (offsetting the increase in the asset cash). Revenue is recognized as the goods are transferred to the buyer. As an example, consider a magazine subscription. When the subscription is purchased, an unearned revenue liability is created, and as magazine issues are delivered, revenue is recorded and the liability is decreased."
+        },
+        {
+          "type": "paragraph",
+          "text": "Converged standards under IFRS and U.S. GAAP take a principles-based approach to revenue recognition issues. The central principle is that a firm should recognize revenue when it has transferred a good or service to a customer. This is consistent with the familiar accrual accounting principle that revenue should be recognized when earned."
+        },
+        {
+          "type": "paragraph",
+          "text": "The converged standards identify a five-step process¹ for recognizing revenue:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: Identify the contract(s) with a customer. Step 2: Identify the separate or distinct performance obligations in the contract. Step 3: Determine the transaction price. Step 4: Allocate the transaction price to the performance obligations in the contract. Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard defines a contract as an agreement between two or more parties that specifies their obligations and rights. Collectability must be probable for a contract to exist, but probable is defined differently under IFRS and U.S. GAAP, so an identical activity could still be accounted for differently by IFRS and U.S. GAAP reporting firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "A performance obligation is a promise to deliver a distinct good or service. A distinct good or service is one that meets the following criteria:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The customer can benefit from the good or service on its own or combined with other resources that are readily available. The promise to transfer the good or service can be identified separately from any other promises."
+        },
+        {
+          "type": "paragraph",
+          "text": "A transaction price is the amount a firm expects to receive from a customer in exchange for transferring a good or service to the customer. A transaction price is usually a fixed amount, but it can also be variable (e.g., if it includes a bonus for early delivery)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm should recognize revenue only when it is highly probable that it will not have to reverse it. For example, a firm may need to recognize a liability for a refund obligation (and an offsetting asset for the right to returned goods) if revenue from a sale cannot be estimated reliably."
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm recognizes revenue when the performance obligation is satisfied by transferring the control of the good or service from seller to buyer. Indicators that the customer has obtained control include physical possession by the customer, acceptance of the good or service by the customer, the customer taking on risk and benefits of ownership, the customer holding legal title, and the seller having a right of payment."
+        },
+        {
+          "type": "paragraph",
+          "text": "For long-term contracts, revenue is recognized based on a firm’s progress toward completing a performance obligation over a period of time. Progress toward completion can be measured from the input side (e.g., using the percentage of completion costs incurred as of the statement date). Progress can also be measured from the output side, using engineering milestones or the percentage of total output delivered to date."
+        },
+        {
+          "type": "paragraph",
+          "text": "A performance obligation is satisfied over a period of time if any of the following three criteria are met:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The customer receives and benefits from the good or service over time as the"
+        },
+        {
+          "type": "paragraph",
+          "text": "supplier meets the obligations of the contract (e.g., service and maintenance contracts)."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The supplier enhances an existing asset or creates a new asset that the customer"
+        },
+        {
+          "type": "paragraph",
+          "text": "controls over the period in which the asset is created or enhanced."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. The asset has no alternative use for the supplier, and the supplier has the right to"
+        },
+        {
+          "type": "paragraph",
+          "text": "enforce payment for work completed to date (e.g., constructing equipment specific to the needs of a single customer)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The costs to secure a long-term contract, such as sales commissions, must be capitalized; that is, the expense for these costs is spread over the life of the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following summarizes some examples from IFRS 15 of appropriate revenue recognition under various circumstances."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Revenue recognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Performance obligation and progress toward completion (long-term"
+        },
+        {
+          "type": "heading",
+          "text": "contracts)"
+        },
+        {
+          "type": "paragraph",
+          "text": "A contractor agrees to build a warehouse for a price of $10 million and estimates the total costs of construction at $8 million. Although there are several identifiable components of the building (site preparation, foundation, electrical components, roof, etc.), these components are not separate deliverables, and the performance obligation is the completed building. During the first year of construction, the builder incurs $4 million of costs, 50% of the estimated total costs of completion. Based on this expenditure and a belief that the percentage of costs incurred represents an appropriate measure of progress toward completing the performance obligation, the builder recognizes $5 million (50% of the transaction price of $10 million) as revenue for the year."
+        },
+        {
+          "type": "paragraph",
+          "text": "During the second year of construction, the contractor incurred an additional $2 million in costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The percentage of total costs incurred over the first two years is now ($4 million + $2 million) / $8 million = 75%. The total revenue to be recognized to date is 0.75 × $10 million = $7.5 million. Because $5 million of revenue had been recognized in Year 1, $2.5 million (= $7.5 million – $5 million) of revenue will be recognized in Year 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "This treatment is consistent with the percentage of completion method previously in use, although the new standards do not call it that.\n2. Acting as an agent"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a travel agent who arranges a first-class ticket for a customer flying to Singapore. The ticket price is $10,000, made by nonrefundable payment at purchase, and the travel agent receives a $1,000 commission on the sale. Because the travel agent is not responsible for providing the flight and bears no inventory or credit risk, they are acting as an agent. Because they are an agent, rather than a principal, they should report revenue equal to their commission of $1,000, the net amount of the sale. If they were a principal in the transaction, they would report revenue of $10,000, the gross amount of the sale, and an expense of $9,000 for the ticket. Note that while gross profit is the same ($1,000) regardless of selling as a principal or agent, the gross profit margin is very different. If treated as a principal, the margin would be $1,000 / $10,000 = 10%, but as an agent, the margin would be $1,000 / $1,000 = 100%.\n3. Franchising and licensing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a fast food company that both operates restaurants and grants franchisees rights to operate restaurants using its brand name under license, and supplies franchisees with some products used in daily operations. As well as charging a license fee, the company also receives a royalty fee of 2% of the franchisee’s"
+        },
+        {
+          "type": "paragraph",
+          "text": "turnover. Accounting standards require revenue to be split into categories that have similar characteristics (nature, amounts, timings, and risk factors)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fast food company would disaggregate revenue into these categories: –  Revenue from company-owned restaurants"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Franchise royalties and fees –  Revenue from supplies to franchises (equipment and food materials)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Franchise fees often grant the franchisee the right to operate over numerous periods and would initially be treated as deferred revenue. Subsequently, it would be amortized to revenue in the income statement over the life of the franchise contract period. Royalty fees would be included periodically in the franchisor’s accounts when they become contractually payable by the franchisee under the terms of the contract.\n4. Service versus license"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a software supplier that allows customers to purchase a license and install the software on their own machines, or subscribe to a cloud-based solution with access over the internet. If customers purchase a license and install the software on their own systems, IFRS allows for two treatments:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. The software supplier will report revenue over the life of the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "Criteria:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The software supplier will continue to update and enhance the software over the term of the license. Customers will be exposed to potential benefits or negative impacts from updates and enhancements. Updates and enhancements do not result in a transfer of goods or services."
+        },
+        {
+          "type": "paragraph",
+          "text": "b. The software supplier will report revenue at the outset of the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "Criteria:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The license grants the customer the right to use the software as it exists at the start of the contract (“sold as is”). A separate contract exists for enhancements and updates to the software. The revenue for support services will be recognized when provided (typically over the life of the contract)."
+        },
+        {
+          "type": "paragraph",
+          "text": "If customers access the software without taking physical possession of the software (i.e., cloud-based access), the contract is for a service, and revenue should be recognized over the life of the contract.\n5. Bill-and-hold agreements"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bill-and-hold agreements are a type of sales agreement that involves the customer paying for goods ahead of shipping. Typically, when a customer pays ahead of delivery, the revenue is treated as deferred, but revenue may be recorded before shipping if the supplier can demonstrate that its performance obligations are complete and the customer has control over the good. IFRS criteria include the following: the customer asked for the arrangement, the goods are identified as"
+        },
+        {
+          "type": "paragraph",
+          "text": "belonging to the customer, the goods are complete and ready for transfer to the customer, and the goods cannot be redirected to another customer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Required disclosures under the converged standards include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contracts with customers by category Assets and liabilities related to contracts, including balances and changes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Outstanding performance obligations and the transaction prices allocated to them Management judgments used to determine the amount and timing of revenue recognition, including any changes to those judgments"
+        }
+      ]
+    },
+    {
+      "id": "28.2",
+      "title": "Expense Recognition",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "28.b",
+          "text": "What should we know about general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expenses are subtracted from revenue to calculate net income. According to the IASB, expenses are decreases in economic benefits during the accounting period in the form of outflows or depletions of assets, or incurrence of liabilities that result in decreases in equity other than those relating to distributions to equity participants.²"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the financial statements were prepared on a cash basis, neither revenue recognition nor expense recognition would be an issue. The firm would simply recognize cash received as revenue and cash payments as expense."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the accrual method of accounting, expense recognition is in the period in which the economic benefits of the expenditure are consumed. Three different methods are"
+        },
+        {
+          "type": "paragraph",
+          "text": "used to achieve this: the matching principle, expensing as incurred, and capitalization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the matching principle, expenses to generate revenue are recognized in the same period as the revenue. Inventory provides a good example. Assume that inventory is purchased during the fourth quarter of one year and sold during the first quarter of the following year. Using the matching principle, both the revenue and the expense (cost of goods sold) are recognized in the first quarter of the second year, when the inventory is sold—not the period in which the inventory was purchased. Another example are goods that are sold with a warranty period. The estimated cost of repairing or replacing faulty goods under the warranty must be estimated and deducted from revenue at the time of sale, rather than when the actual costs are incurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalization is an application of the matching principle whereby costs are initially capitalized as assets on the balance sheet and then expensed, using depreciation or amortization, to the income statement over the asset’s life as its benefits are consumed. Property, plant, and equipment (PP&E) and intangible assets with finite lives are examples of this."
+        },
+        {
+          "type": "paragraph",
+          "text": "Not all expenses can be directly tied to revenue generation. These costs are known as period costs. Period costs, such as administrative costs, are expensed in the period incurred. For example, if a firm has occupied a leased premise, one year’s worth of rent should be expensed to the income statement regardless of whether the rent has been paid."
+        },
+        {
+          "type": "paragraph",
+          "text": "An accounting policy that recognizes expenses later rather than sooner is seen as aggressive, while a policy that recognizes expenses earlier is conservative. Expensing is, therefore, more conservative than capitalization."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Inventory and the matching principle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Imagine a trading company that simply buys and resells goods. If the firm had 100 units of sales during the accounting period, we would expect to see cost of goods sold reflect 100 units of cost if we apply the matching principle. If the firm had 20 units of beginning inventory at the start of the year and purchased a further 90 units, the total number of units available for sale would be 110. The matching concept, therefore, requires the company to remove 10 units that are unsold from the income statement and store them in the balance sheet as a current asset (ending inventory). These 10 units will become the next period’s beginning inventory."
+        },
+        {
+          "type": "heading",
+          "text": "Matching Cost of Goods Sold to the Number of Units Sold"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/2b9cfd2ac28cbd8ecd52.png",
+          "alt": "Equation, table, or diagram: Matching Cost of Goods Sold to the Number of Units Sold",
+          "width": 416,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume the firm had the following transactions in the period:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/68211594bc802b33c92a.png",
+          "alt": "Equation, table, or diagram: Assume the firm had the following transactions in the period:",
+          "width": 319,
+          "height": 183,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition, assume the beginning inventory of 20 units had an associated cost of $400."
+        },
+        {
+          "type": "paragraph",
+          "text": "The company has identified that of its 10 units of ending inventory, 8 units relate to Purchase 4, and 2 units relate to Purchase 3."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l c l} \\hline{\\mathrm{Ending~inventory~at~cost} \\quad} & {\\mathrm{Total}} \\\\ \\hline{\\mathrm{2~units~\\Leftrightarrow~\\$28~each}} & {} & {\\$56} \\\\ {\\mathrm{8~units~\\ll~\\$30~each}} & {} & {\\underline{{\\$240}}} \\\\ {\\mathrm{Total}} & {} & {\\$296} \\\\ \\hline{} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "0905ad2c3b40bd6d09b9.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\begin{array} {l} {\\mathrm{Income~Statement}} \\\\ \\end{array}} & {\\begin{array} {l} {\\mathrm{~s~}} \\\\ \\end{array}} & {\\begin{array} {c} {\\mathrm{~s~}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Revenue}} \\\\ {\\mathrm{Beginning~inventory}} \\\\ \\end{array}} & {\\begin{array} {r} {\\mathrm{~400}} \\\\ {\\mathrm{~2,330}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r l} {\\mathrm{Available~for~sale}} & {\\qquad2 , 730} & {} \\\\ {\\mathrm{Ending~inventory}} & {\\qquad\\underline{{( 296 )}}} & {} \\\\ {\\mathrm{Cost~of~goods~sold}} & {\\qquad} & {\\underline{{2.434}}} \\\\ {\\mathrm{Cross~profit}} & {\\qquad} & {1 , 066} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b648b7cd86830bb56841.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This approach ensures that the company matches the 100 units of sales with 100 units of cost. The $296 of ending inventory will be a current asset in the company’s balance sheet."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This example used the specific identification method to compute the cost of ending inventory. This method is typically used if a firm can identify exactly which items were sold and which items remain in inventory (e.g., an auto dealer records each vehicle sold or in inventory by its identification number)."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the specific cost of each item remaining in ending inventory at period-end cannot be identified, the company will rely on one of three cost flow methodologies to assign cost. The three methods are first-in, first-out (FIFO); last-in, first-out (LIFO); and the weighted average cost method. We will discuss these methods in more detail in our reading on Analysis of Inventories."
+        },
+        {
+          "type": "heading",
+          "text": "Capitalization vs. Expensing"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a firm makes an expenditure, it can either capitalize the cost as an asset on the balance sheet or expense the cost in the income statement in the period incurred. As a general rule, an expenditure that is expected to provide a future economic benefit over multiple accounting periods is capitalized; however, if the future economic benefit is unlikely or highly uncertain, the expenditure is expensed in the period incurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "An expenditure that is capitalized is initially recorded as an asset on the balance sheet at cost, which is typically its fair value at acquisition plus any costs necessary to prepare the asset for use. Except for land and intangible assets with indefinite lives (such as acquisition goodwill), the cost is then allocated to the income statement over the life of the asset as depreciation expense (for tangible assets), depletion (for natural resources), or amortization expense (for intangible assets with finite lives). Depreciation, depletion, and amortization reduce the carrying value (net book value) of the asset in the balance sheet, and the expense reduces net income in the income statement. Alternatively, if an expenditure is immediately expensed, current-period pretax income is reduced by the amount of the expenditure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once an asset is capitalized, subsequent related expenditures that provide more future economic benefits (e.g., rebuilding the asset) are also capitalized. Subsequent expenditures that merely sustain the usefulness of the asset (e.g., regular maintenance) are expensed when incurred."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Capitalizing vs. expensing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Northwood Corp. purchased new equipment to be used in its manufacturing plant. The cost of the equipment was $250,000, including $5,000 freight and $12,000 of taxes. In addition to the equipment cost, Northwood paid $10,000 to install the equipment and $7,500 to train its employees to use the equipment. Over the asset’s life, Northwood paid $35,000 for repairs and maintenance. At the end of five years, Northwood extended the life of the asset by rebuilding the equipment’s motors at a cost of $85,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "What amounts should be capitalized on Northwood’s balance sheet, and what amounts should be expensed in the period incurred?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Northwood should capitalize all costs that provide future economic benefits, including the costs that are necessary to get the asset ready for use. Rebuilding the equipment’s motors extended its life; thus, it increased its future benefits."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e70c384060069a333c4a.png",
+          "alt": "Equation, table, or diagram: onomic benefits, including the costs that are necessary to get the asset ready for use. Rebuilding the equipment’s motors extended its life; thus, it increased its future benefits.",
+          "width": 391,
+          "height": 115,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Costs that do not provide future economic benefits are expensed in the period incurred. The initial training costs are not necessary to get the asset ready for use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather, the training costs are necessary to get the employees ready to use the asset. Thus, the training costs are immediately expensed. Repair and maintenance costs are operating expenditures that do not extend the life of the equipment."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4b028243ef1b6d3cbc39.png",
+          "alt": "Equation, table, or diagram: ees ready to use the asset. Thus, the training costs are immediately expensed. Repair and maintenance costs are operating expenditures that do not extend the life of the equipment.",
+          "width": 281,
+          "height": 93,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Impact of capitalization on financial statements"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chair Ltd. was incorporated at the start of the year with the issuance of £40,000 of shares paid in full. The company immediately purchased new equipment to be used in the production process. The machinery cost £12,000 with an estimated useful economic life of four years and no salvage value. The equipment is depreciated using straight-line methodology in the accounts, and we will assume the accounting depreciation is tax deductible. Chair has no other assets and liabilities except cash and PP&E. Assume Chair has revenue of £30,000 per year and an operating profit margin of 40% before considering the impact of the equipment purchase. Chair is subject to a tax rate of 30% and pays no dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare and contrast the impact on the financial statement if the cost of equipment is capitalized versus expensed."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{straight-line~depreciation~of~equipment}}={\\frac{{\\mathrm{f}} 12 , 000-0} {4 {\\mathrm{~years}}}}={\\mathrm{f}} 3 , 000 {\\mathrm{~p.a.}}",
+          "display": true,
+          "sourceAsset": "a4f52ff99b84f9da66b8.png"
+        },
+        {
+          "type": "heading",
+          "text": "Income Statement: Capitalization of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0d10a4b9c0de22f7e2bb.png",
+          "alt": "Equation, table, or diagram: Income Statement: Capitalization of Equipment Cost",
+          "width": 457,
+          "height": 183,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Income Statement: Expensing of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/2e57847cc10f6916fc4f.png",
+          "alt": "Equation, table, or diagram: Income Statement: Expensing of Equipment Cost",
+          "width": 457,
+          "height": 184,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalization spreads the expense of the equipment in the income statement over the life of the asset. Expensing results in the full cost of the equipment passing through the income statement in the first year, but none in subsequent years; in turn, this causes net income to be lower in the first year, but higher in the subsequent years. Capitalization results in less volatility of earnings when compared to expensing."
+        },
+        {
+          "type": "heading",
+          "text": "Balance Sheet: Capitalization of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/32d91591473b94441c8f.png",
+          "alt": "Equation, table, or diagram: Balance Sheet: Capitalization of Equipment Cost",
+          "width": 450,
+          "height": 218,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Balance Sheet: Expensing of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3993dbc1b6188bda044b.png",
+          "alt": "Equation, table, or diagram: Balance Sheet: Expensing of Equipment Cost",
+          "width": 435,
+          "height": 185,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the earlier years, total assets and equity are higher if the firm capitalizes costs. This results from including the carrying value of the asset (its cost less accumulated depreciation) in the balance sheet. Equity is higher in Year 1 under capitalization due to higher net income, and therefore, higher retained earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "These differences narrow over the asset’s life until they are identical at the end. This convergence is caused by two factors:\n1. The carrying value of the asset decreases as it is depreciated under the"
+        },
+        {
+          "type": "paragraph",
+          "text": "capitalization approach."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Although net income is lower in Year 1 if the cost is expensed, it is higher in all the"
+        },
+        {
+          "type": "paragraph",
+          "text": "subsequent years."
+        },
+        {
+          "type": "heading",
+          "text": "Cash Flow Statement: Capitalization of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c0931084e800172bb17d.png",
+          "alt": "Equation, table, or diagram: Cash Flow Statement: Capitalization of Equipment Cost",
+          "width": 447,
+          "height": 140,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can state operating cash flow as net income plus noncash charges less working capital investment. The only noncash charge in this example is depreciation. Working capital investment is assumed to be zero in this example."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l c r l c r} {\\begin{array} {l} {O \\mathrm{pening~cash}} \\\\ {C \\mathrm{hange~in~cash}} \\\\ {C \\mathrm{losing~cash}} \\\\ \\end{array}} & {\\begin{array} {l} {0} \\\\ {37 , 300} \\\\ {37 , 300} \\\\ \\end{array}} & {\\begin{array} {l} {37 , 300} \\\\ {9 , 300} \\\\ {46 , \\underline{{600}}} \\\\ \\end{array}} & {\\begin{array} {l} {46 , 600} \\\\ {9 , 300} \\\\ {\\underline{{55 , 900}}} \\\\ \\end{array}} & {\\begin{array} {l} {{55 , 900}} \\\\ {\\underline{{9 , 300}}} \\\\ {\\underline{{65 , 200}}} \\\\ \\end{array}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "f1cf221e3802eea98dba.png"
+        },
+        {
+          "type": "heading",
+          "text": "Cash Flow Statement: Expensing of Equipment Cost"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cb6dc61edd5459cc54eb.png",
+          "alt": "Equation, table, or diagram: Cash Flow Statement: Expensing of Equipment Cost",
+          "width": 448,
+          "height": 209,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalization requires the investment in equipment to be treated as a cash outflow from investing activities, while expensing treats the cost of equipment as a cash outflow from operating activities. The reason total cash flow differs under the two approaches is that the full tax benefit of the cost is recognized in Year 1 with expensing, while it is spread over the life of the asset under capitalization. At the end of the asset’s life, total cash is identical for both approaches."
+        },
+        {
+          "type": "heading",
+          "text": "Financial statement ratios: Capitalization vs. expensing"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/2c2db45830118eb1d1fc.png",
+          "alt": "Equation, table, or diagram: Financial statement ratios: Capitalization vs. expensing",
+          "width": 477,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Total asset turnover (sales / average total assets) is lower if costs are capitalized due to higher balance sheet assets. As the asset’s carrying value declines over time and retained earnings converge under the two approaches, the difference in total asset turnover between the two approaches declines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Net profit margin (net income / sales) is higher in Year 1 if the costs are capitalized because the income statement contains depreciation of £3,000 compared to the full cost of £12,000 if costs are expensed. In subsequent years, expensing will give higher margins as depreciation continues to pass through the income statement when using capitalization, while no cost passes through the income statement after Year 1 if the cost was expensed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Return on equity (net income / average stockholders’ equity) is higher in Year 1 if the cost is capitalized, but lower in subsequent years when compared to expensing. Again, this is due to the impact on net income of depreciation under capitalization versus the one-off charge to the income statement when expensing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The preceding example demonstrates how the decision to capitalize or expense a cost reduces comparability among companies. Capitalization increases net income, ROE, and CFO in Year 1 at the expense of decreased values in subsequent years. Analysts should take care to identify different accounting treatments of significant expenditures when comparing companies or industries. Figure 28.1 summarizes the impacts of capitalizing versus expensing."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 28.1: Financial Statement Effects"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/dff6a67daea83870cfac.png",
+          "alt": "Equation, table, or diagram: Figure 28.1: Financial Statement Effects",
+          "width": 426,
+          "height": 229,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The example considered a one-off decision to capitalize or expense. If a company continues to capitalize rather than expense cost in future periods, the profit-enhancing effects of capitalization will continue, provided the capitalized costs in each period exceed depreciation expense."
+        },
+        {
+          "type": "heading",
+          "text": "Capitalized Interest"
+        },
+        {
+          "type": "paragraph",
+          "text": "When a firm constructs an asset for its own use or, in limited circumstances, for resale, the interest that accrues during the construction period is capitalized as a part of the asset’s cost. The reasons for capitalizing interest are to accurately measure the cost of"
+        },
+        {
+          "type": "paragraph",
+          "text": "the asset and to better match the cost with the revenues generated by the constructed asset. The treatment of construction interest is similar under U.S. GAAP and IFRS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalized interest is not reported in the income statement as interest expense. Once construction interest is capitalized, the interest cost is allocated to the income statement through depreciation expense (if the asset is held for use) or COGS (if the asset is held for sale)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalizing interest results in it being reported in the cash flow statement as an outflow from investing activities. This contrasts with the usual treatment of interest paid, which is reported as an outflow from operating activities under U.S. GAAP and can be an operating or financing outflow under IFRS."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an analyst, both capitalized and expensed interest should be used when calculating interest coverage ratios to get a clearer picture of the company’s solvency. Analysts should also adjust income by adding back any depreciation of capitalized interest."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Capitalization of interest"
+        },
+        {
+          "type": "paragraph",
+          "text": "Willock AG is a German company specializing in large infrastructure projects. Due to the highly specialized nature of some equipment, Willock constructs equipment that it will use in projects. In the current period, Willock reports EBIT of €160 million and an interest expense of €80 million. Footnote disclosures reveal €20 million of interest has been capitalized in assets in the course of construction in the year, and that depreciation resulting from interest capitalized on assets constructed in prior years that are now in use was €10 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the interest coverage ratio before and after adjusting for capitalized interest."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{interest~coverage}=\\frac{\\mathrm{EBIT}} {\\mathrm{interest~expense}}}} \\\\ {{\\mathrm{before~adjustment}=\\frac{\\epsilon160 \\mathrm{~million}} {\\epsilon80 \\mathrm{~million}}=2.0}} \\end{array}\\\\[6pt]\\mathrm{after~adjustment}=\\cfrac{\\mathrm{2160~million}+\\mathrm{210~million}} {\\mathrm{280~million}+\\mathrm{220~million}}=1.7\\end{gathered}",
+          "display": true,
+          "sourceAsset": "4c780503f5ac5a499e6e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Additional depreciation in the income statement due to the capitalization of financing costs during the construction phase is reversed for assets that are now in use, increasing EBIT. Interest capitalized in the current period for equipment in the course of construction is added to interest expense."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Cash flow treatment of capitalized interest"
+        },
+        {
+          "type": "paragraph",
+          "text": "Continuing the previous example, Willock reported CFO of €70 million and CFI of − €50 million. Willock includes interest paid within its computation of CFO, with the exception of capitalized interest on the construction of equipment. Assuming all interest has been paid by year-end and ignoring any tax implications, what was the impact of interest capitalization on CFO and CFI?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "€20 million interest was capitalized. Had this been expensed instead, CFI would have been €20 million higher, or –€30 million, and CFO would have been €20 million lower, or €50 million. No adjustment for depreciation is required as it is a noncash charge."
+        },
+        {
+          "type": "heading",
+          "text": "Research and Development Costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "With some exceptions, costs to create intangible assets are expensed as incurred. Important exceptions are research and development costs (under IFRS) and software development costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, research costs, which are costs aimed at the discovery of new scientific or technical knowledge and understanding, are expensed as incurred. However, development costs may be capitalized. Development costs are incurred to translate research findings into a plan or design of a new product or process. To recognize an intangible asset in development, a firm must show that it can complete the asset and intends to use or sell the completed asset, among other criteria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, both research and development costs are generally expensed as incurred. However, the costs of creating software for sale to others are treated in a manner similar to the treatment of research and development costs under IFRS. Costs incurred to develop software for sale to others are expensed as incurred until the product’s technological feasibility has been established, after which the costs of developing a salable product are capitalized."
+        },
+        {
+          "type": "paragraph",
+          "text": "To make the financial statements comparable for a company that capitalizes development costs with one that expenses such costs, the income statement should be adjusted to include development costs as an expense, and any current amortization of development cost capitalized in the past should be removed. In the balance sheet, capitalized development costs should be removed, resulting in lower assets and equity. Adjusting the cash flow statement will require capitalized costs to be removed from CFI and included in CFO, which will decrease CFO."
+        },
+        {
+          "type": "heading",
+          "text": "Bad Debt Expense and Warranty Expense Recognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a firm sells goods or services on credit or provides a warranty to the customer, the matching principle requires the firm to estimate bad debt expense or warranty expense. To do so, the firm recognizes the expense in the period of the sale, rather than a later period."
+        },
+        {
+          "type": "heading",
+          "text": "Implications for Financial Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Like revenue recognition, expense recognition requires numerous estimates. Because estimates are involved, it is possible for firms to delay or accelerate the recognition of expenses. Delayed expense recognition increases current net income and is, therefore, more aggressive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts must consider the underlying reasons for a change in an expense estimate. If a firm decreases its bad debt expense, was it because its collection experience improved, or was it to manipulate net income?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should also compare a firm’s estimates to those of other firms in its industry. If a firm’s warranty expense is significantly less than that of a peer firm, is that a result of higher quality products, or is the firm’s expense recognition more aggressive than that of the peer firm?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Firms disclose their accounting policies and significant estimates in the financial statement footnotes and in the management discussion and analysis (MD&A) section of the annual report."
+        }
+      ]
+    },
+    {
+      "id": "28.3",
+      "title": "Nonrecurring Items",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "28.c",
+          "text": "What should we know about the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The definition of unusual or infrequent items is obvious—these events are either unusual in nature or infrequent in occurrence and are material (significant enough to affect the opinions of financial statement users). Examples of items that could be considered unusual or infrequent include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gains or losses from the sale of assets or part of a business, if these activities are not a firm’s ordinary operations Impairments, write-offs, and write-downs Restructuring costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unusual or infrequent items are included in income from continuing operations and are reported before tax."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should review unusual or infrequent items to determine whether they truly should be excluded when forecasting a firm’s earnings. Some companies appear to be accident-prone and have “unusual or infrequent” losses every year or every few years."
+        },
+        {
+          "type": "paragraph",
+          "text": "A discontinued operation is one that management has decided to dispose of, but either has not yet done so, or has disposed of in the current year after the operation had"
+        },
+        {
+          "type": "paragraph",
+          "text": "generated income or losses. To be accounted for as a discontinued operation, the business must be physically and operationally distinct from the rest of the firm, in terms of assets, operations, and investing and financing activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The date when the company develops a formal plan for disposing of an operation is referred to as the measurement date, and the time between the measurement period and the actual disposal date is referred to as the phaseout period. Any income or loss from discontinued operations is reported separately in the income statement, net of tax, after income from continuing operations. Any past income statements presented must be restated, separating the income or loss from the discontinued operations. On the measurement date, the company will accrue any estimated loss during the phaseout period, and any estimated loss on the sale of the business. Any expected gain on the disposal cannot be reported until after the sale is completed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis of discontinued operations is straightforward: They do not affect net income from continuing operations. For this reason, analysts should exclude discontinued operations when forecasting future earnings. However, the actual event of discontinuing a business segment or selling assets may provide information about the future cash flows of the firm."
+        },
+        {
+          "type": "heading",
+          "text": "Changes in Accounting Policies and Estimates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting changes include changes in accounting policies, changes in accounting estimates, and prior-period adjustments. Such changes may require either retrospective application or prospective application. With retrospective application, any prior-period financial statements presented in a firm’s current financial statements must be restated, applying the new policy to those statements as well as future statements. Retrospective application enhances the comparability of the financial statements over time. With prospective application, prior statements are not restated, and the new policies are applied only to future financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard-setting bodies, at times, issue a change in accounting policy. Sometimes, a firm may change which accounting policy it applies, for example, by changing its inventory costing method or capitalizing rather than expensing specific purchases. Unless it is impractical, changes in accounting policies require retrospective application."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the recent change to revenue recognition standards, firms were given the option of modified retrospective application. This application does not require restatement of prior-period statements; however, beginning values of affected accounts are adjusted for the cumulative effects of the change."
+        },
+        {
+          "type": "paragraph",
+          "text": "Generally, a change in accounting estimate is the result of a change in management’s judgment, usually due to new information. For example, management may change the estimated useful life of an asset because new information indicates that the asset has a longer or shorter life than originally expected. Changes in accounting estimates are applied prospectively and do not require the restatement of prior financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting estimate changes typically do not affect cash flow. An analyst should review changes in accounting estimates to determine their impact on future operating results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes, a change from an incorrect accounting method to one that is acceptable under GAAP or IFRS is required. A correction of an accounting error made in previous financial statements is reported as a prior-period adjustment and requires retrospective application. Prior-period results are restated. Disclosure of the nature of any significant prior-period adjustment and its effect on net income is also required."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prior-period adjustments usually involve errors or new accounting standards and do not typically affect cash flow. Analysts should review adjustments carefully because errors may indicate weaknesses in the firm’s internal controls."
+        },
+        {
+          "type": "heading",
+          "text": "Changes in Scope and Exchange Rates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting standards do not require firms to disclose the impact on their financial statements of changes in scope or exchange rates, but analysts must be alert to their effects. In this context, “changes in scope” refer to how acquiring another company affects the size of the combined entity. Mergers and acquisitions can dramatically reduce comparability of company financial statements before and after the acquisition date. If a company conducts overseas trade or owns overseas subsidiaries, fluctuating exchange rates can affect its financial statements because overseas sales and purchases and the income statements of overseas subsidiaries need to be converted to the company’s reporting currency."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Level II CFA curriculum addresses accounting and analysis of business combinations and foreign currency translation."
+        }
+      ]
+    },
+    {
+      "id": "28.4",
+      "title": "Earnings Per Share",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "28.d",
+          "text": "What should we know about how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Earnings per share (EPS) is one of the most commonly used corporate profitability performance measures for publicly traded firms (nonpublic companies are not required to report EPS data). EPS is reported only for shares of common stock (also known as ordinary stock)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A company may have either a simple or complex capital structure:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A simple capital structure is one that contains no potentially dilutive securities. A simple capital structure contains only common stock, nonconvertible debt, and nonconvertible preferred stock. A complex capital structure contains potentially dilutive securities such as employee stock options, warrants, or convertible securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "All firms with complex capital structures must report both basic and diluted EPS. Firms with simple capital structures report only basic EPS."
+        },
+        {
+          "type": "heading",
+          "text": "Basic EPS"
+        },
+        {
+          "type": "paragraph",
+          "text": "The basic EPS calculation does not consider the effects of any dilutive securities in the computation of EPS:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{basic~EPS}}={\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares~outstanding}}}",
+          "display": true,
+          "sourceAsset": "c85a19890576b8482023.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The current year’s preferred dividends are subtracted from net income because EPS refers to the per-share earnings available to common shareholders. Net income minus preferred dividends is the income available to common stockholders. Common stock dividends are not subtracted from net income because they are a part of the net income available to common shareholders."
+        },
+        {
+          "type": "paragraph",
+          "text": "The weighted average number of common shares is the number of shares outstanding during the year, weighted by the portion of the year they were outstanding."
+        },
+        {
+          "type": "heading",
+          "text": "Effect of Stock Dividends and Stock Splits"
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock dividend is the distribution of additional shares to each shareholder in an amount proportional to their current number of shares. If a 10% stock dividend is paid, the holder of 100 shares of stock would receive 10 additional shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock split refers to the division of each “old” share into a specific number of “new” (post-split) shares. The holder of 100 shares will have 200 shares after a 2-for-1 split, or 150 shares after a 3-for-2 split."
+        },
+        {
+          "type": "paragraph",
+          "text": "The important thing to remember is that each shareholder’s proportional ownership in the company is unchanged by either of these events. Each shareholder has more shares but the same percentage of the total shares outstanding. For calculating EPS, we apply stock dividends and splits retroactively to the beginning of the year, to all shares before the date of the corporate event. Prior years’ weighted average number of common shares is also adjusted as if the stock split or stock dividend had occurred in the prior period, to prevent EPS from appearing to decline when these actions are largely cosmetic."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "For our purposes here, a stock dividend and a stock split are two ways of doing the same thing. For example, a 50% stock dividend and a 3-for-2 stock split both result in three “new” shares for every two “old” shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following are key things to know about calculating weighted average shares outstanding:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The weighting system is days outstanding divided by the number of days in a year, but on the exam, the monthly approximation method will probably be used. Shares issued enter into the computation from the date of issuance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reacquired shares are excluded from the computation from the date of reacquisition. Shares sold or issued in a purchase of assets are included from the date of issuance. A stock split or stock dividend is applied to all shares outstanding before the split or dividend and to the beginning-of-period weighted average shares. A stock split or stock dividend adjustment is not applied to any shares issued or repurchased after the split or dividend date."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Weighted average shares outstanding"
+        },
+        {
+          "type": "paragraph",
+          "text": "Johnson Company has 10,000 shares outstanding at the beginning of the year. On April 1, Johnson issues 4,000 new shares. On July 1, Johnson distributes a 10% stock dividend. On September 1, Johnson repurchases 3,000 shares. Calculate Johnson’s weighted average number of shares outstanding for the year, for its reporting of basic earnings per share."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Shares outstanding are weighted by the portion of the year that the shares were outstanding. Any shares that were outstanding before the 10% stock dividend must be adjusted for it. Transactions that occur after the stock dividend do not need to be adjusted."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Think of the shares before the stock dividend as “old” shares and shares after the stock dividend as “new” shares that each represent ownership of a smaller portion of the company (in this example, 10/11ths of that of an old [pre-stock dividend] share). The weighted average number of shares for the year will be in new shares."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{Shares~outstanding~on~January~1:~} 10 , 000 \\times1.10 \\times12 / 12 \\mathrm{~of~}=\\ 11 , 000} \\\\ {\\mathrm{the~year}} \\\\ {\\mathrm{Shares~resued~April~1:} 4 , 000 \\times1.10 \\times9 / 12 \\mathrm{~of~the~year}} \\\\ {\\mathrm{Shares~repurchased~September~1:}-3 , 000 \\times4 / 12 \\mathrm{~of~the~year}=\\underline{{-1 , 000}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Weighted~average~shares~outstanding} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad=\\ 13 , 300\\end{gathered}",
+          "display": true,
+          "sourceAsset": "17c403ffd8fbdd9cbba8.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Basic earnings per share"
+        },
+        {
+          "type": "paragraph",
+          "text": "Johnson Company has net income of $10,000, paid $1,000 cash dividends to its preferred shareholders, and paid $1,750 cash dividends to its common shareholders. Calculate Johnson’s basic EPS using the weighted average number of shares from the previous example."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{basic~EPS}} & {{}=\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~shares~of~common}}} \\\\ {} & {{}=\\frac{\\$10 , 000-\\$1 , 000} {13 , 300}=\\$0.68} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "688e298ad365bc1f7a41.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Remember, the payment of a cash dividend on common shares is not considered in the calculation of EPS."
+        },
+        {
+          "type": "heading",
+          "text": "Diluted EPS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before calculating diluted EPS, it is necessary to understand the following terms:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dilutive securities are stock options, warrants, convertible debt, or convertible preferred stock that would decrease EPS if exercised or converted to common stock. Antidilutive securities are stock options, warrants, convertible debt, or convertible preferred stock that would increase EPS if exercised or converted to common stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "We apply the “if converted” method to examine the impact of potentially dilutive securities. This looks at what EPS would have been if the securities were converted at the start of the accounting period, regardless of whether they can actually be converted during the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The numerator of the basic EPS equation contains income available to common shareholders (net income less preferred dividends). In the case of diluted EPS, if there are dilutive securities, the numerator must be adjusted as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If convertible preferred stock is dilutive (meaning EPS will decrease if it is converted to common stock), the convertible preferred dividends must be added to earnings available to common shareholders. If convertible bonds are dilutive, then the bonds’ after-tax interest expense is not considered an interest expense for diluted EPS. Hence, interest expense multiplied by (1 − the tax rate) must be added back to the numerator."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest paid on bonds is typically tax deductible for the firm. If convertible bonds are converted to stock, the firm saves the interest cost but loses the tax deduction. Thus, only the after-tax interest savings are added back to income available to common shareholders."
+        },
+        {
+          "type": "paragraph",
+          "text": "The basic EPS denominator is the weighted average number of shares. When the firm has dilutive securities outstanding, the denominator is adjusted for the equivalent number of common shares that would be created by the conversion of all dilutive securities outstanding (convertible bonds, convertible preferred shares, warrants, and options), with each one considered separately to determine if it is dilutive."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a dilutive security was issued during the year, the increase in the weighted average number of shares for diluted EPS is based on only the portion of the year the dilutive security was outstanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dilutive stock options or warrants increase the number of common shares outstanding in the denominator for diluted EPS. There is no adjustment to the numerator."
+        },
+        {
+          "type": "paragraph",
+          "text": "The diluted EPS equation is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}{\\mathrm{diluted~EPS}}={\\frac{\\mathrm{adjusted~income~available~for~common~shares}} {\\mathrm{weighted-average~common~and~potential~common~shares~outstanding}}} {\\mathrm{where} .}\\\\[6pt]\\begin{array} {r l} {{\\mathrm{adjusted~income~available~for~common~shares}=\\mathrm{net~income-preferred~dividends}}} \\\\ {{}} & {{\\quad+\\mathrm{~dividends~on~convertible~preferred~stockeriale}}} \\\\ {{}} & {{\\quad+\\mathrm{~after-tax~interest~on~convertible~debt}}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "aec0fe868b2389060e13.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Therefore, diluted EPS is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{diluted~EPS}=\\frac{\\left[ \\mathrm{net~income}-\\frac{\\mathrm{preferred}} {\\mathrm{dividends}} \\right]+\\left[ \\begin{matrix} {\\mathrm{converible}} \\\\ {\\mathrm{pereferred}} \\\\ {\\mathrm{dividends}} \\\\ \\end{matrix} \\right]+\\left( \\begin{matrix} {\\mathrm{converible}} \\\\ {\\mathrm{debt}} \\\\ {\\mathrm{interest}} \\\\ \\end{matrix} \\right) \\! \\! ( 1-\\mathrm{t)}} {\\left( \\begin{matrix} {\\mathrm{weighted}} \\\\ {\\mathrm{average}} \\\\ {\\mathrm{shares}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{isssuable~from}} \\\\ {\\mathrm{stock~ophions}} \\\\ \\end{matrix} \\right)}",
+          "display": true,
+          "sourceAsset": "3d59c6ec97e12697b5d2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The effect of conversion to common shares is included in the calculation of diluted EPS for a given security only if it is, in fact, dilutive. If a firm has more than one potentially dilutive security outstanding, each potentially dilutive security must be examined separately to determine if it is actually dilutive (i.e., would reduce EPS if converted to common stock)."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: EPS with convertible preferred stock"
+        },
+        {
+          "type": "paragraph",
+          "text": "During 20X6, ZZZ Corp. reported net income of $4.35 million and had 2 million shares of common stock outstanding for the entire year. ZZZ’s 7%, $5 million par value preferred stock is convertible into common stock at a conversion rate of 1.1 shares for every $10 of par value. Calculate basic and diluted EPS."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: Calculate 20X6 basic EPS:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{basic~EPS}}={\\frac{{\\mathsf{S}} 4 {,} 350 , 000-( 0.07 ) \\left( {\\mathsf{S}} 5 {,} 000 , 000 \\right)} {2 {,} 000 {,} 000}}={\\mathsf{S}} 2.00",
+          "display": true,
+          "sourceAsset": "819eda0a509b1969d279.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: Calculate diluted EPS:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute the increase in common stock outstanding if the preferred stock is converted to common stock at the beginning of 20X6: ($5,000,000 / $10) × 1.1 = 550,000 shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the convertible preferred shares were converted to common stock, there would be no preferred dividends paid. Therefore, you should add back the convertible preferred dividends that had previously been subtracted from net income in the numerator. Compute diluted EPS as if the convertible preferred stock were converted into common stock:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{diluted~EPS}}={\\frac{{\\mathrm{net.~inc.-pref.~div.~+convert.~pref.~dividends}}} {{\\mathrm{wt.~avg.~shares~+~convert.~pref.~common~shares}}}}} \\\\ {{\\mathrm{diluted~EPS}}={\\frac{{\\mathrm{S4,350,000}}} {{\\mathrm{2,000,000}}+{\\mathrm{550,000}}}}={\\mathsf{s 1.71}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "9abe5ba2d44aca0045c2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Check to see if diluted EPS is less than basic EPS ($1.71 < $2.00). If the answer is yes, the preferred stock is dilutive and must be included in diluted EPS as computed previously. If the answer is no, the preferred stock is antidilutive, and conversion effects are not included in diluted EPS."
+        },
+        {
+          "type": "paragraph",
+          "text": "A quick way to check whether convertible preferred stock is dilutive is to divide the preferred dividend by the number of shares that will be created if the preferred stock is converted. For ZZZ:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{55 {,} 000 {,} 000 {} \\times{} 0.07 {}} {550 {,} 000 {}}=50 {.} 64",
+          "display": true,
+          "sourceAsset": "5c8da57dafbd5ef152f4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because this is less than basic EPS, the convertible preferred is dilutive."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: EPS with convertible debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "During 20X6, YYY Corp. had earnings available to common shareholders of $2.5 million and had 1 million shares of common stock outstanding for the entire year, for basic EPS of $2.50. During 20X5, YYY issued 2,000, $1,000 par, 5% bonds for $2 million (issued at par). Each of these bonds is convertible to 120 shares of common stock. The tax rate is 30%. Calculate the 20X6 diluted EPS."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute the increase in common stock outstanding if the convertible debt is converted to common stock at the beginning of 20X6:"
+        },
+        {
+          "type": "paragraph",
+          "text": "shares issuable for debt conversion = (2,000)(120) = 240,000 shares"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the convertible debt is considered converted to common stock at the beginning of 20X6, then there would be no interest expense related to the convertible debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Therefore, it is necessary to increase YYY’s after-tax net income for the after-tax effect of the decrease in interest expense:"
+        },
+        {
+          "type": "paragraph",
+          "text": "increase in income = [(2,000)($1,000)(0.05)] (1 − 0.30) = $70,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute diluted EPS as if the convertible debt were common stock:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\operatorname{d i l u t e d} \\mathrm{EPS}=} & {{} {\\frac{\\mathrm{net.~inc.-pref.~div.~+~convert.~int.~(1-t)}} {\\mathrm{wt.~avg.~shares~+~convertible~debt~shares}}}} \\\\ {\\operatorname{d i l u t e d ~ E P S}} & {{}={\\frac{\\$2 , 500 , 000+\\$70 , 000} {1 , 000 , 000+240 , 000}}=\\$2.07} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "ff4ef9a2c74dd80a7d26.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Check to make sure that diluted EPS is less than basic EPS ($2.07 < $2.50). If diluted EPS is more than the basic EPS, the convertible bonds are antidilutive and should not be treated as common stock in computing diluted EPS."
+        },
+        {
+          "type": "paragraph",
+          "text": "A quick way to determine whether the convertible debt is dilutive is to calculate its per share impact:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\mathrm{convertible~debt~interest~(1-t)}} {\\mathrm{convertible~debt~shares}}",
+          "display": true,
+          "sourceAsset": "bcb35ff33e12adbae0e9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If this per share amount is greater than basic EPS, the convertible debt is antidilutive, and the effects of conversion should not be included when calculating diluted EPS."
+        },
+        {
+          "type": "paragraph",
+          "text": "If this per share amount is less than basic EPS, the convertible debt is dilutive, and the effects of conversion should be included in the calculation of diluted EPS."
+        },
+        {
+          "type": "paragraph",
+          "text": "For YYY:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\mathfrak{S 70} , 000} {240 , 000}=\\mathfrak{S 0.29}",
+          "display": true,
+          "sourceAsset": "1d260d0f595acaec7f2f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The company’s basic EPS is $2.50, so the convertible debt is dilutive, and the effects of conversion should be included in the calculation of diluted EPS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock options and warrants are dilutive only when their exercise prices are less than the average market price of the stock over the year. If the options or warrants are dilutive, use the treasury stock method to calculate the number of shares used in the denominator:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The treasury stock method assumes that the funds received by the company from the exercise of the options would be used to hypothetically purchase shares of the company’s common stock in the market at the average market price. The net increase in the number of shares outstanding (the adjustment to the denominator) is the number of shares created by exercising the options less the number of shares hypothetically repurchased with the proceeds of exercise."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: EPS with stock options"
+        },
+        {
+          "type": "paragraph",
+          "text": "During 20X6, XXX Corp. reported earnings available to common shareholders of $1.2 million and had 500,000 shares of common stock outstanding for the entire year, for basic EPS of $2.40. XXX has 100,000 stock options outstanding the entire year. Each option allows its holder to purchase one share of common stock at $15 per share. The"
+        },
+        {
+          "type": "paragraph",
+          "text": "average market price of XXX’s common stock during 20X6 is $20 per share. Calculate diluted EPS."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Number of common shares created if the options are exercised = 100,000 Cash inflow if the options are exercised = $15 per share × 100,000 shares = $1,500,000 Number of shares that can be purchased with these funds = $1,500,000 / $20 = 75,000 shares Net increase in common shares outstanding from the exercise of the stock options = 100,000 − 75,000 = 25,000 shares"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt d i l u t e d E P S}={\\frac{{\\tt S 1} , 200 , 000} {500 , 000+25 , 000}}={\\tt S 2.29}",
+          "display": true,
+          "sourceAsset": "a58e4e90c264ce9245f9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A quick way to calculate the net increase in common shares from the potential exercise of stock options or warrants when the exercise price is less than the average market price is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\left[ \\frac{\\mathrm{AMP}-\\mathrm{EP}} {\\mathrm{AMP}} \\right] \\times\\mathrm{N}} \\\\ {\\mathrm{where:}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{AMP}}={\\mathrm{average~market~price~over~the~year}}} \\\\ {{\\mathrm{EP}} \\quad={\\mathrm{exercise~price~of~the~options~or~warrants}}} \\\\ {{\\mathrm{N}} \\quad={\\mathrm{number~of~common~shares~that~the~options~and~warrants~can~be}}} \\\\ {{\\mathrm{converted~into}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "e315de101ff544480a7f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For XXX:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\$20-\\$15} {\\$20} \\times100 , 000 \\mathrm{~shares}=25 {,} 000 \\mathrm{~shares}",
+          "display": true,
+          "sourceAsset": "b8cbeb41e4dbc8c1a484.png"
+        }
+      ]
+    },
+    {
+      "id": "28.5",
+      "title": "Ratios and Common-Size Income Statements",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "28.e",
+          "text": "How should we evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement?"
+        },
+        {
+          "type": "heading",
+          "text": "Common-Size Income Statements"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vertical common-size income statement expresses each category of the income statement as a percentage of revenue. The common-size format standardizes the income statement by eliminating the effects of size. This allows for comparison of income statement items over time (time-series analysis) and across firms (cross-sectional analysis). For example, the following are year-end income statements of industry competitors North Company and South Company:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/906b0829878cf9c4a3d6.png",
+          "alt": "Equation, table, or diagram: ime-series analysis) and across firms (cross-sectional analysis). For example, the following are year-end income statements of industry competitors North Company and South Company:",
+          "width": 424,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that North is significantly larger and more profitable than South when measured in absolute dollars. North’s gross profit is $22,500,000, as compared to South’s gross"
+        },
+        {
+          "type": "paragraph",
+          "text": "profit of $2,800,000. Similarly, North’s operating profit of $7,500,000 is significantly greater than South’s operating profit of $1,575,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once we convert the income statements to common-size format, we can see that South is the more profitable firm on a relative basis. South’s gross profit of 80% and operating profit of 45% are significantly greater than North’s gross profit of 30% and operating profit of 10%."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/df741b1ff136551718ef.png",
+          "alt": "Equation, table, or diagram: profitable firm on a relative basis. South’s gross profit of 80% and operating profit of 45% are significantly greater than North’s gross profit of 30% and operating profit of 10%.",
+          "width": 404,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Common-size analysis can also be used to examine a firm’s strategy. South’s higher gross profit margin may be the result of technologically superior products. Notice that South spends more on research than North on a relative basis. This may allow South to charge a higher price for its products."
+        },
+        {
+          "type": "paragraph",
+          "text": "In most cases, expressing expenses as a percentage of revenue is appropriate. One exception is income tax expense. Tax expense is more meaningful when expressed as a percentage of pretax income. The result is known as the effective tax rate."
+        },
+        {
+          "type": "heading",
+          "text": "Income Statement Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Margin ratios can be used to measure a firm’s profitability quickly. Gross profit margin is the ratio of gross profit (revenue minus cost of goods sold) to revenue (sales):"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{gross~profit~margin}}={\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}}",
+          "display": true,
+          "sourceAsset": "756e687969dae261a131.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross profit margin can be increased by raising prices or reducing production costs. A firm might be able to increase prices if its products can be differentiated from other firms’ products as a result of factors such as brand names, quality, technology, or patent protection. This was illustrated in the previous example whereby South’s gross profit margin was higher than North’s."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another popular margin ratio is net profit margin. Net profit margin is the ratio of net income to revenue:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{net~profit~margin}}={\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}",
+          "display": true,
+          "sourceAsset": "adff8ee09313eb07b811.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net profit margin measures the profit generated after considering all expenses. Like gross profit margin, net profit margin should be compared over time and with the firm’s industry peers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Any subtotal found in the income statement can be expressed as a percentage of revenue. For example, operating profit divided by revenue is known as operating profit"
+        },
+        {
+          "type": "paragraph",
+          "text": "margin. Pretax accounting profit divided by revenue is known as pretax margin."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "28.a",
+      "text": "What should we know about general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revenue is recognized when earned, and expenses are recognized when incurred."
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting standards identify a five-step process for recognizing revenue:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 1: Identify the contract(s) with a customer. Step 2: Identify the performance obligations in the contract. Step 3: Determine the transaction price. Step 4: Allocate the transaction price to the performance obligations in the contract. Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation. Information that can influence the choice of revenue recognition method includes progress toward completion of a performance obligation, variable considerations and their likelihood of being earned, revisions to contracts, and whether the firm is acting as a principal or an agent in a transaction."
+    },
+    {
+      "type": "question",
+      "objectiveId": "28.b",
+      "text": "What should we know about general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The matching principle requires that firms match revenues recognized in a period with the expenses required to generate them. One application of the matching principle is seen in accounting for inventory, with cost of goods sold as the cost of units sold from inventory that are included in current-period revenue. Other costs, such as depreciation of fixed assets or administrative overhead, are period costs, and they are taken without regard to revenues generated during the period."
+    },
+    {
+      "type": "paragraph",
+      "text": "With capitalization, the asset value is put on the balance sheet, and the cost is expensed through the income statement over the asset’s useful life through either depreciation or amortization. Compared to expensing, capitalization results in the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower expense and higher net income in period of acquisition, and higher expense (depreciation or amortization) and lower net income in each of the remaining years of the asset’s life Higher assets and equity"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower CFI and higher CFO because the cost of a capitalized asset is classified as an investing cash outflow"
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher ROE and ROA in the initial period, and lower ROE and ROA in subsequent periods because net income is lower and both assets and equity are higher"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower debt-to-assets and debt-to-equity ratios because assets and equity are higher"
+    },
+    {
+      "type": "paragraph",
+      "text": "Users of financial data should analyze the reasons for any changes in estimates of expenses and compare these estimates with those of peer companies."
+    },
+    {
+      "type": "question",
+      "objectiveId": "28.c",
+      "text": "What should we know about the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Results of discontinued operations are reported below income from continuing operations, net of tax, from the date the decision to dispose of the operations is made. These results are segregated because they likely are nonrecurring and do not affect future net income."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unusual or infrequent items are reported before tax and above income from continuing operations. An analyst should determine how “unusual” or “infrequent” these items really are for the company when estimating future earnings or firm value."
+    },
+    {
+      "type": "paragraph",
+      "text": "Changes in accounting standards, changes in accounting methods applied, and corrections of accounting errors require retrospective restatement of all prior-period financial statements included in the current statement. A change in an accounting estimate, however, is applied prospectively (to subsequent periods) with no restatement of prior-period results."
+    },
+    {
+      "type": "question",
+      "objectiveId": "28.d",
+      "text": "What should we know about how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities?"
+    },
+    {
+      "type": "math",
+      "latex": "{\\mathrm{basic~EPS}}={\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares~outstanding}}}",
+      "display": true,
+      "sourceAsset": "c27b6132f9bb5655d2c4.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "When a company has potentially dilutive securities, it must report diluted EPS. For any convertible preferred stock, convertible debt, warrants, or stock options that are dilutive, the calculation of diluted EPS is as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{diuted~EPS}=\\frac{\\left[ \\begin{matrix} {\\mathrm{net~income}-\\frac{\\mathrm{preferred}} {\\mathrm{dividends}}} \\\\ \\end{matrix} \\right]+\\left[ \\begin{matrix} {\\mathrm{convertible}} \\\\ {\\mathrm{preferred}} \\\\ {\\mathrm{dividends}} \\\\ \\end{matrix} \\right]+\\left( \\begin{matrix} {\\mathrm{convertible}} \\\\ {\\mathrm{debt}} \\\\ {\\mathrm{interest}} \\\\ \\end{matrix} \\right) ( 1-t )} {\\left( \\begin{matrix} {\\mathrm{weighted}} \\\\ {\\mathrm{average}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{isssuable~from}} \\\\ {\\mathrm{stock~options}} \\\\ \\end{matrix} \\right)}",
+      "display": true,
+      "sourceAsset": "0fdf4c386c02445a2eb3.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "A dilutive security is one that, if converted to its common stock equivalent, would decrease EPS. An antidilutive security is one that would not reduce EPS if converted to its common stock equivalent."
+    },
+    {
+      "type": "question",
+      "objectiveId": "28.e",
+      "text": "How should we evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A vertical common-size income statement expresses each item as a percentage of revenue. The common-size format standardizes the income statement by eliminating the effects of size. Common-size income statements are useful for trend analysis and for comparisons with peer firms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Two popular profitability ratios are gross profit margin (gross profit / revenue) and net profit margin (net income / revenue). A firm can often achieve higher profit margins by differentiating its products from the competition."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "28.a",
+      "statement": "Describe general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis.",
+      "question": "What should we know about general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis?"
+    },
+    {
+      "id": "28.b",
+      "statement": "Describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred.",
+      "question": "What should we know about general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred?"
+    },
+    {
+      "id": "28.c",
+      "statement": "Describe the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies.",
+      "question": "What should we know about the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies?"
+    },
+    {
+      "id": "28.d",
+      "statement": "Describe how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities.",
+      "question": "What should we know about how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities?"
+    },
+    {
+      "id": "28.e",
+      "statement": "Evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement.",
+      "question": "How should we evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-28-quiz-1",
+      "title": "Knowledge check 28.1",
+      "moduleId": "28.1",
+      "questions": [
+        {
+          "id": "r28-q1",
+          "number": 1,
+          "objectiveIds": [
+            "28.a"
+          ],
+          "prompt": "The first step in the revenue recognition process is to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "determine the price."
+            },
+            {
+              "id": "B",
+              "text": "identify the contract."
+            },
+            {
+              "id": "C",
+              "text": "identify the obligations."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The five steps in revenue recognition are as follows: Step 1: Identify the contract or contracts with the customer. Step 2: Identify the performance obligations in the contract(s). Step 3: Determine a transaction price. Step 4: Allocate the transaction price to the performance obligations. Step 5: Recognize revenue when (or as) the performance obligations have been satisfied.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The five steps in revenue recognition are as follows:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 1:   Identify the contract or contracts with the customer. Step 2:   Identify the performance obligations in the contract(s). Step 3:   Determine a transaction price. Step 4:   Allocate the transaction price to the performance obligations. Step 5:   Recognize revenue when (or as) the performance obligations have been satisfied."
+            }
+          ]
+        },
+        {
+          "id": "r28-q2",
+          "number": 2,
+          "objectiveIds": [
+            "28.a"
+          ],
+          "prompt": "A contractor agrees to build a bridge for a total price of $10 million. The project is expected to take four years to complete, at a total cost of $6.5 million. After Year 1, costs of $2.5 million have been incurred, and a further $1 million in costs are incurred in Year 2. The client pays $2 million in each of the first two years. The amount of revenue the contractor should recognize in Year 2 is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$1.54 million."
+            },
+            {
+              "id": "B",
+              "text": "$2.00 million."
+            },
+            {
+              "id": "C",
+              "text": "$5.38 million."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In Year 1, the contractor has incurred 38.5% ($2.5 million / $6.5 million) of expected total costs and should recognize 38.5% of total revenue ($10 million × 38.5% = $3.85 million). By the end of Year 2, a total of $3.5 million costs have been incurred, 53.8% of expected total costs. Cumulatively, by the end of Year 2, total revenue of 53.8% × $10 million = $5.38 million should have been recognized, leaving $1.53 million ($5.38 million − $3.85 million) to be recognized in Year 2. The amount paid by the client does not affect revenue.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In Year 1, the contractor has incurred 38.5% ($2.5 million / $6.5 million) of"
+            },
+            {
+              "type": "paragraph",
+              "text": "expected total costs and should recognize 38.5% of total revenue ($10 million × 38.5% = $3.85 million). By the end of Year 2, a total of $3.5 million costs have been incurred, 53.8% of expected total costs. Cumulatively, by the end of Year 2, total revenue of 53.8% × $10 million = $5.38 million should have been recognized, leaving $1.53 million ($5.38 million − $3.85 million) to be recognized in Year 2. The amount paid by the client does not affect revenue."
+            }
+          ]
+        },
+        {
+          "id": "r28-q3",
+          "number": 3,
+          "objectiveIds": [
+            "28.a"
+          ],
+          "prompt": "A realtor sells one of its client’s houses for $1.4 million, earning a commission of 3%. The costs to the realtor associated with the sale are $15,000. What is the realtor’s gross profit for this transaction?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$27,000."
+            },
+            {
+              "id": "B",
+              "text": "$42,000."
+            },
+            {
+              "id": "C",
+              "text": "$1,385,000."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The realtor is acting as an agent, and so should recognize only the commission as revenue. Revenue should therefore be: ($1.4 million × 3%) = $42,000. Gross profit will be $42,000 − $15,000 = $27,000.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The realtor is acting as an agent, and so should recognize only the commission as"
+            },
+            {
+              "type": "paragraph",
+              "text": "revenue. Revenue should therefore be: ($1.4 million × 3%) = $42,000. Gross profit will be $42,000 − $15,000 = $27,000."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-28-quiz-2",
+      "title": "Knowledge check 28.2",
+      "moduleId": "28.2",
+      "questions": [
+        {
+          "id": "r28-q4",
+          "number": 1,
+          "objectiveIds": [
+            "28.b"
+          ],
+          "prompt": "If a company purchases an asset with future economic benefits that are highly uncertain, the company should:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "expense the purchase."
+            },
+            {
+              "id": "B",
+              "text": "use straight-line depreciation."
+            },
+            {
+              "id": "C",
+              "text": "use an accelerated depreciation method."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "If the future economic benefits of a purchase are highly uncertain, a company should expense the purchase in the period it is incurred.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the future economic benefits of a purchase are highly uncertain, a company"
+            },
+            {
+              "type": "paragraph",
+              "text": "should expense the purchase in the period it is incurred."
+            }
+          ]
+        },
+        {
+          "id": "r28-q5",
+          "number": 2,
+          "objectiveIds": [
+            "28.b"
+          ],
+          "prompt": "Red Company immediately expenses its development costs, while Black Company capitalizes its development costs. All else equal, Red Company will:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "show smoother reported earnings than Black Company."
+            },
+            {
+              "id": "B",
+              "text": "report higher operating cash flow than Black Company."
+            },
+            {
+              "id": "C",
+              "text": "report higher asset turnover than Black Company."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "As compared to a firm that capitalizes its expenditures, a firm that immediately expenses expenditures will report lower assets. Thus, asset turnover (revenue / average assets) will be higher for the expensing firm (lower denominator).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "As compared to a firm that capitalizes its expenditures, a firm that immediately"
+            },
+            {
+              "type": "paragraph",
+              "text": "expenses expenditures will report lower assets. Thus, asset turnover (revenue / average assets) will be higher for the expensing firm (lower denominator)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-28-quiz-3",
+      "title": "Knowledge check 28.3",
+      "moduleId": "28.3",
+      "questions": [
+        {
+          "id": "r28-q6",
+          "number": 1,
+          "objectiveIds": [
+            "28.c"
+          ],
+          "prompt": "Changing an accounting estimate:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is reported prospectively."
+            },
+            {
+              "id": "B",
+              "text": "requires restatement of all prior-period statements presented in the current financial statements."
+            },
+            {
+              "id": "C",
+              "text": "is reported by adjusting the beginning balance of retained earnings for the cumulative effect of the change."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A change in an accounting estimate is reported prospectively. No restatement of prior-period statements is necessary.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A change in an accounting estimate is reported prospectively. No restatement of"
+            },
+            {
+              "type": "paragraph",
+              "text": "prior-period statements is necessary."
+            }
+          ]
+        },
+        {
+          "id": "r28-q7",
+          "number": 2,
+          "objectiveIds": [
+            "28.c"
+          ],
+          "prompt": "Which of the following transactions would most likely be reported below income from continuing operations, net of tax?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Gain or loss from the sale of equipment used in a firm’s manufacturing operation."
+            },
+            {
+              "id": "B",
+              "text": "A change from the accelerated method of depreciation to the straight-line method."
+            },
+            {
+              "id": "C",
+              "text": "The operating income of a physically and operationally distinct division that is currently for sale, but not yet sold."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A physically and operationally distinct division that is currently for sale is treated as a discontinued operation. The income from the division is reported net of tax below income from continuing operations. Gains and losses on sales of operating assets, as well as depreciation expense, are reported pretax, above income from continuing operations.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A physically and operationally distinct division that is currently for sale is treated"
+            },
+            {
+              "type": "paragraph",
+              "text": "as a discontinued operation. The income from the division is reported net of tax below income from continuing operations. Gains and losses on sales of operating assets, as well as depreciation expense, are reported pretax, above income from continuing operations."
+            }
+          ]
+        },
+        {
+          "id": "r28-q8",
+          "number": 3,
+          "objectiveIds": [
+            "28.c"
+          ],
+          "prompt": "Which of the following statements about nonrecurring items is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Discontinued operations are reported net of taxes, at the bottom of the income statement before net income."
+            },
+            {
+              "id": "B",
+              "text": "Unusual or infrequent items are reported before taxes, above net income from continuing operations."
+            },
+            {
+              "id": "C",
+              "text": "A change in accounting principle is reported in the income statement net of taxes, before net income."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A change in accounting principle requires retrospective application; that is, all prior-period financial statements currently presented are restated to reflect the change.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A change in accounting principle requires retrospective application; that is, all"
+            },
+            {
+              "type": "paragraph",
+              "text": "prior-period financial statements currently presented are restated to reflect the change."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-28-quiz-4",
+      "title": "Knowledge check 28.4",
+      "moduleId": "28.4",
+      "questions": [
+        {
+          "id": "r28-q9",
+          "number": 1,
+          "objectiveIds": [
+            "28.d"
+          ],
+          "prompt": "Hall Corp. had 100,000 shares of common stock outstanding at the beginning of the year. Hall issued 30,000 shares of common stock on May 1. On July 1, the company issued a 10% stock dividend. On September 1, Hall issued 1,000, 10% bonds, each convertible into 21 shares of common stock. What is the weighted average number of shares to be used in computing diluted EPS, assuming the convertible bonds are dilutive?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "132,000."
+            },
+            {
+              "id": "B",
+              "text": "139,000."
+            },
+            {
+              "id": "C",
+              "text": "146,000."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The new stock is weighted by 8 / 12. The bonds are weighted by 4 / 12 and are not affected by the stock dividend. basic shares = {[100,000 × (12 / 12)] + [30,000 × (8 / 12)]} × 1.10 = 132,000 diluted shares = 132,000 + [21,000 × (4 / 12)] = 139,000",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The new stock is weighted by 8 / 12. The bonds are weighted by 4 / 12 and are not"
+            },
+            {
+              "type": "paragraph",
+              "text": "affected by the stock dividend."
+            },
+            {
+              "type": "paragraph",
+              "text": "basic shares = {[100,000 × (12 / 12)] + [30,000 × (8 / 12)]} × 1.10 = 132,000 diluted shares = 132,000 + [21,000 × (4 / 12)] = 139,000"
+            }
+          ]
+        },
+        {
+          "id": "r28-q10",
+          "number": 2,
+          "objectiveIds": [
+            "28.d"
+          ],
+          "prompt": "An analyst has gathered the following information about a company: 300,000 shares outstanding 100,000 warrants exercisable at $50 per share Average share price: $55 Year-end share price: $60 How many shares should be used in computing diluted EPS?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "9,091."
+            },
+            {
+              "id": "B",
+              "text": "90,909."
+            },
+            {
+              "id": "C",
+              "text": "309,091."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Because the exercise price of the warrants is less than the average share price, the warrants are dilutive. Use the Treasury stock method to determine the denominator impact: Thus, the denominator will increase by 9,091 shares to 309,091 shares. The question asks for the total, not just the impact of the warrants.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because the exercise price of the warrants is less than the average share price, the"
+            },
+            {
+              "type": "paragraph",
+              "text": "warrants are dilutive. Use the Treasury stock method to determine the denominator impact:"
+            },
+            {
+              "type": "math",
+              "latex": "{\\frac{\\Im55-\\Im50} {\\Im55}} \\times100 , 000 {\\mathrm{~shares}}=9 , 091 {\\mathrm{~shares}}",
+              "display": true,
+              "sourceAsset": "2d90ef80d1c349bb04e1.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "Thus, the denominator will increase by 9,091 shares to 309,091 shares. The question asks for the total, not just the impact of the warrants."
+            }
+          ]
+        },
+        {
+          "id": "r28-q11",
+          "number": 3,
+          "objectiveIds": [
+            "28.d"
+          ],
+          "prompt": "An analyst has gathered the following information about a company: 100,000 common shares outstanding from the beginning of the year Earnings: $125,000 1,000, 7%, $1,000 par bonds convertible into 25 shares each, outstanding as of the beginning of the year Tax rate: 40% The company’s diluted EPS is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$1.22."
+            },
+            {
+              "id": "B",
+              "text": "$1.25."
+            },
+            {
+              "id": "C",
+              "text": "$1.34."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "First, calculate basic EPS: Next, check if the convertible bonds are dilutive: numerator impact = (1,000 × 1,000 × 0.07) × (1 − 0.4) = $42,000 denominator impact = (1,000 × 25) = 25,000 shares Because $1.68 is greater than the basic EPS of $1.25, the bonds are antidilutive. Thus, diluted EPS = basic EPS = $1.25.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "First, calculate basic EPS:"
+            },
+            {
+              "type": "math",
+              "latex": "\\frac{{\\mathsf{S 125}} , 000} {{\\mathsf{100}} , 000}={\\mathsf{S 1.25}}",
+              "display": true,
+              "sourceAsset": "8eeff91fc92e7c4451c5.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "Next, check if the convertible bonds are dilutive:"
+            },
+            {
+              "type": "paragraph",
+              "text": "numerator impact = (1,000 × 1,000 × 0.07) × (1 − 0.4) = $42,000"
+            },
+            {
+              "type": "paragraph",
+              "text": "denominator impact = (1,000 × 25) = 25,000 shares"
+            },
+            {
+              "type": "math",
+              "latex": "\\mathrm{per~share~impact~=} \\frac{\\$42 {,} 000} {25 {,} 000 {~} \\S h a r e s} {=} \\$1.68",
+              "display": true,
+              "sourceAsset": "68b5d18bf43d41e39779.png"
+            },
+            {
+              "type": "paragraph",
+              "text": "Because $1.68 is greater than the basic EPS of $1.25, the bonds are antidilutive. Thus, diluted EPS = basic EPS = $1.25."
+            }
+          ]
+        },
+        {
+          "id": "r28-q12",
+          "number": 4,
+          "objectiveIds": [
+            "28.d"
+          ],
+          "prompt": "An analyst has gathered the following information about a company: 50,000 common shares outstanding from the beginning of the year Warrants outstanding all year on 50,000 shares, exercisable at $20 per share Stock is selling at year-end for $25 Average price of the company’s stock for the year was $15 How many shares should be used in calculating the company’s diluted EPS?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "16,667."
+            },
+            {
+              "id": "B",
+              "text": "50,000."
+            },
+            {
+              "id": "C",
+              "text": "66,667."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The warrants, in this case, are antidilutive. The average price per share of $15 is less than the exercise price of $20. The year-end price per share is not relevant. The denominator consists of only the common stock for basic EPS.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The warrants, in this case, are antidilutive. The average price per share of $15 is"
+            },
+            {
+              "type": "paragraph",
+              "text": "less than the exercise price of $20. The year-end price per share is not relevant. The denominator consists of only the common stock for basic EPS."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-28-quiz-5",
+      "title": "Knowledge check 28.5",
+      "moduleId": "28.5",
+      "questions": [
+        {
+          "id": "r28-q13",
+          "number": 1,
+          "objectiveIds": [
+            "28.e"
+          ],
+          "prompt": "A vertical common-size income statement expresses each category of the income statement as a percentage of:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "assets."
+            },
+            {
+              "id": "B",
+              "text": "gross profit."
+            },
+            {
+              "id": "C",
+              "text": "revenue."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Each category of the income statement is expressed as a percentage of revenue (sales).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Each category of the income statement is expressed as a percentage of revenue"
+            },
+            {
+              "type": "paragraph",
+              "text": "(sales)."
+            }
+          ]
+        },
+        {
+          "id": "r28-q14",
+          "number": 2,
+          "objectiveIds": [
+            "28.e"
+          ],
+          "prompt": "Which of the following would most likely result in higher gross profit margin, assuming no fixed costs?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A 10% increase in the number of units sold."
+            },
+            {
+              "id": "B",
+              "text": "A 5% decrease in production cost per unit."
+            },
+            {
+              "id": "C",
+              "text": "A 7% decrease in administrative expenses."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A 5% decrease in per unit production cost will increase gross profit by reducing the cost of goods sold. Assuming no fixed costs, gross profit margin will remain the same if sale quantities increase. Administrative expenses are not included in gross profit margin.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A 5% decrease in per unit production cost will increase gross profit by reducing"
+            },
+            {
+              "type": "paragraph",
+              "text": "the cost of goods sold. Assuming no fixed costs, gross profit margin will remain the same if sale quantities increase. Administrative expenses are not included in gross profit margin."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

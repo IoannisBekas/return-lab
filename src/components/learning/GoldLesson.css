@@ -48,6 +48,7 @@
   padding: 28px 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--ink);
+  margin-bottom: 64px;
 }
 
 .gold-objectives > .section-code,
@@ -63,9 +64,6 @@
 }
 
 .gold-objectives li {
-  display: grid;
-  grid-template-columns: 54px minmax(0, 1fr);
-  gap: 15px;
   padding: 12px 0;
   border-top: 1px solid var(--line);
   line-height: 1.5;
@@ -74,60 +72,6 @@
 .gold-objectives li:first-child {
   padding-top: 0;
   border-top: 0;
-}
-
-.gold-objectives li strong {
-  color: var(--red);
-  font-family: var(--mono);
-  font-size: 12px;
-}
-
-.gold-sources {
-  margin: 20px 0 68px;
-  border: 1px solid var(--line);
-}
-
-.gold-sources summary {
-  padding: 16px 19px;
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.gold-sources ul {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1px;
-  margin: 0;
-  padding: 1px;
-  background: var(--line);
-  list-style: none;
-}
-
-.gold-sources li {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  padding: 15px;
-  background: var(--white);
-}
-
-.gold-sources li strong {
-  font-size: 13px;
-}
-
-.gold-sources li span,
-.gold-sources > p {
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.45;
-}
-
-.gold-sources > p {
-  margin: 0;
-  padding: 16px 19px;
 }
 
 .gold-learning-map {
@@ -516,6 +460,7 @@
 
 .gold-assessments {
   margin-top: clamp(80px, 11vw, 140px);
+  scroll-margin-top: 100px;
 }
 
 .gold-assessments > header {
@@ -684,7 +629,6 @@
     grid-template-columns: 1fr;
   }
 
-  .gold-sources ul,
   .gold-misconceptions > div,
   .gold-decision-case .gold-case-grid {
     grid-template-columns: 1fr;

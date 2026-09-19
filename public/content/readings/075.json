@@ -1,0 +1,546 @@
+{
+  "readingId": 75,
+  "title": "Valuing a Derivative Using a One-Period Binomial Model",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "75.1",
+      "title": "Binomial Model for Option Values",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "75.a",
+          "text": "How can we explain how to value a derivative using a one-period binomial model?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from Quantitative Methods that a binomial model is based on the idea that, over the next period, some value will change to one of two possible values (binomial). To construct a one-period binomial model for pricing an option, we need:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A value for the underlying at the beginning of the period. An exercise price for the option. The exercise price can be different from the value of the underlying. We assume the option expires one period from now. Returns that will result from an up-move and a down-move in the value of the underlying over one period."
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk-free rate over the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "For now, we do not need to consider the probabilities of an up-move or a down-move. Later in this reading we will examine one-period binomial models with risk-neutral probabilities."
+        },
+        {
+          "type": "heading",
+          "text": "One-Period Binomial Model for a Call Option"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {A s \\mathrm{~an~example,we~can~model~a~call~option~with~an~exercise~price~of~855~on~a~stock~that~}} \\\\ {\\mathrm{~is~currently~valued~(S_0)~at~850,~Let~us~assume~that~in~one~pertiod~the~stock's~value~will~}} \\\\ {\\mathrm{~ e i t h e r ~ i n c r e a s e ~ ( S_{l}^0 ) ~ t o ~ 860 ~ o r ~ d e c r e a s e ~ ( S_{l}^0 ) ~ t o ~ 842 , ~ W e ~ s t a t e ~ t h e ~ r e t u r n ~ f r o m ~ a n ~ u p-m o v e ~ ( S^0 ) ~ a n d ~}} \\\\ {\\mathrm{~(R^0)~as~860~/~850=1.20,~and~the~return~from~a~down-move~(R^d)~as~842~/~850=0.84.}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "046edb488fbec717e92a.png",
+          "prose": "As an example, we can model a call option with an exercise price of $55 on a stock that is currently valued (S0) at $50. Let us assume that in one period the stock’s value will either increase to $60 or decrease to $42. We state the return from an up-move (Ru) as $60 / $50 = 1.20, and the return from a down-move (Rd) as $42 / $50 = 0.84."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 75.1: One-Period Binomial Tree"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/200010cf420acffe0c43.png",
+          "alt": "Equation, table, or diagram: Figure 75.1: One-Period Binomial Tree",
+          "width": 223,
+          "height": 103,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{The~call~option~will~be~in~the~money~after~an~up-move~or~out~of~the~money~after~an~up~-move~of~the~money~after~an~up~-move~}} \\\\ {\\mathrm{down-move.~Its~value~at~expiration~after~an~up-move,~c_1^n~is~Max} ( 0 , . \\mathtt{S 60-S 55} )=\\mathtt{S 5. I t s ~ a n d e ~ o f ~ a n d ~ o n ~ u p ~-s i m o v e .}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "e5a28a11d341b77a5e29.png",
+          "prose": "The call option will be in the money after an up-move or out of the money after a down-move. Its value at expiration after an up-move, is Max(0, $60 – $55) = $5. Its"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{value~after~a~down-move} , c_{1}^{d} \\mathrm{~is~Max} \\{0 , {\\mathbb S 42}-{\\mathbb S 55} \\}=0.",
+          "display": true,
+          "sourceAsset": "7031d0f4fd277ce9a3f9.png",
+          "prose": "value after a down-move, is Max(0, $42 – $55) = 0."
+        },
+        {
+          "type": "math",
+          "latex": "hS_1^u-c_1^u=hS_1^d-c_1^d",
+          "display": true,
+          "sourceAsset": "9c18dc208c7a2ef8e227.png",
+          "prose": "Now we can use no-arbitrage pricing to determine the initial value of the call option (c0). We do this by creating a portfolio of the option and the underlying stock, such that the portfolio will have the same value following either an up-move ( ) or a down- move ( ) in the stock. To value a call option, we create a portfolio that is short a call (i.e., the call writer) and long a number of shares of the stock that we will denote as h. We must solve for the h that results in ."
+        },
+        {
+          "type": "paragraph",
+          "text": "The initial value of our portfolio, V0, is hS0 – c0 (remember we are short the call option)."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~portfolio~value~after~an~up-move,V^u_1,is~hS_1^u-c_1^u~.}",
+          "display": true,
+          "sourceAsset": "650cdce7825cb68ea376.png",
+          "prose": "The portfolio value after an up-move,"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{T h e ~ p o r t f o l i o ~ v a l u e ~ a f t e r ~ a ~ d o w n-m o v e , V_1^{d} , i s ~ h S_1^{d}-c_1^{d} .}",
+          "display": true,
+          "sourceAsset": "a5e2a0881720336dc878.png",
+          "prose": "The portfolio value after a down-move,"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{I n ~ o u r ~ e x a m p l e , V^u_1=h ( \\Im60 )-\\Re5 , ~ a n d ~ V^d_1=h ( \\Im42 )-0_{1} ~ S e t t i n g ~ V^u_1=V^d_{1} ~ a n d ~ s o l v i n g ~ f o r ~} h ,}} \\\\ {{\\mathrm{we~get} :}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "3db96982ae6fb053b7eb.png",
+          "prose": "In our example, and . Setting and solving for h, we get:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\operatorname{h} ( \\$60 )-\\$5=\\operatorname{h} ( \\$42 )} \\\\ {\\operatorname{h} ( \\$60 )-\\operatorname{h} ( \\$42 )=\\$5} \\\\ {\\operatorname{h}=\\$5 / \\left( \\$60-\\$42 \\right)=0.278} \\end{array}",
+          "display": true,
+          "sourceAsset": "02b34dc04cfc04febe2a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This result, the number of shares of the underlying we would buy for each call option we would write, is known as the hedge ratio for this option."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{With~V_1^u=V_1^a,the~value~of~the~portfolio~after~one~period~is~known~with~certainty,~This~of~2~}} \\\\ {\\mathrm{means~we~can~say~that~either~V_1^u~or~V_1^a~must~equal~V_0~compounded~at~the~risk-free~rate~pounde,~of~2~}} \\\\ {\\mathrm{for~one~period.~In~this~example,~V_1^d=0.278(342)=311.68,~or~V_1^u~=0.278(560)-85=811.687,~or~V_1~}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "3b7c93cc5ce6bd6a5380.png",
+          "prose": "With the value of the portfolio after one period is known with certainty. This means we can say that either must equal V0 compounded at the risk-free rate for one period. In this example, or"
+        },
+        {
+          "type": "paragraph",
+          "text": ". Let us assume the risk-free rate over one period is 3%. Then V0 = $11.68 / 1.03 = $11.34."
+        },
+        {
+          "type": "paragraph",
+          "text": "Now we can solve for the value of the call option, c0. Recall that V0 = hS0 – c0, so c0 = hS0 – V0. Here, c0 = 0.278($50) – $11.34 = $2.56."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "When we “create a portfolio” to construct this model, we do not assume any cash has changed hands to buy the underlying or sell the call. We simply assume a portfolio exists that is made up of these positions."
+        },
+        {
+          "type": "heading",
+          "text": "One-Period Binomial Model for a Put Option"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can model a put option using the same technique. The key difference is that the model portfolio consists of long positions in both a put and the underlying stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example, using the same assumptions that the stock is currently valued at $50, and in one period its value will either increase to $60 (for a return of 1.20) or decrease to $42 (for a return of 0.84), we can value a put option with an exercise price of $48."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{The~put~option~will~be~in~the~money~after~a~down-move~or~out~of~the~money~after~an~up-move,}} \\\\ {\\mathrm{move.~Its~value~at~expiration~after~a~down-move,~p_1^4,~is~Max} ( 0 , \\$48-\\$42 )=\\$6. \\mathrm{~ I t s ~ v a l u e n-m o v e , ~ p^4 ~ , ~ i s ~ m o v e , ~ p^4 ~ , ~ i s ~ m o v e , ~ p^4 ~ , ~ p^4 ~ , ~ i s ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^{4 ~}}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6094e1284eeec6466339.png",
+          "prose": "The put option will be in the money after a down-move or out of the money after an up- move. Its value at expiration after a down-move, is Max(0, $48 – $42) = $6. Its value after an up-move, is Max(0, $48 – $60) = 0."
+        },
+        {
+          "type": "math",
+          "latex": "V_1^u=V_1^d",
+          "display": true,
+          "sourceAsset": "8fdd8d088399b17f3ab8.png",
+          "prose": "Again we want to find the hedge ratio h, the number of shares at which our portfolio has the same value after an up-move or a down-move, ."
+        },
+        {
+          "type": "paragraph",
+          "text": "The initial value of our portfolio, V0, is hS0 + p0 (remember we are long the put)."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\mathrm{The~portfolio~value~after~an~up-move,V^u_1,is~h~S^u_1+p^u_1.}} \\\\ {} & {{} \\mathrm{The~portfolio~value~after~a~down-move,V^d_1,is~h~S^d_1+p^d_1.}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "d89cd69aec2f738b6420.png",
+          "prose": "The portfolio value after an up-move, . The portfolio value after a down-move, ."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{Setting~V_1^u~=~V_1^d,~we~get:}",
+          "display": true,
+          "sourceAsset": "911feaddd92bd425e804.png",
+          "prose": "Setting we get:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\operatorname{h} ( \\$60 )=\\operatorname{h} ( \\$42 )+\\$6} \\\\ {} & {{} \\operatorname{h} ( \\$60 )-\\operatorname{h} ( \\$42 )=\\$6} \\\\ {} & {{} \\operatorname{h}=\\$6 \\ / \\ ( \\$60-\\$42 )=0.333} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "b7dc257e8cfd2032a008.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "As before, we can determine the value of the portfolio one period from now using either"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V_{1}^{u} ~ o r ~ V_{1}^{d} ~ b e c a u s e ~ t h e y ~ w i l l ~ b e ~ e q u a l :}",
+          "display": true,
+          "sourceAsset": "80cd4f684d862db52ca6.png",
+          "prose": "or because they will be equal:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\bf V_{1}^{n}}=0.333 ( \\$60 )=\\$20 , \\, \\mathrm{o r ~ V_{1}^{d}=0.333 ( \\$42 )+\\$6=\\$20}",
+          "display": true,
+          "sourceAsset": "09ebe23995642d4ed195.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Discounting this value to t = 0 at the risk-free rate of 3% gives us:"
+        },
+        {
+          "type": "paragraph",
+          "text": "V0 = $20 / 1.03 = $19.42"
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally we can solve for p0, the value of the put option:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {{\\mathrm{V}_{0}=\\mathrm{h} \\mathrm{S}_{0}+\\mathrm{p}_{0} , \\, \\mathrm{so} \\, \\mathrm{p}_{0}=\\mathrm{V}_{0}-\\mathrm{h} \\mathrm{S}_{0}}} \\\\ {{\\mathrm{p}_{0}=\\mathrm{tt~S1} 9.42-0.333 ( \\mathrm{S} 50 )=\\mathrm{tt~S2.75}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "1a11312e2f6408b1206f.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "75.b",
+          "text": "What should we know about the concept of risk neutrality in derivatives pricing?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another approach to constructing a one-period binomial model involves risk-neutral probabilities of an up-move or a down-move. Consider a share of stock currently priced at $30. The size of the possible price changes, and the probabilities of these changes occurring, are as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nR^u=1.15,\\quad R^d=\\frac1{R^u}=\\frac1{1.15}=0.87\\\\\n\\pi_U=0.715,\\qquad \\pi_D=1-\\pi_U=0.285\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "774b223e12fe8bfbd689.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the down-move factor is the reciprocal of the up-move factor, and the probability of an up-move is one minus the probability of a down-move. The one-period binomial tree for the stock is shown in Figure 75.2. The beginning stock value of $30 is to the left, and to the right are the two possible end-of-period stock values, 30 × 1.15 = $34.50 and 30 × 0.87 = $26.10."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 75.2: One-Period Binomial Tree"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/4c7ec7163d19385257e8.png",
+          "alt": "Equation, table, or diagram: Figure 75.2: One-Period Binomial Tree",
+          "width": 257,
+          "height": 103,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk-neutral probabilities of an up-move and a down-move are calculated from the sizes of the moves and the risk-free rate:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\pi_{\\mathrm{{U}}}=\\mathrm{risk\\!-\\!neutral~probability~of~an~up\\!-\\!move}=\\frac{1+\\mathrm{{R f}}-\\mathrm{{R}^{d}}} {\\mathrm{{R}^{u}-{R^{d}}}}}} \\\\ {{\\pi_{\\mathrm{{D}}}=\\mathrm{risk\\!-\\!neutral~probability~of~a~down\\!-\\!move}=1-\\pi_{\\mathrm{{U}}}}} \\\\ {{\\mathrm{where} ;}} \\end{array}\\\\[6pt]\\begin{array} {r l} {\\mathrm{Rf}} & {{}=\\mathrm{risk-free~rate}} \\\\ {\\mathrm{R^{a}}} & {{}=\\mathrm{size~of~an~up-move}} \\\\ {\\mathrm{R^{d}}} & {{}=\\mathrm{size~of~a~dowp-move}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "bdb9a8eef7baa5bd9f42.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "These two probabilities are not the actual probabilities of the up- and down-moves. They are risk-neutral pseudo probabilities. The calculation of risk-neutral probabilities does not appear to be required for the Level I exam."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can calculate the value of an option on the stock by:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculating the payoffs of the option at expiration for the up-move and down-move prices. Calculating the expected payoff of the option in one year as the (risk-neutral) probability-weighted average of the up-move and down-move payoffs. Calculating the PV of the expected payoff by discounting at the risk-free rate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating call option value with risk-neutral probabilities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the binomial tree in Figure 75.2 to calculate the value today of a 1-year call option on a stock with an exercise price of $30. Assume the risk-free rate is 7%, the current value of the stock is $30, and the up-move factor is 1.15."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we need to calculate the down-move factor and risk-neutral the probabilities of the up- and down-moves:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathbb{R^{d}}} & {{}=\\mathrm{size~of~down-move}=\\frac{1} {\\mathbb{R^{d}}}=\\frac{1} {1.15}=0.87} \\\\ {\\pi_{\\mathbb{U}}} & {{}=\\mathrm{risk-neutral~probability~of~an~up-move}=\\frac{1+0.07-0.87} {1.15-0.87}=0.715} \\\\ {\\pi_{\\mathbb{D}}} & {{}=\\mathrm{risk~neutral~probability~of~a~down-move}=1-0.715-0.285} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "c8c49ab997a716adec4d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Next, determine the payoffs on the option in each state. If the stock moves up to $34.50, a call option with an exercise price of $30 will pay $4.50. If the stock moves"
+        },
+        {
+          "type": "paragraph",
+          "text": "down to $26.10, the call option will expire worthless. The option payoffs are illustrated in the following figure."
+        },
+        {
+          "type": "math",
+          "latex": "S_1^u,\\ S_1^d,\\ c_1^u,\\ c_1^d",
+          "display": true,
+          "sourceAsset": "6a1305d8ab02dc34c62d.png",
+          "prose": "Let the stock values for the up-move and down-move be and and for the call values, and ."
+        },
+        {
+          "type": "heading",
+          "text": "One-Period Call Option With X = $30"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected value of the option in one period is:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/673044e17d4a0215e36e.png",
+          "alt": "Equation, table, or diagram: The expected value of the option in one period is:",
+          "width": 358,
+          "height": 126,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(call option value in 1 year) = ($4.50 × 0.715) + ($0 × 0.285) = $3.22"
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of the option today, discounted at the risk-free rate of 7%, is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{C}_{0}={\\frac{\\$3.22} {1.07}}=\\$3.01",
+          "display": true,
+          "sourceAsset": "1ea1736a0da9b6ee09c7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use the same basic framework to value a one-period put option. The only difference is that the payoff to the put option will be different from the call payoffs."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Valuing a one-period put option on a stock"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the information in the previous example to calculate the value of a put option on the stock with an exercise price of $30."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the stock moves up to $34.50, a put option with an exercise price of $30 will expire worthless. If the stock moves down to $26.10, the put option will be worth $3.90."
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk-neutral probabilities are 0.715 and 0.285 for an up- and down-move, respectively. The expected value of the put option in one period is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(put option value in 1 year) = ($0 × 0.715) + ($3.90 × 0.285) = $1.11"
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of the option today, discounted at the risk-free rate of 7%, is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{p_{0}=} \\frac{\\$1.11} {1.07}=\\$1.04",
+          "display": true,
+          "sourceAsset": "becab8808afd0f6196d4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, we would construct a binomial model with many short periods and have many possible outcomes at expiration. However, the one-period model is sufficient to illustrate the concept and method."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the actual probabilities of an up-move and a down-move do not enter directly into our calculation of option value. The size of the up-move and down-move, along with the risk-free rate, determines the risk-neutral probabilities we use to calculate the"
+        },
+        {
+          "type": "paragraph",
+          "text": "expected payoff at option expiration. Remember, the risk-neutral probabilities come from constructing a hedge that creates a certain payoff. Because their calculation is based on an arbitrage relationship, we can discount the expected payoff based on risk-neutral probabilities, using the risk-free rate."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "75.a",
+      "text": "How can we explain how to value a derivative using a one-period binomial model?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A one-period binomial model for pricing an option requires the underlying asset’s value at the beginning of the period, an exercise price for the option, the asset prices that will result from an up-move and a down-move, and the risk-free rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "A portfolio of the underlying asset hedged with a position in an option can be created such that the portfolio has the same value for both an up-move and a down-move. Because the portfolio’s value at the end of the period is certain, that value must be the portfolio’s initial value compounded at the risk-free rate. The number of units of the underlying required to construct such portfolios is the hedge ratio."
+    },
+    {
+      "type": "question",
+      "objectiveId": "75.b",
+      "text": "What should we know about the concept of risk neutrality in derivatives pricing?"
+    },
+    {
+      "type": "paragraph",
+      "text": "To determine the value of an option using the concept of risk neutrality, we calculate its payoffs for both an up-move and a down-move, calculate the expected payoff as a weighted average using the risk-neutral probabilities of an up-move and a down-move, and discount this expected payoff for one period at the risk-free rate."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "75.a",
+      "statement": "Explain how to value a derivative using a one-period binomial model.",
+      "question": "How can we explain how to value a derivative using a one-period binomial model?"
+    },
+    {
+      "id": "75.b",
+      "statement": "Describe the concept of risk neutrality in derivatives pricing.",
+      "question": "What should we know about the concept of risk neutrality in derivatives pricing?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-75-quiz-1",
+      "title": "Knowledge check 75.1",
+      "moduleId": "75.1",
+      "questions": [
+        {
+          "id": "r75-q1",
+          "number": 1,
+          "objectiveIds": [
+            "75.a"
+          ],
+          "prompt": "To construct a one-period binomial model for valuing an option, are probabilities of an up-move or a down-move in the underlying price required?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "No."
+            },
+            {
+              "id": "B",
+              "text": "Yes, but they can be calculated from the returns on an up-move and a down-move."
+            },
+            {
+              "id": "C",
+              "text": "Yes, the model requires estimates for the actual probabilities of an up-move and a down-move."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A one-period binomial model can be constructed based on replication and no- arbitrage pricing, without regard to the probabilities of an up-move or a down-move.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A one-period binomial model can be constructed based on replication and no-"
+            },
+            {
+              "type": "paragraph",
+              "text": "arbitrage pricing, without regard to the probabilities of an up-move or a down-move."
+            }
+          ]
+        },
+        {
+          "id": "r75-q2",
+          "number": 2,
+          "objectiveIds": [
+            "75.b"
+          ],
+          "prompt": "In a one-period binomial model based on risk neutrality, the value of an option is best described as the present value of:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a probability-weighted average of two possible outcomes."
+            },
+            {
+              "id": "B",
+              "text": "a probability-weighted average of a chosen number of possible outcomes."
+            },
+            {
+              "id": "C",
+              "text": "one of two possible outcomes based on a chosen size of increase or decrease."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In a one-period binomial model based on risk-neutral probabilities, the value of an option is the present value of a probability-weighted average of two possible option payoffs at the end of a single period, during which the price of the underlying asset is assumed to move either up or down to specific values.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a one-period binomial model based on risk-neutral probabilities, the value of an"
+            },
+            {
+              "type": "paragraph",
+              "text": "option is the present value of a probability-weighted average of two possible option payoffs at the end of a single period, during which the price of the underlying asset is assumed to move either up or down to specific values."
+            }
+          ]
+        },
+        {
+          "id": "r75-q3",
+          "number": 3,
+          "objectiveIds": [
+            "75.b"
+          ],
+          "prompt": "A one-period binomial model for option pricing uses risk-neutral probabilities because:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the model is based on a no-arbitrage relationship."
+            },
+            {
+              "id": "B",
+              "text": "they are unbiased estimators of the actual probabilities."
+            },
+            {
+              "id": "C",
+              "text": "the buyer can let an out-of-the-money option expire unexercised."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Because a one-period binomial model is based on a no-arbitrage relationship, we can discount the expected payoff at the risk-free rate.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because a one-period binomial model is based on a no-arbitrage relationship, we"
+            },
+            {
+              "type": "paragraph",
+              "text": "can discount the expected payoff at the risk-free rate."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

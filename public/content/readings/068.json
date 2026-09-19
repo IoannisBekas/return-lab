@@ -1,0 +1,311 @@
+{
+  "readingId": 68,
+  "title": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "68.1",
+      "title": "Uses, Benefits, and Risks of Derivatives",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "68.a",
+          "text": "What should we know about benefits and risks of derivative instruments?"
+        },
+        {
+          "type": "heading",
+          "text": "Advantages of Derivatives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivative instruments offer several potential advantages over cash market transactions, including the following:"
+        },
+        {
+          "type": "heading",
+          "text": "Ability to Change Risk Allocation, Transfer Risk, and Manage Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have discussed these benefits in our introduction to derivative contracts. Some examples of ways that risk exposures can be altered using derivatives, without any cash market securities transactions, are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A portfolio manager can increase or decrease exposure to the risk and return of a market index. A manufacturer can hedge the exchange rate risk of anticipated receipts or payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "The issuer of a floating-rate note can change that exposure to a fixed-rate obligation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivative instruments can be used to create risk exposures that are not available in cash markets. Consider the following examples of changing an existing risk profile:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The owner of common stock can buy puts that act as a floor on the sale price of their shares, reducing the downside risk of the stock by paying the cost of the puts. An investor can acquire the upside potential of an asset without taking on its downside risk by buying call options."
+        },
+        {
+          "type": "heading",
+          "text": "Information Discovery"
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivatives prices and trading provide information that cash market transactions do not."
+        },
+        {
+          "type": "paragraph",
+          "text": "Options prices depend on many things we can observe (interest rates, price of the underlying, time to expiration, and exercise price) and one we cannot, the expected future price volatility of the underlying. We can use values of the observable variables, together with current market prices of derivatives, to estimate the future price volatility of the underlying that market participants expect."
+        },
+        {
+          "type": "paragraph",
+          "text": "Futures and forwards can be used to estimate expected prices of their underlying assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest rate futures across maturities can be used to infer expected future interest rates and even the number of central bank interest rate changes over a future period."
+        },
+        {
+          "type": "heading",
+          "text": "Operational Advantages"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to cash markets, derivatives markets have several operational advantages. Operational advantages of derivatives include greater ease of short selling, lower transaction costs, greater potential leverage, and greater liquidity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ease of short sales. Taking a short position in an asset by selling a forward or a futures contract may be easy to do. Difficulty in borrowing an asset and restrictions on short sales may make short positions in underlying assets problematic or more expensive. Lower transaction costs. Transaction costs can be significantly lower with commodities derivatives, where transportation, storage, and insurance add costs to transactions in physical commodities. Entering a fixed-for-floating swap to change a floating-rate exposure to fixed rate is clearly less costly than retiring a floating-rate note and issuing a fixed-rate note. Greater leverage. The cash required to take a position in derivatives is typically much less than for an equivalent exposure in the cash markets. Greater liquidity. The low cash requirement for derivatives transactions makes very large transactions easier to handle."
+        },
+        {
+          "type": "heading",
+          "text": "Improved Market Efficiency"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low transaction costs, greater liquidity and leverage, and ease of short sales all make it less costly to exploit securities mispricing through derivatives transactions and improve the efficiency of market prices."
+        },
+        {
+          "type": "heading",
+          "text": "Risks of Derivatives"
+        },
+        {
+          "type": "heading",
+          "text": "Implicit Leverage"
+        },
+        {
+          "type": "paragraph",
+          "text": "The implicit leverage in derivatives contracts gives them much more risk than their cash market equivalents. Just as we have shown regarding the leverage of an equity investment on margin, a lower cash requirement to enter a trade increases leverage. Futures margins, according to the CME Group, are typically in the 3% to 12% range, indicating leverage of 8:1 to 33:1. With required cash margin of 4%, a 1% decrease in the futures price decreases the cash margin by 25%."
+        },
+        {
+          "type": "paragraph",
+          "text": "A lack of transparency in derivatives contracts and securities that combine derivative and cash market exposures (structured securities) may lead to situations in which the purchasers do not well understand the risks of derivatives or securities with embedded derivatives."
+        },
+        {
+          "type": "heading",
+          "text": "Basis Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Basis risk arises when the underlying of a derivative differs from a position being hedged with the derivative. For a manager with a portfolio of 50 large-cap U.S. stocks,"
+        },
+        {
+          "type": "paragraph",
+          "text": "selling a forward with the S&P 500 Index as the underlying (in an amount equal to the portfolio value) would hedge portfolio risk, but would not eliminate it because of the possibility that returns on the portfolio and returns on the index may differ over the life of the forward. Basis risk also arises in a situation where an investor’s horizon and the settlement date of the hedging derivative differ, such as hedging the value of a corn harvest that will occur on September 15 by selling corn futures that settle on October\n1. Again the hedge may be effective but will not be perfect, and the corn producer is said to have basis risk."
+        },
+        {
+          "type": "heading",
+          "text": "Liquidity Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Derivative instruments have a special type of liquidity risk when the cash flows from a derivatives hedge do not match the cash flows of the investor positions. As an example, consider a farmer who sells wheat futures to hedge the value of her wheat harvest. If the future price of wheat increases, losses on the short position essentially offset the extra income from the higher price that will come at harvest (as intended with a hedge), but these losses may also cause the farmer to get margin calls during the life of the contract. If the farmer does not have the cash (liquidity) to meet the margin calls, the position will be closed out and the value of the hedge will be lost."
+        },
+        {
+          "type": "heading",
+          "text": "Counterparty Credit Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have discussed counterparty credit risk previously. Here we note additionally that different derivatives and positions have important differences in the existence or amount of counterparty risk. The seller of an option faces no counterparty credit risk; once the seller receives the option premium there is no circumstance in which the seller will be owed more at settlement. On the other hand, the buyer of an option will be owed money at settlement if the option is in the money; thus, the buyer faces counterparty credit risk. In contrast, both the buyer and seller of a forward on an underlying asset may face counterparty credit risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "In futures markets the deposit of initial margin, the daily mark-to-market, and the guarantee of the central clearinghouse all reduce counterparty risk. With forwards there may be no guarantees, or the terms of the forward contract may specify margin deposits, a periodic mark-to-market, and a central clearing party to mitigate credit risk."
+        },
+        {
+          "type": "heading",
+          "text": "Systemic Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Widespread impact on financial markets and institutions may arise from excessive speculation using derivative instruments. Market regulators attempt to reduce systemic risk though regulation, for example the central clearing requirement for swap markets to reduce counterparty credit risk."
+        },
+        {
+          "type": "question",
+          "objectiveId": "68.b",
+          "text": "How can we compare the use of derivatives among issuers and investors?"
+        },
+        {
+          "type": "heading",
+          "text": "Derivatives Use by Issuers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Corporate users of derivative instruments are considered issuers of derivatives. A non-financial corporation may have risks associated with changes in asset and liability"
+        },
+        {
+          "type": "paragraph",
+          "text": "values as well as earnings volatility from changes in various underlying securities or interest rates. Some examples are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A corporation may have income in a foreign currency and hedge the exchange rate risk with forwards to smooth earnings reported in their domestic currency. A corporation may use fair value reporting for its fixed-rate debt, and that value changes as interest rates change. By entering an interest rate swap as the floating-rate payer, the corporation has essentially converted the fixed-rate liability to a floating-rate liability that has much lower duration so that its balance sheet value is less sensitive to changes in interest rates. A corporation with a commodity-like product may carry its inventory at fair market value, leading to fluctuations in the value reported on the balance sheet over time as the market price of their product changes. By selling forward contracts on an underlying that matches well with their product, the firm will have gains or losses on the forwards that offset decreases or increases in reported inventory value. With the market value of the forward position also reported on the balance sheet, total assets will have less variation from changes in the market price of their product."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting rules may permit hedge accounting. Hedge accounting allows firms to recognize the gains and losses of qualifying derivative hedges at the same time they recognize the corresponding changes in the values of assets or liabilities being hedged. Issuer hedges against the effects of a changing price or value of a derivative’s underlying are classified by their purpose."
+        },
+        {
+          "type": "paragraph",
+          "text": "A hedge of the domestic currency value of future receipts in a foreign currency using forwards is termed a cash flow hedge. A swap that converts a floating-rate liability to a fixed-rate liability is also considered a cash flow hedge (cash flows for interest payments are more certain). A fair value hedge is one that reduces (offsets) changes in the values of the firm’s assets or liabilities. Our examples of a firm that uses derivatives to hedge against changes in the balance sheet value of its inventory, and a firm that uses an interest rate swap to decrease the volatility of debt values on its balance sheet, are considered fair value hedges. A net investment hedge is one that reduces the volatility of the value of the equity of a company’s foreign subsidiary reported on its balance sheet. Foreign currency forwards or futures can be used to hedge changes in the reported value of the subsidiary’s equity due to changes in exchange rates."
+        },
+        {
+          "type": "heading",
+          "text": "Derivatives Use by Investors"
+        },
+        {
+          "type": "paragraph",
+          "text": "As we have seen, investors can hedge, modify, or increase their exposure to the risk of an underlying asset or interest rate with derivatives positions, either forward commitments or contingent claims. Some examples are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "An investor can buy silver forwards to gain exposure to the price of silver, with no or low funds initially required. An investor can increase the duration of their bond portfolio by entering an interest rate swap as the floating-rate payer/fixed-rate receiver, which is similar to issuing floating-rate debt and buying a fixed-rate bond with the proceeds."
+        },
+        {
+          "type": "paragraph",
+          "text": "An equity portfolio manager can modify their market risk exposure temporarily at low cost, increasing it by buying equity index futures or decreasing it by selling equity index futures. Alternatively, the portfolio manager could decrease downside risk and preserve upside potential by buying puts on an equity index."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "68.a",
+      "text": "What should we know about benefits and risks of derivative instruments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantages of derivatives include the ability to change or transfer risk; information discovery about the expected prices or volatility of underlying assets or interest rates; operational advantages such as ease of short sales, low transaction costs, and greater leverage and liquidity; and improved market efficiency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Risks of derivatives include implicit leverage, basis risk from inexact hedges, liquidity risk from required cash flows, counterparty credit risk, and systemic risk for financial markets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "68.b",
+      "text": "How can we compare the use of derivatives among issuers and investors?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Derivatives uses by issuers include managing risks associated with changes in asset and liability values as well as earnings volatility from changes in various underlying securities or interest rates."
+    },
+    {
+      "type": "paragraph",
+      "text": "Derivatives uses by investors include hedging, modifying, or increasing their exposure to the risk of an underlying asset or interest rate."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "68.a",
+      "statement": "Describe benefits and risks of derivative instruments.",
+      "question": "What should we know about benefits and risks of derivative instruments?"
+    },
+    {
+      "id": "68.b",
+      "statement": "Compare the use of derivatives among issuers and investors.",
+      "question": "How can we compare the use of derivatives among issuers and investors?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-68-quiz-1",
+      "title": "Knowledge check 68.1",
+      "moduleId": "68.1",
+      "questions": [
+        {
+          "id": "r68-q1",
+          "number": 1,
+          "objectiveIds": [
+            "68.a"
+          ],
+          "prompt": "Which of the following most accurately describes a risk of derivative instruments?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Derivatives make it easier for market participants to take short positions."
+            },
+            {
+              "id": "B",
+              "text": "The underlying of a derivative might not fully match a position being hedged."
+            },
+            {
+              "id": "C",
+              "text": "Volatility in underlying asset prices is implied by the prices of options on those assets."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Basis risk arises when the underlying of a derivative differs from a position being hedged. Ease of taking short positions with derivatives compared to their underlying assets, and the information about implied volatility that is revealed by option prices, are two of the advantages of derivative instruments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Basis risk arises when the underlying of a derivative differs from a position being"
+            },
+            {
+              "type": "paragraph",
+              "text": "hedged. Ease of taking short positions with derivatives compared to their underlying assets, and the information about implied volatility that is revealed by option prices, are two of the advantages of derivative instruments."
+            }
+          ]
+        },
+        {
+          "id": "r68-q2",
+          "number": 2,
+          "objectiveIds": [
+            "68.b"
+          ],
+          "prompt": "Uses of derivatives by investors most likely include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "hedging against price risk for inventory held."
+            },
+            {
+              "id": "B",
+              "text": "modifying the risk exposure of a securities portfolio."
+            },
+            {
+              "id": "C",
+              "text": "stabilizing the balance sheet value of a foreign subsidiary."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Modifying the risk exposure of a securities portfolio is an example of derivatives use by investors. Hedging against price risk for inventory and stabilizing the balance sheet value of a foreign subsidiary are examples of derivatives use by issuers.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Modifying the risk exposure of a securities portfolio is an example of derivatives"
+            },
+            {
+              "type": "paragraph",
+              "text": "use by investors. Hedging against price risk for inventory and stabilizing the balance sheet value of a foreign subsidiary are examples of derivatives use by issuers."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

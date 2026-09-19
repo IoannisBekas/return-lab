@@ -1,0 +1,1416 @@
+{
+  "readingId": 10,
+  "title": "Simple Linear Regression",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "10.1",
+      "title": "Linear Regression Basics",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "10.a",
+          "text": "What should we know about a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The purpose of simple linear regression is to explain the variation in a dependent variable in terms of the variation in a single independent variable. Here, the term variation is interpreted as the degree to which a variable differs from its mean value. Don’t confuse variation with variance—they are related, but they are not the same."
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{v a r i a t i o n ~ i n ~ Y=\\sum_{i}^{n} ( Y_{i}-{\\overline{{Y}}} )}}^{2}",
+          "display": true,
+          "sourceAsset": "a3fcbd0aa1bcf7950c70.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dependent variable is the variable whose variation is explained by the independent variable. We are interested in answering the question, “What explains fluctuations in the dependent variable?” The dependent variable is also referred to as the terms explained variable, endogenous variable, or predicted variable. The independent variable is the variable used to explain the variation of the dependent variable. The independent variable is also referred to as the terms explanatory variable, exogenous variable, or predicting variable."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Dependent vs. independent variables"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose you want to predict stock returns with GDP growth. Which variable is the independent variable?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because GDP is going to be used as a predictor of stock returns, stock returns are being explained by GDP. Hence, stock returns are the dependent (explained) variable, and GDP is the independent (explanatory) variable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose we want to use excess returns on the S&P 500 (the independent variable) to explain the variation in excess returns on ABC common stock (the dependent variable). For this model, we define excess return as the difference between the actual return and the return on 1-month Treasury bills."
+        },
+        {
+          "type": "paragraph",
+          "text": "We would start by creating a scatter plot with ABC excess returns on the vertical axis and S&P 500 excess returns on the horizontal axis. Monthly excess returns for both variables from June 20X2 to May 20X5 are plotted in Figure 10.1. For example, look at the point labeled May 20X4. In that month, the excess return on the S&P 500 was −7.8%, and the excess return on ABC was 1.1%."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.1: Scatter Plot of ABC Excess Returns vs. S&P 500 Index Excess Returns"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9da1c0fc74f15ff5640f.png",
+          "alt": "Equation, table, or diagram: Figure 10.1: Scatter Plot of ABC Excess Returns vs. S&P 500 Index Excess Returns",
+          "width": 519,
+          "height": 308,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The two variables in Figure 10.1 appear to be positively correlated: excess ABC returns tended to be positive (negative) in the same month that S&P 500 excess returns were positive (negative). This is not the case for all the observations, however (for example, May 20X4). In fact, the correlation between these variables is approximately 0.40."
+        },
+        {
+          "type": "heading",
+          "text": "Simple Linear Regression Model"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following linear regression model is used to describe the relationship between two variables, X and Y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{Y_{i}=b_{0}+b_{i} X_{i}+\\varepsilon_{i} , \\ldots\\mathrm{i=1,\\ldots,n}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{X_{i}=i \\hbar\\mathrm{~observation~of~the~dependent~variable,} ~ Y}} \\\\ {{X_{i}=i \\hbar\\mathrm{~observation~of~the~independent~variable,} ~ X}} \\\\ {{\\mathrm{~b_0=regression~intercept~term}}} \\\\ {{\\mathrm{~b_1=regression~slope~coefficient}}} \\\\ {{\\mathrm{~\\varepsilon_i~=residual~for~the~ith~observation~(also~referred~to~as~the~disturbance~term~ore~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~}}} \\\\ {{\\mathrm{~erres~t~erm)}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "abbdf684b573c6e11196.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on this regression model, the regression process estimates an equation for a line through a scatter plot of the data that “best” explains the observed values for Y in terms of the observed values for X."
+        },
+        {
+          "type": "paragraph",
+          "text": "The linear equation, often called the line of best fit or regression line, takes the following form:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\widehat{\\mathrm{Y}}_{\\mathrm{i}}=\\widehat{\\mathrm{b}}_{0}+\\widehat{\\mathrm{b}}_{1} X_{\\mathrm{i}} , \\mathrm{i}=1 , 2 , 3. . . , \\mathrm{n}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\widehat{\\mathrm{Y}}_{\\mathrm{i}}=\\mathrm{e s t i m a t e d ~ v a l u e ~ o f ~ Y_{i} ~ g i v e n ~ X_{i} ~}}} \\\\ {{\\widehat{\\mathrm{b}}_{\\mathrm{0}}=\\mathrm{estimated~intercept~term}}} \\\\ {{\\widehat{\\mathrm{b}}_{\\mathrm{1}}=\\mathrm{estimated~slope~coefficient}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "da9ef46306314492193b.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} {\\tt\\ddot{P} R O F E S S O R^{\\prime} S N O r E}} \\\\ {} & {{} \\mathrm{The~hat~``~}_{u \\wedge v} \\mathrm{~above~a~variable~or~parameter~indicates~a~predicted~value.}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "08c3d6fd673c74150114.png",
+          "prose": "Study note The hat “ˆ above a variable or parameter indicates a predicted value."
+        },
+        {
+          "type": "math",
+          "latex": "\\hat Y_i=\\hat b_0+\\hat b_1X_i,\\qquad \\hat\\varepsilon_i=Y_i-\\hat Y_i,\\qquad SSE=\\sum_i(Y_i-\\hat Y_i)^2",
+          "display": true,
+          "sourceAsset": "aa3f0ae0b7423f0e5858.png",
+          "prose": "The regression line is just one of the many possible lines that can be drawn through the scatter plot of X and Y. The criteria used to estimate this line is the essence of linear regression. The regression line is the line that minimizes the sum of the squared differences (vertical distances) between the Y-values predicted by the regression equation and the actual Y-values, Yi. The sum of the squared vertical distances between the estimated and actual Y-values is referred to as the sum of squared errors (SSE)."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{Thus~the~regression~line~is~the~line~that~minimizes~the~SSE.~This~explains~why~simple}} \\\\ {\\mathrm{~ l i n e a r ~ r e g r e s s i o n ~ i s ~ f r e q u e n t l y ~ r e f e r r e d ~ t o ~ a s ~ o r d i n a r y ~ l e a s t ~ s q u a r e s ~ {\\bf~ ( 01 S )} ~ r e g r e s s i o n ,}} \\\\ {\\mathrm{~ a n d ~ t h e ~ v a l u e s ~ d e t e r m i n e d ~ b y ~ t h e ~ e s t i m a t e d ~ r e g r e s s i o n ~ e q u a t i o n , ~ \\overset{\\sim} {Y}_{*} ~ a r e ~ c a l l e d ~ l e a s t}} \\\\ {\\mathrm{~suares~estimates.}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "391ca00a31fbef716c83.png",
+          "prose": "Thus, the regression line is the line that minimizes the SSE. This explains why simple linear regression is frequently referred to as ordinary least squares (OLS) regression, and the values determined by the estimated regression equation, , are called least squares estimates."
+        },
+        {
+          "type": "math",
+          "latex": "\\hat b_1=\\frac{\\operatorname{Cov}(X,Y)}{\\operatorname{Var}(X)}",
+          "display": true,
+          "sourceAsset": "7015ab810672b1cdbf25.png",
+          "prose": "The estimated slope coefficient ( ) for the regression line describes the change in Y for a one-unit change in X. It can be positive, negative, or zero, depending on the relationship between the regression variables. The slope term is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\hat{\\mathbf{b}}}_{1}={\\frac{\\mathbf{C o v}_{\\mathbf{X Y}}} {\\sigma_{X}^{2}}}",
+          "display": true,
+          "sourceAsset": "49e8157eede214486c8e.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{T h e ~ i n t e r c e p t ~ t e r m ~ ( \\hat{\\theta}_{\\emptyset} ) ~ i s ~ t h e ~ l i n e ' s ~ i n t e r s e c t i o n ~ w i t h ~ t h e ~} Y \\mathrm{-axis~at~X=0.~lt~can~be}} \\\\ {\\mathrm{positive,~negative,or~zero.~A~property~of~the~least~squares~method~is~that~the~intercept}} \\\\ {\\mathrm{term~may~be~expressed~as~follows:}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "cf91320a47a33772fb90.png",
+          "prose": "The intercept term is the line’s intersection with the Y-axis at X = 0. It can be positive, negative, or zero. A property of the least squares method is that the intercept term may be expressed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} {\\hat{\\mathsf{b}}}_{\\mathtt{0}}={\\overline{{\\mathsf{Y}}}}-{\\hat{\\mathsf{b}}}_{\\mathtt{1}} {\\overline{{\\mathsf{X}}}}} \\\\ {} & {{} {\\mathrm{where:}}} \\\\ {} & {{} {\\overline{{\\mathsf{Y}}}}=\\operatorname{m e a n o f} {\\ \\mathsf{Y}}} \\\\ {} & {{} {\\overline{{\\mathsf{X}}}}=\\operatorname{m e a n o f} {\\ \\mathsf{X}}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "83809d2c1406aff62574.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The intercept equation highlights the fact that the regression line passes through a point with coordinates equal to the mean of the independent and dependent variables (i.e., the point X, Y)."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Computing the slope coefficient and intercept term"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute the slope coefficient and intercept term using the following information:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l l l} {\\mathrm{Cov} ( \\mathrm{S\\&P~500} , \\mathrm{ABC} )} & {=0.000336 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{S\\&P~500}} & {=-2.70 \\%_{0}} \\\\ {\\mathrm{Var} ( \\mathrm{S\\&P~500} )} & {=0.000522 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{ABC}} & {=-4.05 \\%_{0}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6786e9c8fdf29d0f0749.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\hat b_1=0.000336/0.000522=0.64",
+          "display": true,
+          "sourceAsset": "132625f42e17d9eed9a2.png",
+          "prose": "The slope coefficient is calculated as ."
+        },
+        {
+          "type": "paragraph",
+          "text": "The intercept term is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{\\overline{{{b}}}_{0}}=\\overline{{{\\mathrm{ABC}}}}-\\mathbf{\\hat{b}}_{1} \\overline{{{\\mathrm{S\\&P~500}}}}=-4.05 \\mathbf{\\gamma_{0}}-0.64 (-2.70 \\mathbf{\\gamma_{0}} )=-2.3 \\mathbf{\\gamma_{0}}",
+          "display": true,
+          "sourceAsset": "7106dfd33782b071ac39.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated regression line that minimizes the SSE in our ABC stock return example is shown in Figure 10.2."
+        },
+        {
+          "type": "paragraph",
+          "text": "This regression line has an intercept of −2.3% and a slope of 0.64. The model predicts that if the S&P 500 excess return is −7.8% (May 20X4 value), then the ABC excess return would be −2.3% + (0.64)(−7.8%) = −7.3%. The residual (error) for the May 20X4 ABC prediction is 8.4%—the difference between the actual ABC excess return of 1.1% and the predicted return of −7.3%."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.2: Estimated Regression Equation for ABC vs. S&P 500 Excess Returns"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/d7950b109124bca7e783.png",
+          "alt": "Equation, table, or diagram: Figure 10.2: Estimated Regression Equation for ABC vs. S&P 500 Excess Returns",
+          "width": 523,
+          "height": 318,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Interpreting a Regression Coefficient"
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated intercept represents the value of the dependent variable at the point of intersection of the regression line and the axis of the dependent variable (usually, the vertical axis). In other words, the intercept is an estimate of the dependent variable when the independent variable is zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "We also mentioned earlier that the estimated slope coefficient is interpreted as the expected change in the dependent variable for a one-unit change in the independent variable. For example, an estimated slope coefficient of 2 would indicate that the dependent variable is expected to change by two units for every one-unit change in the independent variable."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Interpreting regression coefficients"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the previous example, the estimated slope coefficient was 0.64 and the estimated intercept term was −2.3%. Interpret each coefficient estimate."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The slope coefficient of 0.64 can be interpreted to mean that when excess S&P 500 returns increase (decrease) by 1%, ABC excess returns is expected to increase (decrease) by 0.64%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The intercept term of −2.3% can be interpreted to mean that when the excess return on the S&P 500 is zero, the expected return on ABC stock is −2.3%."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The slope coefficient in a regression of the excess returns of an individual security (the y-variable) on the return on the market (the x-variable) is called the stock’s beta, which is an estimate of systematic risk of ABC stock. Notice that ABC is less risky than the average stock, because its returns tend to increase or decrease by less than the overall change in the market returns. A stock with a beta (regression slope coefficient) of 1 has an average level of systematic risk, and a stock with a beta greater than 1 has more-than-average systematic risk. We will apply this concept in the Portfolio Management topic area."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keep in mind, however, that any conclusions regarding the importance of an independent variable in explaining a dependent variable are based on the statistical significance of the slope coefficient. The magnitude of the slope coefficient tells us nothing about the strength of the linear relationship between the dependent and independent variables. A hypothesis test must be conducted, or a confidence interval must be formed, to assess the explanatory power of the independent variable. Later in this reading we will perform these hypothesis tests."
+        },
+        {
+          "type": "question",
+          "objectiveId": "10.b",
+          "text": "How can we explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Linear regression is based on numerous assumptions. Most of the major assumptions pertain to the regression model’s residual term (ε). Linear regression assumes the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. A linear relationship exists between the dependent and the independent variables.\n2. The variance of the residual term is constant for all observations"
+        },
+        {
+          "type": "paragraph",
+          "text": "(homoskedasticity)."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. The residual term is independently distributed; that is, the residual for one"
+        },
+        {
+          "type": "paragraph",
+          "text": "observation is not correlated with that of another observation (or, the paired x and y observations are independent of each other).\n4. The residual term is normally distributed."
+        },
+        {
+          "type": "heading",
+          "text": "Linear Relationship"
+        },
+        {
+          "type": "paragraph",
+          "text": "A linear regression model is not appropriate when the underlying relationship between X and Y is nonlinear. In Panel A of Figure 10.3, we illustrate a regression line fitted to a nonlinear relationship. Note that the prediction errors (vertical distances from the dots to the line) are positive for low values of X, then increasingly negative for higher values of X, and then turning positive for still-greater values of X. One way of checking for linearity is to examine the model residuals (prediction errors) in relation to the independent regression variable. In Panel B, we show the pattern of residuals over the range of the independent variable: positive, negative, then positive."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.3: Nonlinear Relationship"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e9fe437d2cbb78649eeb.png",
+          "alt": "Equation, table, or diagram: Figure 10.3: Nonlinear Relationship",
+          "width": 380,
+          "height": 446,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Homoskedasticity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Homoskedasticity refers to the case where prediction errors all have the same variance. Heteroskedasticity refers to the situation when the assumption of homoskedasticity is violated. Figure 10.4, Panel A shows a scatter plot of observations around a fitted regression line where the residuals (prediction errors) increase in magnitude with larger values of the independent variable X. Panel B shows the residuals plotted versus the value of the independent variable, and it also illustrates that the variance of the error terms is not likely constant for all observations."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.4: Heteroskedasticity"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e378b5d3ab7a386e8075.png",
+          "alt": "Equation, table, or diagram: Figure 10.4: Heteroskedasticity",
+          "width": 366,
+          "height": 434,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another type of heteroskedasticity results if the variance of the error term changes over time (rather than with the magnitude of the independent variable). We could observe this by plotting the residuals from a linear regression model versus the dates of each observation and finding that the magnitude of the errors exhibits a pattern of changing over time."
+        },
+        {
+          "type": "heading",
+          "text": "Independence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose we collect a company’s monthly sales and plot them against monthly GDP as in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 10.5, Panel A, and observe that some prediction errors (the unfilled dots) are noticeably larger than others. To investigate this, we plot the residuals versus time, as in Panel B. The residuals plot illustrates that there are large prediction errors every 12 months (in December). This suggests that there is seasonality in sales such that December sales (the unfilled dots in Figure 10.5) are noticeably farther from their predicted values than sales for the other months. If the relationship between X and Y is not independent, the residuals are not independent, and our estimates of the model parameters’ variances will not be correct."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.5: Independence"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/026b7fda06c5d5aea4d2.png",
+          "alt": "Equation, table, or diagram: Figure 10.5: Independence",
+          "width": 384,
+          "height": 433,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Normality"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the residuals (prediction errors) are normally distributed, we can conduct hypothesis testing for evaluating the goodness of fit of the model (discussed later). With a large sample size, based on the central limit theorem, our parameter estimates may be valid, even when the residuals are not normally distributed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Outliers are observations (one or a few) that are far from our regression line (have large prediction errors or X values that are far from the others). Outliers will influence our parameter estimates so that the OLS model will not fit the other observations well."
+        }
+      ]
+    },
+    {
+      "id": "10.2",
+      "title": "Analysis of Variance (ANOVA) and Goodness of Fit",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "10.c",
+          "text": "How do we calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression?"
+        },
+        {
+          "type": "question",
+          "objectiveId": "10.d",
+          "text": "What should we know about the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysis of variance (ANOVA) is a statistical procedure for analyzing the total variability of the dependent variable. Let’s define some terms before we move on to ANOVA tables:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The total sum of squares (SST) measures the total variation in the dependent variable. SST is equal to the sum of the squared differences between the actual Y-values and the mean of Y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{SST}=\\sum_{i=1}^{n} {( \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} )}^{2}",
+          "display": true,
+          "sourceAsset": "26e4b9ad18e1a0ae3ccb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sum of squares regression (SSR) measures the variation in the dependent variable that is explained by the independent variable. SSR is the sum of the squared distances between the predicted Y-values and the mean of Y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{SSR}=\\sum_{i=1}^{n} ( {\\widehat{\\mathrm{Y}}}_{i}-{\\overline{{\\mathrm{Y}}}} )^{2}",
+          "display": true,
+          "sourceAsset": "06a2b17e7030b7fd2654.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mean square regression (MSR) is the SSR divided by the number of independent variables. A simple linear regression has only one independent variable, so in this case, MSR = SSR."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Multiple regression (i.e., with more than one independent variable) is addressed in the Level II CFA curriculum."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sum of squared errors (SSE) measures the unexplained variation in the dependent variable. It’s also known as the sum of squared residuals or the residual sum of squares. SSE is the sum of the squared vertical distances between the actual Y-values and the predicted Y-values on the regression line:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{{S S E}}=\\sum_{i=1}^{n} \\left( \\mathrm{Y}_{i}-{\\widehat{\\mathrm{Y}}} \\right)^{2}",
+          "display": true,
+          "sourceAsset": "1d3d8e02da4b2d3db0f7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mean squared error (MSE) is the SSE divided by the degrees of freedom, which is n − 1 minus the number of independent variables. A simple linear regression has only one independent variable, so in this case, degrees of freedom are n − 2."
+        },
+        {
+          "type": "paragraph",
+          "text": "You probably will not be surprised to learn the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "total variation = explained variation + unexplained variation or: SST = SSR + SSE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 10.6 illustrates how the total variation in the dependent variable (SST) is composed of SSR and SSE."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.6: Components of Total Variation"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c8eb2e282deb8c77134a.png",
+          "alt": "Equation, table, or diagram: Figure 10.6: Components of Total Variation",
+          "width": 394,
+          "height": 177,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The output of the ANOVA procedure is an ANOVA table, which is a summary of the variation in the dependent variable. ANOVA tables are included in the regression output of many statistical software packages. You can think of the ANOVA table as the source of the data for the computation of many of the regression concepts discussed in this reading. A generic ANOVA table for a simple linear regression (one independent variable) is presented in Figure 10.7."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.7: ANOVA Table for a Simple Linear Regression"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/79f79c5f771dc0c6d232.png",
+          "alt": "Equation, table, or diagram: Figure 10.7: ANOVA Table for a Simple Linear Regression",
+          "width": 536,
+          "height": 145,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Standard Error of Estimate (SEE)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The SEE for a regression is the standard deviation of its residuals. The lower the SEE, the better the model fit:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{SEE}={\\sqrt{\\mathrm{MSE}}}",
+          "display": true,
+          "sourceAsset": "aa2e24c3ee67033b78cc.png"
+        },
+        {
+          "type": "heading",
+          "text": "Coefficient of Determination (R2)"
+        },
+        {
+          "type": "paragraph",
+          "text": "The coefficient of determination (R²) is defined as the percentage of the total variation in the dependent variable explained by the independent variable. For example, an R² of 0.63 indicates that the variation of the independent variable explains 63% of the variation in the dependent variable:"
+        },
+        {
+          "type": "math",
+          "latex": "R^{2}=\\mathrm{SSR/SST}",
+          "display": true,
+          "sourceAsset": "1ddea6833003e063ae06.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "For simple linear regression (i.e., with one independent variable), the coefficient of determination, R², may be computed by simply squaring the correlation coefficient, r. In other words, R² = r² for a regression with one independent variable."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Using the ANOVA table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the following ANOVA table based on 36 observations, calculate the R² and the standard error of estimate (SEE)."
+        },
+        {
+          "type": "heading",
+          "text": "Completed ANOVA table for ABC regression"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e98a2249f50bbd26673e.png",
+          "alt": "Equation, table, or diagram: Completed ANOVA table for ABC regression",
+          "width": 469,
+          "height": 109,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{R^{2}}={\\frac{\\mathrm{explained~variation~(SSR)}} {\\mathrm{total~variation~(SST)}}}={\\frac{0.0076} {0.0482}}=0.158 {\\mathrm{~or~}} 15.876} \\\\ {\\mathrm{SEE}={\\sqrt{\\mathrm{MSE}}}={\\sqrt{0.0012}}=0.035} \\end{array}",
+          "display": true,
+          "sourceAsset": "82cfe19eac350a58c1fa.png"
+        },
+        {
+          "type": "heading",
+          "text": "The F-Statistic"
+        },
+        {
+          "type": "paragraph",
+          "text": "An F-test assesses how well a set of independent variables, as a group, explains the variation in the dependent variable."
+        },
+        {
+          "type": "paragraph",
+          "text": "The F-statistic is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{F}={\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}}={\\frac{\\mathrm{SSR} / \\mathrm{k}} {\\mathrm{SSE} / ( \\mathrm{n}-\\mathrm{k}-\\mathrm{1} )}}",
+          "display": true,
+          "sourceAsset": "8181fcc70200c102d098.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For simple linear regression, there is only one independent variable, so the F-test is equivalent to a t-test of the statistical significance of the slope coefficient:"
+        },
+        {
+          "type": "paragraph",
+          "text": "H0: b1 = 0 versus Ha: b1 ≠ 0"
+        },
+        {
+          "type": "paragraph",
+          "text": "To determine whether b1 is statistically significant using the F-test, the calculated F-statistic is compared with the critical F-value, Fc, at the appropriate level of significance. The degrees of freedom for the numerator and denominator with one independent variable are as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{d f_{s u m e r a t o r}=k=1}} \\\\ {\\mathrm{d f_{d e n o m i n a t o r}=n-k-1=n-2}} \\\\ {\\mathrm{where:}} \\\\ {\\mathrm{n=number~of~observations}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "3c4d79092048c7ce48ba.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The decision rule for the F-test is to reject H0 if F > Fc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rejecting the null hypothesis that the value of the slope coefficient equals zero at a stated level of significance indicates that the independent variable and the dependent variable have a significant linear relationship."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating and interpreting the F-statistic"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the ANOVA table from the previous example to calculate and interpret the F-statistic. Test the null hypothesis at the 5% significance level that the slope coefficient is equal to 0."
+        },
+        {
+          "type": "paragraph",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{F}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}=\\frac{0.0076} {0.0012}=6.33}} \\\\ {{\\mathrm{df}_{\\mathrm{{a u m e r a t e r}}}=\\mathrm{k}=1}} \\\\ {{\\mathrm{df}_{\\mathrm{danominater}}=\\mathrm{n-k}-1=36-1-1=34}} \\end{array}",
+          "display": true,
+          "sourceAsset": "2d42320b5f4be3630cfa.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The null and alternative hypotheses are h0: b1 = 0 versus ha: b1 ≠ 0. The critical F-value for 1 and 34 degrees of freedom at a 5% significance level is approximately 4.1. (Remember, it’s a one-tailed test, so we use the 5% F-table.) Therefore, we can reject the null hypothesis and conclude that the slope coefficient is significantly different than zero."
+        },
+        {
+          "type": "heading",
+          "text": "Hypothesis Test of a Regression Coefficient"
+        },
+        {
+          "type": "paragraph",
+          "text": "A t-test may also be used to test the hypothesis that the true slope coefficient, b1, is"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{e q u a l ~ t o ~ a ~ h y p o t h e s i z e d ~ v a l u e . ~ L e t t i n g ~ \\hat{\\psi}_{i} , t h e ~ a p p r o p r i a t e ~ t e s t ~ s t a t i s t i c ~ w i t h ~ n-2 ~}} \\\\ {\\mathrm{degrees~of~freedom~is:}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "0d911ce3a97675419b3e.png",
+          "prose": "equal to a hypothesized value. Letting , the appropriate test statistic with n − 2 degrees of freedom is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{t}_{\\mathbf{b}_{1}}={\\frac{{\\widehat{\\mathbf{b}}}_{1} {-} \\mathbf{b}_{1}} {\\mathbf{s}_{\\mathbf{\\widehat{b}}_{1}}}}",
+          "display": true,
+          "sourceAsset": "9f5147ff16838f8d71d7.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The decision rule for tests of significance for regression coefficients is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{R e j e c t ~ H_{0}^{\\prime} ~ i f ~ t >+~ t_{c r i t i c a l}^{\\prime} ~ o r ~ t <-t_{c r i t i c a l}^{\\prime} ~}",
+          "display": true,
+          "sourceAsset": "0cf740f2a4f3edef5401.png"
+        },
+        {
+          "type": "math",
+          "latex": "H_0:b_1=0\\qquad\\text{versus}\\qquad H_a:b_1\\ne0",
+          "display": true,
+          "sourceAsset": "026cb4e13d873bf7822f.png",
+          "prose": "Rejection of the null supports the alternative hypothesis that the slope coefficient is different from the hypothesized value of b1. To test whether an independent variable explains the variation in the dependent variable (i.e., it is statistically significant), the null hypothesis is that the true slope is zero . The appropriate test structure for the null and alternative hypotheses is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{H_{0} : b_{1}=0 \\; v e r s u s \\; H_{a} : b_{1}=0}",
+          "display": true,
+          "sourceAsset": "6f0095dc091220850f66.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Hypothesis test for significance of regression coefficients"
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated slope coefficient from the ABC example is 0.64 with a standard error equal to 0.26. Assuming that the sample has 36 observations, determine if the"
+        },
+        {
+          "type": "paragraph",
+          "text": "estimated slope coefficient is significantly different than zero at a 5% level of significance."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The calculated test statistic is:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt t=\\frac{\\widehat{b}_{1}-b_{1}} {s_{\\widehat{b}_{1}}}=\\frac{0.64-0} {0.26}=2.46}",
+          "display": true,
+          "sourceAsset": "72af50f87c3534bda77f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the t-test for a simple linear regression is equivalent to a t-test for the correlation coefficient between x and y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{t}={\\frac{\\mathbf{r} \\, {\\sqrt{\\mathbf{n}-2}}} {\\sqrt{1-\\mathbf{r}^{2}}}}",
+          "display": true,
+          "sourceAsset": "c4771778caedef31820e.png"
+        },
+        {
+          "type": "heading",
+          "text": "Indicator Variables"
+        },
+        {
+          "type": "paragraph",
+          "text": "An indicator variable or dummy variable is a time series that takes on a value of 1 in periods when some condition holds, and 0 in periods when that condition does not hold. In a simple regression, an analyst can use an indicator as the independent variable to test whether a condition has a significant effect on the dependent variable."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, let’s say an analyst wants to decide whether to classify a company’s quarterly earnings as cyclical. One way to do so is with an indicator variable for economic contractions, giving it a value of 1 in quarters when the economy was in recession and 0 in all other quarters. A simple linear regression, with the company’s quarterly earnings as the dependent variable and this indicator (Recession) as the independent variable, is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{E a r n i n g s_{i}=b_{0}+b_{i} ( R e c e s s i o n_{i} )+\\varepsilon_{i}}",
+          "display": true,
+          "sourceAsset": "aed212a02c258b4c16c1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The analyst can test the hypothesis that the slope, b1, is equal to zero. If the analyst can reject the hypothesis, this would suggest the company’s earnings are significantly different in recessionary quarters than they are in expansionary quarters."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this example we would expect the slope coefficient to be negative, because earnings would likely be lower in recessionary periods if the business cycle affects them."
+        },
+        {
+          "type": "paragraph",
+          "text": "This approach is equivalent to grouping the quarterly earnings into recessionary periods and non-recessionary periods and performing a difference-in-means test. In fact, the slope coefficient b1 should equal the difference in means. It represents how different earnings are, on average, in recessionary periods."
+        }
+      ]
+    },
+    {
+      "id": "10.3",
+      "title": "Predicted Values and Functional Forms of Regression",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "10.e",
+          "text": "How do we calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Predicted values are values of the dependent variable based on the estimated regression coefficients and a prediction about the value of the independent variable. They are the values that are predicted by the regression equation, given an estimate of the independent variable."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a simple regression, this is the predicted (or forecast) value of Y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\widehat{\\mathrm{Y}}=\\widehat{\\mathrm{b}}_{0}+\\widehat{\\mathrm{b}}_{1} \\mathrm{X}_{p}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\widehat{\\mathrm{Y}} \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!=\\mathrm{predicted~value~of~the~dependent~variable}}} \\\\ {{\\widehat{\\mathrm{X}}_{p}=\\mathrm{forecasted~value~of~the~independent~variable}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "5175fc426ed42eaff4fe.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: PREDICTING THE DEPENDENT VARIABLE"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the ABC regression equation as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\widetilde{\\mathrm{ABC}}=-2.3 \\%+( 0.64 ) ( \\widetilde{\\mathrm{S\\&P~} 500} )",
+          "display": true,
+          "sourceAsset": "1cf31c4f98329dba1828.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the predicted value of ABC excess returns if forecast S&P 500 excess returns are 10%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The predicted value for ABC excess returns is determined as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\widetilde{\\mathrm{ABC}}=-2.3 {\\tt V}_{\\tt0}+( 0.64 ) ( 10 {\\tt V}_{\\tt0} )=4.1 {\\tt V}_{\\tt0}",
+          "display": true,
+          "sourceAsset": "ab64b3fcc253ffee791e.png"
+        },
+        {
+          "type": "heading",
+          "text": "Confidence Intervals for Predicted Values"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the equation for the confidence interval for a predicted value of Y:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\widehat{\\Upsilon} \\pm( \\mathsf{t_{c}} \\times s_{i} ) \\Rightarrow[ \\widehat{\\Upsilon}-( \\mathsf{t_{c}} \\times s_{i} ) < \\mathsf{Y} < \\widehat{\\Upsilon}+( \\mathsf{t_{c}} \\times s_{i} ) ]}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathsf{t_{c}}=\\mathsf{t w o-t a i l e d ~ c r i t i c a l ~ r-v a l u e ~ a t ~ t h e ~ d e s i r e d ~ l e v e l ~ o f ~ s i g n i f i c a n c e ~ w i t h ~ d f=n-2}}} \\\\ {{\\mathsf{s_{f}}=\\mathsf{s t a n d a r d ~ e r r o r ~ o f ~ t h e ~ f o r e c a s t}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "abd01d0c111f07d0253d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The challenge with computing a confidence interval for a predicted value is calculating sf. On the Level I exam, it’s highly unlikely that you will have to calculate the standard error of the forecast (it will probably be provided if you need to compute a confidence interval for the dependent variable). However, if you do need to calculate sf, it can be done with the following formula for the variance of the forecast:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}s_{\\mathrm{f}}^{2}=\\mathrm{SEE}^{2} \\left[ 1+{\\frac{1} {n}}+{\\frac{( \\mathbf{X}-{\\overline{{X}}} )^{2}} {( n-1 ) s_{\\mathrm{x}}^{2}}} \\right]\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{S E E^{2}=v a r i a n c e ~ o f ~ t h e ~ r e s i d u a l s=t h e ~ s q u a r e ~ o f ~ t h e ~ s t a n d a r d ~ e r r o r ~ o f ~ e s t i m a t e}}} \\\\ {{s_{x}^{2}} \\quad{=\\mathrm{variance~of~the~independent~variable}}} \\\\ {{\\mathrm{X} \\quad{=v a l u e ~ o f ~ t h e ~ i n d e p e n d e n t ~ v a r i a b l e ~ f o r ~ w h i c h ~ t h e ~ f o r e c a s t ~ w a s ~ m a d e}}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "72edaaadb4d6c7150995.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Confidence interval for a predicted value"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate a 95% prediction interval on the predicted value of ABC excess returns from the previous example. Assume the standard error of the forecast is 3.67, and the forecast value of S&P 500 excess returns is 10%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the predicted value for ABC excess returns:"
+        },
+        {
+          "type": "math",
+          "latex": "\\widetilde{\\mathrm{ABC}}=-2.39 \\! \\! \\! \\vee_{\\mathsf{0}}+( 0.64 ) \\! \\! \\left( 10 \\, {\\vartheta}_{\\mathsf{0}} \\right)=4.1 {\\vartheta}_{\\mathsf{0}}",
+          "display": true,
+          "sourceAsset": "ff49e194dc3fc66d1f2a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The 5% two-tailed critical t-value with 34 degrees of freedom is 2.03. This is the prediction interval at the 95% confidence level:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\widehat{\\mathrm{ABC}}} \\pm\\left( \\mathsf{t}_{c} \\times\\mathsf{s}_{\\mathsf{f}} \\right) \\Rightarrow\\left[ 4.1 {\\mathcal{V}}_{\\mathsf{o}} \\pm\\left( 2.03 \\times3.67 {\\mathcal{V}}_{\\mathsf{o}} \\right) \\right]=4.1 {\\mathcal{V}}_{\\mathsf{o}} \\pm7.5 {\\mathcal{V}}_{\\mathsf{o}}",
+          "display": true,
+          "sourceAsset": "5c9ceccfa8fd273aa824.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Or, −3.4% to 11.6%."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can interpret this range to mean that, given a forecast value for S&P 500 excess returns of 10%, we can be 95% confident that the ABC excess returns will be between −3.4% and 11.6%."
+        },
+        {
+          "type": "question",
+          "objectiveId": "10.f",
+          "text": "What should we know about different functional forms of simple linear regressions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the assumptions of linear regression is that the relationship between X and Y is linear. What if that assumption is violated? Consider Y = EPS for a company and X = time index. Suppose that EPS is growing at approximately 10% annually. Figure 10.8 shows the plot of actual EPS versus time."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.8: Nonlinear Relationship"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/507b49cf9328de958f2e.png",
+          "alt": "Equation, table, or diagram: Figure 10.8: Nonlinear Relationship",
+          "width": 405,
+          "height": 322,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In such a situation, transforming one or both of the variables can produce a linear relationship. The appropriate transformation depends on the relationship between the two variables. One often-used transformation is to take the natural log of one or both of the variables. Here are some examples:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Log-lin model. This is if the dependent variable is logarithmic, while the independent variable is linear."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lin-log model. This is if the dependent variable is linear, while the independent variable is logarithmic. Log-log model. Both the dependent variable and the independent variable are logarithmic."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selecting the correct functional form involves determining the nature of the variables and evaluating the goodness-of-fit measures (e.g., R², SEE, F-stat)."
+        },
+        {
+          "type": "heading",
+          "text": "Log-Lin Model"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taking the natural logarithm of the dependent variable, our model now becomes this:"
+        },
+        {
+          "type": "math",
+          "latex": "\\ln\\Upsilon_{\\mathrm{i}}=\\mathfrak{b}_{0}+\\mathfrak{b}_{1} \\mathfrak{X}_{\\mathrm{i}}+\\varepsilon_{\\mathrm{i}}",
+          "display": true,
+          "sourceAsset": "bb6ecc27c0cbd1e6337b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this model, the slope coefficient is interpreted as the relative change in dependent variable for an absolute change in the independent variable. Figure 10.9 shows the results after taking the natural log of EPS, and fitting that data using a log-lin model."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 10.9: Log-Lin Model, EPS Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/563550489501c9e73a39.png",
+          "alt": "Equation, table, or diagram: Figure 10.9: Log-Lin Model, EPS Data",
+          "width": 448,
+          "height": 243,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Lin-Log Model"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taking the natural logarithm of the independent variable, our model now becomes this:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{Y_{i}} \\!=\\! {\\sf b}_{0}+{\\sf b}_{1} \\! \\ln( \\mathrm{X} )_{i}+\\varepsilon_{i}",
+          "display": true,
+          "sourceAsset": "7df3551b01aabdb31a69.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this model, the slope coefficient is interpreted as the absolute change in dependent variable for a relative change in the independent variable."
+        },
+        {
+          "type": "heading",
+          "text": "Log-Log Model"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taking the natural logarithm of both variables, our model now becomes this:"
+        },
+        {
+          "type": "math",
+          "latex": "\\ln\\mathrm{Y_{i}}=\\mathrm{b}_{0}+\\mathrm{b}_{1} \\mathrm{l n ( X )_{i}}+\\varepsilon_{i}",
+          "display": true,
+          "sourceAsset": "cf5fc4b013358bbb80f5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this model, the slope coefficient is interpreted as the relative change in dependent variable for a relative change in the independent variable."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "10.a",
+      "text": "What should we know about a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Linear regression provides an estimate of the linear relationship between an independent variable (the explanatory variable) and a dependent variable (the predicted variable)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The general form of a simple linear regression model is as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{Y_{i}}=\\mathbf{b_{0}}+\\mathbf{b_{1}} \\mathbf{X_{i}}+\\varepsilon_{i}",
+      "display": true,
+      "sourceAsset": "467c3723409e05b88e59.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The least squares model minimizes the sum of squared errors:"
+    },
+    {
+      "type": "math",
+      "latex": "\\hat b_0=\\bar Y-\\hat b_1\\bar X,\\qquad \\hat b_1=\\frac{\\operatorname{Cov}(X,Y)}{\\operatorname{Var}(X)}",
+      "display": true,
+      "sourceAsset": "f9b99709e3a475d8cfd5.png"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {\\mathrm{T h e ~ e s t i m a t e d ~ i n t e r c e p t , \\hat{\\Phi}_0 , r e p r e s e n t s ~ t h e ~ v a l u e ~ o f ~ t h e ~ d e p e n d e n t ~ v a r i a b l e ~ a t ~ t h e ~ p o i n t ~ o f ~ t h e ~ o f ~ t h e ~ c o n t ~ v a r i a b l e ~}} \\\\ {\\mathrm{of~intersection~of~the~regression~line~and~the~axis~of~the~dependent~variable~(usually,the~point~of~the~cont~of~the~cont~variable~(usually)~}} \\\\ \\end{array}",
+      "display": true,
+      "sourceAsset": "9f2e7b9065d05cb1a4b2.png",
+      "prose": "The estimated intercept, , represents the value of the dependent variable at the point of intersection of the regression line and the axis of the dependent variable (usually, the"
+    },
+    {
+      "type": "math",
+      "latex": "\\hat b_1=\\frac{\\operatorname{Cov}(X,Y)}{\\operatorname{Var}(X)}",
+      "display": true,
+      "sourceAsset": "ed7702c0e4dd921efd8c.png",
+      "prose": "vertical axis). The estimated slope coefficient, , is interpreted as the change in the dependent variable for a one-unit change in the independent variable."
+    },
+    {
+      "type": "question",
+      "objectiveId": "10.b",
+      "text": "How can we explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Assumptions made regarding simple linear regression include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. A linear relationship exists between the dependent and the independent variable.\n2. The variance of the residual term is constant (homoskedasticity).\n3. The residual term is independently distributed (residuals are uncorrelated)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. The residual term is normally distributed."
+    },
+    {
+      "type": "question",
+      "objectiveId": "10.c",
+      "text": "How do we calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The total sum of squares (SST) measures the total variation in the dependent variable and equals the sum of the squared differences between its actual values and its mean."
+    },
+    {
+      "type": "paragraph",
+      "text": "The sum of squares regression (SSR) measures the variation in the dependent variable that is explained by the independent variable, and equals the sum of the squared distances between the predicted values and the mean of the dependent variable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mean square regression (MSR) is the SSR divided by the number of independent variables. For a simple linear regression, MSR = SSR."
+    },
+    {
+      "type": "paragraph",
+      "text": "The sum of squared errors (SSE) measures the unexplained variation in the dependent variable and is the sum of the squared vertical distances between the actual and the predicted values of the dependent variable."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mean squared error (MSE) is the SSE divided by the degrees of freedom (n − 2 for a simple linear regression)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The coefficient of determination, R², is the proportion of the total variation of the dependent variable explained by the regression:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{R}^{2}={\\frac{\\mathrm{SSR}} {\\mathrm{SST}}}={\\frac{\\mathrm{SST}-\\mathrm{SSE}} {\\mathrm{SST}}}",
+      "display": true,
+      "sourceAsset": "285daa4f98723c7a125d.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "In simple linear regression, because there is only one independent variable (k = 1), the F-test tests the same null hypothesis as testing the statistical significance of b1 using the t-test: H0: b1 = 0 versus Ha: b1 ≠ 0. With only one independent variable, F is calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{F-stat}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}} \\, \\mathrm{with~1~and~n-2~degrees~of~freedom}",
+      "display": true,
+      "sourceAsset": "ff7fb07d7697acdbb3b0.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "An indicator variable is a time series that has a value of 1 in periods when a specified condition holds, and 0 in all other periods. These can be used to test whether a dependent variable is significantly different in periods when the condition holds."
+    },
+    {
+      "type": "question",
+      "objectiveId": "10.d",
+      "text": "What should we know about the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression?"
+    },
+    {
+      "type": "heading",
+      "text": "ANOVA Table for Simple Linear Regression (k = 1)"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/c5ecd9b39ffb55f3619e.png",
+      "alt": "Equation, table, or diagram: ANOVA Table for Simple Linear Regression (k = 1)",
+      "width": 538,
+      "height": 157,
+      "visualKind": "diagram-chart-or-table"
+    },
+    {
+      "type": "paragraph",
+      "text": "The standard error of the estimate in a simple linear regression is calculated as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{SEE}={\\sqrt{\\frac{\\mathrm{SSE}} {\\mathrm{n}-2}}}",
+      "display": true,
+      "sourceAsset": "f696f04bdb0fa75579c0.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "10.e",
+      "text": "How do we calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable?"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {A \\mathrm{~predicted~value~of~the~dependent~variable,~} \\widehat{Y} , \\mathrm{is~determined~by~inserting~the~predicteduals~of~} C} \\\\ {\\mathrm{value~of~the~independent~variable,~} X_{p} , \\mathrm{~in~the~regression~equation~and~calculating~}} \\\\ \\end{array}",
+      "display": true,
+      "sourceAsset": "bf959593a8341c748721.png",
+      "prose": "A predicted value of the dependent variable, , is determined by inserting the predicted value of the independent variable, Xp, in the regression equation and calculating"
+    },
+    {
+      "type": "math",
+      "latex": "\\widehat{\\mathrm{Y}}_{\\mathfrak{p}}=\\widehat{\\mathfrak{b}}_{0}+\\widehat{\\mathfrak{b}}_{1} X_{\\mathfrak{p} .}",
+      "display": true,
+      "sourceAsset": "64fa2c7561a8b4ad35c4.png",
+      "prose": "."
+    },
+    {
+      "type": "math",
+      "latex": "\\hat Y-t_cs_f<Y<\\hat Y+t_cs_f",
+      "display": true,
+      "sourceAsset": "d0977dffcd97b32261f7.png",
+      "prose": "The confidence interval for a predicted where sf is the standard error of the forecast."
+    },
+    {
+      "type": "question",
+      "objectiveId": "10.f",
+      "text": "What should we know about different functional forms of simple linear regressions?"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/988c7893d36a8a1bd8ca.png",
+      "alt": "Equation, table, or diagram:",
+      "width": 537,
+      "height": 206,
+      "visualKind": "diagram-chart-or-table"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "10.a",
+      "statement": "Describe a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients.",
+      "question": "What should we know about a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients?"
+    },
+    {
+      "id": "10.b",
+      "statement": "Explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated.",
+      "question": "How can we explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated?"
+    },
+    {
+      "id": "10.c",
+      "statement": "Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression.",
+      "question": "How do we calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression?"
+    },
+    {
+      "id": "10.d",
+      "statement": "Describe the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression.",
+      "question": "What should we know about the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression?"
+    },
+    {
+      "id": "10.e",
+      "statement": "Calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable.",
+      "question": "How do we calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable?"
+    },
+    {
+      "id": "10.f",
+      "statement": "Describe different functional forms of simple linear regressions.",
+      "question": "What should we know about different functional forms of simple linear regressions?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-10-quiz-1",
+      "title": "Knowledge check 10.1",
+      "moduleId": "10.1",
+      "questions": [
+        {
+          "id": "r10-q1",
+          "number": 1,
+          "objectiveIds": [
+            "10.a"
+          ],
+          "prompt": "What is the most appropriate interpretation of a slope coefficient estimate equal to 10.0?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The predicted value of the dependent variable when the independent variable is 0 is 10.0."
+            },
+            {
+              "id": "B",
+              "text": "For every 1-unit change in the independent variable, the model predicts that the dependent variable will change by 10 units."
+            },
+            {
+              "id": "C",
+              "text": "For every 1-unit change in the independent variable, the model predicts that the dependent variable will change by 0.1 units."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The slope coefficient is best interpreted as the predicted change in the dependent variable for a 1-unit change in the independent variable; if the slope coefficient estimate is 10.0 and the independent variable changes by 1 unit, the dependent variable is expected to change by 10 units. The intercept term is best interpreted as the value of the dependent variable when the independent variable is equal to zero.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The slope coefficient is best interpreted as the predicted change in the dependent"
+            },
+            {
+              "type": "paragraph",
+              "text": "variable for a 1-unit change in the independent variable; if the slope coefficient estimate is 10.0 and the independent variable changes by 1 unit, the dependent variable is expected to change by 10 units. The intercept term is best interpreted as the value of the dependent variable when the independent variable is equal to zero."
+            }
+          ]
+        },
+        {
+          "id": "r10-q2",
+          "number": 2,
+          "objectiveIds": [
+            "10.b"
+          ],
+          "prompt": "Which of the following is least likely a necessary assumption of simple linear regression analysis?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The residuals are normally distributed."
+            },
+            {
+              "id": "B",
+              "text": "There is a constant variance of the error term."
+            },
+            {
+              "id": "C",
+              "text": "The dependent variable is uncorrelated with the residuals."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The model does not assume that the dependent variable is uncorrelated with the residuals. It does assume that the independent variable is uncorrelated with the residuals.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The model does not assume that the dependent variable is uncorrelated with the"
+            },
+            {
+              "type": "paragraph",
+              "text": "residuals. It does assume that the independent variable is uncorrelated with the residuals."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-10-quiz-2",
+      "title": "Knowledge check 10.2",
+      "moduleId": "10.2",
+      "questions": [
+        {
+          "id": "r10-q3",
+          "number": 1,
+          "objectiveIds": [
+            "10.c"
+          ],
+          "prompt": "Consider the following statement: “In a simple linear regression, the appropriate degrees of freedom for the critical t-value used to calculate a confidence interval around both a parameter estimate and a predicted Y-value is the same as the number of observations minus two.” This statement is:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "justified."
+            },
+            {
+              "id": "B",
+              "text": "not justified, because the appropriate degrees of freedom used to calculate a confidence interval around a parameter estimate is the number of observations."
+            },
+            {
+              "id": "C",
+              "text": "not justified, because the appropriate degrees of freedom used to calculate a confidence interval around a predicted Y-value is the number of observations."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In simple linear regression, the appropriate degrees of freedom for both confidence intervals is the number of observations in the sample (n) minus two.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In simple linear regression, the appropriate degrees of freedom for both"
+            },
+            {
+              "type": "paragraph",
+              "text": "confidence intervals is the number of observations in the sample (n) minus two."
+            }
+          ]
+        },
+        {
+          "id": "r10-q4",
+          "number": 2,
+          "objectiveIds": [
+            "10.c"
+          ],
+          "prompt": "What is the appropriate alternative hypothesis to test the statistical significance of the intercept term in the following regression?",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "{\\mathsf{Y}}={\\mathsf{a}}_{1}+{\\mathsf{a}}_{2} ( \\mathsf{X} )+{\\mathsf{\\varepsilon}}_{2}",
+              "display": true,
+              "sourceAsset": "55935b64eac7bd64dbd4.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "HA: a1 ≠ 0."
+            },
+            {
+              "id": "B",
+              "text": "HA: a1 > 0."
+            },
+            {
+              "id": "C",
+              "text": "HA: a2 ≠ 0."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In this regression, a1 is the intercept term. To test the statistical significance means to test the null hypothesis that a1 is equal to zero, versus the alternative that a1 is not equal to zero.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In this regression, a1 is the intercept term. To test the statistical significance"
+            },
+            {
+              "type": "paragraph",
+              "text": "means to test the null hypothesis that a1 is equal to zero, versus the alternative that a1 is not equal to zero."
+            }
+          ]
+        },
+        {
+          "id": "r10-q5",
+          "number": 3,
+          "objectiveIds": [
+            "10.d"
+          ],
+          "prompt": "The variation in the dependent variable explained by the independent variable is measured by the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "mean squared error."
+            },
+            {
+              "id": "B",
+              "text": "sum of squared errors."
+            },
+            {
+              "id": "C",
+              "text": "regression sum of squares."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The regression sum of squares measures the amount of variation in the dependent variable explained by the independent variable (i.e., the explained variation). The sum of squared errors measures the variation in the dependent variable not explained by the independent variable. The mean squared error is equal to the sum of squared errors divided by its degrees of freedom.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The regression sum of squares measures the amount of variation in the dependent"
+            },
+            {
+              "type": "paragraph",
+              "text": "variable explained by the independent variable (i.e., the explained variation). The sum of squared errors measures the variation in the dependent variable not explained by the independent variable. The mean squared error is equal to the sum of squared errors divided by its degrees of freedom."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-10-quiz-3",
+      "title": "Knowledge check 10.3",
+      "moduleId": "10.3",
+      "questions": [
+        {
+          "id": "r10-q6",
+          "number": 1,
+          "objectiveIds": [
+            "10.e"
+          ],
+          "prompt": "For a regression model of Y = 5 + 3.5X, the analysis (based on a large data sample) provides the standard error of the forecast as 2.5 and the standard error of the slope coefficient as 0.8. A 90% confidence interval for the estimate of Y when the value of the independent variable is 10 is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "35.1 to 44.9."
+            },
+            {
+              "id": "B",
+              "text": "35.6 to 44.4."
+            },
+            {
+              "id": "C",
+              "text": "35.9 to 44.1."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The estimate of Y, given X = 10, is Y = 5 + 3.5(10) = 40. The critical value for a 90% confidence interval with a large sample size (z-statistic) is approximately 1.65. Given the standard error of the forecast of 2.5, the confidence interval for the estimated value of Y is 40 +/− 1.65(2.5) = 35.875 to 44.125.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The estimate of Y, given X = 10, is Y = 5 + 3.5(10) = 40. The critical value for a 90%"
+            },
+            {
+              "type": "paragraph",
+              "text": "confidence interval with a large sample size (z-statistic) is approximately 1.65. Given the standard error of the forecast of 2.5, the confidence interval for the estimated value of Y is 40 +/− 1.65(2.5) = 35.875 to 44.125."
+            }
+          ]
+        },
+        {
+          "id": "r10-q7",
+          "number": 2,
+          "objectiveIds": [
+            "10.f"
+          ],
+          "prompt": "The appropriate regression model for a linear relationship between the relative change in an independent variable and the absolute change in the dependent variable is a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "log-lin model."
+            },
+            {
+              "id": "B",
+              "text": "lin-log model."
+            },
+            {
+              "id": "C",
+              "text": "lin-lin model."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The appropriate model would be a lin-log model, in which the values of the dependent variable (Y ) are regressed on the natural logarithms of the independent variable (X ): Y = b0 + b1 ln(X).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The appropriate model would be a lin-log model, in which the values of the"
+            },
+            {
+              "type": "paragraph",
+              "text": "dependent variable (Y ) are regressed on the natural logarithms of the independent variable (X ): Y = b0 + b1 ln(X)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

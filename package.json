@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run content:split && npm run validate:content && npm run validate:deep && tsc --noEmit && vite build",
+    "build": "npm run content:split && npm run validate:content && npm run validate:deep && npm run validate:full && tsc --noEmit && vite build",
     "content:split": "node scripts/split-curriculum.mjs",
+    "content:full": "python scripts/build_full_readings.py && python scripts/enhance_learning_content.py && python scripts/convert_math_visuals.py",
     "preview": "vite preview",
     "validate:curriculum": "node scripts/validate-curriculum.mjs",
     "validate:content": "node scripts/validate-content.mjs",
-    "validate:deep": "tsx scripts/validate-deep-content.ts"
+    "validate:deep": "tsx scripts/validate-deep-content.ts",
+    "validate:full": "node scripts/validate-full-content.mjs"
   },
   "dependencies": {
     "@types/katex": "^0.16.8",

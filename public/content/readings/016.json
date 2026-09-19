@@ -1,0 +1,509 @@
+{
+  "readingId": 16,
+  "title": "Introduction to Geopolitics",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "16.1",
+      "title": "Geopolitics",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "16.a",
+          "text": "What should we know about geopolitics from a cooperation versus competition perspective?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geopolitics refers to interactions among nations, including the actions of state actors (national governments) and nonstate actors (corporations, nongovernment organizations, and individuals)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geopolitics also refers to the study of how geography affects interactions among nations and their citizens. For example, firms located in coastal countries naturally tend to be the dominant participants in international shipping."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to examine geopolitics is through analysis of the extent to which individual countries cooperate with one another. Potential areas for cooperation include diplomatic and military matters, and economic and cultural interactions. In terms of economics, areas of cooperation include freedom of movement across borders for goods, services, and capital; agreements to harmonize tariffs; international standardization of rules; and transfers of information and technology."
+        },
+        {
+          "type": "paragraph",
+          "text": "While a country that engages with other countries on these matters may be considered cooperative and one that does not may be considered noncooperative, the extent of cooperation actually varies along a spectrum. A country might be more cooperative on some issues and less cooperative on others, and its degree of cooperation can change over time or with the outcomes of the country’s domestic politics. A country’s current decision makers and the length of its political cycle are factors to consider when analyzing geopolitics."
+        },
+        {
+          "type": "paragraph",
+          "text": "A country will typically cooperate with other countries when doing so advances its national interests. For example, a country may cooperate with its neighbors in a military alliance if doing so will further its interests in protecting its citizens from foreign invaders."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can analyze a country’s national interests as a hierarchy, with its top priorities being those that ensure its survival. A country’s geophysical resource endowment may influence its priorities. For example, a country that has mineral resources but lacks arable land needs to trade minerals for food; therefore, it has an interest in cooperating with other countries to keep international trade lanes open."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonstate actors often have interests in cooperating across borders. Individuals and firms seek to direct their resources to their highest-valued uses, and some of those uses may be in other countries. To facilitate the flow of resources, state and nonstate actors may cooperate on standardization of regulations and processes. One key example of standardization among countries is International Financial Reporting Standards for firms presenting their accounting data to the public, which we will examine in the Financial Statement Analysis topic area."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cultural factors, such as historical emigration patterns or a shared language, can be another influence on a country’s level of cooperation. Among these cultural factors are a country’s formal and informal institutions, such as laws, public and private organizations, or distinct customs and habits. Strong and stable institutions can make cooperation easier for state and nonstate actors. For example, countries that produce and export large amounts of cultural content tend to be those with legal and ethical institutions that protect intellectual property. Cultural exchange is one means through which a country may exercise soft power, which is the ability to influence other countries without using or threatening force."
+        },
+        {
+          "type": "question",
+          "objectiveId": "16.b",
+          "text": "What should we know about geopolitics and its relationship with globalization?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Globalization refers to the long-term trend toward worldwide integration of economic activity and cultures. Data from the World Bank suggest economic openness, as measured by international trade as a percentage of total output, increased steadily from about 25% in the early 1970s to about 60% before the 2008 financial crisis, and has remained near that level since then. We may contrast globalization with nationalism— which, in this context, refers to a nation pursuing its own economic interests independently of, or in competition with, the economic interests of other countries."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Debate about what the word nationalism means is beyond the scope of the CFA curriculum. We use it here only in the sense of opposition or resistance to globalization."
+        },
+        {
+          "type": "paragraph",
+          "text": "As we did with cooperation versus noncooperation, we can think of countries’ actions along a spectrum from globalization to nationalism. In general, countries that are closer to the globalization end of the spectrum are those that more actively import and export goods and services, permit freer movement of capital across borders and exchange of currencies, and are more open to cultural interaction."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Figure 16.1, we draw each spectrum as an axis. This creates four quadrants, each of which we can associate with a type of behavior by countries. While individual countries rarely fit neatly into one of these categories, this gives us a general framework within which we can describe geopolitical actions."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 16.1: Archetypes of Globalization and Cooperation"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/b7b0a9e49d16445162d8.png",
+          "alt": "Equation, table, or diagram: Figure 16.1: Archetypes of Globalization and Cooperation",
+          "width": 508,
+          "height": 319,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Characteristics we may associate with each of these categories are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Autarky (noncooperation and nationalism) refers to a goal of national self-reliance, including producing most or all necessary goods and services domestically. Autarky is often associated with a state-dominated society in general, with attributes such as government control of industry and media. Hegemony (noncooperation and globalization) refers to countries that are open to globalization but have the size and scale to influence other countries without necessarily cooperating. Bilateralism (cooperation and nationalism) refers to cooperation between two countries. A country that engages in bilateralism may have many such relationships with other countries while tending not to involve itself in multicountry arrangements. Multilateralism (cooperation and globalization) refers to countries that engage extensively in international trade and other forms of cooperation with many other countries. Some countries may exhibit regionalism, cooperating multilaterally with nearby countries but less so with the world at large."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the nonstate actors within a country may be more oriented toward globalization than their governments. Businesses may look outside their home country for opportunities to increase profits, reduce costs, and sell to new markets. Investors may seek higher returns or diversification by investing outside their home country. Nonstate actors might buy and sell foreign securities (portfolio investment flows) or own physical production capacity in other countries (foreign direct investment)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "16.c",
+          "text": "What should we know about functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,?"
+        },
+        {
+          "type": "heading",
+          "text": "and the World Trade Organization."
+        },
+        {
+          "type": "paragraph",
+          "text": "Perhaps the best way to understand the roles of the organizations designed to facilitate trade is to examine their own statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following is according to the International Monetary Fund (IMF) (more available at www.IMF.org):"
+        },
+        {
+          "type": "paragraph",
+          "text": "Article I of the Articles of Agreement sets out the IMF’s main goals:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Promoting international monetary cooperation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Facilitating the expansion and balanced growth of international trade Promoting exchange stability Assisting in the establishment of a multilateral system of payments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Making resources available (with adequate safeguards) to members experiencing balance of payments difficulties"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following is according to the World Bank (www.worldbank.org):"
+        },
+        {
+          "type": "paragraph",
+          "text": "The World Bank is a vital source of financial and technical assistance to developing countries around the world. Our mission is to fight poverty with passion and professionalism for lasting results and to help people help themselves and their environment by providing resources, sharing knowledge, building capacity, and forging partnerships in the public and private sectors."
+        },
+        {
+          "type": "paragraph",
+          "text": "We are not a bank in the common sense; we are made up of two unique development institutions owned by 187 member countries: the International Bank for Reconstruction and Development (IBRD) and the International Development Association (IDA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Each institution plays a different but collaborative role in advancing the vision of inclusive and sustainable globalization. The IBRD aims to reduce poverty in middle-income and creditworthy poorer countries, while IDA focuses on the world’s poorest countries."
+        },
+        {
+          "type": "paragraph",
+          "text": "[…] Together, we provide low-interest loans, interest-free credits, and grants to developing countries for a wide array of purposes that include investments in education, health, public administration, infrastructure, financial and private sector development, agriculture, and environmental and natural resource management. The following is according to the World Trade Organization (WTO) (more available at www.WTO.org):"
+        },
+        {
+          "type": "paragraph",
+          "text": "The World Trade Organization (WTO) is the only international organization dealing with the global rules of trade between nations. Its main function is to ensure that trade flows as smoothly, predictably, and freely as possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "[…] Trade friction is channeled into the WTO’s dispute settlement process where the focus is on interpreting agreements and commitments, and how to ensure that countries’ trade policies conform with them. That way, the risk of disputes spilling over into political or military conflict is reduced."
+        },
+        {
+          "type": "paragraph",
+          "text": "[…] At the heart of the system—known as the multilateral trading system—are the WTO’s agreements, negotiated and signed by a large majority of the world’s trading nations, and ratified in their parliaments. These agreements are the legal ground-rules for international commerce. Essentially, they are contracts, guaranteeing member countries important trade rights. They also bind governments to keep their trade policies within agreed limits to everybody’s benefit."
+        },
+        {
+          "type": "question",
+          "objectiveId": "16.d",
+          "text": "What should we know about geopolitical risk?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geopolitical risk is the possibility of events that interrupt peaceful international relations. We can classify geopolitical risk into three types:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Event risk refers to events about which we know the timing but not the outcome,"
+        },
+        {
+          "type": "paragraph",
+          "text": "such as national elections."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Exogenous risk refers to unanticipated events, such as outbreaks of war or"
+        },
+        {
+          "type": "paragraph",
+          "text": "rebellion.\n3. Thematic risk refers to known factors that have effects over long periods, such as"
+        },
+        {
+          "type": "paragraph",
+          "text": "human migration patterns or cyber risks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Geopolitical risk affects investment values by increasing or decreasing the risk premium investors require to hold assets in a country or region. To forecast the effect on investments of a geopolitical risk, we need to consider its probability (likelihood), the magnitude of its effects on investment outcomes (impact), and how quickly investment values would reflect these effects (velocity)."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use our framework of cooperation and globalization to help estimate the likelihood of geopolitical risk. Countries that are more cooperative and globalized tend to have less likelihood of some geopolitical risks, such as armed conflict, but may have greater likelihood of other risks, such as the supply chain disruptions that followed the COVID-19 pandemic in 2020 and 2021."
+        },
+        {
+          "type": "paragraph",
+          "text": "To analyze the velocity of geopolitical risk, we can classify risks as high velocity (short term), medium velocity, or low velocity (long term). Exogenous risks often have high-velocity effects on financial markets and investment values. Black swan risk is a term for the risk of low-likelihood exogenous events that have substantial short-term effects. Investors with longer time horizons typically do not need to react to these kinds of events, but investors with shorter horizons might find it necessary to react."
+        },
+        {
+          "type": "paragraph",
+          "text": "Medium-velocity risks can potentially damage specific companies or industries by increasing their costs or disrupting their production processes, while low-velocity risks tend to affect them in the “environmental, social, and governance” realm. Analyzing these kinds of risk is important for investors with long time horizons."
+        },
+        {
+          "type": "question",
+          "objectiveId": "16.e",
+          "text": "What should we know about tools of geopolitics and their impact on regions and economies?"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can consider tools of geopolitics, the means by which (primarily) state actors advance their interests in the world, as falling into three broad categories of national security, economic, and financial."
+        },
+        {
+          "type": "paragraph",
+          "text": "National security tools may include armed conflict, espionage, or bilateral or multilateral agreements designed to reinforce or prevent armed conflict. We can say a national security tool is active if a country is currently using it or threatened if a country is not currently using it but appears likely to do so. Armed conflict affects regions and economies by destroying productive capital and causing migration away from areas of conflict."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economic tools can be cooperative or noncooperative. Examples of cooperative economic tools include free trade areas, common markets, and economic and monetary unions (each of which we describe in our reading on international trade and capital flows). Examples of noncooperative economic tools include domestic content requirements, voluntary export restraints, and nationalization (i.e., the state taking control) of companies or industries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial tools include foreign investment and the exchange of currencies. We can view countries as using these tools cooperatively if they allow foreign investment and the free exchange of currencies, or noncooperatively when they restrict these activities. Sanctions, or restrictions on a specific geopolitical actor’s financial interests, are a financial tool that state actors may use alongside national security tools."
+        },
+        {
+          "type": "question",
+          "objectiveId": "16.f",
+          "text": "What should we know about the impact of geopolitical risk on investments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because analyzing geopolitical risks requires effort, time, and resources, investors should consider whether the impact of geopolitical risk is likely to be high or low, and focus their analysis on risks that could have a high impact. With regard to those risks, investors should determine whether they are likely to have discrete impacts on a company or industry or broad impacts on a country, a region, or the world. Business cycles can affect the impact of geopolitical risk, in that these risks may have greater impacts on investment values when an economy is in recession than they would have during an expansion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors can use qualitative or quantitative scenario analysis to gauge the potential effects of geopolitical risks on their portfolios. To help identify geopolitical risks over time, investors may identify signposts, or data that can signal when the likelihood of an event is increasing or decreasing, such as volatility indicators in financial markets."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "16.a",
+      "text": "What should we know about geopolitics from a cooperation versus competition perspective?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Geopolitics refers to interactions among nations. On various issues ranging from diplomacy and military force to economic or cultural openness, countries lie along a spectrum from cooperative to noncooperative."
+    },
+    {
+      "type": "question",
+      "objectiveId": "16.b",
+      "text": "What should we know about geopolitics and its relationship with globalization?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Globalization refers to integration of economic activity and cultures among countries, and can be contrasted with nationalism, which refers to a country pursuing its own interests independently of other countries. Analysts should view geopolitical actions as being on a spectrum from nationalism to globalization."
+    },
+    {
+      "type": "paragraph",
+      "text": "We may describe geopolitics and its relationship with globalization using the following four broad categories: autarky (noncooperation and nationalism), hegemony (noncooperation and globalization), bilateralism (cooperation and nationalism), and multilateralism (cooperation and globalization)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "16.c",
+      "text": "What should we know about functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The International Monetary Fund facilitates trade by promoting international monetary cooperation and exchange rate stability, assists in setting up international payments systems, and makes resources available to member countries with balance of payments problems."
+    },
+    {
+      "type": "paragraph",
+      "text": "The World Bank provides low-interest loans, interest-free credits, and grants to developing countries for many specific purposes. It also provides resources and knowledge and helps form private/public partnerships with the overall goal of fighting poverty."
+    },
+    {
+      "type": "paragraph",
+      "text": "The World Trade Organization has the goal of ensuring that trade flows freely and works smoothly. Its main focus is on instituting, interpreting, and enforcing numerous multilateral trade agreements that detail global trade policies for a large majority of the world’s trading nations."
+    },
+    {
+      "type": "question",
+      "objectiveId": "16.d",
+      "text": "What should we know about geopolitical risk?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Categories of geopolitical risk are event risk (when the timing is known), exogenous risk (unanticipated events), and thematic risk (known factors that have long-term effects)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "16.e",
+      "text": "What should we know about tools of geopolitics and their impact on regions and economies?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tools of geopolitics include national security tools, economic tools, and financial tools."
+    },
+    {
+      "type": "paragraph",
+      "text": "National security tools may include armed conflict, espionage, or bilateral or multilateral national security agreements."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cooperative economic tools include free trade areas, common markets, and economic and monetary unions. Noncooperative economic tools include domestic content"
+    },
+    {
+      "type": "paragraph",
+      "text": "requirements, voluntary export restraints, and nationalization."
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial tools include foreign investment, exchange of currencies, and sanctions."
+    },
+    {
+      "type": "question",
+      "objectiveId": "16.f",
+      "text": "What should we know about the impact of geopolitical risk on investments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investors should analyze the likelihood of a geopolitical risk, the impact on investment values of an event if it occurs, and the velocity with which it would affect investment values."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "16.a",
+      "statement": "Describe geopolitics from a cooperation versus competition perspective.",
+      "question": "What should we know about geopolitics from a cooperation versus competition perspective?"
+    },
+    {
+      "id": "16.b",
+      "statement": "Describe geopolitics and its relationship with globalization.",
+      "question": "What should we know about geopolitics and its relationship with globalization?"
+    },
+    {
+      "id": "16.c",
+      "statement": "Describe functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,",
+      "question": "What should we know about functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,?"
+    },
+    {
+      "id": "16.d",
+      "statement": "Describe geopolitical risk.",
+      "question": "What should we know about geopolitical risk?"
+    },
+    {
+      "id": "16.e",
+      "statement": "Describe tools of geopolitics and their impact on regions and economies.",
+      "question": "What should we know about tools of geopolitics and their impact on regions and economies?"
+    },
+    {
+      "id": "16.f",
+      "statement": "Describe the impact of geopolitical risk on investments.",
+      "question": "What should we know about the impact of geopolitical risk on investments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-16-quiz-1",
+      "title": "Knowledge check 16.1",
+      "moduleId": "16.1",
+      "questions": [
+        {
+          "id": "r16-q1",
+          "number": 1,
+          "objectiveIds": [
+            "16.b"
+          ],
+          "prompt": "A state actor that is generally cooperative with other countries and primarily nationalist in pursuing its objectives is most accurately said to exhibit:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "autarky."
+            },
+            {
+              "id": "B",
+              "text": "hegemony."
+            },
+            {
+              "id": "C",
+              "text": "bilateralism."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Bilateralism is characterized by nationalism (as contrasted with globalization) and cooperation. Both autarky and hegemony are characterized by noncooperation.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Bilateralism is characterized by nationalism (as contrasted with globalization)"
+            },
+            {
+              "type": "paragraph",
+              "text": "and cooperation. Both autarky and hegemony are characterized by noncooperation."
+            }
+          ]
+        },
+        {
+          "id": "r16-q2",
+          "number": 2,
+          "objectiveIds": [
+            "16.e"
+          ],
+          "prompt": "Which of the following tools of geopolitics is best described as a noncooperative economic tool?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Voluntary export restraints."
+            },
+            {
+              "id": "B",
+              "text": "Regional free trade agreements."
+            },
+            {
+              "id": "C",
+              "text": "Restrictions on conversion of currencies."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Voluntary export restraints (exporting less of a good than the global market demands) are an example of a noncooperative economic tool. Restrictions on the exchange of currencies are a financial tool. Free trade agreements are a cooperative economic tool.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Voluntary export restraints (exporting less of a good than the global market"
+            },
+            {
+              "type": "paragraph",
+              "text": "demands) are an example of a noncooperative economic tool. Restrictions on the exchange of currencies are a financial tool. Free trade agreements are a cooperative economic tool."
+            }
+          ]
+        },
+        {
+          "id": "r16-q3",
+          "number": 3,
+          "objectiveIds": [
+            "16.d"
+          ],
+          "prompt": "When investing for a long time horizon, a portfolio manager should most likely devote resources to analyzing:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "event risks."
+            },
+            {
+              "id": "B",
+              "text": "thematic risks."
+            },
+            {
+              "id": "C",
+              "text": "exogenous risks."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Thematic risks are those that have effects over the long term. Event risks and exogenous risks are more likely to have high-velocity impacts on investment values, but they are less of a focus for investors with longer time horizons.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Thematic risks are those that have effects over the long term. Event risks and"
+            },
+            {
+              "type": "paragraph",
+              "text": "exogenous risks are more likely to have high-velocity impacts on investment values, but they are less of a focus for investors with longer time horizons."
+            }
+          ]
+        },
+        {
+          "id": "r16-q4",
+          "number": 4,
+          "objectiveIds": [
+            "16.c"
+          ],
+          "prompt": "Which international organization is primarily concerned with providing economic assistance to developing countries?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "World Bank."
+            },
+            {
+              "id": "B",
+              "text": "World Trade Organization."
+            },
+            {
+              "id": "C",
+              "text": "International Monetary Fund."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The World Bank provides technical and financial assistance to economically developing countries. The World Trade Organization is primarily concerned with settling disputes among countries concerning international trade. The International Monetary Fund promotes international trade and exchange rate stability and assists member countries that experience balance of payments trouble.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The World Bank provides technical and financial assistance to economically"
+            },
+            {
+              "type": "paragraph",
+              "text": "developing countries. The World Trade Organization is primarily concerned with settling disputes among countries concerning international trade. The International Monetary Fund promotes international trade and exchange rate stability and assists member countries that experience balance of payments trouble."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

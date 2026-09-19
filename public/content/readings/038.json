@@ -1,0 +1,609 @@
+{
+  "readingId": 38,
+  "title": "Introduction to Financial Statement Modeling",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "38.1",
+      "title": "Financial Statement Modeling",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "38.a",
+          "text": "How can we demonstrate the development of a sales-based pro forma company model?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A sales-based pro forma company model consists of projected future financial statements, based on an analyst’s estimate of a company’s future revenues. We summarize the steps in creating such a model here. In our Equity Investments reading on Company Analysis: Forecasting, we will describe some of these steps in more detail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: Estimate revenue growth and future revenue, based on market growth and"
+        },
+        {
+          "type": "paragraph",
+          "text": "market share, a trend growth rate, or growth relative to GDP. Step 2: Estimate COGS based on a percentage of sales, or on a more detailed method"
+        },
+        {
+          "type": "paragraph",
+          "text": "based on business strategy or competitive environment. Step 3: Estimate SG&A as either fixed, growing with revenue, or using some other"
+        },
+        {
+          "type": "paragraph",
+          "text": "estimation technique. Step 4: Estimate financing costs using interest rates, debt levels, and the effects of any"
+        },
+        {
+          "type": "paragraph",
+          "text": "large anticipated increases or decreases in capital expenditures or anticipated changes in financial structure. Step 5: Estimate income tax expense and cash taxes using historical effective rates and"
+        },
+        {
+          "type": "paragraph",
+          "text": "trends, segment information for different tax jurisdictions, and anticipated growth in high- and low-tax segments, taking into account changes in deferred tax items. Step 6: Model the balance sheet based on items that flow from the income statement"
+        },
+        {
+          "type": "paragraph",
+          "text": "(working capital accounts). Step 7: Use depreciation and capital expenditures (for maintenance and for growth) to"
+        },
+        {
+          "type": "paragraph",
+          "text": "estimate capital expenditures and net PP&E for the balance sheet. Step 8: Use the completed pro forma income statement and balance sheet to construct a"
+        },
+        {
+          "type": "paragraph",
+          "text": "pro forma cash flow statement."
+        },
+        {
+          "type": "question",
+          "objectiveId": "38.b",
+          "text": "How can we explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Like everyone, those in the financial industry are prone to behavioral biases. For analysts, these biases can result in inaccurate forecasts."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Overconfidence bias. This is having too much faith in one’s own work. Analysts may"
+        },
+        {
+          "type": "paragraph",
+          "text": "underestimate their forecasting errors; hence, they have a narrower confidence interval for their forecasts than warranted. Research has shown that analysts who “go against the grain” (i.e., forecasting what others are not) are more likely to suffer from overconfidence bias. This bias may be mitigated by sharing forecasts and soliciting critique. Analysts should evaluate their past forecasts and learn from their own forecasting errors, which should lead to a widening of their confidence intervals. Using scenario analysis to produce a range of forecasts may help to identify any shortcomings."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Illusion of control bias. This is related to overconfidence, but refers specifically to"
+        },
+        {
+          "type": "paragraph",
+          "text": "overestimating what an analyst can control and trying to control things an analyst cannot control. This bias is manifested in two primary ways: seeking “expert” opinions to justify a forecast, and making a model more complex (e.g., by including more independent variables). Overfitted models perform poorly out of sample and can also conceal assumptions that need to be updated based on new information. Illusion of control can be mitigated by focusing only on variables with known explanatory power, and by seeking outside opinions only from those who have a relevant perspective.\n3. Conservatism bias. This is also called anchoring, where the analyst makes only"
+        },
+        {
+          "type": "paragraph",
+          "text": "small adjustments to their prior forecasts when new information becomes available. Usually, conservatism results in reluctance to incorporate new negative information; however, it could also lead to lags in incorporating positive news. Mitigating this bias requires periodic evaluation of forecasting errors, and using simpler models that are easier to adjust for new or changed assumptions."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Representativeness bias. This bias occurs due to a tendency to rely on known"
+        },
+        {
+          "type": "paragraph",
+          "text": "classifications. Sometimes, new information may only be superficially similar to a known classification but may be better viewed from a fresh perspective. One common form of representativeness bias is base-rate neglect, where an observation’s membership (its base rate, or rate of incidence in a larger population) is neglected in favor of situation or member-specific information. Fixating on a firm’s company-specific factors is known as the inside view, while viewing the company as a member of a particular industry (focusing on the base rate) is sometimes known as the outside view. Analysts should consider both inside and outside views to generate forecasts.\n5. Confirmation bias. Confirmation bias causes an analyst to seek out (or pay attention"
+        },
+        {
+          "type": "paragraph",
+          "text": "to) data that affirms their earlier convictions, and to disregard or underestimate information that calls those opinions into question. For example, an analyst who has a positive view of a particular company may choose to discuss the firm with colleagues who share the same point of view. Two ways to reduce confirmation bias are to keep abreast of research from analysts who have an opposite view, and to seek"
+        },
+        {
+          "type": "paragraph",
+          "text": "out the points of view of colleagues who have no emotional investment in the opinion. Analysts should also be aware of their own confirmation bias when they evaluate a company management’s representations. Managements tend to portray their companies in a positive way, and analysts who have (or want to have) positive outlooks on companies must be careful not to simply take management’s comments at face value."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The focus here is on how behavioral biases affect analysts. We will revisit these biases in the context of investors’ behavior in the Portfolio Management topic area."
+        },
+        {
+          "type": "question",
+          "objectiveId": "38.c",
+          "text": "How can we explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The competitive environment that a firm operates in and how successful it is in that environment are key in determining the firm’s future financial results. There are no formulas for, or clear rules about, how a firm’s competitive environment affects its future revenue and costs, but a firm’s future competitive success is possibly the most important factor in its future revenue and profitability."
+        },
+        {
+          "type": "paragraph",
+          "text": "Porter’s five forces are a framework analysts commonly use to evaluate a company’s competitive position. We will introduce them here and describe them further in our Equity Investments reading on Industry and Competitive Analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Companies have more pricing power when the threat of substitute products is low"
+        },
+        {
+          "type": "paragraph",
+          "text": "and switching costs are high. They have less pricing power when good substitutes are or may become available, and when it is less costly for customers to switch to those products.\n2. Companies have more pricing power when the intensity of industry rivalry is low,"
+        },
+        {
+          "type": "paragraph",
+          "text": "and less pricing power when competitive intensity is high. Industry rivalry tends to be more intense when an industry has many competitors (is less concentrated), when fixed costs and exit barriers are high, when industry growth is slow or negative, and when products are not differentiated significantly."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Pressure on a company’s costs may be higher, and its prospects for earnings growth"
+        },
+        {
+          "type": "paragraph",
+          "text": "lower, when the bargaining power of suppliers is high. If suppliers are few, they may be able to extract a larger portion of any value added.\n4. Companies have less pricing power when the bargaining power of customers is"
+        },
+        {
+          "type": "paragraph",
+          "text": "higher, especially if a small number of customers are responsible for a large proportion of a firm’s sales, or if switching costs are low.\n5. Companies have more pricing power and better prospects for earnings growth when"
+        },
+        {
+          "type": "paragraph",
+          "text": "the threat of new entrants is low. Significant barriers to entry into an industry make it possible for existing companies to sustain economic profits over time."
+        },
+        {
+          "type": "question",
+          "objectiveId": "38.d",
+          "text": "How can we explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Input costs can be significant in many industries. The cost of jet fuel in the airline industry, the cost of grains to cereal and baking companies, and the cost of coffee beans to coffee shops are all variable. Changes in these costs can significantly affect earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies with commodity-type inputs can hedge their exposure to changes in input prices through derivatives, or more simply through fixed-price contracts for future delivery. Such hedging will reduce the effect of short-term changes in input prices and increase the time until longer-term price changes affect costs and earnings. Companies that are vertically integrated (in effect, their own suppliers) are relatively less exposed to input cost risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a company that neither hedges input price exposure nor is vertically integrated, the issue for an analyst is to determine how rapidly, and to what extent, an increase in costs can be passed on to customers, as well as the expected effect of price increases on sales volume and sales revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should monitor a company’s production costs by product category and geographic location, with a focus on the significant factors that affect input prices, such as weather, government regulation and taxation, tariffs, and the characteristics of input markets. It may be that a firm can reduce the impact of an increase in an input price by switching to a substitute input; for example, rising oil prices may lead power generation firms to switch from oil to natural gas."
+        },
+        {
+          "type": "paragraph",
+          "text": "When estimating the effects of an increase in input prices, an analyst must make assumptions about the company’s pricing strategy and the effects of price increases on unit sales. When increases in input costs are thought to be temporary, a company may cut other costs (e.g., advertising expenses) to preserve operating margins. This strategy is, however, not appropriate for long-term increases in input costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "The effects of raising a product’s price depend on its elasticity of demand. For most firms, product demand is relatively elastic. With elastic demand, the percentage reduction in unit sales is greater than the percentage increase in price, and a price increase will decrease total sales revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elasticity of demand is most affected by the availability of substitute products. In a competitive industry, the pricing decisions of other firms in the industry can affect the market shares of its competitors. A company that is the first to increase prices in response to increased costs will experience a greater decrease in unit sales than a company that increases prices after other firms have already done so. A firm may decide to delay increasing prices to gain market share when other firms increase prices in response to increased costs. Firms that are too quick to increase prices will experience declining sales volumes, while firms that are slow to increase prices will experience declining gross margins."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the money amount of the increase in cost per unit is added to product price and unit sales do not decrease (this is unlikely), the amount of operating profit is unchanged, but gross margins, operating margins, and net margins will decrease."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Effect of price inflation on gross profits, gross margins, and operating"
+        },
+        {
+          "type": "heading",
+          "text": "margins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alfredo, Inc., sells a specialized network component. The firm’s income statement for the past year follows."
+        },
+        {
+          "type": "heading",
+          "text": "Alfredo, Inc., Income Statement for the Year Ended 20X1"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l l l l} \\hline{{\\mathrm{Revenues} \\qquad}} & {{\\quad1 , 000 \\oplus5100 \\qquad}} & {{\\quad5100 , 000}} \\\\ {{\\mathrm{COGS} \\qquad}} & {{\\quad1 , 000 \\oplus540 \\qquad}} & {{\\quad540 , 000}} \\\\ {{\\mathrm{Gross~profit} \\qquad}} & {{\\quad}} & {{\\quad\\quad560 , 000}} \\\\ {{\\mathrm{SGGEA} \\qquad}} & {{\\quad}} & {{\\quad}} & {{\\quad830 , 000}} \\end{array}\\\\[6pt]\\mathrm{Operating~profit} \\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\underline{{{\\$30 , 000}}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "a6c13866e56f12a68e5a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "For 20X2, the input costs (COGS) will increase by $5 per unit.\n1. Calculate the gross margin and operating margin for Alfredo, Inc., for 20X1.\n2. Calculate the 20X2 gross margin and operating margin assuming the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. The entire increase in input cost is passed on to the customers through an equal"
+        },
+        {
+          "type": "paragraph",
+          "text": "increase in selling price. The number of units sold is not affected. b. The selling price is increased by 5% and the number of units sold decreases by"
+        },
+        {
+          "type": "paragraph",
+          "text": "5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "c. The selling price is increased by 5% and the number of units sold decreases by"
+        },
+        {
+          "type": "paragraph",
+          "text": "10%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. gross margin = gross profit / sales = $60,000 / $100,000 = 60%"
+        },
+        {
+          "type": "paragraph",
+          "text": "operating margin = operating profit / sales = $30,000 / $100,000 = 30%"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. a. 20X2, given an increase in unit price by $5 and no change in units sold:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3ad166e8f69d389954ed.png",
+          "alt": "Equation, table, or diagram: 2. a. 20X2, given an increase in unit price by $5 and no change in units sold:",
+          "width": 362,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "gross margin = gross profit / sales = $60,000 / $105,000 = 57%"
+        },
+        {
+          "type": "paragraph",
+          "text": "operating margin = operating profit / sales = $30,000 / $105,000 = 29%"
+        },
+        {
+          "type": "paragraph",
+          "text": "a. 20X2, given an increase in unit price by $5 and a decrease of 50 in units sold:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a414e01d34293345478a.png",
+          "alt": "Equation, table, or diagram: a. 20X2, given an increase in unit price by $5 and a decrease of 50 in units sold:",
+          "width": 367,
+          "height": 159,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "gross margin = gross profit / sales = $57,000 / $99,750 = 57%"
+        },
+        {
+          "type": "paragraph",
+          "text": "operating margin = operating profit / sales = $27,000 / $99,750 = 27%"
+        },
+        {
+          "type": "paragraph",
+          "text": "c. 20X2, given an increase in unit price by $5 and a decrease of 100 in units sold:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/85130fb513dc68f0cbda.png",
+          "alt": "Equation, table, or diagram: c. 20X2, given an increase in unit price by $5 and a decrease of 100 in units sold:",
+          "width": 382,
+          "height": 161,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "gross margin = gross profit / sales = $54,000 / $94,500 = 57%"
+        },
+        {
+          "type": "paragraph",
+          "text": "operating margin = operating profit / sales = $24,000 / $94,500 = 25%"
+        },
+        {
+          "type": "question",
+          "objectiveId": "38.e",
+          "text": "How can we explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a buy-side analyst, the appropriate forecast horizon may simply be the expected holding period for a stock. For example, a portfolio with a 25% annual turnover has an average holding period of four years, so four years may be the most appropriate forecast horizon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Highly cyclical companies present difficulties when choosing a forecast horizon. The horizon should be long enough that the effects of the current phase of the economic cycle are not driving above-trend or below-trend earnings effects. The forecast horizon should be long enough to include the middle of a business cycle so the analyst’s forecast includes a midcycle level of sales and profits. Normalized earnings are expected midcycle earnings or, alternatively, expected earnings when the current (temporary) effects of events or cyclicality are no longer affecting earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Events such as acquisitions, mergers, or restructurings should be considered temporary. The forecast horizon should be long enough that the perceived benefits of such events can be realized (or not)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It may also be the case that the forecast horizon is dictated by an analyst’s manager."
+        },
+        {
+          "type": "paragraph",
+          "text": "For earnings projections beyond the short term, one method of forecasting future financial results is to assume that a trend growth rate of revenue over the previous cycle will continue. An analyst can estimate pro forma financial results based on the projection of each future period’s revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst will typically value a stock using earnings or some measure of cash flow over a forecast period, along with the stock’s terminal value at the end of the forecast horizon. This terminal value is usually estimated using either a relative valuation (i.e., price multiple) approach or a discounted cash flow approach."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We will describe these approaches to estimating stock values in our Equity Investments reading on Equity Valuation: Concepts and Basic Tools."
+        },
+        {
+          "type": "paragraph",
+          "text": "When using a multiples approach, an analyst must ensure that the multiple used is consistent with the estimate of the company’s growth rate and required rate of return. Using the average P/E ratio for the company over the last 10 years, for example, presupposes that the growth in earnings and required rate of return of the stock will be, on average, the same in the future as it was over the previous 10 years."
+        },
+        {
+          "type": "paragraph",
+          "text": "When using a discounted cash flow approach to estimate the terminal value, two key inputs are a cash flow or earnings measure and an expected future growth rate. The expected earnings or cash flow should be normalized to a midcycle value that is not affected by temporary events. Because the terminal value is calculated as the present value of a perpetuity, small changes in the estimated (perpetual) growth rate of future earnings or cash flows can have large effects on estimated terminal values—and, hence, the current stock value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Assuming that growth in future profitability will be the same as average profitability growth in the past may not be justified. A difficult part of an analyst’s job is recognizing inflection points, those instances when the future will not be like the past. Examples of inflection points include changes in the economic environment or business cycle stage, government regulations, or technology."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "38.a",
+      "text": "How can we demonstrate the development of a sales-based pro forma company model?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Developing sales-based pro forma financial statements includes the following steps:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 1: Estimate revenue growth and future expected revenue. Step 2: Estimate COGS. Step 3: Estimate SG&A. Step 4: Estimate financing costs. Step 5: Estimate income tax expense and cash taxes, taking into account changes in"
+    },
+    {
+      "type": "paragraph",
+      "text": "deferred tax items. Step 6: Model the balance sheet based on items that flow from the income statement"
+    },
+    {
+      "type": "paragraph",
+      "text": "and estimates for important working capital accounts. Step 7: Use historical depreciation and capital expenditures to estimate future capital"
+    },
+    {
+      "type": "paragraph",
+      "text": "expenditures and net PP&E for the balance sheet. Step 8: Use the completed pro forma income statement and balance sheet to construct a"
+    },
+    {
+      "type": "paragraph",
+      "text": "pro forma cash flow statement."
+    },
+    {
+      "type": "question",
+      "objectiveId": "38.b",
+      "text": "How can we explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Behavioral factors may affect analyst’s forecasts:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Overconfidence bias\n2. Illusion of control bias"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Conservatism bias or anchoring\n4. Representativeness bias\n5. Confirmation bias"
+    },
+    {
+      "type": "question",
+      "objectiveId": "38.c",
+      "text": "How can we explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Expectations of a firm’s future competitive success are important factors in forecasting future revenue and financial statements. An analyst can evaluate the competitive position of a company based on Porter’s five forces:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Companies have less (more) pricing power when the threat of substitute products is"
+    },
+    {
+      "type": "paragraph",
+      "text": "high (low) and switching costs are low (high).\n2. Companies have less (more) pricing power when the intensity of industry rivalry is"
+    },
+    {
+      "type": "paragraph",
+      "text": "high (low).\n3. Pressure on input costs is higher when the bargaining power of suppliers is high.\n4. Companies have less pricing power when the bargaining power of customers is high."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Companies have more pricing power when the threat of new entrants is low."
+    },
+    {
+      "type": "question",
+      "objectiveId": "38.d",
+      "text": "How can we explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Increases in input costs will increase COGS unless the company has hedged the risk of input price increases with derivatives or contracts for future delivery. Vertically"
+    },
+    {
+      "type": "paragraph",
+      "text": "integrated companies are likely to be less affected by increasing input costs. The effect on sales of increasing product prices to reflect higher COGS will depend on the elasticity of demand for the products and on the timing and amount of competitors’ price increases."
+    },
+    {
+      "type": "question",
+      "objectiveId": "38.e",
+      "text": "How can we explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a buy-side analyst, the appropriate forecast horizon to use may be the expected holding period for a stock."
+    },
+    {
+      "type": "paragraph",
+      "text": "For highly cyclical companies, the forecast horizon should include the middle of a cycle so that the analyst can forecast normalized earnings."
+    },
+    {
+      "type": "paragraph",
+      "text": "Events such as acquisitions, mergers, or restructurings, should be considered temporary. The forecast horizon should be long enough that the perceived benefits of such events can be realized."
+    },
+    {
+      "type": "paragraph",
+      "text": "Earnings projections over a forecast period beyond the short term are often based on the historical average growth rate of revenue over the previous economic cycle."
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst will typically estimate a terminal value for a stock at the end of the forecast horizon, using either a price multiple or a discounted cash flow approach. Small changes in the estimated growth rate of future profits or cash flows can have large effects on the estimated stock value."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "38.a",
+      "statement": "Demonstrate the development of a sales-based pro forma company model.",
+      "question": "How can we demonstrate the development of a sales-based pro forma company model?"
+    },
+    {
+      "id": "38.b",
+      "statement": "Explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases.",
+      "question": "How can we explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases?"
+    },
+    {
+      "id": "38.c",
+      "statement": "Explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs.",
+      "question": "How can we explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs?"
+    },
+    {
+      "id": "38.d",
+      "statement": "Explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation.",
+      "question": "How can we explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation?"
+    },
+    {
+      "id": "38.e",
+      "statement": "Explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon.",
+      "question": "How can we explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-38-quiz-1",
+      "title": "Knowledge check 38.1",
+      "moduleId": "38.1",
+      "questions": [
+        {
+          "id": "r38-q1",
+          "number": 1,
+          "objectiveIds": [
+            "38.b"
+          ],
+          "prompt": "An analyst continues to add independent variables to a forecasting model, even when doing so does not improve its accuracy significantly. The analyst most likely exhibits:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "confirmation bias."
+            },
+            {
+              "id": "B",
+              "text": "illusion of control bias."
+            },
+            {
+              "id": "C",
+              "text": "representativeness bias."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Making a forecasting model overly complex, even when doing so brings no significant improvement, most likely reflects illusion of control bias.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Making a forecasting model overly complex, even when doing so brings no"
+            },
+            {
+              "type": "paragraph",
+              "text": "significant improvement, most likely reflects illusion of control bias."
+            }
+          ]
+        },
+        {
+          "id": "r38-q2",
+          "number": 2,
+          "objectiveIds": [
+            "38.c"
+          ],
+          "prompt": "Which of Porter’s five forces should an analyst focus on when evaluating risks to a company’s input costs?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Threat of new entrants."
+            },
+            {
+              "id": "B",
+              "text": "Intensity of industry rivalry."
+            },
+            {
+              "id": "C",
+              "text": "Bargaining power of suppliers."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Of Porter’s five forces, bargaining power of suppliers has the most direct influence on a company’s input costs. The other four forces more directly affect a company’s pricing power.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Of Porter’s five forces, bargaining power of suppliers has the most direct influence"
+            },
+            {
+              "type": "paragraph",
+              "text": "on a company’s input costs. The other four forces more directly affect a company’s pricing power."
+            }
+          ]
+        },
+        {
+          "id": "r38-q3",
+          "number": 3,
+          "objectiveIds": [
+            "38.e"
+          ],
+          "prompt": "When analyzing a cyclical company, the forecast horizon should include:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a full business cycle."
+            },
+            {
+              "id": "B",
+              "text": "the midpoint of a business cycle."
+            },
+            {
+              "id": "C",
+              "text": "the next change in phase of a business cycle."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The forecast horizon for a cyclical company should include the midpoint of a business cycle, at which the company is expected to produce normalized earnings.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The forecast horizon for a cyclical company should include the midpoint of a"
+            },
+            {
+              "type": "paragraph",
+              "text": "business cycle, at which the company is expected to produce normalized earnings."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

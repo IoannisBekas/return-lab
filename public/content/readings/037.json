@@ -1,0 +1,1860 @@
+{
+  "readingId": 37,
+  "title": "Financial Analysis Techniques",
+  "introduction": [
+    {
+      "type": "heading",
+      "text": "INTRODUCTION"
+    },
+    {
+      "type": "paragraph",
+      "text": "This reading presents a “tool box” for an analyst. It would be nice if you can calculate all these ratios, but it is imperative that you understand what firm characteristic each one is measuring—and even more important that you know whether a higher or lower ratio is better in each instance."
+    },
+    {
+      "type": "paragraph",
+      "text": "Different analysts calculate some ratios differently. It would be helpful if analysts were always careful to distinguish between total liabilities, total interest-bearing debt, long-term debt, and creditor and trade debt, but they do not. Some analysts routinely add deferred tax liabilities to debt or exclude goodwill when calculating assets and equity; others do not. Statistical reporting services almost always disclose how each of the ratios they present was calculated. So do not get too tied up in the details of each ratio, but understand what each one represents and what factors would likely lead to significant changes in a particular ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "The DuPont formulas have been with us for a long time and were in the curriculum way back in the 1980s. Decomposing ROE into its components is an important analytic technique, and it should definitely be in your tool box."
+    }
+  ],
+  "modules": [
+    {
+      "id": "37.1",
+      "title": "Introduction to Financial Ratios",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "37.a",
+          "text": "What should we know about tools and techniques used in financial analysis, including their uses and limitations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the first FSA reading, we were introduced to the six steps of the financial statement analysis framework. We now return to look in more detail at Step 3, which is to “Make any appropriate adjustments to the financial statements. Calculate ratios and perform statistical analysis. Prepare exhibits such as graphs and common-size balance sheets.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "The journey we have taken through the accounting principles, with the focus on areas subject to choice, estimation, and subjectivity, enables us to adjust the financial statements in line with the objectives of our analysis. We can now move on to the calculation of ratios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts use various tools and techniques to convert financial statement data into formats that facilitate analysis. These include ratio analysis, common-size analysis, graphical analysis, and regression analysis."
+        },
+        {
+          "type": "heading",
+          "text": "Ratio Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ratios are useful tools for expressing relationships among data that can be used for internal comparisons and comparisons across firms. They are often most useful in identifying questions that need to be answered, rather than answering questions directly. Specifically, ratios can be used to do the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Project future earnings and cash flow. Evaluate a firm’s flexibility (its ability to grow and meet obligations even when unexpected circumstances arise). Assess management’s performance. Evaluate changes in the firm and industry over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare the firm with industry competitors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts must also be aware of the limitations of ratios, including the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial ratios are not useful when viewed in isolation. They are only informative when compared to those of other firms, or to the company’s historical performance. Comparisons with other companies are made more difficult by different accounting treatments. This is particularly important when comparing U.S. firms to non-U.S. firms. It is difficult to find comparable industry ratios when analyzing companies that operate in multiple industries. Conclusions cannot be made by calculating a single ratio. All ratios must be viewed relative to one another."
+        },
+        {
+          "type": "paragraph",
+          "text": "Determining the target or comparison value for a ratio is difficult, requiring some range of acceptable values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ratios must be evaluated in the context of prior period results, the company’s stated strategy, analyst expectations, the current position in the business cycle, and against other firms in the industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Definitions of ratios can vary widely among the analytical community. For example, some analysts use all liabilities when measuring leverage, while other analysts only use interest-bearing obligations. The important thing is for each individual analyst to use ratios consistently. Analysts must also understand that reasonable values of ratios can differ among industries."
+        },
+        {
+          "type": "heading",
+          "text": "Common-Size Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Common-size statements normalize balance sheets and income statements and allow the analyst to more easily compare performance across firms, and for a single firm over time:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vertical common-size balance sheet expresses all balance sheet accounts as a percentage of total assets."
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{vertical~common-size~balance~sheet~ratios}}={\\frac{\\mathrm{balance~sheet~account}} {\\mathrm{total~assets}}}",
+          "display": true,
+          "sourceAsset": "7c5e48075a564ae2f960.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vertical common-size income statement expresses all income statement items as a percentage of sales."
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{vertical~common-size~income~statement~ratios}}={\\frac{\\mathrm{income~statement~account}} {\\mathrm{sales}}}",
+          "display": true,
+          "sourceAsset": "63c2b2e0a5816f90d366.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to comparisons of financial data across firms and time, common-size analysis is appropriate for quickly viewing certain financial ratios. For example, the gross profit margin, operating profit margin, and net profit margin are all clearly indicated within a common-size income statement. Vertical common-size income statement ratios are especially useful for studying trends in costs and profit margins."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sample common-size statements in Figure 37.1 show balance sheet items as percentages of assets, and income statement items as percentages of sales."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 37.1: Vertical Common-Size Balance Sheet and Income Statement"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a487e195393d5926f459.png",
+          "alt": "Equation, table, or diagram: Figure 37.1: Vertical Common-Size Balance Sheet and Income Statement",
+          "width": 475,
+          "height": 434,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/54183e56771cf041f20a.png",
+          "alt": "Equation, table, or diagram: Figure 37.1: Vertical Common-Size Balance Sheet and Income Statement",
+          "width": 476,
+          "height": 411,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Even a cursory inspection of the income statement in Figure 37.1 can be quite instructive. Beginning at the bottom, we can see that the profitability of the company has increased nicely in 20X6 after falling slightly in 20X5. We can examine the 20X6 income statement values to find the source of this greatly improved profitability. The cost of goods sold seems to be stable, with an improvement (decrease) in 20X6 of only 0.48%. SG&A was down approximately 0.5% as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "These improvements from (relative) cost reduction, however, only begin to explain the 5% increase in the net profit margin for 20X6. Improvements in two items, amortization and interest and other debt expense, appear to be the most significant factors in the firm’s improved profitability in 20X6. Clearly, the analyst must investigate further in both areas to learn whether these improvements represent permanent improvements, or whether these items can be expected to return to previous percentage-of-sales levels in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can also note that interest expense as a percentage of sales was approximately the same in 20X4 and 20X6. We must investigate the reasons for the higher interest costs in 20X5 to determine whether the current level of 2.85% can be expected to continue into the next period. In addition, more than 3% of the 5% increase in net profit margin in 20X6 is due to a decrease in amortization expense. Because this is a noncash expense, the decrease may have no implications for cash flows looking forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "This discussion should make clear that common-size analysis doesn’t tell an analyst the whole story about this company, but it can certainly point the analyst in the right direction to find out the circumstances that led to the increase in the net profit margin —and to determine the effects, if any, on firm cash flow going forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another way to present financial statement data that is quite useful when analyzing trends over time is a horizontal common-size balance sheet or income statement. The divisor here is the first-year values, so they are all standardized to 1.0 by construction. Figure 37.2 illustrates this approach."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 37.2: Horizontal Common-Size Balance Sheet Data"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5ed743d32ffb2b595cd6.png",
+          "alt": "Equation, table, or diagram: Figure 37.2: Horizontal Common-Size Balance Sheet Data",
+          "width": 347,
+          "height": 115,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trends in the values of these items, as well as the relative growth in these items, are readily apparent from a horizontal common-size balance sheet."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have presented data in Figure 37.1 with information for the most recent period on the left, and in Figure 37.2, we have presented the historical values from left to right. Both presentation methods are common, and on the exam, you should pay special attention to which method is used in the data presented for any question."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can view the values in the common-size financial statements as ratios. Net income is shown on the common-size income statement as net income or revenues, which is the net profit margin, and it tells the analyst the percentage of each dollar of sales that remains for shareholders after all expenses related to the generation of those sales are deducted. One measure of financial leverage, long-term debt to total assets, can be read directly from the vertical common-size financial statements. Specific ratios commonly used in financial analysis and the interpretation of their values are covered in detail in this reading."
+        },
+        {
+          "type": "heading",
+          "text": "Graphical Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Graphs can be used to visually present performance comparisons and composition of financial statement elements over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "A stacked column graph (also called a stacked bar graph) shows the changes in items from year to year in graphical form. Figure 37.3 presents such data for a hypothetical corporation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another alternative for graphic presentation of data is a line graph. Figure 37.4 presents the same data as Figure 37.3, but as a line graph. The increase in trade payables and the decrease in cash are evident in either format and would alert the analyst to potential liquidity problems that require further investigation and analysis."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 37.3: Stacked Column (Stacked Bar) Graph"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/f61a2df07126ade2843a.png",
+          "alt": "Equation, table, or diagram: Figure 37.3: Stacked Column (Stacked Bar) Graph",
+          "width": 377,
+          "height": 330,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Figure 37.4: Line Graph"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/738bcc4c48c2bf85ae21.png",
+          "alt": "Equation, table, or diagram: Figure 37.4: Line Graph",
+          "width": 379,
+          "height": 327,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Regression Analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "Regression analysis can be used to identify relationships between variables. The results are often used for forecasting. For example, an analyst might use the relationship between GDP and sales to prepare a sales forecast."
+        }
+      ]
+    },
+    {
+      "id": "37.2",
+      "title": "Financial Ratios, Part 1",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "37.b",
+          "text": "How do we calculate and interpret activity, liquidity, solvency, and profitability ratios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial ratios can be segregated into different classifications by the type of information about the company they provide. Here are such classifications:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Activity ratios. This category includes several ratios also referred to asset utilization or turnover ratios (e.g., inventory turnover, receivables turnover, and total assets turnover). They often give indications of how well a firm uses various assets, such as inventory and fixed assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity ratios. Liquidity, here, refers to the ability to pay short-term obligations as they come due."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solvency ratios. Solvency ratios give the analyst information on the firm’s financial leverage and ability to meet its longer-term obligations. Profitability ratios. Profitability ratios provide information on how well the company generates operating profits and net profits from its sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "It should be noted that these categories are not mutually exclusive. For example, an activity ratio, such as payables turnover, may also provide information about the liquidity of a company. There is no one standard set of ratios for financial analysis. Different analysts use different ratios and different calculation methods for similar ratios. Some ratios are so commonly used that there is very little variation in how they are defined and calculated. We will note some alternative treatments and alternative terms for single ratios as we detail the commonly used ratios in each category."
+        },
+        {
+          "type": "heading",
+          "text": "Activity Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Activity ratios (also known as asset utilization ratios or operating efficiency ratios) measure how efficiently the firm is managing its assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of accounts receivable turnover is receivables turnover:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{receivables~turnover}}={\\frac{\\mathrm{annual~sales}} {\\mathrm{average~receivables}}}",
+          "display": true,
+          "sourceAsset": "9ef92185ea21fa514620.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "In most cases, when a ratio compares a balance sheet account (such as receivables) with an income or cash flow item (such as sales), the balance sheet item will be the average of the account instead of simply the end-of-year balance. Averages are calculated by adding the beginning-of-year account value to the end-of-year account value, then dividing the sum by two. For companies operating in seasonal industries, averages of beginning and ending values may not give an accurate view of the average balance over the period. In these cases, an analyst would want to include more data points, throughout the year, when computing averages."
+        },
+        {
+          "type": "paragraph",
+          "text": "A high receivables turnover ratio could be the result of doing an excellent job of managing credit terms and collections. On the other hand, it might indicate that a company has stringent credit terms, offers a large discount for early payment, or charges high penalties for late payment. A company that has excessively stringent credit terms will lose sales as a result. Insight into why a company has a high receivables turnover rate can be gained from looking at the company’s revenue growth compared to peers. Slower growth could indicate that credit terms may be too stringent, while a high receivables turnover—together with revenue growth at or above the peer group average—could indicate superior credit terms and collections management. The inverse of the receivables turnover times 365 is the average collection period, or days of sales outstanding, which is the average number of days it takes for the company’s customers to pay their bills:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{days~of~sales~outstanding}=\\frac{365} {\\mathrm{receivables~turnover}}",
+          "display": true,
+          "sourceAsset": "137b665109cfe4f64e18.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of a firm’s efficiency with respect to its processing and inventory management is inventory turnover:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{inventory~turnover}={\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~inventory}}}",
+          "display": true,
+          "sourceAsset": "65d2bf275c4fcdefc07a.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pay careful attention to the numerator in the turnover ratios. For inventory turnover, be sure to use cost of goods sold, not sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory turnover that is high may indicate effective management of inventory, but it could also result from holding inventory levels too low so that sales are lost when orders cannot be filled immediately. A low inventory turnover ratio relative to peers could indicate that some inventory is obsolete and slow-selling. In either case, examining revenue growth relative to peers can provide more insight into whether inventory is well managed or poorly managed. The inverse of the inventory turnover times 365 is the average inventory processing period, number of days of inventory, or days of inventory on hand:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{days~of~inventory~on~hand}=\\frac{365} {\\mathrm{inventory~turnover}}",
+          "display": true,
+          "sourceAsset": "a8cfd8b0bc1551caebb5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of the use of trade credit by the firm is the payables turnover ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{payables~turnover}=\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~trade~payables}}",
+          "display": true,
+          "sourceAsset": "475acbd03e5dd5d7d1e4.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many analysts calculate payables turnover using purchases in the numerator, rather than COGS. Purchases are not typically a financial statement line item, but we can use the inventory equation to calculate them from the financial statements: Purchases = ending inventory − beginning inventory + cost of goods sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "The inverse of the payables turnover ratio multiplied by 365 is the payables payment period or number of days of payables, which is the average amount of time it takes the company to pay its bills:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{number~of~days~of~payables}=\\frac{365} {\\mathrm{payables~turnover~ratio}}",
+          "display": true,
+          "sourceAsset": "0da66a702b3e91c65ed9.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We have shown the days calculations for payables, receivables, and inventory based on annual turnover and a 365-day year. If turnover ratios are for a quarter rather than a year, the number of days in the quarter should be divided by the quarterly turnover ratios to get the “days” form of these ratios."
+        },
+        {
+          "type": "paragraph",
+          "text": "A high payables turnover ratio relative to peers may indicate that a company is not fully taking advantage of supplier credit terms, or that the company is paying suppliers early to take advantage of discounts. A payables turnover rate that is low relative to that of peer companies may indicate that a company is having problems with short-term cash flows—or, alternatively, that a company is simply taking advantage of lenient terms negotiated with suppliers. As with inventory turnover, examining other ratios (in this case, liquidity ratios) can provide insight into which interpretation of a relatively high or low payables turnover ratio is more likely. The effectiveness of the firm’s use of its total assets to create revenue is measured by its total asset turnover:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{total~asset~turnover}={\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}}",
+          "display": true,
+          "sourceAsset": "9d6fdb9aeb7666683b55.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Different types of industries might have considerably different turnover ratios. Manufacturing businesses that are capital intensive might have asset turnover ratios near one, while retail businesses might have turnover ratios near 10. As was the case with the current asset turnover ratios discussed previously, it is desirable for the total asset turnover ratio to be close to the industry norm. Low asset turnover ratios might mean that the company has too much capital tied up in its asset base. A turnover ratio that is too high might imply that the firm has too few assets for potential sales, or that the asset base is outdated."
+        },
+        {
+          "type": "paragraph",
+          "text": "The use of fixed assets is measured by the fixed asset turnover ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{fixed~asset~turnover}=\\frac{\\mathrm{fevenue}} {\\mathrm{average~net~fixed~assets}}",
+          "display": true,
+          "sourceAsset": "13b2cc671486ba4043b0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Low fixed asset turnover might mean that the company has too much capital tied up in its asset base or is using the assets it has inefficiently. A turnover ratio that is too high might imply that the firm has obsolete equipment, or at a minimum, that the firm will probably have to incur capital expenditures in the near future to increase capacity to support growing revenues. Because net here refers to net of accumulated depreciation, firms with more recently acquired assets will typically have lower fixed asset turnover ratios."
+        },
+        {
+          "type": "paragraph",
+          "text": "How effectively a company is using its working capital is measured by the working capital turnover ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{working~capital~turnover}}={\\frac{\\mathrm{fevenue}} {\\mathrm{average~working~capital}}}",
+          "display": true,
+          "sourceAsset": "97023bdade95f1765bcd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Working capital (sometimes called net working capital) is current assets minus current liabilities. The working capital turnover ratio gives us information about the use of working capital in terms of dollars of sales per dollar of working capital. Some firms may have very low working capital if the outstanding payables equal or exceed inventory and receivables. In this case, the working capital turnover ratio will be very large, may vary significantly from period to period, and is less informative about changes in the firm’s operating efficiency."
+        },
+        {
+          "type": "heading",
+          "text": "Liquidity Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity ratios are employed by analysts to determine the firm’s ability to pay its short-term liabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The current ratio is the best-known measure of liquidity:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{current~ratio}={\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}",
+          "display": true,
+          "sourceAsset": "80535e80109baa25ba1a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The higher the current ratio, the more likely it is that the company will be able to pay its short-term bills. A current ratio of less than one means that the company has negative working capital and is probably facing a liquidity crisis. Working capital equals current assets minus current liabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quick ratio is a more stringent measure of liquidity because it does not include inventories and other assets that might not be very liquid:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{quick~ratio}}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}",
+          "display": true,
+          "sourceAsset": "2cb11dd4fd77b7cac280.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The higher the quick ratio, the more likely it is that the company will be able to pay its short-term bills. Marketable securities are short-term debt instruments, typically liquid and of good credit quality. The most conservative liquidity measure is the cash ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{cash~ratio}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}} {\\mathrm{curreat~liabilities}}}",
+          "display": true,
+          "sourceAsset": "394717b83c58f082cf61.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The higher the cash ratio, the more likely that the company will be able to pay its short-term bills. The current, quick, and cash ratios differ only in the assumed liquidity of the current assets that the analyst projects will be used to pay off current liabilities. The defensive interval ratio is another measure of liquidity that indicates the number of days of average cash expenditures the firm could pay with its current liquid assets:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{defensive~interval}}={\\frac{\\operatorname{c a s h}+\\operatorname{m a r k e t a b l e ~ s e c u r i t i e s}+\\operatorname{r e c e i v a b l e s}} {\\operatorname{a v e r a g e ~ d a i l y ~ e x p e n d i t u r e s}}}",
+          "display": true,
+          "sourceAsset": "65bb41c50fc3196402a0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expenditures, here, include cash expenses for costs of goods, SG&A, and research and development. If these items are taken from the income statement, noncash charges such as depreciation should be added back just as in the preparation of a statement of cash flows by the indirect method."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cash conversion cycle (net operating cycle) is the length of time it takes to turn the firm’s cash investment in inventory back into cash, in the form of collections from the sales of that inventory. It measures the time between paying suppliers and receiving cash from customers. The cash conversion cycle is computed from days’ sales outstanding, days of inventory on hand, and number of days of payables:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {r} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\phantom{a a a a a a a a a a a}-\\mathrm{number~of~days~of~payables}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "e8c947293efad5eb6c70.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "High cash conversion cycles are considered undesirable. A conversion cycle that is too high implies that the company has an excessive amount of capital investment in the sales process. If cash is paid to suppliers before cash is received from customers, the company will require short-term financing to cover the period. For some companies, cash might be received from customers before suppliers are paid, which results in a cash conversion cycle that can be used to finance other parts of the business. Companies in this situation can support a current ratio that is less than one."
+        }
+      ]
+    },
+    {
+      "id": "37.3",
+      "title": "Financial Ratios, Part 2",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Solvency Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Solvency ratios measure a firm’s financial leverage and ability to meet its long-term obligations. Solvency ratios include various debt ratios that are based on the balance sheet and coverage ratios that are based on the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of the firm’s use of fixed-cost financing sources is the debt-to-equity ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathsf{d e b t-t o-e q u i t y}}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~shareholders'~equity}}}",
+          "display": true,
+          "sourceAsset": "db12b58e6eb019d8b389.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increases and decreases in this ratio suggest a greater or lesser reliance on debt as a source of financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total debt is calculated differently by different analysts and different providers of financial information. Here, we will define it as interest-bearing long-term and short-term debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some analysts include non-interest-bearing current liabilities, such as trade payables. Others may deduct cash, cash equivalents, and marketable securities from debt to compute net debt."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the exam, all interest-bearing liabilities should be included in the total debt figure unless otherwise specified. Somewhat surprisingly, the Level I CFA curriculum tells us to exclude leases from total debt calculations, despite the fact that leases are interest bearing. No explanation for excluding them is given. For the exam you should follow this approach when calculating total debt, but be aware that this treatment would result in misleadingly low leverage ratios for industries where using high volumes of leased assets is common, such as airlines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another way of looking at the usage of debt is the debt-to-capital ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathsf{d e b t-t o-c a p i t a l}={\\frac{\\mathrm{total\\;debt}} {\\mathrm{total\\;debt+total\\;shareholders\"equity}}}",
+          "display": true,
+          "sourceAsset": "3dcd61786a3104a7fd53.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital equals all short-term and long-term debt plus preferred stock and equity. The ratio shows the proportion of debt in the capital structure of the firm. Increases and decreases in this ratio suggest a greater or lesser reliance on debt as a source of financing. A slightly different way of analyzing debt use is the debt-to-assets ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{debt-to-assets}=\\frac{\\mathrm{total~debt}} {\\mathrm{total~assets}}",
+          "display": true,
+          "sourceAsset": "9c51324757c2ec34eceb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increases and decreases in this ratio suggest a greater or lesser reliance on debt as a source of financing. Another measure that is used as an indicator of a company’s use of debt financing is the financial leverage ratio (or leverage ratio):"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{financial~leverage}}={\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~total~equity}}}",
+          "display": true,
+          "sourceAsset": "8dff3ec36c503cb280ab.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Average, here, means the average of the values at the beginning and at the end of the period. A ratio close to 1 indicates that equity is being used to finance assets. If the ratio increases above 1, it is an indication that debt is being used. Greater use of debt financing increases financial leverage and, typically, risk to equity holders and bondholders alike. The remaining risk ratios help determine the firm’s ability to repay its debt obligations. The first of these is the interest coverage ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{interest~coverage}}={\\frac{\\mathrm{earnings~before~interest~and~taxes}} {\\mathrm{interest~payments}}}",
+          "display": true,
+          "sourceAsset": "324dd3b403a5eaf3ab93.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The lower this ratio, the more likely it is that the firm will have difficulty meeting its debt payments. Because depreciation and amortization are not cash expenses, another ratio that reflects a firm’s ability to meet its debt obligations is the debt-to-EBITDA ratio. The ratio indicates how long it would take to repay current total debt from an approximation of operating cash flow:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathsf{d e b t-t o-E B I T D A=} \\frac{\\mathsf{t o t a l ~ d e b t}} {\\mathsf{E B I T D A}}",
+          "display": true,
+          "sourceAsset": "7afefb7c0aa43c5f8fa5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another indicator of a company’s ability to meet its obligations is the fixed charge coverage ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{fixed~charge~coverage}}={\\frac{\\mathrm{earmings~before~interest~and~taxes}+\\mathrm{lease~payments}} {\\mathrm{interest~payments}}}",
+          "display": true,
+          "sourceAsset": "42c62d9ee0e5f68949e5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Here, lease payments are added back to operating earnings in the numerator. They are also added to interest payments in the denominator. Significant lease obligations will reduce this ratio significantly compared to the interest coverage ratio. Fixed charge coverage is the more meaningful measure for companies that lease a large portion of their assets, such as some airlines. The measure is also useful for U.S. GAAP–based companies with operating leases as currently, unlike finance leases, no interest is recorded in the income statement."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "With all solvency ratios, the analyst must consider the variability of a firm’s cash flows when determining the reasonableness of the ratios. Firms with stable cash flows are usually able to carry more debt."
+        },
+        {
+          "type": "heading",
+          "text": "Profitability Ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Profitability ratios measure the overall performance of the firm relative to revenues, assets, equity, and capital."
+        },
+        {
+          "type": "paragraph",
+          "text": "The net profit margin is the ratio of net income to revenue:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{net~profit~margin}={\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}",
+          "display": true,
+          "sourceAsset": "ab8b24b3e8212c395b79.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should be concerned if this ratio is too low. The net profit margin should be based on net income from continuing operations, because analysts should be"
+        },
+        {
+          "type": "paragraph",
+          "text": "primarily concerned about future expectations. Below-the-line items, such as discontinued operations, will not affect the company in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "Operating profitability ratios look at how good management is at turning their efforts into profits. Operating ratios compare the top of the income statement (sales) to profits. The different ratios are designed to isolate specific costs. The gross profit margin is the ratio of gross profit (sales less cost of goods sold) to sales:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{gross~profit~margin}=\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}",
+          "display": true,
+          "sourceAsset": "ba901238b3e7e64df938.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should be concerned if this ratio is too low. Gross profit can be increased by raising prices or reducing costs. However, the ability to raise prices may be limited by competition."
+        },
+        {
+          "type": "paragraph",
+          "text": "The operating profit margin is the ratio of operating profit (gross profit less selling, general, and administrative expenses) to sales. Operating profit is often approximated as earnings before interest and taxes (EBIT):"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{operating~profit~margin}=\\frac{\\mathrm{operating~income}} {\\mathrm{revenue}} \\, \\mathrm{or} \\, \\frac{\\mathrm{EBIT}} {\\mathrm{revenue}}",
+          "display": true,
+          "sourceAsset": "33fcf80351aa39ab3ba1.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Strictly speaking, EBIT includes some nonoperating items, such as gains on investment. The analyst, as with other ratios with various formulations, must be consistent in his calculation method and know how published ratios are calculated. Analysts should be concerned if this ratio is too low. Some analysts prefer to calculate the operating profit margin by adding back depreciation and any amortization expense to arrive at earnings before interest, taxes, depreciation, and amortization (EBITDA). Sometimes, profitability is measured using earnings before tax (EBT), which can be calculated by subtracting interest from EBIT or from operating earnings. The pretax margin is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{pretax~margin}=\\frac{\\mathrm{EBT}} {\\mathrm{revenue}}",
+          "display": true,
+          "sourceAsset": "89a63574f5b9bf1f0134.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another set of profitability ratios measures profitability relative to funds invested in the company by common stockholders, preferred stockholders, and suppliers of debt financing. The first of these measures is the return on assets (ROA). Typically, ROA is calculated using net income:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROA}={\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}}",
+          "display": true,
+          "sourceAsset": "3dea954f40444ad20c6e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This measure is a bit misleading, however, because interest is excluded from net income, but total assets include debt as well as equity. Adding interest adjusted for tax back to net income puts the returns to both equity holders and debtholders in the numerator. The interest expense that should be added back is gross interest expense, not net interest expense (which is gross interest expense less interest income). This results in an alternative calculation for ROA:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROA}=\\ {\\frac{\\mathrm{net~income}+\\mathrm{interest~expense~(1-tax~rate)}} {\\mathrm{average~total~assets}}}",
+          "display": true,
+          "sourceAsset": "e3e3ee7431b18f3af615.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of ROA that includes both taxes and interest in the numerator is the operating ROA:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{operating~ROA}}={\\frac{\\mathrm{operating~income}} {\\mathrm{average~total~assets}}} \\, {\\mathrm{or~}} \\, {\\frac{\\mathrm{EBIT}} {\\mathrm{average~total~assets}}}",
+          "display": true,
+          "sourceAsset": "7dcdbad499f931d48b72.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Return on invested capital (ROIC), which we described in the Corporate Issuers topic area, is the ratio of after-tax operating profit to average long-term capital:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{a f t e r {-} t a x ~ o p e r a t i n g ~ p r o f i t}} {\\mathrm{a v e r a g e ~ l o n g {-} t e r m ~ c a p i t a l}}}",
+          "display": true,
+          "sourceAsset": "fd4b3738615348379c01.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-term capital includes long-term debt, preferred equity, and common equity, but excludes working capital. Analysts should be concerned if this ratio is too low. The return on equity (ROE), sometimes called return on total equity, is the ratio of net income to average total equity (including preferred stock):"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}={\\frac{\\mathrm{net~income}} {\\mathrm{average~total~equity}}}",
+          "display": true,
+          "sourceAsset": "e48063d67b634894e55d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should be concerned if this ratio is too low. Return on equity is often more thoroughly analyzed using the DuPont decomposition, which we describe later in this reading."
+        },
+        {
+          "type": "paragraph",
+          "text": "A similar ratio to the ROE is the return on common equity:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{return~on~common~equity}} & {{}=\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{average~common~equity}}} \\\\ {} & {{}=\\frac{\\mathrm{net~income~available~to~common}} {\\mathrm{average~common~equity}}} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "ec404a8dec4c6a6a6b76.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This ratio differs from the return on total equity in that it only measures the accounting profits available to, and the capital invested by, common stockholders, instead of common and preferred stockholders. That is why preferred dividends are deducted from net income in the numerator. Analysts should be concerned if this ratio is too low."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "A balance sheet and income statement for Sedgwick Company are shown in the following tables for this year and the previous year."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the company information provided, calculate the following ratios for the current year: current ratio, total asset turnover, net profit margin, return on common equity, and total debt to equity."
+        },
+        {
+          "type": "heading",
+          "text": "Sedgwick Company Balance Sheet"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0441f549559dfa88d182.png",
+          "alt": "Equation, table, or diagram: Sedgwick Company Balance Sheet",
+          "width": 450,
+          "height": 503,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Sedgwick Company Income Statement"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{} & {} & {\\mathrm{Current~Year}} \\\\ \\hline{} & {} & {\\$4 , 000} \\\\ {\\mathrm{Cost~of~goods~sold}} & {} & {\\frac{3 , 000} {3 , 000}} \\\\ {\\mathrm{Gross~profit}} & {} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {\\mathrm{Operating~expenses}} & {\\qquad\\qquad\\underline{{650}}} \\\\ {\\mathrm{Operating~profit}} & {\\qquad\\qquad350} \\\\ {\\mathrm{Interest~expense}} & {\\qquad\\qquad\\underline{{50}}} \\\\ {\\mathrm{Earnings~before~taxes}} & {\\qquad\\qquad300} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c r} {\\mathrm{Taxes}} & {\\qquad} & {\\underline{{100}}} \\\\ {\\mathrm{Net~income}} & {\\qquad} & {\\underline{{200}}} \\\\ {\\mathrm{Common~dividends}} & {\\qquad} & {\\underline{{60}}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "73dc12ecfc35b84f7ec5.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Current ratio}=\\frac{620}{325}=1.9,\\quad\n\\text{Total asset turnover}=\\frac{2{,}060}{(1{,}040+1{,}040)/2}=2.0\\\\\n\\text{Net profit margin}=\\frac{200}{4{,}000}=5.0\\%,\\quad\n\\text{Return on common equity}=\\frac{200}{(1{,}020+880)/2}=21.1\\%\\\\\n\\text{Debt-to-equity ratio}=\\frac{610+160+55}{1{,}020}=80.9\\%\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "54553945c671b82bf0cd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that preferred equity would be included in the denominator if there were any, and that we have included short-term debt and the current portion of long-term debt in calculating total (interest-bearing) debt."
+        },
+        {
+          "type": "question",
+          "objectiveId": "37.c",
+          "text": "What should we know about relationships among ratios and evaluate a company using ratio analysis?"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Relationships among ratios"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst calculates the following activity and liquidity ratios for a company over the last three years:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\begin{array} {l} \\hline{\\phantom{\\qquad} 20 \\mathbf X \\mathbf8} & {20 \\mathbf X 7} & {20 \\mathbf X 6} \\\\ \\hline{\\mathrm{Current~ratio}} \\\\ \\end{array}} & {\\begin{array} {c c c c} {2.0} & {1.5} & {1.2} \\\\ {2.0} & {1.5} & {1.2} \\\\ {0.5} & {0.8} & {1.0} \\\\ {\\mathrm{Days~of~inventory}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Days\"~sales~outstanding~} \\quad20 \\qquad30 \\qquad40\\end{gathered}",
+          "display": true,
+          "sourceAsset": "dd37716ec772b83ad750.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Determine what the analyst should infer from these ratios taken together."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The current ratio has increased over this period, while the quick ratio has decreased. This could result from inventories increasing or from current assets other than inventories decreasing. The increase in days of inventory on hand suggests increasing inventories explain the opposing trends in the current and quick ratios."
+        },
+        {
+          "type": "paragraph",
+          "text": "The decrease in days’ sales outstanding indicates that the company has been collecting cash from customers sooner than it had been in the past. Taken together,"
+        },
+        {
+          "type": "paragraph",
+          "text": "these ratios suggest the company may be accelerating its collections to make up for a drain on cash from poor inventory management."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Using ratios to evaluate a company"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst is comparing the values of several ratios for the current year to their prior-year values, the current industry average values, and industry average ratios for Sedgwick Company. These selected ratio values are shown in the following table."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/62340509398a22ebb7f1.png",
+          "alt": "Equation, table, or diagram: ear to their prior-year values, the current industry average values, and industry average ratios for Sedgwick Company. These selected ratio values are shown in the following table.",
+          "width": 498,
+          "height": 137,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Discuss how these ratios compare with the company’s performance last year and with the industry performance."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the firm’s liquidity (as measured by the current ratio) has decreased over the past year, it remains above the industry average."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total asset turnover has declined over the past year and now appears to be significantly lower than the industry average."
+        },
+        {
+          "type": "paragraph",
+          "text": "Net profit margin is lower than last year and is much lower than the industry average."
+        },
+        {
+          "type": "paragraph",
+          "text": "ROE is lower than last year but still higher than the industry average. Given the decline in net profit margin and total asset turnover, it is likely that higher-than-average financial leverage is the reason for this ROE outperformance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Our supposition about the firm’s financial leverage is confirmed by its debt-to-equity ratios. While the current year’s ratio is lower than last year’s, it is still more than twice the industry average ratio. The significant decrease in the company’s debt-to-equity ratio over the past year suggests the company is trying to get its debt level more in line with the industry average."
+        }
+      ]
+    },
+    {
+      "id": "37.4",
+      "title": "DuPont Analysis",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "37.d",
+          "text": "How can we demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The DuPont system of analysis is an approach that can be used to analyze return on equity (ROE). It uses basic algebra to break down ROE into a function of different ratios, so an analyst can see the impact of leverage, profit margins, and turnover on shareholder returns. There are two variants of the DuPont system: the original three-part approach and the extended five-part system."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the original approach, start with ROE defined as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}={\\frac{\\mathrm{net~income}} {\\mathrm{average~equity}}}",
+          "display": true,
+          "sourceAsset": "61a180c0bdc485b09fa3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Average or year-end values for equity can be used. Multiplying ROE by (average total assets / average total assets) and rearranging terms produces the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)",
+          "display": true,
+          "sourceAsset": "827845f5838d90bbf222.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first term is the ROA, and the second term is a financial leverage ratio that will increase as the use of debt financing increases:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}=\\mathrm{ROA} \\times\\mathrm{financial~leverage}",
+          "display": true,
+          "sourceAsset": "7b4ce61306ec31d57383.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can expand this further by multiplying these terms by (revenue / revenue), and rearranging terms:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\Bigl( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\Bigr) \\Bigl( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{a v e r a g e ~ s t o c k h o l d e r s^{\\prime} ~ e q u i t y}}} \\Bigr)",
+          "display": true,
+          "sourceAsset": "b1d6483d81b2fee21b1a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first term becomes net profit margin, the second term is now total asset turnover, and the third term is still financial leverage:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE=net~profit~margin} \\, \\times\\, \\mathrm{total~asset~turnover} \\, \\times\\, \\mathrm{financial~leverage}",
+          "display": true,
+          "sourceAsset": "7a7a7700c09a6d0922e1.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The leverage ratio is sometimes called the equity multiplier."
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the original DuPont equation. It is arguably the most important equation in ratio analysis because it breaks down a very important ratio (ROE) into three key components. If ROE is relatively low, it must be that at least one of the following is true: the company has a poor profit margin, the company has poor asset turnover, or the firm has too little leverage."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Often, candidates get confused and think the DuPont method is a way to calculate ROE. While you can calculate ROE given the components of either the original or extended DuPont equations, this isn’t necessary if you have the"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial statements. If you have net income and equity, you can calculate ROE. The DuPont method is a way to decompose ROE, to better see what is driving the changes in ROE."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Decomposition of ROE with original DuPont"
+        },
+        {
+          "type": "paragraph",
+          "text": "Staret, Inc., has maintained a stable and relatively high ROE of approximately 18% over the last three years. Use traditional DuPont analysis to decompose this ROE into its three components and comment on trends in company performance."
+        },
+        {
+          "type": "heading",
+          "text": "Staret, Inc., Selected Balance Sheet and Income Statement Items (Millions)"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} {\\mathrm{Year}} & {\\mathrm{20X3}} & {\\mathrm{20X4}} & {\\mathrm{20X5}} \\\\ \\hline{\\mathrm{Net~income}} & {21.5} & {22.3} & {21.9} \\\\ {\\mathrm{Revenue}} & {305} & {350} & {410} \\\\ {\\mathrm{Average~equity}} & {119} & {124} & {126} \\\\ \\end{array}\\\\[6pt]\\mathrm{Average~assets~} \\quad230 \\quad\\ 290 \\quad\\ 350\\end{gathered}",
+          "display": true,
+          "sourceAsset": "165fd4c0e6d9344cba6d.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/6238aa1942b15e9eaac3.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 187,
+          "height": 220,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that values were rounded in these calculations."
+        },
+        {
+          "type": "paragraph",
+          "text": "While ROE has dropped only slightly, both total asset turnover and net profit margin have declined. The effects of declining net margins and turnover on ROE have been offset by a significant increase in leverage. The analyst should be concerned about the decrease in net margin and determine the combination of pricing pressure and increasing expenses that caused this situation. The company has become more risky due to increased debt financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "The extended (5-way) DuPont equation takes the net profit margin and breaks it down further:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{EBT}}} \\right) \\left( {\\frac{\\mathrm{EBT}} {\\mathrm{EBTT}}} \\right) \\left( {\\frac{\\mathrm{EBTT}} {\\mathrm{revenue}}} \\right) \\left( {\\frac{\\mathrm{revenue}} {\\mathrm{average~assets}}} \\right) \\left( {\\frac{\\mathrm{average~assets}} {\\mathrm{average~equity}}} \\right)",
+          "display": true,
+          "sourceAsset": "b3da2ce15d9d26badbe8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first term in the 3-part DuPont equation, net profit margin, has been decomposed into three terms:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{net~income}} {\\mathrm{EBT}}} {\\mathrm{~is~called~the~tax~burden~and~is~equal~to~(1-tax~rate)}}} \\\\ {{{}}} \\\\ {{\\frac{\\mathrm{EBT}} {\\mathrm{EBT}} {\\mathrm{~is~called~the~interest~burden}}}} \\end{array}\\\\[6pt]{\\frac{\\mathrm{EBIT}} {\\mathrm{cevenue}}} \\, \\mathrm{is~called~the~EBIT~margin}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "d2b5bc4b4f0457b01cd9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We then have the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}={\\binom{\\mathrm{tax}} {\\mathrm{burden}}} {\\binom{\\mathrm{interest}} {\\mathrm{burden}}} {\\binom{\\mathrm{EBIT}} {\\mathrm{margin}}} {\\binom{\\mathrm{total~asset}} {\\mathrm{turnover}}} {\\binom{\\mathrm{financial}} {\\mathrm{leverage}}}",
+          "display": true,
+          "sourceAsset": "144a523c551a6c055afb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in interest expense as proportion of EBIT will increase the interest burden (i.e., decrease the interest burden ratio). Increases in either the tax burden or the interest burden (i.e., decreases in the ratios) will tend to decrease ROE."
+        },
+        {
+          "type": "paragraph",
+          "text": "EBIT in the second two expressions can be replaced by operating earnings. In this case, we have the operating margin rather than the EBIT margin. The interest burden term would then show the effects of nonoperating income as well as the effect of interest expense."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that in general, high profit margins, leverage, and asset turnover will lead to high levels of ROE. However, this version of the formula shows that more leverage does not always lead to higher ROE. As leverage rises, so does the interest burden. Hence, the positive effects of leverage can be offset by the higher interest payments that accompany more debt. Note that higher taxes will always lead to lower levels of ROE."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Extended DuPont analysis"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst has gathered data from two companies in the same industry. Use the extended DuPont analysis to explain the critical factors that account for the differences between the two companies’ ROEs."
+        },
+        {
+          "type": "heading",
+          "text": "Selected Income and Balance Sheet Data"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{} & {\\mathrm{Company~A}} & {\\mathrm{Company~B~}} \\\\ \\hline{\\mathrm{Revenues}} & {\\$500} & {\\$900} \\\\ {\\mathrm{EBIT}} & {35} & {100} \\\\ {\\mathrm{Interest~expense}} & {5} & {0} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l r l} {\\mathrm{EBT}} & {\\qquad30 \\qquad} & {100} \\\\ {\\mathrm{Taxes}} & {\\qquad\\underline{{10}}} & {\\qquad\\underline{{40}}} \\\\ {\\mathrm{Net~income}} & {\\qquad20} & {\\qquad60} \\\\ {\\mathrm{Average~assets}} & {\\qquad250} & {\\qquad300} \\end{array}\\\\[6pt]\\begin{array} {l l l l} {{\\mathrm{Total~debt}}} & {{\\phantom{a a a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "701ed5eff65b74fbfce9.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "return on equity = net income / average equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 20 / 150 = 13.3%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 60 / 250 = 24.0%"
+        },
+        {
+          "type": "paragraph",
+          "text": "EBIT margin = EBIT / revenue"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 35 / 500 = 7.0%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 100 / 900 = 11.1%"
+        },
+        {
+          "type": "paragraph",
+          "text": "total asset turnover = revenue / average assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 500 / 250 = 2.0"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 900 / 300 = 3.0"
+        },
+        {
+          "type": "paragraph",
+          "text": "interest burden = EBT / EBIT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 30 / 35 = 85.7%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 100 / 100 = 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "financial leverage = average assets / average equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 250 / 150 = 1.67"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 300 / 250 = 1.2"
+        },
+        {
+          "type": "paragraph",
+          "text": "tax burden = net income / EBT"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company A: 20 / 30 = 66.7%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B: 60 / 100 = 60.0%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Company B has a higher tax burden but a lower interest burden (a lower ratio indicates a higher burden). Company B has better EBIT margins and better asset use (perhaps management of inventory, receivables, or payables, or a lower cost basis in its fixed assets due to their age), and less leverage. Company B’s higher EBIT margins and asset turnover are the main factors leading to its significantly higher ROE, which it achieves with less leverage than Company A."
+        }
+      ]
+    },
+    {
+      "id": "37.5",
+      "title": "Industry-Specific Financial Ratios",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "37.e",
+          "text": "What should we know about the uses of industry-specific ratios used in financial analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "As no two industries are the same, the importance of each individual ratio will vary depending on the key performance indicators of an industry. For some industries, analysts calculate ratios to evaluate metrics that might not be relevant for other industries. For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net income per employee and sales per employee are used in the analysis and valuation of service and consulting companies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Growth in same-store sales is used in the restaurant and retail industries to indicate growth without the effects of new locations that have been opened. It is a measure of how well the firm is doing at attracting and keeping existing customers. In the case of locations with overlapping markets, decreases in same-store sales growth may"
+        },
+        {
+          "type": "paragraph",
+          "text": "indicate that new locations are taking customers from existing ones. Sales per square foot is another metric commonly used in the retail industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the hotel industry, average daily rate, or room revenue divided by number of rooms sold, is a key indicator of profitability. Occupancy rates, used to analyze the total number of rooms sold relative to the total number available, are a key activity ratio. For subscription services such as streaming providers, average revenue per user is often a key metric."
+        },
+        {
+          "type": "paragraph",
+          "text": "Banks, insurance companies, and other financial firms carry their own challenges for analysts. Financial firms often have to maintain minimums or maximums of certain ratios to comply with regulations. Part of the challenge is to understand the commonly used terms and the ratios they represent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital adequacy typically refers to some monetary measure of a firm’s risk, both operational and financial, as a percentage of its equity capital. Regulators monitor capital adequacy ratios to ensure that a financial firm has a buffer to absorb losses. A common measure of capital risk is value at risk, which is an estimate of the money size of the loss that a firm will exceed only some specific percentage of the time, over a specific period of time."
+        },
+        {
+          "type": "paragraph",
+          "text": "Banks are subject to minimum reserve requirements. Their ratios of various liabilities to their central bank reserves must be above the minimums. The ratio of a bank’s liquid assets to certain liabilities is called its liquid asset requirement. The performance of financial companies that lend funds is often summarized as the net interest margin, which is simply interest income divided by the firm’s interest-earning assets."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "A more thorough discussion of ratios relating to banking and insurance institutions is included at Level II. The focus on financial institutions’ capital adequacy intensified due to the 2007–2008 global financial crisis. Contagion is always a risk due to the interconnected nature of banking. Many of the regulations introduced have been directed at reducing this risk. In 2024, the United States and Switzerland experienced events that tested both the effectiveness of the rules and the responsiveness of regulators."
+        },
+        {
+          "type": "heading",
+          "text": "Business Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard deviation of revenue, standard deviation of operating income, and standard deviation of net income are all indicators of the variation in and the uncertainty about a firm’s performance. Because they all depend on the size of the firm to a great extent, analysts employ a size-adjusted measure of variation. The coefficient of variation for a variable is its standard deviation divided by its expected value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certainly, different industries have different levels of uncertainty about revenues, expenses, taxes, and nonoperating items. Comparing coefficients of variation for a firm across time, or among a firm and its peers, can aid the analyst in assessing both the relative and absolute degree of risk a firm faces in generating income for its investors."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{CV~sales}={\\frac{s t a n d a r d ~ d e v i a t i o n ~ o f ~ s a l e s} {m e a n ~ s a l e s}}}} \\\\ {{\\mathrm{CV~operating~income}={\\frac{s t a n d a r d ~ d e v i a t i o n ~ o f ~ o p e r a t i n g ~ i n c o m e} {m e a n ~ o p e r a t i n g ~ i n c o m e}}}} \\end{array}\\\\[6pt]{\\mathrm{CV~net~income}}={\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ccebc1ac52a37ebf0aa2.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "37.f",
+          "text": "What should we know about how ratio analysis and other techniques can be used to model and forecast earnings?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ratio analysis can be used in preparing pro forma financial statements that provide estimates of financial statement items for one or more future periods. The preparation of pro forma financial statements and related forecasts is covered in more detail in the Equity Investments topic area. Here, some examples will suffice."
+        },
+        {
+          "type": "paragraph",
+          "text": "A forecast of financial results begins with an estimate of a firm’s next-period revenues. If the analyst has no reason to believe that COGS in relation to sales will change for the next period, the COGS percentage from a common-size income statement can be used in constructing a pro forma income statement for the next period based on the estimate of sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, the analyst may believe that certain ratios will remain the same, or change in one direction or the other for the next period. In the absence of any information indicating a change, an analyst may choose to incorporate the operating profit margin from the prior period into a pro forma income statement for the next period. Beginning with an estimate of next-period sales, the estimated operating profit margin can be used to forecast operating profits for the next period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rather than point estimates of sales and net and operating margins, the analyst may examine possible changes to create a range of possible values for key financial variables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three methods of examining the variability of financial outcomes around point estimates are sensitivity analysis, scenario analysis, and simulation. Sensitivity analysis is based on “what if” questions such as, “What will be the effect on net income if sales increase by 3% rather than the estimated 5%?” Scenario analysis is based on specific scenarios (a specific set of outcomes for key variables) and will also yield a range of values for financial statement items. Simulation is a technique in which probability distributions for key variables are selected, and a computer is used to generate a distribution of values for outcomes based on a repeated random selection of values for the key variables."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "37.a",
+      "text": "What should we know about tools and techniques used in financial analysis, including their uses and limitations?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratios can be used to project earnings and future cash flow, evaluate a firm’s flexibility, assess management’s performance, evaluate changes in the firm and industry over time, and compare the firm with industry competitors."
+    },
+    {
+      "type": "paragraph",
+      "text": "Vertical common-size data are stated as a percentage of sales for income statements, or as a percentage of total assets for balance sheets. Horizontal common-size data present each item as a percentage of its value in a base year."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratio analysis has limitations. Ratios are not useful when viewed in isolation and require adjustments when different companies use different accounting treatments. Comparable ratios may be hard to find for companies that operate in multiple industries. Ratios must be analyzed relative to one another, and determining the range of acceptable values for a ratio can be difficult."
+    },
+    {
+      "type": "question",
+      "objectiveId": "37.b",
+      "text": "How do we calculate and interpret activity, liquidity, solvency, and profitability ratios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Activity ratios indicate how well a firm uses its assets. They include receivables turnover, days of sales outstanding, inventory turnover, days of inventory on hand, payables turnover, payables payment period, and turnover ratios for total assets, fixed assets, and working capital."
+    },
+    {
+      "type": "paragraph",
+      "text": "Liquidity ratios indicate a firm’s ability to meet its short-term obligations. They include the current, quick, and cash ratios; the defensive interval; and the cash conversion cycle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Solvency ratios indicate a firm’s ability to meet its long-term obligations. They include the debt-to-equity, debt-to-capital, debt-to-assets, financial leverage, interest coverage, and fixed charge coverage ratios."
+    },
+    {
+      "type": "paragraph",
+      "text": "Profitability ratios indicate how well a firm generates operating income and net income. They include net, gross, and operating profit margins; pretax margin; return on assets; operating return on assets; return on total capital; return on total equity; and return on common equity."
+    },
+    {
+      "type": "question",
+      "objectiveId": "37.c",
+      "text": "What should we know about relationships among ratios and evaluate a company using ratio analysis?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst should use an appropriate combination of different ratios to evaluate a company over time and relative to comparable companies. The interpretation of an increase in ROE, for example, may be quite different for a firm that has significantly increased its financial leverage compared to one that has maintained or decreased its financial leverage."
+    },
+    {
+      "type": "question",
+      "objectiveId": "37.d",
+      "text": "How can we demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components?"
+    },
+    {
+      "type": "paragraph",
+      "text": "2-stage decomposition of ROE:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)}} \\\\ {{\\mathrm{ROE}=\\mathrm{ROA} \\, \\times\\, \\mathrm{leverage}}} \\end{array}",
+      "display": true,
+      "sourceAsset": "21b48db85bd58eda4cf8.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Original DuPont equation (3-stage decomposition):"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{sales}} \\Big) \\Big( \\frac{\\mathrm{sales}} {\\mathrm{average~total~assets}} \\Big) \\Big( \\frac{\\mathrm{average~total~assets}} {\\mathrm{a v e r a g e ~ s t o c k h o l d e r s^{\\prime} ~ e q u i t y}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{net~profit~margin} \\times\\mathrm{asset~turnover} \\times\\mathrm{leverage}}} \\end{array}",
+      "display": true,
+      "sourceAsset": "32b783f63ef714a2167e.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Extended DuPont equation (5-stage decomposition):"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {c} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{EBT}} \\Big) \\Big( \\frac{\\mathrm{EBT}} {\\mathrm{EBTT}} \\Big) \\Big( \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}} \\Big) \\Big( \\frac{\\mathrm{revenue}} {\\mathrm{total~assets}} \\Big) \\Big( \\frac{\\mathrm{total~assets}} {\\mathrm{total~equity}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{tax~burden} \\times\\mathrm{interest~burden} \\times\\mathrm{EBIT~margin} \\times\\mathrm{asset~turnoven}}} \\\\ {{\\mathrm{~} \\times\\mathrm{~leverage}}} \\end{array}",
+      "display": true,
+      "sourceAsset": "7852d4cd5f8f74487783.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "37.e",
+      "text": "What should we know about the uses of industry-specific ratios used in financial analysis?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The skill of an analyst involves identifying ratios that relate to the industry being analyzed and the performance, position, and flexibility of the firm, both currently and in the future."
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial institutions have to comply with capital adequacy directives designed to prevent insolvency and contagion."
+    },
+    {
+      "type": "question",
+      "objectiveId": "37.f",
+      "text": "What should we know about how ratio analysis and other techniques can be used to model and forecast earnings?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratio analysis, in conjunction with other techniques, can be used to construct pro forma financial statements based on a forecast of sales growth and assumptions about the relation of changes in key income statement and balance sheet items to growth of sales."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "37.a",
+      "statement": "Describe tools and techniques used in financial analysis, including their uses and limitations.",
+      "question": "What should we know about tools and techniques used in financial analysis, including their uses and limitations?"
+    },
+    {
+      "id": "37.b",
+      "statement": "Calculate and interpret activity, liquidity, solvency, and profitability ratios.",
+      "question": "How do we calculate and interpret activity, liquidity, solvency, and profitability ratios?"
+    },
+    {
+      "id": "37.c",
+      "statement": "Describe relationships among ratios and evaluate a company using ratio analysis.",
+      "question": "What should we know about relationships among ratios and evaluate a company using ratio analysis?"
+    },
+    {
+      "id": "37.d",
+      "statement": "Demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components.",
+      "question": "How can we demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components?"
+    },
+    {
+      "id": "37.e",
+      "statement": "Describe the uses of industry-specific ratios used in financial analysis.",
+      "question": "What should we know about the uses of industry-specific ratios used in financial analysis?"
+    },
+    {
+      "id": "37.f",
+      "statement": "Describe how ratio analysis and other techniques can be used to model and forecast earnings.",
+      "question": "What should we know about how ratio analysis and other techniques can be used to model and forecast earnings?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-37-quiz-1",
+      "title": "Knowledge check 37.1, 37.2, 37.3",
+      "moduleId": "37.3",
+      "questions": [
+        {
+          "id": "r37-q1",
+          "number": 1,
+          "objectiveIds": [],
+          "prompt": "To study trends in a firm’s cost of goods sold (COGS), the analyst should standardize the COGS numbers to a common-sized basis by dividing COGS by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "assets."
+            },
+            {
+              "id": "B",
+              "text": "sales."
+            },
+            {
+              "id": "C",
+              "text": "net income."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "With a vertical common-size income statement, all income statement accounts are divided by sales.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "With a vertical common-size income statement, all income statement accounts"
+            },
+            {
+              "type": "paragraph",
+              "text": "are divided by sales."
+            }
+          ]
+        },
+        {
+          "id": "r37-q2",
+          "number": 2,
+          "objectiveIds": [],
+          "prompt": "Which of the following is least likely a limitation of financial ratios?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Data on comparable firms are difficult to acquire."
+            },
+            {
+              "id": "B",
+              "text": "Determining the target or comparison value for a ratio requires judgment."
+            },
+            {
+              "id": "C",
+              "text": "Different accounting treatments require the analyst to adjust the data before comparing ratios."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Company and industry data are widely available from numerous private and public sources. The other statements describe limitations of financial ratios.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Company and industry data are widely available from numerous private and"
+            },
+            {
+              "type": "paragraph",
+              "text": "public sources. The other statements describe limitations of financial ratios."
+            }
+          ]
+        },
+        {
+          "id": "r37-q3",
+          "number": 3,
+          "objectiveIds": [],
+          "prompt": "RGB, Inc.’s purchases during the year were $100,000. The balance sheet shows an average accounts payable balance of $12,000. RGB’s payables payment period is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "37 days."
+            },
+            {
+              "id": "B",
+              "text": "44 days."
+            },
+            {
+              "id": "C",
+              "text": "52 days."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "payables turnover = (purchases / avg. AP) = 100 / 12 = 8.33 payables payment period = 365 / 8.33 = 43.8 days",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "payables turnover = (purchases / avg. AP) = 100 / 12 = 8.33"
+            },
+            {
+              "type": "paragraph",
+              "text": "payables payment period = 365 / 8.33 = 43.8 days"
+            }
+          ]
+        },
+        {
+          "id": "r37-q4",
+          "number": 4,
+          "objectiveIds": [],
+          "prompt": "RGB, Inc., has a gross profit of $45,000 on sales of $150,000. The balance sheet shows average total assets of $75,000 with an average inventory balance of $15,000. RGB’s inventory turnover and total asset turnover are closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Inventory turnover: 2.00 times; total asset turnover: 7.00 times."
+            },
+            {
+              "id": "B",
+              "text": "Inventory turnover: 7.00 times; total asset turnover: 2.00 times."
+            },
+            {
+              "id": "C",
+              "text": "Inventory turnover: 0.33 times; total asset turnover: 0.50 times."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "total asset turnover = (sales / total assets) = 150 / 75 = 2 times inventory turnover = (COGS / avg. inventory) = (150 − 45) / 15 = 7 times",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "total asset turnover = (sales / total assets) = 150 / 75 = 2 times"
+            },
+            {
+              "type": "paragraph",
+              "text": "inventory turnover = (COGS / avg. inventory) = (150 − 45) / 15 = 7 times"
+            }
+          ]
+        },
+        {
+          "id": "r37-q5",
+          "number": 5,
+          "objectiveIds": [],
+          "prompt": "If RGB, Inc., has annual sales of $100,000, average accounts payable of $30,000, and average accounts receivable of $25,000, RGB’s receivables turnover and average collection period are closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Receivables turnover: 2.1 times; average collection period: 174 days."
+            },
+            {
+              "id": "B",
+              "text": "Receivables turnover: 3.3 times; average collection period: 111 days."
+            },
+            {
+              "id": "C",
+              "text": "Receivables turnover: 4.0 times; average collection period: 91 days."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "receivables turnover = (sales / avg. AR) = 100 / 25 = 4 average collection period = 365 / 4 = 91.25 days",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "receivables turnover = (sales / avg. AR) = 100 / 25 = 4"
+            },
+            {
+              "type": "paragraph",
+              "text": "average collection period = 365 / 4 = 91.25 days"
+            }
+          ]
+        },
+        {
+          "id": "r37-q6",
+          "number": 6,
+          "objectiveIds": [],
+          "prompt": "A company’s current ratio is 1.9. If some of the accounts payable are paid off from the cash account, then the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "numerator would decrease by a greater percentage than the denominator, resulting in a lower current ratio."
+            },
+            {
+              "id": "B",
+              "text": "denominator would decrease by a greater percentage than the numerator, resulting in a higher current ratio."
+            },
+            {
+              "id": "C",
+              "text": "numerator and denominator would decrease proportionally, leaving the current ratio unchanged."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Current ratio = current assets / current liabilities. If cash (a current asset) and AP (a current liability) decrease by the same amount and the current ratio is greater than 1, then the numerator decreases less in percentage terms than the denominator, and the current ratio increases.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Current ratio = current assets / current liabilities. If cash (a current asset) and AP"
+            },
+            {
+              "type": "paragraph",
+              "text": "(a current liability) decrease by the same amount and the current ratio is greater than 1, then the numerator decreases less in percentage terms than the denominator, and the current ratio increases."
+            }
+          ]
+        },
+        {
+          "id": "r37-q7",
+          "number": 7,
+          "objectiveIds": [],
+          "prompt": "A company’s quick ratio is 1.2. If inventory were purchased for cash, then the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "numerator would decrease more than the denominator, resulting in a lower quick ratio."
+            },
+            {
+              "id": "B",
+              "text": "denominator would decrease more than the numerator, resulting in a higher quick ratio."
+            },
+            {
+              "id": "C",
+              "text": "numerator and denominator would decrease proportionally, leaving the quick ratio unchanged."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Quick ratio = (cash + marketable securities + AR) / current liabilities. If cash decreases, the quick ratio will also decrease. The denominator is unchanged.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Quick ratio = (cash + marketable securities + AR) / current liabilities. If cash"
+            },
+            {
+              "type": "paragraph",
+              "text": "decreases, the quick ratio will also decrease. The denominator is unchanged."
+            }
+          ]
+        },
+        {
+          "id": "r37-q8",
+          "number": 8,
+          "objectiveIds": [],
+          "prompt": "All other things held constant, which of the following transactions will increase a firm’s current ratio if the ratio is greater than 1?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Accounts receivable are collected, and the funds received are deposited in the firm’s cash account."
+            },
+            {
+              "id": "B",
+              "text": "Fixed assets are purchased from the cash account."
+            },
+            {
+              "id": "C",
+              "text": "Accounts payable are paid with funds from the cash account."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Current ratio = current assets / current liabilities. If CR is > 1, then if CA and CL both fall, the overall ratio will increase.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Current ratio = current assets / current liabilities. If CR is > 1, then if CA and CL"
+            },
+            {
+              "type": "paragraph",
+              "text": "both fall, the overall ratio will increase."
+            }
+          ]
+        },
+        {
+          "id": "r37-q9",
+          "number": 9,
+          "objectiveIds": [],
+          "prompt": "RGB, Inc.’s receivable turnover is 10 times, the inventory turnover is 5 times, and the payables turnover is 9 times. RGB’s cash conversion cycle is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "69 days."
+            },
+            {
+              "id": "B",
+              "text": "104 days."
+            },
+            {
+              "id": "C",
+              "text": "150 days."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "(365 / 10 + 365 / 5 − 365 / 9) = 69 days",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "(365 / 10 + 365 / 5 − 365 / 9) = 69 days"
+            }
+          ]
+        },
+        {
+          "id": "r37-q10",
+          "number": 10,
+          "objectiveIds": [
+            "37.b"
+          ],
+          "prompt": "An analyst who is interested in a company’s long-term solvency would most likely examine the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "return on total capital."
+            },
+            {
+              "id": "B",
+              "text": "defensive interval ratio."
+            },
+            {
+              "id": "C",
+              "text": "fixed charge coverage ratio."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Fixed charge coverage is a solvency ratio. Return on total capital is a measure of profitability, and the defensive interval ratio is a liquidity measure. (Module 37.3,",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Fixed charge coverage is a solvency ratio. Return on total capital is a measure of"
+            },
+            {
+              "type": "paragraph",
+              "text": "profitability, and the defensive interval ratio is a liquidity measure. (Module 37.3,"
+            }
+          ]
+        },
+        {
+          "id": "r37-q11",
+          "number": 11,
+          "objectiveIds": [],
+          "prompt": "RGB, Inc.’s income statement shows sales of $1,000, cost of goods sold of $400, pre-interest operating expense of $300, and interest expense of $100. RGB’s interest coverage ratio is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "2 times."
+            },
+            {
+              "id": "B",
+              "text": "3 times."
+            },
+            {
+              "id": "C",
+              "text": "4 times."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "interest coverage ratio = EBIT / interest = (1,000 − 400 − 300) / 100 = 3 times",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "interest coverage ratio = EBIT / interest = (1,000 − 400 − 300) / 100 = 3 times"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-37-quiz-2",
+      "title": "Knowledge check 37.4, 37.5",
+      "moduleId": "37.5",
+      "questions": [
+        {
+          "id": "r37-q12",
+          "number": 1,
+          "objectiveIds": [
+            "37.d"
+          ],
+          "prompt": "Return on equity using the traditional DuPont formula equals:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "(net profit margin) (interest component) (solvency ratio)."
+            },
+            {
+              "id": "B",
+              "text": "(net profit margin) (total asset turnover) (tax retention rate)."
+            },
+            {
+              "id": "C",
+              "text": "(net profit margin) (total asset turnover) (financial leverage multiplier)."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "This is the correct formula for the three-ratio DuPont model for ROE. (Module 37.4,",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This is the correct formula for the three-ratio DuPont model for ROE. (Module"
+            },
+            {
+              "type": "paragraph",
+              "text": "37.4,"
+            }
+          ]
+        },
+        {
+          "id": "r37-q13",
+          "number": 2,
+          "objectiveIds": [],
+          "prompt": "Which of the following equations least accurately represents return on equity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "(net profit margin)(equity turnover)."
+            },
+            {
+              "id": "B",
+              "text": "(net profit margin)(total asset turnover)(assets / equity)."
+            },
+            {
+              "id": "C",
+              "text": "(ROA)(interest burden)(tax retention rate)."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "(ROA)(interest burden)(tax retention rate) is not one of the DuPont models for calculating ROE.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "(ROA)(interest burden)(tax retention rate) is not one of the DuPont models for"
+            },
+            {
+              "type": "paragraph",
+              "text": "calculating ROE."
+            }
+          ]
+        },
+        {
+          "id": "r37-q14",
+          "number": 3,
+          "objectiveIds": [],
+          "prompt": "Which of the following statements about coefficient of variation is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A coefficient of variation for an income statement measure represents variation per monetary unit."
+            },
+            {
+              "id": "B",
+              "text": "The coefficient of variation is calculated by dividing a mean value by its standard deviation."
+            },
+            {
+              "id": "C",
+              "text": "The coefficient of variation is a size-adjusted measure of variation."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Coefficient of variation is computed by dividing standard deviation by mean; therefore, it can be interpreted as risk per monetary unit for the income statement variable considered. Variation in income statement items such as sales, operating profit, and net income is related to the size of a company. By dividing the standard deviation by the mean value of the variable, size is adjusted for, giving risk per unit of the variable.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Coefficient of variation is computed by dividing standard deviation by mean;"
+            },
+            {
+              "type": "paragraph",
+              "text": "therefore, it can be interpreted as risk per monetary unit for the income statement variable considered. Variation in income statement items such as sales, operating profit, and net income is related to the size of a company. By dividing the standard deviation by the mean value of the variable, size is adjusted for, giving risk per unit of the variable."
+            }
+          ]
+        },
+        {
+          "id": "r37-q15",
+          "number": 4,
+          "objectiveIds": [],
+          "prompt": "An analyst who needs to model and forecast a company’s earnings for the next three years would be least likely to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "assume that key financial ratios will remain unchanged for the forecast period."
+            },
+            {
+              "id": "B",
+              "text": "use common-size financial statements to estimate expenses as a percentage of net income."
+            },
+            {
+              "id": "C",
+              "text": "examine the variability of the predicted outcomes by performing a sensitivity or scenario analysis."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An earnings forecast model would typically estimate expenses as a percentage of sales.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An earnings forecast model would typically estimate expenses as a percentage of"
+            },
+            {
+              "type": "paragraph",
+              "text": "sales."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

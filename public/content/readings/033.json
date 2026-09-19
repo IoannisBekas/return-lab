@@ -1,0 +1,1191 @@
+{
+  "readingId": 33,
+  "title": "Analysis of Long-Term Assets",
+  "introduction": [
+    {
+      "type": "heading",
+      "text": "INTRODUCTION"
+    },
+    {
+      "type": "paragraph",
+      "text": "Before studying this reading, ensure you have reviewed capitalization versus expensing costs in our reading on Analyzing Income Statements and understand the implications of these approaches on the financial statements. You should also understand the various types of long-term assets, PP&E, and intangibles (from our reading on Understanding Balance Sheets and the prerequisites). Ensure you have understood the two models of recording assets in the balance sheet. Under U.S. GAAP, the cost method is required. IFRS allows companies to choose either the cost method or revaluation model for each class of asset. You should also ensure you understand depreciation and amortization methods (prerequisites)."
+    }
+  ],
+  "modules": [
+    {
+      "id": "33.1",
+      "title": "Intangible Long-Lived Assets",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "33.a",
+          "text": "How can we compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intangible assets are long-term assets that lack physical substance, such as patents, brand names, copyrights, and franchises. Some intangible assets have finite lives, while others have indefinite lives."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost of a finite-lived intangible asset is amortized over its useful life. Indefinite-lived intangible assets are not amortized, but they are tested for impairment at least annually. If impaired, the reduction in value is recognized in the income statement as a loss in the period in which the impairment is recognized."
+        },
+        {
+          "type": "paragraph",
+          "text": "Intangible assets are also considered either identifiable or unidentifiable. Under IFRS, an identifiable intangible asset must be the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capable of being separated from the firm or arise from a contractual or legal right Controlled by the firm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expected to provide future economic benefits"
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition, the future economic benefits must be probable, and the asset’s cost must be reliably measurable."
+        },
+        {
+          "type": "paragraph",
+          "text": "An unidentifiable intangible asset is one that cannot be purchased separately and may have an indefinite life. The most common example of an unidentifiable intangible"
+        },
+        {
+          "type": "paragraph",
+          "text": "asset is goodwill. Goodwill is the excess of purchase price over the fair value of the identifiable assets (net of liabilities) acquired in a business combination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Not all intangible assets are reported on the balance sheet. Accounting for an intangible asset depends on whether the asset was created internally, purchased externally, or obtained as part of a business combination."
+        },
+        {
+          "type": "heading",
+          "text": "Intangible Assets Created Internally"
+        },
+        {
+          "type": "paragraph",
+          "text": "With some exceptions, costs to create intangible assets are expensed as incurred. Important exceptions are research and development costs (under IFRS) and software development costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, research costs, which are costs aimed at the discovery of new scientific or technical knowledge and understanding, are expensed as incurred. However, development costs may be capitalized. Development costs are incurred to translate research findings into a plan or design of a new product or process. To recognize an intangible asset in development, a firm must show that it can complete the asset and intends to use or sell the completed asset, among other criteria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, both research and development costs are generally expensed as incurred. However, the costs of creating software for sale to others are treated in a manner similar to the treatment of research and development costs under IFRS. Costs incurred to develop software for sale to others are expensed as incurred until the product’s technological feasibility has been established, after which the costs of developing a salable product are capitalized. Costs incurred developing software for internal use must be expensed until it is probable that the firm will complete the project and use the software as intended. Technological feasibility is more difficult to demonstrate than the probability of completing and using the software."
+        },
+        {
+          "type": "heading",
+          "text": "Purchased Intangible Assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "Like tangible assets, an intangible asset purchased from another party is initially recorded on the balance sheet at cost, typically its fair value at acquisition."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the intangible asset is purchased as part of a group, the total purchase price is allocated to each asset on the basis of its fair value. For analytical purposes, an analyst is usually more interested in the type of asset acquired rather than the value assigned on the balance sheet. For example, recently acquired franchise rights may provide insight into the firm’s future operating performance. In this case, the allocation of cost is not as important."
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial statement effects of capitalizing intangible assets are the same as the effects of capitalizing other expenditures. Capitalizing results in higher net income in the first year and lower net income in the subsequent years. Similarly, assets, equity, and operating cash flow are all higher when expenditures are capitalized."
+        },
+        {
+          "type": "paragraph",
+          "text": "A company that generates its intangible assets internally will have lower balance sheet assets than a company that purchases its intangibles. Internally generated intangibles"
+        },
+        {
+          "type": "paragraph",
+          "text": "are typically expensed, while purchased intangibles are capitalized. This can have a considerable impact on financial statements and ratios."
+        },
+        {
+          "type": "heading",
+          "text": "Intangible Assets Obtained in a Business Combination"
+        },
+        {
+          "type": "paragraph",
+          "text": "The acquisition method is used to account for business combinations. Under the acquisition method, the purchase price is allocated to the identifiable assets and liabilities of the acquired firm on the basis of fair value. This will involve establishing the fair value of any intangibles that the acquired company had internally developed and including them in the balance sheet at the date of acquisition. To capitalize these intangible assets, which had previously expensed as incurred, the asset must be an identifiable intangible asset. Any remaining amount of the purchase price is recorded as goodwill (see Figure 33.1). Goodwill is said to be an unidentifiable asset that cannot be separated from the business itself."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 33.1: Goodwill"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/43c99139ca697b0ef270.png",
+          "alt": "Equation, table, or diagram: Figure 33.1: Goodwill",
+          "width": 485,
+          "height": 93,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Only goodwill created in a business combination is capitalized on the balance sheet. The costs of any internally generated “goodwill” are expensed in the period incurred."
+        }
+      ]
+    },
+    {
+      "id": "33.2",
+      "title": "Impairment and Derecognition",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "33.b",
+          "text": "How can we explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depreciation and amortization represent the spreading of an asset’s cost to match the benefits earned over an asset’s life, and they cause the balance sheet carrying value to decline. An impairment is an unanticipated decline in an asset’s value, causing it to fall below the carrying value. Derecognition occurs when an asset is disposed of or retired."
+        },
+        {
+          "type": "heading",
+          "text": "Impairments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both IFRS and U.S. GAAP require firms to write down impaired assets by recognizing a loss in the income statement, but the standards are applied slightly differently. If the impairment loss is material in size and nature, it will be shown as an unusual or infrequent item."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following discussion applies to both tangible and intangible long-lived assets with finite lives that are held for use."
+        },
+        {
+          "type": "heading",
+          "text": "Impairments Under IFRS"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, the firm must annually assess whether events or circumstances indicate that an impairment of an asset’s value has occurred. For example, there may have been a significant decline in the market value of the asset, or a significant change in the asset’s physical condition. If so, the asset’s value must be tested for impairment."
+        },
+        {
+          "type": "paragraph",
+          "text": "An asset is impaired when its carrying value (original cost less accumulated depreciation) exceeds the recoverable amount. The recoverable amount is the greater of its fair value less any selling costs and its value in use. The value in use is the present value of its future cash flow stream from continued use and disposal. Value in use is a highly subjective figure requiring estimation of future cash flows, disposal proceeds, and the selection of an appropriate discount rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "If impaired, the asset’s value must be written down on the balance sheet to the recoverable amount. An impairment loss, equal to the excess of carrying value over the recoverable amount, is recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, an impairment loss on an identifiable long-lived asset can be reversed if the asset’s value recovers in the future. However, the loss reversal is limited to the original impairment loss."
+        },
+        {
+          "type": "heading",
+          "text": "Impairments Under U.S. GAAP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, an asset is tested for impairment only when events and circumstances indicate the firm may not be able to recover the carrying value through future use."
+        },
+        {
+          "type": "paragraph",
+          "text": "Determining an impairment and calculating the loss potentially involve two steps. In the first step, the asset is tested for impairment by applying a recoverability test. If the asset is impaired, the second step involves measuring the loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regarding recoverability, an asset is considered impaired if the carrying value (original cost less accumulated depreciation) is greater than the asset’s future undiscounted cash flow stream. Because the recoverability test is based on estimates of future undiscounted cash flows, tests for impairment involve considerable management discretion. Like value in use under IFRS, estimating the future undiscounted cash flows from an asset’s use and disposal is highly subjective."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regarding loss measurement, if impaired, the asset’s value is written down to fair value on the balance sheet—and a loss, equal to the excess of carrying value over the fair value of the asset (or the discounted value of its future cash flows, if the fair value is not known), is recognized in the income statement. The discounted value of future cash flows is equivalent of value in use under IFRS."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, loss recoveries are typically not permitted."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The difference between testing for impairment and measuring the impairment loss can be confusing. In testing for impairment under U.S. GAAP, undiscounted cash flows are used. Once impairment has been detected, the loss is based on fair value, or the discounted expected future cash flows. Using undiscounted cash flows to test for impairment keeps PP&E assets from becoming “impaired” by increases in the discount rate when interest rates increase. In measuring the impairment loss, U.S. GAAP uses fair value, not fair value less selling costs."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Asset impairment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Information related to equipment owned by Brownfield Company follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l l} {{\\overline{{{\\mathrm{Original~cost}}}}}} & {{\\$900 , 000}} \\\\ {{\\mathrm{Accumulated~depreciation~to~date}}} & {{\\$100 , 000}} \\\\ {{\\mathrm{Expected~future~cash~flows}}} & {{\\$795 , 000}} \\\\ {{\\mathrm{Fair~value}}} & {{\\$790 , 000}} \\end{array}\\\\[6pt]\\begin{array} {l l l} {\\mathrm{Value~in~use}} & {} & {} & {} & {{} {\\tt5785 , 000}} \\\\ {\\mathrm{Selling~costs}} & {} & {} & {} & {{} {\\tt530 , 000}} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "4ded731434f7fca8f53a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assuming Brownfield will continue to use the equipment, test the asset for impairment under both IFRS and U.S. GAAP and discuss the results."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The carrying value of the equipment is $900,000 original cost − $100,000 accumulated depreciation = $800,000, and the recoverable amount under IFRS is $785,000 (greater of $785,000 value in use and $760,000 fair value less selling costs). Under IFRS, the asset is written down on the balance sheet to the $785,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "recoverable amount, and a $15,000 loss ($800,000 carrying value − $785,000 recoverable amount) is recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, the asset is impaired because the $795,000 expected future cash flows is less than the $800,000 carrying value. The asset is written down on the balance sheet to its $790,000 fair value, and a $10,000 loss ($800,000 carrying value − $790,000 fair value) is recognized on the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Impairment reduces an asset’s carrying value on the balance sheet. An impairment charge is recognized as a loss in the income statement, reducing assets and equity (retained earnings). In the year of impairment, return on assets (ROA) and return on equity (ROE) will decrease because the impairment charge reduces net income."
+        },
+        {
+          "type": "paragraph",
+          "text": "In subsequent periods, net income will be higher than it would have been without the impairment charge because depreciation or amortization will be lower (the asset has a lower depreciable value). Both ROA and ROE will increase in periods after the impairment charge because both equity and assets will fall as a result of the impairment charge. Asset turnover will increase in the period in which the impairment charge is taken, and in subsequent periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset impairment has no impact on cash flow because the impairment does not reduce taxable income; it is an unrealized loss until the asset is disposed of."
+        },
+        {
+          "type": "heading",
+          "text": "Analysis of Impairments"
+        },
+        {
+          "type": "paragraph",
+          "text": "An impairment loss essentially indicates that the firm has not recognized sufficient depreciation or amortization expense, and has overstated earnings as a result."
+        },
+        {
+          "type": "paragraph",
+          "text": "The judgment required in determining asset impairments gives management considerable discretion about the timing and amounts of impairment charges. Consequently, impairment decisions present an opportunity for management to manipulate earnings. Waiting to recognize an impairment loss until a period of relatively high earnings would tend to smooth earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, existing managements may take more impairment charges in periods when earnings will be poor due to external (macroeconomic or industry) factors. New managements may also choose to take more or greater impairment charges when they take over. In either case, the resulting low earnings might not be perceived as the “fault” of management, and lower values for assets and equity give a boost to ROA and ROE going forward."
+        },
+        {
+          "type": "heading",
+          "text": "Intangible Assets With Indefinite Lives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intangible assets with indefinite lives are not amortized; rather, they are tested for impairment at least annually. An impairment loss is recognized when the carrying amount exceeds fair value."
+        },
+        {
+          "type": "heading",
+          "text": "Long-Lived Assets Held for Sale"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a firm intends to sell an asset, it is probable that the asset will be sold, and the asset is available for immediate sale, then it must be reclassified from held for use to held for sale. When a firm reclassifies an asset as held for sale, the asset is no longer depreciated or amortized. The held-for-sale asset is impaired if its carrying value exceeds its fair value less selling costs. If impaired, the asset is written down to net realizable value, and the loss is recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "For long-lived assets held for sale, the loss can be reversed under IFRS and U.S. GAAP if the value of the asset recovers in the future. However, the loss reversal is limited to the original impairment loss. Thus, the carrying value of the asset after reversal cannot exceed the carrying value before the impairment was recognized."
+        },
+        {
+          "type": "heading",
+          "text": "Derecognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Eventually, long-term assets are removed from the balance sheet. Derecognition occurs when assets are sold, exchanged, or abandoned."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a long-term asset is sold, the asset is removed from the balance sheet and the difference between the sale proceeds and the carrying value of the asset is reported as a gain or loss in the income statement, as seen in Figure 33.2. The carrying value is equal to original cost minus accumulated depreciation and any impairment charges."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 33.2: Derecognition of Long-Term Assets"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/53c07c4fbdf87468fb43.png",
+          "alt": "Equation, table, or diagram: Figure 33.2: Derecognition of Long-Term Assets",
+          "width": 537,
+          "height": 69,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The gain or loss is reported in the income statement with other gains and losses, or reported separately as an unusual or infrequent item if material. Also, if the firm presents its cash flow statement using the indirect method, the gain or loss is removed from net income to compute cash flow from operations because the proceeds from selling a long-lived asset are an investing cash inflow."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a long-lived asset is abandoned, the treatment is similar to a sale, except there are no proceeds. In this case, the carrying value of the asset is removed from the balance sheet, and a loss of that amount is recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "If a long-lived asset is exchanged for another asset, a gain or loss is computed by comparing the carrying value of the old asset with fair value of the old asset (or the fair value of the new asset, if that value is clearly more evident). The carrying value of the old asset is removed from the balance sheet, and the new asset is recorded at its fair value. If no reliable measure of fair value exists, the new asset is valued at the carrying value of the old asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "A spinoff is the transfer of assets that constitute an entire division or subsidiary into a new legal entity, upon which the shares of the spinnee are subsequently distributed to"
+        },
+        {
+          "type": "paragraph",
+          "text": "its shareholders, and the shareholders do not surrender any stock of the spinnor.¹ See Figure 33.3 as follows."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 33.3: Spinoff"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/08322fe07c856e19deab.png",
+          "alt": "Equation, table, or diagram: Figure 33.3: Spinoff",
+          "width": 462,
+          "height": 168,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Before the spinoff, Company A (the spinnor) owns Company B (the spinnee), and shareholders just have shares in Company A. After the spinoff, the shareholders have shares in both Company A and Company B. Company B is no longer included in the consolidated accounts of Company A."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once the spinoff becomes probable, the balance sheet assets and liabilities of the spinnee will be transferred from assets held for use to assets held for sale in the spinnor’s accounts. Assets held for sale may be referred to as assets held for distribution, in this context. No profit or loss is recorded on the disposal in the income statement."
+        }
+      ]
+    },
+    {
+      "id": "33.3",
+      "title": "Long-Term Asset Disclosures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "33.c",
+          "text": "How do we analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets?"
+        },
+        {
+          "type": "heading",
+          "text": "IFRS Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, the firm must disclose the following for each class of property, plant, and equipment (PP&E):"
+        },
+        {
+          "type": "paragraph",
+          "text": "Basis for measurement (usually historical cost) Depreciation method"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depreciation expense in the period Useful lives or depreciation rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Gross carrying value and accumulated depreciation at the start and end of the period Reconciliation of carrying amounts from the beginning of the period to the end of the period"
+        },
+        {
+          "type": "paragraph",
+          "text": "The firm must also disclose the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Title restrictions and assets pledged as collateral Agreements to acquire PP&E in the future"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the revaluation (fair value) model is used, the firm must disclose the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The revaluation date How fair value was determined"
+        },
+        {
+          "type": "paragraph",
+          "text": "Carrying value using the historical cost model"
+        },
+        {
+          "type": "paragraph",
+          "text": "Revaluation surplus in other comprehensive income (OCI)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, the disclosure requirements for intangible assets are similar to those for PP&E, except that the firm must disclose whether the useful lives are finite or indefinite."
+        },
+        {
+          "type": "paragraph",
+          "text": "For impaired assets, the firm must disclose the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Amounts of impairment losses and reversals by asset class Where the losses and loss reversals are recognized in the income statement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Circumstances that caused the impairment loss or reversal"
+        },
+        {
+          "type": "heading",
+          "text": "U.S. GAAP Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, the PP&E disclosures include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depreciation expense by period Balances of major classes of assets by nature and function, such as land, improvements, buildings, machinery, and furniture"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accumulated depreciation by major classes, or in total General description of depreciation methods used"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, the disclosure requirements for intangible assets are similar to those for PP&E. In addition, the firm must provide an estimate of amortization expense for the next five years."
+        },
+        {
+          "type": "paragraph",
+          "text": "For impaired assets, the firm must disclose the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A description of the impaired asset Circumstances that caused the impairment"
+        },
+        {
+          "type": "paragraph",
+          "text": "How fair value was determined The amount of loss Where the loss is recognized in the income statement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, the depreciation and amortization expenses may be shown on the face of the income statement if producing an income statement using the nature of the expense approach. If the company prepares the income statement using the function of the expense method, it will not be shown on the face; instead, it will be included in the cost of sales and sales general and admin. If the indirect method is used to produce cash flow from operations, depreciation and amortization will appear as noncash charges. For companies adopting the direct method, depreciation will not appear in the computation of operating cash flows; however, U.S. GAAP requires the indirect method reconciliation of net income to operating cash flows to be disclosed in the footnotes. Cash received on asset disposals and spent on asset acquisitions are presented as cash flows from investing activities."
+        },
+        {
+          "type": "heading",
+          "text": "Analyzing Long-Lived Asset Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fixed-asset turnover shows revenue per dollar of fixed assets and indicates how efficiently a firm is using its long-term assets to generate sales. A higher ratio is"
+        },
+        {
+          "type": "paragraph",
+          "text": "interpreted as greater efficiency."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{fixed~asset~turnover}=\\mathrm{revenue~/~average~fixed~assets}",
+          "display": true,
+          "sourceAsset": "90548aacb2c2a7df3096.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial statement disclosures provide an analyst considerable information about a company’s fixed assets and depreciation (amortization) methods. An analyst can use the data to estimate the average age of the firm’s assets. The average age is useful for two reasons:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Older, less-efficient assets may make a firm less competitive.\n2. The average age of assets helps an analyst to estimate the timing of major capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "expenditures and a firm’s future financing requirements."
+        },
+        {
+          "type": "paragraph",
+          "text": "The level of detail provided in footnote disclosures regarding fixed assets and depreciation varies across firms. Because assets are often grouped by their useful lives, the following methods of estimating the average age, economic life, and remaining useful life of a firm’s assets do not produce precise values, but they can highlight issues for further investigation. The following computations assume zero salvage values and straight-line depreciation, and as a result, they are less insightful for asset classes subject to accelerated depreciation methods and substantial salvage values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three useful calculations (in years) for an analyst are as follows."
+        },
+        {
+          "type": "heading",
+          "text": "Average Age"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{average~age}}={\\frac{\\mathrm{accumulated~depreciation}} {\\mathrm{annual~depreciation~expense}}}",
+          "display": true,
+          "sourceAsset": "3ff45db636ac3d3401c2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This calculation is more accurate for a firm that uses straight-line depreciation. The calculation can be significantly affected by the mix of assets."
+        },
+        {
+          "type": "heading",
+          "text": "Total Useful Life"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{total~useful~life}}={\\frac{\\mathrm{historical~cost~(gross~cost)}} {\\mathrm{annual~depreciation~expense}}}",
+          "display": true,
+          "sourceAsset": "9db24319b23a2fc0f1a9.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Historical cost is gross PP&E before deducting accumulated depreciation."
+        },
+        {
+          "type": "heading",
+          "text": "Remaining Useful Life"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{remaining~useful~life}}={\\frac{\\mathrm{ending~net~PP} \\& E} {\\mathrm{annual~depreciation~expense}}}",
+          "display": true,
+          "sourceAsset": "668b75fe01a849ddfb91.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Net PP&E is equal to original cost (gross PP&E) minus accumulated depreciation."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The remaining useful life can also be approximated by subtracting the average age from the total useful life."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating average age and total useful life"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end of 20X8, a company has gross PP&E of $3 million and accumulated depreciation of $1 million. During the year, the depreciation expense was $500,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the average age, total useful life, and remaining useful life of the company’s PP&E?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Average age}=\\frac{\\$1{,}000{,}000}{\\$500{,}000}=2\\text{ years},\\quad\n\\text{Total useful life}=\\frac{\\$3{,}000{,}000}{\\$500{,}000}=6\\text{ years}\\\\\n\\text{Remaining useful life}=\\frac{\\$2{,}000{,}000}{\\$500{,}000}=4\\text{ years}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "74069eb82cbfc437a3ca.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another popular metric is the ratio of annual capital expenditures to depreciation expense. This ratio provides information about whether the firm is maintaining its production capacity by replacing its PP&E at the same rate as its assets are being depreciated."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "33.a",
+      "text": "How can we compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The cost of a purchased finite-lived intangible asset is amortized over its useful life. Indefinite-lived intangible assets are not amortized, but they are tested for impairment at least annually. The cost of internally developed intangible assets is expensed."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, research costs are expensed, but development costs may be capitalized. Under U.S. GAAP, both research and development costs are expensed as incurred, except in the case of software."
+    },
+    {
+      "type": "paragraph",
+      "text": "The acquisition method is used to account for assets acquired in a business combination. The purchase price is allocated to the fair value of identifiable assets of the acquired firm less its liabilities. Any excess of the purchase price above the fair value of the acquired firm’s net assets is recorded as goodwill, an unidentifiable intangible asset that cannot be separated from the business itself."
+    },
+    {
+      "type": "paragraph",
+      "text": "Compared to expensing an asset’s cost, capitalization results in the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower expense and higher net income in period of acquisition, and higher expense (depreciation or amortization) and lower net income in each of the remaining years of the asset’s life"
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher assets and equity Lower CFI and higher CFO because the cost of a capitalized asset is classified as an investing cash outflow"
+    },
+    {
+      "type": "paragraph",
+      "text": "Higher ROE and ROA in the initial period, and lower ROE and ROA in subsequent periods because net income is lower, and both assets and equity are higher"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lower debt-to-assets and debt-to-equity ratios because assets and equity are higher"
+    },
+    {
+      "type": "question",
+      "objectiveId": "33.b",
+      "text": "How can we explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Impairment charges decrease net income, assets, and equity, which results in lower ROA and ROE and higher debt-to-equity and debt-to-assets ratios for a typical firm."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, an asset is impaired when its carrying value exceeds the recoverable amount. The recoverable amount is the greater of fair value less selling costs and the value in use (present value of expected cash flows). If impaired, the asset is written down to the recoverable amount. Loss recoveries are permitted, but not above historical cost."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under U.S. GAAP, an asset is impaired if its carrying value is greater than the asset’s undiscounted future cash flows. If impaired, the asset is written down to its fair value. Subsequent recoveries are not allowed for assets held for use."
+    },
+    {
+      "type": "paragraph",
+      "text": "Asset impairments result in losses in the income statement. Impairments have no impact on cash flow, as they have no tax or other cash flow effects until disposal of the asset."
+    },
+    {
+      "type": "paragraph",
+      "text": "Derecognition of assets can result in either a gain or loss on the income statement. A loss will reduce net income and assets, while a gain will increase net income and assets."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a long-lived asset is sold, the difference between the sale proceeds and the carrying (book) value of the asset is reported as a gain or loss in the income statement."
+    },
+    {
+      "type": "paragraph",
+      "text": "When a long-lived asset is abandoned, the carrying value is removed from the balance sheet, and a loss is recognized in that amount."
+    },
+    {
+      "type": "paragraph",
+      "text": "If a long-lived asset is exchanged for another asset, a gain or loss is computed by comparing the carrying value of the old asset with fair value of the old asset (or fair"
+    },
+    {
+      "type": "paragraph",
+      "text": "value of the new asset, if more clearly evident)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "33.c",
+      "text": "How do we analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "There are differences in the disclosure requirements for long-lived assets under IFRS and U.S. GAAP. However, firms are generally required to disclose the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Carrying values for each class of asset Accumulated depreciation and amortization"
+    },
+    {
+      "type": "paragraph",
+      "text": "Title restrictions and assets pledged as collateral For impaired assets, the loss amount and the circumstances that caused the loss For revalued assets (IFRS only), the revaluation date, how fair value was determined, and the carrying value using the historical cost model"
+    },
+    {
+      "type": "paragraph",
+      "text": "Analysts can use disclosures of the historical cost, accumulated depreciation (amortization), and annual depreciation (amortization) expense to estimate average age of assets, total useful life of assets, and remaining useful life of assets."
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{average~age}} & {{}=\\frac{\\mathrm{accumulated~depreciation}} {\\mathrm{annual~depreciation~expense}}} \\\\ {\\mathrm{total~useful~life}} & {{}=\\frac{\\mathrm{historical~cost}} {\\mathrm{annual~depreciation~expense}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{remaining~useful~life}}={\\frac{\\mathrm{ending~net~PP\\&E}} {\\mathrm{annual~depreciation~expense}}}\\end{gathered}",
+      "display": true,
+      "sourceAsset": "9672f2600076940fb61d.png"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "33.a",
+      "statement": "Compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination.",
+      "question": "How can we compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination?"
+    },
+    {
+      "id": "33.b",
+      "statement": "Explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios.",
+      "question": "How can we explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios?"
+    },
+    {
+      "id": "33.c",
+      "statement": "Analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets.",
+      "question": "How do we analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-33-quiz-1",
+      "title": "Knowledge check 33.1",
+      "moduleId": "33.1",
+      "questions": [
+        {
+          "id": "r33-q1",
+          "number": 1,
+          "objectiveIds": [
+            "33.a"
+          ],
+          "prompt": "The cost of an intangible asset is most likely to be amortized if the asset has a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "finite life and was purchased."
+            },
+            {
+              "id": "B",
+              "text": "finite life and was created internally."
+            },
+            {
+              "id": "C",
+              "text": "indefinite life and was acquired in a business combination."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The cost of an intangible asset is amortized if the asset has a finite life and was purchased or acquired in a business combination. Development costs for internally generated intangible assets may be capitalized under IFRS, but research costs are expensed as incurred.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The cost of an intangible asset is amortized if the asset has a finite life and was"
+            },
+            {
+              "type": "paragraph",
+              "text": "purchased or acquired in a business combination. Development costs for internally generated intangible assets may be capitalized under IFRS, but research costs are expensed as incurred."
+            }
+          ]
+        },
+        {
+          "id": "r33-q2",
+          "number": 2,
+          "objectiveIds": [
+            "33.a"
+          ],
+          "prompt": "StefoJo, PLC, is acquiring a controlling interest in Dykes Limited. Dykes has internally developed intangibles that have previously been expensed. Which of the following comments is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "StefoJo should capitalize any identifiable internally generated intangibles."
+            },
+            {
+              "id": "B",
+              "text": "Goodwill generated resulting from Dykes’ reputation and customer loyalty should be capitalized."
+            },
+            {
+              "id": "C",
+              "text": "Capitalizing intangible assets Dykes had previously expensed will increase the goodwill recorded at the acquisition date."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Any identifiable internally generated intangible assets that the targeted company had previously expensed must be included in the balance sheet assets acquired. Internally generated goodwill is not an identifiable intangible asset and would not be included in the fair market value of assets acquired. The capitalization of previously unrecognized identifiable intangibles will increase the fair market value of assets acquired and reduce the amount of the purchase price allocated to goodwill.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Any identifiable internally generated intangible assets that the targeted company"
+            },
+            {
+              "type": "paragraph",
+              "text": "had previously expensed must be included in the balance sheet assets acquired. Internally generated goodwill is not an identifiable intangible asset and would not be included in the fair market value of assets acquired. The capitalization of previously unrecognized identifiable intangibles will increase the fair market value of assets acquired and reduce the amount of the purchase price allocated to goodwill."
+            }
+          ]
+        },
+        {
+          "id": "r33-q3",
+          "number": 3,
+          "objectiveIds": [
+            "33.a"
+          ],
+          "prompt": "Ferdinand, Inc., is developing software for internal use within its business operations. Assuming Ferdinand follows U.S. GAAP, which of the following statements is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The software development costs can only be capitalized once the software is technically feasible."
+            },
+            {
+              "id": "B",
+              "text": "Capitalized software development will increase earnings in the year of capitalization but reduce earnings in subsequent periods."
+            },
+            {
+              "id": "C",
+              "text": "The software development costs should be capitalized once it is probable that the software will be completed and used as intended."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Development costs for software intended for external sale may be capitalized once the software is considered technically feasible. Development costs for software intended for use within the business may be capitalized once it is probable that the software will be completed and used as intended. Capitalization stores costs in the balance sheet rather than recognizing them in the income statement at the time it is incurred, resulting in higher earnings in the year of capitalization. Future earnings will be lower if costs are capitalized, as the intangible asset is amortized over the period it generates benefits.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Development costs for software intended for external sale may be capitalized once"
+            },
+            {
+              "type": "paragraph",
+              "text": "the software is considered technically feasible. Development costs for software intended for use within the business may be capitalized once it is probable that the software will be completed and used as intended. Capitalization stores costs in the balance sheet rather than recognizing them in the income statement at the time it is incurred, resulting in higher earnings in the year of capitalization. Future"
+            },
+            {
+              "type": "paragraph",
+              "text": "earnings will be lower if costs are capitalized, as the intangible asset is amortized over the period it generates benefits."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-33-quiz-2",
+      "title": "Knowledge check 33.2",
+      "moduleId": "33.2",
+      "questions": [
+        {
+          "id": "r33-q4",
+          "number": 1,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "According to U.S. GAAP, an asset is impaired when:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the firm cannot fully recover the carrying amount of the asset through operations."
+            },
+            {
+              "id": "B",
+              "text": "accumulated depreciation plus salvage value exceeds acquisition cost."
+            },
+            {
+              "id": "C",
+              "text": "the present value of future cash flows from an asset exceeds its carrying value."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An asset is impaired when the firm cannot recover the carrying value. Under U.S. GAAP, recoverability is tested based on undiscounted future cash flows.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An asset is impaired when the firm cannot recover the carrying value. Under U.S."
+            },
+            {
+              "type": "paragraph",
+              "text": "GAAP, recoverability is tested based on undiscounted future cash flows."
+            }
+          ]
+        },
+        {
+          "id": "r33-q5",
+          "number": 2,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "Using the following data, what is the income statement difference between an impairment recorded under U.S. GAAP and an impairment recorded under IFRS?",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {l l} {\\mathrm{overline{{O r i g i n a l ~ c o s t}}}} & {{\\mathfrak{F 250 , 000}}} \\\\ {\\mathrm{mathtt{A c c u m u l a t e d ~ d e p r e c i a t i o n ~ t o ~ d a t e ~}}} & {{\\mathfrak{F 150 , 000}}} \\\\ {\\mathrm{mathtt{E x p e c t e d ~ f u t u r e ~ c a s h ~ f l o w s}}} & {{\\mathfrak{F 105 , 000}}} \\\\ {\\mathrm{mathtt{F a i r ~ v a l u e}}} & {{\\mathfrak{F 95 , 000}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {{\\mathrm{Value~in~use}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s 10 , 000}}} \\end{array}\\end{gathered}",
+              "display": true,
+              "sourceAsset": "7f3ae88944b469901a9c.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "$0."
+            },
+            {
+              "id": "B",
+              "text": "$5,000."
+            },
+            {
+              "id": "C",
+              "text": "$10,000."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The carrying value of the asset is equal to $250,000 – $150,000 = $100,000. Under U.S. GAAP, a two-step process is used. The recoverability test is used to identify if an impairment has occurred. An impairment has occurred if the carrying value is higher than the estimated undiscounted cash flows from the asset’s use and disposal. In this case, $105,000 is greater than the $100,000 carrying value, so the asset is not impaired under U.S. GAAP. Under IFRS, carrying value is compared to the recoverable amount. The recoverable amount is the higher of fair value less selling costs and value in use. In this case, value in use would be used as $90,000 is greater than $85,000. IFRS would record an impairment of $10,000, equal to carrying value less value in use.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The carrying value of the asset is equal to $250,000 – $150,000 = $100,000. Under"
+            },
+            {
+              "type": "paragraph",
+              "text": "U.S. GAAP, a two-step process is used. The recoverability test is used to identify if an impairment has occurred. An impairment has occurred if the carrying value is higher than the estimated undiscounted cash flows from the asset’s use and disposal. In this case, $105,000 is greater than the $100,000 carrying value, so the asset is not impaired under U.S. GAAP. Under IFRS, carrying value is compared to the recoverable amount. The recoverable amount is the higher of fair value less selling costs and value in use. In this case, value in use would be used as $90,000 is greater than $85,000. IFRS would record an impairment of $10,000, equal to carrying value less value in use."
+            }
+          ]
+        },
+        {
+          "id": "r33-q6",
+          "number": 3,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "In the year after an impairment charge on a finite-lived identifiable intangible asset, compared to not taking the charge, net income is most likely to be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lower."
+            },
+            {
+              "id": "B",
+              "text": "higher."
+            },
+            {
+              "id": "C",
+              "text": "unaffected."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Because a finite-lived identifiable intangible asset would be amortized, amortization expense in the year after the reduction from the impairment charge would be lower (the carrying value of the asset would most likely be lower), increasing net income.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because a finite-lived identifiable intangible asset would be amortized,"
+            },
+            {
+              "type": "paragraph",
+              "text": "amortization expense in the year after the reduction from the impairment charge would be lower (the carrying value of the asset would most likely be lower), increasing net income."
+            }
+          ]
+        },
+        {
+          "id": "r33-q7",
+          "number": 4,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "A firm recently recognized a $15,000 loss on the sale of machinery used in its manufacturing operation. The original cost of the machinery was $100,000 and the accumulated depreciation at the date of sale was $60,000. What amount did the firm receive from the sale?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$25,000."
+            },
+            {
+              "id": "B",
+              "text": "$45,000."
+            },
+            {
+              "id": "C",
+              "text": "$85,000."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Gain or loss is equal to the sale proceeds minus the carrying value (cost minus accumulated depreciation) at the time of sale. Given the loss of $15,000 and carrying value of $40,000 ($100,000 − $60,000), we can solve for the proceeds of $25,000 (-15,000 + 40,000).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Gain or loss is equal to the sale proceeds minus the carrying value (cost minus"
+            },
+            {
+              "type": "paragraph",
+              "text": "accumulated depreciation) at the time of sale. Given the loss of $15,000 and carrying value of $40,000 ($100,000 − $60,000), we can solve for the proceeds of $25,000 (-15,000 + 40,000)."
+            }
+          ]
+        },
+        {
+          "id": "r33-q8",
+          "number": 5,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "Other things equal, which of the following actions related to property, plant, and equipment will most likely decrease a firm’s return on assets (ROA) in future periods?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Impairment."
+            },
+            {
+              "id": "B",
+              "text": "Derecognition."
+            },
+            {
+              "id": "C",
+              "text": "Upward revaluation."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An upward revaluation will increase the book value of assets and increase depreciation expense in future periods (decreasing net income), both of which reduce ROA. Impairment would have the opposite effects, reducing the carrying value of assets and decreasing future depreciation. Derecognizing an asset may increase, decrease, or not affect ROA in future periods.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An upward revaluation will increase the book value of assets and increase"
+            },
+            {
+              "type": "paragraph",
+              "text": "depreciation expense in future periods (decreasing net income), both of which reduce ROA. Impairment would have the opposite effects, reducing the carrying value of assets and decreasing future depreciation. Derecognizing an asset may increase, decrease, or not affect ROA in future periods."
+            }
+          ]
+        },
+        {
+          "id": "r33-q9",
+          "number": 6,
+          "objectiveIds": [
+            "33.b"
+          ],
+          "prompt": "Sinclair S.r.l. has recently exchanged an old asset for a new asset. Which of the following comments is least accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The difference between the fair value and the carrying value of the disposed asset will be recognized in the income statement as a gain or loss."
+            },
+            {
+              "id": "B",
+              "text": "The new asset will be recorded in the balance sheet at the fair value of the assets disposed of."
+            },
+            {
+              "id": "C",
+              "text": "If the fair value of the asset received and the fair value of the asset disposed of cannot be established, a disposal loss will be recorded in the income statement equal to the carrying value of the disposed asset."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The gain or loss on an asset’s exchange is calculated as the difference between the fair value of the asset that has been disposed of and the carrying value of the disposed asset. The new asset should be recorded in the balance sheet at the fair value of the asset disposed of. If the fair value of the disposed asset is difficult to estimate, then the gain or loss on disposal is computed as the fair value of the asset acquired in the exchange less the carrying value of the asset disposed of. The new asset would be recorded at its fair value in the balance sheet. If neither the fair value of the asset disposed of nor acquired can be established, the new asset will be recorded at the carrying value of the disposed asset. In this situation, there will be no gain or loss recorded on disposal.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The gain or loss on an asset’s exchange is calculated as the difference between the"
+            },
+            {
+              "type": "paragraph",
+              "text": "fair value of the asset that has been disposed of and the carrying value of the disposed asset. The new asset should be recorded in the balance sheet at the fair value of the asset disposed of. If the fair value of the disposed asset is difficult to estimate, then the gain or loss on disposal is computed as the fair value of the asset acquired in the exchange less the carrying value of the asset disposed of. The new asset would be recorded at its fair value in the balance sheet. If neither the fair value of the asset disposed of nor acquired can be established, the new asset will be recorded at the carrying value of the disposed asset. In this situation, there will be no gain or loss recorded on disposal."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-33-quiz-3",
+      "title": "Knowledge check 33.3",
+      "moduleId": "33.3",
+      "questions": [
+        {
+          "id": "r33-q10",
+          "number": 1,
+          "objectiveIds": [
+            "33.c"
+          ],
+          "prompt": "Which of the following disclosures would least likely be found in the financial statement footnotes of a firm?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Accumulated depreciation."
+            },
+            {
+              "id": "B",
+              "text": "Carrying values by asset class."
+            },
+            {
+              "id": "C",
+              "text": "Average age of assets."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The average age is not a required disclosure. However, it can be calculated given other disclosures.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The average age is not a required disclosure. However, it can be calculated given"
+            },
+            {
+              "type": "paragraph",
+              "text": "other disclosures."
+            }
+          ]
+        },
+        {
+          "id": "r33-q11",
+          "number": 2,
+          "objectiveIds": [
+            "33.c"
+          ],
+          "prompt": "Metallurgy, Inc., reported depreciation expense of $15 million for the most recent year. Beginning- of-year gross PP&E and accumulated depreciation were $287 million and $77 million, respectively. If end-of year gross PP&E and accumulated depreciation were $300 million and $80 million, the estimated remaining useful life of PP&E is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "10 years."
+            },
+            {
+              "id": "B",
+              "text": "15 years."
+            },
+            {
+              "id": "C",
+              "text": "20 years."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The remaining useful life can be estimated as ending net PP&E value divided by annual depreciation, so (300 − 80) / 15 = 14.66 years.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The remaining useful life can be estimated as ending net PP&E value divided by"
+            },
+            {
+              "type": "paragraph",
+              "text": "annual depreciation, so (300 − 80) / 15 = 14.66 years."
+            }
+          ]
+        },
+        {
+          "id": "r33-q12",
+          "number": 3,
+          "objectiveIds": [
+            "33.c"
+          ],
+          "prompt": "Ruby, Inc., reported depreciation expense of $90 million for the most recent year. Beginning-of- year gross PP&E and accumulated depreciation were $300 million and $120 million, respectively. If end-of year gross PP&E and accumulated depreciation were $350 million and $200 million, the estimated average age of PP&E is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "1.3 years."
+            },
+            {
+              "id": "B",
+              "text": "1.6 years."
+            },
+            {
+              "id": "C",
+              "text": "2.2 years."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The average age can be estimated as ending accumulated depreciation value divided by annual depreciation, so 200 / 90 = 2.22 years.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The average age can be estimated as ending accumulated depreciation value"
+            },
+            {
+              "type": "paragraph",
+              "text": "divided by annual depreciation, so 200 / 90 = 2.22 years."
+            }
+          ]
+        },
+        {
+          "id": "r33-q13",
+          "number": 4,
+          "objectiveIds": [
+            "33.c"
+          ],
+          "prompt": "For impairments, U.S. GAAP least likely requires firms to disclose:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "amounts of impairment reversals by asset class."
+            },
+            {
+              "id": "B",
+              "text": "how fair value was determined."
+            },
+            {
+              "id": "C",
+              "text": "circumstances that led to the impairment."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "U.S. GAAP requires the disclosure of impairment losses, but not reversals. U.S. GAAP typically does not allow the reversal of impairments, with the exception of assets held for sale.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "U.S. GAAP requires the disclosure of impairment losses, but not reversals. U.S."
+            },
+            {
+              "type": "paragraph",
+              "text": "GAAP typically does not allow the reversal of impairments, with the exception of assets held for sale."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

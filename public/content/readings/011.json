@@ -1,0 +1,274 @@
+{
+  "readingId": 11,
+  "title": "Introduction to Big Data Techniques",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "11.1",
+      "title": "Introduction to Fintech",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "11.a",
+          "text": "What should we know about aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The term fintech refers to developments in technology that can be applied to the financial services industry. Companies that are in the business of developing technologies for the finance industry are often referred to as fintech companies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the primary areas where fintech is developing include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increasing functionality to handle large sets of data that may come from many sources and exist in various forms Tools and techniques such as artificial intelligence for analyzing very large datasets"
+        },
+        {
+          "type": "question",
+          "objectiveId": "11.b",
+          "text": "What should we know about big Data, artificial intelligence, and machine learning?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Big Data is a widely used expression that refers to all the potentially useful information that is generated in the economy. This includes not only data from traditional sources, such as financial markets, company financial reports, and government economic statistics, but also alternative data from nontraditional sources. Some of these nontraditional sources are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Individuals generate usable data such as social media posts, online reviews, email, and website visits. Businesses generate potentially useful information such as bank records and retail scanner data. These kinds of data are referred to as corporate exhaust. Sensors, such as radio frequency identification chips, are embedded in numerous devices such as smartphones and smart buildings. The broad network of such devices is referred to as the Internet of Things."
+        },
+        {
+          "type": "paragraph",
+          "text": "Characteristics of Big Data include its volume, velocity, and variety."
+        },
+        {
+          "type": "paragraph",
+          "text": "The volume of data continues to grow by orders of magnitude. The units in which data can be measured have increased from megabytes and gigabytes to terabytes (1,000 gigabytes) and even petabytes (1,000 terabytes)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Velocity refers to how quickly data are communicated. Real-time data such as stock market price feeds are said to have low latency. Data that are only communicated"
+        },
+        {
+          "type": "paragraph",
+          "text": "periodically or with a lag are said to have high latency."
+        },
+        {
+          "type": "paragraph",
+          "text": "The variety of data refers to the varying degrees of structure in which data may exist. These range from structured forms (e.g., spreadsheets and databases), to semistructured forms (e.g., photos and web page code), to unstructured forms (e.g., video)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The field of data science concerns how we extract information from Big Data. Data science describes methods for processing and visualizing data. Processing methods include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capture. This is collecting data and transforming it into usable forms. Curation. This is assuring data quality by adjusting for bad or missing data. Storage. This is archiving and accessing data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Search. This is examining stored data to find needed information. Transfer. This is moving data from their source or a storage medium to where they are needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Visualization techniques include the familiar charts and graphs that display structured data. To visualize less structured data requires other methods. Some examples of these are word clouds that illustrate the frequency with which words appear in a sample of text, or mind maps that display logical relations among concepts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Taking advantage of Big Data presents numerous challenges. Analysts must ensure that the data they use are of high quality, accounting for the possibilities of outliers, bad or missing data, or sampling biases. The volume of data collected must be sufficient and appropriate for its intended use."
+        },
+        {
+          "type": "paragraph",
+          "text": "The need to process and organize data before using it can be especially problematic with qualitative and unstructured data. This is a process to which artificial intelligence, or computer systems that can be programmed to simulate human cognition, may be applied usefully. Neural networks are an example of artificial intelligence in that they are programmed to process information in a way similar to the human brain."
+        },
+        {
+          "type": "paragraph",
+          "text": "An important development in the field of artificial intelligence is machine learning. In machine learning, a computer algorithm is given inputs of source data, with no assumptions about their probability distributions, and may be given outputs of target data. The algorithm is designed to learn, without human assistance, how to model the output data based on the input data, or to learn how to detect and recognize patterns in the input data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Machine learning typically requires vast amounts of data. A typical process begins with a training dataset in which the algorithm looks for relationships. A validation dataset is then used to refine these relationship models, which can then be applied to a test dataset to analyze their predictive ability."
+        },
+        {
+          "type": "paragraph",
+          "text": "In supervised learning, the input and output data are labeled, the machine learns to model the outputs from the inputs, and then the machine is given new data on which to use the model. In unsupervised learning, the input data are not labeled, and the machine learns to describe the structure of the data. Deep learning is a technique that"
+        },
+        {
+          "type": "paragraph",
+          "text": "uses layers of neural networks to identify patterns, beginning with simple patterns and advancing to more complex ones. Deep learning may employ supervised or unsupervised learning. Some of the applications of deep learning include image and speech recognition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Machine learning can produce models that overfit or underfit the data. Overfitting occurs when the machine learns the input and output data too exactly, treats noise as true parameters, and identifies spurious patterns and relationships. In effect, the machine creates a model that is too complex. Underfitting occurs when the machine fails to identify actual patterns and relationships, treating true parameters as noise. This means that the model is not complex enough to describe the data. A further challenge with machine learning is that its results can be a “black box,” producing outcomes based on relationships that are not readily explainable."
+        },
+        {
+          "type": "question",
+          "objectiveId": "11.c",
+          "text": "What should we know about applications of Big Data and Data Science to investment management?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Applications of fintech that are relevant to investment management include text analytics, natural language processing, risk governance, and algorithmic trading."
+        },
+        {
+          "type": "paragraph",
+          "text": "Text analytics refers to the analysis of unstructured data in text or voice forms. An example of text analytics is analyzing the frequency of words and phrases. In the finance industry, text analytics have the potential to partially automate specific tasks such as evaluating company regulatory filings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Natural language processing refers to the use of computers and artificial intelligence to interpret human language. Speech recognition and language translation are among the uses of natural language processing. Possible applications in finance could be to check for regulatory compliance in an examination of employee communications, or to evaluate large volumes of research reports to detect more subtle changes in sentiment than can be discerned from analysts’ recommendations alone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk governance requires an understanding of a firm’s exposure to a wide variety of risks. Financial regulators require firms to perform risk assessments and stress testing. The simulations, scenario analysis, and other techniques used for risk analysis require large amounts of quantitative data along with a great deal of qualitative information. Machine learning and other techniques related to Big Data can be useful in modeling and testing risk, particularly if firms use real-time data to monitor risk exposures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Algorithmic trading refers to computerized securities trading based on a predetermined set of rules. For example, algorithms may be designed to enter the optimal execution instructions for any given trade based on real-time price and volume data. Algorithmic trading can also be useful for executing large orders by determining the best way to divide the orders across exchanges. Another application of algorithmic trading is high-frequency trading that identifies and takes advantage of intraday securities mispricings."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "11.a",
+      "text": "What should we know about aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fintech refers to developments in technology that can be applied to the financial services industry. Companies that develop technologies for the finance industry are referred to as fintech companies."
+    },
+    {
+      "type": "question",
+      "objectiveId": "11.b",
+      "text": "What should we know about big Data, artificial intelligence, and machine learning?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Big Data refers to the potentially useful information that is generated in the economy, including data from traditional and nontraditional sources. Characteristics of Big Data include its volume, velocity, and variety."
+    },
+    {
+      "type": "paragraph",
+      "text": "Artificial intelligence refers to computer systems that can be programmed to simulate human cognition. Neural networks are an example of artificial intelligence."
+    },
+    {
+      "type": "paragraph",
+      "text": "Machine learning is programming that gives a computer system the ability to improve its performance of a task over time and is often used to detect patterns in large sets of data."
+    },
+    {
+      "type": "question",
+      "objectiveId": "11.c",
+      "text": "What should we know about applications of Big Data and Data Science to investment management?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Applications of fintech to investment management include text analytics, natural language processing, risk governance, and algorithmic trading."
+    },
+    {
+      "type": "paragraph",
+      "text": "Text analytics refers to analyzing unstructured data in text or voice forms. Natural language processing is the use of computers and artificial intelligence to interpret human language. Algorithmic trading refers to computerized securities trading based on predetermined rules."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "11.a",
+      "statement": "Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data.",
+      "question": "What should we know about aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data?"
+    },
+    {
+      "id": "11.b",
+      "statement": "Describe Big Data, artificial intelligence, and machine learning.",
+      "question": "What should we know about big Data, artificial intelligence, and machine learning?"
+    },
+    {
+      "id": "11.c",
+      "statement": "Describe applications of Big Data and Data Science to investment management.",
+      "question": "What should we know about applications of Big Data and Data Science to investment management?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-11-quiz-1",
+      "title": "Knowledge check 11.1",
+      "moduleId": "11.1",
+      "questions": [
+        {
+          "id": "r11-q1",
+          "number": 1,
+          "objectiveIds": [
+            "11.a"
+          ],
+          "prompt": "Fintech is most accurately described as the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "application of technology to the financial services industry."
+            },
+            {
+              "id": "B",
+              "text": "replacement of government-issued money with electronic currencies."
+            },
+            {
+              "id": "C",
+              "text": "clearing and settling of securities trades through distributed ledger technology."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Fintech is the application of technology to the financial services industry and to companies that are involved in developing and applying technology for financial services. Cryptocurrencies and distributed ledger technology are examples of fintech-related developments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Fintech is the application of technology to the financial services industry and to"
+            },
+            {
+              "type": "paragraph",
+              "text": "companies that are involved in developing and applying technology for financial services. Cryptocurrencies and distributed ledger technology are examples of fintech-related developments."
+            }
+          ]
+        },
+        {
+          "id": "r11-q2",
+          "number": 2,
+          "objectiveIds": [
+            "11.b"
+          ],
+          "prompt": "Which of the following technological developments is most likely to be useful for analyzing Big Data?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Machine learning."
+            },
+            {
+              "id": "B",
+              "text": "High-latency capture."
+            },
+            {
+              "id": "C",
+              "text": "The Internet of Things."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Machine learning is a computer programming technique useful for identifying and modeling patterns in large volumes of data. The Internet of Things is the network of devices that is one of the sources of Big Data. Capture is one aspect of processing data. Latency is the lag between when data is generated and when it is needed.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Machine learning is a computer programming technique useful for identifying and"
+            },
+            {
+              "type": "paragraph",
+              "text": "modeling patterns in large volumes of data. The Internet of Things is the network of devices that is one of the sources of Big Data. Capture is one aspect of"
+            },
+            {
+              "type": "paragraph",
+              "text": "processing data. Latency is the lag between when data is generated and when it is needed."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

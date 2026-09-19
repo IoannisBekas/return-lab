@@ -1,0 +1,1009 @@
+{
+  "readingId": 36,
+  "title": "Financial Reporting Quality",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "36.1",
+      "title": "Reporting Quality",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "36.a",
+          "text": "How can we compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial reporting quality refers to the characteristics of a firm’s financial statements. The primary criterion for judging financial reporting quality is adherence to generally accepted accounting principles (GAAP) in the jurisdiction in which the firm operates. However, given that GAAP provide choices of methods, estimates, and specific treatment of many items, compliance with GAAP by itself does not necessarily result in financial reporting of the highest quality."
+        },
+        {
+          "type": "paragraph",
+          "text": "High quality financial reporting must be decision useful. Two characteristics of decision-useful financial reporting are relevance and faithful representation. Relevance refers to the fact that information presented in the financial statements is useful to users of financial statements in making decisions. Relevant information must also be material in that knowledge of it would likely affect the decisions of users of financial statements. Faithful representation encompasses the qualities of completeness, neutrality, and the absence of errors. We develop the concept of neutrality of financial reports later in this reading."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quality of earnings is, in many respects, a separate issue. The quality of reported earnings (not the quality of earnings reports) can be judged based on the sustainability of the earnings as well as on their level. Sustainability can be evaluated by determining the proportion of reported earnings that can be expected to continue in the future. Increases in reported earnings resulting from changes in exchange rates or by sales of assets that have appreciated over many periods are not typically sustainable, whereas higher profits from increased efficiency or increasing market share would generally be considered sustainable."
+        },
+        {
+          "type": "paragraph",
+          "text": "One dollar of high-quality earnings is expected to add more value to a company than one dollar of low-quality earnings, based on the criterion of sustainability. The higher probability that high-quality earnings will continue in future periods increases their impact on the value of the firm, calculated as the present value of expected future earnings. At the other end of the sustainability spectrum, a one-time gain of a dollar from favorable currency exchange rate movements is not likely to be repeated and, therefore, has a smaller impact on estimates of a company’s value."
+        },
+        {
+          "type": "paragraph",
+          "text": "The importance of the level of earnings is that reported earnings must be high enough to sustain the company’s operations and existence over time, as well as high enough to provide an adequate return to the company’s investors. Both of these concerns are important in determining the quality of a company’s reported earnings. Sustainability of reported cash flows is also a consideration in determining the quality of reported earnings, as are the value of items reported on the balance sheet. Inadequate accruals for probable liabilities and overstatement of asset values can both decrease the quality of reported earnings and bring sustainability into question."
+        },
+        {
+          "type": "paragraph",
+          "text": "From our discussion here, we can see that it is quite possible that a firm has high financial reporting quality but a low quality of reported earnings. Reported earnings may be GAAP-compliant and relevant, represent the company’s economic activities faithfully, and be decision useful as a result, but have low sustainability or be low enough in amount that the provision of adequate investor returns or the sustainability of the company itself are called into question."
+        },
+        {
+          "type": "question",
+          "objectiveId": "36.b",
+          "text": "What should we know about a spectrum for assessing financial reporting quality?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Combining both financial reporting quality and the quality of reported earnings, we can categorize the quality of financial reports along a spectrum from best to worst. At the high-quality end of the spectrum, we have financial reports that are compliant with GAAP, decision useful, and report earnings that are sustainable and represent an adequate return on invested capital. At the opposite end of the spectrum are financial reports that are essentially fictitious (fraudulent). When reporting quality is that low, the quality of the reported earnings themselves is impossible to assess. We can identify several levels of quality between these two extremes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Here is one possible categorization of the quality levels of financial reports, from best to worst:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Reporting is compliant with GAAP and decision useful; earnings are sustainable and"
+        },
+        {
+          "type": "paragraph",
+          "text": "adequate.\n2. Reporting is compliant with GAAP and decision useful, but earnings quality is low"
+        },
+        {
+          "type": "paragraph",
+          "text": "(earnings are not sustainable or not adequate).\n3. Reporting is compliant with GAAP, but earnings quality is low and reporting choices"
+        },
+        {
+          "type": "paragraph",
+          "text": "and estimates are biased."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Reporting is compliant with GAAP, but the amount of earnings is actively managed to"
+        },
+        {
+          "type": "paragraph",
+          "text": "increase, decrease, or smooth reported earnings."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Reporting is not compliant with GAAP, although the numbers presented are based on"
+        },
+        {
+          "type": "paragraph",
+          "text": "the company’s actual economic activities.\n6. Reporting is not compliant and includes numbers that are essentially fictitious or"
+        },
+        {
+          "type": "paragraph",
+          "text": "fraudulent."
+        },
+        {
+          "type": "question",
+          "objectiveId": "36.c",
+          "text": "How can we explain the difference between conservative and aggressive accounting?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ideally, financial statements should be neutral or unbiased in order to offer the most value to analysts. In general, we describe the choices made within GAAP with respect to reported earnings as conservative accounting if they tend to decrease the company’s reported earnings and financial position (on the balance sheet) for the current period. We describe choices that increase reported earnings or improve the financial position for the current period as aggressive accounting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aggressive accounting often results in decreased earnings in future periods, while conservative accounting will tend to increase future period earnings. Both these types of bias are sometimes used by management, for different periods, in an attempt to smooth earnings over time because greater earnings volatility tends to reduce the value of a company’s shares. Often earnings smoothing is accomplished through adjustment of accrued liabilities that are based on management estimates. During periods of higher-than-expected earnings, management may employ a conservative bias by adjusting an accrued liability upward to reduce reported earnings for that period. This effectively allows deferral of the recognition of these earnings to a future period for which earnings are less than expected. In such a future period, the accrued liability is adjusted downward to increase reported earnings in that period, perhaps to meet market expectations. Deferral of reported earnings through conservative bias in financial reporting so they can be used opportunistically in a future period is sometimes referred to as putting earnings in the “cookie jar” (presumably to be “enjoyed” later)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some examples of conservative versus aggressive financial reporting based on management choices and estimates are shown in Figure 36.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 36.1: Aggressive and Conservative Accounting"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fc07326a2f0b8fbbbfb4.png",
+          "alt": "Equation, table, or diagram: Figure 36.1: Aggressive and Conservative Accounting",
+          "width": 503,
+          "height": 218,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bias can also be present in the way that financial results are presented. A company may present transparent financial statements that help analysts and investors to understand the results and the activities that led to them. Alternatively, a company may provide minimal disclosure in an attempt to emphasize positive developments and obscure information about negative developments."
+        },
+        {
+          "type": "paragraph",
+          "text": "We should avoid thinking about conservatism in financial reporting as “good” and aggressive reporting as “bad.” Conservative bias can also be considered as a deviation from neutral reporting or faithful representation that reduces the usefulness of financial statements to analysts and investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sometimes GAAP themselves can introduce conservatism by imposing a higher standard of verification for revenue and profit than for expenses and accrual of liabilities. For example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Research costs are typically expensed in the period incurred because of the uncertainty about the future benefits to be provided from research activities, while the associated revenue is not recognized until some future period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accruals for legal liabilities are recorded when a future payment becomes “probable,” while the standard for recognizing increasing accrued asset value is stricter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, write-downs of inventory values are required when their future value is likely impaired, but increases in inventory value may not be recorded until the inventory is actually sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "While conservative bias in financial reporting is not ideal for users of financial statements, it may be beneficial in reducing the probability of future litigation from users claiming they were misled, in reducing current period tax liability (when deductions for tax must also be deducted in the financial statements), and in protecting the interests of those who have less complete information than company management, such as buyers of the company’s debt."
+        },
+        {
+          "type": "question",
+          "objectiveId": "36.d",
+          "text": "What should we know about motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports?"
+        },
+        {
+          "type": "paragraph",
+          "text": "One important motivation for aggressive accounting choices is to meet or exceed a benchmark number for earnings per share. Specifically, managers may be motivated to report earnings that are greater than:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Earnings guidance offered earlier by management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consensus analyst expectations. Those of the same period in the prior year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The manager’s motivation here may be career oriented, seeking to enhance her reputation and improve future career opportunities. Because beating certain benchmarks is important to subsequent stock price movements, managers may be motivated by incentive compensation (bonuses) that depends on stock returns. Other possible motivations are to gain credibility with equity market investors or improve the way the company is viewed by its customers and suppliers."
+        },
+        {
+          "type": "paragraph",
+          "text": "For companies that are highly leveraged and unprofitable, aggressive accounting may be motivated by a desire to avoid violating debt covenants."
+        },
+        {
+          "type": "paragraph",
+          "text": "When earnings exceed benchmark levels, managers may make conservative accounting choices in ways that allow these earnings to be shown in future periods, increasing the"
+        },
+        {
+          "type": "paragraph",
+          "text": "probability that future period earnings will meet or exceed the relevant benchmark amount."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three factors that typically exist in cases where management provides low-quality financial reporting are motivation, opportunity, and a rationalization of the behavior. So to the sources of motivation previously listed, we can add conditions that increase the opportunity to present low-quality financial reports. Circumstances in which low-quality, or even fraudulent, financial reporting is more probable are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The company has weak internal controls. The board of directors provides inadequate oversight. Applicable accounting standards provide a large range of acceptable accounting treatments, provide for inconsequential penalties in the case of accounting fraud, or both."
+        },
+        {
+          "type": "paragraph",
+          "text": "The third likely element of low-quality financial reporting is rationalization by management for less-than-ethical actions. Most people who do something they know is wrong tell themselves a story that seems (at least to them) to justify breaking the rules. Whether the story is “I’ll fix it next period” or “I have to do it to get my bonus and pay for my parents’ care,” the resulting behavior is the same."
+        },
+        {
+          "type": "question",
+          "objectiveId": "36.e",
+          "text": "What should we know about mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each country has its own regulatory body responsible for publicly traded securities and the markets in which they trade. For example, in the United States, the regulatory body is the Securities and Exchange Commission (SEC). In the U.K., it is the Financial Conduct Authority (FCA). The International Organization of Securities Commissions (IOSCO) coordinates securities regulation on an international basis with over 200 members, such as national securities regulators, stock exchanges, and regional authorities. One such regional authority, the European Securities and Markets Authority (ESMA), coordinates policy among the securities regulators of countries in the European Union."
+        },
+        {
+          "type": "paragraph",
+          "text": "Securities regulations typically require:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A registration process for the issuance of new publicly traded securities. Specific disclosure and reporting requirements, including periodic financial statements and accompanying notes."
+        },
+        {
+          "type": "paragraph",
+          "text": "An independent audit of financial reports. A statement of financial condition (or management commentary) made by management."
+        },
+        {
+          "type": "paragraph",
+          "text": "A signed statement by the person responsible for the preparation of the financial reports."
+        },
+        {
+          "type": "paragraph",
+          "text": "A review process for newly registered securities and periodic reviews after registration."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enforcement actions by securities regulators may include fines, suspension of participation in issuance and trading of securities, and public disclosure of the results"
+        },
+        {
+          "type": "paragraph",
+          "text": "of disciplinary proceedings. Regulators may also pursue criminal prosecution of fraudulent or otherwise illegal activities."
+        },
+        {
+          "type": "paragraph",
+          "text": "In addition to the audit opinion, a requirement for securities that trade in the United States is that management must include an assessment of the effectiveness of the firm’s internal controls."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that an unqualified or “clean” audit opinion is not a guarantee that no fraud has occurred but only offers reasonable assurance that the financial reports (prepared the under the direction of management) have been “fairly reported” with respect to the applicable GAAP. The auditor is selected and paid by the firm being audited."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another source of discipline on financial reporting quality is private contracts, such as those with lenders. Such contracts will often specify how financial measures referenced in the loan covenants will be calculated. The counterparties to private contracts with the firm have an incentive to see that the firm produces high-quality financial reports."
+        },
+        {
+          "type": "question",
+          "objectiveId": "36.f",
+          "text": "What should we know about presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Firms will sometimes report accounting measures that are not defined or required under GAAP. Such non-GAAP measures typically exclude some items in order to make the firm’s performance look better than it would using measures defined and required by GAAP. The claim is often made that certain items are excluded because they are one-time or nonoperating costs that will not affect operating earnings going forward, because the items are non-cash charges, or to “improve comparability with companies that use different accounting methods” for depreciation or restructuring charges."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United States, companies that report non-GAAP measures in their financial statements are required to:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Display the most comparable GAAP measure with equal prominence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Provide an explanation by management as to why the non-GAAP measure is thought to be useful. Reconcile the differences between the non-GAAP measure and the most comparable GAAP measure. Disclose other purposes for which the firm uses the non-GAAP measure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Include, in any non-GAAP measure, any items that are likely to recur in the future, even those treated as nonrecurring, unusual, or infrequent in the financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "IFRS require that firms using non-IFRS measures in financial reports must:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Define and explain the relevance of such non-IFRS measures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reconcile the differences between the non-IFRS measure and the most comparable IFRS measure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Overall, the supposition is that firms use non-GAAP measures in an attempt to control the metrics on which they are evaluated and to reduce the focus of analysts and investors on GAAP measures."
+        }
+      ]
+    },
+    {
+      "id": "36.2",
+      "title": "Accounting Choices and Estimates",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "36.g",
+          "text": "What should we know about accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items?"
+        },
+        {
+          "type": "heading",
+          "text": "Revenue Recognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "One example of how a firm’s choices affect the timing of revenue recognition is the choice of where in the shipping process the customer actually takes title to the goods. A firm may choose terms with their customer of free-on-board (FOB) at the shipping point (the firm’s loading dock) or FOB at the destination (the customer’s location)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choosing terms of FOB at the shipping point will mean that revenue is recognized earlier compared to FOB at the destination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Firms can also manage the timing of revenue recognition by accelerating or delaying the shipment of goods. If additional revenue is required to meet targets, firms can offer discounts or special financing terms to increase orders in the current period, or ship goods to distributors without receiving an order. Overloading a distribution channel with more goods than would normally be sold during a period is referred to as channel stuffing. In periods where high earnings are expected, management may wish to delay recognition of revenue to the next period and hold or delay customer shipments to achieve this."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a bill-and-hold transaction, the customer buys the goods and receives an invoice but requests that the firm keep the goods at their location for a period of time. The use of fictitious bill-and-hold transactions can increase earnings in the current period by recognizing revenue for goods that are actually still in inventory. Revenue for future periods will be decreased as real customer orders for these bill-and-hold items are filled but not recognized in revenue, offsetting the previous overstatement of revenue."
+        },
+        {
+          "type": "heading",
+          "text": "Estimates of Credit Losses"
+        },
+        {
+          "type": "paragraph",
+          "text": "One example of accounting choices that affect financial reports is the estimation of losses from uncollectable customer credit accounts. On the balance sheet, the reserve for uncollectible debt is an offset to accounts receivable. If management determines the probability that accounts receivable will be uncollectible is lower than their current estimate, a decrease in the reserve for uncollectible accounts will increase net receivables reported on the balance sheet, reduce expenses on the income statement, and increase net income. An increase in the allowance for bad debt would have the opposite effect, decreasing net receivables on the balance sheet, increasing expenses, and decreasing net income."
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm that simply underestimates the percentage of receivables that will be uncollectible will report higher receivables and higher net income as a result. At some point, when actual uncollectible accounts exceed the low estimate, the firm will report an additional expense that will reduce net income and net receivables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Management can adjust the bad-debt reserve in order to smooth earnings. In periods of high earnings, the allowance for bad debt is increased to reduce reported earnings, in effect storing these earnings for later use. In subsequent periods, if earnings are below benchmark values, the bad-debt reserve can be reduced to meet earnings targets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other reserves recorded by a company, such as a reserve for warranty expense, can also be changed to manage reported earnings. A decrease in the estimated warranty expense as a percentage of sales will increase earnings, while an increase in the reserve for warranty expense will decrease earnings for the period."
+        },
+        {
+          "type": "heading",
+          "text": "Valuation Allowance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Another example of a contra account that can be used to manage earnings is a valuation allowance. Recall that a valuation allowance reduces the carrying value of a deferred"
+        },
+        {
+          "type": "paragraph",
+          "text": "tax asset based on the probability it will not be realized. Similar to the effects of an allowance for bad debt, increasing a valuation allowance will decrease the net deferred tax asset on the balance sheet and reduce net income for the period, while a decrease in the valuation allowance will increase the net deferred tax asset and increase net income for the period."
+        },
+        {
+          "type": "paragraph",
+          "text": "As with the contra account for bad debt, the valuation allowance can be understated to show higher asset values and adjusted over time to smooth earnings."
+        },
+        {
+          "type": "heading",
+          "text": "Depreciation Methods and Estimates"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to straight-line depreciation, using an accelerated method of depreciation increases expenses, and decreases net income, in the early years of an asset’s life. In the later years of an asset’s life, expenses are lower and net income higher when an accelerated depreciation method is used. The carrying value of a depreciable asset on the balance sheet will decrease more rapidly with accelerated depreciation than with straight-line depreciation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estimates of the useful life of a depreciable asset and its salvage value upon disposal can also affect net income and the carrying value of the asset. A greater salvage value will slow depreciation so the carrying value of the asset is greater, depreciation expense is less, and net income is higher. A smaller salvage value will have the opposite effects. If the salvage value of an asset is set higher than the actual sale price at the end of the asset’s life, a loss on the sale of the asset will decrease net income in the period in which the asset is sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a longer estimated useful life of a depreciable asset decreases the periodic depreciation expense and increases net income in the early years of the asset’s life compared to using a shorter estimated useful life."
+        },
+        {
+          "type": "heading",
+          "text": "Amortization and Impairment"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management choices and estimates regarding amortization of purchased intangible assets are similar to those for depreciation of tangible assets. The intangible asset goodwill is not amortized but is subject to a test for impairment. By ignoring or delaying recognition of an impairment charge for goodwill, management can increase earnings in the current period."
+        },
+        {
+          "type": "heading",
+          "text": "Inventory Method"
+        },
+        {
+          "type": "paragraph",
+          "text": "The choice of inventory cost flow methods can have significant effects on both reported earnings and the balance sheet value of inventory. Consider the choice between FIFO and weighted-average inventory costing methods. During periods of rising prices, COGS under the FIFO method will be less than COGS under the weighted-average costing method. Gross profit, gross margin, and earnings will all be greater under the FIFO method than under the weighted-average method as a result. Balance sheet inventory value will be greater under FIFO than under the weighted-average method."
+        },
+        {
+          "type": "paragraph",
+          "text": "During periods of decreasing prices, the opposite is true; FIFO COGS are greater than weighted-average COGS and FIFO gross profits, gross margin, and earnings less than"
+        },
+        {
+          "type": "paragraph",
+          "text": "under the weighted-average method. With decreasing prices, balance sheet inventory will be less under FIFO than under the weighted-average cost method."
+        },
+        {
+          "type": "paragraph",
+          "text": "In terms of relevance, in an environment of either increasing or decreasing prices, FIFO results in more accurate balance sheet inventory values because inventory value is closer to current replacement cost than under the weighted average cost method. Conversely, COGS are closer to current (replacement) cost under the weighted-average cost method so that gross profit and margin better reflect economic reality. Gross profit under FIFO is distorted in that it includes gains from rising prices (or losses from decreasing prices), so the weighted-average cost method produces “better” information on the income statement. Financial reports that are transparent and provide users with the information needed to understand how the choice of inventory costing method affects income statement and balance sheet values are considered to be higher quality."
+        },
+        {
+          "type": "heading",
+          "text": "Related-Party Transactions"
+        },
+        {
+          "type": "paragraph",
+          "text": "If a public firm does business with a supplier that is private and controlled by management, adjusting the price of goods supplied can shift profits either to or from the private company to manage the earnings reported by the public company."
+        },
+        {
+          "type": "heading",
+          "text": "Capitalization"
+        },
+        {
+          "type": "paragraph",
+          "text": "Any expense that can be capitalized creates an asset on the balance sheet, and the impact of the expense on net income can be spread over many years. Consider a firm that has a marketing expense of $1.5 million and chooses to capitalize this expense and amortize it over three years. In the period in which the expense is incurred, capitalization will reduce the expense on the income statement from $1.5 million to $0.5 million, increasing pretax income by $1 million. At the end of the year, the related balance sheet asset is $1 million, and an amortization expense of $0.5 million will be taken (and reduce net income) in each of the following two years. Greater capitalization of research and development costs will shift net income into the current period in the same way."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalization also affects cash flow classifications. If an expense is capitalized, the entire amount is classified as an investing cash outflow so that operating cash flow is increased by that amount."
+        },
+        {
+          "type": "heading",
+          "text": "Other Cash Flow Effects"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management can affect the classification of cash flows through other methods, primarily with the goal of increasing reported cash flow from operations. Taking longer to pay suppliers increases operating cash flows and is referred to as stretching payables. Delaying payments that would normally be made near the end of a reporting period until the beginning of the next accounting period will increase operating cash flow in the current period and reduce it in the subsequent period. There is no effect on reported earnings in the current period from stretching payables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capitalizing interest expense will decrease cash flow from investing and increase cash flow from operations, along with its effects on the pattern of earnings from depreciating"
+        },
+        {
+          "type": "paragraph",
+          "text": "the interest expense over time rather than expensing it all in the current period. More generally, the ability under IFRS to classify interest and dividends paid as either CFO or CFF, and interest and dividends received as either CFO or CFI, gives management an additional way to manage reported operating cash flow."
+        }
+      ]
+    },
+    {
+      "id": "36.3",
+      "title": "Warning Signs",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "36.h",
+          "text": "What should we know about accounting warning signs and methods for detecting manipulation of information in financial reports?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Following is a list of several warning signs that analysts should look for. The presence of these issues does not indicate fraud or even earnings manipulation, but in each case, the presence of one or more warning signs requires more analysis in order to determine whether there is a real business reason for the item or if earnings manipulation or fraud is driving the decisions and results. Avoiding investment in the company is one alternative when analysts and investors cannot obtain satisfactory answers to the questions raised when multiple warning signs are present."
+        },
+        {
+          "type": "heading",
+          "text": "Revenue Recognition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes in revenue recognition methods. Use of bill-and-hold transactions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use of barter transactions. Use of rebate programs that require estimation of the impact of rebates on net revenue. Lack of transparency with regard to how the various components of a customer order are recorded as revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Revenue growth out of line with peer companies. Receivables turnover is decreasing over multiple periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Decreases in total asset turnover, especially when a company is growing through acquisition of other companies. Inclusion of nonoperating items or significant one-time sales in revenue."
+        },
+        {
+          "type": "heading",
+          "text": "Inventories"
+        },
+        {
+          "type": "paragraph",
+          "text": "Declining inventory turnover ratio. LIFO liquidations—drawing down inventory levels when LIFO (U.S. GAAP only) inventory costing is used so that COGS reflects the lower costs of items acquired in past periods, which increases current period earnings."
+        },
+        {
+          "type": "heading",
+          "text": "Capitalization Policies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Firm capitalizes costs that are not typically capitalized by firms in their industry."
+        },
+        {
+          "type": "heading",
+          "text": "Relationship of Revenue and Cash Flow"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ratio of operating cash flow to net income is persistently less than one or declining over time."
+        },
+        {
+          "type": "heading",
+          "text": "Other Warning Signs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depreciation methods, estimated asset lives, or estimates of salvage values are out of line with those of peer companies in the industry. Fourth-quarter earnings show a pattern (either high or low) compared to the seasonality of earnings in the industry or seasonality of revenue for the firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "The firm has significant transactions with related parties (entities controlled by management)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certain expenses are classified as nonrecurring but appear regularly in financial reports. Gross or operating profit margins are noticeably higher than are typical for the industry and peer companies. Management typically provides only minimal financial reporting information and disclosure. Management typically emphasizes non-GAAP earnings measures and uses special or nonrecurring designations aggressively for charges."
+        },
+        {
+          "type": "paragraph",
+          "text": "Growth by purchasing a large number of businesses can provide many opportunities to manipulate asset values and future depreciation and amortization and make comparisons to prior period earnings problematic."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should consider adjusting prior-period earnings when large restructuring or impairment charges are recognized. Analysts sometimes take such events to be good news because they anticipate better firm performance going forward when poorly performing assets are disposed of. Because the charges represent, to some extent, “corrections” of previously understated expenses and overstated asset values, analysts should consider spreading these costs across prior periods and restating prior earnings to give a more realistic picture of true earnings trends."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "36.a",
+      "text": "How can we compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial reporting quality refers to the characteristics of a firm’s financial statements. High-quality financial reporting adheres to generally accepted accounting principles (GAAP) and is decision useful in terms of relevance and faithful representation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quality of reported results refers to the level and sustainability of a firm’s earnings, cash flows, and balance sheet items. High-quality earnings are high enough to provide the firm’s investors with an adequate return and are sustainable in future periods."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.b",
+      "text": "What should we know about a spectrum for assessing financial reporting quality?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A spectrum for assessing financial reporting quality considers both the quality of a firm’s financial statements and the quality of its earnings. One such spectrum, from highest quality to lowest, is the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporting is compliant with GAAP and decision useful; earnings are sustainable and adequate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporting is compliant and decision useful, but earnings quality is low. Reporting is compliant, but earnings quality is low and reporting choices and estimates are biased."
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporting is compliant, but earnings are actively managed. Reporting is not compliant, but the numbers presented are based on the company’s actual economic activities. Reporting is not compliant and includes numbers that are fictitious or fraudulent."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.c",
+      "text": "How can we explain the difference between conservative and aggressive accounting?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Biased accounting choices that can be made within GAAP include conservative and aggressive accounting. Conservative accounting choices tend to decrease the company’s reported earnings and financial position for the current period. Aggressive accounting choices tend to increase reported earnings or improve the financial position for the current period."
+    },
+    {
+      "type": "paragraph",
+      "text": "Some managers employ conservative bias during periods when earnings are above target and aggressive bias during poor periods of below-target earnings to artificially smooth earnings."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.d",
+      "text": "What should we know about motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Motivations for firm managers to issue low-quality financial reports may include pressure to meet or exceed earnings targets, career considerations, increasing their compensation, improving perceptions of the firm among customers and suppliers, or meeting the terms of debt covenants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Conditions that are often present when managers issue low-quality financial reports include motivations, opportunities, and rationalizations. Weak internal controls, inadequate oversight by the board of directors, and wide ranges of acceptable accounting treatments are among the factors that may provide opportunities for low-quality reporting."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.e",
+      "text": "What should we know about mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mechanisms that help to discipline financial reporting quality include regulation, auditing, and private contracts. Regulators typically require public companies to provide periodic financial statements and notes, including management commentary, and obtain independent audits."
+    },
+    {
+      "type": "paragraph",
+      "text": "A clean audit opinion offers reasonable assurance that financial statements are free from material errors but does not guarantee the absence of error or fraud. The fact that firms select and pay their auditors may limit the effectiveness of auditing to discipline financial reporting quality."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.f",
+      "text": "What should we know about presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Firms may attempt to influence analysts’ valuations by presenting non-GAAP measures, such as earnings that exclude certain nonrecurring items. IFRS requires firms to define and explain the relevance of any non-GAAP measures and reconcile them to the most comparable IFRS measure. Similar requirements apply to U.S. public firms."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.g",
+      "text": "What should we know about accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting choices and estimates that can be used to manage earnings include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revenue recognition choices such as shipping terms (FOB shipping point versus FOB destination), accelerating shipments (channel stuffing), and bill-and-hold transactions. Estimates of reserves for uncollectible accounts or warranty expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Valuation allowances on deferred tax assets. Depreciation methods, estimates of useful lives and salvage values, and recognition of impairments. Inventory cost flow methods. Capitalization of expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "Related-party transactions."
+    },
+    {
+      "type": "question",
+      "objectiveId": "36.h",
+      "text": "What should we know about accounting warning signs and methods for detecting manipulation of information in financial reports?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting warning signs that indicate a need for closer analysis may include:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Revenue growth out of line with comparable firms, changes in revenue recognition methods, or lack of transparency about revenue recognition. Decreases over time in turnover ratios (receivables, inventory, total asset). Bill-and-hold, barter, or related-party transactions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Net income not supported by operating cash flows. Capitalization decisions, depreciation methods, useful lives, salvage values out of line with comparable firms. Fourth-quarter earnings patterns not caused by seasonality. Frequent appearance of nonrecurring items."
+    },
+    {
+      "type": "paragraph",
+      "text": "Emphasis on non-GAAP measures, minimal information and disclosure in financial reports."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "36.a",
+      "statement": "Compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items).",
+      "question": "How can we compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)?"
+    },
+    {
+      "id": "36.b",
+      "statement": "Describe a spectrum for assessing financial reporting quality.",
+      "question": "What should we know about a spectrum for assessing financial reporting quality?"
+    },
+    {
+      "id": "36.c",
+      "statement": "Explain the difference between conservative and aggressive accounting.",
+      "question": "How can we explain the difference between conservative and aggressive accounting?"
+    },
+    {
+      "id": "36.d",
+      "statement": "Describe motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports.",
+      "question": "What should we know about motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports?"
+    },
+    {
+      "id": "36.e",
+      "statement": "Describe mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms.",
+      "question": "What should we know about mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms?"
+    },
+    {
+      "id": "36.f",
+      "statement": "Describe presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion.",
+      "question": "What should we know about presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion?"
+    },
+    {
+      "id": "36.g",
+      "statement": "Describe accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items.",
+      "question": "What should we know about accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items?"
+    },
+    {
+      "id": "36.h",
+      "statement": "Describe accounting warning signs and methods for detecting manipulation of information in financial reports.",
+      "question": "What should we know about accounting warning signs and methods for detecting manipulation of information in financial reports?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-36-quiz-1",
+      "title": "Knowledge check 36.1",
+      "moduleId": "36.1",
+      "questions": [
+        {
+          "id": "r36-q1",
+          "number": 1,
+          "objectiveIds": [
+            "36.a"
+          ],
+          "prompt": "A firm reports net income of $40 million. The firm’s financial statements disclose in Management’s Discussion and Analysis that $30 million of net income is attributable to a gain on the sale of assets. Based only on this information, for this period, the firm is best described as having high quality of:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "financial reporting only."
+            },
+            {
+              "id": "B",
+              "text": "both earnings and financial reporting."
+            },
+            {
+              "id": "C",
+              "text": "neither earnings nor financial reporting."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Because a large proportion of net income is due to a one-time gain, this period’s earnings are likely not sustainable and the firm may be said to have low quality of earnings for the period. Clear disclosure of this fact in the financial statements suggests high quality of financial reporting.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Because a large proportion of net income is due to a one-time gain, this period’s"
+            },
+            {
+              "type": "paragraph",
+              "text": "earnings are likely not sustainable and the firm may be said to have low quality of earnings for the period. Clear disclosure of this fact in the financial statements suggests high quality of financial reporting."
+            }
+          ]
+        },
+        {
+          "id": "r36-q2",
+          "number": 2,
+          "objectiveIds": [
+            "36.b"
+          ],
+          "prompt": "Which of the following financial reports are considered to be of the lowest quality? Financial reports that reflect:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "unsustainable earnings."
+            },
+            {
+              "id": "B",
+              "text": "biased accounting choices."
+            },
+            {
+              "id": "C",
+              "text": "departures from accounting principles."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "In the spectrum of financial reporting quality, financial reports that depart from generally accepted accounting principles are considered to be of lower quality than those that reflect biased accounting choices. Financial reports that reflect unsustainable earnings, such as one-time gains, can still be of high quality if they state the situation clearly.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In the spectrum of financial reporting quality, financial reports that depart from"
+            },
+            {
+              "type": "paragraph",
+              "text": "generally accepted accounting principles are considered to be of lower quality than those that reflect biased accounting choices. Financial reports that reflect unsustainable earnings, such as one-time gains, can still be of high quality if they state the situation clearly."
+            }
+          ]
+        },
+        {
+          "id": "r36-q3",
+          "number": 3,
+          "objectiveIds": [
+            "36.c"
+          ],
+          "prompt": "Financial reporting is most likely to be decision useful when management’s accounting choices are:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "neutral."
+            },
+            {
+              "id": "B",
+              "text": "aggressive."
+            },
+            {
+              "id": "C",
+              "text": "conservative."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Financial reporting is most likely to be decision useful when accounting choices are neutral. Either aggressive or conservative accounting choices by management may be viewed as biases.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Financial reporting is most likely to be decision useful when accounting choices"
+            },
+            {
+              "type": "paragraph",
+              "text": "are neutral. Either aggressive or conservative accounting choices by management may be viewed as biases."
+            }
+          ]
+        },
+        {
+          "id": "r36-q4",
+          "number": 4,
+          "objectiveIds": [
+            "36.d"
+          ],
+          "prompt": "Which of the following is least likely to be a motivation to overreport earnings?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Reduce tax obligations."
+            },
+            {
+              "id": "B",
+              "text": "Meet analyst expectations."
+            },
+            {
+              "id": "C",
+              "text": "Remain in compliance with bond covenants."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Reducing tax obligations would be a reason to underreport earnings. The other choices are motivations to overreport earnings.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Reducing tax obligations would be a reason to underreport earnings. The other"
+            },
+            {
+              "type": "paragraph",
+              "text": "choices are motivations to overreport earnings."
+            }
+          ]
+        },
+        {
+          "id": "r36-q5",
+          "number": 5,
+          "objectiveIds": [
+            "36.d"
+          ],
+          "prompt": "With respect to conditions that may lead to low-quality financial reporting, ineffective internal controls are best described as a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "motivation."
+            },
+            {
+              "id": "B",
+              "text": "opportunity."
+            },
+            {
+              "id": "C",
+              "text": "rationalization."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Ineffective internal controls are a condition that provides an opportunity for low- quality financial reporting.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Ineffective internal controls are a condition that provides an opportunity for low-"
+            },
+            {
+              "type": "paragraph",
+              "text": "quality financial reporting."
+            }
+          ]
+        },
+        {
+          "id": "r36-q6",
+          "number": 6,
+          "objectiveIds": [
+            "36.e"
+          ],
+          "prompt": "A limitation on the effectiveness of auditing in ensuring financial reporting quality is that:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "detecting fraud is not the objective of audits."
+            },
+            {
+              "id": "B",
+              "text": "public firms are not required to obtain audit opinions."
+            },
+            {
+              "id": "C",
+              "text": "auditors may only issue a qualified or unqualified opinion but do not explain why."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The objective of audits is to provide reasonable assurance that financial statements are presented fairly. A firm that is engaging in accounting fraud may deceive its auditor. Regulators in most countries require publicly traded firms to obtain independent audits of their financial statements. Auditors may issue a qualified opinion noting certain aspects of financial statements that are inconsistent with accounting principles or an adverse opinion if they find that financial statements are materially misstated and do not conform with GAAP.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The objective of audits is to provide reasonable assurance that financial"
+            },
+            {
+              "type": "paragraph",
+              "text": "statements are presented fairly. A firm that is engaging in accounting fraud may deceive its auditor. Regulators in most countries require publicly traded firms to obtain independent audits of their financial statements. Auditors may issue a qualified opinion noting certain aspects of financial statements that are inconsistent with accounting principles or an adverse opinion if they find that financial statements are materially misstated and do not conform with GAAP."
+            }
+          ]
+        },
+        {
+          "id": "r36-q7",
+          "number": 7,
+          "objectiveIds": [
+            "36.f"
+          ],
+          "prompt": "Under IFRS, a firm that presents a nonstandard financial measure is least likely required to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "provide the same measure for at least two prior periods."
+            },
+            {
+              "id": "B",
+              "text": "explain the reasons for presenting the nonstandard measure."
+            },
+            {
+              "id": "C",
+              "text": "reconcile the nonstandard measure to a comparable standard measure."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "IFRS require a firm that presents a nonstandard financial measure to reconcile that measure to an IFRS measure and explain why the firm believes the nonstandard measure is relevant to users of the financial statements. Presenting the nonstandard measure for prior periods is not a requirement.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "IFRS require a firm that presents a nonstandard financial measure to reconcile"
+            },
+            {
+              "type": "paragraph",
+              "text": "that measure to an IFRS measure and explain why the firm believes the nonstandard measure is relevant to users of the financial statements. Presenting the nonstandard measure for prior periods is not a requirement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-36-quiz-2",
+      "title": "Knowledge check 36.2, 36.3",
+      "moduleId": "36.3",
+      "questions": [
+        {
+          "id": "r36-q8",
+          "number": 1,
+          "objectiveIds": [],
+          "prompt": "For the current period, inappropriate capitalization is most likely to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "overstate revenues."
+            },
+            {
+              "id": "B",
+              "text": "understate liabilities."
+            },
+            {
+              "id": "C",
+              "text": "understate expenses."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Management may make inappropriate capitalization decisions to understate expenses by creating balance sheet assets for items that should instead be recognized as expenses in the current period, increasing net income in the current period. Revenues and liabilities are unlikely to be affected by capitalization decisions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Management may make inappropriate capitalization decisions to understate"
+            },
+            {
+              "type": "paragraph",
+              "text": "expenses by creating balance sheet assets for items that should instead be recognized as expenses in the current period, increasing net income in the current period. Revenues and liabilities are unlikely to be affected by capitalization decisions."
+            }
+          ]
+        },
+        {
+          "id": "r36-q9",
+          "number": 2,
+          "objectiveIds": [],
+          "prompt": "A potential warning sign that a firm is engaging in channel stuffing is an unusual increase in the firm’s:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "receivables turnover."
+            },
+            {
+              "id": "B",
+              "text": "days of sales outstanding."
+            },
+            {
+              "id": "C",
+              "text": "number of days of payables."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Channel stuffing, which includes activities such as accelerating deliveries to distributors or sending customers unordered merchandise, would likely increase accounts receivable as a percentage of revenues. This would decrease the receivables turnover ratio and increase days of sales outstanding. Payables would not be affected.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Channel stuffing, which includes activities such as accelerating deliveries to"
+            },
+            {
+              "type": "paragraph",
+              "text": "distributors or sending customers unordered merchandise, would likely increase accounts receivable as a percentage of revenues. This would decrease the receivables turnover ratio and increase days of sales outstanding. Payables would not be affected."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

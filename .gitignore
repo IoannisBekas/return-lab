@@ -6,3 +6,7 @@ dist/
 __pycache__/
 .env*
 !.env.example
+/work/
+/.playwright-cli/
+/output/playwright/
+/tmp/

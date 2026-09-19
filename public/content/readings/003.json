@@ -1,0 +1,1099 @@
+{
+  "readingId": 3,
+  "title": "Statistical Measures of Asset Returns",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "3.1",
+      "title": "Central Tendency and Dispersion",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "3.a",
+          "text": "What should we understand about calculate, interpret, and evaluate measures of central tendency and location to address an investment problem?"
+        },
+        {
+          "type": "heading",
+          "text": "Measures of Central Tendency"
+        },
+        {
+          "type": "paragraph",
+          "text": "Measures of central tendency identify the center, or average, of a dataset. This central point can then be used to represent the typical, or expected, value in the dataset."
+        },
+        {
+          "type": "paragraph",
+          "text": "The arithmetic mean is the sum of the observation values divided by the number of observations. It is the most widely used measure of central tendency. An example of an arithmetic mean is a sample mean, which is the sum of all the values in a sample of a population, ΣX, divided by the number of observations in the sample, n. It is used to make inferences about the population mean. The sample mean is expressed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\overline{{X}}=\\frac{\\sum_{i=1}^{n} X_{i}} {n}",
+          "display": true,
+          "sourceAsset": "405c5bcc413f50bf87cb.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The median is the midpoint of a dataset, where the data are arranged in ascending or descending order. Half of the observations lie above the median, and half are below. To determine the median, arrange the data from the highest to lowest value, or lowest to highest value, and find the middle observation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The median is important because the arithmetic mean can be affected by outliers, which are extremely large or small values. When this occurs, the median is a better measure of central tendency than the mean because it is not affected by extreme values that may actually be the result of errors in the data."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The median using an odd number of observations"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the median return for five portfolio managers with a 10-year annualized total returns record of 30%, 15%, 25%, 21%, and 23%?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, arrange the returns in descending order:"
+        },
+        {
+          "type": "paragraph",
+          "text": "30%, 25%, 23%, 21%, 15%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Then, select the observation that has an equal number of observations above and below it—the one in the middle. For the given dataset, the third observation, 23%, is the median value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The median using an even number of observations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose we add a sixth manager to the previous example with a return of 28%. What is the median return?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arranging the returns in descending order gives us this:"
+        },
+        {
+          "type": "paragraph",
+          "text": "30%, 28%, 25%, 23%, 21%, 15%"
+        },
+        {
+          "type": "paragraph",
+          "text": "With an even number of observations, there is no single middle value. The median value, in this case, is the arithmetic mean of the two middle observations, 25% and 23%. Thus, the median return for the six managers is 24% = 0.5(25 + 23)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mode is the value that occurs most frequently in a dataset. A dataset may have more than one mode, or even no mode. When a distribution has one value that appears most frequently, it is said to be unimodal. When a dataset has two or three values that occur most frequently, it is said to be bimodal or trimodal, respectively."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The mode"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the mode of the following dataset?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dataset: [30%, 28%, 25%, 23%, 28%, 15%, 5%]"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mode is 28% because it is the value appearing most frequently."
+        },
+        {
+          "type": "paragraph",
+          "text": "For continuous data, such as investment returns, we typically do not identify a single outcome as the mode. Instead, we divide the relevant range of outcomes into intervals, and we identify the modal interval as the one into which the largest number of observations fall."
+        },
+        {
+          "type": "heading",
+          "text": "Methods for Dealing With Outliers"
+        },
+        {
+          "type": "paragraph",
+          "text": "In some cases, a researcher may decide that outliers should be excluded from a measure of central tendency. One technique for doing so is to use a trimmed mean. A trimmed mean excludes a stated percentage of the most extreme observations. A 1% trimmed mean, for example, would discard the lowest 0.5% and the highest 0.5% of the observations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another technique is to use a winsorized mean. Instead of discarding the highest and lowest observations, we substitute a value for them. To calculate a 90% winsorized mean, for example, we would determine the 5th and 95th percentile of the observations, substitute the 5th percentile for any values lower than that, substitute the 95th"
+        },
+        {
+          "type": "paragraph",
+          "text": "percentile for any values higher than that, and then calculate the mean of the revised dataset. Percentiles are measures of location, which we will address next."
+        },
+        {
+          "type": "heading",
+          "text": "Measures of Location"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantile is the general term for a value at or below which a stated proportion of the data in a distribution lies. Examples of quantiles include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quartile. The distribution is divided into quarters. Quintile. The distribution is divided into fifths."
+        },
+        {
+          "type": "paragraph",
+          "text": "Decile. The distribution is divided into tenths. Percentile. The distribution is divided into hundredths (percentages)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that any quantile may be expressed as a percentile. For example, the third quartile partitions the distribution at a value such that three-fourths, or 75%, of the observations fall below that value. Thus, the third quartile is the 75th percentile. The difference between the third quartile and the first quartile (25th percentile) is known as the interquartile range."
+        },
+        {
+          "type": "paragraph",
+          "text": "To visualize a dataset based on quantiles, we can create a box and whisker plot, as shown in Figure 3.1. In a box and whisker plot, the box represents the central portion of the data, such as the interquartile range. The vertical line represents the entire range. In"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 3.2, we can see that the largest observation is farther away from the center than is the smallest observation. This suggests that the data might include one or more outliers on the high side."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 3.1: Box and Whisker Plot"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/97e98af8fc5291307d5c.png",
+          "alt": "Equation, table, or diagram: Figure 3.1: Box and Whisker Plot",
+          "width": 519,
+          "height": 306,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "3.b",
+          "text": "What should we understand about calculate, interpret, and evaluate measures of dispersion to address an investment problem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dispersion is defined as the variability around the central tendency. The common theme in finance and investments is the tradeoff between reward and variability, where the central tendency is the measure of the reward and dispersion is a measure of risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "The range is a relatively simple measure of variability, but when used with other measures, it provides useful information. The range is the distance between the largest and the smallest value in the dataset:"
+        },
+        {
+          "type": "paragraph",
+          "text": "range = maximum value − minimum value"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The range"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the range for the 5-year annualized total returns for five investment managers if the managers’ individual returns were 30%, 12%, 25%, 20%, and 23%?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "range = 30 − 12 = 18%"
+        },
+        {
+          "type": "paragraph",
+          "text": "The mean absolute deviation (MAD) is the average of the absolute values of the deviations of individual observations from the arithmetic mean:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{MAD}={\\frac{\\displaystyle{\\sum_{i=1}^{n} \\bigl| X_{i}-{\\overline{{X}}} \\bigr|}} {\\displaystyle{\\mathfrak{n}}}}",
+          "display": true,
+          "sourceAsset": "56c9cf67bc96796123e6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The computation of the MAD uses the absolute values of each deviation from the mean because the sum of the actual deviations from the arithmetic mean is zero."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: MAD"
+        },
+        {
+          "type": "paragraph",
+          "text": "What is the MAD of the investment returns for the five managers discussed in the preceding example? How is it interpreted?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Annualized returns: [30%, 12%, 25%, 20%, 23%]"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\overline{{{X}}}} & {{}=\\frac{\\left[ 30+12+25+20+23 \\right]} {5}=227_{0}^{\\prime}} \\\\ {} & {{} \\mathrm{MAD}=\\frac{\\left[ \\left| 30-22 \\right|+\\left| 12-22 \\right|+\\left| 25-22 \\right|+\\left| 20-22 \\right|+\\left| 23-22 \\right| \\right]} {5}} \\\\ {} & {{} \\mathrm{MAD}=\\frac{\\left[ 8+10+3+2+1 \\right]} {5}=4.89_{6}^{\\prime}} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "a3456fb018c5b468db7b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This result can be interpreted to mean that, on average, an individual return will deviate ±4.8% from the mean return of 22%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sample variance, s², is the measure of dispersion that applies when we are evaluating a sample of n observations from a population. The sample variance is calculated using the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "s^{2}={\\frac{\\sum_{i=1}^{n} ( \\mathbf{X}_{i}-{\\overline{{X}}} )^{2}} {\\mathbf{n}-1}}",
+          "display": true,
+          "sourceAsset": "bd67d6ca706a4c62c91f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The denominator for s² is n − 1, one less than the sample size n. Based on the mathematical theory behind statistical procedures, the use of the entire number of sample observations, n, instead of n − 1 as the divisor in the computation of s², will systematically underestimate the population variance—particularly for small sample sizes. This systematic underestimation causes the sample variance to be a biased estimator of the population variance. Using n − 1 instead of n in the denominator, however, improves the statistical properties of s² as an estimator of the population variance."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Sample variance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that the 5-year annualized total returns for the five investment managers used in the preceding examples represent only a sample of the managers at a large investment firm. What is the sample variance of these returns?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{aligned} {\\overline{{X}}} & {{}=\\frac{\\left[ 30+12+25+20+23 \\right]} {5}=229_{6}} \\\\ {s^{2}} & {{}=\\frac{\\left[ ( 30-22 )^{2}+( 12-22 )^{2}+( 25-22 )^{2}+( 20-22 )^{2}+( 23-22 )^{2} \\right]} {5-1}} \\\\ \\end{aligned}\\\\[6pt]= 44.5 \\left( \\heartsuit_{6}^{2} \\right)\\end{gathered}",
+          "display": true,
+          "sourceAsset": "2c2e94112153ae13e113.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, the sample variance of 44.5(%²) can be interpreted to be an unbiased estimator of the population variance. Note that 44.5 “percent squared” is 0.00445, and you will get this value if you put the percentage returns in decimal form [e.g., (0.30 − 0.22)²]."
+        },
+        {
+          "type": "paragraph",
+          "text": "A major problem with using variance is the difficulty of interpreting it. The computed variance, unlike the mean, is in terms of squared units of measurement. How does one interpret squared percentages, squared dollars, or squared yen? This problem is mitigated through the use of the standard deviation. The units of standard deviation are the same as the units of the data (e.g., percentage return, dollars, euros). The sample standard deviation is the square root of the sample variance. The sample standard deviation, s, is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "s={\\sqrt{\\frac{\\sum_{i=1}^{n} \\left( \\mathbf{X}_{i}-{\\overline{{\\mathbf{X}}}} \\right)^{2}} {\\mathbf{n}}-1}}",
+          "display": true,
+          "sourceAsset": "5777127ccf3dac222026.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Sample standard deviation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compute the sample standard deviation based on the result of the preceding example."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the sample variance for the preceding example was computed to be 44.5(%²), this is the sample standard deviation:"
+        },
+        {
+          "type": "math",
+          "latex": "s=[ 44.5 ( {\\%}^{2} ) ]^{1 / 2}=6.67 {9 \\surd}_{0} , \\, \\sqrt{0.00445}=0.0667",
+          "display": true,
+          "sourceAsset": "c9ea1d43f6db65645d23.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This means that on average, an individual return from the sample will deviate ±6.67% from the mean return of 22%. For independent, identically distributed observations with finite variance, the sample variance calculated with n − 1 in the denominator is an unbiased estimator of population variance. Taking its square root does not preserve unbiasedness: the sample standard deviation is generally downward biased as an estimator of population standard deviation."
+        },
+        {
+          "type": "paragraph",
+          "text": "A direct comparison between two or more measures of dispersion may be difficult. For instance, suppose you are comparing the annual returns distribution for retail stocks with a mean of 8% and an annual returns distribution for a real estate portfolio with a mean of 16%. A direct comparison between the dispersion of the two distributions is not meaningful because of the relatively large difference in their means. To make a meaningful comparison, a relative measure of dispersion must be used. Relative dispersion is the amount of variability in a distribution around a reference point or benchmark. Relative dispersion is commonly measured with the coefficient of variation (CV), which is computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{CV}={\\frac{s_{\\mathrm{x}}} {\\overline{{X}}}}={\\frac{\\mathrm{standard~deviation~of~x}} {\\mathrm{average~value~of~x}}}",
+          "display": true,
+          "sourceAsset": "ba1575952afa0aa275ba.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "CV measures the amount of dispersion in a distribution relative to the distribution’s mean. This is useful because it enables us to compare dispersion across different sets of data. In an investments setting, the CV is used to measure the risk (variability) per unit of expected return (mean). A lower CV is better."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Coefficient of variation"
+        },
+        {
+          "type": "paragraph",
+          "text": "You have just been presented with a report that indicates that the mean monthly return on T-bills is 0.25% with a standard deviation of 0.36%, and the mean monthly return for the S&P 500 is 1.09% with a standard deviation of 7.30%. Your manager has asked you to compute the CV for these two investments and to interpret your results."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{CV}_{\\mathrm{T-bills}}=\\frac{0.36} {0.25}=1.44} \\\\ {\\mathrm{CV}_{\\mathrm{S.\\&P.500}}=\\frac{7.30} {1.09}=6.70} \\end{array}",
+          "display": true,
+          "sourceAsset": "593a19d743817e2bbf1b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "These results indicate that there is less dispersion (risk) per unit of monthly return for T-bills than for the S&P 500 (1.44 vs. 6.70)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "To remember the formula for CV, remember that the CV is a measure of variation, so standard deviation goes in the numerator. CV is variation per unit of return."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we use variance or standard deviation as risk measures, we calculate risk based on outcomes both above and below the mean. In some situations, it may be more appropriate to consider only outcomes less than the mean (or some other specific value) in calculating a risk measure. In this case, we are measuring downside risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "One measure of downside risk is target downside deviation, which is also known as target semideviation. Calculating target downside deviation is similar to calculating standard deviation, but in this case, we choose a target value against which to measure each outcome and only include deviations from the target value in our calculation if the outcomes are below that target."
+        },
+        {
+          "type": "paragraph",
+          "text": "The formula for target downside deviation is stated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{s_{\\mathrm{target}}=\\sqrt{\\displaystyle\\frac{\\sum_{\\mathrm{all} \\, X_{\\mathrm{i}} < B}^{n} ( X_{\\mathrm{i}}-B )^{2}} {n-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "d6d9529601595d2f2311.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the denominator remains the sample size n minus one, even though we are not using all of the observations in the numerator."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Target downside deviation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the target downside deviation based on the data in the preceding examples, for a target return equal to the mean (22%), and for a target return of 24%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/f01e0cc2132ef3c85097.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 355,
+          "height": 263,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Skewness, Kurtosis, and Correlation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "3.c",
+          "text": "How should we interpret and evaluate measures of skewness and kurtosis to address an investment problem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A distribution is symmetrical if it is shaped identically on both sides of its mean. Distributional symmetry implies that intervals of losses and gains will exhibit the same frequency. For example, a symmetrical distribution with a mean return of zero will have losses in the −6% to −4% interval as frequently as it will have gains in the +4% to +6% interval. The extent to which a returns distribution is symmetrical is important because the degree of symmetry tells analysts if deviations from the mean are more likely to be positive or negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skewness, or skew, refers to the extent to which a distribution is not symmetrical. Nonsymmetrical distributions may be either positively or negatively skewed and result from the occurrence of outliers in the dataset. Outliers are observations extraordinarily far from the mean, either above or below:"
+        },
+        {
+          "type": "paragraph",
+          "text": "A positively skewed distribution is characterized by outliers greater than the mean (in the upper region, or right tail). A positively skewed distribution is said to be skewed right because of its relatively long upper (right) tail. A negatively skewed distribution has a disproportionately large amount of outliers less than the mean that fall within its lower (left) tail. A negatively skewed distribution is said to be skewed left because of its long lower tail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Skewness affects the location of the mean, median, and mode of a distribution:"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a symmetrical distribution, the mean, median, and mode are equal."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a positively skewed, unimodal distribution, the mode is less than the median, which is less than the mean. The mean is affected by outliers; in a positively skewed distribution, there are large, positive outliers, which will tend to pull the mean upward, or more positive. An example of a positively skewed distribution is that of housing prices. Suppose you live in a neighborhood with 100 homes; 99 of them sell for $100,000, and one sells for $1,000,000. The median and the mode will be $100,000, but the mean will be $109,000. Hence, the mean has been pulled upward (to the right) by the existence of one home (outlier) in the neighborhood."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a negatively skewed, unimodal distribution, the mean is less than the median, which is less than the mode. In this case, there are large, negative outliers that tend to pull the mean downward (to the left)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The key to remembering how measures of central tendency are affected by skewed data is to recognize that skew affects the mean more than the median and mode, and the mean is pulled in the direction of the skew. The relative location of the mean, median, and mode for different distribution shapes is shown in Figure 3.2. Note that the median is between the other two measures for positively or negatively skewed distributions."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 3.2: Effect of Skewness on Mean, Median, and Mode"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0abb7ae175098e266ea2.png",
+          "alt": "Equation, table, or diagram: Figure 3.2: Effect of Skewness on Mean, Median, and Mode",
+          "width": 332,
+          "height": 569,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sample skewness is equal to the sum of the cubed deviations from the mean divided by the cubed standard deviation and by the number of observations. Sample skewness for large samples is approximated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Sample skewness}\\approx\\left(\\frac1n\\right)\n\\frac{\\sum_{i=1}^{n}(X_i-\\bar X)^3}{s^3},\\quad s=\\text{sample standard deviation}",
+          "display": true,
+          "sourceAsset": "61bd5ca134bf37687a10.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The us to “interpret and evaluate” measures of skewness and kurtosis, but not to calculate them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the denominator is always positive, but that the numerator can be positive or negative depending on whether observations above the mean or observations below the mean tend to be farther from the mean, on average. When a distribution is right skewed, sample skewness is positive because the deviations above the mean are larger, on average. A left-skewed distribution has a negative sample skewness."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dividing by standard deviation cubed standardizes the statistic and allows interpretation of the skewness measure. If relative skewness is equal to zero, the data are not skewed. Positive levels of relative skewness imply a positively skewed distribution, whereas negative values of relative skewness imply a negatively skewed distribution. Values of sample skewness in excess of 0.5 in absolute value are considered significant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kurtosis is a measure of the degree to which a distribution is more or less peaked than a normal distribution. Leptokurtic describes a distribution that is more peaked than a normal distribution, whereas platykurtic refers to a distribution that is less peaked, or flatter than a normal one. A distribution is mesokurtic if it has the same kurtosis as a normal distribution."
+        },
+        {
+          "type": "paragraph",
+          "text": "As indicated in Figure 3.3, a leptokurtic return distribution will have more returns clustered around the mean and more returns with large deviations from the mean (fatter tails). Relative to a normal distribution, a leptokurtic distribution will have a greater percentage of small deviations from the mean and a greater percentage of extremely large deviations from the mean. This means that there is a relatively greater probability of an observed value being either close to the mean or far from the mean. Regarding an investment returns distribution, a greater likelihood of a large deviation from the mean return is often perceived as an increase in risk."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 3.3: Kurtosis"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/8b6dbaf0a943ad03050a.png",
+          "alt": "Equation, table, or diagram: Figure 3.3: Kurtosis",
+          "width": 375,
+          "height": 160,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "A distribution is said to exhibit excess kurtosis if it has either more or less kurtosis than the normal distribution. The computed kurtosis for all normal distributions is three. Statisticians, however, sometimes report excess kurtosis, which is defined as kurtosis minus three. Thus, a normal distribution has excess kurtosis equal to zero, a leptokurtic distribution has excess kurtosis greater than zero, and platykurtic distributions will have excess kurtosis less than zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Kurtosis is critical in a risk management setting. Most research about the distribution of securities returns has shown that returns are not normally distributed. Actual securities returns tend to exhibit both skewness and kurtosis. Skewness and kurtosis are critical concepts for risk management because when securities returns are modeled using an assumed normal distribution, the predictions from the models will not take into account the potential for extremely large, negative outcomes. In fact, most risk managers put very little emphasis on the mean and standard deviation of a distribution and focus more on the distribution of returns in the tails of the distribution—that is where the risk is. In general, greater excess kurtosis and more negative skew in returns distributions indicate increased risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sample kurtosis for large samples is approximated using deviations raised to the fourth power:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{~sample~kurtosis}} \\approx\\left( {\\frac{1} {n}} \\right) {\\frac{\\sum_{i=1}^{n} ( {\\bf X}_{i}-{\\overline{{X}}} )^{4}} {s^{4}}}} \\\\ {{\\mathrm{~where:~}}} \\\\ {{\\mathrm{~s=sample~standard~deviation}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "1e791dfa134186da6bea.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "3.d",
+          "text": "How should we interpret correlation between two variables to address an investment problem?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Scatter plots are a method for displaying the relationship between two variables. With one variable on the vertical axis and the other on the horizontal axis, their paired observations can each be plotted as a single point. For example, in Panel A of Figure 3.4, the point farthest to the upper right shows that when one of the variables (on the horizontal axis) equaled 9.2, the other variable (on the vertical axis) equaled 8.5."
+        },
+        {
+          "type": "paragraph",
+          "text": "The scatter plot in Panel A is typical of two variables that have no clear relationship. Panel B shows two variables that have a strong linear relationship—that is, a high correlation coefficient."
+        },
+        {
+          "type": "paragraph",
+          "text": "A key advantage of creating scatter plots is that they can reveal nonlinear relationships, which are not described by the correlation coefficient. Panel C illustrates such a relationship. Although the correlation coefficient for these two variables is close to zero, their scatter plot shows clearly that they are related in a predictable way."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 3.4: Scatter Plots"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/601aa84f8a5e0448fd55.png",
+          "alt": "Equation, table, or diagram: Figure 3.4: Scatter Plots",
+          "width": 489,
+          "height": 429,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Covariance is a measure of how two variables move together. The calculation of the sample covariance is based on the following formula:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}s_{X Y}={\\frac{\\sum_{i=1}^{n} \\Bigl\\{\\left[ \\mathrm{X}_{i}-{\\overline{{\\mathrm{X}}}} \\right] \\left[ \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} \\right] \\Bigr\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {r l} {} & {{} X_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} X} \\\\ {} & {{} Y_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} X} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "45d902daba8dba33457c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, the covariance is difficult to interpret. The value of covariance depends on the units of the variables. The covariance of daily price changes of two securities priced in yen will be much greater than their covariance if the securities are priced in dollars. Like the variance, the units of covariance are the square of the units used for the data."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additionally, we cannot interpret the relative strength of the relationship between two variables. Knowing that the covariance of X and Y is 0.8756 tells us only that they tend to move together because the covariance is positive. A standardized measure of the linear relationship between two variables is called the correlation coefficient, or simply correlation. The correlation between two variables, X and Y, is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\rho_{\\mathrm{XY}}={\\frac{s_{\\mathrm{XY}}} {s_{\\mathrm{X}} s_{\\mathrm{Y}}}} , {\\mathrm{which~implies:}}}} \\\\ {{{\\mathfrak{s}}_{\\mathrm{XY}}=\\rho_{\\mathrm{XY}} s_{\\mathrm{X}} s_{\\mathrm{Y}}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "fbf3e68baaed4ff8947d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The properties of the correlation of two random variables, X and Y, are summarized here:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Correlation measures the strength of the linear relationship between two random variables. Correlation has no units."
+        },
+        {
+          "type": "paragraph",
+          "text": "The correlation ranges from −1 to +1. That is, −1 ≤ ρXY ≤ +1."
+        },
+        {
+          "type": "paragraph",
+          "text": "If ρXY = 1.0, the random variables have perfect positive correlation. This means that a movement in one random variable results in a proportional positive movement in the other relative to its mean. If ρXY = −1.0, the random variables have perfect negative correlation. This means that a movement in one random variable results in an exact opposite proportional movement in the other relative to its mean. If ρXY = 0, there is no linear relationship between the variables, indicating that prediction of Y cannot be made on the basis of X using linear methods."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Correlation"
+        },
+        {
+          "type": "paragraph",
+          "text": "The variance of returns on Stock A is 0.0028, the variance of returns on Stock B is 0.0124, and their covariance of returns is 0.0058. Calculate and interpret the correlation of the returns for Stocks A and B."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, it is necessary to convert the variances to standard deviations:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathsf{s}_{\\mathsf{A}}=( 0.0028 )^{\\mathsf{H}}=0.0529} \\\\ {\\mathsf{s}_{\\mathsf{B}}=( 0.0124 )^{\\mathsf{H}}=0.1114} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6f7d6721732b90a06895.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now, the correlation between the returns of Stock A and Stock B can be computed as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\rho_{\\mathrm{AB}}=\\frac{0.0058} {( 0.0529 ) ( 0.1114 )}=0.9842",
+          "display": true,
+          "sourceAsset": "9490149e5b48435c2763.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The fact that this value is close to +1 indicates that the linear relationship is not only positive, but also is very strong."
+        },
+        {
+          "type": "paragraph",
+          "text": "Care should be taken when drawing conclusions based on correlation. Causation is not implied just from significant correlation. Even if it were, which variable is causing change in the other is not revealed by correlation. It is more prudent to say that two variables exhibit positive (or negative) association, suggesting that the nature of any causal relationship is to be separately investigated or based on theory that can be subject to additional tests."
+        },
+        {
+          "type": "paragraph",
+          "text": "One question that can be investigated is the role of outliers (extreme values) in the correlation of two variables. If removing the outliers significantly reduces the calculated correlation, further inquiry is necessary into whether the outliers provide information or are caused by noise (randomness) in the data used."
+        },
+        {
+          "type": "paragraph",
+          "text": "Spurious correlation refers to correlation that is either the result of chance or present due to changes in both variables over time that is caused by their association with a third variable. For example, we can find instances where two variables that are both related to the inflation rate exhibit significant correlation, but for which causation in either direction is not present."
+        },
+        {
+          "type": "paragraph",
+          "text": "In his book Spurious Correlation,1 Tyler Vigen presents the following examples. The correlation between the age of each year’s Miss America and the number of films Nicolas Cage appeared in that year is 87%. This seems a bit random. The correlation between the U.S. spending on science, space, and technology and suicides by hanging, strangulation, and suffocation over the 1999–2009 period is 99.87%. Impressive correlation, but both variables increased in an approximately linear fashion over the period."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "3.a",
+      "text": "What should we understand about calculate, interpret, and evaluate measures of central tendency and location to address an investment problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The arithmetic mean is the average of observations. The sample mean is the arithmetic mean of a sample:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\overline{{X}}}={\\frac{\\sum_{i=1}^{n} X_{i}} {n}}",
+      "display": true,
+      "sourceAsset": "fd242018feaac63e961e.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The median is the midpoint of a dataset when the data are arranged from largest to smallest."
+    },
+    {
+      "type": "paragraph",
+      "text": "The mode of a dataset is the value that occurs most frequently. The modal interval is a measure of mode for continuous data."
+    },
+    {
+      "type": "paragraph",
+      "text": "A trimmed mean omits outliers, and a winsorized mean replaces outliers with given values, reducing the effect of outliers on the mean in both cases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quantile is the general term for a value at or below which lies a stated proportion of the data in a distribution. Examples of quantiles include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Quartile. The distribution is divided into quarters."
+    },
+    {
+      "type": "paragraph",
+      "text": "Quintile. The distribution is divided into fifths. Decile. The distribution is divided into tenths. Percentile. The distribution is divided into hundredths (percentages)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "3.b",
+      "text": "What should we understand about calculate, interpret, and evaluate measures of dispersion to address an investment problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The range is the difference between the largest and smallest values in a dataset."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mean absolute deviation (MAD) is the average of the absolute values of the deviations from the arithmetic mean:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{MAD}={\\frac{\\displaystyle\\sum_{i=1}^{n} \\left| \\mathrm{X}_{i}-{\\overline{{X}}} \\right|} {\\mathrm{n}}}",
+      "display": true,
+      "sourceAsset": "35edc8f976620073340d.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Variance is defined as the mean of the squared deviations from the arithmetic mean:"
+    },
+    {
+      "type": "math",
+      "latex": "s^2=\\frac{\\sum_{i=1}^{n}(X_i-\\bar X)^2}{n-1},\\quad \\bar X=\\text{sample mean},\\quad n=\\text{sample size}",
+      "display": true,
+      "sourceAsset": "a791d9783379b8d25120.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard deviation is the positive square root of the variance, and it is frequently used as a quantitative measure of risk."
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{matrix} {\\mathrm{The~coefficient~of~variation~(CV)~for~sample~data,}} \\\\ {\\mathrm{deviation~of~the~sample~to~its~mean.}} \\\\ \\end{matrix} \\overset{\\mathrm{CV}} {\\mathrm{data,}} \\begin{matrix} {\\mathrm{CV}=\\frac{s_{x}} {\\overline{{X}}}} \\\\ {\\mathrm{,is~the~ratio~of~the~standard~of~variation~(CV)~for~stample~data,}} \\\\ {\\mathrm{deviation~of~the~sample~to~its~mean.}} \\\\ \\end{matrix}",
+      "display": true,
+      "sourceAsset": "5ccb6fd44842b0b8b684.png",
+      "prose": "The coefficient of variation (CV) for sample data, , is the ratio of the standard deviation of the sample to its mean."
+    },
+    {
+      "type": "paragraph",
+      "text": "Target downside deviation or semideviation is a measure of downside risk:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{array} {l} {s_{\\mathrm{{t a r g e t}}}={\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{{i}}} < \\mathrm{{B}}}^{\\mathrm{{i}}} ( \\mathrm{{X}_{\\mathrm{{i}}}-\\mathrm{{B}}} )^{2}} {\\mathrm{{n}}-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
+      "display": true,
+      "sourceAsset": "85dce500a11ecb7d518a.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "3.c",
+      "text": "How should we interpret and evaluate measures of skewness and kurtosis to address an investment problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Skewness describes the degree to which a distribution is not symmetric about its mean. A right-skewed distribution has positive skewness. A left-skewed distribution has negative skewness."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a positively skewed, unimodal distribution, the mean is greater than the median, which is greater than the mode. For a negatively skewed, unimodal distribution, the mean is less than the median, which is less than the mode."
+    },
+    {
+      "type": "paragraph",
+      "text": "Kurtosis measures the peakedness of a distribution and the probability of extreme outcomes (thickness of tails):"
+    },
+    {
+      "type": "paragraph",
+      "text": "Excess kurtosis is measured relative to a normal distribution, which has a kurtosis of 3."
+    },
+    {
+      "type": "paragraph",
+      "text": "Positive values of excess kurtosis indicate a distribution that is leptokurtic (fat tails, more peaked), so the probability of extreme outcomes is greater than for a normal distribution."
+    },
+    {
+      "type": "paragraph",
+      "text": "Negative values of excess kurtosis indicate a platykurtic distribution (thin tails, less peaked)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "3.d",
+      "text": "How should we interpret correlation between two variables to address an investment problem?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Correlation is a standardized measure of association between two random variables. It"
+    },
+    {
+      "type": "math",
+      "latex": "\\rho_{A,B}=\\frac{\\operatorname{Cov}_{A,B}}{\\sigma_A\\sigma_B},\\qquad -1\\le\\rho_{A,B}\\le1",
+      "display": true,
+      "sourceAsset": "627c06d97f95c2ab28d4.png",
+      "prose": "ranges in value from −1 to +1 and is equal to ."
+    },
+    {
+      "type": "paragraph",
+      "text": "Scatter plots are useful for revealing nonlinear relationships that are not measured by correlation."
+    },
+    {
+      "type": "paragraph",
+      "text": "Correlation does not imply that changes in one variable cause changes in the other. Spurious correlation may result by chance, or from the relationships of two variables to a third variable."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "3.a",
+      "statement": "Calculate, interpret, and evaluate measures of central tendency and location to address an investment problem.",
+      "question": "What should we understand about calculate, interpret, and evaluate measures of central tendency and location to address an investment problem?"
+    },
+    {
+      "id": "3.b",
+      "statement": "Calculate, interpret, and evaluate measures of dispersion to address an investment problem.",
+      "question": "What should we understand about calculate, interpret, and evaluate measures of dispersion to address an investment problem?"
+    },
+    {
+      "id": "3.c",
+      "statement": "Interpret and evaluate measures of skewness and kurtosis to address an investment problem.",
+      "question": "How should we interpret and evaluate measures of skewness and kurtosis to address an investment problem?"
+    },
+    {
+      "id": "3.d",
+      "statement": "Interpret correlation between two variables to address an investment problem.",
+      "question": "How should we interpret correlation between two variables to address an investment problem?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-3-quiz-1",
+      "title": "Knowledge check 3.1",
+      "moduleId": "3.1",
+      "questions": [
+        {
+          "id": "r3-q1",
+          "number": 1,
+          "objectiveIds": [
+            "3.a"
+          ],
+          "prompt": "A dataset has 100 observations. Which of the following measures of central tendency will be calculated using a denominator of 100?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The winsorized mean, but not the trimmed mean."
+            },
+            {
+              "id": "B",
+              "text": "Both the trimmed mean and the winsorized mean."
+            },
+            {
+              "id": "C",
+              "text": "Neither the trimmed mean nor the winsorized mean."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The winsorized mean substitutes a value for some of the largest and smallest observations. The trimmed mean removes some of the largest and smallest observations.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The winsorized mean substitutes a value for some of the largest and smallest"
+            },
+            {
+              "type": "paragraph",
+              "text": "observations. The trimmed mean removes some of the largest and smallest observations."
+            }
+          ]
+        },
+        {
+          "id": "r3-q2",
+          "number": 2,
+          "objectiveIds": [
+            "3.b"
+          ],
+          "prompt": "XYZ Corp. Annual Stock Returns What is the sample standard deviation?",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{array} {c l c l c l} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "display": true,
+              "sourceAsset": "0eb2f4bb0265403fd90b.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "9.8%."
+            },
+            {
+              "id": "B",
+              "text": "72.4%."
+            },
+            {
+              "id": "C",
+              "text": "96.3%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The sample mean is [22% + 5% + −7% + 11% + 2% + 11%] / 6 = 7.3%. The sample standard deviation is the square root of the sample variance:",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The sample mean is [22% + 5% + −7% + 11% + 2% + 11%] / 6 = 7.3%. The sample"
+            },
+            {
+              "type": "paragraph",
+              "text": "standard deviation is the square root of the sample variance:"
+            },
+            {
+              "type": "math",
+              "latex": "\\begin{aligned} {s} & {{}=\\sqrt{\\frac{( 22-7.3 )^{2}+( 5-7.3 )^{2}+(-7-7.3 )^{2}+( 11-7.3 )^{2}+( 2-7.3 )^{2}+( 11-7.3 )^{2}+( 11-7.3 )^{2}} {6-1}}} \\\\ {} & {{}=\\sqrt{96.3}=9.80.} \\\\ \\end{aligned}",
+              "display": true,
+              "sourceAsset": "90b80c482e9fe48007b6.png"
+            }
+          ]
+        },
+        {
+          "id": "r3-q3",
+          "number": 3,
+          "objectiveIds": [
+            "3.b"
+          ],
+          "prompt": "XYZ Corp. Annual Stock Returns Assume an investor has a target return of 11% for XYZ stock. What is the stock’s target downside deviation?",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{array} {c l c l c l} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "display": true,
+              "sourceAsset": "181d797a8aba1624a9d8.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "9.39%."
+            },
+            {
+              "id": "B",
+              "text": "12.10%."
+            },
+            {
+              "id": "C",
+              "text": "14.80%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Here are deviations from the target return: 22% − 11% = 11% 5% − 11% = −6% −7% − 11% = −18% 11% − 11% = 0% 2% − 11% = −9% 11% − 11% = 0% Target downside deviation = .",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Here are deviations from the target return:"
+            },
+            {
+              "type": "paragraph",
+              "text": "22% − 11% = 11%"
+            },
+            {
+              "type": "paragraph",
+              "text": "5% − 11% = −6%"
+            },
+            {
+              "type": "paragraph",
+              "text": "−7% − 11% = −18%"
+            },
+            {
+              "type": "paragraph",
+              "text": "11% − 11% = 0%"
+            },
+            {
+              "type": "paragraph",
+              "text": "2% − 11% = −9%"
+            },
+            {
+              "type": "paragraph",
+              "text": "11% − 11% = 0%"
+            },
+            {
+              "type": "paragraph",
+              "text": "Target downside deviation ="
+            },
+            {
+              "type": "math",
+              "latex": "{\\sqrt{\\frac{(-6 )^{2}+(-18 )^{2}+(-9 )^{2}} {6-1}}}={\\sqrt{88.2}}=9.39 {\\mathcal{Y}}_{6}",
+              "display": true,
+              "sourceAsset": "57c54b007ce544519963.png",
+              "prose": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-3-quiz-2",
+      "title": "Knowledge check 3.2",
+      "moduleId": "3.2",
+      "questions": [
+        {
+          "id": "r3-q4",
+          "number": 1,
+          "objectiveIds": [
+            "3.c"
+          ],
+          "prompt": "Which of the following is most accurate regarding a distribution of returns that has a mean greater than its median?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "It is positively skewed."
+            },
+            {
+              "id": "B",
+              "text": "It is a symmetric distribution."
+            },
+            {
+              "id": "C",
+              "text": "It has positive excess kurtosis."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A distribution with a mean greater than its median is positively skewed, or skewed to the right. The skew pulls the mean. Kurtosis deals with the overall shape of a distribution, not its skewness.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A distribution with a mean greater than its median is positively skewed, or"
+            },
+            {
+              "type": "paragraph",
+              "text": "skewed to the right. The skew pulls the mean. Kurtosis deals with the overall shape of a distribution, not its skewness."
+            }
+          ]
+        },
+        {
+          "id": "r3-q5",
+          "number": 2,
+          "objectiveIds": [
+            "3.c"
+          ],
+          "prompt": "A distribution of returns that has a greater percentage of small deviations from the mean and a greater percentage of extremely large deviations from the mean compared with a normal distribution:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is positively skewed."
+            },
+            {
+              "id": "B",
+              "text": "has positive excess kurtosis."
+            },
+            {
+              "id": "C",
+              "text": "has negative excess kurtosis."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A distribution that has a greater percentage of small deviations from the mean and a greater percentage of extremely large deviations from the mean will be leptokurtic and will exhibit excess kurtosis (positive). The distribution will be more peaked and have fatter tails than a normal distribution.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A distribution that has a greater percentage of small deviations from the mean"
+            },
+            {
+              "type": "paragraph",
+              "text": "and a greater percentage of extremely large deviations from the mean will be leptokurtic and will exhibit excess kurtosis (positive). The distribution will be more peaked and have fatter tails than a normal distribution."
+            }
+          ]
+        },
+        {
+          "id": "r3-q6",
+          "number": 3,
+          "objectiveIds": [
+            "3.d"
+          ],
+          "prompt": "The correlation between two variables is +0.25. The most appropriate way to interpret this value is to say:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a scatter plot of the two variables is likely to show a strong linear relationship."
+            },
+            {
+              "id": "B",
+              "text": "when one variable is above its mean, the other variable tends to be above its mean as well."
+            },
+            {
+              "id": "C",
+              "text": "a change in one of the variables usually causes the other variable to change in the same direction."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A correlation of +0.25 indicates a positive linear relationship between the variables—one tends to be above its mean when the other is above its mean. The value 0.25 indicates that the linear relationship is not particularly strong. Correlation does not imply causation. 1 “Spurious Correlations,” Tyler Vigen, www.tylervigen.com",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A correlation of +0.25 indicates a positive linear relationship between the"
+            },
+            {
+              "type": "paragraph",
+              "text": "variables—one tends to be above its mean when the other is above its mean. The value 0.25 indicates that the linear relationship is not particularly strong. Correlation does not imply causation."
+            },
+            {
+              "type": "paragraph",
+              "text": "1 “Spurious Correlations,” Tyler Vigen, www.tylervigen.com"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

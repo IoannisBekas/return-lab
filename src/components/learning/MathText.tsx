@@ -13,7 +13,7 @@ export function MathText({ latex, display = false, className = "" }: MathTextPro
       katex.renderToString(latex, {
         displayMode: display,
         output: "htmlAndMathml",
-        strict: "error",
+        strict: "ignore",
         throwOnError: true,
       }),
     [display, latex],

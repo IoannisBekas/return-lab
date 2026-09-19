@@ -1,0 +1,2243 @@
+{
+  "readingId": 46,
+  "title": "Equity Valuation: Concepts and Basic Tools",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "46.1",
+      "title": "Dividends, Splits, and Repurchases",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "46.a",
+          "text": "How should we evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall from the reading on Market Efficiency that intrinsic value or fundamental value is defined as the rational value investors would place on the asset if they had full knowledge of the asset’s characteristics. Analysts use valuation models to estimate the intrinsic values of stocks and compare them to the stocks’ market prices to determine whether individual stocks are overvalued, undervalued, or fairly valued. In doing valuation analysis for stocks, analysts are assuming that some stocks’ prices deviate significantly from their intrinsic values."
+        },
+        {
+          "type": "paragraph",
+          "text": "To the extent that market prices deviate from intrinsic values, analysts who can estimate a stock’s intrinsic value better than the market can earn abnormal profits if the stock’s market price moves toward its intrinsic value over time. There are several things to consider, however, in deciding whether to invest based on differences between market prices and estimated intrinsic values."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The larger the percentage difference between market prices and estimated values, the"
+        },
+        {
+          "type": "paragraph",
+          "text": "more likely the investor is to take a position based on the estimate of intrinsic value. Small differences between market prices and estimates of intrinsic values are to be expected.\n2. The more confident the investor is about the appropriateness of the valuation model"
+        },
+        {
+          "type": "paragraph",
+          "text": "used, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued.\n3. The more confident the investor is about the estimated inputs used in the valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "model, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued. Analysts must also consider the sensitivity of a model value to each of its inputs in deciding whether to act on a difference between model values and market prices. If a decrease of one-half percent in the long-term growth rate used in the valuation model would produce an estimated value equal to the market price, an analyst would have to be quite sure of the model’s growth estimate to take a position in the stock based on its estimated value."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Even if we assume that market prices sometimes deviate from intrinsic values,"
+        },
+        {
+          "type": "paragraph",
+          "text": "market prices must be treated as fairly reliable indications of intrinsic value. Investors must consider why a stock is mispriced in the market. Investors may be more confident about estimates of value that differ from market prices when few analysts follow a particular security.\n5. Finally, to take a position in a stock identified as mispriced in the market, an investor"
+        },
+        {
+          "type": "paragraph",
+          "text": "must believe that the market price will actually move toward (and certainly not away from) its estimated intrinsic value and that it will do so to a significant extent within the investment time horizon."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.b",
+          "text": "What should we know about major categories of equity valuation models?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts use a variety of models to estimate the value of equities. Usually, an analyst will use more than one model with several different sets of inputs to determine a range of possible stock values."
+        },
+        {
+          "type": "paragraph",
+          "text": "In discounted cash flow models (or present value models), a stock’s value is estimated as the present value of cash distributed to shareholders (dividend discount models) or the present value of cash available to shareholders after the firm meets its necessary capital expenditures and working capital expenses (free cash flow to equity models)."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are two basic types of multiplier models (or market multiple models) that can be used to estimate intrinsic values. In the first type, the ratio of stock price to such fundamentals as earnings, sales, book value, or cash flow per share is used to determine if a stock is fairly valued. For example, the price to earnings (P/E) ratio is frequently used by analysts."
+        },
+        {
+          "type": "paragraph",
+          "text": "The second type of multiplier model is based on the ratio of enterprise value to either earnings before interest, taxes, depreciation, and amortization (EBITDA) or revenue. Enterprise value is the market value of all a firm’s outstanding securities minus cash and short-term investments. Common stock value can be estimated by subtracting the value of liabilities and preferred stock from an estimate of enterprise value."
+        },
+        {
+          "type": "paragraph",
+          "text": "In asset-based models, the intrinsic value of common stock is estimated as total asset value minus liabilities and preferred stock. Analysts typically adjust the book values of the firm’s assets and liabilities to their fair values when estimating the market value of its equity with an asset-based model."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.c",
+          "text": "What should we know about regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash dividends, as the name implies, are payments made to shareholders in cash. They may be regularly scheduled dividends or one-time special dividends. Regular dividends occur when a company pays out a portion of profits on a consistent schedule (e.g., quarterly). A long-term record of stable or increasing dividends is widely viewed by investors as a sign of a company’s financial stability. Special dividends are used when favorable circumstances allow the firm to make a one-time cash payment to shareholders, in addition to any regular dividends the firm pays. Many cyclical firms"
+        },
+        {
+          "type": "paragraph",
+          "text": "(e.g., automakers) will use a special dividend to share profits with shareholders when times are good but maintain the flexibility to conserve cash when profits are poor. Other names for special dividends include extra dividends and irregular dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock dividends are dividends paid out in new shares of stock rather than cash. In this case, there will be more shares outstanding, but each one will be worth less. Total shareholders’ equity remains unchanged. Stock dividends are commonly expressed as a percentage. A 20% stock dividend means every shareholder gets 20% more stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock splits divide each existing share into multiple shares, creating more shares. There are now more shares, but the price of each share will drop correspondingly to the number of shares created, so there is no change in the owner’s wealth. Splits are expressed as a ratio. In a 3-for-1 stock split, each old share is split into three new shares. Stock splits are currently more common than stock dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reverse stock splits are the opposite of stock splits. After a reverse split, there are fewer shares outstanding but there is a higher stock price. Because these factors offset one another, shareholder wealth is unchanged."
+        },
+        {
+          "type": "paragraph",
+          "text": "A share repurchase is a transaction in which a company buys outstanding shares of its own common stock. Share repurchases are an alternative to cash dividends as a way of distributing cash to shareholders, and they have the same effect on shareholders’ wealth as cash dividends of the same size. A company might repurchase shares to support their price or to signal that management believes the shares are undervalued. Share repurchases may also be used to offset an increase in outstanding shares from the exercise of employee stock options. In countries that tax capital gains at lower rates than dividends, shareholders may prefer share repurchases to dividend payments as a way to distribute cash to shareholders."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.d",
+          "text": "What should we know about dividend payment chronology?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dates relevant to dividend payments are shown in Figure 46.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 46.1: Dividend Payment Chronology"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/9a0929da76789e85810f.png",
+          "alt": "Equation, table, or diagram: Figure 46.1: Dividend Payment Chronology",
+          "width": 407,
+          "height": 100,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Declaration date. The date the board of directors approves payment of a dividend, specifying the per-share dividend amount, the date shareholders must own the stock to receive the dividend (record date), and the date the dividend payment will be made (payment date)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ex-dividend date. The first day on which a share purchaser will not receive the next dividend. The ex-dividend date is one or two business days before the holder-of-record date, depending on the settlement period for stock purchases. If you buy the share on or after the ex-dividend date, you will not receive the dividend."
+        },
+        {
+          "type": "paragraph",
+          "text": "Holder-of-record date (record date). The date on which all owners of shares become entitled to receive the dividend payment on their shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Payment date. The date dividend checks are mailed to, or payment is made electronically to, holders of record."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the ex-dividend date, the share price will decrease from the previous day’s closing price by approximately the amount of the dividend, in the absence of other factors affecting the stock price. Consider shares that are trading at $25 on the day prior to the ex-dividend date and will pay a $1 dividend. Purchasing a share on the day prior to the ex-dividend date will give the owner a share of stock and the $1 dividend on the payment date. Purchasing a share on the ex-dividend date will entitle the owner only to the share; the dividend payment will go to the seller."
+        }
+      ]
+    },
+    {
+      "id": "46.2",
+      "title": "Dividend Discount Models",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "46.e",
+          "text": "How can we explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The dividend discount model (DDM) is based on the rationale that the intrinsic value of stock is the present value of its future dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most general form of the model is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle{\\mathrm{boldmath{~ V ~}}}_{0}=\\mathrm{boldmath{~ \\sum_{t=1}^{\\infty}}} \\frac{{\\displaystyle{D}_{t}}} {\\left( 1+{\\bf k}_{\\bf e} \\right)^{t}}}} \\\\ {{\\displaystyle{\\mathrm{boldmath{~ w h e r e}}} {\\mathrm{boldmath{~}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{V_{0}=c u r r e n t ~ s t o c k ~ v a l u e}}} \\\\ {{\\mathrm{D_{t}=d i v i d e n d ~ a t ~ t i m e ~} t}} \\\\ {{\\mathrm{k_{e}=r e q u i r e d ~ r a t e ~ o f ~ r e t u r n ~ o n ~ c o m m o n ~ e q u i t y}}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "580c3f875d3c648be0e3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "One-year holding period DDM. For a holding period of one year, the value of the stock today is the present value of any dividends during the year plus the present value of the expected price of the stock at the end of the year (referred to as its terminal value)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The one-year holding period DDM is simply:"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Value}=\\frac{\\text{dividend to be received}}{1+k_e}+\\frac{\\text{year-end price}}{1+k_e}",
+          "display": true,
+          "sourceAsset": "d22d9bd2e52a32b10b23.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: One-period DDM valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the value of a stock that paid a $1 dividend last year, if next year’s dividend will be 5% higher and the stock will sell for $13.45 at year-end. The required return is 13.2%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The next dividend is the current dividend increased by the estimated growth rate. In this case, we have:"
+        },
+        {
+          "type": "math",
+          "latex": "D_{1}=D_{0} \\times( 1+{\\mathrm{dividend~growth~rate}} )={\\$1.00} \\times( 1+0.05 )={\\$1.05}",
+          "display": true,
+          "sourceAsset": "732b19f99d2e1860ec4f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The present value of the expected future cash flows is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{dividend:} \\quad\\frac{\\$1.05} {1.132}=\\$0.93} \\\\ {\\mathrm{year-end~price:} \\quad\\frac{\\$13.45} {1.132}=\\$11.88} \\end{array}",
+          "display": true,
+          "sourceAsset": "1ee43be87194145edb1c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The current value based on the investor’s expectations is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{stock~value}=\\$0.93+\\$11.88=\\$12.81",
+          "display": true,
+          "sourceAsset": "5cc34c10d72c141887a5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Multiple-year holding period DDM. With a multiple-year holding period, we simply sum the present values of the estimated dividends over the holding period and the estimated terminal value."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a two-year holding period, we have:"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Value}=\\frac{D_1}{1+k_e}+\\frac{D_2}{(1+k_e)^2}+\\frac{P_2}{(1+k_e)^2}",
+          "display": true,
+          "sourceAsset": "70681d457ab25f760168.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "It is useful to think of the subscript t on dividends (Dt ) and prices (Pt ) as the end of period t. For example, in the preceding equation, P2 is the price at the"
+        },
+        {
+          "type": "paragraph",
+          "text": "end of Year 2. Think of it as the selling price of a share, immediately after D2 is received."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Multiple-period DDM valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock recently paid a dividend of $1.50 which is expected to grow at 8% per year. The required rate of return of 12%. Calculate the value of this stock assuming that it will be priced at $51.00 three years from now."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Find the PV of the future dividends:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\nD_1=\\$1.50(1.08)=\\$1.62,\\quad D_2=\\$1.50(1.08)^2=\\$1.75,\\quad D_3=\\$1.50(1.08)^3=\\$1.89\\\\\nPV=\\frac{\\$1.62}{1.12}+\\frac{\\$1.75}{1.12^2}+\\frac{\\$1.89}{1.12^3}=\\$4.19\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "88af6e3c10ce6064dbad.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Find the PV of the future price:"
+        },
+        {
+          "type": "math",
+          "latex": "\\Re51.00 \\, / \\, ( 1.12 )^{3}=\\Im36.30",
+          "display": true,
+          "sourceAsset": "648f596113175215d240.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Add the present values. The current value based on the investor’s expectations is $4.19 + $36.30 = $40.49."
+        },
+        {
+          "type": "paragraph",
+          "text": "The most general form of the DDM uses an infinite holding period because a corporation has an indefinite life. In an infinite-period DDM model, the present value of all expected future dividends is calculated and there is no explicit terminal value for the stock. In practice, as we will see, a terminal value can be calculated at a time in the future after which the growth rate of dividends is expected to be constant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Free cash flow to equity (FCFE) is often used in discounted cash flow models instead of dividends because it represents the potential amount of cash that could be paid out to common shareholders. That is, FCFE reflects the firm’s capacity to pay dividends. FCFE is also useful for firms that do not currently pay dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "FCFE is defined as the cash remaining after a firm meets all of its debt obligations and provides for the capital expenditures necessary to maintain existing assets and to purchase the new assets needed to support the assumed growth of the firm. In other words, it is the cash available to the firm’s equity holders after a firm meets all of its other obligations. FCFE for a period is often calculated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{FCFE=net~income+depreciation-increase~in~working~capital-fixed~capital}} \\\\ {\\mathrm{investment~(FCLnv)-debt~principal~repayments+new~debt~issues}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "a5493bc421416fe7e6a3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "FCFE can also be calculated as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{FCFE=cash~flow~from~operations-FCInv+net~borrowing}",
+          "display": true,
+          "sourceAsset": "04125a585f0be6780519.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the second formula, net borrowing is the increase in debt during the period (i.e., amount borrowed minus amount repaid) and is assumed to be available to shareholders. Fixed capital investment must be subtracted because the firm must invest"
+        },
+        {
+          "type": "paragraph",
+          "text": "in assets to sustain itself. FCFE is projected for future periods using the firm’s financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Restating the general form of the DDM in terms of FCFE, we have:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V}_{0}=\\sum_{\\mathrm{t}=1}^{\\infty} \\! {\\frac{\\mathrm{FCFE}_{\\mathrm{t}}} {\\left( 1+\\mathrm{k}_{\\mathrm{e}} \\right)^{\\mathrm{t}}}}",
+          "display": true,
+          "sourceAsset": "acab32efb1b2528eb1d4.png"
+        },
+        {
+          "type": "heading",
+          "text": "Estimating the Required Return for Equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "The capital asset pricing model (CAPM) provides an estimate of the required rate of return (ki) for security i as a function of its systematic risk (βi), the risk-free rate (Rf), and the expected return on the market [E(Rmkt)] as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{k_{i}}=\\mathrm{R_{f}}+\\beta_{i} [ \\mathrm{E} ( \\mathrm{R_{m k t}} )-\\mathrm{R_{f}} ]",
+          "display": true,
+          "sourceAsset": "0ff0d899aa713586edb2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is some controversy over whether the CAPM is the best model to calculate the required return on equity. Also, different analysts will likely use different inputs, so there is no single number that is correct."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CAPM is discussed in detail in Portfolio Management."
+        },
+        {
+          "type": "paragraph",
+          "text": "For firms with publicly traded debt, analysts often estimate the required return on the firm’s common equity by adding a risk premium to the firm’s current bond yield. If the firm does not have publicly traded debt, an analyst can add a larger risk premium to a government bond yield."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.g",
+          "text": "How do we calculate the intrinsic value of a non-callable, non-convertible preferred stock?"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end of this reading we will address the concerns advantages and disadvantages of each category of valuation model."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferred stock pays a dividend that is usually fixed and usually has an indefinite maturity. When the dividend is fixed and the stream of dividends is infinite, the infinite period dividend discount model reduces to a simple ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\mathrm{preferred~stock~value}} \\,=\\, {\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{1}}}+{\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{2}}}+\\ldots+{\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{\\mathsf{x}}}} \\,=\\, {\\cfrac{\\mathrm{D}_{p}} {\\mathrm{k}_{p}}}",
+          "display": true,
+          "sourceAsset": "aa78b62a7de945514420.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Preferred stock valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "A company’s $100 par preferred stock pays a $5.00 annual dividend and has a required return of 8%. Calculate the value of the preferred stock."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V a l u e ~ o f ~ t h e ~ p r e f e r r e d ~ s t o c k \\! : ~ D_{p} ~ / ~ k_{p}=\\$5.00 ~ / ~ 0.08=\\$62.50 ~}",
+          "display": true,
+          "sourceAsset": "75d69b3100ae94c7752f.png",
+          "prose": "Value of the preferred stock:"
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.h",
+          "text": "How do we calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Gordon growth model (or constant growth model) assumes the annual growth rate of dividends, gc, is constant. Hence, next period’s dividend, D1, is D0(1 + gc), the"
+        },
+        {
+          "type": "paragraph",
+          "text": "second year’s dividend, D2, is D0(1 + gc)², and so on. The extended equation using this assumption gives the present value of the expected future dividends (V0) as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V_{0} \\,=\\, {\\frac{D_{0} ( 1+g_{c} )} {( 1+k_{e} )}} \\,+\\, {\\frac{D_{0} ( 1+g_{c} )^{2}} {( 1+k_{e} )^{2}}} \\,+\\, {\\frac{D_{0} ( 1+g_{c} )^{3}} {( 1+k_{e} )^{3}}} \\,+\\, . . .+{\\frac{D_{0} ( 1+g_{c} )^{\\infty}} {( 1+k_{e} )^{\\infty}}}}",
+          "display": true,
+          "sourceAsset": "862b05575095f5330966.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "When the growth rate of dividends is constant, this equation simplifies to the Gordon (constant) growth model:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V}_{0}={\\frac{\\mathrm{D}_{0} ( 1+\\mathrm{g}_{c} )} {\\mathrm{k}_{\\mathrm{e}}-\\mathrm{g}_{c}}}={\\frac{\\mathrm{D}_{1}} {\\mathrm{k}_{\\mathrm{e}}-\\mathrm{g}_{c}}}",
+          "display": true,
+          "sourceAsset": "d0871ac2cd1f44571c25.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "In much of the finance literature, you will see this model referred to as the constant growth DDM, infinite period DDM, or the Gordon growth model. Whatever you call it, memorize D1 over (k minus g). Note that our valuation model for preferred stock is the same as the constant growth model with no growth (g = 0)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The assumptions of the Gordon growth model are:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dividends are the appropriate measure of shareholder wealth. The constant dividend growth rate, gc, and required return on stock, ke, are never expected to change. ke must be greater than gc. If not, the math will not work."
+        },
+        {
+          "type": "paragraph",
+          "text": "If any one of these assumptions is not met, the model is not appropriate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Gordon growth model valuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the value of a stock that paid a $1.50 dividend last year, if dividends are expected to grow at 8% forever and the required return on equity is 12%."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned}\nD_1 &= D_0(1+g_c)=\\$1.50(1.08)=\\$1.62 \\\\\n\\text{Stock value} &= \\frac{D_1}{k_e-g_c}\n=\\frac{\\$1.62}{0.12-0.08}=\\$40.50\n\\end{aligned}",
+          "display": true,
+          "sourceAsset": "0aac0733302c99791356.png"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "When doing stock valuation problems on the exam, watch for words like “forever,” “infinitely,” “indefinitely,” “for the foreseeable future,” and so on. This will tell you that the Gordon growth model should be used. Also watch for words like “just paid” or “recently paid.” These will refer to the last dividend, D0. Words like “will pay” or “is expected to pay” refer to D1."
+        },
+        {
+          "type": "paragraph",
+          "text": "This example demonstrates that the stock’s value is determined by the relationship between the investor’s required rate of return on equity, ke, and the projected growth rate of dividends, gc:"
+        },
+        {
+          "type": "paragraph",
+          "text": "As the difference between ke and gc widens, the value of the stock falls."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the difference narrows, the value of the stock rises. Small changes in the difference between ke and gc can cause large changes in the stock’s value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the estimated stock value is very sensitive to the denominator, an analyst should calculate several different value estimates using a range of required returns and growth rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst can also use the Gordon growth model to determine how much of the estimated stock value is due to dividend growth. To do this, assume the growth rate is zero and calculate a value. Then, subtract this value from the stock value estimated using a positive growth rate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Amount of estimated stock value due to dividend growth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the data from the previous example, calculate how much of the estimated stock value is due to dividend growth."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated stock value with a growth rate of zero is:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\bf V_{0}}={\\bf D} \\ / {\\bf k}={\\bf\\$1.50} \\ / {\\bf0.12}={\\bf\\$12.50}",
+          "display": true,
+          "sourceAsset": "64669e4f66761ad229fe.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The amount of the estimated stock value due to estimated dividend growth is:"
+        },
+        {
+          "type": "math",
+          "latex": "840.50-812.50=528.00",
+          "display": true,
+          "sourceAsset": "0bc94af7839c3cf7e443.png"
+        },
+        {
+          "type": "heading",
+          "text": "Estimating the Growth Rate in Dividends"
+        },
+        {
+          "type": "paragraph",
+          "text": "To estimate the growth rate in dividends, the analyst can use three methods:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Use the historical growth in dividends for the firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Use the median industry dividend growth rate.\n3. Estimate the sustainable growth rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sustainable growth rate is the rate at which equity, earnings, and dividends can continue to grow indefinitely assuming that ROE is constant, the dividend payout ratio is constant, and no new equity is sold."
+        },
+        {
+          "type": "paragraph",
+          "text": "sustainable growth = (1 − dividend payout ratio) × ROE"
+        },
+        {
+          "type": "paragraph",
+          "text": "The quantity (1 − dividend payout ratio) is also referred to as the retention rate, the proportion of net income that is not paid out as dividends and goes to retained earnings, thus increasing equity."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Sustainable growth rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "Green, Inc., is expected to pay dividends equal to 25% of earnings. Green’s ROE is 21%. Calculate and interpret its sustainable growth rate."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathbf{g}=( 1-0.25 ) \\times219_{\\mathbf{0}}=15.759_{\\mathbf{0}}",
+          "display": true,
+          "sourceAsset": "5f9238c05eb6291cf63a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "With long-run economic growth typically in the single digits, it is unlikely that a firm could sustain 15.75% growth forever. The analyst should also examine the growth rate for the industry and the firm’s historical growth rate to determine whether the estimate is reasonable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some firms do not currently pay dividends but are expected to begin paying dividends at some point in the future. A firm may not currently pay a dividend because it is in financial distress and cannot afford to pay out cash or because the return the firm can earn by reinvesting cash is greater than what stockholders could expect to earn by investing dividends elsewhere."
+        },
+        {
+          "type": "paragraph",
+          "text": "For these firms, an analyst must estimate the amount and timing of the first dividend in order to use the Gordon growth model. Because these parameters are highly uncertain, the analyst should check the estimate from the Gordon growth model against estimates made using other models."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: A firm with no current dividend"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm currently pays no dividend but is expected to pay a dividend at the end of Year\n4. Year 4 earnings are expected to be $1.64, and the firm will maintain a dividend payout ratio of 50%. Assuming a constant growth rate of 5% and a required rate of return of 10%, estimate the current value of this stock."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first step is to find the value of the stock at the end of Year 3. Remember, P3 is the present value of dividends in Years 4 through infinity, calculated at the end of Year 3, one period before the first dividend is paid."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate D4, the estimate of the dividend that will be paid at the end of Year 4:"
+        },
+        {
+          "type": "math",
+          "latex": "D_{4}=( {\\mathrm{dividend~payout~ratio}} ) ( \\mathrm{E}_{4} )=( 0.5 ) ( 1.64 )={\\mathsf{S}} 0.82",
+          "display": true,
+          "sourceAsset": "ed5a410b1dc2a81c0be6.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Apply the constant growth model to estimate V3:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V_{3}=D_{4} / \\ ( k_{e}-\\ g_{c} )=80.82 \\ / \\ ( 0.10-0.05 )=816.40}",
+          "display": true,
+          "sourceAsset": "35c5ff7c670d18d669ea.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The second step is to calculate the current value, V0:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{V}_{0}=16.40 \\; / \\; 1.1^{3}=\\$12.32",
+          "display": true,
+          "sourceAsset": "8ff4e2e123e4e7f4809f.png"
+        },
+        {
+          "type": "heading",
+          "text": "Multistage Dividend Growth Models"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm may temporarily experience a growth rate that exceeds the required rate of return on the firm’s equity, but no firm can maintain this relationship indefinitely. A firm with an extremely high growth rate will attract competition, and its growth rate will eventually fall. We must assume the firm will return to a more sustainable rate of growth at some point in the future in order to calculate the present value of expected future dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "One way to value a dividend-paying firm that is experiencing temporarily high growth is to add the present values of dividends expected during the high-growth period to the present value of the constant growth value of the firm at the end of the high-growth period. This is referred to as the multistage dividend discount model."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{value} \\,=\\, {\\cfrac{\\mathrm{D_{1}}} {( 1+\\mathrm{k_{e}} )}}+{\\cfrac{\\mathrm{D_{2}}} {( 1+\\mathrm{k_{e}} )^{2}}}+\\ldots+{\\cfrac{\\mathrm{D_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}+{\\cfrac{\\mathrm{P_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}}} \\\\ {{\\mathrm{w h e r e ~ P_{a}}={\\cfrac{\\mathrm{D_{a+1}}} {\\mathrm{k_{e}}-\\mathrm{g_{c}}}} \\, \\mathrm{is~the~terminal~stock~value,~assuming~that~dividends~at}}} \\end{array}\\\\[6pt]\\mathrm{t=n+1~and~beyond~grow~at~a~constant~rate~of~} g_{c} .\\end{gathered}",
+          "display": true,
+          "sourceAsset": "d7c37cc45fe4c602154b.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Steps in using the multistage model:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Determine the discount rate, ke."
+        },
+        {
+          "type": "paragraph",
+          "text": "Project the size and duration of the high initial dividend growth rate, g*. Estimate dividends during the high-growth period. Estimate the constant growth rate at the end of the high-growth period, gc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estimate the first dividend of the constant growth period. Use this dividend to calculate the stock value at the end of the high-growth period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Add the PVs of all dividends during the high-growth period to the PV of the value of the stock at the end of the high-growth period."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Multistage growth"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a stock with dividends that are expected to grow at 15% per year for two years, after which they are expected to grow at 5% per year, indefinitely. The last dividend paid was $1.00, and ke = 11%. Calculate the value of this stock using the multistage growth model."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the dividends over the high-growth period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l l} {{\\displaystyle D_{1}=\\displaystyle D_{0} ( 1+\\mathrm{g}^{\\star} )=1.00 ( 1.15 )=\\$1.15}} \\\\ {{\\displaystyle D_{2}=\\displaystyle D_{1} ( 1+\\mathrm{g}^{\\star} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
+          "display": true,
+          "sourceAsset": "0fe7ceafbd6d89d8085d.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the first dividend of the constant-growth period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{D}_{3}=\\mathrm{D}_{2} ( 1+\\mathrm{g} )=1.32 \\times1.05=\\$1.386",
+          "display": true,
+          "sourceAsset": "0afb6a5756e16667a860.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the constant growth model to get P2, a value for all the (infinite) dividends expected from time = 3 onward:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P_{2} \\!=\\! {\\frac{D_{3}} {k_{e}-g_{c}} \\!=\\! {\\frac{1.386} {0.11-0.05}} \\!=\\bar{5} 23.10}}",
+          "display": true,
+          "sourceAsset": "90df680a994853719416.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, we can sum the present values of dividends 1 and 2 and of P2 to get the present value of all the expected future dividends during both the high-growth and constant-growth periods:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\mathtt{S 20.86}",
+          "display": true,
+          "sourceAsset": "2c0b979e77aa97396556.png"
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.i",
+          "text": "How can we identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Gordon growth model uses a single constant growth rate of dividends and is most appropriate for valuing stable and mature, non-cyclical, dividend-paying firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "For dividend-paying firms with dividends that are expected to grow rapidly, slowly, or erratically over some period, followed by constant dividend growth, some form of the multistage growth model should be employed. The important points are that dividends must be estimable and must grow at a constant rate after some initial period so that the constant growth model can be used to determine the terminal value of the stock. Thus, we can apply multistage dividend growth models to a firm with high current growth that will drop to a stable rate in the future or to a firm that is temporarily losing market share and growing slowly or getting smaller, as long as its growth is expected to stabilize to a constant rate at some point in the future."
+        },
+        {
+          "type": "paragraph",
+          "text": "One variant of a multistage growth model assumes that the firm has three stages of dividend growth, not just two. These three stages can be categorized as growth, transition, and maturity. A 3-stage model would be suitable for firms with an initial high growth rate, followed by a lower growth rate during a second, transitional period, followed by the constant growth rate in the long run, such as a young firm still in the high growth phase."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a firm does not pay dividends, estimates of dividend payments some years in the future are highly speculative. In this case, and in any case where future dividends cannot be estimated with much confidence, valuation based on FCFE is appropriate as long as growth rates of earnings can be estimated. In other cases, valuation based on price multiples may be more appropriate."
+        }
+      ]
+    },
+    {
+      "id": "46.3",
+      "title": "Relative Valuation Measures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "46.j",
+          "text": "How can we explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the dividend discount model is very sensitive to its inputs, many investors rely on other methods. In a price multiple approach, an analyst compares a stock’s price multiple to a benchmark value based on an index, industry group of firms, or a peer group of firms within an industry. Common price multiples used for valuation include price-to-earnings, price-to-cash flow, price-to-sales, and price-to-book value ratios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Price multiples are widely used by analysts and readily available in numerous media outlets. Price multiples are easily calculated and can be used in time series and cross-sectional comparisons. Many of these ratios have been shown to be useful for predicting stock returns, with low multiples associated with higher future returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "A critique of price multiples is that they reflect only the past because historical (trailing) data are often used in the denominator. For this reason, many practitioners use forward (leading or prospective) values in the denominator. The use of projected values can result in much different ratios. An analyst should be sure to use price multiple calculations consistently across firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we compare a price multiple, such as P/E, for a firm to those of other firms based on market prices, we are using price multiples based on comparables. By contrast, price multiples based on fundamentals tell us what a multiple should be based on some valuation model and therefore are not dependent on the current market prices of other companies to establish value."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.k",
+          "text": "How do we calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Price multiples used for valuation include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Price-earnings (P/E) ratio: The P/E ratio is a firm’s stock price divided by earnings per share and is widely used by analysts and cited in the press. Price-sales (P/S) ratio: The P/S ratio is a firm’s stock price divided by sales per share. Price-book value (P/B) ratio: The P/B ratio is a firm’s stock price divided by book value of equity per share."
+        },
+        {
+          "type": "paragraph",
+          "text": "Price-cash flow (P/CF) ratio: The P/CF ratio is a firm’s stock price divided by cash flow per share, where cash flow may be defined as operating cash flow or free cash flow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other multiples can be used that are industry specific. For example, in the cable television industry, stock market capitalization is compared to the number of subscribers."
+        },
+        {
+          "type": "heading",
+          "text": "Multiples Based on Fundamentals"
+        },
+        {
+          "type": "paragraph",
+          "text": "To understand fundamental price multiples, consider the Gordon growth valuation model:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{P}_{0}={\\frac{\\mathrm{D}_{1}} {\\mathrm{k}-\\mathrm{g}}}",
+          "display": true,
+          "sourceAsset": "fdf46275319075530a0a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If we divide both sides of the equation by next year’s projected earnings, E1, we get"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{\\mathbf{P}_{0}} {\\mathbf{E}_{1}}}={\\frac{\\mathbf{D_{1}} / \\mathbf{E_{1}}} {\\mathbf{k}-\\mathbf{g}}}",
+          "display": true,
+          "sourceAsset": "f109e9607e28f2360108.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is the leading P/E for this stock if it is valued in the market according to the constant growth DDM."
+        },
+        {
+          "type": "paragraph",
+          "text": "This P/E based on fundamentals is also referred to as a justified P/E. It is “justified” because, assuming we have the correct inputs for D1, E1, ke, and g, the previous equation will provide a P/E ratio that is based on the present value of the future cash flows. We refer to this as a leading P/E ratio because it is based on expected earnings next period, not on actual earnings for the previous period, which would produce a lagging or trailing P/E ratio."
+        },
+        {
+          "type": "paragraph",
+          "text": "One advantage of this approach is that it makes clear how the firm’s P/E ratio should be related to its fundamentals. It illustrates that the P/E ratio is a function of:"
+        },
+        {
+          "type": "paragraph",
+          "text": "D1 / E1 = expected dividend payout ratio."
+        },
+        {
+          "type": "paragraph",
+          "text": "k = required rate of return on the stock. g = expected constant growth rate of dividends."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: P/E based on fundamentals"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm has an expected dividend payout ratio of 30%, a required rate of return of 13%, and an expected dividend growth rate of 6%. Calculate the firm’s fundamental (justified) leading P/E ratio."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "expected P/E ratio: 0.3 / (0.13 − 0.06) = 4.3"
+        },
+        {
+          "type": "paragraph",
+          "text": "The justified P/E ratio serves as a benchmark for the price at which the stock should trade. In the previous example, if the firm’s actual P/E ratio (based on the market price and expected earnings) was 8, the stock would be considered overvalued. If the firm’s market P/E ratio was 2, the stock would be considered undervalued."
+        },
+        {
+          "type": "paragraph",
+          "text": "P/E ratios based on fundamentals are very sensitive to the inputs (especially the denominator, k − g), so the analyst should use several different sets of inputs to indicate a range for the justified P/E."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because we started with the equation for the constant growth DDM, the P/E ratio calculated in this way is the P/E ratio consistent with the constant growth DDM. We can see from the formula that, other things equal, the P/E ratio we have defined here will increase with (1) a higher dividend payout rate, (2) a higher growth rate, or (3) a lower required rate of return. So, if the subject firm has a higher dividend payout ratio, higher growth rate, and lower required return than its peers, a higher P/E ratio may be justified."
+        },
+        {
+          "type": "paragraph",
+          "text": "In practice, other things are not equal. An increase in the dividend payout ratio, for example, will reduce the firm’s sustainable growth rate. While higher dividends will increase firm value, a lower growth rate will decrease firm value. This relationship is referred to as the dividend displacement of earnings. The net effect on firm value of increasing the dividend payout ratio is ambiguous. As intuition would suggest, firms cannot continually increase their P/Es or market values by increasing the dividend payout ratio. Otherwise, all firms would have 100% payout ratios."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Watch for the wording “other things equal” or “other variables unchanged” in any exam questions about the effect of changing one variable."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Fundamental P/E ratio comparison"
+        },
+        {
+          "type": "paragraph",
+          "text": "Holt Industries makes decorative items. The following figures are for Holt and its industry."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c c c} \\hline{} & {\\mathrm{~Holt~Industries}} & {\\quad\\mathrm{Industry} \\quad} \\\\ \\hline{} & {\\mathrm{~Holt~Industries} \\quad} & {\\mathrm{Average} \\quad} \\\\ \\hline{\\mathrm{Dividend~payout~ratio} \\quad} & {25 \\gamma_{0} \\quad} & {16 \\gamma_{0}} \\\\ {\\mathrm{Sales~growth} \\quad} & {7.5 \\ \\%_{0}^{\\prime}} & {3.9 \\gamma_{0}^{\\prime}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Total~debt~to~equity} \\qquad\\qquad\\qquad113 \\gamma_{0} \\qquad\\qquad\\qquad68 \\gamma_{0}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "122dbfa230f41c84ca9c.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Which of these factors suggest a higher fundamental P/E ratio for Holt?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The higher dividend payout ratio supports Holt having a higher P/E ratio than the industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher growth in sales suggests that Holt will be able to increase dividends at a faster rate, which supports Holt having a higher P/E ratio than the industry."
+        },
+        {
+          "type": "paragraph",
+          "text": "The higher level of debt, however, indicates that Holt has higher risk and a higher required return on equity, which supports Holt having a lower P/E ratio than the industry."
+        },
+        {
+          "type": "heading",
+          "text": "Multiples Based on Comparables"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valuation based on price multiple comparables (or comps) involves using a price multiple to evaluate whether an asset is valued properly relative to a benchmark. Common benchmarks include the stock’s historical average (a time series comparison) or similar stocks and industry averages (a cross-sectional comparison). Comparing firms within an industry is useful for analysts who are familiar with a particular industry. Price multiples are readily calculated and provided by many media outlets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The economic principle guiding this method is the law of one price, which asserts that two identical assets should sell at the same price, or in this case, two comparable assets should have approximately the same multiple."
+        },
+        {
+          "type": "paragraph",
+          "text": "The analyst should be sure that any comparables used really are comparable. Price multiples may not be comparable across firms if the firms are different sizes, are in different industries, or will grow at different rates. Furthermore, using P/E ratios for cyclical firms is complicated due to their sensitivity to economic conditions. In this case, the P/S ratio may be favored over the P/E ratio because the sales are less volatile than earnings due to both operating and financial leverage."
+        },
+        {
+          "type": "paragraph",
+          "text": "The disadvantages of using price multiples based on comparables are (1) a stock may appear overvalued by the comparable method but undervalued by the fundamental"
+        },
+        {
+          "type": "paragraph",
+          "text": "method, or vice versa; (2) different accounting methods can result in price multiples that are not comparable across firms, especially internationally; and (3) price multiples for cyclical firms may be greatly affected by economic conditions at a given point in time."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Valuation using comparables"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following figures are for Renee’s Bakery. All figures except the stock price are in millions."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/f87fc37d047c47968b63.png",
+          "alt": "Equation, table, or diagram: The following figures are for Renee’s Bakery. All figures except the stock price are in millions.",
+          "width": 374,
+          "height": 159,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate Renee’s lagging P/E, P/CF, P/S, and P/B ratios. Judge whether the firm is undervalued or overvalued using the following relevant industry averages for 20X3 and the firm’s historical trend."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c} {\\mathrm{Lagging~Industry~Ratios}} & {\\quad20 X 3} \\\\ \\hline{\\mathrm{Price-to-earnings}} & {\\quad8.6} \\\\ {\\mathrm{Price-to-cash~flow}} & {\\quad4.6} \\\\ {\\mathrm{Price-to-sales}} & {\\quad1.4} \\\\ \\end{array}\\\\[6pt]\\mathrm{Price-to-book~value} \\qquad\\qquad\\qquad3.6\\end{gathered}",
+          "display": true,
+          "sourceAsset": "b3eba3e322655226eb27.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "To calculate the lagging price multiples, first divide the relevant financial statement items by the number of shares to get per-share amounts. Then, divide the stock price by this figure."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, for the P/S ratio for 20X3, divide net revenue (net sales) by the number of shares:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\mathrm{sales}} {\\mathrm{number~of~shares}} \\,=\\, \\frac{\\$77.30} {4.476} \\,=\\, 17.270",
+          "display": true,
+          "sourceAsset": "1b1e3c496fc99b764053.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Then, divide the stock price by sales per share:"
+        },
+        {
+          "type": "math",
+          "latex": "{\\frac{\\mathrm{P}} {\\mathrm{S}}}={\\frac{\\mathrm{S11.40}} {\\mathrm{17.3}}}=\\, 0.7",
+          "display": true,
+          "sourceAsset": "57b03ba3a79fd00bb8f5.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the net income for earnings, the net cash flow from operations for the cash flow, and stockholder’s equity for book value, the ratios for Renee’s Bakery are:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c c c c} \\hline{} & {{\\bf20 X 3}} & {{\\bf20 X 2}} & {{\\bf20 X 1}} \\\\ \\hline{\\mathrm{P/E}} & {15.9} & {52.3} & {115.2} \\\\ {\\mathrm{P/CF}} & {2.9} & {3.8} & {3.8} \\\\ \\end{array}\\\\[6pt]\\begin{array} {c c c c c c} {\\mathrm{P/S}} & {\\quad} & {0.7} & {\\quad} & {0.8} & {\\quad} & {0.7} \\\\ {\\mathrm{P/B}} & {\\quad} & {0.9} & {\\quad} & {1.1} & {\\quad} & {0.9} \\\\ \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "e1ecd11b10d84268279f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparing Renee’s Bakery’s ratios to the industry averages for 20X3, the price multiples are lower in all cases except for the P/E multiple. This cross-sectional evidence suggests that Renee’s Bakery is undervalued."
+        },
+        {
+          "type": "paragraph",
+          "text": "The P/E ratio merits further investigation. Renee’s Bakery may have a higher P/E because its earnings are depressed by high depreciation, interest expense, or taxes. Calculating the price-EBITDA ratio would provide an alternative measure that is unaffected by these expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "On a time series basis, the ratios are trending downward. This indicates that Renee’s Bakery may be currently undervalued relative to its past valuations. We could also calculate average price multiples for the ratios over 20X1–20X3 as a benchmark for the current values:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {} & {{} \\mathrm{Company~average~P/E~20X1-20X3}} & {} & {{}} & {} & {{} 61.1} \\\\ {} & {{} \\mathrm{Company~average~P/CF~20X1-20X3}} & {} & {{}} & {} & {{} 3.5} \\\\ {} & {{} \\mathrm{Company~average~P/S~20X1-20X3}} & {} & {{}} & {} & {{} 0.7} \\\\ {} & {{} \\mathrm{Company~average~P/B~20X1-20X3}} & {} & {{}} & {} & {{} 1.0} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "0034dae2da8d82c609e2.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The current P/E, P/CF, and P/B ratios are lower than their 3-year averages. This indicates that Renee’s Bakery may be currently undervalued. It also may be the case, however, that P/E ratios for the market as a whole have been decreasing over the period due to systematic factors."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.l",
+          "text": "What should we know about enterprise value multiples and their use in estimating equity value?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enterprise value (EV) measures total company value. EV can be viewed as what it would cost to acquire the firm:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{EV=market~value~of~common~and~preferred~stock+market~value~of~debt}} \\\\ {\\mathrm{-~cash~and~short-term~investments}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "b3ef5fb48dd0ed94c366.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cash and short-term investments are subtracted because an acquirer’s cost for a firm would be decreased by the amount of the target’s liquid assets. Although an acquirer assumes the firm’s debt, it also receives the firm’s cash and short-term investments. Enterprise value is appropriate when an analyst wants to compare the values of firms that have significant differences in capital structure."
+        },
+        {
+          "type": "paragraph",
+          "text": "EBITDA (earnings before interest, taxes, depreciation, and amortization are subtracted) is probably the most frequently used denominator for EV multiples; operating income can also be used. Because the numerator represents total company value, it should be compared to earnings of both debt and equity owners. An advantage of using EBITDA"
+        },
+        {
+          "type": "paragraph",
+          "text": "instead of net income is that EBITDA is usually positive even when earnings are not. When net income is negative, value multiples based on earnings are meaningless. A disadvantage of using EBITDA is that it often includes non-cash revenues and expenses."
+        },
+        {
+          "type": "paragraph",
+          "text": "A potential problem with using enterprise value is that the market value of a firm’s debt is often not available. In this case, the analyst can use the market values of similar bonds or can use their book values. Book value, however, may not be a good estimate of market value if firm and market conditions have changed significantly since the bonds were issued."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating EV/EBITDA multiples"
+        },
+        {
+          "type": "paragraph",
+          "text": "Daniel, Inc., is a manufacturer of small refrigerators and other appliances. The following figures are from Daniel’s most recent financial statements except for the market value of long-term debt, which has been estimated from financial market data."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{aligned} {} & {{} \\mathrm{Stock~price}} & {} & {{}} & {{}} & {{}} \\\\ {} & {{} \\mathrm{Shares~outstanding}} & {} & {{}} & {{}} & {{200 , 000}} \\\\ {} & {{} \\mathrm{Market~value~of~long-term}} & {} & {{}} & {{}} & {{\\texttt{S 600 , 000}}} \\\\ {} & {{} \\mathrm{deht}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l r} {{\\mathrm{Book~value~of~long-term~debt~}}} & {{\\mathfrak{s 900 ,} 000}} \\\\ {{\\mathrm{Book~value~of~total~debt~}}} & {{\\mathfrak{s 2 ,} 100 , 000}} \\\\ {{\\mathrm{Cash~and~marketable~}}} & {{\\mathfrak{s 250 ,} 000}} \\\\ {{\\mathrm{securities~}}} & {{\\mathfrak{s e c u r i t i e s ~}}} \\end{array}\\\\[6pt]\\mathrm{EBITDA} \\qquad\\qquad\\qquad\\qquad\\qquad\\mathrm{S1,000,000}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ee22ce734bc6fb8557cf.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the EV/EBITDA multiple."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we must estimate the market value of the firm’s short-term debt and liabilities. To do so, subtract the book value of long-term debt from the book value of total debt: $2,100,000 − $900,000 = $1,200,000. This is the book value of the firm’s short-term debt. We can assume the market value of these short-term items is close to their book value. (As we will see in the Fixed Income topic area, the market values of debt instruments approach their face values as they get close to maturity.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Add the market value of long-term debt to get the market value of total debt: $600,000 + $1,200,000 = $1,800,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "The market value of equity is the stock price multiplied by the number of shares: $40 × 200,000 = $8,000,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "The enterprise value of the firm is the sum of debt and equity minus cash: $1,800,000 + $8,000,000 − $250,000 = $9,550,000."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{EV/EBITDA}=\\$9 , 550 , 000 \\mathrm{~/~} \\$1 , 000 , 000 \\approx9.60",
+          "display": true,
+          "sourceAsset": "de18a8443b7d78f77601.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the competitor or industry average EV/EBITDA is above 9.6, Daniel is relatively undervalued. If the competitor or industry average EV/EBITDA is below 9.6, Daniel is relatively overvalued."
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.m",
+          "text": "What should we know about asset-based valuation models and their use in estimating equity value?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our third category of valuation model is asset-based models, which are based on the idea that equity value is the market or fair value of assets minus the market or fair value of liabilities. Because market values of firm assets are usually difficult to obtain, the analyst typically starts with the balance sheet to determine the values of assets and liabilities. In most cases, market values are not equal to book values. Possible approaches to valuing assets are to value them at their depreciated values, inflation-adjusted depreciated values, or estimated replacement values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Applying asset-based models is especially problematic for a firm that has a large amount of intangible assets, on or off the balance sheet. The effect of the loss of the current owners’ talents and customer relationships on forward earnings may be quite difficult to measure. Analysts often consider asset-based model values as floor or minimum values when significant intangibles, such as business reputation, are involved. An analyst should consider supplementing an asset-based valuation with a more forward-looking valuation, such as one from a discounted cash flow model."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset-based model valuations are most reliable when the firm has primarily tangible short-term assets, assets with ready market values (e.g., financial or natural resource firms), or when the firm will cease to operate and is being liquidated. Asset-based models are often used to value private companies but may be increasingly useful for public firms as they move toward fair value reporting on the balance sheet."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Using an asset-based model for a public firm"
+        },
+        {
+          "type": "paragraph",
+          "text": "Williams Optical is a publicly traded firm. An analyst estimates that the market value of net fixed assets is 120% of book value. Liability and short-term asset market values are assumed to equal their book values. The firm has 2,000 shares outstanding."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the selected financial results in the table, calculate the value of the firm’s net assets on a per-share basis."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e32586411aca90ecbf0c.png",
+          "alt": "Equation, table, or diagram: Using the selected financial results in the table, calculate the value of the firm’s net assets on a per-share basis.",
+          "width": 256,
+          "height": 236,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Estimate the market value of assets, adjusting the fixed assets for the analyst’s estimates of their market values:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$10,000 + $20,000 + $50,000 + $120,000(1.20) = $224,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "Determine the market value of liabilities:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$5,000 + $30,000 + $45,000 = $80,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the adjusted equity value:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$224,000 − $80,000 = $144,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the adjusted equity value per share:"
+        },
+        {
+          "type": "paragraph",
+          "text": "$144,000 / 2,000 = $72"
+        },
+        {
+          "type": "question",
+          "objectiveId": "46.f",
+          "text": "How can we explain advantages and disadvantages of each category of valuation model?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Advantages of discounted cash flow models:"
+        },
+        {
+          "type": "paragraph",
+          "text": "They are based on the fundamental concept of discounted present value and are well grounded in finance theory."
+        },
+        {
+          "type": "paragraph",
+          "text": "They are widely accepted in the analyst community."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disadvantages of discounted cash flow models:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Their inputs must be estimated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Value estimates are very sensitive to input values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Advantages of comparable valuation using price multiples:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Evidence that some price multiples are useful for predicting stock returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Price multiples are widely used by analysts. Price multiples are readily available. They can be used in time series and cross-sectional comparisons."
+        },
+        {
+          "type": "paragraph",
+          "text": "EV/EBITDA multiples are useful when comparing firm values independent of capital structure or when earnings are negative and the P/E ratio cannot be used."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disadvantages of comparable valuation using price multiples:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lagging price multiples reflect the past. Price multiples may not be comparable across firms if the firms have different size, products, and growth. Price multiples for cyclical firms may be greatly affected by economic conditions at a given point in time."
+        },
+        {
+          "type": "paragraph",
+          "text": "A stock may appear overvalued by the comparable method but undervalued by a fundamental method or vice versa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Different accounting methods can result in price multiples that are not comparable across firms, especially internationally."
+        },
+        {
+          "type": "paragraph",
+          "text": "A negative denominator in a price multiple results in a meaningless ratio. The P/E ratio is especially susceptible to this problem."
+        },
+        {
+          "type": "paragraph",
+          "text": "Advantages of price multiple valuations based on fundamentals:"
+        },
+        {
+          "type": "paragraph",
+          "text": "They are based on theoretically sound valuation models. They correspond to widely accepted value metrics."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disadvantage of price multiple valuations based on fundamentals:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Price multiples based on fundamentals will be very sensitive to the inputs (especially the k − g denominator)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Advantages of asset-based models:"
+        },
+        {
+          "type": "paragraph",
+          "text": "They can provide floor values. They are most reliable when the firm has primarily tangible short-term assets, assets with ready market values, or when the firm is being liquidated."
+        },
+        {
+          "type": "paragraph",
+          "text": "They are increasingly useful for valuing public firms that report fair values."
+        },
+        {
+          "type": "paragraph",
+          "text": "Disadvantages of asset-based models:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Market values are often difficult to obtain."
+        },
+        {
+          "type": "paragraph",
+          "text": "Market values are usually different than book values. They are inaccurate when a firm has a high proportion of intangible assets or future cash flows not reflected in asset values. Assets can be difficult to value during periods of hyperinflation."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "46.a",
+      "text": "How should we evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An asset is fairly valued if the market price is equal to its estimated intrinsic value, undervalued if the market price is less than its estimated value, and overvalued if the market price is greater than the estimated value."
+    },
+    {
+      "type": "paragraph",
+      "text": "For security valuation to be profitable, the security must be mispriced now and price must converge to intrinsic value over the investment horizon."
+    },
+    {
+      "type": "paragraph",
+      "text": "Securities that are followed by many investors are more likely to be fairly valued than securities that are neglected by analysts."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.b",
+      "text": "What should we know about major categories of equity valuation models?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Discounted cash flow models estimate the present value of cash distributed to shareholders (dividend discount models) or the present value of cash available to shareholders after meeting capital expenditures and working capital expenses (free cash flow to equity models)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multiplier models compare the stock price to earnings, sales, book value, or cash flow. Alternatively, enterprise value is compared to sales or EBITDA."
+    },
+    {
+      "type": "paragraph",
+      "text": "Asset-based models define a stock’s value as the firm’s total asset value minus liabilities and preferred stock, on a per-share basis."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.c",
+      "text": "What should we know about regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Regular cash dividends are paid at set intervals. A special dividend is a one-time cash payment to shareholders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stock dividends are additional shares of stock. Stock splits divide each existing share into multiple shares. In either case, the value of each share will decrease because the total value of outstanding shares is unchanged. The portion of the company owned by each shareholder is also unchanged."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a reverse stock split, the number of shares owned by each shareholder is decreased, so total shares outstanding are decreased and the value of a single share is increased."
+    },
+    {
+      "type": "paragraph",
+      "text": "A share repurchase is a purchase by the company of its outstanding shares. Share repurchases are an alternative to cash dividends as a way to distribute cash to shareholders."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.d",
+      "text": "What should we know about dividend payment chronology?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Dividend payment chronology:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Declaration date: The date the board of directors approves payment of the dividend. Ex-dividend date: The first day a share of stock trades without the dividend, one or two business days before the holder-of-record date. On the ex-dividend date, the value of each share decreases by the amount of the dividend."
+    },
+    {
+      "type": "paragraph",
+      "text": "Holder-of-record date: The date on which share owners who will receive the dividend are identified. Payment date. The date the dividend checks are sent to, or payment is transferred to, shareholders."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.e",
+      "text": "How can we explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The dividend discount model is based on the rationale that a corporation has an indefinite life, and a stock’s value is the present value of its future cash dividends. The most general form of the model is:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{V}_{0}=\\underset{\\mathbf{t}=1} {\\overset{\\infty} {\\sum}} {\\frac{\\mathbf{D}_{\\mathbf{t}}} {\\left( 1+\\mathbf{k}_{\\mathbf{e}} \\right)^{\\mathbf{t}}}}",
+      "display": true,
+      "sourceAsset": "156773f2b1d04908154b.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Free cash flow to equity (FCFE) can be used instead of dividends. FCFE is the cash remaining after a firm meets all of its debt obligations and provides for necessary capital expenditures. FCFE reflects the firm’s capacity for dividends and is useful for firms that currently do not pay a dividend. By using FCFE, an analyst does not need to project the amount and timing of future dividends."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.f",
+      "text": "How can we explain advantages and disadvantages of each category of valuation model?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantages of discounted cash flow models:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Easy to calculate. Widely accepted in the analyst community."
+    },
+    {
+      "type": "paragraph",
+      "text": "FCFE model is useful for firms that currently do not pay a dividend. Gordon growth model is useful for stable, mature, noncyclical firms."
+    },
+    {
+      "type": "paragraph",
+      "text": "Multistage models can be used for firms with nonconstant growth."
+    },
+    {
+      "type": "paragraph",
+      "text": "Disadvantages of discounted cash flow models:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inputs must be forecast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Estimates are very sensitive to inputs. For the Gordon growth model specifically: –  Very sensitive to the k − g denominator."
+    },
+    {
+      "type": "paragraph",
+      "text": "–  Required return on equity must be greater than the growth rate. –  Required return on equity and growth rate must remain constant."
+    },
+    {
+      "type": "paragraph",
+      "text": "–  Firm must pay dividends."
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantages of price multiples:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Often useful for predicting stock returns."
+    },
+    {
+      "type": "paragraph",
+      "text": "Widely used by analysts. Easily calculated and readily available."
+    },
+    {
+      "type": "paragraph",
+      "text": "Can be used in time series and cross-sectional comparisons. EV/EBITDA multiples are useful when comparing firm values independent of capital structure or when earnings are negative and the P/E ratio cannot be used."
+    },
+    {
+      "type": "paragraph",
+      "text": "Disadvantages of price multiples:"
+    },
+    {
+      "type": "paragraph",
+      "text": "P/E ratio based on fundamentals will be very sensitive to the inputs."
+    },
+    {
+      "type": "paragraph",
+      "text": "May not be comparable across firms, especially internationally. Multiples for cyclical firms may be greatly affected by economic conditions. P/E ratio may be especially inappropriate. The P/S multiple may be more appropriate for cyclical firms. A stock may appear overvalued by the comparable method but undervalued by the fundamental method or vice versa."
+    },
+    {
+      "type": "paragraph",
+      "text": "Negative denominator results in a meaningless ratio; the P/E ratio is especially susceptible to this problem."
+    },
+    {
+      "type": "paragraph",
+      "text": "A potential problem with EV/EBITDA multiples is that the market value of a firm’s debt is often not available."
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantages of asset-based models:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Can provide floor values. Most reliable when the firm has mostly tangible short-term assets, assets with a ready market value, or when the firm is being liquidated."
+    },
+    {
+      "type": "paragraph",
+      "text": "May be increasingly useful for valuing public firms if they report fair values."
+    },
+    {
+      "type": "paragraph",
+      "text": "Disadvantages of asset-based models:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Market values of assets can be difficult to obtain and are usually different than book values. Inaccurate when a firm has a large amount of intangible assets or future cash flows not reflected in asset value. Asset values can be difficult to value during periods of hyperinflation."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.g",
+      "text": "How do we calculate the intrinsic value of a non-callable, non-convertible preferred stock?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Preferred stock typically pays a fixed dividend and does not mature. It is valued as:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\mathrm{preferred~stock~value}} \\,=\\, {\\frac{\\mathrm{D}_{\\ p}} {\\mathrm{k}_{\\ p}}}",
+      "display": true,
+      "sourceAsset": "45e74577ae4be90a15e1.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.h",
+      "text": "How do we calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Gordon growth model assumes the growth rate in dividends is constant:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathbf{V}_{0}={\\frac{\\mathbf{D}_{1}} {\\mathbf{k_{e}}-\\mathbf{g_{c}}}}",
+      "display": true,
+      "sourceAsset": "2d7dc7d67e072476c216.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "The sustainable growth rate is the rate at which earnings and dividends can continue to grow indefinitely:"
+    },
+    {
+      "type": "math",
+      "latex": "g=b\\times ROE,\\quad b=1-\\text{dividend payout ratio},\\quad ROE=\\text{return on equity}",
+      "display": true,
+      "sourceAsset": "c7572c094ce9abfaf462.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "A firm with high growth over some number of periods followed by a constant growth rate of dividends forever can be valued using a multistage model:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{gathered}{\\mathrm{value~}}={\\frac{\\mathrm{D}_{1}} {\\left( 1+\\mathbf{k_{e}} \\right)}}+{\\frac{\\mathrm{D}_{2}} {\\left( 1+\\mathbf{k_{e}} \\right)^{2}}}+\\ldots+{\\frac{\\mathrm{D}_{\\mathrm{a}}} {\\left( 1+\\mathbf{k_{e}} \\right)^{\\mathrm{a}}}}+{\\frac{\\mathrm{P}_{\\mathrm{a}}} {\\left( 1+\\mathbf{k_{e}} \\right)^{\\mathrm{a}}}}\\\\[6pt]\\begin{array} {l} {\\mathrm{where:}} \\\\ {\\mathrm{~ P_a=\\frac{D_{a+1}} {k_e-g_c} ~}} \\\\ {\\mathrm{~g_c=constant~growth~rate~of~dividends}} \\\\ {\\mathrm{~n~=~number~of~periods~of~supernormal~growth}} \\\\ \\end{array}\\end{gathered}",
+      "display": true,
+      "sourceAsset": "f0a261bf234635635e4c.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.i",
+      "text": "How can we identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The constant growth model is most appropriate for firms that pay dividends that grow at a constant rate, such as stable and mature firms or noncyclical firms such as utilities and food producers in mature markets."
+    },
+    {
+      "type": "paragraph",
+      "text": "A 2-stage DDM would be most appropriate for a firm with high current growth that will drop to a stable rate in the future, an older firm that is experiencing a temporary high growth phase, or an older firm with a market share that is decreasing but expected to stabilize."
+    },
+    {
+      "type": "paragraph",
+      "text": "A 3-stage model would be appropriate for a young firm still in a high growth phase."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.j",
+      "text": "How can we explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The P/E ratio based on fundamentals is calculated as:"
+    },
+    {
+      "type": "math",
+      "latex": "{\\frac{\\mathbf{P}_{0}} {\\mathbf{E_{1}}}}={\\frac{\\mathbf{D_{1}} / \\mathbf{E_{1}}} {\\mathbf{k}-\\mathbf{g}}}",
+      "display": true,
+      "sourceAsset": "83ecca3989fb2fa9ba1e.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "If the subject firm has a higher dividend payout ratio, higher growth rate, and lower required return than its peers, it may be justified in having a higher P/E ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Price multiples are widely used by analysts, are easily calculated and readily available, and can be used in time series and cross-sectional comparisons."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.k",
+      "text": "How do we calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The price-earnings (P/E) ratio is a firm’s stock price divided by earnings per share."
+    },
+    {
+      "type": "paragraph",
+      "text": "The price-sales (P/S) ratio is a firm’s stock price divided by sales per share."
+    },
+    {
+      "type": "paragraph",
+      "text": "The price-book value (P/B) ratio is a firm’s stock price divided by book value per share."
+    },
+    {
+      "type": "paragraph",
+      "text": "The price-cash flow (P/CF) ratio is a firm’s stock price divided by cash flow per share. Cash flow may be defined as operating cash flow or free cash flow."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.l",
+      "text": "What should we know about enterprise value multiples and their use in estimating equity value?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Enterprise value (EV) measures total company value:"
+    },
+    {
+      "type": "paragraph",
+      "text": "enterprise value = market value of common and preferred stock + market value of debt − cash and short-term investments"
+    },
+    {
+      "type": "paragraph",
+      "text": "EBITDA is frequently used as the denominator in EV multiples because EV represents total company value, and EBITDA represents earnings available to all investors."
+    },
+    {
+      "type": "question",
+      "objectiveId": "46.m",
+      "text": "What should we know about asset-based valuation models and their use in estimating equity value?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Asset-based models value equity as the market or fair value of assets minus liabilities. These models are most appropriate when a firm’s assets are largely tangible and have fair values that can be established easily."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "46.a",
+      "statement": "Evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market.",
+      "question": "How should we evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market?"
+    },
+    {
+      "id": "46.b",
+      "statement": "Describe major categories of equity valuation models.",
+      "question": "What should we know about major categories of equity valuation models?"
+    },
+    {
+      "id": "46.c",
+      "statement": "Describe regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases.",
+      "question": "What should we know about regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases?"
+    },
+    {
+      "id": "46.d",
+      "statement": "Describe dividend payment chronology.",
+      "question": "What should we know about dividend payment chronology?"
+    },
+    {
+      "id": "46.e",
+      "statement": "Explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models.",
+      "question": "How can we explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models?"
+    },
+    {
+      "id": "46.g",
+      "statement": "Calculate the intrinsic value of a non-callable, non-convertible preferred stock.",
+      "question": "How do we calculate the intrinsic value of a non-callable, non-convertible preferred stock?"
+    },
+    {
+      "id": "46.h",
+      "statement": "Calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate.",
+      "question": "How do we calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate?"
+    },
+    {
+      "id": "46.i",
+      "statement": "Identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate.",
+      "question": "How can we identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate?"
+    },
+    {
+      "id": "46.j",
+      "statement": "Explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables.",
+      "question": "How can we explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables?"
+    },
+    {
+      "id": "46.k",
+      "statement": "Calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value.",
+      "question": "How do we calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value?"
+    },
+    {
+      "id": "46.l",
+      "statement": "Describe enterprise value multiples and their use in estimating equity value.",
+      "question": "What should we know about enterprise value multiples and their use in estimating equity value?"
+    },
+    {
+      "id": "46.m",
+      "statement": "Describe asset-based valuation models and their use in estimating equity value.",
+      "question": "What should we know about asset-based valuation models and their use in estimating equity value?"
+    },
+    {
+      "id": "46.f",
+      "statement": "Explain advantages and disadvantages of each category of valuation model.",
+      "question": "How can we explain advantages and disadvantages of each category of valuation model?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-46-quiz-1",
+      "title": "Knowledge check 46.1",
+      "moduleId": "46.1",
+      "questions": [
+        {
+          "id": "r46-q1",
+          "number": 1,
+          "objectiveIds": [
+            "46.a"
+          ],
+          "prompt": "An analyst estimates a value of $45 for a stock with a market price of $50. The analyst is most likely to conclude that a stock is overvalued if:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "few analysts follow the stock and the analyst has less confidence in his model inputs."
+            },
+            {
+              "id": "B",
+              "text": "few analysts follow the stock and the analyst is confident in his model inputs."
+            },
+            {
+              "id": "C",
+              "text": "many analysts follow the stock and the analyst is confident in his model inputs."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If the analyst is more confident of his input values, he is more likely to conclude that the security is overvalued. The market price is more likely to be correct for a security followed by many analysts and less likely correct when few analysts follow the security.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the analyst is more confident of his input values, he is more likely to conclude"
+            },
+            {
+              "type": "paragraph",
+              "text": "that the security is overvalued. The market price is more likely to be correct for a security followed by many analysts and less likely correct when few analysts follow the security."
+            }
+          ]
+        },
+        {
+          "id": "r46-q2",
+          "number": 2,
+          "objectiveIds": [
+            "46.b"
+          ],
+          "prompt": "A valuation model based on free cash flow to equity is most likely to be a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "multiplier model."
+            },
+            {
+              "id": "B",
+              "text": "asset-based model."
+            },
+            {
+              "id": "C",
+              "text": "present value model."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "One example of a present value model is valuation based on the present value of future cash flows available to equity holders.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "One example of a present value model is valuation based on the present value of"
+            },
+            {
+              "type": "paragraph",
+              "text": "future cash flows available to equity holders."
+            }
+          ]
+        },
+        {
+          "id": "r46-q3",
+          "number": 3,
+          "objectiveIds": [
+            "46.c"
+          ],
+          "prompt": "A company is evaluating the likely effects on its share price of declaring a 50% stock dividend or a 3-for-2 stock split. Other things equal, which of these will result in a lower share price?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "3-for-2 stock split."
+            },
+            {
+              "id": "B",
+              "text": "50% stock dividend."
+            },
+            {
+              "id": "C",
+              "text": "Both should have the same effect."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Both a 50% stock dividend and a 3-for-2 stock split will increase the number of shares by 50%, while neither will affect value of the company. Therefore, the decrease in the share price should be the same in either case.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Both a 50% stock dividend and a 3-for-2 stock split will increase the number of"
+            },
+            {
+              "type": "paragraph",
+              "text": "shares by 50%, while neither will affect value of the company. Therefore, the decrease in the share price should be the same in either case."
+            }
+          ]
+        },
+        {
+          "id": "r46-q4",
+          "number": 4,
+          "objectiveIds": [
+            "46.d"
+          ],
+          "prompt": "The first date on which the purchaser of a stock will not receive a dividend that has been declared is the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "declaration date."
+            },
+            {
+              "id": "B",
+              "text": "ex-dividend date."
+            },
+            {
+              "id": "C",
+              "text": "holder-of-record date."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The chronology of a dividend payout is declaration date, ex-dividend date, holder- of-record date, and payment date. The ex-dividend date is the cutoff date for receiving the dividend: stocks purchased on or after the ex-dividend date will not receive the dividend.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The chronology of a dividend payout is declaration date, ex-dividend date, holder-"
+            },
+            {
+              "type": "paragraph",
+              "text": "of-record date, and payment date. The ex-dividend date is the cutoff date for receiving the dividend: stocks purchased on or after the ex-dividend date will not receive the dividend."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-46-quiz-2",
+      "title": "Knowledge check 46.2",
+      "moduleId": "46.2",
+      "questions": [
+        {
+          "id": "r46-q5",
+          "number": 1,
+          "objectiveIds": [
+            "46.e"
+          ],
+          "prompt": "The constant growth model requires which of the following?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "g < k."
+            },
+            {
+              "id": "B",
+              "text": "g > k."
+            },
+            {
+              "id": "C",
+              "text": "g ≠ k."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "For the constant growth model, the constant growth rate (g) must be less than the required rate of return (k).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For the constant growth model, the constant growth rate (g) must be less than the"
+            },
+            {
+              "type": "paragraph",
+              "text": "required rate of return (k)."
+            }
+          ]
+        },
+        {
+          "id": "r46-q6",
+          "number": 2,
+          "objectiveIds": [
+            "46.g"
+          ],
+          "prompt": "What would an investor be willing to pay for a share of preferred stock that pays an annual $7 dividend if the required return is 7.75%?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$77.50."
+            },
+            {
+              "id": "B",
+              "text": "$87.50."
+            },
+            {
+              "id": "C",
+              "text": "$90.32."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The share value is 7.0 / 0.0775 = $90.32.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The share value is 7.0 / 0.0775 = $90.32."
+            }
+          ]
+        },
+        {
+          "id": "r46-q7",
+          "number": 3,
+          "objectiveIds": [
+            "46.h"
+          ],
+          "prompt": "An analyst estimates that a stock will pay a $2 dividend next year and that it will sell for $40 at year-end. If the required rate of return is 15%, what is the value of the stock?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$33.54."
+            },
+            {
+              "id": "B",
+              "text": "$36.52."
+            },
+            {
+              "id": "C",
+              "text": "$43.95."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "($40 + $2) / 1.15 = $36.52",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "($40 + $2) / 1.15 = $36.52"
+            }
+          ]
+        },
+        {
+          "id": "r46-q8",
+          "number": 4,
+          "objectiveIds": [
+            "46.h"
+          ],
+          "prompt": "What is the intrinsic value of a company’s stock if dividends are expected to grow at 5%, the most recent dividend was $1, and investors’ required rate of return for this stock is 10%?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$20.00."
+            },
+            {
+              "id": "B",
+              "text": "$21.00."
+            },
+            {
+              "id": "C",
+              "text": "$22.05."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Using the constant growth model, $1(1.05) / (0.10 − 0.05) = $21.00.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Using the constant growth model, $1(1.05) / (0.10 − 0.05) = $21.00."
+            }
+          ]
+        },
+        {
+          "id": "r46-q9",
+          "number": 5,
+          "objectiveIds": [
+            "46.h"
+          ],
+          "prompt": "Assume that a stock is expected to pay dividends at the end of Year 1 and Year 2 of $1.25 and $1.56, respectively. Dividends are expected to grow at a 5% rate thereafter. Assuming that ke is 11%, the value of the stock is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$22.30."
+            },
+            {
+              "id": "B",
+              "text": "$23.42."
+            },
+            {
+              "id": "C",
+              "text": "$24.55."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {c} {{\\bf5. C} \\mathrm{~}} \\\\ {{\\bf D}_{3} \\!=\\! {\\bf D}_{2} \\! \\mathrm{(1+g)} \\!=\\! 1.56 \\times1.05 \\!=\\! 51.638 \\! \\mathrm{(L0S~46.h)}} \\\\ {{\\bf P}_{2} \\!=\\! {\\bf\\frac{D} {k_{e}-g_{e}}} \\!=\\! {\\bf\\frac{1.638} {0.11-0.05}} \\!={\\bf\\bar{x}} \\! \\mathrm{7.30}} \\end{array}\\\\[6pt]\\cfrac{1.25} {1.11}+\\cfrac{1.56+27.30} {( 1.11 )^{2}}=\\$24.55\\end{gathered}",
+              "display": true,
+              "sourceAsset": "b0aa6445d5f8b35cac38.png"
+            }
+          ]
+        },
+        {
+          "id": "r46-q10",
+          "number": 6,
+          "objectiveIds": [
+            "46.h"
+          ],
+          "prompt": "An analyst feels that Brown Company’s earnings and dividends will grow at 25% for two years, after which growth will fall to a constant rate of 6%. If the projected discount rate is 10%, and Brown’s most recently paid dividend was $1, the value of Brown’s stock using the multistage dividend discount model is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$31.25."
+            },
+            {
+              "id": "B",
+              "text": "$33.54."
+            },
+            {
+              "id": "C",
+              "text": "$36.65."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\\begin{array} {l l} {6. \\mathbf{C} \\mathrm{~} \\mathrm{~} \\mathrm{D}_{1}=\\$1.00 ( 1.25 )=\\$1.25} & {\\mathrm{(L0S~46.h)}} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{D}_{2}=\\$1.25 ( 1.25 )=\\$1.5625} & {} \\\\ {\\mathrm{~} \\mathrm{D}_{3}=1.5625 \\times1.06=\\$1.6563} & {} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{P}_{2}=\\frac{1.6563} {0.10-0.06}=\\$41.41} & {} \\\\ \\end{array}\\\\[6pt]\\frac{1.25} {1.10}+\\frac{1.5625+41.41} {( 1.10 )^{2}}=\\$36.65\\end{gathered}",
+              "display": true,
+              "sourceAsset": "c0d266656dd457a5c5ae.png"
+            }
+          ]
+        },
+        {
+          "id": "r46-q11",
+          "number": 7,
+          "objectiveIds": [
+            "46.i"
+          ],
+          "prompt": "Which of the following firms would most likely be appropriately valued using the constant growth DDM?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "An auto manufacturer."
+            },
+            {
+              "id": "B",
+              "text": "A producer of bread and snack foods."
+            },
+            {
+              "id": "C",
+              "text": "A biotechnology firm in existence for two years."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The constant growth DDM assumes that the dividend growth rate is constant. The most likely choice here is the bread and snack producer. Auto manufacturers are more likely to be cyclical than to experience constant growth. A biotechnology firm in existence for two years is unlikely to pay a dividend, and if it does, dividend growth is unlikely to be constant.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The constant growth DDM assumes that the dividend growth rate is constant. The"
+            },
+            {
+              "type": "paragraph",
+              "text": "most likely choice here is the bread and snack producer. Auto manufacturers are more likely to be cyclical than to experience constant growth. A biotechnology firm in existence for two years is unlikely to pay a dividend, and if it does, dividend growth is unlikely to be constant."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-46-quiz-3",
+      "title": "Knowledge check 46.3",
+      "moduleId": "46.3",
+      "questions": [
+        {
+          "id": "r46-q12",
+          "number": 1,
+          "objectiveIds": [
+            "46.j"
+          ],
+          "prompt": "Which of the following is least likely a rationale for using price multiples?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Price multiples are easily calculated."
+            },
+            {
+              "id": "B",
+              "text": "The fundamental P/E ratio is insensitive to its inputs."
+            },
+            {
+              "id": "C",
+              "text": "The use of forward values in the divisor provides an incorporation of the future."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The fundamental P/E ratio is sensitive to its inputs. It uses the DDM as its framework, and the denominator k − g in both has a large impact on the calculated P/E or stock value.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The fundamental P/E ratio is sensitive to its inputs. It uses the DDM as its"
+            },
+            {
+              "type": "paragraph",
+              "text": "framework, and the denominator k − g in both has a large impact on the calculated P/E or stock value."
+            }
+          ]
+        },
+        {
+          "id": "r46-q13",
+          "number": 2,
+          "objectiveIds": [
+            "46.k"
+          ],
+          "prompt": "A firm has an expected dividend payout ratio of 60% and an expected future growth rate of 7%. What should the firm’s fundamental price-to-earnings (P/E) ratio be if the required rate of return on stocks of this type is 15%?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "5.0×."
+            },
+            {
+              "id": "B",
+              "text": "7.5×."
+            },
+            {
+              "id": "C",
+              "text": "10.0×."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Using the earnings multiplier model, 0.6 / (0.15 − 0.07) = 7.5×.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Using the earnings multiplier model, 0.6 / (0.15 − 0.07) = 7.5×."
+            }
+          ]
+        },
+        {
+          "id": "r46-q14",
+          "number": 3,
+          "objectiveIds": [
+            "46.l"
+          ],
+          "prompt": "Enterprise value is defined as the market value of equity plus:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the face value of debt minus cash and short-term investments."
+            },
+            {
+              "id": "B",
+              "text": "the market value of debt minus cash and short-term investments."
+            },
+            {
+              "id": "C",
+              "text": "cash and short-term investments minus the market value of debt."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Enterprise value is market value of equity plus market value of debt minus cash and short-term investments.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Enterprise value is market value of equity plus market value of debt minus cash"
+            },
+            {
+              "type": "paragraph",
+              "text": "and short-term investments."
+            }
+          ]
+        },
+        {
+          "id": "r46-q15",
+          "number": 4,
+          "objectiveIds": [
+            "46.m"
+          ],
+          "prompt": "Which of the following firms would most appropriately be valued using an asset-based model?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "An energy exploration firm in financial distress that owns drilling rights for offshore areas."
+            },
+            {
+              "id": "B",
+              "text": "A paper firm located in a country that is experiencing high inflation."
+            },
+            {
+              "id": "C",
+              "text": "A software firm that invests heavily in research and development and frequently introduces new products."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The energy exploration firm would be most appropriately valued using an asset- based model. Its near-term cash flows are likely negative, so a forward-looking model is of limited use. Furthermore, it has valuable assets in the form of drilling rights that likely have a readily determined market value. The paper firm would likely not be appropriately valued using an asset-based model because high inflation makes the values of a firm’s assets more difficult to estimate. An asset-based model would not be appropriate to value the software firm because the firm’s value largely consists of internally developed intangible assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The energy exploration firm would be most appropriately valued using an asset-"
+            },
+            {
+              "type": "paragraph",
+              "text": "based model. Its near-term cash flows are likely negative, so a forward-looking model is of limited use. Furthermore, it has valuable assets in the form of drilling rights that likely have a readily determined market value. The paper firm would likely not be appropriately valued using an asset-based model because high inflation makes the values of a firm’s assets more difficult to estimate. An asset-based model would not be appropriate to value the software firm because the firm’s value largely consists of internally developed intangible assets."
+            }
+          ]
+        },
+        {
+          "id": "r46-q16",
+          "number": 5,
+          "objectiveIds": [
+            "46.f"
+          ],
+          "prompt": "Which type of valuation model is viewed as having the disadvantage of producing results that may not be comparable across firms?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Asset-based models."
+            },
+            {
+              "id": "B",
+              "text": "Price multiple models."
+            },
+            {
+              "id": "C",
+              "text": "Discounted cash flow models."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Results that may not be comparable across firms are considered a disadvantage of valuation models based on price multiples.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Results that may not be comparable across firms are considered a disadvantage of"
+            },
+            {
+              "type": "paragraph",
+              "text": "valuation models based on price multiples."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

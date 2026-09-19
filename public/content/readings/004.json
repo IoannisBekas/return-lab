@@ -1,0 +1,408 @@
+{
+  "readingId": 4,
+  "title": "Probability Trees and Conditional Expectations",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "4.1",
+      "title": "Probability Models, Expected Values, and Bayes’ Formula",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "4.a",
+          "text": "How do we calculate expected values, variances, and standard deviations and demonstrate their application to investment problems?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected value of a random variable is the weighted average of the possible outcomes for the variable. The mathematical representation for the expected value of random variable X, that can take on any of the values from x1 to xn, is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{E ( X )=\\Sigma P ( x_{i} ) x_{i}=P ( x_{1} ) x_{1}+P ( x_{2} ) x_{2}+\\ldots+P ( x_{n} ) x_{n}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P ( x_{i} )=p r o b a b i l i t y ~ o f ~ o u t c o m e ~ x_{i} ~}}} \\end{array}",
+          "display": true,
+          "sourceAsset": "204efbe04d03224cf753.png"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Expected earnings per share"
+        },
+        {
+          "type": "paragraph",
+          "text": "The probability distribution of earnings per share (EPS) for Ron’s Stores is given in the following figure. Calculate the expected EPS."
+        },
+        {
+          "type": "heading",
+          "text": "EPS Probability Distribution"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c} \\hline{\\mathrm{tt~Probability}} & {\\mathrm{tt~EPS}} \\\\ \\hline{10^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.80} \\\\ {20^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.60} \\\\ {40^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.20} \\\\ \\end{array}\\\\[6pt]\\frac{30 \\% \\! \\!_{\\mathbf{0}}} {100 \\% \\! \\!_{\\mathbf{0}} \\! \\!_{\\mathbf{0}} \\! \\!_{\\mathbf{0}} \\! \\!} \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\pounds1.00\\end{gathered}",
+          "display": true,
+          "sourceAsset": "70e6fa8c3e0cf672a579.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected EPS is simply a weighted average of each possible EPS, where the weights are the probabilities of each possible outcome:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E[EPS] = 0.10(1.80) + 0.20(1.60) + 0.40(1.20) + 0.30(1.00) = £1.28"
+        },
+        {
+          "type": "paragraph",
+          "text": "Variance and standard deviation measure the dispersion of a random variable around its expected value, sometimes referred to as the volatility of a random variable. Variance (from a probability model) can be calculated as the probability-weighted sum of the squared deviations from the mean (or expected value). The standard deviation is the positive square root of the variance. The following example illustrates the calculations for a probability model of possible returns."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Expected value, variance, and standard deviation from a probability"
+        },
+        {
+          "type": "heading",
+          "text": "model"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the probabilities given in the following table, calculate the expected return on Stock A, the variance of returns on Stock A, and the standard deviation of returns on Stock A."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/99a395b3005dcf9a0cf9.png",
+          "alt": "Equation, table, or diagram: sing the probabilities given in the following table, calculate the expected return on Stock A, the variance of returns on Stock A, and the standard deviation of returns on Stock A.",
+          "width": 492,
+          "height": 164,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "E(RA) = (0.30 × 0.20) + (0.50 × 0.12) + (0.20 × 0.05) = 0.13 = 13%"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected return for Stock A is the probability-weighted sum of the returns under the three different economic scenarios."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Column 5, we have calculated the differences between the returns under each economic scenario and the expected return of 13%."
+        },
+        {
+          "type": "paragraph",
+          "text": "In Column 6, we squared all the differences from Column 5. In the final column, we have multiplied the probabilities of each economic scenario times the squared deviation of returns from the expected returns, and their sum, 0.00280, is the variance of RA."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{T h e ~ s t a n d a r d ~ d e v i a t i o n ~ o f ~ R_A=\\sqrt{0.0028}=0.0529.}",
+          "display": true,
+          "sourceAsset": "a5a5e43509b0dd85d0d3.png",
+          "prose": "The standard deviation of ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that in a previous reading, we estimated the standard deviation of a distribution from sample data, rather than from a probability model of returns. For the sample standard deviation, we divided the sum of the squared deviations from the mean by n − 1, where n was the size of the sample. Here, we have no “n” because we have no observations; a probability model is forward-looking. We use the probability weights instead, as they describe the entire distribution of outcomes."
+        },
+        {
+          "type": "question",
+          "objectiveId": "4.b",
+          "text": "How do we formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application?"
+        },
+        {
+          "type": "paragraph",
+          "text": "You may wonder where the returns and probabilities used in calculating expected values come from. A general framework, called a probability tree, is used to show the probabilities of various outcomes. In Figure 4.1, we have shown estimates of EPS for four different events: (1) a good economy and relatively good results at the company, (2) a good economy and relatively poor results at the company, (3) a poor economy and relatively good results at the company, and (4) a poor economy and relatively poor results at the company. Using the rules of probability, we can calculate the probabilities of each of the four EPS outcomes shown in the boxes on the right-hand side of the probability tree."
+        },
+        {
+          "type": "paragraph",
+          "text": "The expected EPS of $1.51 is simply calculated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "(0.18 × 1.80) + (0.42 × 1.70) + (0.24 × 1.30) + (0.16 × 1.00) = $1.51"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the probabilities of the four possible outcomes sum to 1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 4.1: A Probability Tree"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/dbce15c32e7f233b9acd.png",
+          "alt": "Equation, table, or diagram: Figure 4.1: A Probability Tree",
+          "width": 522,
+          "height": 292,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expected values or expected returns can be calculated using conditional probabilities. As the name implies, conditional expected values are contingent on the outcome of some other event. An analyst would use a conditional expected value to revise his expectations when new information arrives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider the effect a tariff on steel imports might have on the returns of a domestic steel producer’s stock in the previous example. The stock’s conditional expected return, given that the government imposes the tariff, will be higher than the conditional expected return if the tariff is not imposed."
+        },
+        {
+          "type": "question",
+          "objectiveId": "4.c",
+          "text": "How do we calculate and interpret an updated probability in an investment setting using Bayes’ formula?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bayes’ formula is used to update a given set of prior probabilities for a given event in response to the arrival of new information. The rule for updating prior probability of an event is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {{\\mathrm{updated~probability}=}} \\\\ {{\\mathrm{~probability~of~new~information~for~a~given~event}}} \\\\ {{\\mathrm{~unconditional~probability~of~new~information}}} \\end{array} \\times{\\mathrm{prior~probability~of~event}}",
+          "display": true,
+          "sourceAsset": "b8e62f492683262cdad4.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can derive Bayes’ formula using the multiplication rule and noting that P(AB) = P(BA):"
+        },
+        {
+          "type": "paragraph",
+          "text": "P(B|A) × P(A) = P(BA), and P(A|B) × P(B) = P(AB)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because P(BA) = P(AB), we can write P(B|A) P(A) = P(A|B) P(B), and"
+        },
+        {
+          "type": "math",
+          "latex": "P(A\\mid B)=\\frac{P(B\\mid A)P(A)}{P(B)}=\\frac{P(AB)}{P(B)}",
+          "display": true,
+          "sourceAsset": "83afd80de0adc64fb616.png",
+          "prose": ", the joint probability of A and B divided by the unconditional probability of B."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following example illustrates the use of Bayes’ formula. Note that A is outperform and AC is underperform, P(BA) is (outperform + gains), P(ACB) is (underperform + gains), and the unconditional probability P(B) is P(AB) + P(ACB), by the total probability rule."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Bayes’ formula"
+        },
+        {
+          "type": "paragraph",
+          "text": "There is a 60% probability that the economy will outperform—and if it does, there is a 70% probability a stock will go up and a 30% probability the stock will go down. There is a 40% probability the economy will underperform, and if it does, there is a 20% probability the stock in question will increase in value (have gains) and an 80% probability it will not. Given that the stock increased in value, calculate the probability that the economy outperformed."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0f8b04065cedff265396.png",
+          "alt": "Equation, table, or diagram: Answer:",
+          "width": 449,
+          "height": 226,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the figure just presented, we have multiplied the probabilities to calculate the probabilities of each of the four outcome pairs. Note that these sum to 1. Given that"
+        },
+        {
+          "type": "paragraph",
+          "text": "the stock has gains, what is our updated probability of an outperforming economy? We sum the probability of stock gains in both states (outperform and underperform) to get 42% + 8% = 50%. Given that the stock has gains and using Bayes’ formula, the"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{42\\%}{50\\%}=84\\%",
+          "display": true,
+          "sourceAsset": "25164683aa7a3fe9fb4c.png",
+          "prose": "probability that the economy has outperformed is ."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "4.a",
+      "text": "How do we calculate expected values, variances, and standard deviations and demonstrate their application to investment problems?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The expected value of a random variable is the weighted average of its possible outcomes:"
+    },
+    {
+      "type": "math",
+      "latex": "\\operatorname{E} ( X )=\\Sigma\\operatorname{P} ( \\mathbf{x_{i}} ) \\mathbf{x_{i}}=\\operatorname{P} ( \\mathbf{x_{1}} ) \\mathbf{x_{1}}+\\operatorname{P} ( \\mathbf{x_{2}} ) \\mathbf{x_{2}}+\\ldots+\\operatorname{P} ( \\mathbf{x_{n}} ) \\mathbf{x_{n}}",
+      "display": true,
+      "sourceAsset": "65d7b2f8c7369d4a41f5.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Variance can be calculated as the probability-weighted sum of the squared deviations from the mean or expected value. The standard deviation is the positive square root of the variance."
+    },
+    {
+      "type": "question",
+      "objectiveId": "4.b",
+      "text": "How do we formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A probability tree shows the probabilities of two events and the conditional probabilities of two subsequent events:"
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{matrix} \\underbrace{\\rho( A )}_{B}=\\underbrace{P ( 0 , A )}_{A D w i t h P r o b ( A D )} \\\\ \\underbrace{P ( B )}_{B}=\\underbrace{P ( 0 , B )}_{B C w i t h P r o b ( B C )} \\\\ \\end{matrix}",
+      "display": true,
+      "sourceAsset": "31fa227e2b44ab1ae029.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Conditional expected values depend on the outcome of some other event. Forecasts of expected values for a stock’s return, earnings, and dividends can be refined, using conditional expected values, when new information arrives that affects the expected outcome."
+    },
+    {
+      "type": "question",
+      "objectiveId": "4.c",
+      "text": "How do we calculate and interpret an updated probability in an investment setting using Bayes’ formula?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bayes’ formula for updating probabilities based on the occurrence of an event O is as follows:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{P} ( \\mathrm{I} \\, | \\, \\mathrm{O} )={\\frac{\\mathrm{P} ( \\mathrm{O} \\, | \\, \\mathrm{I} )} {\\mathrm{P} ( \\mathrm{O} )}} \\times\\mathrm{P} ( \\mathrm{I} )",
+      "display": true,
+      "sourceAsset": "53588666b6a3db725638.png"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{~Equivalently,~based~on~the~following~tree~diagram,} \\, \\mathbb{P} ( \\mathbb{A} \\, | \\, \\mathbb{C} )=\\frac{\\mathbb{P} ( \\mathbb{A} C )} {\\mathbb{P} ( \\mathbb{A} C )+\\mathbb{P} ( \\mathbb{B} C )} ;",
+      "display": true,
+      "sourceAsset": "02c19bd310ba65691617.png",
+      "prose": "Equivalently, based on the following tree diagram, :"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "4.a",
+      "statement": "Calculate expected values, variances, and standard deviations and demonstrate their application to investment problems.",
+      "question": "How do we calculate expected values, variances, and standard deviations and demonstrate their application to investment problems?"
+    },
+    {
+      "id": "4.b",
+      "statement": "Formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application.",
+      "question": "How do we formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application?"
+    },
+    {
+      "id": "4.c",
+      "statement": "Calculate and interpret an updated probability in an investment setting using Bayes’ formula.",
+      "question": "How do we calculate and interpret an updated probability in an investment setting using Bayes’ formula?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-4-quiz-1",
+      "title": "Knowledge check 4.1",
+      "moduleId": "4.1",
+      "questions": [
+        {
+          "id": "r4-q1",
+          "number": 1,
+          "objectiveIds": [
+            "4.a"
+          ],
+          "prompt": "Given the conditional probabilities in the following table and the unconditional probabilities P(Y = 1) = 0.3 and P(Y = 2) = 0.7, what is the expected value of X?",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{array} {c c c c} {{\\begin{array} {c c} {{\\bf x_{i}}} & {{\\bf P ( x_{i}} \\mid{\\bf Y=1} )} & {{\\bf P ( x_{i}} \\mid{\\bf Y=2} )} \\\\ \\hline{0} & {0.2} & {0.1} \\\\ {5} & {0.4} & {0.8} \\\\ {10} & {0.4} & {0.1} \\end{array}}} \\\\ \\end{array}",
+              "display": true,
+              "sourceAsset": "f116b8b224ba2e5416f1.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "5.0."
+            },
+            {
+              "id": "B",
+              "text": "5.3."
+            },
+            {
+              "id": "C",
+              "text": "5.7."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "E(X | Y = 1) = (0.2)(0) + (0.4)(5) + (0.4)(10) = 6 E(X | Y = 2) = (0.1)(0) + (0.8)(5) + (0.1)(10) = 5 E(X) = (0.3)(6) + (0.7)(5) = 5.30",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "E(X | Y = 1) = (0.2)(0) + (0.4)(5) + (0.4)(10) = 6"
+            },
+            {
+              "type": "paragraph",
+              "text": "E(X | Y = 2) = (0.1)(0) + (0.8)(5) + (0.1)(10) = 5"
+            },
+            {
+              "type": "paragraph",
+              "text": "E(X) = (0.3)(6) + (0.7)(5) = 5.30"
+            }
+          ]
+        },
+        {
+          "id": "r4-q2",
+          "number": 2,
+          "objectiveIds": [
+            "4.c"
+          ],
+          "prompt": "An analyst believes that Davies Company has a 40% probability of earning more than $2 per share. She estimates that the probability that Davies Company’s credit rating will be upgraded is 70% if its earnings per share (EPS) are greater than $2, and 20% if its EPS are $2 or less. Given the information that Davies Company’s credit rating has been upgraded, what is the updated probability that its EPS are greater than $2?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "50%."
+            },
+            {
+              "id": "B",
+              "text": "60%."
+            },
+            {
+              "id": "C",
+              "text": "70%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "This is an application of Bayes’ formula. As the following tree diagram shows, the updated probability that EPS are greater than $2 is :",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This is an application of Bayes’ formula. As the following tree diagram shows, the"
+            },
+            {
+              "type": "math",
+              "latex": "\\widetilde{\\mathrm{updated~probability~that~EPS~are~greater~than~82~is}} \\frac{28 \\gamma_{0}} {28 \\gamma_{0}+12 \\gamma_{0}}=\\widetilde{70 \\gamma_{0}} ;",
+              "display": true,
+              "sourceAsset": "7efee4b6e652bb00bd73.png",
+              "prose": "updated probability that EPS are greater than $2 is :"
+            },
+            {
+              "type": "image",
+              "src": "content/figures/dc31279e9262d8e1f0de.png",
+              "alt": "Equation, table, or diagram: updated probability that EPS are greater than $2 is :",
+              "width": 456,
+              "height": 202,
+              "visualKind": "diagram-chart-or-table"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

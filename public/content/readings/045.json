@@ -1,0 +1,594 @@
+{
+  "readingId": 45,
+  "title": "Company Analysis: Forecasting",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "45.1",
+      "title": "Forecasting in Company Analysis",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "45.a",
+          "text": "How can we explain principles and approaches to forecasting a company’s financial results and position?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial statement forecasts are used for both valuation and investment recommendations. Forecasts that will be distributed to external users typically emphasize key metrics such as revenue and EPS. A company’s internal forecasts can be much more thorough and may span many future years."
+        },
+        {
+          "type": "heading",
+          "text": "Forecast Objects"
+        },
+        {
+          "type": "paragraph",
+          "text": "The four key forecast objects include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial statement lines with clear drivers. For example, in the retail industry, an analyst might model net sales as being driven by the number of stores operating and sales per store. The primary advantages of forecasting drivers are explanatory value and forecast accuracy. A disadvantage is that a given line item could have numerous drivers that are difficult to forecast as a group. Financial statement items without clear drivers. An analyst can forecast these items directly, using estimates obtained from management or by adjusting amounts from prior years. Summary measures. Metrics such as earnings per share or free cash flow combine several financial statement line items. Forecasting summary measures is most effective when they are not subject to significant period-to-period fluctuations. Summary measures speed up the forecasting process, but the results are less transparent for users of the forecasts. Ad hoc items. An analyst might want to account for events a company’s financial statements do not yet reflect. These might include contingent liabilities (e.g., regulatory change requiring future costs to comply) and potential gains or losses (e.g., windfall from an expected victory in a lawsuit)."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is best to base forecasts on information that is readily available and reasonably frequent and recurring. For example, with a company that produces multiple products or operates multiple divisions, an analyst would like the financial statements to provide details on individual product lines or divisions. If financial information is only provided on a consolidated basis, it is much more difficult to perform a more detailed forecast."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should avoid making forecasting models more complicated or detailed than necessary. Complex models require significant effort to create and to maintain and are not necessarily more accurate than simpler models. It is often beneficial to eliminate a few steps to avoid uneconomical work on items that do not materially improve a forecast."
+        },
+        {
+          "type": "heading",
+          "text": "Forecast Approaches"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following four forecast approaches can be used individually or combined:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Base forecasts on historical results."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Assume results will converge to a historical base rate.\n3. Use management guidance."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Use other methods to make discretionary forecasts."
+        },
+        {
+          "type": "heading",
+          "text": "Historical Results"
+        },
+        {
+          "type": "paragraph",
+          "text": "The most basic forecasting method is to use actual past results as the starting point and assume the results will continue in the future. Of course, the major drawback is that past conditions might not be the same in the future. Using historical results works best for companies and industries that are noncyclical or in the mature stage. As well, using historical results is often done to forecast objects considered immaterial."
+        },
+        {
+          "type": "paragraph",
+          "text": "This approach can be inappropriate for companies operating in a cyclical industry because a year-by-year comparison could see the economy in a different stage of the business cycle. A longer or multiyear forecast that accounts for the full business cycle would make more sense. Analysts should also not rely on historical results for firms that are transitioning into a new competitive strategy or significantly changing their business operations."
+        },
+        {
+          "type": "heading",
+          "text": "Historical Base Rate Convergence"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst might assume that a forecasting object, such as a company’s growth rate, will converge to an industry average or median growth rate (or even the rate of GDP growth, if appropriate). This base rate should be computed over a sufficiently long and representative time period. The approach makes sense for established industries with many competitors that are publicly traded, and for industries where few structural changes or external disruptions are expected. It also makes sense for relatively new companies that are transitioning to become more like their larger and more established competitors."
+        },
+        {
+          "type": "paragraph",
+          "text": "For industries that are new or rapidly changing, determining a base rate may be difficult and assuming forecast objects will converge to it might not be appropriate. This approach is also not appropriate for cyclical industries because it is likely to underestimate the volatility of their results. Finally, for companies that are dominant in their industry, this approach essentially becomes the historical results method because the dominant company accounts for most of the calculated industry base rate."
+        },
+        {
+          "type": "heading",
+          "text": "Management Guidance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Managers of public companies often reveal their earnings and revenue targets for the upcoming periods. The first disclosures for a coming year might occur during the fourth quarter of the current year, with quarterly updates during the year. Because management has internal and industry information that is unavailable to the public, analysts pay close attention to management’s forward-looking guidance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Guidance may be detailed, but it is rarely presented as a point estimate and much more frequently presented as a range (e.g., operating expenses are expected to increase by 1% to 3% in the coming year). Such guidance contains a significant number of assumptions by management regarding factors such as GDP growth, pricing changes, and cost increases. Analysts and investors are particularly interested in determining whether management’s assumptions make sense in the current economic and operating environment. It may not always be prudent for analysts to use the midpoint of the range to gauge management expectations. Managements have been known to shade their revenue growth ranges downward and their expense growth ranges upward to give the impression that they have exceeded expectations once actual results are determined."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using management guidance is best when management has a proven history of providing reasonable estimates. This can be verified by performing variance analyses of budget versus actual. Similar to the other approaches, using guidance may not be helpful for cyclical companies because management might be no better than the analyst at forecasting business cycles. However, management is likely to make better forecasts for items that are more in their control, such as expenses and fixed investment."
+        },
+        {
+          "type": "heading",
+          "text": "Analyst Discretionary Forecast"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is the “catch all” for any other forecasting approach than the three we have discussed. Discretionary forecasts can be derived from surveys, models, or probability distributions. They are most appropriate when the other approaches tend to fall short, such as for companies in cyclical industries, with few or no peers, that do not offer guidance, or are in a significant transition of their operations. For example, forecasting the effects on energy companies of transitioning to renewable energy sources cannot rely on historical precedent. Instead, an analyst must create a forecast using publicly available information such as regulatory changes, implementation timelines, and emission reduction targets."
+        },
+        {
+          "type": "heading",
+          "text": "Forecast Horizon"
+        },
+        {
+          "type": "paragraph",
+          "text": "The appropriate forecast horizon for any particular analysis depends on factors such as an investor’s or portfolio manager’s time horizon, whether the industry is cyclical, or factors specific to a company. For cyclical industries, a forecast horizon should be at least long enough to include the midpoint of a business cycle. Specific company changes made to improve business operations may require a long enough forecast horizon to allow the benefits of the changes to be measurable."
+        },
+        {
+          "type": "question",
+          "objectiveId": "45.b",
+          "text": "How can we explain approaches to forecasting a company’s revenues?"
+        },
+        {
+          "type": "heading",
+          "text": "Top-Down Revenue Forecasts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Top-down analysis starts with expectations about a macro variable, often the expected growth rate of nominal GDP or of the market for a particular good or service."
+        },
+        {
+          "type": "paragraph",
+          "text": "When forecasting revenues relative to nominal GDP growth, an analyst may model the relationship between nominal GDP and company sales, or use the real GDP growth rate to forecast quantity and an inflation forecast to estimate prices. An analyst will often project that a company’s growth will exceed or lag GDP growth. For example, if an analyst forecasts that nominal GDP will grow at 5% and believes a company’s revenue will grow at a 20% faster rate, he will project the company’s sales to increase by 5% × (1 + 0.20) = 6%. Growth or decline expectations are typically based on a company’s life cycle stage and degree of cyclicality."
+        },
+        {
+          "type": "paragraph",
+          "text": "An alternative approach is to forecast revenues based on expected market growth and market share. To use this approach, an analyst begins with an estimate of industry sales (market growth), then estimates company revenue as a percentage of industry sales based on the company’s expected market share. For example, consider a company that currently has GBP12 million in sales, a 12% share of industry sales that are GBP100 million. If an analyst expects the company to increase its market share next year to 13%, and forecasts industry sales to grow to GBP104 million, the analyst will project the company to have 13% × GBP104 million = GBP13.52 million in sales, an increase of about 12.7%."
+        },
+        {
+          "type": "heading",
+          "text": "Bottom-Up Revenue Forecasts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bottom-up analysis starts with an individual company or its reportable segments. Revenue projections based on historical revenue growth or a company’s new product introductions over the forecast horizon are considered bottom-up approaches."
+        },
+        {
+          "type": "paragraph",
+          "text": "Examples of bottom-up drivers include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Average selling prices (P) and volumes (Q). Forecasting P and Q separately and then"
+        },
+        {
+          "type": "paragraph",
+          "text": "multiplying them will generate a revenue forecast, assuming such information is readily available to the analyst.\n2. Product line or segment revenues. An analyst may forecast revenues for separate"
+        },
+        {
+          "type": "paragraph",
+          "text": "products, business lines, geographic areas, or reporting segments, then combine them into a company-wide revenue forecast. This is only practical if a company provides such detailed information."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Capacity-based measures. An analyst may forecast revenue growth for a company’s"
+        },
+        {
+          "type": "paragraph",
+          "text": "existing locations, and add a separate forecast for its newly opened locations.\n4. Return- or yield-based measures. These involve forecasting balance sheet items and"
+        },
+        {
+          "type": "paragraph",
+          "text": "the return the company will earn on them. For example, interest revenue forecasts for a bank require changes in loan balances (assets) and changes in customer deposits (liabilities)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Incorporating elements of both top-down and bottom-up approaches can highlight any inconsistencies in their assumptions. For example, if a company’s forecast sales based on expected capacity are far out of line with what they should be given expected economic growth, an analyst should recheck the model’s assumptions to confirm whether the forecast is reasonable."
+        },
+        {
+          "type": "heading",
+          "text": "Recurring and Nonrecurring Items"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonrecurring items should not be included in a forecast object, but rather should be analyzed on a stand-alone basis. Nonrecurring items include those disclosed by company management and other items that an analyst believes a forecast should encompass. An analyst must be prepared to quantify both types."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonrecurring items disclosed by management typically focus on one-time events (e.g., large special orders, foreign exchange gains) that do not constitute sustainable or ongoing revenues. One-time items might be removed from regular revenues and disclosed on a separate line item. This makes it easier for analysts to determine the amount of revenue that is more likely to recur, assuming they believe management’s judgments are reliable. If a company cites “nonrecurring” items regularly, analysts might reasonably expect this trend to continue and incorporate them into their forecasts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nonrecurring items that are not quantified by management require analyst insight and judgment. For example, some analysts believed the COVID-19 pandemic of 2020–21 would cause a fundamental and permanent shift in retail sales to online platforms, and that the rise in online sales would persist for many years to come. However, about 18 months into the pandemic, online sales as a percentage of total retail sales began receding back toward pre-pandemic levels. With hindsight, analysts who treated the shift to online sales as nonrecurring turned out to be correct."
+        },
+        {
+          "type": "heading",
+          "text": "Forecast Approaches"
+        },
+        {
+          "type": "paragraph",
+          "text": "When choosing among the forecast approaches we have described, analysts must account for risk factors such as competition, business cycle changes, inflation or deflation, and technological changes. Not all of them may be significant for a given company or industry, but an analyst must determine which ones are significant and account for them in forecasts. Scenario analysis is a useful approach to forecasting the effects of these kinds of risk."
+        },
+        {
+          "type": "question",
+          "objectiveId": "45.c",
+          "text": "How can we explain approaches to forecasting a company’s operating expenses and working capital?"
+        },
+        {
+          "type": "heading",
+          "text": "Cost of Sales and Gross Margins"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because cost of sales (cost of goods sold, or COGS) is closely related to revenue, analysts typically estimate future COGS as a percentage of revenue:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forecast COGS = (historical COGS / revenue) × estimate of future revenue"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forecast COGS = (1 − gross margin) × estimate of future revenue"
+        },
+        {
+          "type": "paragraph",
+          "text": "Changes in a company’s market share can signal changes in its gross margin. If a company is losing market share because cheaper and more attractive substitutes are becoming available, this should put pressure on the company’s gross margins. By contrast, if a company is gaining market share by introducing a new and innovative product that does not yet have any substitutes available, this should enable it to increase its gross margin."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: The effect of prices and costs on gross profit and margin¹"
+        },
+        {
+          "type": "paragraph",
+          "text": "Assume that a company’s COGS as a percentage of sales equals 25% and that the quantity sold is the same in Period 2 as in Period 1. If input costs double in Period 2 and the company can pass the entire increase on to its customers through a 25% price increase, COGS as a percentage of sales will increase (to 40%) because an equal absolute amount has been added to the numerator and to the denominator."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/e061b63a0bca50ca861e.png",
+          "alt": "Equation, table, or diagram: ustomers through a 25% price increase, COGS as a percentage of sales will increase (to 40%) because an equal absolute amount has been added to the numerator and to the denominator.",
+          "width": 360,
+          "height": 138,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thus, although the absolute amount of gross profit will remain constant, the gross margin will decrease (from 75% to 60%)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because COGS is typically a large portion of a company’s costs, small changes can have a significant impact on profitability forecasts. Close examination of the volume and price of a firm’s inputs may improve a forecast of COGS, especially in the short run. For example, an airline’s fuel costs can be volatile and will have a significant impact on its COGS, gross margin, and net margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Firms often hedge their future input costs using forward contracts or other derivative securities. An analyst must be aware of the proportion of future input costs hedged that way or, at a minimum, whether the firm has historically hedged those costs and over what time horizon. A hedge that protects the firm’s gross margins from decreasing when input prices rise will also “protect” its gross margins from increasing when input prices fall."
+        },
+        {
+          "type": "paragraph",
+          "text": "It can be worthwhile to examine the gross margins of a firm’s competitors as a check of the reasonableness of gross margin estimates. In some cases, differences between firms’ business models may be the underlying reason for differences in gross margins."
+        },
+        {
+          "type": "heading",
+          "text": "SG&A Expenses"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to COGS, selling, general, and administrative (SG&A) operating expenses are less sensitive to changes in sales volume. Their fixed cost component (e.g., research and development, corporate headquarters, management salaries) is generally larger than their variable cost component. Such costs might be modeled using a fixed growth rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "that accounts for expected inflation. Selling and distribution costs may be more directly related to sales volume because a company likely needs to hire more salespeople to support higher sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Segment disclosures are unlikely to provide specific line items such as COGS and SG&A by segment. Therefore, an analyst creating segment forecasts can only rely on summary information such as operating margin by segment."
+        },
+        {
+          "type": "heading",
+          "text": "Working Capital"
+        },
+        {
+          "type": "paragraph",
+          "text": "Three balance sheet items comprise working capital forecasts—accounts receivable, inventories, and accounts payable. To describe forecasting the components of working capital, we draw on concepts and ratios that we introduced in the Corporate Issuers and Financial Statement Analysis topic areas."
+        },
+        {
+          "type": "heading",
+          "text": "Accounts Receivable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that days sales outstanding (DSO) are calculated as 365 / receivables turnover. We can forecast receivables turnover as forecast annual revenues / forecast average receivables, or we can forecast accounts receivable as DSO ´ (forecast revenues / 365)."
+        },
+        {
+          "type": "heading",
+          "text": "Inventory"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventory days on hand (DOH) are calculated as 365 / inventory turnover. We can forecast inventory turnover as forecast COGS / forecast average inventory, or forecast inventory as DOH ´ (forecast COGS / 365)."
+        },
+        {
+          "type": "heading",
+          "text": "Accounts Payable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Days payable outstanding (DPO) are calculated as 365 / payables turnover. We can forecast payables turnover as forecast annual purchases / forecast annual payables, or we can forecast accounts payable as DPO ´ (forecast COGS / 365)."
+        },
+        {
+          "type": "question",
+          "objectiveId": "45.d",
+          "text": "How can we explain approaches to forecasting a company’s capital investments and capital structure?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forecasting capital investments in tangible and intangible assets requires an analyst to use the cash flow statement to determine acquisitions and dispositions, and the income statement to determine depreciation and amortization expense. For more accurate forecasts, capital expenditures should be divided into two categories: maintenance and growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Historical depreciation is usually the starting point to forecast capital spending for maintenance. An analyst should account for the expected inflation rate when estimating maintenance expenditures because replacement cost can be expected to increase with inflation. Depreciation and amortization can be forecast using net book value of property, plant, and equipment and the estimated useful life of the assets. Forecasting capital expenditures for growth requires an analyst to understand management’s future business and revenue growth strategies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Forecasting a firm’s capital structure is often based on its leverage ratios (e.g., debt to assets, debt to equity). Analysts should note any borrowing requirements caused by planned capital expenditures. Company management may provide information about their target capital structure or any debt covenant ratios with which they must comply."
+        },
+        {
+          "type": "question",
+          "objectiveId": "45.e",
+          "text": "What should we know about the use of scenario analysis in forecasting?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forecast financial statements should not simply rely on a single point estimate for forecast objects such as net income. Instead, an analyst should perform scenario analysis with multiple alternative assumptions to examine the sensitivity of net income to changes in assumptions. Those assumptions could involve changes in the economic environment, competition, and technological changes, for example. The end result is to develop a range of estimates using multiple scenarios."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "45.a",
+      "text": "How can we explain principles and approaches to forecasting a company’s financial results and position?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Key forecast objects include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Drivers of financial statement lines Individual financial statement lines Summary measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ad hoc objects"
+    },
+    {
+      "type": "paragraph",
+      "text": "The following forecast approaches (usually combined) are used for objects:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historical results"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historical base rate and convergence Management guidance Analyst discretionary forecast"
+    },
+    {
+      "type": "paragraph",
+      "text": "The forecast horizon depends on factors such as the portfolio strategy for the security, whether the industry is cyclical and company-specific factors."
+    },
+    {
+      "type": "question",
+      "objectiveId": "45.b",
+      "text": "How can we explain approaches to forecasting a company’s revenues?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Top-down analysis models a company’s sales as a function of economic growth or as a function of market growth and the company’s market share."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bottom-up analysis starts with an individual company or its reportable segments. Examples of bottom-up drivers include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Average selling prices and volumes Product-line or segment revenues"
+    },
+    {
+      "type": "paragraph",
+      "text": "Capacity-based measures Return- or yield-based measures"
+    },
+    {
+      "type": "paragraph",
+      "text": "Nonrecurring items should be analyzed on a stand-alone basis."
+    },
+    {
+      "type": "question",
+      "objectiveId": "45.c",
+      "text": "How can we explain approaches to forecasting a company’s operating expenses and working capital?"
+    },
+    {
+      "type": "paragraph",
+      "text": "COGS and gross margin are usually estimated as a percentage of revenue."
+    },
+    {
+      "type": "paragraph",
+      "text": "The fixed cost component of SG&A expenses is generally larger than its variable cost component and might be modeled using a fixed growth rate. Selling and distribution costs may be more directly related to sales volumes."
+    },
+    {
+      "type": "paragraph",
+      "text": "In forecasting working capital, the following measures are relevant:"
+    },
+    {
+      "type": "paragraph",
+      "text": "forecast accounts receivable = DSO × (forecast revenues / 365)"
+    },
+    {
+      "type": "paragraph",
+      "text": "forecast inventory = DOH × (forecast COGS / 365) forecast accounts payable = DPO × (forecast COGS / 365)"
+    },
+    {
+      "type": "question",
+      "objectiveId": "45.d",
+      "text": "How can we explain approaches to forecasting a company’s capital investments and capital structure?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Historical depreciation is usually the starting point for forecasting capital expenditures for maintenance. Forecasting capital expenditures to grow the firm requires knowledge of the management’s future business and revenue growth strategies."
+    },
+    {
+      "type": "paragraph",
+      "text": "Forecasting the firm’s capital structure may be based on analysis of leverage ratios, while considering any borrowing requirements caused by planned capital expenditures as well as management guidance about its target capital structure."
+    },
+    {
+      "type": "question",
+      "objectiveId": "45.e",
+      "text": "What should we know about the use of scenario analysis in forecasting?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst should perform scenario analysis with multiple alternative assumptions to examine the sensitivity of net income to changes in these assumptions. The result is to develop a range of estimates."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "45.a",
+      "statement": "Explain principles and approaches to forecasting a company’s financial results and position.",
+      "question": "How can we explain principles and approaches to forecasting a company’s financial results and position?"
+    },
+    {
+      "id": "45.b",
+      "statement": "Explain approaches to forecasting a company’s revenues.",
+      "question": "How can we explain approaches to forecasting a company’s revenues?"
+    },
+    {
+      "id": "45.c",
+      "statement": "Explain approaches to forecasting a company’s operating expenses and working capital.",
+      "question": "How can we explain approaches to forecasting a company’s operating expenses and working capital?"
+    },
+    {
+      "id": "45.d",
+      "statement": "Explain approaches to forecasting a company’s capital investments and capital structure.",
+      "question": "How can we explain approaches to forecasting a company’s capital investments and capital structure?"
+    },
+    {
+      "id": "45.e",
+      "statement": "Describe the use of scenario analysis in forecasting.",
+      "question": "What should we know about the use of scenario analysis in forecasting?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-45-quiz-1",
+      "title": "Knowledge check 45.1",
+      "moduleId": "45.1",
+      "questions": [
+        {
+          "id": "r45-q1",
+          "number": 1,
+          "objectiveIds": [
+            "45.a"
+          ],
+          "prompt": "Which approach is most appropriate for an analyst to use to forecast revenues for a company in a highly cyclical industry?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Historical results."
+            },
+            {
+              "id": "B",
+              "text": "Analyst’s discretionary forecast."
+            },
+            {
+              "id": "C",
+              "text": "Historical base rates and convergence."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "An analyst’s discretionary forecast is most frequently used for companies in cyclical industries as well as companies that have few or no peers, those that do not provide management guidance, and those in the midst of a significant business transition. The historical results approach is not appropriate for companies in cyclical industries because a future period is probably going to be at a dissimilar point in the business cycle compared to the current or past period, so the results would not be comparable. The historical base rates and convergence approach is not appropriate for companies in highly cyclical industries because the smooth convergence to a long-term base rate would hide the annual volatility.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An analyst’s discretionary forecast is most frequently used for companies in"
+            },
+            {
+              "type": "paragraph",
+              "text": "cyclical industries as well as companies that have few or no peers, those that do not provide management guidance, and those in the midst of a significant business transition."
+            },
+            {
+              "type": "paragraph",
+              "text": "The historical results approach is not appropriate for companies in cyclical industries because a future period is probably going to be at a dissimilar point in the business cycle compared to the current or past period, so the results would not be comparable. The historical base rates and convergence approach is not appropriate for companies in highly cyclical industries because the smooth convergence to a long-term base rate would hide the annual volatility."
+            }
+          ]
+        },
+        {
+          "id": "r45-q2",
+          "number": 2,
+          "objectiveIds": [
+            "45.a"
+          ],
+          "prompt": "Which of the following items is an example of a summary measure?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Revenue."
+            },
+            {
+              "id": "B",
+              "text": "Free cash flow."
+            },
+            {
+              "id": "C",
+              "text": "Contingent liability."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Free cash flow is an example of a summary measure as it combines several measures into one (e.g., net income, depreciation expense, fixed capital investment). Revenue is an individual financial statement line. A contingent liability (e.g., pending legal proceeding) is an ad hoc object.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Free cash flow is an example of a summary measure as it combines several"
+            },
+            {
+              "type": "paragraph",
+              "text": "measures into one (e.g., net income, depreciation expense, fixed capital investment). Revenue is an individual financial statement line. A contingent liability (e.g., pending legal proceeding) is an ad hoc object."
+            }
+          ]
+        },
+        {
+          "id": "r45-q3",
+          "number": 3,
+          "objectiveIds": [
+            "45.e"
+          ],
+          "prompt": "An analyst is performing scenario analysis for a company’s gross margin. Selected financial data from the current period is provided here: For the next period, input prices are expected to increase by 15% and the analyst expects the company to increase selling prices by 12%, resulting in a 10% decrease in volume sold. The forecast decrease in gross profit margin for the company in the next period is closest to:",
+          "supportingBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{array} {l l} {\\boxed{\\mathrm{Average~selling~price~per~product}}} & {\\sharp10} \\\\ {\\mathrm{Quantity~sold}} & {4.5 \\bmod11 i o n} \\\\ {\\mathrm{Gross~profit~margin}} & {6096} \\\\ \\end{array}",
+              "display": true,
+              "sourceAsset": "d0a070a304a14f0665a4.png"
+            }
+          ],
+          "options": [
+            {
+              "id": "A",
+              "text": "1%."
+            },
+            {
+              "id": "B",
+              "text": "2%."
+            },
+            {
+              "id": "C",
+              "text": "3%."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Forecast average selling price = $10 × 1.12 = $11.20 Forecast quantity sold = 4,500,000 × (1 − 0.10) = 4,050,000 Forecast average input cost = [(45,000,000 × 0.40) / 4,500,000] × 1.15 = $4.60 Forecast total revenues = 4,050,000 × $11.20 = $45,360,000 Forecast gross profit = 4,050,000 × ($11.20 − $4.60) = $26,730,000 Forecast gross profit margin = $26,730,000 / $45,360,000 = 58.92%, which is 1.08% less than 60%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Forecast average selling price = $10 × 1.12 = $11.20"
+            },
+            {
+              "type": "paragraph",
+              "text": "Forecast quantity sold = 4,500,000 × (1 − 0.10) = 4,050,000 Forecast average input cost = [(45,000,000 × 0.40) / 4,500,000] × 1.15 = $4.60 Forecast total revenues = 4,050,000 × $11.20 = $45,360,000 Forecast gross profit = 4,050,000 × ($11.20 − $4.60) = $26,730,000 Forecast gross profit margin = $26,730,000 / $45,360,000 = 58.92%, which is 1.08% less than 60%."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

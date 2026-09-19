@@ -1,0 +1,579 @@
+{
+  "readingId": 17,
+  "title": "International Trade",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "17.1",
+      "title": "International Trade",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "17.a",
+          "text": "What should we know about the benefits and costs of international trade?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Historically, economic models of trade have focused on the gains that result when countries with lower relative cost of (a comparative advantage in) the production of a good specialize in producing that good and export it, importing goods for which other countries have a lower relative cost or production. This increases the total output of goods and the wealth of both countries. Comparative advantage results from differences in technology and resource endowments across countries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Newer models of trade emphasize gains from economies of scale that reduce costs of export goods, an increased variety of goods produced, decreasing costs and improved quality from additional competition, and more efficient allocation of productive resources."
+        },
+        {
+          "type": "paragraph",
+          "text": "Free trade can also benefit consumers by reducing the pricing power of domestic monopolies. Countries that produce the same good can also operate in market of monopolistic competition with differentiated products. Consider the global market for automobiles. Several countries export one type of autos and import other types. Consumers benefit from the greater variety offered, as well as the reduced costs from specialization."
+        },
+        {
+          "type": "paragraph",
+          "text": "While domestic consumers of imported goods and domestic producers of exported goods both gain, international trade imposes costs as well. The most cited costs of free trade are the loss of domestic jobs in an importing industry and increased economic inequality. Consider a country with a comparative advantage in the production of steel that exports to another country with a higher relative cost of steel production. When free trade is permitted, consumers of steel in the importing country gain and workers and producers of steel lose. In the exporting country, increased demand for steel production may increase prices to domestic consumers, while workers and companies in the steel industry will gain, at least in the short run."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a situation where labor costs are lower in the exporting country, free trade can decrease wages and employment in the domestic economy. Consider textile production in a country with a relatively high cost of labor. For a labor-intensive industry such as some textile production, importing textiles from a lower-cost country will result in job and wage losses in the domestic industry, possibly increasing income inequality."
+        },
+        {
+          "type": "paragraph",
+          "text": "When we speak of the gains from trade in general, it is based on economic analysis suggesting that, overall, the gains from trade are greater than the losses—especially in the long run. That is, the gainers could, at least in theory, compensate the losers, with net gains shared by both importing and exporting countries. While free trade surely imposes costs on the workers and companies in an industry facing competition from imports in the short run, it is argued that in the long run—after workers receive additional training and find work in other industries—the short-run costs of free trade are mitigated to some significant degree, or even reversed."
+        },
+        {
+          "type": "question",
+          "objectiveId": "17.b",
+          "text": "How can we compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are many reasons (at least stated reasons) given by governments that impose trade restrictions. Some have support among economists as conceivably valid in terms of increasing a country’s welfare, while others get little or no support from economic theory. Some of the reasons for trade restrictions that have support from economists are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Infant industry. Protection from foreign competition is given to new industries to give them an opportunity to grow to an internationally competitive scale and get up the learning curve in terms of efficient production methods."
+        },
+        {
+          "type": "paragraph",
+          "text": "National security. Even if imports are cheaper, it may be in the country’s best interest to protect producers of goods crucial to the country’s national defense so that those goods are available domestically in the event of conflict."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other arguments for trade restrictions that have little support in theory are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Protecting domestic jobs. While some jobs are certainly lost, and some groups and regions are negatively affected by free trade, other jobs (in export industries or growing domestic goods and services industries) will be created, and prices for domestic consumers will be less without import restrictions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Protecting domestic industries. Industry firms often use political influence to get protection from foreign competition—usually to the detriment of consumers, who pay higher prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other arguments include retaliation for foreign trade restrictions, government collection of tariffs (like taxes on imported goods), countering the effects of government subsidies paid to foreign producers, and preventing foreign exports at less than their cost of production (dumping)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Types of trade restrictions include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tariffs. These are taxes on imported goods collected by the government. Quotas. These are limits on the amount of imports allowed over some period. Export subsidies. These are government payments to firms that export goods."
+        },
+        {
+          "type": "paragraph",
+          "text": "Minimum domestic content. This is the requirement that some percentage of product content must be from the domestic country."
+        },
+        {
+          "type": "paragraph",
+          "text": "Voluntary export restraint. A country voluntarily restricts the amount of a good that can be exported, often in the hope of avoiding tariffs or quotas imposed by its"
+        },
+        {
+          "type": "paragraph",
+          "text": "trading partners."
+        },
+        {
+          "type": "heading",
+          "text": "Economic Implications of Trade Restrictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "We will now examine the effects of the primary types of trade restrictions, tariffs, and subsidies."
+        },
+        {
+          "type": "paragraph",
+          "text": "A tariff placed on an imported good increases its domestic price, decreases the quantity imported, and increases the quantity supplied domestically. Domestic producers gain, foreign exporters lose, and the domestic government gains by the amount of the tariff revenues."
+        },
+        {
+          "type": "paragraph",
+          "text": "A quota restricts the quantity of a good imported to the quota amount. Domestic producers gain, and domestic consumers lose from an increase in the domestic price. The right to export a specific quantity to the domestic country is granted by the domestic government, which may or may not charge for the import licenses to foreign countries. If the import licenses are sold, the domestic government gains the revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "We illustrate the overall welfare effects of quotas and tariffs for a small country in"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 17.1. We define a quota that is equivalent to a given tariff as a quota that will result in the same decrease in the quantity of a good imported as the tariff. Defined this way, a tariff and an equivalent quota both increase the domestic price from Pworld, the price that prevails with no trade restriction, to Pprotection."
+        },
+        {
+          "type": "paragraph",
+          "text": "At Pworld, before any restriction, the domestic quantity supplied is QS1, and the domestic quantity demanded is QD1, with the difference equal to the quantity imported, QD1 − QS1. Placing a tariff on imports increases the domestic price to Pprotection, increases the domestic quantity supplied to QS2, and decreases the domestic quantity demanded to QD2. The difference is the new quantity imported. An equivalent quota will have the same effect, decreasing the quantity imported to QD2 − QS2."
+        },
+        {
+          "type": "paragraph",
+          "text": "The entire shaded area in Figure 17.1 represents the loss of consumer surplus in the domestic economy. The portion with vertical lines, the area to the left of the domestic supply curve between Pprotection and Pworld, represents the gain in the producer surplus of domestic producers. The portion with horizontal lines, the area bounded by QD2 − QS2 and Pprotection − Pworld, represents the gain to the domestic government from tariff revenue. The two remaining triangular areas are the deadweight loss from the restriction on free trade."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 17.1: Effects of Tariffs and Quotas"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/eb4467953a10883923f2.png",
+          "alt": "Equation, table, or diagram: Figure 17.1: Effects of Tariffs and Quotas",
+          "width": 385,
+          "height": 294,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the case of a quota, if the domestic government collects the full value of the import licenses, the result is the same as for a tariff. If the domestic government does not charge for the import licenses, this amount is a gain to those foreign exporters who receive the import licenses under the quota and are termed quota rents."
+        },
+        {
+          "type": "paragraph",
+          "text": "In terms of overall economic gains from trade, the deadweight loss is the amount of lost welfare from the imposition of a quota or tariff. From the viewpoint of the domestic country, the loss in consumer surplus is only partially offset by the gains in domestic producer surplus and the collection of tariff revenue."
+        },
+        {
+          "type": "paragraph",
+          "text": "If none of the quota rents are captured by the domestic government, the overall welfare loss to the domestic economy is greater by the amount of the quota rents. It is the entire difference between the gain in producer surplus and the loss of consumer surplus."
+        },
+        {
+          "type": "paragraph",
+          "text": "A voluntary export restraint (VER) is just as it sounds. It refers to a voluntary agreement by a government to limit the quantity of a good that can be exported. VERs are another way of protecting the domestic producers in the importing country. They result in a welfare loss to the importing country equal to that of an equivalent quota with no government charge for the import licenses—that is, no capture of the quota rents."
+        },
+        {
+          "type": "paragraph",
+          "text": "Export subsidies are payments by a government to its country’s exporters. Export subsidies benefit producers (exporters) of the good but increase prices and reduce consumer surplus in the exporting country. In a small country, the price will increase by the amount of the subsidy to equal the world price plus the subsidy. In the case of a large exporter of the good, the world price decreases and some benefits from the subsidy accrue to foreign consumers, while foreign producers are negatively affected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most of the effects of all four of these protectionist policies are the same. With respect to the domestic (importing) country, import quotas, tariffs, and VERs all do the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Reduce imports Increase price"
+        },
+        {
+          "type": "paragraph",
+          "text": "Decrease consumer surplus Increase domestic quantity supplied"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increase producer surplus"
+        },
+        {
+          "type": "paragraph",
+          "text": "With one exception, all will decrease national welfare. Quotas and tariffs in a large country could increase national welfare under a specific set of assumptions, primarily because for a country that imports a large amount of the good, setting a quota or tariff could reduce the world price for the good."
+        },
+        {
+          "type": "heading",
+          "text": "Capital Restrictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some countries impose capital restrictions on the flow of financial capital across borders. Restrictions include outright prohibition of investment in the domestic country by foreigners, prohibition of or taxes on the income earned on foreign investments by domestic citizens, prohibition of foreign investments in certain domestic industries, and restrictions on repatriation of earnings of foreign entities operating in a country."
+        },
+        {
+          "type": "paragraph",
+          "text": "Overall, capital restrictions are thought to decrease economic welfare. However, over the short term, they have helped developing countries avoid the impact of great inflows of foreign capital during periods of optimistic expansion and the impact of large outflows of foreign capital during periods of correction and market unease, or outright panic. Even these short-term benefits may not offset longer-term costs if the country is excluded from international markets for financial capital flows."
+        },
+        {
+          "type": "question",
+          "objectiveId": "17.c",
+          "text": "How can we explain motivations for and advantages of trading blocs, common markets, and economic unions?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are various types of agreements among countries with respect to trade policy. The essence of all of them is to reduce trade barriers among the countries. Reductions in trade restrictions among countries have some, by now familiar, positive and negative effects on economic welfare. The positive effects result from increased trade according to comparative advantage, as well as increased competition among firms in member countries. The negative effects result because some firms, some industries, and some groups of workers will see their wealth and incomes decrease. Workers in affected industries may need to learn new skills to get new jobs."
+        },
+        {
+          "type": "paragraph",
+          "text": "On balance, economic welfare is improved by reducing or eliminating trade restrictions. Note, however, that to the extent that a trade agreement increases trade restrictions on imports from nonmember countries, economic welfare gains are reduced and, in an extreme case, could be outweighed by the costs such restrictions impose. This could result if restrictions on trade with nonmember countries increase a country’s (unrestricted) imports from a member that has higher prices than the country’s previous imports from a nonmember."
+        },
+        {
+          "type": "paragraph",
+          "text": "We list these types of agreements, generally referred to as trading blocs or regional trading agreements (RTAs), in order of their degrees of integration."
+        },
+        {
+          "type": "heading",
+          "text": "Free Trade Areas"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. All barriers to import and export of goods and services among member countries are"
+        },
+        {
+          "type": "paragraph",
+          "text": "removed."
+        },
+        {
+          "type": "heading",
+          "text": "Customs Union"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. All barriers to import and export of goods and services among member countries are"
+        },
+        {
+          "type": "paragraph",
+          "text": "removed."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. All countries adopt a common set of trade restrictions with nonmembers."
+        },
+        {
+          "type": "heading",
+          "text": "Common Market"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. All barriers to import and export of goods and services among the countries are"
+        },
+        {
+          "type": "paragraph",
+          "text": "removed."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. All countries adopt a common set of trade restrictions with nonmembers.\n3. All barriers to the movement of labor and capital goods among member countries"
+        },
+        {
+          "type": "paragraph",
+          "text": "are removed."
+        },
+        {
+          "type": "heading",
+          "text": "Economic Union"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. All barriers to import and export of goods and services among the countries are"
+        },
+        {
+          "type": "paragraph",
+          "text": "removed."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. All countries adopt a common set of trade restrictions with nonmembers.\n3. All barriers to the movement of labor and capital goods among member countries"
+        },
+        {
+          "type": "paragraph",
+          "text": "are removed."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Member countries establish common institutions and economic policy for the union."
+        },
+        {
+          "type": "heading",
+          "text": "Monetary Union"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. All barriers to import and export of goods and services among the countries are"
+        },
+        {
+          "type": "paragraph",
+          "text": "removed.\n2. All countries adopt a common set of trade restrictions with nonmembers.\n3. All barriers to the movement of labor and capital goods among member countries"
+        },
+        {
+          "type": "paragraph",
+          "text": "are removed.\n4. Member countries establish common institutions and economic policy for the union."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Member countries adopt a single currency."
+        },
+        {
+          "type": "paragraph",
+          "text": "The North American Free Trade Agreement (NAFTA) is an example of a free trade area, the European Union (EU) is an example of an economic union, and the Eurozone is an example of a monetary union."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "17.a",
+      "text": "What should we know about the benefits and costs of international trade?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Free trade among countries increases overall economic welfare. Countries can benefit from trade because one country can specialize in the production of an export good and benefit from economies of scale. Economic welfare can also be increased by greater product variety, more competition, and a more efficient allocation of resources."
+    },
+    {
+      "type": "paragraph",
+      "text": "Costs of free trade are primarily losses to those in domestic industries that lose business to foreign competition, especially less efficient producers who leave an industry. While other domestic industries will benefit from freer trade policies, unemployment may increase over the period in which workers are retrained for jobs in the expanding industries. Some argue that greater income inequality may result, but overall, the gains from liberalization of trade policies are thought to exceed the costs, so that the winners could conceivably compensate the losers and still be better off."
+    },
+    {
+      "type": "question",
+      "objectiveId": "17.b",
+      "text": "How can we compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Types of trade restrictions include the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tariffs. These are taxes on imported goods collected by the government. Quotas. These are limits on the amount of imports allowed over some period. Minimum domestic content. This is the requirement that some percentage of product content must be from the domestic country. Voluntary export restraints. A country voluntarily restricts the amount of a good that can be exported, often in the hope of avoiding tariffs or quotas imposed by their trading partners."
+    },
+    {
+      "type": "paragraph",
+      "text": "Within each importing country, all of these restrictions will tend to do the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Increase prices of imports and decrease quantities of imports"
+    },
+    {
+      "type": "paragraph",
+      "text": "Increase demand for and quantity supplied of domestically produced goods Increase producer’s surplus and decrease consumer surplus"
+    },
+    {
+      "type": "paragraph",
+      "text": "Export subsidies decrease export prices and benefit importing countries at the expense of the government of the exporting country."
+    },
+    {
+      "type": "paragraph",
+      "text": "Restrictions on the flow of financial capital across borders include outright prohibition of investment in the domestic country by foreigners, prohibition of or taxes on the income earned on foreign investments by domestic citizens, prohibition of foreign investments in certain domestic industries, and restrictions on repatriation of earnings of foreign entities operating in a country."
+    },
+    {
+      "type": "question",
+      "objectiveId": "17.c",
+      "text": "How can we explain motivations for and advantages of trading blocs, common markets, and economic unions?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Trade agreements, which increase economic welfare by facilitating trade among member countries, take the following forms:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Free trade area. All barriers to the import and export of goods and services among member countries are removed. Customs union. Member countries also adopt a common set of trade restrictions with nonmembers. Common market. Member countries also remove all barriers to the movement of labor and capital goods among members."
+    },
+    {
+      "type": "paragraph",
+      "text": "Economic union. Member countries also establish common institutions and economic policy for the union."
+    },
+    {
+      "type": "paragraph",
+      "text": "Monetary union. Member countries also adopt a single currency to reduce the cost of cross-border trade."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "17.a",
+      "statement": "Describe the benefits and costs of international trade.",
+      "question": "What should we know about the benefits and costs of international trade?"
+    },
+    {
+      "id": "17.b",
+      "statement": "Compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications.",
+      "question": "How can we compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications?"
+    },
+    {
+      "id": "17.c",
+      "statement": "Explain motivations for and advantages of trading blocs, common markets, and economic unions.",
+      "question": "How can we explain motivations for and advantages of trading blocs, common markets, and economic unions?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-17-quiz-1",
+      "title": "Knowledge check 17.1",
+      "moduleId": "17.1",
+      "questions": [
+        {
+          "id": "r17-q1",
+          "number": 1,
+          "objectiveIds": [
+            "17.a"
+          ],
+          "prompt": "Which of the following effects is most likely to occur in a country that increases its openness to international trade?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Increased prices of consumer goods."
+            },
+            {
+              "id": "B",
+              "text": "Greater specialization in domestic output."
+            },
+            {
+              "id": "C",
+              "text": "Decreased employment in exporting industries."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Openness to international trade increases specialization as production shifts to those products in which domestic producers have a comparative advantage. Greater competition from imports will tend to decrease prices for consumer goods. Increasing international trade is likely to increase profitability and employment in exporting industries, but it may decrease profitability and employment in industries that compete with imported goods.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Openness to international trade increases specialization as production shifts to"
+            },
+            {
+              "type": "paragraph",
+              "text": "those products in which domestic producers have a comparative advantage. Greater competition from imports will tend to decrease prices for consumer goods. Increasing international trade is likely to increase profitability and employment in exporting industries, but it may decrease profitability and employment in industries that compete with imported goods."
+            }
+          ]
+        },
+        {
+          "id": "r17-q2",
+          "number": 2,
+          "objectiveIds": [
+            "17.b"
+          ],
+          "prompt": "An agreement with another country to limit the volume of goods and services sold to them is best described as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "quota."
+            },
+            {
+              "id": "B",
+              "text": "voluntary export restraint."
+            },
+            {
+              "id": "C",
+              "text": "minimum domestic content rule."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Voluntary export restraints are agreements to limit the volume of goods and services exported to another country. Minimum domestic content rules are limitations imposed by a government on its domestic firms. Import quotas are limitations on imports, not on exports.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Voluntary export restraints are agreements to limit the volume of goods and"
+            },
+            {
+              "type": "paragraph",
+              "text": "services exported to another country. Minimum domestic content rules are limitations imposed by a government on its domestic firms. Import quotas are limitations on imports, not on exports."
+            }
+          ]
+        },
+        {
+          "id": "r17-q3",
+          "number": 3,
+          "objectiveIds": [
+            "17.b"
+          ],
+          "prompt": "Which of the following groups would be most likely to suffer losses from the imposition of a tariff on steel imports?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Domestic steel producers."
+            },
+            {
+              "id": "B",
+              "text": "Workers in the domestic auto industry."
+            },
+            {
+              "id": "C",
+              "text": "Workers in the domestic steel industry."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Imposing a tariff on steel imports benefits domestic steel producers and workers by increasing the domestic price of steel and benefits the national government by increasing tax (tariff) revenue. However, the increase in the domestic price of steel would increase costs in industries that use significant amounts of steel, such as the automobile industry. The resulting increase in the price of automobiles reduces the quantity of automobiles demanded, and it ultimately reduces employment in that industry.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Imposing a tariff on steel imports benefits domestic steel producers and workers"
+            },
+            {
+              "type": "paragraph",
+              "text": "by increasing the domestic price of steel and benefits the national government by increasing tax (tariff) revenue. However, the increase in the domestic price of"
+            },
+            {
+              "type": "paragraph",
+              "text": "steel would increase costs in industries that use significant amounts of steel, such as the automobile industry. The resulting increase in the price of automobiles reduces the quantity of automobiles demanded, and it ultimately reduces employment in that industry."
+            }
+          ]
+        },
+        {
+          "id": "r17-q4",
+          "number": 4,
+          "objectiveIds": [
+            "17.c"
+          ],
+          "prompt": "The most likely motivation for establishing a trading bloc is to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "increase economic welfare in the member countries."
+            },
+            {
+              "id": "B",
+              "text": "increase tariff revenue for the member governments."
+            },
+            {
+              "id": "C",
+              "text": "protect domestic industries in the member economies."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The motivation for trading blocs is to increase economic welfare in the member countries by eliminating barriers to trade. Joining a trading bloc may have negative consequences for some domestic industries and may decrease tariff revenue for the government.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The motivation for trading blocs is to increase economic welfare in the member"
+            },
+            {
+              "type": "paragraph",
+              "text": "countries by eliminating barriers to trade. Joining a trading bloc may have negative consequences for some domestic industries and may decrease tariff revenue for the government."
+            }
+          ]
+        },
+        {
+          "id": "r17-q5",
+          "number": 5,
+          "objectiveIds": [
+            "17.c"
+          ],
+          "prompt": "In which type of regional trade agreement are economic policies conducted independently by the member countries, while labor and capital are free to move among member countries?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Free trade area."
+            },
+            {
+              "id": "B",
+              "text": "Common market."
+            },
+            {
+              "id": "C",
+              "text": "Economic union."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "These characteristics describe a common market. In a free trade area, member countries remove restrictions on goods and services and trade with one another but may still restrict movement of labor and capital among member countries. In an economic union, member countries also coordinate their economic policies and institutions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "These characteristics describe a common market. In a free trade area, member"
+            },
+            {
+              "type": "paragraph",
+              "text": "countries remove restrictions on goods and services and trade with one another but may still restrict movement of labor and capital among member countries. In an economic union, member countries also coordinate their economic policies and institutions."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

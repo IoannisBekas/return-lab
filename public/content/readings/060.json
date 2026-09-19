@@ -1,0 +1,793 @@
+{
+  "readingId": 60,
+  "title": "Credit Risk",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "60.1",
+      "title": "Credit Risk",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "60.a",
+          "text": "What should we know about credit risk and its components, probability of default and loss given default?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit risk is the risk associated with losses to fixed income investors stemming from the failure of a borrower to make payment of interest or principal (referred to as to servicing their debt). When a borrower fails to service their debt, they are said to be in default."
+        },
+        {
+          "type": "paragraph",
+          "text": "The key drivers of credit risk are either specific to the borrower (bottom up) or relate to general economic conditions (top down). These are often referred to as the Cs of credit analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bottom-up credit analysis factors are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Capacity. The borrower’s ability to make their debt payments on time. Capital. Other resources available to the borrower that reduce reliance on debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Collateral. The value of assets pledged to provide the lender with security in the event of default. Covenants. The legal terms and conditions the borrowers and lenders agree to as part of a bond issue. Character. The borrower’s integrity (e.g., management for a corporate bond) and their commitment to make payments under their debt obligations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Top-down credit analysis factors are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conditions. The general economic environment that affects all borrowers’ ability to make payments on their debt. Country. The geopolitical environment, legal system, and political system that apply to the debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Currency. Foreign exchange fluctuations and their impact on a borrower’s ability to service foreign-denominated debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "At its core, credit risk stems from the possibility that the borrower’s sources of repayments will not provide enough cash to service their debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sources of repayment for a debt issuer depend on the nature of the borrower and the specifics of the loan or bond issue. Secured corporate debt is backed primarily by"
+        },
+        {
+          "type": "paragraph",
+          "text": "the operating cash flows and investments of the business plus cash flows generated from collateral specifically pledged as security for the debt. Unsecured corporate debt is only backed by the operating cash flows and investments of the issuer (as well as secondary sources of cash flow such as asset sales, divestures of subsidiaries, or additional debt/equity issuance). Credit risk for a corporate issuer may come from poor economic and market conditions, increased competition, low profitability, or having excessive debt levels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sovereign debt is backed by tax revenue, tariffs, and other fees charged by the government issuer. Secondary sources of cash flow include additional debt issuance and sale of public assets (privatizations). Credit risk for a sovereign issuer may stem from poor economic conditions and political uncertainty, fiscal deficits (tax revenue being less than government spending), and high debt levels relative to the size of the economy."
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit analysts should distinguish between an issuer being illiquid, or unable to raise cash to service debt, and being insolvent, where the assets of an issuer fall below the value of its debt. An illiquid issuer may not necessarily be insolvent, but could still default."
+        },
+        {
+          "type": "paragraph",
+          "text": "When default occurs, clauses written into a bond indenture are important. A cross-default clause means that a default on one bond issue causes a default on all issues. A pari passu clause means all bonds of a certain type rank equally in the default process. When pari passu and cross-default provisions exist on unsecured debt, a default on one issue implies that all holders of unsecured claims have access to the general assets of the issuer to satisfy their obligations. For secured debtholders, such clauses mean default on any obligation of the issuer will grant access to the general assets of the company and to the assets pledged as collateral for the debt. Only when the value of the pledged assets falls below the amount of pari passu secured debt will a secured bond investor suffer credit losses."
+        },
+        {
+          "type": "heading",
+          "text": "Measuring Credit Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit risk is measured by assessing the expected loss from a debt investment in the event of default:"
+        },
+        {
+          "type": "paragraph",
+          "text": "expected loss = probability of default × loss given default"
+        },
+        {
+          "type": "paragraph",
+          "text": "Probability of default is the probability that a borrower fails to pay interest or repay principal when due. The probability is typically expressed on an annualized basis. Loss given default is the loss an investor will suffer if the issuer defaults. This can be stated as a monetary amount or as a percentage."
+        },
+        {
+          "type": "paragraph",
+          "text": "A bond’s expected recovery rate is the proportion of a claim an investor will recover if the issuer defaults. The proportion an investor will not recover, or one minus the recovery rate, is known as loss severity."
+        },
+        {
+          "type": "paragraph",
+          "text": "A debt investor’s expected exposure or exposure at default is the difference between the amount the investor is owed (principal and accrued interest) and the value of the collateral available to repay the investor. Loss given default, stated as a percentage, is the product of the expected exposure and the loss severity:"
+        },
+        {
+          "type": "paragraph",
+          "text": "LGD% = expected exposure × (1 – recovery rate)"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Technically, loss given default is defined as a monetary amount, and the loss expressed as a rate is defined as loss severity. However, the Level I curriculum regularly states loss given default as a rate and then uses it as a rate in examples; hence, the definition is slightly loose. Be careful to read what you are given and what you need to calculate. For clarity in these lessons, when we use loss given default as a rate, we will refer to it as LGD%."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use the annualized expected loss (as a percentage) as an estimate of the annualized credit spread over a risk-free benchmark that an investor should demand for facing the credit risk of the investment:"
+        },
+        {
+          "type": "paragraph",
+          "text": "credit spread ≈ probability of default × LGD%"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the actual credit spread of the issue is higher than this estimated credit spread, the investor is more than fairly compensated for the credit risk of the investment. If the actual credit spread of a bond is less than this estimated credit spread, investors are not adequately compensated for credit risk and should avoid investing."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Expected loss and credit spreads"
+        },
+        {
+          "type": "paragraph",
+          "text": "A bond issuer has a 3% probability of default, and one of its bond issues has a recovery rate of 75%. The bond has a 4% coupon and is currently trading at par. A government security of similar maturity yields 2.5%. Assess whether the credit spread of the bond issue is adequately compensating investors for credit risk."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bond is trading at par, so its coupon of 4% is also its yield. The actual credit spread of the bond is, therefore, 4% – 2.5% = 1.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The estimated credit spread for the bond is its probability of default times (1 – recovery rate):"
+        },
+        {
+          "type": "paragraph",
+          "text": "= 0.03 × (1 – 0.75)"
+        },
+        {
+          "type": "paragraph",
+          "text": "= 0.0075, or 0.75%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hence, the bond is providing an actual spread that is double that which is fair, meaning that bond investors are more than adequately compensated for the credit risk of the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "To assess the required returns from credit-risky bonds, an analyst will need to estimate the probability of default for the issuer and the loss given default for the bond issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Probability of default can be assessed through quantitative metrics relating to capacity to repay. For example, a profitable company with high EBIT margin, a high interest coverage ratio (EBIT/interest), low leverage multiples (e.g., debt/EBITDA), and a high ratio of cash flow to net debt would be deemed of high credit quality (low probability of default)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Estimates of loss given default depend on the whether the bond is secured or unsecured, and the level of seniority of the bond issue in the capital structure of the issuer. More senior, secured debt will have lower losses given default than junior, unsecured debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to their financial strength, investment grade issuers have lower probability of default than high-yield issuers. However, high-yield issuers often issue secured debt with a secondary source of repayment in the event of default. As a result, high-yield debt can have lower losses given default than unsecured bonds of an investment grade issuer. The greatest risk to the investors in unsecured investment grade debt is not an increase in loss given default, but an increase in the probability of default due to deterioration in the issuer’s financial situation."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The terms investment grade and high yield are formally defined in terms of credit ratings, which we will describe next."
+        },
+        {
+          "type": "question",
+          "objectiveId": "60.b",
+          "text": "What should we know about the uses of ratings from credit rating agencies and their limitations?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit rating agencies assign forward-looking ratings to both the issuers of bonds and their debt issues, based on qualitative and quantitative credit risk factors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Uses of credit ratings include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparing the credit risk of issuers across industries and bond types, and assessing changing credit conditions over time. Assessing credit migration risk, the risk that a credit rating downgrade will decrease the value of the bonds and potentially trigger other contractual clauses. Meeting regulatory, statutory, or contractual requirements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 60.1 shows ratings scales used by Standard & Poor’s, Moody’s, and Fitch, three of the major credit rating agencies."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 60.1: Credit Rating Categories"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/37d4ab5a7d5be7fee01d.png",
+          "alt": "Equation, table, or diagram: Figure 60.1: Credit Rating Categories",
+          "width": 537,
+          "height": 391,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Triple A (AAA or Aaa) is the highest rating. Bonds with ratings of Baa3/BBB– or higher are considered investment grade. Bonds rated Ba1/BB+ or lower are considered non-investment grade and are often called high-yield bonds or junk bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bonds in default are rated D by Standard & Poor’s and Fitch and are included in Moody’s lowest rating category, C."
+        },
+        {
+          "type": "paragraph",
+          "text": "Relying on ratings from credit rating agencies has some risks:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Credit ratings lag market pricing. Market prices and credit spreads can change much"
+        },
+        {
+          "type": "paragraph",
+          "text": "faster than credit ratings. Additionally, two bonds with the same rating can trade at different yields because credit ratings focus on expected loss, whereas market pricing for distressed debt focuses more on default timing and expected recoveries.\n2. Some risks are difficult to assess. Risks such as litigation, natural disasters,"
+        },
+        {
+          "type": "paragraph",
+          "text": "environmental risks, acquisitions, and equity buybacks using debt are not easily predicted, or captured in credit ratings. Agencies may take different views on the likelihood of such events, leading to split ratings where the same debt issue gets assigned different ratings from different agencies.\n3. Rating agencies are not perfect. Mistakes occur from time to time. Infamously,"
+        },
+        {
+          "type": "paragraph",
+          "text": "subprime mortgage securities were assigned much higher ratings than they deserved in the lead-up to the global financial crisis of 2008–2009. Cases of corporate fraud can also lead to companies with high credit ratings suddenly defaulting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors should also do their own due diligence when assessing credit risk and not rely purely on credit ratings. Investors who trade correctly in anticipation of credit rating"
+        },
+        {
+          "type": "paragraph",
+          "text": "changes will experience far superior performance to those who trade in reaction to rating changes."
+        },
+        {
+          "type": "question",
+          "objectiveId": "60.c",
+          "text": "What should we know about macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit spread risk is the risk that yield spreads widen due to deteriorating conditions, causing credit-risky bond prices to decrease. This is a primary concern for investment grade bond investors because default is unlikely to occur suddenly. A more realistic concern is that spreads widen and prices fall as credit conditions worsen. Credit spread risk arises from macroeconomic, issuer-specific, and market (trading related) factors."
+        },
+        {
+          "type": "heading",
+          "text": "Macroeconomic Factors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit risk changes largely in line with the economic cycle. In times of strong growth and high profits, the probability of default decreases, causing spreads to contract; at times of recession, the probability of default increases, causing spreads to widen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit spreads for high-yield issuers may behave differently than credit spreads for investment grade issuers over a business cycle. Examples of the typical behavior of both are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Investment grade issuers have lower yield spreads than high-yield issuers due to their lower expected loss."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yield spreads usually increase with maturity because the probability of default increases over longer time frames, giving rise to upward-sloping credit spread curves (plots of credit spread vs. maturity). -During economic contractions (recessions), high-yield and investment grade"
+        },
+        {
+          "type": "paragraph",
+          "text": "credit curves rise and flatten as the probability of a near-term default increases. The high-yield credit curve may even invert (turn downward sloping) in this stage of the economic cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "-During economic expansions, high-yield and investment grade credit curves fall"
+        },
+        {
+          "type": "paragraph",
+          "text": "and steepen as the probability of a near-term default decreases. Credit curves will be lowest and most steep at the peak of the cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Across issuers, the dispersion of yield spreads for high-yield issuers is higher than for investment grade issuers. High-yield spreads tend to fluctuate more than investment grade spreads as economic conditions change. High-yield spreads can widen dramatically in times of crisis as investors sell riskier assets and buy safer ones in a flight to quality. Because high-yield issues tend to be less liquid, bid–offer spreads for high-yield debt may widen more than for investment grade debt in times of crisis."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notice that two different kinds of spread are involved here. The yield spread of a bond is the extra return over benchmark risk-free yields. A bid–offer spread is the difference between the prices at which a bond dealer is willing to buy or sell a bond. Pay attention to which spread an exam question is"
+        },
+        {
+          "type": "paragraph",
+          "text": "referring, particularly when the component of yield spread relating to liquidity risk is identified through analyzing the size of bid–offer spreads."
+        },
+        {
+          "type": "paragraph",
+          "text": "It is clear that owning high-yield bonds is riskier than holding investment grade bonds from a credit spread risk perspective because spreads are more volatile for high-yield issuers. The incentive to do so is the greater yield spread offered by high-yield debt. Other incentives for exposure to this higher credit spread risk include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Diversification. High-yield bond prices have low or even negative correlation with investment grade bonds, so they can diversify a fixed-income portfolio. Capital appreciation. The larger spread changes for high-yield issues produce larger price gains during economic recoveries compared to investment grade issues."
+        },
+        {
+          "type": "paragraph",
+          "text": "Equity-like returns. According to some empirical data, high-yield debt offers equity-like returns with lower volatility than equity markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other systematic factors that can drive yield spreads higher include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Increasing regulations of broker-dealers and market makers in corporate bonds have increased the cost of funding bond positions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Funding stresses in markets may increase risk aversion. Heavy new issuance of debt into bond markets might not be met by increased demand."
+        },
+        {
+          "type": "heading",
+          "text": "Issuer-Specific Factors"
+        },
+        {
+          "type": "paragraph",
+          "text": "As noted previously, the financial performance of the issuer will have a significant impact on the yield spread level and volatility on their debt. Investors often compare an issuer’s yield spread to the average yield spread offered by bonds of a similar credit rating to assess issuer-specific concerns. For an issuer with problems servicing its debt, yield spreads will be wider than the average for the issuer’s credit rating."
+        },
+        {
+          "type": "heading",
+          "text": "Market Factors"
+        },
+        {
+          "type": "paragraph",
+          "text": "Market liquidity risk relates to the transaction costs of trading a bond. It can be assessed through analyzing the bid–offer spreads of market makers in a bond. The bid is the price at which investors can sell bonds, while the offer is the price at which investors can buy. A wider bid–offer spread implies higher costs of trading to investors and indicates higher market liquidity risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Generally, issuers with more debt outstanding or with higher credit ratings will have more actively traded bonds (and therefore narrower bid–offer spreads) with less market liquidity risk. Market liquidity risk is higher for less actively traded bonds, for issuers with lower credit quality, and for issuers with less debt outstanding in bond markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bid–offer spreads can widen substantially for high-yield issuers during times of financial stress as market liquidity falls dramatically. This can lead to a general increase in risk aversion, which may cause wider bid–offer spreads to spill over to investment grade issuers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bid–offer spreads of market makers can be used to isolate the component of the yield spread that is due to liquidity risk. This is done by calculating the yield at the bid and offer prices, and assuming this difference is reflected in the yield spread of the bond as compensation for liquidity risk. The remaining component of the yield spread is assumed to be related to the credit risk of the issuer."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Decomposing yield spread into liquidity and credit spreads"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 10-year bond has an annual coupon of 5% and a bid–offer spread of 99.5/100.5. The benchmark 10-year yield is 3%. Decompose the yield spread into liquidity spread and credit spread."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we assess the yield spread of the bond based on the midprice quote, which is the average of the bid and offer prices."
+        },
+        {
+          "type": "paragraph",
+          "text": "midprice quote = (99.5 + 100.5) / 2 = 100"
+        },
+        {
+          "type": "paragraph",
+          "text": "At a price of par, a bond’s yield is its coupon; hence, the bond is yielding 5% at its midprice quote."
+        },
+        {
+          "type": "paragraph",
+          "text": "The yield spread of the bond over the benchmark yield is 5% – 3% = 2%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yield at the bid price:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; PV = –99.5; PMT = 5; FV = 100; CPT→I/Y = 5.065"
+        },
+        {
+          "type": "paragraph",
+          "text": "Yield at the offer price:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; PV = –100.5; PMT = 5; FV = 100; CPT→ I/Y = 4.935"
+        },
+        {
+          "type": "paragraph",
+          "text": "The liquidity spread of the bond is the bid yield minus the offer yield:"
+        },
+        {
+          "type": "paragraph",
+          "text": "liquidity spread = 5.065% – 4.935% = 0.13%"
+        },
+        {
+          "type": "paragraph",
+          "text": "The credit component of the yield spread is therefore 2% – 0.13% = 1.87%."
+        },
+        {
+          "type": "paragraph",
+          "text": "We have seen that the sensitivity of a bond’s price to a change in yield can be estimated using the bond’s duration and convexity. We can also use these measures to estimate the price impact of a change in spread, simply by replacing the yield change (ΔYTM) with the spread change (ΔSpread):"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{change~in~full~price~of~bond}=-\\mathrm{ModDur} \\, ( \\Delta S \\mathrm{pread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta S \\mathrm{pread} )^{2}",
+          "display": true,
+          "sourceAsset": "eed0afd0c52815aa01bc.png"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "60.a",
+      "text": "What should we know about credit risk and its components, probability of default and loss given default?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credit risk refers to the possibility that a borrower fails to make the scheduled interest payments or return of principal."
+    },
+    {
+      "type": "paragraph",
+      "text": "Bottom-up credit analysis factors include capacity, capital, collateral, character, and covenants."
+    },
+    {
+      "type": "paragraph",
+      "text": "Top-down credit analysis factors include country, conditions, and currency."
+    },
+    {
+      "type": "paragraph",
+      "text": "Credit risk is measured through expected loss, which is the product of the probability of default and the loss given default."
+    },
+    {
+      "type": "paragraph",
+      "text": "Expected loss as a percentage is an estimate of the credit spread investors should demand:"
+    },
+    {
+      "type": "paragraph",
+      "text": "credit spread ≈ POD × LGD%"
+    },
+    {
+      "type": "paragraph",
+      "text": "Loss given default expressed as a rate is also called loss severity, and equals one minus the recovery rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "A profitable company with high EBIT margin, high interest coverage ratio, low leverage multiples, and high cash flow to net debt would be deemed of high credit quality with a low probability of default."
+    },
+    {
+      "type": "paragraph",
+      "text": "More senior, secured debt will have a smaller loss given default than junior, unsecured debt."
+    },
+    {
+      "type": "question",
+      "objectiveId": "60.b",
+      "text": "What should we know about the uses of ratings from credit rating agencies and their limitations?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credit ratings reflect a debt issuer or debt issue’s overall creditworthiness and assess the likelihood that debt will be fully paid back."
+    },
+    {
+      "type": "paragraph",
+      "text": "Ratings of BBB-/Baa3 and above are classed as investment grade and of lower credit risk. Ratings of BB+/Ba1 and below are deemed to be non-investment grade (high-yield) and of higher credit risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Investors should not rely exclusively on credit ratings from rating agencies for these reasons:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rating agencies cannot always judge credit risk accurately."
+    },
+    {
+      "type": "paragraph",
+      "text": "Firms are subject to risk of unforeseen events that credit ratings do not reflect. Market prices of bonds often adjust more rapidly than credit ratings."
+    },
+    {
+      "type": "question",
+      "objectiveId": "60.c",
+      "text": "What should we know about macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads?"
+    },
+    {
+      "type": "paragraph",
+      "text": "An issue’s yield spread over its benchmark reflects credit risk and liquidity risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "The level and volatility of yield spreads are affected by the credit and business cycles, availability of capital from broker-dealers, the supply and demand for debt issues, and the financial performance of the bond issuer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Yield spreads tend to narrow when the credit cycle is improving, the economy is expanding, and financial markets and investor demand for new debt issues are strong. Yield spreads tend to widen when the credit cycle, the economy, and financial markets are weakening, and in periods when the supply of new debt issues is heavy or broker-dealer capital is insufficient for market making."
+    },
+    {
+      "type": "paragraph",
+      "text": "The liquidity spread can be estimated as the difference between yields of a bond at bid and offer prices. The remainder of the yield spread is considered credit spread."
+    },
+    {
+      "type": "paragraph",
+      "text": "Given an expected change in spread, duration and convexity can be used to estimate the impact on price:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{change~in~full~price~of~bond}=-\\mathrm{ModDur} \\, ( \\Delta\\mathrm{Spread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta\\mathrm{Spread} )^{2}",
+      "display": true,
+      "sourceAsset": "90931d1cb718faa25f60.png"
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "60.a",
+      "statement": "Describe credit risk and its components, probability of default and loss given default.",
+      "question": "What should we know about credit risk and its components, probability of default and loss given default?"
+    },
+    {
+      "id": "60.b",
+      "statement": "Describe the uses of ratings from credit rating agencies and their limitations.",
+      "question": "What should we know about the uses of ratings from credit rating agencies and their limitations?"
+    },
+    {
+      "id": "60.c",
+      "statement": "Describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads.",
+      "question": "What should we know about macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-60-quiz-1",
+      "title": "Knowledge check 60.1",
+      "moduleId": "60.1",
+      "questions": [
+        {
+          "id": "r60-q1",
+          "number": 1,
+          "objectiveIds": [
+            "60.a"
+          ],
+          "prompt": "The two components of expected loss are:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "default risk and yield spread."
+            },
+            {
+              "id": "B",
+              "text": "probability of default and loss severity."
+            },
+            {
+              "id": "C",
+              "text": "loss severity and yield spread."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Expected loss is composed of probability of default and loss severity. Yield spreads reflect the credit risk of a borrower, but they are a reflection of expected loss rather than a component of it.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Expected loss is composed of probability of default and loss severity. Yield spreads"
+            },
+            {
+              "type": "paragraph",
+              "text": "reflect the credit risk of a borrower, but they are a reflection of expected loss rather than a component of it."
+            }
+          ]
+        },
+        {
+          "id": "r60-q2",
+          "number": 2,
+          "objectiveIds": [
+            "60.a"
+          ],
+          "prompt": "Expected loss can decrease with an increase in a bond’s:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "probability of default."
+            },
+            {
+              "id": "B",
+              "text": "loss severity."
+            },
+            {
+              "id": "C",
+              "text": "recovery rate."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An increase in the recovery rate means that the loss severity has decreased, which decreases expected loss.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An increase in the recovery rate means that the loss severity has decreased, which"
+            },
+            {
+              "type": "paragraph",
+              "text": "decreases expected loss."
+            }
+          ]
+        },
+        {
+          "id": "r60-q3",
+          "number": 3,
+          "objectiveIds": [
+            "60.b"
+          ],
+          "prompt": "Which of the following factors in credit analysis is least likely a top-down factor?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Capital."
+            },
+            {
+              "id": "B",
+              "text": "Conditions."
+            },
+            {
+              "id": "C",
+              "text": "Currency."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Top-down credit analysis factors include country, conditions, and currency. Capital is a bottom-up factor relating to the reliance of the issuer on debt and the availability of other sources of funding.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Top-down credit analysis factors include country, conditions, and currency. Capital"
+            },
+            {
+              "type": "paragraph",
+              "text": "is a bottom-up factor relating to the reliance of the issuer on debt and the availability of other sources of funding."
+            }
+          ]
+        },
+        {
+          "id": "r60-q4",
+          "number": 4,
+          "objectiveIds": [
+            "60.a"
+          ],
+          "prompt": "Higher credit risk is indicated by a higher:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "cash flow/debt ratio."
+            },
+            {
+              "id": "B",
+              "text": "debt/EBITDA ratio."
+            },
+            {
+              "id": "C",
+              "text": "EBITDA/interest expense ratio."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "A higher debt/EBITDA ratio is sign of higher leverage and higher credit risk. Higher cash flow/debt and EBITDA/interest expense ratios indicate lower credit risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A higher debt/EBITDA ratio is sign of higher leverage and higher credit risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "Higher cash flow/debt and EBITDA/interest expense ratios indicate lower credit risk."
+            }
+          ]
+        },
+        {
+          "id": "r60-q5",
+          "number": 5,
+          "objectiveIds": [
+            "60.a"
+          ],
+          "prompt": "Compared to other firms in the same industry, an issuer with a credit rating of AAA is most likely to have a lower:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "cash flow/debt ratio."
+            },
+            {
+              "id": "B",
+              "text": "operating margin."
+            },
+            {
+              "id": "C",
+              "text": "debt/capital ratio."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A low debt/capital ratio is an indicator of low leverage. An issuer rated AAA is likely to have a high operating margin and a high cash flow/debt ratio compared to its industry group.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A low debt/capital ratio is an indicator of low leverage. An issuer rated AAA is"
+            },
+            {
+              "type": "paragraph",
+              "text": "likely to have a high operating margin and a high cash flow/debt ratio compared to its industry group."
+            }
+          ]
+        },
+        {
+          "id": "r60-q6",
+          "number": 6,
+          "objectiveIds": [
+            "60.c"
+          ],
+          "prompt": "Credit spreads tend to widen as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the credit cycle improves."
+            },
+            {
+              "id": "B",
+              "text": "economic conditions worsen."
+            },
+            {
+              "id": "C",
+              "text": "broker-dealers become more willing to provide capital."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Credit spreads widen as economic conditions worsen. Spreads narrow as the credit cycle improves and as broker-dealers provide more capital to bond markets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Credit spreads widen as economic conditions worsen. Spreads narrow as the"
+            },
+            {
+              "type": "paragraph",
+              "text": "credit cycle improves and as broker-dealers provide more capital to bond markets."
+            }
+          ]
+        },
+        {
+          "id": "r60-q7",
+          "number": 7,
+          "objectiveIds": [
+            "60.c"
+          ],
+          "prompt": "Compared to shorter-duration bonds, longer-duration bonds:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "have smaller bid-ask spreads."
+            },
+            {
+              "id": "B",
+              "text": "are less sensitive to credit spreads."
+            },
+            {
+              "id": "C",
+              "text": "have less certainty regarding future creditworthiness."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Longer-duration bonds usually have longer maturities and carry more uncertainty of future creditworthiness.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Longer-duration bonds usually have longer maturities and carry more uncertainty"
+            },
+            {
+              "type": "paragraph",
+              "text": "of future creditworthiness."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "readingId": 48,
+  "title": "Fixed-Income Cash Flows and Types",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "48.1",
+      "title": "Fixed-Income Cash Flows and Types",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "48.a",
+          "text": "What should we know about common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A typical bond has a bullet structure, where principal (par value) is paid back in a single payment at maturity. Periodic payments across the life of the bond (referred to as the bond’s coupons) are purely interest payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a $1,000 par value 5-year bond with an annual coupon rate of 5%, issued at par. With a bullet structure, the bond’s promised payments at the end of each year would be as follows."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l l c c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$50} & {\\$50} & {\\$50} & {\\$50} & {\\$1 , 050} \\\\ {\\mathrm{Principal~remaining}} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$0} \\\\ \\hline{\\mathrm{Principal~remaining}} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "f9e7bcefe95852081235.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "A loan structure in which the periodic payments include both interest and some repayment of principal (the amount borrowed) is called an amortizing loan. If a bond (loan) is fully amortizing, this means the principal is fully paid off when the last periodic payment is made. Typically, automobile loans and home loans are fully amortizing loans. If the 5-year, 5% bond in the previous table had a fully amortizing structure rather than a bullet structure, the payments and remaining principal balance at each year-end would be as follows (final payment reflects rounding of previous payments)."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l l c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$230.97} & {\\$230.97} & {\\$230.97} & {\\$230.97} & {\\$230.98} \\\\ {\\mathrm{Principal~remaining}} & {\\$819.03} & {\\$629.01} & {\\$429.49} & {\\$219.99} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "232af2bfe2ed93b188dd.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This constant PMT can be calculated using a financial calculator:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 5; I/Y = 5; PV = 1,000; FV = 0; CPT → PMT = −230.97"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the constant yearly payment of $230.97, here, is partly interest and partly principal loan repayment. For example, in the first year, the interest component is 0.05 × $1,000 = $50; hence, the principal component is $230.97 − $50 = $180.97. The opening principal balance for the second year is, therefore, $1,000 − $180.97 = $819.03. In"
+        },
+        {
+          "type": "paragraph",
+          "text": "subsequent years, the interest component of the $230.97 will decrease and the proportion relating to principal repayment will increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "A bond can also be structured to be partially amortizing so that there is a repayment of some principal at maturity (referred to as a balloon payment). Unlike a bullet structure, the final payment includes just the remaining unamortized principal amount rather than the full principal amount. In the following table, the final payment includes $200 to repay the remaining principal outstanding."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l l c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$394.78} \\\\ {\\mathrm{Principal~remaining}} & {\\$855.22} & {\\$703.20} & {\\$543.58} & {\\$375.98} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "6c9963b8ad23b6206f52.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This constant PMT can be calculated using a financial calculator:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 5; I/Y = 5; PV = 1,000; FV = −200; CPT → PMT = −194.78"
+        },
+        {
+          "type": "paragraph",
+          "text": "Other types of amortization schedules include sinking fund provisions for bonds and waterfall structures for asset-backed securities (ABSs) and mortgage-backed securities (MBSs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinking fund provisions provide for the repayment of principal through a series of payments over the life of a bond issue. For example, a 20-year issue with a face amount of $300 million may require that the bond trustee redeems $20 million of the principal from investors selected at random every year beginning in the sixth year."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sinking fund provisions offer both advantages and disadvantages to bondholders. On the plus side, bonds with a sinking fund provision have less credit risk because the periodic redemptions reduce the total amount of principal to be repaid at maturity. The presence of a sinking fund, however, can be a disadvantage to bondholders when interest rates fall due to reinvestment risk, which is the possibility of receiving cash flows early and only being able to reinvest them at lower yields."
+        },
+        {
+          "type": "paragraph",
+          "text": "Waterfall structures are used to establish principal repayments to holders of ABSs and MBSs. These structured products can be split into tranches of varying seniority. A common waterfall structure is for junior tranches not to receive any principal payment from the collateral pool until all senior tranches have been fully repaid. Interest payments would still be made to all tranches."
+        },
+        {
+          "type": "paragraph",
+          "text": "There are several coupon structures besides a fixed-coupon structure. We summarize the most important ones here."
+        },
+        {
+          "type": "heading",
+          "text": "Variable Interest Debt"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some bonds pay periodic interest that depends on the prevailing market rate of interest at the time future coupon payments are made. These bonds are called floating-rate notes (FRNs) or floaters. The variable market rate of interest is called the market reference rate (MRR), and an FRN promises to pay the MRR plus some fixed margin (called a credit spread). This added margin is typically expressed in basis points, which are hundredths of 1%. A 120 basis point margin is equivalent to 1.2%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most floaters pay quarterly coupons and are based on a quarterly (90-day) reference rate. As an example, consider an FRN that pays a quarterly interest rate of MRR plus 0.75% (75 basis points). If the annualized MRR in the current quarter is 2.3%, the bond will pay (2.3% + 0.75%)/4 = 0.7625% of its par value at the end of the quarter."
+        },
+        {
+          "type": "heading",
+          "text": "Other Coupon Structures"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step-up coupon bonds are structured so that the coupon rate increases over time according to a predetermined schedule, providing protection to investors against interest rates rising over the life of the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "Coupon changes could also be linked to future potential events. For example, loans to borrowers of lower credit quality (called leveraged loans) often have a coupon that increases if the credit quality of the issuer decreases further. For example, the term sheet of a leveraged loan might specify that the coupon to be paid is MRR + 2.5%; however, should the issuer’s debt/EBITDA ratio rise above 3, then the coupon paid will increase to MRR + 3%. A similar provision is often included in a credit-linked note, whereby the coupon rate increases if the credit rating of the issuer deteriorates (or decreases if the credit rating improves)."
+        },
+        {
+          "type": "paragraph",
+          "text": "A payment-in-kind (PIK) bond allows the issuer to make the coupon payments by increasing the principal amount of the outstanding bonds, essentially paying bond interest with more bonds. Firms that issue PIK bonds typically do so because they anticipate that firm cash flows may be less than required to service the debt, often because of high levels of debt financing (leverage). These bonds typically have higher yields because of the lower perceived credit quality implied by expected cash flow shortfalls, or simply because of the high leverage of the issuing firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "More recently, green bonds have been issued whereby the coupon paid increases if certain environmental goals (for example CO2 emissions reduction) are not met by the issuer over a specified time frame."
+        },
+        {
+          "type": "paragraph",
+          "text": "An index-linked bond has coupon payments or a principal value that is based on a specified published index. Inflation-linked bonds (also called linkers) are the most common type of index-linked bonds, which increase their cash flows in line with a specified inflation index, such as the Consumer Price Index (CPI) in the United States, to protect the real value of the cash flows promised to investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The different structures of inflation-indexed bonds include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest-indexed bonds. The coupon rate is adjusted for inflation, while the principal value remains unchanged. This means the principal value of the debt is not inflation-protected."
+        },
+        {
+          "type": "paragraph",
+          "text": "Capital-indexed bonds. This is the most common structure. An example is U.S. Treasury Inflation-Protected Securities (TIPS). The coupon rate remains constant, but the principal value is increased by the rate of inflation, or decreased by deflation. In the case of deflation, TIPS investors receive the maximum of inflation-adjusted principal or the unindexed par amount at maturity."
+        },
+        {
+          "type": "paragraph",
+          "text": "To better understand the structure of capital-indexed bonds, consider a bond with a par value of $1,000 at issuance, a 3% annual coupon rate paid semiannually, and a provision that the principal value will be adjusted for inflation (or deflation). If, six months after issuance, the reported inflation has been 1% over the period, the principal value of the bonds is increased by 1% from $1,000 to $1,010, and the six-month coupon is calculated as 1.5% of the adjusted principal value of $1,010 (i.e., $1,010 × 1.5% = $15.15)."
+        },
+        {
+          "type": "paragraph",
+          "text": "With this structure, we can view the coupon rate of 3% as a real rate of interest. Unexpected inflation will not decrease the purchasing power of the coupon interest payments, and the principal value paid at maturity will have approximately the same purchasing power as the $1,000 par value did at bond issuance. Thus, investors are fully protected against inflation over the life of the bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zero-coupon bonds are the simplest form of fixed-income instrument, offering only a single payment of par at maturity. These bonds are popular with investors that wish to minimize reinvestment risk. With no periodic coupon, zero-coupon bonds must trade below par to offer investors a positive return."
+        },
+        {
+          "type": "paragraph",
+          "text": "With a deferred coupon bond, regular coupon payments do not begin until a specified time after issuance. These bonds may be appropriate financing for issuers with a low credit rating or with a large project that will not be completed and generating revenue for some period after bond issuance. Zero-coupon bonds can be considered the most extreme type of deferred coupon bond—and, like zero-coupon bonds, deferred coupon bonds often trade below par to provide investors with the yields they demand."
+        },
+        {
+          "type": "heading",
+          "text": "Fixed-Income Contingency Provisions"
+        },
+        {
+          "type": "paragraph",
+          "text": "A contingency provision in a contract describes an action that may be taken if an event (the contingency) actually occurs. Contingency provisions in bond indentures are referred to as embedded options—embedded in the sense that they are an integral part of the bond contract and are not a separate security. Some embedded options are exercisable at the option of the issuer of the bond, so they are valuable to the issuer; others are exercisable at the option of the purchaser of the bond, so they have value to the bondholder."
+        },
+        {
+          "type": "paragraph",
+          "text": "We will discuss three types of bonds with embedded options here: callable bonds, putable bonds, and convertible bonds. Bonds that do not have contingency provisions are referred to as straight bonds or option-free bonds."
+        },
+        {
+          "type": "heading",
+          "text": "Callable Bonds"
+        },
+        {
+          "type": "paragraph",
+          "text": "A callable bond gives the issuer the right, but not the obligation, to redeem (through buying bonds back from investors before maturity) all or part of a bond issue at a predetermined fixed price (known as a call price)."
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example of a call provision, consider a 6% 20-year bond issued at par on June 1, 2022, for which the indenture includes the following call schedule:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bonds can be redeemed by the issuer at 102% of par after June 1, 2027. The bonds can be redeemed by the issuer at 101% of par after June 1, 2030."
+        },
+        {
+          "type": "paragraph",
+          "text": "The bonds can be redeemed by the issuer at 100% of par after June 1, 2032."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the 5-year period from the issue date until June 2027, the bond is not callable; hence, we say the bond has five years of call protection."
+        },
+        {
+          "type": "paragraph",
+          "text": "June 1, 2027, is referred to as the first call date (the start of the call period where the bond can be called by the issuer) and the call price is 102 (102% of par value) between that date and June 2030. The call price declines to 101 (101% of par) after June 1, 2030. After, June 1, 2032, the bond is callable at par."
+        },
+        {
+          "type": "paragraph",
+          "text": "A call option has value to the issuer because it gives the issuer the right to redeem the bond early and issue a new bond (borrow) if the market yield on the bond declines. This could occur either because interest rates in general have decreased, or because the credit quality of the bond has increased (default risk has decreased)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a situation where the market yield on the 6% 20-year bond has declined from 6% at issuance to 4% on June 1, 2027 (the first call date). If the bond did not have a call option, it would trade at approximately $1,224. With a call price of 102, the issuer can redeem the bonds at $1,020 each and borrow that amount at the current market yield of 4%, reducing the annual interest payment from $60 per bond to $40.80."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is analogous to refinancing a home mortgage when mortgage rates fall to reduce the monthly payments."
+        },
+        {
+          "type": "paragraph",
+          "text": "The issuer holding the call option creates call risk for the bondholder. Call risk relates to the fact that bondholders face an uncertain redemption date. For a bond that is in its call period, the call price will put an upper limit on the value of the bond in the market. Due to call risk, bondholders will demand a higher yield and will pay a lower price for a callable bond than they would for an otherwise equivalent straight bond. The difference in price between a callable bond and an otherwise identical noncallable bond is equal to the value of the call option to the issuer."
+        },
+        {
+          "type": "heading",
+          "text": "Putable Bonds"
+        },
+        {
+          "type": "paragraph",
+          "text": "A putable bond gives the bondholder the right to sell the bond back to the issuing company at a prespecified price, typically par. Bondholders are likely to exercise such a put option when the price of the bond is less than the put price because interest rates have risen or the credit quality of the issuer has fallen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike a callable bond, the embedded option for a putable bond has value to the bondholder because the choice of whether to exercise the option is the bondholder’s. For this reason, a putable bond will sell at a higher price (offer a lower yield) than an otherwise equivalent straight bond. The difference in price between an otherwise identical straight bond and a putable bond is equal to the value of the put option to the bondholder."
+        },
+        {
+          "type": "heading",
+          "text": "Convertible Bonds"
+        },
+        {
+          "type": "paragraph",
+          "text": "Convertible bonds give bondholders the option to exchange the bond for a specific number of shares of the issuing corporation’s common stock. This gives bondholders the opportunity to profit from increases in the value of the common shares. Because the"
+        },
+        {
+          "type": "paragraph",
+          "text": "conversion option is valuable to bondholders, convertible bonds can be issued with higher prices (and, therefore, lower yields, which is an advantage to the issuer) compared to otherwise identical straight bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some terms related to convertible bonds are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Conversion price. This is the par amount per share at which the bond may be converted to common stock. Conversion ratio. This is equal to the par value of the bond divided by the conversion price. If a bond with a $1,000 par value has a conversion price of $40, its conversion ratio is 1,000 / 40 = 25 shares per bond. Conversion value. This is the market value of the shares that would be received upon conversion. A bond with a conversion ratio of 25 shares when the current market price of a common share is $50 would have a conversion value of 25 × $50 = $1,250."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Valuation of convertible bonds is addressed in the Level II CFA curriculum."
+        },
+        {
+          "type": "heading",
+          "text": "Warrants"
+        },
+        {
+          "type": "paragraph",
+          "text": "An alternative way to give bondholders an opportunity for additional returns when the firm’s common shares increase in value is to attach warrants to straight bonds when they are issued. Warrants give their holders the right to buy the firm’s common shares at a fixed price over a given period. As an example, warrants that give their holders the right to buy shares for $40 will have value if the common shares increase in value above $40 before the warrants expire. Warrants can be detached from the bond issue and traded on securities exchanges."
+        },
+        {
+          "type": "heading",
+          "text": "Contingent Convertible Bonds"
+        },
+        {
+          "type": "paragraph",
+          "text": "Contingent convertible bonds (referred to as CoCos) are bonds that convert from debt to common equity automatically if a specific event occurs. This type of bond has been issued by some European banks. Banks must maintain specific levels of equity financing. If a bank’s equity falls below the required level, they must somehow raise more equity financing to comply with regulations. CoCos are often structured so that if the bank’s equity capital falls below a given level, they are automatically converted to common stock. This has the effect of decreasing the bank’s debt liabilities and increasing its equity capital at the same time, which helps the bank to meet its minimum equity requirement."
+        },
+        {
+          "type": "question",
+          "objectiveId": "48.b",
+          "text": "What should we know about how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bonds are subject to different legal and regulatory requirements that depend on where they are issued and traded. Bonds of issuers domiciled in the same country as the market in which the bonds are issued and traded are referred to as domestic bonds. Bonds of issuers from countries other than the market in which the bond trades are referred to as foreign bonds. For example, a U.K. company raising U.S. dollars to expand"
+        },
+        {
+          "type": "paragraph",
+          "text": "their U.S. operations by issuing bonds that trade in the United States is a foreign bond issuance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eurobonds are issued outside the jurisdiction of any one country and can be issued in any currency. They are subject to less regulation than domestic bonds in most jurisdictions and were initially introduced to avoid U.S. regulations. Eurobonds should not be confused with bonds denominated in euros or thought to originate in Europe, although they can be both. Eurobonds got the “euro” name because they were first introduced in Europe, and most are still traded by firms in European capitals. A bond issued by a Chinese firm that is denominated in yen and traded in markets outside Japan would fit the definition of a Eurobond (it would be referred to as a Euroyen bond). Eurobonds that trade in at least one domestic bond market and in the Eurobond market are referred to as global bonds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Eurobonds are referred to by the currency they are denominated in. Eurodollar bonds are denominated in U.S. dollars, and Euroyen bonds are denominated in yen. At one time, most Eurobonds were issued in bearer bond form. Ownership of bearer bonds was not officially recorded by the issuer; hence, ownership was evidenced simply by possessing the bonds. Today Eurobonds, like most other bonds, are issued as registered bonds with a record of ownership."
+        },
+        {
+          "type": "paragraph",
+          "text": "Foreign bonds, global bonds, and Eurobonds that involve more than one country are often collectively referred to as international bonds to distinguish them from domestic bonds, which involve only a single country."
+        },
+        {
+          "type": "paragraph",
+          "text": "While domestic and international bonds are subject to varying laws and regulations in different jurisdictions and have different conventions relating to coupon frequency and calculation methods, the factor that is likely to best describe differences in yields across different markets is the currency of the bond. This is because the interest rates that determine the bond’s yield will be driven by the market interest rates of the country in whose currency the bond is denominated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sukuk bonds are Sharia-compliant bonds with specific restrictions on the payment of interest and use of the proceeds of the bond issue to comply with Islamic law. The periodic payments on these bonds are considered to be cash flows from rent on underlying assets."
+        },
+        {
+          "type": "heading",
+          "text": "Taxation of Bond Income"
+        },
+        {
+          "type": "paragraph",
+          "text": "Most often, the interest income paid to bondholders is taxed as ordinary income at the same rate as wage and salary income. The interest income from bonds issued by municipal governments in the United States, however, is most often exempt from national income tax and often from state income tax in the state of issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a bondholder sells a coupon bond before maturity, it may be at a gain or a loss (relative to its “constant-yield price trajectory,” which we describe in a later reading). Such gains and losses are considered capital gains income rather than ordinary taxable income. Capital gains are often taxed at a lower rate than ordinary income. Capital gains on the sale of an asset that has been owned for more than some minimum amount of time may be classified as long-term capital gains and taxed at an even lower rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Zero-coupon bonds and other bonds sold at significant discounts to par when issued are termed original issue discount (OID) bonds. Because the gains over an OID bond’s tenor as its price moves toward par value are really interest income, these bonds can generate a tax liability even when no cash interest payment has been made. In many tax jurisdictions, a portion of the discount from par at issuance is treated as taxable interest income each year."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some tax jurisdictions provide a symmetric treatment for bonds issued at a premium to par, allowing part of the premium to be used to reduce the taxable portion of coupon interest payments."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "48.a",
+      "text": "What should we know about common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A bond with a bullet structure pays coupon interest periodically and repays the entire principal value at maturity, along with the final coupon interest payment."
+    },
+    {
+      "type": "paragraph",
+      "text": "A bond with an amortizing structure repays part of its principal at each payment date. A fully amortizing structure makes equal payments throughout the bond’s life. A partially amortizing structure has a balloon payment at maturity, which repays the remaining principal as a lump sum."
+    },
+    {
+      "type": "paragraph",
+      "text": "A sinking fund provision requires the issuer to retire a portion of a bond issue at specified times during the bond’s life."
+    },
+    {
+      "type": "paragraph",
+      "text": "Floating-rate notes have coupon rates that adjust based on a variable market reference rate. Other coupon structures include step-up coupon notes, credit-linked coupon bonds, payment-in-kind bonds, deferred coupon bonds, and index-linked bonds."
+    },
+    {
+      "type": "paragraph",
+      "text": "Callable bonds allow the issuer to redeem bonds at a specified call price."
+    },
+    {
+      "type": "paragraph",
+      "text": "Putable bonds allow the bondholder to sell bonds back to the issuer at a specified put price."
+    },
+    {
+      "type": "paragraph",
+      "text": "Convertible bonds allow the bondholder to exchange bonds for a specified number of shares of the issuer’s common stock."
+    },
+    {
+      "type": "paragraph",
+      "text": "Embedded options benefit the party who has the right to exercise them. Embedded call options benefit the issuer, while embedded put and conversion options benefit the bondholder."
+    },
+    {
+      "type": "question",
+      "objectiveId": "48.b",
+      "text": "What should we know about how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Legal and regulatory matters that affect fixed-income securities vary by the places where they are issued and traded, and the location of the issuing entities."
+    },
+    {
+      "type": "paragraph",
+      "text": "Domestic bonds trade in the issuer’s home country and currency. Foreign bonds are from foreign issuers but denominated in the currency of the country where they trade. Eurobonds are issued outside the jurisdiction of any single country and can be issued in any currency. Global bonds are traded in the Eurobond market and at least one domestic market."
+    },
+    {
+      "type": "paragraph",
+      "text": "Interest income is typically taxed at the same rate as ordinary income, while gains or losses from selling a bond are taxed at the capital gains tax rate. However, the increase in value toward par of original issue discount bonds is considered interest income. In the United States, interest income from municipal bonds is usually tax exempt at the national level and in the issuer’s state."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "48.a",
+      "statement": "Describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors.",
+      "question": "What should we know about common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors?"
+    },
+    {
+      "id": "48.b",
+      "statement": "Describe how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities.",
+      "question": "What should we know about how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-48-quiz-1",
+      "title": "Knowledge check 48.1",
+      "moduleId": "48.1",
+      "questions": [
+        {
+          "id": "r48-q1",
+          "number": 1,
+          "objectiveIds": [
+            "48.a"
+          ],
+          "prompt": "Compared to a fully amortizing loan, an equivalent loan with a balloon payment will most likely have:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lower regular periodic payments and a higher final payment amount."
+            },
+            {
+              "id": "B",
+              "text": "higher regular periodic payments and a lower final payment amount."
+            },
+            {
+              "id": "C",
+              "text": "lower regular periodic payments and a lower final payment amount."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "A balloon payment in a loan schedule is a partial payment of principal that is made at the end of the loan’s life. Compared to an otherwise equivalent fully amortizing loan, the existence of the balloon payment will lead to lower periodic payments over the life of the loan because the borrower has to repay less principal before maturity. There will be a higher final payment, however, at maturity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A balloon payment in a loan schedule is a partial payment of principal that is"
+            },
+            {
+              "type": "paragraph",
+              "text": "made at the end of the loan’s life. Compared to an otherwise equivalent fully amortizing loan, the existence of the balloon payment will lead to lower periodic payments over the life of the loan because the borrower has to repay less principal before maturity. There will be a higher final payment, however, at maturity."
+            }
+          ]
+        },
+        {
+          "id": "r48-q2",
+          "number": 2,
+          "objectiveIds": [
+            "48.a"
+          ],
+          "prompt": "With which of the following features of a corporate bond issue does an investor most likely face the risk of redemption before maturity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Floating-rate notes."
+            },
+            {
+              "id": "B",
+              "text": "Sinking fund."
+            },
+            {
+              "id": "C",
+              "text": "Term maturity structure."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "With a sinking fund, the issuer must redeem part of the issue before maturity, but the specific bonds to be redeemed are not known. Floating-rate notes have an unknown future coupon because it relates to a variable market reference rate; however, they have a known maturity date. In an issue with a term maturity structure, all the bonds are scheduled to mature on the same date.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "With a sinking fund, the issuer must redeem part of the issue before maturity, but"
+            },
+            {
+              "type": "paragraph",
+              "text": "the specific bonds to be redeemed are not known. Floating-rate notes have an unknown future coupon because it relates to a variable market reference rate; however, they have a known maturity date. In an issue with a term maturity structure, all the bonds are scheduled to mature on the same date."
+            }
+          ]
+        },
+        {
+          "id": "r48-q3",
+          "number": 3,
+          "objectiveIds": [
+            "48.a"
+          ],
+          "prompt": "A 10-year bond pays no interest for three years, then pays $229.25, followed by payments of $35 semiannually for seven years, and an additional $1,000 at maturity. This bond is most likely a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "step-up bond."
+            },
+            {
+              "id": "B",
+              "text": "zero-coupon bond."
+            },
+            {
+              "id": "C",
+              "text": "deferred coupon bond."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "This pattern describes a deferred-coupon bond. The first payment of $229.25 is the value of the accrued coupon payments for the first three years.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This pattern describes a deferred-coupon bond. The first payment of $229.25 is the"
+            },
+            {
+              "type": "paragraph",
+              "text": "value of the accrued coupon payments for the first three years."
+            }
+          ]
+        },
+        {
+          "id": "r48-q4",
+          "number": 4,
+          "objectiveIds": [
+            "48.a"
+          ],
+          "prompt": "Which of the following most accurately describes the maximum price for a currently callable bond?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Its par value."
+            },
+            {
+              "id": "B",
+              "text": "The call price."
+            },
+            {
+              "id": "C",
+              "text": "The present value of its par value."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If the price of the bond increases above the call price stipulated in the bond indenture, it will benefit the issuer to call the bond. Theoretically, the price of a currently callable bond should never rise above its call price.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the price of the bond increases above the call price stipulated in the bond"
+            },
+            {
+              "type": "paragraph",
+              "text": "indenture, it will benefit the issuer to call the bond. Theoretically, the price of a currently callable bond should never rise above its call price."
+            }
+          ]
+        },
+        {
+          "id": "r48-q5",
+          "number": 5,
+          "objectiveIds": [
+            "48.b"
+          ],
+          "prompt": "An investor buys a pure-discount bond, holds it to maturity, and receives its par value. For tax purposes, the increase in the bond’s value is most likely to be treated as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a capital gain."
+            },
+            {
+              "id": "B",
+              "text": "interest income."
+            },
+            {
+              "id": "C",
+              "text": "tax-exempt income."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Tax authorities typically treat the increase in value of a pure-discount bond toward par as interest income to the bondholder. In many jurisdictions, this interest income is taxed periodically during the life of the bond, even though the bondholder does not receive any cash until maturity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Tax authorities typically treat the increase in value of a pure-discount bond"
+            },
+            {
+              "type": "paragraph",
+              "text": "toward par as interest income to the bondholder. In many jurisdictions, this interest income is taxed periodically during the life of the bond, even though the bondholder does not receive any cash until maturity."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

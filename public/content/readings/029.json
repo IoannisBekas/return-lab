@@ -1,0 +1,747 @@
+{
+  "readingId": 29,
+  "title": "Analyzing Balance Sheets",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "29.1",
+      "title": "Intangible Assets and Marketable Securities",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "29.a",
+          "text": "How can we explain the financial reporting and disclosures related to intangible assets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Intangible assets are nonmonetary assets that lack physical substance. Securities are not considered intangible assets. Intangible assets are either identifiable or unidentifiable. Identifiable intangible assets can be acquired separately or are the result of rights or privileges conveyed to their owner. Examples of identifiable intangibles are patents, trademarks, and copyrights. Unidentifiable intangible assets cannot be acquired separately and may have an unlimited life. The best example of an unidentifiable intangible asset is goodwill."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under International Financial Reporting Standards (IFRS), identifiable intangibles that are purchased can be reported on the balance sheet using the cost model or the revaluation model, although the revaluation model can only be used if an active market for the intangible asset exists. Both models are basically the same as the measurement models used for property, plant, and equipment. Under U.S. GAAP, only the cost model is allowed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Except for certain legal costs, intangible assets that are created internally, such as research and development costs, are expensed as incurred under U.S. GAAP. Under IFRS, a firm must identify the research stage (discovery of new scientific or technical knowledge) and the development stage (using research results to plan or design products). The firm must expense costs incurred during the research stage but can capitalize costs incurred during the development stage. Criteria a project must meet for the firm to capitalize development costs include the following: the project is technically feasible, the resources exist to complete the project, a market exists for the product, and the company has the intention and resources to complete the project and sell the product."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finite-lived intangible assets are amortized over their useful lives and tested for impairment in the same way as PP&E. The firm must review its amortization method and useful life estimates at least annually. Intangible assets with indefinite lives are not amortized, but they are tested for impairment at least annually."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS and U.S. GAAP, all of the following should be expensed as incurred:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Start-up and training costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Administrative overhead Advertising and promotion costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Relocation and reorganization costs Termination costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some analysts choose to eliminate intangible assets when they evaluate balance sheets. However, analysts should consider the value to the firm of each intangible asset before making any adjustments."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Measuring intangible assets"
+        },
+        {
+          "type": "paragraph",
+          "text": "The R&D department of Lowe S.A. worked on two projects during the year:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Project 1 aims to develop hydrogen fuel cells for motor vehicles. The company has not yet developed a working prototype propulsion unit, but it believes if successful, in the long run it could revolutionize the motor industry by producing environmentally clean vehicles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Project 2 is to develop a new type of catalytic converter, which would remove more particulates from exhaust fumes than those currently available. The company has developed a working prototype and is now working on a commercial version of the product. Lowe believes the demand from auto manufacturers would be high and has the resources to develop and launch the product."
+        },
+        {
+          "type": "heading",
+          "text": "R&D Department Period Costs"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {c c c} \\hline{} & {\\qquad\\qquad} & {\\mathrm{Project~1}} & {\\mathrm{Project~2}} \\\\ {} & {} & {\\varepsilon_{\\bf m}} & {\\varepsilon_{\\bf m}} \\\\ \\hline{\\begin{array} {c} {\\mathrm{Materials}} \\\\ {\\mathrm{Direct~labor}} \\\\ \\end{array}} & {\\qquad} & {\\begin{array} {c} {\\mathrm{150}} \\\\ {\\mathrm{80}} \\\\ \\end{array}} & {120} \\\\ {\\mathrm{Direct~labor}} & {\\qquad} & {80} & {60} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {{\\mathrm{Production~overhead} \\qquad}} & {{40 \\qquad}} & {{30}} \\\\ {{\\mathrm{Administrative~overhead} \\qquad}} & {{30 \\qquad}} & {{30}} \\end{array}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "559b6b263200a1cb15ae.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "What costs will be capitalized, and what costs should be expensed, if Lowe reports under IFRS?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Project 1: This project is not yet technically feasible, so is still in the research phase. Under IFRS and U.S. GAAP, Lowe should expense all costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Project 2: The existence of a working prototype suggests the project is technically feasible and that the project is in the development phase. The company has the resources and intention to complete the project and believes there would be high customer demand when launched. Under IFRS, the development costs should be capitalized while U.S. GAAP would require expensing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Costs to be capitalized = materials + direct labor + production overhead (120 + 60 + 30) = €210 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "Administrative costs are expensed as incurred."
+        },
+        {
+          "type": "question",
+          "objectiveId": "29.b",
+          "text": "How can we explain the financial reporting and disclosures related to goodwill?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Balance sheet goodwill results from acquiring another business. Goodwill is the amount by which the purchase price is greater than the fair value of the acquired company’s identifiable net assets (assets minus liabilities)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acquirers are often willing to pay more than the fair value of a target’s identifiable net assets because the target may have assets that are not reported on its balance sheet. For example, the target’s reputation and customer loyalty certainly have value, but that value is not quantifiable. Also, the target may have research and development assets that remain off the balance sheet because of accounting standards. Finally, part of the acquisition price may reflect perceived synergies from the business combination. For example, the acquirer may be able to eliminate duplicate facilities and reduce payroll after the acquisition."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Occasionally, the purchase price of an acquisition is less than fair value of the identifiable net assets. In this case, the difference is immediately recognized as a gain in the acquirer’s income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Goodwill is only created in a purchase acquisition. Internally generated goodwill is expensed as incurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because it is an intangible asset with indefinite life, goodwill is not amortized but must be tested for impairment at least annually. If goodwill is impaired, the company decreases its value and recognizes a loss in the income statement. The impairment loss does not affect cash flow. Goodwill impairment suggests an acquired business is now worth less than the price the company paid to acquire it, because the company has reduced its estimate of the future excess returns the acquired business is expected to generate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acquiring firms might try to take advantage of the fact that goodwill is not amortized, manipulating net income upward by allocating more of an acquisition price to goodwill and less to the identifiable assets, especially when fair value is subjective. Lower-valued identifiable assets result in less future depreciation and amortization expense, and therefore higher net income."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting goodwill should not be confused with economic goodwill. Economic goodwill derives from the expected future performance of the firm, while accounting goodwill is the result of past acquisitions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some analysts believe goodwill represents the present value of excess returns that the acquired company is expected to contribute, and so it is a legitimate asset. Other analysts believe goodwill is not a genuine asset because it cannot be sold separately and might result from simply overpaying for an acquired company. Examining impairments of goodwill can be a way to judge how successful companies’ past acquisitions have been."
+        },
+        {
+          "type": "paragraph",
+          "text": "To improve comparability when computing ratios, analysts should eliminate goodwill from balance sheets and goodwill impairment charges from income statements. Also, analysts should evaluate future acquisitions in terms of the price paid relative to the earning power of the acquired assets."
+        },
+        {
+          "type": "question",
+          "objectiveId": "29.c",
+          "text": "How can we explain the financial reporting and disclosures related to financial instruments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial instruments are contracts that give rise to both a financial asset of one entity and a financial liability or equity instrument of another entity.¹ Financial instruments can be found on the asset side and the liability side of the balance sheet. Financial instruments held as assets include investment securities (stocks and bonds), derivatives, loans, and receivables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting standards require some financial instruments to be measured at historical cost, some at amortized cost, and some at fair value. Financial assets measured at cost include unquoted equity investments (for which fair value cannot be reliably measured) and loans to and notes receivable from other entities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, debt securities acquired with the intent to hold them until they mature are classified as held-to-maturity securities and measured at amortized cost. Amortized cost is equal to the original issue price minus any principal payments, plus any amortized discount or minus any amortized premium, minus any impairment losses. Subsequent changes in market value are ignored."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial assets measured at fair value, also known as mark-to-market accounting, include trading securities, available-for-sale securities, and derivatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Trading securities (also known as held-for-trading securities) are debt securities acquired with the intent to sell them in the near term. Trading securities are reported on the balance sheet at fair value, with unrealized gains and losses (changes in market value before the securities are sold) recognized in the income statement. All equity securities holdings with quoted market prices (except those that give a company significant influence over a firm) are treated this way. Unrealized gains and losses are also known as holding period gains and losses. Derivative instruments are treated the same as trading securities."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting for equity investments when the share owner has significant influence or control over a firm is addressed at Level II."
+        },
+        {
+          "type": "paragraph",
+          "text": "Available-for-sale securities are debt securities that are not expected to be held to maturity or traded in the near term. Like trading securities, available-for-sale securities are reported on the balance sheet at fair value. However, any unrealized gains and losses are not recognized in the income statement, but are reported in other comprehensive income as a part of shareholders’ equity."
+        },
+        {
+          "type": "paragraph",
+          "text": "For all financial securities, dividend and interest income and realized gains and losses (actual gains or losses when the securities are sold) are recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 29.1 summarizes the different classifications and measurement bases of financial assets under U.S. GAAP."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 29.1: Financial Asset Measurement Bases—U.S. GAAP"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cf5e031ad1339fbb7d29.png",
+          "alt": "Equation, table, or diagram: Figure 29.1: Financial Asset Measurement Bases—U.S. GAAP",
+          "width": 535,
+          "height": 125,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Classification of investment securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Triple D Corporation, a U.S. GAAP reporting firm, purchased a 6% bond, at par, for $1 million at the beginning of the year. Interest rates have recently increased, and the market value of the bond declined $20,000. Determine the bond’s effect on Triple D’s financial statements under each classification of securities."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the bond is classified as a held-to-maturity security, the bond is reported on the balance sheet at $1,000,000. Interest income of $60,000 [$1,000,000 × 6%] is reported in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the bond is classified as a trading security, the bond is reported on the balance sheet at $980,000. The $20,000 unrealized loss and $60,000 of interest income are both recognized in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the bond is classified as an available-for-sale security, the bond is reported on the balance sheet at $980,000. Interest income of $60,000 is recognized in the income statement. The $20,000 unrealized loss is reported as part of other comprehensive income."
+        },
+        {
+          "type": "heading",
+          "text": "IFRS Treatment of Marketable Securities"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, the three classifications of investment securities are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Securities measured at amortized cost (corresponds to the treatment of held-to-‐"
+        },
+        {
+          "type": "paragraph",
+          "text": "maturity securities under U.S. GAAP): IFRS requires that cash flows are solely interest and principal and that the business model is to hold the security to maturity.\n2. Securities measured at fair value through other comprehensive income (corresponds"
+        },
+        {
+          "type": "paragraph",
+          "text": "to the treatment of available-for-sale securities under U.S. GAAP)\n3. Securities measured at fair value through profit and loss (corresponds to the"
+        },
+        {
+          "type": "paragraph",
+          "text": "treatment of trading securities under U.S. GAAP)"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the three different treatments are essentially the same as those used under U.S. GAAP, there are significant differences in how securities are classified under IFRS and U.S. GAAP. Similarities and differences are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under both IFRS and U.S. GAAP, loans, notes receivable, debt securities that a firm intends to hold until maturity, and unlisted securities for which fair value cannot be reliably determined, are all measured at (amortized) historical cost. Under IFRS, debt securities for which a firm intends to collect interest payments but also to sell the securities are measured at fair value through other comprehensive income. This is similar to the treatment of available-for-sale securities under U.S. GAAP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS, firms may make an irrevocable choice at the time of purchase to account for equity securities as measured at fair value through other comprehensive income. Equity securities cannot be classified as available-for-sale under U.S. GAAP. Under IFRS, financial assets that do not fit either of the other two classifications are measured at fair value through profit and loss (unrealized gains and losses reported on the income statement). Under IFRS, firms can make an irrevocable choice to carry any financial asset at fair value through profit and loss. This choice is not available under U.S. GAAP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 29.2 summarizes the different classifications of financial assets under IFRS."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 29.2: Financial Asset Classifications—IFRS"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/a7eb4c02415f7140eec5.png",
+          "alt": "Equation, table, or diagram: Figure 29.2: Financial Asset Classifications—IFRS",
+          "width": 535,
+          "height": 303,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "29.d",
+          "text": "How can we explain the financial reporting and disclosures related to non-current liabilities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-term financial liabilities include bank loans, notes payable, bonds payable, and some derivatives. If the financial liabilities are not issued at face value, the liabilities are usually reported on the balance sheet at amortized cost. If the issuance value differs from face value, any premium or discount is amortized through interest expense over the life of the liability. Amortized cost at any point in the liability’s life is equal to the issue price minus any principal payments, plus any amortized discount or minus any"
+        },
+        {
+          "type": "paragraph",
+          "text": "amortized premium. Amortizing premiums and discounts causes the balance sheet liability to move toward face value at maturity of the liability."
+        },
+        {
+          "type": "paragraph",
+          "text": "In some cases, financial liabilities are reported at fair value. Examples include held-for-trading liabilities such as a short position in a stock (which may be classified as a short-term liability), derivative liabilities, and nonderivative liabilities with exposures hedged by derivatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Deferred tax liabilities are income taxes payable in future periods as a result of timing differences between financial accounting and tax accounting. Deferred tax liabilities are created when the amount of income tax expense recognized in the income statement is greater than taxes payable using tax accounting. This can occur when expenses or losses are tax deductible before they are recognized in the income statement. A common example is when a firm uses an accelerated depreciation method for tax purposes and the straight-line method for financial reporting. Deferred tax liabilities are also created when revenues or gains are recognized in the income statement before they are taxable. For example, a firm often recognizes the earnings of a subsidiary before any distributions (dividends) are made. Eventually, deferred tax liabilities will reverse when the taxes are paid."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We explain deferred tax items in more detail in our reading on Analysis of Income Taxes."
+        }
+      ]
+    },
+    {
+      "id": "29.2",
+      "title": "Common-Size Balance Sheets",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "29.e",
+          "text": "How do we calculate and interpret common-size balance sheets and related financial ratios?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A vertical common-size balance sheet expresses each item of the balance sheet as a percentage of total assets. The common-size format standardizes the balance sheet by eliminating the effects of size. This allows for comparison over time (time-series analysis) and across firms (cross-sectional analysis)."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Common-size balance sheets"
+        },
+        {
+          "type": "paragraph",
+          "text": "The following are the balance sheets of industry competitors East Company (East) and West Company (West)."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/f036f2265f279b7b9f27.png",
+          "alt": "Equation, table, or diagram: The following are the balance sheets of industry competitors East Company (East) and West Company (West).",
+          "width": 299,
+          "height": 321,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Convert each balance sheet to a vertical common-size balance sheet and interpret the results."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "East is obviously the larger company. By converting the balance sheets to common-size format, we can eliminate the size effect."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5f069797e6e810c80e3f.png",
+          "alt": "Equation, table, or diagram: East is obviously the larger company. By converting the balance sheets to common-size format, we can eliminate the size effect.",
+          "width": 271,
+          "height": 321,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "East’s investment in current assets of 25% of total assets is slightly higher than West’s current assets of 23%. However, East’s current liabilities of 22% of total assets are significantly higher than West’s current liabilities of 7%. Thus, East is less liquid and may have more difficulty paying its current obligations when due. However, West’s superior working capital position may not be an efficient use of resources. The investment returns on working capital are usually lower than the returns on long-term assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "A closer look at current assets reveals that East reports less cash as a percentage of assets than West. In fact, East does not have enough cash to satisfy its current liabilities without selling more inventory and collecting receivables. East’s inventories of 12% of total assets are higher than West’s inventories of 6%. Carrying higher inventories may be an indication of inventory obsolescence. Further analysis of inventory is necessary."
+        },
+        {
+          "type": "paragraph",
+          "text": "Not only are East’s current liabilities higher than West’s, but East’s long-term debt of 58% of total assets is much greater than West’s long-term debt of 33%. Thus, East may have trouble satisfying its long-term obligations because its capital structure consists of more debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Common-size analysis can also be used to examine a firm’s strategies. East appears to be growing through acquisitions because it is reporting goodwill. West is growing internally because no goodwill is reported. It could be that East is financing the acquisitions with debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "The percentages on a common-size balance sheet are examples of balance sheet ratios, which compare one balance sheet item to another balance sheet item (total assets in this case). Balance sheet ratios, along with common-size analysis, can be used to evaluate a firm’s liquidity and solvency. The results can be compared over time and across firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Liquidity ratios measure the firm’s ability to satisfy its short-term obligations as they come due. Liquidity ratios include the current ratio, the quick ratio, and the cash ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{cash~ratio}={\\frac{\\operatorname{c a s h}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "47eabfa9f40215ebb4a3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although all three ratios measure a firm’s ability to pay current liabilities, they should be considered collectively. For example, assume Firm A has a higher current ratio but a lower quick ratio than Firm B. This must result from Firm A having higher inventory than Firm B, because the quick ratio (also known as the acid-test ratio) excludes inventory from current assets. Similar analysis can be performed by comparing the quick ratio to the cash ratio, which excludes inventory and receivables."
+        },
+        {
+          "type": "paragraph",
+          "text": "Solvency ratios measure a firm’s ability to satisfy its long-term obligations. Solvency ratios include the long-term debt-to-equity ratio, the total debt-to-equity ratio, the debt ratio, and the financial leverage ratio:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Long-term debt-to-equity ratio}=\\frac{\\text{long-term debt}}{\\text{total equity}}\\\\\n\\text{Total debt-to-equity ratio}=\\frac{\\text{total debt}}{\\text{total equity}},\\quad\n\\text{Debt ratio}=\\frac{\\text{total debt}}{\\text{total assets}},\\quad\n\\text{Financial leverage ratio}=\\frac{\\text{total assets}}{\\text{total equity}}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "28d231b3b675e55a5237.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "All four ratios measure solvency, but they should be considered collectively. For example, Firm A might have a higher long-term debt-to-equity ratio but a lower total debt-to-equity ratio as compared to Firm B. This would indicate that Firm B is using more short-term debt to finance itself."
+        },
+        {
+          "type": "paragraph",
+          "text": "When calculating solvency ratios, debt is typically considered to be any interest-bearing obligation. The financial leverage ratio captures the impact of all interest-bearing and non-interest-bearing obligations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts must understand the limitations of balance sheet ratio analysis:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparisons with peer firms are limited by differences in accounting standards and estimates. Ratios might not be comparable for firms that operate in different industries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Interpretation of ratios requires significant judgment. Balance sheet data are only measured at a single point in time."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "29.a",
+      "text": "How can we explain the financial reporting and disclosures related to intangible assets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Intangible assets created internally are expensed as incurred. Purchased intangibles with finite lives are treated in a way similar to tangible assets. Purchased intangibles with indefinite lives are not amortized but must be tested for impairment periodically."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, research costs are expensed as incurred and development costs are capitalized if certain criteria are satisfied. Both research and development costs are expensed under U.S. GAAP."
+    },
+    {
+      "type": "question",
+      "objectiveId": "29.b",
+      "text": "How can we explain the financial reporting and disclosures related to goodwill?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Goodwill is the excess of purchase price over the fair value of identifiable net assets in a business acquisition. Goodwill is not amortized, but must be tested for impairment at least annually."
+    },
+    {
+      "type": "question",
+      "objectiveId": "29.c",
+      "text": "How can we explain the financial reporting and disclosures related to financial instruments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, debt securities acquired with the intent to hold them to maturity are measured at amortized cost. Debt securities acquired with the intent to collect interest payments but sell before maturity are measured at fair value through other comprehensive income. Debt securities acquired with the intent to sell them in the near term, as well as equity securities and derivatives, are measured at fair value through profit and loss."
+    },
+    {
+      "type": "paragraph",
+      "text": "IFRS permits firms to elect, irrevocably at the time of purchase, to measure equity securities at fair value through other comprehensive income, or any security at fair value through profit and loss."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under U.S. GAAP, held-to-maturity securities are reported at amortized cost. Trading securities, available-for-sale securities, and derivatives are reported at fair value. For trading securities and derivatives, unrealized gains and losses are recognized in the income statement. Unrealized gains and losses for available-for-sale securities are reported in equity (other comprehensive income). Equity securities cannot be classified as available-for-sale."
+    },
+    {
+      "type": "question",
+      "objectiveId": "29.d",
+      "text": "How can we explain the financial reporting and disclosures related to non-current liabilities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Financial liabilities that are not issued at face value are reported at amortized cost. The liability will move toward par value at maturity as the premium or discount (relative to par) is amortized. Held-for-trading liabilities and derivative liabilities are reported at fair value."
+    },
+    {
+      "type": "paragraph",
+      "text": "Deferred tax liabilities result from temporary timing differences between a firm’s tax reporting and its financial reporting."
+    },
+    {
+      "type": "question",
+      "objectiveId": "29.e",
+      "text": "How do we calculate and interpret common-size balance sheets and related financial ratios?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A vertical common-size balance sheet expresses each item of the balance sheet as a percentage of total assets. The common-size format standardizes the balance sheet by eliminating the effects of size. This allows for comparison over time (time-series analysis) and across firms (cross-sectional analysis)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Balance sheet ratios, along with common-size analysis, can be used to evaluate a firm’s liquidity and solvency. Liquidity ratios measure the firm’s ability to satisfy its short-term obligations as they come due. Liquidity ratios include the current ratio, the quick ratio, and the cash ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Solvency ratios measure the firm’s ability to satisfy its long-term obligations. Solvency ratios include the long-term debt-to-equity ratio, the total debt-to-equity ratio, the debt ratio, and the financial leverage ratio."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "29.a",
+      "statement": "Explain the financial reporting and disclosures related to intangible assets.",
+      "question": "How can we explain the financial reporting and disclosures related to intangible assets?"
+    },
+    {
+      "id": "29.b",
+      "statement": "Explain the financial reporting and disclosures related to goodwill.",
+      "question": "How can we explain the financial reporting and disclosures related to goodwill?"
+    },
+    {
+      "id": "29.c",
+      "statement": "Explain the financial reporting and disclosures related to financial instruments.",
+      "question": "How can we explain the financial reporting and disclosures related to financial instruments?"
+    },
+    {
+      "id": "29.d",
+      "statement": "Explain the financial reporting and disclosures related to non-current liabilities.",
+      "question": "How can we explain the financial reporting and disclosures related to non-current liabilities?"
+    },
+    {
+      "id": "29.e",
+      "statement": "Calculate and interpret common-size balance sheets and related financial ratios.",
+      "question": "How do we calculate and interpret common-size balance sheets and related financial ratios?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-29-quiz-1",
+      "title": "Knowledge check 29.1",
+      "moduleId": "29.1",
+      "questions": [
+        {
+          "id": "r29-q1",
+          "number": 1,
+          "objectiveIds": [
+            "29.a"
+          ],
+          "prompt": "For a company reporting under IFRS, product development costs:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "must always be capitalized."
+            },
+            {
+              "id": "B",
+              "text": "may be capitalized."
+            },
+            {
+              "id": "C",
+              "text": "must be expensed."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Product development costs may be capitalized under IFRS if certain criteria are met (e.g., the company has identified a customer base, has sufficient resources to complete the product, and intends to sell the product). U.S. GAAP requires all product development expenditure to be expensed.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Product development costs may be capitalized under IFRS if certain criteria are"
+            },
+            {
+              "type": "paragraph",
+              "text": "met (e.g., the company has identified a customer base, has sufficient resources to complete the product, and intends to sell the product). U.S. GAAP requires all product development expenditure to be expensed."
+            }
+          ]
+        },
+        {
+          "id": "r29-q2",
+          "number": 2,
+          "objectiveIds": [
+            "29.a"
+          ],
+          "prompt": "The SF Corporation has created employee goodwill by reorganizing its retirement benefit package. An independent management consultant estimated the value of the goodwill at $2 million. In addition, SF recently purchased a patent that was developed by a competitor. The patent has an estimated useful life of five years. Should SF report the goodwill and patent on its balance sheet?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Report the goodwill, but not the patent."
+            },
+            {
+              "id": "B",
+              "text": "Report the patent, but not the goodwill."
+            },
+            {
+              "id": "C",
+              "text": "Report neither the goodwill nor the patent."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Goodwill developed internally is expensed as incurred. The purchased patent is reported on the balance sheet.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Goodwill developed internally is expensed as incurred. The purchased patent is"
+            },
+            {
+              "type": "paragraph",
+              "text": "reported on the balance sheet."
+            }
+          ]
+        },
+        {
+          "id": "r29-q3",
+          "number": 3,
+          "objectiveIds": [
+            "29.a"
+          ],
+          "prompt": "At the beginning of the year, the Parent Company purchased all 500,000 shares of Sub, Inc. for $15 per share. Just before the acquisition date, Sub’s balance sheet reported net assets of $6 million. Parent determined the fair value of Sub’s property and equipment was $1 million higher than reported by Sub. What amount of goodwill should Parent report as a result of its acquisition of Sub?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$0."
+            },
+            {
+              "id": "B",
+              "text": "$500,000."
+            },
+            {
+              "id": "C",
+              "text": "$1,500,000."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The purchase price of $7,500,000 ($15 per share × 500,000 shares) − fair value of net assets of $7,000,000 ($6,000,000 book value + $1,000,000 increase in property and equipment) = goodwill of $500,000.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The purchase price of $7,500,000 ($15 per share × 500,000 shares) − fair value of"
+            },
+            {
+              "type": "paragraph",
+              "text": "net assets of $7,000,000 ($6,000,000 book value + $1,000,000 increase in property and equipment) = goodwill of $500,000."
+            }
+          ]
+        },
+        {
+          "id": "r29-q4",
+          "number": 4,
+          "objectiveIds": [
+            "29.b"
+          ],
+          "prompt": "At the beginning of the year, Company P purchased $80,000 face value of Company S corporate bonds for $77,000. Company P intends to hold these bonds for several years but sell them before they mature. At the end of the year, the market value of the bonds was $75,000. What amount should Company P report on its balance sheet at year-end for the investment in Company S bonds?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$75,000."
+            },
+            {
+              "id": "B",
+              "text": "$77,000."
+            },
+            {
+              "id": "C",
+              "text": "$80,000."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Debt securities acquired with the intent to sell before maturity are reported on the balance sheet at their fair values.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Debt securities acquired with the intent to sell before maturity are reported on the"
+            },
+            {
+              "type": "paragraph",
+              "text": "balance sheet at their fair values."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-29-quiz-2",
+      "title": "Knowledge check 29.2",
+      "moduleId": "29.2",
+      "questions": [
+        {
+          "id": "r29-q5",
+          "number": 1,
+          "objectiveIds": [
+            "29.e"
+          ],
+          "prompt": "A vertical common-size balance sheet expresses each category of the balance sheet as a percentage of:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "assets."
+            },
+            {
+              "id": "B",
+              "text": "equity."
+            },
+            {
+              "id": "C",
+              "text": "revenue."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Each category of the balance sheet is expressed as a percentage of total assets.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Each category of the balance sheet is expressed as a percentage of total assets."
+            }
+          ]
+        },
+        {
+          "id": "r29-q6",
+          "number": 2,
+          "objectiveIds": [
+            "29.e"
+          ],
+          "prompt": "Which of the following ratios are used to measure a firm’s liquidity and solvency?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Liquidity: current ratio; solvency: quick ratio."
+            },
+            {
+              "id": "B",
+              "text": "Liquidity: debt-to-equity ratio; solvency: financial leverage ratio."
+            },
+            {
+              "id": "C",
+              "text": "Liquidity: cash ratio; solvency: total debt ratio."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The current ratio, quick ratio, and cash ratio measure liquidity. The debt-to-equity, the total debt ratio, and the financial leverage ratio measure solvency.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The current ratio, quick ratio, and cash ratio measure liquidity. The debt-to-equity,"
+            },
+            {
+              "type": "paragraph",
+              "text": "the total debt ratio, and the financial leverage ratio measure solvency."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

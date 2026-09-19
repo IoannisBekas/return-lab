@@ -1,0 +1,229 @@
+{
+  "readingId": 71,
+  "title": "Pricing and Valuation of Futures Contracts",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "71.1",
+      "title": "Futures Valuation",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "71.a",
+          "text": "How can we compare the value and price of forward and futures contracts?"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the price of a forward contract is constant over its life when no mark-to-market gains or losses are paid, its value will fluctuate with changes in the value of the underlying. The payment at settlement of the forward reflects the difference between the (unchanged) forward price and the spot price of the underlying."
+        },
+        {
+          "type": "paragraph",
+          "text": "The price and value of a futures contract both change when daily mark-to-market gains and losses are settled. Consider a futures contract on 100 ounces of gold at $1,870 purchased on Day 0. The following illustrates the changes in contract price and value with daily mark-to-market payments."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l l l} {{\\mathrm{Day~0} \\qquad}} & {{\\mathrm{Price=settlement~price~of~1,870} \\qquad}} & {{\\mathrm{MTM~value=~0~}}} \\\\ {{}} & {{}} & {{}} \\\\ {\\mathrm{Day~1} \\qquad} & {{\\mathrm{Settlement~price=1,875} \\qquad}} & {{}} & {{\\mathrm{MTM~value=8500~}}} \\\\ {{}} & {{}} & {{\\mathrm{S500~addition~to~margin~account} \\qquad}} & {{}} \\end{array}\\\\[6pt]\\begin{array} {l l l} {\\mathrm{~Day~2~}} & {\\mathrm{~Settlement~price}=1 , 875} & {\\mathrm{~MTM~value}=0} \\\\ {\\mathrm{Day~2~}} & {\\mathrm{~Settlement~price}=1 , 855} & {\\mathrm{~MTM~value}=-82 , 000} \\\\ {\\mathrm{S2,000~deduction~from~margin~account}} & {} \\\\ \\end{array}\\\\[6pt]\\mathrm{~New~futures~price}=1 , 855 \\, \\quad\\quad\\quad\\quad\\quad\\quad\\quad\\mathrm{~MTM~value}=0\\end{gathered}",
+          "display": true,
+          "sourceAsset": "2fe33f96124c0fbd1e18.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The change in the futures price to the settlement price each day returns its value to zero. Prices of forward contracts for which mark-to-market gains and losses are settled daily will also be adjusted to the settlement price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Interest rate futures contracts are available on many market reference rates. We may view these as exchange-traded equivalents to forward rate agreements. One key difference is that interest rate futures are quoted on a price basis. For a market reference rate from time A to time B, an interest rate futures price is stated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "futures price = 100 – (100 × MRRA, B–A)"
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, if the futures price for a 6-month rate six months from now is 97, then MRR6m, 6m = 3%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Like other futures contracts, interest rate futures are subject to daily mark-to-market. The basis point value (BPV) of an interest rate futures contract is defined as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "BPV = notional principal × period × 0.01%"
+        },
+        {
+          "type": "paragraph",
+          "text": "If the contract in our example is based on notional principal of €1,000,000, its BPV is €1,000,000 × (0.0001 / 2) = €50. This means a one basis point change in the MRR will change the futures contract value by €50."
+        },
+        {
+          "type": "question",
+          "objectiveId": "71.b",
+          "text": "How can we explain why forward and futures prices differ?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For pricing, the most important distinction between futures and forwards is that with futures, mark-to market gains and losses are paid each day. Gains above initial margin can be withdrawn from a futures account and losses that reduce margin deposits below their maintenance level require payments into the account. Forwards most often have no mark-to-market cash flows, with gains or losses settled at contract expiration. Forwards typically do not require or provide funds in response to fluctuations in value during their lives."
+        },
+        {
+          "type": "paragraph",
+          "text": "If interest rates are constant or uncorrelated with futures prices over time, the prices of futures and forwards are the same. A positive correlation between interest rates and the futures price means that (for a long position) daily settlement provides funds (excess margin) when rates are high and they can earn more interest, and requires funds (margin deposits) when rates are low and opportunity cost of deposited funds is less. Because of this, futures are theoretically more attractive than forwards when interest rates and futures prices are positively correlated, and less attractive than forwards when interest rates and futures prices are negatively correlated."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because of the short maturity of most forwards and the availability of funds at near risk-free rates, differences between equivalent forwards and futures are not observed in practice. Additionally, derivative dealers in some markets with central clearing are required to post margin and may require derivative investors to post mark-to-market margin payments as well."
+        },
+        {
+          "type": "paragraph",
+          "text": "A separate issue arises for interest rate forwards and futures settlement payments. Recall that the payoff on an interest rate forward is the present value (at the beginning of the forward period) of any interest savings (at the end of the forward period) from the difference between the realized MRR and the forward MRR. Because the realized MRR is the discount rate for calculating the payment for a given amount of future interest savings, the payment for an increase in the MRR will be less than the payment for an equal decrease in the MRR, as the following example will illustrate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a $1 million interest rate future on a 6-month MRR priced at 97.50 (an MRR of 2.5%) that settles six months from now. Each basis point change in the (annualized) MRR will change the value of the contract by 0.0001 × 6/12 × $1 million = $50. If the MRR at settlement is either 2.51% or 2.49%, the payoff on the future at the end of one year is either $50 higher or $50 lower than when the MRR at settlement is 2.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compare this result with the payoffs for an otherwise equivalent forward, F6m6m, priced at 2.5%."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the MRR at settlement is 2.51%, the long receives 50/(1 + 0.0251/2) = $49.3803."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the MRR at settlement is 2.49%, the long must pay 50/(1 + 0.0249/2) = $49.3852."
+        },
+        {
+          "type": "paragraph",
+          "text": "The value of the forwards exhibit convexity. An increase in rates decreases the forward’s value by less than a decrease in the interest rate increases the forward’s value, just as we saw with bonds. Also just as with bonds, the convexity effect for the value of forwards increases for longer periods. The convexity of forwards is termed convexity bias and forwards and futures prices can be significantly different for longer-term interest rates."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "71.a",
+      "text": "How can we compare the value and price of forward and futures contracts?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For a forward contract on which no mark-to-market gains or losses are paid, the forward price is constant over its life, but the contract’s value will fluctuate with changes in the value of the underlying."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a futures contract, the price and value both change when daily mark-to-market gains and losses are settled. The change in the futures price to the settlement price each day returns its value to zero."
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike forward rate agreements, interest rate futures are quoted on a price basis:"
+    },
+    {
+      "type": "paragraph",
+      "text": "futures price = 100 – (100 × MRRA, B–A)"
+    },
+    {
+      "type": "question",
+      "objectiveId": "71.b",
+      "text": "How can we explain why forward and futures prices differ?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because gains and losses on futures contracts are settled daily, prices of forwards and futures that have the same terms may be different if interest rates are correlated with futures prices. Futures are more valuable than forwards when interest rates and futures prices are positively correlated and less valuable when they are negatively correlated. If interest rates are constant or uncorrelated with futures prices, the prices of futures and forwards are the same."
+    },
+    {
+      "type": "paragraph",
+      "text": "Convexity bias can result in price differences between interest rate futures contracts and otherwise equivalent forward rate agreements."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "71.a",
+      "statement": "Compare the value and price of forward and futures contracts.",
+      "question": "How can we compare the value and price of forward and futures contracts?"
+    },
+    {
+      "id": "71.b",
+      "statement": "Explain why forward and futures prices differ.",
+      "question": "How can we explain why forward and futures prices differ?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-71-quiz-1",
+      "title": "Knowledge check 71.1",
+      "moduleId": "71.1",
+      "questions": [
+        {
+          "id": "r71-q1",
+          "number": 1,
+          "objectiveIds": [
+            "71.a"
+          ],
+          "prompt": "For a forward contract on an asset that has no costs or benefits from holding it to have zero value at initiation, the arbitrage-free forward price must equal the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "expected future spot price."
+            },
+            {
+              "id": "B",
+              "text": "future value of the current spot price."
+            },
+            {
+              "id": "C",
+              "text": "present value of the expected future spot price."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "For an asset with no holding costs or benefits, the forward price must equal the future value of the current spot price, compounded at the risk-free rate over the term of the forward contract, for the contract to have a value of zero at initiation. Otherwise an arbitrage opportunity would exist.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For an asset with no holding costs or benefits, the forward price must equal the"
+            },
+            {
+              "type": "paragraph",
+              "text": "future value of the current spot price, compounded at the risk-free rate over the term of the forward contract, for the contract to have a value of zero at initiation. Otherwise an arbitrage opportunity would exist."
+            }
+          ]
+        },
+        {
+          "id": "r71-q2",
+          "number": 2,
+          "objectiveIds": [
+            "71.b"
+          ],
+          "prompt": "For a futures contract to be more attractive than an otherwise equivalent forward contract, interest rates must be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "uncorrelated with futures prices."
+            },
+            {
+              "id": "B",
+              "text": "positively correlated with futures prices."
+            },
+            {
+              "id": "C",
+              "text": "negatively correlated with futures prices."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If interest rates are positively correlated with futures prices, interest earned on cash from daily settlement gains on futures contracts will be greater than the opportunity cost of interest on daily settlement losses, and a futures contract is more attractive than an otherwise equivalent forward contract that does not feature daily settlement.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If interest rates are positively correlated with futures prices, interest earned on"
+            },
+            {
+              "type": "paragraph",
+              "text": "cash from daily settlement gains on futures contracts will be greater than the opportunity cost of interest on daily settlement losses, and a futures contract is more attractive than an otherwise equivalent forward contract that does not feature daily settlement."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,787 @@
+{
+  "readingId": 42,
+  "title": "Overview of Equity Securities",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "42.1",
+      "title": "Types of Equity Investments",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "42.a",
+          "text": "What should we know about characteristics of types of equity securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Common shares are the most common form of equity and represent an ownership interest. Common shareholders have a residual claim (after the claims of debtholders and preferred stockholders) on firm assets if the firm is liquidated and govern the corporation through voting rights. Firms are under no obligation to pay dividends on common equity; the firm determines what dividend will be paid periodically. Common stockholders are able to vote for the board of directors, on merger decisions, and on the selection of auditors. If they are unable to attend the annual meeting, shareholders can vote by proxy (having someone else vote as they direct them, on their behalf)."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a statutory voting system, each share held is assigned one vote in the election of each member of the board of directors. Under cumulative voting, shareholders can allocate their votes to one or more candidates as they choose. For example, consider a situation where a shareholder has 100 shares and three directors will be elected. Under statutory voting, the shareholder can vote 100 shares for his director choice in each election. Under cumulative voting, the shareholder has 300 votes, which can be cast for a single candidate or spread across multiple candidates. The three receiving the greatest number of votes are elected. Cumulative voting makes it possible for a minority shareholder to have more proportional representation on the board. The way the math works, a holder of 30% of the firm’s shares could choose three of ten directors with cumulative voting but could elect no directors under statutory voting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preference shares (or preferred stock) have features of both common stock and debt. As with common stock, preferred stock dividends are not a contractual obligation, and the shares usually do not mature. Like debt, preferred shares typically make fixed periodic payments to investors and do not usually have voting rights. Preference shares may be callable, giving the firm the right to repurchase the shares at a pre-specified call price. They may also be putable, giving the shareholder the right to sell the preference shares back to the issuer at a specified price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cumulative preference shares are usually promised fixed dividends, and any dividends that are not paid must be made up before common shareholders can receive dividends. The dividends of non-cumulative preference shares do not accumulate over time when they are not paid, but dividends for any period must be paid before common shareholders can receive dividends."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferred shares have a stated par value and pay a percentage dividend based on the par value of the shares. An $80 par value preferred with a 10% dividend pays a dividend of $8 per year. Investors in participating preference shares receive extra dividends if firm profits exceed a predetermined level and may receive a value greater than the par value of the preferred stock if the firm is liquidated. Non-participating preference shares have a claim equal to par value in the event of liquidation and do not share in firm profits. Smaller and riskier firms whose investors may be concerned about the firm’s future often issue participating preferred stock so investors can share in the upside potential of the firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Convertible preference shares can be exchanged for common stock at a conversion ratio determined when the shares are originally issued. They have the following advantages:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The preferred dividend is higher than a common dividend. If the firm is profitable, the investor can share in the profits by converting his shares into common stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "The conversion option becomes more valuable when the common stock price increases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Preferred shares have less risk than common shares because the dividend is stable and they have priority over common stock in receiving dividends and in the event of liquidation of the firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because of their upside potential, convertible preferred shares are often used to finance risky venture capital and private equity firms. The conversion feature compensates investors for the additional risk they take when investing in such firms."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.b",
+          "text": "What should we know about differences in voting rights and other ownership characteristics among different equity classes?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm may have different classes of common stock (e.g., “Class A” and “Class B” shares). One class may have greater voting power and seniority if the firm’s assets are liquidated. The classes may also be treated differently with respect to dividends, stock splits, and other transactions with shareholders. Information on the ownership and voting rights of different classes of equity shares can be found in the company’s filings with securities regulators, such as the Securities and Exchange Commission in the United States."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.c",
+          "text": "How do we compare and contrast public and private equity securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The discussion so far has centered on equity that is publicly traded. Private equity is usually issued to institutional investors via private placements. Private equity markets are smaller than public markets but are growing rapidly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Compared to public equity, private equity has the following characteristics:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Less liquidity because no public market for the shares exists. Share price is negotiated between the firm and its investors, not determined in a market."
+        },
+        {
+          "type": "paragraph",
+          "text": "More limited firm financial disclosure because there is no government or exchange requirement to do so."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lower reporting costs because of less onerous reporting requirements. Potentially weaker corporate governance because of reduced reporting requirements and less public scrutiny. Greater ability to focus on long-term prospects because there is no public pressure for short-term results."
+        },
+        {
+          "type": "paragraph",
+          "text": "Potentially greater return for investors once the firm goes public."
+        },
+        {
+          "type": "paragraph",
+          "text": "The three main types of private equity investments are venture capital, leveraged buyouts, and private investments in public equity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Venture capital refers to the capital provided to firms early in their life cycles to fund their development and growth. Venture capital financing at various stages of a firm’s development is referred to as seed or start-up, early stage, or mezzanine financing. Investors can be family, friends, wealthy individuals, or private equity funds. Venture capital investments are illiquid and investors often have to commit funds for three to ten years before they can cash out (exit) their investment. Investors hope to profit when they can sell their shares after (or as part of) an initial public offering or to an established firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a leveraged buyout (LBO), investors buy all of a firm’s equity using debt financing (leverage). If the buyers are the firm’s current management, the LBO is referred to as a management buyout (MBO). Firms in LBOs usually have cash flow that is adequate to service the issued debt or have undervalued assets that can be sold to pay down the debt over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a private investment in public equity (PIPE), a public firm that needs capital quickly sells private equity to investors. The firm may have growth opportunities, be in distress, or have large amounts of debt. The investors can often buy the stock at a sizeable discount to its market price."
+        }
+      ]
+    },
+    {
+      "id": "42.2",
+      "title": "Foreign Equities and Equity Risk",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "42.d",
+          "text": "What should we know about methods for investing in non-domestic equity securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "When capital flows freely across borders, markets are said to be integrated. The world’s financial markets have become more integrated over time, especially as a result of improved communications and trading technologies. However, barriers to global capital flows still exist. Some countries restrict foreign ownership of their domestic stocks, primarily to prevent foreign control of domestic companies and to reduce the variability of capital flows in and out of their countries."
+        },
+        {
+          "type": "paragraph",
+          "text": "An increasing number of countries have dropped foreign capital restrictions. Studies have shown that reducing capital barriers improves equity market performance. Furthermore, companies are increasingly turning to foreign investors for capital by listing their stocks on foreign stock exchanges or by encouraging foreign ownership of shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "From the firm’s perspective, listing on foreign stock exchanges increases publicity for the firm’s products and the liquidity of the firm’s shares. Foreign listing also increases firm transparency due to the stricter disclosure requirements of many foreign markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Direct investing in the securities of foreign companies simply refers to buying a foreign firm’s securities in foreign markets. Some obstacles to direct foreign investment are that:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The investment and return are denominated in a foreign currency. The foreign stock exchange may be illiquid."
+        },
+        {
+          "type": "paragraph",
+          "text": "The reporting requirements of foreign stock exchanges may be less strict, impeding analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors must be familiar with the regulations and procedures of each market in which they invest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other methods for investing in foreign companies are provided by global depository receipts (GDRs), American depository receipts (ADRs), global registered shares (GRSs), and baskets of listed depository receipts (BLDRs)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depository receipts (DRs) represent ownership in a foreign firm and are traded in the markets of other countries in local market currencies. A bank deposits shares of the foreign firm and then issues receipts representing ownership of a specific number of the foreign shares. The depository bank acts as a custodian and manages dividends, stock splits, and other events. Although the investor does not have to convert to the foreign currency, the value of the DR is affected by exchange rate changes, as well as firm fundamentals, economic events, and any other factors that affect the value of any stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the firm is involved with the issue, the depository receipt is a sponsored DR; otherwise, it is an unsponsored DR. A sponsored DR provides the investor voting rights and is usually subject to greater disclosure requirements. In an unsponsored DR, the depository bank retains the voting rights."
+        },
+        {
+          "type": "paragraph",
+          "text": "Global depository receipts (GDRs) are issued outside the United States and the issuer’s home country. Most GDRs are traded on the London and Luxembourg exchanges. Although not listed on U.S. exchanges, they are usually denominated in U.S. dollars and can be sold to U.S. institutional investors. GDRs are not subject to the capital flow restrictions imposed by governments and thus offer the firm and the investor greater opportunities for foreign investment. The firm usually chooses to list the GDR in a market where many investors are familiar with the firm."
+        },
+        {
+          "type": "paragraph",
+          "text": "American depository receipts (ADRs) are denominated in U.S. dollars and trade in the United States. The security on which the ADR is based is the American depository share (ADS), which trades in the firm’s domestic market. Some ADRs allow firms to raise capital in the United States or use the shares to acquire other firms. Most require U.S. Securities and Exchange Commission (SEC) registration, but some are privately placed (Rule 144A or Regulation S receipts)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The four types of ADRs, with different levels of trading availability and firm requirements, are summarized in Figure 42.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 42.1: Types of ADRs"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/64b39c2a18f778e736ac.png",
+          "alt": "Equation, table, or diagram: Figure 42.1: Types of ADRs",
+          "width": 537,
+          "height": 155,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Global registered shares (GRS) are traded in different currencies on stock exchanges around the world."
+        },
+        {
+          "type": "paragraph",
+          "text": "A basket of listed depository receipts (BLDR) is an exchange-traded fund (ETF) that is a collection of DRs. ETF shares trade in markets just like common stocks."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.e",
+          "text": "How can we compare the risk and return characteristics of different types of equity securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The returns on equity investments consist of price changes, dividend payments, and, in the case of equities denominated in a foreign currency, gains or losses from changes in exchange rates. A Japanese investor who invests in euro-denominated shares will have greater yen-based returns if the euro appreciates relative to the yen."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gains from dividends and the reinvestment of dividends have been an important part of equity investors’ long-term returns. For example, $1 invested in U.S. stocks in 1900 would have been worth $1,402 in real terms in 2016 with dividends reinvested but only $11.90 with price appreciation alone. Over the same time period, the terminal wealth for bonds and bills would have been $9.80 and $2.60, respectively.¹"
+        },
+        {
+          "type": "paragraph",
+          "text": "The risk of equity securities is most commonly measured as the standard deviation of returns. Preferred stock is less risky than common stock because preferred stock pays a known, fixed dividend to investors that is a large part of the return, whereas common dividends are variable and can vary with earnings. Also, preferred stockholders receive their distributions before common shareholders and have a claim in liquidation equal to the par value of their shares that has priority over the claims of common stock owners. Because it is less risky, preferred stock has a lower average return than common stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cumulative preferred shares have less risk than non-cumulative preferred shares because they retain the right to receive any missed dividends before any common stock dividends can be paid."
+        },
+        {
+          "type": "paragraph",
+          "text": "For both common and preferred shares, putable shares are less risky and callable shares are more risky compared to shares with neither option. Putable shares are less risky because if the market price drops, the investor can put the shares back to the firm at a fixed price (assuming the firm has the capital to honor the put). Because of this feature, putable shares usually pay a lower dividend yield than non-putable shares."
+        },
+        {
+          "type": "paragraph",
+          "text": "Callable shares are the most risky because if the market price rises, the firm can call the shares, limiting the upside potential of the shares. Callable shares, therefore, usually have higher dividend yields than non-callable shares."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.f",
+          "text": "How can we explain the role of equity securities in the financing of a company’s assets?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Equity capital is used for the purchase of long-term assets, equipment, research and development, and expansion into new businesses or geographic areas. Equity securities provide the firm with “currency” that can be used to buy other companies or that can be offered to employees as incentive compensation. Having publicly traded equity securities provides liquidity, which may be especially important to firms that need to meet regulatory requirements, capital adequacy ratios, and liquidity ratios."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.g",
+          "text": "How can we distinguish the market value and book value of equity securities?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The primary goal of firm management is to increase the book value of the firm’s equity and thereby increase the market value of its equity. The book value of equity is the value of the firm’s assets on the balance sheet minus its liabilities. It increases when the firm has positive net income and retained earnings that flow into the equity account. When management makes decisions that increase income and retained earnings, they increase the book value of equity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The market value of equity is the total value of a firm’s outstanding equity shares based on market prices and reflects the expectations of investors about the firm’s future performance. Investors use their perceptions of the firm’s risk and the amounts and timing of future cash flows to determine the market value of equity. The market value and book value of equity are seldom equal. Although management may be maximizing the book value of equity, this may not be reflected in the market value of equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "because book value does not reflect investor expectations about future firm performance."
+        },
+        {
+          "type": "question",
+          "objectiveId": "42.h",
+          "text": "How can we compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A key ratio used to determine management efficiency is the accounting return on equity, usually referred to simply as the return on equity (ROE). ROE is calculated as net income available to common (net income minus preferred dividends) divided by the average book value of common equity over the period:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}_{\\mathrm{t}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {\\mathrm{average~BV}_{\\mathrm{t}}}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {( \\mathrm{BV}_{\\mathrm{t}}+\\mathrm{BV}_{\\mathrm{t}-1} ) / 2}}",
+          "display": true,
+          "sourceAsset": "97d4451f1f20d60c13bf.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, ROE is often calculated using only beginning-of-year book value of equity (i.e., book value of equity for end of year t − 1):"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{ROE}_{\\mathrm{t}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {\\mathrm{BV}_{\\mathrm{t-1}}}}",
+          "display": true,
+          "sourceAsset": "30f9363471066731e633.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The first method is more appropriate when it is the industry convention or when book value is volatile. The latter method is more appropriate when examining ROE for a number of years or when book value is stable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher ROE is generally viewed as a positive for a firm, but the reason for an increase should be examined. For example, if book value is decreasing more rapidly than net income, ROE will increase. This is not, however, a positive for the firm. A firm can also issue debt to repurchase equity, thereby decreasing the book value of equity. This would increase the ROE but also make the firm’s shares riskier due to the increased financial leverage (debt)."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "The DuPont formula discussed in the reading on Financial Analysis Techniques can help the analyst determine the reasons for changes in ROE."
+        },
+        {
+          "type": "paragraph",
+          "text": "The book value of equity reflects a firm’s financial decisions and operating results since its inception, whereas the market value of equity reflects the market’s consensus view of a firm’s future performance. The price-to-book ratio (also called the market-to-book ratio) is the market value of a firm’s equity divided by the book value of its equity. The more optimistic investors are about the firm’s future growth, the greater its price-to-book ratio. The price-to-book ratio is used as a measure of relative value. Often, firms with low price-to-book ratios are considered value stocks, while firms with high price-to-book ratios are considered growth stocks."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: ROE, market, and book value of equity calculations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Given the following data for O’Grady Industries, calculate the return on average equity for 20X9 and the total market value of equity, the book value per share, and the price-to-book ratio at the end of 20X9."
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\mathrm{Fiscal~Year-End~Dec,~31}} & {\\mathrm{20X9}} & {\\mathrm{20X8}} \\\\ \\hline{\\mathrm{T o t a l ~ s t o c k h o l d e r^{\\prime} s ~ e q u i t y}} & {18 , 503} & {17 , 143} \\\\ {\\mathrm{Net~income~available~to~common}} & {3 , 526} & {3 , 056} \\\\ {\\mathrm{Stock~price}} & {\\mathrm{516.80}} & {515.30} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\mathrm{Shares~outstanding} \\qquad\\qquad\\qquad\\qquad3 , 710 \\qquad2 , 790\\end{gathered}",
+          "display": true,
+          "sourceAsset": "3b503416a05d60f70d27.png"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The return on average equity for 20X9 is:"
+        },
+        {
+          "type": "math",
+          "latex": "ROE_t=\\frac{NI_t}{\\text{average }BV_t}=\\frac{NI_t}{(BV_t+BV_{t-1})/2}=\\frac{\\$3{,}526}{(\\$18{,}503+\\$17{,}143)/2}=19.78\\%",
+          "display": true,
+          "sourceAsset": "77782d7962fcca81389f.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The total market value of the firm’s equity at the end of 20X9 is:"
+        },
+        {
+          "type": "math",
+          "latex": "816.80 \\times3 , 710=562 , 328",
+          "display": true,
+          "sourceAsset": "773a7d212d3153a4f6b8.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The book value per share at the end of 20X9 is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\frac{\\$18{,}503}{3{,}710}=\\$4.99",
+          "display": true,
+          "sourceAsset": "6de6f08ba92094f71a16.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The price-to-book ratio at the end of 20X9 is:"
+        },
+        {
+          "type": "math",
+          "latex": "= \\frac{\\$16.80} {\\$4.99}=3.37",
+          "display": true,
+          "sourceAsset": "0cb00553c2b1837ac163.png"
+        },
+        {
+          "type": "heading",
+          "text": "Investors’ Required Return and the Cost of Equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "A firm’s cost of equity is the expected equilibrium total return (including dividends) on its shares in the market. Cost of equity is usually estimated in practice using a dividend discount model or the capital asset pricing model. At any point in time, a decrease in share price will increase the expected return on the shares and an increase in share price will decrease expected returns, other things equal. Because the intrinsic value of a firm’s shares is the discounted present value of its future cash flows, an increase (decrease) in the required return used to discount future cash flows will decrease (increase) intrinsic value."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investors also estimate the expected market returns on equity shares and compare this to the minimum return they will accept for bearing the risk inherent in a particular stock."
+        },
+        {
+          "type": "paragraph",
+          "text": "If an investor estimates the expected return on a stock to be greater than her minimum required rate of return on the shares, given their risk, then the shares are an attractive investment. Investors can have different required rates of return for a given risk, different estimates of a firm’s future cash flows, and different estimates of the risk of a firm’s equity shares. A firm’s cost of equity can be interpreted as the minimum rate of"
+        },
+        {
+          "type": "paragraph",
+          "text": "return required by investors (in the aggregate) to compensate them for the risk of the firm’s equity shares."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "42.a",
+      "text": "What should we know about characteristics of types of equity securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Common shareholders have a residual claim on firm assets and govern the corporation through voting rights. Common shares have variable dividends which the firm is under no legal obligation to pay."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preferred stock typically does not mature, does not have voting rights, and has dividends that are fixed in amount but are not a contractual obligation of the firm."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cumulative preferred shares require any dividends that were missed in the past (dividends in arrears) to be paid before common shareholders receive any dividends. Participating preferred shares receive extra dividends if firm profits exceed a pre-specified level and a value greater than the par value if the firm is liquidated. Convertible preferred stock can be converted to common stock at a pre-specified conversion ratio."
+    },
+    {
+      "type": "paragraph",
+      "text": "Callable shares allow the firm the right to repurchase the shares at a pre-specified price. Putable shares give the shareholder the right to sell the shares back to the firm at a pre-specified price."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.b",
+      "text": "What should we know about differences in voting rights and other ownership characteristics among different equity classes?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Some companies’ equity shares are divided into different classes, such as Class A and Class B shares. Different classes of common equity may have different voting rights and priority in liquidation."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.c",
+      "text": "How do we compare and contrast public and private equity securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Compared to publicly traded firms, private equity firms have lower reporting costs, greater ability to focus on long-term prospects, and potentially greater return for investors once the firm goes public. However, private equity investments are illiquid, firm financial disclosure may be limited, and corporate governance may be weaker."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.d",
+      "text": "What should we know about methods for investing in non-domestic equity securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investors who buy foreign stock directly on a foreign stock exchange receive a return denominated in a foreign currency, must abide by the foreign stock exchange’s regulations and procedures, and may be faced with less liquidity and less transparency than is available in the investor’s domestic markets. Investors can often avoid these disadvantages by purchasing depository receipts for the foreign stock that trade on their domestic exchange."
+    },
+    {
+      "type": "paragraph",
+      "text": "Global depository receipts are issued outside the United States and outside the issuer’s home country. American depository receipts are denominated in U.S. dollars and are traded on U.S. exchanges."
+    },
+    {
+      "type": "paragraph",
+      "text": "Global registered shares are common shares of a firm that trade in different currencies on stock exchanges throughout the world."
+    },
+    {
+      "type": "paragraph",
+      "text": "Baskets of listed depository receipts are exchange-traded funds that invest in depository receipts."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.e",
+      "text": "How can we compare the risk and return characteristics of different types of equity securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Equity investor returns consist of dividends, capital gains or losses from changes in share prices, and any foreign exchange gains or losses on shares traded in a foreign currency. Compounding of reinvested dividends has been an important part of an equity investor’s long-term return."
+    },
+    {
+      "type": "paragraph",
+      "text": "Preferred stock is less risky than common stock because preferred stock pays a known, fixed dividend to investors; preferred stockholders must receive dividends before common stock dividends can be paid; and preferred stockholders have a claim equal to par value if the firm is liquidated. Putable shares are the least risky and callable shares are the most risky. Cumulative preferred shares are less risky than non-cumulative preferred shares, as any dividends missed must be paid before a common stock dividend can be paid."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.f",
+      "text": "How can we explain the role of equity securities in the financing of a company’s assets?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Equity securities provide funds to the firm to buy productive assets, to buy other companies, or to offer to employees as compensation. Equity securities provide liquidity that may be important when the firm must raise additional funds."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.g",
+      "text": "How can we distinguish the market value and book value of equity securities?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The book value of equity is the difference between the financial statement value of the firm’s assets and liabilities. Positive retained earnings increase the book value of equity. Book values reflect the firm’s past operating and financing choices."
+    },
+    {
+      "type": "paragraph",
+      "text": "The market value of equity is the share price multiplied by the number of shares outstanding. Market value reflects investors’ expectations about the timing, amount, and risk of the firm’s future cash flows."
+    },
+    {
+      "type": "question",
+      "objectiveId": "42.h",
+      "text": "How can we compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The accounting return on equity (ROE) is calculated as the firm’s net income divided by the book value of common equity. ROE measures whether management is generating a return on common equity but is affected by the firm’s accounting methods."
+    },
+    {
+      "type": "paragraph",
+      "text": "The firm’s cost of equity is the minimum rate of return that investors in the firm’s equity require. Investors’ required rates of return are reflected in the market prices of the firm’s shares."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "42.a",
+      "statement": "Describe characteristics of types of equity securities.",
+      "question": "What should we know about characteristics of types of equity securities?"
+    },
+    {
+      "id": "42.b",
+      "statement": "Describe differences in voting rights and other ownership characteristics among different equity classes.",
+      "question": "What should we know about differences in voting rights and other ownership characteristics among different equity classes?"
+    },
+    {
+      "id": "42.c",
+      "statement": "Compare and contrast public and private equity securities.",
+      "question": "How do we compare and contrast public and private equity securities?"
+    },
+    {
+      "id": "42.d",
+      "statement": "Describe methods for investing in non-domestic equity securities.",
+      "question": "What should we know about methods for investing in non-domestic equity securities?"
+    },
+    {
+      "id": "42.e",
+      "statement": "Compare the risk and return characteristics of different types of equity securities.",
+      "question": "How can we compare the risk and return characteristics of different types of equity securities?"
+    },
+    {
+      "id": "42.f",
+      "statement": "Explain the role of equity securities in the financing of a company’s assets.",
+      "question": "How can we explain the role of equity securities in the financing of a company’s assets?"
+    },
+    {
+      "id": "42.g",
+      "statement": "Contrast the market value and book value of equity securities.",
+      "question": "How can we distinguish the market value and book value of equity securities?"
+    },
+    {
+      "id": "42.h",
+      "statement": "Compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return.",
+      "question": "How can we compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-42-quiz-1",
+      "title": "Knowledge check 42.1",
+      "moduleId": "42.1",
+      "questions": [
+        {
+          "id": "r42-q1",
+          "number": 1,
+          "objectiveIds": [
+            "42.a"
+          ],
+          "prompt": "The advantage of participating preferred shares versus non-participating preferred shares is that participating preferred shares can:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "obtain voting rights."
+            },
+            {
+              "id": "B",
+              "text": "receive extra dividends."
+            },
+            {
+              "id": "C",
+              "text": "be converted into common stock."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Participating preferred shares can receive extra dividends if firm profits exceed a pre-specified level and a value greater than the par value if the firm is liquidated.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Participating preferred shares can receive extra dividends if firm profits exceed a"
+            },
+            {
+              "type": "paragraph",
+              "text": "pre-specified level and a value greater than the par value if the firm is liquidated."
+            }
+          ]
+        },
+        {
+          "id": "r42-q2",
+          "number": 2,
+          "objectiveIds": [
+            "42.b"
+          ],
+          "prompt": "Which of the following best describes the benefit of cumulative share voting?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "It provides significant minority shareholders with proportional representation on the board."
+            },
+            {
+              "id": "B",
+              "text": "It prevents minority shareholders from exercising excessive control."
+            },
+            {
+              "id": "C",
+              "text": "If cumulative dividends are not paid, preferred shareholders are given voting rights."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Cumulative voting allows minority shareholders to gain representation on the board because they can use all of their votes for specific board members.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Cumulative voting allows minority shareholders to gain representation on the"
+            },
+            {
+              "type": "paragraph",
+              "text": "board because they can use all of their votes for specific board members."
+            }
+          ]
+        },
+        {
+          "id": "r42-q3",
+          "number": 3,
+          "objectiveIds": [
+            "42.c"
+          ],
+          "prompt": "Compared to public equity, which of the following is least likely to characterize private equity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Lower reporting costs."
+            },
+            {
+              "id": "B",
+              "text": "Potentially weaker corporate governance."
+            },
+            {
+              "id": "C",
+              "text": "Lower returns because of its less liquid market."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Private equity has less liquidity because no public market for it exists. The lower liquidity of private equity would increase required returns.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Private equity has less liquidity because no public market for it exists. The lower"
+            },
+            {
+              "type": "paragraph",
+              "text": "liquidity of private equity would increase required returns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-42-quiz-2",
+      "title": "Knowledge check 42.2",
+      "moduleId": "42.2",
+      "questions": [
+        {
+          "id": "r42-q4",
+          "number": 1,
+          "objectiveIds": [
+            "42.d"
+          ],
+          "prompt": "Global depository receipts are most often denominated in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the currency of the country where they trade and issued outside the United States."
+            },
+            {
+              "id": "B",
+              "text": "U.S. dollars and issued in the United States."
+            },
+            {
+              "id": "C",
+              "text": "U.S. dollars and issued outside the United States."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Global Depository Receipts are not listed on U.S. exchanges and are most often denominated in U.S. dollars. They are not issued in the United States.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Global Depository Receipts are not listed on U.S. exchanges and are most often"
+            },
+            {
+              "type": "paragraph",
+              "text": "denominated in U.S. dollars. They are not issued in the United States."
+            }
+          ]
+        },
+        {
+          "id": "r42-q5",
+          "number": 2,
+          "objectiveIds": [
+            "42.e"
+          ],
+          "prompt": "Which of the following types of preferred shares has the most risk for investors?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Putable shares."
+            },
+            {
+              "id": "B",
+              "text": "Callable shares."
+            },
+            {
+              "id": "C",
+              "text": "Non-putable, non-callable shares."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Callable shares are the most risky because if the market price rises, the firm can call in the shares, limiting the investor’s potential gains. Putable shares are the least risky because if the market price drops, the investor can put the shares back to the firm at a predetermined price. The risk of non-putable, non-callable shares falls in between.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Callable shares are the most risky because if the market price rises, the firm can"
+            },
+            {
+              "type": "paragraph",
+              "text": "call in the shares, limiting the investor’s potential gains. Putable shares are the least risky because if the market price drops, the investor can put the shares back to the firm at a predetermined price. The risk of non-putable, non-callable shares falls in between."
+            }
+          ]
+        },
+        {
+          "id": "r42-q6",
+          "number": 3,
+          "objectiveIds": [
+            "42.g"
+          ],
+          "prompt": "Which of the following best describes the book value of equity?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Management should attempt to maximize book value of equity."
+            },
+            {
+              "id": "B",
+              "text": "Book value of equity decreases when retained earnings increase."
+            },
+            {
+              "id": "C",
+              "text": "Book value of equity reflects investors’ perceptions of the firm’s future."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The primary goal of firm management is to increase the book value of equity. It increases when retained earnings are positive. The market value of equity reflects the collective expectations of investors about the firm’s future performance.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The primary goal of firm management is to increase the book value of equity. It"
+            },
+            {
+              "type": "paragraph",
+              "text": "increases when retained earnings are positive. The market value of equity reflects the collective expectations of investors about the firm’s future performance."
+            }
+          ]
+        },
+        {
+          "id": "r42-q7",
+          "number": 4,
+          "objectiveIds": [
+            "42.h"
+          ],
+          "prompt": "Which of the following causes of an increase in return on equity is most likely a positive sign for a firm’s equity investors?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A firm issues debt to repurchase equity."
+            },
+            {
+              "id": "B",
+              "text": "Net income is increasing at a faster rate than book value of equity."
+            },
+            {
+              "id": "C",
+              "text": "Net income is decreasing at a slower rate than book value of equity."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Net income increasing at a faster rate than book value of equity generally would be a positive sign. If a firm issues debt to repurchase equity, this decreases the book value of equity and increases the ROE. However, now the firm becomes riskier due to the increased debt. Net income decreasing at a slower rate than book value of equity would increase ROE, but decreasing net income is not a positive sign.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Net income increasing at a faster rate than book value of equity generally would"
+            },
+            {
+              "type": "paragraph",
+              "text": "be a positive sign. If a firm issues debt to repurchase equity, this decreases the book value of equity and increases the ROE. However, now the firm becomes riskier due to the increased debt. Net income decreasing at a slower rate than book value of equity would increase ROE, but decreasing net income is not a positive sign."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

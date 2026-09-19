@@ -1,0 +1,1377 @@
+{
+  "readingId": 34,
+  "title": "Topics in Long-Term Liabilities and Equity",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "34.1",
+      "title": "Leases",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "34.a",
+          "text": "How can we explain the financial reporting of leases from the perspectives of lessors and lessees?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead of purchasing an asset, a firm may choose to lease the asset. With a lease, a firm (the lessee) essentially purchases the right to use an asset from another firm (the lessor) for a specified period, which can range from a month to many years. The lessee makes periodic payments to the lessor for the use of the asset. Thus, a lease can be considered an alternative to financing the purchase of an asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "To be a lease, a contract must meet the following three requirements:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. It must refer to a specific asset.\n2. It must give the lessee effectively all the asset’s economic benefits during the term of"
+        },
+        {
+          "type": "paragraph",
+          "text": "the lease.\n3. It must give the lessee the right to determine how to use the asset during the term of"
+        },
+        {
+          "type": "paragraph",
+          "text": "the lease."
+        },
+        {
+          "type": "paragraph",
+          "text": "The advantages of leasing rather than purchasing an asset may include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Less initial cash outflow. Typically, a lease requires only a small down payment, if any. Less costly financing. Because a lease is effectively secured by the leased asset if the lessee defaults, the interest rate implicit in a lease contract may be less than the interest rate would be on a loan to purchase the asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "Less risk of obsolescence. At the end of a lease, the lessee often returns the leased asset to the lessor, and therefore, does not bear the risk of an unexpected decline in the asset’s end-of-lease value. Given that the lessor bears the risk of obsolescence, this increases the lessor’s risk and is reflected in a higher implicit interest rate within the lease. Some leases include guaranteed residual income clauses, whereby the lessee guarantees a minimum value for the leased assets at the end of the lease term. In this case, the risk of obsolescence remains with the lessee."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under IFRS and U.S. GAAP, any lease in which both the benefits and the risks of ownership are substantially transferred to the lessee is classified as a finance lease. If either the benefits or the risks of ownership are not substantially transferred to the lessee, a lease is classified as an operating lease. Any given lease will be classified the same way by the lessee and the lessor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial reporting standards require a lease to be classified as a finance lease if it meets any of the following five conditions:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Ownership of the leased asset transfers to the lessee.\n2. The lessee has an option to buy the asset and is expected to exercise it.\n3. The lease is for most of the asset’s useful life."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair"
+        },
+        {
+          "type": "paragraph",
+          "text": "value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only"
+        },
+        {
+          "type": "paragraph",
+          "text": "suitable for use by the lessee)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leases that are not classified as finance leases are classified as operating leases."
+        },
+        {
+          "type": "heading",
+          "text": "Lessee Accounting"
+        },
+        {
+          "type": "paragraph",
+          "text": "IFRS requires the lessee to record a right-of-use asset (ROU asset) and a lease liability (both equal to the present value of the lease payments) on the balance sheet. This treatment is required for all leases, except those that are short term (up to 12 months) or are of low value (up to USD 5,000). This treatment creates a debt instrument (the lease liability) and an ROU asset, resulting in a balance sheet that is comparable to the lessee issuing debt and using the proceeds to buy an asset."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ROU asset is intangible rather than PP&E. The ROU asset will be amortized over the term of the lease, with the amortization amount each period recorded on the income statement. Each lease payment is split between interest and principal repayment. The lease liability decreases each period by the principal portion of each lease payment. While the lease asset and the liability both begin with the same value and reach zero at the end of the lease, they will have different values during the life of the lease, as the following example illustrates."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "All the examples in the Level I CFA curriculum assume that payments are made in arrears (the end of each period) rather than at the start. In practice, most leases require payment at the start of each period. We follow the curriculum in our examples."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Lessee accounting for a finance lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Affordable Company (Affordable) leases a machine for its own use for four years with annual payments of $10,000. At the end of the lease, which is also the end of the machine’s useful life, Affordable will return the machine to the lessor. The interest rate implicit in the lease is 5%. Assuming that the ROU asset is amortized on a straight-line basis over the term of the lease, calculate the impact of the lease on Affordable’s financial statements for each of the four years."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The lease is classified as a finance lease because the lease is in effect for the asset’s useful life."
+        },
+        {
+          "type": "paragraph",
+          "text": "The present value of the lease payments is as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "N=4;\\quad I/Y=5;\\quad PMT=-10{,}000;\\quad FV=0;\\quad CPT\\to PV=35{,}460",
+          "display": true,
+          "sourceAsset": "519d55f0688d01363b5e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This amount will be recognized on the balance sheet as an ROU asset and as a lease liability."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ROU asset will be amortized straight-line over the four years, decreasing each year by $35,460 / 4 = $8,865. This amount will be recognized each year on the income statement as an amortization expense."
+        },
+        {
+          "type": "paragraph",
+          "text": "The lease liability will be treated as if it were an amortizing loan."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/171f0c75b0ec54825fa5.png",
+          "alt": "Equation, table, or diagram: The lease liability will be treated as if it were an amortizing loan.",
+          "width": 493,
+          "height": 212,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The interest expense will be recognized each year on the income statement, separately from the amortization expense for the ROU asset. On the balance sheet, the ROU asset value decreases by $8,865 each year, and the lease liability is reduced by the principal repayment from Column 4. Note that the book value of the ROU asset is less than the book value of the lease liability during the life of the lease. This is because the principal repayment in the early years of the lease is less than the straight-line amortization of the ROU asset. In the later years, the principal repayment is greater than the straight-line amortization so that at the end of the lease, both the asset and the liability reach zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the cash flow statement, the repayment of principal will be classified as a cash outflow from financing. Under IFRS, the interest portion of each payment may be classified as either an operating or a financing cash outflow. Under U.S. GAAP, the interest portion is classified as an operating cash outflow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under U.S. GAAP, other than these differences in cash flow classification, a finance lease (that is not short term) is reported, just as we have described for leases under IFRS."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an operating lease (that is not short term) under U.S. GAAP, a lease liability is also recorded and amortized as under IFRS. However, the ROU asset is not amortized straight-line. Instead, it is amortized by the same amount each period as the decrease in the lease liability, so that the asset and the liability are equal in each period of the lease. On the income statement, interest expense and amortization of the ROU asset are not reported separately as they are for a finance lease; they are combined and reported as lease expense. On the cash flow statement, the full lease payment is classified as an operating cash outflow."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Lessee accounting for an operating lease under U.S. GAAP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the same data from the previous example, calculate the impact of the lease on Affordable’s financial statements if Affordable reports under U.S. GAAP and the lease is classified as an operating lease."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The lease liability will be treated the same way as it is for a finance lease, but the book value of the ROU asset will remain equal to the book value of the lease liability."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/004e4e43db850044a5b3.png",
+          "alt": "Equation, table, or diagram: The lease liability will be treated the same way as it is for a finance lease, but the book value of the ROU asset will remain equal to the book value of the lease liability.",
+          "width": 501,
+          "height": 215,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the balance sheet, the book value of the ROU asset is amortized by the same amount each period, as the lease liability (i.e., the amortization of the asset) is equal to the principal repayment."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the income statement, the lease expense will equal interest plus amortization of the ROU asset, which will equal the lease payment. Amortization is equal to the principal repayment each period, and the principal repayment equals the lease payment minus interest. As a result, amortization plus interest each period is equal to the lease payment of $10,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the cash flow statement, the entire $10,000 cash outflow is classified as cash from operations."
+        },
+        {
+          "type": "heading",
+          "text": "Comparison of finance and operating leases: U.S. GAAP"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/24c9efeab5fdeedafb9c.png",
+          "alt": "Equation, table, or diagram: Comparison of finance and operating leases: U.S. GAAP",
+          "width": 410,
+          "height": 472,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note the following when comparing finance lease accounting and operating lease accounting:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The lease liability is the same each year under both methods. The ROU asset is not the same, except at initiation of the lease and at the end of the lease. Operating leases report higher ROU assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ROU asset matches the lease liability in each year for the operating lease. The ROU asset only matches the lease liability at the start and end of the lease’s life for the finance lease. Finance lease methodology reports both interest and amortization expenses in the income statement. Operating lease methodology reports a lease expense equal to the payment, which is not split into interest and amortization components. In the early years of a lease’s life, the income statement expense is greater in total for a finance lease compared to an operating lease. In the later years, income statement expense is less for a finance lease. In total, the same amount of expense goes through the income statement under both methodologies."
+        },
+        {
+          "type": "paragraph",
+          "text": "The impact on the financial statements is summarized in Figure 34.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 34.1: Impact on Financial Statements"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/0e599b3fe938861a8d0f.png",
+          "alt": "Equation, table, or diagram: Figure 34.1: Impact on Financial Statements",
+          "width": 536,
+          "height": 239,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "For short-term (<12 months) or low-value leases under IFRS, and for short-term leases under U.S. GAAP, no lease asset or liability is reported on the balance sheet. Each period, the lease payment is reported as rental expense on the income statement, spread straight-line over the life of the lease. A summary of the approaches is shown in Figure 34.2."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 34.2: Lessee Accounting"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/aa19dd3e7ccbe523e642.png",
+          "alt": "Equation, table, or diagram: Figure 34.2: Lessee Accounting",
+          "width": 371,
+          "height": 147,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Lessor Accounting"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under both IFRS and U.S. GAAP, there are two lease classifications for lessors, finance leases and operating leases, just as for lessees. At the initiation of a finance lease, the lessor removes the leased asset from its balance sheet and adds a lease receivable asset, equal to the value of the expected lease payments. If this value is different from the asset’s book value, the lessor will recognize a profit or a loss. Over the term of the lease, the lessor will use the effective interest method (the same method we have just seen for lessees) to amortize the lease receivable and will report the interest portion of the lease payments as income. This interest income is included in the lessor’s revenue for the period if the firm is a manufacturer or dealer of the leased asset. On the cash flow statement, the entire cash inflow is classified as cash from operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "If manufacturing or dealing in the leased equipment is the main business operation of the firm, the sales proceeds will be in the revenue line and the carrying value of the asset will be a cost of sale. In other words, the treatment is like selling inventory. Both IFRS and U.S. GAAP refer to this treatment as a sales-type lease."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the lessor is a financing company, rather than a manufacturer of the leased equipment, a gain or loss is not recognized at initiation. Instead, the gain or loss is deferred, and it is recognized over the life of the lease as interest income (for a gain) or an expense (for a loss). IFRS and U.S. GAAP refer to these leases as direct financing leases."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Lessor accounting for a finance lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Expensive Company is the lessor to Affordable Company from our lessee accounting example. Expensive is a manufacturer of the equipment being leased."
+        },
+        {
+          "type": "paragraph",
+          "text": "From the previous lessee examples, the lease had annual payments of $10,000 over a four-year period. At the end of the lease, which is also the end of the machine’s useful life, Affordable will return the machine to the lessor. The interest rate implicit in the lease is 5%. Expensive believes the asset will have a residual value of $2,000 at the end of the lease period. The carrying value of the asset, recorded as inventory in the lessor’s balance sheet, was $30,000."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate the impact of the lease on Expensive’s financial statements for each of the four years if the lease is treated as a finance lease."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "heading",
+          "text": "Profit or loss on derecognition of asset:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The present value of the lease payments is computed at the 5% rate implicit in the lease. In our example, the PV of lease payments = $35,460 (the same as in the lessee example). This is treated as revenue at the beginning of the lease."
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{The~present~value~of~the~expected~residual~value}={\\frac{52 , 000} {( 1.05 )^{4}}}={\\$1 , 645.} .",
+          "display": true,
+          "sourceAsset": "811c3f36455300f5373f.png",
+          "prose": "The present value of the expected residual value ."
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost of sales is equal to the asset’s carrying value less the present value of the residual value: $30,000 − $1,645 = $28,355."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fc400033a0f08b1267b6.png",
+          "alt": "Equation, table, or diagram: The cost of sales is equal to the asset’s carrying value less the present value of the residual value: $30,000 − $1,645 = $28,355.",
+          "width": 463,
+          "height": 99,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Balance sheet lease receivable asset and interest income:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The sum of the present value of lease payments and the salvage value is referred to the net investment in the lease and will be the initial value of the lease receivable asset in the balance sheet."
+        },
+        {
+          "type": "paragraph",
+          "text": "net investment in the lease = $35,460 + $1,645 = $37,105"
+        },
+        {
+          "type": "paragraph",
+          "text": "The net investment in the lease is equal to the asset’s fair value. This is because the interest rate implicit in the lease is the internal rate of return that makes the present value of the lease payments received and the residual value equal the asset’s fair value."
+        },
+        {
+          "type": "image",
+          "src": "content/figures/47a778e8d0cc4e8c245b.png",
+          "alt": "Equation, table, or diagram:  interest rate implicit in the lease is the internal rate of return that makes the present value of the lease payments received and the residual value equal the asset’s fair value.",
+          "width": 484,
+          "height": 275,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "At the end of the lease period, the lease receivable asset is equal to the expected residual value of the asset. If the lessor disposes of the asset for any amount that differs from the residual value, a further gain or loss will be reported in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an operating lease, the lessor does not remove the leased asset from its balance sheet. The lessor will continue to record the depreciation expense over the life of the asset. On the income statement, the lessor reports the lease payments as income, while depreciation and other costs associated with leasing the asset are reported as expenses. As with a finance lease, the entire cash inflow is classified as cash from operations."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Lessor accounting for an operating lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "Using the same data, calculate the impact on Expensive’s financial statements for each of the four years if the lease is treated as an operating lease. Assume straight-line depreciation with a salvage value of $2,000."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The asset remains in the lessor’s balance sheet, typically within plant, property, and equipment. The asset will continue to be depreciated over the life of the lease. No lease receivable asset is created. Payments from the lessee are treated as rental income (lease revenue) on a straight-line basis in the income statement."
+        },
+        {
+          "type": "math",
+          "latex": "{\\tt d e p r e c i a t i o n e x p e n s e=} \\ {\\frac{( {\\tt S 30} , 000-{\\tt S 2} , 000 )} {4 \\ y e a r s}}={\\tt S 7} , 000",
+          "display": true,
+          "sourceAsset": "7a12c76e9972775acc06.png"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/fbe9f55fff93a26af2cd.png",
+          "alt": "Equation, table, or diagram: the life of the lease. No lease receivable asset is created. Payments from the lessee are treated as rental income (lease revenue) on a straight-line basis in the income statement.",
+          "width": 420,
+          "height": 199,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comparing the financial statements for lessors using the finance lease and operating lease approaches shows that the choices have a dramatic impact, with the exception of the cash flow statement."
+        },
+        {
+          "type": "heading",
+          "text": "Lessor: Finance vs. Operating Lease Comparison"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3e9cd88b54d911d57bf7.png",
+          "alt": "Equation, table, or diagram: Lessor: Finance vs. Operating Lease Comparison",
+          "width": 500,
+          "height": 311,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "*Year 1 contains the profit on the derecognition of the asset and Year 1 interest revenue ($7,105 + $1,855)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the same total income hits the income statement under both treatments, but the amounts in each individual year vary."
+        }
+      ]
+    },
+    {
+      "id": "34.2",
+      "title": "Deferred Compensation and Disclosures",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "34.b",
+          "text": "How can we explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pension plans and stock-based awards are examples of deferred compensation, where employees earn compensation in the current period but do not receive cash flows until later. Typically, the accounting for deferred compensation requires judgment and assumptions by management."
+        },
+        {
+          "type": "heading",
+          "text": "Pension Plans"
+        },
+        {
+          "type": "paragraph",
+          "text": "A pension is a form of deferred compensation earned over time through employee service. The most common pension arrangements are defined contribution plans and defined benefit plans."
+        },
+        {
+          "type": "paragraph",
+          "text": "A defined contribution plan is a retirement plan in which the firm contributes a sum each period to the employee’s retirement account. The firm’s contribution can be based on any number of factors, including years of service, the employee’s age, compensation, profitability, or even a percentage of the employee’s contribution. In any event, the firm"
+        },
+        {
+          "type": "paragraph",
+          "text": "makes no promise to the employee regarding the future value of the plan assets. The investment decisions are left to the employee, who assumes all of the investment risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial reporting requirements for defined contribution plans are straightforward. The pension expense is simply equal to the employer’s contribution. Once the contribution is paid, there is no future obligation to report on the balance sheet as a liability."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a defined benefit plan, the firm promises to make periodic payments to employees after retirement. The benefit is usually based on the employee’s years of service and the employee’s compensation at, or near, retirement. For example, an employee might earn a retirement benefit of 2% of her final salary for each year of service. Consequently, an employee with 20 years of service and a final salary of $100,000 would receive $40,000 ($100,000 final salary × 2% × 20 years of service) each year upon retirement until death. Because the employee’s future benefit is defined, the employer assumes the investment risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "A company that offers defined pension benefits typically funds the plan by contributing assets to a separate legal entity, usually a trust. The plan assets are managed to generate the income and principal growth necessary to pay the pension benefits as they come due. The fair value of plan assets is just the current value of the pool of assets at today’s date."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial reporting for a defined benefit plan is much more complicated than for a defined contribution plan because the employer must estimate the value of the future obligation to its employees. The obligation involves forecasting numerous variables, such as future compensation levels, employee turnover, average retirement age, mortality rates, and an appropriate discount rate. Due to the complexity, firms employ the services of external actuaries to estimate the values. The liability side of the pension plan is the present value of the expected payments to the employees from retirement to death discounted back to today’s date."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a defined benefit plan, the net pension asset or net pension liability, referred to as funded status, is a key element for analysis. If the fair value of the plan’s assets is greater than the estimated pension obligation, the plan is said to be overfunded, and the sponsoring firm records a net pension asset on its balance sheet. If the fair value of the plan’s assets is less than the estimated pension obligation, the plan is underfunded, and the firm records a net pension liability."
+        },
+        {
+          "type": "paragraph",
+          "text": "For plans relating to post-retirement health care benefits, the liability represents the present value of expected health care premiums post retirement. These plans are typically not prefunded with a pool of assets; therefore, they will always be a liability on the balance sheet."
+        },
+        {
+          "type": "paragraph",
+          "text": "The change in the net pension asset or liability is recognized on the firm’s financial statements each year. Some components are included in net income, while others are recorded as changes to other comprehensive income (OCI). The total economic cost of running the plan is the same under U.S. GAAP and IFRS; however, the split between the income statement and OCI differs."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Accounting for defined benefit pension plans is addressed in more detail at Level II."
+        },
+        {
+          "type": "heading",
+          "text": "Accounting for Defined Benefit Plans Under IFRS"
+        },
+        {
+          "type": "paragraph",
+          "text": "The change in funded status comprises three elements:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Service cost. This represents the present value of the additional benefits employees"
+        },
+        {
+          "type": "paragraph",
+          "text": "are entitled to after retirement because they have worked an additional year. This element also includes “past service costs,” which represent changes to the benefits earned in previous periods resulting from alterations to the plan and other factors.\n2. Net interest expense or income. This is calculated as the net pension asset or"
+        },
+        {
+          "type": "paragraph",
+          "text": "liability times the plan’s discount rate. If the plan’s beginning funded status is a net asset, the company will report interest income; if the plan is underfunded at the start of the year, the company will report interest expense."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to the interest element, analysts should treat a balance sheet liability as a debt instrument for leverage computations."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Remeasurements. There are two sources of remeasurement: actuarial gains and"
+        },
+        {
+          "type": "paragraph",
+          "text": "losses, and the difference between actual and expected returns on plan assets. Actuarial gains and losses are changes in the net pension asset or liability that result from changing actuarial estimates, such as the rate of salary growth, discount rate, employee turnover, retirement age, and mortality rates. The difference between expected and actual return on plan assets results from the expected return being included in the income statement and the actual return being a component of funded status in the balance sheet."
+        },
+        {
+          "type": "paragraph",
+          "text": "The income statement expense under IFRS only includes service costs and net interest expense or income. Remeasurement gains and losses are taken directly to other comprehensive income within stockholders’ equity."
+        },
+        {
+          "type": "heading",
+          "text": "Accounting for Defined Benefit Plans Under U.S. GAAP"
+        },
+        {
+          "type": "paragraph",
+          "text": "The change in a net pension asset or liability has five components under U.S. GAAP. The first three are recognized in the income statement each period, while the last two go to other comprehensive income."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Service costs for the current period."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Interest expense or income.\n3. The expected return on plan assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Past service costs.\n5. Actuarial gains and losses."
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the differences from IFRS pension accounting is that past service costs are recognized in other comprehensive income, rather than in the income statement as part of employee service costs. These costs are amortized over the employees’ service period. Actuarial gains and losses are typically treated the same way, but U.S. GAAP allows firms to recognize them in the period incurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "For manufacturing companies, pension expense is allocated to inventory and cost of goods sold for employees who provide direct labor to production and to salary or administrative expenses for other employees. As a result, pension expense does not appear separately on the income statement for manufacturing companies. An analyst must examine the financial statement notes to find the details of these companies’ pension expense."
+        },
+        {
+          "type": "heading",
+          "text": "Share-Based Compensation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Share-based compensation is designed to align the interest of managers and stockholders and reduce agency costs (which we described in the Corporate Issuers topic area). Share-based compensation does not require cash outflows from the company, but issuing employees stock will dilute the proportional ownership of existing shareholders and reduce earnings per share."
+        },
+        {
+          "type": "paragraph",
+          "text": "A criticism of share-based compensation is that an individual employee is unlikely able to directly influence the company’s stock price—which, to a certain extent, is driven by the ebbs and flows of the markets. There is also a danger that stock award may make managers too risk-averse, to prevent declines in the value of their holdings. Stock options, on the other hand, may cause managers to take on too much risk, because options have asymmetrical payoffs. An option has value if the stock price is above the exercise price, but its value cannot fall below zero if the stock price is below the exercise price."
+        },
+        {
+          "type": "paragraph",
+          "text": "IFRS and U.S. GAAP both require the company to estimate the fair value of any stock-based compensation at the grant date, and to expense it to the income statement over the vesting period. The vesting period (service period) is the time between the grant date and when the employee receives the stock or can first exercise a stock option."
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Stock grants. These are shares awarded outright, with restrictions, or contingent on"
+        },
+        {
+          "type": "paragraph",
+          "text": "performance. The fair value of the stock grant is the share price on the grant date. If vesting is not immediate, the compensation expense will be recognized between the grant date and the vesting date, which is known at the service period. If vesting is immediate, then the full fair value is recognized as an expense in the income statement on the grant date."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Performance shares. These are stock grants that depend on meeting a set"
+        },
+        {
+          "type": "paragraph",
+          "text": "performance target. Typically, the performance targets are not share price related, but instead focus on metrics like return on equity. While this addresses the concern that the individual may have little influence over share price, it may create incentives for managers to manipulate financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock grants that do not vest until certain criteria are met (typically, length of service or performance goals) are often referred to as restricted stock units."
+        },
+        {
+          "type": "paragraph",
+          "text": "Employee stock options are options to invest in the company’s stock at a given price (the exercise price) at a future date. Unlike stock grants, which have value as long as the stock price is greater than zero, an option only has value if the stock price is above the exercise price. If an employee stock option is exercised, the company issues new shares in return for the exercise price. Option valuation models, such as the Black-Scholes-Merton or binomial models, are needed to compute the fair value of the option on the grant date. Some of the inputs that the models require are highly subjective—in"
+        },
+        {
+          "type": "paragraph",
+          "text": "particular, the assumed volatility of the company’s stock price over the life of the option. The fair value is then expensed between the grant date and the vesting date (the date the option can first be exercised)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock grants have the following effects on financial statements:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The grant date is when the fair value is established. Fair value is normally the market"
+        },
+        {
+          "type": "paragraph",
+          "text": "price on this date.\n2. If vesting is immediate, the full fair value is expensed to the income statement, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "both common stock and additional paid-in capital (APIC) are increased by this amount.\n3. If there is a length of time between the grant date and the vesting period (service"
+        },
+        {
+          "type": "paragraph",
+          "text": "period), a compensation expense is recognized in each year over the service period in the income statement on a straight-line basis. This appears in equity in an account such as a share-based compensation reserve or APIC. Over the entire service period, the total amount of the fair value of the option on the grant date will have been expensed to the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. At the end of the service period, any amount remaining in an equity reserve will be"
+        },
+        {
+          "type": "paragraph",
+          "text": "recycled into common stock and APIC."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock options have the following effects on financial statements:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The fair value of the option is established using the option valuation methodology"
+        },
+        {
+          "type": "paragraph",
+          "text": "adopted.\n2. As with grants, at the grant date, there is no impact on common stock or APIC, and"
+        },
+        {
+          "type": "paragraph",
+          "text": "the fair value is spread, straight-line, over the service period as a compensation expense in the income statement and an increase in APIC or a shared-based compensation reserve (IFRS 2 does not specify a required equity account)."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. For both grants and options, the expense in the income statement reduces retained"
+        },
+        {
+          "type": "paragraph",
+          "text": "earnings; however, stockholders’ equity remains constant by increasing equity by the same amount.\n4. On exercise of the option, cash increases by the exercise price received. Stockholders’"
+        },
+        {
+          "type": "paragraph",
+          "text": "equity increases by the same amount, split between common stock at par and APIC, with any amount in an equity reserve also being recycled into APIC."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stock-based appreciation rights (SARs) generate cash for the holders that is linked to stock performance. The employee receives payments based on the change in value of the company’s shares without needing to hold the stock. These have the advantage of aligning employees’ and shareholders’ interest without creating new shares and diluting existing shareholders. They have payoffs similar to stock options, and so do not introduce bias toward risk-averse behavior. The downside for the company is that they result in cash outflows when the stock performs well. Non-exchange-traded firms may use a version of this called phantom stock, where the cash payments are related to the performance of a hypothetical stock."
+        },
+        {
+          "type": "question",
+          "objectiveId": "34.c",
+          "text": "What should we know about the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation?"
+        },
+        {
+          "type": "heading",
+          "text": "Lease Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "The objective of lease disclosures is to provide users of financial statements with a basis to assess the effect of leasing activities on the entity’s financial position, performance, and cash flows. To achieve that objective, lessees and lessors disclose both qualitative and quantitative information."
+        },
+        {
+          "type": "paragraph",
+          "text": "As indicated in IFRS 16, here is what lessee disclosures must include:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The carrying amount included in the balance sheet for the ROU asset by class of underlying asset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Total cash outflows relating to the lease The interest expense included in the income statement resulting from the lease liability Depreciation (amortization) expensed in the period on the ROU asset, by class of underlying asset"
+        },
+        {
+          "type": "paragraph",
+          "text": "Expenses relating to variable lease payments not included in lease liabilities"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Variable lease payments are included in the disclosure for lessees and lessors, but they are not defined by the Level I curriculum. There are two types of variable lease payments. The first is where the rental payments are linked to an index or rate (e.g., a market reference interest rate or the rate of inflation). The current lease liability and ROU asset are based on the current value of the index or rate and then are remeasured when there are changes. The second type relates to variable payments depending on future sales or use of the asset. These items are not included in the lease liability or ROU asset, and instead are expensed when occurred."
+        },
+        {
+          "type": "paragraph",
+          "text": "Additions to ROU assets Maturity analysis of lease liabilities and the split between current and long-term liabilities"
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Next year’s principal repayment will be a current liability, and the remaining principal repayments will be reported in long-term liabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Income statement expenses relating to low-value and short-term leases"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quantitative and qualitative information on the following: –  The nature of the leasing activities"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Future cash outflows to which the lessee is exposed to that are not reflected in the"
+        },
+        {
+          "type": "paragraph",
+          "text": "lease liability (could include any guarantees of the leased asset’s residual value) –  Restrictions and covenants imposed by the lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Sale and leaseback transactions (where the lessee sells the asset to the lessor and"
+        },
+        {
+          "type": "paragraph",
+          "text": "then immediately leases it back)"
+        },
+        {
+          "type": "paragraph",
+          "text": "As indicated in IFRS 16, lessors must disclose the following for finance leases:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Selling profit or loss on derecognition of the asset Finance income (interest) recognized in the income statement relating to the net investment in the lease (lease receivable asset) Income relating to variable lease payments not included in the measurement of the net investment in the lease Qualitative and quantitative explanation of significant changes in the net investment in the lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "Maturity analysis of lease payments receivable Reconciliation of undiscounted lease payments to the net investment in the lease"
+        },
+        {
+          "type": "paragraph",
+          "text": "As indicated in IFRS 16, lessors must disclose the following for operating leases:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lease income recognized in the income statement, separately disclosing income for variable lease payments that do not depend on an index or rate Maturity analysis of lease payments receivable—at a minimum, must show undiscounted lease payments to be received in each of the next five years and aggregated amounts beyond five years."
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying asset remains in the lessor’s balance sheet and must comply with the disclosure for the following: –  IAS 16 for leases of property, plant and equipment, disaggregated by class"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  IAS 36: Impairments"
+        },
+        {
+          "type": "heading",
+          "text": "Pension Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "For defined contribution plans, the only disclosure requirement of IAS 19 is separate disclosure of the employer’s contribution expensed in the income statement."
+        },
+        {
+          "type": "paragraph",
+          "text": "For defined benefit plans, IAS 19 sets out the following objectives:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Explain the characteristics and risks of its defined benefit plan. Much of the risk in"
+        },
+        {
+          "type": "paragraph",
+          "text": "defined benefit plans relates to the funded status of the plan—and in particular, underfunded plans."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Identify amounts in the financial statements relating to defined benefit plans.\n3. Describe how defined benefit plans affect amounts, timings, and uncertainties relating"
+        },
+        {
+          "type": "paragraph",
+          "text": "to future cash flows. (Note that the cash flows relating to defined benefit plans are the employers’ contribution.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the firm has discretion regarding how to achieve these objectives, some minimum disclosures are required. Disclosure requirements are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The nature of the plan, governance, regulatory framework, and risk exposures Reconciliations of beginning and ending values for funded status, the present value of the defined benefit obligation, and plan assets, showing components of the change"
+        },
+        {
+          "type": "paragraph",
+          "text": "(includes changes in the balance sheet net asset or liability that are taken to the income statement expense and to OCI)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sensitivity analysis showing how changes to key actuarial assumptions (discount rate, rate of salary growth, mortality rates, etc.) affect the present value of the defined benefit obligation Composition of plan assets by asset type Expected employer contributions for the next period and beyond"
+        },
+        {
+          "type": "paragraph",
+          "text": "The maturity profile of the defined benefit obligation"
+        },
+        {
+          "type": "heading",
+          "text": "Share-Based Compensation Disclosures"
+        },
+        {
+          "type": "paragraph",
+          "text": "The objective of these disclosures is to provide users of the accounts with sufficient information to understand the nature and extent of stock-based compensation arrangements, including their impacts on current and future cash flows. Firms must disclose:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The nature of the plan and key details such as grant date, vesting date, and service period, as well as settlement characteristics of employee stock options (physical delivery or cash settlement) How the fair value at the grant date was determined"
+        },
+        {
+          "type": "paragraph",
+          "text": "The effect of share-based transactions on earnings and the financial position (i.e., impacts on the income statement and balance sheet)"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "34.a",
+      "text": "How can we explain the financial reporting of leases from the perspectives of lessors and lessees?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Advantages of leasing rather than purchasing an asset may include a smaller initial cash outflow, lower-cost financing, and less risk of obsolescence."
+    },
+    {
+      "type": "paragraph",
+      "text": "A lease transfers the benefits and risks of ownership of the asset to the lessee. A finance lease must meet at least one of the following criteria:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Ownership of the leased asset transfers to the lessee.\n2. The lessee has an option to buy the asset and is expected to exercise it."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. The lease is for most of the asset’s useful life.\n4. The present value of the lease payments is greater than or equal to the asset’s fair"
+    },
+    {
+      "type": "paragraph",
+      "text": "value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only"
+    },
+    {
+      "type": "paragraph",
+      "text": "suitable for use by the lessee)."
+    },
+    {
+      "type": "paragraph",
+      "text": "If none are met, the lease is an operating lease."
+    },
+    {
+      "type": "heading",
+      "text": "Lessee Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Under IFRS, for both finance and operating leases, except for short-term leases, a lessee reports a right-of-use (ROU) asset and a lease liability on its balance sheet, both equal to the present value of the promised lease payments. The interest portion of each lease payment is reported as an interest expense, while the principal repayment portion of each payment reduces the lease liability. For short-term or low-value leases, rent expense is reported on the income statement, and no balance sheet entries are required."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under U.S. GAAP, reporting for a finance lease is the same as under IFRS. For an operating lease, the reporting is similar as under IFRS, except that the entire lease payment is recorded as a lease expense and the amortization of the ROU asset is equal to the principal repayment. For short-term leases, rent expense is reported on the income statement, and no balance sheet entries are required."
+    },
+    {
+      "type": "heading",
+      "text": "Lessor Accounting"
+    },
+    {
+      "type": "paragraph",
+      "text": "A lease that is classified as finance or operating by the lessee is classified the same way by the lessor."
+    },
+    {
+      "type": "paragraph",
+      "text": "Under both IFRS and U.S. GAAP, with a finance lease, the lessor removes the leased asset from its balance sheet and adds a lease receivable asset. The lessor reports the interest portion of the lease payments as income. For an operating lease, the lessor keeps the leased asset on its balance sheet, reports lease payments as income, and reports depreciation and other costs as expenses."
+    },
+    {
+      "type": "paragraph",
+      "text": "For a lessor, finance leases can be sales-type leases or direct financing leases. For a dealer or manufacturer of the leased equipment, the sales-type treatment is used. A profit or loss is recorded on the leased asset, as if it was inventory sold at initiation of the lease. For a direct financing lease, any gain or loss on derecognition is deferred and recognized in the income statement over the life of the lease as interest."
+    },
+    {
+      "type": "question",
+      "objectiveId": "34.b",
+      "text": "How can we explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans?"
+    },
+    {
+      "type": "heading",
+      "text": "Defined Benefit Pension Plan Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "A firm reports a net pension liability on its balance sheet if the fair value of a defined benefit plan’s assets is less than the estimated pension obligation, or a net pension asset if the fair value of the plan’s assets is greater than the estimated pension obligation. The change in the net pension asset or liability is reflected in a firm’s income statement, and as changes to accumulated other comprehensive income (OCI) each period."
+    },
+    {
+      "type": "paragraph",
+      "text": "IFRS refers to the estimated pension liability as the present value of defined benefit obligations (PVDBO), while U.S. GAAP uses the term projected benefit obligation (PBO). In practice, the PVDBO and the PBO are the same. Both are equal to the benefits earned to date, to be paid between retirement and death, discounted back to the balance sheet date. The computations are complex and require actuaries to estimate the assumptions and values."
+    },
+    {
+      "type": "paragraph",
+      "text": "Given consistent actuarial assumptions, the total periodic cost of the defined benefit plan is the same under IFRS and U.S. GAAP. The amounts taken in the income statement and OCI, however, differ."
+    },
+    {
+      "type": "paragraph",
+      "text": "Service cost is the present value of the additional benefits earned by employees for being a member of the plan for an additional service period. Both IFRS and U.S. GAAP include this in the income statement expense."
+    },
+    {
+      "type": "paragraph",
+      "text": "The interest cost is the increase in the PVDBO (PBO) due to the passage of time. IFRS nets the interest cost with the expected return on plan assets to show interest income or expense. U.S. GAAP shows these two components separately as they can be computed using different rates. Whether reported net or separately, they are a component of the income statement expense."
+    },
+    {
+      "type": "paragraph",
+      "text": "Changes to the estimated pension liability as a result of actuarial estimates changing and the difference between actual and expected return on plan assets are taken directly to OCI. IFRS refers to these amounts as remeasurements, while U.S. GAAP refers to them as actuarial gains and losses. U.S. GAAP may potentially amortize these amounts through future income statement expenses, while IFRS does not."
+    },
+    {
+      "type": "paragraph",
+      "text": "Past service costs are changes to the estimated pension liability as a result of benefits earned in prior periods changing if the plan is amended. IFRS expenses these amounts in the income statement in the year of change. U.S. GAAP takes these amounts to OCI and then amortizes them to the income statement over the remainder of the employees’ service life."
+    },
+    {
+      "type": "heading",
+      "text": "Defined Contribution Pension Plan Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "A pension expense for a defined contribution pension plan is equal to the employer’s contributions. There is no balance sheet asset or liability reported, providing the employer’s contribution has been made by year-end."
+    },
+    {
+      "type": "heading",
+      "text": "Stock Grants and Options Reporting"
+    },
+    {
+      "type": "paragraph",
+      "text": "Stock grants and stock options serve to reward employees and align employees and shareholders’ interest to reduce agency cost. Advantages to the company include the lack of cash outflows. Disadvantages include the employees’ relative lack of influence over the company’s stock price and dilution of existing shareholders."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stock grants can have immediate or delayed vesting. The fair value of a stock grant is established on the grant date and is equal to the stock’s fair value. If vesting is immediate, the fair value is expensed to the income statement, and common stock and additional paid-in capital (APIC) are adjusted in the balance sheet, as if the company was issuing shares. If there is a period between the grant and vesting, it is referred to as the service period. The fair value of the stock grant is spread straight-line as a"
+    },
+    {
+      "type": "paragraph",
+      "text": "compensation expense in the income statement and increases common stock and APIC in the balance sheet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Stock options give the employee the right to buy shares in the future at the exercise price. A criticism of employee stock options is that the binary nature of payoffs can lead to excessive risk taking. The fair value of the option must be estimated using subjective assumptions. The fair value is then expensed straight-line to the income statement over the vesting period. The vesting period is from the grant date until the first date the options can be exercised. A compensation expense is recorded in the income statement, and APIC increased in the balance sheet. At the point the options are exercised in the future cash increases by the exercise price received, common stock increases by the par value of share issued and any balance is taken to APIC. If the options expire and are not exercised, no adjustments need to be made."
+    },
+    {
+      "type": "question",
+      "objectiveId": "34.c",
+      "text": "What should we know about the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Both IFRS and U.S. GAAP set out the objectives of disclosure for leases, defined benefit pension plans, and stock-based compensation. The objective of the disclosure is to provide the users of the accounts with sufficient information to understand the nature, risks, and extent of leases and compensation plans, including their impacts on current and expected cash flows. While companies have discretion over the disclosure needed to achieve these objectives, the accounting standards provide guidance."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "34.a",
+      "statement": "Explain the financial reporting of leases from the perspectives of lessors and lessees.",
+      "question": "How can we explain the financial reporting of leases from the perspectives of lessors and lessees?"
+    },
+    {
+      "id": "34.b",
+      "statement": "Explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans.",
+      "question": "How can we explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans?"
+    },
+    {
+      "id": "34.c",
+      "statement": "Describe the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation.",
+      "question": "What should we know about the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-34-quiz-1",
+      "title": "Knowledge check 34.1",
+      "moduleId": "34.1",
+      "questions": [
+        {
+          "id": "r34-q1",
+          "number": 1,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "Compared to purchasing a long-lived asset using debt financing, leasing the asset most likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "is more costly to the lessee."
+            },
+            {
+              "id": "B",
+              "text": "requires a greater initial cash outflow from the lessee."
+            },
+            {
+              "id": "C",
+              "text": "allows the lessee to avoid the risk of obsolescence."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Avoiding the risk of obsolescence is one of the advantages of leasing assets instead of purchasing them. At the end of a lease, the lessee often returns the leased asset to the lessor, and therefore does not bear the risk of an unexpected decline in the asset’s end-of-lease value. The interest rate implicit in a lease contract may be less than the interest rate on a loan to purchase the asset. The terms of a lease may not require all the covenants typically included in loan agreements or bond indentures.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Avoiding the risk of obsolescence is one of the advantages of leasing assets instead"
+            },
+            {
+              "type": "paragraph",
+              "text": "of purchasing them. At the end of a lease, the lessee often returns the leased asset to the lessor, and therefore does not bear the risk of an unexpected decline in the asset’s end-of-lease value. The interest rate implicit in a lease contract may be less than the interest rate on a loan to purchase the asset. The terms of a lease may not require all the covenants typically included in loan agreements or bond indentures."
+            }
+          ]
+        },
+        {
+          "id": "r34-q2",
+          "number": 2,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "Under IFRS, which of the following lease types least likely requires a lessee to create a right-of-use (ROU) asset and a lease liability?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Low-value leases."
+            },
+            {
+              "id": "B",
+              "text": "Operating leases."
+            },
+            {
+              "id": "C",
+              "text": "Finance leases."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Both operating leases and finance leases report an ROU asset and a lease liability, and both are accounted for identically. Under U.S. GAAP, operating and financing leases also report both an ROU asset and lease liability; however, the accounting for the two types is slightly different. Exceptions exist for low-value assets and leases with durations of less than one year under IFRS (U.S. GAAP has no monetary value criteria).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Both operating leases and finance leases report an ROU asset and a lease liability,"
+            },
+            {
+              "type": "paragraph",
+              "text": "and both are accounted for identically. Under U.S. GAAP, operating and financing leases also report both an ROU asset and lease liability; however, the accounting for the two types is slightly different. Exceptions exist for low-value assets and leases with durations of less than one year under IFRS (U.S. GAAP has no monetary value criteria)."
+            }
+          ]
+        },
+        {
+          "id": "r34-q3",
+          "number": 3,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "During the life of a long-term lease under IFRS, the lessee recognizes:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "interest expense only."
+            },
+            {
+              "id": "B",
+              "text": "amortization expense and interest expense."
+            },
+            {
+              "id": "C",
+              "text": "neither amortization expense nor interest expense."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "At lease inception, the lessee records a right-of-use (ROU) asset and a lease liability, both equal to the present value of the lease payments. In each period over the life of the lease, the lessee recognizes interest expense for the interest portion of the lease payments and amortization expense on the ROU asset.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "At lease inception, the lessee records a right-of-use (ROU) asset and a lease"
+            },
+            {
+              "type": "paragraph",
+              "text": "liability, both equal to the present value of the lease payments. In each period over the life of the lease, the lessee recognizes interest expense for the interest portion of the lease payments and amortization expense on the ROU asset."
+            }
+          ]
+        },
+        {
+          "id": "r34-q4",
+          "number": 4,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "Criteria for reporting a lease as a finance lease least likely include that the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "present value of the lease payments is less than the fair value of the asset."
+            },
+            {
+              "id": "B",
+              "text": "lease term is for substantially most of the asset’s useful life."
+            },
+            {
+              "id": "C",
+              "text": "lessee directs the use of the asset and retains the benefits from the asset’s use."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "IFRS and U.S. GAAP treat a lease as a finance lease (for both lessee and lessor) if any of the following criteria are met: 1. Ownership of the leased asset transfers to the lessee. 2. The lessee has an option to buy the asset and is expected to exercise it. 3. The lease is for most of the asset’s useful life. 4. The present value of the lease payments is greater than or equal to the asset’s fair value. 5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable for use by the lessee).",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "IFRS and U.S. GAAP treat a lease as a finance lease (for both lessee and lessor) if"
+            },
+            {
+              "type": "paragraph",
+              "text": "any of the following criteria are met:"
+            },
+            {
+              "type": "paragraph",
+              "text": "1. Ownership of the leased asset transfers to the lessee."
+            },
+            {
+              "type": "paragraph",
+              "text": "2. The lessee has an option to buy the asset and is expected to exercise it."
+            },
+            {
+              "type": "paragraph",
+              "text": "3. The lease is for most of the asset’s useful life."
+            },
+            {
+              "type": "paragraph",
+              "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable"
+            },
+            {
+              "type": "paragraph",
+              "text": "for use by the lessee)."
+            }
+          ]
+        },
+        {
+          "id": "r34-q5",
+          "number": 5,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "For a lessor, operating leases result in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "interest income recorded in the income statement."
+            },
+            {
+              "id": "B",
+              "text": "a profit or loss at the beginning of the lease."
+            },
+            {
+              "id": "C",
+              "text": "depreciation on the leased asset."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "For a lessor, the asset remains in their balance sheet if treated as an operating lease, and is depreciated over its life. There is no derecognition of the asset, so there is no gain or loss at the outset of the lease. Payments from the lessee are treated as rental income.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For a lessor, the asset remains in their balance sheet if treated as an operating"
+            },
+            {
+              "type": "paragraph",
+              "text": "lease, and is depreciated over its life. There is no derecognition of the asset, so there is no gain or loss at the outset of the lease. Payments from the lessee are treated as rental income."
+            }
+          ]
+        },
+        {
+          "id": "r34-q6",
+          "number": 6,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "For a lessee with an operating lease, which of the following is most accurate?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Both IFRS and U.S. GAAP report interest and amortization in the income statement."
+            },
+            {
+              "id": "B",
+              "text": "For both IFRS and U.S. GAAP, the right-of-use (ROU) asset will equal the lease liability over the life of the lease."
+            },
+            {
+              "id": "C",
+              "text": "IFRS will typically result in a lower ROU asset than U.S. GAAP."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "U.S. GAAP reports an income statement expense that is equal to the lease payment. While conceptually, the amount contains both interest and amortization, they are not shown separately on the income statement. IFRS reports both interest and amortization in the income statement, and the aggregate of the two amounts will not equal the lease payment. Under U.S. GAAP, the ROU asset and the lease liability are equal at all points over the lease’s life. Under IFRS, the only points where the ROU asset is the same as the lease liability are at initiation and the end of the lease. IFRS will result in a lower ROU asset than U.S. GAAP. Under IFRS, the ROU asset is amortized over the life of the asset (using either straight-line or accelerated methods). Under U.S. GAAP, the amortization is equal to the principal payment on the liability. Principal payments initially are lower due to the high interest cost, but as the lease ages and the liability decreases, the interest element of each payment will decrease and the principal element will increase. The result is that accumulated amortization under IFRS is greater than U.S. GAAP, resulting in a lower ROU asset.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "U.S. GAAP reports an income statement expense that is equal to the lease payment."
+            },
+            {
+              "type": "paragraph",
+              "text": "While conceptually, the amount contains both interest and amortization, they are not shown separately on the income statement. IFRS reports both interest and amortization in the income statement, and the aggregate of the two amounts will not equal the lease payment. Under U.S. GAAP, the ROU asset and the lease liability are equal at all points over the lease’s life. Under IFRS, the only points where the ROU asset is the same as the lease liability are at initiation and the end of the lease. IFRS will result in a lower ROU asset than U.S. GAAP. Under IFRS, the ROU asset is amortized over the life of the asset (using either straight-line or accelerated methods). Under U.S. GAAP, the amortization is equal to the principal payment on the liability. Principal payments initially are lower due to the high interest cost, but as the lease ages and the liability decreases, the interest element of each payment will decrease and the principal element will increase. The result is that accumulated amortization under IFRS is greater than U.S. GAAP, resulting in a lower ROU asset."
+            }
+          ]
+        },
+        {
+          "id": "r34-q7",
+          "number": 7,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "For a lessor, cash flows from a lease are classified as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "operating."
+            },
+            {
+              "id": "B",
+              "text": "investing."
+            },
+            {
+              "id": "C",
+              "text": "financing."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Cash flows from a lease are operating cash inflows for the lessor.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Cash flows from a lease are operating cash inflows for the lessor."
+            }
+          ]
+        },
+        {
+          "id": "r34-q8",
+          "number": 8,
+          "objectiveIds": [
+            "34.a"
+          ],
+          "prompt": "If the lessor in a finance lease is a manufacturer or dealer of leased equipment, the lessor will:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "retain the asset in its balance sheet and continue to depreciate it."
+            },
+            {
+              "id": "B",
+              "text": "record higher revenues at lease inception when compared to an operating lease."
+            },
+            {
+              "id": "C",
+              "text": "record lease revenue in its income statement rather than interest and amortization."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Finance leases for a lessor may be classified as either sales-type leases or direct financing leases. If the lessor is a manufacturer or dealer of the leased equipment, the asset is treated as inventory sold at the outset of the lease. Revenue is reported as well as a cost of sales amount. The revenue is the present value of lease receipts. Cost of sales is the carrying value of the asset less the present value of any residual value. The lease is a direct financing lease if the lessor is a financing company (buying an asset on behalf of the lessee and leasing it out). Any gain or loss on derecognition of the asset does not affect the income statement on lease initiation. The gain or loss is deferred and recognized in the income statement, as interest, over the life of the lease. For an operating lease, revenue is recognized when lease payments from the lessee fall due.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Finance leases for a lessor may be classified as either sales-type leases or direct"
+            },
+            {
+              "type": "paragraph",
+              "text": "financing leases. If the lessor is a manufacturer or dealer of the leased equipment, the asset is treated as inventory sold at the outset of the lease. Revenue is reported as well as a cost of sales amount. The revenue is the present value of lease receipts. Cost of sales is the carrying value of the asset less the present value of any residual value. The lease is a direct financing lease if the lessor is a financing company (buying an asset on behalf of the lessee and leasing it out). Any gain or loss on derecognition of the asset does not affect the income statement on lease initiation. The gain or loss is deferred and recognized in the income statement, as interest, over the life of the lease. For an operating lease, revenue is recognized when lease payments from the lessee fall due."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-34-quiz-2",
+      "title": "Knowledge check 34.2",
+      "moduleId": "34.2",
+      "questions": [
+        {
+          "id": "r34-q9",
+          "number": 1,
+          "objectiveIds": [
+            "34.b"
+          ],
+          "prompt": "A net pension asset or liability can be associated with:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "defined benefit pension plans only."
+            },
+            {
+              "id": "B",
+              "text": "defined contribution pension plans only."
+            },
+            {
+              "id": "C",
+              "text": "either defined benefit or defined contribution pension plans."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Defined benefit pension plans can be overfunded and result in a net pension asset, or they can be underfunded and result in a net pension liability. Defined contribution plans do not result in balance sheet assets or liabilities because they are neither owned by the sponsoring firm nor obligations of the sponsoring firm.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Defined benefit pension plans can be overfunded and result in a net pension asset,"
+            },
+            {
+              "type": "paragraph",
+              "text": "or they can be underfunded and result in a net pension liability. Defined contribution plans do not result in balance sheet assets or liabilities because they are neither owned by the sponsoring firm nor obligations of the sponsoring firm."
+            }
+          ]
+        },
+        {
+          "id": "r34-q10",
+          "number": 2,
+          "objectiveIds": [
+            "34.b"
+          ],
+          "prompt": "Which of the following is most accurate concerning defined benefit pension plans under both IFRS and U.S. GAAP?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The income statement expense is the same."
+            },
+            {
+              "id": "B",
+              "text": "The amounts taken to other comprehensive income (OCI) are the same."
+            },
+            {
+              "id": "C",
+              "text": "The total periodic cost of the plan is the same."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The total cost of the defined benefit pension plan is identical for both IFRS and U.S. GAAP. IFRS and U.S. GAAP differ in the amounts recognized in the income statement and the amounts taken to OCI.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The total cost of the defined benefit pension plan is identical for both IFRS and U.S."
+            },
+            {
+              "type": "paragraph",
+              "text": "GAAP. IFRS and U.S. GAAP differ in the amounts recognized in the income statement and the amounts taken to OCI."
+            }
+          ]
+        },
+        {
+          "id": "r34-q11",
+          "number": 3,
+          "objectiveIds": [
+            "34.b"
+          ],
+          "prompt": "Which of the following is least likely a criticism of employee stock options?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "The binary nature of option payoffs may encourage excessive risk taking."
+            },
+            {
+              "id": "B",
+              "text": "The fair value requires subjective estimates at the grant date."
+            },
+            {
+              "id": "C",
+              "text": "They result in cash outflows for the company on exercise."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "On exercise, the company receives the option’s exercise price (a cash inflow to the company) and creates new shares. This dilutes existing stockholders’ ownership proportions in the company. The fair value of the option at the grant date requires subjective estimation—in particular, the volatility of the company’s stock price over the service period. By nature, options have binary payoffs, being either zero if the stock price is below the exercise price or positive if the stock price is above the exercise price. This may lead to excessive risk taking because the option holder gains if the stock price increases, but if the stock price decreases the option holder does not experience losses except in the sense that the options go unexercised.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "On exercise, the company receives the option’s exercise price (a cash inflow to the"
+            },
+            {
+              "type": "paragraph",
+              "text": "company) and creates new shares. This dilutes existing stockholders’ ownership proportions in the company. The fair value of the option at the grant date requires subjective estimation—in particular, the volatility of the company’s stock price over the service period. By nature, options have binary payoffs, being either zero if the stock price is below the exercise price or positive if the stock price is above the exercise price. This may lead to excessive risk taking because the option holder gains if the stock price increases, but if the stock price decreases the option holder does not experience losses except in the sense that the options go unexercised."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

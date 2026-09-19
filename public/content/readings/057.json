@@ -1,0 +1,514 @@
+{
+  "readingId": 57,
+  "title": "Yield-Based Bond Duration Measures and Properties",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "57.1",
+      "title": "Yield-Based Bond Duration Measures and Properties",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "57.a",
+          "text": "What should we understand about define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modified duration (ModDur) is calculated as Macaulay duration (MacDur) divided by one plus the bond’s periodic rate of return (YTM divided by periodicity)."
+        },
+        {
+          "type": "paragraph",
+          "text": "For an annual-pay bond, this is the general form of ModDur:"
+        },
+        {
+          "type": "paragraph",
+          "text": "ModDur = MacDur / (1 + YTM)"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a semiannual-pay bond with a YTM quoted on a semiannual bond basis, this is the form:"
+        },
+        {
+          "type": "paragraph",
+          "text": "ModDurSEMI = MacDurSEMI / (1 + YTM / 2)"
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Modified duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 5-year, 11% annual coupon bond priced at 86.59 to yield 15% to maturity has a Macaulay duration of 4.03. Calculate the modified duration of this bond."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because it is an annual coupon bond (periodicity = 1), its modified duration can be calculated as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "ModDur = 4.03 / 1.15 = 3.50"
+        },
+        {
+          "type": "paragraph",
+          "text": "Modified duration provides an estimate for the percentage change in a bond’s price given a 1% change in YTM:"
+        },
+        {
+          "type": "paragraph",
+          "text": "approximate percentage change in bond price = −ModDur × ΔYTM"
+        },
+        {
+          "type": "paragraph",
+          "text": "Based on a ModDur of 3.50, in response to an 0.5% increase in YTM the price of the bond should fall by approximately 3.50 × 0.5% = 1.75%. The resulting price estimate of 86.59 × (1 − 0.0175) = 85.075 is close to the value of the bond calculated directly using a YTM of 15.5%, which is 85.092:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 5; I/Y = 15.5; FV = 100; PMT = 11; CPT → PV = −85.092"
+        },
+        {
+          "type": "paragraph",
+          "text": "For a semiannual-pay bond, ModDurSEMI can be annualized (from semiannual periods to annual periods) by dividing by two, and then used as the approximate change in price for a 1% change in a bond’s YTM."
+        },
+        {
+          "type": "heading",
+          "text": "Approximate Modified Duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can approximate modified duration directly using bond values for an increase in YTM and for a decrease in YTM of the same size."
+        },
+        {
+          "type": "paragraph",
+          "text": "The calculation of approximate ModDur is based on a given change in YTM. V− is the price of the bond if YTM is decreased by ΔYTM, and V+ is the price of the bond if the YTM is increased by ΔYTM. Approximate ModDur is given by the following:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{bf~approximate~ModDur}=\\frac{V_{-}-V_{+}} {2 V_{0} \\Delta Y T M}",
+          "display": true,
+          "sourceAsset": "50fb28010f538714334a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The formula uses the average of the magnitudes of the price increase and the price decrease, which is why V− − V+ in the numerator is divided by two in the denominator."
+        },
+        {
+          "type": "paragraph",
+          "text": "V0, the current price of the bond, is in the denominator to convert this average price change to a percentage, and the ΔYTM term is in the denominator to scale the duration measure to a 1% change in yield by convention. Note that the ΔYTM term in the denominator must be entered as a decimal (rather than in a whole percentage) to properly scale the duration estimate."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating approximate modified duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 5-year, 11% annual coupon bond priced at 86.59 to yield 15% to maturity. If its YTM increases by 50 basis points, its price will decrease to 85.092. If its YTM decreases by 50 basis points, its price will increase to 88.127. Calculate the approximate ModDur."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {l} {\\mathrm{The~approximate~ModDur~is~} \\frac{88.127-85.092} {2 \\times86.59 \\times0.005}=3.505 \\mathrm{~and~the~approximate~change~in~of~}} \\\\ {\\mathrm{price~for~a~196~change~in~YTM~is~3.50576.~This~result~is~very~close~to~the~ModDur~of~}} \\\\ {3.50 \\mathrm{~calculated~in~an~earlier~example.~}} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "01643876b2d0c0c5564a.png",
+          "prose": "The approximate ModDur is and the approximate change in price for a 1% change in YTM is 3.505%. This result is very close to the ModDur of 3.50 calculated in an earlier example."
+        },
+        {
+          "type": "paragraph",
+          "text": "Modified duration is a linear estimate of the relation between a bond’s price and YTM, whereas the actual relation is convex—not a straight line. This means that the modified duration measure provides good estimates of bond prices for small changes in yield, but increasingly poor estimates for larger changes in yield as the effect of the curvature of the price-yield curve is more pronounced. We illustrate this in Figure 57.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 57.1: Approximate ModDur"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/cd0af4b7234dbcce56b4.png",
+          "alt": "Equation, table, or diagram: Figure 57.1: Approximate ModDur",
+          "width": 463,
+          "height": 315,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "heading",
+          "text": "Money Duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "The money duration of a bond position (also called dollar duration) is expressed in currency units:"
+        },
+        {
+          "type": "paragraph",
+          "text": "money duration = annual ModDur × full price of bond position"
+        },
+        {
+          "type": "paragraph",
+          "text": "Multiplying the money duration of a bond by a given change in YTM (as a decimal) will provide an estimate for the change in bond value for that change in YTM."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Money duration"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Calculate the money duration on a coupon date of a $2 million par value bond that"
+        },
+        {
+          "type": "paragraph",
+          "text": "has a ModDur of 7.42 and a full price of 101.32, expressed for the whole bond and per $100 of face value."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. What will be the impact on the value of the bond of a 25 basis point increase in its"
+        },
+        {
+          "type": "paragraph",
+          "text": "YTM?"
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The money duration for the bond is ModDur times the full value of the bond:"
+        },
+        {
+          "type": "paragraph",
+          "text": "7.42 × $2,000,000 × 101.32% = $15,035,888"
+        },
+        {
+          "type": "paragraph",
+          "text": "The money duration per $100 of par value is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "7.42 × 101.32 = $751.79"
+        },
+        {
+          "type": "paragraph",
+          "text": "Or, $15,035,888 / ($2,000,000 / $100) = $751.79."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. $15,035,888 × 0.0025 = $37,589.72"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bond value decreases by $37,589.72."
+        },
+        {
+          "type": "paragraph",
+          "text": "The price value of a basis point (PVBP) is the money change in the full price of a bond when its YTM changes by one basis point, or 0.01%. We can calculate the PVBP directly for a bond by calculating the average of the decrease in the full value of a bond when its YTM increases by one basis point, and the increase in the full value of the bond when its YTM decreases by one basis point."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Calculating the PVBP"
+        },
+        {
+          "type": "paragraph",
+          "text": "A newly issued, 20-year, 6% annual-pay straight bond is priced at 101.39. Calculate the PVBP for this bond, assuming it has a par value of $1 million."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "First, we need to find the YTM of the bond:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 20; PV = −101.39; PMT = 6; FV = 100; CPT→ I/Y = 5.88"
+        },
+        {
+          "type": "paragraph",
+          "text": "Now, we need the values for the bond with YTMs of 5.89 and 5.87:"
+        },
+        {
+          "type": "paragraph",
+          "text": "I/Y = 5.89; CPT → PV = −101.273 (V+)"
+        },
+        {
+          "type": "paragraph",
+          "text": "I/Y = 5.87; CPT → PV = −101.507 (V−)"
+        },
+        {
+          "type": "paragraph",
+          "text": "PVBP (per $100 of par value) = (101.507 − 101.273) / 2 = 0.117"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the $1 million par value bond, each 1 basis point change in the YTM will change the bond’s price by 0.117 × $1 million × 0.01 = $1,170."
+        },
+        {
+          "type": "question",
+          "objectiveId": "57.b",
+          "text": "How can we explain how a bond’s maturity, coupon, and yield level affect its interest rate risk?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Other things equal, bonds with longer maturity will (usually) have higher interest rate risk. The present values of payments made further in the future are more sensitive to changes in the discount rate used to calculate present value than are the present values of payments made sooner."
+        },
+        {
+          "type": "paragraph",
+          "text": "We must say usually because there are instances where an increase in a discount coupon bond’s maturity will decrease its Macaulay duration. For a discount bond, duration first increases with longer maturity and then decreases over a range of relatively long maturities until it approaches the duration of a perpetuity, which is (1 + YTM) / YTM."
+        },
+        {
+          "type": "paragraph",
+          "text": "Between coupon dates, if the YTM of a coupon bond remains constant, its Macaulay duration decreases smoothly with the passage of time, and then goes back up slightly at each coupon payment date as the time to the next coupon resets to a full coupon period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other things equal, a higher coupon rate on a bond will decrease its interest rate risk. For a given maturity and YTM, the duration of a zero-coupon bond will be greater than that of a coupon bond. Increasing the coupon rate means more of a bond’s value will be from payments received sooner, so that the value of the bond will be less sensitive to changes in yield."
+        },
+        {
+          "type": "paragraph",
+          "text": "For floating-rate notes (FRNs) where coupons are periodically reset to a market reference rate (MRR), when interest rates rise, the coupon will also rise, limiting the price risk of the bond. Macaulay duration for an FRN can be calculated as the time to the next coupon reset date at the end of the current coupon period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other things equal, an increase (decrease) in a bond’s YTM will decrease (increase) its interest rate risk. To understand this, we can look to the convexity of the price-yield curve and use its slope as our proxy for interest rate risk. At lower yields, the price-yield curve has a steeper slope, indicating that price is more sensitive to a given change in yield."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "57.a",
+      "text": "What should we understand about define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modified duration is a linear estimate of the percentage change in a bond’s price that would result from a 1% change in its YTM:"
+    },
+    {
+      "type": "paragraph",
+      "text": "ModDur = MacDur / (1 + periodic return of bond) For an expected change in yield, ΔYTM, the expected change in the bond’s price is given by the following:"
+    },
+    {
+      "type": "paragraph",
+      "text": "approximate percentage change in bond price = −ModDur × ΔYTM"
+    },
+    {
+      "type": "paragraph",
+      "text": "Modified duration can be approximated by repricing the bond at different yields:"
+    },
+    {
+      "type": "math",
+      "latex": "\\mathrm{approximate~modified~duration=} \\frac{V_{-}-V_{+}} {2 V_{0} \\Delta Y T M}",
+      "display": true,
+      "sourceAsset": "f196754f5dc45aeaeed2.png"
+    },
+    {
+      "type": "paragraph",
+      "text": "Money duration is stated in currency units and is sometimes expressed per 100 of bond value:"
+    },
+    {
+      "type": "paragraph",
+      "text": "money duration = annual ModDur × full price of bond position"
+    },
+    {
+      "type": "paragraph",
+      "text": "The price value of a basis point is the change in the value of a bond, expressed in currency units, for a change in YTM of one basis point:"
+    },
+    {
+      "type": "paragraph",
+      "text": "PVBP = [(V− − V+) / 2] × par value × 0.01"
+    },
+    {
+      "type": "paragraph",
+      "text": "PVBP can also be calculated as money duration × 0.0001."
+    },
+    {
+      "type": "question",
+      "objectiveId": "57.b",
+      "text": "How can we explain how a bond’s maturity, coupon, and yield level affect its interest rate risk?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Holding other factors constant, the following are true:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Duration increases when maturity increases. Duration decreases when the coupon rate increases."
+    },
+    {
+      "type": "paragraph",
+      "text": "Duration decreases when YTM increases. Duration decreases as time passes, but increases slightly on coupon dates."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "57.a",
+      "statement": "Define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP).",
+      "question": "What should we understand about define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)?"
+    },
+    {
+      "id": "57.b",
+      "statement": "Explain how a bond’s maturity, coupon, and yield level affect its interest rate risk.",
+      "question": "How can we explain how a bond’s maturity, coupon, and yield level affect its interest rate risk?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-57-quiz-1",
+      "title": "Knowledge check 57.1",
+      "moduleId": "57.1",
+      "questions": [
+        {
+          "id": "r57-q1",
+          "number": 1,
+          "objectiveIds": [
+            "57.a"
+          ],
+          "prompt": "A 14% annual-pay coupon bond has six years to maturity. The bond is currently trading at par. Using a 25 basis point change in yield, the approximate modified duration of the bond is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.392."
+            },
+            {
+              "id": "B",
+              "text": "3.888."
+            },
+            {
+              "id": "C",
+              "text": "3.970."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "",
+          "solutionBlocks": [
+            {
+              "type": "math",
+              "latex": "\\begin{gathered}\nV_-=100.979,\\quad V_+=99.035,\\quad V_0=100.000,\\quad \\Delta y=0.0025\\\\\n\\text{Approximate modified duration}\n=\\frac{V_--V_+}{2V_0\\Delta YTM}\n=\\frac{100.979-99.035}{2(100)(0.0025)}=3.888\n\\end{gathered}",
+              "display": true,
+              "sourceAsset": "1ee599d4c5c36e7a03b9.png"
+            }
+          ]
+        },
+        {
+          "id": "r57-q2",
+          "number": 2,
+          "objectiveIds": [
+            "57.a"
+          ],
+          "prompt": "The current price of a $1,000, 7-year, 5.5% semiannual coupon bond is $1,029.23. The bond’s price value of a basis point is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$0.05."
+            },
+            {
+              "id": "B",
+              "text": "$0.60."
+            },
+            {
+              "id": "C",
+              "text": "$5.74."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "PVBP = initial price − price if yield is changed by 1 basis point. First, we need to calculate the yield so we can calculate the price of the bond with a 1 basis point change in yield. Using a financial calculator, PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years; and CPT → I/Y = 2.49998, multiplied by 2 = 4.99995, or 5.00%. Next, compute the price of the bond at a yield of 5.00% + 0.01%, or 5.01%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2); CPT → PV = $1,028.63. Next, compute the price of the bond at a yield of 5.00% − 0.01%, or 4.99%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2); CPT → PV = $1,029.82. Finally, PVBP = ($1,029.82 − $1,028.63) / 2 = $0.595.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "PVBP = initial price − price if yield is changed by 1 basis point."
+            },
+            {
+              "type": "paragraph",
+              "text": "First, we need to calculate the yield so we can calculate the price of the bond with a 1 basis point change in yield. Using a financial calculator, PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years; and CPT → I/Y = 2.49998, multiplied by 2 = 4.99995, or 5.00%."
+            },
+            {
+              "type": "paragraph",
+              "text": "Next, compute the price of the bond at a yield of 5.00% + 0.01%, or 5.01%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2); CPT → PV = $1,028.63."
+            },
+            {
+              "type": "paragraph",
+              "text": "Next, compute the price of the bond at a yield of 5.00% − 0.01%, or 4.99%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2); CPT → PV = $1,029.82."
+            },
+            {
+              "type": "paragraph",
+              "text": "Finally, PVBP = ($1,029.82 − $1,028.63) / 2 = $0.595."
+            }
+          ]
+        },
+        {
+          "id": "r57-q3",
+          "number": 3,
+          "objectiveIds": [
+            "57.a"
+          ],
+          "prompt": "The modified duration of a bond is 7.87. The approximate percentage change in price using duration only for a yield decrease of 110 basis points is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "−8.657%."
+            },
+            {
+              "id": "B",
+              "text": "+7.155%."
+            },
+            {
+              "id": "C",
+              "text": "+8.657%."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "−7.87 × (−1.10%) = 8.657%",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "−7.87 × (−1.10%) = 8.657%"
+            }
+          ]
+        },
+        {
+          "id": "r57-q4",
+          "number": 4,
+          "objectiveIds": [
+            "57.b"
+          ],
+          "prompt": "All else equal, which of the following bonds is likely to have the highest price risk?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A 10-year maturity semiannual-pay floating-rate note."
+            },
+            {
+              "id": "B",
+              "text": "A 2-year zero-coupon bond."
+            },
+            {
+              "id": "C",
+              "text": "A 2-year 10% semiannual-pay bond."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "The price risk of the FRN is very low because at the next coupon payment date, the coupons will reset to market rates, and the FRN price will reset to par. Lower coupons, all else equal, lead to greater price risk. Therefore the 2-year zero-coupon bond will have more price risk than the 2-year 10% semiannual-pay bond.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The price risk of the FRN is very low because at the next coupon payment date,"
+            },
+            {
+              "type": "paragraph",
+              "text": "the coupons will reset to market rates, and the FRN price will reset to par. Lower coupons, all else equal, lead to greater price risk. Therefore the 2-year zero-coupon bond will have more price risk than the 2-year 10% semiannual-pay bond."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

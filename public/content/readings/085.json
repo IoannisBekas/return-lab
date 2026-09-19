@@ -1,0 +1,799 @@
+{
+  "readingId": 85,
+  "title": "Portfolio Management: An Overview",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "85.1",
+      "title": "Portfolio Management Process",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "85.a",
+          "text": "What should we know about the portfolio approach to investing?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The portfolio perspective refers to evaluating individual investments by their contribution to the risk and return of an investor’s portfolio. The alternative to taking a portfolio perspective is to examine the risk and return of individual investments in isolation. An investor who holds all his wealth in a single stock because he believes it to be the best stock available is not taking the portfolio perspective’his portfolio is very risky compared to holding a diversified portfolio of stocks. Modern portfolio theory concludes that the extra risk from holding only a single security is not rewarded with higher expected investment returns. Conversely, diversification allows an investor to reduce portfolio risk without necessarily reducing the portfolio’s expected return."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the early 1950s, the research of Professor Harry Markowitz provided a framework for measuring the risk-reduction benefits of diversification. Using the standard deviation of returns as the measure of investment risk, he investigated how combining risky securities into a portfolio affected the portfolio’s risk and expected return. One important conclusion of his model is that unless the returns of the risky assets are perfectly positively correlated, risk is reduced by diversifying across assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the 1960s, professors Treynor, Sharpe, Mossin, and Lintner independently extended this work into what has become known as modern portfolio theory (MPT). MPT results in equilibrium expected returns for securities and portfolios that are a linear function of each security’s or portfolio’s market risk (the risk that cannot be reduced by diversification)."
+        },
+        {
+          "type": "paragraph",
+          "text": "One measure of the benefits of diversification is the diversification ratio. It is calculated as the ratio of the risk of an equally weighted portfolio of n securities (measured by its standard deviation of returns) to the risk of a single security selected at random from the n securities. If the average standard deviation of returns for the n stocks is 25%, and the standard deviation of returns for an equally weighted portfolio of the n stocks is 18%, the diversification ratio is 18 / 25 = 0.72. If the standard deviation of returns for an equally weighted portfolio is 25%, there are no diversification benefits and the diversification ratio equals one. A lower diversification ratio indicates a greater risk-reduction benefit from diversification."
+        },
+        {
+          "type": "paragraph",
+          "text": "While the diversification ratio provides a quick measure of the potential benefits of diversification, an equal-weighted portfolio is not necessarily the portfolio that provides the greatest reduction in risk. Computer optimization can calculate the portfolio weights that will produce the lowest portfolio risk (standard deviation of returns) for a given group of securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Portfolio diversification works best when financial markets are operating normally; diversification provides less reduction of risk during market turmoil, such as the credit contagion of 2008. During periods of financial crisis, correlations tend to increase, which reduces the benefits of diversification."
+        },
+        {
+          "type": "question",
+          "objectiveId": "85.b",
+          "text": "What should we know about the steps in the portfolio management process?"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are three major steps in the portfolio management process:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1: The planning step begins with an analysis of the investor’s risk tolerance,"
+        },
+        {
+          "type": "paragraph",
+          "text": "return objectives, time horizon, tax exposure, liquidity needs, income needs, and any unique circumstances or investor preferences."
+        },
+        {
+          "type": "paragraph",
+          "text": "This analysis results in an investment policy statement (IPS) that details the investor’s investment objectives and constraints. It should also specify an objective benchmark (such as an index return) against which the success of the portfolio management process will be measured. The IPS should be updated at least every few years and any time the investor’s objectives or constraints change significantly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: The execution step involves an analysis of the risk and return characteristics of"
+        },
+        {
+          "type": "paragraph",
+          "text": "various asset classes to determine how funds will be allocated to the various asset types. Often, in what is referred to as a top-down analysis, a portfolio manager will examine current economic conditions and forecasts of such macroeconomic variables as GDP growth, inflation, and interest rates, in order to identify the asset classes that are most attractive. The resulting portfolio is typically diversified across such asset classes as cash, fixed-income securities, publicly traded equities, hedge funds, private equity, and real estate, as well as commodities and other real assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once the asset class allocations are determined, portfolio managers may attempt to identify the most attractive securities within the asset class. Security analysts use model valuations for securities to identify those that appear undervalued in what is termed bottom-up security analysis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 3: The feedback step is the final step. Over time, investor circumstances will"
+        },
+        {
+          "type": "paragraph",
+          "text": "change, risk and return characteristics of asset classes will change, and the actual weights of the assets in the portfolio will change with asset prices. The portfolio manager must monitor these changes and rebalance the portfolio periodically in response, adjusting the allocations to the various asset classes back to their desired percentages. The manager must also measure portfolio performance and evaluate it relative to the return on the benchmark portfolio identified in the IPS."
+        },
+        {
+          "type": "question",
+          "objectiveId": "85.c",
+          "text": "What should we know about types of investors and distinctive characteristics and needs of each?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Individual investors save and invest for a variety of reasons, including purchasing a house or educating their children. In many countries, special accounts allow citizens to invest for retirement and to defer any taxes on investment income and gains until the funds are withdrawn. Defined contribution pension plans are popular vehicles for these investments. Pension plans are described later in this reading."
+        },
+        {
+          "type": "paragraph",
+          "text": "Many types of institutions have large investment portfolios. An endowment is a fund that is dedicated to providing financial support on an ongoing basis for a specific purpose. For example, in the United States, many universities have large endowment funds to support their programs. A foundation is a fund established for charitable purposes to support specific types of activities or to fund research related to a particular disease. A typical foundation’s investment objective is to fund the activity or research on a continuing basis without decreasing the real (inflation adjusted) value of the portfolio assets. Foundations and endowments typically have long investment horizons, high risk tolerance, and, aside from their planned spending needs, little need for additional liquidity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investment objective of a bank, simply put, is to earn more on the bank’s loans and investments than the bank pays for deposits of various types. Banks seek to keep risk low and need adequate liquidity to meet investor withdrawals as they occur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Insurance companies invest customer premiums with the objective of funding customer claims as they occur. Life insurance companies have a relatively long-term investment horizon, while property and casualty (P&C) insurers have a shorter investment horizon because claims are expected to arise sooner than for life insurers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Investment companies manage the pooled funds of many investors. Mutual funds manage these pooled funds in particular styles (e.g., index investing, growth investing, bond investing) and restrict their investments to particular subcategories of investments (e.g., large-firm stocks, energy stocks, speculative bonds) or particular regions (emerging market stocks, international bonds, Asian-firm stocks)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sovereign wealth funds refer to pools of assets owned by a government. For example, the Abu Dhabi Investment Authority, a sovereign wealth fund in the United Arab Emirates funded by Abu Dhabi government surpluses, has approximately USD 700 billion in assets.¹"
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 85.1 provides a summary of the risk tolerance, investment horizon, liquidity needs, and income objectives for different types of investors."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 85.1: Characteristics of Different Types of Investors"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c54ba02affce59fbccc9.png",
+          "alt": "Equation, table, or diagram: Figure 85.1: Characteristics of Different Types of Investors",
+          "width": 502,
+          "height": 229,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "question",
+          "objectiveId": "85.d",
+          "text": "What should we know about defined contribution and defined benefit pension plans?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A defined contribution pension plan is a retirement plan in which the firm contributes a sum each period to the employee’s retirement account. The firm’s contribution can be based on any number of factors, including years of service, the employee’s age, compensation, profitability, or even a percentage of the employee’s contribution. In any event, the firm makes no promise to the employee regarding the future value of the plan assets. The investment decisions are left to the employee, who assumes all of the investment risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "In a defined benefit pension plan, the firm promises to make periodic payments to employees after retirement. The benefit is usually based on the employee’s years of service and the employee’s compensation at, or near, retirement. For example, an employee might earn a retirement benefit of 2% of her final salary for each year of service. Consequently, an employee with 20 years of service and a final salary of $100,000, would receive $40,000 ($100,000 final salary × 2% × 20 years of service) each year upon retirement until death. Because the employee’s future benefit is defined, the employer assumes the investment risk. The employer makes contributions to a fund established to provide the promised future benefits. Poor investment performance will increase the amount of required employer contributions to the fund."
+        }
+      ]
+    },
+    {
+      "id": "85.2",
+      "title": "Asset Management and Pooled Investments",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "85.e",
+          "text": "What should we know about aspects of the asset management industry?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The asset management industry comprises firms that manage investments for clients. Asset management firms include both independent managers and divisions of larger financial services companies. They are referred to as buy-side firms, in contrast with sell-side firms such as broker-dealers and investment banks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Full-service asset managers are those that offer a variety of investment styles and asset classes. Specialist asset managers may focus on a particular investment style or a particular asset class. A multi-boutique firm is a holding company that includes a number of different specialist asset managers."
+        },
+        {
+          "type": "paragraph",
+          "text": "A key distinction is between firms that use active management and those that use passive management. Active management attempts to outperform a chosen benchmark through manager skill, for example by using fundamental or technical analysis. Passive management attempts to replicate the performance of a chosen benchmark index. This may include traditional broad market index tracking or a smart beta approach that focuses on exposure to a particular market risk factor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Passive management represents about one-fifth of assets under management. Its share of industry revenue is even smaller because fees for passive management are lower than fees for active management."
+        },
+        {
+          "type": "paragraph",
+          "text": "Asset management firms may also be classified as traditional or alternative, based on the asset classes they manage. Traditional asset managers focus on equities and fixed-income securities. Alternative asset managers focus on asset classes such as private equity, hedge funds, real estate, or commodities. Profit margins tend to be higher for the alternative asset classes. As a result, many traditional asset managers have been moving into this area, somewhat blurring the distinction between these types of firms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some trends in the asset management industry are worth noting:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The market share for passive management has been growing over time. This is due in part to the lower fees passive managers charge investors, and in part to questions about whether active managers are actually able to add value over time on a risk-adjusted basis, especially in developed markets that are believed to be relatively efficient."
+        },
+        {
+          "type": "paragraph",
+          "text": "The amount of data available to asset managers has grown exponentially in recent years. This has encouraged them to invest in information technology and third-party services to process these data, attempting to capitalize on information quickly to make investment decisions. Robo-advisors are a technology that can offer investors advice and recommendations based on their investment requirements and constraints, using a computer algorithm. These advisors increasingly appeal to younger investors and those with smaller portfolios than have typically been served by asset management firms. They have also lowered the barriers to entry into the asset management industry for firms such as insurance companies."
+        },
+        {
+          "type": "question",
+          "objectiveId": "85.f",
+          "text": "What should we know about mutual funds and compare them with other pooled investment products?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mutual funds are one form of pooled investments (i.e., a single portfolio that contains investment funds from multiple investors). Each investor owns shares representing ownership of a portion of the overall portfolio. The total net value of the assets in the fund (pool) divided by the number of such shares issued is referred to as the net asset value (NAV) of each share."
+        },
+        {
+          "type": "paragraph",
+          "text": "With an open-end fund, investors can buy newly issued shares at the NAV. Newly invested cash is invested by the mutual fund managers in additional portfolio securities. Investors can redeem their shares (sell them back to the fund) at NAV as well. All mutual funds charge a fee for the ongoing management of the portfolio assets, which is expressed as a percentage of the net asset value of the fund. No-load funds do not charge additional fees for purchasing shares (up-front fees) or for redeeming shares (redemption fees). Load funds charge either up-front fees, redemption fees, or both."
+        },
+        {
+          "type": "paragraph",
+          "text": "Closed-end funds are professionally managed pools of investor money that do not take new investments into the fund or redeem investor shares. The shares of a closed-end fund trade like equity shares (on exchanges or over-the-counter). As with open-end funds, the portfolio management firm charges ongoing management fees."
+        },
+        {
+          "type": "heading",
+          "text": "Types of Mutual Funds"
+        },
+        {
+          "type": "paragraph",
+          "text": "Money market funds invest in short-term debt securities and provide interest income with very low risk of changes in share value. Fund NAVs are typically set to one currency unit, but there have been instances over recent years in which the NAV of some funds declined when the securities they held dropped dramatically in value. Funds are differentiated by the types of money market securities they purchase and their average maturities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bond mutual funds invest in fixed-income securities. They are differentiated by bond maturities, credit ratings, issuers, and types. Examples include government bond funds, tax-exempt bond funds, high-yield (lower rated corporate) bond funds, and global bond funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "A great variety of stock mutual funds are available to investors. Index funds are passively managed; that is, the portfolio is constructed to match the performance of a particular index, such as the Standard & Poor’s 500 Index. Actively managed funds refer to funds where the management selects individual securities with the goal of producing returns greater than those of their benchmark indexes. Annual management fees are higher for actively managed funds, and actively managed funds have higher turnover of portfolio securities (the percentage of investments that are changed during the year). This leads to greater tax liabilities compared to passively managed index funds."
+        },
+        {
+          "type": "heading",
+          "text": "Other Forms of Pooled Investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Exchange-traded funds (ETFs) are similar to closed-end funds in that purchases and sales are made in the market rather than with the fund itself. There are important differences, however. While closed-end funds are often actively managed, ETFs are most often invested to match a particular index (passively managed). With closed-end funds, the market price of shares can differ significantly from their NAV due to imbalances between investor supply and demand for shares at any point in time. Special redemption provisions for ETFs are designed to keep their market prices very close to their NAVs."
+        },
+        {
+          "type": "paragraph",
+          "text": "ETFs can be sold short, purchased on margin, and traded at intraday prices, whereas open-end funds are typically sold and redeemed only daily, based on the share NAV calculated with closing asset prices. Investors in ETFs must pay brokerage commissions when they trade, and there is a spread between the bid price at which market makers will buy shares and the ask price at which market makers will sell shares. With most ETFs, investors receive any dividend income on portfolio stocks in cash, while open-end funds offer the alternative of reinvesting dividends in additional fund shares. One final difference is that ETFs may produce less capital gains liability compared to open-end index funds. This is because investor sales of ETF shares do not require the fund to sell any securities. If an open-end fund has significant redemptions that cause it to sell appreciated portfolio shares, shareholders incur a capital gains tax liability."
+        },
+        {
+          "type": "paragraph",
+          "text": "A separately managed account is a portfolio that is owned by a single investor and managed according to that investor’s needs and preferences. No shares are issued, as the single investor owns the entire account."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedge funds are pools of investor funds that are not regulated to the extent that mutual funds are. Hedge funds are limited in the number of investors who can invest in the fund and are often sold only to qualified investors who have a minimum amount of overall portfolio wealth. Minimum investments can be quite high, often between $250,000 and $1 million."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private equity and venture capital funds invest in portfolios of companies, often with the intention to sell them later in public offerings. Managers of funds may take active roles in managing the companies in which they invest."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hedge funds, private equity, and venture capital are addressed in the Alternative Investments topic area."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "85.a",
+      "text": "What should we know about the portfolio approach to investing?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A diversified portfolio produces reduced risk for a given level of expected return, compared to investing in an individual security. Modern portfolio theory concludes that investors that do not take a portfolio perspective bear risk that is not rewarded with greater expected return."
+    },
+    {
+      "type": "question",
+      "objectiveId": "85.b",
+      "text": "What should we know about the steps in the portfolio management process?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The three steps in the portfolio management process are:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Planning: Determine client needs and circumstances, including the client’s return"
+    },
+    {
+      "type": "paragraph",
+      "text": "objectives, risk tolerance, constraints, and preferences. Create, and then periodically review and update, an investment policy statement (IPS) that spells out these needs and circumstances.\n2. Execution: Construct the client portfolio by determining suitable allocations to"
+    },
+    {
+      "type": "paragraph",
+      "text": "various asset classes based on the IPS and on expectations about macroeconomic variables such as inflation, interest rates, and GDP growth (top-down analysis)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Identify attractively priced securities within an asset class for client portfolios based on valuation estimates from security analysts (bottom-up analysis)."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Feedback: Monitor and rebalance the portfolio to adjust asset class allocations and"
+    },
+    {
+      "type": "paragraph",
+      "text": "securities holdings in response to market performance. Measure and report performance relative to the performance benchmark specified in the IPS."
+    },
+    {
+      "type": "question",
+      "objectiveId": "85.c",
+      "text": "What should we know about types of investors and distinctive characteristics and needs of each?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Types of investment management clients and their characteristics:"
+    },
+    {
+      "type": "image",
+      "src": "content/figures/3c9dbbfb75f5fcebc850.png",
+      "alt": "Equation, table, or diagram: Types of investment management clients and their characteristics:",
+      "width": 528,
+      "height": 228,
+      "visualKind": "diagram-chart-or-table"
+    },
+    {
+      "type": "question",
+      "objectiveId": "85.d",
+      "text": "What should we know about defined contribution and defined benefit pension plans?"
+    },
+    {
+      "type": "paragraph",
+      "text": "In a defined contribution plan, the employer contributes a certain sum each period to the employee’s retirement account. The employer makes no promise regarding the future value of the plan assets; thus, the employee assumes all of the investment risk."
+    },
+    {
+      "type": "paragraph",
+      "text": "In a defined benefit plan, the employer promises to make periodic payments to the employee after retirement. Because the employee’s future benefit is defined, the employer assumes the investment risk."
+    },
+    {
+      "type": "question",
+      "objectiveId": "85.e",
+      "text": "What should we know about aspects of the asset management industry?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The asset management industry comprises buy-side firms that manage investments for clients. Asset management firms include both independent managers and divisions of larger financial services companies and may be full-service or specialist firms offering investments in traditional or alternative asset classes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Active management attempts to outperform a chosen benchmark through manager skill. Passive management attempts to replicate the performance of a chosen benchmark index. Most assets under management are actively managed, but the market share for passive management has been increasing."
+    },
+    {
+      "type": "question",
+      "objectiveId": "85.f",
+      "text": "What should we know about mutual funds and compare them with other pooled investment products?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mutual funds combine funds from many investors into a single portfolio that is invested in a specified class of securities or to match a specific index. Many varieties exist, including money market funds, bond funds, stock funds, and balanced (hybrid) funds. Open-ended shares can be bought or sold at the net asset value. Closed-ended funds have a fixed number of shares that trade at a price determined by the market."
+    },
+    {
+      "type": "paragraph",
+      "text": "Exchange-traded funds are similar to mutual funds, but investors can buy and sell ETF shares in the same way as shares of stock. Management fees are generally low, though trading ETFs results in brokerage costs."
+    },
+    {
+      "type": "paragraph",
+      "text": "Separately managed accounts are portfolios managed for individual investors who have substantial assets. In return for an annual fee based on assets, the investor receives personalized investment advice."
+    },
+    {
+      "type": "paragraph",
+      "text": "Hedge funds are available only to accredited investors and are exempt from most reporting requirements. Many different hedge fund strategies exist. A typical annual fee structure is 20% of excess performance plus 2% of assets under management."
+    },
+    {
+      "type": "paragraph",
+      "text": "Buyout funds involve taking a company private by buying all available shares, usually funded by issuing debt. The company is then restructured to increase cash flow. Investors typically exit the investment within three to five years."
+    },
+    {
+      "type": "paragraph",
+      "text": "Venture capital funds are similar to buyout funds, except that the companies purchased are in the start-up phase. Venture capital funds, like buyout funds, also provide advice and expertise to the start-ups."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "85.a",
+      "statement": "Describe the portfolio approach to investing.",
+      "question": "What should we know about the portfolio approach to investing?"
+    },
+    {
+      "id": "85.b",
+      "statement": "Describe the steps in the portfolio management process.",
+      "question": "What should we know about the steps in the portfolio management process?"
+    },
+    {
+      "id": "85.c",
+      "statement": "Describe types of investors and distinctive characteristics and needs of each.",
+      "question": "What should we know about types of investors and distinctive characteristics and needs of each?"
+    },
+    {
+      "id": "85.d",
+      "statement": "Describe defined contribution and defined benefit pension plans.",
+      "question": "What should we know about defined contribution and defined benefit pension plans?"
+    },
+    {
+      "id": "85.e",
+      "statement": "Describe aspects of the asset management industry.",
+      "question": "What should we know about aspects of the asset management industry?"
+    },
+    {
+      "id": "85.f",
+      "statement": "Describe mutual funds and compare them with other pooled investment products.",
+      "question": "What should we know about mutual funds and compare them with other pooled investment products?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-85-quiz-1",
+      "title": "Knowledge check 85.1",
+      "moduleId": "85.1",
+      "questions": [
+        {
+          "id": "r85-q1",
+          "number": 1,
+          "objectiveIds": [
+            "85.a"
+          ],
+          "prompt": "Compared to investing in a single security, diversification provides investors a way to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "increase the expected rate of return."
+            },
+            {
+              "id": "B",
+              "text": "decrease the volatility of returns."
+            },
+            {
+              "id": "C",
+              "text": "increase the probability of high returns."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Diversification provides an investor reduced risk. However, the expected return is generally similar or less than that expected from investing in a single risky security. Very high or very low returns become less likely.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Diversification provides an investor reduced risk. However, the expected return is"
+            },
+            {
+              "type": "paragraph",
+              "text": "generally similar or less than that expected from investing in a single risky security. Very high or very low returns become less likely."
+            }
+          ]
+        },
+        {
+          "id": "r85-q2",
+          "number": 2,
+          "objectiveIds": [
+            "85.b"
+          ],
+          "prompt": "Which of the following is least likely to be considered an appropriate schedule for reviewing and updating an investment policy statement?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "At regular intervals (e.g., every year)."
+            },
+            {
+              "id": "B",
+              "text": "When there is a major change in the client’s constraints."
+            },
+            {
+              "id": "C",
+              "text": "Frequently, based on the recent performance of the portfolio."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An IPS should be updated at regular intervals and whenever there is a major change in the client’s objectives or constraints. Updating an IPS based on portfolio performance is not recommended.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An IPS should be updated at regular intervals and whenever there is a major"
+            },
+            {
+              "type": "paragraph",
+              "text": "change in the client’s objectives or constraints. Updating an IPS based on portfolio performance is not recommended."
+            }
+          ]
+        },
+        {
+          "id": "r85-q3",
+          "number": 3,
+          "objectiveIds": [
+            "85.b"
+          ],
+          "prompt": "A top-down security analysis begins by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "analyzing a firm’s business prospects and quality of management."
+            },
+            {
+              "id": "B",
+              "text": "identifying the most attractive companies within each industry."
+            },
+            {
+              "id": "C",
+              "text": "examining economic conditions."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "A top-down analysis begins with an analysis of broad economic trends. After an industry that is expected to perform well is chosen, the most attractive companies within that industry are identified. A bottom-up analysis begins with criteria such as firms’ business prospects and quality of management.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "A top-down analysis begins with an analysis of broad economic trends. After an"
+            },
+            {
+              "type": "paragraph",
+              "text": "industry that is expected to perform well is chosen, the most attractive companies within that industry are identified. A bottom-up analysis begins with criteria such as firms’ business prospects and quality of management."
+            }
+          ]
+        },
+        {
+          "id": "r85-q4",
+          "number": 4,
+          "objectiveIds": [
+            "85.a"
+          ],
+          "prompt": "Portfolio diversification is least likely to protect against losses:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "during severe market turmoil."
+            },
+            {
+              "id": "B",
+              "text": "when markets are operating normally."
+            },
+            {
+              "id": "C",
+              "text": "when the portfolio securities have low return correlation."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Portfolio diversification has been shown to be relatively ineffective during severe market turmoil. Portfolio diversification is most effective when the securities have low correlation and the markets are operating normally.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Portfolio diversification has been shown to be relatively ineffective during severe"
+            },
+            {
+              "type": "paragraph",
+              "text": "market turmoil. Portfolio diversification is most effective when the securities have low correlation and the markets are operating normally."
+            }
+          ]
+        },
+        {
+          "id": "r85-q5",
+          "number": 5,
+          "objectiveIds": [
+            "85.c"
+          ],
+          "prompt": "Low risk tolerance and high liquidity requirements best describe the typical investment needs of a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "defined-benefit pension plan."
+            },
+            {
+              "id": "B",
+              "text": "foundation."
+            },
+            {
+              "id": "C",
+              "text": "insurance company."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Insurance companies need to be able to pay claims as they arise, which leads to insurance firms having low risk tolerance and high liquidity needs. Defined benefit pension plans and foundations both typically have high risk tolerance and low liquidity needs.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Insurance companies need to be able to pay claims as they arise, which leads to"
+            },
+            {
+              "type": "paragraph",
+              "text": "insurance firms having low risk tolerance and high liquidity needs. Defined benefit pension plans and foundations both typically have high risk tolerance and low liquidity needs."
+            }
+          ]
+        },
+        {
+          "id": "r85-q6",
+          "number": 6,
+          "objectiveIds": [
+            "85.c"
+          ],
+          "prompt": "A long time horizon and low liquidity requirements best describe the investment needs of a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "endowment."
+            },
+            {
+              "id": "B",
+              "text": "insurance company."
+            },
+            {
+              "id": "C",
+              "text": "bank."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An endowment has a long time horizon and low liquidity needs, as an endowment generally intends to fund its causes perpetually. Both insurance companies and banks require high liquidity.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An endowment has a long time horizon and low liquidity needs, as an endowment"
+            },
+            {
+              "type": "paragraph",
+              "text": "generally intends to fund its causes perpetually. Both insurance companies and banks require high liquidity."
+            }
+          ]
+        },
+        {
+          "id": "r85-q7",
+          "number": 7,
+          "objectiveIds": [
+            "85.d"
+          ],
+          "prompt": "In a defined contribution pension plan, the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "employee accepts the investment risk."
+            },
+            {
+              "id": "B",
+              "text": "plan sponsor promises a predetermined retirement income to participants."
+            },
+            {
+              "id": "C",
+              "text": "plan manager attempts to match the fund’s assets to its liabilities."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "In a defined contribution pension plan, the employee accepts the investment risk. The plan sponsor and manager neither promise a specific level of retirement income to participants nor make investment decisions. These are features of a defined benefit plan.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a defined contribution pension plan, the employee accepts the investment risk."
+            },
+            {
+              "type": "paragraph",
+              "text": "The plan sponsor and manager neither promise a specific level of retirement income to participants nor make investment decisions. These are features of a defined benefit plan."
+            }
+          ]
+        },
+        {
+          "id": "r85-q8",
+          "number": 8,
+          "objectiveIds": [
+            "85.d"
+          ],
+          "prompt": "In a defined benefit pension plan, the:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "employee assumes the investment risk."
+            },
+            {
+              "id": "B",
+              "text": "employer contributes to the employee’s retirement account each period."
+            },
+            {
+              "id": "C",
+              "text": "plan sponsor promises a predetermined retirement income to participants."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "In a defined benefit plan, the employer promises a specific level of benefits to employees when they retire. Thus, the employer bears the investment risk.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a defined benefit plan, the employer promises a specific level of benefits to"
+            },
+            {
+              "type": "paragraph",
+              "text": "employees when they retire. Thus, the employer bears the investment risk."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reading-85-quiz-2",
+      "title": "Knowledge check 85.2",
+      "moduleId": "85.2",
+      "questions": [
+        {
+          "id": "r85-q9",
+          "number": 1,
+          "objectiveIds": [
+            "85.f"
+          ],
+          "prompt": "Compared to exchange-traded funds (ETFs), open-end mutual funds are typically associated with lower:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "brokerage costs."
+            },
+            {
+              "id": "B",
+              "text": "minimum investment amounts."
+            },
+            {
+              "id": "C",
+              "text": "management fees."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Open-end mutual funds do not have brokerage costs, as the shares are purchased from and redeemed with the fund company. Minimum investment amounts and management fees are typically higher for mutual funds.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Open-end mutual funds do not have brokerage costs, as the shares are purchased"
+            },
+            {
+              "type": "paragraph",
+              "text": "from and redeemed with the fund company. Minimum investment amounts and management fees are typically higher for mutual funds."
+            }
+          ]
+        },
+        {
+          "id": "r85-q10",
+          "number": 2,
+          "objectiveIds": [
+            "85.f"
+          ],
+          "prompt": "Private equity and venture capital funds:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "expect that only a small percentage of investments will pay off."
+            },
+            {
+              "id": "B",
+              "text": "play an active role in the management of companies."
+            },
+            {
+              "id": "C",
+              "text": "restructure companies to increase cash flow."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Private equity and venture capital funds play an active role in the management of companies. Private equity funds other than venture capital expect that the majority of investments will pay off. Venture capital funds do not typically restructure companies.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Private equity and venture capital funds play an active role in the management of"
+            },
+            {
+              "type": "paragraph",
+              "text": "companies. Private equity funds other than venture capital expect that the majority of investments will pay off. Venture capital funds do not typically restructure companies."
+            }
+          ]
+        },
+        {
+          "id": "r85-q11",
+          "number": 3,
+          "objectiveIds": [
+            "85.f"
+          ],
+          "prompt": "Hedge funds most likely:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "have stricter reporting requirements than a typical investment firm because of their use of leverage and derivatives."
+            },
+            {
+              "id": "B",
+              "text": "hold equal values of long and short securities."
+            },
+            {
+              "id": "C",
+              "text": "are not offered for sale to the general public."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Hedge funds may not be offered for sale to the general public; they can be sold only to qualified investors who meet certain criteria. Hedge funds that hold equal values of long and short securities today make up only a small percentage of funds; many other kinds of hedge funds exist that make no attempt to be market neutral. Hedge funds have reporting requirements that are less strict than those of a typical investment firm.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Hedge funds may not be offered for sale to the general public; they can be sold"
+            },
+            {
+              "type": "paragraph",
+              "text": "only to qualified investors who meet certain criteria. Hedge funds that hold equal values of long and short securities today make up only a small percentage of funds; many other kinds of hedge funds exist that make no attempt to be market neutral. Hedge funds have reporting requirements that are less strict than those of a typical investment firm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

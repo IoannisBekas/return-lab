@@ -1,0 +1,555 @@
+{
+  "readingId": 13,
+  "title": "Understanding Business Cycles",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "13.1",
+      "title": "Business Cycles",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "13.a",
+          "text": "What should we know about the business cycle and its phases?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The business cycle is characterized by fluctuations in economic activity. The business cycle has four phases: expansion (real GDP is increasing), peak (real GDP stops increasing and begins decreasing), contraction or recession (real GDP is decreasing), and trough (real GDP stops decreasing and begins increasing). The phases are illustrated in Figure 13.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 13.1: Business Cycle"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/c0118ae379453a3e067b.png",
+          "alt": "Equation, table, or diagram: Figure 13.1: Business Cycle",
+          "width": 378,
+          "height": 220,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "There are alternative ways to show business cycles. The curve in the figure illustrates the classical cycle, which is based on real GDP relative to a beginning value. The growth cycle refers to changes in the percentage difference between real GDP and its longer-term trend or potential value (shown as the “average” line in the figure). The growth rate cycle refers to changes in the annualized percentage growth rate from one period to the next and tends to show both peaks and troughs earlier than the other two measures. The growth rate cycle—which, like the growth cycle, shows GDP relative to a trend rate—is the preferred measure for economists and practitioners."
+        },
+        {
+          "type": "paragraph",
+          "text": "An expansion features growth in most sectors of the economy, with increasing employment, consumer spending, and business investment. As an expansion approaches its peak, the rates of increase in spending, investment, and employment slow but remain positive, while inflation accelerates."
+        },
+        {
+          "type": "paragraph",
+          "text": "A contraction or recession is associated with declines in most sectors, with inflation typically decreasing. When a contraction reaches a trough and the economy begins a new expansion or recovery, economic growth becomes positive again and inflation is typically moderate, but employment growth might not start to increase until the expansion has taken hold convincingly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Economists commonly consider two consecutive quarters of growth in real GDP to be the beginning of an expansion, and two consecutive quarters of declining real GDP to be the beginning of a contraction. Statistical agencies that date expansions and recessions, such as the National Bureau of Economic Research in the United States, look at a wider variety of additional economic data—especially unemployment, industrial production, and inflation—to identify turning points in the business cycle."
+        },
+        {
+          "type": "paragraph",
+          "text": "A key aspect of business cycles is that they recur, but not at regular intervals. Past business cycles have been as short as a year, or longer than a decade. The idea of a business cycle applies to economies that consist mainly of businesses. For economies that are mostly subsistence agriculture or dominated by state planning, fluctuations in activity are not really “business cycles” in the sense we are discussing here."
+        },
+        {
+          "type": "question",
+          "objectiveId": "13.b",
+          "text": "What should we know about credit cycles?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit cycles refer to cyclical fluctuations in interest rates and the availability of loans (credit). Typically, lenders are more willing to lend, and tend to offer lower interest rates, during economic expansions. Conversely, they are less willing to lend, and require higher interest rates, when the economy is slowing (contracting)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Credit cycles may amplify business cycles. Widely available or “loose” credit conditions during expansions can lead to “bubbles” (prices based on implausible expectations) in the markets for some assets, such as subprime mortgages in the period leading up to the financial crisis of 2007–2009. Some research suggests that expansions tend to be stronger, and contractions deeper and longer lasting, when they coincide with credit cycles. They do not always coincide, however, as historical data suggest credit cycles have been longer in duration than business cycles on average."
+        },
+        {
+          "type": "question",
+          "objectiveId": "13.c",
+          "text": "What should we know about how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators?"
+        },
+        {
+          "type": "heading",
+          "text": "Business Cycles and Resource Use Fluctuation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Inventories are an important business cycle indicator. Firms try to keep enough inventory on hand to meet sales demand but do not want to keep too much of their capital tied up in inventory. As a result, the inventory-sales ratio in many industries tends toward a normal level in times of steady economic growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "When an expansion is approaching its peak, sales growth begins to slow, and unsold inventories accumulate. This can be seen in an increase in the inventory-sales ratio above its normal level. Firms respond to this unplanned increase in inventory by reducing production, which is one of the causes of the subsequent contraction in the"
+        },
+        {
+          "type": "paragraph",
+          "text": "economy. An increase in inventories is counted in the GDP statistics as economic output whether the increase is planned or unplanned. An analyst who looks only at GDP growth, rather than the inventory-sales ratio, might see economic strength rather than the beginning of weakness."
+        },
+        {
+          "type": "paragraph",
+          "text": "The opposite occurs when a contraction reaches its trough. Having reduced their production levels to adjust for lower sales demand, firms find their inventories becoming depleted more quickly once sales growth begins to accelerate. This causes the inventory-sales ratio to decrease below its normal level. To meet the increase in demand, firms will increase output, and the inventory-sales ratio will increase back toward normal levels."
+        },
+        {
+          "type": "paragraph",
+          "text": "One of the ways that firms react to fluctuations in business activity is by adjusting their use of labor and physical capital. Adding and subtracting workers in lockstep with changes in economic growth would be costly for firms, in terms of both direct expenses and the damage it would do to employee morale and loyalty. Instead, firms typically begin by changing how they use their current workers, producing less or more output per hour or adjusting the hours they work by adding or removing overtime. Only when an expansion or contraction appears likely to persist will they hire or lay off workers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similarly, because it is costly to adjust production levels by frequently buying and selling plant and equipment, firms first adjust their production levels by using their existing physical capital more or less intensively. As an expansion persists, firms will increase their production capacity by investing more in plant and equipment. During contractions, however, firms will not necessarily sell plant and equipment outright. They can reduce their physical capacity by spending less on maintenance or by delaying the replacement of equipment that is nearing the end of its useful life."
+        },
+        {
+          "type": "heading",
+          "text": "Consumer Sector Activity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consumer spending, the largest component of gross domestic product, depends on the level of consumers’ current incomes and their expectations about their future incomes. As a result, consumer spending increases during expansions and decreases during contractions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consumer spending in some sectors is more sensitive to business cycle phases than spending in other sectors. Spending on durable goods is highly cyclical because they are often higher-value purchases. Consumers are more willing to purchase high-value durable goods (e.g., appliances, furniture, automobiles) during expansions, when incomes are increasing and economic confidence is high. During contractions (and sometimes extending into the early stages of expansions), consumers often postpone durable goods purchases until they are more confident about their employment status and prospects for income growth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Consumer spending on services is also positively correlated with business cycle phases, but not to the same extent as durable goods spending. Services include some discretionary spending, such as for travel, lodging, and restaurant meals, but they also include spending that is less discretionary, such as for telecommunications, health care, and insurance. Spending on nondurable goods, such as food at home or household products for everyday use, remains relatively stable over the business cycle."
+        },
+        {
+          "type": "heading",
+          "text": "Housing Sector Activity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the housing sector is a smaller part of the economy relative to overall consumer spending, cyclical swings in activity in the housing market can be large, so that the effect on overall economic activity is greater than it otherwise would be. Important determinants of the level of economic activity in the housing sector are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Mortgage rates. Low interest rates tend to increase home buying and"
+        },
+        {
+          "type": "paragraph",
+          "text": "construction, while high interest rates tend to reduce home buying and construction."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Housing costs relative to income. When incomes are cyclically high (low) relative to"
+        },
+        {
+          "type": "paragraph",
+          "text": "home costs, including mortgage financing costs, home buying and construction tend to increase (decrease). Housing activity can decrease even when incomes are rising if home prices are rising faster than incomes, as often occurs late in expansions.\n3. Speculative activity. As we saw in the housing sector in 2007–08 in many economies,"
+        },
+        {
+          "type": "paragraph",
+          "text": "rising home prices can lead to purchases based on expectations of further gains. Higher prices led to more construction and eventually excess building. This resulted in falling prices that decreased or eliminated speculative demand and led to dramatic decreases in house prices and in housing activity overall.\n4. Demographic factors. The proportion of the population in the 25- to 40-year-old"
+        },
+        {
+          "type": "paragraph",
+          "text": "segment is positively related to activity in the housing sector because these are the ages of greatest household formation. Strong population shifts from rural areas to cities, as may occur in newly industrializing economies, may require large increases in construction of new housing to accommodate those needs."
+        },
+        {
+          "type": "heading",
+          "text": "External Trade Sector Activity"
+        },
+        {
+          "type": "paragraph",
+          "text": "The most important factors determining the level of a country’s imports and exports are domestic GDP growth, GDP growth of trading partners, and currency exchange rates. Increasing growth of domestic GDP leads to increases in purchases of foreign goods (imports), while decreasing domestic GDP growth reduces imports. Exports depend on the growth rates of GDP of other economies (especially those of important trading partners). Increasing foreign incomes increase sales to foreigners (exports), and decreasing economic growth in foreign countries decreases domestic exports."
+        },
+        {
+          "type": "paragraph",
+          "text": "An increase in the value of a country’s currency makes its goods more expensive to foreign buyers and foreign goods less expensive to domestic buyers, which tends to decrease exports and increase imports. A decrease in the value of a country’s currency has the opposite effect (increasing exports and decreasing imports). Currencies affect import and export volumes over time in response to persistent trends in foreign exchange rates, rather than in response to short-term changes, which can be quite volatile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Currency effects on imports and exports can differ in direction from GDP growth effects and respond to a complex set of variables. The effects of changes in GDP levels and growth rates are more direct and immediate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Typical business cycle characteristics may be summarized as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Trough:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The GDP growth rate changes from negative to positive."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  There is a high unemployment rate, and an increasing use of overtime and temporary workers."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Spending on consumer durable goods and housing may increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  There is a moderate or decreasing inflation rate. Expansion:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The GDP growth rate increases. –  The unemployment rate decreases as hiring accelerates."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  There are investment increases in producers’ equipment and home construction."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The inflation rate may increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Imports increase as domestic income growth accelerates."
+        },
+        {
+          "type": "paragraph",
+          "text": "Peak:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The GDP growth rate decreases. –  The unemployment rate decreases, but hiring slows."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Consumer spending and business investments grow at slower rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The inflation rate increases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contraction/recession:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The GDP growth rate is negative."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Hours worked decrease; unemployment rate increases. –  Consumer spending, home construction, and business investments decrease."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  The inflation rate decreases with a lag."
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Imports decrease as domestic income growth slows."
+        },
+        {
+          "type": "heading",
+          "text": "Economic Indicators"
+        },
+        {
+          "type": "paragraph",
+          "text": "Economic indicators can be classified into three categories: leading indicators that have been known to change direction before peaks or troughs in the business cycle, coincident indicators that change direction at roughly the same time as peaks or troughs, and lagging indicators that tend not to change direction until after expansions or contractions are already underway."
+        },
+        {
+          "type": "paragraph",
+          "text": "Figure 13.2 lists the index components for leading, coincident, and lagging indicators in the United States. Other major economies use indexes of their own that have different components."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because these indexes differ by country, we do not believe their specific components are fair game for the exam."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 13.2: U.S. Leading, Lagging, and Coincident Indicators"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/3f76889fe539950edf3b.png",
+          "alt": "Equation, table, or diagram: Figure 13.2: U.S. Leading, Lagging, and Coincident Indicators",
+          "width": 536,
+          "height": 568,
+          "visualKind": "diagram-chart-or-table"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "13.a",
+      "text": "What should we know about the business cycle and its phases?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The business cycle has four phases:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Expansion. Real GDP is increasing (or GDP growth relative to trend is increasing).\n2. Peak. Real GDP stops increasing/begins decreasing (GDP growth relative to trend"
+    },
+    {
+      "type": "paragraph",
+      "text": "peaks).\n3. Contraction. Real GDP is decreasing (or GDP growth relative to trend is decreasing).\n4. Trough. Real GDP stops decreasing/begins increasing (GDP growth relative to trend"
+    },
+    {
+      "type": "paragraph",
+      "text": "reaches a low)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Expansions feature increasing output, employment, consumption, investment, and inflation. Contractions are characterized by decreases in these indicators."
+    },
+    {
+      "type": "paragraph",
+      "text": "Business cycles are recurring, but they do not occur at regular intervals, can differ in strength or severity, and do not persist for specific lengths of time."
+    },
+    {
+      "type": "question",
+      "objectiveId": "13.b",
+      "text": "What should we know about credit cycles?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Credit cycles are cyclical fluctuations in interest rates and credit availability. Credit cycles may amplify business cycles and cause bubbles in the markets for some assets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "13.c",
+      "text": "What should we know about how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Inventory to sales ratios typically increase late in expansions when sales slow, and decrease near the end of contractions when sales begin to accelerate. Firms decrease or increase production to restore their inventory-sales ratios to their desired levels."
+    },
+    {
+      "type": "paragraph",
+      "text": "Because hiring and laying off employees have high costs, firms prefer to adjust their use of current employees. As a result, firms are slow to lay off employees early in contractions and slow to add employees early in expansions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Firms use their physical capital more intensively during expansions, investing in new capacity only if they believe the expansion is likely to continue. They use physical capital less intensively during contractions, but they are more likely to reduce capacity by deferring maintenance and not replacing equipment than by selling their physical capital."
+    },
+    {
+      "type": "paragraph",
+      "text": "Consumer spending fluctuates with the business cycle. Durable goods spending is highly sensitive to business cycles, and spending on services is somewhat sensitive, but spending on nondurable goods is relatively less sensitive to business cycles."
+    },
+    {
+      "type": "paragraph",
+      "text": "The level of activity in the housing sector is affected by mortgage rates, demographic changes, the ratio of income to housing prices, and investment or speculative demand for homes resulting from recent price trends."
+    },
+    {
+      "type": "paragraph",
+      "text": "Domestic imports tend to rise with increases in GDP growth and domestic currency appreciation, while increases in foreign incomes and domestic currency depreciation tend to increase domestic export volumes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Leading indicators have turning points that tend to precede those of the business cycle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Coincident indicators have turning points that tend to coincide with those of the business cycle."
+    },
+    {
+      "type": "paragraph",
+      "text": "Lagging indicators have turning points that tend to occur after those of the business cycle."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "13.a",
+      "statement": "Describe the business cycle and its phases.",
+      "question": "What should we know about the business cycle and its phases?"
+    },
+    {
+      "id": "13.b",
+      "statement": "Describe credit cycles.",
+      "question": "What should we know about credit cycles?"
+    },
+    {
+      "id": "13.c",
+      "statement": "Describe how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators.",
+      "question": "What should we know about how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-13-quiz-1",
+      "title": "Knowledge check 13.1",
+      "moduleId": "13.1",
+      "questions": [
+        {
+          "id": "r13-q1",
+          "number": 1,
+          "objectiveIds": [
+            "13.c"
+          ],
+          "prompt": "In the early part of an economic expansion, inventory-sales ratios are most likely to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "increase because sales are unexpectedly low."
+            },
+            {
+              "id": "B",
+              "text": "increase because businesses plan for expansion."
+            },
+            {
+              "id": "C",
+              "text": "decrease because of unexpected increases in sales."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Early in an expansion, inventory-sales ratios typically decrease below their normal levels as accelerating sales draw down inventories of produced goods.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Early in an expansion, inventory-sales ratios typically decrease below their"
+            },
+            {
+              "type": "paragraph",
+              "text": "normal levels as accelerating sales draw down inventories of produced goods."
+            }
+          ]
+        },
+        {
+          "id": "r13-q2",
+          "number": 2,
+          "objectiveIds": [
+            "13.a"
+          ],
+          "prompt": "The contraction phase of the business cycle is least likely accompanied by decreasing:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "unemployment."
+            },
+            {
+              "id": "B",
+              "text": "inflation pressure."
+            },
+            {
+              "id": "C",
+              "text": "economic output."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An economic contraction is likely to feature increasing unemployment (i.e., decreasing employment), along with declining economic output and decreasing inflation pressure.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An economic contraction is likely to feature increasing unemployment (i.e.,"
+            },
+            {
+              "type": "paragraph",
+              "text": "decreasing employment), along with declining economic output and decreasing inflation pressure."
+            }
+          ]
+        },
+        {
+          "id": "r13-q3",
+          "number": 3,
+          "objectiveIds": [
+            "13.b"
+          ],
+          "prompt": "Which economic sector would most likely correlate strongly and positively with credit cycles?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Exports."
+            },
+            {
+              "id": "B",
+              "text": "Food retail."
+            },
+            {
+              "id": "C",
+              "text": "Construction."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "Credit cycles are associated with interest rates and the availability of credit, which is important in the financing of construction and the purchase of property.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Credit cycles are associated with interest rates and the availability of credit,"
+            },
+            {
+              "type": "paragraph",
+              "text": "which is important in the financing of construction and the purchase of property."
+            }
+          ]
+        },
+        {
+          "id": "r13-q4",
+          "number": 4,
+          "objectiveIds": [
+            "13.c"
+          ],
+          "prompt": "An economic indicator that has turning points that tend to occur after the turning points in the business cycle is classified as a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "lagging indicator."
+            },
+            {
+              "id": "B",
+              "text": "leading indicator."
+            },
+            {
+              "id": "C",
+              "text": "trailing indicator."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Lagging indicators have turning points that occur after business cycle turning points.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Lagging indicators have turning points that occur after business cycle turning"
+            },
+            {
+              "type": "paragraph",
+              "text": "points."
+            }
+          ]
+        },
+        {
+          "id": "r13-q5",
+          "number": 5,
+          "objectiveIds": [
+            "13.c"
+          ],
+          "prompt": "When they recognize the beginning of a recession, companies are most likely to adjust their stock of physical capital by:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "selling physical assets."
+            },
+            {
+              "id": "B",
+              "text": "deferring maintenance of equipment."
+            },
+            {
+              "id": "C",
+              "text": "canceling orders for new construction equipment."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Physical capital adjustments to downturns typically are made through aging of equipment plus postponing maintenance.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Physical capital adjustments to downturns typically are made through aging of"
+            },
+            {
+              "type": "paragraph",
+              "text": "equipment plus postponing maintenance."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

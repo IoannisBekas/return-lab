@@ -1,0 +1,572 @@
+{
+  "readingId": 50,
+  "title": "Fixed-Income Markets for Corporate Issuers",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "50.1",
+      "title": "Fixed-Income Markets for Corporate Issuers",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "50.a",
+          "text": "How can we compare short-term funding alternatives available to corporations and financial institutions?"
+        },
+        {
+          "type": "heading",
+          "text": "Short-Term Funding for Nonfinancial Corporations"
+        },
+        {
+          "type": "paragraph",
+          "text": "A nonfinancial company usually raises external funds for investment in short-term assets (cash, short-term investments, accounts receivable, and inventory) through financial intermediaries that provide either loan financing or security-based financing."
+        },
+        {
+          "type": "heading",
+          "text": "External Loan Financing"
+        },
+        {
+          "type": "paragraph",
+          "text": "External loan financing, or bank lines of credit, refers to agreements between borrowers and banks to draw down funds as required. These primarily consist of three types, which are uncommitted, committed, or revolving lines of credit:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Uncommitted line of credit. A bank extends an offer of credit for a principal amount"
+        },
+        {
+          "type": "paragraph",
+          "text": "(credit line), usually charging a floating market reference rate (MRR) plus a fixed credit spread on funds drawn down. The credit is “uncommitted” in the sense that the bank may refuse to lend if circumstances change. As a result, this is a less reliable source of funds than the other two types. However, it is likely to be a flexible agreement with no fees outside of interest charges. These agreements can be offered unsecured if the borrower maintains stable cash balances with the bank."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Committed (regular) line of credit. A bank commits to an offer of credit for a specific"
+        },
+        {
+          "type": "paragraph",
+          "text": "time period, providing a more reliable source of funding for borrowers than an uncommitted line of credit. Banks charge a commitment fee, typically about 50 basis points, on either the full or unused amount over the commitment period. Regulators require banks to hold a higher level of reserves to cover potential defaults on committed lines versus uncommitted lines. Banks can mitigate these default risks by offering commitments for less than one year or by acting in syndicate with other banks to provide such agreements. Although banks commit to extend the line of credit for the stated maturity of the agreement, they may withdraw the agreement at maturity should credit conditions worsen, leading to renewal risk for borrowers."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Revolving (operating) line of credit. An even more reliable source of short-term"
+        },
+        {
+          "type": "paragraph",
+          "text": "financing than a committed line of credit, “revolvers” are typically for a longer term, sometimes years (with potential medium-term loan facilities). Banks typically place restrictive covenants on borrowers under such agreements. Fees and rates are similar to a committed line of credit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Companies with weaker credit ratings typically have to pledge assets as collateral for bank borrowings. Secured (asset-backed) loans are backed by collateral (e.g., fixed assets, receivables, or inventory). Companies can assign receivables to lenders to act as collateral for loans. Factoring refers to the actual transfer of credit granting and collection of receivables to a lender (“factor”) at a discount from their face value. The size of the discount, which represents the interest rate on the loan from the factor, depends on the creditworthiness of the firm’s customers, and on collection costs."
+        },
+        {
+          "type": "heading",
+          "text": "External Security-Based Financing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Large corporations with high credit ratings can reduce their funding costs by issuing short-term unsecured debt securities, referred to as commercial paper (CP). For these firms, the interest cost of CP is less than the interest on a bank loan. With maturity of typically less than three months, CP is issued by firms to fund working capital and as a temporary source of funds before issuing longer-term debt. Debt that is temporary until permanent financing can be secured is referred to as bridge financing."
+        },
+        {
+          "type": "paragraph",
+          "text": "CP is often reissued, or “rolled over,” when it matures. The risk that a company will not be able to sell new CP to replace maturing paper is termed rollover risk. To manage this risk, borrowers maintain backup lines of credit with banks. These are sometimes referred to as liquidity enhancement or backup liquidity lines, whereby lenders agree to provide funds to make repayments on CP when it matures, if needed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Similar to U.S. T-bills, CP in the United States is typically issued as a pure discount security, making a single payment equal to the face value at maturity. A smaller, less liquid international market in CP also exists, referred to as Eurocommercial paper (ECP)."
+        },
+        {
+          "type": "heading",
+          "text": "Short-Term Funding for Financial Institutions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commercial and retail deposits are a major short-term funding source for banks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Checking accounts (“demand deposits”) provide transactions services and immediate availability of funds but typically pay no interest. Operational deposits are made by larger customers who require cash management, custody, and clearing services. Savings deposits have a stated term and interest rate. These may take the form of an interest-bearing certificate of deposit (CD), which pays interest at a specified maturity of less than a year. Nonnegotiable CDs cannot be sold before maturity, and early withdrawal of funds incurs a penalty. Negotiable CDs can be sold in the open market before maturity as a means of early withdrawal of funds. At the wholesale (institutional investor) level, negotiable CDs are an important funding source for banks. They trade in domestic bond markets as well as in the Eurobond market."
+        },
+        {
+          "type": "paragraph",
+          "text": "Funds that are loaned by one bank to another are referred to as interbank funds. Banks lend to each other for periods of one day to a year, on either a secured or unsecured basis, at an interest rate based on a market reference rate (MRR) that varies across markets. The most common type of secured interbank borrowing and lending is carried out through repurchase agreements (repos), which we discuss later in this reading."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "We saw this interbank MRR when we defined the coupon paid by FRNs as being equal to a variable MRR plus a fixed margin. In a stable banking system, the short-term interbank rate is likely to be of very low credit risk. This MRR can be used as a starting point for other interest payments that need to be made on riskier loans (e.g., the coupon on FRNs issued by corporations). An example of an MRR is the Secured Overnight Funding Rate (SOFR) in the United States."
+        },
+        {
+          "type": "paragraph",
+          "text": "Another source of short-term funding for banks is to borrow excess reserves from other banks in the central bank funds market. Banks in most countries must maintain a portion of their funds as reserves on deposit with the central bank. Banks with excess reserves lend them to banks that need funds at the central bank funds rate, which is strongly influenced by the central bank’s open market operations and by the availability of short-term funds. The central bank may act as the lender of last resort (“discount window lending”) to banks struggling to access liquidity. This will likely be made at a higher rate than the central bank funds rate and may bring extra scrutiny and restrictions on the activities of the borrower."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial institutions issue more commercial paper than nonfinancial companies. Financial institutions often sponsor asset-backed commercial paper (ABCP), a type of short-term asset-backed security. The ABCP creation process is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. A financial institution transfers collateral (usually existing short-term loans made by"
+        },
+        {
+          "type": "paragraph",
+          "text": "the bank) to a separate legal entity called a special purpose entity (SPE), in return for cash. The SPE is set up as an off-balance-sheet vehicle with respect to the financial institution."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The SPE sells ABCP to investors, who accept the risk and return of the collateral"
+        },
+        {
+          "type": "paragraph",
+          "text": "backing the ABCP. The sponsoring financial institution provides a backup credit liquidity line."
+        },
+        {
+          "type": "question",
+          "objectiveId": "50.b",
+          "text": "What should we know about repurchase agreements (repos), their uses, and their benefits and risks?"
+        },
+        {
+          "type": "paragraph",
+          "text": "A repurchase agreement (repo) is an arrangement by which one party sells a security to a counterparty with a commitment to buy it back at a later date at a prespecified higher price. The original purchase price is effectively a loan by the security buyer to the security seller, with the security as collateral. The difference between the repurchase price and the original purchase price accounts for the interest paid to the security buyer. The annualized interest rate implied by the difference between the two prices is called the repo rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The basic structure of a repo is displayed in Figure 50.1."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 50.1: Repurchase Agreement"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/f02266fc1f325393b01c.png",
+          "alt": "Equation, table, or diagram: Figure 50.1: Repurchase Agreement",
+          "width": 499,
+          "height": 275,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "To protect the lender against a potential decrease in the value of the securities posted as collateral, the borrower typically must post extra collateral above the loan amount (the purchase price) by an amount known as the initial margin. In practice this means the loan amount will be a discount to the value of the securities."
+        },
+        {
+          "type": "paragraph",
+          "text": "As an example, consider a firm that wishes to borrow by entering into a repo agreement to sell a bond today with a market value of $1 million and repurchase it 90 days later (the repurchase date). The lender requires a repo rate of 2% and initial margin of 103%."
+        },
+        {
+          "type": "paragraph",
+          "text": "The initial purchase price (the initial loan amount) is calculated as the market value of the securities posted as collateral divided by the percentage initial margin:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\mathrm{purchase~price~(loan~amount)}} & {{}=\\frac{\\mathrm{market~value~of~securities}} {\\mathrm{initial~margin}}=\\frac{\\$1 , 000 , 000} {1.03}} \\\\ {} & {{}=\\$970 , 874} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "658073816e386202427e.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "The repurchase price after 90 days is calculated as the purchase price (loan amount) multiplied by one plus the de-annualized repo rate. Assuming a 360-day count convention, this is calculated as follows for our example:"
+        },
+        {
+          "type": "paragraph",
+          "text": "repurchase price = $970,874 × [1 + (0.02 × (90 / 360)] = $975,728"
+        },
+        {
+          "type": "paragraph",
+          "text": "The discount applied to the market value of collateral to get the purchase price is referred to as a haircut. In this example, the haircut is calculated as follows:"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{haircut}={\\frac{( \\$1 , 000 , 000-\\$970 , 874 )} {\\$1 , 000 , 000}}=2.91 \\mathcal{Y}_{0}",
+          "display": true,
+          "sourceAsset": "cbad23d51c010ec5a772.png"
+        },
+        {
+          "type": "math",
+          "latex": "\\mathrm{T h e ~ h a i r c u t ~ c a n ~ a l s o ~ b e ~ c a l c u l a t e d ~ q u i c k l y ~ a s ~ 1-\\frac{1} {i n i t i a l ~ m a r g i n ~ p e r c e n t a g e}} .",
+          "display": true,
+          "sourceAsset": "646b97c76d873b2eca8a.png",
+          "prose": "The haircut can also be calculated quickly as ."
+        },
+        {
+          "type": "paragraph",
+          "text": "The loan value increases during its life at the repo rate. Should the market value of the collateral fall below this value times the initial margin, the lender will ask the borrower for more collateral, known as variation margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, given the repo details just listed, assume that after 30 days the market value of the bond has fallen to $990,000:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{adjusted~loan~amount~after~30~days}={\\cal S} 970 , 874 \\times\\left[ 1+( 0.02 \\times( 30 \\ / 360 ) \\right]}} \\\\ {{={\\cal S} 972 , 492}} \\\\ {{8972 , 492 \\times1.03={\\cal S} 1 , 001 , 667. \\ \\mathrm{Biecause~the~collateral~value~is~less~than~this,the}}} \\\\ {{\\mathrm{borrower~must~provide~variation~margin.}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{variation~margin}} & {{}=\\left( \\mathrm{initial~margin} \\times\\mathrm{adjusted~purchase~price} \\right)-\\mathrm{market~value~of~collaterals}} \\\\ {} & {{}=\\$1 , 001 , 667-\\$990 , 000=\\$11 , 667} \\\\ \\end{aligned}\\end{gathered}",
+          "display": true,
+          "sourceAsset": "c96b4a7d763460d297b0.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "In this case, the security buyer/lender will ask the security seller/borrower to post an extra $11,667 of securities as collateral. If the variation margin is negative, then the loan is overcollateralized, and the borrower can request a release of collateral equal in value to the variation margin amount."
+        },
+        {
+          "type": "paragraph",
+          "text": "A repurchase agreement for one day is called an overnight repo, and an agreement covering a longer period is called a term repo. Due to the short-term collateralized nature of a repo and the fact that collateral is usually high-quality, liquid, sovereign bonds, interest rates are customarily less than the rate on bank loans or other short-term borrowing."
+        },
+        {
+          "type": "paragraph",
+          "text": "Although the transactions underlying the repo are described as a “sale” and “repurchase” of securities, the seller/borrower retains rights to the benefits of holding the bond over the repo term. The collateral used in the repo may involve a specific security or a general type of security (e.g., Treasury bonds of a certain range of maturities), in which case it is known as a general collateral repo. The details of the contractual terms of the repo are contained in the master repurchase agreement between the counterparties."
+        },
+        {
+          "type": "heading",
+          "text": "Repo Applications"
+        },
+        {
+          "type": "paragraph",
+          "text": "The main uses of repurchase agreements are as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial institutions enter repos as security sellers/borrowers to finance positions in securities held in their trading activities. Banks and institutional investors, such as mutual funds and pension funds, enter repos as security buyers/lenders to earn the repo rate on excess short-term funds. Central banks may use repos to enact monetary policy, buying securities/lending to increase the money supply and selling securities/borrowing to decrease the money supply. Short sellers, such as hedge funds, can use repo agreements to borrow securities that they intend to short sell, speculating that the security value will decrease. This is executed through the following trades:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Buy securities/lend in a repo.\n2. Short sell the securities in the open market."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Buy back the securities in the open market later (before the repo term ending).\n4. Deliver the securities back to the repo counterparty at the maturity of the repo."
+        },
+        {
+          "type": "paragraph",
+          "text": "The hedge fund earns the repo rate from being the lender in the repo, and gains if the security value decreases over the repo term. When the motivation to enter a repo is to borrow a security in this way, the participant is said to be entering a reverse repo."
+        },
+        {
+          "type": "paragraph",
+          "text": "A short seller engaging in the type of transaction just described will need to specify the security they wish to borrow (known as a special trade). If the specified security is difficult to borrow, the hedge fund will be willing to accept a lower repo rate than that earned on general collateral, or may even be willing to accept a negative repo rate for extremely-hard-to-source collateral."
+        },
+        {
+          "type": "heading",
+          "text": "Factors Affecting the Repo Rate"
+        },
+        {
+          "type": "paragraph",
+          "text": "The repo rate is usually:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Higher, when interest rates for alternative sources of short-term (money market) funds are higher"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lower, the higher the credit quality of the collateral security Higher, the longer the repo term (when longer-term rates are generally higher than short-term rates) Lower, when the collateral security is in high demand or low supply Higher, if the repo is undercollateralized, or if collateral is specified but not actually delivered to the lender"
+        },
+        {
+          "type": "heading",
+          "text": "Repo Risks"
+        },
+        {
+          "type": "paragraph",
+          "text": "While a repo agreement is a safer form of lending than most sources of short-term funds, it remains a source of debt financing to the borrower, and overuse can lead to financial distress or insolvency. Like other forms of collateralized borrowing, the major risks include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Default risk, that the lender of the security (borrower of cash) fails to make the repurchase payment at the end of the repo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Collateral risk, relating to the value that can be generated for collateral in event of default"
+        },
+        {
+          "type": "paragraph",
+          "text": "Margining risk, relating to the timely and accurate calculation and payment of margin Legal risk, that the contracts cannot be legally enforced"
+        },
+        {
+          "type": "paragraph",
+          "text": "Netting and settlement risk, relating to the ability to net off payments across different contracts with the same nondefaulting counterparty, and the ability to settle the cash and collateral transactions underlying the repo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Many of the risks just listed can be mitigated through using tri-party repos, which employ a third-party intermediary (usually a custodian bank or clearinghouse) as an agent to arrange and administer repo transactions. While this does not reduce credit risk, it does likely improve cost efficiencies with respect to access to collateral and counterparties, and the valuation and safekeeping of assets. A repo agreement that is"
+        },
+        {
+          "type": "paragraph",
+          "text": "struck directly between two parties without a third party is referred to as a bilateral repo."
+        },
+        {
+          "type": "question",
+          "objectiveId": "50.c",
+          "text": "How can we distinguish the long-term funding of investment-grade versus high-yield corporate issuers?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Recall that in a normal yield curve environment, bond yields are higher for longer-dated maturities, reflecting higher risk-free rates and credit spreads over longer time frames. In this environment, both investment-grade and high-yield corporate issuers must offer higher yields on longer-maturity bond issues. This difference in yields across maturity is likely to be greater, however, for high yield issuers due to the higher spreads offered on high yield debt. Companies that choose to issue shorter-dated bonds to reduce the yield they pay on their debt assume rollover risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "Other major differences between issuances of investment grade debt versus high yield debt include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Default risk, and loss given default, are primary concerns for high yield investors due to the lower credit quality of the issuers. For investment grade investors, the primary credit-related concern is the chance of a ratings downgrade and the probability of future default increasing, rather than an imminent default. Credit spreads are likely to be a smaller proportion of yield for investment grade issues, where yields are largely tied to benchmark rates (e.g., sovereign debt). Investment grade issuers usually face only a few restrictive covenants on debt issues, typically limiting liens and sale and leaseback arrangements on the core operating assets that are expected to generate the operating cash flows required to repay the debt. High yield issuers are likely to face a larger number of restrictive covenants relating to debt-based ratios, issuance of additional debt, and distributions of capital to equity investors (e.g., limits on dividend payments). High yield issuers are also likely to need to provide collateral as security for bond issues. Investment grade issues are somewhat standardized (similar across different issues) and typically issued across multiple maturities, which reduces rollover risk for the issuer. This choice of maturity allows investment grade issuers to take advantage of changes in market conditions. High yield issues are likely to have more specific covenants and liens, making issues less standardized. High yield issuers also typically have less flexibility with regard to maturity, with bonds usually being issued with maturity of 10 years or less. With less flexibility and less standardization, high yield issuers are less able to take advantage of opportunities to refinance debt when borrowing costs fall. High yield issuers are more likely to structure their debt so that it can be repaid earlier if their credit quality improves. This is done either by taking leveraged loans with prepayment options or by issuing callable debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to the higher uncertainty in the cash flows used to repay high yield debt, returns are likely to be more equity-like than the returns of investment grade debt."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "50.a",
+      "text": "How can we compare short-term funding alternatives available to corporations and financial institutions?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Forms of short-term funding for nonfinancial corporations include lines of credit (uncommitted, committed, and revolving in order of increasing reliability and cost), secured loans, factoring arrangements, and commercial paper issuance."
+    },
+    {
+      "type": "paragraph",
+      "text": "A major form of short-term funding for financial institutions is deposits from customers. Savings deposits can take the form of certificates of deposit, which can be nonnegotiable (no early withdrawal without penalty), or negotiable (can be sold to a third party). Other sources of short-term financing for financial institutions include interbank funds (including repos), central bank funds, and commercial paper (including asset-backed commercial paper)."
+    },
+    {
+      "type": "question",
+      "objectiveId": "50.b",
+      "text": "What should we know about repurchase agreements (repos), their uses, and their benefits and risks?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A repurchase agreement is a collateralized loan whereby a borrower sells a security to a counterparty with a commitment to buy it back later at a higher price. The annualized percentage difference between the two prices represents the repo rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "Borrowers under a repo must post collateral, which must maintain a value greater than the initial margin or the borrower must provide variation margin."
+    },
+    {
+      "type": "paragraph",
+      "text": "The main uses of repos are for borrowers to finance positions in securities, for lenders to earn the repo rate on excess liquidity, for central banks to engage in monetary policy, and for short sellers to temporarily borrow securities (as the lending party in the repo)."
+    },
+    {
+      "type": "paragraph",
+      "text": "The repo rate will be higher for longer-term repos, lower quality collateral, or when the repo is undercollateralized. The repo rate will be lower for a specific security that is difficult to source."
+    },
+    {
+      "type": "paragraph",
+      "text": "Repo risks include default risk, collateral risk, margining risk, legal risk, and netting and settlement risk. The use of a tri-party repo can help mitigate these risks."
+    },
+    {
+      "type": "question",
+      "objectiveId": "50.c",
+      "text": "How can we distinguish the long-term funding of investment-grade versus high-yield corporate issuers?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Relative to investment-grade debt, high-yield debt is likely to have a higher proportion of its yield related to credit spread, a greater number of covenants, shorter maturity, and more equity-like returns, and is likelier to have call or prepayment provisions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Probability of default risk, and loss given default, are a greater concern for high-yield investors than investment-grade investors, whose primary concern is the prospect of credit downgrades."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "50.a",
+      "statement": "Compare short-term funding alternatives available to corporations and financial institutions.",
+      "question": "How can we compare short-term funding alternatives available to corporations and financial institutions?"
+    },
+    {
+      "id": "50.b",
+      "statement": "Describe repurchase agreements (repos), their uses, and their benefits and risks.",
+      "question": "What should we know about repurchase agreements (repos), their uses, and their benefits and risks?"
+    },
+    {
+      "id": "50.c",
+      "statement": "Contrast the long-term funding of investment-grade versus high-yield corporate issuers.",
+      "question": "How can we distinguish the long-term funding of investment-grade versus high-yield corporate issuers?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-50-quiz-1",
+      "title": "Knowledge check 50.1",
+      "moduleId": "50.1",
+      "questions": [
+        {
+          "id": "r50-q1",
+          "number": 1,
+          "objectiveIds": [
+            "50.a"
+          ],
+          "prompt": "Restrictive covenants are most likely to be placed on borrowers under a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "revolving line of credit."
+            },
+            {
+              "id": "B",
+              "text": "factoring arrangement."
+            },
+            {
+              "id": "C",
+              "text": "committed line of credit."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Restrictive covenants are most likely to be placed on borrowers using revolving lines of credit because these agreements require banks to commit funds over the longest terms. A factoring arrangement involves selling accounts receivable to a third party.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Restrictive covenants are most likely to be placed on borrowers using revolving"
+            },
+            {
+              "type": "paragraph",
+              "text": "lines of credit because these agreements require banks to commit funds over the longest terms. A factoring arrangement involves selling accounts receivable to a third party."
+            }
+          ]
+        },
+        {
+          "id": "r50-q2",
+          "number": 2,
+          "objectiveIds": [
+            "50.b"
+          ],
+          "prompt": "A borrower pledges $100 million of securities as collateral for an overnight repo with a repo rate of 4% and an initial margin of 101%. The purchase price of the repo is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$99,000,000."
+            },
+            {
+              "id": "B",
+              "text": "$99,009,901."
+            },
+            {
+              "id": "C",
+              "text": "$101,000,000."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Repo purchase price (loan amount) = market value of securities / initial margin = $100,000,000 / 1.01 = $99,009,901",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Repo purchase price (loan amount) = market value of securities / initial margin"
+            },
+            {
+              "type": "paragraph",
+              "text": "= $100,000,000 / 1.01 = $99,009,901"
+            }
+          ]
+        },
+        {
+          "id": "r50-q3",
+          "number": 3,
+          "objectiveIds": [
+            "50.b"
+          ],
+          "prompt": "A borrower pledges $100 million of securities as collateral for an overnight repo with a repo rate of 4% and an initial margin of 101%. Assuming 360 days in a year, the interest paid under the repo is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "$10,891."
+            },
+            {
+              "id": "B",
+              "text": "$11,001."
+            },
+            {
+              "id": "C",
+              "text": "$11,111."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Repo purchase price (loan amount) = market value of securities / initial margin = $100,000,000 / 1.01 = $99,009,901 Repo interest = $99,009,901 × 0.04 × (1 / 360) = $11,001.10",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Repo purchase price (loan amount) = market value of securities / initial margin"
+            },
+            {
+              "type": "paragraph",
+              "text": "= $100,000,000 / 1.01 = $99,009,901"
+            },
+            {
+              "type": "paragraph",
+              "text": "Repo interest = $99,009,901 × 0.04 × (1 / 360) = $11,001.10"
+            }
+          ]
+        },
+        {
+          "id": "r50-q4",
+          "number": 4,
+          "objectiveIds": [
+            "50.b"
+          ],
+          "prompt": "A borrower pledges $100 million of securities as collateral for an overnight repo with a repo rate of 4% and an initial margin of 101%. The haircut on collateral is closest to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "0.01%."
+            },
+            {
+              "id": "B",
+              "text": "0.99%."
+            },
+            {
+              "id": "C",
+              "text": "1.01%."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "1 – 1 / 1.01 = 0.0099, or 0.99%.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "1 – 1 / 1.01 = 0.0099, or 0.99%."
+            }
+          ]
+        },
+        {
+          "id": "r50-q5",
+          "number": 5,
+          "objectiveIds": [
+            "50.c"
+          ],
+          "prompt": "Relative to a long-term high-yield bond issue, an investment-grade bond issue is most likely to have a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "longer maturity."
+            },
+            {
+              "id": "B",
+              "text": "greater number of covenants."
+            },
+            {
+              "id": "C",
+              "text": "higher proportion of its yield related to credit spreads."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An investment grade bond is likely to have a longer maturity than a high yield bond because high yield issues tend to be restricted to 10-year maturity or less, while investment grade issuers can issue bonds of any maturity. Investment-grade bond issues typically have fewer restrictive covenants than high yield issues. The proportion of yield that is credit spread is likely to be lower for investment grade issues, where yield is primarily composed of benchmark rates.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An investment grade bond is likely to have a longer maturity than a high yield"
+            },
+            {
+              "type": "paragraph",
+              "text": "bond because high yield issues tend to be restricted to 10-year maturity or less, while investment grade issuers can issue bonds of any maturity. Investment-grade bond issues typically have fewer restrictive covenants than high yield issues. The proportion of yield that is credit spread is likely to be lower for investment grade issues, where yield is primarily composed of benchmark rates."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "readingId": 74,
+  "title": "Option Replication Using Put-Call Parity",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "74.1",
+      "title": "Put-Call Parity",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "74.a",
+          "text": "How can we explain put–call parity for European options?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Our derivation of put-call parity for European options is based on the payoffs of two portfolio combinations: a fiduciary call and a protective put."
+        },
+        {
+          "type": "paragraph",
+          "text": "A fiduciary call is a combination of a call with exercise price X and a pure-discount, riskless bond that pays X at maturity (option expiration). The payoff for a fiduciary call at expiration is X when the call is out of the money, and X + (S − X) = S when the call is in the money."
+        },
+        {
+          "type": "paragraph",
+          "text": "A protective put is a share of stock together with a put option on the stock. The expiration date payoff for a protective put is (X − S) + S = X when the put is in the money, and S when the put is out of the money."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "When working with put-call parity, it is important to note that the exercise prices on the put and the call and the face value of the riskless bond are all equal to X."
+        },
+        {
+          "type": "paragraph",
+          "text": "If at expiration S is greater than or equal to X:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The protective put pays S on the stock while the put expires worthless, so the payoff is S. The fiduciary call pays X on the bond portion while the call pays (S − X), so the payoff is X + (S − X) = S."
+        },
+        {
+          "type": "paragraph",
+          "text": "If at expiration X is greater than S:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The protective put pays S on the stock while the put pays (X − S), so the payoff is S + (X − S) = X. The fiduciary call pays X on the bond portion while the call expires worthless, so the payoff is X."
+        },
+        {
+          "type": "paragraph",
+          "text": "In either case, the payoff on a protective put is the same as the payoff on a fiduciary call. Our no-arbitrage condition holds that portfolios with identical payoffs regardless of future conditions must sell for the same price to prevent arbitrage. We can express the put-call parity relationship as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "c + X(1 + Rf)−T = S + p"
+        },
+        {
+          "type": "paragraph",
+          "text": "Equivalencies for each of the individual securities in the put-call parity relationship can be expressed as:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\operatorname{S}} & {{}=\\operatorname{c}-\\operatorname{p}+\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{p}} & {{}=\\operatorname{c}-\\operatorname{S}+\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{c}} & {{}=\\operatorname{S}+\\operatorname{p}-\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{X}} & {{} ( 1+\\operatorname{R f} )^{-1}=\\operatorname{S}+\\operatorname{p}-\\operatorname{c}} \\end{aligned}",
+          "display": true,
+          "sourceAsset": "db38b93cec8611639d06.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Note that the options must be European style and the puts and calls must have the same exercise price and time to expiration for these relations to hold."
+        },
+        {
+          "type": "paragraph",
+          "text": "The single securities on the left-hand side of the equations all have exactly the same payoffs as the portfolios on the right-hand side. The portfolios on the right-hand side are the synthetic equivalents of the securities on the left. For example, to synthetically produce the payoff for a long position in a share of stock, use the following relationship:"
+        },
+        {
+          "type": "paragraph",
+          "text": "S = c − p + X(1 + Rf)−T"
+        },
+        {
+          "type": "paragraph",
+          "text": "This means that the payoff on a long stock can be synthetically created with a long call, a short put, and a long position in a risk-free discount bond."
+        },
+        {
+          "type": "paragraph",
+          "text": "The other securities in the put-call parity relationship can be constructed in a similar manner."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "After expressing the put-call parity relationship in terms of the security you want to synthetically create, the sign on the individual securities will indicate whether you need a long position (+ sign) or a short position (− sign) in the respective securities."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Call option valuation using put-call parity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Suppose that the current stock price is $52 and the risk-free rate is 5%. You have found a quote for a 3-month put option with an exercise price of $50. The put price is $1.50, but due to light trading in the call options, there was not a listed quote for the 3-month, $50 call. Estimate the price of the 3-month call option."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rearranging put-call parity, we find that the call price is:"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned} {\\operatorname{c a l l}} & {{}=\\operatorname{p u t}+\\operatorname{s t o c k}-\\operatorname{p r e s e n t \\: v a l u e \\: ( X )}} \\\\ {\\operatorname{c a l l}} & {{}=\\$1.50+\\$52-\\frac{\\$50} {1.05^{0.25}}=\\$4.11} \\\\ \\end{aligned}",
+          "display": true,
+          "sourceAsset": "f747ba577b8ff289a28a.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "This means that if a 3-month, $50 call is available, it should be priced at (within transaction costs of) $4.11 per share."
+        },
+        {
+          "type": "question",
+          "objectiveId": "74.b",
+          "text": "How can we explain put–call forward parity for European options?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Put-call-forward parity is derived with a forward contract rather than the underlying asset itself. Consider a forward contract on an asset at time T with a contract price of F0(T). At contract initiation the forward contract has zero value. At time T, when the forward contract settles, the long must purchase the asset for F0(T). The purchase (at time = 0) of a pure discount bond that will pay F0(T) at maturity (time = T) will cost"
+        },
+        {
+          "type": "paragraph",
+          "text": "F0(T)(1 + Rf)−T."
+        },
+        {
+          "type": "paragraph",
+          "text": "By purchasing such a pure discount bond and simultaneously taking a long position in the forward contract, an investor has created a synthetic asset. At time = T the proceeds of the bond are just sufficient to purchase the asset as required by the long forward position. Because there is no cost to enter into the forward contract, the total cost of the synthetic asset is the present value of the forward price, F0(T)(1 + Rf)−T."
+        },
+        {
+          "type": "paragraph",
+          "text": "The put-call-forward parity relationship is derived by substituting the synthetic asset for the underlying asset in the put-call parity relationship. Substituting F0(T)(1 + Rf)−T"
+        },
+        {
+          "type": "paragraph",
+          "text": "for the asset price S0 in S + p = c + X(1 + Rf)−T gives us:"
+        },
+        {
+          "type": "paragraph",
+          "text": "F0 (T)(1 + Rf)−T + p0 = c0 + X(1 + Rf)−T"
+        },
+        {
+          "type": "paragraph",
+          "text": "which is put-call-forward parity at time 0, the initiation of the forward contract, based on the principle of no arbitrage. By rearranging the terms, put-call-forward parity can also be expressed as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "p0 − c0 = [X − F0(T)](1 + Rf)−T"
+        },
+        {
+          "type": "heading",
+          "text": "Application of Options Theory to Corporate Finance"
+        },
+        {
+          "type": "paragraph",
+          "text": "We can use options theory to describe the claims of a firm’s shareholders and debtholders. Consider a hypothetical company with assets that are financed by equity and a single issue of zero-coupon debt. The value of its assets at any point in time is the sum of the value of its equity and the value of its debt."
+        },
+        {
+          "type": "heading",
+          "text": "Shareholders’ Position as a Long Call"
+        },
+        {
+          "type": "paragraph",
+          "text": "Due to the limited liability nature of corporate equity, the price of a company’s shares cannot fall below zero. Shareholders effectively have a European call option, with the company’s assets as the underlying, and an exercise price equal to the face value of debt (D)."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the debt matures, if the value of the company’s assets is greater than D, shareholders will “exercise their call option” to acquire the assets (i.e., pay off the debt and keep the residual)."
+        },
+        {
+          "type": "paragraph",
+          "text": "On the other hand, if the value of the company’s assets is less than D, the shareholders will “let the option expire worthless” (i.e., default on the debt and let the debtholders claim the company’s assets)."
+        },
+        {
+          "type": "heading",
+          "text": "Shareholders’ Position as a Long Put and Long the Underlying"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternatively, we can think of the shareholders’ position as consisting of the firm’s assets, plus a long put option that gives them the right to sell the firm’s assets to the debtholders at an exercise price of D."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "No cash changes hands if the shareholders exercise the put option. The debtholders “pay” D to the shareholders in the sense that the shareholders have defaulted on their obligation to pay D to them."
+        },
+        {
+          "type": "paragraph",
+          "text": "Debtholders may be viewed as having a risk-free claim to D at maturity, plus a short put option exercisable by the shareholders. This put option effectively represents the firm’s default risk, or its credit spread, because the shareholders will only exercise the put if the firm is insolvent (i.e., if the value of its assets is less than D). A default is synonymous with shareholders exercising the put option."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the short put option accounts for default risk, we can treat the other part of the debtholders’ position as risk-free. The total value of the debtholders’ position today is less than the risk-free present value of D (as it should be with default risk) by the value of the option they are short."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using put-call parity, we can set up the following equations for the value of the firm’s assets, V0:"
+        },
+        {
+          "type": "paragraph",
+          "text": "V0 + p0 = c0 + PV(D), and therefore:"
+        },
+        {
+          "type": "paragraph",
+          "text": "V0 = c0 + PV(D) – p0"
+        },
+        {
+          "type": "paragraph",
+          "text": "This shows that we can view the value of the firm, V0, as a portfolio of a long call option on the firm’s assets, the risk-free present value of D, and a short put option on the firm’s assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "These last two components, PV(D) – p0, make up the debtholders’ position, as we have seen. Therefore, the long call option, c0, must represent the shareholders’ position. This makes sense because the payoffs of the shareholders’ position as we have modeled it (combining a long put with a long position in the underlying assets) are equivalent to the payoffs of a call option. For this reason, these two ways of viewing the shareholders’ position (long a call, or long the assets and long a put) are consistent with each other."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "74.a",
+      "text": "How can we explain put–call parity for European options?"
+    },
+    {
+      "type": "paragraph",
+      "text": "A fiduciary call (a call option and a risk-free zero-coupon bond that pays the strike price X at expiration) and a protective put (a share of stock and a put at X) have the same payoffs at expiration, so arbitrage will force these positions to have equal prices: c + X(1 + Rf)−T = S + p. This establishes put-call parity for European options."
+    },
+    {
+      "type": "paragraph",
+      "text": "Based on the put-call parity relation, a synthetic security (stock, bond, call, or put) can be created by combining long and short positions in the other three securities."
+    },
+    {
+      "type": "math",
+      "latex": "\\begin{aligned} {{\\mathsf{c}}} & {{}={\\mathsf{S}}+{\\mathsf{p}}-{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{p}}} & {{}={\\mathsf{c}}-{\\mathsf{S}}+{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{S}}} & {{}={\\mathsf{c}}-{\\mathsf{p}}+{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} & {{}={\\mathsf{S}}+{\\mathsf{p}}-{\\mathsf{c}}} \\end{aligned}",
+      "display": true,
+      "sourceAsset": "8c8d03dffbce31c554e9.png"
+    },
+    {
+      "type": "question",
+      "objectiveId": "74.b",
+      "text": "How can we explain put–call forward parity for European options?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Because we can replicate the payoff on an asset by lending the present value of the forward price at the risk-free rate and taking a long position in a forward, we can write put-call-forward parity as:"
+    },
+    {
+      "type": "paragraph",
+      "text": "c0 + X(1 + Rf)−T = F0(T)(1 + Rf)−T + p0"
+    },
+    {
+      "type": "paragraph",
+      "text": "The position of a company’s shareholders can be viewed as either:"
+    },
+    {
+      "type": "paragraph",
+      "text": "A long call option, with the company’s assets as the underlying and an exercise price equal to the face value of the company’s debt. A long position in the company’s assets, plus a long put option with the company’s assets as the underlying and an exercise price equal to the face value of the company’s debt."
+    },
+    {
+      "type": "paragraph",
+      "text": "Debtholders may be viewed as having a risk-free claim to the face value of the company’s debt, plus a short put option exercisable by the shareholders. The put option effectively represents the firm’s default risk because the shareholders will only exercise the put if the firm is insolvent."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "74.a",
+      "statement": "Explain put–call parity for European options.",
+      "question": "How can we explain put–call parity for European options?"
+    },
+    {
+      "id": "74.b",
+      "statement": "Explain put–call forward parity for European options.",
+      "question": "How can we explain put–call forward parity for European options?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-74-quiz-1",
+      "title": "Knowledge check 74.1",
+      "moduleId": "74.1",
+      "questions": [
+        {
+          "id": "r74-q1",
+          "number": 1,
+          "objectiveIds": [
+            "74.a"
+          ],
+          "prompt": "The put-call parity relationship for European options must hold because a protective put will have the same payoff as a(n):",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "covered call."
+            },
+            {
+              "id": "B",
+              "text": "fiduciary call."
+            },
+            {
+              "id": "C",
+              "text": "uncovered call."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Given call and put options on the same underlying asset with the same exercise price and expiration date, a protective put (underlying asset plus a put option) will have the same payoff as a fiduciary call (call option plus a risk-free bond that will pay the exercise price on the expiration date) regardless of the underlying asset price on the expiration date.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Given call and put options on the same underlying asset with the same exercise"
+            },
+            {
+              "type": "paragraph",
+              "text": "price and expiration date, a protective put (underlying asset plus a put option) will have the same payoff as a fiduciary call (call option plus a risk-free bond that will pay the exercise price on the expiration date) regardless of the underlying asset price on the expiration date."
+            }
+          ]
+        },
+        {
+          "id": "r74-q2",
+          "number": 2,
+          "objectiveIds": [
+            "74.b"
+          ],
+          "prompt": "The put-call-forward parity relationship least likely includes:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a risk-free bond."
+            },
+            {
+              "id": "B",
+              "text": "call and put options."
+            },
+            {
+              "id": "C",
+              "text": "the underlying asset."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "The put-call-forward parity relationship is F0(T)(1 + RFR)−T + p0 = c0 + X(1 + Rf) −T, where X(1 + Rf)−T is a risk-free bond that pays the exercise price on the expiration date, and F0(T) is the forward price of the underlying asset.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The put-call-forward parity relationship is F0(T)(1 + RFR)−T + p0 = c0 + X(1 + Rf)"
+            },
+            {
+              "type": "paragraph",
+              "text": "−T, where X(1 + Rf)−T is a risk-free bond that pays the exercise price on the expiration date, and F0(T) is the forward price of the underlying asset."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

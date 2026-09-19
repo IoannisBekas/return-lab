@@ -1,0 +1,448 @@
+{
+  "readingId": 78,
+  "title": "Investments in Private Capital: Equity and Debt",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "78.1",
+      "title": "Private Capital",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "78.a",
+          "text": "How can we explain features of private equity and its investment characteristics?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Private capital is the funding provided to companies that is not raised from the public markets. Private capital includes private equity and private debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private equity is equity capital raised from sources other than the public markets. Private equity funds usually invest in private companies or public companies that they plan to take private (leveraged buyout funds) or in early in companies’ lives (venture capital funds). The companies in which a private equity fund invests are called its portfolio companies."
+        },
+        {
+          "type": "heading",
+          "text": "Private Equity Investment Categories"
+        },
+        {
+          "type": "paragraph",
+          "text": "A popular type of private equity fund is the leveraged buyout (LBO) fund, which acquires public companies with a large percentage of the purchase price financed by debt. LBOs are a way for a company to “go private” because after the transaction, the target company’s stock is no longer publicly traded."
+        },
+        {
+          "type": "paragraph",
+          "text": "In an LBO, the private equity firm seeks to add value by improving or restructuring the portfolio company’s operations to increase its sales, profits, and cash flows. The cash flows can then be used to service and pay down the debt taken to fund the acquisition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two of the various types of LBOs are management buyouts (MBOs), in which the portfolio company’s existing management team participates in the purchase, and management buy-ins (MBIs), in which the private equity manager replaces the portfolio company’s current management team with a new team."
+        },
+        {
+          "type": "paragraph",
+          "text": "Venture capital (VC) funds provide financing to companies in the early stages of their development. VC funds typically receive common equity interest in the portfolio companies, but they may also get convertible debt or convertible preferred stock. Convertible securities help to align the interests of the VC investors and the start-up firm, in that both want to increase the value of the firm, but give the VC investors a higher priority of claims in the event of liquidation."
+        },
+        {
+          "type": "paragraph",
+          "text": "VC investment involves a high level of risk, but the returns can be substantial. VC investors are actively involved in developing their portfolio companies, often sitting on the boards or filling key management roles."
+        },
+        {
+          "type": "paragraph",
+          "text": "We can classify VC investments by the portfolio company’s stage of development:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The formative stage refers to investments made during a firm’s earliest period and"
+        },
+        {
+          "type": "paragraph",
+          "text": "comprises three different phases: - Pre-seed capital or angel investing is the capital provided at the idea stage. The"
+        },
+        {
+          "type": "paragraph",
+          "text": "investment funds are used for business plans and assessing market potential. The amount of financing is usually small, coming from individuals (“angels”) rather than VC funds."
+        },
+        {
+          "type": "paragraph",
+          "text": "- Seed-stage financing or seed capital generally supports product development,"
+        },
+        {
+          "type": "paragraph",
+          "text": "marketing, and market research. This is the first stage at which VC funds usually invest."
+        },
+        {
+          "type": "paragraph",
+          "text": "- Early-stage financing or start-up stage financing refers to investments made to"
+        },
+        {
+          "type": "paragraph",
+          "text": "fund operations in the lead-up to production and sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Later-stage financing or expansion venture capital comes after production and"
+        },
+        {
+          "type": "paragraph",
+          "text": "sales have begun. Investment funds provided at this stage are used to support initial growth, expansion, product improvement, or marketing. In this stage, the owners (typically the founders and managers of the company) often sell control of the company to VC investors."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Mezzanine-stage financing refers to capital provided to prepare the firm for an"
+        },
+        {
+          "type": "paragraph",
+          "text": "initial public offering (IPO). The term mezzanine stage is used to indicate the timing of the financing rather than the method. A similar term, mezzanine financing, refers to hybrids of equity and debt, such as convertible securities. Mezzanine-stage financing can use these, but more often, it consists of equity or short-term debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "A private equity firm that engages in minority equity investing buys a less-than-controlling interest in public companies that are looking for capital with which to expand. One way it can make such investments is through a private investment in public equity (PIPE), a private offering to institutional investors that allows a publicly traded firm to raise capital more quickly and cost effectively than a public offering, with fewer disclosures and lower transaction costs."
+        },
+        {
+          "type": "heading",
+          "text": "Private Equity Exit Strategies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Private equity firms typically add value to young companies, then sell them, with an average holding period of five years. Funds have several methods of exiting an investment in a portfolio company:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Trade sale. Sell a portion of the private company to a strategic buyer via direct sale"
+        },
+        {
+          "type": "paragraph",
+          "text": "or auction. An advantage of a trade sale is that the strategic investor typically pays a premium to realize synergies with an existing business. Advantages compared with an IPO include faster execution and lower transaction costs. Disadvantages of a trade sale include potential resistance from the portfolio company’s management and employees, as well as a limited universe of potential buyers."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Public listing. Listing on a stock exchange can take place through an IPO, a direct"
+        },
+        {
+          "type": "paragraph",
+          "text": "listing, or a special purpose acquisition company: - IPOs are the most common method of public listing, using investment banks to"
+        },
+        {
+          "type": "paragraph",
+          "text": "underwrite the offering. Compared to other methods, IPOs typically realize a higher price for the portfolio company. They may also improve its visibility to investors and the public, which can be positive for the value of shares that the private equity fund retains. However, IPOs involve high transaction and compliance costs and might not always be received favorably by the investing public. Portfolio companies best suited for exit via IPO are large firms in growing industries that have stable finances and clear strategies. - A less frequently used alternative to an IPO is a direct listing, in which the stock of"
+        },
+        {
+          "type": "paragraph",
+          "text": "the company is floated on the public market directly without underwriters. This decreases the cost of the transaction, but does not raise new capital for the portfolio company. - A special purpose acquisition company (SPAC) is an entity (sometimes referred"
+        },
+        {
+          "type": "paragraph",
+          "text": "to as a blank check company) set up solely to raise capital that it will use to acquire an unspecified private company within a stated time period; otherwise, it must return the capital to investors. This method can be more flexible than an IPO and reduce the uncertainty about the valuation of the portfolio company, as well as provide access to investors who transact regularly with the sponsors. However, SPACs have numerous disadvantages, including dilutive effects from SPAC shares and warrants, a spread between the value of the SPAC and the value of the acquired company, deal risk in the acquisition, and stockholder overhang from SPAC shareholders selling shares after the acquisition is announced. Scrutiny from securities regulators is also increasing."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Recapitalization. The company issues debt to fund a dividend distribution to equity"
+        },
+        {
+          "type": "paragraph",
+          "text": "holders. This is not an exit, in that the fund still controls the company, but a recapitalization allows the private equity fund to extract money from the company to pay its investors.\n4. Secondary sale. Sell a portfolio company to another private equity firm or a group"
+        },
+        {
+          "type": "paragraph",
+          "text": "of investors.\n5. Write-off/liquidation. Reassess and take losses from an unsuccessful investment in"
+        },
+        {
+          "type": "paragraph",
+          "text": "a portfolio company."
+        },
+        {
+          "type": "heading",
+          "text": "Risk and Return From Private Equity Investments"
+        },
+        {
+          "type": "paragraph",
+          "text": "Empirical evidence shows that returns on private equity funds have been higher on average than overall stock returns. However, the standard deviation of private equity returns has been higher than the standard deviation of equity index returns, suggesting higher risk, including illiquidity and leverage risks. Furthermore, private equity indexes typically rely on self-reporting and are subject to survivorship and backfill biases, both of which lead to overstated returns. Because portfolio companies are revalued infrequently, measures of volatility and correlation with other investments may be biased downward."
+        },
+        {
+          "type": "question",
+          "objectiveId": "78.b",
+          "text": "How can we explain features of private debt and its investment characteristics?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Private debt refers to various forms of debt provided by investors directly to private entities. Categories of private debt include the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Direct lending refers to loans made directly to a private company without an"
+        },
+        {
+          "type": "paragraph",
+          "text": "intermediary. The debt is typically senior and secured, with covenants to protect the lender. A leveraged loan is a loan made by a private debt fund using money borrowed from other sources. That is, the fund’s portfolio of loans is leveraged to magnify returns."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. Venture debt is funding that provides VC backing to start-up or early-stage firms"
+        },
+        {
+          "type": "paragraph",
+          "text": "that are not yet profitable. Venture debt is often convertible to stock or combined with warrants. Managers of young companies may favor venture debt because it allows them to maintain ownership and control.\n3. Mezzanine debt is private debt that is subordinated to senior secured debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mezzanine debt may have special features, such as conversion rights or warrants, to compensate investors for additional risk."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Distressed debt is the debt of mature companies in financial trouble, such as"
+        },
+        {
+          "type": "paragraph",
+          "text": "bankruptcy or default. In many cases, the fund becomes active in restructuring the existing debt or making other changes that increase the value of the acquired debt. Some distressed debt investors specialize in identifying otherwise good companies with temporary cash flow problems, anticipating that the value of the company and its debt will recover. Others focus on turnaround situations, acquiring a company’s debt with an intent to be active in managing and restructuring the company.\n5. Unitranche debt combines different classes of debt (secured and unsecured) into a"
+        },
+        {
+          "type": "paragraph",
+          "text": "single loan with an interest rate that reflects the blend of debt classes. The resulting debt typically ranks between senior and subordinated debt."
+        },
+        {
+          "type": "paragraph",
+          "text": "Private debt investments typically provide a higher rate of return relative to traditional bonds to compensate investors for higher risk and a lack of liquidity. Investors may also benefit from increased portfolio diversification because private debt returns have relatively low correlations with other traditional investments."
+        },
+        {
+          "type": "paragraph",
+          "text": "The interest rate of private debt is usually set relative to a reference rate, such as the Secured Overnight Financing Rate (SOFR). Therefore, the rate changes when the reference rate fluctuates due to changes to the interest rate environment."
+        },
+        {
+          "type": "paragraph",
+          "text": "The potential for higher returns of private debt is associated with higher risk, including illiquidity and default risk. Private debt investing requires specialized knowledge about the structure of the debt, the borrower’s life cycle phase, and the features of the underlying assets for secured lending. Senior private debt has less risk and steadier yields than private mezzanine debt, but mezzanine debt offers greater upside potential."
+        },
+        {
+          "type": "question",
+          "objectiveId": "78.c",
+          "text": "What should we know about the diversification benefits that private capital can provide?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Private capital investments can provide some diversification benefit to a portfolio of traditional investments. Empirical evidence indicates that correlations of private"
+        },
+        {
+          "type": "paragraph",
+          "text": "capital fund index returns with public market index returns range from 0.63 to 0.83.¹"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each private equity fund has a vintage year, which is the year the fund made its first investment. The performance of a fund is greatly influenced by its vintage year and the phase of the business cycle in that year. Funds that begin investing during a business cycle expansion are likely to earn higher rates of return if they specialize in early-stage companies. Funds that begin investing during business cycle contractions are likely to earn higher rates of return if they specialize in distressed companies. Investors in private capital should diversify across vintage years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Risk and return profiles vary among categories of private capital. Private equity has the highest risk and return, followed by mezzanine debt, unitranche debt, senior direct lending, senior real estate debt, and infrastructure debt."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "78.a",
+      "text": "How can we explain features of private equity and its investment characteristics?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Private equity funds usually invest in the equity of private companies or companies wanting to become private, often financing their assets with high levels of debt:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Venture capital funds provide capital to companies early in their development. Stages of venture capital investing include the formative stage (composed of the angel investing, seed, and early stages), the later stage (expansion), and the mezzanine stage (prepare for IPO). Leveraged buyouts include management buyouts, in which the existing management team is involved in the purchase, and management buy-ins, in which an external management team replaces the existing management."
+    },
+    {
+      "type": "paragraph",
+      "text": "Developmental capital or minority equity investing refers to providing capital for business growth or restructuring. The firms financed may be public or private. In the case of public companies, such financing is referred to as a private investment in public equity."
+    },
+    {
+      "type": "paragraph",
+      "text": "Methods for exiting investments in portfolio companies include trade sale (sell to a competitor or another strategic buyer), IPO (sell some or all shares to investors), recapitalization (issue portfolio company debt), secondary sale (sell to another private equity firm or other investors), or write-off/liquidation."
+    },
+    {
+      "type": "question",
+      "objectiveId": "78.b",
+      "text": "How can we explain features of private debt and its investment characteristics?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Private debt refers to lending to private entities. Private debt investments include direct lending, venture debt, mezzanine loans, distressed debt, and unitranche debt. Private debt investing requires specialized knowledge about the structure of the debt, the borrower’s life cycle phase, and the features of the underlying assets."
+    },
+    {
+      "type": "question",
+      "objectiveId": "78.c",
+      "text": "What should we know about the diversification benefits that private capital can provide?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Private capital investments can provide some diversification benefit to a portfolio of traditional investments because their correlations of returns with traditional investments are relatively low."
+    },
+    {
+      "type": "paragraph",
+      "text": "Investors in private capital should diversify across vintage years. Funds that begin investing during a business cycle expansion are likely to earn higher rates of return if they specialize in early-stage companies. Funds that begin investing during business cycle contractions are likely to earn higher rates of return if they specialize in distressed companies."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "78.a",
+      "statement": "Explain features of private equity and its investment characteristics.",
+      "question": "How can we explain features of private equity and its investment characteristics?"
+    },
+    {
+      "id": "78.b",
+      "statement": "Explain features of private debt and its investment characteristics.",
+      "question": "How can we explain features of private debt and its investment characteristics?"
+    },
+    {
+      "id": "78.c",
+      "statement": "Describe the diversification benefits that private capital can provide.",
+      "question": "What should we know about the diversification benefits that private capital can provide?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-78-quiz-1",
+      "title": "Knowledge check 78.1",
+      "moduleId": "78.1",
+      "questions": [
+        {
+          "id": "r78-q1",
+          "number": 1,
+          "objectiveIds": [
+            "78.a"
+          ],
+          "prompt": "In which stage of a firm’s development is a venture capital fund most likely to make its initial investment?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Start-up."
+            },
+            {
+              "id": "B",
+              "text": "Seed capital."
+            },
+            {
+              "id": "C",
+              "text": "Angel investing."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "VC funds typically make their initial investments during a firm’s seed stage for product development, marketing, and market research. At the angel investing stage, the funding source is usually individuals rather than VC funds. The start-up stage or early stage follows the seed stage and refers to investments made to fund initial commercial production and sales.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "VC funds typically make their initial investments during a firm’s seed stage for"
+            },
+            {
+              "type": "paragraph",
+              "text": "product development, marketing, and market research. At the angel investing stage, the funding source is usually individuals rather than VC funds. The start-up stage or early stage follows the seed stage and refers to investments made to fund initial commercial production and sales."
+            }
+          ]
+        },
+        {
+          "id": "r78-q2",
+          "number": 2,
+          "objectiveIds": [
+            "78.a"
+          ],
+          "prompt": "In a secondary sale, a private capital firm sells one of its portfolio companies to:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the public."
+            },
+            {
+              "id": "B",
+              "text": "a competitor in its industry."
+            },
+            {
+              "id": "C",
+              "text": "another private capital fund."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "In a secondary sale, a private capital firm sells one of its portfolio companies to another private capital fund or group of private investors. Selling a portfolio company to a competitor in its industry is known as a trade sale. Selling a portfolio company to the public requires an IPO.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "In a secondary sale, a private capital firm sells one of its portfolio companies to"
+            },
+            {
+              "type": "paragraph",
+              "text": "another private capital fund or group of private investors. Selling a portfolio company to a competitor in its industry is known as a trade sale. Selling a portfolio company to the public requires an IPO."
+            }
+          ]
+        },
+        {
+          "id": "r78-q3",
+          "number": 3,
+          "objectiveIds": [
+            "78.b"
+          ],
+          "prompt": "Unitranche debt is best described as:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "combining different classes of debt into a single loan."
+            },
+            {
+              "id": "B",
+              "text": "having special features, such as conversion rights or warrants."
+            },
+            {
+              "id": "C",
+              "text": "a loan made by a private debt fund using money borrowed from other sources."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Unitranche debt refers to combining different classes of debt into a single loan with an interest rate that reflects the blend of debt classes.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Unitranche debt refers to combining different classes of debt into a single loan"
+            },
+            {
+              "type": "paragraph",
+              "text": "with an interest rate that reflects the blend of debt classes."
+            }
+          ]
+        },
+        {
+          "id": "r78-q4",
+          "number": 4,
+          "objectiveIds": [
+            "78.c"
+          ],
+          "prompt": "Which type of private capital fund is most likely to earn excess returns over its life if its vintage year took place during an economic contraction?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Venture capital fund."
+            },
+            {
+              "id": "B",
+              "text": "Distressed debt fund."
+            },
+            {
+              "id": "C",
+              "text": "Leveraged buyout fund."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Funds with vintage years during contractions are likely to earn higher rates of return if they specialize in distressed companies. Funds with vintage years during expansions are likely to earn higher rates of return if they specialize in early-stage companies.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Funds with vintage years during contractions are likely to earn higher rates of"
+            },
+            {
+              "type": "paragraph",
+              "text": "return if they specialize in distressed companies. Funds with vintage years during expansions are likely to earn higher rates of return if they specialize in early-stage companies."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

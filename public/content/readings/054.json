@@ -1,0 +1,366 @@
+{
+  "readingId": 54,
+  "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "54.1",
+      "title": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "54.a",
+          "text": "How do we calculate and interpret yield spread measures for floating-rate instruments?"
+        },
+        {
+          "type": "heading",
+          "text": "Floating-Rate Note Yields"
+        },
+        {
+          "type": "paragraph",
+          "text": "The values of floating-rate notes (FRNs) are more stable than those of fixed-rate debt of similar maturity because the coupon rate is reset periodically based on a variable market reference rate (MRR). Recall that the coupon rate on an FRN consists of a relatively risk-free (usually interbank) MRR plus a fixed margin based on the credit risk of the issuer (at the time of issuance) relative to the credit risk of the MRR. The coupon rate for the next period is set using the current MRR for the reset period, and the payment at the end of the period is based on this rate. For this reason, we say that interest is paid in arrears."
+        },
+        {
+          "type": "paragraph",
+          "text": "If an FRN is issued by a company that has more (less) credit risk than the financial institutions from which the MRR is derived, a margin is added to (subtracted from) the MRR. The liquidity of an FRN and its tax treatment can also affect the margin."
+        },
+        {
+          "type": "paragraph",
+          "text": "The fixed margin above the MRR actually paid in the coupon is referred to as the quoted margin (QM). The margin required to price the FRN at par is called the required margin or the discount margin (DM)."
+        },
+        {
+          "type": "paragraph",
+          "text": "FRNs are usually issued at par with the QM equal to the DM at issuance. If the credit quality of an FRN remains unchanged after issuance, the QM will remain equal to the DM and the FRN will trade at par on its coupon reset dates."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the credit quality of the issuer decreases after issuance of the FRN, investors will demand a higher DM in compensation for increased credit risk. This will cause the DM to be greater than the fixed QM, and the FRN will trade at a discount to its par value. Similarly, if the issuer’s credit quality improves during an FRN’s life, the DM will be less than the fixed QM, and the FRN will sell at a premium to its par value."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This is analogous to the relationship between the coupon and yield for fixed-coupon instruments. If investors demand more yield from a fixed-coupon bond than the regular coupon, then the coupon is said to be deficient, and the bond trades at a discount to par. With an FRN, the bond pays a coupon of MRR + QM and investors demand a yield of MRR + DM. When the MRR + DM is greater than MRR + QM, the QM is deficient and the FRN will trade below par."
+        },
+        {
+          "type": "paragraph",
+          "text": "A simplified way of calculating the value of an FRN on a reset date is to use the current MRR plus the QM to estimate the future cash flows for the FRN, and discount these future cash flows at the MRR + DM. More complex models produce better estimates of value."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Valuation of an FRN"
+        },
+        {
+          "type": "paragraph",
+          "text": "A $100,000 FRN with a semiannual coupon pays a 180-day MRR plus a quoted margin of 120 basis points. On a reset date with five years remaining to maturity, the 180-day MRR is quoted as 3.0% (annualized), and the discount margin (based on the issuer’s current credit rating) is 1.5% (annualized). Estimate the value of the FRN."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "The current annualized coupon rate on the note is 3.0% + 1.2% = 4.2%, so the next semiannual coupon payment will be 4.2% / 2 = 2.1% of face value."
+        },
+        {
+          "type": "paragraph",
+          "text": "The required return in the market (MRR + discount margin) as an effective 180-day discount rate is 4.5% / 2 = 2.25%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Using a face value of 100%, 10 coupon payments of 2.1%, and a discount rate per period of 2.25%, we can calculate the present value of the FRN as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "N = 10; I/Y = 2.25; FV = 100; PMT = 2.1; CPT → PV = −98.67"
+        },
+        {
+          "type": "paragraph",
+          "text": "By this method, we can estimate current value of the note as 98.67% of its face value, or $98,670."
+        },
+        {
+          "type": "question",
+          "objectiveId": "54.b",
+          "text": "How do we calculate and interpret yield measures for money market instruments?"
+        },
+        {
+          "type": "paragraph",
+          "text": "For money market securities (debt securities maturing in a year or less), yields are quoted using various conventions. Some yield quotes are based on a 360-day year, while others are based on a 365-day year. Some yield quotes are add-on yields, and others are discount yields. Add-on yields are simply the interest to be earned on the amount paid or deposited today. Discount yields are annualized current discounts from the face values of money market securities received at maturity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bank CDs, repos, and market reference rates are typically quoted as annualized add-on rates. U.S. Treasury bills (T-bills) and commercial paper are quoted as their annualized discount from face value, based on a 360-day year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The relation between a security’s yield quoted as an annualized add-on yield based on a 365-day year (also known as its bond-equivalent yield or BEY) and its holding period yield (HPY) is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "quoted add-on yield = HPY × 365 / days to maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 100-day bank CD with an add-on yield (annualized) of 1.5%, based on a 365-day year. We can calculate the HPY of the CD as the quoted yield of 1.5% × 100 / 365 = 0.41%. The purchase of a $1,000 CD would provide a payment of $1,004.10 in 100 days."
+        },
+        {
+          "type": "paragraph",
+          "text": "The relation between a quoted discount and the actual unannualized discount based on a 360-day year is as follows:"
+        },
+        {
+          "type": "paragraph",
+          "text": "quoted discount yield = actual discount on the security × 360 / days to maturity"
+        },
+        {
+          "type": "paragraph",
+          "text": "Consider a 180-day U.S. T-bill quoted at a 2.2% (annualized) discount yield based on a 360-day year. The actual discount from face value on the T-bill is 180 / 360 × 2.2% = 1.1%. A $1,000 T-bill would be priced at (1 − 0.011) × 1,000 = $989. The HPY of the T-bill is 1,000 / 989 − 1 = 1.11%, slightly higher than its discount from face value of 1.1%."
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should be able to convert the yield of a security calculated on one basis to its yield on another basis. Such adjustments allow us to compare the yields of two money market securities for which quoted yields are calculated differently. The following provides some examples of converting a yield to one based on a different convention."
+        },
+        {
+          "type": "heading",
+          "text": "Worked example: Money market yields"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. A $1,000 90-day T-bill is priced with an annualized discount of 1.2%. Calculate its"
+        },
+        {
+          "type": "paragraph",
+          "text": "market price and its annualized add-on yield based on a 365-day year."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. A $1 million negotiable CD with 120 days to maturity is quoted with an add-on"
+        },
+        {
+          "type": "paragraph",
+          "text": "yield of 1.4% based on a 365-day year. Calculate the payment at maturity for this CD and its bond equivalent yield."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. A bank deposit for 100 days is quoted with an add-on yield of 1.5% based on a 360-"
+        },
+        {
+          "type": "paragraph",
+          "text": "day year. Calculate the bond equivalent yield and the yield on a semiannual bond basis."
+        },
+        {
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. The discount from face value is 1.2% × 90 / 360 × 1,000 = $3, so the current price is"
+        },
+        {
+          "type": "paragraph",
+          "text": "1,000 − 3 = $997."
+        },
+        {
+          "type": "paragraph",
+          "text": "The equivalent add-on yield for 90 days is 3 / 997 = 0.3009%. The annualized add-on yield based on a 365-day year is 365 / 90 × 0.3009% = 1.2203%. This add-on yield based on a 365-day year is referred to as the bond equivalent yield for a money market security."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The add-on interest for the 120-day period is 120 / 365 × 1.4% = 0.4603%."
+        },
+        {
+          "type": "paragraph",
+          "text": "At maturity, the CD will pay $1 million × (1 + 0.004603) = $1,004,603."
+        },
+        {
+          "type": "paragraph",
+          "text": "The quoted yield on the CD of 1.4% is already the bond equivalent yield by definition because it is an add-on yield annualized based on a 365-day year.\n3. Because the yield of 1.5% is an annualized yield calculated based on a 360-day year,"
+        },
+        {
+          "type": "paragraph",
+          "text": "the bond equivalent yield, which is based on a 365-day year, is:"
+        },
+        {
+          "type": "paragraph",
+          "text": "(365 / 360) × 1.5 % = 1.5208%"
+        },
+        {
+          "type": "paragraph",
+          "text": "We may want to compare the yield on a money market security to the YTM of a semiannual-pay bond. The method is to convert the money market security’s holding period return to an effective semiannual yield, and then double it."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the quoted yield of 1.5% is calculated as the add-on yield for 100 days times 360 / 100, the 100-day holding period return is 1.5% × 100 / 360 = 0.4167%. The effective annual yield is 1.004167³⁶⁵/¹⁰⁰ − 1 = 1.5294%, the equivalent semiannual yield is 1.015294¹/² − 1 = 0.7618%, and the annual yield on a semiannual bond basis is 2 × 0.7618% = 1.5236%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Because the periodicity of the money market security, 365 / 100, is greater than the periodicity of 2 for a semiannual-pay bond, the simple annual rate for the money market security, 1.5%, is less than the yield on a semiannual bond basis."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "54.a",
+      "text": "How do we calculate and interpret yield spread measures for floating-rate instruments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Floating-rate notes (FRNs) pay a coupon equal to a fixed quoted margin relative over a market reference rate (MRR). The required margin (or discount margin) on an FRN is the extra return over MRR demanded by investors due to credit and liquidity risk of the issuer. At issuance, FRNs usually have a quoted margin equal to the discount margin; hence, the FRN is issued at par value."
+    },
+    {
+      "type": "paragraph",
+      "text": "When credit conditions deteriorate and the discount margin rises above the quoted margin, the FRN will trade below par."
+    },
+    {
+      "type": "paragraph",
+      "text": "When credit conditions improve and the discount margin falls below the quoted margin, the FRN will trade above par."
+    },
+    {
+      "type": "question",
+      "objectiveId": "54.b",
+      "text": "How do we calculate and interpret yield measures for money market instruments?"
+    },
+    {
+      "type": "paragraph",
+      "text": "For money market instruments, yields may be quoted on a discount basis or an add-on basis, and they may use 360-day or 365-day years. A bond equivalent yield is an add-on yield based on a 365-day year."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "54.a",
+      "statement": "Calculate and interpret yield spread measures for floating-rate instruments.",
+      "question": "How do we calculate and interpret yield spread measures for floating-rate instruments?"
+    },
+    {
+      "id": "54.b",
+      "statement": "Calculate and interpret yield measures for money market instruments.",
+      "question": "How do we calculate and interpret yield measures for money market instruments?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-54-quiz-1",
+      "title": "Knowledge check 54.1",
+      "moduleId": "54.1",
+      "questions": [
+        {
+          "id": "r54-q1",
+          "number": 1,
+          "objectiveIds": [
+            "54.a"
+          ],
+          "prompt": "A floating-rate note has a quoted margin of +50 basis points and a required margin of +75 basis points. On its next reset date, the price of the note will be:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "equal to par value."
+            },
+            {
+              "id": "B",
+              "text": "less than par value."
+            },
+            {
+              "id": "C",
+              "text": "greater than par value."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "If the required margin is greater than the quoted margin, the credit quality of the issue has decreased, and the price on the reset date will be less than par value.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "If the required margin is greater than the quoted margin, the credit quality of the"
+            },
+            {
+              "type": "paragraph",
+              "text": "issue has decreased, and the price on the reset date will be less than par value."
+            }
+          ]
+        },
+        {
+          "id": "r54-q2",
+          "number": 2,
+          "objectiveIds": [
+            "54.b"
+          ],
+          "prompt": "Which of the following money market yields is a bond equivalent yield?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Add-on yield based on a 365-day year."
+            },
+            {
+              "id": "B",
+              "text": "Discount yield based on a 360-day year."
+            },
+            {
+              "id": "C",
+              "text": "Discount yield based on a 365-day year."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "An add-on yield based on a 365-day year is a bond equivalent yield.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An add-on yield based on a 365-day year is a bond equivalent yield."
+            }
+          ]
+        },
+        {
+          "id": "r54-q3",
+          "number": 3,
+          "objectiveIds": [
+            "54.b"
+          ],
+          "prompt": "Which of the following money market instruments has the highest bond equivalent yield?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "A 90-day Treasury bill quoted with a discount of 1% on a 360-day basis."
+            },
+            {
+              "id": "B",
+              "text": "A 183-day commercial paper quoted with a discount of 1% on a 365-day basis."
+            },
+            {
+              "id": "C",
+              "text": "A 91-day certificate of deposit offering an add-on rate of 1% on a 365-day basis."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "The bond equivalent yield is defined as the add-on yield quoted on a 365-day basis. The 90-day Treasury is trading at a 1% × 90 / 360 = 0.25% discount to par. Hence, it is trading at a price of 99.75. The HPR is, therefore, 100 / 99.75 − 1 = 0.2506%, and the bond equivalent yield is 0.2506% × 365 / 90 = 1.016%. The commercial paper is trading at a 1% × 183 / 365 = 0.5014% discount to par. Hence, it is trading at a price of 99.4986. The HPR is, therefore, 100 / 99.4986 − 1 = 0.5039%, and the bond equivalent yield is 0.5039% × 365 / 183 = 1.005%. The quoted return of the certificate of deposit is already in bond equivalent form; hence, no translation is needed here.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The bond equivalent yield is defined as the add-on yield quoted on a 365-day"
+            },
+            {
+              "type": "paragraph",
+              "text": "basis."
+            },
+            {
+              "type": "paragraph",
+              "text": "The 90-day Treasury is trading at a 1% × 90 / 360 = 0.25% discount to par. Hence, it is trading at a price of 99.75. The HPR is, therefore, 100 / 99.75 − 1 = 0.2506%, and the bond equivalent yield is 0.2506% × 365 / 90 = 1.016%."
+            },
+            {
+              "type": "paragraph",
+              "text": "The commercial paper is trading at a 1% × 183 / 365 = 0.5014% discount to par. Hence, it is trading at a price of 99.4986. The HPR is, therefore, 100 / 99.4986 − 1 = 0.5039%, and the bond equivalent yield is 0.5039% × 365 / 183 = 1.005%."
+            },
+            {
+              "type": "paragraph",
+              "text": "The quoted return of the certificate of deposit is already in bond equivalent form; hence, no translation is needed here."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

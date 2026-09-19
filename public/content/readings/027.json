@@ -1,0 +1,739 @@
+{
+  "readingId": 27,
+  "title": "Introduction to Financial Statement Analysis",
+  "introduction": [],
+  "modules": [
+    {
+      "id": "27.1",
+      "title": "Financial Statement Roles",
+      "blocks": [
+        {
+          "type": "question",
+          "objectiveId": "27.a",
+          "text": "What should we know about the steps in the financial statement analysis framework?"
+        },
+        {
+          "type": "paragraph",
+          "text": "The financial statement analysis framework¹ sets out a generic set of steps for analysts to apply to a multitude of objectives when analyzing debt issues, equity securities, and corporate actions. The framework consists of six steps:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 1:   State the objective and context. Determine what questions the analysis seeks to"
+        },
+        {
+          "type": "paragraph",
+          "text": "answer, the form in which this information needs to be presented, and what resources and how much time are available to perform the analysis. Step 2:   Gather data. Acquire the company’s financial statements and other relevant"
+        },
+        {
+          "type": "paragraph",
+          "text": "data on its industry and the economy. Ask questions of the company’s management, suppliers, and customers, and visit company sites. Step 3:   Process the data. Make any appropriate adjustments to the financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Calculate ratios and perform statistical analysis. Prepare exhibits such as graphs and common-size balance sheets. Step 4:   Analyze and interpret the data. Use the data to answer the questions stated in"
+        },
+        {
+          "type": "paragraph",
+          "text": "the first step. Decide what conclusions or recommendations the information supports. Step 5:   Report the conclusions or recommendations. Prepare a report and communicate"
+        },
+        {
+          "type": "paragraph",
+          "text": "it to its intended audience. Be sure the report and its dissemination comply with the Code and Standards that relate to investment analysis and recommendations. Step 6:   Update the analysis. Repeat these steps periodically, and change the conclusions"
+        },
+        {
+          "type": "paragraph",
+          "text": "or recommendations when necessary."
+        },
+        {
+          "type": "question",
+          "objectiveId": "27.b",
+          "text": "What should we know about the roles of financial statement analysis?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial reporting refers to the way companies show their financial performance to investors, creditors, and other interested parties by preparing and presenting financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "The role of financial statement analysis is to use the information in a company’s financial statements, along with other relevant information, to make economic decisions. Examples of such decisions include whether to invest in the company’s securities or recommend them to investors, whether to extend trade or bank credit to the company, and assigning credit ratings to a company’s debt. Analysts use financial statement data to evaluate a company’s past performance and current financial position to form opinions about the company’s ability to earn profits and generate cash flow in the future. As part of this process, analysts will identify risk factors that affect the company’s future profitability and position."
+        },
+        {
+          "type": "heading",
+          "text": "Study note"
+        },
+        {
+          "type": "paragraph",
+          "text": "This reading deals with financial analysis for external users. Management also performs financial analysis in making everyday decisions. However, management may rely on internal financial information that is likely maintained in a different format and unavailable to external users."
+        },
+        {
+          "type": "question",
+          "objectiveId": "27.c",
+          "text": "What should we know about the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Standard-setting bodies are professional organizations of accountants and auditors that establish financial reporting standards. Regulatory authorities are government agencies that have the legal authority to enforce compliance with financial reporting standards."
+        },
+        {
+          "type": "paragraph",
+          "text": "The two primary standard-setting bodies are the Financial Accounting Standards Board (FASB) and the International Accounting Standards Board (IASB). In the United States, the FASB sets forth the U.S. Generally Accepted Accounting Principles (U.S. GAAP). Outside the United States, the IASB establishes the International Financial Reporting Standards (IFRS). Other national standard-setting bodies exist as well. Some of the older IASB standards are referred to as the International Accounting Standards (IAS)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Regulatory authorities, such as the Securities and Exchange Commission (SEC) in the United States and the Financial Conduct Authority in the United Kingdom, are established by national governments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Most national authorities belong to the International Organization of Securities Commissions (IOSCO). Together, the members of IOSCO regulate more than 95% of the world’s financial markets. IOSCO is not a regulatory body, but its members work together to improve cross-border cooperation and make national regulations and enforcement more uniform around the world. The IOSCO Objectives and Principles of Securities Regulation are based on three main objectives:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Protecting investors\n2. Ensuring markets are fair, efficient, and transparent\n3. Reducing systemic risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "IOSCO requires issuers to provide full, accurate, and timely disclosure of financial results, risk, and other information used in the decision-making process. It also requires"
+        },
+        {
+          "type": "paragraph",
+          "text": "accounting standards that are used to prepare financial statements to be of a high standard and internationally accepted."
+        },
+        {
+          "type": "paragraph",
+          "text": "The SEC’s requirements for financial reporting by U.S. companies are shown in Figure 27.1 as an example of reporting requirements. The SEC has the responsibility of enforcing the Sarbanes-Oxley Act of 2002. The act prohibits a company’s external auditor from providing certain additional paid services to the company, to avoid the conflict of interest involved, and to promote auditor independence. The act requires a company’s executive management to certify that the financial statements are presented fairly and to include a statement about the effectiveness of the company’s internal controls of financial reporting. Additionally, the external auditor must provide a statement confirming the effectiveness of the company’s internal controls."
+        },
+        {
+          "type": "paragraph",
+          "text": "Proxy statements are issued to shareholders when there are matters that require a shareholder vote. These statements, which are also filed with the SEC, are a good source of information about the election of (and qualifications of) board members, compensation, management qualifications, and the issuance of stock options."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the European Union (EU), each member state has its own securities regulations, but all countries in the EU are required to report using IFRS. The European Commission also has established the European Securities Commission, which advises the European Commission on securities regulation issues, and the European Securities and Market Authority (ESMA), which coordinates regulation within the EU."
+        },
+        {
+          "type": "paragraph",
+          "text": "Financial statement notes (footnotes) include disclosures that provide further details about the information summarized in the financial statements. Footnotes allow users to improve their assessments of the amount, timing, and uncertainty of the estimates reported in the financial statements. Footnotes do the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "They discuss the basis of presentation such as the fiscal period covered by the statements, whether IFRS or U.S. GAAP is adhered to, and the inclusion of consolidated entities. They provide information about accounting methods, assumptions, and estimates used by management. They provide additional information on information included in the primary financial statements and items such as business acquisitions or disposals, legal actions, employee benefit plans, contingencies and commitments, significant customers, related party transactions, position and performance of segments of the firm, and significant post balance sheet events. They are audited along with the primary financial statements."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 27.1: SEC Required Filings"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/5d35fd24d5d659d777db.png",
+          "alt": "Equation, table, or diagram: Figure 27.1: SEC Required Filings",
+          "width": 537,
+          "height": 534,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "Both U.S. GAAP and IFRS require companies to report segment data, but the required disclosure items are only a subset of the required disclosures for the company as a whole. Nonetheless, an analyst can prepare a more detailed analysis and forecast by examining the performance of business or geographic segments separately. Segment profit margins, asset utilization (turnover), and return on assets can be very useful in gaining a clear picture of a firm’s overall operations. For forecasting, growth rates of segment revenues and profits can be used to estimate future sales and profits and to determine the changes in company characteristics over time."
+        },
+        {
+          "type": "paragraph",
+          "text": "A business segment (operating segment) is a portion of a larger company that accounts for more than 10% of the company’s revenues, assets, or income. An operating segment should be distinguishable from the company’s other lines of business in terms of the risk and return characteristics of the segment. Segments reported should account for a minimum of 75% of the firm’s external sales."
+        },
+        {
+          "type": "paragraph",
+          "text": "The following must be disclosed for each segment within the financial statement notes:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Revenue (external and between segments) A measure of profit or loss"
+        },
+        {
+          "type": "paragraph",
+          "text": "A measure of assets and liabilities Interest (revenue and expense)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acquisitions of PP&E and intangibles Depreciation and amortization"
+        },
+        {
+          "type": "paragraph",
+          "text": "Other noncash expenses Income tax expense Share of equity-accounted investments results"
+        },
+        {
+          "type": "paragraph",
+          "text": "Geographic segments are also identified when they meet the size criterion given previously and the geographic unit has a business environment that is different from that of other segments or the remainder of the company’s business."
+        },
+        {
+          "type": "paragraph",
+          "text": "For example, in its 2016 annual report, Boeing described its business segments as follows:²"
+        },
+        {
+          "type": "paragraph",
+          "text": "We are organized based on the products and services we offer. We operate in five principal segments: –  Commercial Airplanes –  Our Defense, Space & Security (BDS) business comprises three segments:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Boeing Military Aircraft (BMA)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Network & Space Systems (N&SS) Global Services & Support (GS&S) –  Boeing Capital (BCC)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Management commentary (also known as management report, operating and financial review, or management discussion and analysis [MD&A]) is one of the most useful sections of an annual report. IFRS guidance recommends that management commentary address the nature of the business, management’s objectives, the company’s past performance, the performance measures used, and the company’s key relationships, resources, and risks. Analysts must be aware that some parts of management commentary may be unaudited."
+        },
+        {
+          "type": "paragraph",
+          "text": "For publicly held firms in the United States, the SEC requires management commentary to discuss trends and identify significant events and uncertainties that affect the firm’s liquidity, capital resources, and results of operations. Management must also discuss the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Effects of inflation and changing prices, if material Impact of off-balance-sheet obligations and contractual obligations, such as purchase commitments Accounting policies that require significant judgment by management"
+        },
+        {
+          "type": "paragraph",
+          "text": "Forward-looking expenditures and divestitures"
+        },
+        {
+          "type": "paragraph",
+          "text": "An audit is an independent review of an entity’s financial statements. Public accountants conduct audits and examine the financial reports and supporting records."
+        },
+        {
+          "type": "paragraph",
+          "text": "The objective of an audit is to enable the auditor to provide an opinion on the fairness and reliability of the financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "The independent certified public accounting firm employed by the board of directors is responsible for seeing that the financial statements conform to the applicable accounting standards. The auditor examines the company’s accounting and internal control systems, confirms assets and liabilities, and generally tries to determine that there are no material errors in the financial statements. The auditor’s report is an important source of information."
+        },
+        {
+          "type": "paragraph",
+          "text": "The standard auditor’s opinion contains three parts and states the following:"
+        },
+        {
+          "type": "paragraph",
+          "text": "1. Whereas the financial statements are prepared by management and are its"
+        },
+        {
+          "type": "paragraph",
+          "text": "responsibility, the auditor has performed an independent review.\n2. Generally accepted auditing standards were followed, thus providing reasonable"
+        },
+        {
+          "type": "paragraph",
+          "text": "assurance that the financial statements contain no material errors."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. The auditor is satisfied that the statements were prepared in accordance with"
+        },
+        {
+          "type": "paragraph",
+          "text": "accepted accounting principles and that the principles chosen and estimates made are reasonable. The auditor’s report must also contain additional explanation when accounting methods have not been used consistently between periods."
+        },
+        {
+          "type": "paragraph",
+          "text": "An unqualified opinion (also known as an unmodified opinion or clean opinion) indicates that the auditor believes the statements are free from material omissions and errors. If the statements make any exceptions to the accounting principles, the auditor may issue a qualified opinion and explain these exceptions in the audit report. The auditor can issue an adverse opinion if the statements are not presented fairly or are materially nonconforming with accounting standards. If the auditor is unable to express an opinion (e.g., in the case of a scope limitation), a disclaimer of opinion is issued. Any opinion other than unqualified is sometimes referred to as a modified opinion."
+        },
+        {
+          "type": "paragraph",
+          "text": "The auditor’s opinion will also contain an explanatory paragraph when a material loss is probable, but the amount cannot be reasonably estimated. These uncertainties may relate to the going concern assumption (the assumption that the firm will continue to operate for the foreseeable future), to the valuation or realization of asset values, or to litigation. This type of disclosure may be a signal of serious problems and may call for close examination by the analyst."
+        },
+        {
+          "type": "paragraph",
+          "text": "Internal controls are the processes by which the company ensures that it presents accurate financial statements. Internal controls are the responsibility of management. For publicly traded firms in the United States, the auditor must express an opinion on the firm’s internal controls. The auditor can provide this opinion separately, or as the fourth element of the standard opinion."
+        },
+        {
+          "type": "paragraph",
+          "text": "An audit report must also contain a section communicating key audit matters (international reports) or critical audit matters (U.S.), which highlights accounting choices that are of greatest significance to users of financial statements. These would include accounting choices that require significant management judgments and estimates, how significant transactions during a period were accounted for, or choices that the auditor finds especially challenging or subjective—and which, therefore, have a significant likelihood of being misstated."
+        },
+        {
+          "type": "question",
+          "objectiveId": "27.d",
+          "text": "What should we know about implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards?"
+        },
+        {
+          "type": "paragraph",
+          "text": "While the IASB and FASB work together to harmonize changes to accounting standards, some significant differences between IFRS and U.S. GAAP still exist. Some major differences are outlined in Figure 27.2, but additional differences will be encountered in subsequent modules."
+        },
+        {
+          "type": "heading",
+          "text": "Figure 27.2: Significant Differences Between IFRS and U.S. GAAP"
+        },
+        {
+          "type": "image",
+          "src": "content/figures/70f5d4170642656171e3.png",
+          "alt": "Equation, table, or diagram: Figure 27.2: Significant Differences Between IFRS and U.S. GAAP",
+          "width": 537,
+          "height": 209,
+          "visualKind": "diagram-chart-or-table"
+        },
+        {
+          "type": "paragraph",
+          "text": "The existence of differences between the two sets of standards require the analyst to exercise caution when making comparisons between firms operating in different jurisdictions."
+        },
+        {
+          "type": "paragraph",
+          "text": "As financial reporting standards continue to evolve, analysts need to monitor how these developments will affect the financial statements they use. An analyst should be aware of new products and innovations in the financial markets that generate new types of transactions. These might not fall neatly into the existing financial reporting standards. Analysts can use the financial reporting framework as a guide for evaluating what effect new products or transactions might have on financial statements."
+        },
+        {
+          "type": "paragraph",
+          "text": "To keep up to date on the evolving standards, an analyst can monitor professional journals and other sources, such as the IASB (www.ifrs.org) and FASB (www.fasb.org) websites. CFA Institute produces position papers on financial reporting issues through the CFA Institute Centre for Financial Market Integrity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Finally, analysts must monitor company disclosures for significant accounting standards and estimates."
+        },
+        {
+          "type": "question",
+          "objectiveId": "27.e",
+          "text": "What should we know about information sources that analysts use in financial statement analysis besides annual and interim financial reports?"
+        },
+        {
+          "type": "paragraph",
+          "text": "As well as regulated information provided by issuers in filings and financial statements, an analyst can also use additional information sources:"
+        },
+        {
+          "type": "paragraph",
+          "text": "Issuer sources:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Earnings calls. Targeted at investors, analysts, and members of the media, earnings"
+        },
+        {
+          "type": "paragraph",
+          "text": "calls include presentations by the company’s management and the opportunity for question-and-answer sessions. Firms often provide earnings guidance before they release their financial statements. After an earnings announcement, senior management may hold a conference call to answer questions and provide information to complement their regulatory filings. –  Ad hoc presentations and events that are similar in format to an earnings call"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Press releases focusing on major events relevant to the company –  Communications with management, investor relations, and company personnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Analysts should note that these additional sources of information provided by issuers are unlikely to have been audited. Public third-party sources:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Free industry reports, whitepapers, and trade journals –  Government agency-produced economic and industry statistics –  Generalized and industry-specific media sources"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Social media"
+        },
+        {
+          "type": "paragraph",
+          "text": "Proprietary third-party sources:"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Analyst reports –  Reports from data platforms such as Bloomberg, Wind, and FactSet –  Reports from industry-specific agencies and consultancies"
+        },
+        {
+          "type": "paragraph",
+          "text": "Proprietary primary research: –  Studies commissioned by the analyst"
+        },
+        {
+          "type": "paragraph",
+          "text": "–  Hands-on experience with the company’s products or services –  Data and advice of technical specialists employed by the analyst"
+        },
+        {
+          "type": "paragraph",
+          "text": "An analyst should also review pertinent information on economic conditions and the company’s industry and compare the company to its competitors. The necessary information can be acquired from trade journals, statistical reporting services, and government agencies."
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "type": "question",
+      "objectiveId": "27.a",
+      "text": "What should we know about the steps in the financial statement analysis framework?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The framework for financial analysis has six steps:"
+    },
+    {
+      "type": "paragraph",
+      "text": "1. State the objective of the analysis.\n2. Gather data.\n3. Process the data."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Analyze and interpret the data.\n5. Report the conclusions or recommendations."
+    },
+    {
+      "type": "paragraph",
+      "text": "6. Update the analysis."
+    },
+    {
+      "type": "question",
+      "objectiveId": "27.b",
+      "text": "What should we know about the roles of financial statement analysis?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The role of financial reporting is to provide various users with useful information about a company’s performance and financial position."
+    },
+    {
+      "type": "paragraph",
+      "text": "The role of financial statement analysis is to use the data from financial statements to support economic decisions."
+    },
+    {
+      "type": "question",
+      "objectiveId": "27.c",
+      "text": "What should we know about the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Standard-setting bodies are private sector organizations that establish financial reporting standards. The two primary standard-setting bodies are the International"
+    },
+    {
+      "type": "paragraph",
+      "text": "Accounting Standards Board (IASB) and, in the United States, the Financial Accounting Standards Board (FASB)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Regulatory authorities are government agencies that enforce compliance with financial reporting standards. Regulatory authorities include the Securities and Exchange Commission (SEC) in the United States and the Financial Conduct Authority in the United Kingdom. Many national regulatory authorities belong to the International Organization of Securities Commissions (IOSCO)."
+    },
+    {
+      "type": "paragraph",
+      "text": "Important information about accounting methods, estimates, and assumptions is disclosed in the footnotes to the financial statements and supplementary schedules. These disclosures also contain information about segment results, commitments and contingencies, legal proceedings, acquisitions or divestitures, issuance of stock options, and details of employee benefit plans."
+    },
+    {
+      "type": "paragraph",
+      "text": "Management commentary (management discussion and analysis) contains an overview of the company and important information about business trends, future capital needs, liquidity, significant events, and significant choices of accounting methods requiring management judgment."
+    },
+    {
+      "type": "paragraph",
+      "text": "The objective of audits of financial statements is to provide an opinion on the statements’ fairness and reliability."
+    },
+    {
+      "type": "paragraph",
+      "text": "The auditor’s opinion gives evidence of an independent review of the financial statements that verifies that appropriate accounting principles were used, that standard auditing procedures were used to establish reasonable assurance that the statements contain no material errors, and that management’s report on the company’s internal controls has been reviewed."
+    },
+    {
+      "type": "paragraph",
+      "text": "An auditor can issue an unqualified (clean) opinion if the statements are free from material omissions and errors, a qualified opinion that notes any exceptions to accounting principles, an adverse opinion if the statements are not presented fairly in the auditor’s opinion, or a disclaimer of opinion if the auditor is unable to express an opinion."
+    },
+    {
+      "type": "paragraph",
+      "text": "A company’s management is responsible for maintaining an effective internal control system to ensure the accuracy of its financial statements."
+    },
+    {
+      "type": "question",
+      "objectiveId": "27.d",
+      "text": "What should we know about implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reporting standards are designed to ensure that different firms’ statements are comparable to one another and to narrow the range of reasonable estimates on which financial statements are based. This aids users of the financial statements who rely on them for information about the company’s activities, profitability, and creditworthiness. An analyst needs to be aware of differences between IFRS and U.S. GAAP when comparing companies in different jurisdictions."
+    },
+    {
+      "type": "paragraph",
+      "text": "An analyst should be aware of evolving financial reporting standards and new products and innovations that generate new types of transactions."
+    },
+    {
+      "type": "question",
+      "objectiveId": "27.e",
+      "text": "What should we know about information sources that analysts use in financial statement analysis besides annual and interim financial reports?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Along with the annual financial statements, important information sources for an analyst include a company’s quarterly and semiannual reports, proxy statements, press releases, and earnings guidance, as well as information on the industry and peer companies from external sources."
+    }
+  ],
+  "practice": [],
+  "objectives": [
+    {
+      "id": "27.a",
+      "statement": "Describe the steps in the financial statement analysis framework.",
+      "question": "What should we know about the steps in the financial statement analysis framework?"
+    },
+    {
+      "id": "27.b",
+      "statement": "Describe the roles of financial statement analysis.",
+      "question": "What should we know about the roles of financial statement analysis?"
+    },
+    {
+      "id": "27.c",
+      "statement": "Describe the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports.",
+      "question": "What should we know about the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports?"
+    },
+    {
+      "id": "27.d",
+      "statement": "Describe implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards.",
+      "question": "What should we know about implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards?"
+    },
+    {
+      "id": "27.e",
+      "statement": "Describe information sources that analysts use in financial statement analysis besides annual and interim financial reports.",
+      "question": "What should we know about information sources that analysts use in financial statement analysis besides annual and interim financial reports?"
+    }
+  ],
+  "quizSets": [
+    {
+      "id": "reading-27-quiz-1",
+      "title": "Knowledge check 27.1",
+      "moduleId": "27.1",
+      "questions": [
+        {
+          "id": "r27-q1",
+          "number": 1,
+          "objectiveIds": [
+            "27.b"
+          ],
+          "prompt": "Which of the following statements least accurately describes a role of financial statement analysis?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Use the information in financial statements to make economic decisions."
+            },
+            {
+              "id": "B",
+              "text": "Provide reasonable assurance that the financial statements are free of material errors."
+            },
+            {
+              "id": "C",
+              "text": "Evaluate an entity’s financial position and past performance to form opinions about its future ability to earn profits and generate cash flow."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "This statement describes the role of an auditor, rather than the role of an analyst. The other responses describe the role of financial statement analysis.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "This statement describes the role of an auditor, rather than the role of an analyst."
+            },
+            {
+              "type": "paragraph",
+              "text": "The other responses describe the role of financial statement analysis."
+            }
+          ]
+        },
+        {
+          "id": "r27-q2",
+          "number": 2,
+          "objectiveIds": [
+            "27.c"
+          ],
+          "prompt": "Information about accounting estimates, assumptions, and methods chosen for reporting is most likely found in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "the auditor’s opinion."
+            },
+            {
+              "id": "B",
+              "text": "financial statement notes."
+            },
+            {
+              "id": "C",
+              "text": "management discussion and analysis."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Information about accounting methods and estimates is contained in the footnotes to the financial statements.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Information about accounting methods and estimates is contained in the footnotes"
+            },
+            {
+              "type": "paragraph",
+              "text": "to the financial statements."
+            }
+          ]
+        },
+        {
+          "id": "r27-q3",
+          "number": 3,
+          "objectiveIds": [
+            "27.c"
+          ],
+          "prompt": "If an auditor finds that a company’s financial statements have made a specific exception to applicable accounting principles, she is most likely to issue a:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "dissenting opinion."
+            },
+            {
+              "id": "B",
+              "text": "cautionary note."
+            },
+            {
+              "id": "C",
+              "text": "qualified opinion."
+            }
+          ],
+          "correctOptionId": "C",
+          "explanation": "An auditor will issue a qualified opinion if the financial statements make any exceptions to applicable accounting standards and will explain the effect of these exceptions in the auditor’s report.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "An auditor will issue a qualified opinion if the financial statements make any"
+            },
+            {
+              "type": "paragraph",
+              "text": "exceptions to applicable accounting standards and will explain the effect of these exceptions in the auditor’s report."
+            }
+          ]
+        },
+        {
+          "id": "r27-q4",
+          "number": 4,
+          "objectiveIds": [
+            "27.c"
+          ],
+          "prompt": "Information about elections of members to a company’s board of directors is most likely found in:",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "a 10-Q filing."
+            },
+            {
+              "id": "B",
+              "text": "a proxy statement."
+            },
+            {
+              "id": "C",
+              "text": "footnotes to the financial statements."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Proxy statements contain information related to matters that come before shareholders for a vote, such as elections of board members.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Proxy statements contain information related to matters that come before"
+            },
+            {
+              "type": "paragraph",
+              "text": "shareholders for a vote, such as elections of board members."
+            }
+          ]
+        },
+        {
+          "id": "r27-q5",
+          "number": 5,
+          "objectiveIds": [
+            "27.a"
+          ],
+          "prompt": "Which of these steps is least likely to be a part of the financial statement analysis framework?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "State the purpose and context of the analysis."
+            },
+            {
+              "id": "B",
+              "text": "Determine whether the company’s securities are suitable for the client."
+            },
+            {
+              "id": "C",
+              "text": "Adjust the financial statement data and compare the company to its industry peers."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Determining the suitability of an investment for a client is not one of the six steps in the financial statement analysis framework. The analyst would only perform this function if he also had an advisory relationship with the client. Stating the objective and processing the data are two of the six steps in the framework. The others are gathering the data, analyzing the data, updating the analysis, and reporting the conclusions.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Determining the suitability of an investment for a client is not one of the six steps"
+            },
+            {
+              "type": "paragraph",
+              "text": "in the financial statement analysis framework. The analyst would only perform this function if he also had an advisory relationship with the client. Stating the objective and processing the data are two of the six steps in the framework. The others are gathering the data, analyzing the data, updating the analysis, and reporting the conclusions."
+            }
+          ]
+        },
+        {
+          "id": "r27-q6",
+          "number": 6,
+          "objectiveIds": [
+            "27.c"
+          ],
+          "prompt": "Which of the following is least likely to be a part of segment disclosure?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Segment sales."
+            },
+            {
+              "id": "B",
+              "text": "Segment cost of goods sold."
+            },
+            {
+              "id": "C",
+              "text": "Segment earnings."
+            }
+          ],
+          "correctOptionId": "B",
+          "explanation": "Firms are not required to provide detailed financial statements for segments that would include line items such as cost of goods sold, but the following should be disclosed in the segment data: Revenue (external and between segments) A measure of profit or loss A measure of assets and liabilities Interest (revenue and expense) Acquisitions of PP&E and intangibles Depreciation and amortization Other noncash expenses Income tax expense Share of equity-accounted investments results",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Firms are not required to provide detailed financial statements for segments that"
+            },
+            {
+              "type": "paragraph",
+              "text": "would include line items such as cost of goods sold, but the following should be disclosed in the segment data:"
+            },
+            {
+              "type": "paragraph",
+              "text": "Revenue (external and between segments) A measure of profit or loss A measure of assets and liabilities Interest (revenue and expense) Acquisitions of PP&E and intangibles Depreciation and amortization Other noncash expenses Income tax expense Share of equity-accounted investments results"
+            }
+          ]
+        },
+        {
+          "id": "r27-q7",
+          "number": 7,
+          "objectiveIds": [
+            "27.e"
+          ],
+          "prompt": "Which of the following sources of information is most likely to be classified as a proprietary third- party source?",
+          "supportingBlocks": [],
+          "options": [
+            {
+              "id": "A",
+              "text": "Research reports prepared by analysts."
+            },
+            {
+              "id": "B",
+              "text": "Trade journals."
+            },
+            {
+              "id": "C",
+              "text": "Statistics produced by government agencies."
+            }
+          ],
+          "correctOptionId": "A",
+          "explanation": "Research reports provided by analysts are rarely in the public domain. Trade journals and government statistics are available publicly. Assessing Corporate Governance and Financial Risk, International Bank for Reconstruction and Development, April 2003, p. 300. https://s2.q4cdn.com/661678649/files/doc_financials/annual/2016/2016-Annual-Report.pdf.",
+          "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Research reports provided by analysts are rarely in the public domain. Trade"
+            },
+            {
+              "type": "paragraph",
+              "text": "journals and government statistics are available publicly."
+            },
+            {
+              "type": "paragraph",
+              "text": "Assessing Corporate Governance and Financial Risk, International Bank for Reconstruction and Development, April 2003, p. 300."
+            },
+            {
+              "type": "paragraph",
+              "text": "https://s2.q4cdn.com/661678649/files/doc_financials/annual/2016/2016-Annual-Report.pdf."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
