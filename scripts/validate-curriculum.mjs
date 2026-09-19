@@ -59,5 +59,5 @@ if (
 }
 
 console.log(
-  `Validated ${curriculum.length} chapters, ${curriculum.reduce((sum, reading) => sum + reading.modules.length, 0)} complete modules, and ${questionCount} original practice questions.`,
+  `Validated the ${curriculum.length}-reading course shell, ${curriculum.reduce((sum, reading) => sum + reading.modules.length, 0)} module records, and ${questionCount} original practice-question records.`,
 );

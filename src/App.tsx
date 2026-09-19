@@ -1,5 +1,7 @@
-import { useEffect, useMemo, useState } from "react";
-import curriculumData from "./data/curriculum.json";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
+import curriculumData from "./data/manifest.json";
+
+const GoldLesson = lazy(() => import("./components/learning/GoldLesson"));
 
 type ModuleLesson = {
   id: string;
@@ -38,8 +40,14 @@ type Reading = {
   modules: ModuleLesson[];
 };
 
-const curriculum = curriculumData as Reading[];
+type ReadingSummary = Omit<Reading, "modules"> & {
+  modules: Pick<ModuleLesson, "id" | "title">[];
+};
+
+const curriculum = curriculumData as ReadingSummary[];
+const readingLoaders = import.meta.glob<{ default: Reading }>("./data/readings/*.json");
 const topicOrder = [...new Set(curriculum.map((reading) => reading.topic))];
+const goldReadingIds = new Set([1, 28, 57, 83, 91]);
 const topicIcons = [0, 1, 2, 3, 4, 5, 6, 7, 0, 2];
 const progressKey = "return-lab-progress-v2";
 const asset = (path: string) =>
@@ -50,15 +58,43 @@ function readRoute() {
   return match ? Number(match[1]) : null;
 }
 
+function readSection() {
+  const match = window.location.hash.match(/\/section\/([^/?#]+)/);
+  return match ? decodeURIComponent(match[1]) : null;
+}
+
+function scrollToRouteSection() {
+  const section = readSection();
+  if (!section) {
+    window.scrollTo({ top: 0 });
+    return;
+  }
+
+  window.requestAnimationFrame(() => {
+    window.requestAnimationFrame(() => {
+      document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+    });
+  });
+}
+
 function openReading(number: number) {
   window.location.hash = `/reading/${number}`;
   window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+async function loadReading(number: number) {
+  const path = `./data/readings/${String(number).padStart(3, "0")}.json`;
+  const loader = readingLoaders[path];
+  if (!loader) throw new Error(`Reading ${number} is not available.`);
+  return (await loader()).default;
 }
 
 function App() {
   const [readingNumber, setReadingNumber] = useState<number | null>(() =>
     readRoute(),
   );
+  const [reading, setReading] = useState<Reading | null>(null);
+  const [loadError, setLoadError] = useState("");
   const [complete, setComplete] = useState<number[]>(() => {
     try {
       return JSON.parse(localStorage.getItem(progressKey) || "[]");
@@ -68,14 +104,48 @@ function App() {
   });
 
   useEffect(() => {
-    const updateRoute = () => setReadingNumber(readRoute());
+    const updateRoute = () => {
+      setReadingNumber(readRoute());
+      scrollToRouteSection();
+    };
     window.addEventListener("hashchange", updateRoute);
+    scrollToRouteSection();
     return () => window.removeEventListener("hashchange", updateRoute);
   }, []);
 
   useEffect(() => {
     localStorage.setItem(progressKey, JSON.stringify(complete));
   }, [complete]);
+
+  useEffect(() => {
+    let active = true;
+    setLoadError("");
+    if (readingNumber === null) {
+      setReading(null);
+      return () => {
+        active = false;
+      };
+    }
+
+    setReading(null);
+    void loadReading(readingNumber)
+      .then((loadedReading) => {
+        if (active) setReading(loadedReading);
+      })
+      .catch((error: unknown) => {
+        if (active) {
+          setLoadError(error instanceof Error ? error.message : "The reading could not be loaded.");
+        }
+      });
+
+    return () => {
+      active = false;
+    };
+  }, [readingNumber]);
+
+  useEffect(() => {
+    if (reading) scrollToRouteSection();
+  }, [reading]);
 
   const toggleComplete = (number: number) => {
     setComplete((current) =>
@@ -85,22 +155,33 @@ function App() {
     );
   };
 
-  const reading = curriculum.find((item) => item.number === readingNumber);
-
   return (
     <>
       <Header completed={complete.length} />
-      {reading ? (
+      {readingNumber !== null && reading ? (
         <LessonPage
+          key={reading.number}
           complete={complete.includes(reading.number)}
           onToggleComplete={() => toggleComplete(reading.number)}
           reading={reading}
         />
+      ) : readingNumber !== null ? (
+        <ReadingLoadState error={loadError} />
       ) : (
         <HomePage complete={complete} />
       )}
       <Footer />
     </>
+  );
+}
+
+function ReadingLoadState({ error }: { error: string }) {
+  return (
+    <main className="reading-load-state" aria-live="polite">
+      <span className="section-code">{error ? "READING UNAVAILABLE" : "LOADING LESSON"}</span>
+      <h1>{error || "Preparing the reading…"}</h1>
+      {error ? <a href="#/">Return to the curriculum</a> : null}
+    </main>
   );
 }
 
@@ -112,9 +193,9 @@ function Header({ completed }: { completed: number }) {
         <span>RETURN LAB</span>
       </a>
       <nav aria-label="Primary navigation">
-        <a href="#curriculum">Curriculum</a>
-        <a href="#topics">Topics</a>
-        <a href="#progress">Progress</a>
+        <a href="#/section/curriculum">Curriculum</a>
+        <a href="#/section/topics">Topics</a>
+        <a href="#/section/progress">Progress</a>
       </nav>
       <div className="header-progress">
         <span>{completed}/93</span>
@@ -167,7 +248,7 @@ function HomePage({ complete }: { complete: number[] }) {
               {complete.length ? "Continue learning" : "Start reading 01"}
               <span aria-hidden="true">→</span>
             </button>
-            <a href="#curriculum">Explore all readings</a>
+            <a href="#/section/curriculum">Explore all readings</a>
           </div>
           <dl className="hero-stats">
             <div>
@@ -179,28 +260,12 @@ function HomePage({ complete }: { complete: number[] }) {
               <dd>taught modules</dd>
             </div>
             <div>
-              <dt>456</dt>
-              <dd>practice questions</dd>
+              <dt>365</dt>
+              <dd>mapped outcomes</dd>
             </div>
           </dl>
         </div>
-        <div className="hero-media">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            poster={asset("assets/world/return-machine-poster.png")}
-          >
-            <source
-              media="(max-width: 720px)"
-              src={asset("assets/world/return-machine-mobile.mp4")}
-              type="video/mp4"
-            />
-            <source src={asset("assets/world/return-machine.mp4")} type="video/mp4" />
-          </video>
-          <div className="orbit-label">A connected model of finance</div>
-        </div>
+        <HeroMedia />
       </section>
 
       <section className="progress-strip" id="progress">
@@ -292,7 +357,11 @@ function HomePage({ complete }: { complete: number[] }) {
               <div className="reading-body">
                 <p>{reading.topic}</p>
                 <h3>{reading.title}</h3>
-                <span>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"} · {reading.chapterQuestionCount} questions</span>
+                <span>
+                  {goldReadingIds.has(reading.number)
+                    ? "Source-verified deep lesson · 3 application checks"
+                    : `${reading.modules.length} taught ${reading.modules.length === 1 ? "module" : "modules"} · ${reading.chapterQuestionCount} questions`}
+                </span>
                 <ul>
                   {reading.modules.slice(0, 3).map((module) => (
                     <li key={module.id}>{module.title}</li>
@@ -326,6 +395,7 @@ function LessonPage({
 }) {
   const previous = curriculum[reading.number - 2];
   const next = curriculum[reading.number];
+  const hasGoldLesson = goldReadingIds.has(reading.number);
 
   useEffect(() => {
     document.title = `${String(reading.number).padStart(2, "0")} ${reading.title} | Return Lab`;
@@ -342,7 +412,7 @@ function LessonPage({
         <div>
           <p>{reading.topic}</p>
           <h1>{reading.title}</h1>
-          <strong>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"} · {reading.chapterQuestionCount} practice questions</strong>
+          <strong>{hasGoldLesson ? "Source-verified deep lesson · objective-based practice" : `${reading.modules.length} taught ${reading.modules.length === 1 ? "module" : "modules"} · ${reading.chapterQuestionCount} practice questions`}</strong>
         </div>
         <button
           className={complete ? "complete-action is-complete" : "complete-action"}
@@ -357,12 +427,17 @@ function LessonPage({
         <aside className="lesson-outline">
           <span className="section-code">IN THIS READING</span>
           <ol>
-            <li><a href="#overview">Core idea</a></li>
-            {reading.modules.map((module) => (
-              <li key={module.id}><a href={`#module-${module.id}`}>{module.id} {module.title}</a></li>
-            ))}
-            {reading.number === 1 ? <li><a href="#return-lab">Interactive return lab</a></li> : null}
-            <li><a href="#knowledge-check">Knowledge check</a></li>
+            <li><a href={`#/reading/${reading.number}/section/overview`}>Core idea</a></li>
+            {hasGoldLesson ? (
+              <>
+                <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Source-verified deep lesson</a></li>
+                <li><a href={`#/reading/${reading.number}/section/deep-assessment`}>Application check</a></li>
+              </>
+            ) : reading.modules.map((module) => (
+                <li key={module.id}><a href={`#/reading/${reading.number}/section/module-${module.id}`}>{module.id} {module.title}</a></li>
+              ))}
+            {reading.number === 1 ? <li><a href={`#/reading/${reading.number}/section/return-lab`}>Interactive return lab</a></li> : null}
+            <li><a href={`#/reading/${reading.number}/section/knowledge-check`}>Knowledge check</a></li>
           </ol>
         </aside>
 
@@ -376,7 +451,11 @@ function LessonPage({
             </div>
           </section>
 
-          {reading.modules.map((module, index) => (
+          {hasGoldLesson ? (
+            <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the source-verified lesson…</p>}>
+              <GoldLesson readingId={reading.number} />
+            </Suspense>
+          ) : reading.modules.map((module, index) => (
             <section className="module-section" id={`module-${module.id}`} key={module.id}>
               <div className="module-heading">
                 <span>{module.id}</span>
@@ -544,9 +623,16 @@ function ReturnCalculator() {
   const [beforeFlow, setBeforeFlow] = useState(1100);
   const [flow, setFlow] = useState(900);
   const [end, setEnd] = useState(1800);
-  const first = beforeFlow / Math.max(start, 0.01) - 1;
-  const second = end / Math.max(beforeFlow + flow, 0.01) - 1;
-  const twr = (1 + first) * (1 + second) - 1;
+  const investedAfterFlow = beforeFlow + flow;
+  const isValid =
+    [start, beforeFlow, flow, end].every(Number.isFinite) &&
+    start > 0 &&
+    beforeFlow >= 0 &&
+    investedAfterFlow > 0 &&
+    end >= 0;
+  const first = isValid ? beforeFlow / start - 1 : null;
+  const second = isValid ? end / investedAfterFlow - 1 : null;
+  const twr = first === null || second === null ? null : (1 + first) * (1 + second) - 1;
   const percent = (value: number) => `${(value * 100).toFixed(2)}%`;
 
   return (
@@ -574,9 +660,17 @@ function ReturnCalculator() {
           ))}
         </div>
         <div className="calculator-results">
-          <article><span>PERIOD 1</span><strong>{percent(first)}</strong></article>
-          <article><span>PERIOD 2</span><strong>{percent(second)}</strong></article>
-          <article className="featured-result"><span>CUMULATIVE TWR</span><strong>{percent(twr)}</strong></article>
+          {isValid && first !== null && second !== null && twr !== null ? (
+            <>
+              <article><span>PERIOD 1</span><strong>{percent(first)}</strong></article>
+              <article><span>PERIOD 2</span><strong>{percent(second)}</strong></article>
+              <article className="featured-result"><span>CUMULATIVE TWR</span><strong>{percent(twr)}</strong></article>
+            </>
+          ) : (
+            <p className="calculator-error" role="alert">
+              Enter a positive starting value and keep the portfolio value after the cash flow above zero. Returns are undefined when a period begins with no invested capital.
+            </p>
+          )}
         </div>
       </div>
     </section>
@@ -584,43 +678,94 @@ function ReturnCalculator() {
 }
 
 function KnowledgeCheck({ reading }: { reading: Reading }) {
-  const [answer, setAnswer] = useState<number | null>(null);
-  const [checked, setChecked] = useState(false);
-  const choices = [
-    reading.overview,
-    "The reading is mainly a list of market prices with no decision framework.",
-    "The result can be applied without defining inputs, assumptions, or limitations.",
-  ];
+  const [response, setResponse] = useState("");
+  const [revealed, setRevealed] = useState(false);
 
   return (
     <section className="knowledge-check" id="knowledge-check">
       <span className="section-code">KNOWLEDGE CHECK</span>
-      <h2>Which statement best captures this reading?</h2>
-      <div className="answer-list">
-        {choices.map((choice, index) => (
-          <label className={answer === index ? "selected" : ""} key={choice}>
-            <input
-              checked={answer === index}
-              name={`check-${reading.number}`}
-              onChange={() => { setAnswer(index); setChecked(false); }}
-              type="radio"
-            />
-            <span>{String.fromCharCode(65 + index)}</span>
-            {choice}
-          </label>
-        ))}
-      </div>
-      <button disabled={answer === null} onClick={() => setChecked(true)} type="button">
-        Check answer
+      <h2>Explain the reading without looking back.</h2>
+      <p className="retrieval-prompt">
+        In three to five sentences, explain how {reading.title.toLowerCase()} changes an analyst&apos;s decision. Include one method, one assumption, and one limitation.
+      </p>
+      <label className="retrieval-response">
+        <span>Your explanation</span>
+        <textarea
+          onChange={(event) => {
+            setResponse(event.target.value);
+            setRevealed(false);
+          }}
+          rows={6}
+          value={response}
+        />
+      </label>
+      <button disabled={response.trim().length < 20} onClick={() => setRevealed(true)} type="button">
+        Compare with the checklist
       </button>
-      {checked ? (
-        <p className={answer === 0 ? "check-result correct" : "check-result"} role="status">
-          {answer === 0
-            ? "Correct. Now return to each module and test whether you can explain the process without the notes."
-            : "Revisit the core idea. A useful analysis always defines its inputs, logic, purpose, and limits."}
-        </p>
+      {revealed ? (
+        <div className="check-result correct" role="status">
+          <strong>Strong answers should include</strong>
+          <ul>
+            <li>{reading.overview}</li>
+            <li>A named method from at least one module: {reading.modules.map((module) => module.title).join(", ")}.</li>
+            <li>The inputs or assumptions that make the method valid and one reason the conclusion could change.</li>
+          </ul>
+        </div>
       ) : null}
     </section>
+  );
+}
+
+function HeroMedia() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const [reducedMotion] = useState(() => window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  const [paused, setPaused] = useState(reducedMotion);
+
+  const togglePlayback = () => {
+    const video = videoRef.current;
+    if (!video) return;
+    if (video.paused) {
+      void video.play().then(() => setPaused(false));
+    } else {
+      video.pause();
+      setPaused(true);
+    }
+  };
+
+  return (
+    <div className="hero-media">
+      {reducedMotion ? (
+        <img
+          className="hero-poster"
+          src={asset("assets/world/return-machine-poster.png")}
+          alt="Abstract return machine connecting finance concepts"
+        />
+      ) : (
+        <video
+          autoPlay
+          loop
+          muted
+          onPause={() => setPaused(true)}
+          onPlay={() => setPaused(false)}
+          playsInline
+          poster={asset("assets/world/return-machine-poster.png")}
+          ref={videoRef}
+        >
+          <source
+            media="(max-width: 720px)"
+            src={asset("assets/world/return-machine-mobile.mp4")}
+            type="video/mp4"
+          />
+          <source src={asset("assets/world/return-machine.mp4")} type="video/mp4" />
+        </video>
+      )}
+      {!reducedMotion ? (
+        <button className="hero-media-control" onClick={togglePlayback} type="button">
+          {paused ? "Play motion" : "Pause motion"}
+        </button>
+      ) : null}
+      <div className="orbit-label">A connected model of finance</div>
+    </div>
   );
 }
 
@@ -632,10 +777,10 @@ function Footer() {
         <span>RETURN LAB</span>
       </a>
       <p>
-        A complete independent finance course with structured lessons, worked
+        An independent finance course with structured lessons, worked
         applications, practice sets, answer explanations, and progress tracking.
       </p>
-      <small>93 chapters · 152 modules · 456 original practice questions</small>
+      <small>93 readings · 152 modules · 365 source-mapped learning outcomes</small>
     </footer>
   );
 }

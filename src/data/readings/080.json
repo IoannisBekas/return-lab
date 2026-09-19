@@ -1,0 +1,106 @@
+{
+  "number": 80,
+  "slug": "natural-resources",
+  "title": "Natural Resources",
+  "topic": "Alternative Investments",
+  "overview": "Natural-resource investments gain value from biological growth, land, scarcity, extraction, and commodity prices.",
+  "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+  "modules": [
+    {
+      "id": "80.1",
+      "title": "Farmland, Timberland, and Commodities",
+      "explanation": "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics.",
+      "steps": [
+        "Identify the return sources and physical operating cycle.",
+        "Model production, price, cost, storage, and timing assumptions.",
+        "Stress weather, regulation, liquidity, and the difference between spot exposure and futures returns."
+      ],
+      "check": "Explain how farmland, timberland, and commodities changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain farmland, timberland, and commodities in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics.",
+        "Alternative-investment analysis combines asset economics with legal structure, fees, leverage, valuation method, and liquidity. Reported returns require special care when cash flows are irregular or asset values are appraised rather than continuously traded.",
+        "For farmland, timberland, and commodities, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Farmland, Timberland, and Commodities",
+          "definition": "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics."
+        },
+        {
+          "term": "Illiquidity",
+          "definition": "The cost or difficulty of exiting an investment quickly at a representative value."
+        },
+        {
+          "term": "Carried interest",
+          "definition": "Performance compensation allocated to a manager under specified terms."
+        },
+        {
+          "term": "Appraisal smoothing",
+          "definition": "Understatement of short-term volatility when valuations adjust slowly."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For farmland, timberland, and commodities, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An investor compares a public security with an alternative fund whose capital calls, fees, leverage, appraisals, and exit timing are uncertain.",
+        "analysis": "Step 1: Identify the return sources and physical operating cycle. Step 2: Model production, price, cost, storage, and timing assumptions. Step 3: Stress weather, regulation, liquidity, and the difference between spot exposure and futures returns.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For farmland, timberland, and commodities, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Comparing reported returns without aligning fees, leverage, timing, and valuation methods.",
+        "Treating illiquidity as only a volatility issue rather than a funding and control constraint.",
+        "Assuming historical exits and valuations will remain available in stressed markets."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Farmland, Timberland, and Commodities?",
+          "choices": [
+            "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify the return sources and physical operating cycle. → Model production, price, cost, storage, and timing assumptions. → Stress weather, regulation, liquidity, and the difference between spot exposure and futures returns."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Natural-resource returns combine changes in commodity or land value with production and biological growth. Storage, convenience yield, weather, depletion, seasonality, and environmental constraints affect both spot and futures economics.",
+        "Use this sequence: Identify the return sources and physical operating cycle.; Model production, price, cost, storage, and timing assumptions.; Stress weather, regulation, liquidity, and the difference between spot exposure and futures returns.",
+        "Decision check: Explain how farmland, timberland, and commodities changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

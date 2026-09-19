@@ -1,0 +1,296 @@
+{
+  "number": 32,
+  "slug": "analysis-of-inventories",
+  "title": "Analysis of Inventories",
+  "topic": "Financial Statement Analysis",
+  "overview": "Inventory accounting affects cost of sales, profit, taxes, asset values, and financial ratios.",
+  "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+  "modules": [
+    {
+      "id": "32.1",
+      "title": "Inventory Measurement",
+      "explanation": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+      "steps": [
+        "Reconcile beginning inventory plus purchases with cost of sales and ending inventory.",
+        "Apply the chosen cost-flow assumption consistently.",
+        "Adjust comparisons for price trends, write-downs, and method differences."
+      ],
+      "check": "Explain how inventory measurement changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain inventory measurement in plain language and connect it to the reading's central problem.",
+        "Apply the inventory roll-forward or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For inventory measurement, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Inventory Measurement",
+          "definition": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Inventory roll-forward",
+        "expression": "ending inventory = beginning inventory + purchases − cost of sales",
+        "interpretation": "Cost-flow assumptions determine which costs remain in inventory and which enter profit.",
+        "example": "Beginning inventory of 40 plus purchases of 90 and cost of sales of 100 leaves ending inventory of 30."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Reconcile beginning inventory plus purchases with cost of sales and ending inventory. Step 2: Apply the chosen cost-flow assumption consistently. Step 3: Adjust comparisons for price trends, write-downs, and method differences.",
+        "result": "A complete response uses inventory roll-forward, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Beginning inventory of 40 plus purchases of 90 and cost of sales of 100 leaves ending inventory of 30."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Inventory Measurement?",
+          "choices": [
+            "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Reconcile beginning inventory plus purchases with cost of sales and ending inventory. → Apply the chosen cost-flow assumption consistently. → Adjust comparisons for price trends, write-downs, and method differences."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the inventory roll-forward?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Cost-flow assumptions determine which costs remain in inventory and which enter profit.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. Cost-flow assumptions determine which costs remain in inventory and which enter profit."
+        }
+      ],
+      "summary": [
+        "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "Use this sequence: Reconcile beginning inventory plus purchases with cost of sales and ending inventory.; Apply the chosen cost-flow assumption consistently.; Adjust comparisons for price trends, write-downs, and method differences.",
+        "Decision check: Explain how inventory measurement changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "32.2",
+      "title": "Inflation Impact on FIFO and LIFO",
+      "explanation": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+      "steps": [
+        "Reconcile beginning inventory plus purchases with cost of sales and ending inventory.",
+        "Apply the chosen cost-flow assumption consistently.",
+        "Adjust comparisons for price trends, write-downs, and method differences."
+      ],
+      "check": "Explain how inflation impact on fifo and lifo changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain inflation impact on fifo and lifo in plain language and connect it to the reading's central problem.",
+        "Apply the inventory roll-forward or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For inflation impact on fifo and lifo, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Inflation Impact on FIFO and LIFO",
+          "definition": "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Inventory roll-forward",
+        "expression": "ending inventory = beginning inventory + purchases − cost of sales",
+        "interpretation": "Cost-flow assumptions determine which costs remain in inventory and which enter profit.",
+        "example": "Beginning inventory of 40 plus purchases of 90 and cost of sales of 100 leaves ending inventory of 30."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Reconcile beginning inventory plus purchases with cost of sales and ending inventory. Step 2: Apply the chosen cost-flow assumption consistently. Step 3: Adjust comparisons for price trends, write-downs, and method differences.",
+        "result": "A complete response uses inventory roll-forward, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Beginning inventory of 40 plus purchases of 90 and cost of sales of 100 leaves ending inventory of 30."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Inflation Impact on FIFO and LIFO?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Reconcile beginning inventory plus purchases with cost of sales and ending inventory. → Apply the chosen cost-flow assumption consistently. → Adjust comparisons for price trends, write-downs, and method differences.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the inventory roll-forward?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Cost-flow assumptions determine which costs remain in inventory and which enter profit.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. Cost-flow assumptions determine which costs remain in inventory and which enter profit."
+        }
+      ],
+      "summary": [
+        "Inventory accounting determines when product costs move from the balance sheet to cost of sales. Cost-flow assumptions and write-down rules affect profit, taxes, assets, turnover, and comparability, especially when prices are changing.",
+        "Use this sequence: Reconcile beginning inventory plus purchases with cost of sales and ending inventory.; Apply the chosen cost-flow assumption consistently.; Adjust comparisons for price trends, write-downs, and method differences.",
+        "Decision check: Explain how inflation impact on fifo and lifo changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "32.3",
+      "title": "Presentation and Disclosure",
+      "explanation": "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability.",
+      "steps": [
+        "Locate the reported amount and determine how it is classified.",
+        "Read the related policy, estimate, roll-forward, and risk disclosures.",
+        "Reconcile the note with the statements and adjust comparisons when policies differ."
+      ],
+      "check": "Explain how presentation and disclosure changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain presentation and disclosure in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For presentation and disclosure, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Presentation and Disclosure",
+          "definition": "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For presentation and disclosure, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Locate the reported amount and determine how it is classified. Step 2: Read the related policy, estimate, roll-forward, and risk disclosures. Step 3: Reconcile the note with the statements and adjust comparisons when policies differ.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For presentation and disclosure, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Presentation and Disclosure?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Locate the reported amount and determine how it is classified. → Read the related policy, estimate, roll-forward, and risk disclosures. → Reconcile the note with the statements and adjust comparisons when policies differ.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Presentation places recognized amounts in the primary statements, while disclosure supplies the policies, estimates, risks, and detail needed to interpret them. Analysts use both because a reported total rarely explains its own quality or comparability.",
+        "Use this sequence: Locate the reported amount and determine how it is classified.; Read the related policy, estimate, roll-forward, and risk disclosures.; Reconcile the note with the statements and adjust comparisons when policies differ.",
+        "Decision check: Explain how presentation and disclosure changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

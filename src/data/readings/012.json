@@ -1,0 +1,296 @@
+{
+  "number": 12,
+  "slug": "the-firm-and-market-structures",
+  "title": "The Firm and Market Structures",
+  "topic": "Economics",
+  "overview": "Market structure links competition, pricing power, output decisions, and barriers to entry.",
+  "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+  "modules": [
+    {
+      "id": "12.1",
+      "title": "Breakeven, Shutdown, and Scale",
+      "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+      "steps": [
+        "Separate fixed cost, variable cost, average cost, and marginal cost.",
+        "Compare price and marginal revenue with the relevant cost threshold.",
+        "Use entry barriers and strategic interaction to identify the likely market structure."
+      ],
+      "check": "Explain how breakeven, shutdown, and scale changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain breakeven, shutdown, and scale in plain language and connect it to the reading's central problem.",
+        "Apply the breakeven quantity or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Economic analysis follows incentives through quantities, prices, income, expectations, and policy responses. A useful conclusion distinguishes an initial effect from later feedback and identifies which assumptions would make the outcome different.",
+        "For breakeven, shutdown, and scale, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Breakeven, Shutdown, and Scale",
+          "definition": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "term": "Incentive",
+          "definition": "A change in cost or benefit that can alter a decision."
+        },
+        {
+          "term": "Transmission",
+          "definition": "The path through which a shock affects economic activity and asset prices."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "A state in which planned demand and supply are mutually consistent."
+        }
+      ],
+      "formula": {
+        "label": "Breakeven quantity",
+        "expression": "Q = fixed costs / (price − variable cost per unit)",
+        "interpretation": "The denominator is contribution margin per unit.",
+        "example": "Fixed costs of 100,000 and contribution margin of 20 require 5,000 units to break even."
+      },
+      "workedExample": {
+        "scenario": "Growth is slowing while inflation remains above target, and an investor must trace the effects on companies, rates, and currencies.",
+        "analysis": "Step 1: Separate fixed cost, variable cost, average cost, and marginal cost. Step 2: Compare price and marginal revenue with the relevant cost threshold. Step 3: Use entry barriers and strategic interaction to identify the likely market structure.",
+        "result": "A complete response uses breakeven quantity, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Fixed costs of 100,000 and contribution margin of 20 require 5,000 units to break even."
+      },
+      "mistakes": [
+        "Stopping at the first-round effect and ignoring behavioral or policy responses.",
+        "Treating a directional relationship as a precise forecast.",
+        "Using one indicator without checking whether other evidence confirms the same economic story."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Breakeven, Shutdown, and Scale?",
+          "choices": [
+            "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Separate fixed cost, variable cost, average cost, and marginal cost. → Compare price and marginal revenue with the relevant cost threshold. → Use entry barriers and strategic interaction to identify the likely market structure."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the breakeven quantity?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "The denominator is contribution margin per unit.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. The denominator is contribution margin per unit."
+        }
+      ],
+      "summary": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Use this sequence: Separate fixed cost, variable cost, average cost, and marginal cost.; Compare price and marginal revenue with the relevant cost threshold.; Use entry barriers and strategic interaction to identify the likely market structure.",
+        "Decision check: Explain how breakeven, shutdown, and scale changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "12.2",
+      "title": "Characteristics of Market Structures",
+      "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+      "steps": [
+        "Separate fixed cost, variable cost, average cost, and marginal cost.",
+        "Compare price and marginal revenue with the relevant cost threshold.",
+        "Use entry barriers and strategic interaction to identify the likely market structure."
+      ],
+      "check": "Explain how characteristics of market structures changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain characteristics of market structures in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Economic analysis follows incentives through quantities, prices, income, expectations, and policy responses. A useful conclusion distinguishes an initial effect from later feedback and identifies which assumptions would make the outcome different.",
+        "For characteristics of market structures, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Characteristics of Market Structures",
+          "definition": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "term": "Incentive",
+          "definition": "A change in cost or benefit that can alter a decision."
+        },
+        {
+          "term": "Transmission",
+          "definition": "The path through which a shock affects economic activity and asset prices."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "A state in which planned demand and supply are mutually consistent."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For characteristics of market structures, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "Growth is slowing while inflation remains above target, and an investor must trace the effects on companies, rates, and currencies.",
+        "analysis": "Step 1: Separate fixed cost, variable cost, average cost, and marginal cost. Step 2: Compare price and marginal revenue with the relevant cost threshold. Step 3: Use entry barriers and strategic interaction to identify the likely market structure.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For characteristics of market structures, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Stopping at the first-round effect and ignoring behavioral or policy responses.",
+        "Treating a directional relationship as a precise forecast.",
+        "Using one indicator without checking whether other evidence confirms the same economic story."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Characteristics of Market Structures?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Separate fixed cost, variable cost, average cost, and marginal cost. → Compare price and marginal revenue with the relevant cost threshold. → Use entry barriers and strategic interaction to identify the likely market structure.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Use this sequence: Separate fixed cost, variable cost, average cost, and marginal cost.; Compare price and marginal revenue with the relevant cost threshold.; Use entry barriers and strategic interaction to identify the likely market structure.",
+        "Decision check: Explain how characteristics of market structures changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "12.3",
+      "title": "Identifying Market Structures",
+      "explanation": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+      "steps": [
+        "Separate fixed cost, variable cost, average cost, and marginal cost.",
+        "Compare price and marginal revenue with the relevant cost threshold.",
+        "Use entry barriers and strategic interaction to identify the likely market structure."
+      ],
+      "check": "Explain how identifying market structures changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain identifying market structures in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Economic analysis follows incentives through quantities, prices, income, expectations, and policy responses. A useful conclusion distinguishes an initial effect from later feedback and identifies which assumptions would make the outcome different.",
+        "For identifying market structures, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Identifying Market Structures",
+          "definition": "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "term": "Incentive",
+          "definition": "A change in cost or benefit that can alter a decision."
+        },
+        {
+          "term": "Transmission",
+          "definition": "The path through which a shock affects economic activity and asset prices."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "A state in which planned demand and supply are mutually consistent."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For identifying market structures, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "Growth is slowing while inflation remains above target, and an investor must trace the effects on companies, rates, and currencies.",
+        "analysis": "Step 1: Separate fixed cost, variable cost, average cost, and marginal cost. Step 2: Compare price and marginal revenue with the relevant cost threshold. Step 3: Use entry barriers and strategic interaction to identify the likely market structure.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For identifying market structures, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Stopping at the first-round effect and ignoring behavioral or policy responses.",
+        "Treating a directional relationship as a precise forecast.",
+        "Using one indicator without checking whether other evidence confirms the same economic story."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Identifying Market Structures?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Separate fixed cost, variable cost, average cost, and marginal cost. → Compare price and marginal revenue with the relevant cost threshold. → Use entry barriers and strategic interaction to identify the likely market structure.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "A firm's optimal output depends on marginal revenue and marginal cost. Fixed and variable costs determine breakeven and shutdown conditions, while the number of competitors, product differentiation, and entry barriers shape pricing power.",
+        "Use this sequence: Separate fixed cost, variable cost, average cost, and marginal cost.; Compare price and marginal revenue with the relevant cost threshold.; Use entry barriers and strategic interaction to identify the likely market structure.",
+        "Decision check: Explain how identifying market structures changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

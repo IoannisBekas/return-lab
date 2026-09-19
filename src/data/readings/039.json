@@ -1,0 +1,296 @@
+{
+  "number": 39,
+  "slug": "market-organization-and-structure",
+  "title": "Market Organization and Structure",
+  "topic": "Equity Investments",
+  "overview": "Market structure explains how assets, intermediaries, orders, positions, leverage, and settlement fit together.",
+  "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+  "modules": [
+    {
+      "id": "39.1",
+      "title": "Markets, Assets, and Intermediaries",
+      "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+      "steps": [
+        "Identify the asset, venue, counterparty, and settlement process.",
+        "Translate long, short, or leveraged positions into payoff and loss exposure.",
+        "Choose order type and validity based on urgency, liquidity, and price risk."
+      ],
+      "check": "Explain how markets, assets, and intermediaries changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain markets, assets, and intermediaries in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For markets, assets, and intermediaries, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Markets, Assets, and Intermediaries",
+          "definition": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For markets, assets, and intermediaries, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Identify the asset, venue, counterparty, and settlement process. Step 2: Translate long, short, or leveraged positions into payoff and loss exposure. Step 3: Choose order type and validity based on urgency, liquidity, and price risk.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For markets, assets, and intermediaries, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Markets, Assets, and Intermediaries?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Identify the asset, venue, counterparty, and settlement process. → Translate long, short, or leveraged positions into payoff and loss exposure. → Choose order type and validity based on urgency, liquidity, and price risk.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Use this sequence: Identify the asset, venue, counterparty, and settlement process.; Translate long, short, or leveraged positions into payoff and loss exposure.; Choose order type and validity based on urgency, liquidity, and price risk.",
+        "Decision check: Explain how markets, assets, and intermediaries changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "39.2",
+      "title": "Positions and Leverage",
+      "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+      "steps": [
+        "Identify the asset, venue, counterparty, and settlement process.",
+        "Translate long, short, or leveraged positions into payoff and loss exposure.",
+        "Choose order type and validity based on urgency, liquidity, and price risk."
+      ],
+      "check": "Explain how positions and leverage changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain positions and leverage in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For positions and leverage, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Positions and Leverage",
+          "definition": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For positions and leverage, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Identify the asset, venue, counterparty, and settlement process. Step 2: Translate long, short, or leveraged positions into payoff and loss exposure. Step 3: Choose order type and validity based on urgency, liquidity, and price risk.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For positions and leverage, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Positions and Leverage?",
+          "choices": [
+            "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify the asset, venue, counterparty, and settlement process. → Translate long, short, or leveraged positions into payoff and loss exposure. → Choose order type and validity based on urgency, liquidity, and price risk."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Use this sequence: Identify the asset, venue, counterparty, and settlement process.; Translate long, short, or leveraged positions into payoff and loss exposure.; Choose order type and validity based on urgency, liquidity, and price risk.",
+        "Decision check: Explain how positions and leverage changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "39.3",
+      "title": "Order Execution and Validity",
+      "explanation": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+      "steps": [
+        "Identify the asset, venue, counterparty, and settlement process.",
+        "Translate long, short, or leveraged positions into payoff and loss exposure.",
+        "Choose order type and validity based on urgency, liquidity, and price risk."
+      ],
+      "check": "Explain how order execution and validity changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain order execution and validity in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For order execution and validity, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Order Execution and Validity",
+          "definition": "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For order execution and validity, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Identify the asset, venue, counterparty, and settlement process. Step 2: Translate long, short, or leveraged positions into payoff and loss exposure. Step 3: Choose order type and validity based on urgency, liquidity, and price risk.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For order execution and validity, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Order Execution and Validity?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify the asset, venue, counterparty, and settlement process. → Translate long, short, or leveraged positions into payoff and loss exposure. → Choose order type and validity based on urgency, liquidity, and price risk.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Market organization connects issuers, investors, intermediaries, venues, orders, clearing, and settlement. Position direction and leverage determine exposure, while order instructions trade execution certainty against price control.",
+        "Use this sequence: Identify the asset, venue, counterparty, and settlement process.; Translate long, short, or leveraged positions into payoff and loss exposure.; Choose order type and validity based on urgency, liquidity, and price risk.",
+        "Decision check: Explain how order execution and validity changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

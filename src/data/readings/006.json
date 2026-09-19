@@ -1,0 +1,106 @@
+{
+  "number": 6,
+  "slug": "simulation-methods",
+  "title": "Simulation Methods",
+  "topic": "Quantitative Methods",
+  "overview": "Simulation models a range of possible outcomes when a closed-form answer is unavailable or unrealistic.",
+  "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+  "modules": [
+    {
+      "id": "6.1",
+      "title": "Lognormal Distributions and Simulation Techniques",
+      "explanation": "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials.",
+      "steps": [
+        "Specify the uncertain inputs, distributions, and correlations.",
+        "Generate many scenarios and calculate the outcome in each one.",
+        "Summarize percentiles and sensitivity, then stress assumptions the model may miss."
+      ],
+      "check": "Explain how lognormal distributions and simulation techniques changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain lognormal distributions and simulation techniques in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For lognormal distributions and simulation techniques, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Lognormal Distributions and Simulation Techniques",
+          "definition": "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For lognormal distributions and simulation techniques, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Specify the uncertain inputs, distributions, and correlations. Step 2: Generate many scenarios and calculate the outcome in each one. Step 3: Summarize percentiles and sensitivity, then stress assumptions the model may miss.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For lognormal distributions and simulation techniques, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Lognormal Distributions and Simulation Techniques?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Specify the uncertain inputs, distributions, and correlations. → Generate many scenarios and calculate the outcome in each one. → Summarize percentiles and sensitivity, then stress assumptions the model may miss.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "A lognormal model keeps compounded prices nonnegative, while simulation repeatedly samples assumed drivers to form a distribution of outcomes. The output is only as credible as the assumptions, dependencies, and number of trials.",
+        "Use this sequence: Specify the uncertain inputs, distributions, and correlations.; Generate many scenarios and calculate the outcome in each one.; Summarize percentiles and sensitivity, then stress assumptions the model may miss.",
+        "Decision check: Explain how lognormal distributions and simulation techniques changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

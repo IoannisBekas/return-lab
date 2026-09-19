@@ -1,0 +1,3581 @@
+[
+  {
+    "moduleId": "1.1",
+    "readingId": 1,
+    "readingTitle": "Rates and Returns",
+    "moduleTitle": "Interest Rates and Return Measurement",
+    "source": {
+      "book": 1,
+      "pdfPage": 14,
+      "heading": "INTEREST RATES AND RETURN MEASUREMENT"
+    },
+    "objectives": [
+      {
+        "id": "1.a",
+        "sourceStatement": "Interpret interest rates as required rates of return, discount rates, or opportunity costs and explain an interest rate as the sum of a real risk-free rate and premiums that compensate investors for bearing distinct types of risk."
+      },
+      {
+        "id": "1.b",
+        "sourceStatement": "Calculate and interpret different approaches to return measurement over time and describe their appropriate uses."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "1.2",
+    "readingId": 1,
+    "readingTitle": "Rates and Returns",
+    "moduleTitle": "Time-Weighted and Money-Weighted Returns",
+    "source": {
+      "book": 1,
+      "pdfPage": 19,
+      "heading": "TIME-WEIGHTED AND MONEY-WEIGHTED RETURNS"
+    },
+    "objectives": [
+      {
+        "id": "1.c",
+        "sourceStatement": "Compare the money-weighted and time-weighted rates of return and evaluate the performance of portfolios based on these measures."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "1.3",
+    "readingId": 1,
+    "readingTitle": "Rates and Returns",
+    "moduleTitle": "Common Measures of Return",
+    "source": {
+      "book": 1,
+      "pdfPage": 22,
+      "heading": "COMMON MEASURES OF RETURN"
+    },
+    "objectives": [
+      {
+        "id": "1.d",
+        "sourceStatement": "Calculate and interpret annualized return measures and continuously compounded returns, and describe their appropriate uses."
+      },
+      {
+        "id": "1.e",
+        "sourceStatement": "Calculate and interpret major return measures and describe their appropriate uses."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "2.1",
+    "readingId": 2,
+    "readingTitle": "Time Value of Money in Finance",
+    "moduleTitle": "Discounted Cash Flow Valuation",
+    "source": {
+      "book": 1,
+      "pdfPage": 30,
+      "heading": "DISCOUNTED CASH FLOW VALUATION"
+    },
+    "objectives": [
+      {
+        "id": "2.a",
+        "sourceStatement": "Calculate and interpret the present value (PV) of fixed-income and equity instruments based on expected future cash flows."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "2.2",
+    "readingId": 2,
+    "readingTitle": "Time Value of Money in Finance",
+    "moduleTitle": "Implied Returns and Cash Flow Additivity",
+    "source": {
+      "book": 1,
+      "pdfPage": 36,
+      "heading": "IMPLIED RETURNS AND CASH FLOW ADDITIVITY"
+    },
+    "objectives": [
+      {
+        "id": "2.b",
+        "sourceStatement": "Calculate and interpret the implied return of fixed-income instruments and required return and implied growth of equity instruments given the present value (PV) and cash flows."
+      },
+      {
+        "id": "2.c",
+        "sourceStatement": "Explain the cash flow additivity principle, its importance for the no- arbitrage condition, and its use in calculating implied forward interest rates, forward exchange rates, and option values."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "3.1",
+    "readingId": 3,
+    "readingTitle": "Statistical Measures of Asset Returns",
+    "moduleTitle": "Central Tendency and Dispersion",
+    "source": {
+      "book": 1,
+      "pdfPage": 44,
+      "heading": "CENTRAL TENDENCY AND DISPERSION"
+    },
+    "objectives": [
+      {
+        "id": "3.a",
+        "sourceStatement": "Calculate, interpret, and evaluate measures of central tendency and location to address an investment problem."
+      },
+      {
+        "id": "3.b",
+        "sourceStatement": "Calculate, interpret, and evaluate measures of dispersion to address an investment problem."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "3.2",
+    "readingId": 3,
+    "readingTitle": "Statistical Measures of Asset Returns",
+    "moduleTitle": "Skewness, Kurtosis, and Correlation",
+    "source": {
+      "book": 1,
+      "pdfPage": 51,
+      "heading": "SKEWNESS, KURTOSIS, AND CORRELATION"
+    },
+    "objectives": [
+      {
+        "id": "3.c",
+        "sourceStatement": "Interpret and evaluate measures of skewness and kurtosis to address an investment problem."
+      },
+      {
+        "id": "3.d",
+        "sourceStatement": "Interpret correlation between two variables to address an investment problem."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "4.1",
+    "readingId": 4,
+    "readingTitle": "Probability Trees and Conditional Expectations",
+    "moduleTitle": "Probability Models, Expected Values, and Bayes’ Formula",
+    "source": {
+      "book": 1,
+      "pdfPage": 61,
+      "heading": "PROBABILITY MODELS, EXPECTED VALUES, AND BAYES’"
+    },
+    "objectives": [
+      {
+        "id": "4.a",
+        "sourceStatement": "Calculate expected values, variances, and standard deviations and demonstrate their application to investment problems."
+      },
+      {
+        "id": "4.b",
+        "sourceStatement": "Formulate an investment problem as a probability tree and explain the use of conditional expectations in investment application."
+      },
+      {
+        "id": "4.c",
+        "sourceStatement": "Calculate and interpret an updated probability in an investment setting using Bayes’ formula."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "5.1",
+    "readingId": 5,
+    "readingTitle": "Portfolio Mathematics",
+    "moduleTitle": "Probability Models for Portfolio Return and Risk",
+    "source": {
+      "book": 1,
+      "pdfPage": 67,
+      "heading": "PROBABILITY MODELS FOR PORTFOLIO RETURN AND"
+    },
+    "objectives": [
+      {
+        "id": "5.a",
+        "sourceStatement": "Calculate and interpret the expected value, variance, standard deviation, covariances, and correlations of portfolio returns."
+      },
+      {
+        "id": "5.b",
+        "sourceStatement": "Calculate and interpret the covariance and correlation of portfolio returns using a joint probability function for returns."
+      },
+      {
+        "id": "5.c",
+        "sourceStatement": "Define shortfall risk, calculate the safety-first ratio, and identify an optimal portfolio using Roy’s safety-first criterion."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "6.1",
+    "readingId": 6,
+    "readingTitle": "Simulation Methods",
+    "moduleTitle": "Lognormal Distributions and Simulation Techniques",
+    "source": {
+      "book": 1,
+      "pdfPage": 76,
+      "heading": "LOGNORMAL DISTRIBUTIONS AND SIMULATION"
+    },
+    "objectives": [
+      {
+        "id": "6.a",
+        "sourceStatement": "Explain the relationship between normal and lognormal distributions and why the lognormal distribution is used to model asset prices when using continuously compounded asset returns."
+      },
+      {
+        "id": "6.b",
+        "sourceStatement": "Describe Monte Carlo simulation and explain how it can be used in investment applications."
+      },
+      {
+        "id": "6.c",
+        "sourceStatement": "Describe the use of bootstrap resampling in conducting a simulation based on observed data in investment applications."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "7.1",
+    "readingId": 7,
+    "readingTitle": "Estimation and Inference",
+    "moduleTitle": "Sampling Techniques and the Central Limit Theorem",
+    "source": {
+      "book": 1,
+      "pdfPage": 80,
+      "heading": "SAMPLING TECHNIQUES AND THE CENTRAL LIMIT"
+    },
+    "objectives": [
+      {
+        "id": "7.a",
+        "sourceStatement": "Compare and contrast simple random, stratified random, cluster, convenience, and judgmental sampling and their implications for sampling error in an investment problem."
+      },
+      {
+        "id": "7.b",
+        "sourceStatement": "Explain the central limit theorem and its importance for the distribution and standard error of the sample mean."
+      },
+      {
+        "id": "7.c",
+        "sourceStatement": "Describe the use of resampling (bootstrap, jackknife) to estimate the sampling distribution of a statistic."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "8.1",
+    "readingId": 8,
+    "readingTitle": "Hypothesis Testing",
+    "moduleTitle": "Hypothesis Testing Basics",
+    "source": {
+      "book": 1,
+      "pdfPage": 87,
+      "heading": "HYPOTHESIS TESTING BASICS"
+    },
+    "objectives": [
+      {
+        "id": "8.a",
+        "sourceStatement": "Explain hypothesis testing and its components, including statistical significance, Type I and Type II errors, and the power of a test."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "8.2",
+    "readingId": 8,
+    "readingTitle": "Hypothesis Testing",
+    "moduleTitle": "Types of Hypothesis Tests",
+    "source": {
+      "book": 1,
+      "pdfPage": 92,
+      "heading": "TYPES OF HYPOTHESIS TESTS"
+    },
+    "objectives": [
+      {
+        "id": "8.b",
+        "sourceStatement": "Construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level."
+      },
+      {
+        "id": "8.c",
+        "sourceStatement": "Compare and contrast parametric and nonparametric tests, and describe situations where each is the more appropriate type of test."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "9.1",
+    "readingId": 9,
+    "readingTitle": "Parametric and Non-Parametric Tests of Independence",
+    "moduleTitle": "Tests for Independence",
+    "source": {
+      "book": 1,
+      "pdfPage": 106,
+      "heading": "TESTS FOR INDEPENDENCE"
+    },
+    "objectives": [
+      {
+        "id": "9.a",
+        "sourceStatement": "Explain parametric and nonparametric tests of the hypothesis that the population correlation coefficient equals zero, and determine whether the hypothesis is rejected at a given level of significance."
+      },
+      {
+        "id": "9.b",
+        "sourceStatement": "Explain tests of independence based on contingency table data."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "10.1",
+    "readingId": 10,
+    "readingTitle": "Simple Linear Regression",
+    "moduleTitle": "Linear Regression Basics",
+    "source": {
+      "book": 1,
+      "pdfPage": 111,
+      "heading": "LINEAR REGRESSION BASICS"
+    },
+    "objectives": [
+      {
+        "id": "10.a",
+        "sourceStatement": "Describe a simple linear regression model, how the least squares criterion is used to estimate regression coefficients, and the interpretation of these coefficients."
+      },
+      {
+        "id": "10.b",
+        "sourceStatement": "Explain the assumptions underlying the simple linear regression model, and describe how residuals and residual plots indicate if these assumptions may have been violated."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "10.2",
+    "readingId": 10,
+    "readingTitle": "Simple Linear Regression",
+    "moduleTitle": "Analysis of Variance (ANOVA) and Goodness of Fit",
+    "source": {
+      "book": 1,
+      "pdfPage": 119,
+      "heading": "ANALYSIS OF VARIANCE (ANOVA) AND GOODNESS OF"
+    },
+    "objectives": [
+      {
+        "id": "10.c",
+        "sourceStatement": "Calculate and interpret measures of fit and formulate and evaluate tests of fit and of regression coefficients in a simple linear regression."
+      },
+      {
+        "id": "10.d",
+        "sourceStatement": "Describe the use of analysis of variance (ANOVA) in regression analysis, interpret ANOVA results, and calculate and interpret the standard error of estimate in a simple linear regression."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "10.3",
+    "readingId": 10,
+    "readingTitle": "Simple Linear Regression",
+    "moduleTitle": "Predicted Values and Functional Forms of Regression",
+    "source": {
+      "book": 1,
+      "pdfPage": 124,
+      "heading": "PREDICTED VALUES AND FUNCTIONAL FORMS OF"
+    },
+    "objectives": [
+      {
+        "id": "10.e",
+        "sourceStatement": "Calculate and interpret the predicted value for the dependent variable, and a prediction interval for it, given an estimated linear regression model and a value for the independent variable."
+      },
+      {
+        "id": "10.f",
+        "sourceStatement": "Describe different functional forms of simple linear regressions."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "11.1",
+    "readingId": 11,
+    "readingTitle": "Introduction to Big Data Techniques",
+    "moduleTitle": "Introduction to Fintech",
+    "source": {
+      "book": 1,
+      "pdfPage": 132,
+      "heading": "INTRODUCTION TO FINTECH"
+    },
+    "objectives": [
+      {
+        "id": "11.a",
+        "sourceStatement": "Describe aspects of “fintech” that are directly relevant for the gathering and analyzing of financial data."
+      },
+      {
+        "id": "11.b",
+        "sourceStatement": "Describe Big Data, artificial intelligence, and machine learning."
+      },
+      {
+        "id": "11.c",
+        "sourceStatement": "Describe applications of Big Data and Data Science to investment management."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "12.1",
+    "readingId": 12,
+    "readingTitle": "The Firm and Market Structures",
+    "moduleTitle": "Breakeven, Shutdown, and Scale",
+    "source": {
+      "book": 1,
+      "pdfPage": 138,
+      "heading": "BREAKEVEN, SHUTDOWN, AND SCALE"
+    },
+    "objectives": [
+      {
+        "id": "12.a",
+        "sourceStatement": "Determine and interpret breakeven and shutdown points of production, as well as how economies and diseconomies of scale affect costs under perfect and imperfect competition."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "12.2",
+    "readingId": 12,
+    "readingTitle": "The Firm and Market Structures",
+    "moduleTitle": "Characteristics of Market Structures",
+    "source": {
+      "book": 1,
+      "pdfPage": 143,
+      "heading": "CHARACTERISTICS OF MARKET STRUCTURES"
+    },
+    "objectives": [
+      {
+        "id": "12.b",
+        "sourceStatement": "Describe characteristics of perfect competition, monopolistic competition, oligopoly, and pure monopoly."
+      },
+      {
+        "id": "12.c",
+        "sourceStatement": "Explain supply and demand relationships under monopolistic competition, including the optimal price and output for firms as well as pricing"
+      },
+      {
+        "id": "12.d",
+        "sourceStatement": "Explain supply and demand relationships under oligopoly, including the optimal price and output for firms as well as pricing strategy."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "12.3",
+    "readingId": 12,
+    "readingTitle": "The Firm and Market Structures",
+    "moduleTitle": "Identifying Market Structures",
+    "source": {
+      "book": 1,
+      "pdfPage": 152,
+      "heading": "IDENTIFYING MARKET STRUCTURES"
+    },
+    "objectives": [
+      {
+        "id": "12.e",
+        "sourceStatement": "Identify the type of market structure within which a firm operates and describe the use and limitations of concentration measures."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "13.1",
+    "readingId": 13,
+    "readingTitle": "Understanding Business Cycles",
+    "moduleTitle": "Business Cycles",
+    "source": {
+      "book": 1,
+      "pdfPage": 158,
+      "heading": "BUSINESS CYCLES"
+    },
+    "objectives": [
+      {
+        "id": "13.a",
+        "sourceStatement": "Describe the business cycle and its phases."
+      },
+      {
+        "id": "13.b",
+        "sourceStatement": "Describe credit cycles."
+      },
+      {
+        "id": "13.c",
+        "sourceStatement": "Describe how resource use, consumer and business activity, housing sector activity, and external trade sector activity vary over the business cycle and describe their measurement using economic indicators."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "14.1",
+    "readingId": 14,
+    "readingTitle": "Fiscal Policy",
+    "moduleTitle": "Fiscal Policy Objectives",
+    "source": {
+      "book": 1,
+      "pdfPage": 166,
+      "heading": "FISCAL POLICY OBJECTIVES"
+    },
+    "objectives": [
+      {
+        "id": "14.a",
+        "sourceStatement": "Compare monetary and fiscal policy."
+      },
+      {
+        "id": "14.b",
+        "sourceStatement": "Describe roles and objectives of fiscal policy as well as arguments as to whether the size of a national debt relative to GDP matters."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "14.2",
+    "readingId": 14,
+    "readingTitle": "Fiscal Policy",
+    "moduleTitle": "Fiscal Policy Tools and Implementation",
+    "source": {
+      "book": 1,
+      "pdfPage": 168,
+      "heading": "FISCAL POLICY TOOLS AND IMPLEMENTATION"
+    },
+    "objectives": [
+      {
+        "id": "14.c",
+        "sourceStatement": "Describe tools of fiscal policy, including their advantages and disadvantages."
+      },
+      {
+        "id": "14.d",
+        "sourceStatement": "Explain the implementation of fiscal policy and difficulties of implementation as well as whether a fiscal policy is expansionary or contractionary."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "15.1",
+    "readingId": 15,
+    "readingTitle": "Monetary Policy",
+    "moduleTitle": "Central Bank Objectives and Tools",
+    "source": {
+      "book": 1,
+      "pdfPage": 176,
+      "heading": "CENTRAL BANK OBJECTIVES AND TOOLS"
+    },
+    "objectives": [
+      {
+        "id": "15.a",
+        "sourceStatement": "Describe the roles and objectives of central banks."
+      },
+      {
+        "id": "15.b",
+        "sourceStatement": "Describe tools used to implement monetary policy tools and the monetary transmission mechanism, and explain the relationships between monetary policy and economic growth, inflation, interest, and exchange rates."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "15.2",
+    "readingId": 15,
+    "readingTitle": "Monetary Policy",
+    "moduleTitle": "Monetary Policy Effects and Limitations",
+    "source": {
+      "book": 1,
+      "pdfPage": 180,
+      "heading": "MONETARY POLICY EFFECTS AND LIMITATIONS"
+    },
+    "objectives": [
+      {
+        "id": "15.c",
+        "sourceStatement": "Describe qualities of effective central banks; contrast their use of inflation, interest rate, and exchange rate targeting in expansionary or contractionary monetary policy; and describe the limitations of monetary policy."
+      },
+      {
+        "id": "15.d",
+        "sourceStatement": "Explain the interaction of monetary and fiscal policy."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "16.1",
+    "readingId": 16,
+    "readingTitle": "Introduction to Geopolitics",
+    "moduleTitle": "Geopolitics",
+    "source": {
+      "book": 1,
+      "pdfPage": 188,
+      "heading": "GEOPOLITICS"
+    },
+    "objectives": [
+      {
+        "id": "16.a",
+        "sourceStatement": "Describe geopolitics from a cooperation versus competition perspective."
+      },
+      {
+        "id": "16.b",
+        "sourceStatement": "Describe geopolitics and its relationship with globalization."
+      },
+      {
+        "id": "16.c",
+        "sourceStatement": "Describe functions and objectives of the international organizations that facilitate trade, including the World Bank, the International Monetary Fund,"
+      },
+      {
+        "id": "16.d",
+        "sourceStatement": "Describe geopolitical risk."
+      },
+      {
+        "id": "16.e",
+        "sourceStatement": "Describe tools of geopolitics and their impact on regions and economies."
+      },
+      {
+        "id": "16.f",
+        "sourceStatement": "Describe the impact of geopolitical risk on investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "17.1",
+    "readingId": 17,
+    "readingTitle": "International Trade",
+    "moduleTitle": "International Trade",
+    "source": {
+      "book": 1,
+      "pdfPage": 196,
+      "heading": "INTERNATIONAL TRADE"
+    },
+    "objectives": [
+      {
+        "id": "17.a",
+        "sourceStatement": "Describe the benefits and costs of international trade."
+      },
+      {
+        "id": "17.b",
+        "sourceStatement": "Compare types of trade restrictions, such as tariffs, quotas, and export subsidies, and their economic implications."
+      },
+      {
+        "id": "17.c",
+        "sourceStatement": "Explain motivations for and advantages of trading blocs, common markets, and economic unions."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "18.1",
+    "readingId": 18,
+    "readingTitle": "Capital Flows and the FX Market",
+    "moduleTitle": "The Foreign Exchange Market",
+    "source": {
+      "book": 1,
+      "pdfPage": 205,
+      "heading": "THE FOREIGN EXCHANGE MARKET"
+    },
+    "objectives": [
+      {
+        "id": "18.a",
+        "sourceStatement": "Describe the foreign exchange market, including its functions and participants, distinguish between nominal and real exchange rates, and calculate and interpret the percentage change in a currency relative to another currency."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "18.2",
+    "readingId": 18,
+    "readingTitle": "Capital Flows and the FX Market",
+    "moduleTitle": "Managing Exchange Rates",
+    "source": {
+      "book": 1,
+      "pdfPage": 209,
+      "heading": "MANAGING EXCHANGE RATES"
+    },
+    "objectives": [
+      {
+        "id": "18.b",
+        "sourceStatement": "Describe exchange rate regimes and explain the effects of exchange rates on countries’ international trade and capital flows."
+      },
+      {
+        "id": "18.c",
+        "sourceStatement": "Describe common objectives of capital restrictions imposed by governments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "19.1",
+    "readingId": 19,
+    "readingTitle": "Exchange Rate Calculations",
+    "moduleTitle": "Foreign Exchange Rates",
+    "source": {
+      "book": 1,
+      "pdfPage": 216,
+      "heading": "FOREIGN EXCHANGE RATES"
+    },
+    "objectives": [
+      {
+        "id": "19.a",
+        "sourceStatement": "Calculate and interpret currency cross-rates."
+      },
+      {
+        "id": "19.b",
+        "sourceStatement": "Explain the arbitrage relationship between spot and forward exchange rates and interest rates, calculate a forward rate using points or in percentage terms, and interpret a forward discount or premium."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "20.1",
+    "readingId": 20,
+    "readingTitle": "Organizational Forms, Corporate Issuer Features, and Ownership",
+    "moduleTitle": "Features of Corporate Issuers",
+    "source": {
+      "book": 1,
+      "pdfPage": 224,
+      "heading": "FEATURES OF CORPORATE ISSUERS"
+    },
+    "objectives": [
+      {
+        "id": "20.a",
+        "sourceStatement": "Compare the organizational forms of businesses."
+      },
+      {
+        "id": "20.b",
+        "sourceStatement": "Describe key features of corporate issuers."
+      },
+      {
+        "id": "20.c",
+        "sourceStatement": "Compare publicly and privately owned corporate issuers."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "21.1",
+    "readingId": 21,
+    "readingTitle": "Investors and Other Stakeholders",
+    "moduleTitle": "Stakeholders and ESG Factors",
+    "source": {
+      "book": 1,
+      "pdfPage": 230,
+      "heading": "STAKEHOLDERS AND ESG FACTORS"
+    },
+    "objectives": [
+      {
+        "id": "21.a",
+        "sourceStatement": "Compare the financial claims and motivations of lenders and shareholders."
+      },
+      {
+        "id": "21.b",
+        "sourceStatement": "Describe a company’s stakeholder groups and compare their interests."
+      },
+      {
+        "id": "21.c",
+        "sourceStatement": "Describe environmental, social, and governance factors of corporate issuers considered by investors."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "22.1",
+    "readingId": 22,
+    "readingTitle": "Corporate Governance: Conflicts, Mechanisms, Risks, and Benefits",
+    "moduleTitle": "Corporate Governance",
+    "source": {
+      "book": 1,
+      "pdfPage": 237,
+      "heading": "CORPORATE GOVERNANCE"
+    },
+    "objectives": [
+      {
+        "id": "22.a",
+        "sourceStatement": "Describe the principal-agent relationship and conflicts that may arise between stakeholder groups."
+      },
+      {
+        "id": "22.b",
+        "sourceStatement": "Describe corporate governance and mechanisms to manage stakeholder relationships and mitigate associated risks."
+      },
+      {
+        "id": "22.c",
+        "sourceStatement": "Describe potential risks of poor corporate governance and stakeholder management and benefits of effective corporate governance and stakeholder management."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "23.1",
+    "readingId": 23,
+    "readingTitle": "Working Capital and Liquidity",
+    "moduleTitle": "Liquidity Measures and Management",
+    "source": {
+      "book": 1,
+      "pdfPage": 245,
+      "heading": "LIQUIDITY MEASURES AND MANAGEMENT"
+    },
+    "objectives": [
+      {
+        "id": "23.a",
+        "sourceStatement": "Explain the cash conversion cycle and compare issuers’ cash conversion cycles."
+      },
+      {
+        "id": "23.b",
+        "sourceStatement": "Explain liquidity and compare issuers’ liquidity levels."
+      },
+      {
+        "id": "23.c",
+        "sourceStatement": "Describe issuers’ objectives and compare methods for managing working capital and liquidity."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "24.1",
+    "readingId": 24,
+    "readingTitle": "Capital Investments and Capital Allocation",
+    "moduleTitle": "Capital Investments and Project Measures",
+    "source": {
+      "book": 1,
+      "pdfPage": 253,
+      "heading": "CAPITAL INVESTMENTS AND PROJECT MEASURES"
+    },
+    "objectives": [
+      {
+        "id": "24.a",
+        "sourceStatement": "Describe types of capital investments."
+      },
+      {
+        "id": "24.b",
+        "sourceStatement": "Describe the capital allocation process, calculate net present value (NPV), internal rate of return (IRR), and return on invested capital (ROIC), and"
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "24.2",
+    "readingId": 24,
+    "readingTitle": "Capital Investments and Capital Allocation",
+    "moduleTitle": "Capital Allocation Principles and Real Options",
+    "source": {
+      "book": 1,
+      "pdfPage": 259,
+      "heading": "CAPITAL ALLOCATION PRINCIPLES AND REAL OPTIONS"
+    },
+    "objectives": [
+      {
+        "id": "24.c",
+        "sourceStatement": "Describe principles of capital allocation and common capital allocation pitfalls."
+      },
+      {
+        "id": "24.d",
+        "sourceStatement": "Describe types of real options relevant to capital investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "25.1",
+    "readingId": 25,
+    "readingTitle": "Capital Structure",
+    "moduleTitle": "Weighted-Average Cost of Capital",
+    "source": {
+      "book": 1,
+      "pdfPage": 264,
+      "heading": "WEIGHTED-AVERAGE COST OF CAPITAL"
+    },
+    "objectives": [
+      {
+        "id": "25.a",
+        "sourceStatement": "Calculate and interpret the weighted-average cost of capital for a company."
+      },
+      {
+        "id": "25.b",
+        "sourceStatement": "Explain factors affecting capital structure and the weighted-average cost of capital."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "25.2",
+    "readingId": 25,
+    "readingTitle": "Capital Structure",
+    "moduleTitle": "Capital Structure Theories",
+    "source": {
+      "book": 1,
+      "pdfPage": 267,
+      "heading": "CAPITAL STRUCTURE THEORIES"
+    },
+    "objectives": [
+      {
+        "id": "25.c",
+        "sourceStatement": "Explain the Modigliani–Miller propositions regarding capital structure."
+      },
+      {
+        "id": "25.d",
+        "sourceStatement": "Describe optimal and target capital structures."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "26.1",
+    "readingId": 26,
+    "readingTitle": "Business Models",
+    "moduleTitle": "Business Model Features and Types",
+    "source": {
+      "book": 1,
+      "pdfPage": 277,
+      "heading": "BUSINESS MODEL FEATURES AND TYPES"
+    },
+    "objectives": [
+      {
+        "id": "26.a",
+        "sourceStatement": "Describe key features of business models."
+      },
+      {
+        "id": "26.b",
+        "sourceStatement": "Describe various types of business models."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "27.1",
+    "readingId": 27,
+    "readingTitle": "Introduction to Financial Statement Analysis",
+    "moduleTitle": "Financial Statement Roles",
+    "source": {
+      "book": 2,
+      "pdfPage": 13,
+      "heading": "FINANCIAL STATEMENT ROLES"
+    },
+    "objectives": [
+      {
+        "id": "27.a",
+        "sourceStatement": "Describe the steps in the financial statement analysis framework."
+      },
+      {
+        "id": "27.b",
+        "sourceStatement": "Describe the roles of financial statement analysis."
+      },
+      {
+        "id": "27.c",
+        "sourceStatement": "Describe the importance of regulatory filings, financial statement notes and supplementary information, management’s commentary, and audit reports."
+      },
+      {
+        "id": "27.d",
+        "sourceStatement": "Describe implications for financial analysis of alternative financial reporting systems and the importance of monitoring developments in financial reporting standards."
+      },
+      {
+        "id": "27.e",
+        "sourceStatement": "Describe information sources that analysts use in financial statement analysis besides annual and interim financial reports."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "28.1",
+    "readingId": 28,
+    "readingTitle": "Analyzing Income Statements",
+    "moduleTitle": "Revenue Recognition",
+    "source": {
+      "book": 2,
+      "pdfPage": 25,
+      "heading": "REVENUE RECOGNITION"
+    },
+    "objectives": [
+      {
+        "id": "28.a",
+        "sourceStatement": "Describe general principles of revenue recognition, specific revenue recognition applications, and implications of revenue recognition choices for financial analysis."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "28.2",
+    "readingId": 28,
+    "readingTitle": "Analyzing Income Statements",
+    "moduleTitle": "Expense Recognition",
+    "source": {
+      "book": 2,
+      "pdfPage": 29,
+      "heading": "EXPENSE RECOGNITION"
+    },
+    "objectives": [
+      {
+        "id": "28.b",
+        "sourceStatement": "Describe general principles of expense recognition, specific expense recognition applications, implications of expense recognition choices for financial analysis and contrast costs that are capitalized versus those that are expensed in the period in which they are incurred."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "28.3",
+    "readingId": 28,
+    "readingTitle": "Analyzing Income Statements",
+    "moduleTitle": "Nonrecurring Items",
+    "source": {
+      "book": 2,
+      "pdfPage": 39,
+      "heading": "NONRECURRING ITEMS"
+    },
+    "objectives": [
+      {
+        "id": "28.c",
+        "sourceStatement": "Describe the financial reporting treatment and analysis of non- recurring items (including discontinued operations, unusual or infrequent items) and changes in accounting policies."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "28.4",
+    "readingId": 28,
+    "readingTitle": "Analyzing Income Statements",
+    "moduleTitle": "Earnings Per Share",
+    "source": {
+      "book": 2,
+      "pdfPage": 42,
+      "heading": "EARNINGS PER SHARE"
+    },
+    "objectives": [
+      {
+        "id": "28.d",
+        "sourceStatement": "Describe how earnings per share is calculated and calculate and interpret a company’s basic and diluted earnings per share for companies with simple and complex capital structures including those with antidilutive securities."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "28.5",
+    "readingId": 28,
+    "readingTitle": "Analyzing Income Statements",
+    "moduleTitle": "Ratios and Common-Size Income Statements",
+    "source": {
+      "book": 2,
+      "pdfPage": 49,
+      "heading": "RATIOS AND COMMON-SIZE INCOME STATEMENTS"
+    },
+    "objectives": [
+      {
+        "id": "28.e",
+        "sourceStatement": "Evaluate a company’s financial performance using common-size income statements and financial ratios based on the income statement."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "29.1",
+    "readingId": 29,
+    "readingTitle": "Analyzing Balance Sheets",
+    "moduleTitle": "Intangible Assets and Marketable Securities",
+    "source": {
+      "book": 2,
+      "pdfPage": 56,
+      "heading": "INTANGIBLE ASSETS AND MARKETABLE SECURITIES"
+    },
+    "objectives": [
+      {
+        "id": "29.a",
+        "sourceStatement": "Explain the financial reporting and disclosures related to intangible assets."
+      },
+      {
+        "id": "29.b",
+        "sourceStatement": "Explain the financial reporting and disclosures related to goodwill."
+      },
+      {
+        "id": "29.c",
+        "sourceStatement": "Explain the financial reporting and disclosures related to financial instruments."
+      },
+      {
+        "id": "29.d",
+        "sourceStatement": "Explain the financial reporting and disclosures related to non-current liabilities."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "29.2",
+    "readingId": 29,
+    "readingTitle": "Analyzing Balance Sheets",
+    "moduleTitle": "Common-Size Balance Sheets",
+    "source": {
+      "book": 2,
+      "pdfPage": 63,
+      "heading": "COMMON-SIZE BALANCE SHEETS"
+    },
+    "objectives": [
+      {
+        "id": "29.e",
+        "sourceStatement": "Calculate and interpret common-size balance sheets and related financial ratios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "30.1",
+    "readingId": 30,
+    "readingTitle": "Analyzing Statements of Cash Flows I",
+    "moduleTitle": "Cash Flow Introduction and Direct Method CFO",
+    "source": {
+      "book": 2,
+      "pdfPage": 68,
+      "heading": "CASH FLOW INTRODUCTION AND DIRECT METHOD"
+    },
+    "objectives": [
+      {
+        "id": "30.a",
+        "sourceStatement": "Describe how the cash flow statement is linked to the income statement and the balance sheet."
+      },
+      {
+        "id": "30.b",
+        "sourceStatement": "Describe the steps in the preparation of direct and indirect cash flow statements, including how cash flows can be computed using income statement and balance sheet data."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "30.2",
+    "readingId": 30,
+    "readingTitle": "Analyzing Statements of Cash Flows I",
+    "moduleTitle": "Indirect Method CFO",
+    "source": {
+      "book": 2,
+      "pdfPage": 75,
+      "heading": "INDIRECT METHOD CFO"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "30.3",
+    "readingId": 30,
+    "readingTitle": "Analyzing Statements of Cash Flows I",
+    "moduleTitle": "Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences",
+    "source": {
+      "book": 2,
+      "pdfPage": 80,
+      "heading": "INVESTING AND FINANCING CASH FLOWS AND"
+    },
+    "objectives": [
+      {
+        "id": "30.c",
+        "sourceStatement": "Demonstrate the conversion of cash flows from the indirect to direct method."
+      },
+      {
+        "id": "30.d",
+        "sourceStatement": "Contrast cash flow statements prepared under International Financial Reporting Standards (IFRS) and US generally accepted accounting principles (US GAAP)."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "31.1",
+    "readingId": 31,
+    "readingTitle": "Analyzing Statements of Cash Flows II",
+    "moduleTitle": "Analyzing Statements of Cash Flows II",
+    "source": {
+      "book": 2,
+      "pdfPage": 95,
+      "heading": "ANALYZING STATEMENTS OF CASH FLOWS II"
+    },
+    "objectives": [
+      {
+        "id": "31.a",
+        "sourceStatement": "Analyze and interpret both reported and common-size cash flow statements."
+      },
+      {
+        "id": "31.b",
+        "sourceStatement": "Calculate and interpret free cash flow to the firm, free cash flow to equity, and performance and coverage cash flow ratios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "32.1",
+    "readingId": 32,
+    "readingTitle": "Analysis of Inventories",
+    "moduleTitle": "Inventory Measurement",
+    "source": {
+      "book": 2,
+      "pdfPage": 103,
+      "heading": "INVENTORY MEASUREMENT"
+    },
+    "objectives": [
+      {
+        "id": "32.a",
+        "sourceStatement": "Describe the measurement of inventory at the lower of cost and net realisable value and its implications for financial statements and ratios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "32.2",
+    "readingId": 32,
+    "readingTitle": "Analysis of Inventories",
+    "moduleTitle": "Inflation Impact on FIFO and LIFO",
+    "source": {
+      "book": 2,
+      "pdfPage": 106,
+      "heading": "INFLATION IMPACT ON FIFO AND LIFO"
+    },
+    "objectives": [
+      {
+        "id": "32.b",
+        "sourceStatement": "Calculate and explain how inflation and deflation of inventory costs affect the financial statements and ratios of companies that use different inventory valuation methods."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "32.3",
+    "readingId": 32,
+    "readingTitle": "Analysis of Inventories",
+    "moduleTitle": "Presentation and Disclosure",
+    "source": {
+      "book": 2,
+      "pdfPage": 111,
+      "heading": "PRESENTATION AND DISCLOSURE"
+    },
+    "objectives": [
+      {
+        "id": "32.c",
+        "sourceStatement": "Describe the presentation and disclosures relating to inventories and explain issues that analysts should consider when examining a company’s"
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "33.1",
+    "readingId": 33,
+    "readingTitle": "Analysis of Long-Term Assets",
+    "moduleTitle": "Intangible Long-Lived Assets",
+    "source": {
+      "book": 2,
+      "pdfPage": 121,
+      "heading": "INTANGIBLE LONG-LIVED ASSETS"
+    },
+    "objectives": [
+      {
+        "id": "33.a",
+        "sourceStatement": "Compare the financial reporting of the following types of intangible assets: purchased, internally developed, and acquired in a business combination."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "33.2",
+    "readingId": 33,
+    "readingTitle": "Analysis of Long-Term Assets",
+    "moduleTitle": "Impairment and Derecognition",
+    "source": {
+      "book": 2,
+      "pdfPage": 124,
+      "heading": "IMPAIRMENT AND DERECOGNITION"
+    },
+    "objectives": [
+      {
+        "id": "33.b",
+        "sourceStatement": "Explain and evaluate how impairment and derecognition of property, plant, and equipment and intangible assets affect the financial statements and ratios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "33.3",
+    "readingId": 33,
+    "readingTitle": "Analysis of Long-Term Assets",
+    "moduleTitle": "Long-Term Asset Disclosures",
+    "source": {
+      "book": 2,
+      "pdfPage": 129,
+      "heading": "LONG-TERM ASSET DISCLOSURES"
+    },
+    "objectives": [
+      {
+        "id": "33.c",
+        "sourceStatement": "Analyze and interpret financial statement disclosures regarding property, plant, and equipment and intangible assets."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "34.1",
+    "readingId": 34,
+    "readingTitle": "Topics in Long-Term Liabilities and Equity",
+    "moduleTitle": "Leases",
+    "source": {
+      "book": 2,
+      "pdfPage": 137,
+      "heading": "LEASES"
+    },
+    "objectives": [
+      {
+        "id": "34.a",
+        "sourceStatement": "Explain the financial reporting of leases from the perspectives of lessors and lessees."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "34.2",
+    "readingId": 34,
+    "readingTitle": "Topics in Long-Term Liabilities and Equity",
+    "moduleTitle": "Deferred Compensation and Disclosures",
+    "source": {
+      "book": 2,
+      "pdfPage": 146,
+      "heading": "DEFERRED COMPENSATION AND DISCLOSURES"
+    },
+    "objectives": [
+      {
+        "id": "34.b",
+        "sourceStatement": "Explain the financial reporting of defined contribution, defined benefit, and stock-based compensation plans."
+      },
+      {
+        "id": "34.c",
+        "sourceStatement": "Describe the financial statement presentation of and disclosures relating to long-term liabilities and share-based compensation."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "35.1",
+    "readingId": 35,
+    "readingTitle": "Analysis of Income Taxes",
+    "moduleTitle": "Differences Between Accounting Profit and Taxable Income",
+    "source": {
+      "book": 2,
+      "pdfPage": 159,
+      "heading": "DIFFERENCES BETWEEN ACCOUNTING PROFIT AND"
+    },
+    "objectives": [
+      {
+        "id": "35.a",
+        "sourceStatement": "Contrast accounting profit, taxable income, taxes payable, and income tax expense and temporary versus permanent differences between accounting profit and taxable income."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "35.2",
+    "readingId": 35,
+    "readingTitle": "Analysis of Income Taxes",
+    "moduleTitle": "Deferred Tax Assets and Liabilities",
+    "source": {
+      "book": 2,
+      "pdfPage": 165,
+      "heading": "DEFERRED TAX ASSETS AND LIABILITIES"
+    },
+    "objectives": [
+      {
+        "id": "35.b",
+        "sourceStatement": "Explain how deferred tax liabilities and assets are created and the factors that determine how a company’s deferred tax liabilities and assets should be treated for the purposes of financial analysis."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "35.3",
+    "readingId": 35,
+    "readingTitle": "Analysis of Income Taxes",
+    "moduleTitle": "Tax Rates and Disclosures",
+    "source": {
+      "book": 2,
+      "pdfPage": 170,
+      "heading": "TAX RATES AND DISCLOSURES"
+    },
+    "objectives": [
+      {
+        "id": "35.c",
+        "sourceStatement": "Calculate, interpret, and contrast an issuer’s effective tax rate, statutory tax rate, and cash tax rate."
+      },
+      {
+        "id": "35.d",
+        "sourceStatement": "Analyze disclosures relating to deferred tax items and the effective tax rate reconciliation and explain how information included in these disclosures"
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "36.1",
+    "readingId": 36,
+    "readingTitle": "Financial Reporting Quality",
+    "moduleTitle": "Reporting Quality",
+    "source": {
+      "book": 2,
+      "pdfPage": 179,
+      "heading": "REPORTING QUALITY"
+    },
+    "objectives": [
+      {
+        "id": "36.a",
+        "sourceStatement": "Compare financial reporting quality with the quality of reported results (including quality of earnings, cash flow, and balance sheet items)."
+      },
+      {
+        "id": "36.b",
+        "sourceStatement": "Describe a spectrum for assessing financial reporting quality."
+      },
+      {
+        "id": "36.c",
+        "sourceStatement": "Explain the difference between conservative and aggressive accounting."
+      },
+      {
+        "id": "36.d",
+        "sourceStatement": "Describe motivations that might cause management to issue financial reports that are not high quality and conditions that are conducive to issuing low-quality, or even fraudulent, financial reports."
+      },
+      {
+        "id": "36.e",
+        "sourceStatement": "Describe mechanisms that discipline financial reporting quality and the potential limitations of those mechanisms."
+      },
+      {
+        "id": "36.f",
+        "sourceStatement": "Describe presentation choices, including non-GAAP measures, that could be used to influence an analyst’s opinion."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "36.2",
+    "readingId": 36,
+    "readingTitle": "Financial Reporting Quality",
+    "moduleTitle": "Accounting Choices and Estimates",
+    "source": {
+      "book": 2,
+      "pdfPage": 185,
+      "heading": "ACCOUNTING CHOICES AND ESTIMATES"
+    },
+    "objectives": [
+      {
+        "id": "36.g",
+        "sourceStatement": "Describe accounting methods (choices and estimates) that could be used to manage earnings, cash flow, and balance sheet items."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "36.3",
+    "readingId": 36,
+    "readingTitle": "Financial Reporting Quality",
+    "moduleTitle": "Warning Signs",
+    "source": {
+      "book": 2,
+      "pdfPage": 189,
+      "heading": "WARNING SIGNS"
+    },
+    "objectives": [
+      {
+        "id": "36.h",
+        "sourceStatement": "Describe accounting warning signs and methods for detecting manipulation of information in financial reports."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "37.1",
+    "readingId": 37,
+    "readingTitle": "Financial Analysis Techniques",
+    "moduleTitle": "Introduction to Financial Ratios",
+    "source": {
+      "book": 2,
+      "pdfPage": 195,
+      "heading": "INTRODUCTION TO FINANCIAL RATIOS"
+    },
+    "objectives": [
+      {
+        "id": "37.a",
+        "sourceStatement": "Describe tools and techniques used in financial analysis, including their uses and limitations."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "37.2",
+    "readingId": 37,
+    "readingTitle": "Financial Analysis Techniques",
+    "moduleTitle": "Financial Ratios, Part 1",
+    "source": {
+      "book": 2,
+      "pdfPage": 201,
+      "heading": "FINANCIAL RATIOS, PART 1"
+    },
+    "objectives": [
+      {
+        "id": "37.b",
+        "sourceStatement": "Calculate and interpret activity, liquidity, solvency, and profitability ratios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "37.3",
+    "readingId": 37,
+    "readingTitle": "Financial Analysis Techniques",
+    "moduleTitle": "Financial Ratios, Part 2",
+    "source": {
+      "book": 2,
+      "pdfPage": 206,
+      "heading": "FINANCIAL RATIOS, PART 2"
+    },
+    "objectives": [
+      {
+        "id": "37.c",
+        "sourceStatement": "Describe relationships among ratios and evaluate a company using ratio analysis."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "37.4",
+    "readingId": 37,
+    "readingTitle": "Financial Analysis Techniques",
+    "moduleTitle": "DuPont Analysis",
+    "source": {
+      "book": 2,
+      "pdfPage": 215,
+      "heading": "DUPONT ANALYSIS"
+    },
+    "objectives": [
+      {
+        "id": "37.d",
+        "sourceStatement": "Demonstrate the application of DuPont analysis of return on equity and calculate and interpret effects of changes in its components."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "37.5",
+    "readingId": 37,
+    "readingTitle": "Financial Analysis Techniques",
+    "moduleTitle": "Industry-Specific Financial Ratios",
+    "source": {
+      "book": 2,
+      "pdfPage": 218,
+      "heading": "INDUSTRY-SPECIFIC FINANCIAL RATIOS"
+    },
+    "objectives": [
+      {
+        "id": "37.e",
+        "sourceStatement": "Describe the uses of industry-specific ratios used in financial analysis."
+      },
+      {
+        "id": "37.f",
+        "sourceStatement": "Describe how ratio analysis and other techniques can be used to model and forecast earnings."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "38.1",
+    "readingId": 38,
+    "readingTitle": "Introduction to Financial Statement Modeling",
+    "moduleTitle": "Financial Statement Modeling",
+    "source": {
+      "book": 2,
+      "pdfPage": 225,
+      "heading": "FINANCIAL STATEMENT MODELING"
+    },
+    "objectives": [
+      {
+        "id": "38.a",
+        "sourceStatement": "Demonstrate the development of a sales-based pro forma company model."
+      },
+      {
+        "id": "38.b",
+        "sourceStatement": "Explain how behavioral factors affect analyst forecasts and recommend remedial actions for analyst biases."
+      },
+      {
+        "id": "38.c",
+        "sourceStatement": "Explain how the competitive position of a company based on a Porter’s five forces analysis affects prices and costs."
+      },
+      {
+        "id": "38.d",
+        "sourceStatement": "Explain how to forecast industry and company sales and costs when they are subject to price inflation or deflation."
+      },
+      {
+        "id": "38.e",
+        "sourceStatement": "Explain considerations in the choice of an explicit forecast horizon and an analyst’s choices in developing projections beyond the short-term forecast horizon."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "39.1",
+    "readingId": 39,
+    "readingTitle": "Market Organization and Structure",
+    "moduleTitle": "Markets, Assets, and Intermediaries",
+    "source": {
+      "book": 2,
+      "pdfPage": 235,
+      "heading": "MARKETS, ASSETS, AND INTERMEDIARIES"
+    },
+    "objectives": [
+      {
+        "id": "39.a",
+        "sourceStatement": "Explain the main functions of the financial system."
+      },
+      {
+        "id": "39.b",
+        "sourceStatement": "Describe classifications of assets and markets."
+      },
+      {
+        "id": "39.c",
+        "sourceStatement": "Describe the major types of securities, currencies, contracts, commodities, and real assets that trade in organized markets, including their distinguishing characteristics and major subtypes."
+      },
+      {
+        "id": "39.d",
+        "sourceStatement": "Describe types of financial intermediaries and services that they provide."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "39.2",
+    "readingId": 39,
+    "readingTitle": "Market Organization and Structure",
+    "moduleTitle": "Positions and Leverage",
+    "source": {
+      "book": 2,
+      "pdfPage": 243,
+      "heading": "POSITIONS AND LEVERAGE"
+    },
+    "objectives": [
+      {
+        "id": "39.e",
+        "sourceStatement": "Compare positions an investor can take in an asset."
+      },
+      {
+        "id": "39.f",
+        "sourceStatement": "Calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "39.3",
+    "readingId": 39,
+    "readingTitle": "Market Organization and Structure",
+    "moduleTitle": "Order Execution and Validity",
+    "source": {
+      "book": 2,
+      "pdfPage": 247,
+      "heading": "ORDER EXECUTION AND VALIDITY"
+    },
+    "objectives": [
+      {
+        "id": "39.g",
+        "sourceStatement": "Compare execution, validity, and clearing instructions."
+      },
+      {
+        "id": "39.h",
+        "sourceStatement": "Compare market orders with limit orders."
+      },
+      {
+        "id": "39.i",
+        "sourceStatement": "Define primary and secondary markets and explain how secondary markets support primary markets."
+      },
+      {
+        "id": "39.j",
+        "sourceStatement": "Describe how securities, contracts, and currencies are traded in quote- driven, order-driven, and brokered markets."
+      },
+      {
+        "id": "39.k",
+        "sourceStatement": "Describe characteristics of a well-functioning financial system."
+      },
+      {
+        "id": "39.l",
+        "sourceStatement": "Describe objectives of market regulation."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "40.1",
+    "readingId": 40,
+    "readingTitle": "Security Market Indexes",
+    "moduleTitle": "Index Weighting Methods",
+    "source": {
+      "book": 2,
+      "pdfPage": 261,
+      "heading": "INDEX WEIGHTING METHODS"
+    },
+    "objectives": [
+      {
+        "id": "40.a",
+        "sourceStatement": "Describe a security market index."
+      },
+      {
+        "id": "40.b",
+        "sourceStatement": "Calculate and interpret the value, price return, and total return of an index."
+      },
+      {
+        "id": "40.c",
+        "sourceStatement": "Describe the choices and issues in index construction and management."
+      },
+      {
+        "id": "40.d",
+        "sourceStatement": "Compare the different weighting methods used in index construction."
+      },
+      {
+        "id": "40.e",
+        "sourceStatement": "Calculate and analyze the value and return of an index given its weighting method."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "40.2",
+    "readingId": 40,
+    "readingTitle": "Security Market Indexes",
+    "moduleTitle": "Uses and Types of Indexes",
+    "source": {
+      "book": 2,
+      "pdfPage": 268,
+      "heading": "USES AND TYPES OF INDEXES"
+    },
+    "objectives": [
+      {
+        "id": "40.f",
+        "sourceStatement": "Describe rebalancing and reconstitution of an index."
+      },
+      {
+        "id": "40.g",
+        "sourceStatement": "Describe uses of security market indexes."
+      },
+      {
+        "id": "40.h",
+        "sourceStatement": "Describe types of equity indexes."
+      },
+      {
+        "id": "40.i",
+        "sourceStatement": "Compare types of security market indexes."
+      },
+      {
+        "id": "40.j",
+        "sourceStatement": "Describe types of fixed-income indexes."
+      },
+      {
+        "id": "40.k",
+        "sourceStatement": "Describe indexes representing alternative investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "41.1",
+    "readingId": 41,
+    "readingTitle": "Market Efficiency",
+    "moduleTitle": "Market Efficiency",
+    "source": {
+      "book": 2,
+      "pdfPage": 278,
+      "heading": "MARKET EFFICIENCY"
+    },
+    "objectives": [
+      {
+        "id": "41.a",
+        "sourceStatement": "Describe market efficiency and related concepts, including their importance to investment practitioners."
+      },
+      {
+        "id": "41.b",
+        "sourceStatement": "Contrast market value and intrinsic value."
+      },
+      {
+        "id": "41.c",
+        "sourceStatement": "Explain factors that affect a market’s efficiency."
+      },
+      {
+        "id": "41.d",
+        "sourceStatement": "Contrast weak-form, semi-strong-form, and strong-form market efficiency."
+      },
+      {
+        "id": "41.e",
+        "sourceStatement": "Explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management."
+      },
+      {
+        "id": "41.f",
+        "sourceStatement": "Describe market anomalies."
+      },
+      {
+        "id": "41.g",
+        "sourceStatement": "Describe behavioral finance and its potential relevance to understanding market anomalies."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "42.1",
+    "readingId": 42,
+    "readingTitle": "Overview of Equity Securities",
+    "moduleTitle": "Types of Equity Investments",
+    "source": {
+      "book": 2,
+      "pdfPage": 289,
+      "heading": "TYPES OF EQUITY INVESTMENTS"
+    },
+    "objectives": [
+      {
+        "id": "42.a",
+        "sourceStatement": "Describe characteristics of types of equity securities."
+      },
+      {
+        "id": "42.b",
+        "sourceStatement": "Describe differences in voting rights and other ownership characteristics among different equity classes."
+      },
+      {
+        "id": "42.c",
+        "sourceStatement": "Compare and contrast public and private equity securities."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "42.2",
+    "readingId": 42,
+    "readingTitle": "Overview of Equity Securities",
+    "moduleTitle": "Foreign Equities and Equity Risk",
+    "source": {
+      "book": 2,
+      "pdfPage": 292,
+      "heading": "FOREIGN EQUITIES AND EQUITY RISK"
+    },
+    "objectives": [
+      {
+        "id": "42.d",
+        "sourceStatement": "Describe methods for investing in non-domestic equity securities."
+      },
+      {
+        "id": "42.e",
+        "sourceStatement": "Compare the risk and return characteristics of different types of equity securities."
+      },
+      {
+        "id": "42.f",
+        "sourceStatement": "Explain the role of equity securities in the financing of a company’s assets."
+      },
+      {
+        "id": "42.g",
+        "sourceStatement": "Contrast the market value and book value of equity securities."
+      },
+      {
+        "id": "42.h",
+        "sourceStatement": "Compare a company’s cost of equity, its (accounting) return on equity, and investors’ required rates of return."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "43.1",
+    "readingId": 43,
+    "readingTitle": "Company Analysis: Past and Present",
+    "moduleTitle": "Company Research Reports",
+    "source": {
+      "book": 2,
+      "pdfPage": 301,
+      "heading": "COMPANY RESEARCH REPORTS"
+    },
+    "objectives": [
+      {
+        "id": "43.a",
+        "sourceStatement": "Describe the elements that should be covered in a thorough company research report."
+      },
+      {
+        "id": "43.b",
+        "sourceStatement": "Determine a company’s business model."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "43.2",
+    "readingId": 43,
+    "readingTitle": "Company Analysis: Past and Present",
+    "moduleTitle": "Revenue, Profitability, and Capital",
+    "source": {
+      "book": 2,
+      "pdfPage": 303,
+      "heading": "REVENUE, PROFITABILITY, AND CAPITAL"
+    },
+    "objectives": [
+      {
+        "id": "43.c",
+        "sourceStatement": "Evaluate a company’s revenue and revenue drivers, including pricing power."
+      },
+      {
+        "id": "43.d",
+        "sourceStatement": "Evaluate a company’s operating profitability and working capital using key measures."
+      },
+      {
+        "id": "43.e",
+        "sourceStatement": "Evaluate a company’s capital investments and capital structure."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "44.1",
+    "readingId": 44,
+    "readingTitle": "Industry and Competitive Analysis",
+    "moduleTitle": "Industry Analysis",
+    "source": {
+      "book": 2,
+      "pdfPage": 309,
+      "heading": "INDUSTRY ANALYSIS"
+    },
+    "objectives": [
+      {
+        "id": "44.a",
+        "sourceStatement": "Describe the purposes of, and steps involved in, industry and competitive analysis."
+      },
+      {
+        "id": "44.b",
+        "sourceStatement": "Describe industry classification methods and compare methods by which companies can be grouped."
+      },
+      {
+        "id": "44.c",
+        "sourceStatement": "Determine an industry’s size, growth characteristics, profitability, and market share trends."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "44.2",
+    "readingId": 44,
+    "readingTitle": "Industry and Competitive Analysis",
+    "moduleTitle": "Industry Structure and Competitive Positioning",
+    "source": {
+      "book": 2,
+      "pdfPage": 315,
+      "heading": "INDUSTRY STRUCTURE AND COMPETITIVE"
+    },
+    "objectives": [
+      {
+        "id": "44.d",
+        "sourceStatement": "Analyze an industry’s structure and external influences using Porter’s Five Forces and PESTLE frameworks."
+      },
+      {
+        "id": "44.e",
+        "sourceStatement": "Evaluate the competitive strategy and position of a company."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "45.1",
+    "readingId": 45,
+    "readingTitle": "Company Analysis: Forecasting",
+    "moduleTitle": "Forecasting in Company Analysis",
+    "source": {
+      "book": 2,
+      "pdfPage": 324,
+      "heading": "FORECASTING IN COMPANY ANALYSIS"
+    },
+    "objectives": [
+      {
+        "id": "45.a",
+        "sourceStatement": "Explain principles and approaches to forecasting a company’s financial results and position."
+      },
+      {
+        "id": "45.b",
+        "sourceStatement": "Explain approaches to forecasting a company’s revenues."
+      },
+      {
+        "id": "45.c",
+        "sourceStatement": "Explain approaches to forecasting a company’s operating expenses and working capital."
+      },
+      {
+        "id": "45.d",
+        "sourceStatement": "Explain approaches to forecasting a company’s capital investments and capital structure."
+      },
+      {
+        "id": "45.e",
+        "sourceStatement": "Describe the use of scenario analysis in forecasting."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "46.1",
+    "readingId": 46,
+    "readingTitle": "Equity Valuation: Concepts and Basic Tools",
+    "moduleTitle": "Dividends, Splits, and Repurchases",
+    "source": {
+      "book": 2,
+      "pdfPage": 334,
+      "heading": "DIVIDENDS, SPLITS, AND REPURCHASES"
+    },
+    "objectives": [
+      {
+        "id": "46.a",
+        "sourceStatement": "Evaluate whether a security, given its current market price and a value estimate, is overvalued, fairly valued, or undervalued by the market."
+      },
+      {
+        "id": "46.b",
+        "sourceStatement": "Describe major categories of equity valuation models."
+      },
+      {
+        "id": "46.c",
+        "sourceStatement": "Describe regular cash dividends, extra dividends, stock dividends, stock splits, reverse stock splits, and share repurchases."
+      },
+      {
+        "id": "46.d",
+        "sourceStatement": "Describe dividend payment chronology."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "46.2",
+    "readingId": 46,
+    "readingTitle": "Equity Valuation: Concepts and Basic Tools",
+    "moduleTitle": "Dividend Discount Models",
+    "source": {
+      "book": 2,
+      "pdfPage": 337,
+      "heading": "DIVIDEND DISCOUNT MODELS"
+    },
+    "objectives": [
+      {
+        "id": "46.e",
+        "sourceStatement": "Explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models."
+      },
+      {
+        "id": "46.g",
+        "sourceStatement": "Calculate the intrinsic value of a non-callable, non-convertible preferred stock."
+      },
+      {
+        "id": "46.h",
+        "sourceStatement": "Calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate."
+      },
+      {
+        "id": "46.i",
+        "sourceStatement": "Identify characteristics of companies for which the constant growth or a multistage dividend discount model is appropriate."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "46.3",
+    "readingId": 46,
+    "readingTitle": "Equity Valuation: Concepts and Basic Tools",
+    "moduleTitle": "Relative Valuation Measures",
+    "source": {
+      "book": 2,
+      "pdfPage": 346,
+      "heading": "RELATIVE VALUATION MEASURES"
+    },
+    "objectives": [
+      {
+        "id": "46.j",
+        "sourceStatement": "Explain the rationale for using price multiples to value equity, how the price to earnings multiple relates to fundamentals, and the use of multiples based on comparables."
+      },
+      {
+        "id": "46.k",
+        "sourceStatement": "Calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value."
+      },
+      {
+        "id": "46.l",
+        "sourceStatement": "Describe enterprise value multiples and their use in estimating equity value."
+      },
+      {
+        "id": "46.m",
+        "sourceStatement": "Describe asset-based valuation models and their use in estimating equity value."
+      },
+      {
+        "id": "46.f",
+        "sourceStatement": "Explain advantages and disadvantages of each category of valuation model."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "47.1",
+    "readingId": 47,
+    "readingTitle": "Fixed-Income Instrument Features",
+    "moduleTitle": "Fixed-Income Instrument Features",
+    "source": {
+      "book": 3,
+      "pdfPage": 13,
+      "heading": "FIXED-INCOME INSTRUMENT FEATURES"
+    },
+    "objectives": [
+      {
+        "id": "47.a",
+        "sourceStatement": "Describe the features of a fixed-income security."
+      },
+      {
+        "id": "47.b",
+        "sourceStatement": "Describe the contents of a bond indenture and contrast affirmative and negative covenants."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "48.1",
+    "readingId": 48,
+    "readingTitle": "Fixed-Income Cash Flows and Types",
+    "moduleTitle": "Fixed-Income Cash Flows and Types",
+    "source": {
+      "book": 3,
+      "pdfPage": 19,
+      "heading": "FIXED-INCOME CASH FLOWS AND TYPES"
+    },
+    "objectives": [
+      {
+        "id": "48.a",
+        "sourceStatement": "Describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors."
+      },
+      {
+        "id": "48.b",
+        "sourceStatement": "Describe how legal, regulatory, and tax considerations affect the issuance and trading of fixed-income securities."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "49.1",
+    "readingId": 49,
+    "readingTitle": "Fixed-Income Issuance and Trading",
+    "moduleTitle": "Fixed-Income Issuance and Trading",
+    "source": {
+      "book": 3,
+      "pdfPage": 29,
+      "heading": "FIXED-INCOME ISSUANCE AND TRADING"
+    },
+    "objectives": [
+      {
+        "id": "49.a",
+        "sourceStatement": "Describe fixed-income market segments and their issuer and investor participants."
+      },
+      {
+        "id": "49.b",
+        "sourceStatement": "Describe types of fixed-income indexes."
+      },
+      {
+        "id": "49.c",
+        "sourceStatement": "Compare primary and secondary fixed-income markets to equity markets."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "50.1",
+    "readingId": 50,
+    "readingTitle": "Fixed-Income Markets for Corporate Issuers",
+    "moduleTitle": "Fixed-Income Markets for Corporate Issuers",
+    "source": {
+      "book": 3,
+      "pdfPage": 37,
+      "heading": "FIXED-INCOME MARKETS FOR CORPORATE ISSUERS"
+    },
+    "objectives": [
+      {
+        "id": "50.a",
+        "sourceStatement": "Compare short-term funding alternatives available to corporations and financial institutions."
+      },
+      {
+        "id": "50.b",
+        "sourceStatement": "Describe repurchase agreements (repos), their uses, and their benefits and risks."
+      },
+      {
+        "id": "50.c",
+        "sourceStatement": "Contrast the long-term funding of investment-grade versus high-yield corporate issuers."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "51.1",
+    "readingId": 51,
+    "readingTitle": "Fixed-Income Markets for Government Issuers",
+    "moduleTitle": "Fixed-Income Markets for Government Issuers",
+    "source": {
+      "book": 3,
+      "pdfPage": 46,
+      "heading": "FIXED-INCOME MARKETS FOR GOVERNMENT ISSUERS"
+    },
+    "objectives": [
+      {
+        "id": "51.a",
+        "sourceStatement": "Describe funding choices by sovereign and non-sovereign governments, quasi-government entities, and supranational agencies."
+      },
+      {
+        "id": "51.b",
+        "sourceStatement": "Contrast the issuance and trading of government and corporate fixed- income instruments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "52.1",
+    "readingId": 52,
+    "readingTitle": "Fixed-Income Bond Valuation: Prices and Yields",
+    "moduleTitle": "Fixed-Income Bond Valuation: Prices and Yields",
+    "source": {
+      "book": 3,
+      "pdfPage": 52,
+      "heading": "FIXED-INCOME BOND VALUATION: PRICES AND"
+    },
+    "objectives": [
+      {
+        "id": "52.a",
+        "sourceStatement": "Calculate a bond’s price given a yield-to-maturity on or between coupon dates."
+      },
+      {
+        "id": "52.b",
+        "sourceStatement": "Identify the relationships among a bond’s price, coupon rate, maturity, and yield-to-maturity."
+      },
+      {
+        "id": "52.c",
+        "sourceStatement": "Describe matrix pricing."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "53.1",
+    "readingId": 53,
+    "readingTitle": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+    "moduleTitle": "Yield and Yield Spread Measures for Fixed-Rate Bonds",
+    "source": {
+      "book": 3,
+      "pdfPage": 62,
+      "heading": "YIELD AND YIELD SPREAD MEASURES FOR FIXED-RATE"
+    },
+    "objectives": [
+      {
+        "id": "53.a",
+        "sourceStatement": "Calculate annual yield on a bond for varying compounding periods in a year."
+      },
+      {
+        "id": "53.b",
+        "sourceStatement": "Compare, calculate, and interpret yield and yield spread measures for fixed-rate bonds."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "54.1",
+    "readingId": 54,
+    "readingTitle": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+    "moduleTitle": "Yield and Yield Spread Measures for Floating-Rate Instruments",
+    "source": {
+      "book": 3,
+      "pdfPage": 71,
+      "heading": "YIELD AND YIELD SPREAD MEASURES FOR FLOATING-"
+    },
+    "objectives": [
+      {
+        "id": "54.a",
+        "sourceStatement": "Calculate and interpret yield spread measures for floating-rate instruments."
+      },
+      {
+        "id": "54.b",
+        "sourceStatement": "Calculate and interpret yield measures for money market instruments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "55.1",
+    "readingId": 55,
+    "readingTitle": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+    "moduleTitle": "The Term Structure of Interest Rates: Spot, Par, and Forward Curves",
+    "source": {
+      "book": 3,
+      "pdfPage": 76,
+      "heading": "THE TERM STRUCTURE OF INTEREST RATES: SPOT,"
+    },
+    "objectives": [
+      {
+        "id": "55.a",
+        "sourceStatement": "Define spot rates and the spot curve, and calculate the price of a bond using spot rates."
+      },
+      {
+        "id": "55.b",
+        "sourceStatement": "Define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates."
+      },
+      {
+        "id": "55.c",
+        "sourceStatement": "Compare the spot curve, par curve, and forward curve."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "56.1",
+    "readingId": 56,
+    "readingTitle": "Interest Rate Risk and Return",
+    "moduleTitle": "Interest Rate Risk and Return",
+    "source": {
+      "book": 3,
+      "pdfPage": 86,
+      "heading": "INTEREST RATE RISK AND RETURN"
+    },
+    "objectives": [
+      {
+        "id": "56.a",
+        "sourceStatement": "Calculate and interpret the sources of return from investing in a fixed- rate bond."
+      },
+      {
+        "id": "56.b",
+        "sourceStatement": "Describe the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon."
+      },
+      {
+        "id": "56.c",
+        "sourceStatement": "Define, calculate, and interpret Macaulay duration."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "57.1",
+    "readingId": 57,
+    "readingTitle": "Yield-Based Bond Duration Measures and Properties",
+    "moduleTitle": "Yield-Based Bond Duration Measures and Properties",
+    "source": {
+      "book": 3,
+      "pdfPage": 96,
+      "heading": "YIELD-BASED BOND DURATION MEASURES AND"
+    },
+    "objectives": [
+      {
+        "id": "57.a",
+        "sourceStatement": "Define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP)."
+      },
+      {
+        "id": "57.b",
+        "sourceStatement": "Explain how a bond’s maturity, coupon, and yield level affect its interest rate risk."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "58.1",
+    "readingId": 58,
+    "readingTitle": "Yield-Based Bond Convexity and Portfolio Properties",
+    "moduleTitle": "Yield-Based Bond Convexity and Portfolio Properties",
+    "source": {
+      "book": 3,
+      "pdfPage": 103,
+      "heading": "YIELD-BASED BOND CONVEXITY AND PORTFOLIO"
+    },
+    "objectives": [
+      {
+        "id": "58.a",
+        "sourceStatement": "Calculate and interpret convexity and describe the convexity adjustment."
+      },
+      {
+        "id": "58.b",
+        "sourceStatement": "Calculate the percentage price change of a bond for a specified change in yield, given the bond’s duration and convexity."
+      },
+      {
+        "id": "58.c",
+        "sourceStatement": "Calculate portfolio duration and convexity and explain the limitations of these measures."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "59.1",
+    "readingId": 59,
+    "readingTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
+    "moduleTitle": "Curve-Based and Empirical Fixed-Income Risk Measures",
+    "source": {
+      "book": 3,
+      "pdfPage": 111,
+      "heading": "CURVE-BASED AND EMPIRICAL FIXED-INCOME RISK"
+    },
+    "objectives": [
+      {
+        "id": "59.a",
+        "sourceStatement": "Explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options."
+      },
+      {
+        "id": "59.b",
+        "sourceStatement": "Calculate the percentage price change of a bond for a specified change in benchmark yield, given the bond’s effective duration and convexity."
+      },
+      {
+        "id": "59.c",
+        "sourceStatement": "Define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes."
+      },
+      {
+        "id": "59.d",
+        "sourceStatement": "Describe the difference between empirical duration and analytical duration."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "60.1",
+    "readingId": 60,
+    "readingTitle": "Credit Risk",
+    "moduleTitle": "Credit Risk",
+    "source": {
+      "book": 3,
+      "pdfPage": 118,
+      "heading": "CREDIT RISK"
+    },
+    "objectives": [
+      {
+        "id": "60.a",
+        "sourceStatement": "Describe credit risk and its components, probability of default and loss given default."
+      },
+      {
+        "id": "60.b",
+        "sourceStatement": "Describe the uses of ratings from credit rating agencies and their limitations."
+      },
+      {
+        "id": "60.c",
+        "sourceStatement": "Describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "61.1",
+    "readingId": 61,
+    "readingTitle": "Credit Analysis for Government Issuers",
+    "moduleTitle": "Credit Analysis for Government Issuers",
+    "source": {
+      "book": 3,
+      "pdfPage": 129,
+      "heading": "CREDIT ANALYSIS FOR GOVERNMENT ISSUERS"
+    },
+    "objectives": [
+      {
+        "id": "61.a",
+        "sourceStatement": "Explain special considerations when evaluating the credit of sovereign and non-sovereign government debt issuers and issues."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "62.1",
+    "readingId": 62,
+    "readingTitle": "Credit Analysis for Corporate Issuers",
+    "moduleTitle": "Credit Analysis for Corporate Issuers",
+    "source": {
+      "book": 3,
+      "pdfPage": 132,
+      "heading": "CREDIT ANALYSIS FOR CORPORATE ISSUERS"
+    },
+    "objectives": [
+      {
+        "id": "62.a",
+        "sourceStatement": "Describe the qualitative and quantitative factors used to evaluate a corporate borrower’s creditworthiness."
+      },
+      {
+        "id": "62.b",
+        "sourceStatement": "Calculate and interpret financial ratios used in credit analysis."
+      },
+      {
+        "id": "62.c",
+        "sourceStatement": "Describe the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "63.1",
+    "readingId": 63,
+    "readingTitle": "Fixed-Income Securitization",
+    "moduleTitle": "Fixed-Income Securitization",
+    "source": {
+      "book": 3,
+      "pdfPage": 139,
+      "heading": "FIXED-INCOME SECURITIZATION"
+    },
+    "objectives": [
+      {
+        "id": "63.a",
+        "sourceStatement": "Explain benefits of securitization for issuers, investors, economies, and financial markets."
+      },
+      {
+        "id": "63.b",
+        "sourceStatement": "Describe securitization, including the parties and the roles they play."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "64.1",
+    "readingId": 64,
+    "readingTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+    "moduleTitle": "Asset-Backed Security (ABS) Instrument and Market Features",
+    "source": {
+      "book": 3,
+      "pdfPage": 145,
+      "heading": "ASSET-BACKED SECURITY (ABS) INSTRUMENT AND"
+    },
+    "objectives": [
+      {
+        "id": "64.a",
+        "sourceStatement": "Describe characteristics and risks of covered bonds and how they differ from other asset-backed securities."
+      },
+      {
+        "id": "64.b",
+        "sourceStatement": "Describe typical credit enhancement structures used in securitizations."
+      },
+      {
+        "id": "64.c",
+        "sourceStatement": "Describe types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type."
+      },
+      {
+        "id": "64.d",
+        "sourceStatement": "Describe collateralized debt obligations, including their cash flows and risks."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "65.1",
+    "readingId": 65,
+    "readingTitle": "Mortgage-Backed Security (MBS) Instrument and Market Features",
+    "moduleTitle": "Mortgage-Backed Security Instrument and Market Features",
+    "source": {
+      "book": 3,
+      "pdfPage": 152,
+      "heading": "MORTGAGE-BACKED SECURITY (MBS) INSTRUMENT"
+    },
+    "objectives": [
+      {
+        "id": "65.a",
+        "sourceStatement": "Define prepayment risk and describe time tranching structures in securitizations and their purpose."
+      },
+      {
+        "id": "65.b",
+        "sourceStatement": "Describe fundamental features of residential mortgage loans that are securitized."
+      },
+      {
+        "id": "65.c",
+        "sourceStatement": "Describe types and characteristics of residential mortgage-backed securities, including mortgage pass-through securities and collateralized mortgage obligations, and explain the cash flows and risks for each type."
+      },
+      {
+        "id": "65.d",
+        "sourceStatement": "Describe characteristics and risks of commercial mortgage-backed securities."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "66.1",
+    "readingId": 66,
+    "readingTitle": "Derivative Instrument and Derivative Market Features",
+    "moduleTitle": "Derivatives Markets",
+    "source": {
+      "book": 3,
+      "pdfPage": 163,
+      "heading": "DERIVATIVES MARKETS"
+    },
+    "objectives": [
+      {
+        "id": "66.a",
+        "sourceStatement": "Define a derivative and describe basic features of a derivative instrument."
+      },
+      {
+        "id": "66.b",
+        "sourceStatement": "Describe the basic features of derivative markets, and contrast over- the-counter and exchange-traded derivative markets."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "67.1",
+    "readingId": 67,
+    "readingTitle": "Forward Commitment and Contingent Claim Features and Instruments",
+    "moduleTitle": "Forwards and Futures",
+    "source": {
+      "book": 3,
+      "pdfPage": 170,
+      "heading": "FORWARDS AND FUTURES"
+    },
+    "objectives": [
+      {
+        "id": "67.a",
+        "sourceStatement": "Define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "67.2",
+    "readingId": 67,
+    "readingTitle": "Forward Commitment and Contingent Claim Features and Instruments",
+    "moduleTitle": "Swaps and Options",
+    "source": {
+      "book": 3,
+      "pdfPage": 172,
+      "heading": "SWAPS AND OPTIONS"
+    },
+    "objectives": [
+      {
+        "id": "67.b",
+        "sourceStatement": "Determine the value at expiration and profit from a long or a short position in a call or put option."
+      },
+      {
+        "id": "67.c",
+        "sourceStatement": "Contrast forward commitments with contingent claims."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "68.1",
+    "readingId": 68,
+    "readingTitle": "Derivative Benefits, Risks, and Issuer and Investor Uses",
+    "moduleTitle": "Uses, Benefits, and Risks of Derivatives",
+    "source": {
+      "book": 3,
+      "pdfPage": 180,
+      "heading": "USES, BENEFITS, AND RISKS OF DERIVATIVES"
+    },
+    "objectives": [
+      {
+        "id": "68.a",
+        "sourceStatement": "Describe benefits and risks of derivative instruments."
+      },
+      {
+        "id": "68.b",
+        "sourceStatement": "Compare the use of derivatives among issuers and investors."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "69.1",
+    "readingId": 69,
+    "readingTitle": "Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives",
+    "moduleTitle": "Arbitrage, Replication, and Carrying Costs",
+    "source": {
+      "book": 3,
+      "pdfPage": 185,
+      "heading": "ARBITRAGE, REPLICATION, AND CARRYING COSTS"
+    },
+    "objectives": [
+      {
+        "id": "69.a",
+        "sourceStatement": "Explain how the concepts of arbitrage and replication are used in pricing derivatives."
+      },
+      {
+        "id": "69.b",
+        "sourceStatement": "Explain the difference between the spot and expected future price of an underlying and the cost of carry associated with holding the underlying asset."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "70.1",
+    "readingId": 70,
+    "readingTitle": "Pricing and Valuation of Forward Contracts and for an Underlying with Varying Maturities",
+    "moduleTitle": "Forward Contract Valuation",
+    "source": {
+      "book": 3,
+      "pdfPage": 192,
+      "heading": "FORWARD CONTRACT VALUATION"
+    },
+    "objectives": [
+      {
+        "id": "70.a",
+        "sourceStatement": "Explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration."
+      },
+      {
+        "id": "70.b",
+        "sourceStatement": "Explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "71.1",
+    "readingId": 71,
+    "readingTitle": "Pricing and Valuation of Futures Contracts",
+    "moduleTitle": "Futures Valuation",
+    "source": {
+      "book": 3,
+      "pdfPage": 198,
+      "heading": "FUTURES VALUATION"
+    },
+    "objectives": [
+      {
+        "id": "71.a",
+        "sourceStatement": "Compare the value and price of forward and futures contracts."
+      },
+      {
+        "id": "71.b",
+        "sourceStatement": "Explain why forward and futures prices differ."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "72.1",
+    "readingId": 72,
+    "readingTitle": "Pricing and Valuation of Interest Rates and Other Swaps",
+    "moduleTitle": "Swap Valuation",
+    "source": {
+      "book": 3,
+      "pdfPage": 202,
+      "heading": "SWAP VALUATION"
+    },
+    "objectives": [
+      {
+        "id": "72.a",
+        "sourceStatement": "Describe how swap contracts are similar to but different from a series of forward contracts."
+      },
+      {
+        "id": "72.b",
+        "sourceStatement": "Contrast the value and price of swaps."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "73.1",
+    "readingId": 73,
+    "readingTitle": "Pricing and Valuation of Options",
+    "moduleTitle": "Option Valuation",
+    "source": {
+      "book": 3,
+      "pdfPage": 206,
+      "heading": "OPTION VALUATION"
+    },
+    "objectives": [
+      {
+        "id": "73.a",
+        "sourceStatement": "Explain the exercise value, moneyness, and time value of an option."
+      },
+      {
+        "id": "73.b",
+        "sourceStatement": "Contrast the use of arbitrage and replication concepts in pricing forward commitments and contingent claims."
+      },
+      {
+        "id": "73.c",
+        "sourceStatement": "Identify the factors that determine the value of an option and describe"
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "74.1",
+    "readingId": 74,
+    "readingTitle": "Option Replication Using Put-Call Parity",
+    "moduleTitle": "Put-Call Parity",
+    "source": {
+      "book": 3,
+      "pdfPage": 214,
+      "heading": "PUT-CALL PARITY"
+    },
+    "objectives": [
+      {
+        "id": "74.a",
+        "sourceStatement": "Explain put–call parity for European options."
+      },
+      {
+        "id": "74.b",
+        "sourceStatement": "Explain put–call forward parity for European options."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "75.1",
+    "readingId": 75,
+    "readingTitle": "Valuing a Derivative Using a One-Period Binomial Model",
+    "moduleTitle": "Binomial Model for Option Values",
+    "source": {
+      "book": 3,
+      "pdfPage": 220,
+      "heading": "BINOMIAL MODEL FOR OPTION VALUES"
+    },
+    "objectives": [
+      {
+        "id": "75.a",
+        "sourceStatement": "Explain how to value a derivative using a one-period binomial model."
+      },
+      {
+        "id": "75.b",
+        "sourceStatement": "Describe the concept of risk neutrality in derivatives pricing."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "76.1",
+    "readingId": 76,
+    "readingTitle": "Alternative Investment Features, Methods, and Structures",
+    "moduleTitle": "Alternative Investment Structures",
+    "source": {
+      "book": 4,
+      "pdfPage": 11,
+      "heading": "ALTERNATIVE INVESTMENT STRUCTURES"
+    },
+    "objectives": [
+      {
+        "id": "76.a",
+        "sourceStatement": "Describe features and categories of alternative investments."
+      },
+      {
+        "id": "76.b",
+        "sourceStatement": "Compare direct investment, co-investment, and fund investment methods for alternative investments."
+      },
+      {
+        "id": "76.c",
+        "sourceStatement": "Describe investment ownership and compensation structures commonly used in alternative investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "77.1",
+    "readingId": 77,
+    "readingTitle": "Alternative Investment Performance and Returns",
+    "moduleTitle": "Performance Appraisal and Return Calculations",
+    "source": {
+      "book": 4,
+      "pdfPage": 18,
+      "heading": "PERFORMANCE APPRAISAL AND RETURN"
+    },
+    "objectives": [
+      {
+        "id": "77.a",
+        "sourceStatement": "Describe the performance appraisal of alternative investments."
+      },
+      {
+        "id": "77.b",
+        "sourceStatement": "Calculate and interpret alternative investment returns both before and after fees."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "78.1",
+    "readingId": 78,
+    "readingTitle": "Investments in Private Capital: Equity and Debt",
+    "moduleTitle": "Private Capital",
+    "source": {
+      "book": 4,
+      "pdfPage": 28,
+      "heading": "PRIVATE CAPITAL"
+    },
+    "objectives": [
+      {
+        "id": "78.a",
+        "sourceStatement": "Explain features of private equity and its investment characteristics."
+      },
+      {
+        "id": "78.b",
+        "sourceStatement": "Explain features of private debt and its investment characteristics."
+      },
+      {
+        "id": "78.c",
+        "sourceStatement": "Describe the diversification benefits that private capital can provide."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "79.1",
+    "readingId": 79,
+    "readingTitle": "Real Estate and Infrastructure",
+    "moduleTitle": "Real Estate",
+    "source": {
+      "book": 4,
+      "pdfPage": 35,
+      "heading": "REAL ESTATE"
+    },
+    "objectives": [
+      {
+        "id": "79.a",
+        "sourceStatement": "Explain features and characteristics of real estate."
+      },
+      {
+        "id": "79.b",
+        "sourceStatement": "Explain the investment characteristics of real estate investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "79.2",
+    "readingId": 79,
+    "readingTitle": "Real Estate and Infrastructure",
+    "moduleTitle": "Infrastructure",
+    "source": {
+      "book": 4,
+      "pdfPage": 38,
+      "heading": "INFRASTRUCTURE"
+    },
+    "objectives": [
+      {
+        "id": "79.c",
+        "sourceStatement": "Explain features and characteristics of infrastructure."
+      },
+      {
+        "id": "79.d",
+        "sourceStatement": "Explain the investment characteristics of infrastructure investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "80.1",
+    "readingId": 80,
+    "readingTitle": "Natural Resources",
+    "moduleTitle": "Farmland, Timberland, and Commodities",
+    "source": {
+      "book": 4,
+      "pdfPage": 42,
+      "heading": "FARMLAND, TIMBERLAND, AND COMMODITIES"
+    },
+    "objectives": [
+      {
+        "id": "80.a",
+        "sourceStatement": "Explain features of raw land, timberland, and farmland and their investment characteristics."
+      },
+      {
+        "id": "80.b",
+        "sourceStatement": "Describe features of commodities and their investment characteristics."
+      },
+      {
+        "id": "80.c",
+        "sourceStatement": "Analyze sources of risk, return, and diversification among natural resource investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "81.1",
+    "readingId": 81,
+    "readingTitle": "Hedge Funds",
+    "moduleTitle": "Hedge Funds",
+    "source": {
+      "book": 4,
+      "pdfPage": 47,
+      "heading": "HEDGE FUNDS"
+    },
+    "objectives": [
+      {
+        "id": "81.a",
+        "sourceStatement": "Explain investment features of hedge funds and contrast them with other asset classes."
+      },
+      {
+        "id": "81.b",
+        "sourceStatement": "Describe investment forms and vehicles used in hedge fund investments."
+      },
+      {
+        "id": "81.c",
+        "sourceStatement": "Analyze sources of risk, return, and diversification among hedge fund investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "82.1",
+    "readingId": 82,
+    "readingTitle": "Introduction to Digital Assets",
+    "moduleTitle": "Distributed Ledger Technology",
+    "source": {
+      "book": 4,
+      "pdfPage": 54,
+      "heading": "DISTRIBUTED LEDGER TECHNOLOGY"
+    },
+    "objectives": [
+      {
+        "id": "82.a",
+        "sourceStatement": "Describe financial applications of distributed ledger technology."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "82.2",
+    "readingId": 82,
+    "readingTitle": "Introduction to Digital Assets",
+    "moduleTitle": "Digital Asset Characteristics",
+    "source": {
+      "book": 4,
+      "pdfPage": 58,
+      "heading": "DIGITAL ASSET CHARACTERISTICS"
+    },
+    "objectives": [
+      {
+        "id": "82.b",
+        "sourceStatement": "Explain investment features of digital assets and contrast them with other asset classes."
+      },
+      {
+        "id": "82.c",
+        "sourceStatement": "Describe investment forms and vehicles used in digital asset investments."
+      },
+      {
+        "id": "82.d",
+        "sourceStatement": "Analyze sources of risk, return, and diversification among digital asset investments."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "83.1",
+    "readingId": 83,
+    "readingTitle": "Portfolio Risk and Return: Part I",
+    "moduleTitle": "Historical Risk and Return",
+    "source": {
+      "book": 4,
+      "pdfPage": 67,
+      "heading": "HISTORICAL RISK AND RETURN"
+    },
+    "objectives": [
+      {
+        "id": "83.a",
+        "sourceStatement": "Describe characteristics of the major asset classes that investors consider in forming portfolios."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "83.2",
+    "readingId": 83,
+    "readingTitle": "Portfolio Risk and Return: Part I",
+    "moduleTitle": "Risk Aversion",
+    "source": {
+      "book": 4,
+      "pdfPage": 68,
+      "heading": "RISK AVERSION"
+    },
+    "objectives": [
+      {
+        "id": "83.b",
+        "sourceStatement": "Explain risk aversion and its implications for portfolio selection."
+      },
+      {
+        "id": "83.c",
+        "sourceStatement": "Explain the selection of an optimal portfolio, given an investor’s utility (or risk aversion) and the capital allocation line."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "83.3",
+    "readingId": 83,
+    "readingTitle": "Portfolio Risk and Return: Part I",
+    "moduleTitle": "Portfolio Standard Deviation",
+    "source": {
+      "book": 4,
+      "pdfPage": 72,
+      "heading": "PORTFOLIO STANDARD DEVIATION"
+    },
+    "objectives": [
+      {
+        "id": "83.d",
+        "sourceStatement": "Calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data."
+      },
+      {
+        "id": "83.e",
+        "sourceStatement": "Calculate and interpret portfolio standard deviation."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "83.4",
+    "readingId": 83,
+    "readingTitle": "Portfolio Risk and Return: Part I",
+    "moduleTitle": "The Efficient Frontier",
+    "source": {
+      "book": 4,
+      "pdfPage": 76,
+      "heading": "THE EFFICIENT FRONTIER"
+    },
+    "objectives": [
+      {
+        "id": "83.f",
+        "sourceStatement": "Describe the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated."
+      },
+      {
+        "id": "83.g",
+        "sourceStatement": "Describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "84.1",
+    "readingId": 84,
+    "readingTitle": "Portfolio Risk and Return: Part II",
+    "moduleTitle": "Systematic Risk and Beta",
+    "source": {
+      "book": 4,
+      "pdfPage": 85,
+      "heading": "SYSTEMATIC RISK AND BETA"
+    },
+    "objectives": [
+      {
+        "id": "84.a",
+        "sourceStatement": "Describe the implications of combining a risk-free asset with a portfolio of risky assets."
+      },
+      {
+        "id": "84.b",
+        "sourceStatement": "Explain the capital allocation line (CAL) and the capital market line (CML)."
+      },
+      {
+        "id": "84.c",
+        "sourceStatement": "Explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk."
+      },
+      {
+        "id": "84.d",
+        "sourceStatement": "Explain return generating models (including the market model) and their uses."
+      },
+      {
+        "id": "84.e",
+        "sourceStatement": "Calculate and interpret beta."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "84.2",
+    "readingId": 84,
+    "readingTitle": "Portfolio Risk and Return: Part II",
+    "moduleTitle": "The CAPM and the SML",
+    "source": {
+      "book": 4,
+      "pdfPage": 94,
+      "heading": "THE CAPM AND THE SML"
+    },
+    "objectives": [
+      {
+        "id": "84.f",
+        "sourceStatement": "Explain the capital asset pricing model (CAPM), including its assumptions, and the security market line (SML)."
+      },
+      {
+        "id": "84.g",
+        "sourceStatement": "Calculate and interpret the expected return of an asset using the CAPM."
+      },
+      {
+        "id": "84.h",
+        "sourceStatement": "Describe and demonstrate applications of the CAPM and the SML."
+      },
+      {
+        "id": "84.i",
+        "sourceStatement": "Calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "85.1",
+    "readingId": 85,
+    "readingTitle": "Portfolio Management: An Overview",
+    "moduleTitle": "Portfolio Management Process",
+    "source": {
+      "book": 4,
+      "pdfPage": 107,
+      "heading": "PORTFOLIO MANAGEMENT PROCESS"
+    },
+    "objectives": [
+      {
+        "id": "85.a",
+        "sourceStatement": "Describe the portfolio approach to investing."
+      },
+      {
+        "id": "85.b",
+        "sourceStatement": "Describe the steps in the portfolio management process."
+      },
+      {
+        "id": "85.c",
+        "sourceStatement": "Describe types of investors and distinctive characteristics and needs of each."
+      },
+      {
+        "id": "85.d",
+        "sourceStatement": "Describe defined contribution and defined benefit pension plans."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "85.2",
+    "readingId": 85,
+    "readingTitle": "Portfolio Management: An Overview",
+    "moduleTitle": "Asset Management and Pooled Investments",
+    "source": {
+      "book": 4,
+      "pdfPage": 111,
+      "heading": "ASSET MANAGEMENT AND POOLED INVESTMENTS"
+    },
+    "objectives": [
+      {
+        "id": "85.e",
+        "sourceStatement": "Describe aspects of the asset management industry."
+      },
+      {
+        "id": "85.f",
+        "sourceStatement": "Describe mutual funds and compare them with other pooled investment products."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "86.1",
+    "readingId": 86,
+    "readingTitle": "Basics of Portfolio Planning and Construction",
+    "moduleTitle": "Portfolio Planning and Construction",
+    "source": {
+      "book": 4,
+      "pdfPage": 118,
+      "heading": "PORTFOLIO PLANNING AND CONSTRUCTION"
+    },
+    "objectives": [
+      {
+        "id": "86.a",
+        "sourceStatement": "Describe the reasons for a written investment policy statement (IPS)."
+      },
+      {
+        "id": "86.b",
+        "sourceStatement": "Describe the major components of an IPS."
+      },
+      {
+        "id": "86.c",
+        "sourceStatement": "Describe risk and return objectives and how they may be developed for a client."
+      },
+      {
+        "id": "86.d",
+        "sourceStatement": "Explain the difference between the willingness and the ability (capacity) to take risk in analyzing an investor’s financial risk tolerance."
+      },
+      {
+        "id": "86.e",
+        "sourceStatement": "Describe the investment constraints of liquidity, time horizon, tax concerns, legal and regulatory factors, and unique circumstances and their implications for the choice of portfolio assets."
+      },
+      {
+        "id": "86.f",
+        "sourceStatement": "Explain the specification of asset classes in relation to asset allocation."
+      },
+      {
+        "id": "86.g",
+        "sourceStatement": "Describe the principles of portfolio construction and the role of asset allocation in relation to the IPS."
+      },
+      {
+        "id": "86.h",
+        "sourceStatement": "Describe how environmental, social, and governance (ESG) considerations may be integrated into portfolio planning and construction."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "87.1",
+    "readingId": 87,
+    "readingTitle": "The Behavioral Biases of Individuals",
+    "moduleTitle": "Cognitive Errors vs. Emotional Biases",
+    "source": {
+      "book": 4,
+      "pdfPage": 130,
+      "heading": "COGNITIVE ERRORS VS. EMOTIONAL BIASES"
+    },
+    "objectives": [
+      {
+        "id": "87.a",
+        "sourceStatement": "Compare and contrast cognitive errors and emotional biases."
+      },
+      {
+        "id": "87.b",
+        "sourceStatement": "Discuss commonly recognized behavioral biases and their implications for financial decision making."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "87.2",
+    "readingId": 87,
+    "readingTitle": "The Behavioral Biases of Individuals",
+    "moduleTitle": "Emotional Biases",
+    "source": {
+      "book": 4,
+      "pdfPage": 136,
+      "heading": "EMOTIONAL BIASES"
+    },
+    "objectives": [
+      {
+        "id": "87.c",
+        "sourceStatement": "Describe how behavioral biases of investors can lead to market characteristics that may not be explained by traditional finance."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "88.1",
+    "readingId": 88,
+    "readingTitle": "Introduction to Risk Management",
+    "moduleTitle": "Introduction to Risk Management",
+    "source": {
+      "book": 4,
+      "pdfPage": 144,
+      "heading": "INTRODUCTION TO RISK MANAGEMENT"
+    },
+    "objectives": [
+      {
+        "id": "88.a",
+        "sourceStatement": "Define risk management."
+      },
+      {
+        "id": "88.b",
+        "sourceStatement": "Describe features of a risk management framework."
+      },
+      {
+        "id": "88.c",
+        "sourceStatement": "Define risk governance and describe elements of effective risk governance."
+      },
+      {
+        "id": "88.d",
+        "sourceStatement": "Explain how risk tolerance affects risk management."
+      },
+      {
+        "id": "88.e",
+        "sourceStatement": "Describe risk budgeting and its role in risk governance."
+      },
+      {
+        "id": "88.f",
+        "sourceStatement": "Identify financial and non-financial sources of risk and describe how they may interact."
+      },
+      {
+        "id": "88.g",
+        "sourceStatement": "Describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "89.1",
+    "readingId": 89,
+    "readingTitle": "Ethics and Trust in the Investment Profession",
+    "moduleTitle": "Ethics and Trust",
+    "source": {
+      "book": 4,
+      "pdfPage": 154,
+      "heading": "ETHICS AND TRUST"
+    },
+    "objectives": [
+      {
+        "id": "89.a",
+        "sourceStatement": "Explain ethics."
+      },
+      {
+        "id": "89.b",
+        "sourceStatement": "Describe the role of a code of ethics in defining a profession."
+      },
+      {
+        "id": "89.c",
+        "sourceStatement": "Describe professions and how they establish trust."
+      },
+      {
+        "id": "89.d",
+        "sourceStatement": "Describe the need for high ethical standards in investment management."
+      },
+      {
+        "id": "89.e",
+        "sourceStatement": "Explain professionalism in investment management."
+      },
+      {
+        "id": "89.f",
+        "sourceStatement": "Identify challenges to ethical behavior."
+      },
+      {
+        "id": "89.g",
+        "sourceStatement": "Compare and contrast ethical standards with legal standards."
+      },
+      {
+        "id": "89.h",
+        "sourceStatement": "Describe a framework for ethical decision making."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "90.1",
+    "readingId": 90,
+    "readingTitle": "Code of Ethics and Standards of Professional Conduct",
+    "moduleTitle": "Code and Standards",
+    "source": {
+      "book": 4,
+      "pdfPage": 161,
+      "heading": "CODE AND STANDARDS"
+    },
+    "objectives": [
+      {
+        "id": "90.a",
+        "sourceStatement": "Describe the structure of the CFA Institute Professional Conduct Program and the process for the enforcement of the Code and Standards."
+      },
+      {
+        "id": "90.b",
+        "sourceStatement": "Identify the six components of the Code of Ethics and the seven Standards of Professional Conduct."
+      },
+      {
+        "id": "90.c",
+        "sourceStatement": "Explain the ethical responsibilities required by the Code and Standards, including the sub-sections of each Standard."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.1",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standards I(A) and I(B)",
+    "source": {
+      "book": 4,
+      "pdfPage": 167,
+      "heading": "GUIDANCE FOR STANDARDS I(A) AND I(B)"
+    },
+    "objectives": [
+      {
+        "id": "91.a",
+        "sourceStatement": "Demonstrate the application of the Code of Ethics and Standards of Professional Conduct to situations involving issues of professional integrity."
+      },
+      {
+        "id": "91.b",
+        "sourceStatement": "Recommend practices and procedures designed to prevent violations of the Code of Ethics and Standards of Professional Conduct."
+      },
+      {
+        "id": "91.c",
+        "sourceStatement": "Identify conduct that conforms to the Code and Standards and conduct that violates the Code and Standards."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.2",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standards I(C), I(D), and I(E)",
+    "source": {
+      "book": 4,
+      "pdfPage": 170,
+      "heading": "GUIDANCE FOR STANDARDS I(C), I(D), AND I(E)"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.3",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standard II",
+    "source": {
+      "book": 4,
+      "pdfPage": 172,
+      "heading": "GUIDANCE FOR STANDARD II"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.4",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standards III(A) and III(B)",
+    "source": {
+      "book": 4,
+      "pdfPage": 175,
+      "heading": "GUIDANCE FOR STANDARDS III(A) AND III(B)"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.5",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standards III(C), III(D), and III(E)",
+    "source": {
+      "book": 4,
+      "pdfPage": 177,
+      "heading": "GUIDANCE FOR STANDARDS III(C), III(D), AND III(E)"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.6",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standard IV",
+    "source": {
+      "book": 4,
+      "pdfPage": 180,
+      "heading": "GUIDANCE FOR STANDARD IV"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.7",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standard V",
+    "source": {
+      "book": 4,
+      "pdfPage": 183,
+      "heading": "GUIDANCE FOR STANDARD V"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.8",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standard VI",
+    "source": {
+      "book": 4,
+      "pdfPage": 187,
+      "heading": "GUIDANCE FOR STANDARD VI"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "91.9",
+    "readingId": 91,
+    "readingTitle": "Guidance for Standards I–VII",
+    "moduleTitle": "Guidance for Standard VII",
+    "source": {
+      "book": 4,
+      "pdfPage": 189,
+      "heading": "GUIDANCE FOR STANDARD VII"
+    },
+    "objectives": [],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "92.1",
+    "readingId": 92,
+    "readingTitle": "Introduction to the Global Investment Performance Standards (GIPS)",
+    "moduleTitle": "Introduction to GIPS",
+    "source": {
+      "book": 4,
+      "pdfPage": 195,
+      "heading": "INTRODUCTION TO GIPS"
+    },
+    "objectives": [
+      {
+        "id": "92.a",
+        "sourceStatement": "Explain why the GIPS standards were created, who can claim compliance, and who benefits from compliance."
+      },
+      {
+        "id": "92.b",
+        "sourceStatement": "Describe the key concepts of the GIPS Standards for Firms."
+      },
+      {
+        "id": "92.c",
+        "sourceStatement": "Explain the purpose of composites in performance reporting."
+      },
+      {
+        "id": "92.d",
+        "sourceStatement": "Describe the fundamentals of compliance, including the recommendations of the GIPS standards with respect to the definition of the firm"
+      },
+      {
+        "id": "92.e",
+        "sourceStatement": "Describe the concept of independent verification."
+      }
+    ],
+    "status": "mapped"
+  },
+  {
+    "moduleId": "93.1",
+    "readingId": 93,
+    "readingTitle": "Ethics Application",
+    "moduleTitle": "Ethics Application",
+    "source": {
+      "book": 4,
+      "pdfPage": 200,
+      "heading": "ETHICS APPLICATION"
+    },
+    "objectives": [
+      {
+        "id": "93.a",
+        "sourceStatement": "Evaluate practices, policies, and conduct relative to the CFA Institute Code of Ethics and Standards of Professional Conduct."
+      },
+      {
+        "id": "93.b",
+        "sourceStatement": "Explain how the practices, policies, and conduct do or do not violate the CFA Institute Code of Ethics and Standards of Professional Conduct."
+      }
+    ],
+    "status": "mapped"
+  }
+]

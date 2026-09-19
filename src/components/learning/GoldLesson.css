@@ -1,0 +1,646 @@
+.gold-lesson {
+  min-width: 0;
+  scroll-margin-top: 100px;
+  padding: clamp(60px, 8vw, 105px) 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.gold-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(220px, 0.65fr);
+  gap: clamp(28px, 6vw, 70px);
+  align-items: end;
+  margin-bottom: 48px;
+}
+
+.gold-badge {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 7px 10px;
+  background: var(--red);
+  color: white;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.09em;
+}
+
+.gold-intro h2,
+.gold-section-heading h2,
+.gold-assessments > header h2 {
+  margin: 0;
+  font-size: clamp(36px, 5vw, 66px);
+  font-weight: 520;
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.gold-intro > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  line-height: 1.58;
+}
+
+.gold-objectives {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 38px;
+  padding: 28px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.gold-objectives > .section-code,
+.gold-section-heading > .section-code,
+.gold-assessments .section-code {
+  color: var(--red);
+}
+
+.gold-objectives ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gold-objectives li {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 15px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  line-height: 1.5;
+}
+
+.gold-objectives li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.gold-objectives li strong {
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+.gold-sources {
+  margin: 20px 0 68px;
+  border: 1px solid var(--line);
+}
+
+.gold-sources summary {
+  padding: 16px 19px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gold-sources ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 1px;
+  background: var(--line);
+  list-style: none;
+}
+
+.gold-sources li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 15px;
+  background: var(--white);
+}
+
+.gold-sources li strong {
+  font-size: 13px;
+}
+
+.gold-sources li span,
+.gold-sources > p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.gold-sources > p {
+  margin: 0;
+  padding: 16px 19px;
+}
+
+.gold-explanations {
+  border-top: 1px solid var(--ink);
+}
+
+.gold-explanations > article {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 25px;
+  padding: clamp(34px, 6vw, 65px) 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.gold-explanations > article > span {
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 18px;
+}
+
+.gold-explanations h3 {
+  margin-bottom: 24px;
+  font-size: clamp(28px, 3.5vw, 45px);
+  font-weight: 520;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+}
+
+.gold-explanations p,
+.gold-explanations li {
+  max-width: 760px;
+  color: #434b4f;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.gold-explanations .gold-lead {
+  color: var(--ink);
+  font-size: 21px;
+}
+
+.gold-explanations aside {
+  margin-top: 26px;
+  padding: 22px;
+  border-left: 4px solid var(--blue);
+  background: var(--white);
+}
+
+.gold-explanations aside p,
+.gold-explanations aside li {
+  font-size: 15px;
+}
+
+.gold-section-heading {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 38px;
+  align-items: start;
+  margin: clamp(70px, 10vw, 125px) 0 40px;
+}
+
+.gold-formula-card {
+  margin: 24px 0;
+  border: 1px solid var(--ink);
+  background: var(--white);
+}
+
+.gold-formula-card > header {
+  padding: clamp(22px, 4vw, 38px);
+  background: var(--blue);
+}
+
+.gold-formula-card > header span,
+.gold-worked-example > header span,
+.gold-frameworks > article > header > span {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.gold-formula-card > header h3,
+.gold-worked-example > header h3,
+.gold-frameworks > article > header h3 {
+  margin: 12px 0 0;
+  font-size: clamp(26px, 3.5vw, 42px);
+  font-weight: 520;
+  line-height: 1.1;
+}
+
+.gold-formula-card > .math-text--display {
+  padding: clamp(25px, 5vw, 48px);
+  border-bottom: 1px solid var(--ink);
+  font-size: clamp(16px, 2.2vw, 24px);
+}
+
+.gold-formula-meaning {
+  margin: 0;
+  padding: 22px clamp(22px, 4vw, 38px);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.gold-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.gold-table-scroll table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.gold-table-scroll caption {
+  padding: 16px 20px;
+  border-top: 1px solid var(--line);
+  text-align: left;
+}
+
+.gold-table-scroll caption strong,
+.gold-table-scroll caption span {
+  display: block;
+}
+
+.gold-table-scroll caption span {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.gold-table-scroll th,
+.gold-table-scroll td {
+  padding: 13px 17px;
+  border-top: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.gold-table-scroll thead th {
+  background: var(--paper);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.gold-table-scroll tbody th {
+  font-weight: 600;
+}
+
+.gold-formula-conditions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  border-top: 1px solid var(--ink);
+}
+
+.gold-formula-conditions > div {
+  padding: 20px;
+  border-right: 1px solid var(--line);
+}
+
+.gold-formula-conditions p,
+.gold-formula-conditions ul {
+  margin: 9px 0 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.gold-worked-example {
+  margin: 28px 0;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: white;
+}
+
+.gold-worked-example > header {
+  padding: clamp(26px, 5vw, 48px);
+}
+
+.gold-example-brief,
+.gold-example-close,
+.gold-case-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  border-top: 1px solid #4b5052;
+}
+
+.gold-example-brief > section,
+.gold-example-close > section,
+.gold-case-grid > section {
+  padding: 23px;
+  border-right: 1px solid #4b5052;
+}
+
+.gold-example-brief p,
+.gold-example-brief li,
+.gold-example-close p,
+.gold-case-grid li {
+  color: #c9cecc;
+  line-height: 1.55;
+}
+
+.gold-calculation-steps {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  color: var(--ink);
+  list-style: none;
+}
+
+.gold-calculation-steps > li {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.7fr) minmax(260px, 1.3fr);
+  gap: 25px;
+  padding: 25px;
+  border-top: 1px solid var(--ink);
+}
+
+.gold-calculation-steps > li > div {
+  display: flex;
+  gap: 14px;
+}
+
+.gold-calculation-steps > li > div span {
+  color: var(--red);
+  font-family: var(--mono);
+}
+
+.gold-calculation-steps .math-text {
+  align-self: center;
+}
+
+.gold-calculation-steps > li > p {
+  grid-column: 2;
+  margin: 0;
+  color: var(--muted);
+}
+
+.gold-misconceptions > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+
+.gold-misconceptions article {
+  min-height: 190px;
+  padding: 24px;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.gold-misconceptions h3 {
+  color: var(--red);
+  font-size: 20px;
+  line-height: 1.3;
+}
+
+.gold-misconceptions p {
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.gold-misconceptions small {
+  display: block;
+  padding-top: 13px;
+  border-top: 1px solid var(--line);
+  line-height: 1.45;
+}
+
+.gold-frameworks > article {
+  margin: 24px 0;
+  border: 1px solid var(--ink);
+  background: var(--white);
+}
+
+.gold-frameworks > article > header {
+  padding: 26px;
+  background: var(--blue);
+}
+
+.gold-frameworks > article > header p {
+  max-width: 720px;
+  margin: 13px 0 0;
+  line-height: 1.55;
+}
+
+.gold-frameworks > article > ol {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 1px;
+  background: var(--line);
+  list-style-position: inside;
+}
+
+.gold-frameworks > article > ol li {
+  padding: 20px;
+  background: var(--white);
+  line-height: 1.5;
+}
+
+.gold-frameworks .gold-formula-card {
+  margin: 24px;
+}
+
+.gold-comparisons > .gold-table-scroll {
+  margin: 24px 0;
+  border: 1px solid var(--ink);
+  background: var(--white);
+}
+
+.gold-decision-case .gold-case-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.gold-case-grid ol {
+  padding-left: 19px;
+}
+
+.gold-assessments {
+  margin-top: clamp(80px, 11vw, 140px);
+}
+
+.gold-assessments > header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 30px;
+  align-items: end;
+  margin-bottom: 24px;
+}
+
+.gold-assessments > header .section-code {
+  display: block;
+  margin-bottom: 17px;
+}
+
+.gold-assessments > header > strong {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.gold-mastery-bar {
+  height: 7px;
+  overflow: hidden;
+  background: var(--line);
+}
+
+.gold-mastery-bar > span {
+  display: block;
+  height: 100%;
+  background: #3f7d63;
+  transition: width 180ms ease;
+}
+
+.gold-question {
+  padding: 38px 0;
+  border-bottom: 1px solid var(--ink);
+}
+
+.gold-question-meta {
+  color: var(--red);
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}
+
+.gold-question h3 {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  gap: 8px;
+  font-size: 22px;
+  font-weight: 560;
+  line-height: 1.38;
+}
+
+.gold-question h3 > span {
+  color: var(--red);
+  font-family: var(--mono);
+}
+
+.gold-options {
+  margin-left: 52px;
+  border-top: 1px solid var(--line);
+}
+
+.gold-options label {
+  display: grid;
+  grid-template-columns: 28px 35px minmax(0, 1fr);
+  align-items: start;
+  min-height: 62px;
+  padding: 14px;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  line-height: 1.45;
+}
+
+.gold-options label.selected {
+  background: var(--white);
+}
+
+.gold-options input {
+  margin-top: 4px;
+  accent-color: var(--red);
+}
+
+.gold-options label > span:first-of-type {
+  color: var(--red);
+  font-family: var(--mono);
+}
+
+.gold-question > button {
+  margin: 18px 0 0 52px;
+  padding: 11px 15px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  cursor: pointer;
+}
+
+.gold-question > button:hover:not(:disabled) {
+  background: var(--ink);
+  color: white;
+}
+
+.gold-question > button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.gold-feedback {
+  margin: 18px 0 0 52px;
+  padding: 20px;
+  border-left: 4px solid var(--red);
+  background: rgba(214, 65, 88, 0.08);
+}
+
+.gold-feedback.correct {
+  border-color: #3f7d63;
+  background: rgba(63, 125, 99, 0.1);
+}
+
+.gold-feedback > strong {
+  display: block;
+  margin-bottom: 7px;
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.gold-feedback p {
+  line-height: 1.55;
+}
+
+.gold-feedback details {
+  border-top: 1px solid var(--line);
+}
+
+.gold-feedback summary {
+  padding: 13px 0;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.gold-feedback li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+@media (max-width: 760px) {
+  .gold-intro,
+  .gold-objectives,
+  .gold-section-heading,
+  .gold-assessments > header {
+    grid-template-columns: 1fr;
+  }
+
+  .gold-sources ul,
+  .gold-misconceptions > div,
+  .gold-decision-case .gold-case-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gold-explanations > article {
+    grid-template-columns: 50px minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .gold-calculation-steps > li {
+    grid-template-columns: 1fr;
+  }
+
+  .gold-calculation-steps > li > p {
+    grid-column: 1;
+  }
+
+  .gold-formula-card > .math-text--display {
+    font-size: 15px;
+  }
+
+  .gold-options,
+  .gold-question > button,
+  .gold-feedback {
+    margin-left: 0;
+  }
+
+  .gold-question h3 {
+    grid-template-columns: 34px minmax(0, 1fr);
+  }
+}

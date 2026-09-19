@@ -1,0 +1,106 @@
+{
+  "number": 27,
+  "slug": "introduction-to-financial-statement-analysis",
+  "title": "Introduction to Financial Statement Analysis",
+  "topic": "Financial Statement Analysis",
+  "overview": "Financial-statement analysis begins by connecting reports, notes, audit evidence, and management commentary.",
+  "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+  "modules": [
+    {
+      "id": "27.1",
+      "title": "Financial Statement Roles",
+      "explanation": "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm.",
+      "steps": [
+        "Identify the reporting period, accounting framework, and auditor conclusion.",
+        "Reconcile income, balance-sheet movements, and cash flows.",
+        "Use notes and management commentary to test classifications and estimates."
+      ],
+      "check": "Explain how financial statement roles changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain financial statement roles in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For financial statement roles, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Financial Statement Roles",
+          "definition": "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For financial statement roles, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Identify the reporting period, accounting framework, and auditor conclusion. Step 2: Reconcile income, balance-sheet movements, and cash flows. Step 3: Use notes and management commentary to test classifications and estimates.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For financial statement roles, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Financial Statement Roles?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Identify the reporting period, accounting framework, and auditor conclusion. → Reconcile income, balance-sheet movements, and cash flows. → Use notes and management commentary to test classifications and estimates.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Financial analysis combines the primary statements, notes, management discussion, and audit evidence. The statements are linked: profit changes equity, noncash accruals reconcile profit to operating cash flow, and financing connects cash with claims on the firm.",
+        "Use this sequence: Identify the reporting period, accounting framework, and auditor conclusion.; Reconcile income, balance-sheet movements, and cash flows.; Use notes and management commentary to test classifications and estimates.",
+        "Decision check: Explain how financial statement roles changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

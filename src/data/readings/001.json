@@ -1,0 +1,296 @@
+{
+  "number": 1,
+  "slug": "rates-and-returns",
+  "title": "Rates and Returns",
+  "topic": "Quantitative Methods",
+  "overview": "Return measures translate changes in value and cash flows into comparable performance rates.",
+  "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+  "modules": [
+    {
+      "id": "1.1",
+      "title": "Interest Rates and Return Measurement",
+      "explanation": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+      "steps": [
+        "Write beginning value, ending value, and distributions with consistent signs.",
+        "Calculate the return for the observed period, then compound when converting across time.",
+        "Name the convention used: nominal or real, gross or net, leveraged or unleveraged."
+      ],
+      "check": "Explain how interest rates and return measurement changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain interest rates and return measurement in plain language and connect it to the reading's central problem.",
+        "Apply the required return or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For interest rates and return measurement, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Interest Rates and Return Measurement",
+          "definition": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Required return",
+        "expression": "r = real risk-free rate + inflation premium + risk premiums",
+        "interpretation": "Each premium compensates the investor for a distinct source of risk.",
+        "example": "A 2% real rate, 3% expected inflation, and 1.5% combined risk premiums imply an approximate required return of 6.5%."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Write beginning value, ending value, and distributions with consistent signs. Step 2: Calculate the return for the observed period, then compound when converting across time. Step 3: Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+        "result": "A complete response uses required return, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. A 2% real rate, 3% expected inflation, and 1.5% combined risk premiums imply an approximate required return of 6.5%."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Interest Rates and Return Measurement?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Write beginning value, ending value, and distributions with consistent signs. → Calculate the return for the observed period, then compound when converting across time. → Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the required return?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Each premium compensates the investor for a distinct source of risk.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. Each premium compensates the investor for a distinct source of risk."
+        }
+      ],
+      "summary": [
+        "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "Use this sequence: Write beginning value, ending value, and distributions with consistent signs.; Calculate the return for the observed period, then compound when converting across time.; Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+        "Decision check: Explain how interest rates and return measurement changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Time-Weighted and Money-Weighted Returns",
+      "explanation": "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate.",
+      "steps": [
+        "Place every contribution, withdrawal, and ending value on a timeline.",
+        "Use linked subperiod returns for manager performance; use an internal rate of return for the investor experience.",
+        "Check the sign and timing of each cash flow before interpreting the result."
+      ],
+      "check": "Explain how time-weighted and money-weighted returns changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain time-weighted and money-weighted returns in plain language and connect it to the reading's central problem.",
+        "Apply the time-weighted return or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For time-weighted and money-weighted returns, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Time-Weighted and Money-Weighted Returns",
+          "definition": "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Time-weighted return",
+        "expression": "TWR = Π(1 + subperiod return) − 1",
+        "interpretation": "Break the history at external cash flows so their timing does not determine manager performance.",
+        "example": "Subperiod returns of 10% and −5% produce (1.10 × 0.95) − 1 = 4.5%."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Place every contribution, withdrawal, and ending value on a timeline. Step 2: Use linked subperiod returns for manager performance; use an internal rate of return for the investor experience. Step 3: Check the sign and timing of each cash flow before interpreting the result.",
+        "result": "A complete response uses time-weighted return, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Subperiod returns of 10% and −5% produce (1.10 × 0.95) − 1 = 4.5%."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Time-Weighted and Money-Weighted Returns?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Place every contribution, withdrawal, and ending value on a timeline. → Use linked subperiod returns for manager performance; use an internal rate of return for the investor experience. → Check the sign and timing of each cash flow before interpreting the result.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the time-weighted return?",
+          "choices": [
+            "Break the history at external cash flows so their timing does not determine manager performance.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. Break the history at external cash flows so their timing does not determine manager performance."
+        }
+      ],
+      "summary": [
+        "Time-weighted return removes the effect of external cash-flow timing, while money-weighted return is the discount rate that makes an investor's dated cash flows balance. They answer different questions, so the cash-flow timeline determines which measure is appropriate.",
+        "Use this sequence: Place every contribution, withdrawal, and ending value on a timeline.; Use linked subperiod returns for manager performance; use an internal rate of return for the investor experience.; Check the sign and timing of each cash flow before interpreting the result.",
+        "Decision check: Explain how time-weighted and money-weighted returns changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Common Measures of Return",
+      "explanation": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+      "steps": [
+        "Write beginning value, ending value, and distributions with consistent signs.",
+        "Calculate the return for the observed period, then compound when converting across time.",
+        "Name the convention used: nominal or real, gross or net, leveraged or unleveraged."
+      ],
+      "check": "Explain how common measures of return changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain common measures of return in plain language and connect it to the reading's central problem.",
+        "Apply the holding-period return or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For common measures of return, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Common Measures of Return",
+          "definition": "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Holding-period return",
+        "expression": "HPR = (ending value + income − beginning value) / beginning value",
+        "interpretation": "Include distributions received during the measurement period.",
+        "example": "A position bought for 100, sold for 106, and paying 2 has an 8% holding-period return."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Write beginning value, ending value, and distributions with consistent signs. Step 2: Calculate the return for the observed period, then compound when converting across time. Step 3: Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+        "result": "A complete response uses holding-period return, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. A position bought for 100, sold for 106, and paying 2 has an 8% holding-period return."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Common Measures of Return?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Write beginning value, ending value, and distributions with consistent signs. → Calculate the return for the observed period, then compound when converting across time. → Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the holding-period return?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Include distributions received during the measurement period."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. Include distributions received during the measurement period."
+        }
+      ],
+      "summary": [
+        "A holding-period return combines income with the change in price relative to the starting value. Annualization makes periods comparable, while real, leveraged, and after-tax returns reveal how inflation, financing, and taxes change the investor's result.",
+        "Use this sequence: Write beginning value, ending value, and distributions with consistent signs.; Calculate the return for the observed period, then compound when converting across time.; Name the convention used: nominal or real, gross or net, leveraged or unleveraged.",
+        "Decision check: Explain how common measures of return changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

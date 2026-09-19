@@ -1,0 +1,106 @@
+{
+  "number": 41,
+  "slug": "market-efficiency",
+  "title": "Market Efficiency",
+  "topic": "Equity Investments",
+  "overview": "Market-efficiency analysis asks how quickly prices incorporate information and what anomalies imply.",
+  "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+  "modules": [
+    {
+      "id": "41.1",
+      "title": "Market Efficiency",
+      "explanation": "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly.",
+      "steps": [
+        "Define the weak, semi-strong, or strong information set being tested.",
+        "Measure abnormal return against an explicit risk-adjusted benchmark.",
+        "Account for costs, data mining, limits to arbitrage, and alternative risk explanations."
+      ],
+      "check": "Explain how market efficiency changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain market efficiency in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For market efficiency, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Market Efficiency",
+          "definition": "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For market efficiency, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Define the weak, semi-strong, or strong information set being tested. Step 2: Measure abnormal return against an explicit risk-adjusted benchmark. Step 3: Account for costs, data mining, limits to arbitrage, and alternative risk explanations.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For market efficiency, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Market Efficiency?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Define the weak, semi-strong, or strong information set being tested. → Measure abnormal return against an explicit risk-adjusted benchmark. → Account for costs, data mining, limits to arbitrage, and alternative risk explanations.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "An efficient market incorporates available information into prices quickly enough that abnormal profits are hard to earn after costs and risk. Tests must specify the information set and a valid expected-return model before interpreting an anomaly.",
+        "Use this sequence: Define the weak, semi-strong, or strong information set being tested.; Measure abnormal return against an explicit risk-adjusted benchmark.; Account for costs, data mining, limits to arbitrage, and alternative risk explanations.",
+        "Decision check: Explain how market efficiency changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

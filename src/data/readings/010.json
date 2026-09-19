@@ -1,0 +1,296 @@
+{
+  "number": 10,
+  "slug": "simple-linear-regression",
+  "title": "Simple Linear Regression",
+  "topic": "Quantitative Methods",
+  "overview": "Linear regression estimates how a dependent variable changes with an explanatory variable and measures fit.",
+  "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+  "modules": [
+    {
+      "id": "10.1",
+      "title": "Linear Regression Basics",
+      "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+      "steps": [
+        "Define the dependent variable, explanatory variable, and proposed functional form.",
+        "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+        "Check residual assumptions before using the equation for explanation or prediction."
+      ],
+      "check": "Explain how linear regression basics changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain linear regression basics in plain language and connect it to the reading's central problem.",
+        "Apply the simple regression or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For linear regression basics, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Linear Regression Basics",
+          "definition": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Simple regression",
+        "expression": "ŷ = b₀ + b₁x",
+        "interpretation": "The slope estimates the expected change in y for a one-unit change in x under the model.",
+        "example": "With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Define the dependent variable, explanatory variable, and proposed functional form. Step 2: Estimate the intercept and slope, then assess fit and coefficient uncertainty. Step 3: Check residual assumptions before using the equation for explanation or prediction.",
+        "result": "A complete response uses simple regression, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Linear Regression Basics?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Define the dependent variable, explanatory variable, and proposed functional form. → Estimate the intercept and slope, then assess fit and coefficient uncertainty. → Check residual assumptions before using the equation for explanation or prediction.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the simple regression?",
+          "choices": [
+            "The slope estimates the expected change in y for a one-unit change in x under the model.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. The slope estimates the expected change in y for a one-unit change in x under the model."
+        }
+      ],
+      "summary": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Use this sequence: Define the dependent variable, explanatory variable, and proposed functional form.; Estimate the intercept and slope, then assess fit and coefficient uncertainty.; Check residual assumptions before using the equation for explanation or prediction.",
+        "Decision check: Explain how linear regression basics changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "10.2",
+      "title": "Analysis of Variance (ANOVA) and Goodness of Fit",
+      "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+      "steps": [
+        "Define the dependent variable, explanatory variable, and proposed functional form.",
+        "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+        "Check residual assumptions before using the equation for explanation or prediction."
+      ],
+      "check": "Explain how analysis of variance (anova) and goodness of fit changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain analysis of variance (anova) and goodness of fit in plain language and connect it to the reading's central problem.",
+        "Apply the simple regression or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For analysis of variance (anova) and goodness of fit, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Analysis of Variance (ANOVA) and Goodness of Fit",
+          "definition": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Simple regression",
+        "expression": "ŷ = b₀ + b₁x",
+        "interpretation": "The slope estimates the expected change in y for a one-unit change in x under the model.",
+        "example": "With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Define the dependent variable, explanatory variable, and proposed functional form. Step 2: Estimate the intercept and slope, then assess fit and coefficient uncertainty. Step 3: Check residual assumptions before using the equation for explanation or prediction.",
+        "result": "A complete response uses simple regression, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Analysis of Variance (ANOVA) and Goodness of Fit?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Define the dependent variable, explanatory variable, and proposed functional form. → Estimate the intercept and slope, then assess fit and coefficient uncertainty. → Check residual assumptions before using the equation for explanation or prediction.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the simple regression?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "The slope estimates the expected change in y for a one-unit change in x under the model."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. The slope estimates the expected change in y for a one-unit change in x under the model."
+        }
+      ],
+      "summary": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Use this sequence: Define the dependent variable, explanatory variable, and proposed functional form.; Estimate the intercept and slope, then assess fit and coefficient uncertainty.; Check residual assumptions before using the equation for explanation or prediction.",
+        "Decision check: Explain how analysis of variance (anova) and goodness of fit changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "10.3",
+      "title": "Predicted Values and Functional Forms of Regression",
+      "explanation": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+      "steps": [
+        "Define the dependent variable, explanatory variable, and proposed functional form.",
+        "Estimate the intercept and slope, then assess fit and coefficient uncertainty.",
+        "Check residual assumptions before using the equation for explanation or prediction."
+      ],
+      "check": "Explain how predicted values and functional forms of regression changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain predicted values and functional forms of regression in plain language and connect it to the reading's central problem.",
+        "Apply the simple regression or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For predicted values and functional forms of regression, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Predicted Values and Functional Forms of Regression",
+          "definition": "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Simple regression",
+        "expression": "ŷ = b₀ + b₁x",
+        "interpretation": "The slope estimates the expected change in y for a one-unit change in x under the model.",
+        "example": "With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Define the dependent variable, explanatory variable, and proposed functional form. Step 2: Estimate the intercept and slope, then assess fit and coefficient uncertainty. Step 3: Check residual assumptions before using the equation for explanation or prediction.",
+        "result": "A complete response uses simple regression, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. With b₀ = 1 and b₁ = 0.8, x = 5 produces a predicted value of 5."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Predicted Values and Functional Forms of Regression?",
+          "choices": [
+            "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Define the dependent variable, explanatory variable, and proposed functional form. → Estimate the intercept and slope, then assess fit and coefficient uncertainty. → Check residual assumptions before using the equation for explanation or prediction."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the simple regression?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "The slope estimates the expected change in y for a one-unit change in x under the model.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. The slope estimates the expected change in y for a one-unit change in x under the model."
+        }
+      ],
+      "summary": [
+        "Regression estimates a conditional relationship between a dependent variable and one or more explanatory terms. Coefficients describe direction and scale; residual variation, goodness of fit, and diagnostics show how much uncertainty remains.",
+        "Use this sequence: Define the dependent variable, explanatory variable, and proposed functional form.; Estimate the intercept and slope, then assess fit and coefficient uncertainty.; Check residual assumptions before using the equation for explanation or prediction.",
+        "Decision check: Explain how predicted values and functional forms of regression changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

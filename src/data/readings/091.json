@@ -1,0 +1,866 @@
+{
+  "number": 91,
+  "slug": "guidance-for-standards-i-vii",
+  "title": "Guidance for Standards I–VII",
+  "topic": "Ethical and Professional Standards",
+  "overview": "Standards guidance applies ethical principles to conflicts, information, research, trading, communication, and professional conduct.",
+  "example": "Identify the duty, affected stakeholders, conflict, available actions, and the action that protects trust.",
+  "modules": [
+    {
+      "id": "91.1",
+      "title": "Guidance for Standards I(A) and I(B)",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standards i(a) and i(b) changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standards i(a) and i(b) in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standards i(a) and i(b), begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standards I(A) and I(B)",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standards i(a) and i(b), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standards i(a) and i(b), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standards I(A) and I(B)?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standards i(a) and i(b) changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.2",
+      "title": "Guidance for Standards I(C), I(D), and I(E)",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standards i(c), i(d), and i(e) changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standards i(c), i(d), and i(e) in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standards i(c), i(d), and i(e), begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standards I(C), I(D), and I(E)",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standards i(c), i(d), and i(e), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standards i(c), i(d), and i(e), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standards I(C), I(D), and I(E)?",
+          "choices": [
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standards i(c), i(d), and i(e) changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.3",
+      "title": "Guidance for Standard II",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standard ii changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standard ii in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standard ii, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standard II",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standard ii, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standard ii, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standard II?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standard ii changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.4",
+      "title": "Guidance for Standards III(A) and III(B)",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standards iii(a) and iii(b) changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standards iii(a) and iii(b) in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standards iii(a) and iii(b), begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standards III(A) and III(B)",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standards iii(a) and iii(b), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standards iii(a) and iii(b), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standards III(A) and III(B)?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standards iii(a) and iii(b) changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.5",
+      "title": "Guidance for Standards III(C), III(D), and III(E)",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standards iii(c), iii(d), and iii(e) changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standards iii(c), iii(d), and iii(e) in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standards iii(c), iii(d), and iii(e), begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standards III(C), III(D), and III(E)",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standards iii(c), iii(d), and iii(e), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standards iii(c), iii(d), and iii(e), an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standards III(C), III(D), and III(E)?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standards iii(c), iii(d), and iii(e) changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.6",
+      "title": "Guidance for Standard IV",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standard iv changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standard iv in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standard iv, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standard IV",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standard iv, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standard iv, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standard IV?",
+          "choices": [
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standard iv changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.7",
+      "title": "Guidance for Standard V",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standard v changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standard v in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standard v, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standard V",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standard v, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standard v, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standard V?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standard v changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.8",
+      "title": "Guidance for Standard VI",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standard vi changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standard vi in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standard vi, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standard VI",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standard vi, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standard vi, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standard VI?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standard vi changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "91.9",
+      "title": "Guidance for Standard VII",
+      "explanation": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+      "steps": [
+        "Gather the facts and identify clients, employers, markets, and other affected parties.",
+        "Name the applicable duty, conflict, and actions available rather than relying on intent alone.",
+        "Choose and document the action that protects client interests, market integrity, and professional independence."
+      ],
+      "check": "Explain how guidance for standard vii changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain guidance for standard vii in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Ethical analysis identifies duties, stakeholders, conflicts, available actions, and the effect on trust. Intent alone is insufficient: professionals need reasonable diligence, clear communication, appropriate controls, and records that support the action taken.",
+        "For guidance for standard vii, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Guidance for Standard VII",
+          "definition": "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "term": "Duty",
+          "definition": "An obligation owed to a client, employer, market, profession, or other stakeholder."
+        },
+        {
+          "term": "Conflict of interest",
+          "definition": "A circumstance in which competing interests may impair independent judgment."
+        },
+        {
+          "term": "Disclosure",
+          "definition": "Clear communication of information a reasonable person needs to evaluate a decision or conflict."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For guidance for standard vii, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A professional faces pressure to act before all relevant facts are verified and must protect clients, market integrity, and independent judgment.",
+        "analysis": "Step 1: Gather the facts and identify clients, employers, markets, and other affected parties. Step 2: Name the applicable duty, conflict, and actions available rather than relying on intent alone. Step 3: Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For guidance for standard vii, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Choosing an action based only on personal intent rather than duties and foreseeable effects.",
+        "Assuming disclosure cures conduct that remains misleading, unfair, or insufficiently diligent.",
+        "Failing to document the facts, escalation, recommendation, and final action."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Guidance for Standard VII?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Gather the facts and identify clients, employers, markets, and other affected parties. → Name the applicable duty, conflict, and actions available rather than relying on intent alone. → Choose and document the action that protects client interests, market integrity, and professional independence.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Professional ethics protects clients and market trust when incentives, ambiguity, or pressure make the correct action difficult. Analysis starts with duties and facts, then addresses conflicts, disclosure, independence, diligence, fair dealing, and documentation.",
+        "Use this sequence: Gather the facts and identify clients, employers, markets, and other affected parties.; Name the applicable duty, conflict, and actions available rather than relying on intent alone.; Choose and document the action that protects client interests, market integrity, and professional independence.",
+        "Decision check: Explain how guidance for standard vii changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 27
+}

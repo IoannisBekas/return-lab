@@ -1,0 +1,201 @@
+{
+  "number": 82,
+  "slug": "introduction-to-digital-assets",
+  "title": "Introduction to Digital Assets",
+  "topic": "Alternative Investments",
+  "overview": "Digital assets use distributed ledgers to represent value, ownership, execution rules, and network participation.",
+  "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+  "modules": [
+    {
+      "id": "82.1",
+      "title": "Distributed Ledger Technology",
+      "explanation": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+      "steps": [
+        "Identify what the token represents and which network validates transfers.",
+        "Map issuance, consensus, custody, governance, and economic incentives.",
+        "Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes."
+      ],
+      "check": "Explain how distributed ledger technology changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain distributed ledger technology in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "Alternative-investment analysis combines asset economics with legal structure, fees, leverage, valuation method, and liquidity. Reported returns require special care when cash flows are irregular or asset values are appraised rather than continuously traded.",
+        "For distributed ledger technology, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Distributed Ledger Technology",
+          "definition": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation."
+        },
+        {
+          "term": "Illiquidity",
+          "definition": "The cost or difficulty of exiting an investment quickly at a representative value."
+        },
+        {
+          "term": "Carried interest",
+          "definition": "Performance compensation allocated to a manager under specified terms."
+        },
+        {
+          "term": "Appraisal smoothing",
+          "definition": "Understatement of short-term volatility when valuations adjust slowly."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For distributed ledger technology, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An investor compares a public security with an alternative fund whose capital calls, fees, leverage, appraisals, and exit timing are uncertain.",
+        "analysis": "Step 1: Identify what the token represents and which network validates transfers. Step 2: Map issuance, consensus, custody, governance, and economic incentives. Step 3: Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For distributed ledger technology, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Comparing reported returns without aligning fees, leverage, timing, and valuation methods.",
+        "Treating illiquidity as only a volatility issue rather than a funding and control constraint.",
+        "Assuming historical exits and valuations will remain available in stressed markets."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Distributed Ledger Technology?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify what the token represents and which network validates transfers. → Map issuance, consensus, custody, governance, and economic incentives. → Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "Use this sequence: Identify what the token represents and which network validates transfers.; Map issuance, consensus, custody, governance, and economic incentives.; Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+        "Decision check: Explain how distributed ledger technology changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "82.2",
+      "title": "Digital Asset Characteristics",
+      "explanation": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+      "steps": [
+        "Identify what the token represents and which network validates transfers.",
+        "Map issuance, consensus, custody, governance, and economic incentives.",
+        "Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes."
+      ],
+      "check": "Explain how digital asset characteristics changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain digital asset characteristics in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "Alternative-investment analysis combines asset economics with legal structure, fees, leverage, valuation method, and liquidity. Reported returns require special care when cash flows are irregular or asset values are appraised rather than continuously traded.",
+        "For digital asset characteristics, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Digital Asset Characteristics",
+          "definition": "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation."
+        },
+        {
+          "term": "Illiquidity",
+          "definition": "The cost or difficulty of exiting an investment quickly at a representative value."
+        },
+        {
+          "term": "Carried interest",
+          "definition": "Performance compensation allocated to a manager under specified terms."
+        },
+        {
+          "term": "Appraisal smoothing",
+          "definition": "Understatement of short-term volatility when valuations adjust slowly."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For digital asset characteristics, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An investor compares a public security with an alternative fund whose capital calls, fees, leverage, appraisals, and exit timing are uncertain.",
+        "analysis": "Step 1: Identify what the token represents and which network validates transfers. Step 2: Map issuance, consensus, custody, governance, and economic incentives. Step 3: Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For digital asset characteristics, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Comparing reported returns without aligning fees, leverage, timing, and valuation methods.",
+        "Treating illiquidity as only a volatility issue rather than a funding and control constraint.",
+        "Assuming historical exits and valuations will remain available in stressed markets."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Digital Asset Characteristics?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Identify what the token represents and which network validates transfers. → Map issuance, consensus, custody, governance, and economic incentives. → Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Distributed ledgers coordinate records and ownership across a network using consensus and cryptographic controls. Digital-asset value and risk depend on token rights, network incentives, custody, governance, smart-contract behavior, liquidity, and regulation.",
+        "Use this sequence: Identify what the token represents and which network validates transfers.; Map issuance, consensus, custody, governance, and economic incentives.; Evaluate security, concentration, liquidity, legal status, and smart-contract failure modes.",
+        "Decision check: Explain how digital asset characteristics changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 6
+}

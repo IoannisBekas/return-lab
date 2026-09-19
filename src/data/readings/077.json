@@ -1,0 +1,106 @@
+{
+  "number": 77,
+  "slug": "alternative-investment-performance-and-returns",
+  "title": "Alternative Investment Performance and Returns",
+  "topic": "Alternative Investments",
+  "overview": "Alternative-investment performance must account for fees, timing, appraisal effects, leverage, and uneven cash flows.",
+  "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+  "modules": [
+    {
+      "id": "77.1",
+      "title": "Performance Appraisal and Return Calculations",
+      "explanation": "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience.",
+      "steps": [
+        "Map legal structure, control rights, liquidity terms, leverage, and valuation method.",
+        "Place contributions, distributions, fees, and ending value on a timeline.",
+        "Use a return measure suited to cash-flow control and test stale pricing and survivorship effects."
+      ],
+      "check": "Explain how performance appraisal and return calculations changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain performance appraisal and return calculations in plain language and connect it to the reading's central problem.",
+        "Apply the money-weighted return or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience.",
+        "Alternative-investment analysis combines asset economics with legal structure, fees, leverage, valuation method, and liquidity. Reported returns require special care when cash flows are irregular or asset values are appraised rather than continuously traded.",
+        "For performance appraisal and return calculations, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Performance Appraisal and Return Calculations",
+          "definition": "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience."
+        },
+        {
+          "term": "Illiquidity",
+          "definition": "The cost or difficulty of exiting an investment quickly at a representative value."
+        },
+        {
+          "term": "Carried interest",
+          "definition": "Performance compensation allocated to a manager under specified terms."
+        },
+        {
+          "term": "Appraisal smoothing",
+          "definition": "Understatement of short-term volatility when valuations adjust slowly."
+        }
+      ],
+      "formula": {
+        "label": "Money-weighted return",
+        "expression": "0 = Σ CFₜ / (1 + IRR)ᵗ",
+        "interpretation": "The internal rate of return incorporates the timing and amount of investor-controlled cash flows.",
+        "example": "Earlier large contributions give more weight to the returns earned after those contributions."
+      },
+      "workedExample": {
+        "scenario": "An investor compares a public security with an alternative fund whose capital calls, fees, leverage, appraisals, and exit timing are uncertain.",
+        "analysis": "Step 1: Map legal structure, control rights, liquidity terms, leverage, and valuation method. Step 2: Place contributions, distributions, fees, and ending value on a timeline. Step 3: Use a return measure suited to cash-flow control and test stale pricing and survivorship effects.",
+        "result": "A complete response uses money-weighted return, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Earlier large contributions give more weight to the returns earned after those contributions."
+      },
+      "mistakes": [
+        "Comparing reported returns without aligning fees, leverage, timing, and valuation methods.",
+        "Treating illiquidity as only a volatility issue rather than a funding and control constraint.",
+        "Assuming historical exits and valuations will remain available in stressed markets."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Performance Appraisal and Return Calculations?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Map legal structure, control rights, liquidity terms, leverage, and valuation method. → Place contributions, distributions, fees, and ending value on a timeline. → Use a return measure suited to cash-flow control and test stale pricing and survivorship effects.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the money-weighted return?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "The internal rate of return incorporates the timing and amount of investor-controlled cash flows.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. The internal rate of return incorporates the timing and amount of investor-controlled cash flows."
+        }
+      ],
+      "summary": [
+        "Alternative investments often use partnerships, lockups, appraisal values, leverage, and layered fees. Return analysis must align cash-flow timing and distinguish gross asset performance from the investor's net experience.",
+        "Use this sequence: Map legal structure, control rights, liquidity terms, leverage, and valuation method.; Place contributions, distributions, fees, and ending value on a timeline.; Use a return measure suited to cash-flow control and test stale pricing and survivorship effects.",
+        "Decision check: Explain how performance appraisal and return calculations changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

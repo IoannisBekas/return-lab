@@ -1,0 +1,106 @@
+{
+  "number": 19,
+  "slug": "exchange-rate-calculations",
+  "title": "Exchange Rate Calculations",
+  "topic": "Economics",
+  "overview": "Exchange-rate calculations keep quotation conventions, cross rates, forward points, and percentage changes consistent.",
+  "example": "Trace a policy or market shock through incentives, quantities, prices, growth, and currency effects.",
+  "modules": [
+    {
+      "id": "19.1",
+      "title": "Foreign Exchange Rates",
+      "explanation": "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+      "steps": [
+        "Write the currency pair and label base and price currency.",
+        "Invert or chain quotes only after aligning units.",
+        "Check that appreciation, depreciation, and forward points move in the economically correct direction."
+      ],
+      "check": "Explain how foreign exchange rates changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain foreign exchange rates in plain language and connect it to the reading's central problem.",
+        "Apply the cross rate or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+        "Economic analysis follows incentives through quantities, prices, income, expectations, and policy responses. A useful conclusion distinguishes an initial effect from later feedback and identifies which assumptions would make the outcome different.",
+        "For foreign exchange rates, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Foreign Exchange Rates",
+          "definition": "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity."
+        },
+        {
+          "term": "Incentive",
+          "definition": "A change in cost or benefit that can alter a decision."
+        },
+        {
+          "term": "Transmission",
+          "definition": "The path through which a shock affects economic activity and asset prices."
+        },
+        {
+          "term": "Equilibrium",
+          "definition": "A state in which planned demand and supply are mutually consistent."
+        }
+      ],
+      "formula": {
+        "label": "Cross rate",
+        "expression": "A/C = (A/B) × (B/C)",
+        "interpretation": "Align currencies so the intermediate unit cancels.",
+        "example": "If A/B is 2 and B/C is 3, then A/C is 6 under consistent quote direction."
+      },
+      "workedExample": {
+        "scenario": "Growth is slowing while inflation remains above target, and an investor must trace the effects on companies, rates, and currencies.",
+        "analysis": "Step 1: Write the currency pair and label base and price currency. Step 2: Invert or chain quotes only after aligning units. Step 3: Check that appreciation, depreciation, and forward points move in the economically correct direction.",
+        "result": "A complete response uses cross rate, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. If A/B is 2 and B/C is 3, then A/C is 6 under consistent quote direction."
+      },
+      "mistakes": [
+        "Stopping at the first-round effect and ignoring behavioral or policy responses.",
+        "Treating a directional relationship as a precise forecast.",
+        "Using one indicator without checking whether other evidence confirms the same economic story."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Foreign Exchange Rates?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Write the currency pair and label base and price currency. → Invert or chain quotes only after aligning units. → Check that appreciation, depreciation, and forward points move in the economically correct direction.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the cross rate?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Align currencies so the intermediate unit cancels."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. Align currencies so the intermediate unit cancels."
+        }
+      ],
+      "summary": [
+        "An exchange rate is the price of one currency in another, so quotation direction matters. Spot, forward, and cross rates must use consistent base currencies; forward premiums or discounts reflect relative financing conditions under covered interest parity.",
+        "Use this sequence: Write the currency pair and label base and price currency.; Invert or chain quotes only after aligning units.; Check that appreciation, depreciation, and forward points move in the economically correct direction.",
+        "Decision check: Explain how foreign exchange rates changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

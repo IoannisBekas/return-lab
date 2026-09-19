@@ -437,10 +437,10 @@
           }
         ],
         "formula": {
-          "label": "Indirect operating cash flow",
-          "expression": "CFO = net income + noncash charges − increases in operating working capital",
-          "interpretation": "Adjust for noncash recognition and the cash tied up in operating balances.",
-          "example": "Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+          "label": "Cash flow additivity",
+          "expression": "PV(CF_A + CF_B) = PV(CF_A) + PV(CF_B)",
+          "interpretation": "Cash-flow streams with identical state-by-state payoffs must have the same present value; otherwise an arbitrage is possible.",
+          "example": "A four-year 100 annuity plus a 300 payment in year 3 replicates payments of 100, 100, 400, and 100, so their present values add."
         },
         "workedExample": {
           "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
@@ -850,10 +850,10 @@
           }
         ],
         "formula": {
-          "label": "Bayes' rule",
-          "expression": "P(A|B) = P(B|A)P(A) / P(B)",
-          "interpretation": "Update the prior probability using how likely the evidence is under each state.",
-          "example": "If evidence is much more likely when A is true, the posterior probability of A rises above its prior."
+          "label": "Portfolio variance",
+          "expression": "σₚ² = ΣᵢΣⱼ wᵢwⱼ Cov(Rᵢ,Rⱼ)",
+          "interpretation": "Portfolio risk depends on asset weights, standalone variances, and every pairwise covariance.",
+          "example": "Correlation below +1 creates a diversification benefit relative to the weighted average of standalone volatility; it does not guarantee risk below each asset."
         },
         "workedExample": {
           "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
@@ -3826,9 +3826,9 @@
         ],
         "formula": {
           "label": "Weighted-average cost of capital",
-          "expression": "WACC = wₑrₑ + w-dr-d(1 − tax rate)",
+          "expression": "WACC = wₑrₑ + w_d r_d(1 − T)",
           "interpretation": "Use market-value weights and component costs consistent with the project's operating risk.",
-          "example": "With equal debt and equity weights, 10% equity cost, 6% debt cost, and 25% tax, WACC is 7.25%."
+          "example": "With equal debt and equity weights, 10% equity cost, 6% debt cost, and a 25% tax rate, WACC is 7.25%."
         },
         "workedExample": {
           "scenario": "A company is deciding whether to fund a new project with internal cash, debt, or new equity while preserving operating liquidity.",
@@ -9018,10 +9018,10 @@
           }
         ],
         "formula": {
-          "label": "Indirect operating cash flow",
-          "expression": "CFO = net income + noncash charges − increases in operating working capital",
-          "interpretation": "Adjust for noncash recognition and the cash tied up in operating balances.",
-          "example": "Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+          "label": "Periodic coupon cash flow",
+          "expression": "Coupon = (annual coupon rate ÷ payments per year) × current principal",
+          "interpretation": "The current principal and contract terms determine the scheduled coupon; amortization and contingency provisions can change later cash flows.",
+          "example": "A 5% annual coupon on 1,000 par paid semiannually produces two scheduled coupons of 25 before any principal adjustment."
         },
         "workedExample": {
           "scenario": "A portfolio manager compares two bonds with different maturities, credit quality, liquidity, and embedded options after market yields change.",

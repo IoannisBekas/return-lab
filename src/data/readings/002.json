@@ -1,0 +1,201 @@
+{
+  "number": 2,
+  "slug": "time-value-of-money-in-finance",
+  "title": "Time Value of Money in Finance",
+  "topic": "Quantitative Methods",
+  "overview": "Time-value analysis moves cash flows across dates by compounding forward and discounting backward.",
+  "example": "Work from a small return series, state the assumptions, calculate the measure, and explain what the number leaves out.",
+  "modules": [
+    {
+      "id": "2.1",
+      "title": "Discounted Cash Flow Valuation",
+      "explanation": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+      "steps": [
+        "Draw the cash-flow timeline and choose a valuation date.",
+        "Discount each cash flow with a rate and period that match its risk and timing.",
+        "Add present values and test whether the answer moves correctly when the rate changes."
+      ],
+      "check": "Explain how discounted cash flow valuation changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain discounted cash flow valuation in plain language and connect it to the reading's central problem.",
+        "Apply the present value or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For discounted cash flow valuation, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Discounted Cash Flow Valuation",
+          "definition": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Present value",
+        "expression": "PV = Σ CFₜ / (1 + r)ᵗ",
+        "interpretation": "Discount each dated cash flow at a rate consistent with its timing and risk.",
+        "example": "At 5%, 105 received in one year has a present value of 100."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Draw the cash-flow timeline and choose a valuation date. Step 2: Discount each cash flow with a rate and period that match its risk and timing. Step 3: Add present values and test whether the answer moves correctly when the rate changes.",
+        "result": "A complete response uses present value, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. At 5%, 105 received in one year has a present value of 100."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Discounted Cash Flow Valuation?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Draw the cash-flow timeline and choose a valuation date. → Discount each cash flow with a rate and period that match its risk and timing. → Add present values and test whether the answer moves correctly when the rate changes.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the present value?",
+          "choices": [
+            "Discount each dated cash flow at a rate consistent with its timing and risk.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. Discount each dated cash flow at a rate consistent with its timing and risk."
+        }
+      ],
+      "summary": [
+        "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "Use this sequence: Draw the cash-flow timeline and choose a valuation date.; Discount each cash flow with a rate and period that match its risk and timing.; Add present values and test whether the answer moves correctly when the rate changes.",
+        "Decision check: Explain how discounted cash flow valuation changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "2.2",
+      "title": "Implied Returns and Cash Flow Additivity",
+      "explanation": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+      "steps": [
+        "Draw the cash-flow timeline and choose a valuation date.",
+        "Discount each cash flow with a rate and period that match its risk and timing.",
+        "Add present values and test whether the answer moves correctly when the rate changes."
+      ],
+      "check": "Explain how implied returns and cash flow additivity changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain implied returns and cash flow additivity in plain language and connect it to the reading's central problem.",
+        "Apply the indirect operating cash flow or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "Quantitative analysis converts financial observations into comparable measures. The analyst must keep units and timing consistent, show the assumptions behind the calculation, and interpret the result rather than treating a computed number as self-explanatory.",
+        "For implied returns and cash flow additivity, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Implied Returns and Cash Flow Additivity",
+          "definition": "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows."
+        },
+        {
+          "term": "Input",
+          "definition": "An observed value or stated assumption used in the calculation."
+        },
+        {
+          "term": "Estimate",
+          "definition": "A sample-based or model-based approximation of an unknown quantity."
+        },
+        {
+          "term": "Sensitivity",
+          "definition": "How much the conclusion changes when an input or assumption changes."
+        }
+      ],
+      "formula": {
+        "label": "Cash flow additivity",
+        "expression": "PV(CF_A + CF_B) = PV(CF_A) + PV(CF_B)",
+        "interpretation": "Cash-flow streams with identical state-by-state payoffs must have the same present value; otherwise an arbitrage is possible.",
+        "example": "A four-year 100 annuity plus a 300 payment in year 3 replicates payments of 100, 100, 400, and 100, so their present values add."
+      },
+      "workedExample": {
+        "scenario": "An analyst has a short return history and must choose a defensible measure before comparing two investments.",
+        "analysis": "Step 1: Draw the cash-flow timeline and choose a valuation date. Step 2: Discount each cash flow with a rate and period that match its risk and timing. Step 3: Add present values and test whether the answer moves correctly when the rate changes.",
+        "result": "A complete response uses indirect operating cash flow, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "mistakes": [
+        "Mixing percentages, decimals, periods, or compounding conventions.",
+        "Selecting a technique because it is familiar rather than because its assumptions fit the question.",
+        "Reporting a precise output without discussing sampling error, model risk, or economic meaning."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Implied Returns and Cash Flow Additivity?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Draw the cash-flow timeline and choose a valuation date. → Discount each cash flow with a rate and period that match its risk and timing. → Add present values and test whether the answer moves correctly when the rate changes.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the indirect operating cash flow?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Adjust for noncash recognition and the cash tied up in operating balances."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. Adjust for noncash recognition and the cash tied up in operating balances."
+        }
+      ],
+      "summary": [
+        "Discounted-cash-flow analysis treats value as dated cash flows translated to one point in time. Cash-flow additivity lets separately valued streams be combined, and an implied return is the rate consistent with today's price and the future cash flows.",
+        "Use this sequence: Draw the cash-flow timeline and choose a valuation date.; Discount each cash flow with a rate and period that match its risk and timing.; Add present values and test whether the answer moves correctly when the rate changes.",
+        "Decision check: Explain how implied returns and cash flow additivity changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 6
+}

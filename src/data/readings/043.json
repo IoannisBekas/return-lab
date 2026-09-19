@@ -1,0 +1,201 @@
+{
+  "number": 43,
+  "slug": "company-analysis-past-and-present",
+  "title": "Company Analysis: Past and Present",
+  "topic": "Equity Investments",
+  "overview": "Company analysis reconstructs historical revenue, margins, reinvestment, financing, and competitive performance.",
+  "example": "Turn a business or market assumption into a forecast, required return, and valuation implication.",
+  "modules": [
+    {
+      "id": "43.1",
+      "title": "Company Research Reports",
+      "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+      "steps": [
+        "Define the industry, value chain, market size, and competitive forces.",
+        "Decompose company results into volume, price, margin, turnover, and financing.",
+        "Forecast from operational drivers and test base, upside, and downside cases."
+      ],
+      "check": "Explain how company research reports changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain company research reports in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For company research reports, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Company Research Reports",
+          "definition": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For company research reports, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Define the industry, value chain, market size, and competitive forces. Step 2: Decompose company results into volume, price, margin, turnover, and financing. Step 3: Forecast from operational drivers and test base, upside, and downside cases.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For company research reports, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Company Research Reports?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Define the industry, value chain, market size, and competitive forces. → Decompose company results into volume, price, margin, turnover, and financing. → Forecast from operational drivers and test base, upside, and downside cases.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "Use this sequence: Define the industry, value chain, market size, and competitive forces.; Decompose company results into volume, price, margin, turnover, and financing.; Forecast from operational drivers and test base, upside, and downside cases.",
+        "Decision check: Explain how company research reports changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "43.2",
+      "title": "Revenue, Profitability, and Capital",
+      "explanation": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+      "steps": [
+        "Define the industry, value chain, market size, and competitive forces.",
+        "Decompose company results into volume, price, margin, turnover, and financing.",
+        "Forecast from operational drivers and test base, upside, and downside cases."
+      ],
+      "check": "Explain how revenue, profitability, and capital changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain revenue, profitability, and capital in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "Equity analysis connects industry structure and company economics with forecasts, required return, and value. A valuation is a conditional result: it is useful when the operating assumptions are explicit and internally consistent.",
+        "For revenue, profitability, and capital, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Revenue, Profitability, and Capital",
+          "definition": "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses."
+        },
+        {
+          "term": "Value driver",
+          "definition": "An operating or financial variable that materially affects estimated value."
+        },
+        {
+          "term": "Required return",
+          "definition": "The return investors demand for time and risk."
+        },
+        {
+          "term": "Competitive advantage",
+          "definition": "A condition that allows a company to sustain returns above competitive levels."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For revenue, profitability, and capital, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An analyst must decide whether a company's market price is consistent with its expected growth, margins, reinvestment, and risk.",
+        "analysis": "Step 1: Define the industry, value chain, market size, and competitive forces. Step 2: Decompose company results into volume, price, margin, turnover, and financing. Step 3: Forecast from operational drivers and test base, upside, and downside cases.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For revenue, profitability, and capital, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Extending recent growth without checking market size, competition, and reinvestment needs.",
+        "Using peer multiples without normalizing fundamentals and accounting differences.",
+        "Presenting one valuation result without sensitivity or a clear investment thesis."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Revenue, Profitability, and Capital?",
+          "choices": [
+            "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Define the industry, value chain, market size, and competitive forces. → Decompose company results into volume, price, margin, turnover, and financing. → Forecast from operational drivers and test base, upside, and downside cases."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Company analysis moves from industry structure and competitive position to revenue, margins, reinvestment, financing, and forecasts. A sound forecast is driver based, internally consistent, and explicit about competitive responses.",
+        "Use this sequence: Define the industry, value chain, market size, and competitive forces.; Decompose company results into volume, price, margin, turnover, and financing.; Forecast from operational drivers and test base, upside, and downside cases.",
+        "Decision check: Explain how revenue, profitability, and capital changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 6
+}

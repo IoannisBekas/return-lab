@@ -1,0 +1,296 @@
+{
+  "number": 30,
+  "slug": "analyzing-statements-of-cash-flows-i",
+  "title": "Analyzing Statements of Cash Flows I",
+  "topic": "Financial Statement Analysis",
+  "overview": "Cash-flow analysis classifies operating, investing, and financing activity and reconciles profit with cash generation.",
+  "example": "Follow one transaction through the income statement, balance sheet, cash-flow statement, and the resulting ratios.",
+  "modules": [
+    {
+      "id": "30.1",
+      "title": "Cash Flow Introduction and Direct Method CFO",
+      "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+      "steps": [
+        "Classify each cash movement by its economic purpose and reporting rules.",
+        "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+        "Calculate free cash flow and compare cash generation with earnings and financing needs."
+      ],
+      "check": "Explain how cash flow introduction and direct method cfo changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain cash flow introduction and direct method cfo in plain language and connect it to the reading's central problem.",
+        "Apply the indirect operating cash flow or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For cash flow introduction and direct method cfo, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Cash Flow Introduction and Direct Method CFO",
+          "definition": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Indirect operating cash flow",
+        "expression": "CFO = net income + noncash charges − increases in operating working capital",
+        "interpretation": "Adjust for noncash recognition and the cash tied up in operating balances.",
+        "example": "Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Classify each cash movement by its economic purpose and reporting rules. Step 2: Reconcile net income to operating cash flow through noncash and working-capital adjustments. Step 3: Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "result": "A complete response uses indirect operating cash flow, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Cash Flow Introduction and Direct Method CFO?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Classify each cash movement by its economic purpose and reporting rules. → Reconcile net income to operating cash flow through noncash and working-capital adjustments. → Calculate free cash flow and compare cash generation with earnings and financing needs.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the indirect operating cash flow?",
+          "choices": [
+            "Adjust for noncash recognition and the cash tied up in operating balances.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. Adjust for noncash recognition and the cash tied up in operating balances."
+        }
+      ],
+      "summary": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Use this sequence: Classify each cash movement by its economic purpose and reporting rules.; Reconcile net income to operating cash flow through noncash and working-capital adjustments.; Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "Decision check: Explain how cash flow introduction and direct method cfo changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "30.2",
+      "title": "Indirect Method CFO",
+      "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+      "steps": [
+        "Classify each cash movement by its economic purpose and reporting rules.",
+        "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+        "Calculate free cash flow and compare cash generation with earnings and financing needs."
+      ],
+      "check": "Explain how indirect method cfo changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain indirect method cfo in plain language and connect it to the reading's central problem.",
+        "Apply the indirect operating cash flow or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For indirect method cfo, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Indirect Method CFO",
+          "definition": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Indirect operating cash flow",
+        "expression": "CFO = net income + noncash charges − increases in operating working capital",
+        "interpretation": "Adjust for noncash recognition and the cash tied up in operating balances.",
+        "example": "Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Classify each cash movement by its economic purpose and reporting rules. Step 2: Reconcile net income to operating cash flow through noncash and working-capital adjustments. Step 3: Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "result": "A complete response uses indirect operating cash flow, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Indirect Method CFO?",
+          "choices": [
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions."
+          ],
+          "correct": 1,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Classify each cash movement by its economic purpose and reporting rules. → Reconcile net income to operating cash flow through noncash and working-capital adjustments. → Calculate free cash flow and compare cash generation with earnings and financing needs.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision"
+          ],
+          "correct": 0,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the indirect operating cash flow?",
+          "choices": [
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Adjust for noncash recognition and the cash tied up in operating balances."
+          ],
+          "correct": 3,
+          "explanation": "The interpretation connects the method with its economic meaning. Adjust for noncash recognition and the cash tied up in operating balances."
+        }
+      ],
+      "summary": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Use this sequence: Classify each cash movement by its economic purpose and reporting rules.; Reconcile net income to operating cash flow through noncash and working-capital adjustments.; Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "Decision check: Explain how indirect method cfo changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "30.3",
+      "title": "Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences",
+      "explanation": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+      "steps": [
+        "Classify each cash movement by its economic purpose and reporting rules.",
+        "Reconcile net income to operating cash flow through noncash and working-capital adjustments.",
+        "Calculate free cash flow and compare cash generation with earnings and financing needs."
+      ],
+      "check": "Explain how investing and financing cash flows and ifrs/u.s. gaap differences changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain investing and financing cash flows and ifrs/u.s. gaap differences in plain language and connect it to the reading's central problem.",
+        "Apply the indirect operating cash flow or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Statement analysis follows an economic event through recognition, measurement, presentation, disclosure, and cash flow. Comparability often requires adjustments because firms can represent similar economics with different estimates or classifications.",
+        "For investing and financing cash flows and ifrs/u.s. gaap differences, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences",
+          "definition": "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "term": "Recognition",
+          "definition": "The decision to record an item in the primary financial statements."
+        },
+        {
+          "term": "Measurement",
+          "definition": "The amount and basis used to report a recognized item."
+        },
+        {
+          "term": "Earnings quality",
+          "definition": "The degree to which reported earnings reflect sustainable performance and convert into cash."
+        }
+      ],
+      "formula": {
+        "label": "Indirect operating cash flow",
+        "expression": "CFO = net income + noncash charges − increases in operating working capital",
+        "interpretation": "Adjust for noncash recognition and the cash tied up in operating balances.",
+        "example": "Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "workedExample": {
+        "scenario": "Two firms report similar earnings, but their cash conversion, estimates, and balance-sheet classifications differ materially.",
+        "analysis": "Step 1: Classify each cash movement by its economic purpose and reporting rules. Step 2: Reconcile net income to operating cash flow through noncash and working-capital adjustments. Step 3: Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "result": "A complete response uses indirect operating cash flow, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Net income of 100, depreciation of 20, and a 15 increase in receivables produce CFO of 105, all else equal."
+      },
+      "mistakes": [
+        "Reading the primary statements without the related notes and accounting policies.",
+        "Comparing ratios whose numerators, denominators, or accounting bases are inconsistent.",
+        "Treating a noncash adjustment as irrelevant even when it changes future economics or risk."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Investing and Financing Cash Flows and IFRS/U.S. GAAP Differences?",
+          "choices": [
+            "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly."
+          ],
+          "correct": 0,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Classify each cash movement by its economic purpose and reporting rules. → Reconcile net income to operating cash flow through noncash and working-capital adjustments. → Calculate free cash flow and compare cash generation with earnings and financing needs."
+          ],
+          "correct": 3,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the indirect operating cash flow?",
+          "choices": [
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Adjust for noncash recognition and the cash tied up in operating balances.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion."
+          ],
+          "correct": 2,
+          "explanation": "The interpretation connects the method with its economic meaning. Adjust for noncash recognition and the cash tied up in operating balances."
+        }
+      ],
+      "summary": [
+        "Cash-flow analysis separates operating, investing, and financing activity. The direct method shows cash receipts and payments; the indirect method starts with profit and reverses noncash items and working-capital accruals.",
+        "Use this sequence: Classify each cash movement by its economic purpose and reporting rules.; Reconcile net income to operating cash flow through noncash and working-capital adjustments.; Calculate free cash flow and compare cash generation with earnings and financing needs.",
+        "Decision check: Explain how investing and financing cash flows and ifrs/u.s. gaap differences changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 9
+}

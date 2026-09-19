@@ -1,0 +1,201 @@
+{
+  "number": 25,
+  "slug": "capital-structure",
+  "title": "Capital Structure",
+  "topic": "Corporate Issuers",
+  "overview": "Capital structure examines how debt and equity choices affect risk, flexibility, and the cost of capital.",
+  "example": "Compare two financing or operating choices by their cash-flow effect, risk, flexibility, and stakeholder impact.",
+  "modules": [
+    {
+      "id": "25.1",
+      "title": "Weighted-Average Cost of Capital",
+      "explanation": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+      "steps": [
+        "Estimate component costs using market values and matching risk benchmarks.",
+        "Weight debt and equity consistently and apply tax effects correctly.",
+        "Test how leverage changes coverage, distress exposure, flexibility, and required returns."
+      ],
+      "check": "Explain how weighted-average cost of capital changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain weighted-average cost of capital in plain language and connect it to the reading's central problem.",
+        "Apply the weighted-average cost of capital or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "Corporate decisions should be evaluated through incremental cash flow, risk, flexibility, governance, and stakeholder incentives. Accounting profit may help describe a decision, but value depends on cash flow timing and the return required for risk.",
+        "For weighted-average cost of capital, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Weighted-Average Cost of Capital",
+          "definition": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk."
+        },
+        {
+          "term": "Incremental cash flow",
+          "definition": "The cash flow that occurs because a decision is taken."
+        },
+        {
+          "term": "Agency conflict",
+          "definition": "A situation in which a decision maker's incentives differ from those of a stakeholder."
+        },
+        {
+          "term": "Financial flexibility",
+          "definition": "The ability to fund operations and opportunities under changing conditions."
+        }
+      ],
+      "formula": {
+        "label": "Weighted-average cost of capital",
+        "expression": "WACC = wₑrₑ + w_d r_d(1 − T)",
+        "interpretation": "Use market-value weights and component costs consistent with the project's operating risk.",
+        "example": "With equal debt and equity weights, 10% equity cost, 6% debt cost, and a 25% tax rate, WACC is 7.25%."
+      },
+      "workedExample": {
+        "scenario": "A company is deciding whether to fund a new project with internal cash, debt, or new equity while preserving operating liquidity.",
+        "analysis": "Step 1: Estimate component costs using market values and matching risk benchmarks. Step 2: Weight debt and equity consistently and apply tax effects correctly. Step 3: Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+        "result": "A complete response uses weighted-average cost of capital, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. With equal debt and equity weights, 10% equity cost, 6% debt cost, and 25% tax, WACC is 7.25%."
+      },
+      "mistakes": [
+        "Including sunk costs or excluding opportunity costs from a decision.",
+        "Optimizing a single ratio while ignoring flexibility and downside risk.",
+        "Assuming governance policies work without examining incentives, information, and enforcement."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Weighted-Average Cost of Capital?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Estimate component costs using market values and matching risk benchmarks. → Weight debt and equity consistently and apply tax effects correctly. → Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the weighted-average cost of capital?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "Use market-value weights and component costs consistent with the project's operating risk.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. Use market-value weights and component costs consistent with the project's operating risk."
+        }
+      ],
+      "summary": [
+        "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "Use this sequence: Estimate component costs using market values and matching risk benchmarks.; Weight debt and equity consistently and apply tax effects correctly.; Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+        "Decision check: Explain how weighted-average cost of capital changes an analyst's conclusion, including one limitation."
+      ]
+    },
+    {
+      "id": "25.2",
+      "title": "Capital Structure Theories",
+      "explanation": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+      "steps": [
+        "Estimate component costs using market values and matching risk benchmarks.",
+        "Weight debt and equity consistently and apply tax effects correctly.",
+        "Test how leverage changes coverage, distress exposure, flexibility, and required returns."
+      ],
+      "check": "Explain how capital structure theories changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain capital structure theories in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "Corporate decisions should be evaluated through incremental cash flow, risk, flexibility, governance, and stakeholder incentives. Accounting profit may help describe a decision, but value depends on cash flow timing and the return required for risk.",
+        "For capital structure theories, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Capital Structure Theories",
+          "definition": "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk."
+        },
+        {
+          "term": "Incremental cash flow",
+          "definition": "The cash flow that occurs because a decision is taken."
+        },
+        {
+          "term": "Agency conflict",
+          "definition": "A situation in which a decision maker's incentives differ from those of a stakeholder."
+        },
+        {
+          "term": "Financial flexibility",
+          "definition": "The ability to fund operations and opportunities under changing conditions."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For capital structure theories, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "A company is deciding whether to fund a new project with internal cash, debt, or new equity while preserving operating liquidity.",
+        "analysis": "Step 1: Estimate component costs using market values and matching risk benchmarks. Step 2: Weight debt and equity consistently and apply tax effects correctly. Step 3: Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For capital structure theories, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Including sunk costs or excluding opportunity costs from a decision.",
+        "Optimizing a single ratio while ignoring flexibility and downside risk.",
+        "Assuming governance policies work without examining incentives, information, and enforcement."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Capital Structure Theories?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Estimate component costs using market values and matching risk benchmarks. → Weight debt and equity consistently and apply tax effects correctly. → Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "The cost of capital is the opportunity cost demanded by providers of debt and equity. Capital structure can change taxes, distress risk, agency costs, and flexibility, so the appropriate financing mix depends on both market conditions and business risk.",
+        "Use this sequence: Estimate component costs using market values and matching risk benchmarks.; Weight debt and equity consistently and apply tax effects correctly.; Test how leverage changes coverage, distress exposure, flexibility, and required returns.",
+        "Decision check: Explain how capital structure theories changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 6
+}

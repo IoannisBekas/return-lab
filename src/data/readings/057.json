@@ -1,0 +1,106 @@
+{
+  "number": 57,
+  "slug": "yield-based-bond-duration-measures-and-properties",
+  "title": "Yield-Based Bond Duration Measures and Properties",
+  "topic": "Fixed Income",
+  "overview": "Duration approximates price sensitivity to yield changes and depends on cash-flow timing and yield.",
+  "example": "Draw the promised cash-flow timeline, choose the relevant rates, and identify which risk changes the price.",
+  "modules": [
+    {
+      "id": "57.1",
+      "title": "Yield-Based Bond Duration Measures and Properties",
+      "explanation": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+      "steps": [
+        "Identify the relevant yield or curve shock and cash-flow timing.",
+        "Apply duration for the linear effect and convexity for curvature.",
+        "Check limits from embedded options, nonparallel shifts, and historical estimation."
+      ],
+      "check": "Explain how yield-based bond duration measures and properties changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain yield-based bond duration measures and properties in plain language and connect it to the reading's central problem.",
+        "Apply the duration price approximation or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "Fixed-income analysis begins with promised and contingent cash flows, then applies rates appropriate for timing and risk. Price sensitivity also depends on how the curve moves and whether the issuer or borrower can change the cash-flow schedule.",
+        "For yield-based bond duration measures and properties, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Yield-Based Bond Duration Measures and Properties",
+          "definition": "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements."
+        },
+        {
+          "term": "Yield",
+          "definition": "A rate that summarizes price and promised cash flows under stated assumptions."
+        },
+        {
+          "term": "Spread",
+          "definition": "Additional yield relative to a selected benchmark."
+        },
+        {
+          "term": "Duration",
+          "definition": "A measure of price sensitivity to a specified change in yield or the curve."
+        }
+      ],
+      "formula": {
+        "label": "Duration price approximation",
+        "expression": "ΔP/P ≈ −modified duration × Δy",
+        "interpretation": "The negative sign captures the inverse price-yield relationship.",
+        "example": "Modified duration of 5 and a 0.50% yield rise imply an approximate 2.5% price decline."
+      },
+      "workedExample": {
+        "scenario": "A portfolio manager compares two bonds with different maturities, credit quality, liquidity, and embedded options after market yields change.",
+        "analysis": "Step 1: Identify the relevant yield or curve shock and cash-flow timing. Step 2: Apply duration for the linear effect and convexity for curvature. Step 3: Check limits from embedded options, nonparallel shifts, and historical estimation.",
+        "result": "A complete response uses duration price approximation, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. Modified duration of 5 and a 0.50% yield rise imply an approximate 2.5% price decline."
+      },
+      "mistakes": [
+        "Discounting every cash flow with a rate that does not match its maturity or risk.",
+        "Comparing yields that use different conventions or embedded-option assumptions.",
+        "Using duration alone for large, nonparallel, or option-sensitive rate changes."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Yield-Based Bond Duration Measures and Properties?",
+          "choices": [
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result.",
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements."
+          ],
+          "correct": 3,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Calculate first → define the question afterward → assume the output is decision-ready",
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify the relevant yield or curve shock and cash-flow timing. → Apply duration for the linear effect and convexity for curvature. → Check limits from embedded options, nonparallel shifts, and historical estimation.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty"
+          ],
+          "correct": 2,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the duration price approximation?",
+          "choices": [
+            "A precise estimate removes the need to examine data quality, incentives, or model risk.",
+            "The negative sign captures the inverse price-yield relationship.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance."
+          ],
+          "correct": 1,
+          "explanation": "The interpretation connects the method with its economic meaning. The negative sign captures the inverse price-yield relationship."
+        }
+      ],
+      "summary": [
+        "Interest-rate risk depends on cash-flow timing and how the yield curve moves. Duration gives a first-order price estimate, convexity improves it for larger changes, and key-rate or empirical measures capture nonparallel movements.",
+        "Use this sequence: Identify the relevant yield or curve shock and cash-flow timing.; Apply duration for the linear effect and convexity for curvature.; Check limits from embedded options, nonparallel shifts, and historical estimation.",
+        "Decision check: Explain how yield-based bond duration measures and properties changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}

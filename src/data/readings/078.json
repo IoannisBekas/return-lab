@@ -1,0 +1,106 @@
+{
+  "number": 78,
+  "slug": "investments-in-private-capital-equity-and-debt",
+  "title": "Investments in Private Capital: Equity and Debt",
+  "topic": "Alternative Investments",
+  "overview": "Private capital finances companies outside public markets through staged equity ownership or negotiated debt.",
+  "example": "Map the structure, cash-flow timing, fees, leverage, liquidity, and source of return before comparing opportunities.",
+  "modules": [
+    {
+      "id": "78.1",
+      "title": "Private Capital",
+      "explanation": "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty.",
+      "steps": [
+        "Identify the security, ownership rights, seniority, and investment stage.",
+        "Build entry, operating, financing, and exit cash flows.",
+        "Separate operating value creation from leverage and valuation-multiple effects."
+      ],
+      "check": "Explain how private capital changes an analyst's conclusion, including one limitation.",
+      "objectives": [
+        "Explain private capital in plain language and connect it to the reading's central problem.",
+        "Apply the analytical decision rule or analytical decision rule with clearly labeled inputs.",
+        "Interpret the result, challenge its assumptions, and identify one condition that would change the conclusion."
+      ],
+      "lesson": [
+        "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty.",
+        "Alternative-investment analysis combines asset economics with legal structure, fees, leverage, valuation method, and liquidity. Reported returns require special care when cash flows are irregular or asset values are appraised rather than continuously traded.",
+        "For private capital, begin by asking what decision is being made and what evidence is available. Then follow the three-step method below. The final answer should state both the conclusion and the most important reason it may fail."
+      ],
+      "keyTerms": [
+        {
+          "term": "Private Capital",
+          "definition": "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty."
+        },
+        {
+          "term": "Illiquidity",
+          "definition": "The cost or difficulty of exiting an investment quickly at a representative value."
+        },
+        {
+          "term": "Carried interest",
+          "definition": "Performance compensation allocated to a manager under specified terms."
+        },
+        {
+          "term": "Appraisal smoothing",
+          "definition": "Understatement of short-term volatility when valuations adjust slowly."
+        }
+      ],
+      "formula": {
+        "label": "Analytical decision rule",
+        "expression": "evidence + assumptions → analysis → decision + limitation",
+        "interpretation": "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+        "example": "For private capital, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "workedExample": {
+        "scenario": "An investor compares a public security with an alternative fund whose capital calls, fees, leverage, appraisals, and exit timing are uncertain.",
+        "analysis": "Step 1: Identify the security, ownership rights, seniority, and investment stage. Step 2: Build entry, operating, financing, and exit cash flows. Step 3: Separate operating value creation from leverage and valuation-multiple effects.",
+        "result": "A complete response uses analytical decision rule, gives a direction or value supported by the inputs, and explains how the decision changes when the key assumption changes. For private capital, an analyst applies the stated process, compares the result with an alternative, and records the most important limitation."
+      },
+      "mistakes": [
+        "Comparing reported returns without aligning fees, leverage, timing, and valuation methods.",
+        "Treating illiquidity as only a volatility issue rather than a funding and control constraint.",
+        "Assuming historical exits and valuations will remain available in stressed markets."
+      ],
+      "questions": [
+        {
+          "question": "Which statement best explains the purpose of Private Capital?",
+          "choices": [
+            "The strongest conclusion is always the result with the largest numerical value, regardless of risk or assumptions.",
+            "Historical observations determine future outcomes exactly when the calculation is performed correctly.",
+            "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty.",
+            "The topic is used only to memorize terminology; inputs and decisions do not affect the result."
+          ],
+          "correct": 2,
+          "explanation": "The correct statement identifies the analytical relationship and its purpose. Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty."
+        },
+        {
+          "question": "Which workflow produces the most defensible analysis?",
+          "choices": [
+            "Copy a benchmark result → ignore differences in inputs → report false precision",
+            "Identify the security, ownership rights, seniority, and investment stage. → Build entry, operating, financing, and exit cash flows. → Separate operating value creation from leverage and valuation-multiple effects.",
+            "Choose the preferred conclusion → search only for confirming evidence → omit uncertainty",
+            "Calculate first → define the question afterward → assume the output is decision-ready"
+          ],
+          "correct": 1,
+          "explanation": "A sound workflow defines the concept and inputs before calculation or judgment, then interprets the result with its limitation."
+        },
+        {
+          "question": "How should an analyst interpret the analytical decision rule?",
+          "choices": [
+            "A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision.",
+            "Once a result is calculated, changing the assumptions cannot affect the conclusion.",
+            "The decision rule is valid only when it produces the outcome the analyst expected in advance.",
+            "A precise estimate removes the need to examine data quality, incentives, or model risk."
+          ],
+          "correct": 0,
+          "explanation": "The interpretation connects the method with its economic meaning. A defensible conclusion makes the evidence and assumptions visible, follows a repeatable process, and states what could change the decision."
+        }
+      ],
+      "summary": [
+        "Private equity and private debt finance companies through negotiated, illiquid claims. Value creation can come from growth, margin improvement, governance, deleveraging, or multiple change, while staged funding and covenants manage uncertainty.",
+        "Use this sequence: Identify the security, ownership rights, seniority, and investment stage.; Build entry, operating, financing, and exit cash flows.; Separate operating value creation from leverage and valuation-multiple effects.",
+        "Decision check: Explain how private capital changes an analyst's conclusion, including one limitation."
+      ]
+    }
+  ],
+  "chapterQuestionCount": 3
+}
