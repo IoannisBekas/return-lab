@@ -12,10 +12,10 @@ Return Lab should feel like an editorial finance workbook made interactive: calm
 
 ## Learning structure
 
-The curriculum page makes all 93 readings visible and searchable. A reading page follows the same sequence every time: core idea, module explanation, reasoning method, application, self-check, and knowledge check. This consistency lets the learner focus on the finance concept instead of relearning the interface.
+The curriculum page makes all 93 chapters visible and searchable. A chapter follows the same sequence every time: core idea, objectives, complete lesson, formula or decision rule, reasoning method, key terms, worked application, common mistakes, graded practice with explanations, summary, and chapter check. This consistency lets the learner focus on the finance concept instead of relearning the interface.
 
 Progress is local to the browser and requires no account. All lesson routes use URL hashes so the production build works on static GitHub-compatible hosting without server-side rewrite rules.
 
 ## Content boundary
 
-The application stores original explanatory copy and a factual hierarchy of topics, readings, and module titles. It does not store the reference PDFs, exported Markdown chapters, copied examples, or source question banks.
+The application is a self-contained course. It stores original teaching notes, worked applications, questions, solutions, and explanations across the full supplied curriculum.

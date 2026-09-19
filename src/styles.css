@@ -786,9 +786,109 @@ p {
 
 .module-explanation {
   max-width: 820px;
-  margin-bottom: 42px;
+  margin-bottom: 24px;
   font-size: clamp(20px, 2.1vw, 28px);
   line-height: 1.47;
+}
+
+.learning-objectives {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 40px;
+  margin-bottom: 54px;
+  padding: 25px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.learning-objectives .section-code,
+.lesson-notes > .section-code,
+.key-terms > .section-code,
+.worked-example > .section-code,
+.mistakes-card > .section-code,
+.practice-heading .section-code {
+  color: var(--red);
+}
+
+.learning-objectives ul,
+.mistakes-card ul,
+.module-summary {
+  margin: 0;
+  padding-left: 21px;
+}
+
+.learning-objectives li,
+.mistakes-card li,
+.module-summary li {
+  margin-bottom: 13px;
+  padding-left: 6px;
+  line-height: 1.48;
+}
+
+.lesson-notes {
+  margin-bottom: 42px;
+}
+
+.lesson-notes > .section-code {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.lesson-notes > p:not(.module-explanation) {
+  max-width: 790px;
+  color: #4e5659;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.formula-card {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  margin: 48px 0;
+  border: 1px solid var(--ink);
+  background: var(--white);
+}
+
+.formula-card > div {
+  padding: clamp(24px, 4vw, 42px);
+}
+
+.formula-card > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  border-right: 1px solid var(--ink);
+  background: var(--blue);
+}
+
+.formula-card span,
+.formula-card small {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.formula-card strong {
+  font-family: var(--mono);
+  font-size: clamp(20px, 2.5vw, 31px);
+  font-weight: 400;
+  line-height: 1.28;
+}
+
+.formula-card p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.formula-card small {
+  display: block;
+  padding-top: 23px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  line-height: 1.55;
+  text-transform: none;
 }
 
 .reasoning-grid {
@@ -826,6 +926,198 @@ p {
   line-height: 1.5;
 }
 
+.key-terms,
+.worked-example,
+.mistakes-card,
+.module-practice {
+  margin-top: 54px;
+}
+
+.key-terms > .section-code,
+.worked-example > .section-code,
+.mistakes-card > .section-code {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.key-terms > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--ink);
+  border-left: 1px solid var(--ink);
+}
+
+.key-terms article {
+  min-height: 150px;
+  padding: 22px;
+  border-right: 1px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+}
+
+.key-terms h3 {
+  margin-bottom: 12px;
+  font-size: 19px;
+  font-weight: 620;
+}
+
+.key-terms p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.worked-example {
+  padding: clamp(28px, 5vw, 55px);
+  background: var(--ink);
+  color: white;
+}
+
+.worked-example h3 {
+  max-width: 740px;
+  margin-bottom: 38px;
+  font-size: clamp(27px, 3.4vw, 44px);
+  font-weight: 480;
+  line-height: 1.15;
+}
+
+.worked-example > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
+  padding-top: 28px;
+  border-top: 1px solid #4b5052;
+}
+
+.worked-example p {
+  margin: 0;
+  color: #c9cecc;
+  line-height: 1.6;
+}
+
+.worked-example p strong {
+  display: block;
+  margin-bottom: 9px;
+  color: white;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.mistakes-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 40px;
+  padding: 27px;
+  border: 1px solid var(--red);
+  background: rgba(214, 65, 88, 0.06);
+}
+
+.practice-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.practice-heading strong {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.practice-question {
+  padding: 30px 0;
+  border-top: 1px solid var(--ink);
+}
+
+.practice-question h3 {
+  display: grid;
+  grid-template-columns: 45px 1fr;
+  margin-bottom: 23px;
+  font-size: 21px;
+  font-weight: 560;
+  line-height: 1.35;
+}
+
+.practice-question h3 span {
+  color: var(--red);
+  font-family: var(--mono);
+}
+
+.practice-choices {
+  margin-left: 45px;
+  border-top: 1px solid var(--line);
+}
+
+.practice-choices label {
+  display: grid;
+  grid-template-columns: 28px 35px 1fr;
+  align-items: center;
+  min-height: 64px;
+  padding: 11px 13px;
+  border-bottom: 1px solid var(--line);
+  cursor: pointer;
+  line-height: 1.42;
+}
+
+.practice-choices label.selected {
+  background: var(--white);
+}
+
+.practice-choices input {
+  accent-color: var(--red);
+}
+
+.practice-choices label > span {
+  color: var(--red);
+  font-family: var(--mono);
+}
+
+.practice-question > button {
+  margin: 18px 0 0 45px;
+  padding: 11px 15px;
+  border: 1px solid var(--ink);
+  background: transparent;
+  cursor: pointer;
+}
+
+.practice-question > button:hover:not(:disabled) {
+  background: var(--ink);
+  color: white;
+}
+
+.practice-question > button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.answer-explanation {
+  margin: 17px 0 0 45px;
+  padding: 19px;
+  border-left: 4px solid var(--red);
+  background: rgba(214, 65, 88, 0.08);
+}
+
+.answer-explanation.correct {
+  border-color: #3f7d63;
+  background: rgba(63, 125, 99, 0.1);
+}
+
+.answer-explanation strong {
+  display: block;
+  margin-bottom: 6px;
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.answer-explanation p {
+  margin: 0;
+  line-height: 1.5;
+}
+
 .module-section details {
   margin-top: 17px;
   border: 1px solid var(--line);
@@ -844,6 +1136,10 @@ p {
   padding: 0 20px 20px;
   font-size: 17px;
   line-height: 1.5;
+}
+
+.module-section details .module-summary {
+  padding: 0 42px 18px;
 }
 
 .return-calculator > div:first-child .section-code,
@@ -1187,7 +1483,11 @@ footer small {
   .module-heading,
   .reasoning-grid,
   .calculator-grid,
-  .lesson-pagination {
+  .lesson-pagination,
+  .learning-objectives,
+  .formula-card,
+  .worked-example > div,
+  .mistakes-card {
     grid-template-columns: 1fr;
   }
 
@@ -1198,6 +1498,30 @@ footer small {
   .reasoning-grid article:first-child {
     border-right: 0;
     border-bottom: 1px solid var(--ink);
+  }
+
+  .learning-objectives,
+  .mistakes-card {
+    gap: 17px;
+  }
+
+  .formula-card > div:first-child {
+    border-right: 0;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .key-terms > div {
+    grid-template-columns: 1fr;
+  }
+
+  .practice-question h3 {
+    grid-template-columns: 32px 1fr;
+  }
+
+  .practice-choices,
+  .practice-question > button,
+  .answer-explanation {
+    margin-left: 0;
   }
 
   .calculator-inputs {

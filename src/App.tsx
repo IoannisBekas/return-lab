@@ -7,6 +7,24 @@ type ModuleLesson = {
   explanation: string;
   steps: string[];
   check: string;
+  objectives: string[];
+  lesson: string[];
+  keyTerms: { term: string; definition: string }[];
+  formula: {
+    label: string;
+    expression: string;
+    interpretation: string;
+    example: string;
+  };
+  workedExample: { scenario: string; analysis: string; result: string };
+  mistakes: string[];
+  questions: {
+    question: string;
+    choices: string[];
+    correct: number;
+    explanation: string;
+  }[];
+  summary: string[];
 };
 
 type Reading = {
@@ -16,6 +34,7 @@ type Reading = {
   topic: string;
   overview: string;
   example: string;
+  chapterQuestionCount: number;
   modules: ModuleLesson[];
 };
 
@@ -160,8 +179,8 @@ function HomePage({ complete }: { complete: number[] }) {
               <dd>taught modules</dd>
             </div>
             <div>
-              <dt>10</dt>
-              <dd>connected topics</dd>
+              <dt>456</dt>
+              <dd>practice questions</dd>
             </div>
           </dl>
         </div>
@@ -273,7 +292,7 @@ function HomePage({ complete }: { complete: number[] }) {
               <div className="reading-body">
                 <p>{reading.topic}</p>
                 <h3>{reading.title}</h3>
-                <span>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"}</span>
+                <span>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"} · {reading.chapterQuestionCount} questions</span>
                 <ul>
                   {reading.modules.slice(0, 3).map((module) => (
                     <li key={module.id}>{module.title}</li>
@@ -323,7 +342,7 @@ function LessonPage({
         <div>
           <p>{reading.topic}</p>
           <h1>{reading.title}</h1>
-          <strong>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"}</strong>
+          <strong>{reading.modules.length} taught {reading.modules.length === 1 ? "module" : "modules"} · {reading.chapterQuestionCount} practice questions</strong>
         </div>
         <button
           className={complete ? "complete-action is-complete" : "complete-action"}
@@ -366,7 +385,31 @@ function LessonPage({
                   <h2>{module.title}</h2>
                 </div>
               </div>
-              <p className="module-explanation">{module.explanation}</p>
+              <section className="learning-objectives">
+                <span className="section-code">LEARNING OBJECTIVES</span>
+                <ul>
+                  {module.objectives.map((objective) => <li key={objective}>{objective}</li>)}
+                </ul>
+              </section>
+
+              <div className="lesson-notes">
+                <span className="section-code">COMPLETE LESSON</span>
+                {module.lesson.map((paragraph, paragraphIndex) => (
+                  <p className={paragraphIndex === 0 ? "module-explanation" : ""} key={paragraph}>{paragraph}</p>
+                ))}
+              </div>
+
+              <section className="formula-card">
+                <div>
+                  <span>{module.formula.label}</span>
+                  <strong>{module.formula.expression}</strong>
+                </div>
+                <div>
+                  <p>{module.formula.interpretation}</p>
+                  <small>{module.formula.example}</small>
+                </div>
+              </section>
+
               <div className="reasoning-grid">
                 <article>
                   <span>HOW TO REASON</span>
@@ -379,9 +422,42 @@ function LessonPage({
                   <p>{reading.example}</p>
                 </article>
               </div>
+
+              <section className="key-terms">
+                <span className="section-code">KEY TERMS</span>
+                <div>
+                  {module.keyTerms.map((term) => (
+                    <article key={term.term}>
+                      <h3>{term.term}</h3>
+                      <p>{term.definition}</p>
+                    </article>
+                  ))}
+                </div>
+              </section>
+
+              <section className="worked-example">
+                <span className="section-code">WORKED APPLICATION</span>
+                <h3>{module.workedExample.scenario}</h3>
+                <div>
+                  <p><strong>Analysis</strong>{module.workedExample.analysis}</p>
+                  <p><strong>Conclusion</strong>{module.workedExample.result}</p>
+                </div>
+              </section>
+
+              <section className="mistakes-card">
+                <span className="section-code">COMMON MISTAKES</span>
+                <ul>
+                  {module.mistakes.map((mistake) => <li key={mistake}>{mistake}</li>)}
+                </ul>
+              </section>
+
+              <ModulePractice module={module} />
+
               <details>
-                <summary>Self-check</summary>
-                <p>{module.check}</p>
+                <summary>Module summary and self-check</summary>
+                <ul className="module-summary">
+                  {module.summary.map((point) => <li key={point}>{point}</li>)}
+                </ul>
               </details>
             </section>
           ))}
@@ -406,6 +482,60 @@ function LessonPage({
         </div>
       </div>
     </main>
+  );
+}
+
+function ModulePractice({ module }: { module: ModuleLesson }) {
+  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [checked, setChecked] = useState<number[]>([]);
+
+  return (
+    <section className="module-practice">
+      <div className="practice-heading">
+        <span className="section-code">ORIGINAL PRACTICE SET</span>
+        <strong>{module.questions.length} questions</strong>
+      </div>
+      {module.questions.map((question, questionIndex) => {
+        const selected = answers[questionIndex];
+        const isChecked = checked.includes(questionIndex);
+        const isCorrect = selected === question.correct;
+        return (
+          <article className="practice-question" key={question.question}>
+            <h3><span>{questionIndex + 1}</span>{question.question}</h3>
+            <div className="practice-choices">
+              {question.choices.map((choice, choiceIndex) => (
+                <label className={selected === choiceIndex ? "selected" : ""} key={choice}>
+                  <input
+                    checked={selected === choiceIndex}
+                    name={`${module.id}-question-${questionIndex}`}
+                    onChange={() => {
+                      setAnswers((current) => ({ ...current, [questionIndex]: choiceIndex }));
+                      setChecked((current) => current.filter((item) => item !== questionIndex));
+                    }}
+                    type="radio"
+                  />
+                  <span>{String.fromCharCode(65 + choiceIndex)}</span>
+                  {choice}
+                </label>
+              ))}
+            </div>
+            <button
+              disabled={selected === undefined}
+              onClick={() => setChecked((current) => [...new Set([...current, questionIndex])])}
+              type="button"
+            >
+              Check answer
+            </button>
+            {isChecked ? (
+              <div className={isCorrect ? "answer-explanation correct" : "answer-explanation"} role="status">
+                <strong>{isCorrect ? "Correct" : `Answer: ${String.fromCharCode(65 + question.correct)}`}</strong>
+                <p>{question.explanation}</p>
+              </div>
+            ) : null}
+          </article>
+        );
+      })}
+    </section>
   );
 }
 
@@ -502,10 +632,10 @@ function Footer() {
         <span>RETURN LAB</span>
       </a>
       <p>
-        An independent learning application with original explanations based
-        on the curriculum structure supplied by the project owner.
+        A complete independent finance course with structured lessons, worked
+        applications, practice sets, answer explanations, and progress tracking.
       </p>
-      <small>Source books and copied question banks are not stored in this repository.</small>
+      <small>93 chapters · 152 modules · 456 original practice questions</small>
     </footer>
   );
 }

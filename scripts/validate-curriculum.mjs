@@ -15,8 +15,28 @@ const emptyTeaching = curriculum.flatMap((reading) =>
       !module.title ||
       !module.explanation ||
       module.steps?.length < 3 ||
-      !module.check,
+      !module.check ||
+      module.objectives?.length < 3 ||
+      module.lesson?.length < 3 ||
+      module.keyTerms?.length < 4 ||
+      !module.formula?.expression ||
+      !module.workedExample?.result ||
+      module.mistakes?.length < 3 ||
+      module.questions?.length < 3 ||
+      module.questions.some(
+        (question) =>
+          question.choices?.length < 4 ||
+          question.correct < 0 ||
+          question.correct >= question.choices.length ||
+          !question.explanation,
+      ) ||
+      module.summary?.length < 3,
   ),
+);
+const questionCount = curriculum.reduce(
+  (total, reading) =>
+    total + reading.modules.reduce((sum, module) => sum + module.questions.length, 0),
+  0,
 );
 
 if (
@@ -24,7 +44,8 @@ if (
   missing.length ||
   duplicate.length ||
   emptyModules.length ||
-  emptyTeaching.length
+  emptyTeaching.length ||
+  questionCount !== 456
 ) {
   console.error({
     readings: curriculum.length,
@@ -32,10 +53,11 @@ if (
     duplicate,
     emptyModules: emptyModules.map((reading) => reading.number),
     emptyTeaching: emptyTeaching.length,
+    questionCount,
   });
   process.exit(1);
 }
 
 console.log(
-  `Validated ${curriculum.length} readings and ${curriculum.reduce((sum, reading) => sum + reading.modules.length, 0)} taught modules.`,
+  `Validated ${curriculum.length} chapters, ${curriculum.reduce((sum, reading) => sum + reading.modules.length, 0)} complete modules, and ${questionCount} original practice questions.`,
 );

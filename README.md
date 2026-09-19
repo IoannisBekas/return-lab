@@ -1,14 +1,15 @@
 # Return Lab
 
-Return Lab is a standalone finance learning application built with React, TypeScript, and Vite. It turns the supplied Level I curriculum outline into an original, navigable learning path with 93 readings and 152 taught modules.
+Return Lab is a standalone finance course built with React, TypeScript, and Vite. It teaches the supplied Level I curriculum through 93 chapters, 152 complete modules, and 456 original practice questions with explained answers.
 
 Each reading includes:
 
-- a concise explanation of the core idea;
-- concept-specific instruction for every module in the outline;
-- a repeatable reasoning process;
-- an applied practice prompt and self-check;
-- a reading-level knowledge check; and
+- explicit learning objectives and complete teaching notes;
+- concept-specific formulas or analytical decision rules;
+- key-term definitions and a repeatable reasoning process;
+- worked applications and common mistakes;
+- three original graded questions with explained answers per module;
+- chapter review and knowledge checks; and
 - progress tracking stored in the learner's browser.
 
 Reading 1 also includes an interactive time-weighted return calculator. The home page supports topic filtering and full-text search across reading and module titles.
@@ -32,7 +33,7 @@ Validate curriculum completeness with:
 npm run validate:curriculum
 ```
 
-The validation command confirms that readings 1–93 are present and that every module has a title, explanation, three-step reasoning method, and self-check.
+The validation command confirms that chapters 1–93 are present and that every module has objectives, full lesson notes, key terms, a formula or decision rule, a worked application, common mistakes, a summary, and three valid practice questions with answer explanations.
 
 ## Project structure
 
@@ -44,9 +45,9 @@ public/assets/               Fonts and generated brand/learning media
 scripts/validate-curriculum.mjs
 ```
 
-## Content policy
+## Course authorship
 
-The source PDFs and Markdown exports are reference material supplied by the project owner. They are not committed to this repository. Return Lab contains an original educational treatment of the curriculum structure; it does not include copied source chapters, end-of-chapter question banks, or answer keys.
+The supplied reference material defines the curriculum coverage. Return Lab provides a self-contained course through original teaching notes, examples, questions, solutions, and explanations written for this application.
 
 ## Hosting
 
