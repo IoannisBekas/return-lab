@@ -772,6 +772,29 @@ p {
   text-transform: uppercase;
 }
 
+.deep-lesson-error {
+  margin: 50px 0;
+  padding: 20px;
+  border: 1px solid var(--red);
+  background: rgba(214, 65, 88, 0.08);
+  line-height: 1.55;
+}
+
+.deep-lesson-error strong,
+.deep-lesson-error p {
+  display: block;
+  margin: 0 0 12px;
+}
+
+.deep-lesson-error button {
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 1px solid var(--ink);
+  background: var(--white);
+  color: var(--ink);
+  cursor: pointer;
+}
+
 .overview-card {
   padding: clamp(30px, 5vw, 68px);
   background: var(--ink);

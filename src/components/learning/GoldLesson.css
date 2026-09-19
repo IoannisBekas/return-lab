@@ -130,6 +130,68 @@
   padding: 16px 19px;
 }
 
+.gold-learning-map {
+  margin: 0 0 clamp(70px, 10vw, 120px);
+}
+
+.gold-learning-map .gold-section-heading {
+  margin-top: 0;
+}
+
+.gold-learning-map-track {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 1px;
+  padding: 1px;
+  background: var(--ink);
+}
+
+.gold-learning-map-track article {
+  position: relative;
+  min-height: 230px;
+  padding: 22px;
+  background: var(--white);
+}
+
+.gold-learning-map-track article > span,
+.gold-learning-map-track article > small,
+.gold-section-kicker {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gold-learning-map-track article > span {
+  display: block;
+  color: var(--red);
+  font-size: 22px;
+}
+
+.gold-learning-map-track article > small {
+  display: block;
+  margin-top: 22px;
+  color: var(--muted);
+}
+
+.gold-learning-map-track h3 {
+  margin: 8px 0 14px;
+  font-size: 21px;
+  font-weight: 560;
+  line-height: 1.2;
+}
+
+.gold-learning-map-track p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.gold-section-kicker {
+  margin: 0 0 10px !important;
+  color: var(--red) !important;
+}
+
 .gold-explanations {
   border-top: 1px solid var(--ink);
 }
@@ -140,6 +202,7 @@
   gap: 25px;
   padding: clamp(34px, 6vw, 65px) 0;
   border-bottom: 1px solid var(--ink);
+  scroll-margin-top: 100px;
 }
 
 .gold-explanations > article > span {
@@ -603,6 +666,16 @@
   line-height: 1.5;
 }
 
+@media (max-width: 1100px) {
+  .gold-calculation-steps > li {
+    grid-template-columns: 1fr;
+  }
+
+  .gold-calculation-steps > li > p {
+    grid-column: 1;
+  }
+}
+
 @media (max-width: 760px) {
   .gold-intro,
   .gold-objectives,
@@ -620,14 +693,6 @@
   .gold-explanations > article {
     grid-template-columns: 50px minmax(0, 1fr);
     gap: 12px;
-  }
-
-  .gold-calculation-steps > li {
-    grid-template-columns: 1fr;
-  }
-
-  .gold-calculation-steps > li > p {
-    grid-column: 1;
   }
 
   .gold-formula-card > .math-text--display {

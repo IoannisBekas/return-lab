@@ -1,32 +1,11 @@
-import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
+import { Component, lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import curriculumData from "./data/manifest.json";
 
 const GoldLesson = lazy(() => import("./components/learning/GoldLesson"));
 
-type ModuleLesson = {
+type ModuleSummary = {
   id: string;
   title: string;
-  explanation: string;
-  steps: string[];
-  check: string;
-  objectives: string[];
-  lesson: string[];
-  keyTerms: { term: string; definition: string }[];
-  formula: {
-    label: string;
-    expression: string;
-    interpretation: string;
-    example: string;
-  };
-  workedExample: { scenario: string; analysis: string; result: string };
-  mistakes: string[];
-  questions: {
-    question: string;
-    choices: string[];
-    correct: number;
-    explanation: string;
-  }[];
-  summary: string[];
 };
 
 type Reading = {
@@ -35,23 +14,47 @@ type Reading = {
   title: string;
   topic: string;
   overview: string;
-  example: string;
   chapterQuestionCount: number;
-  modules: ModuleLesson[];
+  modules: ModuleSummary[];
 };
 
-type ReadingSummary = Omit<Reading, "modules"> & {
-  modules: Pick<ModuleLesson, "id" | "title">[];
-};
-
-const curriculum = curriculumData as ReadingSummary[];
-const readingLoaders = import.meta.glob<{ default: Reading }>("./data/readings/*.json");
+const curriculum = curriculumData as Reading[];
 const topicOrder = [...new Set(curriculum.map((reading) => reading.topic))];
-const goldReadingIds = new Set([1, 28, 57, 83, 91]);
 const topicIcons = [0, 1, 2, 3, 4, 5, 6, 7, 0, 2];
 const progressKey = "return-lab-progress-v2";
 const asset = (path: string) =>
   `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+
+function readCompletedReadings() {
+  try {
+    const stored: unknown = JSON.parse(localStorage.getItem(progressKey) || "[]");
+    if (!Array.isArray(stored)) return [];
+    return [...new Set(stored.filter(
+      (value): value is number => Number.isInteger(value) && value >= 1 && value <= curriculum.length,
+    ))].sort((a, b) => a - b);
+  } catch {
+    return [];
+  }
+}
+
+class LessonErrorBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
+  state = { failed: false };
+
+  static getDerivedStateFromError() {
+    return { failed: true };
+  }
+
+  render() {
+    if (!this.state.failed) return this.props.children;
+    return (
+      <section className="deep-lesson-error" role="alert">
+        <strong>The lesson file could not be loaded.</strong>
+        <p>Your progress is safe. Check the connection and reload this reading.</p>
+        <button type="button" onClick={() => window.location.reload()}>Retry lesson</button>
+      </section>
+    );
+  }
+}
 
 function readRoute() {
   const match = window.location.hash.match(/^#\/reading\/(\d+)/);
@@ -82,26 +85,14 @@ function openReading(number: number) {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-async function loadReading(number: number) {
-  const path = `./data/readings/${String(number).padStart(3, "0")}.json`;
-  const loader = readingLoaders[path];
-  if (!loader) throw new Error(`Reading ${number} is not available.`);
-  return (await loader()).default;
-}
-
 function App() {
   const [readingNumber, setReadingNumber] = useState<number | null>(() =>
     readRoute(),
   );
-  const [reading, setReading] = useState<Reading | null>(null);
-  const [loadError, setLoadError] = useState("");
-  const [complete, setComplete] = useState<number[]>(() => {
-    try {
-      return JSON.parse(localStorage.getItem(progressKey) || "[]");
-    } catch {
-      return [];
-    }
-  });
+  const reading = readingNumber === null
+    ? null
+    : curriculum.find((candidate) => candidate.number === readingNumber) || null;
+  const [complete, setComplete] = useState<number[]>(readCompletedReadings);
 
   useEffect(() => {
     const updateRoute = () => {
@@ -114,38 +105,12 @@ function App() {
   }, []);
 
   useEffect(() => {
-    localStorage.setItem(progressKey, JSON.stringify(complete));
-  }, [complete]);
-
-  useEffect(() => {
-    let active = true;
-    setLoadError("");
-    if (readingNumber === null) {
-      setReading(null);
-      return () => {
-        active = false;
-      };
+    try {
+      localStorage.setItem(progressKey, JSON.stringify(complete));
+    } catch {
+      // Progress remains available for the current session when storage is blocked.
     }
-
-    setReading(null);
-    void loadReading(readingNumber)
-      .then((loadedReading) => {
-        if (active) setReading(loadedReading);
-      })
-      .catch((error: unknown) => {
-        if (active) {
-          setLoadError(error instanceof Error ? error.message : "The reading could not be loaded.");
-        }
-      });
-
-    return () => {
-      active = false;
-    };
-  }, [readingNumber]);
-
-  useEffect(() => {
-    if (reading) scrollToRouteSection();
-  }, [reading]);
+  }, [complete]);
 
   const toggleComplete = (number: number) => {
     setComplete((current) =>
@@ -166,7 +131,7 @@ function App() {
           reading={reading}
         />
       ) : readingNumber !== null ? (
-        <ReadingLoadState error={loadError} />
+        <ReadingLoadState error={`Reading ${readingNumber} is not available.`} />
       ) : (
         <HomePage complete={complete} />
       )}
@@ -235,9 +200,9 @@ function HomePage({ complete }: { complete: number[] }) {
           <p className="eyebrow">FINANCE / EXPLAINED AS A SYSTEM</p>
           <h1>Learn every measure behind the number.</h1>
           <p className="hero-intro">
-            Ninety-three readings. One connected learning path. Each lesson
-            turns the supplied curriculum outline into original explanations,
-            a reasoning process, an applied example, and a knowledge check.
+            Ninety-three readings. One connected learning path. Every mapped
+            module is taught with original explanation, precise notation where it applies,
+            a worked application, misconception checks, and feedback-rich practice.
           </p>
           <div className="hero-actions">
             <button
@@ -316,7 +281,7 @@ function HomePage({ complete }: { complete: number[] }) {
         <div className="curriculum-title">
           <div>
             <span className="section-code">FULL LEARNING PATH</span>
-            <h2>Every reading has a lesson.</h2>
+            <h2>Every reading has a deep lesson.</h2>
           </div>
           <p>
             Search titles and module names, or focus the list by topic. The
@@ -358,9 +323,7 @@ function HomePage({ complete }: { complete: number[] }) {
                 <p>{reading.topic}</p>
                 <h3>{reading.title}</h3>
                 <span>
-                  {goldReadingIds.has(reading.number)
-                    ? "Source-verified deep lesson · 3 application checks"
-                    : `${reading.modules.length} taught ${reading.modules.length === 1 ? "module" : "modules"} · ${reading.chapterQuestionCount} questions`}
+                  Source-verified deep lesson · objective-linked practice
                 </span>
                 <ul>
                   {reading.modules.slice(0, 3).map((module) => (
@@ -395,7 +358,7 @@ function LessonPage({
 }) {
   const previous = curriculum[reading.number - 2];
   const next = curriculum[reading.number];
-  const hasGoldLesson = goldReadingIds.has(reading.number);
+  const hasCustomGoldLayout = [1, 57, 83].includes(reading.number);
 
   useEffect(() => {
     document.title = `${String(reading.number).padStart(2, "0")} ${reading.title} | Return Lab`;
@@ -412,7 +375,7 @@ function LessonPage({
         <div>
           <p>{reading.topic}</p>
           <h1>{reading.title}</h1>
-          <strong>{hasGoldLesson ? "Source-verified deep lesson · objective-based practice" : `${reading.modules.length} taught ${reading.modules.length === 1 ? "module" : "modules"} · ${reading.chapterQuestionCount} practice questions`}</strong>
+          <strong>Source-verified deep lesson · objective-based practice</strong>
         </div>
         <button
           className={complete ? "complete-action is-complete" : "complete-action"}
@@ -428,14 +391,11 @@ function LessonPage({
           <span className="section-code">IN THIS READING</span>
           <ol>
             <li><a href={`#/reading/${reading.number}/section/overview`}>Core idea</a></li>
-            {hasGoldLesson ? (
-              <>
-                <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Source-verified deep lesson</a></li>
-                <li><a href={`#/reading/${reading.number}/section/deep-assessment`}>Application check</a></li>
-              </>
-            ) : reading.modules.map((module) => (
-                <li key={module.id}><a href={`#/reading/${reading.number}/section/module-${module.id}`}>{module.id} {module.title}</a></li>
-              ))}
+            <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Source-verified deep lesson</a></li>
+            {!hasCustomGoldLayout ? reading.modules.map((module) => (
+              <li key={module.id}><a href={`#/reading/${reading.number}/section/deep-module-${module.id}`}>{module.id} {module.title}</a></li>
+            )) : null}
+            <li><a href={`#/reading/${reading.number}/section/deep-assessment`}>Application check</a></li>
             {reading.number === 1 ? <li><a href={`#/reading/${reading.number}/section/return-lab`}>Interactive return lab</a></li> : null}
             <li><a href={`#/reading/${reading.number}/section/knowledge-check`}>Knowledge check</a></li>
           </ol>
@@ -446,100 +406,18 @@ function LessonPage({
             <span className="section-code">CORE IDEA</span>
             <h2>{reading.overview}</h2>
             <div>
-              <p><strong>Why it matters</strong></p>
-              <p>{reading.example}</p>
+              <p><strong>Coverage</strong></p>
+              <p>
+                {reading.modules.map((module) => module.title).join("; ")}. The lesson connects each mapped module to explanation, assumptions, a worked application, and objective-linked practice.
+              </p>
             </div>
           </section>
 
-          {hasGoldLesson ? (
+          <LessonErrorBoundary key={reading.number}>
             <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the source-verified lesson…</p>}>
               <GoldLesson readingId={reading.number} />
             </Suspense>
-          ) : reading.modules.map((module, index) => (
-            <section className="module-section" id={`module-${module.id}`} key={module.id}>
-              <div className="module-heading">
-                <span>{module.id}</span>
-                <div>
-                  <p>MODULE {index + 1} OF {reading.modules.length}</p>
-                  <h2>{module.title}</h2>
-                </div>
-              </div>
-              <section className="learning-objectives">
-                <span className="section-code">LEARNING OBJECTIVES</span>
-                <ul>
-                  {module.objectives.map((objective) => <li key={objective}>{objective}</li>)}
-                </ul>
-              </section>
-
-              <div className="lesson-notes">
-                <span className="section-code">COMPLETE LESSON</span>
-                {module.lesson.map((paragraph, paragraphIndex) => (
-                  <p className={paragraphIndex === 0 ? "module-explanation" : ""} key={paragraph}>{paragraph}</p>
-                ))}
-              </div>
-
-              <section className="formula-card">
-                <div>
-                  <span>{module.formula.label}</span>
-                  <strong>{module.formula.expression}</strong>
-                </div>
-                <div>
-                  <p>{module.formula.interpretation}</p>
-                  <small>{module.formula.example}</small>
-                </div>
-              </section>
-
-              <div className="reasoning-grid">
-                <article>
-                  <span>HOW TO REASON</span>
-                  <ol>
-                    {module.steps.map((step) => <li key={step}>{step}</li>)}
-                  </ol>
-                </article>
-                <article className="practice-card">
-                  <span>PRACTICE PROMPT</span>
-                  <p>{reading.example}</p>
-                </article>
-              </div>
-
-              <section className="key-terms">
-                <span className="section-code">KEY TERMS</span>
-                <div>
-                  {module.keyTerms.map((term) => (
-                    <article key={term.term}>
-                      <h3>{term.term}</h3>
-                      <p>{term.definition}</p>
-                    </article>
-                  ))}
-                </div>
-              </section>
-
-              <section className="worked-example">
-                <span className="section-code">WORKED APPLICATION</span>
-                <h3>{module.workedExample.scenario}</h3>
-                <div>
-                  <p><strong>Analysis</strong>{module.workedExample.analysis}</p>
-                  <p><strong>Conclusion</strong>{module.workedExample.result}</p>
-                </div>
-              </section>
-
-              <section className="mistakes-card">
-                <span className="section-code">COMMON MISTAKES</span>
-                <ul>
-                  {module.mistakes.map((mistake) => <li key={mistake}>{mistake}</li>)}
-                </ul>
-              </section>
-
-              <ModulePractice module={module} />
-
-              <details>
-                <summary>Module summary and self-check</summary>
-                <ul className="module-summary">
-                  {module.summary.map((point) => <li key={point}>{point}</li>)}
-                </ul>
-              </details>
-            </section>
-          ))}
+          </LessonErrorBoundary>
 
           {reading.number === 1 ? <ReturnCalculator /> : null}
           <KnowledgeCheck reading={reading} />
@@ -561,60 +439,6 @@ function LessonPage({
         </div>
       </div>
     </main>
-  );
-}
-
-function ModulePractice({ module }: { module: ModuleLesson }) {
-  const [answers, setAnswers] = useState<Record<number, number>>({});
-  const [checked, setChecked] = useState<number[]>([]);
-
-  return (
-    <section className="module-practice">
-      <div className="practice-heading">
-        <span className="section-code">ORIGINAL PRACTICE SET</span>
-        <strong>{module.questions.length} questions</strong>
-      </div>
-      {module.questions.map((question, questionIndex) => {
-        const selected = answers[questionIndex];
-        const isChecked = checked.includes(questionIndex);
-        const isCorrect = selected === question.correct;
-        return (
-          <article className="practice-question" key={question.question}>
-            <h3><span>{questionIndex + 1}</span>{question.question}</h3>
-            <div className="practice-choices">
-              {question.choices.map((choice, choiceIndex) => (
-                <label className={selected === choiceIndex ? "selected" : ""} key={choice}>
-                  <input
-                    checked={selected === choiceIndex}
-                    name={`${module.id}-question-${questionIndex}`}
-                    onChange={() => {
-                      setAnswers((current) => ({ ...current, [questionIndex]: choiceIndex }));
-                      setChecked((current) => current.filter((item) => item !== questionIndex));
-                    }}
-                    type="radio"
-                  />
-                  <span>{String.fromCharCode(65 + choiceIndex)}</span>
-                  {choice}
-                </label>
-              ))}
-            </div>
-            <button
-              disabled={selected === undefined}
-              onClick={() => setChecked((current) => [...new Set([...current, questionIndex])])}
-              type="button"
-            >
-              Check answer
-            </button>
-            {isChecked ? (
-              <div className={isCorrect ? "answer-explanation correct" : "answer-explanation"} role="status">
-                <strong>{isCorrect ? "Correct" : `Answer: ${String.fromCharCode(65 + question.correct)}`}</strong>
-                <p>{question.explanation}</p>
-              </div>
-            ) : null}
-          </article>
-        );
-      })}
-    </section>
   );
 }
 
@@ -678,8 +502,23 @@ function ReturnCalculator() {
 }
 
 function KnowledgeCheck({ reading }: { reading: Reading }) {
-  const [response, setResponse] = useState("");
+  const storageKey = `return-lab-retrieval-v1-${reading.number}`;
+  const [response, setResponse] = useState(() => {
+    try {
+      return localStorage.getItem(storageKey) || "";
+    } catch {
+      return "";
+    }
+  });
   const [revealed, setRevealed] = useState(false);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(storageKey, response);
+    } catch {
+      // The exercise still works when browser storage is unavailable.
+    }
+  }, [response, storageKey]);
 
   return (
     <section className="knowledge-check" id="knowledge-check">

@@ -243,3 +243,114 @@ export function EthicsDecisionFlow({ scenario = "An analyst receives a valuable 
     </figure>
   );
 }
+
+export function SupplyDemandExplorer() {
+  const [demandShift, setDemandShift] = useState(0);
+  const [supplyShift, setSupplyShift] = useState(0);
+  const id = useId();
+  const demandPrice = (quantity: number) => 120 + demandShift - quantity;
+  const supplyPrice = (quantity: number) => 20 + supplyShift + quantity;
+  const equilibriumQuantity = Math.max(0, Math.min(100, (100 + demandShift - supplyShift) / 2));
+  const equilibriumPrice = demandPrice(equilibriumQuantity);
+  const priceChange = equilibriumPrice - 70;
+  const quantityChange = equilibriumQuantity - 50;
+  const direction = (label: string, change: number) => `${label} ${change > 0 ? "higher" : change < 0 ? "lower" : "unchanged"}`;
+  const changeSummary = `${direction("Price", priceChange)} · ${direction("quantity", quantityChange)}`;
+  const x = (quantity: number) => quantity / 100 * WIDTH;
+  const y = (price: number) => HEIGHT - price / 140 * HEIGHT;
+  const demandPath = `M${x(0)},${y(demandPrice(0))} L${x(100)},${y(demandPrice(100))}`;
+  const supplyPath = `M${x(0)},${y(supplyPrice(0))} L${x(100)},${y(supplyPrice(100))}`;
+  return (
+    <figure className="finance-visual">
+      <figcaption><h3>Trace a shock through price and quantity</h3><p>Shift demand or supply, then separate the curve movement from the movement along the other curve.</p></figcaption>
+      <div className="fv-controls">
+        <label htmlFor={`${id}-demand`}>Demand shift: <strong>{demandShift > 0 ? "+" : ""}{demandShift}</strong></label>
+        <input id={`${id}-demand`} type="range" min="-20" max="20" step="5" value={demandShift} onChange={(event) => setDemandShift(Number(event.target.value))} />
+        <label htmlFor={`${id}-supply`}>Supply cost shift: <strong>{supplyShift > 0 ? "+" : ""}{supplyShift}</strong></label>
+        <input id={`${id}-supply`} type="range" min="-20" max="20" step="5" value={supplyShift} onChange={(event) => setSupplyShift(Number(event.target.value))} />
+        <button type="button" onClick={() => { setDemandShift(0); setSupplyShift(0); }}>Reset market</button>
+      </div>
+      <ul className="fv-legend"><li><span className="fv-swatch fv-solid" />Demand</li><li><span className="fv-swatch fv-dashed" />Supply</li><li>● Equilibrium</li></ul>
+      <Plot title="Supply and demand equilibrium" description={`Illustrative linear curves. Equilibrium quantity is ${number(equilibriumQuantity)} and price is ${number(equilibriumPrice)} after a demand shift of ${demandShift} and a supply cost shift of ${supplyShift}.`} yLabel="Price" yTicks={["140", "70", "0"]} xLabel="Quantity" xTicks={["0", "50", "100"]}>
+        <path className="fv-line fv-primary" d={demandPath} />
+        <path className="fv-line fv-comparison" d={supplyPath} />
+        <circle className="fv-selected" cx={x(equilibriumQuantity)} cy={y(equilibriumPrice)} r="6" />
+      </Plot>
+      <dl className="fv-results"><div><dt>Equilibrium price</dt><dd>{number(equilibriumPrice)}</dd></div><div><dt>Equilibrium quantity</dt><dd>{number(equilibriumQuantity)}</dd></div><div><dt>From baseline</dt><dd>{changeSummary}</dd></div></dl>
+      <p className="fv-note">The curves are deliberately linear and dimensionless. Use them to reason about direction; do not treat the displayed values as an empirical forecast.</p>
+      <DataTable caption="Selected illustrative equilibrium" headers={["Input or result", "Value"]} rows={[["Demand intercept shift", demandShift], ["Supply cost shift", supplyShift], ["Equilibrium price", number(equilibriumPrice)], ["Equilibrium quantity", number(equilibriumQuantity)]]} />
+    </figure>
+  );
+}
+
+export function CashFlowBridge() {
+  const [netIncome, setNetIncome] = useState(100);
+  const [noncashCharges, setNoncashCharges] = useState(20);
+  const [workingCapitalIncrease, setWorkingCapitalIncrease] = useState(15);
+  const id = useId();
+  const operatingCashFlow = netIncome + noncashCharges - workingCapitalIncrease;
+  return (
+    <figure className="finance-visual">
+      <figcaption><h3>Bridge accrual earnings to operating cash flow</h3><p>Change the inputs and follow why noncash charges are added back while an increase in operating working capital absorbs cash.</p></figcaption>
+      <div className="fv-controls">
+        <label htmlFor={`${id}-income`}>Net income: <strong>{number(netIncome)}</strong></label>
+        <input id={`${id}-income`} type="range" min="20" max="180" step="5" value={netIncome} onChange={(event) => setNetIncome(Number(event.target.value))} />
+        <label htmlFor={`${id}-noncash`}>Noncash charges: <strong>{number(noncashCharges)}</strong></label>
+        <input id={`${id}-noncash`} type="range" min="0" max="60" step="5" value={noncashCharges} onChange={(event) => setNoncashCharges(Number(event.target.value))} />
+        <label htmlFor={`${id}-working-capital`}>Change in operating working capital (increase +): <strong>{number(workingCapitalIncrease)}</strong></label>
+        <input id={`${id}-working-capital`} type="range" min="-40" max="60" step="5" value={workingCapitalIncrease} onChange={(event) => setWorkingCapitalIncrease(Number(event.target.value))} />
+        <button type="button" onClick={() => { setNetIncome(100); setNoncashCharges(20); setWorkingCapitalIncrease(15); }}>Reset bridge</button>
+      </div>
+      <div className="fv-bridge" role="img" aria-label={`Net income ${number(netIncome)}, plus noncash charges ${number(noncashCharges)}, minus the working capital change ${number(workingCapitalIncrease)}, equals operating cash flow ${number(operatingCashFlow)}.`}>
+        <article><span>Start</span><strong>{number(netIncome)}</strong><small>Net income</small></article>
+        <b aria-hidden="true">+</b>
+        <article><span>Adjust</span><strong>{number(noncashCharges)}</strong><small>Noncash charges</small></article>
+        <b aria-hidden="true">−</b>
+        <article><span>Adjust</span><strong>{number(workingCapitalIncrease)}</strong><small>Change in working capital</small></article>
+        <b aria-hidden="true">=</b>
+        <article className="fv-bridge-result"><span>Result</span><strong>{number(operatingCashFlow)}</strong><small>Operating cash flow</small></article>
+      </div>
+      <p className="fv-note">Simplified indirect-method bridge: CFO = net income + noncash charges − change in operating working capital. A positive increase absorbs cash; a negative change is a decrease and releases cash. Classification differences, taxes, gains, losses, and other adjustments can matter in a full statement.</p>
+      <DataTable caption="Operating cash flow bridge" headers={["Line", "Effect"]} rows={[["Net income", number(netIncome)], ["Add noncash charges", number(noncashCharges)], ["Subtract working-capital change", number(-workingCapitalIncrease)], ["Operating cash flow", number(operatingCashFlow)]]} />
+    </figure>
+  );
+}
+
+export function OptionPayoffExplorer() {
+  const [spot, setSpot] = useState(100);
+  const [optionType, setOptionType] = useState<"call" | "put">("call");
+  const strike = 100;
+  const premium = 6;
+  const id = useId();
+  const profit = (underlying: number) => optionType === "call"
+    ? Math.max(underlying - strike, 0) - premium
+    : Math.max(strike - underlying, 0) - premium;
+  const samples = Array.from({ length: 101 }, (_, index) => ({ underlying: 50 + index, value: profit(50 + index) }));
+  const x = (underlying: number) => (underlying - 50) / 100 * WIDTH;
+  const y = (value: number) => HEIGHT - (value + 10) / 60 * HEIGHT;
+  const path = samples.map((sample, index) => `${index ? "L" : "M"}${x(sample.underlying)},${y(sample.value)}`).join(" ");
+  const selectedProfit = profit(spot);
+  const breakEven = optionType === "call" ? strike + premium : strike - premium;
+  return (
+    <figure className="finance-visual">
+      <figcaption><h3>Separate option payoff from profit</h3><p>Choose a long call or long put and move the expiration price. Premium shifts the profit line below the payoff line.</p></figcaption>
+      <div className="fv-controls">
+        <div className="fv-segmented" role="group" aria-label="Option type">
+          <button type="button" aria-pressed={optionType === "call"} onClick={() => setOptionType("call")}>Long call</button>
+          <button type="button" aria-pressed={optionType === "put"} onClick={() => setOptionType("put")}>Long put</button>
+        </div>
+        <label htmlFor={`${id}-spot`}>Expiration price: <strong>{number(spot)}</strong></label>
+        <input id={`${id}-spot`} type="range" min="50" max="150" step="1" value={spot} onChange={(event) => setSpot(Number(event.target.value))} />
+        <button type="button" onClick={() => { setSpot(100); setOptionType("call"); }}>Reset option</button>
+      </div>
+      <Plot title={`${optionType === "call" ? "Long call" : "Long put"} profit at expiration`} description={`Strike ${strike}, premium ${premium}. At an underlying price of ${spot}, profit is ${number(selectedProfit)} and break-even is ${breakEven}.`} yLabel="Profit" yTicks={["50", "20", "−10"]} xLabel="Underlying price at expiration" xTicks={["50", "100", "150"]}>
+        <line className="fv-zero-line" x1="0" x2={WIDTH} y1={y(0)} y2={y(0)} />
+        <path className="fv-line fv-primary" d={path} />
+        <circle className="fv-selected" cx={x(spot)} cy={y(selectedProfit)} r="6" />
+      </Plot>
+      <dl className="fv-results"><div><dt>Intrinsic value</dt><dd>{number(optionType === "call" ? Math.max(spot - strike, 0) : Math.max(strike - spot, 0))}</dd></div><div><dt>Profit</dt><dd>{number(selectedProfit)}</dd></div><div><dt>Break-even</dt><dd>{number(breakEven)}</dd></div></dl>
+      <p className="fv-note">European option held to expiration; strike = 100, premium = 6, one unit, no time value after expiration, fees and financing excluded. The buyer’s maximum loss is the premium.</p>
+      <DataTable caption="Selected option outcome" headers={["Measure", "Value"]} rows={[["Position", `Long ${optionType}`], ["Expiration price", number(spot)], ["Strike", strike], ["Premium paid", premium], ["Profit", number(selectedProfit)], ["Break-even", breakEven]]} />
+    </figure>
+  );
+}

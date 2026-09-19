@@ -12,11 +12,20 @@ import {
   type GoldFormula,
   type GoldLesson as GoldQuantLesson,
 } from "../../data/goldQuantLessons";
+import sourceManifestData from "../../data/sourceManifest.json";
+import type {
+  DeepAssessment,
+  DeepLesson,
+  DeepWorkedExample,
+} from "../../data/deepLessonTypes";
 import {
+  CashFlowBridge,
   CashFlowTimeline,
   DurationPriceCurve,
   EfficientFrontier,
   EthicsDecisionFlow,
+  OptionPayoffExplorer,
+  SupplyDemandExplorer,
 } from "./FinanceVisuals";
 import { MathText } from "./MathText";
 import "./GoldLesson.css";
@@ -27,6 +36,45 @@ const quantLessonsByReading = new Map(
 const decisionLessonsByReading = new Map<number, DecisionLessonDetail>(
   goldDecisionLessonDetails.map((lesson) => [lesson.readingId, lesson]),
 );
+
+type SourceManifestEntry = {
+  moduleId: string;
+  readingId: number;
+  readingTitle: string;
+  moduleTitle: string;
+  source: { book: number; pdfPage: number; heading: string };
+  objectives: { id: string; sourceStatement: string }[];
+  status: string;
+};
+
+type DeepDataModule = Record<string, DeepLesson[]>;
+
+const sourceManifest = sourceManifestData as SourceManifestEntry[];
+const deepDataLoaders = import.meta.glob<DeepDataModule>("../../data/deep/*.ts");
+
+function deepDataPath(readingId: number) {
+  if (readingId >= 2 && readingId <= 11) return "../../data/deep/quantitative.ts";
+  if (readingId >= 12 && readingId <= 19) return "../../data/deep/economics.ts";
+  if (readingId >= 20 && readingId <= 26) return "../../data/deep/corporate.ts";
+  if (readingId === 27 || (readingId >= 29 && readingId <= 38)) return "../../data/deep/financialStatements.ts";
+  if (readingId >= 39 && readingId <= 46) return "../../data/deep/equity.ts";
+  if (readingId >= 47 && readingId <= 65 && readingId !== 57) return "../../data/deep/fixedIncome.ts";
+  if (readingId >= 66 && readingId <= 75) return "../../data/deep/derivatives.ts";
+  if (readingId >= 76 && readingId <= 82) return "../../data/deep/alternatives.ts";
+  if ((readingId >= 84 && readingId <= 90) || readingId === 92 || readingId === 93) return "../../data/deep/portfolioEthics.ts";
+  return null;
+}
+
+async function loadUniversalLesson(readingId: number) {
+  const path = deepDataPath(readingId);
+  const loader = path ? deepDataLoaders[path] : undefined;
+  if (!loader) throw new Error(`Deep lesson data for reading ${readingId} is not available.`);
+  const module = await loader();
+  const lessons = Object.values(module).find((value) => Array.isArray(value));
+  const lesson = lessons?.find((candidate) => candidate.readingId === readingId);
+  if (!lesson) throw new Error(`Deep lesson ${readingId} is missing from ${path}.`);
+  return lesson;
+}
 
 type AssessmentView = {
   id: string;
@@ -60,6 +108,13 @@ function visualFor(readingId: number) {
   if (readingId === 57) return <DurationPriceCurve />;
   if (readingId === 83) return <EfficientFrontier />;
   if (readingId === 91) return <EthicsDecisionFlow />;
+  if ([2, 24, 46, 52, 69, 70, 77].includes(readingId)) return <CashFlowTimeline />;
+  if ([12, 13, 14, 15, 17, 18, 19].includes(readingId)) return <SupplyDemandExplorer />;
+  if ([27, 28, 30, 31, 36, 37, 38].includes(readingId)) return <CashFlowBridge />;
+  if ([56, 58, 59].includes(readingId)) return <DurationPriceCurve />;
+  if ([73, 74, 75].includes(readingId)) return <OptionPayoffExplorer />;
+  if ([84, 86, 88].includes(readingId)) return <EfficientFrontier />;
+  if ([89, 90, 92, 93].includes(readingId)) return <EthicsDecisionFlow />;
   return null;
 }
 
@@ -171,14 +226,30 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
   const storageKey = `return-lab-assessments-v1-${readingId}`;
   const [answers, setAnswers] = useState<Record<string, { selected: string; checked: boolean }>>(() => {
     try {
-      return JSON.parse(localStorage.getItem(storageKey) || "{}");
+      const stored: unknown = JSON.parse(localStorage.getItem(storageKey) || "{}");
+      if (!stored || typeof stored !== "object" || Array.isArray(stored)) return {};
+      const valid: Record<string, { selected: string; checked: boolean }> = {};
+      for (const item of items) {
+        const candidate = (stored as Record<string, unknown>)[item.id];
+        if (!candidate || typeof candidate !== "object" || Array.isArray(candidate)) continue;
+        const selected = (candidate as Record<string, unknown>).selected;
+        const checked = (candidate as Record<string, unknown>).checked;
+        if (typeof selected === "string" && typeof checked === "boolean" && item.options.some((option) => option.id === selected)) {
+          valid[item.id] = { selected, checked };
+        }
+      }
+      return valid;
     } catch {
       return {};
     }
   });
 
   useEffect(() => {
-    localStorage.setItem(storageKey, JSON.stringify(answers));
+    try {
+      localStorage.setItem(storageKey, JSON.stringify(answers));
+    } catch {
+      // Assessments remain usable if browser storage is unavailable.
+    }
   }, [answers, storageKey]);
 
   const score = items.filter((item) => answers[item.id]?.checked && answers[item.id]?.selected === item.correctOptionId).length;
@@ -195,11 +266,12 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
         const answer = answers[item.id];
         const selectedOption = item.options.find((option) => option.id === answer?.selected);
         const correct = answer?.selected === item.correctOptionId;
+        const promptId = `${item.id}-prompt`;
         return (
           <article className="gold-question" key={item.id}>
             <p className="gold-question-meta">OBJECTIVE {item.objective}{item.skill ? ` · ${item.skill.toUpperCase()}` : ""}</p>
-            <h3><span>{itemIndex + 1}</span>{item.prompt}</h3>
-            <div className="gold-options">
+            <h3 id={promptId}><span>{itemIndex + 1}</span>{item.prompt}</h3>
+            <div aria-labelledby={promptId} className="gold-options" role="radiogroup">
               {item.options.map((option) => (
                 <label className={answer?.selected === option.id ? "selected" : ""} key={option.id}>
                   <input
@@ -257,6 +329,18 @@ function decisionAssessments(items: AssessmentItem[]): AssessmentView[] {
   }));
 }
 
+function deepAssessments(items: DeepAssessment[]): AssessmentView[] {
+  return items.map((item) => ({
+    id: item.id,
+    objective: item.objectiveIds.join(", "),
+    skill: item.skill,
+    prompt: item.prompt,
+    options: item.options,
+    correctOptionId: item.correctOptionId,
+    solution: item.solution,
+  }));
+}
+
 function QuantLesson({ lesson }: { lesson: GoldQuantLesson }) {
   return (
     <section className="gold-lesson" id="deep-dive">
@@ -302,7 +386,7 @@ function DecisionLesson({ lesson }: { lesson: DecisionLessonDetail }) {
       {sourceMappedLesson ? <SourceRefs lesson={sourceMappedLesson} /> : null}
       <div className="gold-explanations">
         {lesson.explanatorySections.map((section) => (
-          <article key={section.moduleId}>
+          <article id={`deep-module-${section.moduleId}`} key={section.moduleId}>
             <span>{section.moduleId}</span>
             <div><h3>{section.title}</h3><p className="gold-lead">{section.lead}</p>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<ul>{section.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul>{section.miniExample ? <aside><strong>{section.miniExample.title}</strong><p>{section.miniExample.setup}</p><ol>{section.miniExample.walkthrough.map((step) => <li key={step}>{step}</li>)}</ol><p>{section.miniExample.takeaway}</p></aside> : null}</div>
           </article>
@@ -331,10 +415,178 @@ function CaseList({ title, items }: { title: string; items: string[] }) {
   return <section><strong>{title}</strong><ol>{items.map((item) => <li key={item}>{item}</li>)}</ol></section>;
 }
 
+function UniversalSourceScope({ entries }: { entries: SourceManifestEntry[] }) {
+  return (
+    <details className="gold-sources">
+      <summary>Source map and verification scope</summary>
+      <ul>
+        {entries.map((entry) => (
+          <li key={entry.moduleId}>
+            <strong>Book {entry.source.book}, PDF page {entry.source.pdfPage}</strong>
+            <span>{entry.moduleId} · {entry.source.heading} · outcomes {entry.objectives.map((objective) => objective.id).join(", ")}</span>
+          </li>
+        ))}
+      </ul>
+      <p>
+        These locations verify coverage, terminology, and notation. The explanations, examples, diagrams, and questions are original teaching material.
+      </p>
+    </details>
+  );
+}
+
+function LearningMap({ lesson }: { lesson: DeepLesson }) {
+  return (
+    <section className="gold-learning-map" aria-labelledby={`learning-map-${lesson.readingId}`}>
+      <div className="gold-section-heading">
+        <span className="section-code">CONCEPT MAP</span>
+        <h2 id={`learning-map-${lesson.readingId}`}>Follow the reading from idea to decision.</h2>
+      </div>
+      <div className="gold-learning-map-track">
+        {lesson.sections.map((section, index) => (
+          <article key={section.moduleId}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <small>{section.moduleId}</small>
+            <h3>{section.title}</h3>
+            <p>{section.lead}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function DeepWorkedExampleCard({ example }: { example: DeepWorkedExample }) {
+  return (
+    <article className="gold-worked-example">
+      <header><span>WORKED EXAMPLE · {example.moduleIds.join(" + ")}</span><h3>{example.title}</h3></header>
+      <div className="gold-example-brief">
+        <section><strong>Given</strong><ul>{example.given.map((item) => <li key={item}>{item}</li>)}</ul></section>
+        <section><strong>Find</strong><p>{example.find}</p></section>
+        <section><strong>Plan</strong><p>{example.plan}</p></section>
+      </div>
+      <ol className="gold-calculation-steps">
+        {example.steps.map((step, index) => (
+          <li key={`${example.id}-${index}`}>
+            <div><span>{index + 1}</span><strong>{step.label}</strong></div>
+            {step.latex ? <MathText display latex={step.latex} /> : null}
+            <p>{step.result}</p>
+          </li>
+        ))}
+      </ol>
+      <div className="gold-example-close">
+        <section><strong>Interpret</strong><p>{example.interpret}</p></section>
+        <section><strong>Sanity check</strong><p>{example.sanityCheck}</p></section>
+      </div>
+    </article>
+  );
+}
+
+function UniversalLesson({ readingId }: { readingId: number }) {
+  const [lesson, setLesson] = useState<DeepLesson | null>(null);
+  const [error, setError] = useState("");
+  const sourceEntries = useMemo(
+    () => sourceManifest.filter((entry) => entry.readingId === readingId),
+    [readingId],
+  );
+
+  useEffect(() => {
+    let active = true;
+    setLesson(null);
+    setError("");
+    void loadUniversalLesson(readingId)
+      .then((loadedLesson) => {
+        if (active) setLesson(loadedLesson);
+      })
+      .catch((reason: unknown) => {
+        if (active) setError(reason instanceof Error ? reason.message : "The deep lesson could not be loaded.");
+      });
+    return () => {
+      active = false;
+    };
+  }, [readingId]);
+
+  useEffect(() => {
+    if (!lesson) return;
+    const match = window.location.hash.match(/\/section\/([^/?#]+)/);
+    if (!match) return;
+    window.requestAnimationFrame(() => {
+      document.getElementById(decodeURIComponent(match[1]))?.scrollIntoView({ behavior: "smooth" });
+    });
+  }, [lesson]);
+
+  if (error) return (
+    <section className="deep-lesson-error" role="alert">
+      <strong>The lesson data could not be loaded.</strong>
+      <p>{error}</p>
+      <button type="button" onClick={() => window.location.reload()}>Retry lesson</button>
+    </section>
+  );
+  if (!lesson) return <p className="deep-lesson-loading" aria-live="polite">Loading the source-verified lesson…</p>;
+
+  const objectives = sourceEntries.flatMap((entry) => entry.objectives);
+
+  return (
+    <section className="gold-lesson" id="deep-dive">
+      <header className="gold-intro">
+        <div><span className="gold-badge">SOURCE-VERIFIED DEEP LESSON</span><h2>{lesson.title}</h2></div>
+        <p>Every mapped module includes original explanation, a worked application, misconception checks, and objective-linked assessment.</p>
+      </header>
+      <section className="gold-objectives">
+        <span className="section-code">YOU WILL BE ABLE TO</span>
+        <ol>{objectives.map((objective) => <li key={objective.id}><strong>{objective.id}</strong><span>{objective.sourceStatement}</span></li>)}</ol>
+      </section>
+      <UniversalSourceScope entries={sourceEntries} />
+      <LearningMap lesson={lesson} />
+      <div className="gold-explanations">
+        {lesson.sections.map((section, index) => (
+          <article id={`deep-module-${section.moduleId}`} key={section.moduleId}>
+            <span>{String(index + 1).padStart(2, "0")}</span>
+            <div>
+              <p className="gold-section-kicker">MODULE {section.moduleId}</p>
+              <h3>{section.title}</h3>
+              <p className="gold-lead">{section.lead}</p>
+              {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+              <ul>{section.keyPoints.map((point) => <li key={point}>{point}</li>)}</ul>
+              {section.miniExample ? (
+                <aside>
+                  <strong>{section.miniExample.title}</strong>
+                  <p>{section.miniExample.setup}</p>
+                  <ol>{section.miniExample.walkthrough.map((step) => <li key={step}>{step}</li>)}</ol>
+                  <p>{section.miniExample.takeaway}</p>
+                </aside>
+              ) : null}
+            </div>
+          </article>
+        ))}
+      </div>
+      {visualFor(lesson.readingId)}
+      {lesson.formulas.length ? (
+        <section className="gold-formulas">
+          <div className="gold-section-heading"><span className="section-code">FORMULA LAB</span><h2>Read the notation and its limits.</h2></div>
+          {lesson.formulas.map((formula) => <QuantFormulaCard formula={formula} key={formula.id} />)}
+        </section>
+      ) : null}
+      <section className="gold-examples">
+        <div className="gold-section-heading"><span className="section-code">GUIDED PRACTICE</span><h2>Make every step auditable.</h2></div>
+        {lesson.workedExamples.map((example) => <DeepWorkedExampleCard example={example} key={example.id} />)}
+      </section>
+      <Misconceptions items={lesson.misconceptions} />
+      <AssessmentSet items={deepAssessments(lesson.assessments)} readingId={lesson.readingId} />
+    </section>
+  );
+}
+
 export default function GoldLesson({ readingId }: { readingId: number }) {
   const quant = useMemo(() => quantLessonsByReading.get(readingId), [readingId]);
+  useEffect(() => {
+    const match = window.location.hash.match(/\/section\/([^/?#]+)/);
+    if (!match) return;
+    window.requestAnimationFrame(() => {
+      document.getElementById(decodeURIComponent(match[1]))?.scrollIntoView({ behavior: "smooth" });
+    });
+  }, [readingId]);
   if (quant) return <QuantLesson lesson={quant} />;
   const decision = decisionLessonsByReading.get(readingId);
   if (decision) return <DecisionLesson lesson={decision} />;
-  return null;
+  return <UniversalLesson readingId={readingId} />;
 }

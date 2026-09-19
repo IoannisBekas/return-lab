@@ -1,15 +1,16 @@
 {
   "name": "return-lab",
   "private": true,
-  "version": "0.4.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run content:split && npm run validate:content && tsc --noEmit && vite build",
+    "build": "npm run content:split && npm run validate:content && npm run validate:deep && tsc --noEmit && vite build",
     "content:split": "node scripts/split-curriculum.mjs",
     "preview": "vite preview",
     "validate:curriculum": "node scripts/validate-curriculum.mjs",
-    "validate:content": "node scripts/validate-content.mjs"
+    "validate:content": "node scripts/validate-content.mjs",
+    "validate:deep": "tsx scripts/validate-deep-content.ts"
   },
   "dependencies": {
     "@types/katex": "^0.16.8",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.2.0",
-    "@types/react-dom": "^19.2.0"
+    "@types/react-dom": "^19.2.0",
+    "tsx": "^4.23.13"
   }
 }

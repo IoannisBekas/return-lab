@@ -72,4 +72,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Validated 93 lazy readings, 152 source-mapped modules, 365 learning outcomes, and ${latexCount} KaTeX expressions.`);
+console.log(`Validated 93 split reading records, 152 source-mapped modules, 365 learning outcomes, and ${latexCount} KaTeX expressions.`);
