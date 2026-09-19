@@ -23,6 +23,8 @@ const curriculum = curriculumData as Reading[];
 const topicOrder = [...new Set(curriculum.map((reading) => reading.topic))];
 const topicIcons = [0, 1, 2, 3, 4, 5, 6, 7, 0, 2];
 const progressKey = "return-lab-progress-v2";
+const asset = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
 
 function readRoute() {
   const match = window.location.hash.match(/^#\/reading\/(\d+)/);
@@ -87,7 +89,7 @@ function Header({ completed }: { completed: number }) {
   return (
     <header className="site-header">
       <a className="brand" href="#/" aria-label="Return Lab home">
-        <img src="/assets/generated/brand-mark.png" alt="" />
+        <img src={asset("assets/generated/brand-mark.png")} alt="" />
         <span>RETURN LAB</span>
       </a>
       <nav aria-label="Primary navigation">
@@ -169,14 +171,14 @@ function HomePage({ complete }: { complete: number[] }) {
             loop
             muted
             playsInline
-            poster="/assets/world/return-machine-poster.png"
+            poster={asset("assets/world/return-machine-poster.png")}
           >
             <source
               media="(max-width: 720px)"
-              src="/assets/world/return-machine-mobile.mp4"
+              src={asset("assets/world/return-machine-mobile.mp4")}
               type="video/mp4"
             />
-            <source src="/assets/world/return-machine.mp4" type="video/mp4" />
+            <source src={asset("assets/world/return-machine.mp4")} type="video/mp4" />
           </video>
           <div className="orbit-label">A connected model of finance</div>
         </div>
@@ -216,7 +218,7 @@ function HomePage({ complete }: { complete: number[] }) {
                 }}
                 type="button"
               >
-                <img src={`/assets/icons/icon-${topicIcons[index]}.png`} alt="" />
+                <img src={asset(`assets/icons/icon-${topicIcons[index]}.png`)} alt="" />
                 <span>{String(readings.length).padStart(2, "0")} readings</span>
                 <h3>{name}</h3>
                 <small>{completed}/{readings.length} complete</small>
@@ -496,7 +498,7 @@ function Footer() {
   return (
     <footer>
       <a className="brand" href="#/">
-        <img src="/assets/generated/brand-mark.png" alt="" />
+        <img src={asset("assets/generated/brand-mark.png")} alt="" />
         <span>RETURN LAB</span>
       </a>
       <p>
