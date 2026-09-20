@@ -75,7 +75,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{FV}=\\mathrm{PV} \\, ( 1+\\mathrm{r} )^{\\mathrm{t}}} \\\\ {\\mathrm{PV}=\\mathrm{~ \\frac{F V} {( 1+\\mathrm{r} )^{\\mathrm{t}}} ~}=\\mathrm{FV} ( 1+\\mathrm{r} )^{-\\mathrm{t}}} \\\\ {\\mathrm{~where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{r=interest~rate~per~compounding~period}} \\\\ {\\mathrm{t=number~of~compounding~periods}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{FV}=\\mathrm{PV} \\, ( 1+\\mathrm{r} )^{\\mathrm{t}}} \\\\ {\\mathrm{PV}=\\mathrm{~ \\frac{FV} {( 1+\\mathrm{r} )^{\\mathrm{t}}} ~}=\\mathrm{FV} ( 1+\\mathrm{r} )^{-\\mathrm{t}}} \\\\ {\\mathrm{~where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{r=interest~rate~per~compounding~period}} \\\\ {\\mathrm{t=number~of~compounding~periods}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "8671866fa675e4bad04b.png"
         },
@@ -85,7 +85,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathbf{F V}} & {{}=\\mathbf{P V} \\times e^{\\mathfrak{a}}} \\\\ {\\mathbf{P V}} & {{}=\\mathbf{F V} \\times e^{-\\mathfrak{a}}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned}\nFV &= PV \\times e^{rN} \\\\\nPV &= FV \\times e^{-rN}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "71511a64b2da8a8adb89.png"
         },
@@ -111,7 +111,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{P V \\!=\\! \\frac{\\$1 , 000} {( 1+0.04 )^{15}} \\!=\\$555.26}",
+          "latex": "\\mathrm{PV \\!=\\! \\frac{\\$1 , 000} {( 1+0.04 )^{15}} \\!=\\$555.26}",
           "display": true,
           "sourceAsset": "7958ae634a36dc39b6ef.png"
         },
@@ -155,7 +155,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{P V \\!=\\! \\frac{\\$1 , 000} {( 1-0.005 )^{15}} \\!=\\$1 , \\! 078.09}",
+          "latex": "PV = \\frac{\\$1,000}{(1-0.005)^{15}} = \\$1,078.09",
           "display": true,
           "sourceAsset": "92218c0e04930c366544.png"
         },
@@ -223,7 +223,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{P V \\ o f \\ a \\ p e r p e t u i t y=\\frac{p a y m e n t} {r}}",
+          "latex": "\\text{PV of a perpetuity} = \\frac{\\text{Payment}}{r}",
           "display": true,
           "sourceAsset": "6ca32a11be38a3477947.png"
         },
@@ -283,7 +283,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{preferred~stock~value}=\\mathrm{~ \\frac{D_p ~} {k_p ~} ~}} \\\\ {\\mathrm{where:}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{D_{p}=\\mathrm{dividend~per~period}}} \\\\ {{{}}} \\\\ {{\\mathrm{k}_{p}=\\mathrm{t h e ~ m a r k e t^{\\prime} s ~ r e q u i r e d ~ r e t u r n ~ o n ~ t h e ~ p r e f e r r e d ~ s t o c k}}} \\end{array}\\end{gathered}",
+          "latex": "\\text{Preferred stock value} = \\frac{D_p}{k_p}",
           "display": true,
           "sourceAsset": "38a3a057492ae32667d7.png"
         },
@@ -325,7 +325,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle V_{0}=\\frac{D_{1}} {k_{e}-g_{c}}}} \\\\ {{\\displaystyle\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{0}=\\mathrm{value~of~a~share~this~period}}} \\\\ {{\\mathrm{}}} \\\\ {{D_{1}=\\mathrm{dividend~expected~to~be~paid~} n e x t ~ p e r i o d}} \\\\ {{\\mathrm{} {k_{e}=r e q u i r e d ~ r e t u r n ~ o n ~ c o m m o n ~ e q u i t y}}} \\end{array}\\\\[6pt]\\mathbf{g_{c}=c o n s t a n t \\; g r o w t h \\; r a t e \\; o f \\; d i v i d e n d s}\\end{gathered}",
+          "latex": "V_0 = \\frac{D_1}{k_e - g_c}",
           "display": true,
           "sourceAsset": "17ce9817dac87f8be1b7.png"
         },
@@ -397,7 +397,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{P_{2} \\!=\\! {\\frac{D_{3}} {k_{e}-g_{c}} \\!=\\! {\\frac{1.386} {0.11-0.05}} \\!=\\bar{5} 23.10}}",
+          "latex": "P_2 = \\frac{D_3}{k_e - g_c} = \\frac{1.386}{0.11 - 0.05} = \\$23.10",
           "display": true,
           "sourceAsset": "7d8bb9de4420c369a1eb.png"
         },
@@ -407,7 +407,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\mathtt{S 20.86}",
+          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\text{S 20.86}",
           "display": true,
           "sourceAsset": "91875a5063a9bb00343e.png"
         },
@@ -500,7 +500,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {{\\tt k}_{\\tt e}} & {{}=\\frac{{\\tt D}_{1}} {{\\tt V}_{0}}+{\\tt g}_{\\tt c}} \\\\ {{\\tt g}_{\\tt c}} & {{}={\\tt k}_{\\tt e}-\\frac{{\\tt D}_{1}} {{\\tt V}_{0}}} \\end{aligned}",
+          "latex": "\\begin{aligned}\nk_e &= \\frac{D_1}{V_0} + g_c \\\\\ng_c &= k_e - \\frac{D_1}{V_0}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "600409185df2dfa4c1c4.png"
         },
@@ -535,7 +535,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r r r r l} {t=1} & {t=2} & {t=3} & {t=4} \\\\ {100} & {100} & {100} & {100} & {\\mathrm{Cash~flow~series~\\#1}} \\\\ {\\frac{0} {8100}} & {\\frac{0} {8100}} & {\\frac{300} {8400}} & {\\frac{0} {8100}} & {\\mathrm{Cash~flow~series~\\#2}} \\end{array}",
+          "latex": "\\begin{array}{rrrrl}\nt=1 & t=2 & t=3 & t=4 & \\\\\n\\$100 & \\$100 & \\$100 & \\$100 & \\text{Cash flow series \\#1} \\\\\n\\$0 & \\$0 & \\$300 & \\$0 & \\text{Cash flow series \\#2}\n\\end{array}",
           "display": true,
           "sourceAsset": "b9272972d2de3d3478c2.png"
         },
@@ -795,7 +795,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{h} ( \\mathfrak{s} 60 )-\\mathfrak{s} 5=\\mathrm{h} ( \\mathfrak{s} 42 )}} \\\\ {{\\mathrm{h} ( \\mathfrak{s} 60 )-\\mathrm{h} ( \\mathfrak{s} 42 )=\\mathfrak{s} 5}} \\\\ {{\\mathrm{h}=\\mathfrak{s} 5 / \\left( \\mathfrak{s} 60-\\mathfrak{s} 42 \\right)=0.278}} \\end{array}",
+          "latex": "h(\\$60) - \\$5 = h(\\$42) \\implies h = 0.278",
           "display": true,
           "sourceAsset": "7c6407df19760e0d6394.png"
         },
@@ -846,7 +846,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{The~PV~of~a~perpetual~bond~or~a~preferred}=\\mathrm{frac{p a y m e n t} {r}} , \\mathrm{where} \\mathrm{~} r=\\mathrm{required~rate~of~return.}",
+      "latex": "\\mathrm{The~PV~of~a~perpetual~bond~or~a~preferred}=\\mathrm{frac{payment} {r}} , \\mathrm{where} \\mathrm{~} r=\\mathrm{required~rate~of~return.}",
       "display": true,
       "sourceAsset": "8c3e2ae3b1e5637ef3ac.png",
       "prose": "The PV of a perpetual bond or a preferred , where r = required rate of return."
@@ -1012,7 +1012,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{array} {l} {\\mathrm{~rate~of~return~as}^{\\mathrm{~k_e~}}=\\frac{\\mathrm{~D_1~}} {\\mathrm{~V_0~}}+\\mathrm{~g_c~}_{\\mathrm{c~}} \\mathrm{.~The~estimated~value~of~a~share~is~} a l l \\mathrm{~of~its~future}} \\\\ {\\mathrm{~dividends~discounted~at~the~required~rate~of~return,~which~simplifies~to}} \\\\ \\end{array}",
+              "latex": "\\begin{array} {l} {\\mathrm{~rate~of~return~as}^{\\mathrm{~k_e~}}=\\frac{\\mathrm{~D_1~}} {\\mathrm{~V_0~}}+\\mathrm{~g_c~}_{\\mathrm{c~}} \\mathrm{.~The~estimated~value~of~a~share~is~} all \\mathrm{~of~its~future}} \\\\ {\\mathrm{~dividends~discounted~at~the~required~rate~of~return,~which~simplifies~to}} \\\\ \\end{array}",
               "display": true,
               "sourceAsset": "2add70f5a615e9eb9feb.png",
               "prose": "rate of return as . The estimated value of a share is all of its future dividends discounted at the required rate of return, which simplifies to"

@@ -71,7 +71,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l} \\hline{\\mathrm{Original~cost}} & {\\$210} \\\\ {\\mathrm{Estimated~selling~price~}} & {\\$225} \\\\ {\\mathrm{Estimated~selling~costs~}} & {\\$22} \\\\ {\\mathrm{Net~realizable~value~}} & {\\$203} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Replacement~cost}} & {} & {{} \\$197} \\\\ {} & {{} \\mathrm{Normal~profit~margin}} & {} & {{} \\$12} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {ll} \\hline{\\mathrm{Original~cost}} & {\\$210} \\\\ {\\mathrm{Estimated~selling~price~}} & {\\$225} \\\\ {\\mathrm{Estimated~selling~costs~}} & {\\$22} \\\\ {\\mathrm{Net~realizable~value~}} & {\\$203} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Replacement~cost}} & {} & {{} \\$197} \\\\ {} & {{} \\mathrm{Normal~profit~margin}} & {} & {{} \\$12} \\\\ \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "8491832d9a1fa235d68e.png"
         },
@@ -489,7 +489,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{matrix} 20 \\mathrm{X6:365/3.71}=98 \\mathrm{~days} \\\\ 20 \\mathrm{X7:365/6.83}=53 \\mathrm{~days} \\end{matrix}",
+          "latex": "\\begin{aligned}\n\\text{20X6: } 365 / 3.71 &= 98\\text{ days} \\\\\n\\text{20X7: } 365 / 6.83 &= 53\\text{ days}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "28c9d5ee90ae3d239365.png"
         },
@@ -507,7 +507,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X6:} \\; {\\mathfrak S 76} , 000 \\; / \\; {\\mathfrak S 706} , 000=10.7 {\\mathcal\\%}} \\\\ {} & {{} 20 \\mathrm{X7:} \\; {\\mathfrak S 17} , 000 \\; / \\; {\\mathfrak S 221} , 000=7.7 {\\mathcal\\%}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X6:} \\; {\\$76} , 000 \\; / \\; {\\$706} , 000=10.7 {\\%}} \\\\ {} & {{} 20 \\mathrm{X7:} \\; {\\$17} , 000 \\; / \\; {\\$221} , 000=7.7 {\\%}} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "ed1f9ef9eae6166c9e4c.png"
         },
@@ -583,7 +583,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X} 6 \\! : \\mathfrak{S} 2 , 770 , \\! 000 \\ / \\mathfrak{S} 866 , \\! 000=3.20} \\\\ {} & {{} 20 \\mathrm{X} 7 \\! : \\mathfrak{S} 5 {,} 695 {,} 000 \\ / \\mathfrak{S} 1 , \\! 505 {,} 000=3.78} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X} 6 \\! : \\$2 , 770 , \\! 000 \\ / \\$866 , \\! 000=3.20} \\\\ {} & {{} 20 \\mathrm{X} 7 \\! : \\$5 {,} 695 {,} 000 \\ / \\$1 , \\! 505 {,} 000=3.78} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "d5ad9a044f086d8dc29e.png"
         },

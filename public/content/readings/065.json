@@ -111,7 +111,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r c l} {\\mathrm{N} \\! \\! \\! \\!} & {\\!=25 \\times12=300 ; 1 / \\mathrm{Y}=6 \\ / \\ 12=0.5 ; \\, \\mathrm{PV} \\! \\! \\!} & {=300 , 000 ; \\, \\mathrm{FV} \\! \\!=0 ; \\, \\mathrm{CPT} \\to\\mathrm{PMT}} \\\\ {} & {\\! \\! \\!} & {=31 , 932.90} \\\\ \\end{array}",
+          "latex": "N = 25 \\times 12 = 300; \\quad I/Y = 6/12 = 0.5; \\quad PV = \\$300,000",
           "display": true,
           "sourceAsset": "4a6e750edfdbd1322d75.png"
         },
@@ -206,7 +206,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{WAM}=210 \\! \\left( \\! \\frac{90} {409} \\! \\right)+100 \\! \\left( \\! \\frac{72} {409} \\! \\right)+280 \\! \\left( \\! \\frac{247} {409} \\! \\right)=233 \\mathrm{~months}",
+          "latex": "\\text{WAM} = 210\\left(\\frac{90}{409}\\right) + 100\\left(\\frac{72}{409}\\right) + 280\\left(\\frac{247}{409}\\right) = 233.2\\text{ months}",
           "display": true,
           "sourceAsset": "933cf0f9dc9d85ba782c.png"
         },
@@ -303,7 +303,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt d e b t \\; s e r v i c e \\; c o v e r a g e \\; r a t i o}={\\frac{\\tt n e t \\; o p e r a t i n g \\; i n c o m e} {\\tt d e b t \\; s e r v i c e}}",
+          "latex": "\\text{Debt service coverage ratio} = \\frac{\\text{Net operating income}}{\\text{Debt service}}",
           "display": true,
           "sourceAsset": "6ea02e936690c88a3738.png"
         },

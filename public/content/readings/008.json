@@ -120,7 +120,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The~standard~error~of~the~sample~statistic~is~the~adjusted~standard~deviation~of~the~stample.}} \\\\ {\\mathrm{s a m p l e . ~ W h e n ~ t h e ~ s a m p l e ~ s t a t i s t i c ~ i s ~ t h e ~ s a m p l e ~ m e a n , ~ \\overline{{x}} , ~ t h e ~ s t a n d a r d ~ e r r o r ~ o f ~ t h e ~ \\overline{{x}}_{1} ~}} \\\\ {\\mathrm{sample~statistic~for~sample~size~n,~is~calculated~as:}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{The~standard~error~of~the~sample~statistic~is~the~adjusted~standard~deviation~of~the~stample.}} \\\\ {\\mathrm{sample . ~ When ~ the ~ sample ~ statistic ~ is ~ the ~ sample ~ mean , ~ \\overline{{x}} , ~ the ~ standard ~ error ~ of ~ the ~ \\overline{{x}}_{1} ~}} \\\\ {\\mathrm{sample~statistic~for~sample~size~n,~is~calculated~as:}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "8ba8ada4e0bb245a1d36.png",
           "prose": "The standard error of the sample statistic is the adjusted standard deviation of the sample. When the sample statistic is the sample mean, , the standard error of the sample statistic for sample size n, is calculated as:"
@@ -137,7 +137,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathfrak{s}}_{x}={\\frac{\\mathfrak{s}} {\\sqrt{n}}}",
+          "latex": "s_{\\bar{x}} = \\frac{s}{\\sqrt{n}}",
           "display": true,
           "sourceAsset": "9a62ec5a44dc7db55225.png"
         },
@@ -147,7 +147,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathsf{P R o r t s s o r s ~ w o r e ~}} \\\\ {\\mathsf{D o n^{\\prime} t ~ b e ~ c o n f u s e d ~ b y ~ t h e ~ n o t a t i o n ~ h e r e . A ~ l o t ~ o f ~ t h e ~ l i t e r a t u r e ~ y o u ~ w i l l}} \\\\ {\\mathsf{e n c o u n t e r ~ i n ~ y o u r ~ s t u d i e s ~ s i m p l y ~ u s e s ~ t h e ~ t e r m ~}^{\\sigma} r \\mathrm{~for~the~standard~error~of~}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{the~test~statistic,regardless~of~whether~the~population~standard~deviation~or~}} \\\\ {\\mathrm{sample~standard~deviation~was~used~in~its~computation.}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\text{Don't be confused by the notation here. A lot of texts use } \\bar{d} \\text{ for the sample mean of differences.}",
           "display": true,
           "sourceAsset": "a38b270081b03ba09da7.png",
           "prose": "Study note Don’t be confused by the notation here. A lot of the literature you will encounter in your studies simply uses the term for the standard error of the test statistic, regardless of whether the population standard deviation or sample standard deviation was used in its computation."
@@ -277,7 +277,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt s_{\\pi} \\!=\\! \\frac{s} {\\sqrt{n}} \\!=\\! \\frac{0.25 \\% \\!} {\\sqrt{250}} \\!=0.0158 \\%}",
+          "latex": "s_{\\bar{x}} = \\frac{s}{\\sqrt{n}} = \\frac{0.25\\%}{\\sqrt{250}} = 0.0158\\%",
           "display": true,
           "sourceAsset": "810be4d8d44e1253925f.png"
         },
@@ -382,10 +382,12 @@
           "text": "Partial t-Table"
         },
         {
-          "type": "math",
-          "latex": "\\begin{array} {| l | c | c | c |} \\hline{\\mathrm{df}} & {\\mathrm{One-Tailed~Probabilities~(p)}} \\\\ \\hline{} & {\\mathrm{p=0.10}} & {\\mathrm{p=0.05}} & {\\mathrm{p=0.025}} \\\\ \\hline{110} & {1.289} & {1.659} & {1.982} \\\\ \\hline{120} & {1.289} & {1.658} & {1.980} \\\\ \\hline{200} & {1.286} & {1.653} & {1.972} \\\\ \\end{array}",
-          "display": true,
-          "sourceAsset": "2650a486ca28254a17dc.png"
+          "type": "image",
+          "src": "content/figures/2650a486ca28254a17dc.png",
+          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
+          "width": 256,
+          "height": 112,
+          "visualKind": "diagram-chart-or-table"
         },
         {
           "type": "paragraph",
@@ -405,7 +407,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, {\\mathrm{df}}=120 )\\\\[6pt]\\sum_{1}^{2.596} \\boxed{9596} \\uparrow\\natural^{2.596}\\\\[6pt]\\begin{array} {c | c c c} {{-1.980}} & {{}} & {{1.980}} \\\\ \\hline{{\\mid}} & {{}} & {{}} \\\\ \\hline{{\\mathrm{~ R e j e c t ~ H_{o} ~}}} & {{\\mathrm{~ F a i l ~ t o ~ R e j e c t ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ R e j e c t ~ H_{o} ~}}} \\\\ \\hline{{\\mathrm{~ R e j e c t ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ F a i l ~ t o ~ R e j e c t ~ H_{o} ~}}} & {{}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, {\\mathrm{df}}=120 )\\\\[6pt]\\sum_{1}^{2.596} \\boxed{9596} \\uparrow\\natural^{2.596}\\\\[6pt]\\begin{array} {c | ccc} {{-1.980}} & {{}} & {{1.980}} \\\\ \\hline{{\\mid}} & {{}} & {{}} \\\\ \\hline{{\\mathrm{~ Reject ~ H_{o} ~}}} & {{\\mathrm{~ Fail ~ to ~ Reject ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ Reject ~ H_{o} ~}}} \\\\ \\hline{{\\mathrm{~ Reject ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ Fail ~ to ~ Reject ~ H_{o} ~}}} & {{}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "ee7fb6439edbe3b04caf.png"
         },
@@ -441,7 +443,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{H}_{0} ; \\mu_{\\tt d} \\le\\mu_{\\tt d z} \\mathrm{~versus~H}_{\\tt a} ; \\mu_{\\tt d} > \\mu_{\\tt d z} , \\mathrm{~or~H}_{0} ; \\mu_{\\tt d} \\ge\\mu_{\\tt d z} \\mathrm{~versus~H}_{\\tt a} ; \\mu_{\\tt d} < \\mu_{\\tt d z}",
+          "latex": "H_0: \\mu_d \\le \\mu_{d0} \\quad \\text{versus} \\quad H_a: \\mu_d > \\mu_{d0}",
           "display": true,
           "sourceAsset": "3a8b1a38db57ea0e3c84.png"
         },
@@ -484,10 +486,12 @@
           "text": "Partial t-Table"
         },
         {
-          "type": "math",
-          "latex": "\\begin{array} {c | c | c | c | c} {\\mathrm{df}} & {\\mathrm{One-Tailed~Probabilities~(p)}} \\\\ \\hline{} & {\\mathrm{p=0.10}} & {\\mathrm{p=0.05}} & {\\mathrm{p=0.025}} \\\\ \\hline{38} & {1.304} & {1.686} & {2.024} \\\\ \\hline{39} & {1.304} & {1.685} & {2.023} \\\\ \\hline{40} & {1.303} & {1.684} & {2.021} \\\\ \\end{array}",
-          "display": true,
-          "sourceAsset": "448f0b574d80ae590d30.png"
+          "type": "image",
+          "src": "content/figures/448f0b574d80ae590d30.png",
+          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
+          "width": 248,
+          "height": 114,
+          "visualKind": "diagram-chart-or-table"
         },
         {
           "type": "paragraph",
@@ -507,7 +511,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, \\mathrm{df}=38 )\\\\[6pt]\\frac{2.596} {1} \\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\\\[6pt]\\begin{array} {c | c c | c} {{-2.024}} & {{}} & {{2.024}} \\\\ {{}} & {{}} & {{}} & {{}} \\\\ \\hline{{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{R e j e c t \\, H_{o}}}} & {{}} & {{\\mathrm{F a i l ~ t o ~ R e j e c t \\, H_{o}}}} & {{}} & {{\\mathrm{R e j e c t \\, H_{o}}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, \\mathrm{df}=38 )\\\\[6pt]\\frac{2.596} {1} \\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\\\[6pt]\\begin{array} {c | cc | c} {{-2.024}} & {{}} & {{2.024}} \\\\ {{}} & {{}} & {{}} & {{}} \\\\ \\hline{{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{Reject \\, H_{o}}}} & {{}} & {{\\mathrm{Fail ~ to ~ Reject \\, H_{o}}}} & {{}} & {{\\mathrm{Reject \\, H_{o}}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "11369a9311fe8de699f7.png"
         },
@@ -619,7 +623,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{S i m i l a r ~ t o ~ o t h e r ~ h y p o t h e s i s ~ t e s t s , t h e ~ c h i-s q u a r e ~ t e s t ~ c o m p a r e s ~ t h e ~ t e s t ~ s t a t i s t i c , ~ \\chi_{a-1}^2 ~ , ~ \\ldots, ~ \\underbrace{2}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\underbrace{3}_{n , ~ \\mu}=\\mu}} \\\\ {\\mathrm{a~critical~chi-square~value~at~a~given~level~of~significance~and~n-1~degrees~of~freedom.~}} \\\\ {\\mathrm{Because~the~chi-square~distribution~is~bounded~below~by~zero,~chi-square~values~cannot~\\mu=\\mu}} \\\\ {\\mathrm{be~negstive.~}} \\\\ \\end{array}",
+          "latex": "\\begin{gathered}\n\\text{The chi-square test statistic, } \\chi^2_{n-1}\\text{, is compared to a critical value at } n - 1 \\text{ degrees of freedom.} \\\\[4pt]\n\\text{Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative.}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "6806b7731d44425ea82c.png",
           "prose": "Similar to other hypothesis tests, the chi-square test compares the test statistic, , to a critical chi-square value at a given level of significance and n − 1 degrees of freedom. Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative."
@@ -697,7 +701,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\ \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{v e r s u s ~ H_{a}} \\mathrm{:} \\ \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
+          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\ \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{versus ~ H_{a}} \\mathrm{:} \\ \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
           "display": true,
           "sourceAsset": "8482ddbe95916d5a936c.png"
         },
@@ -717,7 +721,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {r l} {\\mathrm{F=} \\! \\displaystyle\\frac{s_{1}^{2}} {s_{2}^{2}}} \\\\ {\\mathrm{where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {{S_{1}^{2}=\\mathrm{variance~of~the~sample~of~} n_{1} \\mathrm{~observations~drawn~from~Population~1}}} \\\\ {{{}}} \\\\ {{S_{2}^{2}=\\mathrm{variance~of~the~sample~of~} n_{2} \\mathrm{~observations~drawn~from~Population~2}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {rl} {\\mathrm{F=} \\! \\displaystyle\\frac{s_{1}^{2}} {s_{2}^{2}}} \\\\ {\\mathrm{where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {{S_{1}^{2}=\\mathrm{variance~of~the~sample~of~} n_{1} \\mathrm{~observations~drawn~from~Population~1}}} \\\\ {{{}}} \\\\ {{S_{2}^{2}=\\mathrm{variance~of~the~sample~of~} n_{2} \\mathrm{~observations~drawn~from~Population~2}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "b69f45974c05327fba42.png"
         },
@@ -779,7 +783,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{v e r s u s ~ H_{a}} \\mathrm{:} \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
+          "latex": "\\mathrm{H}_{0} \\mathrm{:} \\sigma_{1}^{2}=\\sigma_{2}^{2} \\, \\mathrm{versus ~ H_{a}} \\mathrm{:} \\sigma_{1}^{2} \\neq\\sigma_{2}^{2}",
           "display": true,
           "sourceAsset": "e0c77fc3adcccac64c9a.png"
         },

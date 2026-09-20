@@ -285,13 +285,13 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c l} \\hline{\\mathrm{Ending~inventory~at~cost} \\quad} & {\\mathrm{Total}} \\\\ \\hline{\\mathrm{2~units~\\Leftrightarrow~\\$28~each}} & {} & {\\$56} \\\\ {\\mathrm{8~units~\\ll~\\$30~each}} & {} & {\\underline{{\\$240}}} \\\\ {\\mathrm{Total}} & {} & {\\$296} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lcl} \\hline{\\mathrm{Ending~inventory~at~cost} \\quad} & {\\mathrm{Total}} \\\\ \\hline{\\mathrm{2~units~\\Leftrightarrow~\\$28~each}} & {} & {\\$56} \\\\ {\\mathrm{8~units~\\ll~\\$30~each}} & {} & {\\underline{{\\$240}}} \\\\ {\\mathrm{Total}} & {} & {\\$296} \\\\ \\hline{} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "0905ad2c3b40bd6d09b9.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\begin{array} {l} {\\mathrm{Income~Statement}} \\\\ \\end{array}} & {\\begin{array} {l} {\\mathrm{~s~}} \\\\ \\end{array}} & {\\begin{array} {c} {\\mathrm{~s~}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Revenue}} \\\\ {\\mathrm{Beginning~inventory}} \\\\ \\end{array}} & {\\begin{array} {r} {\\mathrm{~400}} \\\\ {\\mathrm{~2,330}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r l} {\\mathrm{Available~for~sale}} & {\\qquad2 , 730} & {} \\\\ {\\mathrm{Ending~inventory}} & {\\qquad\\underline{{( 296 )}}} & {} \\\\ {\\mathrm{Cost~of~goods~sold}} & {\\qquad} & {\\underline{{2.434}}} \\\\ {\\mathrm{Cross~profit}} & {\\qquad} & {1 , 066} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\begin{array} {l} {\\mathrm{Income~Statement}} \\\\ \\end{array}} & {\\begin{array} {l} {\\mathrm{~s~}} \\\\ \\end{array}} & {\\begin{array} {c} {\\mathrm{~s~}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Revenue}} \\\\ {\\mathrm{Beginning~inventory}} \\\\ \\end{array}} & {\\begin{array} {r} {\\mathrm{~400}} \\\\ {\\mathrm{~2,330}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lrl} {\\mathrm{Available~for~sale}} & {\\qquad2 , 730} & {} \\\\ {\\mathrm{Ending~inventory}} & {\\qquad\\underline{{( 296 )}}} & {} \\\\ {\\mathrm{Cost~of~goods~sold}} & {\\qquad} & {\\underline{{2.434}}} \\\\ {\\mathrm{Cross~profit}} & {\\qquad} & {1 , 066} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "b648b7cd86830bb56841.png"
         },
@@ -483,7 +483,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c r l c r} {\\begin{array} {l} {O \\mathrm{pening~cash}} \\\\ {C \\mathrm{hange~in~cash}} \\\\ {C \\mathrm{losing~cash}} \\\\ \\end{array}} & {\\begin{array} {l} {0} \\\\ {37 , 300} \\\\ {37 , 300} \\\\ \\end{array}} & {\\begin{array} {l} {37 , 300} \\\\ {9 , 300} \\\\ {46 , \\underline{{600}}} \\\\ \\end{array}} & {\\begin{array} {l} {46 , 600} \\\\ {9 , 300} \\\\ {\\underline{{55 , 900}}} \\\\ \\end{array}} & {\\begin{array} {l} {{55 , 900}} \\\\ {\\underline{{9 , 300}}} \\\\ {\\underline{{65 , 200}}} \\\\ \\end{array}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lcrlcr} {\\begin{array} {l} {O \\mathrm{pening~cash}} \\\\ {C \\mathrm{hange~in~cash}} \\\\ {C \\mathrm{losing~cash}} \\\\ \\end{array}} & {\\begin{array} {l} {0} \\\\ {37 , 300} \\\\ {37 , 300} \\\\ \\end{array}} & {\\begin{array} {l} {37 , 300} \\\\ {9 , 300} \\\\ {46 , \\underline{{600}}} \\\\ \\end{array}} & {\\begin{array} {l} {46 , 600} \\\\ {9 , 300} \\\\ {\\underline{{55 , 900}}} \\\\ \\end{array}} & {\\begin{array} {l} {{55 , 900}} \\\\ {\\underline{{9 , 300}}} \\\\ {\\underline{{65 , 200}}} \\\\ \\end{array}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "f1cf221e3802eea98dba.png"
         },
@@ -943,7 +943,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\mathrm{diluted~EPS}}={\\frac{\\mathrm{adjusted~income~available~for~common~shares}} {\\mathrm{weighted-average~common~and~potential~common~shares~outstanding}}} {\\mathrm{where} .}\\\\[6pt]\\begin{array} {r l} {{\\mathrm{adjusted~income~available~for~common~shares}=\\mathrm{net~income-preferred~dividends}}} \\\\ {{}} & {{\\quad+\\mathrm{~dividends~on~convertible~preferred~stockeriale}}} \\\\ {{}} & {{\\quad+\\mathrm{~after-tax~interest~on~convertible~debt}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}{\\mathrm{diluted~EPS}}={\\frac{\\mathrm{adjusted~income~available~for~common~shares}} {\\mathrm{weighted-average~common~and~potential~common~shares~outstanding}}} {\\mathrm{where} .}\\\\[6pt]\\begin{array} {rl} {{\\mathrm{adjusted~income~available~for~common~shares}=\\mathrm{net~income-preferred~dividends}}} \\\\ {{}} & {{\\quad+\\mathrm{~dividends~on~convertible~preferred~stockeriale}}} \\\\ {{}} & {{\\quad+\\mathrm{~after-tax~interest~on~convertible~debt}}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "aec0fe868b2389060e13.png"
         },
@@ -953,7 +953,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{diluted~EPS}=\\frac{\\left[ \\mathrm{net~income}-\\frac{\\mathrm{preferred}} {\\mathrm{dividends}} \\right]+\\left[ \\begin{matrix} {\\mathrm{converible}} \\\\ {\\mathrm{pereferred}} \\\\ {\\mathrm{dividends}} \\\\ \\end{matrix} \\right]+\\left( \\begin{matrix} {\\mathrm{converible}} \\\\ {\\mathrm{debt}} \\\\ {\\mathrm{interest}} \\\\ \\end{matrix} \\right) \\! \\! ( 1-\\mathrm{t)}} {\\left( \\begin{matrix} {\\mathrm{weighted}} \\\\ {\\mathrm{average}} \\\\ {\\mathrm{shares}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~from}} \\\\ {\\mathrm{isssuable~from}} \\\\ {\\mathrm{stock~ophions}} \\\\ \\end{matrix} \\right)}",
+          "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\ \\text{preferred} \\\\ \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\ \\text{debt} \\\\ \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\ \\text{average} \\\\ \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\ \\text{issuable from} \\\\ \\text{stock options}\\end{matrix}\\right)}",
           "display": true,
           "sourceAsset": "3d59c6ec97e12697b5d2.png"
         },
@@ -979,7 +979,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{basic~EPS}}={\\frac{{\\mathsf{S}} 4 {,} 350 , 000-( 0.07 ) \\left( {\\mathsf{S}} 5 {,} 000 , 000 \\right)} {2 {,} 000 {,} 000}}={\\mathsf{S}} 2.00",
+          "latex": "\\text{Basic EPS} = \\frac{\\$4,350,000 - 0.07(\\$5,000,000)}{2,000,000} = \\$2.00",
           "display": true,
           "sourceAsset": "819eda0a509b1969d279.png"
         },
@@ -997,7 +997,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{diluted~EPS}}={\\frac{{\\mathrm{net.~inc.-pref.~div.~+convert.~pref.~dividends}}} {{\\mathrm{wt.~avg.~shares~+~convert.~pref.~common~shares}}}}} \\\\ {{\\mathrm{diluted~EPS}}={\\frac{{\\mathrm{S4,350,000}}} {{\\mathrm{2,000,000}}+{\\mathrm{550,000}}}}={\\mathsf{s 1.71}}} \\end{array}",
+          "latex": "\\text{Diluted EPS} = \\frac{\\text{Net income} - \\text{Pref div} + \\text{Convertible pref div}}{\\text{Weighted avg shares} + \\text{Convertible pref shares}}",
           "display": true,
           "sourceAsset": "9abe5ba2d44aca0045c2.png"
         },
@@ -1057,7 +1057,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{d i l u t e d} \\mathrm{EPS}=} & {{} {\\frac{\\mathrm{net.~inc.-pref.~div.~+~convert.~int.~(1-t)}} {\\mathrm{wt.~avg.~shares~+~convertible~debt~shares}}}} \\\\ {\\operatorname{d i l u t e d ~ E P S}} & {{}={\\frac{\\$2 , 500 , 000+\\$70 , 000} {1 , 000 , 000+240 , 000}}=\\$2.07} \\end{aligned}",
+          "latex": "\\begin{aligned} {\\operatorname{diluted} \\mathrm{EPS}=} & {{} {\\frac{\\mathrm{net.~inc.-pref.~div.~+~convert.~int.~(1-t)}} {\\mathrm{wt.~avg.~shares~+~convertible~debt~shares}}}} \\\\ {\\operatorname{diluted ~ EPS}} & {{}={\\frac{\\$2 , 500 , 000+\\$70 , 000} {1 , 000 , 000+240 , 000}}=\\$2.07} \\end{aligned}",
           "display": true,
           "sourceAsset": "ff4ef9a2c74dd80a7d26.png"
         },
@@ -1089,7 +1089,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\mathfrak{S 70} , 000} {240 , 000}=\\mathfrak{S 0.29}",
+          "latex": "\\frac{\\$70,000}{240,000} = \\$0.29",
           "display": true,
           "sourceAsset": "1d260d0f595acaec7f2f.png"
         },
@@ -1127,7 +1127,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt d i l u t e d E P S}={\\frac{{\\tt S 1} , 200 , 000} {500 , 000+25 , 000}}={\\tt S 2.29}",
+          "latex": "\\text{Diluted EPS} = \\frac{\\$1,200,000}{500,000 + 25,000} = \\$2.29",
           "display": true,
           "sourceAsset": "a58e4e90c264ce9245f9.png"
         },
@@ -1334,7 +1334,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{diuted~EPS}=\\frac{\\left[ \\begin{matrix} {\\mathrm{net~income}-\\frac{\\mathrm{preferred}} {\\mathrm{dividends}}} \\\\ \\end{matrix} \\right]+\\left[ \\begin{matrix} {\\mathrm{convertible}} \\\\ {\\mathrm{preferred}} \\\\ {\\mathrm{dividends}} \\\\ \\end{matrix} \\right]+\\left( \\begin{matrix} {\\mathrm{convertible}} \\\\ {\\mathrm{debt}} \\\\ {\\mathrm{interest}} \\\\ \\end{matrix} \\right) ( 1-t )} {\\left( \\begin{matrix} {\\mathrm{weighted}} \\\\ {\\mathrm{average}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{conversion~of}} \\\\ {\\mathrm{conversion~of}} \\\\ \\end{matrix} \\right)+\\left( \\begin{matrix} {\\mathrm{shares~fom}} \\\\ {\\mathrm{isssuable~from}} \\\\ {\\mathrm{stock~options}} \\\\ \\end{matrix} \\right)}",
+      "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\ \\text{preferred} \\\\ \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\ \\text{debt} \\\\ \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\ \\text{average} \\\\ \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\ \\text{issuable from} \\\\ \\text{stock options}\\end{matrix}\\right)}",
       "display": true,
       "sourceAsset": "0fdf4c386c02445a2eb3.png"
     },
@@ -1765,7 +1765,7 @@
             },
             {
               "type": "math",
-              "latex": "{\\frac{\\Im55-\\Im50} {\\Im55}} \\times100 , 000 {\\mathrm{~shares}}=9 , 091 {\\mathrm{~shares}}",
+              "latex": "{\\frac{\\$55-\\$50} {\\$55}} \\times100 , 000 {\\mathrm{~shares}}=9 , 091 {\\mathrm{~shares}}",
               "display": true,
               "sourceAsset": "2d90ef80d1c349bb04e1.png"
             },
@@ -1824,7 +1824,7 @@
             },
             {
               "type": "math",
-              "latex": "\\mathrm{per~share~impact~=} \\frac{\\$42 {,} 000} {25 {,} 000 {~} \\S h a r e s} {=} \\$1.68",
+              "latex": "\\text{per share impact} = \\frac{\\$42,000}{25,000\\text{ shares}} = \\$1.68",
               "display": true,
               "sourceAsset": "68b5d18bf43d41e39779.png"
             },

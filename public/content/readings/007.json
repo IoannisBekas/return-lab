@@ -90,7 +90,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{~ v a r i a n c e ~ e q u a l ~ t o ~ \\frac{\\sigma^2} {n} ~ a s ~ t h e ~ s a m p l e ~ s i z e ~ b e c o m e s ~ l a r g e .}",
+          "latex": "\\mathrm{~ variance ~ equal ~ to ~ \\frac{\\sigma^2} {n} ~ as ~ the ~ sample ~ size ~ becomes ~ large .}",
           "display": true,
           "sourceAsset": "694c92406a27f52d5744.png",
           "prose": "variance equal to as the sample size becomes large."
@@ -109,7 +109,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{T h e ~ v a r i a n c e ~ o f ~ t h e ~ d i s t r i b u t i o n ~ o f ~ s a m p l e ~ m e a n s ~ i s ~ \\frac{\\sigma^2} {n} , t h e ~ p o p u l a t i o n ~ v a r i a n c e}} \\\\ {\\mathrm{divided~by~the~sample~size.}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{The ~ variance ~ of ~ the ~ distribution ~ of ~ sample ~ means ~ is ~ \\frac{\\sigma^2} {n} , the ~ population ~ variance}} \\\\ {\\mathrm{divided~by~the~sample~size.}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "042678b8bbec30a70c8d.png",
           "prose": "The variance of the distribution of sample means is , the population variance divided by the sample size."
@@ -130,7 +130,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{However,practically~speaking,the~} p o p u l a t i o n^{\\prime} s \\ t a n d a r d \\ d e v i a t i o n \\ i s \\ a l m o s t \\ n e v e r} \\\\ {k n o w n . \\mathrm{Instead,the~standard~error~of~the~sample~mean~must~be~estimated~by~dividing~of~conding~of~devially}} \\\\ {\\mathrm{the~standard~deviation~of~} t h e \\ s a m p l e \\mathrm{~by~} \\sqrt{n} \\colon} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{However,practically~speaking,the~} population^{\\prime} s \\ tandard \\ deviation \\ is \\ almost \\ never} \\\\ {known . \\mathrm{Instead,the~standard~error~of~the~sample~mean~must~be~estimated~by~dividing~of~conding~of~devially}} \\\\ {\\mathrm{the~standard~deviation~of~} the \\ sample \\mathrm{~by~} \\sqrt{n} \\colon} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "08229e360d1586ea9a6e.png",
           "prose": "However, practically speaking, the population’s standard deviation is almost never known. Instead, the standard error of the sample mean must be estimated by dividing the standard deviation of the sample by :"
@@ -159,7 +159,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathsf{s_{x}=\\frac{s} {\\sqrt{n}}=\\frac{20^{0} \\! / \\!_{0}} {\\sqrt{30}}=3.6^{0} /_{0}}",
+          "latex": "s_{\\bar{x}} = \\frac{s}{\\sqrt{n}} = \\frac{20\\%}{\\sqrt{30}} = 3.65\\%",
           "display": true,
           "sourceAsset": "a369ec81356d2a572d22.png"
         },
@@ -185,7 +185,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt s}_{\\tt x} \\!=\\! {\\frac{s} {\\sqrt{11}}} \\!=\\! {\\frac{20 \\%} {\\sqrt{200}}} \\!=\\! 1.4 \\% \\! \\! \\! /_{0}",
+          "latex": "s_{\\bar{x}} = \\frac{s}{\\sqrt{n}} = \\frac{20\\%}{\\sqrt{200}} = 1.41\\%",
           "display": true,
           "sourceAsset": "639706fbcd99ec24e8e5.png"
         },

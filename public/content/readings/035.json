@@ -296,7 +296,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{t a x} {\\mathrm{allowable~depreciation}}} & {{}={\\frac{540 , 000 , 000-50} {4 \\ y e a r s}}=510 , 000 , 000} \\\\ {\\operatorname{a c c o u n t i n g ~ d e p r e c i a t i o n}} & {{}={\\frac{540 , 000 , 000-50} {5 \\ y e a r s}}=58 , 000 , 000} \\end{aligned}",
+          "latex": "\\begin{aligned} {\\operatorname{tax} {\\mathrm{allowable~depreciation}}} & {{}={\\frac{540 , 000 , 000-50} {4 \\ years}}=510 , 000 , 000} \\\\ {\\operatorname{accounting ~ depreciation}} & {{}={\\frac{540 , 000 , 000-50} {5 \\ years}}=58 , 000 , 000} \\end{aligned}",
           "display": true,
           "sourceAsset": "8037a7d563ab41accafc.png"
         },
@@ -330,7 +330,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c c c c} \\hline{} & {\\mathrm{Year~1}} & {\\mathrm{Year~2}} & {\\mathrm{Year~3}} \\\\ {} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} \\\\ \\hline{\\mathrm{Warranty~provision}} & {5 , 000} & {6 , 000} & {6 , 500} \\\\ {\\mathrm{Warranty~expenditure}} & {2 , 000} & {5 , 000} & {8 , 000} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array} {cccc} \\hline{} & {\\mathrm{Year~1}} & {\\mathrm{Year~2}} & {\\mathrm{Year~3}} \\\\ {} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} \\\\ \\hline{\\mathrm{Warranty~provision}} & {5 , 000} & {6 , 000} & {6 , 500} \\\\ {\\mathrm{Warranty~expenditure}} & {2 , 000} & {5 , 000} & {8 , 000} \\\\ \\hline{} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "1daa3f03a2e8de405f81.png"
         },
@@ -435,14 +435,14 @@
         },
         {
           "type": "math",
-          "latex": "2. \\, \\mathbf{E f f e c t i v e \\; t a x \\; r a t e}=\\frac{\\mathrm{income\\;tax\\;expense}} {\\mathrm{pretax\\;income}}",
+          "latex": "2. \\, \\mathbf{Effective \\; tax \\; rate}=\\frac{\\mathrm{income\\;tax\\;expense}} {\\mathrm{pretax\\;income}}",
           "display": true,
           "sourceAsset": "88c8f6f5a317b0b5cfbd.png",
           "prose": "2. Effective tax rate"
         },
         {
           "type": "math",
-          "latex": "3. \\, {\\bf C a s h \\; t a x \\; r a t e}={\\frac{\\operatorname{c a s h \\; t a x e s \\; p a i d}} {\\mathrm{pretax\\;income}}}",
+          "latex": "3. \\, {\\bf Cash \\; tax \\; rate}={\\frac{\\operatorname{cash \\; taxes \\; paid}} {\\mathrm{pretax\\;income}}}",
           "display": true,
           "sourceAsset": "a41e6b634c0df6656da2.png",
           "prose": "3. Cash tax rate"
@@ -680,7 +680,7 @@
     },
     {
       "type": "math",
-      "latex": "3. \\, {\\mathsf{C a s h ~ t a x ~ r a t e}}={\\frac{\\operatorname{c a s h} \\operatorname{t a x e s ~ p a i d}} {\\operatorname{p r e t a x ~ i n c o m e}}}",
+      "latex": "3. \\, {\\mathsf{Cash ~ tax ~ rate}}={\\frac{\\operatorname{cash} \\operatorname{taxes ~ paid}} {\\operatorname{pretax ~ income}}}",
       "display": true,
       "sourceAsset": "1a407f3f3c63bdc19109.png",
       "prose": "3. Cash tax rate"
@@ -1229,7 +1229,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{Year~1}=\\frac{\\epsilon75 \\mathrm{~million}} {\\epsilon250 \\mathrm{~million}}=0.3=30 \\%} \\\\ {\\mathrm{Year~2}=\\frac{\\epsilon48 \\mathrm{~million}} {\\epsilon225 \\mathrm{~million}}=0.213=21.3 \\%_{0}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Y e a r ~ 3={\\frac{{\\epsilon88} \\ m i l l i o n} {{\\epsilon300} \\ m i l l i o n}}}=0.293=29.3 \\%\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{Year~1}=\\frac{\\epsilon75 \\mathrm{~million}} {\\epsilon250 \\mathrm{~million}}=0.3=30 \\%} \\\\ {\\mathrm{Year~2}=\\frac{\\epsilon48 \\mathrm{~million}} {\\epsilon225 \\mathrm{~million}}=0.213=21.3 \\%_{0}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Year ~ 3={\\frac{{\\epsilon88} \\ million} {{\\epsilon300} \\ million}}}=0.293=29.3 \\%\\end{gathered}",
               "display": true,
               "sourceAsset": "9e5ff947fdee4b6880d6.png"
             }

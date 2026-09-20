@@ -104,7 +104,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{V a r ( R_{p} )}={\\sum_{i=1}^{N} \\sum_{j=1}^{N}} \\mathbf{w_{i}} \\mathbf{w_{j}} \\, \\mathrm{C o v ( R_{i} , R_{j} )}",
+          "latex": "\\mathrm{Var ( R_{p} )}={\\sum_{i=1}^{N} \\sum_{j=1}^{N}} \\mathbf{w_{i}} \\mathbf{w_{j}} \\, \\mathrm{Cov ( R_{i} , R_{j} )}",
           "display": true,
           "sourceAsset": "ce11e16df44ee5c4f9d0.png"
         },
@@ -114,7 +114,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {{\\mathrm{V a r ( R_{\\mathrm{tiny~p}} )=w_{A} w_{A} \\operatorname{C o v} ( R_{A} , R_{A} )+w_{A} w_{B} \\operatorname{C o v} ( R_{A} , R_{B} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{C o v} ( R_{B} , R_{A} )}}} \\\\ {{\\mathrm{w_{B} w_{B} \\operatorname{C o v} ( R_{B} , R_{B} )}}} \\end{array}",
+          "latex": "\\begin{array} {c} {{\\mathrm{Var ( R_{\\mathrm{tiny~p}} )=w_{A} w_{A} \\operatorname{Cov} ( R_{A} , R_{A} )+w_{A} w_{B} \\operatorname{Cov} ( R_{A} , R_{B} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )}}} \\\\ {{\\mathrm{w_{B} w_{B} \\operatorname{Cov} ( R_{B} , R_{B} )}}} \\end{array}",
           "display": true,
           "sourceAsset": "7b398e4376fc94313065.png"
         },
@@ -124,7 +124,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{p}} \\right)=\\mathrm{w}_{\\mathrm{A}}^{2} \\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)+\\mathrm{w}_{\\mathrm{B}}^{2} \\operatorname{V a r} \\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right)+2 \\mathrm{w}_{\\mathrm{A}} \\mathrm{w}_{\\mathrm{B}} \\operatorname{C o v} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)",
+          "latex": "\\operatorname{Var} \\! \\left( \\mathrm{R}_{\\mathrm{p}} \\right)=\\mathrm{w}_{\\mathrm{A}}^{2} \\operatorname{Var} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)+\\mathrm{w}_{\\mathrm{B}}^{2} \\operatorname{Var} \\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right)+2 \\mathrm{w}_{\\mathrm{A}} \\mathrm{w}_{\\mathrm{B}} \\operatorname{Cov} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)",
           "display": true,
           "sourceAsset": "3f966ccb13f82540aa15.png"
         },
@@ -134,7 +134,7 @@
         },
         {
           "type": "math",
-          "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ C o v}}_{\\mathrm{{\\tiny~ A B}}}",
+          "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ Cov}}_{\\mathrm{{\\tiny~ AB}}}",
           "display": true,
           "sourceAsset": "786ec88b2308713ae283.png"
         },
@@ -195,7 +195,7 @@
         },
         {
           "type": "math",
-          "latex": "\\rho_{\\mathrm{{A B}}} \\!=\\! {\\frac{\\mathrm{{C o v}_{\\mathrm{{A B}}}}} {\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}}} \\sigma, \\, {\\mathrm{so~that}} \\, ( \\mathrm{{C o v}_{\\mathrm{{A B}}}} ) \\!=\\rho_{\\mathrm{{A B}}} \\times\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}",
+          "latex": "\\rho_{\\mathrm{{AB}}} \\!=\\! {\\frac{\\mathrm{{Cov}_{\\mathrm{{AB}}}}} {\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}}} \\sigma, \\, {\\mathrm{so~that}} \\, ( \\mathrm{{Cov}_{\\mathrm{{AB}}}} ) \\!=\\rho_{\\mathrm{{AB}}} \\times\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}",
           "display": true,
           "sourceAsset": "a3af23281ea352059b14.png"
         },
@@ -339,7 +339,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathsf{S t e p ~ 1 : ~ C a l c u l a t e ~ t h e ~ s a f e t y-f i r s t ~ r a t i o}} \\,={\\frac{{\\mathrm{E}} \\left( {\\mathrm{R}}_{\\mathrm{p}} \\right)-{\\mathrm{R}}_{\\mathrm{L}}} {{\\sigma}_{\\mathrm{p}}}} .",
+          "latex": "\\text{Safety-first ratio} = \\frac{E(R_p) - R_L}{\\sigma_p}",
           "display": true,
           "sourceAsset": "6c8cb6afad7e90f528c5.png",
           "prose": "Step 1: Calculate the safety-first ratio ."
@@ -405,7 +405,7 @@
     },
     {
       "type": "math",
-      "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ C o v}}_{\\mathrm{{\\tiny~ A B}}}",
+      "latex": "\\sigma_{\\mathrm{{\\tiny~ P}}}^{2}=\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ A}}}^{2} \\,+\\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}}^{2} \\, \\sigma_{\\mathrm{{\\tiny~ B}}}^{2} \\,+2 \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ A}}} \\, \\mathrm{{\\bf w}}_{\\mathrm{{\\tiny~ B}}} \\, \\mathrm{{\\tiny~ Cov}}_{\\mathrm{{\\tiny~ AB}}}",
       "display": true,
       "sourceAsset": "d3374ec611f7256ec743.png"
     },
@@ -415,7 +415,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{Var} \\big( \\mathrm{R}_{\\mathrm{B}} \\big)=\\mathrm{w}_{\\mathrm{A}}^{2} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{w}_{\\mathrm{B}}^{2} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\mathrm{w}_{\\mathrm{A}} \\, \\mathrm{w}_{\\mathrm{B}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}} \\, \\rho_{\\mathrm{A,B}}}} \\\\ {{\\mathrm{where~} \\rho_{\\mathrm{A,B}} {\\mathrm{~is~the~correlation~of~the~two~assets\"returns.}}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{Var} \\big( \\mathrm{R}_{\\mathrm{B}} \\big)=\\mathrm{w}_{\\mathrm{A}}^{2} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{w}_{\\mathrm{B}}^{2} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\mathrm{w}_{\\mathrm{A}} \\, \\mathrm{w}_{\\mathrm{B}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}} \\, \\rho_{\\mathrm{A,B}}}} \\\\ {{\\mathrm{where~} \\rho_{\\mathrm{A,B}} {\\mathrm{~is~relation~of~the~two~assets\"returns.}}}} \\end{array}",
       "display": true,
       "sourceAsset": "d293a864e9b30c3e23c3.png"
     },
@@ -509,7 +509,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\operatorname{C o r r} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)={\\frac{\\operatorname{C o v} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)} {\\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{A}} \\right) \\right] \\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{B}} \\right) \\right]}}\\\\[6pt]\\sigma^{2} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)=\\left[ \\frac{\\mathrm{Cov} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} {\\sigma\\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right) \\mathrm{Corr} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} \\right]^{2}\\\\[6pt]\\qquad\\qquad\\qquad=\\left[ {\\frac{0.0043} {( 0.26 ) ( 0.5 )}} \\right]^{2}=0.0331^{2}=0.0011\\end{gathered}",
+              "latex": "\\begin{gathered}\\operatorname{Corr} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)={\\frac{\\operatorname{Cov} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)} {\\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{A}} \\right) \\right] \\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{B}} \\right) \\right]}}\\\\[6pt]\\sigma^{2} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)=\\left[ \\frac{\\mathrm{Cov} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} {\\sigma\\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right) \\mathrm{Corr} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} \\right]^{2}\\\\[6pt]\\qquad\\qquad\\qquad=\\left[ {\\frac{0.0043} {( 0.26 ) ( 0.5 )}} \\right]^{2}=0.0331^{2}=0.0011\\end{gathered}",
               "display": true,
               "sourceAsset": "d679af8f7aa745329d0d.png"
             }
@@ -525,7 +525,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}{\\begin{array} {l l c c} \\hline{} & {{\\bf Q=796}} & {{\\bf Q=496}} & {{\\bf Q=096}} \\\\ \\hline{{\\bf P=1596}} & {0.2} & {0} & {0} \\\\ {{\\bf P=1296}} & {0} & {0.2} & {0} \\\\ \\end{array}}\\\\[6pt]{\\sf P}=096 \\qquad0 \\qquad\\qquad0 \\qquad\\qquad0.6\\end{gathered}",
+              "latex": "\\begin{gathered}{\\begin{array} {llcc} \\hline{} & {{\\bf Q=796}} & {{\\bf Q=496}} & {{\\bf Q=096}} \\\\ \\hline{{\\bf P=1596}} & {0.2} & {0} & {0} \\\\ {{\\bf P=1296}} & {0} & {0.2} & {0} \\\\ \\end{array}}\\\\[6pt]{\\sf P}=096 \\qquad0 \\qquad\\qquad0 \\qquad\\qquad0.6\\end{gathered}",
               "display": true,
               "sourceAsset": "f4864f97397c82659731.png"
             }

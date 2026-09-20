@@ -86,7 +86,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{S_{T}-S_{0} ( 1+R f )^{T}-[ S_{T}-F_{0} ( T ) ]=0 ~}}} \\\\ {{\\mathrm{s o ~ t h a t ~ F_{0} ( T )-S_{0} ( 1+R f )^{T}=0 ~ a n d ~ F_{0} ( T )=S_{0} ( 1+R f )^{T} .}}} \\end{array}",
+          "latex": "S_T - S_0(1+R_f)^T - [S_T - F_0(T)] = 0 \\implies F_0(T) = S_0(1+R_f)^T",
           "display": true,
           "sourceAsset": "c6c753f06b3f91e1c010.png"
         },
@@ -96,7 +96,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r l} {} & {{} {\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}} \\! \\!-S_{\\mathrm{T}}+[ \\mathrm{S}_{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} ) ]=0} \\\\ {} & {{} {\\mathrm{so~that~S}}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} )=0 {\\mathrm{~and~}} \\mathrm{F}_{0} ( \\mathrm{T} )=\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}} .} \\end{array}",
+          "latex": "\\begin{array} {rl} {} & {{} {\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}} \\! \\!-S_{\\mathrm{T}}+[ \\mathrm{S}_{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} ) ]=0} \\\\ {} & {{} {\\mathrm{so~that~S}}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}}-\\mathrm{F}_{0} ( \\mathrm{T} )=0 {\\mathrm{~and~}} \\mathrm{F}_{0} ( \\mathrm{T} )=\\mathrm{S}_{0} ( 1+\\mathrm{Rf} )^{\\mathrm{T}} .} \\end{array}",
           "display": true,
           "sourceAsset": "f149b9a1e0a4292e7632.png"
         },

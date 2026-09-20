@@ -556,7 +556,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {l l} {\\boxed{\\mathrm{Average~selling~price~per~product}}} & {\\sharp10} \\\\ {\\mathrm{Quantity~sold}} & {4.5 \\bmod11 i o n} \\\\ {\\mathrm{Gross~profit~margin}} & {6096} \\\\ \\end{array}",
+              "latex": "\\begin{array} {ll} {\\boxed{\\mathrm{Average~selling~price~per~product}}} & {\\sharp10} \\\\ {\\mathrm{Quantity~sold}} & {4.5 \\bmod11 ion} \\\\ {\\mathrm{Gross~profit~margin}} & {6096} \\\\ \\end{array}",
               "display": true,
               "sourceAsset": "d0a070a304a14f0665a4.png"
             }

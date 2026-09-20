@@ -22,7 +22,7 @@
         },
         {
           "type": "math",
-          "latex": "M O N / A U D=U S D / A U D \\times M N / U S D=0.60 \\times10.70=0.42",
+          "latex": "MON / AUD=USD / AUD \\times MN / USD=0.60 \\times10.70=0.42",
           "display": true,
           "sourceAsset": "ab2c482af8a967b354dd.png"
         },
@@ -65,7 +65,7 @@
         },
         {
           "type": "math",
-          "latex": "\\left( 1+\\mathrm{r}_{\\sf d o m e s t i c} \\right)={\\frac{1} {\\sf s p o t}} \\! \\left( 1+\\mathrm{r}_{\\sf f o r e i g n} \\right) \\sf f o r w a r d_{\\sf d / f}",
+          "latex": "(1 + r_{\\text{domestic}}) = \\frac{1}{\\text{spot}} (1 + r_{\\text{foreign}}) \\times \\text{forward}_{\\text{d/f}}",
           "display": true,
           "sourceAsset": "374ab524237c9caf906b.png"
         },
@@ -79,7 +79,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\frac{\\mathrm{f o r w a r d_{d / f}}} {\\mathrm{s p o t_{d / f}}}} \\!=\\! {\\frac{\\left( 1+\\mathrm{r_{d o m e s t i c}} \\right)} {\\left( 1+\\mathrm{r_{f o r e i g n}} \\right)}}\\\\[6pt]\\begin{aligned} {\\operatorname* {f o r w a r d}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} \\mathsf{s p o t}_{\\mathrm{d/f}}} \\\\ {\\operatorname* {s p o t}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} \\mathsf{f o r w a r d}_{\\mathrm{d/f}}} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}{\\frac{\\mathrm{forwar d_{d / f}}} {\\mathrm{spo t_{d / f}}}} \\!=\\! {\\frac{\\left( 1+\\mathrm{r_{domestic}} \\right)} {\\left( 1+\\mathrm{r_{foreign}} \\right)}}\\\\[6pt]\\begin{aligned} {\\operatorname* {forward}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} \\mathsf{spot}_{\\mathrm{d/f}}} \\\\ {\\operatorname* {spot}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} \\mathsf{forward}_{\\mathrm{d/f}}} \\\\ \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "ba207222685cd2123d12.png"
         },
@@ -97,7 +97,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\mathrm{forward}_{\\tt A / D}=\\mathrm{spot}_{\\tt A / D} \\! \\left( \\! \\frac{1+r_{\\tt A}} {1+r_{\\tt D}} \\right)} \\\\ {} & {{} \\mathrm{forward}_{\\tt A / D} \\! \\!=4.5671 \\! \\left( \\! \\frac{1.05} {1.03} \\! \\right)=4.6558_{\\tt A / D}} \\\\ \\end{aligned}",
+          "latex": "\\text{forward}_{A/D} = \\text{spot}_{A/D} \\left( \\frac{1+r_A}{1+r_D} \\right)",
           "display": true,
           "sourceAsset": "ecde1d4df7083bc0acde.png"
         },
@@ -205,7 +205,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\frac{\\tt s_{t+1}} {\\tt s_{t}}}-1=\\tt r_{0} \\Delta s_{t+1}={\\frac{\\tt r_{f}-\\tt r_{d}} {1+\\tt r_{d}}}",
+          "latex": "\\frac{S_{t+1} - S_t}{S_t} = \\frac{r_f - r_d}{1 + r_d}",
           "display": true,
           "sourceAsset": "59a7bab092c93340df5c.png"
         },
@@ -563,7 +563,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{USD/CHF,the~spot~is~} 0.80 \\big( \\frac{1.04} {1.10} \\big)=0.7564.} \\\\ {\\mathrm{the~United~States,it~should~take~fewer~USD~to~buy~CHF~in~the~spot~market.~In~}} \\\\ {\\mathrm{other~words,the~USD~must~be~at~a~forward~discount~relative~to~the~CHE.~In~}} \\\\ \\end{array}\\\\[6pt]\\text{See the accompanying mathematical explanation.}\\end{gathered}",
+              "latex": "\\text{Spot (USD/CHF)} = 0.80 \\left( \\frac{1.04}{1.10} \\right) = 0.7564",
               "display": true,
               "sourceAsset": "7973c9e97fb289306ab9.png",
               "prose": "USD/CHF, the spot is Because the interest rate is higher in the United States, it should take fewer USD to buy CHF in the spot market. In other words, the USD must be at a forward discount relative to the CHF."

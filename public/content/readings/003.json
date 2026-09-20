@@ -209,7 +209,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{MAD}={\\frac{\\displaystyle{\\sum_{i=1}^{n} \\bigl| X_{i}-{\\overline{{X}}} \\bigr|}} {\\displaystyle{\\mathfrak{n}}}}",
+          "latex": "\\text{MAD} = \\frac{\\sum_{i=1}^{n} |X_i - \\bar{X}|}{n}",
           "display": true,
           "sourceAsset": "56c9cf67bc96796123e6.png"
         },
@@ -271,7 +271,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{aligned} {\\overline{{X}}} & {{}=\\frac{\\left[ 30+12+25+20+23 \\right]} {5}=229_{6}} \\\\ {s^{2}} & {{}=\\frac{\\left[ ( 30-22 )^{2}+( 12-22 )^{2}+( 25-22 )^{2}+( 20-22 )^{2}+( 23-22 )^{2} \\right]} {5-1}} \\\\ \\end{aligned}\\\\[6pt]= 44.5 \\left( \\heartsuit_{6}^{2} \\right)\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\bar{X} &= \\frac{30+12+25+20+23}{5} = 22\\% \\\\\ns^2 &= \\frac{(30-22)^2+(12-22)^2+(25-22)^2+(20-22)^2+(23-22)^2}{5-1} = 44.5(\\%^2)\n\\end{aligned}",
           "display": true,
           "sourceAsset": "2c2e94112153ae13e113.png"
         },
@@ -559,7 +559,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}s_{X Y}={\\frac{\\sum_{i=1}^{n} \\Bigl\\{\\left[ \\mathrm{X}_{i}-{\\overline{{\\mathrm{X}}}} \\right] \\left[ \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} \\right] \\Bigr\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {r l} {} & {{} X_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} X} \\\\ {} & {{} Y_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} X} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}s_{XY}={\\frac{\\sum_{i=1}^{n} \\Bigl\\{\\left[ \\mathrm{X}_{i}-{\\overline{{\\mathrm{X}}}} \\right] \\left[ \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} \\right] \\Bigr\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {rl} {} & {{} X_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} X} \\\\ {} & {{} Y_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} X} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "45d902daba8dba33457c.png"
         },
@@ -573,7 +573,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\rho_{\\mathrm{XY}}={\\frac{s_{\\mathrm{XY}}} {s_{\\mathrm{X}} s_{\\mathrm{Y}}}} , {\\mathrm{which~implies:}}}} \\\\ {{{\\mathfrak{s}}_{\\mathrm{XY}}=\\rho_{\\mathrm{XY}} s_{\\mathrm{X}} s_{\\mathrm{Y}}}} \\end{array}",
+          "latex": "\\rho_{XY} = \\frac{s_{XY}}{s_X s_Y}, \\quad \\text{which implies: } s_{XY} = \\rho_{XY} s_X s_Y",
           "display": true,
           "sourceAsset": "fbf3e68baaed4ff8947d.png"
         },
@@ -611,7 +611,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathsf{s}_{\\mathsf{A}}=( 0.0028 )^{\\mathsf{H}}=0.0529} \\\\ {\\mathsf{s}_{\\mathsf{B}}=( 0.0124 )^{\\mathsf{H}}=0.1114} \\\\ \\end{array}",
+          "latex": "\\begin{aligned}\ns_A &= (0.0028)^{1/2} = 0.0529 \\\\\ns_B &= (0.0124)^{1/2} = 0.1114\n\\end{aligned}",
           "display": true,
           "sourceAsset": "6f7d6721732b90a06895.png"
         },
@@ -723,7 +723,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{matrix} {\\mathrm{The~coefficient~of~variation~(CV)~for~sample~data,}} \\\\ {\\mathrm{deviation~of~the~sample~to~its~mean.}} \\\\ \\end{matrix} \\overset{\\mathrm{CV}} {\\mathrm{data,}} \\begin{matrix} {\\mathrm{CV}=\\frac{s_{x}} {\\overline{{X}}}} \\\\ {\\mathrm{,is~the~ratio~of~the~standard~of~variation~(CV)~for~stample~data,}} \\\\ {\\mathrm{deviation~of~the~sample~to~its~mean.}} \\\\ \\end{matrix}",
+      "latex": "\\text{Coefficient of variation (CV)} = \\frac{s_x}{\\bar{X}} = \\frac{\\text{standard deviation of } X}{\\text{mean of } X}",
       "display": true,
       "sourceAsset": "5ccb6fd44842b0b8b684.png",
       "prose": "The coefficient of variation (CV) for sample data, , is the ratio of the standard deviation of the sample to its mean."
@@ -734,7 +734,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {s_{\\mathrm{{t a r g e t}}}={\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{{i}}} < \\mathrm{{B}}}^{\\mathrm{{i}}} ( \\mathrm{{X}_{\\mathrm{{i}}}-\\mathrm{{B}}} )^{2}} {\\mathrm{{n}}-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
+      "latex": "\\begin{array} {l} {s_{\\mathrm{{target}}}={\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{{i}}} < \\mathrm{{B}}}^{\\mathrm{{i}}} ( \\mathrm{{X}_{\\mathrm{{i}}}-\\mathrm{{B}}} )^{2}} {\\mathrm{{n}}-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
       "display": true,
       "sourceAsset": "85dce500a11ecb7d518a.png"
     },
@@ -866,7 +866,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {c l c l c l} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "latex": "\\begin{array} {clclcl} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
               "display": true,
               "sourceAsset": "0eb2f4bb0265403fd90b.png"
             }
@@ -914,7 +914,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {c l c l c l} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "latex": "\\begin{array} {clclcl} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
               "display": true,
               "sourceAsset": "181d797a8aba1624a9d8.png"
             }

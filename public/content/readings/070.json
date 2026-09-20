@@ -179,7 +179,7 @@
         },
         {
           "type": "math",
-          "latex": "1+0.012 \\! \\left( \\! {\\frac{9} {12}} \\! \\right) \\!=\\! \\left[ 1+0.01 \\! \\left( {\\frac{3} {12}} \\right) \\! \\right] \\! \\left[ 1+\\operatorname{F}_{3 \\mathrm{m} , 6 \\mathrm{m}} \\! \\left( {\\frac{6} {12}} \\right) \\right] \\! ]",
+          "latex": "1 + 0.012\\left(\\frac{9}{12}\\right) = \\left[1 + 0.01\\left(\\frac{3}{12}\\right)\\right] \\left[1 + F_{3,6}\\left(\\frac{6}{12}\\right)\\right]",
           "display": true,
           "sourceAsset": "ee220812fb982a0026de.png"
         },

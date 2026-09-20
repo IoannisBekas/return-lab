@@ -18,7 +18,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{v a r i a t i o n ~ i n ~ Y=\\sum_{i}^{n} ( Y_{i}-{\\overline{{Y}}} )}}^{2}",
+          "latex": "{\\mathrm{variation ~ in ~ Y=\\sum_{i}^{n} ( Y_{i}-{\\overline{{Y}}} )}}^{2}",
           "display": true,
           "sourceAsset": "a3fcbd0aa1bcf7950c70.png"
         },
@@ -76,7 +76,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{Y_{i}=b_{0}+b_{i} X_{i}+\\varepsilon_{i} , \\ldots\\mathrm{i=1,\\ldots,n}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{X_{i}=i \\hbar\\mathrm{~observation~of~the~dependent~variable,} ~ Y}} \\\\ {{X_{i}=i \\hbar\\mathrm{~observation~of~the~independent~variable,} ~ X}} \\\\ {{\\mathrm{~b_0=regression~intercept~term}}} \\\\ {{\\mathrm{~b_1=regression~slope~coefficient}}} \\\\ {{\\mathrm{~\\varepsilon_i~=residual~for~the~ith~observation~(also~referred~to~as~the~disturbance~term~ore~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~cor~the~}}} \\\\ {{\\mathrm{~erres~t~erm)}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\nY_i = b_0 + b_1 X_i + \\varepsilon_i, \\quad i = 1, \\ldots, n \\\\[6pt]\n\\text{where:} \\\\\nX_i = i\\text{th observation of the independent variable, } X \\\\\nY_i = i\\text{th observation of the dependent variable, } Y \\\\\nb_0 = \\text{regression intercept term} \\\\\nb_1 = \\text{regression slope coefficient} \\\\\n\\varepsilon_i = \\text{residual for the } i\\text{th observation (disturbance term)}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "abbdf684b573c6e11196.png"
         },
@@ -90,13 +90,13 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\widehat{\\mathrm{Y}}_{\\mathrm{i}}=\\widehat{\\mathrm{b}}_{0}+\\widehat{\\mathrm{b}}_{1} X_{\\mathrm{i}} , \\mathrm{i}=1 , 2 , 3. . . , \\mathrm{n}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\widehat{\\mathrm{Y}}_{\\mathrm{i}}=\\mathrm{e s t i m a t e d ~ v a l u e ~ o f ~ Y_{i} ~ g i v e n ~ X_{i} ~}}} \\\\ {{\\widehat{\\mathrm{b}}_{\\mathrm{0}}=\\mathrm{estimated~intercept~term}}} \\\\ {{\\widehat{\\mathrm{b}}_{\\mathrm{1}}=\\mathrm{estimated~slope~coefficient}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\hat{Y}_i = \\hat{b}_0 + \\hat{b}_1 X_i, \\quad i = 1, 2, \\ldots, n \\\\[4pt]\n\\begin{aligned}\n\\text{where:}\\quad\n\\hat{Y}_i &= \\text{estimated value of } Y_i \\text{ given } X_i \\\\\n\\hat{b}_0 &= \\text{estimated intercept term} \\\\\n\\hat{b}_1 &= \\text{estimated slope coefficient}\n\\end{aligned}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "da9ef46306314492193b.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} {\\tt\\ddot{P} R O F E S S O R^{\\prime} S N O r E}} \\\\ {} & {{} \\mathrm{The~hat~``~}_{u \\wedge v} \\mathrm{~above~a~variable~or~parameter~indicates~a~predicted~value.}} \\\\ \\end{aligned}",
+          "latex": "\\text{The hat symbol } (\\hat{\\ }) \\text{ above a variable denotes an estimated value.}",
           "display": true,
           "sourceAsset": "08c3d6fd673c74150114.png",
           "prose": "Study note The hat “ˆ above a variable or parameter indicates a predicted value."
@@ -110,7 +110,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{Thus~the~regression~line~is~the~line~that~minimizes~the~SSE.~This~explains~why~simple}} \\\\ {\\mathrm{~ l i n e a r ~ r e g r e s s i o n ~ i s ~ f r e q u e n t l y ~ r e f e r r e d ~ t o ~ a s ~ o r d i n a r y ~ l e a s t ~ s q u a r e s ~ {\\bf~ ( 01 S )} ~ r e g r e s s i o n ,}} \\\\ {\\mathrm{~ a n d ~ t h e ~ v a l u e s ~ d e t e r m i n e d ~ b y ~ t h e ~ e s t i m a t e d ~ r e g r e s s i o n ~ e q u a t i o n , ~ \\overset{\\sim} {Y}_{*} ~ a r e ~ c a l l e d ~ l e a s t}} \\\\ {\\mathrm{~suares~estimates.}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{Thus~the~regression~line~is~the~line~that~minimizes~the~SSE.~This~explains~why~simple}} \\\\ {\\mathrm{~ linear ~ regression ~ is ~ frequently ~ referred ~ to ~ as ~ ordinary ~ least ~ squares ~ {\\bf~ ( 01 S )} ~ regression ,}} \\\\ {\\mathrm{~ and ~ the ~ values ~ determined ~ by ~ the ~ estimated ~ regression ~ equation , ~ \\overset{\\sim} {Y}_{*} ~ are ~ called ~ least}} \\\\ {\\mathrm{~suares~estimates.}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "391ca00a31fbef716c83.png",
           "prose": "Thus, the regression line is the line that minimizes the SSE. This explains why simple linear regression is frequently referred to as ordinary least squares (OLS) regression, and the values determined by the estimated regression equation, , are called least squares estimates."
@@ -124,20 +124,20 @@
         },
         {
           "type": "math",
-          "latex": "{\\hat{\\mathbf{b}}}_{1}={\\frac{\\mathbf{C o v}_{\\mathbf{X Y}}} {\\sigma_{X}^{2}}}",
+          "latex": "{\\hat{\\mathbf{b}}}_{1}={\\frac{\\mathbf{Cov}_{\\mathbf{XY}}} {\\sigma_{X}^{2}}}",
           "display": true,
           "sourceAsset": "49e8157eede214486c8e.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{T h e ~ i n t e r c e p t ~ t e r m ~ ( \\hat{\\theta}_{\\emptyset} ) ~ i s ~ t h e ~ l i n e ' s ~ i n t e r s e c t i o n ~ w i t h ~ t h e ~} Y \\mathrm{-axis~at~X=0.~lt~can~be}} \\\\ {\\mathrm{positive,~negative,or~zero.~A~property~of~the~least~squares~method~is~that~the~intercept}} \\\\ {\\mathrm{term~may~be~expressed~as~follows:}} \\\\ \\end{array}",
+          "latex": "\\begin{gathered}\n\\text{The intercept term } (\\hat{b}_0) \\text{ is the line's intersection with the } Y\\text{-axis at } X = 0\\text{.} \\\\\n\\text{It may be positive, negative, or zero. It is expressed as: } \\hat{b}_0 = \\bar{Y} - \\hat{b}_1 \\bar{X}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "cf91320a47a33772fb90.png",
           "prose": "The intercept term is the line’s intersection with the Y-axis at X = 0. It can be positive, negative, or zero. A property of the least squares method is that the intercept term may be expressed as follows:"
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} {\\hat{\\mathsf{b}}}_{\\mathtt{0}}={\\overline{{\\mathsf{Y}}}}-{\\hat{\\mathsf{b}}}_{\\mathtt{1}} {\\overline{{\\mathsf{X}}}}} \\\\ {} & {{} {\\mathrm{where:}}} \\\\ {} & {{} {\\overline{{\\mathsf{Y}}}}=\\operatorname{m e a n o f} {\\ \\mathsf{Y}}} \\\\ {} & {{} {\\overline{{\\mathsf{X}}}}=\\operatorname{m e a n o f} {\\ \\mathsf{X}}} \\\\ \\end{aligned}",
+          "latex": "\\hat{b}_0 = \\bar{Y} - \\hat{b}_1 \\bar{X}",
           "display": true,
           "sourceAsset": "83809d2c1406aff62574.png"
         },
@@ -155,7 +155,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l l} {\\mathrm{Cov} ( \\mathrm{S\\&P~500} , \\mathrm{ABC} )} & {=0.000336 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{S\\&P~500}} & {=-2.70 \\%_{0}} \\\\ {\\mathrm{Var} ( \\mathrm{S\\&P~500} )} & {=0.000522 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{ABC}} & {=-4.05 \\%_{0}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lll} {\\mathrm{Cov} ( \\mathrm{S\\&P~500} , \\mathrm{ABC} )} & {=0.000336 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{S\\&P~500}} & {=-2.70 \\%_{0}} \\\\ {\\mathrm{Var} ( \\mathrm{S\\&P~500} )} & {=0.000522 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{ABC}} & {=-4.05 \\%_{0}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "6786e9c8fdf29d0f0749.png"
         },
@@ -407,7 +407,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{{S S E}}=\\sum_{i=1}^{n} \\left( \\mathrm{Y}_{i}-{\\widehat{\\mathrm{Y}}} \\right)^{2}",
+          "latex": "\\mathrm{{SSE}}=\\sum_{i=1}^{n} \\left( \\mathrm{Y}_{i}-{\\widehat{\\mathrm{Y}}} \\right)^{2}",
           "display": true,
           "sourceAsset": "1d3d8e02da4b2d3db0f7.png"
         },
@@ -553,7 +553,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{d f_{s u m e r a t o r}=k=1}} \\\\ {\\mathrm{d f_{d e n o m i n a t o r}=n-k-1=n-2}} \\\\ {\\mathrm{where:}} \\\\ {\\mathrm{n=number~of~observations}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{d f_{sumerator}=k=1}} \\\\ {\\mathrm{d f_{denominator}=n-k-1=n-2}} \\\\ {\\mathrm{where:}} \\\\ {\\mathrm{n=number~of~observations}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "3c4d79092048c7ce48ba.png"
         },
@@ -579,7 +579,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{F}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}=\\frac{0.0076} {0.0012}=6.33}} \\\\ {{\\mathrm{df}_{\\mathrm{{a u m e r a t e r}}}=\\mathrm{k}=1}} \\\\ {{\\mathrm{df}_{\\mathrm{danominater}}=\\mathrm{n-k}-1=36-1-1=34}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{F}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}=\\frac{0.0076} {0.0012}=6.33}} \\\\ {{\\mathrm{df}_{\\mathrm{{aumerater}}}=\\mathrm{k}=1}} \\\\ {{\\mathrm{df}_{\\mathrm{danominater}}=\\mathrm{n-k}-1=36-1-1=34}} \\end{array}",
           "display": true,
           "sourceAsset": "2d42320b5f4be3630cfa.png"
         },
@@ -597,7 +597,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{e q u a l ~ t o ~ a ~ h y p o t h e s i z e d ~ v a l u e . ~ L e t t i n g ~ \\hat{\\psi}_{i} , t h e ~ a p p r o p r i a t e ~ t e s t ~ s t a t i s t i c ~ w i t h ~ n-2 ~}} \\\\ {\\mathrm{degrees~of~freedom~is:}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{equal ~ to ~ a ~ hypothesized ~ value . ~ Letting ~ \\hat{\\psi}_{i} , the ~ appropriate ~ test ~ statistic ~ with ~ n-2 ~}} \\\\ {\\mathrm{degrees~of~freedom~is:}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "0d911ce3a97675419b3e.png",
           "prose": "equal to a hypothesized value. Letting , the appropriate test statistic with n − 2 degrees of freedom is:"
@@ -614,7 +614,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{R e j e c t ~ H_{0}^{\\prime} ~ i f ~ t >+~ t_{c r i t i c a l}^{\\prime} ~ o r ~ t <-t_{c r i t i c a l}^{\\prime} ~}",
+          "latex": "\\mathrm{Reject ~ H_{0}^{\\prime} ~ if ~ t >+~ t_{critical}^{\\prime} ~ or ~ t <-t_{critical}^{\\prime} ~}",
           "display": true,
           "sourceAsset": "0cf740f2a4f3edef5401.png"
         },
@@ -627,7 +627,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{H_{0} : b_{1}=0 \\; v e r s u s \\; H_{a} : b_{1}=0}",
+          "latex": "\\mathrm{H_{0} : b_{1}=0 \\; versus \\; H_{a} : b_{1}=0}",
           "display": true,
           "sourceAsset": "6f0095dc091220850f66.png"
         },
@@ -653,7 +653,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt t=\\frac{\\widehat{b}_{1}-b_{1}} {s_{\\widehat{b}_{1}}}=\\frac{0.64-0} {0.26}=2.46}",
+          "latex": "t = \\frac{\\hat{b}_1 - b_1}{s_{\\hat{b}_1}} = \\frac{0.64 - 0}{0.26} = 2.46",
           "display": true,
           "sourceAsset": "72af50f87c3534bda77f.png"
         },
@@ -681,7 +681,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{E a r n i n g s_{i}=b_{0}+b_{i} ( R e c e s s i o n_{i} )+\\varepsilon_{i}}",
+          "latex": "\\mathrm{Earning s_{i}=b_{0}+b_{i} ( Recessio n_{i} )+\\varepsilon_{i}}",
           "display": true,
           "sourceAsset": "aed212a02c258b4c16c1.png"
         },
@@ -722,7 +722,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\widehat{\\mathrm{Y}}=\\widehat{\\mathrm{b}}_{0}+\\widehat{\\mathrm{b}}_{1} \\mathrm{X}_{p}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\widehat{\\mathrm{Y}} \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\! \\!=\\mathrm{predicted~value~of~the~dependent~variable}}} \\\\ {{\\widehat{\\mathrm{X}}_{p}=\\mathrm{forecasted~value~of~the~independent~variable}}} \\end{array}",
+          "latex": "\\hat{Y} = \\hat{b}_0 + \\hat{b}_1 X_p",
           "display": true,
           "sourceAsset": "5175fc426ed42eaff4fe.png"
         },
@@ -754,7 +754,7 @@
         },
         {
           "type": "math",
-          "latex": "\\widetilde{\\mathrm{ABC}}=-2.3 {\\tt V}_{\\tt0}+( 0.64 ) ( 10 {\\tt V}_{\\tt0} )=4.1 {\\tt V}_{\\tt0}",
+          "latex": "\\hat{Y} = -2.3 + 0.64(10) = 4.1",
           "display": true,
           "sourceAsset": "ab64b3fcc253ffee791e.png"
         },
@@ -768,7 +768,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\widehat{\\Upsilon} \\pm( \\mathsf{t_{c}} \\times s_{i} ) \\Rightarrow[ \\widehat{\\Upsilon}-( \\mathsf{t_{c}} \\times s_{i} ) < \\mathsf{Y} < \\widehat{\\Upsilon}+( \\mathsf{t_{c}} \\times s_{i} ) ]}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathsf{t_{c}}=\\mathsf{t w o-t a i l e d ~ c r i t i c a l ~ r-v a l u e ~ a t ~ t h e ~ d e s i r e d ~ l e v e l ~ o f ~ s i g n i f i c a n c e ~ w i t h ~ d f=n-2}}} \\\\ {{\\mathsf{s_{f}}=\\mathsf{s t a n d a r d ~ e r r o r ~ o f ~ t h e ~ f o r e c a s t}}} \\end{array}",
+          "latex": "\\hat{Y} \\pm (t_c \\times s_f) \\implies [\\hat{Y} - (t_c \\times s_f) < Y < \\hat{Y} + (t_c \\times s_f)]",
           "display": true,
           "sourceAsset": "abd01d0c111f07d0253d.png"
         },
@@ -778,7 +778,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}s_{\\mathrm{f}}^{2}=\\mathrm{SEE}^{2} \\left[ 1+{\\frac{1} {n}}+{\\frac{( \\mathbf{X}-{\\overline{{X}}} )^{2}} {( n-1 ) s_{\\mathrm{x}}^{2}}} \\right]\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{S E E^{2}=v a r i a n c e ~ o f ~ t h e ~ r e s i d u a l s=t h e ~ s q u a r e ~ o f ~ t h e ~ s t a n d a r d ~ e r r o r ~ o f ~ e s t i m a t e}}} \\\\ {{s_{x}^{2}} \\quad{=\\mathrm{variance~of~the~independent~variable}}} \\\\ {{\\mathrm{X} \\quad{=v a l u e ~ o f ~ t h e ~ i n d e p e n d e n t ~ v a r i a b l e ~ f o r ~ w h i c h ~ t h e ~ f o r e c a s t ~ w a s ~ m a d e}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}s_{\\mathrm{f}}^{2}=\\mathrm{SEE}^{2} \\left[ 1+{\\frac{1} {n}}+{\\frac{( \\mathbf{X}-{\\overline{{X}}} )^{2}} {( n-1 ) s_{\\mathrm{x}}^{2}}} \\right]\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{SEE^{2}=variance ~ of ~ the ~ residuals=the ~ square ~ of ~ the ~ standard ~ error ~ of ~ estimate}}} \\\\ {{s_{x}^{2}} \\quad{=\\mathrm{variance~of~the~independent~variable}}} \\\\ {{\\mathrm{X} \\quad{=value ~ of ~ the ~ independent ~ variable ~ for ~ which ~ the ~ forecast ~ was ~ made}}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "72edaaadb4d6c7150995.png"
         },
@@ -800,7 +800,7 @@
         },
         {
           "type": "math",
-          "latex": "\\widetilde{\\mathrm{ABC}}=-2.39 \\! \\! \\! \\vee_{\\mathsf{0}}+( 0.64 ) \\! \\! \\left( 10 \\, {\\vartheta}_{\\mathsf{0}} \\right)=4.1 {\\vartheta}_{\\mathsf{0}}",
+          "latex": "\\hat{Y} = -2.39 + 0.64(10) = 4.01",
           "display": true,
           "sourceAsset": "ff49e194dc3fc66d1f2a.png"
         },
@@ -810,7 +810,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\widehat{\\mathrm{ABC}}} \\pm\\left( \\mathsf{t}_{c} \\times\\mathsf{s}_{\\mathsf{f}} \\right) \\Rightarrow\\left[ 4.1 {\\mathcal{V}}_{\\mathsf{o}} \\pm\\left( 2.03 \\times3.67 {\\mathcal{V}}_{\\mathsf{o}} \\right) \\right]=4.1 {\\mathcal{V}}_{\\mathsf{o}} \\pm7.5 {\\mathcal{V}}_{\\mathsf{o}}",
+          "latex": "\\hat{Y} \\pm (t_c \\times s_f) \\implies [4.01 \\pm (2.072 \\times 0.26)]",
           "display": true,
           "sourceAsset": "5c9ceccfa8fd273aa824.png"
         },
@@ -869,7 +869,7 @@
         },
         {
           "type": "math",
-          "latex": "\\ln\\Upsilon_{\\mathrm{i}}=\\mathfrak{b}_{0}+\\mathfrak{b}_{1} \\mathfrak{X}_{\\mathrm{i}}+\\varepsilon_{\\mathrm{i}}",
+          "latex": "\\ln Y_i = b_0 + b_1 X_i + \\varepsilon_i",
           "display": true,
           "sourceAsset": "bb6ecc27c0cbd1e6337b.png"
         },
@@ -899,7 +899,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{Y_{i}} \\!=\\! {\\sf b}_{0}+{\\sf b}_{1} \\! \\ln( \\mathrm{X} )_{i}+\\varepsilon_{i}",
+          "latex": "Y_i = b_0 + b_1 \\ln(X)_i + \\varepsilon_i",
           "display": true,
           "sourceAsset": "7df3551b01aabdb31a69.png"
         },
@@ -917,7 +917,7 @@
         },
         {
           "type": "math",
-          "latex": "\\ln\\mathrm{Y_{i}}=\\mathrm{b}_{0}+\\mathrm{b}_{1} \\mathrm{l n ( X )_{i}}+\\varepsilon_{i}",
+          "latex": "\\ln\\mathrm{Y_{i}}=\\mathrm{b}_{0}+\\mathrm{b}_{1} \\mathrm{ln ( X )_{i}}+\\varepsilon_{i}",
           "display": true,
           "sourceAsset": "cf5fc4b013358bbb80f5.png"
         },
@@ -960,7 +960,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {\\mathrm{T h e ~ e s t i m a t e d ~ i n t e r c e p t , \\hat{\\Phi}_0 , r e p r e s e n t s ~ t h e ~ v a l u e ~ o f ~ t h e ~ d e p e n d e n t ~ v a r i a b l e ~ a t ~ t h e ~ p o i n t ~ o f ~ t h e ~ o f ~ t h e ~ c o n t ~ v a r i a b l e ~}} \\\\ {\\mathrm{of~intersection~of~the~regression~line~and~the~axis~of~the~dependent~variable~(usually,the~point~of~the~cont~of~the~cont~variable~(usually)~}} \\\\ \\end{array}",
+      "latex": "\\text{The estimated intercept, } \\hat{b}_0\\text{, represents the value of the dependent variable where the regression line intersects the } Y\\text{-axis.}",
       "display": true,
       "sourceAsset": "9f2e7b9065d05cb1a4b2.png",
       "prose": "The estimated intercept, , represents the value of the dependent variable at the point of intersection of the regression line and the axis of the dependent variable (usually, the"
@@ -1079,7 +1079,7 @@
     },
     {
       "type": "math",
-      "latex": "\\widehat{\\mathrm{Y}}_{\\mathfrak{p}}=\\widehat{\\mathfrak{b}}_{0}+\\widehat{\\mathfrak{b}}_{1} X_{\\mathfrak{p} .}",
+      "latex": "\\hat{Y}_p = \\hat{b}_0 + \\hat{b}_1 X_p",
       "display": true,
       "sourceAsset": "64fa2c7561a8b4ad35c4.png",
       "prose": "."

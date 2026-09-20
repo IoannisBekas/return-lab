@@ -119,7 +119,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {r l} {S_{t}} & {{}={\\mathrm{price~of~the~underlying~stock~at~time~}} t} \\\\ {X} & {{}={\\mathrm{~exercise~price~of~the~option}}} \\\\ {\\mathrm{T-t~=~time~to~expiration}} \\\\ {c_{t}} & {{}={\\mathrm{~price~of~a~European~call~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time~=T~}} t} \\end{array}\\\\[6pt]\\begin{array} {r l} {p_{t}} & {{}={\\mathrm{price~of~a~European~put~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time}}=T} \\\\ {{\\mathrm{Rf}}} & {{}={\\mathrm{risk-free~rate}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {rl} {S_{t}} & {{}={\\mathrm{price~of~the~underlying~stock~at~time~}} t} \\\\ {X} & {{}={\\mathrm{~exercise~price~of~the~option}}} \\\\ {\\mathrm{T-t~=~time~to~expiration}} \\\\ {c_{t}} & {{}={\\mathrm{~price~of~a~European~call~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time~=T~}} t} \\end{array}\\\\[6pt]\\begin{array} {rl} {p_{t}} & {{}={\\mathrm{price~of~a~European~put~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time}}=T} \\\\ {{\\mathrm{Rf}}} & {{}={\\mathrm{risk-free~rate}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "097536336ff0d2b0df16.png"
         },

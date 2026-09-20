@@ -214,7 +214,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l} {{\\overline{{{\\mathrm{Original~cost}}}}}} & {{\\$900 , 000}} \\\\ {{\\mathrm{Accumulated~depreciation~to~date}}} & {{\\$100 , 000}} \\\\ {{\\mathrm{Expected~future~cash~flows}}} & {{\\$795 , 000}} \\\\ {{\\mathrm{Fair~value}}} & {{\\$790 , 000}} \\end{array}\\\\[6pt]\\begin{array} {l l l} {\\mathrm{Value~in~use}} & {} & {} & {} & {{} {\\tt5785 , 000}} \\\\ {\\mathrm{Selling~costs}} & {} & {} & {} & {{} {\\tt530 , 000}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {ll} {{\\overline{{{\\mathrm{Original~cost}}}}}} & {{\\$900 , 000}} \\\\ {{\\mathrm{Accumulated~depreciation~to~date}}} & {{\\$100 , 000}} \\\\ {{\\mathrm{Expected~future~cash~flows}}} & {{\\$795 , 000}} \\\\ {{\\mathrm{Fair~value}}} & {{\\$790 , 000}} \\end{array}\\\\[6pt]\\begin{array} {lll} {\\mathrm{Value~in~use}} & {} & {} & {} & {{} \\text{5785 , 000}} \\\\ {\\mathrm{Selling~costs}} & {} & {} & {} & {{} \\text{530 , 000}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "4ded731434f7fca8f53a.png"
         },
@@ -866,7 +866,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l l} {\\mathrm{overline{{O r i g i n a l ~ c o s t}}}} & {{\\mathfrak{F 250 , 000}}} \\\\ {\\mathrm{mathtt{A c c u m u l a t e d ~ d e p r e c i a t i o n ~ t o ~ d a t e ~}}} & {{\\mathfrak{F 150 , 000}}} \\\\ {\\mathrm{mathtt{E x p e c t e d ~ f u t u r e ~ c a s h ~ f l o w s}}} & {{\\mathfrak{F 105 , 000}}} \\\\ {\\mathrm{mathtt{F a i r ~ v a l u e}}} & {{\\mathfrak{F 95 , 000}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {{\\mathrm{Value~in~use}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s e l l i n g ~ c o s t s}}} & {{\\mathfrak{s 10 , 000}}} \\end{array}\\end{gathered}",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\text{Original cost} & \\$250{,}000 \\\\\n\\text{Accumulated depreciation to date} & \\$150{,}000 \\\\\n\\text{Expected future cash flows} & \\$105{,}000 \\\\\n\\text{Fair value} & \\$95{,}000 \\\\\n\\text{Value in use} & \\$90{,}000 \\\\\n\\text{Selling costs} & \\$10{,}000 \\\\\n\\hline\n\\end{array}",
               "display": true,
               "sourceAsset": "7f3ae88944b469901a9c.png"
             }

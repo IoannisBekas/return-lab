@@ -18,7 +18,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{E ( X )=\\Sigma P ( x_{i} ) x_{i}=P ( x_{1} ) x_{1}+P ( x_{2} ) x_{2}+\\ldots+P ( x_{n} ) x_{n}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P ( x_{i} )=p r o b a b i l i t y ~ o f ~ o u t c o m e ~ x_{i} ~}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{E ( X )=\\Sigma P ( x_{i} ) x_{i}=P ( x_{1} ) x_{1}+P ( x_{2} ) x_{2}+\\ldots+P ( x_{n} ) x_{n}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P ( x_{i} )=probability ~ of ~ outcome ~ x_{i} ~}}} \\end{array}",
           "display": true,
           "sourceAsset": "204efbe04d03224cf753.png"
         },
@@ -36,7 +36,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c} \\hline{\\mathrm{tt~Probability}} & {\\mathrm{tt~EPS}} \\\\ \\hline{10^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.80} \\\\ {20^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.60} \\\\ {40^{\\circ} \\! \\! /_{\\tt6}} & {\\varepsilon1.20} \\\\ \\end{array}\\\\[6pt]\\frac{30 \\% \\! \\!_{\\mathbf{0}}} {100 \\% \\! \\!_{\\mathbf{0}} \\! \\!_{\\mathbf{0}} \\! \\!_{\\mathbf{0}} \\! \\!} \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\, \\pounds1.00\\end{gathered}",
+          "latex": "\\begin{array}{cc}\n\\hline\n\\text{Probability} & \\text{EPS} \\\\\n\\hline\n10\\% & \\pounds1.80 \\\\\n20\\% & \\pounds1.60 \\\\\n40\\% & \\pounds1.20 \\\\\n30\\% & \\pounds1.00 \\\\\n\\hline\n100\\% &\n\\end{array}",
           "display": true,
           "sourceAsset": "70e6fa8c3e0cf672a579.png"
         },
@@ -98,7 +98,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{T h e ~ s t a n d a r d ~ d e v i a t i o n ~ o f ~ R_A=\\sqrt{0.0028}=0.0529.}",
+          "latex": "\\mathrm{The ~ standard ~ deviation ~ of ~ R_A=\\sqrt{0.0028}=0.0529.}",
           "display": true,
           "sourceAsset": "a5a5e43509b0dd85d0d3.png",
           "prose": "The standard deviation of ."
@@ -254,10 +254,12 @@
       "text": "A probability tree shows the probabilities of two events and the conditional probabilities of two subsequent events:"
     },
     {
-      "type": "math",
-      "latex": "\\begin{matrix} \\underbrace{\\rho( A )}_{B}=\\underbrace{P ( 0 , A )}_{A D w i t h P r o b ( A D )} \\\\ \\underbrace{P ( B )}_{B}=\\underbrace{P ( 0 , B )}_{B C w i t h P r o b ( B C )} \\\\ \\end{matrix}",
-      "display": true,
-      "sourceAsset": "31fa227e2b44ab1ae029.png"
+      "type": "image",
+      "src": "content/figures/31fa227e2b44ab1ae029.png",
+      "alt": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
+      "width": 296,
+      "height": 162,
+      "visualKind": "diagram-chart-or-table"
     },
     {
       "type": "paragraph",
@@ -320,7 +322,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {c c c c} {{\\begin{array} {c c} {{\\bf x_{i}}} & {{\\bf P ( x_{i}} \\mid{\\bf Y=1} )} & {{\\bf P ( x_{i}} \\mid{\\bf Y=2} )} \\\\ \\hline{0} & {0.2} & {0.1} \\\\ {5} & {0.4} & {0.8} \\\\ {10} & {0.4} & {0.1} \\end{array}}} \\\\ \\end{array}",
+              "latex": "\\begin{array} {cccc} {{\\begin{array} {cc} {{\\bf x_{i}}} & {{\\bf P ( x_{i}} \\mid{\\bf Y=1} )} & {{\\bf P ( x_{i}} \\mid{\\bf Y=2} )} \\\\ \\hline{0} & {0.2} & {0.1} \\\\ {5} & {0.4} & {0.8} \\\\ {10} & {0.4} & {0.1} \\end{array}}} \\\\ \\end{array}",
               "display": true,
               "sourceAsset": "f116b8b224ba2e5416f1.png"
             }

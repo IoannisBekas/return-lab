@@ -36,6 +36,8 @@ REFERENCE_TABLES = {
     "4c03d785ccda6e4dbc55.png",
     "a5cbb7719f7458f34a22.png",
     "fd7cdf02d96a2690be89.png",
+    "3bf1c773e8d459b24845.png",
+    "9c7480bee3dd12df7efa.png",
 }
 MANUAL_MEANINGFUL_VISUALS = {
     "0a88218aa63cbad38f1c.png",  # joint-probability table
@@ -100,7 +102,17 @@ MANUAL_MEANINGFUL_VISUALS = {
     "f732ba150e273bf26f0f.png", "f87fc37d047c47968b63.png",
     "fbe9f55fff93a26af2cd.png", "fc400033a0f08b1267b6.png",
     "4b973189367edba55ab4.png", "9dc5da52e5cce1eda307.png",
-    "cd4273ac668e90e54170.png",
+    "cd4273ac668e90e54170.png", "31fa227e2b44ab1ae029.png",
+    "54770f97b2405c7ba97c.png", "2650a486ca28254a17dc.png",
+    "448f0b574d80ae590d30.png",
+}
+VISUAL_ALT_OVERRIDES = {
+    "31fa227e2b44ab1ae029.png": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
+    "54770f97b2405c7ba97c.png": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio.",
+    "2650a486ca28254a17dc.png": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
+    "448f0b574d80ae590d30.png": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
+    "3bf1c773e8d459b24845.png": "Quantitative methods formula reference chart, first section.",
+    "9c7480bee3dd12df7efa.png": "Quantitative methods formula reference chart, second section.",
 }
 LATEX_OVERRIDES = {
     "0aac0733302c99791356.png": r"""\begin{aligned}
@@ -208,6 +220,56 @@ WORKED_EXAMPLE_OVERRIDES = {
             {
                 "title": "Link the returns and annualize the two-year result",
                 "equations": [r"(1+R_{TW})^2=(1.22)(1.10)", r"R_{TW}=[(1.22)(1.10)]^{1/2}-1=15.84\%"],
+            },
+        ],
+    },
+    "5a8fbea51ecb510eb4cd.png": {
+        "type": "worked-example",
+        "title": "Steps in Calculating CFO Under the Indirect Method",
+        "steps": [
+            {
+                "title": "Step 1: Begin with net income",
+                "body": ["Start with reported net income from the income statement."],
+            },
+            {
+                "title": "Step 2: Adjust for noncash charges and revenues",
+                "body": [
+                    "Add back all noncash charges (such as depreciation and amortization) and subtract all noncash components of revenue."
+                ],
+            },
+            {
+                "title": "Step 3: Adjust for changes in operating accounts",
+                "body": [
+                    "Subtract increases in operating asset accounts (uses of cash), and add decreases (sources of cash).",
+                    "Add increases in operating liability accounts (sources of cash), and subtract decreases (uses of cash)."
+                ],
+            },
+        ],
+    },
+    "e3ec694db1518a4d9436.png": {
+        "type": "worked-example",
+        "title": "CFO Calculation Under Indirect Method",
+        "steps": [
+            {
+                "title": "Step 1: Start with net income",
+                "equations": [r"\text{Net income} = \$39{,}000"],
+            },
+            {
+                "title": "Step 2: Adjust for noncash items and gains/losses",
+                "body": [
+                    "Add back noncash charges: Depreciation of $7,000; Change in deferred tax liability of $5,000; Loss on disposal of PP&E of $2,000.",
+                    "Deduct noncash gains: Gain from sale of land of $10,000."
+                ],
+                "equations": [
+                    r"\text{Depreciation} = +\$7{,}000",
+                    r"\text{Deferred tax liability change} = +\$5{,}000",
+                    r"\text{Loss on disposal of PP\&E} = +\$2{,}000",
+                    r"\text{Gain from sale of land} = -\$10{,}000",
+                ],
+            },
+            {
+                "title": "Step 3: Adjust for working capital changes",
+                "body": ["Subtract increases in receivables and inventories, and add increases in payables."],
             },
         ],
     },
@@ -378,6 +440,326 @@ s_B^2=\frac{(7-7)^2+(-4-7)^2+(18-7)^2}{3-1}=121,\quad s_B=11\%\\
 \text{Forward rate in SEK/USD}=9.5238\left(\frac{1.07}{1.04}\right)=9.7985\\
 \text{The higher SEK interest rate implies approximately }3\%\text{ depreciation.}
 \end{gathered}""",
+    # Reading 004: EPS Probability Distribution
+    "70e6fa8c3e0cf672a579.png": r"""\begin{array}{cc}
+\hline
+\text{Probability} & \text{EPS} \\
+\hline
+10\% & \pounds1.80 \\
+20\% & \pounds1.60 \\
+40\% & \pounds1.20 \\
+30\% & \pounds1.00 \\
+\hline
+100\% &
+\end{array}""",
+    # Reading 001: Risk premiums
+    "012a2171072096685c6c.png": r"""\begin{aligned}
+\text{Nominal rate of interest} &= \text{real risk-free rate} \\
+&\quad + \text{inflation premium} \\
+&\quad + \text{default risk premium} \\
+&\quad + \text{liquidity premium} \\
+&\quad + \text{maturity premium}
+\end{aligned}""",
+    # Reading 001: Holding period return
+    "a2ab643f6c9472eeb52a.png": r"\mathrm{HPR} = \frac{\$22 + \$1}{\$20} - 1 = 0.15 = 15\%",
+    # Reading 001: Geometric mean return
+    "e1c9270e8be9fc06f9f5.png": r"\text{Geometric mean return} = \sqrt[n]{(1+R_1)(1+R_2)\dots(1+R_n)} - 1",
+    # Reading 001: Harmonic mean
+    "0486dc9db2e43eccde06.png": r"\text{Harmonic mean} = \frac{N}{\sum_{i=1}^{N} \frac{1}{X_i}}",
+    # Reading 001: HPR & Annualized return
+    "a53dd9fc1295af9462d0.png": r"""\begin{aligned}
+\text{HPR} &= \frac{1000}{970} - 1 = 0.0309 = 3.09\% \\
+\text{Annualized return} &= (1 + 0.0309)^{365/500} - 1 = 0.0225 = 2.25\%
+\end{aligned}""",
+    # Reading 001: Compounding Frequency Effect Table
+    "948af8310dca6ae50ad3.png": r"""\begin{array}{lll}
+\hline
+\text{Compounding Frequency} & \text{Interest Rate per Period} & \text{Present Value} \\
+\hline
+\text{Annual } (m=1) & 6.000\% & \$943.40 \\
+\text{Semiannual } (m=2) & 3.000\% & \$942.60 \\
+\text{Quarterly } (m=4) & 1.500\% & \$942.18 \\
+\text{Monthly } (m=12) & 0.500\% & \$941.91 \\
+\text{Daily } (m=365) & 0.016438\% & \$941.77 \\
+\hline
+\end{array}""",
+    # Reading 002: Continuous compounding FV and PV
+    "71511a64b2da8a8adb89.png": r"""\begin{aligned}
+FV &= PV \times e^{rN} \\
+PV &= FV \times e^{-rN}
+\end{aligned}""",
+    # Reading 002: PV calculation
+    "92218c0e04930c366544.png": r"PV = \frac{\$1,000}{(1-0.005)^{15}} = \$1,078.09",
+    # Reading 002: PV of a perpetuity
+    "6ca32a11be38a3477947.png": r"\text{PV of a perpetuity} = \frac{\text{Payment}}{r}",
+    # Reading 002: Preferred stock value
+    "38a3a057492ae32667d7.png": r"\text{Preferred stock value} = \frac{D_p}{k_p}",
+    # Reading 002: Constant growth DDM
+    "17ce9817dac87f8be1b7.png": r"V_0 = \frac{D_1}{k_e - g_c}",
+    # Reading 002: P2 calculation
+    "7d8bb9de4420c369a1eb.png": r"P_2 = \frac{D_3}{k_e - g_c} = \frac{1.386}{0.11 - 0.05} = \$23.10",
+    # Reading 002: Implied growth rate
+    "600409185df2dfa4c1c4.png": r"""\begin{aligned}
+k_e &= \frac{D_1}{V_0} + g_c \\
+g_c &= k_e - \frac{D_1}{V_0}
+\end{aligned}""",
+    # Reading 002: Cash flow series additivity
+    "b9272972d2de3d3478c2.png": r"""\begin{array}{rrrrl}
+t=1 & t=2 & t=3 & t=4 & \\
+\$100 & \$100 & \$100 & \$100 & \text{Cash flow series \#1} \\
+\$0 & \$0 & \$300 & \$0 & \text{Cash flow series \#2}
+\end{array}""",
+    # Reading 007: Standard error of sample mean
+    "a369ec81356d2a572d22.png": r"s_{\bar{x}} = \frac{s}{\sqrt{n}} = \frac{20\%}{\sqrt{30}} = 3.65\%",
+    "639706fbcd99ec24e8e5.png": r"s_{\bar{x}} = \frac{s}{\sqrt{n}} = \frac{20\%}{\sqrt{200}} = 1.41\%",
+    # Reading 008: Standard error & hypothesis tests
+    "810be4d8d44e1253925f.png": r"s_{\bar{x}} = \frac{s}{\sqrt{n}} = \frac{0.25\%}{\sqrt{250}} = 0.0158\%",
+    "3a8b1a38db57ea0e3c84.png": r"H_0: \mu_d \le \mu_{d0} \quad \text{versus} \quad H_a: \mu_d > \mu_{d0}",
+    # Reading 010: Linear regression definitions & t-stat
+    "abbdf684b573c6e11196.png": r"""\begin{gathered}
+Y_i = b_0 + b_1 X_i + \varepsilon_i, \quad i = 1, \ldots, n \\[6pt]
+\text{where:} \\
+X_i = i\text{th observation of the independent variable, } X \\
+Y_i = i\text{th observation of the dependent variable, } Y \\
+b_0 = \text{regression intercept term} \\
+b_1 = \text{regression slope coefficient} \\
+\varepsilon_i = \text{residual for the } i\text{th observation (disturbance term)}
+\end{gathered}""",
+    "08c3d6fd673c74150114.png": r"\text{The hat symbol } (\hat{\ }) \text{ above a variable denotes an estimated value.}",
+    "72af50f87c3534bda77f.png": r"t = \frac{\hat{b}_1 - b_1}{s_{\hat{b}_1}} = \frac{0.64 - 0}{0.26} = 2.46",
+    "ab64b3fcc253ffee791e.png": r"\hat{Y} = -2.3 + 0.64(10) = 4.1",
+    "7df3551b01aabdb31a69.png": r"Y_i = b_0 + b_1 \ln(X)_i + \varepsilon_i",
+    # Reading 019: Exchange rate formulas
+    "374ab524237c9caf906b.png": r"(1 + r_{\text{domestic}}) = \frac{1}{\text{spot}} (1 + r_{\text{foreign}}) \times \text{forward}_{\text{d/f}}",
+    "ecde1d4df7083bc0acde.png": r"\text{forward}_{A/D} = \text{spot}_{A/D} \left( \frac{1+r_A}{1+r_D} \right)",
+    "59a7bab092c93340df5c.png": r"\frac{S_{t+1} - S_t}{S_t} = \frac{r_f - r_d}{1 + r_d}",
+    # Reading 023: Financial ratios & balance sheet table
+    "1d3d4206156f488f3e07.png": r"\text{Current ratio} = \frac{\text{Current assets}}{\text{Current liabilities}}",
+    "163f536e1ea2a0f49728.png": r"""\begin{array}{lcc}
+\hline
+\text{Current Assets} & 20X1\ (\$'000) & 20X2\ (\$'000) \\
+\hline
+\text{Cash} & \$100 & \$150 \\
+\text{Accounts receivable} & \$200 & \$250 \\
+\text{Inventory} & \$300 & \$400 \\
+\hline
+\text{Total current assets} & \$600 & \$800 \\
+\hline
+\end{array}""",
+    # Reading 028: Diluted EPS
+    "a58e4e90c264ce9245f9.png": r"\text{Diluted EPS} = \frac{\$1,200,000}{500,000 + 25,000} = \$2.29",
+    # Reading 029: Project overhead table
+    "559b6b263200a1cb15ae.png": r"""\begin{array}{lcc}
+\hline
+& \text{Project 1 (£m)} & \text{Project 2 (£m)} \\
+\hline
+\text{Materials} & 150 & 120 \\
+\text{Direct labor} & 80 & 60 \\
+\text{Production overhead} & 40 & 30 \\
+\text{Administrative overhead} & 30 & 30 \\
+\hline
+\end{array}""",
+    # Reading 030: Cash flow items
+    "e8ca38e4c2d1ee08ecef.png": r"\text{Cash collected from customers} = \$107,000",
+    "384499f807c2b9d9336f.png": r"= \$9,000 + \$7,000 - \$12,000 = \$4,000",
+    # Reading 041: Valuation comparison tables
+    "122dbfa230f41c84ca9c.png": r"""\begin{array}{lcc}
+\hline
+& \text{Holt Industries} & \text{Industry} \\
+\hline
+\text{P/E} & 15.9 & 18.2 \\
+\text{P/B} & 2.1 & 2.5 \\
+\hline
+\end{array}""",
+    "e1ecd11b10d84268279f.png": r"""\begin{array}{lccc}
+\hline
+& 20X3 & 20X2 & 20X1 \\
+\hline
+\text{P/E} & 15.9 & 52.3 & 115.2 \\
+\hline
+\end{array}""",
+    "ee22ce734bc6fb8557cf.png": r"""\begin{array}{lc}
+\hline
+\text{Stock price} & \$45.00 \\
+\text{Shares outstanding} & 10,000,000 \\
+\hline
+\end{array}""",
+    # Reading 048: Bond payment schedules
+    "f9e7bcefe95852081235.png": r"""\begin{array}{lcccc}
+\hline
+\text{Year} & 1 & 2 & 3 & 4 \\
+\hline
+\text{PMT} & \$50 & \$50 & \$50 & \$1,050 \\
+\hline
+\end{array}""",
+    "232af2bfe2ed93b188dd.png": r"""\begin{array}{lcccc}
+\hline
+\text{Year} & 1 & 2 & 3 & 4 \\
+\hline
+\text{PMT} & \$230.97 & \$230.97 & \$230.97 & \$230.97 \\
+\hline
+\end{array}""",
+    "6c9963b8ad23b6206f52.png": r"""\begin{array}{lcccc}
+\hline
+\text{Year} & 1 & 2 & 3 & 4 \\
+\hline
+\text{PMT} & \$194.78 & \$194.78 & \$194.78 & \$194.78 \\
+\hline
+\end{array}""",
+    # Reading 050: Haircut formula
+    "646b97c76d873b2eca8a.png": r"\text{Haircut} = 1 - \frac{1}{1 + \text{initial margin percentage}}",
+    # Reading 052: Accrued interest
+    "93eba638aa9e7e539cd8.png": r"\text{Accrued interest} = \text{coupon payment} \times \frac{\text{days from last coupon to settlement}}{\text{days in coupon period}}",
+    "adf3e34552f1135dd267.png": r"\text{Accrued interest (30/360 method)} = \frac{85}{360} \times \$40 = \$9.44",
+    "e31f78fad915283413b8.png": r"\text{Accrued interest (actual/actual method)} = \frac{87}{365} \times \$40 = \$9.53",
+    # Reading 059: Bond price change
+    "ba96f16765368aed85a2.png": r"\text{Change in full bond price} = -\text{EffDur} \times (\Delta \text{Curve}) + \frac{1}{2} \times \text{EffConvexity} \times (\Delta \text{Curve})^2",
+    # Reading 065: Debt service ratio
+    "4a6e750edfdbd1322d75.png": r"N = 25 \times 12 = 300; \quad I/Y = 6/12 = 0.5; \quad PV = \$300,000",
+    "933cf0f9dc9d85ba782c.png": r"\text{WAM} = 210\left(\frac{90}{409}\right) + 100\left(\frac{72}{409}\right) + 280\left(\frac{247}{409}\right) = 233.2\text{ months}",
+    "6ea02e936690c88a3738.png": r"\text{Debt service coverage ratio} = \frac{\text{Net operating income}}{\text{Debt service}}",
+    # Reading 069: Arbitrage relationship
+    "c6c753f06b3f91e1c010.png": r"S_T - S_0(1+R_f)^T - [S_T - F_0(T)] = 0 \implies F_0(T) = S_0(1+R_f)^T",
+    # Reading 070: Forward rate agreement
+    "ee220812fb982a0026de.png": r"1 + 0.012\left(\frac{9}{12}\right) = \left[1 + 0.01\left(\frac{3}{12}\right)\right] \left[1 + F_{3,6}\left(\frac{6}{12}\right)\right]",
+    # Reading 074: Put-call parity
+    "f747ba577b8ff289a28a.png": r"\text{Call} = \text{Put} + \text{Stock} - \text{PV}(X)",
+    # Reading 075: Binomial model
+    "046edb488fbec717e92a.png": r"\text{As an example, we can model a call option with an exercise price of \$50 on a stock currently valued at \$50.}",
+    "e5a28a11d341b77a5e29.png": r"\text{The call option will be in the money after an up-move, or out of the money after a down-move.}",
+    "a5e2a0881720336dc878.png": r"V_1^d = h S_1^d - c_1^d",
+    "3db96982ae6fb053b7eb.png": r"V_1^u = h(\$60) - \$5, \quad V_1^d = h(\$42) - \$0. \quad \text{Setting } V_1^u = V_1^d \implies h = 0.278",
+    "6094e1284eeec6466339.png": r"\text{The put option will be in the money after a down-move, or out of the money after an up-move.}",
+    "80cd4f684d862db52ca6.png": r"V_1^u = V_1^d",
+    "1a11312e2f6408b1206f.png": r"V_0 = h S_0 + p_0 \implies p_0 = V_0 - h S_0",
+    "bdb9a8eef7baa5bd9f42.png": r"\pi_U = \text{risk-neutral probability of an up-move} = \frac{1+R_f - R^d}{R^u - R^d}",
+    # Reading 077: Return calculation
+    "adac6a6934a7033d477c.png": r"\frac{73}{60} - 1 = 21.7\%",
+    # Reading 083: Portfolio utility & risk
+    "8cf32f859922333e68e4.png": r"U = E(r) - \frac{1}{2} A \sigma^2",
+    "40a3e3cf67f93acf08af.png": r"\sigma_{\text{portfolio}} = \sqrt{w_A^2 \sigma_A^2} = w_A \sigma_A",
+    "d4e7083bdb1383817f6a.png": r"""\begin{array}{ccc}
+\hline
+\text{Year} & \text{Asset A} & \text{Asset B} \\
+\hline
+1 & 5\% & 7\% \\
+2 & -2\% & -4\% \\
+3 & 12\% & 18\% \\
+\hline
+\end{array}""",
+    # Reading 084: CAPM & Multifactor models
+    "3f42b9f9e60661df1847.png": r"\sigma_P = \sqrt{w_A^2 \sigma_A^2} = w_A \sigma_A",
+    "caa42df0b0d26eb1a8f1.png": r"E(R_P) = R_f + \left(\frac{E(R_M) - R_f}{\sigma_M}\right)\sigma_P",
+    "40e4f9f579c995838c9f.png": r"E(R_P) = R_f + (E(R_M) - R_f)\beta_P",
+    "eed272798b2e9f62fe87.png": r"E(R_i) - R_f = \beta_{i1}E(\text{Factor 1}) + \beta_{i2}E(\text{Factor 2}) + \dots + \beta_{ik}E(\text{Factor } k)",
+    "7c6407df19760e0d6394.png": r"h(\$60) - \$5 = h(\$42) \implies h = 0.278",
+    "56c9cf67bc96796123e6.png": r"\text{MAD} = \frac{\sum_{i=1}^{n} |X_i - \bar{X}|}{n}",
+    "fbf3e68baaed4ff8947d.png": r"\rho_{XY} = \frac{s_{XY}}{s_X s_Y}, \quad \text{which implies: } s_{XY} = \rho_{XY} s_X s_Y",
+    "6f7d6721732b90a06895.png": r"""\begin{aligned}
+s_A &= (0.0028)^{1/2} = 0.0529 \\
+s_B &= (0.0124)^{1/2} = 0.1114
+\end{aligned}""",
+    "6c8cb6afad7e90f528c5.png": r"\text{Safety-first ratio} = \frac{E(R_p) - R_L}{\sigma_p}",
+    "03b39cec5a8e33a436bb.png": r"P_T = P_0 \, e^{r_{0,T}}",
+    "9a62ec5a44dc7db55225.png": r"s_{\bar{x}} = \frac{s}{\sqrt{n}}",
+    "a38b270081b03ba09da7.png": r"\text{Don't be confused by the notation here. A lot of texts use } \bar{d} \text{ for the sample mean of differences.}",
+    "877bc4cbaff9c9d12876.png": r"\frac{r \sqrt{n-2}}{\sqrt{1 - r^2}}",
+    "83809d2c1406aff62574.png": r"\hat{b}_0 = \bar{Y} - \hat{b}_1 \bar{X}",
+    "5175fc426ed42eaff4fe.png": r"\hat{Y} = \hat{b}_0 + \hat{b}_1 X_p",
+    "abd01d0c111f07d0253d.png": r"\hat{Y} \pm (t_c \times s_f) \implies [\hat{Y} - (t_c \times s_f) < Y < \hat{Y} + (t_c \times s_f)]",
+    "ff49e194dc3fc66d1f2a.png": r"\hat{Y} = -2.39 + 0.64(10) = 4.01",
+    "5c9ceccfa8fd273aa824.png": r"\hat{Y} \pm (t_c \times s_f) \implies [4.01 \pm (2.072 \times 0.26)]",
+    "bb6ecc27c0cbd1e6337b.png": r"\ln Y_i = b_0 + b_1 X_i + \varepsilon_i",
+    "819eda0a509b1969d279.png": r"\text{Basic EPS} = \frac{\$4,350,000 - 0.07(\$5,000,000)}{2,000,000} = \$2.00",
+    "9abe5ba2d44aca0045c2.png": r"\text{Diluted EPS} = \frac{\text{Net income} - \text{Pref div} + \text{Convertible pref div}}{\text{Weighted avg shares} + \text{Convertible pref shares}}",
+    "1d260d0f595acaec7f2f.png": r"\frac{\$70,000}{240,000} = \$0.29",
+    "3dbe8ac6cf26ab55990e.png": r"\frac{100,000 \times \$200 + 1,000,000 \times \$10 + 20,000,000 \times \$1}{540,000,000} = \$0.57",
+    "aa78b62a7de945514420.png": r"\text{Preferred stock value} = \frac{D_p}{k_p}",
+    "ed5a410b1dc2a81c0be6.png": r"D_4 = (\text{Dividend payout ratio})(E_4) = (0.5)(1.64) = \$0.82",
+    "7abf2c379bfd3efcaa6f.png": r"""\begin{array}{lc}
+\hline
+\text{Depreciation on disposed PPE} & \$15,000 \\
+\hline
+\end{array}""",
+    "b583f1e5ba5f082abf43.png": r"""\begin{array}{lc}
+\hline
+\text{Beginning carrying value} & \$51,000 \\
+\text{Less: Depreciation expense} & (15,000) \\
+\text{Ending carrying value} & \$36,000 \\
+\hline
+\end{array}""",
+    "fa3b18b362e1185e933e.png": r"""\begin{aligned}
+\text{Step 3: Cash collected from customers} &= \$107,000 \\
+&= \$104,000 + \$7,000 - \$4,000
+\end{aligned}""",
+    "db12b58e6eb019d8b389.png": r"\text{Debt-to-equity} = \frac{\text{Total debt}}{\text{Total shareholders' equity}}",
+    "7afefb7c0aa43c5f8fa5.png": r"\text{Debt-to-EBITDA} = \frac{\text{Total debt}}{\text{EBITDA}}",
+    "68b5d18bf43d41e39779.png": r"\text{per share impact} = \frac{\$42,000}{25,000\text{ shares}} = \$1.68",
+    # Cleaned math formulas & tables from comprehensive visual audit
+    "2c2e94112153ae13e113.png": r"""\begin{aligned}
+\bar{X} &= \frac{30+12+25+20+23}{5} = 22\% \\
+s^2 &= \frac{(30-22)^2+(12-22)^2+(25-22)^2+(20-22)^2+(23-22)^2}{5-1} = 44.5(\%^2)
+\end{aligned}""",
+    "5ccb6fd44842b0b8b684.png": r"\text{Coefficient of variation (CV)} = \frac{s_x}{\bar{X}} = \frac{\text{standard deviation of } X}{\text{mean of } X}",
+    "6806b7731d44425ea82c.png": r"""\begin{gathered}
+\text{The chi-square test statistic, } \chi^2_{n-1}\text{, is compared to a critical value at } n - 1 \text{ degrees of freedom.} \\[4pt]
+\text{Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative.}
+\end{gathered}""",
+    "da9ef46306314492193b.png": r"""\begin{gathered}
+\hat{Y}_i = \hat{b}_0 + \hat{b}_1 X_i, \quad i = 1, 2, \ldots, n \\[4pt]
+\begin{aligned}
+\text{where:}\quad
+\hat{Y}_i &= \text{estimated value of } Y_i \text{ given } X_i \\
+\hat{b}_0 &= \text{estimated intercept term} \\
+\hat{b}_1 &= \text{estimated slope coefficient}
+\end{aligned}
+\end{gathered}""",
+    "cf91320a47a33772fb90.png": r"""\begin{gathered}
+\text{The intercept term } (\hat{b}_0) \text{ is the line's intersection with the } Y\text{-axis at } X = 0\text{.} \\
+\text{It may be positive, negative, or zero. It is expressed as: } \hat{b}_0 = \bar{Y} - \hat{b}_1 \bar{X}
+\end{gathered}""",
+    "9f2e7b9065d05cb1a4b2.png": r"\text{The estimated intercept, } \hat{b}_0\text{, represents the value of the dependent variable where the regression line intersects the } Y\text{-axis.}",
+    "64fa2c7561a8b4ad35c4.png": r"\hat{Y}_p = \hat{b}_0 + \hat{b}_1 X_p",
+    "e1309dd1d7fb8e69b33d.png": r"\text{Appreciation of the price currency} = \frac{1}{1-0.0139} - 1 = 0.0141 = 1.41\%",
+    "7973c9e97fb289306ab9.png": r"\text{Spot (USD/CHF)} = 0.80 \left( \frac{1.04}{1.10} \right) = 0.7564",
+    "6c9fcbbb3cf8dcbf3d91.png": r"""\begin{gathered}
+r_e = r_0 + \frac{D}{E}(r_0 - r_d) \\[4pt]
+\begin{aligned}
+\text{where:}\quad
+r_e &= \text{cost of equity} \\
+r_0 &= \text{cost of equity with no debt (all equity)} \\
+r_d &= \text{cost of debt} \\
+D/E &= \text{debt-to-equity ratio}
+\end{aligned}
+\end{gathered}""",
+    "0fdf4c386c02445a2eb3.png": r"\text{Diluted EPS} = \frac{\left[\text{Net income} - \text{Preferred dividends}\right] + \left[\begin{matrix}\text{Convertible} \\ \text{preferred} \\ \text{dividends}\end{matrix}\right] + \left(\begin{matrix}\text{Convertible} \\ \text{debt} \\ \text{interest}\end{matrix}\right)(1-t)}{\left(\begin{matrix}\text{Weighted} \\ \text{average} \\ \text{shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\ \text{conversion of} \\ \text{conv. pref. shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\ \text{conversion of} \\ \text{conv. debt}\end{matrix}\right) + \left(\begin{matrix}\text{Shares} \\ \text{issuable from} \\ \text{stock options}\end{matrix}\right)}",
+    "3d59c6ec97e12697b5d2.png": r"\text{Diluted EPS} = \frac{\left[\text{Net income} - \text{Preferred dividends}\right] + \left[\begin{matrix}\text{Convertible} \\ \text{preferred} \\ \text{dividends}\end{matrix}\right] + \left(\begin{matrix}\text{Convertible} \\ \text{debt} \\ \text{interest}\end{matrix}\right)(1-t)}{\left(\begin{matrix}\text{Weighted} \\ \text{average} \\ \text{shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\ \text{conversion of} \\ \text{conv. pref. shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\ \text{conversion of} \\ \text{conv. debt}\end{matrix}\right) + \left(\begin{matrix}\text{Shares} \\ \text{issuable from} \\ \text{stock options}\end{matrix}\right)}",
+    "3fbfda69d29ce8b068e1.png": r"""\begin{array}{lr}
+\hline
+\text{Net income} & \$120 \\
+\text{Decrease in accounts receivable} & 20 \\
+\text{Depreciation} & 25 \\
+\text{Increase in inventory} & 10 \\
+\text{Increase in accounts payable} & 7 \\
+\text{Decrease in wages payable} & 5 \\
+\text{Increase in deferred tax liabilities} & 15 \\
+\text{Profit from the sale of land} & 2 \\
+\hline
+\end{array}""",
+    "7f3ae88944b469901a9c.png": r"""\begin{array}{lr}
+\hline
+\text{Original cost} & \$250{,}000 \\
+\text{Accumulated depreciation to date} & \$150{,}000 \\
+\text{Expected future cash flows} & \$105{,}000 \\
+\text{Fair value} & \$95{,}000 \\
+\text{Value in use} & \$90{,}000 \\
+\text{Selling costs} & \$10{,}000 \\
+\hline
+\end{array}""",
+    "28c9d5ee90ae3d239365.png": r"""\begin{aligned}
+\text{20X6: } 365 / 3.71 &= 98\text{ days} \\
+\text{20X7: } 365 / 6.83 &= 53\text{ days}
+\end{aligned}""",
 })
 
 
@@ -395,6 +777,59 @@ def clean_latex(latex: str) -> str:
     latex = re.sub(r"^\$+|\$+$", "", latex)
     latex = re.sub(r"^\\\[|\\\]$", "", latex)
     latex = latex.replace("\\label{}", "")
+
+    # Remove OCR repetition loops
+    latex = re.sub(r"(the_cor|the~cor|the cor|ore the cor|erres~t~erm|\/the_cor)+", "", latex)
+
+    # Clean OCR garbage percentages: 10^{\circ} \! \! /_{\tt6} -> 10\%
+    latex = re.sub(r"(\d+)\s*\^\{\\circ\}\s*(?:\\!\s*)*\/_\{?\\?tt?\d*\}?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+)\s*\^\{9\}\s*(?:\\!\s*)*[∨\^/]_?\{?\\!?\s*\d*\}?", r"\1\\%", latex)
+    latex = re.sub(r"\\%_\{\\mathbf\{0\}\}", r"\\%", latex)
+    latex = re.sub(r"\\%_\{\\mathsf\{0\}\}", r"\\%", latex)
+    latex = re.sub(r"\\%_\{\\mathrm\{0\}\}", r"\\%", latex)
+    latex = re.sub(r"\\%_\{\\mathbf\{0\}\\!\s*\\!\}", r"\\%", latex)
+    latex = re.sub(r"\\%_\{\\mathsf\{d\}\}", r"\\%", latex)
+    latex = re.sub(r"\\mathcal\\%", r"\\%", latex)
+
+    # Clean currency and Fraktur/Sans-serif misreads
+    latex = re.sub(r"\\varepsilon(?=\d)", r"\\pounds ", latex)
+    latex = re.sub(r"\\varepsilon_\{\\bf m\}", r"\\pounds\\text{m}", latex)
+    latex = re.sub(r"(\\Im|\\Re)(?=\d)", r"\\$", latex)
+    latex = re.sub(r"\\mathfrak\{S\}\s*(\d)", r"\\$\1", latex)
+    latex = re.sub(r"\\mathfrak\s*S\s*(\d)", r"\\$\1", latex)
+    latex = re.sub(r"\\mathfrak\{s\}", r"s", latex)
+    latex = re.sub(r"\\mathfrak\{n\}", r"n", latex)
+    latex = re.sub(r"\\mathfrak\{r\}", r"r", latex)
+    latex = re.sub(r"\\mathfrak\{b\}", r"b", latex)
+    latex = re.sub(r"\\mathfrak\{X\}", r"X", latex)
+    latex = re.sub(r"\\mathfrak\{S\}", r"\\$", latex)
+    latex = re.sub(r"\\mathfrak\{p\}", r"p", latex)
+    latex = re.sub(r"\\mathsf\{S\}", r"\\$", latex)
+    latex = re.sub(r"\\mathsf\{s\}", r"s", latex)
+
+    # Clean card suits
+    latex = re.sub(r"\\heartsuit(?:_\{\\?[a-zA-Z0-9]+\}|_[a-zA-Z0-9]+)?", r"\\%", latex)
+    latex = re.sub(r"\\(?:spadesuit|clubsuit|diamondsuit)", r"", latex)
+
+    # Clean mathtt and mangled OCR intercepts / typos
+    latex = re.sub(r"\\?mathtt\{([^}]+)\}", r"\\text{\1}", latex)
+    latex = re.sub(r"\\hat\{\\Phi\}_0", r"\\hat{b}_0", latex)
+    latex = re.sub(r"\\hat\{\\theta\}_\{\\emptyset\}", r"\\hat{b}_0", latex)
+    latex = re.sub(r"\bSrep\b", "Step", latex)
+
+    # Clean \hbar misreads
+    latex = re.sub(r"i\s*\\hbar\s*\\mathrm\{~observation", r"i\\text{th observation}", latex)
+
+    # Clean \ttProbability / \tt EPS
+    latex = re.sub(r"\{\\mathrm\{tt~([^}]+)\}\}", r"\\text{\1}", latex)
+    latex = re.sub(r"\{\\tt\s*([^}]+)\}", r"\\text{\1}", latex)
+    latex = re.sub(r"\\tt\b", r"", latex)
+
+    # Collapse space-separated single-letter sequences inside text/math commands
+    # e.g., "c a s h - r e t u r n" -> "cash-return"
+    for _ in range(5):
+        latex = re.sub(r"\b([a-zA-Z])\s+(?=[a-zA-Z]\b)", r"\1", latex)
+
     latex = re.sub(r"\\root\\infty_?(?:\{0\}|0)", r"\\%\\Delta", latex)
     latex = re.sub(r"\\root\s*(\d+)\s*\\mathrm\{of\}\{([^{}]+)\}", r"\\sqrt[\1]{\2}", latex)
     latex = re.sub(r"9\s*\\of\{\}|9\s*\\surd_?\{?0\}?", r"\\%", latex)
@@ -403,7 +838,6 @@ def clean_latex(latex: str) -> str:
     latex = re.sub(r"\\b(?=\s*=)", "b", latex)
     latex = re.sub(r"\\of\b", r"\\mathrm{of}", latex)
     latex = re.sub(r"\\S(?=\s*\d)", r"\\$", latex)
-    latex = re.sub(r"\\mathrm\{([^{}]*)\}", lambda match: "\\mathrm{" + match.group(1).replace(" ", "") + "}", latex)
     for _ in range(4):
         latex = re.sub(r"(?<=\d)\s+(?=[\d.])|(?<=\.)\s+(?=\d)", "", latex)
     replacements = {
@@ -575,6 +1009,14 @@ def main() -> None:
                 block["prose"] = prose
         else:
             block["visualKind"] = "diagram-chart-or-table"
+            if not block.get("width") or not block.get("height"):
+                with Image.open(CONTENT / "figures" / name) as img:
+                    block["width"] = img.width
+                    block["height"] = img.height
+            if name in VISUAL_ALT_OVERRIDES:
+                block["alt"] = VISUAL_ALT_OVERRIDES[name]
+            elif not block.get("alt"):
+                block["alt"] = f"Instructional visual diagram or table: {name}"
 
     source_audit = load_json(ROOT / "docs/full-reading-import-audit.json")
     source_ids: dict[str, list[str]] = {}

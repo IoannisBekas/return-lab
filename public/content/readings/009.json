@@ -18,7 +18,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\tt r=s a m p l e \\ c o r r e l a t i o n}} \\\\ {{\\tt n=s a m p l e \\ s i z e}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\text{r=sample \\ correlation}} \\\\ {\\text{n=sample \\ size}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "980d5deecbd5667baeb5.png"
         },
@@ -85,7 +85,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{{\\mathfrak{r}}_{\\mathfrak{s}} \\sqrt{{\\mathfrak{n}}-2}} {\\sqrt{1-{\\mathfrak{r}}_{\\mathfrak{s}}^{2}}}",
+          "latex": "\\frac{r \\sqrt{n-2}}{\\sqrt{1 - r^2}}",
           "display": true,
           "sourceAsset": "877bc4cbaff9c9d12876.png"
         },
@@ -124,7 +124,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\mathrm{X^{2}=\\sum_{s=1}^{r} \\sum_{j=1}^{c} \\frac{( O_{i j}-E_{i j} )^{2}} {E_{i j}}}\\\\[6pt]\\begin{array} {l} {O_{\\frac{i} {i}}=\\mathrm{number~of~observations~in~Cell~i,j} ; \\mathrm{~Row~} i \\mathrm{~and~Column~} j \\, ( \\mathrm{i.e.,~observed} )} \\\\ {\\mathrm{~frequency)}} \\\\ {\\mathrm{~ E_{i_{i}}}=\\mathrm{expected~mumber~of~observations~for~Cell~i,j~}} \\\\ {\\mathrm{~I'~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~column~categories}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\mathrm{X^{2}=\\sum_{s=1}^{r} \\sum_{j=1}^{c} \\frac{( O_{ij}-E_{ij} )^{2}} {E_{ij}}}\\\\[6pt]\\begin{array} {l} {O_{\\frac{i} {i}}=\\mathrm{number~of~observations~in~Cell~i,j} ; \\mathrm{~Row~} i \\mathrm{~and~Column~} j \\, ( \\mathrm{i.e.,~observed} )} \\\\ {\\mathrm{~frequency)}} \\\\ {\\mathrm{~ E_{i_{i}}}=\\mathrm{expected~mumber~of~observations~for~Cell~i,j~}} \\\\ {\\mathrm{~I'~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~column~categories}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "083fbe7940af1ac28945.png"
         },
@@ -224,7 +224,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n} d_i^2 ~} ~}}} \\\\ {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n-1} d_{i}^2 ~} ~ i s ~ t h e ~ s u m ~ o f ~ t h e ~ s q u a r e d ~ d i f f e r e n c e s ~ i n ~ p a i r s ~ o f ~ r a n k s ~ a n d ~} n \\mathrm{~is~the~}}} \\\\ {{\\mathrm{~number~of~sample~periods~The~test~statistic~follows~a~t-distribution~for~samples~sizes}}} \\\\ {{\\mathrm{~greater~than~30.}}} \\\\ \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n} d_i^2 ~} ~}}} \\\\ {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n-1} d_{i}^2 ~} ~ is ~ the ~ sum ~ of ~ the ~ squared ~ differences ~ in ~ pairs ~ of ~ ranks ~ and ~} n \\mathrm{~is~the~}}} \\\\ {{\\mathrm{~number~of~sample~periods~The~test~statistic~follows~a~t-distribution~for~samples~sizes}}} \\\\ {{\\mathrm{~greater~than~30.}}} \\\\ \\end{array}",
       "display": true,
       "sourceAsset": "86e9bb925cceac7c8371.png",
       "prose": "is the sum of the squared differences in pairs of ranks and n is the number of sample periods. The test statistic follows a t-distribution for samples sizes greater than 30."

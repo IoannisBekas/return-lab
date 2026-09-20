@@ -63,7 +63,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l r l} \\hline{\\mathrm{Tranche~Name}} & {\\mathrm{Face~Value~(5)}} & {\\mathrm{Interest~Rate}} \\\\ \\hline{\\mathrm{Tranche~A~senior~notes}} & {300 , 000 , 000} & {\\mathrm{M R R+0.5 \\%_{6} ~}} \\\\ {\\mathrm{Tranche~B~subordinated~notes}} & {80 , 000 , 000} & {\\mathrm{M R R+1.5 \\%_{6} ~}} \\end{array}\\\\[6pt]\\begin{array} {l l l} {\\mathrm{Tranche~C~subordinated~notes}} & {{}} & {{\\underline{{30 , 000 , 000}}}} & {{}} & {{\\underline{{\\mathrm{Variable}}}}} \\\\ {\\mathrm{Total}} & {{}} & {{410 , 000 , 000}} & {{}} & {{}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lrl} \\hline{\\mathrm{Tranche~Name}} & {\\mathrm{Face~Value~(5)}} & {\\mathrm{Interest~Rate}} \\\\ \\hline{\\mathrm{Tranche~A~senior~notes}} & {300 , 000 , 000} & {\\mathrm{MRR+0.5 \\%_{6} ~}} \\\\ {\\mathrm{Tranche~B~subordinated~notes}} & {80 , 000 , 000} & {\\mathrm{MRR+1.5 \\%_{6} ~}} \\end{array}\\\\[6pt]\\begin{array} {lll} {\\mathrm{Tranche~C~subordinated~notes}} & {{}} & {{\\underline{{30 , 000 , 000}}}} & {{}} & {{\\underline{{\\mathrm{Variable}}}}} \\\\ {\\mathrm{Total}} & {{}} & {{410 , 000 , 000}} & {{}} & {{}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "6e44584c91d80f8723b7.png"
         },

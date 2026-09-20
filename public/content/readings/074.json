@@ -62,7 +62,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{S}} & {{}=\\operatorname{c}-\\operatorname{p}+\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{p}} & {{}=\\operatorname{c}-\\operatorname{S}+\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{c}} & {{}=\\operatorname{S}+\\operatorname{p}-\\operatorname{X} ( 1+\\operatorname{R f} )^{-1}} \\\\ {\\operatorname{X}} & {{} ( 1+\\operatorname{R f} )^{-1}=\\operatorname{S}+\\operatorname{p}-\\operatorname{c}} \\end{aligned}",
+          "latex": "\\begin{aligned} {\\operatorname{S}} & {{}=\\operatorname{c}-\\operatorname{p}+\\operatorname{X} ( 1+\\operatorname{Rf} )^{-1}} \\\\ {\\operatorname{p}} & {{}=\\operatorname{c}-\\operatorname{S}+\\operatorname{X} ( 1+\\operatorname{Rf} )^{-1}} \\\\ {\\operatorname{c}} & {{}=\\operatorname{S}+\\operatorname{p}-\\operatorname{X} ( 1+\\operatorname{Rf} )^{-1}} \\\\ {\\operatorname{X}} & {{} ( 1+\\operatorname{Rf} )^{-1}=\\operatorname{S}+\\operatorname{p}-\\operatorname{c}} \\end{aligned}",
           "display": true,
           "sourceAsset": "db38b93cec8611639d06.png"
         },
@@ -112,7 +112,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{c a l l}} & {{}=\\operatorname{p u t}+\\operatorname{s t o c k}-\\operatorname{p r e s e n t \\: v a l u e \\: ( X )}} \\\\ {\\operatorname{c a l l}} & {{}=\\$1.50+\\$52-\\frac{\\$50} {1.05^{0.25}}=\\$4.11} \\\\ \\end{aligned}",
+          "latex": "\\text{Call} = \\text{Put} + \\text{Stock} - \\text{PV}(X)",
           "display": true,
           "sourceAsset": "f747ba577b8ff289a28a.png"
         },
@@ -248,7 +248,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{aligned} {{\\mathsf{c}}} & {{}={\\mathsf{S}}+{\\mathsf{p}}-{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{p}}} & {{}={\\mathsf{c}}-{\\mathsf{S}}+{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{S}}} & {{}={\\mathsf{c}}-{\\mathsf{p}}+{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{X}} ( 1+{\\mathsf{R f}} )^{-{\\mathsf{T}}}} & {{}={\\mathsf{S}}+{\\mathsf{p}}-{\\mathsf{c}}} \\end{aligned}",
+      "latex": "\\begin{aligned} {{\\mathsf{c}}} & {{}={\\$}+{\\mathsf{p}}-{\\mathsf{X}} ( 1+{\\mathsf{Rf}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{p}}} & {{}={\\mathsf{c}}-{\\$}+{\\mathsf{X}} ( 1+{\\mathsf{Rf}} )^{-{\\mathsf{T}}}} \\\\ {{\\$}} & {{}={\\mathsf{c}}-{\\mathsf{p}}+{\\mathsf{X}} ( 1+{\\mathsf{Rf}} )^{-{\\mathsf{T}}}} \\\\ {{\\mathsf{X}} ( 1+{\\mathsf{Rf}} )^{-{\\mathsf{T}}}} & {{}={\\$}+{\\mathsf{p}}-{\\mathsf{c}}} \\end{aligned}",
       "display": true,
       "sourceAsset": "8c8d03dffbce31c554e9.png"
     },

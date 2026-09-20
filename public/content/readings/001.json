@@ -62,7 +62,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{nominal~rate~of~interest}=\\mathrm{real~risk-free~rate}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\mathrm{~default~risk~premium}}} \\end{array}\\\\[6pt]+ \\mathrm{~liquidity~premium} \\,+\\mathrm{~maturity~premium}\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\text{Nominal rate of interest} &= \\text{real risk-free rate} \\\\\n&\\quad + \\text{inflation premium} \\\\\n&\\quad + \\text{default risk premium} \\\\\n&\\quad + \\text{liquidity premium} \\\\\n&\\quad + \\text{maturity premium}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "012a2171072096685c6c.png"
         },
@@ -97,7 +97,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{HPR}=\\left( 22+1 \\right) / \\ 20-1=0.15=15 \\%_{\\mathsf{0}}",
+          "latex": "\\mathrm{HPR} = \\frac{\\$22 + \\$1}{\\$20} - 1 = 0.15 = 15\\%",
           "display": true,
           "sourceAsset": "a2ab643f6c9472eeb52a.png"
         },
@@ -135,7 +135,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathsf{g e o m e t r i c ~ m e a n ~ r e t u r n}}={\\sqrt{\\left( 1+{\\mathsf{R}}_{1} \\right) \\times\\left( 1+{\\mathsf{R}}_{2} \\right) \\times\\left( 1+{\\mathsf{R}}_{3} \\right) \\times\\ldots\\times\\left( 1+{\\mathsf{R}}_{n} \\right)}}-1",
+          "latex": "\\text{Geometric mean return} = \\sqrt[n]{(1+R_1)(1+R_2)\\dots(1+R_n)} - 1",
           "display": true,
           "sourceAsset": "e1c9270e8be9fc06f9f5.png"
         },
@@ -223,7 +223,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{~ p u r c h a s e d ~ o v e r ~ t i m e . ~ T h e ~ h a r m o n i c ~ m e a n ~ i s ~ c a l c u l a t e d ~ a s ~ \\sum_{i=1}^{N} \\frac{N} {X_{i}} ~ w h e r e ~ t h e r e ~ a r e ~ N ~}} \\\\ {\\mathrm{~values~of~X_i~.}} \\\\ \\end{aligned}",
+          "latex": "\\text{Harmonic mean} = \\frac{N}{\\sum_{i=1}^{N} \\frac{1}{X_i}}",
           "display": true,
           "sourceAsset": "0486dc9db2e43eccde06.png",
           "prose": "purchased over time. The harmonic mean is calculated as where there are N values of Xi."
@@ -619,7 +619,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{HPR}=\\frac{1000} {970}-1} & {{}=0.0309=3.09^{9} \\! \\! \\vee_{\\! 6}} \\\\ {\\mathrm{annualized~return}=( 1+0.0309 )^{365 / 500}-1} & {{}=0.0225=2.25^{9} \\! \\! \\vee_{\\! 6}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned}\n\\text{HPR} &= \\frac{1000}{970} - 1 = 0.0309 = 3.09\\% \\\\\n\\text{Annualized return} &= (1 + 0.0309)^{365/500} - 1 = 0.0225 = 2.25\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "a53dd9fc1295af9462d0.png"
         },
@@ -695,7 +695,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l l} {{\\mathrm{Compounding}}} & {{\\mathrm{Interest~Rate}}} & {{\\mathrm{Present}}} \\\\ {{\\mathrm{Frequency}}} & {{\\mathrm{per~Period}}} & {{\\mathrm{Value}}} \\\\ \\hline{{\\mathrm{Annual~} ( m=1 )}} & {{\\mathrm{6.000^{9} /_{6} ~}}} & {{\\mathrm{S943.40}}} \\\\ {{\\mathrm{Semiannual~} ( m=2 )}} & {{\\mathrm{~3.000~}}} & {{\\mathrm{~942.60}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\operatorname{Q u a r t e r l y} {( m=4 )}} & {{} \\qquad1.500 \\qquad\\qquad942.18} \\\\ {\\operatorname{M o n t h l y} {( m=12 )}} & {{} \\qquad0.500 \\qquad\\qquad941.91} \\\\ {\\operatorname{D a i l y} {( m=365 )}} & {{} \\qquad0.016438 \\qquad} & {941.77} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{array}{lll}\n\\hline\n\\text{Compounding Frequency} & \\text{Interest Rate per Period} & \\text{Present Value} \\\\\n\\hline\n\\text{Annual } (m=1) & 6.000\\% & \\$943.40 \\\\\n\\text{Semiannual } (m=2) & 3.000\\% & \\$942.60 \\\\\n\\text{Quarterly } (m=4) & 1.500\\% & \\$942.18 \\\\\n\\text{Monthly } (m=12) & 0.500\\% & \\$941.91 \\\\\n\\text{Daily } (m=365) & 0.016438\\% & \\$941.77 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "948af8310dca6ae50ad3.png"
         },
@@ -705,7 +705,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{R}_{C C}=\\ln( 1+\\mathrm{HPR} )=\\ln\\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
+          "latex": "\\mathrm{R}_{CC}=\\ln( 1+\\mathrm{HPR} )=\\ln\\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
           "display": true,
           "sourceAsset": "ae70f4c52d7c7004a66e.png"
         },
@@ -727,7 +727,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{l n} \\Bigl( \\frac{120} {100} \\Bigr)=18.232 \\%",
+          "latex": "\\operatorname{ln} \\Bigl( \\frac{120} {100} \\Bigr)=18.232 \\%",
           "display": true,
           "sourceAsset": "e67c7335e0a840ba2c9e.png"
         },
@@ -1168,7 +1168,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{HPR}_{1}=} & {{} \\frac{50+1} {40}-1=27.59_{6}} \\\\ {\\mathrm{HPR}_{2}=} & {{} \\frac{120+2} {100}-1=22.09_{6}} \\\\ \\end{aligned}\\\\[6pt]\\mathbf{2. A} \\, \\mathbf{\\dot{T} W R}=\\sqrt{( 1+0.275 ) ( 1+0.22 )}-1=24.7296\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{HPR}_{1}=} & {{} \\frac{50+1} {40}-1=27.59_{6}} \\\\ {\\mathrm{HPR}_{2}=} & {{} \\frac{120+2} {100}-1=22.09_{6}} \\\\ \\end{aligned}\\\\[6pt]\\mathbf{2. A} \\, \\mathbf{\\dot{T} WR}=\\sqrt{( 1+0.275 ) ( 1+0.22 )}-1=24.7296\\end{gathered}",
               "display": true,
               "sourceAsset": "7960c885d7c1021a5ccf.png"
             }

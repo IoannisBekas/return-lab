@@ -46,7 +46,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{Operating~cash~flow}} \\\\ {+/-\\mathrm{~Investing~cash~flow}} \\\\ {+/-\\mathrm{~Financing~cash~flow}} \\\\ {=\\mathrm{~Change~in~cash~balance}} \\end{aligned}\\\\[6pt]\\begin{array} {r l} {+} & {{\\mathrm{Large{~ B e g i n n i n g ~ c a s h ~ b a l a n c e ~}}}} \\\\ {=} & {{\\mathrm{Large{~ E n d i n g ~ c a s h ~ b a l a n c e ~}}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{Operating~cash~flow}} \\\\ {+/-\\mathrm{~Investing~cash~flow}} \\\\ {+/-\\mathrm{~Financing~cash~flow}} \\\\ {=\\mathrm{~Change~in~cash~balance}} \\end{aligned}\\\\[6pt]\\begin{array} {rl} {+} & {{\\mathrm{Large{~ Beginning ~ cash ~ balance ~}}}} \\\\ {=} & {{\\mathrm{Large{~ Ending ~ cash ~ balance ~}}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "841e97a57ea43532ea06.png"
         },
@@ -72,7 +72,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l} {{\\mathrm{~Beginning~accounts~receivable} \\qquad}} & {{\\mathrm{Opening~balance~sheet}}} \\\\ {{+\\mathrm{~Sales} \\qquad}} & {{\\mathrm{Income~statement}}} \\\\ {{-\\mathrm{~ \\underline{{C a s h ~ c o l l e c t i o n s}}} \\qquad}} & {{\\mathrm{Cash~flow~statement}}} \\\\ {{=\\mathrm{~ \\underline{{E n d i n g ~ a c c o u n t s ~ r e c e i v a b l e}} \\qquad} \\qquad}} & {{\\mathrm{Closing~balance~sheet}}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {ll} {{\\mathrm{~Beginning~accounts~receivable} \\qquad}} & {{\\mathrm{Opening~balance~sheet}}} \\\\ {{+\\mathrm{~Sales} \\qquad}} & {{\\mathrm{Income~statement}}} \\\\ {{-\\mathrm{~ \\underline{{Cash ~ collections}}} \\qquad}} & {{\\mathrm{Cash~flow~statement}}} \\\\ {{=\\mathrm{~ \\underline{{Ending ~ accounts ~ receivable}} \\qquad} \\qquad}} & {{\\mathrm{Closing~balance~sheet}}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "4a219560379ab3c32f42.png"
         },
@@ -106,7 +106,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {| c c c |} \\hline{\\begin{array} {l} {\\mathrm{Financial~year}} \\\\ {} & {\\quad20 \\mathrm{X2}} \\\\ \\end{array}} & {20 \\mathrm{X1}} \\\\ {\\begin{array} {l} {} & {\\quad\\mathrm{fm}} \\\\ \\end{array}} & {\\quad\\mathrm{fm}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Income~statement~extract}} \\\\ {\\mathrm{Revenues}} \\\\ \\end{array}} & {\\begin{array} {l} {\\quad\\mathrm{2,000,000}} \\\\ \\end{array}} & {1 , 800 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r l l} {\\mathrm{Balance~sheet~extract}} & {} & {} & {} \\\\ {\\mathrm{Accounts~receivable}} & {900 , 000} & {} & {500 , 000} \\\\ {\\mathrm{Unearned~revenue~(deferred)}} & {1 , 000 , 000} & {} & {300 , 000} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {| ccc |} \\hline{\\begin{array} {l} {\\mathrm{Financial~year}} \\\\ {} & {\\quad20 \\mathrm{X2}} \\\\ \\end{array}} & {20 \\mathrm{X1}} \\\\ {\\begin{array} {l} {} & {\\quad\\mathrm{fm}} \\\\ \\end{array}} & {\\quad\\mathrm{fm}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Income~statement~extract}} \\\\ {\\mathrm{Revenues}} \\\\ \\end{array}} & {\\begin{array} {l} {\\quad\\mathrm{2,000,000}} \\\\ \\end{array}} & {1 , 800 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lrll} {\\mathrm{Balance~sheet~extract}} & {} & {} & {} \\\\ {\\mathrm{Accounts~receivable}} & {900 , 000} & {} & {500 , 000} \\\\ {\\mathrm{Unearned~revenue~(deferred)}} & {1 , 000 , 000} & {} & {300 , 000} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "d00cfd67de1bafe37f99.png"
         },
@@ -120,7 +120,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c} \\hline{} & {20 \\mathrm{X2}} \\\\ {} & {\\mathrm{fm}} \\\\ \\hline{\\mathrm{Revenue}} & {\\mathrm{2,000,000}} \\\\ {\\mathrm{Increase~in~accounts~receivable}} & {( 400 , 000 )} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r} {\\mathrm{Increase~in~unearned~revenue}} & {\\underline{{700 , 000}}} \\\\ {\\mathrm{Cash~received~from~customers}} & {\\underline{{2 , 300 , 000}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {cc} \\hline{} & {20 \\mathrm{X2}} \\\\ {} & {\\mathrm{fm}} \\\\ \\hline{\\mathrm{Revenue}} & {\\mathrm{2,000,000}} \\\\ {\\mathrm{Increase~in~accounts~receivable}} & {( 400 , 000 )} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lr} {\\mathrm{Increase~in~unearned~revenue}} & {\\underline{{700 , 000}}} \\\\ {\\mathrm{Cash~received~from~customers}} & {\\underline{{2 , 300 , 000}}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "96185a4aee109639cf66.png"
         },
@@ -279,7 +279,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c} {\\mathrm{Wages~paid}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Wage~expense}} & {( 5 , 000 )} \\\\ {\\mathrm{Decrease~in~wages~payable}} & {\\underline{{( 3 , 500 )}}} \\\\ {\\mathrm{Cash~paid~to~employees}} & {( 8 , 500 )} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lc} {\\mathrm{Wages~paid}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Wage~expense}} & {( 5 , 000 )} \\\\ {\\mathrm{Decrease~in~wages~payable}} & {\\underline{{( 3 , 500 )}}} \\\\ {\\mathrm{Cash~paid~to~employees}} & {( 8 , 500 )} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "6924b51594415042e7c7.png"
         },
@@ -289,7 +289,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c} {\\mathrm{Interest~paid}} & {\\bf{s}} \\\\ \\hline{\\begin{array} {l c r} {\\mathrm{Interest~expense}} & {( 1 , 000 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {\\underline{{500}}} \\\\ {\\mathrm{Cash~interest~paid}} & {( 500 )} \\\\ \\end{array}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lc} {\\mathrm{Interest~paid}} & {\\bf{s}} \\\\ \\hline{\\begin{array} {lcr} {\\mathrm{Interest~expense}} & {( 1 , 000 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {\\underline{{500}}} \\\\ {\\mathrm{Cash~interest~paid}} & {( 500 )} \\\\ \\end{array}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "5e3d0b14f83a1e8779ba.png"
         },
@@ -303,7 +303,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c} \\hline{\\mathrm{Cash~paid~to~tax~authorities}} & {\\S} \\\\ \\hline{\\mathrm{Tax~expense~(provision~for}} & {( 20 , 000 )} \\\\ {\\mathrm{income~taxes)}} & {} \\\\ {\\mathrm{Increase~in~taxes~payable~liability}} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r} {\\mathrm{Increase~in~deferred~tax~liability}} & {\\quad\\underline{{5 , 000}}} \\\\ {\\mathrm{Cash~paid~for~taxes}} & {\\quad( 14 , 000 )} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lc} \\hline{\\mathrm{Cash~paid~to~tax~authorities}} & {\\S} \\\\ \\hline{\\mathrm{Tax~expense~(provision~for}} & {( 20 , 000 )} \\\\ {\\mathrm{income~taxes)}} & {} \\\\ {\\mathrm{Increase~in~taxes~payable~liability}} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lr} {\\mathrm{Increase~in~deferred~tax~liability}} & {\\quad\\underline{{5 , 000}}} \\\\ {\\mathrm{Cash~paid~for~taxes}} & {\\quad( 14 , 000 )} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "88c2da99d2914020af3f.png"
         },
@@ -317,7 +317,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {| c c c |} \\hline{} & {\\bf s} & {\\bf s} \\\\ \\hline{\\tt C a s h \\ c o l l e c t e d \\ f r o m \\ c u s t o m e r s} & {} & {107 , 000} \\\\ {\\tt C a s h \\ p a i d \\ t o \\ s u p p l i e r s} & {34 , 000} \\\\ {\\tt W a g e s \\ p a i d \\ t o \\ e m p l o y e e s} & {8 , 500} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l r l} {\\mathrm{Cash~interest~paid}} & {500} & {} \\\\ {\\mathrm{Cash~paid~to~tax~authorities}} & {\\underline{{14 , 000}}} & {} \\\\ {\\mathrm{Total~cash~operating~expenses}} & {} & {\\underline{{( 57 , 000 )}}} \\\\ {\\mathrm{Operating~cash~flows}} & {} & {50 , 000} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\text{Cash collected from customers} = \\$107,000",
           "display": true,
           "sourceAsset": "e8ca38e4c2d1ee08ecef.png"
         }
@@ -403,7 +403,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l} {\\begin{array} {l l} {\\mathrm{Add~back} \\quad} & {\\quad\\mathrm{Decreases~in~current~operating~assets}} \\\\ {} & {\\quad\\mathrm{Increases~in~current~operating~liabilities}} \\\\ \\hline{\\mathrm{Subtract} \\quad} & {\\quad\\mathrm{Increases~in~current~operating~assets}} \\\\ {} & {\\quad\\mathrm{Decreases~in~current~operating~liabilities}} \\\\ \\end{array}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {ll} {\\begin{array} {ll} {\\mathrm{Add~back} \\quad} & {\\quad\\mathrm{Decreases~in~current~operating~assets}} \\\\ {} & {\\quad\\mathrm{Increases~in~current~operating~liabilities}} \\\\ \\hline{\\mathrm{Subtract} \\quad} & {\\quad\\mathrm{Increases~in~current~operating~assets}} \\\\ {} & {\\quad\\mathrm{Decreases~in~current~operating~liabilities}} \\\\ \\end{array}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "962d36cdbbac5efbe031.png"
         },
@@ -412,9 +412,29 @@
           "text": "The steps in calculating CFO under the indirect method can be summarized as follows:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l} {S r e p \\ 1 \\! :} & {\\mathrm{~Begin~with~net~income.}} \\\\ {} & {} \\\\ {S r e p \\ 2 \\! :} & {\\mathrm{~Add~back~all~noncash~charges~to~income~(such~as~depreciation~and}} \\\\ {} & {\\mathrm{amorrization)~and~subtract~all~noncash~components~of~revenue.~Subtraction~of~land~ond~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~of~land~}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {r l} {S r e p \\ 3 \\! :} & {\\mathrm{~Adjust~for~working~counts~by~adding~or~subtracting~changes~to~balance}} \\\\ {} & {\\mathrm{sheet~operating~accounts~as~follows:}} \\\\ {} & {\\mathrm{~Subtract~increases~in~operating~asset~accounts~(uses~of~cash),~and~add}} \\\\ {} & {\\mathrm{~~~~~~decreases~(sources~of~cash).}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{~\\Pi~Add~increases~in~operating~liability~accounts~(sources~of~cash),~and}} \\\\ {\\mathrm{subtract~decreases~(uses~of~cash).}} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
+          "type": "worked-example",
+          "title": "Steps in Calculating CFO Under the Indirect Method",
+          "steps": [
+            {
+              "title": "Step 1: Begin with net income",
+              "body": [
+                "Start with reported net income from the income statement."
+              ]
+            },
+            {
+              "title": "Step 2: Adjust for noncash charges and revenues",
+              "body": [
+                "Add back all noncash charges (such as depreciation and amortization) and subtract all noncash components of revenue."
+              ]
+            },
+            {
+              "title": "Step 3: Adjust for changes in operating accounts",
+              "body": [
+                "Subtract increases in operating asset accounts (uses of cash), and add decreases (sources of cash).",
+                "Add increases in operating liability accounts (sources of cash), and subtract decreases (uses of cash)."
+              ]
+            }
+          ],
           "sourceAsset": "5a8fbea51ecb510eb4cd.png"
         },
         {
@@ -430,14 +450,40 @@
           "text": "Answer:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {S t e p ~ 1 \\mathrm{:~Start~with~net~income~of~} 339 {\\mathrm{,}} 000.} \\\\ {S t e p ~ 2 \\mathrm{:~Add~back~noncash~charges:}} \\\\ {\\mathrm{Depreciation}=\\$7 {\\mathrm{,}} 000} \\\\ {\\mathrm{Change~in~deferred~tax~liability}=\\$5 {\\mathrm{,}} 000} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{Loss~on~disposal~of~PP\\&E}=\\$2 , 000} \\\\ {\\mathrm{}} \\\\ {\\mathrm{Deduct~noncash~gains:}} \\\\ {\\mathrm{Gain~from~sale~of~land}=\\$10 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {S t e p \\; 3 : \\; \\mathrm{Subtract~increases~in~receivables~and~inventories~and~add~increases}} \\\\ {\\qquad\\mathrm{in~payables.}} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
+          "type": "worked-example",
+          "title": "CFO Calculation Under Indirect Method",
+          "steps": [
+            {
+              "title": "Step 1: Start with net income",
+              "equations": [
+                "\\text{Net income} = \\$39{,}000"
+              ]
+            },
+            {
+              "title": "Step 2: Adjust for noncash items and gains/losses",
+              "body": [
+                "Add back noncash charges: Depreciation of $7,000; Change in deferred tax liability of $5,000; Loss on disposal of PP&E of $2,000.",
+                "Deduct noncash gains: Gain from sale of land of $10,000."
+              ],
+              "equations": [
+                "\\text{Depreciation} = +\\$7{,}000",
+                "\\text{Deferred tax liability change} = +\\$5{,}000",
+                "\\text{Loss on disposal of PP\\&E} = +\\$2{,}000",
+                "\\text{Gain from sale of land} = -\\$10{,}000"
+              ]
+            },
+            {
+              "title": "Step 3: Adjust for working capital changes",
+              "body": [
+                "Subtract increases in receivables and inventories, and add increases in payables."
+              ]
+            }
+          ],
           "sourceAsset": "e3ec694db1518a4d9436.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} \\hline{\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} \\\\ {} & {} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability}} & {} & {{} 5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PPEE}} & {{}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {{}} & {{}} & {{\\underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {{}} & {{}} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Investment~in~working~capital}} & {{}} & {} \\\\ {\\mathrm{Increase~in~receivables}} & {{}} & {} & {{} ( 1 , 000 )} \\\\ {\\mathrm{Decrease~in~inventories}} & {{}} & {2 , 000} \\\\ {\\mathrm{Increase~in~accounts~payable}} & {{}} & {4 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Decrease~in~wages~payable}} & {} & {{} ( 3 , 500 )} \\\\ {} & {{} \\mathrm{Increase~in~interest~payable}} & {} & {{} 500} \\\\ {} & {{} \\mathrm{Increase~in~unearned~revenue~liability}} & {} & {{} 4 , 000} \\\\ {} & {{} \\mathrm{Increase~in~taxes~payable}} & {} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lcc} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} \\hline{\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} \\\\ {} & {} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability}} & {} & {{} 5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PPEE}} & {{}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {{}} & {{}} & {{\\underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {{}} & {{}} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Investment~in~working~capital}} & {{}} & {} \\\\ {\\mathrm{Increase~in~receivables}} & {{}} & {} & {{} ( 1 , 000 )} \\\\ {\\mathrm{Decrease~in~inventories}} & {{}} & {2 , 000} \\\\ {\\mathrm{Increase~in~accounts~payable}} & {{}} & {4 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Decrease~in~wages~payable}} & {} & {{} ( 3 , 500 )} \\\\ {} & {{} \\mathrm{Increase~in~interest~payable}} & {} & {{} 500} \\\\ {} & {{} \\mathrm{Increase~in~unearned~revenue~liability}} & {} & {{} 4 , 000} \\\\ {} & {{} \\mathrm{Increase~in~taxes~payable}} & {} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
           "display": true,
           "sourceAsset": "25e2d203ad6aa41283ae.png"
         },
@@ -551,7 +597,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{\\boxed{S t e p ~ I \\! : \\! \\mathrm{Compute~cost~of~disposed~PP\\&E}}} & {} & {{\\bf S}} \\\\ \\hline{\\mathrm{Beginning~gross~PP\\&E}} & {} & {60 , 000} \\\\ {\\mathrm{Acquisitions~gross~cost}} & {} & {25 , 000} \\\\ {\\mathrm{Disposals~gross~cost}} & {} & {\\bf\\underline{{( X )}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~gross~PP\\&E} \\qquad\\qquad\\qquad\\qquad\\qquad\\ 69 , 000\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lcc} \\hline{\\boxed{Step ~ I \\! : \\! \\mathrm{Compute~cost~of~disposed~PP\\&E}}} & {} & {{\\bf S}} \\\\ \\hline{\\mathrm{Beginning~gross~PP\\&E}} & {} & {60 , 000} \\\\ {\\mathrm{Acquisitions~gross~cost}} & {} & {25 , 000} \\\\ {\\mathrm{Disposals~gross~cost}} & {} & {\\bf\\underline{{( X )}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~gross~PP\\&E} \\qquad\\qquad\\qquad\\qquad\\qquad\\ 69 , 000\\end{gathered}",
           "display": true,
           "sourceAsset": "c2f8e674971cc2ec5278.png"
         },
@@ -573,7 +619,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{} & {\\mathsf{S}} & {} & {\\mathsf{S}} \\\\ {} & {\\mathsf{d e p r e c i a t i o n ~ o n ~ d i s p o s e d ~ P P E E}} & {} & {} & {\\mathsf{S}} \\\\ {} & {\\mathsf{B e g i n n i n g ~ a c c u m u l a t e d ~ d e p r e c i a t i o n}} & {} & {} & {\\mathsf{0}} \\\\ {} & {\\mathsf{D e p r e c i a t i o n ~ e x p e n s e}} & {} & {} & {\\mathsf{7 , 000}} \\\\ \\hline{} & {} & {} & {} & {\\mathsf{7 , 000}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {\\mathrm{Accumulated~depreciation~on~disposed~PP\\&E}} & {{\\underline{{( X )}}}} \\\\ {\\mathrm{Ending~accumulated~depreciation}} & {{\\overline{{12}} , 000}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Depreciation on disposed PPE} & \\$15,000 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "7abf2c379bfd3efcaa6f.png"
         },
@@ -583,7 +629,7 @@
         },
         {
           "type": "math",
-          "latex": "= {\\tt S 9} , 000+{\\tt S 7} , 000-{\\tt S 12} , 000={\\tt S 4} , 000.",
+          "latex": "= \\$9,000 + \\$7,000 - \\$12,000 = \\$4,000",
           "display": true,
           "sourceAsset": "384499f807c2b9d9336f.png"
         },
@@ -605,7 +651,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} {\\mathsf{S h o r t c u t ~ a p p r o a c h}} & {\\mathsf{s}} & {} \\\\ \\hline{\\mathsf{B e g i n n i n g ~ c a r r y i n g ~ v a l u e}} & {\\mathsf{~}} & {51 , 000} \\\\ {\\mathsf{D e p r e c i a t i o n ~ e x p e n s e}} & {\\mathsf{~}} & {( 7 , 000 )} \\\\ {\\mathsf{A d d i t i o n s ~ t o ~ P P \\& E}} & {\\mathsf{25 , 000}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {\\mathrm{Carrying~value~of~assets~disposed}} & {\\mathrm{underline{{( X )}}}} \\\\ {\\mathrm{Ending~carrying~value}} & {57 , 000} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Beginning carrying value} & \\$51,000 \\\\\n\\text{Less: Depreciation expense} & (15,000) \\\\\n\\text{Ending carrying value} & \\$36,000 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "b583f1e5ba5f082abf43.png"
         },
@@ -623,7 +669,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c} \\hline{\\mathrm{Step~4:~Compute~disposal~proceeds}} & {\\mathrm{S}} \\\\ \\hline{\\mathrm{Disposal~proceeds}} & {\\mathrm{X}} \\\\ {\\mathrm{Carrying~value~removed~from~balance~sheet}} & {\\underline{{( 12 , 000 )}}} \\\\ {\\mathrm{Disposal~gain/(loss)~in~income~statement}} & {( 2 , 000 )} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lc} \\hline{\\mathrm{Step~4:~Compute~disposal~proceeds}} & {\\mathrm{S}} \\\\ \\hline{\\mathrm{Disposal~proceeds}} & {\\mathrm{X}} \\\\ {\\mathrm{Carrying~value~removed~from~balance~sheet}} & {\\underline{{( 12 , 000 )}}} \\\\ {\\mathrm{Disposal~gain/(loss)~in~income~statement}} & {( 2 , 000 )} \\\\ \\hline{} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "7de4c9bd17b82427f328.png"
         },
@@ -645,7 +691,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c} {\\mathrm{Compute~disposal~proceeds}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Disposal~proceeds}} & {\\mathrm{X~}} \\\\ {\\mathrm{Carrying~value~removed~from~balance~sheet}} & {\\mathrm{(5,000)}} \\\\ {\\mathrm{Disposal~gain/(loss)~in~income~statement}} & {10 , 000} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lc} {\\mathrm{Compute~disposal~proceeds}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Disposal~proceeds}} & {\\mathrm{X~}} \\\\ {\\mathrm{Carrying~value~removed~from~balance~sheet}} & {\\mathrm{(5,000)}} \\\\ {\\mathrm{Disposal~gain/(loss)~in~income~statement}} & {10 , 000} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "9fc87255cd29534a1a36.png"
         },
@@ -715,7 +761,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c} {\\mathrm{underline{{R e c o n c i l i a t i o n ~ o f ~ e q u i t y}}}} & {\\mathrm{underline{~ s ~}}} \\\\ {\\mathrm{underline{{c o n t r i b u t e d ~ c a p i t a l}}}} & {\\mathrm{underline{~}}} \\\\ {\\mathrm{underline{{B e g i n n i n g ~ c o n t r i b u t e d ~ c a p i t a l}}}} & {\\mathrm{underline{~} 50 , 000}} \\\\ {\\mathrm{underline{{N e t ~ p r o c e d s ~ f r o m ~ r e p u r c h a s e s ~ a n d ~ i s s u a n c e}}}} & {\\mathrm{underline{~ X / ( X ) ~}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~contributed~capital} \\qquad\\qquad\\qquad\\qquad40 , 000\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lc} {\\mathrm{underline{{Reconciliation ~ of ~ equity}}}} & {\\mathrm{underline{~ s ~}}} \\\\ {\\mathrm{underline{{contributed ~ capital}}}} & {\\mathrm{underline{~}}} \\\\ {\\mathrm{underline{{Beginning ~ contributed ~ capital}}}} & {\\mathrm{underline{~} 50 , 000}} \\\\ {\\mathrm{underline{{Net ~ proceds ~ from ~ repurchases ~ and ~ issuance}}}} & {\\mathrm{underline{~ X / ( X ) ~}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~contributed~capital} \\qquad\\qquad\\qquad\\qquad40 , 000\\end{gathered}",
           "display": true,
           "sourceAsset": "1044091f06478a9ca037.png"
         },
@@ -737,7 +783,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c l} \\hline{\\mathrm{Reconciliation~of~retained~eamings}} & {\\S} \\\\ \\hline{\\mathrm{Beginning~retained~earnings}} & {30 , 500} \\\\ {\\mathrm{Net~income}} & {39 , 000} \\\\ {\\mathrm{Dividend~declared}} & {\\mathrm{(X)}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~retained~earnings} \\qquad\\qquad\\qquad61 {\\bf,} 000\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lcl} \\hline{\\mathrm{Reconciliation~of~retained~eamings}} & {\\S} \\\\ \\hline{\\mathrm{Beginning~retained~earnings}} & {30 , 500} \\\\ {\\mathrm{Net~income}} & {39 , 000} \\\\ {\\mathrm{Dividend~declared}} & {\\mathrm{(X)}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Ending~retained~earnings} \\qquad\\qquad\\qquad61 {\\bf,} 000\\end{gathered}",
           "display": true,
           "sourceAsset": "f0f52342116a3e978bf1.png"
         },
@@ -753,7 +799,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l c l} \\hline{\\mathrm{Dividends~paid}} & {\\mathrm{~s~}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Dividend~declared}} & {\\mathrm{~(8,500)}} & {\\mathrm{~(8,500)}} \\\\ {\\mathrm{Increase~in~dividend~payable~liability}} & {\\mathrm{~5,000}} \\\\ {\\mathrm{Cash~dividend~paid}} & {\\mathrm{~(3,500)}} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lcl} \\hline{\\mathrm{Dividends~paid}} & {\\mathrm{~s~}} & {\\mathrm{~s~}} \\\\ \\hline{\\mathrm{Dividend~declared}} & {\\mathrm{~(8,500)}} & {\\mathrm{~(8,500)}} \\\\ {\\mathrm{Increase~in~dividend~payable~liability}} & {\\mathrm{~5,000}} \\\\ {\\mathrm{Cash~dividend~paid}} & {\\mathrm{~(3,500)}} \\\\ \\hline{} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "d5023e25d10ddc8ad1db.png"
         },
@@ -779,7 +825,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c r} \\hline{} & {\\bf{s}} \\\\ \\hline{\\tt{C a s h \\ f l o w \\ f r o m \\ o p e r a t i o n s}} & {50 , 000} \\\\ {\\tt{C a s h \\ f l o w \\ f r o m \\ i n v e s t i n g}} & {0} \\\\ {\\tt{C a s h \\ f l o w \\ f r o m \\ f i n a n c i n g}} & {( 8 , 500 )} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c r} {\\mathrm{Total~cash~flow}} & {} & {41 , 500} \\\\ {\\mathrm{20X6~balance~sheet~cash}} & {} & {\\underline{{11 , 500}}} \\\\ {\\mathrm{20X7~balance~sheet~cash}} & {} & {53 , 000} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lcr} \\hline{} & {\\bf{s}} \\\\ \\hline\\text{{Cash \\ flow \\ from \\ operations}} & {50 , 000} \\\\ \\text{{Cash \\ flow \\ from \\ investing}} & {0} \\\\ \\text{{Cash \\ flow \\ from \\ financing}} & {( 8 , 500 )} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lcr} {\\mathrm{Total~cash~flow}} & {} & {41 , 500} \\\\ {\\mathrm{20X6~balance~sheet~cash}} & {} & {\\underline{{11 , 500}}} \\\\ {\\mathrm{20X7~balance~sheet~cash}} & {} & {53 , 000} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "c9001a7052837c490085.png"
         },
@@ -874,13 +920,13 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l r} {S t e p \\ 2 \\! :} & {\\mathrm{Revenues~less~noncash~charges}} & {\\qquad104 , 000} \\\\ {} & {} & {} \\\\ {} & {\\mathrm{(\\$114,000-\\$10,000)}} & {} \\\\ {} & {} & {} \\\\ {} & {\\$10 , 000=\\mathrm{gain~on~asset~disposal}} & {} \\\\ {} & {\\mathrm{Expenses~less~noncash~charges}} & {\\qquad61 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} ( \\mathsf{S 75} , 000-\\mathsf{S 7} , 000-\\mathsf{S 2} , 000-\\mathsf{S 5} , 000 )} \\\\ {} & {{} \\mathsf{S 7} , 000=\\mathsf{d e p r e c i a t i o n}} \\\\ {} & {{} \\mathsf{S 2} , 000=\\mathsf{l o s s ~ o n ~ d i s p o s a l ~ o f ~ P P \\& E}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\$5 , 000=\\mathrm{change~in~deferred~tax~liability}} \\\\ {} & {{} \\mathrm{Cost~of~goods~sold}} & {} & {{} 40 , 000} \\\\ {} & {{} \\mathrm{Wages}} & {} & {{} 5 , 000} \\\\ {} & {{} \\mathrm{Interest}} & {} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Tax~payable}} & {} & {{} \\qquad\\frac{15 , 000} {}} \\\\ {} & {{} \\mathrm{(Tax~provision-increase~in~DTL)}} & {} & {{} \\qquad} \\\\ {} & {{} \\mathrm{Total}} & {} & {{} \\qquad61 , 000} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {llr} {Step \\ 2 \\! :} & {\\mathrm{Revenues~less~noncash~charges}} & {\\qquad104 , 000} \\\\ {} & {} & {} \\\\ {} & {\\mathrm{(\\$114,000-\\$10,000)}} & {} \\\\ {} & {} & {} \\\\ {} & {\\$10 , 000=\\mathrm{gain~on~asset~disposal}} & {} \\\\ {} & {\\mathrm{Expenses~less~noncash~charges}} & {\\qquad61 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} ( \\mathsf{S 75} , 000-\\mathsf{S 7} , 000-\\mathsf{S 2} , 000-\\mathsf{S 5} , 000 )} \\\\ {} & {{} \\mathsf{S 7} , 000=\\mathsf{depreciation}} \\\\ {} & {{} \\mathsf{S 2} , 000=\\mathsf{loss ~ on ~ disposal ~ of ~ PP \\& E}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\$5 , 000=\\mathrm{change~in~deferred~tax~liability}} \\\\ {} & {{} \\mathrm{Cost~of~goods~sold}} & {} & {{} 40 , 000} \\\\ {} & {{} \\mathrm{Wages}} & {} & {{} 5 , 000} \\\\ {} & {{} \\mathrm{Interest}} & {} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Tax~payable}} & {} & {{} \\qquad\\frac{15 , 000} {}} \\\\ {} & {{} \\mathrm{(Tax~provision-increase~in~DTL)}} & {} & {{} \\qquad} \\\\ {} & {{} \\mathrm{Total}} & {} & {{} \\qquad61 , 000} \\\\ \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "b5078c1215465acab3c1.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{aligned} {S t e p \\ 3 \\! :} & {{} \\ \\ \\mathrm{Cash~collected~from~customers} \\qquad\\qquad107 , 000} \\\\ {} & {{} \\ \\$104 \\! , \\! 000 \\!-\\$1 , \\! 000 \\!+\\$4 \\! , \\! 000} \\\\ {} & {{} \\ \\ \\mathrm{Cash~paid~to~suppliers} \\qquad\\qquad\\qquad\\qquad( 34 , \\! 000 )} \\\\ {} & {{} \\ \\ -\\$40 , \\! 000+\\$2 , \\! 000 \\!+\\$4 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Cash~paid~to~employees}} & {} & {{}} & {( 8 , 500 )} \\\\ {} & {{}-\\$5 , 000-\\$3 , 500} & {} & {{}} \\\\ {} & {{} \\mathrm{Cash~interest~paid}} & {} & {{} \\mathrm{(500)}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{}-\\$1 , 000+\\$500} \\\\ {} & {{} \\mathrm{Cash~paid~to~tax~aurhorities^*}} & {} & {{} \\mathrm{(14,000)}} \\\\ {} & {{}-\\$15 , 000+\\$1 , 000} & {} & {{}} \\\\ {} & {{} \\mathrm{Net~cash~flow~from~operating~activities}} & {} & {{} \\quad50 , 000} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\text{Step 3: Cash collected from customers} &= \\$107,000 \\\\\n&= \\$104,000 + \\$7,000 - \\$4,000\n\\end{aligned}",
           "display": true,
           "sourceAsset": "fa3b18b362e1185e933e.png"
         },
@@ -1238,7 +1284,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l r r} \\hline{\\begin{array} {l l} {\\mathrm{Net~income}} & {} & {\\mathfrak{s 120}} \\\\ {\\mathrm{Decrease~in~accounts~receivable}} & {} & {20} \\\\ {\\mathrm{Depreciation}} & {} & {25} \\\\ {\\mathrm{Increase~in~inventory}} & {} & {10} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{Increase~in~accounts~payable}} & {{}} & {} & {{} 7} \\\\ {\\mathrm{Decrease~in~wages~payable}} & {{}} & {} & {{} 5} \\\\ {\\mathrm{Increase~in~deferred~tax~liabilities}} & {{}} & {} & {{} 15} \\\\ {\\mathrm{Profit~from~the~sale~of~land}} & {{}} & {} & {{} 2} \\\\ \\end{aligned}\\end{gathered}",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\text{Net income} & \\$120 \\\\\n\\text{Decrease in accounts receivable} & 20 \\\\\n\\text{Depreciation} & 25 \\\\\n\\text{Increase in inventory} & 10 \\\\\n\\text{Increase in accounts payable} & 7 \\\\\n\\text{Decrease in wages payable} & 5 \\\\\n\\text{Increase in deferred tax liabilities} & 15 \\\\\n\\text{Profit from the sale of land} & 2 \\\\\n\\hline\n\\end{array}",
               "display": true,
               "sourceAsset": "3fbfda69d29ce8b068e1.png"
             }
@@ -1295,7 +1341,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l l} {\\mathrm{~Net~income~}} & {578 , 000} \\\\ {\\mathrm{~Depreciation~}} & {12 , 000} \\\\ {\\mathrm{~Unrealized~gain~}} & {( 15 , 000 )} \\\\ {\\mathrm{~Increase~in~accounts~receivable~}} & {( 52 , 000 )} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {\\mathrm{Increase~in~accounts~payable}} & {} & {\\underline{{29 , 000}}} \\\\ {\\mathrm{Cash~flow~from~operations}} & {} & {\\$52 , 000} \\\\ \\end{array}\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{array} {ll} {\\mathrm{~Net~income~}} & {578 , 000} \\\\ {\\mathrm{~Depreciation~}} & {12 , 000} \\\\ {\\mathrm{~Unrealized~gain~}} & {( 15 , 000 )} \\\\ {\\mathrm{~Increase~in~accounts~receivable~}} & {( 52 , 000 )} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lll} {\\mathrm{Increase~in~accounts~payable}} & {} & {\\underline{{29 , 000}}} \\\\ {\\mathrm{Cash~flow~from~operations}} & {} & {\\$52 , 000} \\\\ \\end{array}\\end{gathered}",
               "display": true,
               "sourceAsset": "6159ea56ae62f3988634.png"
             }

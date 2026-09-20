@@ -299,7 +299,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\mathrm{Fiscal~Year-End~Dec,~31}} & {\\mathrm{20X9}} & {\\mathrm{20X8}} \\\\ \\hline{\\mathrm{T o t a l ~ s t o c k h o l d e r^{\\prime} s ~ e q u i t y}} & {18 , 503} & {17 , 143} \\\\ {\\mathrm{Net~income~available~to~common}} & {3 , 526} & {3 , 056} \\\\ {\\mathrm{Stock~price}} & {\\mathrm{516.80}} & {515.30} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\mathrm{Shares~outstanding} \\qquad\\qquad\\qquad\\qquad3 , 710 \\qquad2 , 790\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\mathrm{Fiscal~Year-End~Dec,~31}} & {\\mathrm{20X9}} & {\\mathrm{20X8}} \\\\ \\hline{\\mathrm{Total ~ stockholder^{\\prime} s ~ equity}} & {18 , 503} & {17 , 143} \\\\ {\\mathrm{Net~income~available~to~common}} & {3 , 526} & {3 , 056} \\\\ {\\mathrm{Stock~price}} & {\\mathrm{516.80}} & {515.30} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\mathrm{Shares~outstanding} \\qquad\\qquad\\qquad\\qquad3 , 710 \\qquad2 , 790\\end{gathered}",
           "display": true,
           "sourceAsset": "3b503416a05d60f70d27.png"
         },

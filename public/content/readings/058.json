@@ -42,7 +42,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{convexity~of~cash~flow~at~period~}} t={\\frac{\\mathtt{t} \\times( \\mathtt{t}+1 )} {( 1+\\mathtt{r} )^{2}}}",
+          "latex": "{\\mathrm{convexity~of~cash~flow~at~period~}} t={\\frac{\\text{t} \\times( \\text{t}+1 )} {( 1+\\text{r} )^{2}}}",
           "display": true,
           "sourceAsset": "332c740b1f5482bf7220.png",
           "prose": "convexity of cash flow at period"
@@ -428,7 +428,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{array} {l l l l l l l l l l} {{}} & {{}} & {{}} & {{}} & {{}} & {{}} & {{\\underline{{C o n v e x i t y}}}} \\\\ {{C_{1}=10}} & {{}} & {{\\mathrm{PV}}_{1}=10 \\ / \\ 1.10} & {{}=\\ 9.091} & {{}} & {{} {\\mathrm{W}}_{1}=9.091 \\ / \\ 100} & {{}=\\ 0.09091} & {{} {\\mathrm{1.653}}} \\\\ {{C_{2}=110}} & {{}} & {{\\mathrm{PV}}_{2}=110 \\ / \\ 1.10^{2}={\\frac{90.909} {100}}} & {{}} & {{}} & {{\\mathrm{W}}_{2}=90.909 \\ / \\ 100} & {{}=\\ 0.90909} & {{} {\\mathrm{4.959}}} \\\\ {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} \\end{array}",
+              "latex": "\\begin{array} {llllllllll} {{}} & {{}} & {{}} & {{}} & {{}} & {{}} & {{\\underline{{Convexity}}}} \\\\ {{C_{1}=10}} & {{}} & {{\\mathrm{PV}}_{1}=10 \\ / \\ 1.10} & {{}=\\ 9.091} & {{}} & {{} {\\mathrm{W}}_{1}=9.091 \\ / \\ 100} & {{}=\\ 0.09091} & {{} {\\mathrm{1.653}}} \\\\ {{C_{2}=110}} & {{}} & {{\\mathrm{PV}}_{2}=110 \\ / \\ 1.10^{2}={\\frac{90.909} {100}}} & {{}} & {{}} & {{\\mathrm{W}}_{2}=90.909 \\ / \\ 100} & {{}=\\ 0.90909} & {{} {\\mathrm{4.959}}} \\\\ {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} \\end{array}",
               "display": true,
               "sourceAsset": "fdd978dab85ba9086129.png"
             },

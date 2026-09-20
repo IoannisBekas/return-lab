@@ -542,7 +542,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c c} \\hline{\\begin{array} {c c c} {\\mathrm{Firm}} & {\\qquad} & {\\mathrm{Market~Share}} \\\\ \\hline{\\mathrm{Acme}} & {\\qquad} & {25 \\%_{6}} \\\\ {\\mathrm{Blake}} & {\\qquad} & {15 \\%_{6}} \\\\ {\\mathrm{Curtis}} & {\\qquad} & {15 \\%_{6}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{Dent} \\qquad}} & {{\\qquad\\qquad10 \\ \\%_{0}}} \\\\ {{\\mathrm{Erie} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\\\ {{\\mathrm{Federal} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {ccc} \\hline{\\begin{array} {ccc} {\\mathrm{Firm}} & {\\qquad} & {\\mathrm{Market~Share}} \\\\ \\hline{\\mathrm{Acme}} & {\\qquad} & {25 \\%_{6}} \\\\ {\\mathrm{Blake}} & {\\qquad} & {15 \\%_{6}} \\\\ {\\mathrm{Curtis}} & {\\qquad} & {15 \\%_{6}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{Dent} \\qquad}} & {{\\qquad\\qquad10 \\ \\%_{0}}} \\\\ {{\\mathrm{Erie} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\\\ {{\\mathrm{Federal} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "6ac72c7dd404fa6b9475.png"
         },

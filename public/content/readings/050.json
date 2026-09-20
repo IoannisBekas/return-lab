@@ -183,7 +183,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{T h e ~ h a i r c u t ~ c a n ~ a l s o ~ b e ~ c a l c u l a t e d ~ q u i c k l y ~ a s ~ 1-\\frac{1} {i n i t i a l ~ m a r g i n ~ p e r c e n t a g e}} .",
+          "latex": "\\text{Haircut} = 1 - \\frac{1}{1 + \\text{initial margin percentage}}",
           "display": true,
           "sourceAsset": "646b97c76d873b2eca8a.png",
           "prose": "The haircut can also be calculated quickly as ."

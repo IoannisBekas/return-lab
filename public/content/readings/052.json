@@ -188,7 +188,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt a c c r u e d \\; i n t e r e s t}={\\tt c o u p o n \\; p a y m e n t} \\, \\times\\, {\\frac{d a y s \\; f r o m \\; l a s t \\; c o u p o n \\; t o \\; s e t t l e m e n t} {d a y s \\; i n \\; c o u p o n \\; p e r i o d}}",
+          "latex": "\\text{Accrued interest} = \\text{coupon payment} \\times \\frac{\\text{days from last coupon to settlement}}{\\text{days in coupon period}}",
           "display": true,
           "sourceAsset": "93eba638aa9e7e539cd8.png"
         },
@@ -218,7 +218,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{accrued~interest~(30/360~method)} \\, {=} \\, \\frac{85} {360} \\, {\\times} \\, {\\mathfrak{S}} 4={\\mathfrak{S}} 0.944",
+          "latex": "\\text{Accrued interest (30/360 method)} = \\frac{85}{360} \\times \\$40 = \\$9.44",
           "display": true,
           "sourceAsset": "adf3e34552f1135dd267.png"
         },
@@ -228,7 +228,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt a c c r u e d i n t e r e s t ( a c t u a l / a c t u a l m e t h o d )=} \\frac{87} {365} \\times{\\tt S 4}={\\tt S 0.953}",
+          "latex": "\\text{Accrued interest (actual/actual method)} = \\frac{87}{365} \\times \\$40 = \\$9.53",
           "display": true,
           "sourceAsset": "e31f78fad915283413b8.png"
         },
@@ -555,7 +555,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{p r i c e={\\frac{c o u p o n} {( 1+Y T M )}}+{\\frac{c o u p o n} {( 1+Y T M )^{2}}}+. . .+{\\frac{c o u p o n+p r i n c i p a l} {( 1+Y T M )^{N}}}}",
+      "latex": "\\mathrm{price={\\frac{coupon} {( 1+YTM )}}+{\\frac{coupon} {( 1+YTM )^{2}}}+. . .+{\\frac{coupon+principal} {( 1+YTM )^{N}}}}",
       "display": true,
       "sourceAsset": "192b650581d67be0cfb6.png"
     },

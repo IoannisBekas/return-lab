@@ -164,7 +164,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle{\\mathrm{boldmath{~ V ~}}}_{0}=\\mathrm{boldmath{~ \\sum_{t=1}^{\\infty}}} \\frac{{\\displaystyle{D}_{t}}} {\\left( 1+{\\bf k}_{\\bf e} \\right)^{t}}}} \\\\ {{\\displaystyle{\\mathrm{boldmath{~ w h e r e}}} {\\mathrm{boldmath{~}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{V_{0}=c u r r e n t ~ s t o c k ~ v a l u e}}} \\\\ {{\\mathrm{D_{t}=d i v i d e n d ~ a t ~ t i m e ~} t}} \\\\ {{\\mathrm{k_{e}=r e q u i r e d ~ r a t e ~ o f ~ r e t u r n ~ o n ~ c o m m o n ~ e q u i t y}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle{\\mathrm{boldmath{~ V ~}}}_{0}=\\mathrm{boldmath{~ \\sum_{t=1}^{\\infty}}} \\frac{{\\displaystyle{D}_{t}}} {\\left( 1+{\\bf k}_{\\bf e} \\right)^{t}}}} \\\\ {{\\displaystyle{\\mathrm{boldmath{~ where}}} {\\mathrm{boldmath{~}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{V_{0}=current ~ stock ~ value}}} \\\\ {{\\mathrm{D_{t}=dividend ~ at ~ time ~} t}} \\\\ {{\\mathrm{k_{e}=required ~ rate ~ of ~ return ~ on ~ common ~ equity}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "580c3f875d3c648be0e3.png"
         },
@@ -278,7 +278,7 @@
         },
         {
           "type": "math",
-          "latex": "\\Re51.00 \\, / \\, ( 1.12 )^{3}=\\Im36.30",
+          "latex": "\\$51.00 \\, / \\, ( 1.12 )^{3}=\\$36.30",
           "display": true,
           "sourceAsset": "648f596113175215d240.png"
         },
@@ -342,7 +342,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathbf{k_{i}}=\\mathrm{R_{f}}+\\beta_{i} [ \\mathrm{E} ( \\mathrm{R_{m k t}} )-\\mathrm{R_{f}} ]",
+          "latex": "\\mathbf{k_{i}}=\\mathrm{R_{f}}+\\beta_{i} [ \\mathrm{E} ( \\mathrm{R_{mkt}} )-\\mathrm{R_{f}} ]",
           "display": true,
           "sourceAsset": "0ff0d899aa713586edb2.png"
         },
@@ -381,7 +381,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{preferred~stock~value}} \\,=\\, {\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{1}}}+{\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{2}}}+\\ldots+{\\cfrac{\\mathrm{D}_{p}} {\\left( 1+\\mathrm{k}_{p} \\right)^{\\mathsf{x}}}} \\,=\\, {\\cfrac{\\mathrm{D}_{p}} {\\mathrm{k}_{p}}}",
+          "latex": "\\text{Preferred stock value} = \\frac{D_p}{k_p}",
           "display": true,
           "sourceAsset": "aa78b62a7de945514420.png"
         },
@@ -399,7 +399,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{V a l u e ~ o f ~ t h e ~ p r e f e r r e d ~ s t o c k \\! : ~ D_{p} ~ / ~ k_{p}=\\$5.00 ~ / ~ 0.08=\\$62.50 ~}",
+          "latex": "\\mathrm{Value ~ of ~ the ~ preferred ~ stock \\! : ~ D_{p} ~ / ~ k_{p}=\\$5.00 ~ / ~ 0.08=\\$62.50 ~}",
           "display": true,
           "sourceAsset": "75d69b3100ae94c7752f.png",
           "prose": "Value of the preferred stock:"
@@ -611,7 +611,7 @@
         },
         {
           "type": "math",
-          "latex": "D_{4}=( {\\mathrm{dividend~payout~ratio}} ) ( \\mathrm{E}_{4} )=( 0.5 ) ( 1.64 )={\\mathsf{S}} 0.82",
+          "latex": "D_4 = (\\text{Dividend payout ratio})(E_4) = (0.5)(1.64) = \\$0.82",
           "display": true,
           "sourceAsset": "ed5a410b1dc2a81c0be6.png"
         },
@@ -649,7 +649,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{value} \\,=\\, {\\cfrac{\\mathrm{D_{1}}} {( 1+\\mathrm{k_{e}} )}}+{\\cfrac{\\mathrm{D_{2}}} {( 1+\\mathrm{k_{e}} )^{2}}}+\\ldots+{\\cfrac{\\mathrm{D_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}+{\\cfrac{\\mathrm{P_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}}} \\\\ {{\\mathrm{w h e r e ~ P_{a}}={\\cfrac{\\mathrm{D_{a+1}}} {\\mathrm{k_{e}}-\\mathrm{g_{c}}}} \\, \\mathrm{is~the~terminal~stock~value,~assuming~that~dividends~at}}} \\end{array}\\\\[6pt]\\mathrm{t=n+1~and~beyond~grow~at~a~constant~rate~of~} g_{c} .\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{value} \\,=\\, {\\cfrac{\\mathrm{D_{1}}} {( 1+\\mathrm{k_{e}} )}}+{\\cfrac{\\mathrm{D_{2}}} {( 1+\\mathrm{k_{e}} )^{2}}}+\\ldots+{\\cfrac{\\mathrm{D_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}+{\\cfrac{\\mathrm{P_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}}} \\\\ {{\\mathrm{where ~ P_{a}}={\\cfrac{\\mathrm{D_{a+1}}} {\\mathrm{k_{e}}-\\mathrm{g_{c}}}} \\, \\mathrm{is~the~terminal~stock~value,~assuming~that~dividends~at}}} \\end{array}\\\\[6pt]\\mathrm{t=n+1~and~beyond~grow~at~a~constant~rate~of~} g_{c} .\\end{gathered}",
           "display": true,
           "sourceAsset": "d7c37cc45fe4c602154b.png"
         },
@@ -691,7 +691,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l} {{\\displaystyle D_{1}=\\displaystyle D_{0} ( 1+\\mathrm{g}^{\\star} )=1.00 ( 1.15 )=\\$1.15}} \\\\ {{\\displaystyle D_{2}=\\displaystyle D_{1} ( 1+\\mathrm{g}^{\\star} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
+          "latex": "\\begin{array} {ll} {{\\displaystyle D_{1}=\\displaystyle D_{0} ( 1+\\mathrm{g}^{\\star} )=1.00 ( 1.15 )=\\$1.15}} \\\\ {{\\displaystyle D_{2}=\\displaystyle D_{1} ( 1+\\mathrm{g}^{\\star} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
           "display": true,
           "sourceAsset": "0fe7ceafbd6d89d8085d.png"
         },
@@ -721,7 +721,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\mathtt{S 20.86}",
+          "latex": "\\frac{1.15} {1.11}+\\frac{1.32+23.10} {( 1.11 )^{2}}=\\text{S 20.86}",
           "display": true,
           "sourceAsset": "2c0b979e77aa97396556.png"
         },
@@ -888,7 +888,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c c c} \\hline{} & {\\mathrm{~Holt~Industries}} & {\\quad\\mathrm{Industry} \\quad} \\\\ \\hline{} & {\\mathrm{~Holt~Industries} \\quad} & {\\mathrm{Average} \\quad} \\\\ \\hline{\\mathrm{Dividend~payout~ratio} \\quad} & {25 \\gamma_{0} \\quad} & {16 \\gamma_{0}} \\\\ {\\mathrm{Sales~growth} \\quad} & {7.5 \\ \\%_{0}^{\\prime}} & {3.9 \\gamma_{0}^{\\prime}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Total~debt~to~equity} \\qquad\\qquad\\qquad113 \\gamma_{0} \\qquad\\qquad\\qquad68 \\gamma_{0}\\end{gathered}",
+          "latex": "\\begin{array}{lcc}\n\\hline\n& \\text{Holt Industries} & \\text{Industry} \\\\\n\\hline\n\\text{P/E} & 15.9 & 18.2 \\\\\n\\text{P/B} & 2.1 & 2.5 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "122dbfa230f41c84ca9c.png"
         },
@@ -958,7 +958,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c} {\\mathrm{Lagging~Industry~Ratios}} & {\\quad20 X 3} \\\\ \\hline{\\mathrm{Price-to-earnings}} & {\\quad8.6} \\\\ {\\mathrm{Price-to-cash~flow}} & {\\quad4.6} \\\\ {\\mathrm{Price-to-sales}} & {\\quad1.4} \\\\ \\end{array}\\\\[6pt]\\mathrm{Price-to-book~value} \\qquad\\qquad\\qquad3.6\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lc} {\\mathrm{Lagging~Industry~Ratios}} & {\\quad20 X 3} \\\\ \\hline{\\mathrm{Price-to-earnings}} & {\\quad8.6} \\\\ {\\mathrm{Price-to-cash~flow}} & {\\quad4.6} \\\\ {\\mathrm{Price-to-sales}} & {\\quad1.4} \\\\ \\end{array}\\\\[6pt]\\mathrm{Price-to-book~value} \\qquad\\qquad\\qquad3.6\\end{gathered}",
           "display": true,
           "sourceAsset": "b3eba3e322655226eb27.png"
         },
@@ -996,7 +996,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c c c c} \\hline{} & {{\\bf20 X 3}} & {{\\bf20 X 2}} & {{\\bf20 X 1}} \\\\ \\hline{\\mathrm{P/E}} & {15.9} & {52.3} & {115.2} \\\\ {\\mathrm{P/CF}} & {2.9} & {3.8} & {3.8} \\\\ \\end{array}\\\\[6pt]\\begin{array} {c c c c c c} {\\mathrm{P/S}} & {\\quad} & {0.7} & {\\quad} & {0.8} & {\\quad} & {0.7} \\\\ {\\mathrm{P/B}} & {\\quad} & {0.9} & {\\quad} & {1.1} & {\\quad} & {0.9} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lccc}\n\\hline\n& 20X3 & 20X2 & 20X1 \\\\\n\\hline\n\\text{P/E} & 15.9 & 52.3 & 115.2 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "e1ecd11b10d84268279f.png"
         },
@@ -1063,7 +1063,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{aligned} {} & {{} \\mathrm{Stock~price}} & {} & {{}} & {{}} & {{}} \\\\ {} & {{} \\mathrm{Shares~outstanding}} & {} & {{}} & {{}} & {{200 , 000}} \\\\ {} & {{} \\mathrm{Market~value~of~long-term}} & {} & {{}} & {{}} & {{\\texttt{S 600 , 000}}} \\\\ {} & {{} \\mathrm{deht}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l r} {{\\mathrm{Book~value~of~long-term~debt~}}} & {{\\mathfrak{s 900 ,} 000}} \\\\ {{\\mathrm{Book~value~of~total~debt~}}} & {{\\mathfrak{s 2 ,} 100 , 000}} \\\\ {{\\mathrm{Cash~and~marketable~}}} & {{\\mathfrak{s 250 ,} 000}} \\\\ {{\\mathrm{securities~}}} & {{\\mathfrak{s e c u r i t i e s ~}}} \\end{array}\\\\[6pt]\\mathrm{EBITDA} \\qquad\\qquad\\qquad\\qquad\\qquad\\mathrm{S1,000,000}\\end{gathered}",
+          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Stock price} & \\$45.00 \\\\\n\\text{Shares outstanding} & 10,000,000 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "ee22ce734bc6fb8557cf.png"
         },
@@ -2018,7 +2018,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l l} {6. \\mathbf{C} \\mathrm{~} \\mathrm{~} \\mathrm{D}_{1}=\\$1.00 ( 1.25 )=\\$1.25} & {\\mathrm{(L0S~46.h)}} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{D}_{2}=\\$1.25 ( 1.25 )=\\$1.5625} & {} \\\\ {\\mathrm{~} \\mathrm{D}_{3}=1.5625 \\times1.06=\\$1.6563} & {} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{P}_{2}=\\frac{1.6563} {0.10-0.06}=\\$41.41} & {} \\\\ \\end{array}\\\\[6pt]\\frac{1.25} {1.10}+\\frac{1.5625+41.41} {( 1.10 )^{2}}=\\$36.65\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{array} {ll} {6. \\mathbf{C} \\mathrm{~} \\mathrm{~} \\mathrm{D}_{1}=\\$1.00 ( 1.25 )=\\$1.25} & {\\mathrm{(L0S~46.h)}} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{D}_{2}=\\$1.25 ( 1.25 )=\\$1.5625} & {} \\\\ {\\mathrm{~} \\mathrm{D}_{3}=1.5625 \\times1.06=\\$1.6563} & {} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{P}_{2}=\\frac{1.6563} {0.10-0.06}=\\$41.41} & {} \\\\ \\end{array}\\\\[6pt]\\frac{1.25} {1.10}+\\frac{1.5625+41.41} {( 1.10 )^{2}}=\\$36.65\\end{gathered}",
               "display": true,
               "sourceAsset": "c0d266656dd457a5c5ae.png"
             }

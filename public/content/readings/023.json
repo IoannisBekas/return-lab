@@ -213,7 +213,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt c u r r e n t \\; r a t i o}={\\frac{\\tt c u r r e n t \\; a s s e t s} {\\tt c u r r e n t \\; l i a b i l i t i e s}}",
+          "latex": "\\text{Current ratio} = \\frac{\\text{Current assets}}{\\text{Current liabilities}}",
           "display": true,
           "sourceAsset": "1d3d4206156f488f3e07.png"
         },
@@ -247,7 +247,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{} & {20 X 1} & {20 X 2} \\\\ {\\tt C u r r e n t A s s e t s} & {\\tt( S 000 s )} & {\\tt( S 000 s )} \\\\ \\hline{\\tt C a s h \\ a n d \\ m a r k e t a b l e \\ s e c u r i t i e s} & {\\tt S 98} & {\\tt S \\ 54} \\\\ {\\tt A c c o u n t s \\ r e c e i v a b l e} & {\\tt S \\ 120} & {\\tt S \\ 110} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Inventory}} & {} & {{} \\qquad\\qquad\\S\\; 190} & {} & {{} \\S\\; 310} \\\\ {} & {{} \\mathrm{Prepaid\\;accounts}} & {} & {{} \\qquad\\qquad\\S\\; 24} & {} & {{} \\S\\; 18} \\\\ {} & {{} \\mathrm{Current\\;Liabilities}} & {} & {{}} & {} \\\\ {} & {{} \\mathrm{Accounts\\;payable}} & {} & {{} \\qquad\\qquad\\qquad\\S\\; 85} & {} & {{} \\S\\; 100} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l c c r} {\\mathrm{Accrued~expenses}} & {{}} & {{}} & {{\\S~ 34}} & {{}} & {{\\S~ 39}} \\\\ {\\mathrm{Short-term~notes~payable}} & {{}} & {{}} & {{\\S~ 98}} & {{}} & {{\\S~ 145}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\text{Current Assets} & 20X1\\ (\\$'000) & 20X2\\ (\\$'000) \\\\\n\\hline\n\\text{Cash} & \\$100 & \\$150 \\\\\n\\text{Accounts receivable} & \\$200 & \\$250 \\\\\n\\text{Inventory} & \\$300 & \\$400 \\\\\n\\hline\n\\text{Total current assets} & \\$600 & \\$800 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "163f536e1ea2a0f49728.png"
         },

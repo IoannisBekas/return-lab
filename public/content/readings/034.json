@@ -359,7 +359,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt d e p r e c i a t i o n e x p e n s e=} \\ {\\frac{( {\\tt S 30} , 000-{\\tt S 2} , 000 )} {4 \\ y e a r s}}={\\tt S 7} , 000",
+          "latex": "\\text{depreciationexpense=} \\ {\\frac{( \\text{S 30} , 000-\\text{S 2} , 000 )} {4 \\ years}}=\\text{S 7} , 000",
           "display": true,
           "sourceAsset": "7a12c76e9972775acc06.png"
         },

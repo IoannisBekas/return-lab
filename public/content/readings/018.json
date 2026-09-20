@@ -343,7 +343,7 @@
     },
     {
       "type": "math",
-      "latex": "\\underbrace{\\mathrm{appreciation~of~the~price~currency~as~} \\frac{1} {( 1-0.0139 )}-1=0.0141=1.41 \\heartsuit_{b}}",
+      "latex": "\\text{Appreciation of the price currency} = \\frac{1}{1-0.0139} - 1 = 0.0141 = 1.41\\%",
       "display": true,
       "sourceAsset": "e1309dd1d7fb8e69b33d.png",
       "prose": "appreciation of the price currency as"

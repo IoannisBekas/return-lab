@@ -28,7 +28,7 @@
         },
         {
           "type": "math",
-          "latex": "\\sigma_{\\mathrm{{\\mathsf{P}}}}={\\sqrt{\\operatorname{W}_{\\mathrm{{\\mathsf{A}}}}^{2} \\sigma_{\\mathrm{{\\mathsf{A}}}}^{2}}}=\\operatorname{W}_{\\mathrm{{\\mathsf{A}}}} \\sigma_{\\mathrm{{\\mathsf{A}}}}",
+          "latex": "\\sigma_P = \\sqrt{w_A^2 \\sigma_A^2} = w_A \\sigma_A",
           "display": true,
           "sourceAsset": "3f42b9f9e60661df1847.png"
         },
@@ -94,10 +94,12 @@
           "text": "Expectations"
         },
         {
-          "type": "math",
-          "latex": "\\begin{matrix} {\\mathrm{E} ( k )} & {\\mathrm{Capital~Market~Line}} \\\\ {} & {\\mathrm{Optimal~Risly~Portfolio)}} \\\\ {} & {\\mathrm{Harket~Portfolio)}} \\\\ {} & {\\mathrm{Frontier}} \\\\ {} & {\\mathrm{Risk~Fre~Asset}} \\\\ \\end{matrix}",
-          "display": true,
-          "sourceAsset": "54770f97b2405c7ba97c.png"
+          "type": "image",
+          "src": "content/figures/54770f97b2405c7ba97c.png",
+          "alt": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio.",
+          "width": 424,
+          "height": 291,
+          "visualKind": "diagram-chart-or-table"
         },
         {
           "type": "paragraph",
@@ -105,7 +107,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{E} ( \\mathbb{R}_{\\mathbb{P}} ) \\!=\\! \\operatorname{R}_{\\mathbb{f}} \\!+\\! \\left( {\\frac{\\operatorname{E} ( \\mathbb{R}_{\\mathbb{M}} ) \\!-\\! \\operatorname{R}_{\\mathbb{f}}} {\\sigma_{\\mathbb{M}}}} \\right) \\! \\sigma_{\\mathbb{P}}",
+          "latex": "E(R_P) = R_f + \\left(\\frac{E(R_M) - R_f}{\\sigma_M}\\right)\\sigma_P",
           "display": true,
           "sourceAsset": "caa42df0b0d26eb1a8f1.png"
         },
@@ -125,7 +127,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{E} ( \\mathbb{R}_{\\mathbb{P}} ) \\!=\\! \\mathrm{R}_{\\mathbb{f}} \\!+\\! \\left( \\operatorname{E} ( \\mathbb{R}_{\\mathbb{M}} ) \\!-\\! \\mathrm{R}_{\\mathbb{f}} \\! \\right) \\! \\left( \\! {\\frac{\\sigma_{\\mathbb{P}}} {\\sigma_{\\mathbb{M}}}} \\! \\right)",
+          "latex": "E(R_P) = R_f + (E(R_M) - R_f)\\beta_P",
           "display": true,
           "sourceAsset": "40e4f9f579c995838c9f.png"
         },
@@ -229,7 +231,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{E ( R_{i} )-R_{f}=\\beta_{i 1} \\times E ( F a c t o r \\ 1 )+\\beta_{i 2} \\times E ( F a c t o r \\ 2 )+. . . .+\\beta_{i k} \\times E ( F a c t o r \\ k )}",
+          "latex": "E(R_i) - R_f = \\beta_{i1}E(\\text{Factor 1}) + \\beta_{i2}E(\\text{Factor 2}) + \\dots + \\beta_{ik}E(\\text{Factor } k)",
           "display": true,
           "sourceAsset": "eed272798b2e9f62fe87.png"
         },
@@ -308,7 +310,7 @@
         },
         {
           "type": "math",
-          "latex": "\\beta_{\\mathrm{i}}={\\frac{\\mathrm{covariance~of~Asset~i's~return~with~the~market~return}} {\\mathrm{variance~of~the~market~return}}} \\!=\\! {\\frac{\\mathrm{C o v_{i m}}} {\\sigma_{\\mathrm{m}}^{2}}}",
+          "latex": "\\beta_{\\mathrm{i}}={\\frac{\\mathrm{covariance~of~Asset~i's~return~with~the~market~return}} {\\mathrm{variance~of~the~market~return}}} \\!=\\! {\\frac{\\mathrm{Co v_{im}}} {\\sigma_{\\mathrm{m}}^{2}}}",
           "display": true,
           "sourceAsset": "f74741d98e8f28c27efc.png"
         },
@@ -318,7 +320,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {\\rho_{\\mathrm{im}}={\\frac{{\\bf C o v}_{\\mathrm{im}}} {\\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}}} \\\\ {{\\mathrm{to} \\, \\mathrm{get} \\, {\\bf C o v}_{\\mathrm{im}}=\\rho_{\\mathrm{im}} \\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}} \\end{array}",
+          "latex": "\\begin{array} {r} {\\rho_{\\mathrm{im}}={\\frac{{\\bf Cov}_{\\mathrm{im}}} {\\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}}} \\\\ {{\\mathrm{to} \\, \\mathrm{get} \\, {\\bf Cov}_{\\mathrm{im}}=\\rho_{\\mathrm{im}} \\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}} \\end{array}",
           "display": true,
           "sourceAsset": "d3221435d350195c7625.png"
         },
@@ -328,7 +330,7 @@
         },
         {
           "type": "math",
-          "latex": "\\beta_{\\mathbf{i}} \\!=\\! {\\frac{\\rho_{\\mathbf{i m}} \\sigma_{\\mathbf{i}} \\sigma_{\\mathbf{m}}} {\\sigma_{\\mathbf{m}}^{2}}} \\!=\\rho_{\\mathbf{i m}} \\! \\left( {\\frac{\\sigma_{\\mathbf{i}}} {\\sigma_{\\mathbf{m}}}} \\right)",
+          "latex": "\\beta_{\\mathbf{i}} \\!=\\! {\\frac{\\rho_{\\mathbf{im}} \\sigma_{\\mathbf{i}} \\sigma_{\\mathbf{m}}} {\\sigma_{\\mathbf{m}}^{2}}} \\!=\\rho_{\\mathbf{im}} \\! \\left( {\\frac{\\sigma_{\\mathbf{i}}} {\\sigma_{\\mathbf{m}}}} \\right)",
           "display": true,
           "sourceAsset": "67c430ba86869e4da673.png"
         },
@@ -443,7 +445,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{i}} \\right)=\\mathrm{R}_{\\mathrm{f}}+{\\frac{\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{mikt}} \\right)-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{mikt}}^{2}}} \\! \\left( \\operatorname{C o v}_{\\mathrm{i,mkt}} \\right)",
+          "latex": "\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{i}} \\right)=\\mathrm{R}_{\\mathrm{f}}+{\\frac{\\operatorname{E} \\left( \\mathrm{R}_{\\mathrm{mikt}} \\right)-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{mikt}}^{2}}} \\! \\left( \\operatorname{Cov}_{\\mathrm{i,mkt}} \\right)",
           "display": true,
           "sourceAsset": "5cc14fb3f7545a971847.png"
         },
@@ -486,7 +488,7 @@
         },
         {
           "type": "math",
-          "latex": "\\boldsymbol{\\mathrm{So,we~can~define~beta,}} \\boldsymbol{\\beta=} \\boldsymbol{\\frac{C o \\ v_{i , \\, \\mathbf{m i t} t}} {\\sigma_{\\mathbf{m i t} t}^{2}}} , \\boldsymbol{\\mathrm{as~a~standardized~measure~of~systematic~risk.}}",
+          "latex": "\\boldsymbol{\\mathrm{So,we~can~define~beta,}} \\boldsymbol{\\beta=} \\boldsymbol{\\frac{Co \\ v_{i , \\, \\mathbf{mit} t}} {\\sigma_{\\mathbf{mit} t}^{2}}} , \\boldsymbol{\\mathrm{as~a~standardized~measure~of~systematic~risk.}}",
           "display": true,
           "sourceAsset": "eb7f359c65a0d3f19f81.png",
           "prose": "So, we can define beta, as a standardized measure of systematic risk."
@@ -1009,7 +1011,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{\\ J e n s e n^{\\prime} s \\ a l p h a}=\\alpha_{\\mathrm{p}}=\\mathrm{R}_{\\mathrm{p}}-[ \\mathrm{R}_{\\mathrm{f}}+\\beta_{\\mathrm{p}} ( \\mathrm{R}_{\\mathrm{M}}-\\mathrm{R}_{\\mathrm{f}} ) ]",
+      "latex": "\\mathrm{\\ Jensen^{\\prime} s \\ alpha}=\\alpha_{\\mathrm{p}}=\\mathrm{R}_{\\mathrm{p}}-[ \\mathrm{R}_{\\mathrm{f}}+\\beta_{\\mathrm{p}} ( \\mathrm{R}_{\\mathrm{M}}-\\mathrm{R}_{\\mathrm{f}} ) ]",
       "display": true,
       "sourceAsset": "83003297a55136b8bec5.png",
       "prose": "Jensen’s alpha"

@@ -84,7 +84,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {{\\mathrm{1.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {2}} \\right)^{2}-1=1.05^{2}-1=0.1025=10.25^{9} \\! /_{\\! 6}} \\\\ {{\\mathrm{2.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {4}} \\right)^{4}-1=1.025^{4}-1=0.1038=10.3896} \\end{aligned}",
+          "latex": "\\begin{aligned} {{\\mathrm{1.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {2}} \\right)^{2}-1=1.05^{2}-1=0.1025=10.25\\%} \\\\ {{\\mathrm{2.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {4}} \\right)^{4}-1=1.025^{4}-1=0.1038=10.3896} \\end{aligned}",
           "display": true,
           "sourceAsset": "e5ab0f2c64e8ccdaf492.png"
         },
@@ -405,7 +405,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {89.464={\\frac{9} {( 1.04+Z S )^{1}}}+{\\frac{9} {( 1.08167+Z S )^{2}}}+{\\frac{109} {( 1.12377+Z S )^{3}}}} \\\\ {\\mathrm{~}} \\\\ {\\Rightarrow\\mathrm{ZS}=1.67 {\\frac{9} {6}} , {\\mathrm{~or~} 167 {\\mathrm{~basis~points}}}} \\end{array}",
+          "latex": "\\begin{array} {l} {89.464={\\frac{9} {( 1.04+ZS )^{1}}}+{\\frac{9} {( 1.08167+ZS )^{2}}}+{\\frac{109} {( 1.12377+ZS )^{3}}}} \\\\ {\\mathrm{~}} \\\\ {\\Rightarrow\\mathrm{ZS}=1.67 {\\frac{9} {6}} , {\\mathrm{~or~} 167 {\\mathrm{~basis~points}}}} \\end{array}",
           "display": true,
           "sourceAsset": "f55d351ab55aee656ffc.png"
         },

@@ -489,7 +489,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c} {\\mathrm{Shares~purchased}} & {1 , 000} \\\\ {\\mathrm{Purchase~price~per~share}} & {\\$100} \\\\ {\\mathrm{Anmual~dividend~per~share}} & {\\$2.00} \\\\ {\\mathrm{Initial~margin~requirement}} & {4099} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c r} {\\mathrm{Call~money~rate}} & {4 \\gamma_{0}} \\\\ {\\mathrm{Commission~per~share}} & {50.05} \\\\ {\\mathrm{Stock~price~after~one~year}} & {5110} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lc} {\\mathrm{Shares~purchased}} & {1 , 000} \\\\ {\\mathrm{Purchase~price~per~share}} & {\\$100} \\\\ {\\mathrm{Anmual~dividend~per~share}} & {\\$2.00} \\\\ {\\mathrm{Initial~margin~requirement}} & {4099} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lcr} {\\mathrm{Call~money~rate}} & {4 \\gamma_{0}} \\\\ {\\mathrm{Commission~per~share}} & {50.05} \\\\ {\\mathrm{Stock~price~after~one~year}} & {5110} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "fda5a48d0ac7e658f9e1.png"
         },
@@ -553,7 +553,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{{\\tt S 40} ( 1-{\\tt0.5} )} {{\\tt1-0.25}} \\,=\\, {\\tt S 26.67}",
+          "latex": "\\frac{\\text{S 40} ( 1-\\text{0.5} )} {\\text{1-0.25}} \\,=\\, \\text{S 26.67}",
           "display": true,
           "sourceAsset": "07eaf7284b47126a6e5f.png"
         },

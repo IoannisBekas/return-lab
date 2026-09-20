@@ -198,7 +198,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{r_{e}} \\,=\\, \\mathrm{r_{0}}+\\frac{\\mathrm{D}} {\\mathrm{E}} ( \\mathrm{r_{0}}-\\mathrm{r_{d}} )}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r_{e}=c o s t ~ o f ~ e q u i t y}}} \\\\ {{\\mathrm{r_{0}=c o s t ~ o f ~ e q u i t y ~ w i t h ~ n o ~ d e b t ~ ( a l l ~ e q u i t y )}}} \\\\ {{\\mathrm{r_{d}=c o s t ~ o f ~ d e b t}}} \\\\ {{\\mathrm{~ \\underline{{{D}}} ~=d e b t-t o-e q u i t y ~ r a t i o}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\nr_e = r_0 + \\frac{D}{E}(r_0 - r_d) \\\\[4pt]\n\\begin{aligned}\n\\text{where:}\\quad\nr_e &= \\text{cost of equity} \\\\\nr_0 &= \\text{cost of equity with no debt (all equity)} \\\\\nr_d &= \\text{cost of debt} \\\\\nD/E &= \\text{debt-to-equity ratio}\n\\end{aligned}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "6c9fcbbb3cf8dcbf3d91.png"
         },
@@ -244,7 +244,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{r_{e}}=\\mathrm{~ r_{0}+\\frac{D} {E} ( r_{0}-r_{d} ) \\big( 1-T_{C} \\big)}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{T_{C}=t a x ~ r a t e}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{r_{e}}=\\mathrm{~ r_{0}+\\frac{D} {E} ( r_{0}-r_{d} ) \\big( 1-T_{C} \\big)}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{T_{C}=tax ~ rate}}} \\end{array}",
           "display": true,
           "sourceAsset": "38a90f5347627989645b.png"
         },
@@ -311,7 +311,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{V_{L}=V_{U}+( t \\times\\, d e b t )-P V \\left( c o s t s \\ o f \\ f i n a n c i a l \\ d i s t r e s s \\right)}",
+          "latex": "\\mathrm{V_{L}=V_{U}+( t \\times\\, debt )-PV \\left( costs \\ of \\ financial \\ distress \\right)}",
           "display": true,
           "sourceAsset": "90f969d8eeafc7c605cd.png"
         },
@@ -462,7 +462,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times( 1-t a x ~ r a t e ) \\right]+\\left( \\mathrm{weight~of~equity} \\right)} \\\\ {\\mathrm{equity} \\times\\mathrm{cost~of~equity} )} \\\\ \\end{array}",
+      "latex": "\\begin{array} {l} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times( 1-tax ~ rate ) \\right]+\\left( \\mathrm{weight~of~equity} \\right)} \\\\ {\\mathrm{equity} \\times\\mathrm{cost~of~equity} )} \\\\ \\end{array}",
       "display": true,
       "sourceAsset": "6ada376bed21ec590f6a.png"
     },

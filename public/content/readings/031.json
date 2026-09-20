@@ -111,7 +111,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{NI}}} \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{INCC}}} & {{}={\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{\\mathrm{Int}}} & {{}={\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{WC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{working~capital~investment}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{NI}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{INCC}}} & {{}={\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{\\mathrm{Int}}} & {{}={\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{WC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{working~capital~investment}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "80d78a030ac1c861af61.png"
         },
@@ -143,7 +143,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{CFO}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{CFO~}=\\operatorname{c a s h ~ f l o w ~ f r o m ~ o p e r a t i o n s}}} \\\\ {{\\mathrm{Int} ~ ~ ~ ~=\\operatorname{c a s h ~ i n t e r e s t ~ p a i d}}} \\\\ {{\\mathrm{FC}_{\\mathrm{TNV}}=\\operatorname{f i x e d ~ c a p i t a l ~ i n v e s t m e n t ~ ( n e t ~ c a p i t a l ~ e x p e n d i t u r e s )}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{CFO}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{CFO~}=\\operatorname{cash ~ flow ~ from ~ operations}}} \\\\ {{\\mathrm{Int} ~ ~ ~ ~=\\operatorname{cash ~ interest ~ paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{TNV}}=\\operatorname{fixed ~ capital ~ investment ~ ( net ~ capital ~ expenditures )}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "6832a5a679adfea2709d.png"
         },
@@ -161,7 +161,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-FC}_{\\mathrm{{B N V}}}+{\\mathrm{net~borrowing}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ {{\\mathrm{FC}_{\\mathrm{{B N V}}}}} \\\\ {{\\mathrm{net~borrowing}=\\mathrm{debt~issued-debt~repaid}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-FC}_{\\mathrm{{BNV}}}+{\\mathrm{net~borrowing}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ {{\\mathrm{FC}_{\\mathrm{{BNV}}}}} \\\\ {{\\mathrm{net~borrowing}=\\mathrm{debt~issued-debt~repaid}}} \\end{array}",
           "display": true,
           "sourceAsset": "87d1d99be17c7d6a5845.png"
         },
@@ -187,7 +187,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} & {} \\\\ {} & {} & {} \\\\ {\\mathrm{Depreciation}} & {} & {} & {7 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability} \\qquad} & {5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PP\\&E}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {} & {{} \\mathrm{underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Investment~in~working~capital}} \\\\ {} & {{} \\mathrm{Increase~in~receivables}} \\\\ {} & {{} \\mathrm{Decrease~in~inventories}} \\\\ {} & {{} \\mathrm{Increase~in~accounts~payable}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Decrease~in~wages~payable}} & {{}} & {{}} & {{} ( 3 , 500 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {{}} & {{}} & {{} 500} \\\\ {\\mathrm{Increase~in~unearned~revenue~liability}} & {{}} & {{} 4 , 000} \\\\ {\\mathrm{Increase~in~taxes~payable}} & {{}} & {{}} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lcc} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} & {} \\\\ {} & {} & {} \\\\ {\\mathrm{Depreciation}} & {} & {} & {7 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability} \\qquad} & {5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PP\\&E}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {} & {{} \\mathrm{underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Investment~in~working~capital}} \\\\ {} & {{} \\mathrm{Increase~in~receivables}} \\\\ {} & {{} \\mathrm{Decrease~in~inventories}} \\\\ {} & {{} \\mathrm{Increase~in~accounts~payable}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Decrease~in~wages~payable}} & {{}} & {{}} & {{} ( 3 , 500 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {{}} & {{}} & {{} 500} \\\\ {\\mathrm{Increase~in~unearned~revenue~liability}} & {{}} & {{} 4 , 000} \\\\ {\\mathrm{Increase~in~taxes~payable}} & {{}} & {{}} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
           "display": true,
           "sourceAsset": "ca6ef3f4adc88bf5b0b4.png"
         },
@@ -259,7 +259,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{c a s h-r e t u r n-o n-a s s e t s \\; r a t i o}=\\frac{\\mathrm{CFO}} {\\operatorname{a v e r a g e \\; t o t a l \\; a s s e t s}}",
+          "latex": "\\operatorname{cash-return-on-assets \\; ratio}=\\frac{\\mathrm{CFO}} {\\operatorname{average \\; total \\; assets}}",
           "display": true,
           "sourceAsset": "0d170e5d91320fcc7ae0.png"
         },
@@ -269,7 +269,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt c a s h-r e t u r n-o n-e q u i t y r a t i o}={\\frac{C F O} {a v e r a g e \\ t o t a l \\ e q u i t y}}",
+          "latex": "\\text{cash-return-on-equityratio}={\\frac{CFO} {average \\ total \\ equity}}",
           "display": true,
           "sourceAsset": "e5694160c76dce46512f.png"
         },
@@ -279,7 +279,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt c a s h-t o-i n c o m e ~ r a t i o}={\\frac{C F O} {o p e r a t i n g ~ i n c o m e}}",
+          "latex": "\\text{cash-to-income ~ ratio}={\\frac{CFO} {operating ~ income}}",
           "display": true,
           "sourceAsset": "58c566bbc36b29a01c3e.png"
         },
@@ -307,7 +307,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\tt d e b t c o v e r a g e r a t i o}={\\tt C F O}",
+          "latex": "\\text{debtcoverageratio}=\\text{CFO}",
           "display": true,
           "sourceAsset": "afede3ba88a12a8eb6c1.png"
         },

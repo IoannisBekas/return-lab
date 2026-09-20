@@ -22,7 +22,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l c c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$50} & {\\$50} & {\\$50} & {\\$50} & {\\$1 , 050} \\\\ {\\mathrm{Principal~remaining}} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$0} \\\\ \\hline{\\mathrm{Principal~remaining}} & {\\$1 , 000} & {\\$1 , 000} & {\\$1 , 000} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\text{Year} & 1 & 2 & 3 & 4 \\\\\n\\hline\n\\text{PMT} & \\$50 & \\$50 & \\$50 & \\$1,050 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "f9e7bcefe95852081235.png"
         },
@@ -32,7 +32,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$230.97} & {\\$230.97} & {\\$230.97} & {\\$230.97} & {\\$230.98} \\\\ {\\mathrm{Principal~remaining}} & {\\$819.03} & {\\$629.01} & {\\$429.49} & {\\$219.99} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\text{Year} & 1 & 2 & 3 & 4 \\\\\n\\hline\n\\text{PMT} & \\$230.97 & \\$230.97 & \\$230.97 & \\$230.97 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "232af2bfe2ed93b188dd.png"
         },
@@ -58,7 +58,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l l c c c c} \\hline{\\mathrm{Year}} & {1} & {2} & {3} & {4} & {5} \\\\ \\hline{\\mathrm{PMT}} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$194.78} & {\\$394.78} \\\\ {\\mathrm{Principal~remaining}} & {\\$855.22} & {\\$703.20} & {\\$543.58} & {\\$375.98} & {\\$0} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\text{Year} & 1 & 2 & 3 & 4 \\\\\n\\hline\n\\text{PMT} & \\$194.78 & \\$194.78 & \\$194.78 & \\$194.78 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "6c9963b8ad23b6206f52.png"
         },

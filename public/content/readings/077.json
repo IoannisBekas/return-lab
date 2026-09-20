@@ -438,7 +438,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{~have~returned~} \\frac{73} {60}-1=21.7 \\%_{\\mathsf{d}}",
+          "latex": "\\frac{73}{60} - 1 = 21.7\\%",
           "display": true,
           "sourceAsset": "adac6a6934a7033d477c.png",
           "prose": "have returned ."

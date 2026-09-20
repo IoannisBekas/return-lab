@@ -34,7 +34,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {A s \\mathrm{~an~example,we~can~model~a~call~option~with~an~exercise~price~of~855~on~a~stock~that~}} \\\\ {\\mathrm{~is~currently~valued~(S_0)~at~850,~Let~us~assume~that~in~one~pertiod~the~stock's~value~will~}} \\\\ {\\mathrm{~ e i t h e r ~ i n c r e a s e ~ ( S_{l}^0 ) ~ t o ~ 860 ~ o r ~ d e c r e a s e ~ ( S_{l}^0 ) ~ t o ~ 842 , ~ W e ~ s t a t e ~ t h e ~ r e t u r n ~ f r o m ~ a n ~ u p-m o v e ~ ( S^0 ) ~ a n d ~}} \\\\ {\\mathrm{~(R^0)~as~860~/~850=1.20,~and~the~return~from~a~down-move~(R^d)~as~842~/~850=0.84.}} \\\\ \\end{array}",
+          "latex": "\\text{As an example, we can model a call option with an exercise price of \\$50 on a stock currently valued at \\$50.}",
           "display": true,
           "sourceAsset": "046edb488fbec717e92a.png",
           "prose": "As an example, we can model a call option with an exercise price of $55 on a stock that is currently valued (S0) at $50. Let us assume that in one period the stock’s value will either increase to $60 or decrease to $42. We state the return from an up-move (Ru) as $60 / $50 = 1.20, and the return from a down-move (Rd) as $42 / $50 = 0.84."
@@ -53,7 +53,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The~call~option~will~be~in~the~money~after~an~up-move~or~out~of~the~money~after~an~up~-move~of~the~money~after~an~up~-move~}} \\\\ {\\mathrm{down-move.~Its~value~at~expiration~after~an~up-move,~c_1^n~is~Max} ( 0 , . \\mathtt{S 60-S 55} )=\\mathtt{S 5. I t s ~ a n d e ~ o f ~ a n d ~ o n ~ u p ~-s i m o v e .}} \\\\ \\end{array}",
+          "latex": "\\text{The call option will be in the money after an up-move, or out of the money after a down-move.}",
           "display": true,
           "sourceAsset": "e5a28a11d341b77a5e29.png",
           "prose": "The call option will be in the money after an up-move or out of the money after a down-move. Its value at expiration after an up-move, is Max(0, $60 – $55) = $5. Its"
@@ -85,14 +85,14 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{T h e ~ p o r t f o l i o ~ v a l u e ~ a f t e r ~ a ~ d o w n-m o v e , V_1^{d} , i s ~ h S_1^{d}-c_1^{d} .}",
+          "latex": "V_1^d = h S_1^d - c_1^d",
           "display": true,
           "sourceAsset": "a5e2a0881720336dc878.png",
           "prose": "The portfolio value after a down-move,"
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{I n ~ o u r ~ e x a m p l e , V^u_1=h ( \\Im60 )-\\Re5 , ~ a n d ~ V^d_1=h ( \\Im42 )-0_{1} ~ S e t t i n g ~ V^u_1=V^d_{1} ~ a n d ~ s o l v i n g ~ f o r ~} h ,}} \\\\ {{\\mathrm{we~get} :}} \\\\ \\end{array}",
+          "latex": "V_1^u = h(\\$60) - \\$5, \\quad V_1^d = h(\\$42) - \\$0. \\quad \\text{Setting } V_1^u = V_1^d \\implies h = 0.278",
           "display": true,
           "sourceAsset": "3db96982ae6fb053b7eb.png",
           "prose": "In our example, and . Setting and solving for h, we get:"
@@ -144,7 +144,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The~put~option~will~be~in~the~money~after~a~down-move~or~out~of~the~money~after~an~up-move,}} \\\\ {\\mathrm{move.~Its~value~at~expiration~after~a~down-move,~p_1^4,~is~Max} ( 0 , \\$48-\\$42 )=\\$6. \\mathrm{~ I t s ~ v a l u e n-m o v e , ~ p^4 ~ , ~ i s ~ m o v e , ~ p^4 ~ , ~ i s ~ m o v e , ~ p^4 ~ , ~ p^4 ~ , ~ i s ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^4 ~ , ~ p ~ , ~ p^{4 ~}}} \\\\ \\end{array}",
+          "latex": "\\text{The put option will be in the money after a down-move, or out of the money after an up-move.}",
           "display": true,
           "sourceAsset": "6094e1284eeec6466339.png",
           "prose": "The put option will be in the money after a down-move or out of the money after an up- move. Its value at expiration after a down-move, is Max(0, $48 – $42) = $6. Its value after an up-move, is Max(0, $48 – $60) = 0."
@@ -186,14 +186,14 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{V_{1}^{u} ~ o r ~ V_{1}^{d} ~ b e c a u s e ~ t h e y ~ w i l l ~ b e ~ e q u a l :}",
+          "latex": "V_1^u = V_1^d",
           "display": true,
           "sourceAsset": "80cd4f684d862db52ca6.png",
           "prose": "or because they will be equal:"
         },
         {
           "type": "math",
-          "latex": "{\\bf V_{1}^{n}}=0.333 ( \\$60 )=\\$20 , \\, \\mathrm{o r ~ V_{1}^{d}=0.333 ( \\$42 )+\\$6=\\$20}",
+          "latex": "{\\bf V_{1}^{n}}=0.333 ( \\$60 )=\\$20 , \\, \\mathrm{or ~ V_{1}^{d}=0.333 ( \\$42 )+\\$6=\\$20}",
           "display": true,
           "sourceAsset": "09ebe23995642d4ed195.png"
         },
@@ -211,7 +211,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {{\\mathrm{V}_{0}=\\mathrm{h} \\mathrm{S}_{0}+\\mathrm{p}_{0} , \\, \\mathrm{so} \\, \\mathrm{p}_{0}=\\mathrm{V}_{0}-\\mathrm{h} \\mathrm{S}_{0}}} \\\\ {{\\mathrm{p}_{0}=\\mathrm{tt~S1} 9.42-0.333 ( \\mathrm{S} 50 )=\\mathrm{tt~S2.75}}} \\end{array}",
+          "latex": "V_0 = h S_0 + p_0 \\implies p_0 = V_0 - h S_0",
           "display": true,
           "sourceAsset": "1a11312e2f6408b1206f.png"
         },
@@ -252,7 +252,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\pi_{\\mathrm{{U}}}=\\mathrm{risk\\!-\\!neutral~probability~of~an~up\\!-\\!move}=\\frac{1+\\mathrm{{R f}}-\\mathrm{{R}^{d}}} {\\mathrm{{R}^{u}-{R^{d}}}}}} \\\\ {{\\pi_{\\mathrm{{D}}}=\\mathrm{risk\\!-\\!neutral~probability~of~a~down\\!-\\!move}=1-\\pi_{\\mathrm{{U}}}}} \\\\ {{\\mathrm{where} ;}} \\end{array}\\\\[6pt]\\begin{array} {r l} {\\mathrm{Rf}} & {{}=\\mathrm{risk-free~rate}} \\\\ {\\mathrm{R^{a}}} & {{}=\\mathrm{size~of~an~up-move}} \\\\ {\\mathrm{R^{d}}} & {{}=\\mathrm{size~of~a~dowp-move}} \\end{array}\\end{gathered}",
+          "latex": "\\pi_U = \\text{risk-neutral probability of an up-move} = \\frac{1+R_f - R^d}{R^u - R^d}",
           "display": true,
           "sourceAsset": "bdb9a8eef7baa5bd9f42.png"
         },

@@ -82,7 +82,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{{\\bf~ U}}=\\mathrm{{\\bf~ E ( r )}} \\mathrm{~-} \\frac{1} {2} \\mathrm{{\\bf~ A}} \\sigma^{2}}} \\\\ {{\\mathrm{{\\bf~ w h e r e :}}}} \\\\ {{\\mathrm{{\\bf~ U}} \\mathrm{~}=\\mathrm{utility}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathbf{E} ( \\mathbf{r} )} & {{}=\\mathbf{e x p e c t e d ~ r e t u m}} \\\\ {\\sigma^{2}} & {{}=\\mathbf{v a r i a n c e ~ o f ~ r e t u m s}} \\\\ {\\mathbf{A}} & {{}=\\mathbf{i n v e s t o r ` s ~ d e g r e e ~ o f ~ r i s k ~ a v e r s i o n}} \\end{aligned}\\end{gathered}",
+          "latex": "U = E(r) - \\frac{1}{2} A \\sigma^2",
           "display": true,
           "sourceAsset": "8cf32f859922333e68e4.png"
         },
@@ -126,7 +126,7 @@
         },
         {
           "type": "math",
-          "latex": "\\sigma_{\\mathrm{{\\scriptsize~ p o r t f o l i o}}}={\\sqrt{\\operatorname{W}_{\\mathrm{{A}}}^{2} \\sigma_{\\mathrm{{A}}}^{2}}}=\\operatorname{W}_{\\mathrm{{A}}} \\sigma_{\\mathrm{{A}}}",
+          "latex": "\\sigma_{\\text{portfolio}} = \\sqrt{w_A^2 \\sigma_A^2} = w_A \\sigma_A",
           "display": true,
           "sourceAsset": "40a3e3cf67f93acf08af.png"
         },
@@ -246,7 +246,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{n} \\left\\{\\left[ R_{t , 1}-{\\overline{{R}}}_{1} \\right] \\left[ R_{t , 2}-{\\overline{{R}}}_{2} \\right] \\right\\}} {n-1}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l l} {{\\mathrm{R}_{\\mathrm{t} , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{\\mathrm{t} , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\end{array}\\\\[6pt]{\\begin{array} {r l} {{\\mathrm{n}}} & {{}={\\mathrm{number~of~periods}}} \\end{array}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{n} \\left\\{\\left[ R_{t , 1}-{\\overline{{R}}}_{1} \\right] \\left[ R_{t , 2}-{\\overline{{R}}}_{2} \\right] \\right\\}} {n-1}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{R}_{\\mathrm{t} , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{\\mathrm{t} , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\end{array}\\\\[6pt]{\\begin{array} {rl} {{\\mathrm{n}}} & {{}={\\mathrm{number~of~periods}}} \\end{array}}\\end{gathered}",
           "display": true,
           "sourceAsset": "c924de8e41074eefcba7.png"
         },
@@ -260,7 +260,7 @@
         },
         {
           "type": "math",
-          "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{C o v}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+          "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{Cov}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
           "display": true,
           "sourceAsset": "c9e108b6efad5087af4f.png"
         },
@@ -270,7 +270,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathbf{C o v}_{1 , 2}=\\rho_{1 , 2} \\sigma_{1} \\sigma_{2}",
+          "latex": "\\mathbf{Cov}_{1 , 2}=\\rho_{1 , 2} \\sigma_{1} \\sigma_{2}",
           "display": true,
           "sourceAsset": "dc78530a4119bad43622.png"
         },
@@ -300,7 +300,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c c c c} \\hline{\\mathrm{Year} \\qquad\\mathrm{Asset~A} \\qquad\\mathrm{Asset~B}} \\\\ \\hline{1} & {5 \\mathcal{Y}_{0}} & {7 \\mathcal{Y}_{0}} \\\\ {2} & {} & {-2 \\mathcal{Y}_{0}} & {} & {-4 \\mathcal{Y}_{0}} \\\\ {3} & {} & {12 \\mathcal{Y}_{0}} & {} & {18 \\mathcal{Y}_{0}} \\\\ \\end{array}",
+          "latex": "\\begin{array}{ccc}\n\\hline\n\\text{Year} & \\text{Asset A} & \\text{Asset B} \\\\\n\\hline\n1 & 5\\% & 7\\% \\\\\n2 & -2\\% & -4\\% \\\\\n3 & 12\\% & 18\\% \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "d4e7083bdb1383817f6a.png"
         },
@@ -325,7 +325,7 @@
         },
         {
           "type": "math",
-          "latex": "\\operatorname{V a r}_{\\mathrm{portfolio}}={\\bf w}_{1}^{2} \\sigma_{1}^{2}+{\\bf w}_{2}^{2} \\sigma_{2}^{2}+2 \\, {\\bf w}_{1} {\\bf w}_{2} \\, \\mathrm{Cov}_{12}",
+          "latex": "\\operatorname{Var}_{\\mathrm{portfolio}}={\\bf w}_{1}^{2} \\sigma_{1}^{2}+{\\bf w}_{2}^{2} \\sigma_{2}^{2}+2 \\, {\\bf w}_{1} {\\bf w}_{2} \\, \\mathrm{Cov}_{12}",
           "display": true,
           "sourceAsset": "f13440f23f529e9bdb26.png"
         },
@@ -642,7 +642,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{\\ s a m p l e \\ v a r i a n c e=S^{2} \\,=\\,} {\\frac{\\sum_{t=1}^{T} ( R_{t}-{\\bar{R}} )^{2}} {T-1}}",
+      "latex": "\\mathrm{\\ sample \\ variance=S^{2} \\,=\\,} {\\frac{\\sum_{t=1}^{T} ( R_{t}-{\\bar{R}} )^{2}} {T-1}}",
       "display": true,
       "sourceAsset": "a21e1ab5159d80d9caec.png"
     },
@@ -656,7 +656,7 @@
     },
     {
       "type": "math",
-      "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{C o v}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+      "latex": "\\rho_{1 , 2}={\\frac{\\operatorname{Cov}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
       "display": true,
       "sourceAsset": "3b2855c6a03b7a5d92e2.png"
     },
@@ -935,7 +935,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {c c c} {5 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=3.8 \\mathcal{Y_{0}}} & {} & {3.8^{2}=14.44} \\\\ {} & {} & {} \\\\ {-3 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-4.2 \\mathcal{Y_{0}}} & {} & {-4.2^{2}=17.64} \\\\ {} & {} & {} \\\\ {-4 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-5.2 \\mathcal{Y_{0}}} & {} & {-5.2^{2}=27.04} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {2 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=0.8 \\mathcal{Y_{0}}} & {\\qquad} & {0.8^{2}=0.64} \\\\ {{}} & {{}} & {{}} \\\\ {6 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=4.8 \\mathcal{Y_{0}}} & {\\qquad} & {4.8^{2}=23.04} \\\\ \\end{array}\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{array} {ccc} {5 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=3.8 \\mathcal{Y_{0}}} & {} & {3.8^{2}=14.44} \\\\ {} & {} & {} \\\\ {-3 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-4.2 \\mathcal{Y_{0}}} & {} & {-4.2^{2}=17.64} \\\\ {} & {} & {} \\\\ {-4 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=-5.2 \\mathcal{Y_{0}}} & {} & {-5.2^{2}=27.04} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lll} {2 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=0.8 \\mathcal{Y_{0}}} & {\\qquad} & {0.8^{2}=0.64} \\\\ {{}} & {{}} & {{}} \\\\ {6 \\mathcal{Y_{0}}-1.2 \\mathcal{Y_{0}}=4.8 \\mathcal{Y_{0}}} & {\\qquad} & {4.8^{2}=23.04} \\\\ \\end{array}\\end{gathered}",
               "display": true,
               "sourceAsset": "598654398ca203d82d0d.png"
             },

@@ -119,7 +119,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathsf{c h a n g e ~ i n ~ f u l l ~ b o n d ~ p r i c e}}=-{\\mathsf{E f f D u r}} \\times( \\Delta{\\mathsf{C u r v e}} )+{\\frac{1} {2}} \\times{\\mathsf{E f f C o n}} \\times( \\Delta{\\mathsf{C u r v e}} )^{2}",
+          "latex": "\\text{Change in full bond price} = -\\text{EffDur} \\times (\\Delta \\text{Curve}) + \\frac{1}{2} \\times \\text{EffConvexity} \\times (\\Delta \\text{Curve})^2",
           "display": true,
           "sourceAsset": "ba96f16765368aed85a2.png"
         },
@@ -243,7 +243,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\mathsf{c h a n g e ~ i n ~ f u l l ~ b o n d ~ p r i c e}}=-{\\mathsf{E f f D u r}} \\times( \\Delta{\\mathsf{C u r v e}} )+{\\frac{1} {2}} \\times{\\mathsf{E f f C o n}} \\times( \\Delta{\\mathsf{C u r v e}} )^{2}",
+      "latex": "{\\mathsf{change ~ in ~ full ~ bond ~ price}}=-{\\mathsf{EffDur}} \\times( \\Delta{\\mathsf{Curve}} )+{\\frac{1} {2}} \\times{\\mathsf{EffCon}} \\times( \\Delta{\\mathsf{Curve}} )^{2}",
       "display": true,
       "sourceAsset": "d703456449719e74afcc.png"
     },

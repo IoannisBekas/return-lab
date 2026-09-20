@@ -201,7 +201,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l l l} \\hline{{\\mathrm{Revenues} \\qquad}} & {{\\quad1 , 000 \\oplus5100 \\qquad}} & {{\\quad5100 , 000}} \\\\ {{\\mathrm{COGS} \\qquad}} & {{\\quad1 , 000 \\oplus540 \\qquad}} & {{\\quad540 , 000}} \\\\ {{\\mathrm{Gross~profit} \\qquad}} & {{\\quad}} & {{\\quad\\quad560 , 000}} \\\\ {{\\mathrm{SGGEA} \\qquad}} & {{\\quad}} & {{\\quad}} & {{\\quad830 , 000}} \\end{array}\\\\[6pt]\\mathrm{Operating~profit} \\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\underline{{{\\$30 , 000}}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {llll} \\hline{{\\mathrm{Revenues} \\qquad}} & {{\\quad1 , 000 \\oplus5100 \\qquad}} & {{\\quad5100 , 000}} \\\\ {{\\mathrm{COGS} \\qquad}} & {{\\quad1 , 000 \\oplus540 \\qquad}} & {{\\quad540 , 000}} \\\\ {{\\mathrm{Gross~profit} \\qquad}} & {{\\quad}} & {{\\quad\\quad560 , 000}} \\\\ {{\\mathrm{SGGEA} \\qquad}} & {{\\quad}} & {{\\quad}} & {{\\quad830 , 000}} \\end{array}\\\\[6pt]\\mathrm{Operating~profit} \\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\underline{{{\\$30 , 000}}}\\end{gathered}",
           "display": true,
           "sourceAsset": "a6c13866e56f12a68e5a.png"
         },

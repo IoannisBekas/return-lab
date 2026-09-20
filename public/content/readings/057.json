@@ -86,7 +86,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{bf~approximate~ModDur}=\\frac{V_{-}-V_{+}} {2 V_{0} \\Delta Y T M}",
+          "latex": "\\mathrm{bf~approximate~ModDur}=\\frac{V_{-}-V_{+}} {2 V_{0} \\Delta YTM}",
           "display": true,
           "sourceAsset": "50fb28010f538714334a.png"
         },
@@ -301,7 +301,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{approximate~modified~duration=} \\frac{V_{-}-V_{+}} {2 V_{0} \\Delta Y T M}",
+      "latex": "\\mathrm{approximate~modified~duration=} \\frac{V_{-}-V_{+}} {2 V_{0} \\Delta YTM}",
       "display": true,
       "sourceAsset": "f196754f5dc45aeaeed2.png"
     },

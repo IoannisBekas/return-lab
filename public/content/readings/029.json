@@ -70,7 +70,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c c} \\hline{} & {\\qquad\\qquad} & {\\mathrm{Project~1}} & {\\mathrm{Project~2}} \\\\ {} & {} & {\\varepsilon_{\\bf m}} & {\\varepsilon_{\\bf m}} \\\\ \\hline{\\begin{array} {c} {\\mathrm{Materials}} \\\\ {\\mathrm{Direct~labor}} \\\\ \\end{array}} & {\\qquad} & {\\begin{array} {c} {\\mathrm{150}} \\\\ {\\mathrm{80}} \\\\ \\end{array}} & {120} \\\\ {\\mathrm{Direct~labor}} & {\\qquad} & {80} & {60} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l l} {{\\mathrm{Production~overhead} \\qquad}} & {{40 \\qquad}} & {{30}} \\\\ {{\\mathrm{Administrative~overhead} \\qquad}} & {{30 \\qquad}} & {{30}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lcc}\n\\hline\n& \\text{Project 1 (£m)} & \\text{Project 2 (£m)} \\\\\n\\hline\n\\text{Materials} & 150 & 120 \\\\\n\\text{Direct labor} & 80 & 60 \\\\\n\\text{Production overhead} & 40 & 30 \\\\\n\\text{Administrative overhead} & 30 & 30 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "559b6b263200a1cb15ae.png"
         },
@@ -382,7 +382,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{cash~ratio}={\\frac{\\operatorname{c a s h}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{cash~ratio}={\\frac{\\operatorname{cash}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}\\end{gathered}",
           "display": true,
           "sourceAsset": "47eabfa9f40215ebb4a3.png"
         },

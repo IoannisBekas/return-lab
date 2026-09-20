@@ -38,7 +38,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l l} {{\\mathrm{P_{T}=P_{0} \\, e^{\\varepsilon_{0 , T}}}}} \\\\ {{\\mathrm{where:}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{P_{T}} \\ =\\mathrm{asset~price~at~time~} T}} \\\\ {{\\mathrm{P_{0}} \\ =\\mathrm{asset~price~at~time~} 0 \\: ( \\mathrm{today} )}} \\\\ {{\\mathrm{r_{0 , T}}=\\mathrm{continuously~compounded~return~on~the~asset~from~time~} 0 \\: \\mathrm{to~time~} T}} \\end{array}\\end{gathered}",
+          "latex": "P_T = P_0 \\, e^{r_{0,T}}",
           "display": true,
           "sourceAsset": "03b39cec5a8e33a436bb.png"
         },

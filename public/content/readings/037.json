@@ -450,7 +450,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{defensive~interval}}={\\frac{\\operatorname{c a s h}+\\operatorname{m a r k e t a b l e ~ s e c u r i t i e s}+\\operatorname{r e c e i v a b l e s}} {\\operatorname{a v e r a g e ~ d a i l y ~ e x p e n d i t u r e s}}}",
+          "latex": "{\\mathrm{defensive~interval}}={\\frac{\\operatorname{cash}+\\operatorname{marketable ~ securities}+\\operatorname{receivables}} {\\operatorname{average ~ daily ~ expenditures}}}",
           "display": true,
           "sourceAsset": "65bb41c50fc3196402a0.png"
         },
@@ -464,7 +464,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\phantom{a a a a a a a a a a a}-\\mathrm{number~of~days~of~payables}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {r} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\phantom{aaaaaaaaaaa}-\\mathrm{number~of~days~of~payables}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "e8c947293efad5eb6c70.png"
         },
@@ -492,7 +492,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathsf{d e b t-t o-e q u i t y}}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~shareholders'~equity}}}",
+          "latex": "\\text{Debt-to-equity} = \\frac{\\text{Total debt}}{\\text{Total shareholders' equity}}",
           "display": true,
           "sourceAsset": "db12b58e6eb019d8b389.png"
         },
@@ -522,7 +522,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathsf{d e b t-t o-c a p i t a l}={\\frac{\\mathrm{total\\;debt}} {\\mathrm{total\\;debt+total\\;shareholders\"equity}}}",
+          "latex": "\\mathsf{debt-to-capital}={\\frac{\\mathrm{total\\;debt}} {\\mathrm{total\\;debt+total\\;shareholders\"equity}}}",
           "display": true,
           "sourceAsset": "3dcd61786a3104a7fd53.png"
         },
@@ -562,7 +562,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathsf{d e b t-t o-E B I T D A=} \\frac{\\mathsf{t o t a l ~ d e b t}} {\\mathsf{E B I T D A}}",
+          "latex": "\\text{Debt-to-EBITDA} = \\frac{\\text{Total debt}}{\\text{EBITDA}}",
           "display": true,
           "sourceAsset": "7afefb7c0aa43c5f8fa5.png"
         },
@@ -684,7 +684,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{a f t e r {-} t a x ~ o p e r a t i n g ~ p r o f i t}} {\\mathrm{a v e r a g e ~ l o n g {-} t e r m ~ c a p i t a l}}}",
+          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{after {-} tax ~ operating ~ profit}} {\\mathrm{average ~ long {-} term ~ capital}}}",
           "display": true,
           "sourceAsset": "fd4b3738615348379c01.png"
         },
@@ -746,7 +746,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{} & {} & {\\mathrm{Current~Year}} \\\\ \\hline{} & {} & {\\$4 , 000} \\\\ {\\mathrm{Cost~of~goods~sold}} & {} & {\\frac{3 , 000} {3 , 000}} \\\\ {\\mathrm{Gross~profit}} & {} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l} {\\mathrm{Operating~expenses}} & {\\qquad\\qquad\\underline{{650}}} \\\\ {\\mathrm{Operating~profit}} & {\\qquad\\qquad350} \\\\ {\\mathrm{Interest~expense}} & {\\qquad\\qquad\\underline{{50}}} \\\\ {\\mathrm{Earnings~before~taxes}} & {\\qquad\\qquad300} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l c r} {\\mathrm{Taxes}} & {\\qquad} & {\\underline{{100}}} \\\\ {\\mathrm{Net~income}} & {\\qquad} & {\\underline{{200}}} \\\\ {\\mathrm{Common~dividends}} & {\\qquad} & {\\underline{{60}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{} & {} & {\\mathrm{Current~Year}} \\\\ \\hline{} & {} & {\\$4 , 000} \\\\ {\\mathrm{Cost~of~goods~sold}} & {} & {\\frac{3 , 000} {3 , 000}} \\\\ {\\mathrm{Gross~profit}} & {} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {ll} {\\mathrm{Operating~expenses}} & {\\qquad\\qquad\\underline{{650}}} \\\\ {\\mathrm{Operating~profit}} & {\\qquad\\qquad350} \\\\ {\\mathrm{Interest~expense}} & {\\qquad\\qquad\\underline{{50}}} \\\\ {\\mathrm{Earnings~before~taxes}} & {\\qquad\\qquad300} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lcr} {\\mathrm{Taxes}} & {\\qquad} & {\\underline{{100}}} \\\\ {\\mathrm{Net~income}} & {\\qquad} & {\\underline{{200}}} \\\\ {\\mathrm{Common~dividends}} & {\\qquad} & {\\underline{{60}}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "73dc12ecfc35b84f7ec5.png"
         },
@@ -779,7 +779,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{\\begin{array} {l} \\hline{\\phantom{\\qquad} 20 \\mathbf X \\mathbf8} & {20 \\mathbf X 7} & {20 \\mathbf X 6} \\\\ \\hline{\\mathrm{Current~ratio}} \\\\ \\end{array}} & {\\begin{array} {c c c c} {2.0} & {1.5} & {1.2} \\\\ {2.0} & {1.5} & {1.2} \\\\ {0.5} & {0.8} & {1.0} \\\\ {\\mathrm{Days~of~inventory}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Days\"~sales~outstanding~} \\quad20 \\qquad30 \\qquad40\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\begin{array} {l} \\hline{\\phantom{\\qquad} 20 \\mathbf X \\mathbf8} & {20 \\mathbf X 7} & {20 \\mathbf X 6} \\\\ \\hline{\\mathrm{Current~ratio}} \\\\ \\end{array}} & {\\begin{array} {cccc} {2.0} & {1.5} & {1.2} \\\\ {2.0} & {1.5} & {1.2} \\\\ {0.5} & {0.8} & {1.0} \\\\ {\\mathrm{Days~of~inventory}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Days\"~sales~outstanding~} \\quad20 \\qquad30 \\qquad40\\end{gathered}",
           "display": true,
           "sourceAsset": "dd37716ec772b83ad750.png"
         },
@@ -898,7 +898,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\Bigl( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\Bigr) \\Bigl( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{a v e r a g e ~ s t o c k h o l d e r s^{\\prime} ~ e q u i t y}}} \\Bigr)",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\Bigl( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\Bigr) \\Bigl( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}}} \\Bigr)",
           "display": true,
           "sourceAsset": "b1d6483d81b2fee21b1a.png"
         },
@@ -950,7 +950,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} {\\mathrm{Year}} & {\\mathrm{20X3}} & {\\mathrm{20X4}} & {\\mathrm{20X5}} \\\\ \\hline{\\mathrm{Net~income}} & {21.5} & {22.3} & {21.9} \\\\ {\\mathrm{Revenue}} & {305} & {350} & {410} \\\\ {\\mathrm{Average~equity}} & {119} & {124} & {126} \\\\ \\end{array}\\\\[6pt]\\mathrm{Average~assets~} \\quad230 \\quad\\ 290 \\quad\\ 350\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} {\\mathrm{Year}} & {\\mathrm{20X3}} & {\\mathrm{20X4}} & {\\mathrm{20X5}} \\\\ \\hline{\\mathrm{Net~income}} & {21.5} & {22.3} & {21.9} \\\\ {\\mathrm{Revenue}} & {305} & {350} & {410} \\\\ {\\mathrm{Average~equity}} & {119} & {124} & {126} \\\\ \\end{array}\\\\[6pt]\\mathrm{Average~assets~} \\quad230 \\quad\\ 290 \\quad\\ 350\\end{gathered}",
           "display": true,
           "sourceAsset": "165fd4c0e6d9344cba6d.png"
         },
@@ -1030,7 +1030,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l c c c} \\hline{} & {\\mathrm{Company~A}} & {\\mathrm{Company~B~}} \\\\ \\hline{\\mathrm{Revenues}} & {\\$500} & {\\$900} \\\\ {\\mathrm{EBIT}} & {35} & {100} \\\\ {\\mathrm{Interest~expense}} & {5} & {0} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l l r l} {\\mathrm{EBT}} & {\\qquad30 \\qquad} & {100} \\\\ {\\mathrm{Taxes}} & {\\qquad\\underline{{10}}} & {\\qquad\\underline{{40}}} \\\\ {\\mathrm{Net~income}} & {\\qquad20} & {\\qquad60} \\\\ {\\mathrm{Average~assets}} & {\\qquad250} & {\\qquad300} \\end{array}\\\\[6pt]\\begin{array} {l l l l} {{\\mathrm{Total~debt}}} & {{\\phantom{a a a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} & {{\\phantom{a a a a}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{} & {\\mathrm{Company~A}} & {\\mathrm{Company~B~}} \\\\ \\hline{\\mathrm{Revenues}} & {\\$500} & {\\$900} \\\\ {\\mathrm{EBIT}} & {35} & {100} \\\\ {\\mathrm{Interest~expense}} & {5} & {0} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {llrl} {\\mathrm{EBT}} & {\\qquad30 \\qquad} & {100} \\\\ {\\mathrm{Taxes}} & {\\qquad\\underline{{10}}} & {\\qquad\\underline{{40}}} \\\\ {\\mathrm{Net~income}} & {\\qquad20} & {\\qquad60} \\\\ {\\mathrm{Average~assets}} & {\\qquad250} & {\\qquad300} \\end{array}\\\\[6pt]\\begin{array} {llll} {{\\mathrm{Total~debt}}} & {{\\phantom{aaaaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaa}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} \\\\ \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "701ed5eff65b74fbfce9.png"
         },
@@ -1179,7 +1179,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{CV~sales}={\\frac{s t a n d a r d ~ d e v i a t i o n ~ o f ~ s a l e s} {m e a n ~ s a l e s}}}} \\\\ {{\\mathrm{CV~operating~income}={\\frac{s t a n d a r d ~ d e v i a t i o n ~ o f ~ o p e r a t i n g ~ i n c o m e} {m e a n ~ o p e r a t i n g ~ i n c o m e}}}} \\end{array}\\\\[6pt]{\\mathrm{CV~net~income}}={\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{CV~sales}={\\frac{standard ~ deviation ~ of ~ sales} {mean ~ sales}}}} \\\\ {{\\mathrm{CV~operating~income}={\\frac{standard ~ deviation ~ of ~ operating ~ income} {mean ~ operating ~ income}}}} \\end{array}\\\\[6pt]{\\mathrm{CV~net~income}}={\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}}\\end{gathered}",
           "display": true,
           "sourceAsset": "ccebc1ac52a37ebf0aa2.png"
         },
@@ -1280,7 +1280,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{sales}} \\Big) \\Big( \\frac{\\mathrm{sales}} {\\mathrm{average~total~assets}} \\Big) \\Big( \\frac{\\mathrm{average~total~assets}} {\\mathrm{a v e r a g e ~ s t o c k h o l d e r s^{\\prime} ~ e q u i t y}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{net~profit~margin} \\times\\mathrm{asset~turnover} \\times\\mathrm{leverage}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{sales}} \\Big) \\Big( \\frac{\\mathrm{sales}} {\\mathrm{average~total~assets}} \\Big) \\Big( \\frac{\\mathrm{average~total~assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{net~profit~margin} \\times\\mathrm{asset~turnover} \\times\\mathrm{leverage}}} \\end{array}",
       "display": true,
       "sourceAsset": "32b783f63ef714a2167e.png"
     },

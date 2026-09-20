@@ -35,7 +35,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{~ R_{P}=( 1+R_{S 1} ) ( 1+R_{S 2} ) ( 1+R_{S 3} ) ( 1+R_{S 4} ) . . . ( 1+R_{S L} )-1 ) ~}}} \\\\ {{\\mathrm{~where:~}}} \\\\ {{\\mathrm{~ R_{P} ~=p o r t f o l i o ~ r e t u r n ~ d u r i n g ~ t h e ~ m e a s u r e m e n t ~ p e r i o d}}} \\\\ {{\\mathrm{~k~}}} \\\\ {{\\mathrm{~ R_{S t}=p o r t f o l i o ~ r e t u r n ~ d u r i n g ~ t h e ~ s u b p e r i o d ~} k}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{~ R_{P}=( 1+R_{S 1} ) ( 1+R_{S 2} ) ( 1+R_{S 3} ) ( 1+R_{S 4} ) . . . ( 1+R_{SL} )-1 ) ~}}} \\\\ {{\\mathrm{~where:~}}} \\\\ {{\\mathrm{~ R_{P} ~=portfolio ~ return ~ during ~ the ~ measurement ~ period}}} \\\\ {{\\mathrm{~k~}}} \\\\ {{\\mathrm{~ R_{St}=portfolio ~ return ~ during ~ the ~ subperiod ~} k}} \\end{array}",
           "display": true,
           "sourceAsset": "a301ef98fa36967156ca.png"
         },
@@ -320,7 +320,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\frac{100 , 000 \\times\\, {\\mathfrak{S 2}} 00+1 , 000 , 000 \\times\\, {\\mathfrak{S 1}} 0+20 , 000 , 000 \\times\\, {\\mathfrak{S 1}}} {540 , 000 , 000}} \\times100 \\,=\\, 125",
+          "latex": "\\frac{100,000 \\times \\$200 + 1,000,000 \\times \\$10 + 20,000,000 \\times \\$1}{540,000,000} = \\$0.57",
           "display": true,
           "sourceAsset": "3dbe8ac6cf26ab55990e.png"
         },
@@ -360,7 +360,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c c c c} \\hline{\\begin{array} {c c c c} {\\mathrm{Stock}} & {\\mathrm{Initial~Price}} & {\\mathrm{Current}} & {\\mathrm{Price~Change}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {c c c c} {\\mathrm{A}} & {\\$12} & {\\$15} & {\\qquad+25.09 /_{6}} \\\\ {\\mathrm{B}} & {\\$52} & {\\$48} & {\\qquad-7.79 /_{6}} \\end{array}} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]C \\qquad\\qquad\\ 838 \\qquad\\qquad\\qquad\\$45 \\qquad\\qquad+18.4 \\%\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {cccc} \\hline{\\begin{array} {cccc} {\\mathrm{Stock}} & {\\mathrm{Initial~Price}} & {\\mathrm{Current}} & {\\mathrm{Price~Change}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {cccc} {\\mathrm{A}} & {\\$12} & {\\$15} & {\\qquad+25.09 /_{6}} \\\\ {\\mathrm{B}} & {\\$52} & {\\$48} & {\\qquad-7.79 /_{6}} \\end{array}} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]C \\qquad\\qquad\\ 838 \\qquad\\qquad\\qquad\\$45 \\qquad\\qquad+18.4 \\%\\end{gathered}",
           "display": true,
           "sourceAsset": "13581c5666a7d33c088b.png"
         },
