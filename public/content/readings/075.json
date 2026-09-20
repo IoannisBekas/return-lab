@@ -36,8 +36,7 @@
           "type": "math",
           "latex": "\\text{As an example, we can model a call option with an exercise price of \\$50 on a stock currently valued at \\$50.}",
           "display": true,
-          "sourceAsset": "046edb488fbec717e92a.png",
-          "prose": "As an example, we can model a call option with an exercise price of $55 on a stock that is currently valued (S0) at $50. Let us assume that in one period the stock’s value will either increase to $60 or decrease to $42. We state the return from an up-move (Ru) as $60 / $50 = 1.20, and the return from a down-move (Rd) as $42 / $50 = 0.84."
+          "sourceAsset": "046edb488fbec717e92a.png"
         },
         {
           "type": "heading",
@@ -46,31 +45,34 @@
         {
           "type": "image",
           "src": "content/figures/200010cf420acffe0c43.png",
-          "alt": "Equation, table, or diagram: Figure 75.1: One-Period Binomial Tree",
-          "width": 223,
-          "height": 103,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 430,
+          "height": 199,
+          "alt": "Instructional visual diagram or table: 200010cf420acffe0c43.png"
         },
         {
-          "type": "math",
-          "latex": "\\text{The call option will be in the money after an up-move, or out of the money after a down-move.}",
-          "display": true,
-          "sourceAsset": "e5a28a11d341b77a5e29.png",
-          "prose": "The call option will be in the money after an up-move or out of the money after a down-move. Its value at expiration after an up-move, is Max(0, $60 – $55) = $5. Its"
+          "type": "image",
+          "src": "content/figures/e5a28a11d341b77a5e29.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1144,
+          "height": 79,
+          "alt": "Instructional visual diagram or table: e5a28a11d341b77a5e29.png"
         },
         {
-          "type": "math",
-          "latex": "\\mathrm{value~after~a~down-move} , c_{1}^{d} \\mathrm{~is~Max} \\{0 , {\\mathbb S 42}-{\\mathbb S 55} \\}=0.",
-          "display": true,
-          "sourceAsset": "7031d0f4fd277ce9a3f9.png",
-          "prose": "value after a down-move, is Max(0, $42 – $55) = 0."
+          "type": "image",
+          "src": "content/figures/7031d0f4fd277ce9a3f9.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 711,
+          "height": 44,
+          "alt": "Instructional visual diagram or table: 7031d0f4fd277ce9a3f9.png"
         },
         {
-          "type": "math",
-          "latex": "hS_1^u-c_1^u=hS_1^d-c_1^d",
-          "display": true,
-          "sourceAsset": "9c18dc208c7a2ef8e227.png",
-          "prose": "Now we can use no-arbitrage pricing to determine the initial value of the call option (c0). We do this by creating a portfolio of the option and the underlying stock, such that the portfolio will have the same value following either an up-move ( ) or a down- move ( ) in the stock. To value a call option, we create a portfolio that is short a call (i.e., the call writer) and long a number of shares of the stock that we will denote as h. We must solve for the h that results in ."
+          "type": "image",
+          "src": "content/figures/9c18dc208c7a2ef8e227.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1175,
+          "height": 241,
+          "alt": "Instructional visual diagram or table: 9c18dc208c7a2ef8e227.png"
         },
         {
           "type": "paragraph",
@@ -78,24 +80,21 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~portfolio~value~after~an~up-move,V^u_1,is~hS_1^u-c_1^u~.}",
+          "latex": "\\text{The portfolio value after an up-move, } V_1^u\\text{, is } hS_1^u - c_1^u.",
           "display": true,
-          "sourceAsset": "650cdce7825cb68ea376.png",
-          "prose": "The portfolio value after an up-move,"
+          "sourceAsset": "650cdce7825cb68ea376.png"
         },
         {
           "type": "math",
           "latex": "V_1^d = h S_1^d - c_1^d",
           "display": true,
-          "sourceAsset": "a5e2a0881720336dc878.png",
-          "prose": "The portfolio value after a down-move,"
+          "sourceAsset": "a5e2a0881720336dc878.png"
         },
         {
           "type": "math",
           "latex": "V_1^u = h(\\$60) - \\$5, \\quad V_1^d = h(\\$42) - \\$0. \\quad \\text{Setting } V_1^u = V_1^d \\implies h = 0.278",
           "display": true,
-          "sourceAsset": "3db96982ae6fb053b7eb.png",
-          "prose": "In our example, and . Setting and solving for h, we get:"
+          "sourceAsset": "3db96982ae6fb053b7eb.png"
         },
         {
           "type": "math",
@@ -109,10 +108,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{With~V_1^u=V_1^a,the~value~of~the~portfolio~after~one~period~is~known~with~certainty,~This~of~2~}} \\\\ {\\mathrm{means~we~can~say~that~either~V_1^u~or~V_1^a~must~equal~V_0~compounded~at~the~risk-free~rate~pounde,~of~2~}} \\\\ {\\mathrm{for~one~period.~In~this~example,~V_1^d=0.278(342)=311.68,~or~V_1^u~=0.278(560)-85=811.687,~or~V_1~}} \\\\ \\end{array}",
+          "latex": "\\text{With } V_1^u = V_1^d\\text{, the value of the portfolio after one period is known with certainty.}",
           "display": true,
-          "sourceAsset": "3b7c93cc5ce6bd6a5380.png",
-          "prose": "With the value of the portfolio after one period is known with certainty. This means we can say that either must equal V0 compounded at the risk-free rate for one period. In this example, or"
+          "sourceAsset": "3b7c93cc5ce6bd6a5380.png"
         },
         {
           "type": "paragraph",
@@ -146,15 +144,13 @@
           "type": "math",
           "latex": "\\text{The put option will be in the money after a down-move, or out of the money after an up-move.}",
           "display": true,
-          "sourceAsset": "6094e1284eeec6466339.png",
-          "prose": "The put option will be in the money after a down-move or out of the money after an up- move. Its value at expiration after a down-move, is Max(0, $48 – $42) = $6. Its value after an up-move, is Max(0, $48 – $60) = 0."
+          "sourceAsset": "6094e1284eeec6466339.png"
         },
         {
           "type": "math",
           "latex": "V_1^u=V_1^d",
           "display": true,
-          "sourceAsset": "8fdd8d088399b17f3ab8.png",
-          "prose": "Again we want to find the hedge ratio h, the number of shares at which our portfolio has the same value after an up-move or a down-move, ."
+          "sourceAsset": "8fdd8d088399b17f3ab8.png"
         },
         {
           "type": "paragraph",
@@ -162,17 +158,15 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\mathrm{The~portfolio~value~after~an~up-move,V^u_1,is~h~S^u_1+p^u_1.}} \\\\ {} & {{} \\mathrm{The~portfolio~value~after~a~down-move,V^d_1,is~h~S^d_1+p^d_1.}} \\\\ \\end{aligned}",
+          "latex": "\\text{The portfolio value after an up-move, } V_1^u\\text{, is } hS_1^u + p_1^u",
           "display": true,
-          "sourceAsset": "d89cd69aec2f738b6420.png",
-          "prose": "The portfolio value after an up-move, . The portfolio value after a down-move, ."
+          "sourceAsset": "d89cd69aec2f738b6420.png"
         },
         {
           "type": "math",
-          "latex": "\\mathrm{Setting~V_1^u~=~V_1^d,~we~get:}",
+          "latex": "\\text{Setting } V_1^u = V_1^d\\text{, we get: } hS_1^u - c_1^u = hS_1^d - c_1^d",
           "display": true,
-          "sourceAsset": "911feaddd92bd425e804.png",
-          "prose": "Setting we get:"
+          "sourceAsset": "911feaddd92bd425e804.png"
         },
         {
           "type": "math",
@@ -188,12 +182,11 @@
           "type": "math",
           "latex": "V_1^u = V_1^d",
           "display": true,
-          "sourceAsset": "80cd4f684d862db52ca6.png",
-          "prose": "or because they will be equal:"
+          "sourceAsset": "80cd4f684d862db52ca6.png"
         },
         {
           "type": "math",
-          "latex": "{\\bf V_{1}^{n}}=0.333 ( \\$60 )=\\$20 , \\, \\mathrm{or ~ V_{1}^{d}=0.333 ( \\$42 )+\\$6=\\$20}",
+          "latex": "V_1^u = 0.333(\\$60) = \\$20, \\quad\\text{or } V_1^d = 0.333(\\$42) + \\$6 = \\$20",
           "display": true,
           "sourceAsset": "09ebe23995642d4ed195.png"
         },
@@ -226,7 +219,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nR^u=1.15,\\quad R^d=\\frac1{R^u}=\\frac1{1.15}=0.87\\\\\n\\pi_U=0.715,\\qquad \\pi_D=1-\\pi_U=0.285\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nR^u=1.15,\\quad R^d=\\frac1{R^u}=\\frac1{1.15}=0.87\\\\[8pt]\n\\pi_U=0.715,\\qquad \\pi_D=1-\\pi_U=0.285\n\\end{gathered}",
           "display": true,
           "sourceAsset": "774b223e12fe8bfbd689.png"
         },
@@ -241,10 +234,10 @@
         {
           "type": "image",
           "src": "content/figures/4c7ec7163d19385257e8.png",
-          "alt": "Equation, table, or diagram: Figure 75.2: One-Period Binomial Tree",
-          "width": 257,
-          "height": 103,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 496,
+          "height": 199,
+          "alt": "Instructional visual diagram or table: 4c7ec7163d19385257e8.png"
         },
         {
           "type": "paragraph",
@@ -290,7 +283,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathbb{R^{d}}} & {{}=\\mathrm{size~of~down-move}=\\frac{1} {\\mathbb{R^{d}}}=\\frac{1} {1.15}=0.87} \\\\ {\\pi_{\\mathbb{U}}} & {{}=\\mathrm{risk-neutral~probability~of~an~up-move}=\\frac{1+0.07-0.87} {1.15-0.87}=0.715} \\\\ {\\pi_{\\mathbb{D}}} & {{}=\\mathrm{risk~neutral~probability~of~a~down-move}=1-0.715-0.285} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\mathbb{R^{d}}} & {{}=\\text{size of down-move}=\\frac{1} {\\mathbb{R^{d}}}=\\frac{1} {1.15}=0.87} \\\\[8pt] {\\pi_{\\mathbb{U}}} & {{}=\\text{risk-neutral probability of an up-move}=\\frac{1+0.07-0.87} {1.15-0.87}=0.715} \\\\[8pt] {\\pi_{\\mathbb{D}}} & {{}=\\text{risk neutral probability of a down-move}=1-0.715-0.285} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "c8c49ab997a716adec4d.png"
         },
@@ -306,8 +299,7 @@
           "type": "math",
           "latex": "S_1^u,\\ S_1^d,\\ c_1^u,\\ c_1^d",
           "display": true,
-          "sourceAsset": "6a1305d8ab02dc34c62d.png",
-          "prose": "Let the stock values for the up-move and down-move be and and for the call values, and ."
+          "sourceAsset": "6a1305d8ab02dc34c62d.png"
         },
         {
           "type": "heading",
@@ -320,10 +312,10 @@
         {
           "type": "image",
           "src": "content/figures/673044e17d4a0215e36e.png",
-          "alt": "Equation, table, or diagram: The expected value of the option in one period is:",
-          "width": 358,
-          "height": 126,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 689,
+          "height": 243,
+          "alt": "Instructional visual diagram or table: 673044e17d4a0215e36e.png"
         },
         {
           "type": "paragraph",

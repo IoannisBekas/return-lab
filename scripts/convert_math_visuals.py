@@ -105,6 +105,22 @@ MANUAL_MEANINGFUL_VISUALS = {
     "cd4273ac668e90e54170.png", "31fa227e2b44ab1ae029.png",
     "54770f97b2405c7ba97c.png", "2650a486ca28254a17dc.png",
     "448f0b574d80ae590d30.png",
+    # Additional complex instructional tables and rejection region diagrams
+    "11369a9311fe8de699f7.png", "ee7fb6439edbe3b04caf.png",
+    "9e5716d3827f249ab639.png", "ca6ef3f4adc88bf5b0b4.png",
+    "25e2d203ad6aa41283ae.png", "2fe33f96124c0fbd1e18.png",
+    "73dc12ecfc35b84f7ec5.png", "b648b7cd86830bb56841.png",
+    "dd37716ec772b83ad750.png", "d00cfd67de1bafe37f99.png",
+    "4ded731434f7fca8f53a.png", "f116b8b224ba2e5416f1.png",
+    "fda5a48d0ac7e658f9e1.png", "f0f52342116a3e978bf1.png",
+    "163f536e1ea2a0f49728.png", "09066eb4f2ed2e35dae2.png",
+    "bd49737c238d983f9c2d.png", "866c622294530622f91f.png",
+    "ca036f8ef817fb8d1dd7.png", "515855f8b9b9f78398d9.png",
+    "6535d7ff2e2fc55afa79.png", "f8259749ec97b07048f9.png",
+    "701ed5eff65b74fbfce9.png", "e3ec694db1518a4d9436.png",
+    "5a8fbea51ecb510eb4cd.png", "b5078c1215465acab3c1.png",
+    "a0db1a41b518f5fd261f.png", "d144f282ab1f00e08408.png",
+    "d9dc8b8fdd4ad6fc9027.png",
 }
 VISUAL_ALT_OVERRIDES = {
     "31fa227e2b44ab1ae029.png": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
@@ -113,6 +129,35 @@ VISUAL_ALT_OVERRIDES = {
     "448f0b574d80ae590d30.png": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
     "3bf1c773e8d459b24845.png": "Quantitative methods formula reference chart, first section.",
     "9c7480bee3dd12df7efa.png": "Quantitative methods formula reference chart, second section.",
+    "11369a9311fe8de699f7.png": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 38.",
+    "ee7fb6439edbe3b04caf.png": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 120.",
+    "9e5716d3827f249ab639.png": "Comparative structure table of sole proprietorships, general partnerships, limited partnerships, and corporations.",
+    "ca6ef3f4adc88bf5b0b4.png": "Statement of cash flows operating activities section prepared under the indirect method.",
+    "25e2d203ad6aa41283ae.png": "Statement of cash flows operating activities section prepared under the indirect method.",
+    "2fe33f96124c0fbd1e18.png": "Futures contract daily mark-to-market settlement price and margin balance adjustments schedule.",
+    "73dc12ecfc35b84f7ec5.png": "Comparative balance sheet extract showing current year asset balances.",
+    "b648b7cd86830bb56841.png": "Inventory cost of goods sold and gross profit calculation summary table.",
+    "dd37716ec772b83ad750.png": "Multi-year liquidity and activity ratios comparison table for 20X8, 20X7, and 20X6.",
+    "d00cfd67de1bafe37f99.png": "Financial statement extracts comparing revenue and working capital accounts between 20X2 and 20X1.",
+    "4ded731434f7fca8f53a.png": "Long-lived asset impairment testing data comparing carrying value, fair value, and value in use.",
+    "f116b8b224ba2e5416f1.png": "Joint probability distribution table showing outcomes conditional on macroeconomic states.",
+    "fda5a48d0ac7e658f9e1.png": "Share purchase transactions and cost basis reference table.",
+    "f0f52342116a3e978bf1.png": "Reconciliation of retained earnings schedule showing net income and dividends paid.",
+    "163f536e1ea2a0f49728.png": "Comparative current assets balance sheet table comparing 20X1 and 20X2.",
+    "09066eb4f2ed2e35dae2.png": "Comprehensive cash flow and coverage ratios formula summary reference poster.",
+    "bd49737c238d983f9c2d.png": "Vertical common-size income statement and asset activity ratios reference poster.",
+    "866c622294530622f91f.png": "Financial leverage, debt-to-equity, and fixed charge coverage ratios reference poster.",
+    "ca036f8ef817fb8d1dd7.png": "Modified duration and convexity calculation reference table.",
+    "515855f8b9b9f78398d9.png": "Margin transaction regulations, maintenance margin, and margin call price reference table.",
+    "6535d7ff2e2fc55afa79.png": "Multistage dividend discount model multi-period cash flow timeline diagram.",
+    "f8259749ec97b07048f9.png": "Money-weighted rate of return internal rate of return step-by-step calculation workflow.",
+    "701ed5eff65b74fbfce9.png": "Comparative financial performance metrics between Company A and Company B.",
+    "e3ec694db1518a4d9436.png": "Indirect cash flow reconciliation step-by-step adjustment schedule.",
+    "5a8fbea51ecb510eb4cd.png": "Step-by-step cash flow from operations adjustment table.",
+    "b5078c1215465acab3c1.png": "Direct cash flow statement collection and disbursement adjustment table.",
+    "a0db1a41b518f5fd261f.png": "Balance sheet data table comparing assets and liabilities across 20X7 and 20X6.",
+    "d144f282ab1f00e08408.png": "Operating, investing, and financing cash flow transactions data table.",
+    "d9dc8b8fdd4ad6fc9027.png": "Index constituent stock prices and shares outstanding table for January 1 and December 31.",
 }
 LATEX_OVERRIDES = {
     "0aac0733302c99791356.png": r"""\begin{aligned}
@@ -165,8 +210,8 @@ V_0=\text{current price of the bond} \\[4pt]
 \text{Holding period 2:}\quad \text{Beginning value}&=\$240\ (2\text{ shares}) & \text{Dividends paid}&=\$4\ (\$2\text{ per share}) & \text{Ending value}&=\$260\ (2\text{ shares})
 \end{aligned} \\[6pt]
 \text{Step 2: Calculate the HPR for each holding period.} \\
-HPR_1=\frac{\$120+\$2}{\$100}-1=22\%,\qquad
-HPR_2=\frac{\$260+\$4}{\$240}-1=10\% \\[6pt]
+\text{HPR}_1=\frac{\$120+\$2}{\$100}-1=22\%,\qquad
+\text{HPR}_2=\frac{\$260+\$4}{\$240}-1=10\% \\[6pt]
 \text{Step 3: Find the compound annual rate that produces the account's two-year total return.} \\
 (1+\text{time-weighted rate of return})^2=(1.22)(1.10) \\
 \text{Time-weighted rate of return}=[(1.22)(1.10)]^{0.5}-1=15.84\%
@@ -215,7 +260,7 @@ WORKED_EXAMPLE_OVERRIDES = {
             },
             {
                 "title": "Calculate each holding-period return",
-                "equations": [r"HPR_1=\frac{120+2}{100}-1=22\%", r"HPR_2=\frac{260+4}{240}-1=10\%"],
+                "equations": [r"\text{HPR}_1=\frac{120+2}{100}-1=22\%", r"\text{HPR}_2=\frac{260+4}{240}-1=10\%"],
             },
             {
                 "title": "Link the returns and annualize the two-year result",
@@ -760,6 +805,340 @@ D/E &= \text{debt-to-equity ratio}
 \text{20X6: } 365 / 3.71 &= 98\text{ days} \\
 \text{20X7: } 365 / 6.83 &= 53\text{ days}
 \end{aligned}""",
+
+    # Reading 003: CV and sample standard deviation (from user screenshots)
+    "c9ea1d43f6db65645d23.png": r"""s = [44.5(\%^2)]^{1/2} = 6.67\%, \qquad \sqrt{0.00445} = 0.0667""",
+    "593a19d743817e2bbf1b.png": r"""\begin{aligned}
+\text{CV}_{\text{T-bills}} &= \frac{0.36}{0.25} = 1.44 \\[8pt]
+\text{CV}_{\text{S\&P 500}} &= \frac{7.30}{1.09} = 6.70
+\end{aligned}""",
+
+    # Reading 001: HPR and TWR calculations
+    "d160dc44453cbc30bdd6.png": r"""\begin{aligned}
+\text{HPR} &= \frac{100.75}{100} - 1 = 0.0075 = 0.75\% \\[8pt]
+\text{Annualized return} &= (1 + 0.0075)^{365/90} - 1 = 0.0308 = 3.08\%
+\end{aligned}""",
+    "7960c885d7c1021a5ccf.png": r"""\begin{gathered}
+\begin{aligned}
+\text{HPR}_1 &= \frac{50+1}{40} - 1 = 27.5\% \\[6pt]
+\text{HPR}_2 &= \frac{120+2}{100} - 1 = 22.0\%
+\end{aligned} \\[8pt]
+\text{TWR} = \sqrt{(1+0.275)(1+0.22)} - 1 = 24.72\%
+\end{gathered}""",
+
+    # Reading 002: TVM and forward rates
+    "b5a5f1c37f051fa083f7.png": r"""\begin{gathered}
+\frac{\$1{,}000}{(1+r)^{15}} = \$650 \\[8pt]
+(1+r)^{15} = \frac{\$1{,}000}{\$650} = 1.5385 \\[8pt]
+r = (1.5385)^{1/15} - 1 = 0.0291 = 2.91\%
+\end{gathered}""",
+    "382bf0fe7abe8c5d6790.png": r"""\begin{gathered}
+V_0 = \frac{D_1}{k_e - g_c} \\[8pt]
+k_e - g_c = \frac{D_1}{V_0} \\[8pt]
+k_e = \frac{D_1}{V_0} + g_c
+\end{gathered}""",
+    "27528eb2b013c479c2c6.png": r"""\begin{gathered}
+(1.08)^2 = (1.04)(1 + {}_{1}y_{1y}) \\[8pt]
+1 + {}_{1}y_{1y} = \frac{(1.08)^2}{1.04} \\[8pt]
+{}_{1}y_{1y} = \frac{(1.08)^2}{1.04} - 1 = \frac{1.1664}{1.04} - 1 = 12.154\%
+\end{gathered}""",
+    "7b9ac28334895dd7ee8e.png": r"""\begin{gathered}
+PV = \frac{FV}{(1+r)^t} = FV(1+r)^{-t} \\[6pt]
+\text{where: } r = \text{interest rate per period}, \quad t = \text{number of periods} \\[8pt]
+\text{Annuity payment} = \frac{r \times PV}{1 - (1+r)^{-t}}
+\end{gathered}""",
+
+    # Reading 003: Mean absolute deviation
+    "a3456fb018c5b468db7b.png": r"""\begin{aligned}
+\bar{X} &= \frac{30+12+25+20+23}{5} = 22\% \\[8pt]
+\text{MAD} &= \frac{|30-22| + |12-22| + |25-22| + |20-22| + |23-22|}{5} \\[8pt]
+&= \frac{8 + 10 + 3 + 2 + 1}{5} = 4.8\%
+\end{aligned}""",
+
+    # Reading 009: Chi-square test of independence
+    "083fbe7940af1ac28945.png": r"""\begin{gathered}
+\chi^2 = \sum_{i=1}^{r} \sum_{j=1}^{c} \frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\[6pt]
+\begin{aligned}
+\text{where:}\quad
+O_{ij} &= \text{observed frequency in cell } i, j \\
+E_{ij} &= \text{expected frequency in cell } i, j \\
+r &= \text{number of rows}, \quad c = \text{number of columns}
+\end{aligned}
+\end{gathered}""",
+
+    # Reading 010: Linear regression statistics
+    "6786e9c8fdf29d0f0749.png": r"""\begin{aligned}
+\operatorname{Cov}(\text{S\&P 500}, \text{ABC}) &= 0.000336, &\quad \text{Mean return, S\&P 500} &= -2.70\% \\[6pt]
+\operatorname{Var}(\text{S\&P 500}) &= 0.000522, &\quad \text{Mean return, ABC} &= -4.05\%
+\end{aligned}""",
+
+    # Reading 012: Market share table
+    "6ac72c7dd404fa6b9475.png": r"""\begin{array}{lc}
+\hline
+\text{Firm} & \text{Market Share} \\
+\hline
+\text{Acme} & 25\% \\
+\text{Blake} & 15\% \\
+\text{Curtis} & 15\% \\
+\text{Dent} & 10\% \\
+\text{Erie} & 5\% \\
+\text{Federal} & 5\% \\
+\hline
+\end{array}""",
+
+    # Reading 028: Interest coverage adjustment
+    "4c780503f5ac5a499e6e.png": r"""\begin{gathered}
+\text{Interest coverage} = \frac{\text{EBIT}}{\text{Interest expense}} \\[8pt]
+\text{Before adjustment} = \frac{\text{EUR }160\text{ million}}{\text{EUR }80\text{ million}} = 2.0 \\[8pt]
+\text{After adjustment} = \frac{\text{EUR }160\text{ million} + \text{EUR }10\text{ million}}{\text{EUR }80\text{ million} + \text{EUR }20\text{ million}} = 1.7
+\end{gathered}""",
+
+    # Reading 029: Liquidity ratios
+    "47eabfa9f40215ebb4a3.png": r"""\begin{aligned}
+\text{Current ratio} &= \frac{\text{Current assets}}{\text{Current liabilities}} \\[8pt]
+\text{Quick ratio} &= \frac{\text{Cash} + \text{Marketable securities} + \text{Receivables}}{\text{Current liabilities}} \\[8pt]
+\text{Cash ratio} &= \frac{\text{Cash} + \text{Marketable securities}}{\text{Current liabilities}}
+\end{aligned}""",
+
+    # Reading 035: Effective tax rates
+    "b5ffc67af0ec8ba5115f.png": r"""\begin{aligned}
+\text{Tax in Italy} &= \text{EUR }100\text{ million} \times 20\% = \text{EUR }20\text{ million} \\[8pt]
+\text{Effective tax rate} &= \frac{30 + 20}{100 + 100} = \frac{50}{200} = 25\%
+\end{aligned}""",
+    "9e5ff947fdee4b6880d6.png": r"""\begin{aligned}
+\text{Year 1} &= \frac{\text{EUR }75\text{ million}}{\text{EUR }250\text{ million}} = 0.300 = 30.0\% \\[8pt]
+\text{Year 2} &= \frac{\text{EUR }48\text{ million}}{\text{EUR }225\text{ million}} = 0.213 = 21.3\% \\[8pt]
+\text{Year 3} &= \frac{\text{EUR }88\text{ million}}{\text{EUR }300\text{ million}} = 0.293 = 29.3\%
+\end{aligned}""",
+
+    # Reading 037: DuPont components & CV ratios
+    "d2b5bc4b4f0457b01cd9.png": r"""\begin{gathered}
+\frac{\text{Net income}}{\text{EBT}} \text{ is called the tax burden and is equal to } (1 - \text{tax rate}) \\[8pt]
+\frac{\text{EBT}}{\text{EBIT}} \text{ is called the interest burden} \\[8pt]
+\frac{\text{EBIT}}{\text{Revenue}} \text{ is called the EBIT margin}
+\end{gathered}""",
+    "ccebc1ac52a37ebf0aa2.png": r"""\begin{aligned}
+\text{CV}_{\text{sales}} &= \frac{\text{Standard deviation of sales}}{\text{Mean sales}} \\[8pt]
+\text{CV}_{\text{operating income}} &= \frac{\text{Standard deviation of operating income}}{\text{Mean operating income}} \\[8pt]
+\text{CV}_{\text{net income}} &= \frac{\text{Standard deviation of net income}}{\text{Mean net income}}
+\end{aligned}""",
+
+    # Reading 040: Index value calculations
+    "5fce87d33d98249e939d.png": r"""\begin{gathered}
+\text{Current index value} = \frac{\text{Current total market value of index stocks}}{\text{Base year total market value of index stocks}} \times \text{Base year index value} \\[8pt]
+\text{Current index value} = \frac{\$95\text{ million}}{\$80\text{ million}} \times 100 = 118.75
+\end{gathered}""",
+    "bda50c817dd110115564.png": r"""\begin{gathered}
+\text{Total portfolio value December 31:} \\
+22(1{,}500) + 40(10{,}000) + 34(3{,}000) = \$535{,}000 \\[6pt]
+28(1{,}500) + 50(10{,}000) + 30(3{,}000) = \$632{,}000 \\[8pt]
+\frac{632}{535} - 1 = 0.1813 = 18.13\% \\[6pt]
+\text{From a base value of } 100\text{, the December 31 index value would be: } \frac{632}{535} \times 100 = 118.13
+\end{gathered}""",
+
+    # Reading 046: Multistage DDM and valuation
+    "1ee43be87194145edb1c.png": r"""\begin{aligned}
+\text{Dividend: } &\quad \frac{\$1.05}{1.132} = \$0.93 \\[8pt]
+\text{Year-end price: } &\quad \frac{\$13.45}{1.132} = \$11.88
+\end{aligned}""",
+    "f0a261bf234635635e4c.png": r"""\begin{gathered}
+\text{Value} = \frac{D_1}{(1+k_e)} + \frac{D_2}{(1+k_e)^2} + \dots + \frac{D_n}{(1+k_e)^n} + \frac{P_n}{(1+k_e)^n} \\[8pt]
+\text{where: } P_n = \frac{D_{n+1}}{k_e - g_c}
+\end{gathered}""",
+    "c0d266656dd457a5c5ae.png": r"""\begin{aligned}
+D_1 &= \$1.00(1.25) = \$1.25 \\
+D_2 &= \$1.25(1.25) = \$1.5625 \\
+D_3 &= \$1.5625 \times 1.06 = \$1.6563 \\[6pt]
+P_2 &= \frac{\$1.6563}{0.10 - 0.06} = \$41.41 \\[8pt]
+V_0 &= \frac{\$1.25}{1.10} + \frac{\$1.5625 + \$41.41}{(1.10)^2} = \$36.65
+\end{aligned}""",
+
+    # Reading 053: Bond yields and Z-spread
+    "c5fa56264488e19e5816.png": r"""\text{Current yield} = \frac{\$60}{\$802.07} = 0.0748 = 7.48\%""",
+    "f55d351ab55aee656ffc.png": r"""\begin{gathered}
+89.464 = \frac{9}{(1.04+ZS)^1} + \frac{9}{(1.08167+ZS)^2} + \frac{109}{(1.12377+ZS)^3} \\[8pt]
+\implies ZS = 1.67\% \text{ or } 167\text{ basis points}
+\end{gathered}""",
+
+    # Reading 055: Forward rate
+    "a8a12553c4d542e8b2f1.png": r"""\begin{gathered}
+(1.08)^2 = (1.04)(1 + {}_{1}y_{1y}) \\[8pt]
+1 + {}_{1}y_{1y} = \frac{(1.08)^2}{1.04} \\[8pt]
+{}_{1}y_{1y} = \frac{(1.08)^2}{1.04} - 1 = \frac{1.1664}{1.04} - 1 = 12.154\%
+\end{gathered}""",
+
+    # Reading 058: Convexity effect
+    "5f84a78674f84e299022.png": r"""\text{The convexity effect is } \frac{1}{2} \times 16.9 \times (-0.005)^2 = 0.000211 = 0.0211\%""",
+
+    # Reading 064: Tranche structure
+    "6e44584c91d80f8723b7.png": r"""\begin{array}{lrc}
+\hline
+\text{Tranche Name} & \text{Face Value (\$)} & \text{Interest Rate} \\
+\hline
+\text{Tranche A senior notes} & \$300{,}000{,}000 & \text{MRR} + 0.5\% \\
+\text{Tranche B subordinated notes} & \$80{,}000{,}000 & \text{MRR} + 1.5\% \\
+\text{Tranche C subordinated notes} & \$30{,}000{,}000 & \text{Variable} \\
+\hline
+\text{Total} & \$410{,}000{,}000 & \\
+\hline
+\end{array}""",
+
+    # Reading 072: Swap rate pricing
+    "121bb027a7847c8533ce.png": r"""\begin{aligned}
+&\frac{\text{MRR}_1}{1+S_1} + \frac{\text{MRR}_2}{(1+S_2)^2} + \frac{\text{MRR}_3}{(1+S_3)^3} + \frac{\text{MRR}_4}{(1+S_4)^4} \\[8pt]
+&\quad = \frac{F}{1+S_1} + \frac{F}{(1+S_2)^2} + \frac{F}{(1+S_3)^3} + \frac{F}{(1+S_4)^4}
+\end{aligned}""",
+
+    # Reading 084: Beta formula
+    "b6a11f2e7ab92ea3098b.png": r"""\beta_i = \frac{\operatorname{Cov}_{im}}{\sigma_m^2} = \frac{0.048}{0.2^2} = 1.2""",
+
+    # Additional comprehensive LaTeX overrides for clean KaTeX rendering
+    "0193cf52a48665097099.png": r"""\text{DOL} = \frac{\%\Delta \text{ operating profit}}{\%\Delta \text{ sales}}""",
+    "0905ad2c3b40bd6d09b9.png": r"""\begin{array}{llr}
+\hline
+\text{Ending inventory at cost} & & \text{Total} \\
+\hline
+\text{2 units @ \$28 each} & & \$56 \\
+\text{8 units @ \$30 each} & & \underline{\$240} \\
+\text{Total} & & \$296 \\
+\hline
+\end{array}""",
+    "1fb8a6f8f67aa5416aab.png": r"""\begin{gathered}
+\text{minimize } P(R_p < R_L) \\[6pt]
+\begin{aligned}
+\text{where:}\quad R_p &= \text{portfolio return} \\
+R_L &= \text{threshold return level}
+\end{aligned}
+\end{gathered}""",
+    "3b7c93cc5ce6bd6a5380.png": r"""\text{With } V_1^u = V_1^d\text{, the value of the portfolio after one period is known with certainty.}""",
+    "650cdce7825cb68ea376.png": r"""\text{The portfolio value after an up-move, } V_1^u\text{, is } hS_1^u - c_1^u.""",
+    "65a2141ac33793ae54c9.png": r"""\begin{aligned}
+\text{Net cash flows: } \mathrm{CF}_0 &= +100; \\[6pt]
+\mathrm{CF}_1 &= +120 - 2 = +118; \\[6pt]
+\mathrm{CF}_2 &= -260 + -4 = -264
+\end{aligned}""",
+    "8d1aa619580cef2d4a2b.png": r"""(\text{Exports} - \text{Imports}) = (\text{Private savings} - \text{Investment in physical capital}) + (\text{Government surplus})""",
+    "911feaddd92bd425e804.png": r"""\text{Setting } V_1^u = V_1^d\text{, we get: } hS_1^u - c_1^u = hS_1^d - c_1^d""",
+    "a9ed912c7993dfa2c4b1.png": r"""\text{With } V_1^u = V_1^d\text{, the value of the portfolio after one period is known with certainty.}""",
+    "d0a8953faed46d962b39.png": r"""\text{The portfolio value after an up-move, } V_1^u\text{, is } hS_1^u - c_1^u""",
+    "d89cd69aec2f738b6420.png": r"""\text{The portfolio value after an up-move, } V_1^u\text{, is } hS_1^u + p_1^u""",
+    "d9800d44ed03f845bf82.png": r"""\text{The portfolio value after a down-move, } V_1^d\text{, is } hS_1^d - c_1^d""",
+    "dd53dd2ba57ddf9493a0.png": r"""\text{Investor's return on investment} = \frac{130 + 80 - 6}{200} - 1 = 2\%""",
+    "2ab715a6f0de958dc0cd.png": r"""\text{Investor's return on investment} = \frac{130 + 80 - 6}{200} - 1 = 2\%""",
+    "0bc94af7839c3cf7e443.png": r"""\$40.50 - \$12.50 = \$28.00""",
+    "01643876b2d0c0c5564a.png": r"""\begin{gathered}
+\text{Approximate ModDur} = \frac{88.127 - 85.092}{2 \times 86.59 \times 0.005} = 3.505 \\[6pt]
+\text{Approximate price change for a } 1\% \text{ change in YTM is } 3.505\%.
+\end{gathered}""",
+    "5eaddb4cad8581b5b5f6.png": r"""\begin{aligned}
+\text{Change in index} &= \frac{25\% - 7.7\% + 18.4\%}{3} = 11.9\% \\[8pt]
+\text{New index value} &= 131(1 + 0.119) = 146.59
+\end{aligned}""",
+    "0452dfb594c84373523b.png": r"""\text{PV} = \$1{,}000 \left(1 + \frac{0.06}{4}\right)^{-4} = \$942.18""",
+    "eb7f359c65a0d3f19f81.png": r"""\text{So, we can define beta: } \beta = \frac{\operatorname{Cov}_{im}}{\sigma_m^2} \text{ as a standardized measure of systematic risk.}""",
+    "f2f4fd1cb3e37e778906.png": r"""\text{Standardized covariance term: } \frac{\operatorname{Cov}_{im}}{\sigma_m^2}""",
+    "e88129399dc1f666ea7f.png": r"""\text{Because } \operatorname{Var}_{\text{portfolio}} = \sigma_{\text{portfolio}}^2\text{, this can also be written as: } \sigma_P = \sqrt{w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2w_1 w_2 \operatorname{Cov}_{12}}""",
+    "e8c947293efad5eb6c70.png": r"""\text{Cash conversion cycle} = \text{Days sales outstanding} + \text{Days of inventory on hand} - \text{Number of days of payables}""",
+    "ef62d309a7d2897c58be.png": r"""\begin{gathered}
+\text{Net principal flow} = \text{Ending bonds payable} - \text{Beginning bonds payable} \\[6pt]
+= \$15{,}000 - \$10{,}000 = \$5{,}000
+\end{gathered}""",
+    "57b03ba3a79fd00bb8f5.png": r"""\frac{\text{P}}{\text{S}} = \frac{\$11.40}{\$17.30} = 0.66""",
+    "d0a070a304a14f0665a4.png": r"""\begin{array}{ll}
+\hline
+\text{Average selling price per product} & \$10 \\
+\text{Quantity sold} & 4.5\text{ million} \\
+\text{Gross profit margin} & 60\% \\
+\hline
+\end{array}""",
+    "f4b90a04a9f20f4ced8b.png": r"""\begin{aligned}
+\text{20X6: } \$2{,}900{,}000 / \$5{,}500{,}000 &= 52.73\% \\[6pt]
+\text{20X7: } \$3{,}400{,}000 / \$7{,}500{,}000 &= 45.33\%
+\end{aligned}""",
+    "0eb2f4bb0265403fd90b.png": r"""\begin{array}{cccccc}
+\hline
+\text{20X1} & \text{20X2} & \text{20X3} & \text{20X4} & \text{20X5} & \text{20X6} \\
+\hline
+22\% & 5\% & -7\% & 11\% & 2\% & 11\% \\
+\hline
+\end{array}""",
+    "181d797a8aba1624a9d8.png": r"""\begin{array}{cccccc}
+\hline
+\text{20X1} & \text{20X2} & \text{20X3} & \text{20X4} & \text{20X5} & \text{20X6} \\
+\hline
+22\% & 5\% & -7\% & 11\% & 2\% & 11\% \\
+\hline
+\end{array}""",
+    "6988ab79d3f289854d92.png": r"""\begin{aligned}
+&\sqrt{(0.25)^2(0.15)^2 + (0.75)^2(0.10)^2 + 2(0.25)(0.75)(0.15)(0.10)(-0.75)} \\[6pt]
+&\quad = \sqrt{0.001406 + 0.005625 - 0.004219} = \sqrt{0.002812} = 0.053 = 5.3\%
+\end{aligned}""",
+    "6b743f1561694fe049aa.png": r"""\left[\left(\frac{28}{22}-1\right) + \left(\frac{50}{40}-1\right) + \left(\frac{30}{34}-1\right)\right]\left(\frac{1}{3}\right) = 0.135 = 13.5\%""",
+    "7b2c0a64ad3b7eeaf1c9.png": r"""\begin{gathered}
+\frac{3.5}{\left(1+\frac{\text{YTM}}{2}\right)^1} + \frac{3.5}{\left(1+\frac{\text{YTM}}{2}\right)^2} + \dots + \frac{103.5}{\left(1+\frac{\text{YTM}}{2}\right)^{10}} = 102.078 \\[8pt]
+\text{N}=10; \quad \text{PMT}=3.5; \quad \text{FV}=100; \quad \text{PV}=-102.078; \quad \text{CPT } \to \text{I/Y}=3.253\%
+\end{gathered}""",
+    "08229e360d1586ea9a6e.png": r"""\text{Standard error of sample mean} = \frac{s}{\sqrt{n}}""",
+    "b986d5352c23c4c021b8.png": r"""\begin{aligned}
+\text{20X6: } \$3{,}670{,}000 / \$866{,}000 &= 4.24 \\[6pt]
+\text{20X7: } \$5{,}995{,}000 / \$1{,}505{,}000 &= 3.98
+\end{aligned}""",
+    "09ebe23995642d4ed195.png": r"""V_1^u = 0.333(\$60) = \$20, \quad\text{or } V_1^d = 0.333(\$42) + \$6 = \$20""",
+    "35df5994aaca76e35292.png": r"""1.32 \times 1.05 = \$1.386""",
+    "c96b4a7d763460d297b0.png": r"""\text{Adjusted loan amount after 30 days} = \$970{,}874 \times \left[1 + (0.02 \dots)\right]""",
+    "ff4ef9a2c74dd80a7d26.png": r"""\text{Diluted EPS} = \frac{\text{Net income} - \text{Preferred dividends} + \text{Convertible debt interest}(1-t)}{\text{Weighted average shares} + \text{Shares from conversion}}""",
+    "e5694160c76dce46512f.png": r"""\text{Cash return on equity ratio} = \frac{\text{CFO}}{\text{Average total equity}}""",
+    "58c566bbc36b29a01c3e.png": r"""\text{Cash-to-income ratio} = \frac{\text{CFO}}{\text{Operating income}}""",
+    "77782d7962fcca81389f.png": r"""\text{ROE}_t = \frac{\text{NI}_t}{\text{average }\text{BV}_t} = \frac{\text{NI}_t}{(\text{BV}_t + \text{BV}_{t-1})/2} = \frac{\$3{,}526}{(\$18{,}503 + \$17{,}143)/2} = 19.78\%""",
+    "c7572c094ce9abfaf462.png": r"""g = b \times \text{ROE}, \quad b = 1 - \text{dividend payout ratio}, \quad \text{ROE} = \text{return on equity}""",
+    "13b2cc671486ba4043b0.png": r"""\text{Fixed asset turnover} = \frac{\text{Revenue}}{\text{Average net fixed assets}}""",
+    "97023bdade95f1765bcd.png": r"""\text{Working capital turnover} = \frac{\text{Revenue}}{\text{Average working capital}}""",
+    "0fdf4c386c02445a2eb3.png": r"""\text{Diluted EPS} = \frac{\left[\text{Net income} - \text{Preferred dividends}\right] + \left[\begin{matrix}\text{Convertible} \\[2pt] \text{preferred} \\[2pt] \text{dividends}\end{matrix}\right] + \left(\begin{matrix}\text{Convertible} \\[2pt] \text{debt} \\[2pt] \text{interest}\end{matrix}\right)(1-t)}{\left(\begin{matrix}\text{Weighted} \\[2pt] \text{average} \\[2pt] \text{shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\[2pt] \text{conversion of} \\[2pt] \text{conv. pref. shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\[2pt] \text{conversion of} \\[2pt] \text{conv. debt}\end{matrix}\right) + \left(\begin{matrix}\text{Shares} \\[2pt] \text{issuable from} \\[2pt] \text{stock options}\end{matrix}\right)}""",
+    "3d59c6ec97e12697b5d2.png": r"""\text{Diluted EPS} = \frac{\left[\text{Net income} - \text{Preferred dividends}\right] + \left[\begin{matrix}\text{Convertible} \\[2pt] \text{preferred} \\[2pt] \text{dividends}\end{matrix}\right] + \left(\begin{matrix}\text{Convertible} \\[2pt] \text{debt} \\[2pt] \text{interest}\end{matrix}\right)(1-t)}{\left(\begin{matrix}\text{Weighted} \\[2pt] \text{average} \\[2pt] \text{shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\[2pt] \text{conversion of} \\[2pt] \text{conv. pref. shares}\end{matrix}\right) + \left(\begin{matrix}\text{Shares from} \\[2pt] \text{conversion of} \\[2pt] \text{conv. debt}\end{matrix}\right) + \left(\begin{matrix}\text{Shares} \\[2pt] \text{issuable from} \\[2pt] \text{stock options}\end{matrix}\right)}""",
+    # Reference document formulas
+    "25fcc334b0242892c96e.png": r"""\begin{aligned}
+H_0: \mu &\le 0.0\%, \quad H_a: \mu > 0.0\% \\[8pt]
+z &= \frac{\bar{X} - \mu_0}{\sigma / \sqrt{n}} = \frac{2.0 - 0.0}{20.0 / 6} = 0.60
+\end{aligned}""",
+    "b52fe3c51c6c1ecf0276.png": r"""\begin{aligned}
+\text{FCFE} &= \text{CFO} - \text{FC}_{\text{Inv}} + \text{Net borrowing} \\[6pt]
+\text{where:}\quad \text{FC}_{\text{Inv}} &= \text{fixed capital investment (net capital expenditures)} \\
+\text{Net borrowing} &= \text{debt issued} - \text{debt repaid}
+\end{aligned}""",
+    "b9fb50feb2c065f019f3.png": r"""{}_N y_{(M-N)y} = \left[ \frac{(1 + S_M)^M}{(1 + S_N)^N} \right]^{\frac{1}{M-N}} - 1""",
+    "37d031accc69305d0b0a.png": r"""\begin{aligned}
+\text{CML:}\quad E(R_p) &= R_f + \left( \frac{E(R_m) - R_f}{\sigma_m} \right) \sigma_p \\[8pt]
+&= R_f + [E(R_m) - R_f] \left( \frac{\sigma_p}{\sigma_m} \right)
+\end{aligned}""",
+    "80250aed3b166358df5a.png": r"""M^2 = R_f + \left( \frac{\sigma_m}{\sigma_p} \right) (R_p - R_f)""",
+    "b13e36d68a57f72fc03a.png": r"""\text{If } \text{EPS} = x = \$7.25, \text{ then } z = (x - \mu)/\sigma = (\$7.25 - \$5.00)/\$1.50 = 1.50""",
+    "e0cd75159982915c0cdd.png": r"""\text{Real P/B exchange rate} = \text{Nominal P/B exchange rate} \times \left(\frac{\text{CPI}_{\text{base}}}{\text{CPI}_{\text{price}}}\right)""",
+    "4767f50c225f8db4e12e.png": r"""\text{FCFF} = \text{NI} + \text{NCC} + [\text{Int} \times (1 - \text{tax rate})] - \text{FC}_{\text{Inv}} - \text{WC}_{\text{Inv}}""",
+    "bca94350018619ac5e9a.png": r"""\text{FCFF} = \text{CFO} + [\text{Int} \times (1 - \text{tax rate})] - \text{FC}_{\text{Inv}}""",
+    "6166d8e46496f1f1f8b2.png": r"""-\text{Bond price} + \frac{\text{Coupon}_1}{1 + \text{IRR}} + \frac{\text{Coupon}_2}{(1 + \text{IRR})^2} + \dots + \frac{\text{Coupon}_n + \text{Par}}{(1 + \text{IRR})^n} = 0""",
+    "2deff1f374adb143e779.png": r"""-\text{Bond price} + \frac{\text{Coupon}_1}{1 + \frac{\text{IRR}}{2}} + \frac{\text{Coupon}_2}{\left(1 + \frac{\text{IRR}}{2}\right)^2} + \dots = 0""",
+    "58de1c97dd9050c2bf4f.png": r"""\frac{\text{PMT}}{1.01} + \frac{\text{PMT}}{(1.02)^2} + \frac{\text{PMT} + 100}{(1.03)^3}""",
+    "fa9493dcaa14da4e9263.png": r"""\text{Leveraged return} = \frac{r(V_0 + V_B) - V_B \times r_B}{V_0}""",
+    "81faeb586da36071a56c.png": r"""r = \frac{V_1 - V_0 - \text{Total fees}}{V_0}""",
+    "20c1ec6c7fd73f41b4f2.png": r"""\sigma_{\text{portfolio}} = \sqrt{w_A^2 \sigma_A^2 + w_B^2 \sigma_B^2 + 2w_A w_B \operatorname{Cov}_{AB}}""",
+    "c0c3883130244f1aa128.png": r"""s^2 = \frac{\sum_{t=1}^T (R_t - \bar{R})^2}{T - 1}""",
+    "7064d8038a925feadd6f.png": r"""\operatorname{Cov}_{1,2} = \frac{\sum_{t=1}^n (R_{1,t} - \bar{R}_1)(R_{2,t} - \bar{R}_2)}{n - 1}""",
+    "f988d835f752b8e9d75e.png": r"""\rho_{1,2} = \frac{\operatorname{Cov}_{1,2}}{\sigma_1 \sigma_2}""",
+    "8e90098c9dc0fb670ca4.png": r"""\beta_i = \frac{\operatorname{Cov}(R_i, R_m)}{\sigma_m^2}""",
+    "0e824a9a1e09a3080901.png": r"""\begin{gathered}
+\text{NPV} = \text{CF}_0 + \frac{\text{CF}_1}{(1+k)^1} + \frac{\text{CF}_2}{(1+k)^2} + \dots + \frac{\text{CF}_n}{(1+k)^n} = \sum_{t=0}^n \frac{\text{CF}_t}{(1+k)^t} \\[8pt]
+\text{CF}_0 = \text{initial investment outlay}; \quad \text{CF}_t = \text{after-tax cash flow at time } t; \quad k = \text{required rate of return}
+\end{gathered}""",
+    "6c9fcbbb3cf8dcbf3d91.png": r"""\begin{gathered}
+r_e = r_0 + \frac{D}{E}(r_0 - r_d) \\[4pt]
+\begin{aligned}
+\text{where:}\quad
+r_e &= \text{cost of equity} \\[6pt]
+r_0 &= \text{cost of equity with no debt (all equity)} \\[6pt]
+r_d &= \text{cost of debt} \\[6pt]
+\text{D/E} &= \text{debt-to-equity ratio}
+\end{aligned}
+\end{gathered}""",
 })
 
 
@@ -811,6 +1190,17 @@ def clean_latex(latex: str) -> str:
     latex = re.sub(r"\\heartsuit(?:_\{\\?[a-zA-Z0-9]+\}|_[a-zA-Z0-9]+)?", r"\\%", latex)
     latex = re.sub(r"\\(?:spadesuit|clubsuit|diamondsuit)", r"", latex)
 
+    # Clean OCR percentage misreads
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*9_\{?(?:\\circ|\\phi|[6o])\b\}?['′]?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*7_\{?(?:\\circ|[0o])\b\}?['′]?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*\%_\{?(?:\\phi|\\circ|\\mathsf\{0\}|\\mathbf\{0\}|[06od])\b\}?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*\{9\s*\\surd\}_?\{?0?\}?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*9\s*\\surd_?\{?0?\}?", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*\{\\frac\{9\}\s*\{6\}\}", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*\\frac\{9\}\s*\{6\}", r"\1\\%", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*9\s*\\of\{\}?", r"\1\\%", latex)
+    latex = re.sub(r"\\epsilon(?=\s*\d)", r"\\text{EUR }", latex)
+
     # Clean mathtt and mangled OCR intercepts / typos
     latex = re.sub(r"\\?mathtt\{([^}]+)\}", r"\\text{\1}", latex)
     latex = re.sub(r"\\hat\{\\Phi\}_0", r"\\hat{b}_0", latex)
@@ -840,6 +1230,32 @@ def clean_latex(latex: str) -> str:
     latex = re.sub(r"\\S(?=\s*\d)", r"\\$", latex)
     for _ in range(4):
         latex = re.sub(r"(?<=\d)\s+(?=[\d.])|(?<=\.)\s+(?=\d)", "", latex)
+    # Convert \mathrm{...~...} to \text{...} if it does not contain math syntax
+    def clean_mathrm(match):
+        inner = match.group(1)
+        if any(ch in inner for ch in "_^\\=<>"):
+            return match.group(0)
+        return "\\text{" + inner.replace("~", " ") + "}"
+
+    latex = re.sub(r"\\mathrm\{([^{}]+~[^{}]+)\}", clean_mathrm, latex)
+
+    # Wrap thousands separators between digits in math mode with {,}
+    saved_text = []
+    def save_text(m):
+        saved_text.append(m.group(0))
+        return f"__SAVED_TEXT_{len(saved_text)-1}__"
+
+    latex = re.sub(r"\\text\{[^{}]*\}", save_text, latex)
+    latex = re.sub(r"(?<=\d),(?=\d)", "{,}", latex)
+    for idx, s in enumerate(saved_text):
+        latex = latex.replace(f"__SAVED_TEXT_{idx}__", s)
+
+    # Clean currency and stray symbols
+    latex = re.sub(r"(?<=\s)S(?=\d+[,.]\d+)", r"\\$", latex)
+    latex = re.sub(r"(?<=[=\+\-\(])\s*S(?=\d)", r"\\$", latex)
+    latex = re.sub(r"\\sharp(?=\s*\d)", r"\\$", latex)
+    latex = re.sub(r"(\d+(?:\.\d+)?)\s*\\natural\b", r"\1\\%", latex)
+
     replacements = {
         "retum": "return",
         "Retum": "Return",
@@ -849,9 +1265,32 @@ def clean_latex(latex: str) -> str:
         "befimingerfothod": "beginning~of~period",
         "perfotho": "period",
         "\\mathbbm": "\\mathbb",
+        "portfolic": "portfolio",
+        "eamings": "earnings",
+        "fevenu": "revenu",
+        "anmual": "annual",
+        "Partuership": "Partnership",
+        "Vimally": "Virtually",
+        'days"': "\\text{days'}",
+        "\\bmod11 ion": "\\text{ million}",
+        "\\cal S": "\\$",
     }
     for wrong, right in replacements.items():
         latex = latex.replace(wrong, right)
+    # Ensure vertical breathing room between rows in multiline environments with fractions
+    def add_row_spacing(match):
+        env_type = match.group(1)
+        env_content = match.group(2)
+        if r"\frac" in env_content or r"\cfrac" in env_content or r"\displaystyle" in env_content:
+            spaced = re.sub(r"\\\\(?!\s*\[\s*\d+\s*(?:pt|ex|em)\s*\])", r"\\\\[8pt]", env_content)
+            return f"\\begin{{{env_type}}}{spaced}\\end{{{env_type}}}"
+        elif env_type == "matrix":
+            spaced = re.sub(r"\\\\(?!\s*\[\s*\d+\s*(?:pt|ex|em)\s*\])", r"\\\\[2pt]", env_content)
+            return f"\\begin{{{env_type}}}{spaced}\\end{{{env_type}}}"
+        return match.group(0)
+
+    latex = re.sub(r"\\begin\{(array|aligned|matrix|gathered|cases)\}(.*?)\\end\{\1\}", add_row_spacing, latex, flags=re.DOTALL)
+
     balance = latex.count("{") - latex.count("}")
     if balance > 0:
         latex += "}" * balance
@@ -881,9 +1320,14 @@ def collect_blocks(value, section: str, occurrences: list[dict]) -> None:
     if isinstance(value, list):
         previous = ""
         for block in value:
-            if isinstance(block, dict) and block.get("type") == "image":
-                category, reason = visual_category(block, previous, section)
-                occurrences.append({"block": block, "category": category, "reason": reason, "section": section})
+            if isinstance(block, dict):
+                if block.get("type") == "image" and block.get("src"):
+                    category, reason = visual_category(block, previous, section)
+                    occurrences.append({"block": block, "category": category, "reason": reason, "section": section})
+                elif block.get("type") in {"math", "worked-example"} and block.get("sourceAsset"):
+                    block["src"] = f"content/figures/{block['sourceAsset']}"
+                    category, reason = visual_category(block, previous, section)
+                    occurrences.append({"block": block, "category": category, "reason": reason, "section": section})
             if isinstance(block, dict) and block.get("text"):
                 previous = block["text"]
             collect_blocks(block, section, occurrences)
@@ -1008,11 +1452,13 @@ def main() -> None:
             if prose:
                 block["prose"] = prose
         else:
+            block.clear()
+            block["type"] = "image"
+            block["src"] = f"content/figures/{name}"
             block["visualKind"] = "diagram-chart-or-table"
-            if not block.get("width") or not block.get("height"):
-                with Image.open(CONTENT / "figures" / name) as img:
-                    block["width"] = img.width
-                    block["height"] = img.height
+            with Image.open(CONTENT / "figures" / name) as img:
+                block["width"] = img.width
+                block["height"] = img.height
             if name in VISUAL_ALT_OVERRIDES:
                 block["alt"] = VISUAL_ALT_OVERRIDES[name]
             elif not block.get("alt"):

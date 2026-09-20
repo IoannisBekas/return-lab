@@ -201,7 +201,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{DOL}=\\%\\Delta \\Delta\\mathrm{~operating~profit~/~\\%\\Delta\\Delta~sales}",
+          "latex": "\\text{DOL} = \\frac{\\%\\Delta \\text{ operating profit}}{\\%\\Delta \\text{ sales}}",
           "display": true,
           "sourceAsset": "0193cf52a48665097099.png"
         },

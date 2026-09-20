@@ -43,10 +43,10 @@
         {
           "type": "image",
           "src": "content/figures/b1f1a12cd1d52c9b5334.png",
-          "alt": "Equation, table, or diagram: Figure 84.1: Combining a Risk-Free Asset With a Risky Asset",
-          "width": 448,
-          "height": 293,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 862,
+          "height": 565,
+          "alt": "Instructional visual diagram or table: b1f1a12cd1d52c9b5334.png"
         },
         {
           "type": "question",
@@ -64,10 +64,10 @@
         {
           "type": "image",
           "src": "content/figures/38bbc7eb089de5e88e55.png",
-          "alt": "Equation, table, or diagram: Figure 84.2: Risky Portfolios and Their Associated Capital Allocation Lines",
-          "width": 426,
-          "height": 294,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 820,
+          "height": 567,
+          "alt": "Instructional visual diagram or table: 38bbc7eb089de5e88e55.png"
         },
         {
           "type": "paragraph",
@@ -96,10 +96,10 @@
         {
           "type": "image",
           "src": "content/figures/54770f97b2405c7ba97c.png",
-          "alt": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio.",
-          "width": 424,
-          "height": 291,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 817,
+          "height": 560,
+          "alt": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio."
         },
         {
           "type": "paragraph",
@@ -146,10 +146,10 @@
         {
           "type": "image",
           "src": "content/figures/853ba8e8cc02b4cd6a13.png",
-          "alt": "Equation, table, or diagram: Figure 84.4: Borrowing and Lending Portfolios",
-          "width": 491,
-          "height": 323,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 946,
+          "height": 621,
+          "alt": "Instructional visual diagram or table: 853ba8e8cc02b4cd6a13.png"
         },
         {
           "type": "paragraph",
@@ -187,10 +187,10 @@
         {
           "type": "image",
           "src": "content/figures/0c67b0ae6bfd5406b1b5.png",
-          "alt": "Equation, table, or diagram: Figure 84.5: Risk vs. Number of Portfolio Assets",
-          "width": 342,
-          "height": 247,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 659,
+          "height": 475,
+          "alt": "Instructional visual diagram or table: 0c67b0ae6bfd5406b1b5.png"
         },
         {
           "type": "heading",
@@ -310,7 +310,7 @@
         },
         {
           "type": "math",
-          "latex": "\\beta_{\\mathrm{i}}={\\frac{\\mathrm{covariance~of~Asset~i's~return~with~the~market~return}} {\\mathrm{variance~of~the~market~return}}} \\!=\\! {\\frac{\\mathrm{Co v_{im}}} {\\sigma_{\\mathrm{m}}^{2}}}",
+          "latex": "\\beta_{\\mathrm{i}}={\\frac{\\text{covariance of Asset i's return with the market return}} {\\text{variance of the market return}}} \\!=\\! {\\frac{\\mathrm{Co v_{im}}} {\\sigma_{\\mathrm{m}}^{2}}}",
           "display": true,
           "sourceAsset": "f74741d98e8f28c27efc.png"
         },
@@ -320,7 +320,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {\\rho_{\\mathrm{im}}={\\frac{{\\bf Cov}_{\\mathrm{im}}} {\\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}}} \\\\ {{\\mathrm{to} \\, \\mathrm{get} \\, {\\bf Cov}_{\\mathrm{im}}=\\rho_{\\mathrm{im}} \\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}} \\end{array}",
+          "latex": "\\begin{array} {r} {\\rho_{\\mathrm{im}}={\\frac{{\\bf Cov}_{\\mathrm{im}}} {\\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}}} \\\\[8pt] {{\\mathrm{to} \\, \\mathrm{get} \\, {\\bf Cov}_{\\mathrm{im}}=\\rho_{\\mathrm{im}} \\sigma_{\\mathrm{i}} \\sigma_{\\mathrm{m}}}} \\end{array}",
           "display": true,
           "sourceAsset": "d3221435d350195c7625.png"
         },
@@ -352,10 +352,9 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{Using~the~formula~}}^{\\beta_{\\hat{\\imath}}=\\rho_{\\hat{\\imath} \\hat{\\imath}} \\Big( \\frac{\\sigma_{\\hat{\\imath}}} {\\sigma_{\\hat{\\imath}}} \\Big)} ,_{\\mathrm{scriptsize~we~have:}}^{\\mathrm{~}} \\beta_{\\hat{\\imath}}=0.80 \\big( \\frac{0.30} {0.20} \\big)=1.2.",
+          "latex": "{\\text{Using the formula }}^{\\beta_{\\hat{\\imath}}=\\rho_{\\hat{\\imath} \\hat{\\imath}} \\Big( \\frac{\\sigma_{\\hat{\\imath}}} {\\sigma_{\\hat{\\imath}}} \\Big)} ,_{\\text{scriptsize we have:}}^{\\mathrm{~}} \\beta_{\\hat{\\imath}}=0.80 \\big( \\frac{0.30} {0.20} \\big)=1.2.",
           "display": true,
-          "sourceAsset": "3e0d0fd5ea7930386bbe.png",
-          "prose": "Using the formula we have:"
+          "sourceAsset": "3e0d0fd5ea7930386bbe.png"
         },
         {
           "type": "paragraph",
@@ -367,10 +366,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {{\\beta_{\\mathrm{i}} \\!=\\! \\frac{\\mathrm{Cov}_{\\mathrm{im}}} {\\sigma_{\\mathrm{m}}^{2}} \\! ,}} \\\\ {{\\mathrm{~we~have}}} \\end{array} \\beta_{\\mathrm{i}} \\!=\\! \\frac{0.048} {0.2^{2}} \\!=1.2.",
+          "latex": "\\beta_i = \\frac{\\operatorname{Cov}_{im}}{\\sigma_m^2} = \\frac{0.048}{0.2^2} = 1.2",
           "display": true,
-          "sourceAsset": "b6a11f2e7ab92ea3098b.png",
-          "prose": "Using the formula we have"
+          "sourceAsset": "b6a11f2e7ab92ea3098b.png"
         },
         {
           "type": "heading",
@@ -391,10 +389,10 @@
         {
           "type": "image",
           "src": "content/figures/b8a8e0722a8acfaa2703.png",
-          "alt": "Equation, table, or diagram: Figure 84.6: Regression of Asset Excess Returns Against Market Asset Returns",
-          "width": 487,
-          "height": 301,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 937,
+          "height": 580,
+          "alt": "Instructional visual diagram or table: b8a8e0722a8acfaa2703.png"
         },
         {
           "type": "paragraph",
@@ -404,8 +402,7 @@
           "type": "math",
           "latex": "\\text{Slope of the security characteristic line}=\\frac{\\operatorname{Cov}_{i,m}}{\\sigma_m^2}",
           "display": true,
-          "sourceAsset": "59a299036c135770e493.png",
-          "prose": "Mathematically, the slope of the security characteristic line is which is the same formula we used earlier to calculate beta."
+          "sourceAsset": "59a299036c135770e493.png"
         }
       ]
     },
@@ -434,10 +431,10 @@
         {
           "type": "image",
           "src": "content/figures/d51ed93c1b0872cc3b93.png",
-          "alt": "Equation, table, or diagram: Figure 84.7: Security Market Line",
-          "width": 342,
-          "height": 239,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 659,
+          "height": 460,
+          "alt": "Instructional visual diagram or table: d51ed93c1b0872cc3b93.png"
         },
         {
           "type": "paragraph",
@@ -464,11 +461,12 @@
           "text": "The line described by this last equation is presented in Figure 84.8, where we let the"
         },
         {
-          "type": "math",
-          "latex": "\\begin{aligned} {\\boldsymbol{\\epsilon}_{\\mathrm{standardized~covariance~term} ,} \\frac{C_{\\mathrm{ov}_{i , \\mathrm{~mint}}}} {\\sigma_{\\mathrm{mit}}^{2}} ,} & {{} \\boldsymbol{\\epsilon}_{\\mathrm{be~defined~as~beta} ,} \\beta_{i} .} \\\\ \\end{aligned}",
-          "display": true,
-          "sourceAsset": "f2f4fd1cb3e37e778906.png",
-          "prose": "standardized covariance term, be defined as beta, βi."
+          "type": "image",
+          "src": "content/figures/f2f4fd1cb3e37e778906.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 832,
+          "height": 98,
+          "alt": "Instructional visual diagram or table: f2f4fd1cb3e37e778906.png"
         },
         {
           "type": "paragraph",
@@ -481,17 +479,18 @@
         {
           "type": "image",
           "src": "content/figures/73de09a9a85d8de3ae53.png",
-          "alt": "Equation, table, or diagram: Figure 84.8: The Capital Asset Pricing Model",
-          "width": 332,
-          "height": 238,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 640,
+          "height": 458,
+          "alt": "Instructional visual diagram or table: 73de09a9a85d8de3ae53.png"
         },
         {
-          "type": "math",
-          "latex": "\\boldsymbol{\\mathrm{So,we~can~define~beta,}} \\boldsymbol{\\beta=} \\boldsymbol{\\frac{Co \\ v_{i , \\, \\mathbf{mit} t}} {\\sigma_{\\mathbf{mit} t}^{2}}} , \\boldsymbol{\\mathrm{as~a~standardized~measure~of~systematic~risk.}}",
-          "display": true,
-          "sourceAsset": "eb7f359c65a0d3f19f81.png",
-          "prose": "So, we can define beta, as a standardized measure of systematic risk."
+          "type": "image",
+          "src": "content/figures/eb7f359c65a0d3f19f81.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1094,
+          "height": 90,
+          "alt": "Instructional visual diagram or table: eb7f359c65a0d3f19f81.png"
         },
         {
           "type": "paragraph",
@@ -574,10 +573,10 @@
         {
           "type": "image",
           "src": "content/figures/9bc56c65e5dbd991498b.png",
-          "alt": "Equation, table, or diagram: Figure 84.9: Comparing the CML and the SML",
-          "width": 415,
-          "height": 560,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 800,
+          "height": 1077,
+          "alt": "Instructional visual diagram or table: 9bc56c65e5dbd991498b.png"
         },
         {
           "type": "paragraph",
@@ -639,10 +638,10 @@
         {
           "type": "image",
           "src": "content/figures/9dc5da52e5cce1eda307.png",
-          "alt": "Equation, table, or diagram: Forecast Data",
-          "width": 412,
-          "height": 104,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 794,
+          "height": 202,
+          "alt": "Instructional visual diagram or table: 9dc5da52e5cce1eda307.png"
         },
         {
           "type": "heading",
@@ -659,10 +658,10 @@
         {
           "type": "image",
           "src": "content/figures/7599db3f980f38142f2b.png",
-          "alt": "Equation, table, or diagram: Forecasts vs. Required Returns",
-          "width": 468,
-          "height": 98,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 901,
+          "height": 188,
+          "alt": "Instructional visual diagram or table: 7599db3f980f38142f2b.png"
         },
         {
           "type": "paragraph",
@@ -699,10 +698,10 @@
         {
           "type": "image",
           "src": "content/figures/c34a22880904740b85c0.png",
-          "alt": "Equation, table, or diagram: Identifying Mispriced Securities",
-          "width": 362,
-          "height": 221,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 697,
+          "height": 427,
+          "alt": "Instructional visual diagram or table: c34a22880904740b85c0.png"
         },
         {
           "type": "heading",
@@ -739,10 +738,9 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{Sharpe~ratio}} \\!=\\! {\\frac{\\mathrm{E} \\left[ \\mathrm{R}_{\\mathrm{portfolio}} \\right]-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{portfolio}}}}",
+          "latex": "{\\text{Sharpe ratio}} \\!=\\! {\\frac{\\mathrm{E} \\left[ \\mathrm{R}_{\\mathrm{portfolio}} \\right]-\\mathrm{R}_{\\mathrm{f}}} {\\sigma_{\\mathrm{portfolio}}}}",
           "display": true,
-          "sourceAsset": "0b2bae4d407448868e04.png",
-          "prose": "Sharpe ratio"
+          "sourceAsset": "0b2bae4d407448868e04.png"
         },
         {
           "type": "paragraph",
@@ -763,10 +761,10 @@
         {
           "type": "image",
           "src": "content/figures/db07dafad4c5b4570ed2.png",
-          "alt": "Equation, table, or diagram: Figure 84.10: Sharpe Ratios as Slopes",
-          "width": 481,
-          "height": 234,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 925,
+          "height": 451,
+          "alt": "Instructional visual diagram or table: db07dafad4c5b4570ed2.png"
         },
         {
           "type": "paragraph",
@@ -776,8 +774,7 @@
           "type": "math",
           "latex": "R_{P^*}=R_f+\\frac{\\sigma_M}{\\sigma_P}(R_P-R_f)",
           "display": true,
-          "sourceAsset": "1cd00ea273bcbd8b83de.png",
-          "prose": "returns) as the market portfolio. The return on P* is and we refer to that as the M2 measure for Portfolio P. We illustrate the return on the leveraged Portfolio P*, given the standard deviation and return on Portfolio P, in Figure 84.11. The extra return on the Portfolio P* above the return on the market portfolio, (P* - RM), is referred to as M2 alpha. Note that in Figure 84.11, P* is created by borrowing at Rf and investing the proceeds in Portfolio P, in an amount so that the standard deviation of P* = σM."
+          "sourceAsset": "1cd00ea273bcbd8b83de.png"
         },
         {
           "type": "heading",
@@ -786,10 +783,10 @@
         {
           "type": "image",
           "src": "content/figures/e5d02d0e339378b8eb6b.png",
-          "alt": "Equation, table, or diagram: Figure 84.11: M-Squared for a Portfolio",
-          "width": 403,
-          "height": 202,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 775,
+          "height": 389,
+          "alt": "Instructional visual diagram or table: e5d02d0e339378b8eb6b.png"
         },
         {
           "type": "paragraph",
@@ -809,10 +806,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{~The~Treynor~measure~is~calculated~as~}^{\\frac{\\mathbb{R}_{p} ~-~ \\mathbb{R}_{q}} {\\mathbb{R}_{p}}} , \\mathrm{interpreted~as~excess~returns~per~unit~of~}} \\\\ {\\mathrm{~systematic~risk,~and~represented~by~the~slope~of~a~line~as~illustrated~in~Figure~84.12.}} \\\\ {\\mathrm{~lensen's~alpha~for~Portfolio~P~is~calculated~as~}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\text{ The Treynor measure is calculated as }^{\\frac{\\mathbb{R}_{p} ~-~ \\mathbb{R}_{q}} {\\mathbb{R}_{p}}} , \\text{interpreted as excess returns per unit of }} \\\\[8pt] {\\text{ systematic risk, and represented by the slope of a line as illustrated in Figure 84.12.}} \\\\[8pt] {\\text{ lensen's alpha for Portfolio P is calculated as }} \\\\[8pt] \\end{array}",
           "display": true,
-          "sourceAsset": "15a8c8e9da509b01ef09.png",
-          "prose": "The Treynor measure is calculated as interpreted as excess returns per unit of systematic risk, and represented by the slope of a line as illustrated in Figure 84.12. Jensen’s alpha for Portfolio P is calculated as"
+          "sourceAsset": "15a8c8e9da509b01ef09.png"
         },
         {
           "type": "paragraph",
@@ -829,10 +825,10 @@
         {
           "type": "image",
           "src": "content/figures/a6f9f340aa67b6b629a0.png",
-          "alt": "Equation, table, or diagram: Figure 84.12: Treynor Measure and Jensen’s Alpha",
-          "width": 401,
-          "height": 239,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 772,
+          "height": 460,
+          "alt": "Instructional visual diagram or table: a6f9f340aa67b6b629a0.png"
         },
         {
           "type": "paragraph",
@@ -981,8 +977,7 @@
       "type": "math",
       "latex": "{\\underset{\\mathrm{Sharpe\\;ratio}} {}} {\\mathrm{Sharpe\\;ratio}}=\\left( {\\frac{{\\mathrm{R}}_{\\mathrm{P}}-{\\mathrm{Omega}}_{\\mathrm{f}}} {\\sigma_{\\mathrm{P}}}} \\right)",
       "display": true,
-      "sourceAsset": "6547d93a60b17e18587d.png",
-      "prose": "Sharpe ratio"
+      "sourceAsset": "6547d93a60b17e18587d.png"
     },
     {
       "type": "paragraph",
@@ -1004,17 +999,15 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{~ \\Gamma_{\\mathrm{Treynor~measure}}=} \\frac{\\mathrm{R_{\\mathbb{P}}-\\mathbb{R}_{f}}} {\\mathrm{3_{\\mathbb{P}}}}",
+      "latex": "\\mathrm{~ \\Gamma_{\\text{Treynor measure}}=} \\frac{\\mathrm{R_{\\mathbb{P}}-\\mathbb{R}_{f}}} {\\mathrm{3_{\\mathbb{P}}}}",
       "display": true,
-      "sourceAsset": "1eef4f679d3c862a1ee5.png",
-      "prose": "Treynor measure"
+      "sourceAsset": "1eef4f679d3c862a1ee5.png"
     },
     {
       "type": "math",
       "latex": "\\mathrm{\\ Jensen^{\\prime} s \\ alpha}=\\alpha_{\\mathrm{p}}=\\mathrm{R}_{\\mathrm{p}}-[ \\mathrm{R}_{\\mathrm{f}}+\\beta_{\\mathrm{p}} ( \\mathrm{R}_{\\mathrm{M}}-\\mathrm{R}_{\\mathrm{f}} ) ]",
       "display": true,
-      "sourceAsset": "83003297a55136b8bec5.png",
-      "prose": "Jensen’s alpha"
+      "sourceAsset": "83003297a55136b8bec5.png"
     }
   ],
   "practice": [],

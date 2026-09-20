@@ -230,10 +230,10 @@
         {
           "type": "image",
           "src": "content/figures/874dbb230795297b4341.png",
-          "alt": "Equation, table, or diagram: Finding a Forward Rate",
-          "width": 409,
-          "height": 169,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 787,
+          "height": 325,
+          "alt": "Instructional visual diagram or table: 874dbb230795297b4341.png"
         },
         {
           "type": "paragraph",
@@ -251,7 +251,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {( 1.08 )^{2}=( 1.04 ) ( 1+1 \\mathrm{y1y} )} \\\\ {( 1+1 \\mathrm{y1y} )={\\frac{( 1.08 )^{2}} {( 1.04 )}}} \\end{array}\\\\[6pt]\\mathrm{1y1y\\!=\\!} \\frac{( 1.08 )^{2}} {( 1.04 )}-1=\\frac{1.1664} {1.04}-1=12.154 \\%\\end{gathered}",
+          "latex": "\\begin{gathered}\n(1.08)^2 = (1.04)(1 + {}_{1}y_{1y}) \\\\[8pt]\n1 + {}_{1}y_{1y} = \\frac{(1.08)^2}{1.04} \\\\[8pt]\n{}_{1}y_{1y} = \\frac{(1.08)^2}{1.04} - 1 = \\frac{1.1664}{1.04} - 1 = 12.154\\%\n\\end{gathered}",
           "display": true,
           "sourceAsset": "a8a12553c4d542e8b2f1.png"
         },
@@ -389,8 +389,7 @@
           "type": "math",
           "latex": "\\frac{(4\\times8)-(6\\times2)}{2}=10\\%",
           "display": true,
-          "sourceAsset": "c65599f000c6c67f147d.png",
-          "prose": "The difference between four years at 8% (= 32%) and two years at 6% (= 12%) is 20%. Because that difference is for two years, we divide by two to get an annual rate of 10%, which is very close to the exact"
+          "sourceAsset": "c65599f000c6c67f147d.png"
         },
         {
           "type": "paragraph",
@@ -410,7 +409,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{bond~value}} & {{}=\\frac{50} {1+S_{1}}+\\frac{50} {\\left( 1+S_{1} \\right) \\left( 1+1 \\mathrm{y1} \\mathrm{y} \\right)}+\\frac{1 , 050} {\\left( 1+S_{1} \\right) \\left( 1+1 \\mathrm{y1} \\mathrm{y} \\right) \\left( 1+2 \\mathrm{y1} \\mathrm{y} \\right)}} \\\\ {} & {{}=\\frac{50} {1.04}+\\frac{50} {\\left( 1.04 \\right) \\left( 1 , 05 \\right)}+\\frac{1 , 050} {\\left( 1.04 \\right) \\left( 1 , 05 \\right) \\left( 1 , 06 \\right)}=51 {\\mathrm{,}} 000.98} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{bond value}} & {{}=\\frac{50} {1+S_{1}}+\\frac{50} {\\left( 1+S_{1} \\right) \\left( 1+1 \\mathrm{y1} \\mathrm{y} \\right)}+\\frac{1 , 050} {\\left( 1+S_{1} \\right) \\left( 1+1 \\mathrm{y1} \\mathrm{y} \\right) \\left( 1+2 \\mathrm{y1} \\mathrm{y} \\right)}} \\\\[8pt] {} & {{}=\\frac{50} {1.04}+\\frac{50} {\\left( 1.04 \\right) \\left( 1 , 05 \\right)}+\\frac{1 , 050} {\\left( 1.04 \\right) \\left( 1 , 05 \\right) \\left( 1 , 06 \\right)}=51 {\\mathrm{,}} 000.98} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "c9e80ca02b487a1dbfdc.png"
         },
@@ -498,7 +497,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\mathrm{no-arbitrage~price}}={\\frac{\\mathrm{coupon}} {( 1+\\mathrm{S}_{1} )}}+{\\frac{\\mathrm{coupon}} {( 1+\\mathrm{S}_{2} )^{2}}}+\\cdots+{\\frac{\\mathrm{coupon}+\\mathrm{principal}} {( 1+\\mathrm{S}_{N} )^{N}}}",
+      "latex": "{\\text{no-arbitrage price}}={\\frac{\\mathrm{coupon}} {( 1+\\mathrm{S}_{1} )}}+{\\frac{\\mathrm{coupon}} {( 1+\\mathrm{S}_{2} )^{2}}}+\\cdots+{\\frac{\\mathrm{coupon}+\\mathrm{principal}} {( 1+\\mathrm{S}_{N} )^{N}}}",
       "display": true,
       "sourceAsset": "778ce1606c8725798f07.png"
     },
@@ -610,7 +609,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "1. \\mathbf{A} {\\mathrm{~~bond~value}}={\\frac{4 {,} 000} {1.032}}+{\\frac{4 {,} 000} {( 1.034 )^{2}}}+{\\frac{104 {,} 000} {( 1.035 )^{3}}}={\\cfrac{5} {101 ,} {}} 419.28",
+              "latex": "1. \\mathbf{A} {\\text{  bond value}}={\\frac{4 {,} 000} {1.032}}+{\\frac{4 {,} 000} {( 1.034 )^{2}}}+{\\frac{104 {,} 000} {( 1.035 )^{3}}}={\\cfrac{5} {101 ,} {}} 419.28",
               "display": true,
               "sourceAsset": "1551933004a4d2ab1dfc.png"
             }
@@ -713,7 +712,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\n(1.0945)^4=(1.0985)^3(1+3y_{1y})\\\\\n3y_{1y}=\\frac{(1.0945)^4}{(1.0985)^3}-1=8.258\\%,\\qquad\n\\text{Approximate forward rate}=4(9.45\\%)-3(9.85\\%)=8.25\\%\n\\end{gathered}",
+              "latex": "\\begin{gathered}\n(1.0945)^4=(1.0985)^3(1+3y_{1y})\\\\[8pt]\n3y_{1y}=\\frac{(1.0945)^4}{(1.0985)^3}-1=8.258\\%,\\qquad\n\\text{Approximate forward rate}=4(9.45\\%)-3(9.85\\%)=8.25\\%\n\\end{gathered}",
               "display": true,
               "sourceAsset": "fa183ec49859908dbea5.png"
             }

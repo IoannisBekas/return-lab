@@ -18,7 +18,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\text{r=sample \\ correlation}} \\\\ {\\text{n=sample \\ size}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}}}} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\text{r=sample \\ correlation}} \\\\[8pt] {\\text{n=sample \\ size}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "980d5deecbd5667baeb5.png"
         },
@@ -44,10 +44,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathrm{~0ur~test~statistic~is~} \\frac{0.35 \\, \\sqrt{42-2}} {\\sqrt{1-0.35^{2}}}=2.363} \\\\ {\\mathrm{.}} \\\\ \\end{array} .",
+          "latex": "\\begin{array} {c} {\\text{ 0ur test statistic is } \\frac{0.35 \\, \\sqrt{42-2}} {\\sqrt{1-0.35^{2}}}=2.363} \\\\[8pt] {\\mathrm{.}} \\\\[8pt] \\end{array} .",
           "display": true,
-          "sourceAsset": "76823dcb1ae2eb977f6b.png",
-          "prose": "Our test statistic is ."
+          "sourceAsset": "76823dcb1ae2eb977f6b.png"
         },
         {
           "type": "paragraph",
@@ -75,7 +74,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {c} {{{}_{\\mathrm{{\\scriptsize~ r_{s}=1-}}} {\\frac{6 {\\sum_{i=1}^{n} \\! \\mathrm{{\\scriptsize~ d_{i}^{2} ~}}}} {\\mathrm{{\\scriptsize~ n ( n^{2} \\!-\\! 1 ) ~}}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r}_{S}=\\mathrm{rank~correlation}}} \\\\ {{\\mathrm{n}=\\mathrm{sample~size}}} \\\\ {{\\mathrm{d}_{i}=\\mathrm{difference~between~two~ranks}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {c} {{{}_{\\mathrm{{\\scriptsize~ r_{s}=1-}}} {\\frac{6 {\\sum_{i=1}^{n} \\! \\mathrm{{\\scriptsize~ d_{i}^{2} ~}}}} {\\mathrm{{\\scriptsize~ n ( n^{2} \\!-\\! 1 ) ~}}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r}_{S}=\\text{rank correlation}}} \\\\[8pt] {{\\mathrm{n}=\\text{sample size}}} \\\\[8pt] {{\\mathrm{d}_{i}=\\text{difference between two ranks}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "567eeb7e3aa5824a249a.png"
         },
@@ -109,10 +108,10 @@
         {
           "type": "image",
           "src": "content/figures/cdeaad3ccf1b311495a8.png",
-          "alt": "Equation, table, or diagram: Figure 9.1: Contingency Table for Categorical Data",
-          "width": 329,
-          "height": 137,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 633,
+          "height": 265,
+          "alt": "Instructional visual diagram or table: cdeaad3ccf1b311495a8.png"
         },
         {
           "type": "paragraph",
@@ -124,7 +123,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\mathrm{X^{2}=\\sum_{s=1}^{r} \\sum_{j=1}^{c} \\frac{( O_{ij}-E_{ij} )^{2}} {E_{ij}}}\\\\[6pt]\\begin{array} {l} {O_{\\frac{i} {i}}=\\mathrm{number~of~observations~in~Cell~i,j} ; \\mathrm{~Row~} i \\mathrm{~and~Column~} j \\, ( \\mathrm{i.e.,~observed} )} \\\\ {\\mathrm{~frequency)}} \\\\ {\\mathrm{~ E_{i_{i}}}=\\mathrm{expected~mumber~of~observations~for~Cell~i,j~}} \\\\ {\\mathrm{~I'~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~row~categories}} \\\\ {\\mathrm{~``~}=\\mathrm{number~of~column~categories}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\chi^2 = \\sum_{i=1}^{r} \\sum_{j=1}^{c} \\frac{(O_{ij} - E_{ij})^2}{E_{ij}} \\\\[6pt]\n\\begin{aligned}\n\\text{where:}\\quad\nO_{ij} &= \\text{observed frequency in cell } i, j \\\\[8pt]\nE_{ij} &= \\text{expected frequency in cell } i, j \\\\[8pt]\nr &= \\text{number of rows}, \\quad c = \\text{number of columns}\n\\end{aligned}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "083fbe7940af1ac28945.png"
         },
@@ -138,7 +137,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\mathrm{total~for~Row~i~} \\times\\mathrm{total~for~Column~j~}} {\\mathrm{total~for~all~columns~and~rows}}",
+          "latex": "\\frac{\\text{total for Row i } \\times\\text{total for Column j }} {\\text{total for all columns and rows}}",
           "display": true,
           "sourceAsset": "a5ee3529a2048cb4d2b8.png"
         },
@@ -173,10 +172,10 @@
         {
           "type": "image",
           "src": "content/figures/bcb83a7a80c17a1f4534.png",
-          "alt": "Equation, table, or diagram: Figure 9.2: Contingency Table for Expected Frequencies",
-          "width": 368,
-          "height": 115,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 708,
+          "height": 222,
+          "alt": "Instructional visual diagram or table: bcb83a7a80c17a1f4534.png"
         },
         {
           "type": "paragraph",
@@ -189,10 +188,10 @@
         {
           "type": "image",
           "src": "content/figures/b0c855a8963d32275a89.png",
-          "alt": "Equation, table, or diagram: Figure 9.3: Squared Differences from Contingency Table",
-          "width": 393,
-          "height": 141,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 757,
+          "height": 272,
+          "alt": "Instructional visual diagram or table: b0c855a8963d32275a89.png"
         },
         {
           "type": "paragraph",
@@ -213,10 +212,9 @@
     },
     {
       "type": "math",
-      "latex": "\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}} , \\mathrm{where} \\, \\, r \\, \\, \\mathrm{is~the~sample~correlation~coefficient} .",
+      "latex": "\\frac{\\mathrm{r} \\, \\sqrt{\\mathrm{n}-2}} {\\sqrt{1-\\mathrm{r}^{2}}} , \\mathrm{where} \\, \\, r \\, \\, \\text{is the sample correlation coefficient} .",
       "display": true,
-      "sourceAsset": "5d63becd15843bc721c1.png",
-      "prose": ", where r is the sample correlation coefficient."
+      "sourceAsset": "5d63becd15843bc721c1.png"
     },
     {
       "type": "paragraph",
@@ -224,10 +222,9 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n} d_i^2 ~} ~}}} \\\\ {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n-1} d_{i}^2 ~} ~ is ~ the ~ sum ~ of ~ the ~ squared ~ differences ~ in ~ pairs ~ of ~ ranks ~ and ~} n \\mathrm{~is~the~}}} \\\\ {{\\mathrm{~number~of~sample~periods~The~test~statistic~follows~a~t-distribution~for~samples~sizes}}} \\\\ {{\\mathrm{~greater~than~30.}}} \\\\ \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n} d_i^2 ~} ~}}} \\\\[8pt] {{\\mathrm{~ r=1-\\cfrac{6 \\sum_{i=1}^{n-1} d_{i}^2 ~} ~ is ~ the ~ sum ~ of ~ the ~ squared ~ differences ~ in ~ pairs ~ of ~ ranks ~ and ~} n \\text{ is the }}} \\\\[8pt] {{\\text{ number of sample periods The test statistic follows a t-distribution for samples sizes}}} \\\\[8pt] {{\\text{ greater than 30.}}} \\\\[8pt] \\end{array}",
       "display": true,
-      "sourceAsset": "86e9bb925cceac7c8371.png",
-      "prose": "is the sum of the squared differences in pairs of ranks and n is the number of sample periods. The test statistic follows a t-distribution for samples sizes greater than 30."
+      "sourceAsset": "86e9bb925cceac7c8371.png"
     },
     {
       "type": "question",

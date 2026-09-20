@@ -116,10 +116,10 @@
         {
           "type": "image",
           "src": "content/figures/d843edeaafc984cf511d.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 454,
-          "height": 206,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 875,
+          "height": 397,
+          "alt": "Instructional visual diagram or table: d843edeaafc984cf511d.png"
         },
         {
           "type": "question",
@@ -168,10 +168,12 @@
       "text": "How can we compare the organizational forms of businesses?"
     },
     {
-      "type": "math",
-      "latex": "\\begin{gathered}\\begin{array} {lllllll} \\hline{} & {\\mathrm{Sole}} & {} & {\\mathrm{General}} & {} & {\\mathrm{Limited}} & {} & {} \\\\ {\\mathrm{Feature}} & {} & {\\mathrm{Proprietorship}} & {} & {\\mathrm{Partuership}} & {} & {\\mathrm{Partuership}} & {} & {\\mathrm{Corporation}} & {} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lccccc} {{\\mathrm{Separate}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{No}}} & {{\\mathrm{Yes}}} \\\\ {{\\mathrm{legal}}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{entity?}}} & {{}} & {{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{Managed}}} & {{\\mathrm{Owner}}} & {{\\mathrm{Partners}}} & {{\\mathrm{GPs}}} & {{\\mathrm{Board~and}}} \\\\ {{\\mathrm{by}}} & {{\\mathrm{by}}} & {{}} & {{}} & {{}} & {{\\mathrm{managers}}} \\end{array}\\\\[6pt]\\begin{array} {lllll} {{\\mathrm{Owner} \\quad}} & {{\\mathrm{Unlimited} \\quad}} & {{\\quad}} & {{\\mathrm{Unlimited} \\quad}} & {{\\quad}} & {{\\mathrm{GPs:~unlimited} \\quad}} & {{\\mathrm{Limited} \\quad}} \\\\ {{\\mathrm{liability} \\quad}} & {{}} & {{}} & {{\\quad}} & {{\\mathrm{LPs:~limited} \\quad}} & {{\\mathrm{Limited} \\quad}} & {{\\mathrm{Limited} \\quad}} \\\\ \\end{array}\\\\[6pt]{\\begin{array} {lllll} {\\mathrm{Access~to}} & {\\mathrm{Limited}} & {\\mathrm{Limited}} & {\\mathrm{Limited}} & {\\mathrm{Vimally}} \\\\ {\\mathrm{capital}} & {} & {} & {} & {} & {\\mathrm{unlimited}} \\\\ {\\mathrm{Taxation}} & {\\mathrm{Pass~through}} & {\\mathrm{Pass~through}} & {\\mathrm{Pass~through}} & {\\mathrm{Potential}} \\\\ {\\mathrm{of~profits}} & {\\mathrm{to~owner~as}} & {\\mathrm{to~owner~as}} & {\\mathrm{to~owner~as}} & {\\mathrm{double}} \\\\ {} & {\\mathrm{personal~income}} & {\\mathrm{personal~income}} & {\\mathrm{personal~income}} & {\\mathrm{taxation}} \\end{array}}\\end{gathered}",
-      "display": true,
-      "sourceAsset": "9e5716d3827f249ab639.png"
+      "type": "image",
+      "src": "content/figures/9e5716d3827f249ab639.png",
+      "visualKind": "diagram-chart-or-table",
+      "width": 1032,
+      "height": 562,
+      "alt": "Comparative structure table of sole proprietorships, general partnerships, limited partnerships, and corporations."
     },
     {
       "type": "question",

@@ -71,7 +71,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {ll} \\hline{\\mathrm{Original~cost}} & {\\$210} \\\\ {\\mathrm{Estimated~selling~price~}} & {\\$225} \\\\ {\\mathrm{Estimated~selling~costs~}} & {\\$22} \\\\ {\\mathrm{Net~realizable~value~}} & {\\$203} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Replacement~cost}} & {} & {{} \\$197} \\\\ {} & {{} \\mathrm{Normal~profit~margin}} & {} & {{} \\$12} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {ll} \\hline{\\text{Original cost}} & {\\$210} \\\\ {\\text{Estimated selling price }} & {\\$225} \\\\ {\\text{Estimated selling costs }} & {\\$22} \\\\ {\\text{Net realizable value }} & {\\$203} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\text{Replacement cost}} & {} & {{} \\$197} \\\\ {} & {{} \\text{Normal profit margin}} & {} & {{} \\$12} \\\\ \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "8491832d9a1fa235d68e.png"
         },
@@ -185,10 +185,10 @@
         {
           "type": "image",
           "src": "content/figures/b37305a00c0bfecd1165.png",
-          "alt": "Equation, table, or diagram: Figure 32.1: LIFO and FIFO Diagram—Rising Prices and Growing Inventory Balances",
-          "width": 430,
-          "height": 332,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 828,
+          "height": 640,
+          "alt": "Instructional visual diagram or table: b37305a00c0bfecd1165.png"
         },
         {
           "type": "paragraph",
@@ -241,10 +241,10 @@
         {
           "type": "image",
           "src": "content/figures/123fa52a8926520c282f.png",
-          "alt": "Equation, table, or diagram: Figure 32.2: Effects of Inventory Valuation Methods",
-          "width": 514,
-          "height": 116,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 989,
+          "height": 224,
+          "alt": "Instructional visual diagram or table: 123fa52a8926520c282f.png"
         },
         {
           "type": "heading",
@@ -301,10 +301,10 @@
         {
           "type": "image",
           "src": "content/figures/24346a116202b57c819e.png",
-          "alt": "Equation, table, or diagram: cks gross profit and gross profit margin using FIFO and LIFO cost flow methodology. (Assume all purchases each year are made at the beginning of the year for the indicated prices.)",
-          "width": 446,
-          "height": 245,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 858,
+          "height": 472,
+          "alt": "Instructional visual diagram or table: 24346a116202b57c819e.png"
         },
         {
           "type": "heading",
@@ -313,10 +313,10 @@
         {
           "type": "image",
           "src": "content/figures/284193a7c2047e6687d1.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 444,
-          "height": 427,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 854,
+          "height": 822,
+          "alt": "Instructional visual diagram or table: 284193a7c2047e6687d1.png"
         },
         {
           "type": "paragraph",
@@ -333,10 +333,10 @@
         {
           "type": "image",
           "src": "content/figures/c1ff69501c6d5344b906.png",
-          "alt": "Equation, table, or diagram: ating. This unusual result is caused by a LIFO liquidation. Inventory levels decreased during the year because the number of units purchased was less than the number of units sold.",
-          "width": 444,
-          "height": 70,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 854,
+          "height": 136,
+          "alt": "Instructional visual diagram or table: c1ff69501c6d5344b906.png"
         },
         {
           "type": "paragraph",
@@ -420,18 +420,18 @@
         {
           "type": "image",
           "src": "content/figures/a59a1286e797537fd1d0.png",
-          "alt": "Equation, table, or diagram: Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:",
-          "width": 335,
-          "height": 431,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 646,
+          "height": 829,
+          "alt": "Instructional visual diagram or table: a59a1286e797537fd1d0.png"
         },
         {
           "type": "image",
           "src": "content/figures/9daa03cc4a34d1747f8b.png",
-          "alt": "Equation, table, or diagram: Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:",
-          "width": 334,
-          "height": 472,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 644,
+          "height": 908,
+          "alt": "Instructional visual diagram or table: 9daa03cc4a34d1747f8b.png"
         },
         {
           "type": "paragraph",
@@ -444,10 +444,10 @@
         {
           "type": "image",
           "src": "content/figures/3b212816f81575ac9df8.png",
-          "alt": "Equation, table, or diagram: The following footnote disclosure is given for inventory balances:",
-          "width": 316,
-          "height": 276,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 609,
+          "height": 531,
+          "alt": "Instructional visual diagram or table: 3b212816f81575ac9df8.png"
         },
         {
           "type": "paragraph",
@@ -468,10 +468,10 @@
         {
           "type": "image",
           "src": "content/figures/5d68f4c1921b12dd0247.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 286,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 551,
+          "height": 310,
+          "alt": "Instructional visual diagram or table: 5d68f4c1921b12dd0247.png"
         },
         {
           "type": "paragraph",
@@ -543,7 +543,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {20 \\mathrm{X6} \\colon\\$2 {,} 900 {,} 000 {\\,} / \\$5 {,} 500 {,} 000=52.739 \\natural} \\\\ {20 \\mathrm{X7} \\colon\\$3 {,} 400 {,} 000 {\\,} / \\$7 {,} 500 {,} 000=45.339 \\natural} \\\\ \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{20X6: } \\$2{,}900{,}000 / \\$5{,}500{,}000 &= 52.73\\% \\\\[6pt]\n\\text{20X7: } \\$3{,}400{,}000 / \\$7{,}500{,}000 &= 45.33\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "f4b90a04a9f20f4ced8b.png"
         },
@@ -573,7 +573,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} 20 \\mathrm{X} 6 \\! : \\ 53 {,} 670 {,} 000 {~} / \\ 5866 {,} 000=4.24} \\\\ {} & {{} 20 \\mathrm{X} 7 \\! : \\ 55 {,} 995 {,} 000 {~} / \\ 51 {,} 505 {,} 000=3.98} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned}\n\\text{20X6: } \\$3{,}670{,}000 / \\$866{,}000 &= 4.24 \\\\[6pt]\n\\text{20X7: } \\$5{,}995{,}000 / \\$1{,}505{,}000 &= 3.98\n\\end{aligned}",
           "display": true,
           "sourceAsset": "b986d5352c23c4c021b8.png"
         },
@@ -1007,10 +1007,10 @@
             {
               "type": "image",
               "src": "content/figures/3c5c5a60d2869949ed95.png",
-              "alt": "Equation, table, or diagram: Manufacturing, Inc.:",
-              "width": 361,
-              "height": 136,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 694,
+              "height": 263,
+              "alt": "Instructional visual diagram or table: 3c5c5a60d2869949ed95.png"
             }
           ],
           "options": [

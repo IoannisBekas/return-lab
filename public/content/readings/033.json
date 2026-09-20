@@ -112,10 +112,10 @@
         {
           "type": "image",
           "src": "content/figures/43c99139ca697b0ef270.png",
-          "alt": "Equation, table, or diagram: Figure 33.1: Goodwill",
-          "width": 485,
-          "height": 93,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 933,
+          "height": 179,
+          "alt": "Instructional visual diagram or table: 43c99139ca697b0ef270.png"
         },
         {
           "type": "paragraph",
@@ -213,10 +213,12 @@
           "text": "Information related to equipment owned by Brownfield Company follows:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {ll} {{\\overline{{{\\mathrm{Original~cost}}}}}} & {{\\$900 , 000}} \\\\ {{\\mathrm{Accumulated~depreciation~to~date}}} & {{\\$100 , 000}} \\\\ {{\\mathrm{Expected~future~cash~flows}}} & {{\\$795 , 000}} \\\\ {{\\mathrm{Fair~value}}} & {{\\$790 , 000}} \\end{array}\\\\[6pt]\\begin{array} {lll} {\\mathrm{Value~in~use}} & {} & {} & {} & {{} \\text{5785 , 000}} \\\\ {\\mathrm{Selling~costs}} & {} & {} & {} & {{} \\text{530 , 000}} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "4ded731434f7fca8f53a.png"
+          "type": "image",
+          "src": "content/figures/4ded731434f7fca8f53a.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 566,
+          "height": 267,
+          "alt": "Long-lived asset impairment testing data comparing carrying value, fair value, and value in use."
         },
         {
           "type": "paragraph",
@@ -305,10 +307,10 @@
         {
           "type": "image",
           "src": "content/figures/53c07c4fbdf87468fb43.png",
-          "alt": "Equation, table, or diagram: Figure 33.2: Derecognition of Long-Term Assets",
-          "width": 537,
-          "height": 69,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 134,
+          "alt": "Instructional visual diagram or table: 53c07c4fbdf87468fb43.png"
         },
         {
           "type": "paragraph",
@@ -337,10 +339,10 @@
         {
           "type": "image",
           "src": "content/figures/08322fe07c856e19deab.png",
-          "alt": "Equation, table, or diagram: Figure 33.3: Spinoff",
-          "width": 462,
-          "height": 168,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 890,
+          "height": 324,
+          "alt": "Instructional visual diagram or table: 08322fe07c856e19deab.png"
         },
         {
           "type": "paragraph",
@@ -471,7 +473,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{fixed~asset~turnover}=\\mathrm{revenue~/~average~fixed~assets}",
+          "latex": "\\text{fixed asset turnover}=\\text{revenue / average fixed assets}",
           "display": true,
           "sourceAsset": "90548aacb2c2a7df3096.png"
         },
@@ -501,7 +503,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{average~age}}={\\frac{\\mathrm{accumulated~depreciation}} {\\mathrm{annual~depreciation~expense}}}",
+          "latex": "{\\text{average age}}={\\frac{\\text{accumulated depreciation}} {\\text{annual depreciation expense}}}",
           "display": true,
           "sourceAsset": "3ff45db636ac3d3401c2.png"
         },
@@ -515,7 +517,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{total~useful~life}}={\\frac{\\mathrm{historical~cost~(gross~cost)}} {\\mathrm{annual~depreciation~expense}}}",
+          "latex": "{\\text{total useful life}}={\\frac{\\text{historical cost (gross cost)}} {\\text{annual depreciation expense}}}",
           "display": true,
           "sourceAsset": "9db24319b23a2fc0f1a9.png"
         },
@@ -529,7 +531,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{remaining~useful~life}}={\\frac{\\mathrm{ending~net~PP} \\& E} {\\mathrm{annual~depreciation~expense}}}",
+          "latex": "{\\text{remaining useful life}}={\\frac{\\text{ending net PP} \\& E} {\\text{annual depreciation expense}}}",
           "display": true,
           "sourceAsset": "668b75fe01a849ddfb91.png"
         },
@@ -563,7 +565,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Average age}=\\frac{\\$1{,}000{,}000}{\\$500{,}000}=2\\text{ years},\\quad\n\\text{Total useful life}=\\frac{\\$3{,}000{,}000}{\\$500{,}000}=6\\text{ years}\\\\\n\\text{Remaining useful life}=\\frac{\\$2{,}000{,}000}{\\$500{,}000}=4\\text{ years}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Average age}=\\frac{\\$1{,}000{,}000}{\\$500{,}000}=2\\text{ years},\\quad\n\\text{Total useful life}=\\frac{\\$3{,}000{,}000}{\\$500{,}000}=6\\text{ years}\\\\[8pt]\n\\text{Remaining useful life}=\\frac{\\$2{,}000{,}000}{\\$500{,}000}=4\\text{ years}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "74069eb82cbfc437a3ca.png"
         },
@@ -676,7 +678,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{average~age}} & {{}=\\frac{\\mathrm{accumulated~depreciation}} {\\mathrm{annual~depreciation~expense}}} \\\\ {\\mathrm{total~useful~life}} & {{}=\\frac{\\mathrm{historical~cost}} {\\mathrm{annual~depreciation~expense}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{remaining~useful~life}}={\\frac{\\mathrm{ending~net~PP\\&E}} {\\mathrm{annual~depreciation~expense}}}\\end{gathered}",
+      "latex": "\\begin{gathered}\\begin{aligned} {\\text{average age}} & {{}=\\frac{\\text{accumulated depreciation}} {\\text{annual depreciation expense}}} \\\\[8pt] {\\text{total useful life}} & {{}=\\frac{\\text{historical cost}} {\\text{annual depreciation expense}}} \\\\[8pt] \\end{aligned}\\\\[6pt]{\\text{remaining useful life}}={\\frac{\\mathrm{ending~net~PP\\&E}} {\\text{annual depreciation expense}}}\\end{gathered}",
       "display": true,
       "sourceAsset": "9672f2600076940fb61d.png"
     }

@@ -112,10 +112,10 @@
         {
           "type": "image",
           "src": "content/figures/cd4273ac668e90e54170.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 499,
-          "height": 102,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 961,
+          "height": 198,
+          "alt": "Instructional visual diagram or table: cd4273ac668e90e54170.png"
         },
         {
           "type": "paragraph",
@@ -124,10 +124,10 @@
         {
           "type": "image",
           "src": "content/figures/19cea061ab7f4e0a9e99.png",
-          "alt": "Equation, table, or diagram:  depreciation in the early years of the asset’s life, but less in the later years relative to the straight-line method. This is a classic example of a taxable temporary difference.",
-          "width": 351,
-          "height": 246,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 676,
+          "height": 473,
+          "alt": "Instructional visual diagram or table: 19cea061ab7f4e0a9e99.png"
         },
         {
           "type": "paragraph",
@@ -176,10 +176,10 @@
         {
           "type": "image",
           "src": "content/figures/dc6c750096c7c0ed372b.png",
-          "alt": "Equation, table, or diagram: Figure 35.1: Comparison of Carrying Value to Tax Base for Temporary Timing Differences",
-          "width": 449,
-          "height": 145,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 864,
+          "height": 280,
+          "alt": "Instructional visual diagram or table: dc6c750096c7c0ed372b.png"
         },
         {
           "type": "heading",
@@ -211,7 +211,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{tax~expense}=\\mathrm{tax~payable}+\\Delta\\mathrm{DTL}-\\Delta\\mathrm{DTA}",
+          "latex": "\\text{tax expense}=\\text{tax payable}+\\Delta\\mathrm{DTL}-\\Delta\\mathrm{DTA}",
           "display": true,
           "sourceAsset": "fff59e8b7fc6e42e5c39.png"
         },
@@ -261,10 +261,10 @@
         {
           "type": "image",
           "src": "content/figures/ccd6c0dfb6444503d784.png",
-          "alt": "Equation, table, or diagram: rated. Firebird’s statutory tax rate is 30%, and it has no permanent timing differences. Tax returns and income statements are presented for the first three years of its operation.",
-          "width": 325,
-          "height": 556,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 626,
+          "height": 1070,
+          "alt": "Instructional visual diagram or table: ccd6c0dfb6444503d784.png"
         },
         {
           "type": "paragraph",
@@ -296,7 +296,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{tax} {\\mathrm{allowable~depreciation}}} & {{}={\\frac{540 , 000 , 000-50} {4 \\ years}}=510 , 000 , 000} \\\\ {\\operatorname{accounting ~ depreciation}} & {{}={\\frac{540 , 000 , 000-50} {5 \\ years}}=58 , 000 , 000} \\end{aligned}",
+          "latex": "\\begin{aligned} {\\operatorname{tax} {\\text{allowable depreciation}}} & {{}={\\frac{540 , 000 , 000-50} {4 \\ years}}=510 , 000 , 000} \\\\[8pt] {\\operatorname{accounting ~ depreciation}} & {{}={\\frac{540 , 000 , 000-50} {5 \\ years}}=58 , 000 , 000} \\end{aligned}",
           "display": true,
           "sourceAsset": "8037a7d563ab41accafc.png"
         },
@@ -307,10 +307,10 @@
         {
           "type": "image",
           "src": "content/figures/5192b64bec7da308db37.png",
-          "alt": "Equation, table, or diagram: , resulting in a DTL. After Year 4, depreciation in the tax return will be zero, while depreciation in the income statement will continue, causing the timing difference to reverse.",
-          "width": 433,
-          "height": 178,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 834,
+          "height": 344,
+          "alt": "Instructional visual diagram or table: 5192b64bec7da308db37.png"
         },
         {
           "type": "paragraph",
@@ -330,7 +330,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {cccc} \\hline{} & {\\mathrm{Year~1}} & {\\mathrm{Year~2}} & {\\mathrm{Year~3}} \\\\ {} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} \\\\ \\hline{\\mathrm{Warranty~provision}} & {5 , 000} & {6 , 000} & {6 , 500} \\\\ {\\mathrm{Warranty~expenditure}} & {2 , 000} & {5 , 000} & {8 , 000} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array} {cccc} \\hline{} & {\\text{Year 1}} & {\\text{Year 2}} & {\\text{Year 3}} \\\\ {} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} & {\\mathrm{{\\bf~ S 000}}} \\\\ \\hline{\\text{Warranty provision}} & {5 , 000} & {6 , 000} & {6 , 500} \\\\ {\\text{Warranty expenditure}} & {2 , 000} & {5 , 000} & {8 , 000} \\\\ \\hline{} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "1daa3f03a2e8de405f81.png"
         },
@@ -341,10 +341,10 @@
         {
           "type": "image",
           "src": "content/figures/a1901e95615ba6b26051.png",
-          "alt": "Equation, table, or diagram: The balance sheet liability will increase by each year’s warranty provision, offset by the actual expense incurred:",
-          "width": 408,
-          "height": 138,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 785,
+          "height": 267,
+          "alt": "Instructional visual diagram or table: a1901e95615ba6b26051.png"
         },
         {
           "type": "paragraph",
@@ -357,10 +357,10 @@
         {
           "type": "image",
           "src": "content/figures/7bc6afde6ef40f0475a6.png",
-          "alt": "Equation, table, or diagram: ar-end liability values for warranties are likely to pass through future tax returns as the expenditure is incurred. This will result in a zero value for the tax base in each year.",
-          "width": 283,
-          "height": 165,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 545,
+          "height": 317,
+          "alt": "Instructional visual diagram or table: 7bc6afde6ef40f0475a6.png"
         },
         {
           "type": "heading",
@@ -373,10 +373,10 @@
         {
           "type": "image",
           "src": "content/figures/6fae291f3cddc6447638.png",
-          "alt": "Equation, table, or diagram: Now that we have calculated the deferred tax items, we can illustrate how income tax expense was determined for financial statement reporting.",
-          "width": 281,
-          "height": 145,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 541,
+          "height": 280,
+          "alt": "Instructional visual diagram or table: 6fae291f3cddc6447638.png"
         },
         {
           "type": "heading",
@@ -437,15 +437,13 @@
           "type": "math",
           "latex": "2. \\, \\mathbf{Effective \\; tax \\; rate}=\\frac{\\mathrm{income\\;tax\\;expense}} {\\mathrm{pretax\\;income}}",
           "display": true,
-          "sourceAsset": "88c8f6f5a317b0b5cfbd.png",
-          "prose": "2. Effective tax rate"
+          "sourceAsset": "88c8f6f5a317b0b5cfbd.png"
         },
         {
           "type": "math",
           "latex": "3. \\, {\\bf Cash \\; tax \\; rate}={\\frac{\\operatorname{cash \\; taxes \\; paid}} {\\mathrm{pretax\\;income}}}",
           "display": true,
-          "sourceAsset": "a41e6b634c0df6656da2.png",
-          "prose": "3. Cash tax rate"
+          "sourceAsset": "a41e6b634c0df6656da2.png"
         },
         {
           "type": "paragraph",
@@ -474,10 +472,10 @@
         {
           "type": "image",
           "src": "content/figures/a93e6133f2de169c1ab4.png",
-          "alt": "Equation, table, or diagram: Statutory U.S. federal income tax rate reconciliation",
-          "width": 486,
-          "height": 222,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 935,
+          "height": 428,
+          "alt": "Instructional visual diagram or table: a93e6133f2de169c1ab4.png"
         },
         {
           "type": "heading",
@@ -543,10 +541,10 @@
         {
           "type": "image",
           "src": "content/figures/0cbea1828ba82ba95a45.png",
-          "alt": "Equation, table, or diagram: Deferred tax disclosures",
-          "width": 450,
-          "height": 229,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 868,
+          "height": 442,
+          "alt": "Instructional visual diagram or table: 0cbea1828ba82ba95a45.png"
         },
         {
           "type": "paragraph",
@@ -607,7 +605,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{income~tax~expense}=\\mathrm{taxes~payable}+\\Delta D \\mathrm{TL}-\\Delta D \\mathrm{TA}",
+      "latex": "\\text{income tax expense}=\\text{taxes payable}+\\Delta D \\mathrm{TL}-\\Delta D \\mathrm{TA}",
       "display": true,
       "sourceAsset": "8ea75d74bf9f59bea722.png"
     },
@@ -642,7 +640,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{gathered}\\begin{aligned} {\\overbrace{\\mathrm{Asset~carrying~value>tax~base}}} & {{} \\qquad\\mathrm{Deferred~tax~liability}} \\\\ {\\mathrm{Asset~carrying~value<tax~base}} & {{} \\qquad\\mathrm{Deferred~tax~asset}} \\\\ {\\mathrm{Liability~carrying~value>tax~base}} & {{} \\qquad\\mathrm{Deferred~tax~asset}} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Liability~carrying~value<tax~base} \\qquad\\qquad\\mathrm{Deferred~tax~liability}\\end{gathered}",
+      "latex": "\\begin{gathered}\\begin{aligned} {\\overbrace{\\mathrm{Asset~carrying~value>tax~base}}} & {{} \\qquad\\text{Deferred tax liability}} \\\\ {\\mathrm{Asset~carrying~value<tax~base}} & {{} \\qquad\\text{Deferred tax asset}} \\\\ {\\mathrm{Liability~carrying~value>tax~base}} & {{} \\qquad\\text{Deferred tax asset}} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Liability~carrying~value<tax~base} \\qquad\\qquad\\text{Deferred tax liability}\\end{gathered}",
       "display": true,
       "sourceAsset": "bbf8d736001b66ccdbc8.png"
     },
@@ -675,15 +673,13 @@
       "type": "math",
       "latex": "\\text{Effective tax rate}=\\frac{\\text{income tax expense}}{\\text{pretax income}}",
       "display": true,
-      "sourceAsset": "338b7112c46d5840a95d.png",
-      "prose": "2. Effective tax rate"
+      "sourceAsset": "338b7112c46d5840a95d.png"
     },
     {
       "type": "math",
       "latex": "3. \\, {\\mathsf{Cash ~ tax ~ rate}}={\\frac{\\operatorname{cash} \\operatorname{taxes ~ paid}} {\\operatorname{pretax ~ income}}}",
       "display": true,
-      "sourceAsset": "1a407f3f3c63bdc19109.png",
-      "prose": "3. Cash tax rate"
+      "sourceAsset": "1a407f3f3c63bdc19109.png"
     },
     {
       "type": "question",
@@ -895,10 +891,10 @@
             {
               "type": "image",
               "src": "content/figures/f732ba150e273bf26f0f.png",
-              "alt": "Equation, table, or diagram: 5. Roadrunner, Inc., reported the following information in its tax returns and financial statements:",
-              "width": 302,
-              "height": 159,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 582,
+              "height": 306,
+              "alt": "Instructional visual diagram or table: f732ba150e273bf26f0f.png"
             }
           ],
           "options": [
@@ -1179,7 +1175,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{array} {l} {{\\mathrm{Tax~in~Italy}=\\epsilon100 \\mathrm{~million} \\times209_{\\circ}=\\epsilon20 \\mathrm{~million}}} \\\\ {{\\mathrm{Effective~tax~rate}=\\frac{30+20} {100+100}=\\frac{50} {200}=259_{\\circ}}} \\end{array}",
+              "latex": "\\begin{aligned}\n\\text{Tax in Italy} &= \\text{EUR }100\\text{ million} \\times 20\\% = \\text{EUR }20\\text{ million} \\\\[8pt]\n\\text{Effective tax rate} &= \\frac{30 + 20}{100 + 100} = \\frac{50}{200} = 25\\%\n\\end{aligned}",
               "display": true,
               "sourceAsset": "b5ffc67af0ec8ba5115f.png"
             }
@@ -1196,10 +1192,10 @@
             {
               "type": "image",
               "src": "content/figures/b665660817cda5de60a9.png",
-              "alt": "Equation, table, or diagram: 3. Reactor SA is a French firm with significant global operations:",
-              "width": 305,
-              "height": 371,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 588,
+              "height": 715,
+              "alt": "Instructional visual diagram or table: b665660817cda5de60a9.png"
             }
           ],
           "options": [
@@ -1229,7 +1225,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{Year~1}=\\frac{\\epsilon75 \\mathrm{~million}} {\\epsilon250 \\mathrm{~million}}=0.3=30 \\%} \\\\ {\\mathrm{Year~2}=\\frac{\\epsilon48 \\mathrm{~million}} {\\epsilon225 \\mathrm{~million}}=0.213=21.3 \\%_{0}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Year ~ 3={\\frac{{\\epsilon88} \\ million} {{\\epsilon300} \\ million}}}=0.293=29.3 \\%\\end{gathered}",
+              "latex": "\\begin{aligned}\n\\text{Year 1} &= \\frac{\\text{EUR }75\\text{ million}}{\\text{EUR }250\\text{ million}} = 0.300 = 30.0\\% \\\\[8pt]\n\\text{Year 2} &= \\frac{\\text{EUR }48\\text{ million}}{\\text{EUR }225\\text{ million}} = 0.213 = 21.3\\% \\\\[8pt]\n\\text{Year 3} &= \\frac{\\text{EUR }88\\text{ million}}{\\text{EUR }300\\text{ million}} = 0.293 = 29.3\\%\n\\end{aligned}",
               "display": true,
               "sourceAsset": "9e5ff947fdee4b6880d6.png"
             }

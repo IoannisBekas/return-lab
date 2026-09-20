@@ -230,7 +230,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{neutral~interest~rate}=\\mathrm{real~trend~rate~of~economic~growth}+\\mathrm{inflation~target}",
+          "latex": "\\text{neutral interest rate}=\\text{real trend rate of economic growth}+\\text{inflation target}",
           "display": true,
           "sourceAsset": "844a61f69431a27d7f52.png"
         },
@@ -458,10 +458,10 @@
     {
       "type": "image",
       "src": "content/figures/5e4e36a280ec13ad21f8.png",
-      "alt": "Equation, table, or diagram: Interaction of monetary and fiscal policies:",
-      "width": 417,
-      "height": 148,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 804,
+      "height": 286,
+      "alt": "Instructional visual diagram or table: 5e4e36a280ec13ad21f8.png"
     }
   ],
   "practice": [],

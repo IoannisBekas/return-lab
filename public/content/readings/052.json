@@ -262,7 +262,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{full~price=PV~on~last~coupon~date}} \\times\\left( 1+{\\frac{\\mathrm{YTM}} {\\mathrm{periods~per~year}}} \\right)^{\\frac{\\mathrm{days~since~last~coupon}} {\\mathrm{days~in~coupon~period}}}",
+          "latex": "{\\mathrm{full~price=PV~on~last~coupon~date}} \\times\\left( 1+{\\frac{\\mathrm{YTM}} {\\text{periods per year}}} \\right)^{\\frac{\\text{days since last coupon}} {\\text{days in coupon period}}}",
           "display": true,
           "sourceAsset": "830301df039b601374f8.png"
         },
@@ -374,10 +374,10 @@
         {
           "type": "image",
           "src": "content/figures/8adc7ab21674bb09ec87.png",
-          "alt": "Equation, table, or diagram: Figure 52.1: Market Yield vs. Bond Value for an 8% Coupon Bond",
-          "width": 441,
-          "height": 252,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 849,
+          "height": 485,
+          "alt": "Instructional visual diagram or table: 8adc7ab21674bb09ec87.png"
         },
         {
           "type": "heading",
@@ -394,10 +394,10 @@
         {
           "type": "image",
           "src": "content/figures/484a28cf39e95750e504.png",
-          "alt": "Equation, table, or diagram: Figure 52.2: Bond Values and the Passage of Time",
-          "width": 404,
-          "height": 200,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 777,
+          "height": 386,
+          "alt": "Instructional visual diagram or table: 484a28cf39e95750e504.png"
         },
         {
           "type": "paragraph",
@@ -410,10 +410,10 @@
         {
           "type": "image",
           "src": "content/figures/eb35c23d463125aa873b.png",
-          "alt": "Equation, table, or diagram: Figure 52.3: Premium, Par, and Discount Bonds",
-          "width": 518,
-          "height": 284,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 997,
+          "height": 546,
+          "alt": "Instructional visual diagram or table: eb35c23d463125aa873b.png"
         },
         {
           "type": "question",

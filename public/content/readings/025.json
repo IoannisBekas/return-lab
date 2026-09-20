@@ -18,7 +18,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times\\left( 1-\\mathrm{tax~rate} \\right) \\right]+} \\\\ {\\left( \\mathrm{weight~of~equity} \\times\\mathrm{cost~of~equity} \\right)} \\\\ \\end{array}",
+          "latex": "\\begin{array} {c} {\\mathrm{WACC}=\\left[ \\text{weight of debt} \\times\\text{pretax cost of debt} \\times\\left( 1-\\text{tax rate} \\right) \\right]+} \\\\ {\\left( \\text{weight of equity} \\times\\text{cost of equity} \\right)} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "e71cfb5fe7732c9303b3.png"
         },
@@ -167,10 +167,10 @@
         {
           "type": "image",
           "src": "content/figures/3d8e55b607417527f927.png",
-          "alt": "Equation, table, or diagram: Figure 25.1: MM Capital Structure Irrelevance Proposition",
-          "width": 406,
-          "height": 141,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 781,
+          "height": 272,
+          "alt": "Instructional visual diagram or table: 3d8e55b607417527f927.png"
         },
         {
           "type": "paragraph",
@@ -198,7 +198,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nr_e = r_0 + \\frac{D}{E}(r_0 - r_d) \\\\[4pt]\n\\begin{aligned}\n\\text{where:}\\quad\nr_e &= \\text{cost of equity} \\\\\nr_0 &= \\text{cost of equity with no debt (all equity)} \\\\\nr_d &= \\text{cost of debt} \\\\\nD/E &= \\text{debt-to-equity ratio}\n\\end{aligned}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nr_e = r_0 + \\frac{D}{E}(r_0 - r_d) \\\\[4pt]\n\\begin{aligned}\n\\text{where:}\\quad\nr_e &= \\text{cost of equity} \\\\[6pt]\nr_0 &= \\text{cost of equity with no debt (all equity)} \\\\[6pt]\nr_d &= \\text{cost of debt} \\\\[6pt]\n\\text{D/E} &= \\text{debt-to-equity ratio}\n\\end{aligned}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "6c9fcbbb3cf8dcbf3d91.png"
         },
@@ -213,10 +213,10 @@
         {
           "type": "image",
           "src": "content/figures/d28e321fce19050c46cc.png",
-          "alt": "Equation, table, or diagram: Figure 25.2: MM Proposition II (No Taxes)",
-          "width": 352,
-          "height": 236,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 678,
+          "height": 454,
+          "alt": "Instructional visual diagram or table: d28e321fce19050c46cc.png"
         },
         {
           "type": "paragraph",
@@ -244,7 +244,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{r_{e}}=\\mathrm{~ r_{0}+\\frac{D} {E} ( r_{0}-r_{d} ) \\big( 1-T_{C} \\big)}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{T_{C}=tax ~ rate}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{r_{e}}=\\mathrm{~ r_{0}+\\frac{D} {E} ( r_{0}-r_{d} ) \\big( 1-T_{C} \\big)}}} \\\\[8pt] {{\\mathrm{where:}}} \\\\[8pt] {{\\mathrm{T_{C}=tax ~ rate}}} \\end{array}",
           "display": true,
           "sourceAsset": "38a90f5347627989645b.png"
         },
@@ -259,10 +259,10 @@
         {
           "type": "image",
           "src": "content/figures/a265036044abb2af4c89.png",
-          "alt": "Equation, table, or diagram: Figure 25.3: MM Proposition II (With Taxes)",
-          "width": 385,
-          "height": 237,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 742,
+          "height": 456,
+          "alt": "Instructional visual diagram or table: a265036044abb2af4c89.png"
         },
         {
           "type": "paragraph",
@@ -326,10 +326,10 @@
         {
           "type": "image",
           "src": "content/figures/59d8c89cd55cf0482eb1.png",
-          "alt": "Equation, table, or diagram: Figure 25.4: Static Tradeoff Theory: Cost of Capital vs. Capital Structure",
-          "width": 372,
-          "height": 297,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 717,
+          "height": 573,
+          "alt": "Instructional visual diagram or table: 59d8c89cd55cf0482eb1.png"
         },
         {
           "type": "paragraph",
@@ -342,10 +342,10 @@
         {
           "type": "image",
           "src": "content/figures/3895bfd131e7a1d49018.png",
-          "alt": "Equation, table, or diagram: Figure 25.5: Static Tradeoff Theory: Firm Value vs. Capital Structure",
-          "width": 471,
-          "height": 346,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 907,
+          "height": 666,
+          "alt": "Instructional visual diagram or table: 3895bfd131e7a1d49018.png"
         },
         {
           "type": "paragraph",
@@ -462,7 +462,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {\\mathrm{WACC}=\\left[ \\mathrm{weight~of~debt} \\times\\mathrm{pretax~cost~of~debt} \\times( 1-tax ~ rate ) \\right]+\\left( \\mathrm{weight~of~equity} \\right)} \\\\ {\\mathrm{equity} \\times\\mathrm{cost~of~equity} )} \\\\ \\end{array}",
+      "latex": "\\begin{array} {l} {\\mathrm{WACC}=\\left[ \\text{weight of debt} \\times\\text{pretax cost of debt} \\times( 1-tax ~ rate ) \\right]+\\left( \\text{weight of equity} \\right)} \\\\ {\\mathrm{equity} \\times\\text{cost of equity} )} \\\\ \\end{array}",
       "display": true,
       "sourceAsset": "6ada376bed21ec590f6a.png"
     },

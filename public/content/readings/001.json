@@ -26,7 +26,7 @@
         },
         {
           "type": "math",
-          "latex": "( 1+{\\mathrm{nominal~risk-free~rate}} )=( 1+{\\mathrm{real~risk-free~rate}} ) ( 1+{\\mathrm{expected~inflation~rate}} )",
+          "latex": "( 1+{\\text{nominal risk-free rate}} )=( 1+{\\text{real risk-free rate}} ) ( 1+{\\text{expected inflation rate}} )",
           "display": true,
           "sourceAsset": "265f8e5c2d14686a3a3f.png"
         },
@@ -36,7 +36,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{nominal~risk-free~rate} \\approx\\mathrm{real~risk-free~rate}+\\mathrm{expected~inflation~rate}",
+          "latex": "\\text{nominal risk-free rate} \\approx\\text{real risk-free rate}+\\text{expected inflation rate}",
           "display": true,
           "sourceAsset": "4aa7eb4c0be6881859b7.png"
         },
@@ -77,7 +77,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{holding~period~return}={\\frac{\\mathrm{end-of-period~value}} {\\mathrm{beginning-of-period~value}}}-1",
+          "latex": "\\text{holding period return}={\\frac{\\text{end-of-period value}} {\\text{beginning-of-period value}}}-1",
           "display": true,
           "sourceAsset": "f5b9b30f36ceab6c2a73.png"
         },
@@ -125,7 +125,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{arithmetic~mean~return}}={\\frac{\\left( \\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}+\\ldots+\\mathrm{R}_{n} \\right)} {\\mathrm{n}}}",
+          "latex": "{\\text{arithmetic mean return}}={\\frac{\\left( \\mathrm{R}_{1}+\\mathrm{R}_{2}+\\mathrm{R}_{3}+\\ldots+\\mathrm{R}_{n} \\right)} {\\mathrm{n}}}",
           "display": true,
           "sourceAsset": "794018a36655774c9ddf.png"
         },
@@ -191,7 +191,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{Geometric~mean}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.007435=0.7435^{a} /_{0} .} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{Geometric mean}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.007435=0.7435^{a} /_{0} .} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "74478541ac45ab4bc70b.png"
         },
@@ -201,7 +201,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{Annual~return}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.0149=1.4996.} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{Annual return}=} & {{} \\sqrt{( 1+0.02 ) ( 1+0.005 ) ( 1-0.01 ) ( 1+0.015 )}-1} \\\\ {} & {{}=0.0149=1.4996.} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "f98ca53a42b5cb8fd88f.png"
         },
@@ -225,8 +225,7 @@
           "type": "math",
           "latex": "\\text{Harmonic mean} = \\frac{N}{\\sum_{i=1}^{N} \\frac{1}{X_i}}",
           "display": true,
-          "sourceAsset": "0486dc9db2e43eccde06.png",
-          "prose": "purchased over time. The harmonic mean is calculated as where there are N values of Xi."
+          "sourceAsset": "0486dc9db2e43eccde06.png"
         },
         {
           "type": "heading",
@@ -242,7 +241,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\overline{{X}}}_{\\mathrm{H}}={\\cfrac{3} {{\\cfrac{1} {8}}+{\\cfrac{1} {9}}+{\\cfrac{1} {10}}}}={\\cfrac{8} {8}} 8.926 {\\mathrm{~per~share}}",
+          "latex": "{\\overline{{X}}}_{\\mathrm{H}}={\\cfrac{3} {{\\cfrac{1} {8}}+{\\cfrac{1} {9}}+{\\cfrac{1} {10}}}}={\\cfrac{8} {8}} 8.926 {\\text{ per share}}",
           "display": true,
           "sourceAsset": "3fa096cc9152fe681ee3.png"
         },
@@ -258,10 +257,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~average~price~is~} \\frac{\\$3 , 000} {336.11}=\\$8.926 \\mathrm{~per~share.}",
+          "latex": "\\text{The average price is } \\frac{\\$3 , 000} {336.11}=\\$8.926 \\text{ per share.}",
           "display": true,
-          "sourceAsset": "ad471fe97965f6ba57fa.png",
-          "prose": "The average price is per share."
+          "sourceAsset": "ad471fe97965f6ba57fa.png"
         },
         {
           "type": "paragraph",
@@ -269,10 +267,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{arithmetic~average~of~the~share~prices,which~is} \\, \\frac{8 \\overline{{+9}}+10} {3}=9.",
+          "latex": "\\text{arithmetic average of the share prices,which is} \\, \\frac{8 \\overline{{+9}}+10} {3}=9.",
           "display": true,
-          "sourceAsset": "c140870716c1c45abb72.png",
-          "prose": "arithmetic average of the share prices, which is"
+          "sourceAsset": "c140870716c1c45abb72.png"
         },
         {
           "type": "paragraph",
@@ -292,7 +289,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{Harmonic~mean}=} & {{} \\frac{4} {\\frac{1} {( 1+0.02 )}+\\frac{1} {( 1+0.005 )}+\\frac{1} {( 1-0.01 )}+\\frac{1} {( 1+0.015 )}}-1} \\\\ {=} & {{} \\ 0.007369=0.73699 / 8} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{Harmonic mean}=} & {{} \\frac{4} {\\frac{1} {( 1+0.02 )}+\\frac{1} {( 1+0.005 )}+\\frac{1} {( 1-0.01 )}+\\frac{1} {( 1+0.015 )}}-1} \\\\[8pt] {=} & {{} \\ 0.007369=0.73699 / 8} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "dc424ee876958870cf09.png"
         },
@@ -302,7 +299,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{arithmetic~mean} \\times\\mathrm{harmonic~mean}=( \\mathrm{geometric~mean} )^{2}",
+          "latex": "\\text{arithmetic mean} \\times\\text{harmonic mean}=( \\text{geometric mean} )^{2}",
           "display": true,
           "sourceAsset": "593fdc19ff4b42a1d2db.png"
         },
@@ -366,69 +363,12 @@
           "text": "Assume an investor buys a share of stock for $100 at t = 0, and at the end of the year (t = 1), she buys an additional share for $120. At the end of Year 2, the investor sells both shares for $130 each. At the end of each year in the holding period, the stock paid a $2 per share dividend. What is the money-weighted rate of return?"
         },
         {
-          "type": "worked-example",
-          "title": "Money-weighted return calculation",
-          "steps": [
-            {
-              "title": "Identify and net the cash flows",
-              "body": [
-                "Use the portfolio-account perspective: contributions are inflows and dividends or sale proceeds are outflows."
-              ],
-              "rows": [
-                [
-                  "t = 0",
-                  "Purchase first share",
-                  "+$100 inflow"
-                ],
-                [
-                  "t = 1",
-                  "Purchase second share",
-                  "+$120 inflow"
-                ],
-                [
-                  "t = 1",
-                  "Dividend from first share",
-                  "−$2 outflow"
-                ],
-                [
-                  "t = 1",
-                  "Net cash flow",
-                  "+$118 inflow"
-                ],
-                [
-                  "t = 2",
-                  "Dividends from two shares",
-                  "−$4 outflow"
-                ],
-                [
-                  "t = 2",
-                  "Sale proceeds from two shares",
-                  "−$260 outflow"
-                ],
-                [
-                  "t = 2",
-                  "Net cash flow",
-                  "−$264 outflow"
-                ]
-              ]
-            },
-            {
-              "title": "Set the present value of inflows equal to the present value of outflows",
-              "equations": [
-                "100+\\frac{118}{1+r}=\\frac{264}{(1+r)^2}"
-              ]
-            },
-            {
-              "title": "Solve for the periodic return",
-              "body": [
-                "Solve for r with trial and error, a financial calculator, or a spreadsheet IRR function."
-              ],
-              "equations": [
-                "r=13.86\\%"
-              ]
-            }
-          ],
-          "sourceAsset": "f8259749ec97b07048f9.png"
+          "type": "image",
+          "src": "content/figures/f8259749ec97b07048f9.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 941,
+          "height": 730,
+          "alt": "Money-weighted rate of return internal rate of return step-by-step calculation workflow."
         },
         {
           "type": "paragraph",
@@ -440,7 +380,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathrm{inet~cash~flows:~CF_0=+100;~CF_1=+120-2=+118;}} \\\\ {\\mathrm{CF_2=-260+-4=-264}} \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{Net cash flows: } \\mathrm{CF}_0 &= +100; \\\\[6pt]\n\\mathrm{CF}_1 &= +120 - 2 = +118; \\\\[6pt]\n\\mathrm{CF}_2 &= -260 + -4 = -264\n\\end{aligned}",
           "display": true,
           "sourceAsset": "65a2141ac33793ae54c9.png"
         },
@@ -455,10 +395,10 @@
         {
           "type": "image",
           "src": "content/figures/4b973189367edba55ab4.png",
-          "alt": "Equation, table, or diagram: Note the values for F01, F02, and so on, are all equal to 1.",
-          "width": 496,
-          "height": 145,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 956,
+          "height": 280,
+          "alt": "Instructional visual diagram or table: 4b973189367edba55ab4.png"
         },
         {
           "type": "paragraph",
@@ -536,8 +476,8 @@
             {
               "title": "Calculate each holding-period return",
               "equations": [
-                "HPR_1=\\frac{120+2}{100}-1=22\\%",
-                "HPR_2=\\frac{260+4}{240}-1=10\\%"
+                "\\text{HPR}_1=\\frac{120+2}{100}-1=22\\%",
+                "\\text{HPR}_2=\\frac{260+4}{240}-1=10\\%"
               ]
             },
             {
@@ -583,7 +523,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{annualized~return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
+          "latex": "\\text{annualized return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
           "display": true,
           "sourceAsset": "29ffbd3aed56905ada5b.png"
         },
@@ -601,7 +541,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{HPR}=\\frac{100.75} {100}-1} & {{}=0.0075=0.759_{6}} \\\\ {\\mathrm{annualized~return}} & {{}=( 1+0.0075 )^{365 / 90}-1=0.0308=3.089_{6}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned}\n\\text{HPR} &= \\frac{100.75}{100} - 1 = 0.0075 = 0.75\\% \\\\[8pt]\n\\text{Annualized return} &= (1 + 0.0075)^{365/90} - 1 = 0.0308 = 3.08\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "d160dc44453cbc30bdd6.png"
         },
@@ -619,7 +559,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned}\n\\text{HPR} &= \\frac{1000}{970} - 1 = 0.0309 = 3.09\\% \\\\\n\\text{Annualized return} &= (1 + 0.0309)^{365/500} - 1 = 0.0225 = 2.25\\%\n\\end{aligned}",
+          "latex": "\\begin{aligned}\n\\text{HPR} &= \\frac{1000}{970} - 1 = 0.0309 = 3.09\\% \\\\[8pt]\n\\text{Annualized return} &= (1 + 0.0309)^{365/500} - 1 = 0.0225 = 2.25\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "a53dd9fc1295af9462d0.png"
         },
@@ -633,7 +573,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{PV}=\\mathrm{FV}_{\\mathrm{N}} \\left( 1+{\\frac{\\mathrm{r}} {\\mathrm{m}}} \\right)^{-\\mathrm{mN}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r~=quoted~annual~interest~rate}}} \\\\ {{\\mathrm{N=number~of~years}}} \\\\ {{\\mathrm{m=compounding~periods~per~year}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{PV}=\\mathrm{FV}_{\\mathrm{N}} \\left( 1+{\\frac{\\mathrm{r}} {\\mathrm{m}}} \\right)^{-\\mathrm{mN}}}} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{r~=quoted~annual~interest~rate}}} \\\\[8pt] {{\\mathrm{N=number~of~years}}} \\\\[8pt] {{\\mathrm{m=compounding~periods~per~year}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "d130a2e7e08040d86aee.png"
         },
@@ -665,7 +605,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{PV}=1 {,} 000 \\left( 1+{\\frac{0.06} {4}} \\right)^{-4}=942.18",
+          "latex": "\\text{PV} = \\$1{,}000 \\left(1 + \\frac{0.06}{4}\\right)^{-4} = \\$942.18",
           "display": true,
           "sourceAsset": "0452dfb594c84373523b.png"
         },
@@ -705,7 +645,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{R}_{CC}=\\ln( 1+\\mathrm{HPR} )=\\ln\\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
+          "latex": "\\mathrm{R}_{CC}=\\ln( 1+\\mathrm{HPR} )=\\ln\\left( {\\frac{\\text{ending value}} {\\text{beginning value}}} \\right)",
           "display": true,
           "sourceAsset": "ae70f4c52d7c7004a66e.png"
         },
@@ -770,7 +710,7 @@
         },
         {
           "type": "math",
-          "latex": "( 1+\\mathrm{real~return} )={\\frac{( 1+\\mathrm{nominal~risk-free~rate} ) ( 1+\\mathrm{risk~premium} )} {( 1+\\mathrm{inflation~premium} )}}",
+          "latex": "( 1+\\text{real return} )={\\frac{( 1+\\text{nominal risk-free rate} ) ( 1+\\text{risk premium} )} {( 1+\\text{inflation premium} )}}",
           "display": true,
           "sourceAsset": "1b2338bb058730c3ef39.png"
         },
@@ -784,7 +724,7 @@
         },
         {
           "type": "math",
-          "latex": "( 1+\\mathrm{real~return} )={\\frac{( 1+\\mathrm{real~risk-free~rate} ) ( 1+\\mathrm{risk~premium} )} {( 1+\\mathrm{inflation~premium} )}} .",
+          "latex": "( 1+\\text{real return} )={\\frac{( 1+\\text{real risk-free rate} ) ( 1+\\text{risk premium} )} {( 1+\\text{inflation premium} )}} .",
           "display": true,
           "sourceAsset": "9bb899a83dd9589f4249.png"
         },
@@ -810,7 +750,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{\\mathrm{B}} \\right)-\\mathrm{r_{B} V_{\\mathrm{B}}}} {\\mathrm{V}_{0}}}",
+          "latex": "{\\text{leveraged return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{\\mathrm{B}} \\right)-\\mathrm{r_{B} V_{\\mathrm{B}}}} {\\mathrm{V}_{0}}}",
           "display": true,
           "sourceAsset": "53f5468c2f9042862a3f.png"
         }
@@ -884,7 +824,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{annualized~return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
+      "latex": "\\text{annualized return}=( 1+\\mathrm{HPR} )^{365 / \\mathrm{days}}-1",
       "display": true,
       "sourceAsset": "5864fa91d058bccfc1b3.png"
     },
@@ -894,7 +834,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{R}_{\\mathrm{cc}}=\\ln( 1+\\mathrm{HPR} )=\\ln\\! \\left( {\\frac{\\mathrm{ending~value}} {\\mathrm{beginning~value}}} \\right)",
+      "latex": "\\mathrm{R}_{\\mathrm{cc}}=\\ln( 1+\\mathrm{HPR} )=\\ln\\! \\left( {\\frac{\\text{ending value}} {\\text{beginning value}}} \\right)",
       "display": true,
       "sourceAsset": "36a16e473d5428d00246.png"
     },
@@ -1064,10 +1004,10 @@
             {
               "type": "image",
               "src": "content/figures/f420d9455267c8f1a99b.png",
-              "alt": "Equation, table, or diagram: 4. XYZ Corp. Annual Stock Returns",
-              "width": 336,
-              "height": 47,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 648,
+              "height": 91,
+              "alt": "Instructional visual diagram or table: f420d9455267c8f1a99b.png"
             }
           ],
           "options": [
@@ -1168,7 +1108,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{aligned} {\\mathrm{HPR}_{1}=} & {{} \\frac{50+1} {40}-1=27.59_{6}} \\\\ {\\mathrm{HPR}_{2}=} & {{} \\frac{120+2} {100}-1=22.09_{6}} \\\\ \\end{aligned}\\\\[6pt]\\mathbf{2. A} \\, \\mathbf{\\dot{T} WR}=\\sqrt{( 1+0.275 ) ( 1+0.22 )}-1=24.7296\\end{gathered}",
+              "latex": "\\begin{gathered}\n\\begin{aligned}\n\\text{HPR}_1 &= \\frac{50+1}{40} - 1 = 27.5\\% \\\\[6pt]\n\\text{HPR}_2 &= \\frac{120+2}{100} - 1 = 22.0\\%\n\\end{aligned} \\\\[8pt]\n\\text{TWR} = \\sqrt{(1+0.275)(1+0.22)} - 1 = 24.72\\%\n\\end{gathered}",
               "display": true,
               "sourceAsset": "7960c885d7c1021a5ccf.png"
             }
@@ -1210,8 +1150,7 @@
               "type": "math",
               "latex": "(1-0.03)^{365/120}-1=-0.0885=-8.85\\%",
               "display": true,
-              "sourceAsset": "6245af464970b5ba8a09.png",
-              "prose": "Annualized return"
+              "sourceAsset": "6245af464970b5ba8a09.png"
             }
           ]
         },

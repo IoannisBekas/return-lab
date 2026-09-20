@@ -79,10 +79,10 @@
         {
           "type": "image",
           "src": "content/figures/740e8bf422d1a74b9e15.png",
-          "alt": "Equation, table, or diagram: Triple Y Corporation",
-          "width": 425,
-          "height": 410,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 819,
+          "height": 788,
+          "alt": "Instructional visual diagram or table: 740e8bf422d1a74b9e15.png"
         },
         {
           "type": "heading",
@@ -111,7 +111,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{NI}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{INCC}}} & {{}={\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{\\mathrm{Int}}} & {{}={\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{WC}_{\\mathrm{RVV}}}} & {{}={\\mathrm{working~capital~investment}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{NI}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{INCC}}} & {{}={\\text{noncash charges (depreciation and amortization)}}} \\\\ {{\\mathrm{Int}}} & {{}={\\text{cash interest paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{RVV}}}} & {{}={\\text{fixed capital investment (net capital expenditures)}}} \\\\ {{\\mathrm{WC}_{\\mathrm{RVV}}}} & {{}={\\text{working capital investment}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "80d78a030ac1c861af61.png"
         },
@@ -161,7 +161,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-FC}_{\\mathrm{{BNV}}}+{\\mathrm{net~borrowing}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ {{\\mathrm{FC}_{\\mathrm{{BNV}}}}} \\\\ {{\\mathrm{net~borrowing}=\\mathrm{debt~issued-debt~repaid}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-FC}_{\\mathrm{{BNV}}}+{\\text{net borrowing}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ {{\\mathrm{FC}_{\\mathrm{{BNV}}}}} \\\\ {{\\text{net borrowing}=\\text{debt issued-debt repaid}}} \\end{array}",
           "display": true,
           "sourceAsset": "87d1d99be17c7d6a5845.png"
         },
@@ -186,18 +186,20 @@
           "text": "Using the financial statement extracts presented next, calculate the company’s FCFF and FCFE. Assume a tax rate of 40%."
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lcc} \\hline{} & {} & {\\mathbf{s}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Net~income}} \\\\ {\\mathrm{Noncash~charges}} \\\\ {\\mathrm{Depreciation}} \\\\ \\end{array}} & {} & {} & {} \\\\ {} & {} & {} \\\\ {\\mathrm{Depreciation}} & {} & {} & {7 , 000} \\\\ \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Increase~in~deferred~tax~liability} \\qquad} & {5 , 000} \\\\ {} & {{} \\mathrm{Loss~on~disposal~of~PP\\&E}} & {} & {{} 2 , 000} \\\\ {} & {{} \\mathrm{Gain~from~sale~of~land}} & {} & {{} \\mathrm{underline{{( 10 , 000 )}}}} \\\\ {} & {{} \\mathrm{Subtotal}} & {} & {{} 43 , 000} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Investment~in~working~capital}} \\\\ {} & {{} \\mathrm{Increase~in~receivables}} \\\\ {} & {{} \\mathrm{Decrease~in~inventories}} \\\\ {} & {{} \\mathrm{Increase~in~accounts~payable}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{Decrease~in~wages~payable}} & {{}} & {{}} & {{} ( 3 , 500 )} \\\\ {\\mathrm{Increase~in~interest~payable}} & {{}} & {{}} & {{} 500} \\\\ {\\mathrm{Increase~in~unearned~revenue~liability}} & {{}} & {{} 4 , 000} \\\\ {\\mathrm{Increase~in~taxes~payable}} & {{}} & {{}} & {{} 1 , 000} \\\\ \\end{aligned}\\\\[6pt]\\mathrm{Operating~cash~flows} \\qquad\\qquad\\qquad\\qquad\\qquad50 , 000\\end{gathered}",
-          "display": true,
-          "sourceAsset": "ca6ef3f4adc88bf5b0b4.png"
+          "type": "image",
+          "src": "content/figures/ca6ef3f4adc88bf5b0b4.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 613,
+          "height": 749,
+          "alt": "Statement of cash flows operating activities section prepared under the indirect method."
         },
         {
           "type": "image",
           "src": "content/figures/a76fcd5d6139f16612bc.png",
-          "alt": "Equation, table, or diagram: Using the financial statement extracts presented next, calculate the company’s FCFF and FCFE. Assume a tax rate of 40%.",
-          "width": 385,
-          "height": 324,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 742,
+          "height": 623,
+          "alt": "Instructional visual diagram or table: a76fcd5d6139f16612bc.png"
         },
         {
           "type": "heading",
@@ -249,7 +251,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{cash-flow-to-revenue~ratio=} \\frac{\\mathrm{CFO}} {\\mathrm{net~revenue}}",
+          "latex": "\\mathrm{cash-flow-to-revenue~ratio=} \\frac{\\mathrm{CFO}} {\\text{net revenue}}",
           "display": true,
           "sourceAsset": "487f9ccb61b169b08834.png"
         },
@@ -269,7 +271,7 @@
         },
         {
           "type": "math",
-          "latex": "\\text{cash-return-on-equityratio}={\\frac{CFO} {average \\ total \\ equity}}",
+          "latex": "\\text{Cash return on equity ratio} = \\frac{\\text{CFO}}{\\text{Average total equity}}",
           "display": true,
           "sourceAsset": "e5694160c76dce46512f.png"
         },
@@ -279,7 +281,7 @@
         },
         {
           "type": "math",
-          "latex": "\\text{cash-to-income ~ ratio}={\\frac{CFO} {operating ~ income}}",
+          "latex": "\\text{Cash-to-income ratio} = \\frac{\\text{CFO}}{\\text{Operating income}}",
           "display": true,
           "sourceAsset": "58c566bbc36b29a01c3e.png"
         },
@@ -289,7 +291,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{cash~flow~per~share}}={\\frac{\\mathrm{CFO-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares}}}",
+          "latex": "{\\text{cash flow per share}}={\\frac{\\text{CFO-preferred dividends}} {\\text{weighted average number of common shares}}}",
           "display": true,
           "sourceAsset": "c5d65a9516be2315a7a2.png"
         },
@@ -317,7 +319,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{interest~coverage~ratio}}={\\frac{\\mathrm{CFO}+{\\mathrm{interest~paid}}+{\\mathrm{taxes~paid}}} {{\\mathrm{interest~paid}}}}",
+          "latex": "{\\text{interest coverage ratio}}={\\frac{\\mathrm{CFO}+{\\text{interest paid}}+{\\text{taxes paid}}} {{\\text{interest paid}}}}",
           "display": true,
           "sourceAsset": "7c8babceed0c389cb516.png"
         },
@@ -331,7 +333,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{reinvestment~ratio}={\\frac{\\mathrm{CFO}} {\\mathrm{cash~paid~for~long-term~assets}}}",
+          "latex": "\\text{reinvestment ratio}={\\frac{\\mathrm{CFO}} {\\text{cash paid for long-term assets}}}",
           "display": true,
           "sourceAsset": "30ed7d131aaf6b898db7.png"
         },
@@ -341,7 +343,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{debt~payment}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~long-term~debt~repayment}}",
+          "latex": "\\text{debt payment}=\\frac{\\mathrm{CFO}} {\\text{cash long-term debt repayment}}",
           "display": true,
           "sourceAsset": "446169c77f7786c6a0bb.png"
         },
@@ -351,7 +353,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{dividend~payment~ratio}}={\\frac{\\mathrm{CFO}} {\\mathrm{dividends~paid}}}",
+          "latex": "{\\text{dividend payment ratio}}={\\frac{\\mathrm{CFO}} {\\text{dividends paid}}}",
           "display": true,
           "sourceAsset": "3947850878d2c559a105.png"
         },
@@ -361,7 +363,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{investing~and~financing~ratio}}={\\frac{\\mathrm{CFO}} {\\mathrm{cash~outflows~from~investing~and~financing~activities}}}",
+          "latex": "{\\text{investing and financing ratio}}={\\frac{\\mathrm{CFO}} {\\text{cash outflows from investing and financing activities}}}",
           "display": true,
           "sourceAsset": "cbbddcf538d59b9a7fed.png"
         }

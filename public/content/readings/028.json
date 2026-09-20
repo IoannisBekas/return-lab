@@ -258,10 +258,10 @@
         {
           "type": "image",
           "src": "content/figures/2b9cfd2ac28cbd8ecd52.png",
-          "alt": "Equation, table, or diagram: Matching Cost of Goods Sold to the Number of Units Sold",
-          "width": 416,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 802,
+          "height": 310,
+          "alt": "Instructional visual diagram or table: 2b9cfd2ac28cbd8ecd52.png"
         },
         {
           "type": "paragraph",
@@ -270,10 +270,10 @@
         {
           "type": "image",
           "src": "content/figures/68211594bc802b33c92a.png",
-          "alt": "Equation, table, or diagram: Assume the firm had the following transactions in the period:",
-          "width": 319,
-          "height": 183,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 614,
+          "height": 353,
+          "alt": "Instructional visual diagram or table: 68211594bc802b33c92a.png"
         },
         {
           "type": "paragraph",
@@ -285,15 +285,17 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {lcl} \\hline{\\mathrm{Ending~inventory~at~cost} \\quad} & {\\mathrm{Total}} \\\\ \\hline{\\mathrm{2~units~\\Leftrightarrow~\\$28~each}} & {} & {\\$56} \\\\ {\\mathrm{8~units~\\ll~\\$30~each}} & {} & {\\underline{{\\$240}}} \\\\ {\\mathrm{Total}} & {} & {\\$296} \\\\ \\hline{} \\\\ \\end{array}",
+          "latex": "\\begin{array}{llr}\n\\hline\n\\text{Ending inventory at cost} & & \\text{Total} \\\\\n\\hline\n\\text{2 units @ \\$28 each} & & \\$56 \\\\\n\\text{8 units @ \\$30 each} & & \\underline{\\$240} \\\\\n\\text{Total} & & \\$296 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "0905ad2c3b40bd6d09b9.png"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\begin{array} {l} {\\mathrm{Income~Statement}} \\\\ \\end{array}} & {\\begin{array} {l} {\\mathrm{~s~}} \\\\ \\end{array}} & {\\begin{array} {c} {\\mathrm{~s~}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {l} {\\mathrm{Revenue}} \\\\ {\\mathrm{Beginning~inventory}} \\\\ \\end{array}} & {\\begin{array} {r} {\\mathrm{~400}} \\\\ {\\mathrm{~2,330}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lrl} {\\mathrm{Available~for~sale}} & {\\qquad2 , 730} & {} \\\\ {\\mathrm{Ending~inventory}} & {\\qquad\\underline{{( 296 )}}} & {} \\\\ {\\mathrm{Cost~of~goods~sold}} & {\\qquad} & {\\underline{{2.434}}} \\\\ {\\mathrm{Cross~profit}} & {\\qquad} & {1 , 066} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "b648b7cd86830bb56841.png"
+          "type": "image",
+          "src": "content/figures/b648b7cd86830bb56841.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 521,
+          "height": 355,
+          "alt": "Inventory cost of goods sold and gross profit calculation summary table."
         },
         {
           "type": "paragraph",
@@ -350,10 +352,10 @@
         {
           "type": "image",
           "src": "content/figures/e70c384060069a333c4a.png",
-          "alt": "Equation, table, or diagram: onomic benefits, including the costs that are necessary to get the asset ready for use. Rebuilding the equipment’s motors extended its life; thus, it increased its future benefits.",
-          "width": 391,
-          "height": 115,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 753,
+          "height": 223,
+          "alt": "Instructional visual diagram or table: e70c384060069a333c4a.png"
         },
         {
           "type": "paragraph",
@@ -366,10 +368,10 @@
         {
           "type": "image",
           "src": "content/figures/4b028243ef1b6d3cbc39.png",
-          "alt": "Equation, table, or diagram: ees ready to use the asset. Thus, the training costs are immediately expensed. Repair and maintenance costs are operating expenditures that do not extend the life of the equipment.",
-          "width": 281,
-          "height": 93,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 541,
+          "height": 179,
+          "alt": "Instructional visual diagram or table: 4b028243ef1b6d3cbc39.png"
         },
         {
           "type": "heading",
@@ -389,7 +391,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{straight-line~depreciation~of~equipment}}={\\frac{{\\mathrm{f}} 12 , 000-0} {4 {\\mathrm{~years}}}}={\\mathrm{f}} 3 , 000 {\\mathrm{~p.a.}}",
+          "latex": "{\\text{straight-line depreciation of equipment}}={\\frac{{\\mathrm{f}} 12 , 000-0} {4 {\\mathrm{~years}}}}={\\mathrm{f}} 3 , 000 {\\mathrm{~p.a.}}",
           "display": true,
           "sourceAsset": "a4f52ff99b84f9da66b8.png"
         },
@@ -400,10 +402,10 @@
         {
           "type": "image",
           "src": "content/figures/0d10a4b9c0de22f7e2bb.png",
-          "alt": "Equation, table, or diagram: Income Statement: Capitalization of Equipment Cost",
-          "width": 457,
-          "height": 183,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 881,
+          "height": 353,
+          "alt": "Instructional visual diagram or table: 0d10a4b9c0de22f7e2bb.png"
         },
         {
           "type": "heading",
@@ -412,10 +414,10 @@
         {
           "type": "image",
           "src": "content/figures/2e57847cc10f6916fc4f.png",
-          "alt": "Equation, table, or diagram: Income Statement: Expensing of Equipment Cost",
-          "width": 457,
-          "height": 184,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 881,
+          "height": 355,
+          "alt": "Instructional visual diagram or table: 2e57847cc10f6916fc4f.png"
         },
         {
           "type": "paragraph",
@@ -428,10 +430,10 @@
         {
           "type": "image",
           "src": "content/figures/32d91591473b94441c8f.png",
-          "alt": "Equation, table, or diagram: Balance Sheet: Capitalization of Equipment Cost",
-          "width": 450,
-          "height": 218,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 868,
+          "height": 420,
+          "alt": "Instructional visual diagram or table: 32d91591473b94441c8f.png"
         },
         {
           "type": "heading",
@@ -440,10 +442,10 @@
         {
           "type": "image",
           "src": "content/figures/3993dbc1b6188bda044b.png",
-          "alt": "Equation, table, or diagram: Balance Sheet: Expensing of Equipment Cost",
-          "width": 435,
-          "height": 185,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 838,
+          "height": 357,
+          "alt": "Instructional visual diagram or table: 3993dbc1b6188bda044b.png"
         },
         {
           "type": "paragraph",
@@ -472,10 +474,10 @@
         {
           "type": "image",
           "src": "content/figures/c0931084e800172bb17d.png",
-          "alt": "Equation, table, or diagram: Cash Flow Statement: Capitalization of Equipment Cost",
-          "width": 447,
-          "height": 140,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 860,
+          "height": 271,
+          "alt": "Instructional visual diagram or table: c0931084e800172bb17d.png"
         },
         {
           "type": "paragraph",
@@ -483,7 +485,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {lcrlcr} {\\begin{array} {l} {O \\mathrm{pening~cash}} \\\\ {C \\mathrm{hange~in~cash}} \\\\ {C \\mathrm{losing~cash}} \\\\ \\end{array}} & {\\begin{array} {l} {0} \\\\ {37 , 300} \\\\ {37 , 300} \\\\ \\end{array}} & {\\begin{array} {l} {37 , 300} \\\\ {9 , 300} \\\\ {46 , \\underline{{600}}} \\\\ \\end{array}} & {\\begin{array} {l} {46 , 600} \\\\ {9 , 300} \\\\ {\\underline{{55 , 900}}} \\\\ \\end{array}} & {\\begin{array} {l} {{55 , 900}} \\\\ {\\underline{{9 , 300}}} \\\\ {\\underline{{65 , 200}}} \\\\ \\end{array}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {lcrlcr} {\\begin{array} {l} {O \\text{pening cash}} \\\\ {C \\text{hange in cash}} \\\\ {C \\text{losing cash}} \\\\ \\end{array}} & {\\begin{array} {l} {0} \\\\ {37 , 300} \\\\ {37 , 300} \\\\ \\end{array}} & {\\begin{array} {l} {37 , 300} \\\\ {9 , 300} \\\\ {46 , \\underline{{600}}} \\\\ \\end{array}} & {\\begin{array} {l} {46 , 600} \\\\ {9 , 300} \\\\ {\\underline{{55 , 900}}} \\\\ \\end{array}} & {\\begin{array} {l} {{55 , 900}} \\\\ {\\underline{{9 , 300}}} \\\\ {\\underline{{65 , 200}}} \\\\ \\end{array}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "f1cf221e3802eea98dba.png"
         },
@@ -494,10 +496,10 @@
         {
           "type": "image",
           "src": "content/figures/cb6dc61edd5459cc54eb.png",
-          "alt": "Equation, table, or diagram: Cash Flow Statement: Expensing of Equipment Cost",
-          "width": 448,
-          "height": 209,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 862,
+          "height": 402,
+          "alt": "Instructional visual diagram or table: cb6dc61edd5459cc54eb.png"
         },
         {
           "type": "paragraph",
@@ -510,10 +512,10 @@
         {
           "type": "image",
           "src": "content/figures/2c2db45830118eb1d1fc.png",
-          "alt": "Equation, table, or diagram: Financial statement ratios: Capitalization vs. expensing",
-          "width": 477,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 918,
+          "height": 310,
+          "alt": "Instructional visual diagram or table: 2c2db45830118eb1d1fc.png"
         },
         {
           "type": "paragraph",
@@ -538,10 +540,10 @@
         {
           "type": "image",
           "src": "content/figures/dff6a67daea83870cfac.png",
-          "alt": "Equation, table, or diagram: Figure 28.1: Financial Statement Effects",
-          "width": 426,
-          "height": 229,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 820,
+          "height": 442,
+          "alt": "Instructional visual diagram or table: dff6a67daea83870cfac.png"
         },
         {
           "type": "paragraph",
@@ -589,7 +591,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{interest~coverage}=\\frac{\\mathrm{EBIT}} {\\mathrm{interest~expense}}}} \\\\ {{\\mathrm{before~adjustment}=\\frac{\\epsilon160 \\mathrm{~million}} {\\epsilon80 \\mathrm{~million}}=2.0}} \\end{array}\\\\[6pt]\\mathrm{after~adjustment}=\\cfrac{\\mathrm{2160~million}+\\mathrm{210~million}} {\\mathrm{280~million}+\\mathrm{220~million}}=1.7\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Interest coverage} = \\frac{\\text{EBIT}}{\\text{Interest expense}} \\\\[8pt]\n\\text{Before adjustment} = \\frac{\\text{EUR }160\\text{ million}}{\\text{EUR }80\\text{ million}} = 2.0 \\\\[8pt]\n\\text{After adjustment} = \\frac{\\text{EUR }160\\text{ million} + \\text{EUR }10\\text{ million}}{\\text{EUR }80\\text{ million} + \\text{EUR }20\\text{ million}} = 1.7\n\\end{gathered}",
           "display": true,
           "sourceAsset": "4c780503f5ac5a499e6e.png"
         },
@@ -789,7 +791,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{basic~EPS}}={\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares~outstanding}}}",
+          "latex": "{\\text{basic EPS}}={\\frac{\\text{net income-preferred dividends}} {\\text{weighted average number of common shares outstanding}}}",
           "display": true,
           "sourceAsset": "c85a19890576b8482023.png"
         },
@@ -863,7 +865,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{Shares~outstanding~on~January~1:~} 10 , 000 \\times1.10 \\times12 / 12 \\mathrm{~of~}=\\ 11 , 000} \\\\ {\\mathrm{the~year}} \\\\ {\\mathrm{Shares~resued~April~1:} 4 , 000 \\times1.10 \\times9 / 12 \\mathrm{~of~the~year}} \\\\ {\\mathrm{Shares~repurchased~September~1:}-3 , 000 \\times4 / 12 \\mathrm{~of~the~year}=\\underline{{-1 , 000}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Weighted~average~shares~outstanding} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad=\\ 13 , 300\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\text{Shares outstanding on January 1: } 10 , 000 \\times1.10 \\times12 / 12 \\mathrm{~of~}=\\ 11 , 000} \\\\ {\\text{the year}} \\\\ {\\text{Shares resued April 1:} 4 , 000 \\times1.10 \\times9 / 12 \\text{ of the year}} \\\\ {\\text{Shares repurchased September 1:}-3 , 000 \\times4 / 12 \\text{ of the year}=\\underline{{-1 , 000}}} \\\\ \\end{array}\\\\[6pt]\\text{Weighted average shares outstanding} \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad=\\ 13 , 300\\end{gathered}",
           "display": true,
           "sourceAsset": "17c403ffd8fbdd9cbba8.png"
         },
@@ -881,7 +883,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{basic~EPS}} & {{}=\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~shares~of~common}}} \\\\ {} & {{}=\\frac{\\$10 , 000-\\$1 , 000} {13 , 300}=\\$0.68} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{basic EPS}} & {{}=\\frac{\\text{net income-preferred dividends}} {\\text{weighted average shares of common}}} \\\\[8pt] {} & {{}=\\frac{\\$10 , 000-\\$1 , 000} {13 , 300}=\\$0.68} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "688e298ad365bc1f7a41.png"
         },
@@ -943,7 +945,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\mathrm{diluted~EPS}}={\\frac{\\mathrm{adjusted~income~available~for~common~shares}} {\\mathrm{weighted-average~common~and~potential~common~shares~outstanding}}} {\\mathrm{where} .}\\\\[6pt]\\begin{array} {rl} {{\\mathrm{adjusted~income~available~for~common~shares}=\\mathrm{net~income-preferred~dividends}}} \\\\ {{}} & {{\\quad+\\mathrm{~dividends~on~convertible~preferred~stockeriale}}} \\\\ {{}} & {{\\quad+\\mathrm{~after-tax~interest~on~convertible~debt}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}{\\text{diluted EPS}}={\\frac{\\text{adjusted income available for common shares}} {\\text{weighted-average common and potential common shares outstanding}}} {\\mathrm{where} .}\\\\[6pt]\\begin{array} {rl} {{\\text{adjusted income available for common shares}=\\text{net income-preferred dividends}}} \\\\[8pt] {{}} & {{\\quad+\\text{ dividends on convertible preferred stockeriale}}} \\\\[8pt] {{}} & {{\\quad+\\text{ after-tax interest on convertible debt}}} \\\\[8pt] \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "aec0fe868b2389060e13.png"
         },
@@ -953,7 +955,7 @@
         },
         {
           "type": "math",
-          "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\ \\text{preferred} \\\\ \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\ \\text{debt} \\\\ \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\ \\text{average} \\\\ \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\ \\text{issuable from} \\\\ \\text{stock options}\\end{matrix}\\right)}",
+          "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\[2pt] \\text{preferred} \\\\[2pt] \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\[2pt] \\text{debt} \\\\[2pt] \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\[2pt] \\text{average} \\\\[2pt] \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\[2pt] \\text{conversion of} \\\\[2pt] \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\[2pt] \\text{conversion of} \\\\[2pt] \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\[2pt] \\text{issuable from} \\\\[2pt] \\text{stock options}\\end{matrix}\\right)}",
           "display": true,
           "sourceAsset": "3d59c6ec97e12697b5d2.png"
         },
@@ -979,7 +981,7 @@
         },
         {
           "type": "math",
-          "latex": "\\text{Basic EPS} = \\frac{\\$4,350,000 - 0.07(\\$5,000,000)}{2,000,000} = \\$2.00",
+          "latex": "\\text{Basic EPS} = \\frac{\\$4{,}350{,}000 - 0.07(\\$5{,}000{,}000)}{2{,}000{,}000} = \\$2.00",
           "display": true,
           "sourceAsset": "819eda0a509b1969d279.png"
         },
@@ -1057,7 +1059,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\operatorname{diluted} \\mathrm{EPS}=} & {{} {\\frac{\\mathrm{net.~inc.-pref.~div.~+~convert.~int.~(1-t)}} {\\mathrm{wt.~avg.~shares~+~convertible~debt~shares}}}} \\\\ {\\operatorname{diluted ~ EPS}} & {{}={\\frac{\\$2 , 500 , 000+\\$70 , 000} {1 , 000 , 000+240 , 000}}=\\$2.07} \\end{aligned}",
+          "latex": "\\text{Diluted EPS} = \\frac{\\text{Net income} - \\text{Preferred dividends} + \\text{Convertible debt interest}(1-t)}{\\text{Weighted average shares} + \\text{Shares from conversion}}",
           "display": true,
           "sourceAsset": "ff4ef9a2c74dd80a7d26.png"
         },
@@ -1071,7 +1073,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\mathrm{convertible~debt~interest~(1-t)}} {\\mathrm{convertible~debt~shares}}",
+          "latex": "\\frac{\\text{convertible debt interest (1-t)}} {\\text{convertible debt shares}}",
           "display": true,
           "sourceAsset": "bcb35ff33e12adbae0e9.png"
         },
@@ -1089,7 +1091,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\$70,000}{240,000} = \\$0.29",
+          "latex": "\\frac{\\$70{,}000}{240{,}000} = \\$0.29",
           "display": true,
           "sourceAsset": "1d260d0f595acaec7f2f.png"
         },
@@ -1127,7 +1129,7 @@
         },
         {
           "type": "math",
-          "latex": "\\text{Diluted EPS} = \\frac{\\$1,200,000}{500,000 + 25,000} = \\$2.29",
+          "latex": "\\text{Diluted EPS} = \\frac{\\$1{,}200{,}000}{500{,}000 + 25{,}000} = \\$2.29",
           "display": true,
           "sourceAsset": "a58e4e90c264ce9245f9.png"
         },
@@ -1137,7 +1139,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\left[ \\frac{\\mathrm{AMP}-\\mathrm{EP}} {\\mathrm{AMP}} \\right] \\times\\mathrm{N}} \\\\ {\\mathrm{where:}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{AMP}}={\\mathrm{average~market~price~over~the~year}}} \\\\ {{\\mathrm{EP}} \\quad={\\mathrm{exercise~price~of~the~options~or~warrants}}} \\\\ {{\\mathrm{N}} \\quad={\\mathrm{number~of~common~shares~that~the~options~and~warrants~can~be}}} \\\\ {{\\mathrm{converted~into}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {\\left[ \\frac{\\mathrm{AMP}-\\mathrm{EP}} {\\mathrm{AMP}} \\right] \\times\\mathrm{N}} \\\\[8pt] {\\mathrm{where:}} \\\\[8pt] \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{AMP}}={\\text{average market price over the year}}} \\\\[8pt] {{\\mathrm{EP}} \\quad={\\text{exercise price of the options or warrants}}} \\\\[8pt] {{\\mathrm{N}} \\quad={\\text{number of common shares that the options and warrants can be}}} \\\\[8pt] {{\\text{converted into}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "e315de101ff544480a7f.png"
         },
@@ -1173,10 +1175,10 @@
         {
           "type": "image",
           "src": "content/figures/906b0829878cf9c4a3d6.png",
-          "alt": "Equation, table, or diagram: ime-series analysis) and across firms (cross-sectional analysis). For example, the following are year-end income statements of industry competitors North Company and South Company:",
-          "width": 424,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 817,
+          "height": 310,
+          "alt": "Instructional visual diagram or table: 906b0829878cf9c4a3d6.png"
         },
         {
           "type": "paragraph",
@@ -1193,10 +1195,10 @@
         {
           "type": "image",
           "src": "content/figures/df741b1ff136551718ef.png",
-          "alt": "Equation, table, or diagram: profitable firm on a relative basis. South’s gross profit of 80% and operating profit of 45% are significantly greater than North’s gross profit of 30% and operating profit of 10%.",
-          "width": 404,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 777,
+          "height": 311,
+          "alt": "Instructional visual diagram or table: df741b1ff136551718ef.png"
         },
         {
           "type": "paragraph",
@@ -1216,7 +1218,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{gross~profit~margin}}={\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}}",
+          "latex": "{\\text{gross profit margin}}={\\frac{\\text{gross profit}} {\\mathrm{revenue}}}",
           "display": true,
           "sourceAsset": "756e687969dae261a131.png"
         },
@@ -1230,7 +1232,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{net~profit~margin}}={\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}",
+          "latex": "{\\text{net profit margin}}={\\frac{\\text{net income}} {\\mathrm{revenue}}}",
           "display": true,
           "sourceAsset": "adff8ee09313eb07b811.png"
         },
@@ -1324,7 +1326,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\mathrm{basic~EPS}}={\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares~outstanding}}}",
+      "latex": "{\\text{basic EPS}}={\\frac{\\text{net income-preferred dividends}} {\\text{weighted average number of common shares outstanding}}}",
       "display": true,
       "sourceAsset": "c27b6132f9bb5655d2c4.png"
     },
@@ -1334,7 +1336,7 @@
     },
     {
       "type": "math",
-      "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\ \\text{preferred} \\\\ \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\ \\text{debt} \\\\ \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\ \\text{average} \\\\ \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\ \\text{conversion of} \\\\ \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\ \\text{issuable from} \\\\ \\text{stock options}\\end{matrix}\\right)}",
+      "latex": "\\text{Diluted EPS} = \\frac{\\left[\\text{Net income} - \\text{Preferred dividends}\\right] + \\left[\\begin{matrix}\\text{Convertible} \\\\[2pt] \\text{preferred} \\\\[2pt] \\text{dividends}\\end{matrix}\\right] + \\left(\\begin{matrix}\\text{Convertible} \\\\[2pt] \\text{debt} \\\\[2pt] \\text{interest}\\end{matrix}\\right)(1-t)}{\\left(\\begin{matrix}\\text{Weighted} \\\\[2pt] \\text{average} \\\\[2pt] \\text{shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\[2pt] \\text{conversion of} \\\\[2pt] \\text{conv. pref. shares}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares from} \\\\[2pt] \\text{conversion of} \\\\[2pt] \\text{conv. debt}\\end{matrix}\\right) + \\left(\\begin{matrix}\\text{Shares} \\\\[2pt] \\text{issuable from} \\\\[2pt] \\text{stock options}\\end{matrix}\\right)}",
       "display": true,
       "sourceAsset": "0fdf4c386c02445a2eb3.png"
     },
@@ -1824,7 +1826,7 @@
             },
             {
               "type": "math",
-              "latex": "\\text{per share impact} = \\frac{\\$42,000}{25,000\\text{ shares}} = \\$1.68",
+              "latex": "\\text{per share impact} = \\frac{\\$42{,}000}{25{,}000\\text{ shares}} = \\$1.68",
               "display": true,
               "sourceAsset": "68b5d18bf43d41e39779.png"
             },

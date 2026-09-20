@@ -12,18 +12,18 @@
         {
           "type": "image",
           "src": "content/figures/3bf1c773e8d459b24845.png",
-          "alt": "Quantitative methods formula reference chart, first section.",
-          "width": 361,
-          "height": 770,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 695,
+          "height": 1482,
+          "alt": "Quantitative methods formula reference chart, first section."
         },
         {
           "type": "image",
           "src": "content/figures/9c7480bee3dd12df7efa.png",
-          "alt": "Quantitative methods formula reference chart, second section.",
-          "width": 373,
-          "height": 900,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 719,
+          "height": 1732,
+          "alt": "Quantitative methods formula reference chart, second section."
         },
         {
           "type": "heading",
@@ -31,7 +31,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\mathrm{real~P/B~exchange~rate}}={\\mathrm{nominal~P/B~exchange~rate}} \\times\\left( {\\frac{{\\mathrm{CPI}}_{{\\mathrm{base~cuerency}}}} {{\\mathrm{CPI}}_{\\mathrm{price~cuerency}}}} \\right)\\\\[6pt]{\\mathrm{arbitrage-free ~ forward ~ exchange ~ rate ~ relationship : ~ {\\frac{forwar d_{d / f}} {spo t_{d / f}}}={\\frac{\\left( 1+r_{donsertic} \\right)} {\\left( 1+r_{foreign} \\right)}}}}\\end{gathered}",
+          "latex": "\\text{Real P/B exchange rate} = \\text{Nominal P/B exchange rate} \\times \\left(\\frac{\\text{CPI}_{\\text{base}}}{\\text{CPI}_{\\text{price}}}\\right)",
           "display": true,
           "sourceAsset": "e0cd75159982915c0cdd.png"
         },
@@ -41,7 +41,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Cash conversion cycle}=\\text{days of inventory on hand}+\\text{days sales outstanding}-\\text{days payables outstanding}\\\\\n\\text{Total working capital}=\\text{current assets}-\\text{current liabilities}\\\\\n\\text{Net working capital}=\\text{current assets excluding cash and marketable securities}\n-\\text{current liabilities excluding short-term and current debt}\\\\\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash and marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\\n\\text{Cash ratio}=\\frac{\\text{cash and marketable securities}}{\\text{current liabilities}},\\quad\nNPV=CF_0+\\sum_{t=1}^{n}\\frac{CF_t}{(1+k)^t}\\\\\nROIC=\\frac{\\text{net operating profit after tax}}{\\text{average book value of total capital}}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Cash conversion cycle}=\\text{days of inventory on hand}+\\text{days sales outstanding}-\\text{days payables outstanding}\\\\[8pt]\n\\text{Total working capital}=\\text{current assets}-\\text{current liabilities}\\\\[8pt]\n\\text{Net working capital}=\\text{current assets excluding cash and marketable securities}\n-\\text{current liabilities excluding short-term and current debt}\\\\[8pt]\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash and marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\[8pt]\n\\text{Cash ratio}=\\frac{\\text{cash and marketable securities}}{\\text{current liabilities}},\\quad\nNPV=CF_0+\\sum_{t=1}^{n}\\frac{CF_t}{(1+k)^t}\\\\[8pt]\nROIC=\\frac{\\text{net operating profit after tax}}{\\text{average book value of total capital}}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "35e2f1e7f1dbc851fcc2.png"
         },
@@ -63,7 +63,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathrm{If~} EPS=x=\\$7.25 , \\, \\mathrm{then~} z=( x-\\mu) / \\sigma=( \\$7.25-\\$5.00 ) / \\$1.50=+1.50} \\\\ {\\mathrm{~If~} EPS=x=\\$3.00 , \\, \\mathrm{then~} z=( x-\\mu) / \\sigma=( \\$3.00-\\$5.00 ) / \\$1.50=-1.33} \\end{array}",
+          "latex": "\\text{If } \\text{EPS} = x = \\$7.25, \\text{ then } z = (x - \\mu)/\\sigma = (\\$7.25 - \\$5.00)/\\$1.50 = 1.50",
           "display": true,
           "sourceAsset": "b13e36d68a57f72fc03a.png"
         },
@@ -93,7 +93,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {{\\mathrm{H}_{0} : \\mu\\leq0.0 \\mathcal{Y}_{0} , \\, \\mathrm{H}_{\\mathrm{a}} \\! : \\mu> 0.0 \\mathcal{Y}_{0} . \\, \\mathrm{The~test~statistic}=z \\mathrm{-statistic}}} \\\\ {{=\\frac{\\overline{{{X}}}-\\mu_{0}} {\\sigma/ \\sqrt{\\overline{{{\\Omega}}}}}=\\left( 2.0-0.0 \\right) / \\left( 20.0 \\ / \\ 6 \\right)=0.60}} \\end{array}",
+          "latex": "\\begin{aligned}\nH_0: \\mu &\\le 0.0\\%, \\quad H_a: \\mu > 0.0\\% \\\\[8pt]\nz &= \\frac{\\bar{X} - \\mu_0}{\\sigma / \\sqrt{n}} = \\frac{2.0 - 0.0}{20.0 / 6} = 0.60\n\\end{aligned}",
           "display": true,
           "sourceAsset": "25fcc334b0242892c96e.png"
         },
@@ -148,10 +148,10 @@
         {
           "type": "image",
           "src": "content/figures/236c50cbc08d6783fb2c.png",
-          "alt": "Equation, table, or diagram: P(Z ≤ z) = N(z) for z ≥ 0",
-          "width": 531,
-          "height": 806,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1021,
+          "height": 1551,
+          "alt": "Instructional visual diagram or table: 236c50cbc08d6783fb2c.png"
         },
         {
           "type": "heading",
@@ -168,10 +168,10 @@
         {
           "type": "image",
           "src": "content/figures/d6ad52dc87eef482d15b.png",
-          "alt": "Equation, table, or diagram: P(Z ≤ z) = N(z) for z ≥ 0",
-          "width": 529,
-          "height": 724,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1017,
+          "height": 1394,
+          "alt": "Instructional visual diagram or table: d6ad52dc87eef482d15b.png"
         },
         {
           "type": "heading",
@@ -180,10 +180,10 @@
         {
           "type": "image",
           "src": "content/figures/5463b8f4d7dbe4792cb4.png",
-          "alt": "Equation, table, or diagram: APPENDIX B: STUDENT’S T-DISTRIBUTION",
-          "width": 516,
-          "height": 757,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 993,
+          "height": 1457,
+          "alt": "Instructional visual diagram or table: 5463b8f4d7dbe4792cb4.png"
         },
         {
           "type": "heading",
@@ -204,10 +204,10 @@
         {
           "type": "image",
           "src": "content/figures/4c03d785ccda6e4dbc55.png",
-          "alt": "Equation, table, or diagram: Degrees of freedom for the denominator along side row",
-          "width": 585,
-          "height": 608,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1126,
+          "height": 1171,
+          "alt": "Instructional visual diagram or table: 4c03d785ccda6e4dbc55.png"
         },
         {
           "type": "heading",
@@ -228,10 +228,10 @@
         {
           "type": "image",
           "src": "content/figures/a5cbb7719f7458f34a22.png",
-          "alt": "Equation, table, or diagram: Degrees of freedom for the denominator along side row",
-          "width": 660,
-          "height": 608,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1269,
+          "height": 1171,
+          "alt": "Instructional visual diagram or table: a5cbb7719f7458f34a22.png"
         },
         {
           "type": "heading",
@@ -248,10 +248,10 @@
         {
           "type": "image",
           "src": "content/figures/fd7cdf02d96a2690be89.png",
-          "alt": "Equation, table, or diagram: Probability in Right Tail",
-          "width": 579,
-          "height": 673,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1113,
+          "height": 1295,
+          "alt": "Instructional visual diagram or table: fd7cdf02d96a2690be89.png"
         }
       ]
     },
@@ -265,7 +265,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{aligned} {{}} & {{} \\mathrm{FCFF}=\\mathrm{NI}+\\mathrm{NCC}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}-\\mathrm{WC}_{\\mathrm{INV}}} \\\\ {} & {{} \\mathrm{where:}} \\\\ {} & {{} \\mathrm{NI}} & {{}=\\mathrm{net~income}} \\end{aligned}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{NCC}}} & {{=\\mathrm{noncash~charges~(depreciation~and~amortization)}}} \\\\ {{}} & {{}} \\\\ {{\\mathrm{Int}}} & {{=\\mathrm{cash~interest~paid}}} \\\\ {{\\mathrm{FC}_{\\mathrm{NV}}}} & {{=\\mathrm{fixed~capital~mvestment~(net~capital~expenditures)}}} \\end{array}\\\\[6pt]\\mathrm{WC}_{\\mathrm{TNY}}=\\mathrm{working~capital~investment}\\end{gathered}",
+          "latex": "\\text{FCFF} = \\text{NI} + \\text{NCC} + [\\text{Int} \\times (1 - \\text{tax rate})] - \\text{FC}_{\\text{Inv}} - \\text{WC}_{\\text{Inv}}",
           "display": true,
           "sourceAsset": "4767f50c225f8db4e12e.png"
         },
@@ -275,7 +275,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFF}=\\mathrm{CFO}+[ \\mathrm{Int} \\times( 1-\\mathrm{tax} \\, \\mathrm{rate} ) ]-\\mathrm{FC}_{\\mathrm{INV}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO} \\ :=\\mathrm{cash\\,flow\\,from\\,operations}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{Int} \\quad\\quad=\\mathrm{cash~interest~paid}} \\\\ {} & {{} \\mathrm{FC}_{\\mathrm{TNV}}=\\mathrm{fixed~capital~investment~(net~capital~expenditures)}} \\end{aligned}\\end{gathered}",
+          "latex": "\\text{FCFF} = \\text{CFO} + [\\text{Int} \\times (1 - \\text{tax rate})] - \\text{FC}_{\\text{Inv}}",
           "display": true,
           "sourceAsset": "bca94350018619ac5e9a.png"
         },
@@ -285,39 +285,49 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{FCFE}=\\mathrm{CFO-F C_{\\mathbb{NV}}+net ~ borrowing}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{CFO}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{FC}_\\text{TNV}=\\mathrm{fixed~capital~investment~(net~capital~expenditures)}}} \\\\ {{\\mathrm{net~borrowing}= debt ~ issued- debt ~ repaid}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\text{FCFE} &= \\text{CFO} - \\text{FC}_{\\text{Inv}} + \\text{Net borrowing} \\\\[6pt]\n\\text{where:}\\quad \\text{FC}_{\\text{Inv}} &= \\text{fixed capital investment (net capital expenditures)} \\\\\n\\text{Net borrowing} &= \\text{debt issued} - \\text{debt repaid}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "b52fe3c51c6c1ecf0276.png"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{cash-flow-to-revenue~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{net~revenue}}}} \\\\ {{\\mathrm{cash-return-on-assets~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{cash-return-on-equity~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{average~total~equity}}}} \\\\ {{\\mathrm{cash-to-income~ratio}=\\frac{\\mathrm{CFO}} {\\mathrm{operating~income}}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{cash~flow~per~share}=\\frac{\\mathrm{CFO-preferred~dividends}} {\\mathrm{weighted~average~number~of~common~shares}}} \\\\ {} & {{}} \\\\ {} & {{} \\mathrm{debt~coverage}=\\frac{\\mathrm{CFO}} {\\mathrm{total~debr}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{interest~coverage}}={\\frac{\\mathrm{CFO+interest~paid}+\\mathrm{taxes~paid}} {\\mathrm{interest~paid}}}\\\\[6pt]\\begin{aligned} {\\mathrm{reinvestment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~paid~for~long-term~assets}}} \\\\ {\\mathrm{debt~payment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~long-term~debt~repayment}}} \\\\ \\end{aligned}\\\\[6pt]\\begin{aligned} {\\mathrm{dividend~payment}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{dividends~paid}}} \\\\ {\\mathrm{investing~and~financing}} & {{}=\\frac{\\mathrm{CFO}} {\\mathrm{cash~outflows~from~investing~and~financing~activities}}} \\\\ \\end{aligned}\\\\[6pt]{\\mathrm{average~age}}={\\frac{\\mathrm{accummlated~depreciation}} {\\mathrm{annual~depreciation~expense}}}\\\\[6pt]{\\mathrm{total~useful~life}}={\\frac{\\mathrm{historical~cost~(gross~cost)}} {\\mathrm{annual~depreciation~expense}}}\\\\[6pt]\\begin{aligned} {\\mathrm{remaining~useful~life}=\\frac{\\mathrm{ending~net~PPRE}} {\\mathrm{annual~depreciation~expense}}} \\\\ {\\mathrm{tax~expense}=\\mathrm{tax~payable}+\\Delta\\mathrm{DTL}-\\Delta\\mathrm{DTA}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{effective~tax~rate}}={\\frac{\\mathrm{income~tax~expense}} {\\mathrm{pretax~income}}}} \\\\ {{\\mathrm{cash~tax~rate}}={\\frac{\\mathrm{tax~paid~(cash)}} {\\mathrm{pretax~income}}}} \\end{array}\\\\[6pt]{\\mathrm{vertical~common-size~balance~sheet~ratios}}=\\frac{\\mathrm{balance~sheet~account}} {\\mathrm{total~assets}}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "09066eb4f2ed2e35dae2.png"
+          "type": "image",
+          "src": "content/figures/09066eb4f2ed2e35dae2.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1060,
+          "height": 1762,
+          "alt": "Comprehensive cash flow and coverage ratios formula summary reference poster."
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {\\mathrm{vertical~common-size~income~statement~ratios}={\\frac{income ~ statement ~ account} {sales}}} \\\\ {\\mathrm{~receivables~turnover}={\\frac{\\mathrm{anmual~sales}} {average ~ receivables}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~days~of~sales~outstanding}=\\frac{365} {\\mathrm{receivables~turnover}}}} \\\\ {{{}}} \\\\ {{\\mathrm{~inventory~turnover}=\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~inventory}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~days~of~inventory~on~hand}=\\frac{365} {\\mathrm{inventory~turnover}}}} \\\\ {{\\mathrm{~payables~turnover}=\\frac{\\mathrm{~cost~of~goods~sold}} {\\mathrm{~average~trade~payables}}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~mumber~of~days~of~payables}=\\frac{365} {\\mathrm{~payables~tumover~ratio}}}} \\\\ {{\\mathrm{~total~asset~tumover}=\\frac{\\mathrm{~revenne}} {\\mathrm{~average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{fixed~asset~turnover}=\\frac{\\mathrm{revemule}} {\\mathrm{average~net~fixed~assets}}}} \\\\ {{\\mathrm{working~capital~turnover}=\\frac{\\mathrm{revenue}} {\\mathrm{average~working~capital}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{current~liabilities}} {\\mathrm{curketable~securities}+\\mathrm{receivables}}}} \\\\ {{\\mathrm{current~liabilities}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{cash~ratio}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}}} \\\\ {{{}}} \\\\ {{\\mathrm{defensive~interval}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+receivables} {\\mathrm{average~daily~expenditures}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\mathrm{~-mumber~of~days~of~payables}} \\\\ {\\mathrm{~debt-to~equity}=\\frac{\\mathrm{total~debr}} {\\mathrm{total~shareholders\"~equity}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{debt-to-capital}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~debt+total~shareholders'~equity}}}}} \\\\ {{{}}} \\\\ {{\\mathrm{debt-to-assets}={\\frac{\\mathrm{total~debt}} {\\mathrm{total~assets}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{financial~leverage}=\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~total~equity}}}} \\\\ {{\\mathrm{interest~coverage}=\\frac{\\mathrm{earnings~before~interest~and~taxes}} {\\mathrm{interest~payments}}}} \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "bd49737c238d983f9c2d.png"
+          "type": "image",
+          "src": "content/figures/bd49737c238d983f9c2d.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1002,
+          "height": 1806,
+          "alt": "Vertical common-size income statement and asset activity ratios reference poster."
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{debt-to-EBTTDA=\\frac{total ~ debt} {EBTTDA}}}} \\\\ {{\\mathrm{fixed ~ charge ~ coverage=\\frac{earnimgs ~ before ~ interest ~ and ~ taxes+lease ~ payments} {interest ~ payments+lease ~ payments}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{net~profit~margin}=\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}} \\\\ {{\\mathrm{}}} \\\\ {{\\mathrm{gross~profit~margin}=\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {\\mathrm{operating~profit~margin}=\\mathrm{frac{operating ~ income} {revenue}} \\, \\mathrm{or} \\, \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}}} \\\\ {\\mathrm{pretax~margin}=\\mathrm{frac{EBT} {revenue}}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~return~on~assets}=\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}}} \\\\ {{\\mathrm{~operating~return~on~assets}=\\frac{\\mathrm{operating~income}} {\\mathrm{average~total~assets}} \\, \\mathrm{or~} \\frac{\\mathrm{EBIT}} {\\mathrm{~average~total~assets}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{~return~on~invested~capital}={\\frac{\\mathrm{after-tax~operating~profit}} {\\mathrm{average~long-term~capital}}}}} \\\\ {{\\mathrm{~return~on~equity}={\\frac{\\mathrm{~net~income}} {\\mathrm{average~total~equity}}}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{return~on~common~equity}} & {{}=\\frac{\\mathrm{net~income-prefered~dividends}} {\\mathrm{average~common~equity}}} \\\\ {} & {{}=\\frac{\\mathrm{net~income~available~to~common}} {\\mathrm{average~common~equity}}} \\\\ \\end{aligned}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Original~DuPont~decomposition:}}} \\\\ {{\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\left( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Extended~DuPont~decomposition:}}} \\\\ {{\\quad\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{EBT}} \\Big) \\Big( \\frac{\\mathrm{EBT}} {\\mathrm{EBTT}} \\Big) \\Big( \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}} \\Big) \\Big( \\frac{\\mathrm{revenue}} {\\mathrm{average~assets}} \\Big) \\Big( \\frac{\\mathrm{average~assets}} {\\mathrm{average~equity}} \\Big)}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{Coefficients~of~variation:}}} \\\\ {{\\mathrm{CV~sales}={\\frac{\\mathrm{standard~deviation~of~sales}} {\\mathrm{mean~sales}}}}} \\end{array}\\\\[6pt]\\begin{aligned} {} & {{} \\mathrm{CV~operating~income}=\\frac{\\mathrm{standard~deviation~of~operating~income}} {\\mathrm{mean~operating~income}}} \\\\ {} & {{} \\mathrm{CV~net~income}=\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}} \\\\ \\end{aligned}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "866c622294530622f91f.png"
+          "type": "image",
+          "src": "content/figures/866c622294530622f91f.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1070,
+          "height": 1644,
+          "alt": "Financial leverage, debt-to-equity, and fixed charge coverage ratios reference poster."
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Margin call price}=P_0\\left(\\frac{1-\\text{initial margin}}{1-\\text{maintenance margin}}\\right),\n\\quad P_0=\\text{initial purchase price} \\\\[6pt]\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks in index adjusted for splits}} \\\\[6pt]\n\\text{Market capitalization-weighted index}\n=\\frac{\\text{current total market value of index stocks}}{\\text{base-year total market value of index stocks}}\n\\times\\text{base-year index value} \\\\[6pt]\n\\text{Equal-weighted index}\n=(1+\\text{average percentage change in index stocks})\\times\\text{initial index value} \\\\[6pt]\n[Q(P-VC)]-FC,\n\\quad Q=\\text{units sold},\\ P=\\text{price per unit},\\ VC=\\text{variable costs},\\ FC=\\text{fixed costs} \\\\[6pt]\nDOL=\\frac{\\%\\Delta\\text{ operating profit}}{\\%\\Delta\\text{ sales}},\n\\qquad DFL=\\frac{\\%\\Delta\\text{ net income}}{\\%\\Delta\\text{ operating income}} \\\\[6pt]\n\\text{Preferred stock value}=\\frac{D_p}{k_p} \\\\[6pt]\n\\text{Constant-growth dividend discount model:}\\qquad V_0=\\frac{D_1}{k_e-g_c} \\\\[6pt]\n\\text{Sustainable growth rate:}\\qquad g=b\\times ROE,\\quad\nb=1-\\text{dividend payout rate}\n\\end{gathered}",
-          "display": true,
-          "sourceAsset": "515855f8b9b9f78398d9.png"
+          "type": "image",
+          "src": "content/figures/515855f8b9b9f78398d9.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1124,
+          "height": 1477,
+          "alt": "Margin transaction regulations, maintenance margin, and margin call price reference table."
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {rl} {\\mathrm{{Multistage ~ dividend ~ discount ~ model :}}} \\\\ {\\mathrm{quad~ value ~=~ {\\cfrac{D_{1}} {\\left( 1+k_{e} \\right)}}+{\\cfrac{D_{2}} {\\left( 1+k_{e} \\right)^{2}}}+\\ldots+{\\cfrac{D_{n}} {\\left( 1+k_{e} \\right)^{n}}}+{\\cfrac{P_{n}} {\\left( 1+k_{e} \\right)^{n}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{P_{n}}=\\frac{\\mathrm{D}_{n+1}} {\\mathrm{k_{e}}-\\mathrm{g}_{c}}}} \\end{array}\\\\[6pt]g_{\\mathrm{c}}=\\mathrm{constant~growth~rate~of~dividends} \\, \\mathrm{~n}=\\mathrm{number~of~periods~of~supernormal~growth} \\, \\mathrm{~Justified~P/E~ratio} ;\\\\[6pt]\\begin{aligned} {\\frac{\\mathbb{P}_{0}} {E_{1}}} & {{}=\\frac{\\mathbb{D}_{1} / E_{1}} {\\mathbb{k}-g}} \\\\ {\\mathrm{Enterprise~value}} & {{}=\\operatorname{market ~ value ~ of ~ common ~ and ~ preferred ~ stock}+\\operatorname{market ~ value ~ of}} \\\\ {\\mathrm{debt}} & {{}-\\operatorname{cash ~ and ~ short-term ~ investments}} \\end{aligned}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "6535d7ff2e2fc55afa79.png"
+          "type": "image",
+          "src": "content/figures/6535d7ff2e2fc55afa79.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 1120,
+          "height": 631,
+          "alt": "Multistage dividend discount model multi-period cash flow timeline diagram."
         }
       ]
     },
@@ -499,7 +509,7 @@
         },
         {
           "type": "math",
-          "latex": "- {\\mathrm{bond~price}}+{\\frac{\\mathrm{coupon~1}} {1+\\mathrm{IRR}}}+{\\frac{\\mathrm{coupon~2}} {( 1+\\mathrm{IRR} )^{2}}}+. . . .+{\\frac{\\mathrm{coupon~N~+~face~value}} {( 1+\\mathrm{IRR} )^{N}}}=\\, 0",
+          "latex": "-\\text{Bond price} + \\frac{\\text{Coupon}_1}{1 + \\text{IRR}} + \\frac{\\text{Coupon}_2}{(1 + \\text{IRR})^2} + \\dots + \\frac{\\text{Coupon}_n + \\text{Par}}{(1 + \\text{IRR})^n} = 0",
           "display": true,
           "sourceAsset": "6166d8e46496f1f1f8b2.png"
         },
@@ -513,7 +523,7 @@
         },
         {
           "type": "math",
-          "latex": "- {\\mathrm{bond~price~}}+{\\frac{\\mathrm{coupon~1}} {1+{\\frac{\\mathrm{IRR}} {2}}}}+{\\frac{\\mathrm{coupon~2}} {\\left( 1+{\\frac{\\mathrm{IRR}} {2}} \\right)^{2}}}+. . . .+{\\frac{\\mathrm{coupon~2N~+~face~value}} {\\left( 1+{\\frac{\\mathrm{IRR}} {2}} \\right)^{2 N}}} {=} ~ 0",
+          "latex": "-\\text{Bond price} + \\frac{\\text{Coupon}_1}{1 + \\frac{\\text{IRR}}{2}} + \\frac{\\text{Coupon}_2}{\\left(1 + \\frac{\\text{IRR}}{2}\\right)^2} + \\dots = 0",
           "display": true,
           "sourceAsset": "2deff1f374adb143e779.png"
         },
@@ -591,7 +601,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\bf Ny} ( {\\bf M}-{\\bf N} ) {\\bf y}=\\left[ {\\frac{( 1+{\\bf S_{M}} )^{{\\bf M}}} {( 1+{\\bf S_{N}} )^{{\\bf N}}}} \\right]^{\\frac{1} {{\\bf M_{-N}}}}-1",
+          "latex": "{}_N y_{(M-N)y} = \\left[ \\frac{(1 + S_M)^M}{(1 + S_N)^N} \\right]^{\\frac{1}{M-N}} - 1",
           "display": true,
           "sourceAsset": "b9fb50feb2c065f019f3.png"
         },
@@ -617,7 +627,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\mathrm{PMT}} {1.01}+\\frac{\\mathrm{PMT}} {( 1.02 )^{2}}+\\frac{\\mathrm{PMT}+100} {( 1.03 )^{3}}=100",
+          "latex": "\\frac{\\text{PMT}}{1.01} + \\frac{\\text{PMT}}{(1.02)^2} + \\frac{\\text{PMT} + 100}{(1.03)^3}",
           "display": true,
           "sourceAsset": "58de1c97dd9050c2bf4f.png"
         },
@@ -642,10 +652,12 @@
           "text": "Modified duration (semiannual-pay bond):"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Approximate modified duration}=\\frac{V_--V_+}{2V_0\\Delta YTM},\\quad\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0}\\\\\n\\text{Portfolio duration}=w_1D_1+w_2D_2+\\cdots+w_ND_N\\\\\n\\text{Effective duration}=\\frac{V_--V_+}{2V_0\\Delta\\text{Curve}},\\quad\n\\text{Effective convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta\\text{Curve})^2V_0}\\\\\n\\text{Expected loss}=\\text{probability of default}\\times\\text{loss given default},\\quad\n\\text{Loan-to-value ratio}=\\frac{\\text{current mortgage amount}}{\\text{current appraised value}}\n\\end{gathered}",
-          "display": true,
-          "sourceAsset": "ca036f8ef817fb8d1dd7.png"
+          "type": "image",
+          "src": "content/figures/ca036f8ef817fb8d1dd7.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 815,
+          "height": 1056,
+          "alt": "Modified duration and convexity calculation reference table."
         },
         {
           "type": "paragraph",
@@ -687,7 +699,7 @@
       "blocks": [
         {
           "type": "math",
-          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V_{0}}+\\mathrm{V_{B}} \\right)-\\mathrm{r_{B} V_{B}}} {\\mathrm{V_{0}}}}",
+          "latex": "\\text{Leveraged return} = \\frac{r(V_0 + V_B) - V_B \\times r_B}{V_0}",
           "display": true,
           "sourceAsset": "fa9493dcaa14da4e9263.png"
         },
@@ -697,7 +709,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{r}={\\frac{\\mathrm{V}_{1}-\\mathrm{V}_{0}-\\mathrm{total~fees}} {\\mathrm{V}_{0}}}",
+          "latex": "r = \\frac{V_1 - V_0 - \\text{Total fees}}{V_0}",
           "display": true,
           "sourceAsset": "81faeb586da36071a56c.png"
         },
@@ -711,7 +723,7 @@
         },
         {
           "type": "math",
-          "latex": "\\sigma_{\\mathrm{portfolio}}=\\sqrt{\\mathrm{W_{A}^{2}} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{W_{B}^{2}} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\, \\mathrm{W_{A}^{\\phantom{2}}} \\, \\mathrm{W_{B}^{\\phantom{2}}} \\, \\rho_{\\mathrm{AB}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}}}",
+          "latex": "\\sigma_{\\text{portfolio}} = \\sqrt{w_A^2 \\sigma_A^2 + w_B^2 \\sigma_B^2 + 2w_A w_B \\operatorname{Cov}_{AB}}",
           "display": true,
           "sourceAsset": "20c1ec6c7fd73f41b4f2.png"
         },
@@ -721,7 +733,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {rl} {s^{2}=} & {{} {\\displaystyle\\sum_{t=1}^{\\mathrm{T}} \\left( \\mathbb{R}_{t}-{\\overline{{\\mathbb{R}}}} \\right)^{2}}} \\\\ {\\mathrm{T}-1} \\\\ {\\mathrm{where~T}=\\mathrm{number~of~obseryations}} \\end{array}",
+          "latex": "s^2 = \\frac{\\sum_{t=1}^T (R_t - \\bar{R})^2}{T - 1}",
           "display": true,
           "sourceAsset": "c0c3883130244f1aa128.png"
         },
@@ -731,7 +743,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\operatorname{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^\\text{n} \\left\\{\\left[ \\mathrm{R}_{t , 1}-\\overline{{{\\mathrm{R}}}}_{1} \\right] \\left[ \\mathrm{R}_{t , 2}-\\overline{{{\\mathrm{R}}}}_{2} \\right] \\right\\}} {\\mathrm{n-1}}}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{R}_{t , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{t , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\\\ {{\\mathrm{n}}} & {{=\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
+          "latex": "\\operatorname{Cov}_{1{,}2} = \\frac{\\sum_{t=1}^n (R_{1,t} - \\bar{R}_1)(R_{2,t} - \\bar{R}_2)}{n - 1}",
           "display": true,
           "sourceAsset": "7064d8038a925feadd6f.png"
         },
@@ -741,7 +753,7 @@
         },
         {
           "type": "math",
-          "latex": "\\rho_{1 , 2} \\!=\\! {\\frac{\\mathrm{Cov}_{1 , 2}} {\\sigma_{1} \\sigma_{2}}}",
+          "latex": "\\rho_{1{,}2} = \\frac{\\operatorname{Cov}_{1{,}2}}{\\sigma_1 \\sigma_2}",
           "display": true,
           "sourceAsset": "f988d835f752b8e9d75e.png"
         },
@@ -751,7 +763,7 @@
         },
         {
           "type": "math",
-          "latex": "\\beta_{\\mathrm{i}}={\\frac{[ \\mathrm{Cov} ( \\mathrm{R}_{\\mathrm{i}} , \\mathrm{R}_{\\mathrm{m}} ) ]} {\\sigma_{\\mathrm{m}}^{2}}}=\\rho_{\\mathrm{im}} \\! \\left( {\\frac{\\sigma_{\\mathrm{i}}} {\\sigma_{\\mathrm{m}}}} \\right)",
+          "latex": "\\beta_i = \\frac{\\operatorname{Cov}(R_i, R_m)}{\\sigma_m^2}",
           "display": true,
           "sourceAsset": "8e90098c9dc0fb670ca4.png"
         },
@@ -761,7 +773,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {{\\mathsf{equation ~ of ~ the ~ CML} ; \\mathrm{E ( R_{\\mathbb{P}} )}=\\mathrm{R_{\\mathbb{f}}}+\\bigg( \\frac{\\mathrm{E ( R_{\\mathbb{M}} )-R_{\\mathbb{f}}}} {\\sigma_{\\mathbb{M}}} \\bigg) \\sigma_{\\mathbb{P}}}} \\\\ {{\\mathrm{E ( R_{\\mathbb{P}} )}=\\mathrm{R_{\\mathbb{f}}}+\\big( \\mathrm{E ( R_{\\mathbb{M}} )-R_{\\mathbb{f}} \\big)} \\! \\! \\left( \\frac{\\sigma_{\\mathbb{P}}} {\\sigma_{\\mathbb{M}}} \\right)}} \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{CML:}\\quad E(R_p) &= R_f + \\left( \\frac{E(R_m) - R_f}{\\sigma_m} \\right) \\sigma_p \\\\[8pt]\n&= R_f + [E(R_m) - R_f] \\left( \\frac{\\sigma_p}{\\sigma_m} \\right)\n\\end{aligned}",
           "display": true,
           "sourceAsset": "37d031accc69305d0b0a.png"
         },
@@ -777,22 +789,19 @@
           "type": "math",
           "latex": "\\text{Sharpe ratio}=\\frac{R_P-R_f}{\\sigma_P}",
           "display": true,
-          "sourceAsset": "e2ac19ef8afcd5bf67ce.png",
-          "prose": "Sharpe ratio"
+          "sourceAsset": "e2ac19ef8afcd5bf67ce.png"
         },
         {
           "type": "math",
-          "latex": "{\\underset{\\mathrm{M-squared}} {}} {\\mathrm{M-squared}}=\\mathrm{R_{f}}+{\\frac{\\sigma_{\\mathrm{M}}} {\\sigma_{\\mathrm{p}}}} ( \\mathrm{R_{\\mathrm{p}}}-\\mathrm{R_{\\mathrm{f}}} )",
+          "latex": "M^2 = R_f + \\left( \\frac{\\sigma_m}{\\sigma_p} \\right) (R_p - R_f)",
           "display": true,
-          "sourceAsset": "80250aed3b166358df5a.png",
-          "prose": "M-squared"
+          "sourceAsset": "80250aed3b166358df5a.png"
         },
         {
           "type": "math",
           "latex": "\\text{Treynor measure}=\\frac{R_P-R_f}{\\beta_P}",
           "display": true,
-          "sourceAsset": "dc4a14f515b2202d88f0.png",
-          "prose": "Treynor measure"
+          "sourceAsset": "dc4a14f515b2202d88f0.png"
         },
         {
           "type": "paragraph",

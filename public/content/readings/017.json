@@ -128,10 +128,10 @@
         {
           "type": "image",
           "src": "content/figures/eb4467953a10883923f2.png",
-          "alt": "Equation, table, or diagram: Figure 17.1: Effects of Tariffs and Quotas",
-          "width": 385,
-          "height": 294,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 742,
+          "height": 567,
+          "alt": "Instructional visual diagram or table: eb4467953a10883923f2.png"
         },
         {
           "type": "paragraph",

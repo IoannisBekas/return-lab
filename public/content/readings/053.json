@@ -22,7 +22,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{1}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{2}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{3}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{4}}+\\frac{107} {( 1+\\Upsilon T \\mathrm{M} )^{5}}} \\\\ {} & {{}=102.078} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {} & {{} \\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{1}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{2}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{3}}+\\frac{7} {( 1+\\Upsilon T \\mathrm{M} )^{4}}+\\frac{107} {( 1+\\Upsilon T \\mathrm{M} )^{5}}} \\\\[8pt] {} & {{}=102.078} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "9cf5320b1e6e2a62908e.png"
         },
@@ -40,7 +40,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{1}}}+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{2}}}+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{3}}}+\\ldots+{\\frac{3.5} {\\left( 1+{\\frac{\\mathrm{YTM}} {2}} \\right)^{9}}}+\\\\[6pt]\\begin{aligned} {} & {{} \\frac{103.5} {\\left( 1+\\frac{\\mathrm{YTM}} {2} \\right)^{10}} \\!=102.078} \\\\ {} & {{} \\mathrm{N}=10 ; \\, \\mathrm{PMT}=3.5 ; \\, \\mathrm{FV}=100 ; \\, \\mathrm{PV}=-102.078 ; \\, \\mathrm{CPT} \\to\\mathrm{L/Y}=3.25396} \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^1} + \\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^2} + \\dots + \\frac{103.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^{10}} = 102.078 \\\\[8pt]\n\\text{N}=10; \\quad \\text{PMT}=3.5; \\quad \\text{FV}=100; \\quad \\text{PV}=-102.078; \\quad \\text{CPT } \\to \\text{I/Y}=3.253\\%\n\\end{gathered}",
           "display": true,
           "sourceAsset": "7b2c0a64ad3b7eeaf1c9.png"
         },
@@ -62,7 +62,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{annual~yield}}=\\left( 1+{\\frac{\\mathrm{YTM}} {n}} \\right)^{n}-1",
+          "latex": "{\\text{annual yield}}=\\left( 1+{\\frac{\\mathrm{YTM}} {n}} \\right)^{n}-1",
           "display": true,
           "sourceAsset": "fc6d684eff966cb4579e.png"
         },
@@ -84,7 +84,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {{\\mathrm{1.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {2}} \\right)^{2}-1=1.05^{2}-1=0.1025=10.25\\%} \\\\ {{\\mathrm{2.~annual~yield}}} & {{}=\\left( 1+{\\frac{0.10} {4}} \\right)^{4}-1=1.025^{4}-1=0.1038=10.3896} \\end{aligned}",
+          "latex": "\\begin{aligned} {{\\text{1. annual yield}}} & {{}=\\left( 1+{\\frac{0.10} {2}} \\right)^{2}-1=1.05^{2}-1=0.1025=10.25\\%} \\\\[8pt] {{\\text{2. annual yield}}} & {{}=\\left( 1+{\\frac{0.10} {4}} \\right)^{4}-1=1.025^{4}-1=0.1038=10.3896} \\end{aligned}",
           "display": true,
           "sourceAsset": "e5ab0f2c64e8ccdaf492.png"
         },
@@ -142,7 +142,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{current~yield=} \\frac{\\mathrm{annual~cash~coupon~payment}} {\\mathrm{bond~price}}",
+          "latex": "\\mathrm{current~yield=} \\frac{\\text{annual cash coupon payment}} {\\text{bond price}}",
           "display": true,
           "sourceAsset": "fb10b3a2c77f9c10eff4.png"
         },
@@ -172,7 +172,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{current~yield}=\\frac{60} {802.07}=0.0748 , \\, \\mathrm{or} \\, \\, 7.48 \\%_{\\circ}",
+          "latex": "\\text{Current yield} = \\frac{\\$60}{\\$802.07} = 0.0748 = 7.48\\%",
           "display": true,
           "sourceAsset": "c5fa56264488e19e5816.png"
         },
@@ -405,7 +405,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {89.464={\\frac{9} {( 1.04+ZS )^{1}}}+{\\frac{9} {( 1.08167+ZS )^{2}}}+{\\frac{109} {( 1.12377+ZS )^{3}}}} \\\\ {\\mathrm{~}} \\\\ {\\Rightarrow\\mathrm{ZS}=1.67 {\\frac{9} {6}} , {\\mathrm{~or~} 167 {\\mathrm{~basis~points}}}} \\end{array}",
+          "latex": "\\begin{gathered}\n89.464 = \\frac{9}{(1.04+ZS)^1} + \\frac{9}{(1.08167+ZS)^2} + \\frac{109}{(1.12377+ZS)^3} \\\\[8pt]\n\\implies ZS = 1.67\\% \\text{ or } 167\\text{ basis points}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "f55d351ab55aee656ffc.png"
         },
@@ -534,7 +534,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\\nCPT\\to I/Y&=3.750\\times2=7.500\\% \\\\\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
+              "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\[8pt]\nCPT\\to I/Y&=3.750\\times2=7.500\\% \\\\[8pt]\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
               "display": true,
               "sourceAsset": "1faede774541a1a6ade5.png"
             }

@@ -23,10 +23,10 @@
         {
           "type": "image",
           "src": "content/figures/6b3f5a22c6fac9c014ac.png",
-          "alt": "Equation, table, or diagram: Figure 58.1: Price-Yield Curve for an Option-Free, 8%, 20-Year Semiannual-Pay Bond",
-          "width": 433,
-          "height": 342,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 834,
+          "height": 659,
+          "alt": "Instructional visual diagram or table: 6b3f5a22c6fac9c014ac.png"
         },
         {
           "type": "paragraph",
@@ -42,10 +42,9 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{convexity~of~cash~flow~at~period~}} t={\\frac{\\text{t} \\times( \\text{t}+1 )} {( 1+\\text{r} )^{2}}}",
+          "latex": "{\\text{convexity of cash flow at period }} t={\\frac{\\text{t} \\times( \\text{t}+1 )} {( 1+\\text{r} )^{2}}}",
           "display": true,
-          "sourceAsset": "332c740b1f5482bf7220.png",
-          "prose": "convexity of cash flow at period"
+          "sourceAsset": "332c740b1f5482bf7220.png"
         },
         {
           "type": "paragraph",
@@ -62,10 +61,10 @@
         {
           "type": "image",
           "src": "content/figures/9ca4fb017d5c655a23b8.png",
-          "alt": "Equation, table, or diagram: (1 × 2) / 1.15² = 1.512, and the convexity of the coupon at Time 2 is (2 × 3) / 1.15² = 4.537. The following table completes the calculations for all five of the bond’s cash flows:",
-          "width": 560,
-          "height": 166,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1077,
+          "height": 320,
+          "alt": "Instructional visual diagram or table: 9ca4fb017d5c655a23b8.png"
         },
         {
           "type": "paragraph",
@@ -85,7 +84,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{approximate~convexity}=\\frac{\\nabla_{-}+\\nabla_{+}-2 \\nabla_{0}} {( \\Delta\\mathrm{YTM} )^{2} \\nabla_{0}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{-}=\\mathrm{price~of~the~bond~if~YTM~is~decreased~by~} \\Delta\\mathrm{YTM}}} \\\\ {{V_{+}=\\mathrm{price~of~the~bond~if~the~YTM~is~increased~by~} \\Delta\\mathrm{YTM}}} \\\\ {{V_{0}=\\mathrm{current~price~of~the~bond}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\text{approximate convexity}=\\frac{\\nabla_{-}+\\nabla_{+}-2 \\nabla_{0}} {( \\Delta\\mathrm{YTM} )^{2} \\nabla_{0}}}} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{-}=\\text{price of the bond if YTM is decreased by } \\Delta\\mathrm{YTM}}} \\\\[8pt] {{V_{+}=\\text{price of the bond if the YTM is increased by } \\Delta\\mathrm{YTM}}} \\\\[8pt] {{V_{0}=\\text{current price of the bond}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "df8f15f8410354be2ea3.png"
         },
@@ -152,10 +151,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~convexity~effect~is~} \\frac{1} {2} \\times16.9 \\times(-0.005 )^{2}=0.000211=0.02119_{6} .",
+          "latex": "\\text{The convexity effect is } \\frac{1}{2} \\times 16.9 \\times (-0.005)^2 = 0.000211 = 0.0211\\%",
           "display": true,
-          "sourceAsset": "5f84a78674f84e299022.png",
-          "prose": "The convexity effect is ."
+          "sourceAsset": "5f84a78674f84e299022.png"
         },
         {
           "type": "paragraph",
@@ -179,7 +177,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{{\\mathrm{change~in~full~price~of~bond}}=-( \\mathrm{MoneyDur} \\times\\Delta\\mathrm{YTM} )}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\left( \\frac{1} {2} \\times\\mathrm{MoneyCon} \\times\\Delta\\mathrm{YTM}^{2} \\right)}} \\end{array}",
+          "latex": "\\begin{array} {l} {{{\\text{change in full price of bond}}=-( \\mathrm{MoneyDur} \\times\\Delta\\mathrm{YTM} )}} \\\\[8pt] {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\[8pt] {{\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\left( \\frac{1} {2} \\times\\mathrm{MoneyCon} \\times\\Delta\\mathrm{YTM}^{2} \\right)}} \\end{array}",
           "display": true,
           "sourceAsset": "d3d20840832aada8fb54.png"
         },
@@ -213,10 +211,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~convexity~effect~is~} \\frac{1} {2} \\times\\$146 , 339 , 432 \\times(-0.005 )^{2}=\\$1 , 829.25.",
+          "latex": "\\text{The convexity effect is } \\frac{1} {2} \\times\\$146 , 339 , 432 \\times(-0.005 )^{2}=\\$1 , 829.25.",
           "display": true,
-          "sourceAsset": "94274d3a5cfd9cd83229.png",
-          "prose": "The convexity effect is ."
+          "sourceAsset": "94274d3a5cfd9cd83229.png"
         },
         {
           "type": "paragraph",
@@ -237,10 +234,10 @@
         {
           "type": "image",
           "src": "content/figures/540393c39595254c6f51.png",
-          "alt": "Equation, table, or diagram: Figure 58.2: Duration-Based Price Estimates vs. Actual Bond Prices",
-          "width": 496,
-          "height": 296,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 955,
+          "height": 571,
+          "alt": "Instructional visual diagram or table: 540393c39595254c6f51.png"
         },
         {
           "type": "question",
@@ -257,7 +254,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{portfolio~duration}=\\mathrm{W}_{1} \\, \\mathrm{D}_{1}+\\mathrm{W}_{2} \\, \\mathrm{D}_{2}+\\ldots+\\mathrm{W}_{N} \\, \\mathrm{D}_{N}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{W}_{i}=\\mathrm{full~price~of~bond~} i \\mathrm{~divided~by~the~total~value~of~the~portfolion}}} \\\\ {{\\mathrm{D}_{i}=\\mathrm{duration~of~bond~} i}} \\\\ {{\\mathrm{N~}=\\mathrm{number~of~bonds~in~the~portfolio}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\text{portfolio duration}=\\mathrm{W}_{1} \\, \\mathrm{D}_{1}+\\mathrm{W}_{2} \\, \\mathrm{D}_{2}+\\ldots+\\mathrm{W}_{N} \\, \\mathrm{D}_{N}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{W}_{i}=\\text{full price of bond } i \\text{ divided by the total value of the portfolion}}} \\\\ {{\\mathrm{D}_{i}=\\text{duration of bond } i}} \\\\ {{\\mathrm{N~}=\\text{number of bonds in the portfolio}}} \\end{array}",
           "display": true,
           "sourceAsset": "7ae24eeee05899084e39.png"
         },
@@ -288,7 +285,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{convexity~of~cash~flow~at~period~} t=\\frac{\\mathrm{t} \\times\\mathrm{(t+1)}} {\\left( 1+\\mathrm{r} \\right)^{2}}}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{t}=\\mathrm{period~at~which~the~cash~flow~occurs}}} \\\\ {{\\mathrm{r}=\\mathrm{periodic~yield~of~the~bond~(YTM/periodicity)}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\text{convexity of cash flow at period } t=\\frac{\\mathrm{t} \\times\\mathrm{(t+1)}} {\\left( 1+\\mathrm{r} \\right)^{2}}}} \\\\[8pt] {{\\mathrm{where:}}} \\\\[8pt] {{\\mathrm{t}=\\text{period at which the cash flow occurs}}} \\\\[8pt] {{\\mathrm{r}=\\text{periodic yield of the bond (YTM/periodicity)}}} \\end{array}",
       "display": true,
       "sourceAsset": "7cd666806e65da2a19e6.png"
     },
@@ -306,7 +303,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{approximate~convexity}=\\frac{\\nabla_{-}+\\nabla_{+}-2 \\nabla_{0}} {( \\Delta\\mathrm{YTM} )^{2} \\nabla_{0}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{-}=\\mathrm{price~of~the~bond~if~YTM~is~decreased~by~} \\Delta\\mathrm{YTM}}} \\\\ {{V_{+}=\\mathrm{price~of~the~bond~if~the~YTM~is~increased~by~} \\Delta\\mathrm{YTM}}} \\\\ {{V_{0}=\\mathrm{current~price~of~the~bond}}} \\end{array}\\end{gathered}",
+      "latex": "\\begin{gathered}\\begin{array} {l} {{\\text{approximate convexity}=\\frac{\\nabla_{-}+\\nabla_{+}-2 \\nabla_{0}} {( \\Delta\\mathrm{YTM} )^{2} \\nabla_{0}}}} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{V_{-}=\\text{price of the bond if YTM is decreased by } \\Delta\\mathrm{YTM}}} \\\\[8pt] {{V_{+}=\\text{price of the bond if the YTM is increased by } \\Delta\\mathrm{YTM}}} \\\\[8pt] {{V_{0}=\\text{current price of the bond}}} \\end{array}\\end{gathered}",
       "display": true,
       "sourceAsset": "670c844b9a06e2270264.png"
     },
@@ -321,7 +318,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {c} {{\\Phi_{0} \\Delta\\mathrm{~full~bond~price}=-\\mathrm{annual~modified~duration} \\, ( \\Delta\\mathrm{YTM} )}} \\\\ {{\\phantom{\\Phi_{0} \\Delta\\mathrm{~full~bond~price}}+\\frac{1} {2} \\, \\mathrm{annual~convexity} ( \\Delta\\mathrm{YTM} )^{2}}} \\end{array}",
+      "latex": "\\begin{array} {c} {{\\Phi_{0} \\Delta\\text{ full bond price}=-\\text{annual modified duration} \\, ( \\Delta\\mathrm{YTM} )}} \\\\[8pt] {{\\phantom{\\Phi_{0} \\Delta\\text{ full bond price}}+\\frac{1} {2} \\, \\text{annual convexity} ( \\Delta\\mathrm{YTM} )^{2}}} \\end{array}",
       "display": true,
       "sourceAsset": "c80882037440de0a077d.png"
     },
@@ -339,7 +336,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{{\\mathrm{change~in~full~price~of~bond}}=-( \\mathrm{MoneyDur} \\times\\Delta\\mathrm{YTM} )}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\left( \\frac{1} {2} \\times\\mathrm{MoneyCon} \\times\\Delta\\mathrm{YTM}^{2} \\right)}} \\end{array}",
+      "latex": "\\begin{array} {l} {{{\\text{change in full price of bond}}=-( \\mathrm{MoneyDur} \\times\\Delta\\mathrm{YTM} )}} \\\\[8pt] {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}}} \\\\[8pt] {{\\qquad\\qquad\\qquad\\qquad\\qquad\\quad{}+\\left( \\frac{1} {2} \\times\\mathrm{MoneyCon} \\times\\Delta\\mathrm{YTM}^{2} \\right)}} \\end{array}",
       "display": true,
       "sourceAsset": "9492fc73aad427db9e70.png"
     },
@@ -428,7 +425,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{array} {llllllllll} {{}} & {{}} & {{}} & {{}} & {{}} & {{}} & {{\\underline{{Convexity}}}} \\\\ {{C_{1}=10}} & {{}} & {{\\mathrm{PV}}_{1}=10 \\ / \\ 1.10} & {{}=\\ 9.091} & {{}} & {{} {\\mathrm{W}}_{1}=9.091 \\ / \\ 100} & {{}=\\ 0.09091} & {{} {\\mathrm{1.653}}} \\\\ {{C_{2}=110}} & {{}} & {{\\mathrm{PV}}_{2}=110 \\ / \\ 1.10^{2}={\\frac{90.909} {100}}} & {{}} & {{}} & {{\\mathrm{W}}_{2}=90.909 \\ / \\ 100} & {{}=\\ 0.90909} & {{} {\\mathrm{4.959}}} \\\\ {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} \\end{array}",
+              "latex": "\\begin{array} {llllllllll} {{}} & {{}} & {{}} & {{}} & {{}} & {{}} & {{\\underline{{Convexity}}}} \\\\[8pt] {{C_{1}=10}} & {{}} & {{\\mathrm{PV}}_{1}=10 \\ / \\ 1.10} & {{}=\\ 9.091} & {{}} & {{} {\\mathrm{W}}_{1}=9.091 \\ / \\ 100} & {{}=\\ 0.09091} & {{} {\\mathrm{1.653}}} \\\\[8pt] {{C_{2}=110}} & {{}} & {{\\mathrm{PV}}_{2}=110 \\ / \\ 1.10^{2}={\\frac{90.909} {100}}} & {{}} & {{}} & {{\\mathrm{W}}_{2}=90.909 \\ / \\ 100} & {{}=\\ 0.90909} & {{} {\\mathrm{4.959}}} \\\\[8pt] {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} & {{}} & {{\\mathrm{100}}} \\end{array}",
               "display": true,
               "sourceAsset": "fdd978dab85ba9086129.png"
             },
@@ -469,7 +466,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0} \\\\[4pt]\nV_-=\\text{price of the bond if YTM is decreased by }\\Delta YTM, \\\\\nV_+=\\text{price of the bond if YTM is increased by }\\Delta YTM, \\\\\nV_0=\\text{current price of the bond} \\\\[4pt]\n\\text{Approximate convexity}\n=\\frac{104.9108+103.9954-2(104.4518)}{0.001^2\\times104.4518}=24.89\n\\end{gathered}",
+              "latex": "\\begin{gathered}\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0} \\\\[4pt]\nV_-=\\text{price of the bond if YTM is decreased by }\\Delta YTM, \\\\[8pt]\nV_+=\\text{price of the bond if YTM is increased by }\\Delta YTM, \\\\[8pt]\nV_0=\\text{current price of the bond} \\\\[4pt]\n\\text{Approximate convexity}\n=\\frac{104.9108+103.9954-2(104.4518)}{0.001^2\\times104.4518}=24.89\n\\end{gathered}",
               "display": true,
               "sourceAsset": "c2785f32c5de517653d6.png"
             }
@@ -511,10 +508,10 @@
             {
               "type": "image",
               "src": "content/figures/a9abb4ccbda249ca69e9.png",
-              "alt": "Equation, table, or diagram:  is a semiannual coupon bond; hence, it has coupons of $5 every six months and has a periodic six-month return of 5%. The weights for each cash flow time are calculated as follows:",
-              "width": 537,
-              "height": 138,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 1034,
+              "height": 267,
+              "alt": "Instructional visual diagram or table: a9abb4ccbda249ca69e9.png"
             },
             {
               "type": "paragraph",

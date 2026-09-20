@@ -165,10 +165,10 @@
         {
           "type": "image",
           "src": "content/figures/97e98af8fc5291307d5c.png",
-          "alt": "Equation, table, or diagram: Figure 3.1: Box and Whisker Plot",
-          "width": 519,
-          "height": 306,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 999,
+          "height": 590,
+          "alt": "Instructional visual diagram or table: 97e98af8fc5291307d5c.png"
         },
         {
           "type": "question",
@@ -235,7 +235,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\overline{{{X}}}} & {{}=\\frac{\\left[ 30+12+25+20+23 \\right]} {5}=227_{0}^{\\prime}} \\\\ {} & {{} \\mathrm{MAD}=\\frac{\\left[ \\left| 30-22 \\right|+\\left| 12-22 \\right|+\\left| 25-22 \\right|+\\left| 20-22 \\right|+\\left| 23-22 \\right| \\right]} {5}} \\\\ {} & {{} \\mathrm{MAD}=\\frac{\\left[ 8+10+3+2+1 \\right]} {5}=4.89_{6}^{\\prime}} \\end{aligned}",
+          "latex": "\\begin{aligned}\n\\bar{X} &= \\frac{30+12+25+20+23}{5} = 22\\% \\\\[8pt]\n\\text{MAD} &= \\frac{|30-22| + |12-22| + |25-22| + |20-22| + |23-22|}{5} \\\\[8pt]\n&= \\frac{8 + 10 + 3 + 2 + 1}{5} = 4.8\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "a3456fb018c5b468db7b.png"
         },
@@ -271,7 +271,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned}\n\\bar{X} &= \\frac{30+12+25+20+23}{5} = 22\\% \\\\\ns^2 &= \\frac{(30-22)^2+(12-22)^2+(25-22)^2+(20-22)^2+(23-22)^2}{5-1} = 44.5(\\%^2)\n\\end{aligned}",
+          "latex": "\\begin{aligned}\n\\bar{X} &= \\frac{30+12+25+20+23}{5} = 22\\% \\\\[8pt]\ns^2 &= \\frac{(30-22)^2+(12-22)^2+(25-22)^2+(20-22)^2+(23-22)^2}{5-1} = 44.5(\\%^2)\n\\end{aligned}",
           "display": true,
           "sourceAsset": "2c2e94112153ae13e113.png"
         },
@@ -307,7 +307,7 @@
         },
         {
           "type": "math",
-          "latex": "s=[ 44.5 ( {\\%}^{2} ) ]^{1 / 2}=6.67 {9 \\surd}_{0} , \\, \\sqrt{0.00445}=0.0667",
+          "latex": "s = [44.5(\\%^2)]^{1/2} = 6.67\\%, \\qquad \\sqrt{0.00445} = 0.0667",
           "display": true,
           "sourceAsset": "c9ea1d43f6db65645d23.png"
         },
@@ -321,7 +321,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{CV}={\\frac{s_{\\mathrm{x}}} {\\overline{{X}}}}={\\frac{\\mathrm{standard~deviation~of~x}} {\\mathrm{average~value~of~x}}}",
+          "latex": "\\mathrm{CV}={\\frac{s_{\\mathrm{x}}} {\\overline{{X}}}}={\\frac{\\text{standard deviation of x}} {\\text{average value of x}}}",
           "display": true,
           "sourceAsset": "ba1575952afa0aa275ba.png"
         },
@@ -343,7 +343,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{CV}_{\\mathrm{T-bills}}=\\frac{0.36} {0.25}=1.44} \\\\ {\\mathrm{CV}_{\\mathrm{S.\\&P.500}}=\\frac{7.30} {1.09}=6.70} \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{CV}_{\\text{T-bills}} &= \\frac{0.36}{0.25} = 1.44 \\\\[8pt]\n\\text{CV}_{\\text{S\\&P 500}} &= \\frac{7.30}{1.09} = 6.70\n\\end{aligned}",
           "display": true,
           "sourceAsset": "593a19d743817e2bbf1b.png"
         },
@@ -373,7 +373,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{s_{\\mathrm{target}}=\\sqrt{\\displaystyle\\frac{\\sum_{\\mathrm{all} \\, X_{\\mathrm{i}} < B}^{n} ( X_{\\mathrm{i}}-B )^{2}} {n-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{s_{\\mathrm{target}}=\\sqrt{\\displaystyle\\frac{\\sum_{\\mathrm{all} \\, X_{\\mathrm{i}} < B}^{n} ( X_{\\mathrm{i}}-B )^{2}} {n-1}}}} \\\\[8pt] {{\\mathrm{where~B=the~target}}} \\end{array}",
           "display": true,
           "sourceAsset": "d6d9529601595d2f2311.png"
         },
@@ -396,10 +396,10 @@
         {
           "type": "image",
           "src": "content/figures/f01e0cc2132ef3c85097.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 355,
-          "height": 263,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 684,
+          "height": 507,
+          "alt": "Instructional visual diagram or table: f01e0cc2132ef3c85097.png"
         }
       ]
     },
@@ -455,10 +455,10 @@
         {
           "type": "image",
           "src": "content/figures/0abb7ae175098e266ea2.png",
-          "alt": "Equation, table, or diagram: Figure 3.2: Effect of Skewness on Mean, Median, and Mode",
-          "width": 332,
-          "height": 569,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 640,
+          "height": 1096,
+          "alt": "Instructional visual diagram or table: 0abb7ae175098e266ea2.png"
         },
         {
           "type": "paragraph",
@@ -501,10 +501,10 @@
         {
           "type": "image",
           "src": "content/figures/8b6dbaf0a943ad03050a.png",
-          "alt": "Equation, table, or diagram: Figure 3.3: Kurtosis",
-          "width": 375,
-          "height": 160,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 723,
+          "height": 308,
+          "alt": "Instructional visual diagram or table: 8b6dbaf0a943ad03050a.png"
         },
         {
           "type": "paragraph",
@@ -520,7 +520,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{~sample~kurtosis}} \\approx\\left( {\\frac{1} {n}} \\right) {\\frac{\\sum_{i=1}^{n} ( {\\bf X}_{i}-{\\overline{{X}}} )^{4}} {s^{4}}}} \\\\ {{\\mathrm{~where:~}}} \\\\ {{\\mathrm{~s=sample~standard~deviation}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\text{ sample kurtosis}} \\approx\\left( {\\frac{1} {n}} \\right) {\\frac{\\sum_{i=1}^{n} ( {\\bf X}_{i}-{\\overline{{X}}} )^{4}} {s^{4}}}} \\\\[8pt] {{\\mathrm{~where:~}}} \\\\[8pt] {{\\mathrm{~s=sample~standard~deviation}}} \\end{array}",
           "display": true,
           "sourceAsset": "1e791dfa134186da6bea.png"
         },
@@ -548,10 +548,10 @@
         {
           "type": "image",
           "src": "content/figures/601aa84f8a5e0448fd55.png",
-          "alt": "Equation, table, or diagram: Figure 3.4: Scatter Plots",
-          "width": 489,
-          "height": 429,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 942,
+          "height": 826,
+          "alt": "Instructional visual diagram or table: 601aa84f8a5e0448fd55.png"
         },
         {
           "type": "paragraph",
@@ -559,7 +559,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}s_{XY}={\\frac{\\sum_{i=1}^{n} \\Bigl\\{\\left[ \\mathrm{X}_{i}-{\\overline{{\\mathrm{X}}}} \\right] \\left[ \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} \\right] \\Bigr\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {rl} {} & {{} X_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} X} \\\\ {} & {{} Y_{\\mathrm{i}}={\\mathrm{an~observation~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} X} \\\\ {} & {{}={\\mathrm{mean~of~variable~}} Y} \\\\ {} & {{}={\\mathrm{number~of~periods}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}s_{XY}={\\frac{\\sum_{i=1}^{n} \\Bigl\\{\\left[ \\mathrm{X}_{i}-{\\overline{{\\mathrm{X}}}} \\right] \\left[ \\mathrm{Y}_{i}-{\\overline{{\\mathrm{Y}}}} \\right] \\Bigr\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {rl} {} & {{} X_{\\mathrm{i}}={\\text{an observation of variable }} X} \\\\[8pt] {} & {{} Y_{\\mathrm{i}}={\\text{an observation of variable }} Y} \\\\[8pt] {} & {{}={\\text{mean of variable }} X} \\\\[8pt] {} & {{}={\\text{mean of variable }} Y} \\\\[8pt] {} & {{}={\\text{number of periods}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "45d902daba8dba33457c.png"
         },
@@ -725,8 +725,7 @@
       "type": "math",
       "latex": "\\text{Coefficient of variation (CV)} = \\frac{s_x}{\\bar{X}} = \\frac{\\text{standard deviation of } X}{\\text{mean of } X}",
       "display": true,
-      "sourceAsset": "5ccb6fd44842b0b8b684.png",
-      "prose": "The coefficient of variation (CV) for sample data, , is the ratio of the standard deviation of the sample to its mean."
+      "sourceAsset": "5ccb6fd44842b0b8b684.png"
     },
     {
       "type": "paragraph",
@@ -734,7 +733,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {s_{\\mathrm{{target}}}={\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{{i}}} < \\mathrm{{B}}}^{\\mathrm{{i}}} ( \\mathrm{{X}_{\\mathrm{{i}}}-\\mathrm{{B}}} )^{2}} {\\mathrm{{n}}-1}}}} \\\\ {{\\mathrm{where~B=the~target}}} \\end{array}",
+      "latex": "\\begin{array} {l} {s_{\\mathrm{{target}}}={\\sqrt{\\frac{\\displaystyle\\sum_{\\mathrm{all} \\, X_{\\mathrm{{i}}} < \\mathrm{{B}}}^{\\mathrm{{i}}} ( \\mathrm{{X}_{\\mathrm{{i}}}-\\mathrm{{B}}} )^{2}} {\\mathrm{{n}}-1}}}} \\\\[8pt] {{\\mathrm{where~B=the~target}}} \\end{array}",
       "display": true,
       "sourceAsset": "85dce500a11ecb7d518a.png"
     },
@@ -780,8 +779,7 @@
       "type": "math",
       "latex": "\\rho_{A,B}=\\frac{\\operatorname{Cov}_{A,B}}{\\sigma_A\\sigma_B},\\qquad -1\\le\\rho_{A,B}\\le1",
       "display": true,
-      "sourceAsset": "627c06d97f95c2ab28d4.png",
-      "prose": "ranges in value from −1 to +1 and is equal to ."
+      "sourceAsset": "627c06d97f95c2ab28d4.png"
     },
     {
       "type": "paragraph",
@@ -866,7 +864,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {clclcl} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "latex": "\\begin{array}{cccccc}\n\\hline\n\\text{20X1} & \\text{20X2} & \\text{20X3} & \\text{20X4} & \\text{20X5} & \\text{20X6} \\\\\n\\hline\n22\\% & 5\\% & -7\\% & 11\\% & 2\\% & 11\\% \\\\\n\\hline\n\\end{array}",
               "display": true,
               "sourceAsset": "0eb2f4bb0265403fd90b.png"
             }
@@ -898,7 +896,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{aligned} {s} & {{}=\\sqrt{\\frac{( 22-7.3 )^{2}+( 5-7.3 )^{2}+(-7-7.3 )^{2}+( 11-7.3 )^{2}+( 2-7.3 )^{2}+( 11-7.3 )^{2}+( 11-7.3 )^{2}} {6-1}}} \\\\ {} & {{}=\\sqrt{96.3}=9.80.} \\\\ \\end{aligned}",
+              "latex": "\\begin{aligned} {s} & {{}=\\sqrt{\\frac{( 22-7.3 )^{2}+( 5-7.3 )^{2}+(-7-7.3 )^{2}+( 11-7.3 )^{2}+( 2-7.3 )^{2}+( 11-7.3 )^{2}+( 11-7.3 )^{2}} {6-1}}} \\\\[8pt] {} & {{}=\\sqrt{96.3}=9.80.} \\\\[8pt] \\end{aligned}",
               "display": true,
               "sourceAsset": "90b80c482e9fe48007b6.png"
             }
@@ -914,7 +912,7 @@
           "supportingBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{array} {clclcl} {\\begin{array} {c} {\\sf20 X 1} & {\\sf20 X 2} & {\\sf20 X 3} & {\\sf20 X 4} & {\\sf20 X 5} & {\\sf20 X 6} \\\\ \\hline{2296} & {596} & {-796} & {1196} & {296} & {1196} \\\\ \\end{array}} \\\\ \\end{array}",
+              "latex": "\\begin{array}{cccccc}\n\\hline\n\\text{20X1} & \\text{20X2} & \\text{20X3} & \\text{20X4} & \\text{20X5} & \\text{20X6} \\\\\n\\hline\n22\\% & 5\\% & -7\\% & 11\\% & 2\\% & 11\\% \\\\\n\\hline\n\\end{array}",
               "display": true,
               "sourceAsset": "181d797a8aba1624a9d8.png"
             }
@@ -972,8 +970,7 @@
               "type": "math",
               "latex": "{\\sqrt{\\frac{(-6 )^{2}+(-18 )^{2}+(-9 )^{2}} {6-1}}}={\\sqrt{88.2}}=9.39 {\\mathcal{Y}}_{6}",
               "display": true,
-              "sourceAsset": "57c54b007ce544519963.png",
-              "prose": "."
+              "sourceAsset": "57c54b007ce544519963.png"
             }
           ]
         }

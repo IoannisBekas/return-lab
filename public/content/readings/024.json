@@ -75,7 +75,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nNPV=CF_0+\\frac{CF_1}{(1+k)^1}+\\frac{CF_2}{(1+k)^2}+\\cdots+\\frac{CF_n}{(1+k)^n}\n=\\sum_{t=0}^{n}\\frac{CF_t}{(1+k)^t}\\\\\nCF_0=\\text{initial investment outlay};\\quad CF_t=\\text{after-tax cash flow at time }t;\\quad\nk=\\text{required rate of return}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{NPV} = \\text{CF}_0 + \\frac{\\text{CF}_1}{(1+k)^1} + \\frac{\\text{CF}_2}{(1+k)^2} + \\dots + \\frac{\\text{CF}_n}{(1+k)^n} = \\sum_{t=0}^n \\frac{\\text{CF}_t}{(1+k)^t} \\\\[8pt]\n\\text{CF}_0 = \\text{initial investment outlay}; \\quad \\text{CF}_t = \\text{after-tax cash flow at time } t; \\quad k = \\text{required rate of return}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "0e824a9a1e09a3080901.png"
         },
@@ -102,10 +102,10 @@
         {
           "type": "image",
           "src": "content/figures/b71b7cae1deda1f0d8cf.png",
-          "alt": "Equation, table, or diagram: Figure 24.1: Expected Net After-Tax Cash Flows",
-          "width": 192,
-          "height": 115,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 370,
+          "height": 222,
+          "alt": "Instructional visual diagram or table: b71b7cae1deda1f0d8cf.png"
         },
         {
           "type": "heading",
@@ -132,10 +132,10 @@
         {
           "type": "image",
           "src": "content/figures/5542ca21f605a2cfa982.png",
-          "alt": "Equation, table, or diagram: Figure 24.2: Calculating NPV With the TI BA II Plus™",
-          "width": 479,
-          "height": 278,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 922,
+          "height": 535,
+          "alt": "Instructional visual diagram or table: 5542ca21f605a2cfa982.png"
         },
         {
           "type": "heading",
@@ -243,7 +243,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{net~operating~profit~after~tax}} {\\mathrm{average~book~value~of~invested~capital}}}",
+          "latex": "{\\text{return on invested capital}}={\\frac{\\text{net operating profit after tax}} {\\text{average book value of invested capital}}}",
           "display": true,
           "sourceAsset": "1ddcf8a3c7f8bbfdccd8.png"
         },
@@ -257,7 +257,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{ROIC}}=\\left( {\\frac{\\mathrm{NOPAT}} {\\mathrm{Average~Invested~Capital}}} \\right)=\\left( {\\frac{\\mathrm{NOPAT}} {\\mathrm{Sales}}} \\right) \\times\\left( {\\frac{\\mathrm{Sales}} {\\mathrm{Average~Invested~Capital}}} \\right)",
+          "latex": "{\\mathrm{ROIC}}=\\left( {\\frac{\\mathrm{NOPAT}} {\\text{Average Invested Capital}}} \\right)=\\left( {\\frac{\\mathrm{NOPAT}} {\\mathrm{Sales}}} \\right) \\times\\left( {\\frac{\\mathrm{Sales}} {\\text{Average Invested Capital}}} \\right)",
           "display": true,
           "sourceAsset": "3fafc770615b21a67cf4.png"
         },

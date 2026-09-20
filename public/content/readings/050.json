@@ -140,10 +140,10 @@
         {
           "type": "image",
           "src": "content/figures/f02266fc1f325393b01c.png",
-          "alt": "Equation, table, or diagram: Figure 50.1: Repurchase Agreement",
-          "width": 499,
-          "height": 275,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 961,
+          "height": 529,
+          "alt": "Instructional visual diagram or table: f02266fc1f325393b01c.png"
         },
         {
           "type": "paragraph",
@@ -159,7 +159,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{purchase~price~(loan~amount)}} & {{}=\\frac{\\mathrm{market~value~of~securities}} {\\mathrm{initial~margin}}=\\frac{\\$1 , 000 , 000} {1.03}} \\\\ {} & {{}=\\$970 , 874} \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{purchase price (loan amount)}} & {{}=\\frac{\\text{market value of securities}} {\\text{initial margin}}=\\frac{\\$1 , 000 , 000} {1.03}} \\\\[8pt] {} & {{}=\\$970 , 874} \\end{aligned}",
           "display": true,
           "sourceAsset": "658073816e386202427e.png"
         },
@@ -185,8 +185,7 @@
           "type": "math",
           "latex": "\\text{Haircut} = 1 - \\frac{1}{1 + \\text{initial margin percentage}}",
           "display": true,
-          "sourceAsset": "646b97c76d873b2eca8a.png",
-          "prose": "The haircut can also be calculated quickly as ."
+          "sourceAsset": "646b97c76d873b2eca8a.png"
         },
         {
           "type": "paragraph",
@@ -198,7 +197,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{adjusted~loan~amount~after~30~days}={\\cal S} 970 , 874 \\times\\left[ 1+( 0.02 \\times( 30 \\ / 360 ) \\right]}} \\\\ {{={\\cal S} 972 , 492}} \\\\ {{8972 , 492 \\times1.03={\\cal S} 1 , 001 , 667. \\ \\mathrm{Biecause~the~collateral~value~is~less~than~this,the}}} \\\\ {{\\mathrm{borrower~must~provide~variation~margin.}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\mathrm{variation~margin}} & {{}=\\left( \\mathrm{initial~margin} \\times\\mathrm{adjusted~purchase~price} \\right)-\\mathrm{market~value~of~collaterals}} \\\\ {} & {{}=\\$1 , 001 , 667-\\$990 , 000=\\$11 , 667} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\text{Adjusted loan amount after 30 days} = \\$970{,}874 \\times \\left[1 + (0.02 \\dots)\\right]",
           "display": true,
           "sourceAsset": "c96b4a7d763460d297b0.png"
         },

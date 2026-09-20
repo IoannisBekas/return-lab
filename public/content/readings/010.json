@@ -57,10 +57,10 @@
         {
           "type": "image",
           "src": "content/figures/9da1c0fc74f15ff5640f.png",
-          "alt": "Equation, table, or diagram: Figure 10.1: Scatter Plot of ABC Excess Returns vs. S&P 500 Index Excess Returns",
-          "width": 519,
-          "height": 308,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 999,
+          "height": 593,
+          "alt": "Instructional visual diagram or table: 9da1c0fc74f15ff5640f.png"
         },
         {
           "type": "paragraph",
@@ -98,29 +98,25 @@
           "type": "math",
           "latex": "\\text{The hat symbol } (\\hat{\\ }) \\text{ above a variable denotes an estimated value.}",
           "display": true,
-          "sourceAsset": "08c3d6fd673c74150114.png",
-          "prose": "Study note The hat “ˆ above a variable or parameter indicates a predicted value."
+          "sourceAsset": "08c3d6fd673c74150114.png"
         },
         {
           "type": "math",
           "latex": "\\hat Y_i=\\hat b_0+\\hat b_1X_i,\\qquad \\hat\\varepsilon_i=Y_i-\\hat Y_i,\\qquad SSE=\\sum_i(Y_i-\\hat Y_i)^2",
           "display": true,
-          "sourceAsset": "aa3f0ae0b7423f0e5858.png",
-          "prose": "The regression line is just one of the many possible lines that can be drawn through the scatter plot of X and Y. The criteria used to estimate this line is the essence of linear regression. The regression line is the line that minimizes the sum of the squared differences (vertical distances) between the Y-values predicted by the regression equation and the actual Y-values, Yi. The sum of the squared vertical distances between the estimated and actual Y-values is referred to as the sum of squared errors (SSE)."
+          "sourceAsset": "aa3f0ae0b7423f0e5858.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{Thus~the~regression~line~is~the~line~that~minimizes~the~SSE.~This~explains~why~simple}} \\\\ {\\mathrm{~ linear ~ regression ~ is ~ frequently ~ referred ~ to ~ as ~ ordinary ~ least ~ squares ~ {\\bf~ ( 01 S )} ~ regression ,}} \\\\ {\\mathrm{~ and ~ the ~ values ~ determined ~ by ~ the ~ estimated ~ regression ~ equation , ~ \\overset{\\sim} {Y}_{*} ~ are ~ called ~ least}} \\\\ {\\mathrm{~suares~estimates.}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\text{Thus the regression line is the line that minimizes the SSE. This explains why simple}} \\\\ {\\mathrm{~ linear ~ regression ~ is ~ frequently ~ referred ~ to ~ as ~ ordinary ~ least ~ squares ~ {\\bf~ ( 01 S )} ~ regression ,}} \\\\ {\\mathrm{~ and ~ the ~ values ~ determined ~ by ~ the ~ estimated ~ regression ~ equation , ~ \\overset{\\sim} {Y}_{*} ~ are ~ called ~ least}} \\\\ {\\text{ suares estimates.}} \\\\ \\end{array}",
           "display": true,
-          "sourceAsset": "391ca00a31fbef716c83.png",
-          "prose": "Thus, the regression line is the line that minimizes the SSE. This explains why simple linear regression is frequently referred to as ordinary least squares (OLS) regression, and the values determined by the estimated regression equation, , are called least squares estimates."
+          "sourceAsset": "391ca00a31fbef716c83.png"
         },
         {
           "type": "math",
           "latex": "\\hat b_1=\\frac{\\operatorname{Cov}(X,Y)}{\\operatorname{Var}(X)}",
           "display": true,
-          "sourceAsset": "7015ab810672b1cdbf25.png",
-          "prose": "The estimated slope coefficient ( ) for the regression line describes the change in Y for a one-unit change in X. It can be positive, negative, or zero, depending on the relationship between the regression variables. The slope term is calculated as follows:"
+          "sourceAsset": "7015ab810672b1cdbf25.png"
         },
         {
           "type": "math",
@@ -132,8 +128,7 @@
           "type": "math",
           "latex": "\\begin{gathered}\n\\text{The intercept term } (\\hat{b}_0) \\text{ is the line's intersection with the } Y\\text{-axis at } X = 0\\text{.} \\\\\n\\text{It may be positive, negative, or zero. It is expressed as: } \\hat{b}_0 = \\bar{Y} - \\hat{b}_1 \\bar{X}\n\\end{gathered}",
           "display": true,
-          "sourceAsset": "cf91320a47a33772fb90.png",
-          "prose": "The intercept term is the line’s intersection with the Y-axis at X = 0. It can be positive, negative, or zero. A property of the least squares method is that the intercept term may be expressed as follows:"
+          "sourceAsset": "cf91320a47a33772fb90.png"
         },
         {
           "type": "math",
@@ -155,7 +150,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {lll} {\\mathrm{Cov} ( \\mathrm{S\\&P~500} , \\mathrm{ABC} )} & {=0.000336 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{S\\&P~500}} & {=-2.70 \\%_{0}} \\\\ {\\mathrm{Var} ( \\mathrm{S\\&P~500} )} & {=0.000522 ~ ~ \\mathrm{Mean~return} , \\, \\mathrm{ABC}} & {=-4.05 \\%_{0}} \\\\ \\end{array}",
+          "latex": "\\begin{aligned}\n\\operatorname{Cov}(\\text{S\\&P 500}, \\text{ABC}) &= 0.000336, &\\quad \\text{Mean return, S\\&P 500} &= -2.70\\% \\\\[6pt]\n\\operatorname{Var}(\\text{S\\&P 500}) &= 0.000522, &\\quad \\text{Mean return, ABC} &= -4.05\\%\n\\end{aligned}",
           "display": true,
           "sourceAsset": "6786e9c8fdf29d0f0749.png"
         },
@@ -167,8 +162,7 @@
           "type": "math",
           "latex": "\\hat b_1=0.000336/0.000522=0.64",
           "display": true,
-          "sourceAsset": "132625f42e17d9eed9a2.png",
-          "prose": "The slope coefficient is calculated as ."
+          "sourceAsset": "132625f42e17d9eed9a2.png"
         },
         {
           "type": "paragraph",
@@ -195,10 +189,10 @@
         {
           "type": "image",
           "src": "content/figures/d7950b109124bca7e783.png",
-          "alt": "Equation, table, or diagram: Figure 10.2: Estimated Regression Equation for ABC vs. S&P 500 Excess Returns",
-          "width": 523,
-          "height": 318,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1006,
+          "height": 612,
+          "alt": "Instructional visual diagram or table: d7950b109124bca7e783.png"
         },
         {
           "type": "heading",
@@ -284,10 +278,10 @@
         {
           "type": "image",
           "src": "content/figures/e9fe437d2cbb78649eeb.png",
-          "alt": "Equation, table, or diagram: Figure 10.3: Nonlinear Relationship",
-          "width": 380,
-          "height": 446,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 732,
+          "height": 858,
+          "alt": "Instructional visual diagram or table: e9fe437d2cbb78649eeb.png"
         },
         {
           "type": "heading",
@@ -304,10 +298,10 @@
         {
           "type": "image",
           "src": "content/figures/e378b5d3ab7a386e8075.png",
-          "alt": "Equation, table, or diagram: Figure 10.4: Heteroskedasticity",
-          "width": 366,
-          "height": 434,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 704,
+          "height": 835,
+          "alt": "Instructional visual diagram or table: e378b5d3ab7a386e8075.png"
         },
         {
           "type": "paragraph",
@@ -332,10 +326,10 @@
         {
           "type": "image",
           "src": "content/figures/026b7fda06c5d5aea4d2.png",
-          "alt": "Equation, table, or diagram: Figure 10.5: Independence",
-          "width": 384,
-          "height": 433,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 740,
+          "height": 833,
+          "alt": "Instructional visual diagram or table: 026b7fda06c5d5aea4d2.png"
         },
         {
           "type": "heading",
@@ -434,10 +428,10 @@
         {
           "type": "image",
           "src": "content/figures/c8eb2e282deb8c77134a.png",
-          "alt": "Equation, table, or diagram: Figure 10.6: Components of Total Variation",
-          "width": 394,
-          "height": 177,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 759,
+          "height": 342,
+          "alt": "Instructional visual diagram or table: c8eb2e282deb8c77134a.png"
         },
         {
           "type": "paragraph",
@@ -450,10 +444,10 @@
         {
           "type": "image",
           "src": "content/figures/79f79c5f771dc0c6d232.png",
-          "alt": "Equation, table, or diagram: Figure 10.7: ANOVA Table for a Simple Linear Regression",
-          "width": 536,
-          "height": 145,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 280,
+          "alt": "Instructional visual diagram or table: 79f79c5f771dc0c6d232.png"
         },
         {
           "type": "heading",
@@ -506,10 +500,10 @@
         {
           "type": "image",
           "src": "content/figures/e98a2249f50bbd26673e.png",
-          "alt": "Equation, table, or diagram: Completed ANOVA table for ABC regression",
-          "width": 469,
-          "height": 109,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 903,
+          "height": 211,
+          "alt": "Instructional visual diagram or table: e98a2249f50bbd26673e.png"
         },
         {
           "type": "heading",
@@ -517,7 +511,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{R^{2}}={\\frac{\\mathrm{explained~variation~(SSR)}} {\\mathrm{total~variation~(SST)}}}={\\frac{0.0076} {0.0482}}=0.158 {\\mathrm{~or~}} 15.876} \\\\ {\\mathrm{SEE}={\\sqrt{\\mathrm{MSE}}}={\\sqrt{0.0012}}=0.035} \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{R^{2}}={\\frac{\\text{explained variation (SSR)}} {\\text{total variation (SST)}}}={\\frac{0.0076} {0.0482}}=0.158 {\\mathrm{~or~}} 15.876} \\\\[8pt] {\\mathrm{SEE}={\\sqrt{\\mathrm{MSE}}}={\\sqrt{0.0012}}=0.035} \\end{array}",
           "display": true,
           "sourceAsset": "82cfe19eac350a58c1fa.png"
         },
@@ -579,7 +573,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{F}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}=\\frac{0.0076} {0.0012}=6.33}} \\\\ {{\\mathrm{df}_{\\mathrm{{aumerater}}}=\\mathrm{k}=1}} \\\\ {{\\mathrm{df}_{\\mathrm{danominater}}=\\mathrm{n-k}-1=36-1-1=34}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\mathrm{F}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}}=\\frac{0.0076} {0.0012}=6.33}} \\\\[8pt] {{\\mathrm{df}_{\\mathrm{{aumerater}}}=\\mathrm{k}=1}} \\\\[8pt] {{\\mathrm{df}_{\\mathrm{danominater}}=\\mathrm{n-k}-1=36-1-1=34}} \\end{array}",
           "display": true,
           "sourceAsset": "2d42320b5f4be3630cfa.png"
         },
@@ -597,10 +591,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{equal ~ to ~ a ~ hypothesized ~ value . ~ Letting ~ \\hat{\\psi}_{i} , the ~ appropriate ~ test ~ statistic ~ with ~ n-2 ~}} \\\\ {\\mathrm{degrees~of~freedom~is:}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{equal ~ to ~ a ~ hypothesized ~ value . ~ Letting ~ \\hat{\\psi}_{i} , the ~ appropriate ~ test ~ statistic ~ with ~ n-2 ~}} \\\\ {\\text{degrees of freedom is:}} \\\\ \\end{array}",
           "display": true,
-          "sourceAsset": "0d911ce3a97675419b3e.png",
-          "prose": "equal to a hypothesized value. Letting , the appropriate test statistic with n − 2 degrees of freedom is:"
+          "sourceAsset": "0d911ce3a97675419b3e.png"
         },
         {
           "type": "math",
@@ -622,8 +615,7 @@
           "type": "math",
           "latex": "H_0:b_1=0\\qquad\\text{versus}\\qquad H_a:b_1\\ne0",
           "display": true,
-          "sourceAsset": "026cb4e13d873bf7822f.png",
-          "prose": "Rejection of the null supports the alternative hypothesis that the slope coefficient is different from the hypothesized value of b1. To test whether an independent variable explains the variation in the dependent variable (i.e., it is statistically significant), the null hypothesis is that the true slope is zero . The appropriate test structure for the null and alternative hypotheses is:"
+          "sourceAsset": "026cb4e13d873bf7822f.png"
         },
         {
           "type": "math",
@@ -778,7 +770,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}s_{\\mathrm{f}}^{2}=\\mathrm{SEE}^{2} \\left[ 1+{\\frac{1} {n}}+{\\frac{( \\mathbf{X}-{\\overline{{X}}} )^{2}} {( n-1 ) s_{\\mathrm{x}}^{2}}} \\right]\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\ {{\\mathrm{SEE^{2}=variance ~ of ~ the ~ residuals=the ~ square ~ of ~ the ~ standard ~ error ~ of ~ estimate}}} \\\\ {{s_{x}^{2}} \\quad{=\\mathrm{variance~of~the~independent~variable}}} \\\\ {{\\mathrm{X} \\quad{=value ~ of ~ the ~ independent ~ variable ~ for ~ which ~ the ~ forecast ~ was ~ made}}} \\\\ \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}s_{\\mathrm{f}}^{2}=\\mathrm{SEE}^{2} \\left[ 1+{\\frac{1} {n}}+{\\frac{( \\mathbf{X}-{\\overline{{X}}} )^{2}} {( n-1 ) s_{\\mathrm{x}}^{2}}} \\right]\\\\[6pt]\\begin{array} {l} {{\\mathrm{where:}}} \\\\[8pt] {{\\mathrm{SEE^{2}=variance ~ of ~ the ~ residuals=the ~ square ~ of ~ the ~ standard ~ error ~ of ~ estimate}}} \\\\[8pt] {{s_{x}^{2}} \\quad{=\\text{variance of the independent variable}}} \\\\[8pt] {{\\mathrm{X} \\quad{=value ~ of ~ the ~ independent ~ variable ~ for ~ which ~ the ~ forecast ~ was ~ made}}} \\\\[8pt] \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "72edaaadb4d6c7150995.png"
         },
@@ -838,10 +830,10 @@
         {
           "type": "image",
           "src": "content/figures/507b49cf9328de958f2e.png",
-          "alt": "Equation, table, or diagram: Figure 10.8: Nonlinear Relationship",
-          "width": 405,
-          "height": 322,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 779,
+          "height": 619,
+          "alt": "Instructional visual diagram or table: 507b49cf9328de958f2e.png"
         },
         {
           "type": "paragraph",
@@ -884,10 +876,10 @@
         {
           "type": "image",
           "src": "content/figures/563550489501c9e73a39.png",
-          "alt": "Equation, table, or diagram: Figure 10.9: Log-Lin Model, EPS Data",
-          "width": 448,
-          "height": 243,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 862,
+          "height": 467,
+          "alt": "Instructional visual diagram or table: 563550489501c9e73a39.png"
         },
         {
           "type": "heading",
@@ -962,15 +954,13 @@
       "type": "math",
       "latex": "\\text{The estimated intercept, } \\hat{b}_0\\text{, represents the value of the dependent variable where the regression line intersects the } Y\\text{-axis.}",
       "display": true,
-      "sourceAsset": "9f2e7b9065d05cb1a4b2.png",
-      "prose": "The estimated intercept, , represents the value of the dependent variable at the point of intersection of the regression line and the axis of the dependent variable (usually, the"
+      "sourceAsset": "9f2e7b9065d05cb1a4b2.png"
     },
     {
       "type": "math",
       "latex": "\\hat b_1=\\frac{\\operatorname{Cov}(X,Y)}{\\operatorname{Var}(X)}",
       "display": true,
-      "sourceAsset": "ed7702c0e4dd921efd8c.png",
-      "prose": "vertical axis). The estimated slope coefficient, , is interpreted as the change in the dependent variable for a one-unit change in the independent variable."
+      "sourceAsset": "ed7702c0e4dd921efd8c.png"
     },
     {
       "type": "question",
@@ -1030,7 +1020,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{F-stat}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}} \\, \\mathrm{with~1~and~n-2~degrees~of~freedom}",
+      "latex": "\\mathrm{F-stat}=\\frac{\\mathrm{MSR}} {\\mathrm{MSE}} \\, \\text{with 1 and n-2 degrees of freedom}",
       "display": true,
       "sourceAsset": "ff7fb07d7697acdbb3b0.png"
     },
@@ -1050,10 +1040,10 @@
     {
       "type": "image",
       "src": "content/figures/c5ecd9b39ffb55f3619e.png",
-      "alt": "Equation, table, or diagram: ANOVA Table for Simple Linear Regression (k = 1)",
-      "width": 538,
-      "height": 157,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 1036,
+      "height": 303,
+      "alt": "Instructional visual diagram or table: c5ecd9b39ffb55f3619e.png"
     },
     {
       "type": "paragraph",
@@ -1072,24 +1062,21 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {A \\mathrm{~predicted~value~of~the~dependent~variable,~} \\widehat{Y} , \\mathrm{is~determined~by~inserting~the~predicteduals~of~} C} \\\\ {\\mathrm{value~of~the~independent~variable,~} X_{p} , \\mathrm{~in~the~regression~equation~and~calculating~}} \\\\ \\end{array}",
+      "latex": "\\begin{array} {l} {A \\text{ predicted value of the dependent variable, } \\widehat{Y} , \\text{is determined by inserting the predicteduals of } C} \\\\ {\\text{value of the independent variable, } X_{p} , \\text{ in the regression equation and calculating }} \\\\ \\end{array}",
       "display": true,
-      "sourceAsset": "bf959593a8341c748721.png",
-      "prose": "A predicted value of the dependent variable, , is determined by inserting the predicted value of the independent variable, Xp, in the regression equation and calculating"
+      "sourceAsset": "bf959593a8341c748721.png"
     },
     {
       "type": "math",
       "latex": "\\hat{Y}_p = \\hat{b}_0 + \\hat{b}_1 X_p",
       "display": true,
-      "sourceAsset": "64fa2c7561a8b4ad35c4.png",
-      "prose": "."
+      "sourceAsset": "64fa2c7561a8b4ad35c4.png"
     },
     {
       "type": "math",
       "latex": "\\hat Y-t_cs_f<Y<\\hat Y+t_cs_f",
       "display": true,
-      "sourceAsset": "d0977dffcd97b32261f7.png",
-      "prose": "The confidence interval for a predicted where sf is the standard error of the forecast."
+      "sourceAsset": "d0977dffcd97b32261f7.png"
     },
     {
       "type": "question",
@@ -1099,10 +1086,10 @@
     {
       "type": "image",
       "src": "content/figures/988c7893d36a8a1bd8ca.png",
-      "alt": "Equation, table, or diagram:",
-      "width": 537,
-      "height": 206,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 1034,
+      "height": 397,
+      "alt": "Instructional visual diagram or table: 988c7893d36a8a1bd8ca.png"
     }
   ],
   "practice": [],

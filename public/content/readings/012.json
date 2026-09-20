@@ -43,10 +43,10 @@
         {
           "type": "image",
           "src": "content/figures/b944e55e4e9c6c186e17.png",
-          "alt": "Equation, table, or diagram: Figure 12.1: Shutdown and Breakeven",
-          "width": 348,
-          "height": 192,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 670,
+          "height": 370,
+          "alt": "Instructional visual diagram or table: b944e55e4e9c6c186e17.png"
         },
         {
           "type": "paragraph",
@@ -103,10 +103,10 @@
         {
           "type": "image",
           "src": "content/figures/4e752c6e7bf5691839bc.png",
-          "alt": "Equation, table, or diagram: Figure 12.2: Breakeven Point Using the Total Revenue/Total Cost Approach",
-          "width": 311,
-          "height": 243,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 599,
+          "height": 468,
+          "alt": "Instructional visual diagram or table: 4e752c6e7bf5691839bc.png"
         },
         {
           "type": "paragraph",
@@ -159,10 +159,10 @@
         {
           "type": "image",
           "src": "content/figures/abde5c4cb1ee91e8bb8f.png",
-          "alt": "Equation, table, or diagram: Figure 12.3: Economies and Diseconomies of Scale",
-          "width": 493,
-          "height": 265,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 950,
+          "height": 510,
+          "alt": "Instructional visual diagram or table: abde5c4cb1ee91e8bb8f.png"
         },
         {
           "type": "paragraph",
@@ -246,10 +246,10 @@
         {
           "type": "image",
           "src": "content/figures/ee24809342f1814b5faa.png",
-          "alt": "Equation, table, or diagram: Figure 12.4: Characteristics of Market Structures",
-          "width": 536,
-          "height": 252,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 485,
+          "alt": "Instructional visual diagram or table: ee24809342f1814b5faa.png"
         },
         {
           "type": "question",
@@ -283,10 +283,10 @@
         {
           "type": "image",
           "src": "content/figures/1e03e995e853f2a4c920.png",
-          "alt": "Equation, table, or diagram: Figure 12.5: Characteristics of Market Structures",
-          "width": 472,
-          "height": 218,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 909,
+          "height": 420,
+          "alt": "Instructional visual diagram or table: 1e03e995e853f2a4c920.png"
         },
         {
           "type": "paragraph",
@@ -307,10 +307,10 @@
         {
           "type": "image",
           "src": "content/figures/4015f5270826986c79d6.png",
-          "alt": "Equation, table, or diagram: Figure 12.6: Firm Output Under Monopolistic and Perfect Competition",
-          "width": 447,
-          "height": 199,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 860,
+          "height": 384,
+          "alt": "Instructional visual diagram or table: 4015f5270826986c79d6.png"
         },
         {
           "type": "paragraph",
@@ -348,10 +348,10 @@
         {
           "type": "image",
           "src": "content/figures/519ffb7b5d0e37f9640d.png",
-          "alt": "Equation, table, or diagram: Figure 12.7: Kinked Demand Curve Model",
-          "width": 317,
-          "height": 225,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 610,
+          "height": 434,
+          "alt": "Instructional visual diagram or table: 519ffb7b5d0e37f9640d.png"
         },
         {
           "type": "paragraph",
@@ -364,10 +364,10 @@
         {
           "type": "image",
           "src": "content/figures/75fa5c08f42a1f1146e8.png",
-          "alt": "Equation, table, or diagram: Figure 12.8: Marginal Revenue With Kinked Demand Curve",
-          "width": 517,
-          "height": 320,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 995,
+          "height": 616,
+          "alt": "Instructional visual diagram or table: 75fa5c08f42a1f1146e8.png"
         },
         {
           "type": "paragraph",
@@ -404,10 +404,10 @@
         {
           "type": "image",
           "src": "content/figures/9bb58cab42a7d9df27ac.png",
-          "alt": "Equation, table, or diagram: Figure 12.9: Nash Equilibrium",
-          "width": 403,
-          "height": 115,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 775,
+          "height": 222,
+          "alt": "Instructional visual diagram or table: 9bb58cab42a7d9df27ac.png"
         },
         {
           "type": "paragraph",
@@ -456,10 +456,10 @@
         {
           "type": "image",
           "src": "content/figures/8f9111240bfabae88740.png",
-          "alt": "Equation, table, or diagram: Figure 12.10: Dominant Firm Oligopoly",
-          "width": 492,
-          "height": 322,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 948,
+          "height": 619,
+          "alt": "Instructional visual diagram or table: 8f9111240bfabae88740.png"
         },
         {
           "type": "paragraph",
@@ -480,10 +480,10 @@
         {
           "type": "image",
           "src": "content/figures/b75d144111f7833fae2c.png",
-          "alt": "Equation, table, or diagram: Figure 12.11: Collusion vs. Perfect Competition",
-          "width": 490,
-          "height": 323,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 944,
+          "height": 621,
+          "alt": "Instructional visual diagram or table: b75d144111f7833fae2c.png"
         }
       ]
     },
@@ -511,10 +511,10 @@
         {
           "type": "image",
           "src": "content/figures/fc4be2a57f8069b508ea.png",
-          "alt": "Equation, table, or diagram: Figure 12.12: Characteristics of Market Structures",
-          "width": 535,
-          "height": 253,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1030,
+          "height": 487,
+          "alt": "Instructional visual diagram or table: fc4be2a57f8069b508ea.png"
         },
         {
           "type": "paragraph",
@@ -542,7 +542,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {ccc} \\hline{\\begin{array} {ccc} {\\mathrm{Firm}} & {\\qquad} & {\\mathrm{Market~Share}} \\\\ \\hline{\\mathrm{Acme}} & {\\qquad} & {25 \\%_{6}} \\\\ {\\mathrm{Blake}} & {\\qquad} & {15 \\%_{6}} \\\\ {\\mathrm{Curtis}} & {\\qquad} & {15 \\%_{6}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{Dent} \\qquad}} & {{\\qquad\\qquad10 \\ \\%_{0}}} \\\\ {{\\mathrm{Erie} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\\\ {{\\mathrm{Federal} \\qquad}} & {{\\qquad\\qquad5 \\ \\%_{0}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Firm} & \\text{Market Share} \\\\\n\\hline\n\\text{Acme} & 25\\% \\\\\n\\text{Blake} & 15\\% \\\\\n\\text{Curtis} & 15\\% \\\\\n\\text{Dent} & 10\\% \\\\\n\\text{Erie} & 5\\% \\\\\n\\text{Federal} & 5\\% \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "6ac72c7dd404fa6b9475.png"
         },
@@ -1091,10 +1091,10 @@
             {
               "type": "image",
               "src": "content/figures/d8be056bd0ca5ca9b3fd.png",
-              "alt": "Equation, table, or diagram: maximum economic profit can be realized. The possible outcomes of the agreement are presented in the following table.",
-              "width": 453,
-              "height": 113,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 873,
+              "height": 218,
+              "alt": "Instructional visual diagram or table: d8be056bd0ca5ca9b3fd.png"
             }
           ],
           "options": [

@@ -111,7 +111,7 @@
         },
         {
           "type": "math",
-          "latex": "N = 25 \\times 12 = 300; \\quad I/Y = 6/12 = 0.5; \\quad PV = \\$300,000",
+          "latex": "N = 25 \\times 12 = 300; \\quad I/Y = 6/12 = 0.5; \\quad PV = \\$300{,}000",
           "display": true,
           "sourceAsset": "4a6e750edfdbd1322d75.png"
         },
@@ -171,10 +171,10 @@
         {
           "type": "image",
           "src": "content/figures/cc025233ef36a3f56ecd.png",
-          "alt": "Equation, table, or diagram: Figure 65.1: Mortgage Pass-Through Cash Flow",
-          "width": 349,
-          "height": 133,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 672,
+          "height": 256,
+          "alt": "Instructional visual diagram or table: cc025233ef36a3f56ecd.png"
         },
         {
           "type": "heading",
@@ -187,10 +187,10 @@
         {
           "type": "image",
           "src": "content/figures/33bc7352159d403f46bb.png",
-          "alt": "Equation, table, or diagram: An MBS contains the three mortgages A, B, and C, with details displayed in the following table.",
-          "width": 485,
-          "height": 125,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 933,
+          "height": 241,
+          "alt": "Instructional visual diagram or table: 33bc7352159d403f46bb.png"
         },
         {
           "type": "paragraph",
@@ -317,7 +317,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{LTV}={\\frac{\\mathrm{current~mortgage~amount}} {\\mathrm{current~appraised~value}}}",
+          "latex": "\\mathrm{LTV}={\\frac{\\text{current mortgage amount}} {\\text{current appraised value}}}",
           "display": true,
           "sourceAsset": "11e1a3a73ed7d2d5ef53.png"
         },

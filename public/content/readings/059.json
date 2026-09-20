@@ -61,7 +61,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{bf~effective~convexity} \\!=\\! \\frac{\\mathrm{V}_{-}+\\mathrm{V}_{+}-2 \\mathrm{V}_{0}} {( \\Delta\\mathrm{Curve} )^{2} \\mathrm{V}_{0}}",
+          "latex": "\\text{bf effective convexity} \\!=\\! \\frac{\\mathrm{V}_{-}+\\mathrm{V}_{+}-2 \\mathrm{V}_{0}} {( \\Delta\\mathrm{Curve} )^{2} \\mathrm{V}_{0}}",
           "display": true,
           "sourceAsset": "0aefc9e3164bffc58584.png"
         },
@@ -76,10 +76,10 @@
         {
           "type": "image",
           "src": "content/figures/7a435d62f34d9005f653.png",
-          "alt": "Equation, table, or diagram: Figure 59.1: Price-Yield Function of Callable vs. Option-Free Bond With a Call Price of 102",
-          "width": 455,
-          "height": 276,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 877,
+          "height": 532,
+          "alt": "Instructional visual diagram or table: 7a435d62f34d9005f653.png"
         },
         {
           "type": "paragraph",
@@ -96,10 +96,10 @@
         {
           "type": "image",
           "src": "content/figures/d1e38ef8eea046d0f3c7.png",
-          "alt": "Equation, table, or diagram: Figure 59.2: Comparing the Price-Yield Curves for Option-Free and Putable Bonds",
-          "width": 502,
-          "height": 256,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 967,
+          "height": 494,
+          "alt": "Instructional visual diagram or table: d1e38ef8eea046d0f3c7.png"
         },
         {
           "type": "paragraph",

@@ -23,10 +23,10 @@
         {
           "type": "image",
           "src": "content/figures/c0118ae379453a3e067b.png",
-          "alt": "Equation, table, or diagram: Figure 13.1: Business Cycle",
-          "width": 378,
-          "height": 220,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 729,
+          "height": 425,
+          "alt": "Instructional visual diagram or table: c0118ae379453a3e067b.png"
         },
         {
           "type": "paragraph",
@@ -261,10 +261,10 @@
         {
           "type": "image",
           "src": "content/figures/3f76889fe539950edf3b.png",
-          "alt": "Equation, table, or diagram: Figure 13.2: U.S. Leading, Lagging, and Coincident Indicators",
-          "width": 536,
-          "height": 568,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 1094,
+          "alt": "Instructional visual diagram or table: 3f76889fe539950edf3b.png"
         }
       ]
     }

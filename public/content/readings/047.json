@@ -83,10 +83,10 @@
         {
           "type": "image",
           "src": "content/figures/cae0e11b0b300886d0c4.png",
-          "alt": "Equation, table, or diagram: Figure 47.1: U.S. Treasury Yield Curve",
-          "width": 479,
-          "height": 287,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 922,
+          "height": 552,
+          "alt": "Instructional visual diagram or table: cae0e11b0b300886d0c4.png"
         },
         {
           "type": "paragraph",

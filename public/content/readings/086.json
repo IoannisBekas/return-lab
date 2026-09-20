@@ -200,10 +200,10 @@
         {
           "type": "image",
           "src": "content/figures/96221fade382c1158c5b.png",
-          "alt": "Equation, table, or diagram: Figure 86.1: Strategic Asset Allocation",
-          "width": 536,
-          "height": 605,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 1163,
+          "alt": "Instructional visual diagram or table: 96221fade382c1158c5b.png"
         },
         {
           "type": "question",

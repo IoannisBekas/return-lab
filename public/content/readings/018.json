@@ -102,7 +102,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{real~P/B~exchange~rate}}={\\mathrm{nominal~P/B~exchange~rate}} \\times\\left( {\\frac{\\mathrm{CPI}_{\\mathrm{base~cucrency}}} {\\mathrm{CPI}_{\\mathrm{price~cucrency}}}} \\right)",
+          "latex": "{\\text{real P/B exchange rate}}={\\text{nominal P/B exchange rate}} \\times\\left( {\\frac{\\mathrm{CPI}_{\\text{base cucrency}}} {\\mathrm{CPI}_{\\text{price cucrency}}}} \\right)",
           "display": true,
           "sourceAsset": "59ed97471a5d34952baf.png"
         },
@@ -263,7 +263,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{(exports-imports)\\equiv(private~savings-investment~in~physical~capital)}}} \\\\ {{\\mathrm{+~(tax~revenue-government~spending)}}} \\end{array}",
+          "latex": "(\\text{Exports} - \\text{Imports}) = (\\text{Private savings} - \\text{Investment in physical capital}) + (\\text{Government surplus})",
           "display": true,
           "sourceAsset": "8d1aa619580cef2d4a2b.png"
         },
@@ -329,7 +329,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\mathrm{real~exchange~rate}}={\\mathrm{nominal~exchange~rate}} \\times\\left( {\\frac{{\\mathrm{CPI}}_{{\\mathrm{base~currency}}}} {{\\mathrm{CPI}}_{{\\mathrm{price~currency}}}}} \\right)",
+      "latex": "{\\text{real exchange rate}}={\\text{nominal exchange rate}} \\times\\left( {\\frac{{\\mathrm{CPI}}_{{\\text{base currency}}}} {{\\mathrm{CPI}}_{{\\text{price currency}}}}} \\right)",
       "display": true,
       "sourceAsset": "0fe0d54ef8e6323463bb.png"
     },
@@ -345,8 +345,7 @@
       "type": "math",
       "latex": "\\text{Appreciation of the price currency} = \\frac{1}{1-0.0139} - 1 = 0.0141 = 1.41\\%",
       "display": true,
-      "sourceAsset": "e1309dd1d7fb8e69b33d.png",
-      "prose": "appreciation of the price currency as"
+      "sourceAsset": "e1309dd1d7fb8e69b33d.png"
     },
     {
       "type": "paragraph",

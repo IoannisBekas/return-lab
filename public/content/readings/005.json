@@ -28,7 +28,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathbf{w_{i}}=\\frac{\\mathrm{market~value~of~investment~in~Asset~i~}} {\\mathrm{market~value~of~the~portfolio}}",
+          "latex": "\\mathbf{w_{i}}=\\frac{\\text{market value of investment in Asset i }} {\\text{market value of the portfolio}}",
           "display": true,
           "sourceAsset": "e6d219177f9bbca4553b.png"
         },
@@ -70,7 +70,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}s_{X , Y}={\\frac{\\displaystyle\\sum_{i=1}^{n} \\left\\{\\left[ \\mathrm{R}_{1 , i}-{\\overline{{\\mathrm{R}}}}_{1} \\right] \\left[ \\mathrm{R}_{2 , i}-{\\overline{{\\mathrm{R}}}}_{2} \\right] \\right\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {l} {{\\mathrm{R}_{1 , i}=\\mathrm{an~observation~of~returns~on~Asset~1}}} \\\\ {{\\mathrm{R}_{2 , i}=\\mathrm{an~observation~of~returns~on~Asset~2}}} \\\\ {{\\mathrm{overline{{{\\mathrm{R}_{1}}}}}=\\mathrm{mean~return~of~Asset~1}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\overline{{\\mathrm{R}_{2}}}} & {{}=\\mathrm{mean~return~of~Asset~2~}} \\\\ {\\mathbf{n}} & {{}=\\mathrm{number~of~observations~in~the~sample.}} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}s_{X , Y}={\\frac{\\displaystyle\\sum_{i=1}^{n} \\left\\{\\left[ \\mathrm{R}_{1 , i}-{\\overline{{\\mathrm{R}}}}_{1} \\right] \\left[ \\mathrm{R}_{2 , i}-{\\overline{{\\mathrm{R}}}}_{2} \\right] \\right\\}} {\\mathrm{n}-1}}\\\\[6pt]\\begin{array} {l} {{\\mathrm{R}_{1 , i}=\\text{an observation of returns on Asset 1}}} \\\\[8pt] {{\\mathrm{R}_{2 , i}=\\text{an observation of returns on Asset 2}}} \\\\[8pt] {{\\mathrm{overline{{{\\mathrm{R}_{1}}}}}=\\text{mean return of Asset 1}}} \\end{array}\\\\[6pt]\\begin{aligned} {\\overline{{\\mathrm{R}_{2}}}} & {{}=\\text{mean return of Asset 2 }} \\\\[8pt] {\\mathbf{n}} & {{}=\\text{number of observations in the sample.}} \\\\[8pt] \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "9c448e841028409113a4.png"
         },
@@ -85,10 +85,10 @@
         {
           "type": "image",
           "src": "content/figures/745bc52701b2b9451cfc.png",
-          "alt": "Equation, table, or diagram: Figure 5.1: Covariance Matrix for Assets A, B, and C",
-          "width": 342,
-          "height": 96,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 659,
+          "height": 184,
+          "alt": "Instructional visual diagram or table: 745bc52701b2b9451cfc.png"
         },
         {
           "type": "paragraph",
@@ -114,7 +114,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {{\\mathrm{Var ( R_{\\mathrm{tiny~p}} )=w_{A} w_{A} \\operatorname{Cov} ( R_{A} , R_{A} )+w_{A} w_{B} \\operatorname{Cov} ( R_{A} , R_{B} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )}}} \\\\ {{\\mathrm{w_{B} w_{B} \\operatorname{Cov} ( R_{B} , R_{B} )}}} \\end{array}",
+          "latex": "\\begin{array} {c} {{\\mathrm{Var ( R_{\\text{tiny p}} )=w_{A} w_{A} \\operatorname{Cov} ( R_{A} , R_{A} )+w_{A} w_{B} \\operatorname{Cov} ( R_{A} , R_{B} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )+w_{B} w_{A} \\operatorname{Cov} ( R_{B} , R_{A} )}}} \\\\ {{\\mathrm{w_{B} w_{B} \\operatorname{Cov} ( R_{B} , R_{B} )}}} \\end{array}",
           "display": true,
           "sourceAsset": "7b398e4376fc94313065.png"
         },
@@ -159,10 +159,10 @@
         {
           "type": "image",
           "src": "content/figures/9b0a3f99e30c7ffe5158.png",
-          "alt": "Equation, table, or diagram: Figure 5.2: Covariance Matrix for the Three Assets",
-          "width": 493,
-          "height": 108,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 950,
+          "height": 209,
+          "alt": "Instructional visual diagram or table: 9b0a3f99e30c7ffe5158.png"
         },
         {
           "type": "paragraph",
@@ -176,10 +176,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{Portfolio~returns~standard}=\\sqrt{194.34}=13.94 \\%",
+          "latex": "\\text{Portfolio returns standard}=\\sqrt{194.34}=13.94 \\%",
           "display": true,
-          "sourceAsset": "fc8f4e8463995f277ee3.png",
-          "prose": "Portfolio returns standard"
+          "sourceAsset": "fc8f4e8463995f277ee3.png"
         },
         {
           "type": "paragraph",
@@ -195,7 +194,7 @@
         },
         {
           "type": "math",
-          "latex": "\\rho_{\\mathrm{{AB}}} \\!=\\! {\\frac{\\mathrm{{Cov}_{\\mathrm{{AB}}}}} {\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}}} \\sigma, \\, {\\mathrm{so~that}} \\, ( \\mathrm{{Cov}_{\\mathrm{{AB}}}} ) \\!=\\rho_{\\mathrm{{AB}}} \\times\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}",
+          "latex": "\\rho_{\\mathrm{{AB}}} \\!=\\! {\\frac{\\mathrm{{Cov}_{\\mathrm{{AB}}}}} {\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}}} \\sigma, \\, {\\text{so that}} \\, ( \\mathrm{{Cov}_{\\mathrm{{AB}}}} ) \\!=\\rho_{\\mathrm{{AB}}} \\times\\sigma_{\\mathrm{{A}}} \\sigma_{\\mathrm{{B}}}",
           "display": true,
           "sourceAsset": "a3af23281ea352059b14.png"
         },
@@ -210,10 +209,10 @@
         {
           "type": "image",
           "src": "content/figures/bb5e586146c55e47237c.png",
-          "alt": "Equation, table, or diagram: Figure 5.3: Correlation Matrix for the Three Assets",
-          "width": 493,
-          "height": 109,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 950,
+          "height": 211,
+          "alt": "Instructional visual diagram or table: bb5e586146c55e47237c.png"
         },
         {
           "type": "paragraph",
@@ -239,10 +238,10 @@
         {
           "type": "image",
           "src": "content/figures/0a88218aa63cbad38f1c.png",
-          "alt": "Equation, table, or diagram: Joint Probability Function",
-          "width": 346,
-          "height": 100,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 667,
+          "height": 194,
+          "alt": "Instructional visual diagram or table: 0a88218aa63cbad38f1c.png"
         },
         {
           "type": "paragraph",
@@ -275,10 +274,10 @@
         {
           "type": "image",
           "src": "content/figures/ad827ab290b1c8660a15.png",
-          "alt": "Equation, table, or diagram: Covariance Calculation",
-          "width": 474,
-          "height": 96,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 913,
+          "height": 185,
+          "alt": "Instructional visual diagram or table: ad827ab290b1c8660a15.png"
         },
         {
           "type": "paragraph",
@@ -299,7 +298,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\mathrm{minimize~P(R_p<R_L)}} \\\\ {} & {{} \\mathrm{where:}} \\\\ {} & {{} \\mathrm{~R_p=portfolio~return}} \\\\ {} & {{} \\mathrm{~R_L=threshold~level~return}} \\\\ \\end{aligned}",
+          "latex": "\\begin{gathered}\n\\text{minimize } P(R_p < R_L) \\\\[6pt]\n\\begin{aligned}\n\\text{where:}\\quad R_p &= \\text{portfolio return} \\\\\nR_L &= \\text{threshold return level}\n\\end{aligned}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "1fb8a6f8f67aa5416aab.png"
         },
@@ -309,7 +308,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{maximize~safety-first~ratio,which~equals}} \\frac{\\mathrm{E ( R_{P} )}-\\mathrm{R_{L}}} {\\sigma_{\\mathrm{P}}}",
+          "latex": "{\\text{maximize safety-first ratio,which equals}} \\frac{\\mathrm{E ( R_{P} )}-\\mathrm{R_{L}}} {\\sigma_{\\mathrm{P}}}",
           "display": true,
           "sourceAsset": "52dca6acb47c9e90f65f.png"
         },
@@ -324,10 +323,10 @@
         {
           "type": "image",
           "src": "content/figures/b77962b177f73d87f044.png",
-          "alt": "Equation, table, or diagram: Figure 5.4: The Safety-First Criterion and Shortfall Risk",
-          "width": 495,
-          "height": 387,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 954,
+          "height": 745,
+          "alt": "Instructional visual diagram or table: b77962b177f73d87f044.png"
         },
         {
           "type": "paragraph",
@@ -341,8 +340,7 @@
           "type": "math",
           "latex": "\\text{Safety-first ratio} = \\frac{E(R_p) - R_L}{\\sigma_p}",
           "display": true,
-          "sourceAsset": "6c8cb6afad7e90f528c5.png",
-          "prose": "Step 1: Calculate the safety-first ratio ."
+          "sourceAsset": "6c8cb6afad7e90f528c5.png"
         },
         {
           "type": "paragraph",
@@ -371,10 +369,10 @@
         {
           "type": "image",
           "src": "content/figures/b8f7f76b5f0bf28f896b.png",
-          "alt": "Equation, table, or diagram: Roy’s Safety-First Ratios",
-          "width": 407,
-          "height": 104,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 783,
+          "height": 201,
+          "alt": "Instructional visual diagram or table: b8f7f76b5f0bf28f896b.png"
         },
         {
           "type": "paragraph",
@@ -415,7 +413,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{Var} \\big( \\mathrm{R}_{\\mathrm{B}} \\big)=\\mathrm{w}_{\\mathrm{A}}^{2} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{w}_{\\mathrm{B}}^{2} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\mathrm{w}_{\\mathrm{A}} \\, \\mathrm{w}_{\\mathrm{B}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}} \\, \\rho_{\\mathrm{A,B}}}} \\\\ {{\\mathrm{where~} \\rho_{\\mathrm{A,B}} {\\mathrm{~is~relation~of~the~two~assets\"returns.}}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{Var} \\big( \\mathrm{R}_{\\mathrm{B}} \\big)=\\mathrm{w}_{\\mathrm{A}}^{2} \\, \\sigma_{\\mathrm{A}}^{2}+\\mathrm{w}_{\\mathrm{B}}^{2} \\, \\sigma_{\\mathrm{B}}^{2}+2 \\mathrm{w}_{\\mathrm{A}} \\, \\mathrm{w}_{\\mathrm{B}} \\, \\sigma_{\\mathrm{A}} \\, \\sigma_{\\mathrm{B}} \\, \\rho_{\\mathrm{A,B}}}} \\\\ {{\\mathrm{where~} \\rho_{\\mathrm{A,B}} {\\text{ is relation of the two assets\"returns.}}}} \\end{array}",
       "display": true,
       "sourceAsset": "d293a864e9b30c3e23c3.png"
     },
@@ -572,10 +570,10 @@
             {
               "type": "image",
               "src": "content/figures/b433e6e32eee7e9616c8.png",
-              "alt": "Equation, table, or diagram: 3. Expected returns and standard deviations of returns for three portfolios are as follows:",
-              "width": 355,
-              "height": 70,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 683,
+              "height": 136,
+              "alt": "Instructional visual diagram or table: b433e6e32eee7e9616c8.png"
             }
           ],
           "options": [

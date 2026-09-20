@@ -85,15 +85,13 @@
           "type": "math",
           "latex": "\\bar X\\xrightarrow{d}N\\!\\left(\\mu,\\frac{\\sigma^2}{n}\\right)",
           "display": true,
-          "sourceAsset": "2ccaec4603cff359e6ef.png",
-          "prose": "The central limit theorem states that for simple random samples of size n from a population with a mean μ and a finite variance σ2, the sampling distribution of the sample mean approaches a normal probability distribution with mean μ and a"
+          "sourceAsset": "2ccaec4603cff359e6ef.png"
         },
         {
           "type": "math",
           "latex": "\\mathrm{~ variance ~ equal ~ to ~ \\frac{\\sigma^2} {n} ~ as ~ the ~ sample ~ size ~ becomes ~ large .}",
           "display": true,
-          "sourceAsset": "694c92406a27f52d5744.png",
-          "prose": "variance equal to as the sample size becomes large."
+          "sourceAsset": "694c92406a27f52d5744.png"
         },
         {
           "type": "paragraph",
@@ -109,10 +107,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The ~ variance ~ of ~ the ~ distribution ~ of ~ sample ~ means ~ is ~ \\frac{\\sigma^2} {n} , the ~ population ~ variance}} \\\\ {\\mathrm{divided~by~the~sample~size.}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{The ~ variance ~ of ~ the ~ distribution ~ of ~ sample ~ means ~ is ~ \\frac{\\sigma^2} {n} , the ~ population ~ variance}} \\\\[8pt] {\\text{divided by the sample size.}} \\\\[8pt] \\end{array}",
           "display": true,
-          "sourceAsset": "042678b8bbec30a70c8d.png",
-          "prose": "The variance of the distribution of sample means is , the population variance divided by the sample size."
+          "sourceAsset": "042678b8bbec30a70c8d.png"
         },
         {
           "type": "paragraph",
@@ -130,10 +127,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{However,practically~speaking,the~} population^{\\prime} s \\ tandard \\ deviation \\ is \\ almost \\ never} \\\\ {known . \\mathrm{Instead,the~standard~error~of~the~sample~mean~must~be~estimated~by~dividing~of~conding~of~devially}} \\\\ {\\mathrm{the~standard~deviation~of~} the \\ sample \\mathrm{~by~} \\sqrt{n} \\colon} \\\\ \\end{array}",
+          "latex": "\\text{Standard error of sample mean} = \\frac{s}{\\sqrt{n}}",
           "display": true,
-          "sourceAsset": "08229e360d1586ea9a6e.png",
-          "prose": "However, practically speaking, the population’s standard deviation is almost never known. Instead, the standard error of the sample mean must be estimated by dividing the standard deviation of the sample by :"
+          "sourceAsset": "08229e360d1586ea9a6e.png"
         },
         {
           "type": "math",
@@ -260,15 +256,13 @@
       "type": "math",
       "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n}",
       "display": true,
-      "sourceAsset": "50cc04e7dfa0423d251a.png",
-      "prose": "the sample means and is calculated as (where σ, the population standard"
+      "sourceAsset": "50cc04e7dfa0423d251a.png"
     },
     {
       "type": "math",
       "latex": "\\sigma_{\\bar X}=\\frac{\\sigma}{\\sqrt n},\\qquad s_{\\bar X}=\\frac{s}{\\sqrt n}",
       "display": true,
-      "sourceAsset": "943bbd70c25c20bc936e.png",
-      "prose": "deviation, is known) and as (where s, the sample standard deviation, is used because the population standard deviation is unknown)."
+      "sourceAsset": "943bbd70c25c20bc936e.png"
     },
     {
       "type": "question",

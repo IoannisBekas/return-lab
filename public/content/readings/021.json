@@ -39,10 +39,10 @@
         {
           "type": "image",
           "src": "content/figures/f814cc1eaa5656f9dda9.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 344,
-          "height": 200,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 663,
+          "height": 385,
+          "alt": "Instructional visual diagram or table: f814cc1eaa5656f9dda9.png"
         },
         {
           "type": "paragraph",
@@ -63,10 +63,10 @@
         {
           "type": "image",
           "src": "content/figures/150bd1337203ccc4d538.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 343,
-          "height": 200,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 661,
+          "height": 385,
+          "alt": "Instructional visual diagram or table: 150bd1337203ccc4d538.png"
         },
         {
           "type": "paragraph",

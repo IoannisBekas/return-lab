@@ -23,10 +23,10 @@
         {
           "type": "image",
           "src": "content/figures/64eafcc24c6871ad8c1d.png",
-          "alt": "Equation, table, or diagram: Figure 83.1: Risk and Return of Major Asset Classes in the United States (1926–2017)¹",
-          "width": 500,
-          "height": 169,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 963,
+          "height": 325,
+          "alt": "Instructional visual diagram or table: 64eafcc24c6871ad8c1d.png"
         },
         {
           "type": "paragraph",
@@ -101,10 +101,10 @@
         {
           "type": "image",
           "src": "content/figures/82dd442559bf99218e58.png",
-          "alt": "Equation, table, or diagram: Figure 83.2: Risk-Averse Investor’s Indifference Curves",
-          "width": 402,
-          "height": 276,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 774,
+          "height": 531,
+          "alt": "Instructional visual diagram or table: 82dd442559bf99218e58.png"
         },
         {
           "type": "paragraph",
@@ -149,10 +149,10 @@
         {
           "type": "image",
           "src": "content/figures/7d4f3ed23815cd023232.png",
-          "alt": "Equation, table, or diagram: Figure 83.3: Capital Allocation Line and Risky Asset Weights",
-          "width": 461,
-          "height": 277,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 888,
+          "height": 533,
+          "alt": "Instructional visual diagram or table: 7d4f3ed23815cd023232.png"
         },
         {
           "type": "paragraph",
@@ -165,10 +165,10 @@
         {
           "type": "image",
           "src": "content/figures/d55fad9de3c1cc8c86a2.png",
-          "alt": "Equation, table, or diagram: Figure 83.4: Risk-Averse Investor’s Indifference Curves",
-          "width": 401,
-          "height": 274,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 772,
+          "height": 527,
+          "alt": "Instructional visual diagram or table: d55fad9de3c1cc8c86a2.png"
         },
         {
           "type": "paragraph",
@@ -185,10 +185,10 @@
         {
           "type": "image",
           "src": "content/figures/b5e73489a1bc733e739c.png",
-          "alt": "Equation, table, or diagram: Figure 83.5: Portfolio Choices Based on Two Investors’ Indifference Curves",
-          "width": 400,
-          "height": 276,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 770,
+          "height": 531,
+          "alt": "Instructional visual diagram or table: b5e73489a1bc733e739c.png"
         }
       ]
     },
@@ -221,10 +221,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{In~the~world~of~finance,we~are~typically~analyzing~only~a~sample~of~returns~data,ratherng~only~of~To~}} \\\\ {\\mathrm{than~the~entire~population~To~calculate~sample~variance,} \\, s^{2} , \\mathrm{using~a~sample~of~T~}} \\\\ {\\mathrm{historical~returns~and~the~mean,} \\, \\overline{{\\mathbb{R}}} , \\mathrm{~of~the~observations,~we~use~the~following~formula;}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\text{In the world of finance,we are typically analyzing only a sample of returns data,ratherng only of To }} \\\\ {\\text{than the entire population To calculate sample variance,} \\, s^{2} , \\text{using a sample of T }} \\\\ {\\text{historical returns and the mean,} \\, \\overline{{\\mathbb{R}}} , \\text{ of the observations, we use the following formula;}} \\\\ \\end{array}",
           "display": true,
-          "sourceAsset": "9557d92af148db7cbaee.png",
-          "prose": "In the world of finance, we are typically analyzing only a sample of returns data, rather than the entire population. To calculate sample variance, s2, using a sample of T historical returns and the mean, , of the observations, we use the following formula:"
+          "sourceAsset": "9557d92af148db7cbaee.png"
         },
         {
           "type": "math",
@@ -246,7 +245,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{n} \\left\\{\\left[ R_{t , 1}-{\\overline{{R}}}_{1} \\right] \\left[ R_{t , 2}-{\\overline{{R}}}_{2} \\right] \\right\\}} {n-1}}}} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{R}_{\\mathrm{t} , 1}}} & {{=\\mathrm{return~on~Asset~1~in~period~} t}} \\\\ {{\\mathrm{R}_{\\mathrm{t} , 2}}} & {{=\\mathrm{return~on~Asset~2~in~period~} t}} \\\\ {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\mathrm{mean~return~on~Asset~1}}} \\\\ {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\mathrm{mean~return~on~Asset~2}}} \\end{array}\\\\[6pt]{\\begin{array} {rl} {{\\mathrm{n}}} & {{}={\\mathrm{number~of~periods}}} \\end{array}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{Cov}_{1 , \\, 2}={\\frac{\\sum_{t=1}^{n} \\left\\{\\left[ R_{t , 1}-{\\overline{{R}}}_{1} \\right] \\left[ R_{t , 2}-{\\overline{{R}}}_{2} \\right] \\right\\}} {n-1}}}} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {ll} {{\\mathrm{R}_{\\mathrm{t} , 1}}} & {{=\\text{return on Asset 1 in period } t}} \\\\[8pt] {{\\mathrm{R}_{\\mathrm{t} , 2}}} & {{=\\text{return on Asset 2 in period } t}} \\\\[8pt] {{\\mathrm{overline{{{R}}}}_{1}}} & {{=\\text{mean return on Asset 1}}} \\\\[8pt] {{\\mathrm{overline{{{R}}}}_{2}}} & {{=\\text{mean return on Asset 2}}} \\end{array}\\\\[6pt]{\\begin{array} {rl} {{\\mathrm{n}}} & {{}={\\text{number of periods}}} \\end{array}}\\end{gathered}",
           "display": true,
           "sourceAsset": "c924de8e41074eefcba7.png"
         },
@@ -306,7 +305,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\bar R_A=\\frac{5\\%-2\\%+12\\%}{3}=5\\%,\\qquad \\bar R_B=\\frac{7\\%-4\\%+18\\%}{3}=7\\%\\\\\ns_A^2=\\frac{(5-5)^2+(-2-5)^2+(12-5)^2}{3-1}=49,\\quad s_A=7\\%\\\\\ns_B^2=\\frac{(7-7)^2+(-4-7)^2+(18-7)^2}{3-1}=121,\\quad s_B=11\\%\\\\\n\\operatorname{Cov}_{A,B}=\\frac{(5-5)(7-7)+(-2-5)(-4-7)+(12-5)(18-7)}{3-1}=77,\\quad\n\\rho_{A,B}=\\frac{77}{7\\times11}=1\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\bar R_A=\\frac{5\\%-2\\%+12\\%}{3}=5\\%,\\qquad \\bar R_B=\\frac{7\\%-4\\%+18\\%}{3}=7\\%\\\\[8pt]\ns_A^2=\\frac{(5-5)^2+(-2-5)^2+(12-5)^2}{3-1}=49,\\quad s_A=7\\%\\\\[8pt]\ns_B^2=\\frac{(7-7)^2+(-4-7)^2+(18-7)^2}{3-1}=121,\\quad s_B=11\\%\\\\[8pt]\n\\operatorname{Cov}_{A,B}=\\frac{(5-5)(7-7)+(-2-5)(-4-7)+(12-5)(18-7)}{3-1}=77,\\quad\n\\rho_{A,B}=\\frac{77}{7\\times11}=1\n\\end{gathered}",
           "display": true,
           "sourceAsset": "e5afd3dfc307ac42de17.png"
         },
@@ -339,7 +338,7 @@
         },
         {
           "type": "math",
-          "latex": "\\rho_{12} \\!=\\! \\frac{\\mathrm{Cov}_{12}} {\\sigma_{1} \\sigma_{2}} , \\, \\mathrm{so~that~we~can~also~write~Cov}_{12} \\!=\\rho_{12} \\sigma_{1} \\sigma_{2} \\, .",
+          "latex": "\\rho_{12} \\!=\\! \\frac{\\mathrm{Cov}_{12}} {\\sigma_{1} \\sigma_{2}} , \\, \\text{so that we can also write Cov}_{12} \\!=\\rho_{12} \\sigma_{1} \\sigma_{2} \\, .",
           "display": true,
           "sourceAsset": "3f9a0b2331346a9d131b.png"
         },
@@ -355,10 +354,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{Because~Var}_{\\mathrm{portfolic}}=\\sigma_{\\mathrm{portfolic}}^{2} \\, , \\, \\mathrm{this~can~also~be~written~as:}",
+          "latex": "\\text{Because } \\operatorname{Var}_{\\text{portfolio}} = \\sigma_{\\text{portfolio}}^2\\text{, this can also be written as: } \\sigma_P = \\sqrt{w_1^2 \\sigma_1^2 + w_2^2 \\sigma_2^2 + 2w_1 w_2 \\operatorname{Cov}_{12}}",
           "display": true,
-          "sourceAsset": "e88129399dc1f666ea7f.png",
-          "prose": "Because , this can also be written as:"
+          "sourceAsset": "e88129399dc1f666ea7f.png"
         },
         {
           "type": "math",
@@ -465,7 +463,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\sigma_P^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2\\\\\n\\sigma_P=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2},\\quad\n\\rho_{12}=\\frac{\\operatorname{Cov}_{12}}{\\sigma_1\\sigma_2}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\sigma_P^2=w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2\\\\[8pt]\n\\sigma_P=\\sqrt{w_1^2\\sigma_1^2+w_2^2\\sigma_2^2+2w_1w_2\\rho_{12}\\sigma_1\\sigma_2},\\quad\n\\rho_{12}=\\frac{\\operatorname{Cov}_{12}}{\\sigma_1\\sigma_2}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "eceab57bbc002ee18d2e.png"
         },
@@ -532,10 +530,10 @@
         {
           "type": "image",
           "src": "content/figures/1db93d5da685ddbe21f7.png",
-          "alt": "Equation, table, or diagram: Figure 83.6: Risk and Return for Different Values of p",
-          "width": 527,
-          "height": 221,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1014,
+          "height": 427,
+          "alt": "Instructional visual diagram or table: 1db93d5da685ddbe21f7.png"
         },
         {
           "type": "paragraph",
@@ -565,10 +563,10 @@
         {
           "type": "image",
           "src": "content/figures/a2f54fe32d85ff40101f.png",
-          "alt": "Equation, table, or diagram: Figure 83.7: Minimum-Variance and Efficient Frontiers",
-          "width": 441,
-          "height": 276,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 849,
+          "height": 532,
+          "alt": "Instructional visual diagram or table: a2f54fe32d85ff40101f.png"
         }
       ]
     }
@@ -632,7 +630,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{population~variance}=\\sigma^{2} \\, {=} \\, {\\frac{\\sum_{\\mathrm{t}=1}^{\\mathrm{T}} ( \\mathrm{R}_{\\mathrm{t}}-\\mu)^{2}} {\\mathrm{T}}}",
+      "latex": "\\text{population variance}=\\sigma^{2} \\, {=} \\, {\\frac{\\sum_{\\mathrm{t}=1}^{\\mathrm{T}} ( \\mathrm{R}_{\\mathrm{t}}-\\mu)^{2}} {\\mathrm{T}}}",
       "display": true,
       "sourceAsset": "3358b26cbd69534c3ceb.png"
     },
@@ -1048,8 +1046,7 @@
               "type": "math",
               "latex": "\\begin{aligned} {\\sqrt{A}} & {{}=\\sqrt{0.09}=0.30} \\\\ {\\sqrt{B}} & {{}=\\sqrt{0.04}=0.20} \\\\ {\\mathrm{correlation}} & {{}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10 \\mathrm{correlation}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10} \\\\ \\end{aligned}",
               "display": true,
-              "sourceAsset": "ed991ff58fc0141c94c7.png",
-              "prose": "correlation = 0.006 / [(0.30)(0.20)] = 0.10"
+              "sourceAsset": "ed991ff58fc0141c94c7.png"
             }
           ]
         },
@@ -1080,7 +1077,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{aligned} {} & {{} \\sqrt{( 0.25 )^{2} ( 0.15 )^{2}+( 0.75 )^{2} ( 0.10 )^{2}+2 ( 0.25 ) ( 0.75 ) ( 0.15 ) ( 0.10 ) (-0.75 )}=} \\\\ {} & {{} \\sqrt{0.001406+0.005625-0.004219}=\\sqrt{0.002812}=0.053=5.396} \\\\ \\end{aligned}",
+              "latex": "\\begin{aligned}\n&\\sqrt{(0.25)^2(0.15)^2 + (0.75)^2(0.10)^2 + 2(0.25)(0.75)(0.15)(0.10)(-0.75)} \\\\[6pt]\n&\\quad = \\sqrt{0.001406 + 0.005625 - 0.004219} = \\sqrt{0.002812} = 0.053 = 5.3\\%\n\\end{aligned}",
               "display": true,
               "sourceAsset": "6988ab79d3f289854d92.png"
             }

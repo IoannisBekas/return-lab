@@ -71,10 +71,10 @@
         {
           "type": "image",
           "src": "content/figures/99a395b3005dcf9a0cf9.png",
-          "alt": "Equation, table, or diagram: sing the probabilities given in the following table, calculate the expected return on Stock A, the variance of returns on Stock A, and the standard deviation of returns on Stock A.",
-          "width": 492,
-          "height": 164,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 948,
+          "height": 316,
+          "alt": "Instructional visual diagram or table: 99a395b3005dcf9a0cf9.png"
         },
         {
           "type": "heading",
@@ -100,8 +100,7 @@
           "type": "math",
           "latex": "\\mathrm{The ~ standard ~ deviation ~ of ~ R_A=\\sqrt{0.0028}=0.0529.}",
           "display": true,
-          "sourceAsset": "a5a5e43509b0dd85d0d3.png",
-          "prose": "The standard deviation of ."
+          "sourceAsset": "a5a5e43509b0dd85d0d3.png"
         },
         {
           "type": "paragraph",
@@ -135,10 +134,10 @@
         {
           "type": "image",
           "src": "content/figures/dbce15c32e7f233b9acd.png",
-          "alt": "Equation, table, or diagram: Figure 4.1: A Probability Tree",
-          "width": 522,
-          "height": 292,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1004,
+          "height": 562,
+          "alt": "Instructional visual diagram or table: dbce15c32e7f233b9acd.png"
         },
         {
           "type": "paragraph",
@@ -159,7 +158,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{updated~probability}=}} \\\\ {{\\mathrm{~probability~of~new~information~for~a~given~event}}} \\\\ {{\\mathrm{~unconditional~probability~of~new~information}}} \\end{array} \\times{\\mathrm{prior~probability~of~event}}",
+          "latex": "\\begin{array} {l} {{\\text{updated probability}=}} \\\\ {{\\text{ probability of new information for a given event}}} \\\\ {{\\text{ unconditional probability of new information}}} \\end{array} \\times{\\text{prior probability of event}}",
           "display": true,
           "sourceAsset": "b8e62f492683262cdad4.png"
         },
@@ -179,8 +178,7 @@
           "type": "math",
           "latex": "P(A\\mid B)=\\frac{P(B\\mid A)P(A)}{P(B)}=\\frac{P(AB)}{P(B)}",
           "display": true,
-          "sourceAsset": "83afd80de0adc64fb616.png",
-          "prose": ", the joint probability of A and B divided by the unconditional probability of B."
+          "sourceAsset": "83afd80de0adc64fb616.png"
         },
         {
           "type": "paragraph",
@@ -201,10 +199,10 @@
         {
           "type": "image",
           "src": "content/figures/0f8b04065cedff265396.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 449,
-          "height": 226,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 864,
+          "height": 435,
+          "alt": "Instructional visual diagram or table: 0f8b04065cedff265396.png"
         },
         {
           "type": "paragraph",
@@ -218,8 +216,7 @@
           "type": "math",
           "latex": "\\frac{42\\%}{50\\%}=84\\%",
           "display": true,
-          "sourceAsset": "25164683aa7a3fe9fb4c.png",
-          "prose": "probability that the economy has outperformed is ."
+          "sourceAsset": "25164683aa7a3fe9fb4c.png"
         }
       ]
     }
@@ -256,10 +253,10 @@
     {
       "type": "image",
       "src": "content/figures/31fa227e2b44ab1ae029.png",
-      "alt": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
-      "width": 296,
-      "height": 162,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 571,
+      "height": 312,
+      "alt": "Probability tree showing joint and conditional probabilities for events A, B, C, and D."
     },
     {
       "type": "paragraph",
@@ -282,10 +279,9 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{~Equivalently,~based~on~the~following~tree~diagram,} \\, \\mathbb{P} ( \\mathbb{A} \\, | \\, \\mathbb{C} )=\\frac{\\mathbb{P} ( \\mathbb{A} C )} {\\mathbb{P} ( \\mathbb{A} C )+\\mathbb{P} ( \\mathbb{B} C )} ;",
+      "latex": "\\text{ Equivalently, based on the following tree diagram,} \\, \\mathbb{P} ( \\mathbb{A} \\, | \\, \\mathbb{C} )=\\frac{\\mathbb{P} ( \\mathbb{A} C )} {\\mathbb{P} ( \\mathbb{A} C )+\\mathbb{P} ( \\mathbb{B} C )} ;",
       "display": true,
-      "sourceAsset": "02c19bd310ba65691617.png",
-      "prose": "Equivalently, based on the following tree diagram, :"
+      "sourceAsset": "02c19bd310ba65691617.png"
     }
   ],
   "practice": [],
@@ -321,10 +317,12 @@
           "prompt": "Given the conditional probabilities in the following table and the unconditional probabilities P(Y = 1) = 0.3 and P(Y = 2) = 0.7, what is the expected value of X?",
           "supportingBlocks": [
             {
-              "type": "math",
-              "latex": "\\begin{array} {cccc} {{\\begin{array} {cc} {{\\bf x_{i}}} & {{\\bf P ( x_{i}} \\mid{\\bf Y=1} )} & {{\\bf P ( x_{i}} \\mid{\\bf Y=2} )} \\\\ \\hline{0} & {0.2} & {0.1} \\\\ {5} & {0.4} & {0.8} \\\\ {10} & {0.4} & {0.1} \\end{array}}} \\\\ \\end{array}",
-              "display": true,
-              "sourceAsset": "f116b8b224ba2e5416f1.png"
+              "type": "image",
+              "src": "content/figures/f116b8b224ba2e5416f1.png",
+              "visualKind": "diagram-chart-or-table",
+              "width": 445,
+              "height": 177,
+              "alt": "Joint probability distribution table showing outcomes conditional on macroeconomic states."
             }
           ],
           "options": [
@@ -389,18 +387,17 @@
             },
             {
               "type": "math",
-              "latex": "\\widetilde{\\mathrm{updated~probability~that~EPS~are~greater~than~82~is}} \\frac{28 \\gamma_{0}} {28 \\gamma_{0}+12 \\gamma_{0}}=\\widetilde{70 \\gamma_{0}} ;",
+              "latex": "\\widetilde{\\text{updated probability that EPS are greater than 82 is}} \\frac{28 \\gamma_{0}} {28 \\gamma_{0}+12 \\gamma_{0}}=\\widetilde{70 \\gamma_{0}} ;",
               "display": true,
-              "sourceAsset": "7efee4b6e652bb00bd73.png",
-              "prose": "updated probability that EPS are greater than $2 is :"
+              "sourceAsset": "7efee4b6e652bb00bd73.png"
             },
             {
               "type": "image",
               "src": "content/figures/dc31279e9262d8e1f0de.png",
-              "alt": "Equation, table, or diagram: updated probability that EPS are greater than $2 is :",
-              "width": 456,
-              "height": 202,
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 878,
+              "height": 389,
+              "alt": "Instructional visual diagram or table: dc31279e9262d8e1f0de.png"
             }
           ]
         }

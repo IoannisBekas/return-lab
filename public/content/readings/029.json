@@ -195,10 +195,10 @@
         {
           "type": "image",
           "src": "content/figures/cf5e031ad1339fbb7d29.png",
-          "alt": "Equation, table, or diagram: Figure 29.1: Financial Asset Measurement Bases—U.S. GAAP",
-          "width": 535,
-          "height": 125,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1030,
+          "height": 241,
+          "alt": "Instructional visual diagram or table: cf5e031ad1339fbb7d29.png"
         },
         {
           "type": "heading",
@@ -271,10 +271,10 @@
         {
           "type": "image",
           "src": "content/figures/a7eb4c02415f7140eec5.png",
-          "alt": "Equation, table, or diagram: Figure 29.2: Financial Asset Classifications—IFRS",
-          "width": 535,
-          "height": 303,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1030,
+          "height": 584,
+          "alt": "Instructional visual diagram or table: a7eb4c02415f7140eec5.png"
         },
         {
           "type": "question",
@@ -331,10 +331,10 @@
         {
           "type": "image",
           "src": "content/figures/f036f2265f279b7b9f27.png",
-          "alt": "Equation, table, or diagram: The following are the balance sheets of industry competitors East Company (East) and West Company (West).",
-          "width": 299,
-          "height": 321,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 577,
+          "height": 618,
+          "alt": "Instructional visual diagram or table: f036f2265f279b7b9f27.png"
         },
         {
           "type": "paragraph",
@@ -351,10 +351,10 @@
         {
           "type": "image",
           "src": "content/figures/5f069797e6e810c80e3f.png",
-          "alt": "Equation, table, or diagram: East is obviously the larger company. By converting the balance sheets to common-size format, we can eliminate the size effect.",
-          "width": 271,
-          "height": 321,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 523,
+          "height": 618,
+          "alt": "Instructional visual diagram or table: 5f069797e6e810c80e3f.png"
         },
         {
           "type": "paragraph",
@@ -382,7 +382,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{current~ratio}=\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}} \\\\ {{}} \\\\ {{\\mathrm{quick~ratio}=\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}} \\\\ \\end{array}\\\\[6pt]\\mathrm{cash~ratio}={\\frac{\\operatorname{cash}+\\mathrm{marketable~securities}} {\\mathrm{current~liabilities}}}\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\text{Current ratio} &= \\frac{\\text{Current assets}}{\\text{Current liabilities}} \\\\[8pt]\n\\text{Quick ratio} &= \\frac{\\text{Cash} + \\text{Marketable securities} + \\text{Receivables}}{\\text{Current liabilities}} \\\\[8pt]\n\\text{Cash ratio} &= \\frac{\\text{Cash} + \\text{Marketable securities}}{\\text{Current liabilities}}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "47eabfa9f40215ebb4a3.png"
         },
@@ -396,7 +396,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Long-term debt-to-equity ratio}=\\frac{\\text{long-term debt}}{\\text{total equity}}\\\\\n\\text{Total debt-to-equity ratio}=\\frac{\\text{total debt}}{\\text{total equity}},\\quad\n\\text{Debt ratio}=\\frac{\\text{total debt}}{\\text{total assets}},\\quad\n\\text{Financial leverage ratio}=\\frac{\\text{total assets}}{\\text{total equity}}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Long-term debt-to-equity ratio}=\\frac{\\text{long-term debt}}{\\text{total equity}}\\\\[8pt]\n\\text{Total debt-to-equity ratio}=\\frac{\\text{total debt}}{\\text{total equity}},\\quad\n\\text{Debt ratio}=\\frac{\\text{total debt}}{\\text{total assets}},\\quad\n\\text{Financial leverage ratio}=\\frac{\\text{total assets}}{\\text{total equity}}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "28d231b3b675e55a5237.png"
         },

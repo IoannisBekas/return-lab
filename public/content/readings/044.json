@@ -533,10 +533,10 @@
         {
           "type": "image",
           "src": "content/figures/8378d34541a04269f36e.png",
-          "alt": "Equation, table, or diagram: Figure 44.1: Generic Competitive Strategies³",
-          "width": 632,
-          "height": 724,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1216,
+          "height": 1394,
+          "alt": "Instructional visual diagram or table: 8378d34541a04269f36e.png"
         }
       ]
     }

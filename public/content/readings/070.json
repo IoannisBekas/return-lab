@@ -68,10 +68,10 @@
         {
           "type": "image",
           "src": "content/figures/6c280119591a1c902e62.png",
-          "alt": "Equation, table, or diagram: Figure 70.1: Forward Rates",
-          "width": 494,
-          "height": 116,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 952,
+          "height": 224,
+          "alt": "Instructional visual diagram or table: 6c280119591a1c902e62.png"
         },
         {
           "type": "paragraph",
@@ -120,10 +120,10 @@
         {
           "type": "image",
           "src": "content/figures/17e494178314731d85e6.png",
-          "alt": "Equation, table, or diagram: Figure 70.2: Implied Forward Rate",
-          "width": 248,
-          "height": 117,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 477,
+          "height": 226,
+          "alt": "Instructional visual diagram or table: 17e494178314731d85e6.png"
         },
         {
           "type": "paragraph",
@@ -164,10 +164,10 @@
         {
           "type": "image",
           "src": "content/figures/166332d92fa56b78f1dd.png",
-          "alt": "Equation, table, or diagram: Figure 70.3: 3-Month Forward on a 6-Month Market Reference Rate",
-          "width": 496,
-          "height": 255,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 955,
+          "height": 492,
+          "alt": "Instructional visual diagram or table: 166332d92fa56b78f1dd.png"
         },
         {
           "type": "heading",
@@ -179,7 +179,7 @@
         },
         {
           "type": "math",
-          "latex": "1 + 0.012\\left(\\frac{9}{12}\\right) = \\left[1 + 0.01\\left(\\frac{3}{12}\\right)\\right] \\left[1 + F_{3,6}\\left(\\frac{6}{12}\\right)\\right]",
+          "latex": "1 + 0.012\\left(\\frac{9}{12}\\right) = \\left[1 + 0.01\\left(\\frac{3}{12}\\right)\\right] \\left[1 + F_{3{,}6}\\left(\\frac{6}{12}\\right)\\right]",
           "display": true,
           "sourceAsset": "ee220812fb982a0026de.png"
         },

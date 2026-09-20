@@ -176,10 +176,10 @@
         {
           "type": "image",
           "src": "content/figures/64b39c2a18f778e736ac.png",
-          "alt": "Equation, table, or diagram: Figure 42.1: Types of ADRs",
-          "width": 537,
-          "height": 155,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 299,
+          "alt": "Instructional visual diagram or table: 64b39c2a18f778e736ac.png"
         },
         {
           "type": "paragraph",
@@ -255,7 +255,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}_{\\mathrm{t}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {\\mathrm{average~BV}_{\\mathrm{t}}}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {( \\mathrm{BV}_{\\mathrm{t}}+\\mathrm{BV}_{\\mathrm{t}-1} ) / 2}}",
+          "latex": "\\mathrm{ROE}_{\\mathrm{t}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {\\text{average BV}_{\\mathrm{t}}}} \\!=\\! {\\frac{\\mathrm{NI}_{\\mathrm{t}}} {( \\mathrm{BV}_{\\mathrm{t}}+\\mathrm{BV}_{\\mathrm{t}-1} ) / 2}}",
           "display": true,
           "sourceAsset": "97d4451f1f20d60c13bf.png"
         },
@@ -299,7 +299,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\mathrm{Fiscal~Year-End~Dec,~31}} & {\\mathrm{20X9}} & {\\mathrm{20X8}} \\\\ \\hline{\\mathrm{Total ~ stockholder^{\\prime} s ~ equity}} & {18 , 503} & {17 , 143} \\\\ {\\mathrm{Net~income~available~to~common}} & {3 , 526} & {3 , 056} \\\\ {\\mathrm{Stock~price}} & {\\mathrm{516.80}} & {515.30} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\mathrm{Shares~outstanding} \\qquad\\qquad\\qquad\\qquad3 , 710 \\qquad2 , 790\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\text{Fiscal Year-End Dec, 31}} & {\\mathrm{20X9}} & {\\mathrm{20X8}} \\\\ \\hline{\\mathrm{Total ~ stockholder^{\\prime} s ~ equity}} & {18 , 503} & {17 , 143} \\\\ {\\text{Net income available to common}} & {3 , 526} & {3 , 056} \\\\ {\\text{Stock price}} & {\\mathrm{516.80}} & {515.30} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\text{Shares outstanding} \\qquad\\qquad\\qquad\\qquad3 , 710 \\qquad2 , 790\\end{gathered}",
           "display": true,
           "sourceAsset": "3b503416a05d60f70d27.png"
         },
@@ -313,7 +313,7 @@
         },
         {
           "type": "math",
-          "latex": "ROE_t=\\frac{NI_t}{\\text{average }BV_t}=\\frac{NI_t}{(BV_t+BV_{t-1})/2}=\\frac{\\$3{,}526}{(\\$18{,}503+\\$17{,}143)/2}=19.78\\%",
+          "latex": "\\text{ROE}_t = \\frac{\\text{NI}_t}{\\text{average }\\text{BV}_t} = \\frac{\\text{NI}_t}{(\\text{BV}_t + \\text{BV}_{t-1})/2} = \\frac{\\$3{,}526}{(\\$18{,}503 + \\$17{,}143)/2} = 19.78\\%",
           "display": true,
           "sourceAsset": "77782d7962fcca81389f.png"
         },

@@ -79,7 +79,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}{\\frac{\\mathrm{forwar d_{d / f}}} {\\mathrm{spo t_{d / f}}}} \\!=\\! {\\frac{\\left( 1+\\mathrm{r_{domestic}} \\right)} {\\left( 1+\\mathrm{r_{foreign}} \\right)}}\\\\[6pt]\\begin{aligned} {\\operatorname* {forward}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} \\mathsf{spot}_{\\mathrm{d/f}}} \\\\ {\\operatorname* {spot}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} \\mathsf{forward}_{\\mathrm{d/f}}} \\\\ \\end{aligned}\\end{gathered}",
+          "latex": "\\begin{gathered}{\\frac{\\mathrm{forwar d_{d / f}}} {\\mathrm{spo t_{d / f}}}} \\!=\\! {\\frac{\\left( 1+\\mathrm{r_{domestic}} \\right)} {\\left( 1+\\mathrm{r_{foreign}} \\right)}}\\\\[6pt]\\begin{aligned} {\\operatorname* {forward}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} \\mathsf{spot}_{\\mathrm{d/f}}} \\\\[8pt] {\\operatorname* {spot}_{\\mathrm{d/f}}=} & {{} \\frac{\\left( 1+\\operatorname* {r}_{\\mathrm{foreign}} \\right)} {\\left( 1+\\operatorname* {r}_{\\mathrm{domestic}} \\right)} \\mathsf{forward}_{\\mathrm{d/f}}} \\\\[8pt] \\end{aligned}\\end{gathered}",
           "display": true,
           "sourceAsset": "ba207222685cd2123d12.png"
         },
@@ -131,7 +131,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{no-arbitrage~forward}} & {{}=4.5671 \\! \\! \\left[ \\frac{1+0.05 \\left( \\frac{90} {360} \\right)} {1+0.03 \\left( \\frac{90} {360} \\right)} \\right] \\! \\!=4.5671 \\! \\left( \\frac{1.0125} {1.0075} \\right)} \\\\ {} & {{}=4.5898. \\mathrm{ABE/DUB}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{no-arbitrage forward}} & {{}=4.5671 \\! \\! \\left[ \\frac{1+0.05 \\left( \\frac{90} {360} \\right)} {1+0.03 \\left( \\frac{90} {360} \\right)} \\right] \\! \\!=4.5671 \\! \\left( \\frac{1.0125} {1.0075} \\right)} \\\\[8pt] {} & {{}=4.5898. \\mathrm{ABE/DUB}} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "3a75a897065f42951394.png"
         },
@@ -231,7 +231,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\mathrm{USD/EUR~spot}=\\$1.312} \\\\ {} & {{} \\mathrm{USD/EUR~90-day~forward}=\\$1.320} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {} & {{} \\text{USD/EUR spot}=\\$1.312} \\\\ {} & {{} \\text{USD/EUR 90-day forward}=\\$1.320} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "ebb5b3e0a378439dfc11.png"
         },
@@ -271,7 +271,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\frac{\\mathrm{forward}} {\\mathrm{spot}}}={\\frac{\\left( 1+\\mathrm{i}_{\\mathrm{price~cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\mathrm{bace~cuereacy}} \\right)}} {\\mathrm{so~that~forward}}={\\mathrm{spot}} \\times{\\frac{\\left( 1+\\mathrm{i}_{\\mathrm{price~cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\mathrm{base~cuereacy}} \\right)}}",
+      "latex": "{\\frac{\\mathrm{forward}} {\\mathrm{spot}}}={\\frac{\\left( 1+\\mathrm{i}_{\\text{price cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\text{bace cuereacy}} \\right)}} {\\text{so that forward}}={\\mathrm{spot}} \\times{\\frac{\\left( 1+\\mathrm{i}_{\\text{price cuereacy}} \\right)} {\\left( 1+\\mathrm{i}_{\\text{base cuereacy}} \\right)}}",
       "display": true,
       "sourceAsset": "41335252ac38508acb46.png"
     },
@@ -525,10 +525,9 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\n\\text{Forward rate in SEK/USD}=9.5238\\left(\\frac{1.07}{1.04}\\right)=9.7985\\\\\n\\text{The higher SEK interest rate implies approximately }3\\%\\text{ depreciation.}\n\\end{gathered}",
+              "latex": "\\begin{gathered}\n\\text{Forward rate in SEK/USD}=9.5238\\left(\\frac{1.07}{1.04}\\right)=9.7985\\\\[8pt]\n\\text{The higher SEK interest rate implies approximately }3\\%\\text{ depreciation.}\n\\end{gathered}",
               "display": true,
-              "sourceAsset": "2cadc8d820d707ee896a.png",
-              "prose": "The forward rate in SEK/USD is Because the SEK interest rate is the higher of the two, the SEK must depreciate approximately 3%."
+              "sourceAsset": "2cadc8d820d707ee896a.png"
             }
           ]
         },
@@ -565,8 +564,7 @@
               "type": "math",
               "latex": "\\text{Spot (USD/CHF)} = 0.80 \\left( \\frac{1.04}{1.10} \\right) = 0.7564",
               "display": true,
-              "sourceAsset": "7973c9e97fb289306ab9.png",
-              "prose": "USD/CHF, the spot is Because the interest rate is higher in the United States, it should take fewer USD to buy CHF in the spot market. In other words, the USD must be at a forward discount relative to the CHF."
+              "sourceAsset": "7973c9e97fb289306ab9.png"
             }
           ]
         }

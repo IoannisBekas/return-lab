@@ -76,10 +76,10 @@
         {
           "type": "image",
           "src": "content/figures/b7b0a9e49d16445162d8.png",
-          "alt": "Equation, table, or diagram: Figure 16.1: Archetypes of Globalization and Cooperation",
-          "width": 508,
-          "height": 319,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 978,
+          "height": 614,
+          "alt": "Instructional visual diagram or table: b7b0a9e49d16445162d8.png"
         },
         {
           "type": "paragraph",

@@ -162,7 +162,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{price-weighted~index}} \\,=\\, {\\frac{\\mathrm{sum~of~stock~prices}} {\\mathrm{number~of~stocks~in~index~adjusted~for~splits}}}",
+          "latex": "{\\text{price-weighted index}} \\,=\\, {\\frac{\\text{sum of stock prices}} {\\text{number of stocks in index adjusted for splits}}}",
           "display": true,
           "sourceAsset": "118d36b2a46784ae53af.png"
         },
@@ -181,10 +181,10 @@
         {
           "type": "image",
           "src": "content/figures/cf286e73fdd3d5bfdacd.png",
-          "alt": "Equation, table, or diagram: Index Firm Data",
-          "width": 346,
-          "height": 109,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 667,
+          "height": 211,
+          "alt": "Instructional visual diagram or table: cf286e73fdd3d5bfdacd.png"
         },
         {
           "type": "heading",
@@ -234,7 +234,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {r} {{\\mathrm{current~index~value~}}={\\frac{{\\mathrm{current~total~market~value~of~index~stocks}}} {{\\mathrm{base~year~total~market~value~of~index~stocks}}}}} \\\\ {{} \\times{\\mathrm{base~year~index~value}}} \\end{array}\\\\[6pt]{\\mathrm{current~index~value}} \\,=\\, {\\frac{\\$95 \\ \\mathrm{miflion}} {\\$80 \\ \\mathrm{miflion}}} \\, {\\times} \\, 100 \\,=\\, 118.75\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Current index value} = \\frac{\\text{Current total market value of index stocks}}{\\text{Base year total market value of index stocks}} \\times \\text{Base year index value} \\\\[8pt]\n\\text{Current index value} = \\frac{\\$95\\text{ million}}{\\$80\\text{ million}} \\times 100 = 118.75\n\\end{gathered}",
           "display": true,
           "sourceAsset": "5fce87d33d98249e939d.png"
         },
@@ -267,10 +267,10 @@
         {
           "type": "image",
           "src": "content/figures/d0de22b301608827e621.png",
-          "alt": "Equation, table, or diagram: Index Firm Data",
-          "width": 407,
-          "height": 109,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 783,
+          "height": 211,
+          "alt": "Instructional visual diagram or table: d0de22b301608827e621.png"
         },
         {
           "type": "heading",
@@ -320,7 +320,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{100,000 \\times \\$200 + 1,000,000 \\times \\$10 + 20,000,000 \\times \\$1}{540,000,000} = \\$0.57",
+          "latex": "\\frac{100{,}000 \\times \\$200 + 1{,}000{,}000 \\times \\$10 + 20{,}000{,}000 \\times \\$1}{540{,}000{,}000} = \\$0.57",
           "display": true,
           "sourceAsset": "3dbe8ac6cf26ab55990e.png"
         },
@@ -360,7 +360,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {cccc} \\hline{\\begin{array} {cccc} {\\mathrm{Stock}} & {\\mathrm{Initial~Price}} & {\\mathrm{Current}} & {\\mathrm{Price~Change}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {cccc} {\\mathrm{A}} & {\\$12} & {\\$15} & {\\qquad+25.09 /_{6}} \\\\ {\\mathrm{B}} & {\\$52} & {\\$48} & {\\qquad-7.79 /_{6}} \\end{array}} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]C \\qquad\\qquad\\ 838 \\qquad\\qquad\\qquad\\$45 \\qquad\\qquad+18.4 \\%\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {cccc} \\hline{\\begin{array} {cccc} {\\mathrm{Stock}} & {\\text{Initial Price}} & {\\mathrm{Current}} & {\\text{Price Change}} \\\\ \\end{array}} \\\\ \\hline{\\begin{array} {cccc} {\\mathrm{A}} & {\\$12} & {\\$15} & {\\qquad+25.09 /_{6}} \\\\ {\\mathrm{B}} & {\\$52} & {\\$48} & {\\qquad-7.79 /_{6}} \\end{array}} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]C \\qquad\\qquad\\ 838 \\qquad\\qquad\\qquad\\$45 \\qquad\\qquad+18.4 \\%\\end{gathered}",
           "display": true,
           "sourceAsset": "13581c5666a7d33c088b.png"
         },
@@ -370,7 +370,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{change~in~index}=\\frac{259_{\\mathrm{o}}-7.79_{\\mathrm{o}}+18.49_{\\mathrm{o}}} {3}=11.99_{\\mathrm{o}}}} \\\\ {{\\mathrm{new~index~value}=131 ( 1+0.119 )=146.59}} \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{Change in index} &= \\frac{25\\% - 7.7\\% + 18.4\\%}{3} = 11.9\\% \\\\[8pt]\n\\text{New index value} &= 131(1 + 0.119) = 146.59\n\\end{aligned}",
           "display": true,
           "sourceAsset": "5eaddb4cad8581b5b5f6.png"
         },
@@ -455,10 +455,10 @@
         {
           "type": "image",
           "src": "content/figures/e4933d08a761e2b5810d.png",
-          "alt": "Equation, table, or diagram: ndexes are market capitalization-weighted and often adjusted for the float (securities actually available for purchase). The number of securities in many of these indexes can vary.",
-          "width": 582,
-          "height": 705,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1120,
+          "height": 1357,
+          "alt": "Instructional visual diagram or table: e4933d08a761e2b5810d.png"
         },
         {
           "type": "question",
@@ -593,7 +593,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{gathered}\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks adjusted for splits}}\\\\\n\\text{Market-capitalization-weighted index}=\\frac{\\text{current total market value}}{\\text{base-year total market value}}\\times\\text{base-year index value}\\\\\n\\text{Equal-weighted index}=(1+\\text{average percentage change})\\times\\text{initial index value}\n\\end{gathered}",
+      "latex": "\\begin{gathered}\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks adjusted for splits}}\\\\[8pt]\n\\text{Market-capitalization-weighted index}=\\frac{\\text{current total market value}}{\\text{base-year total market value}}\\times\\text{base-year index value}\\\\[8pt]\n\\text{Equal-weighted index}=(1+\\text{average percentage change})\\times\\text{initial index value}\n\\end{gathered}",
       "display": true,
       "sourceAsset": "edb55bee849c0f137bc1.png"
     },
@@ -814,11 +814,10 @@
             {
               "type": "image",
               "src": "content/figures/d9dc8b8fdd4ad6fc9027.png",
-              "alt": "Equation, table, or diagram: Use the information in the following table to answer Questions 2 through 4.",
-              "width": 476,
-              "height": 144,
-              "visualKindHint": "table",
-              "visualKind": "diagram-chart-or-table"
+              "visualKind": "diagram-chart-or-table",
+              "width": 915,
+              "height": 279,
+              "alt": "Index constituent stock prices and shares outstanding table for January 1 and December 31."
             }
           ],
           "options": [
@@ -873,7 +872,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\textbf{3. c} \\Big[ \\Big( \\frac{28} {22}-1 \\Big)+\\Big( \\frac{50} {40}-1 \\Big)+\\Big( \\frac{30} {34}-1 \\Big) \\Big] \\Big( \\frac13 \\Big)=0.135=13.596",
+              "latex": "\\left[\\left(\\frac{28}{22}-1\\right) + \\left(\\frac{50}{40}-1\\right) + \\left(\\frac{30}{34}-1\\right)\\right]\\left(\\frac{1}{3}\\right) = 0.135 = 13.5\\%",
               "display": true,
               "sourceAsset": "6b743f1561694fe049aa.png"
             }
@@ -910,7 +909,7 @@
             },
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {l} {22 ( 1 , 500 )+40 ( 10 , 000 )+34 ( 3 , 000 )=5535 {,} 000} \\\\ {\\mathrm{Total~portfolio~value~December~31:}} \\\\ {28 ( 1 , 500 )+50 ( 10 , 000 )+30 ( 3 , 000 )=5632 {,} 000} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\frac{632} {535}-1=0.1813 \\approx189_{6}}} \\\\ {{\\mathrm{From~a~base~value~of~100,~the~December~31~index~value~would~be}}} \\\\ {{\\frac{632} {535} \\times100=118.13.}} \\end{array}\\end{gathered}",
+              "latex": "\\begin{gathered}\n\\text{Total portfolio value December 31:} \\\\[8pt]\n22(1{,}500) + 40(10{,}000) + 34(3{,}000) = \\$535{,}000 \\\\[6pt]\n28(1{,}500) + 50(10{,}000) + 30(3{,}000) = \\$632{,}000 \\\\[8pt]\n\\frac{632}{535} - 1 = 0.1813 = 18.13\\% \\\\[6pt]\n\\text{From a base value of } 100\\text{, the December 31 index value would be: } \\frac{632}{535} \\times 100 = 118.13\n\\end{gathered}",
               "display": true,
               "sourceAsset": "bda50c817dd110115564.png"
             }

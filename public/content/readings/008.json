@@ -27,10 +27,10 @@
         {
           "type": "image",
           "src": "content/figures/56512ee0e05d283785ae.png",
-          "alt": "Equation, table, or diagram: Figure 8.1: Hypothesis Testing Procedure",
-          "width": 518,
-          "height": 284,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 997,
+          "height": 546,
+          "alt": "Instructional visual diagram or table: 56512ee0e05d283785ae.png"
         },
         {
           "type": "paragraph",
@@ -83,10 +83,10 @@
         {
           "type": "image",
           "src": "content/figures/62247c76b2a3dfe8951a.png",
-          "alt": "Equation, table, or diagram: Figure 8.2: Two-Tailed Hypothesis Test Using the Standard Normal (z) Distribution",
-          "width": 322,
-          "height": 205,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 620,
+          "height": 394,
+          "alt": "Instructional visual diagram or table: 62247c76b2a3dfe8951a.png"
         },
         {
           "type": "paragraph",
@@ -103,10 +103,10 @@
         {
           "type": "image",
           "src": "content/figures/e784f812f521b3b450fe.png",
-          "alt": "Equation, table, or diagram: Recall from the prerequisite readings that candidates are expected to know the most frequently used critical values for hypothesis tests with z-statistics:",
-          "width": 411,
-          "height": 131,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 792,
+          "height": 252,
+          "alt": "Instructional visual diagram or table: e784f812f521b3b450fe.png"
         },
         {
           "type": "paragraph",
@@ -114,16 +114,15 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{test~statistic}}={\\frac{\\mathrm{sample~statistic}-\\mathrm{hypothesized~value}} {\\mathrm{standard~error~of~the~sample~statistic}}}",
+          "latex": "{\\text{test statistic}}={\\frac{\\text{sample statistic}-\\text{hypothesized value}} {\\text{standard error of the sample statistic}}}",
           "display": true,
           "sourceAsset": "79b836f084be0e0a5d2a.png"
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The~standard~error~of~the~sample~statistic~is~the~adjusted~standard~deviation~of~the~stample.}} \\\\ {\\mathrm{sample . ~ When ~ the ~ sample ~ statistic ~ is ~ the ~ sample ~ mean , ~ \\overline{{x}} , ~ the ~ standard ~ error ~ of ~ the ~ \\overline{{x}}_{1} ~}} \\\\ {\\mathrm{sample~statistic~for~sample~size~n,~is~calculated~as:}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\text{The standard error of the sample statistic is the adjusted standard deviation of the stample.}} \\\\ {\\mathrm{sample . ~ When ~ the ~ sample ~ statistic ~ is ~ the ~ sample ~ mean , ~ \\overline{{x}} , ~ the ~ standard ~ error ~ of ~ the ~ \\overline{{x}}_{1} ~}} \\\\ {\\text{sample statistic for sample size n, is calculated as:}} \\\\ \\end{array}",
           "display": true,
-          "sourceAsset": "8ba8ada4e0bb245a1d36.png",
-          "prose": "The standard error of the sample statistic is the adjusted standard deviation of the sample. When the sample statistic is the sample mean, , the standard error of the sample statistic for sample size n, is calculated as:"
+          "sourceAsset": "8ba8ada4e0bb245a1d36.png"
         },
         {
           "type": "math",
@@ -149,8 +148,7 @@
           "type": "math",
           "latex": "\\text{Don't be confused by the notation here. A lot of texts use } \\bar{d} \\text{ for the sample mean of differences.}",
           "display": true,
-          "sourceAsset": "a38b270081b03ba09da7.png",
-          "prose": "Study note Don’t be confused by the notation here. A lot of the literature you will encounter in your studies simply uses the term for the standard error of the test statistic, regardless of whether the population standard deviation or sample standard deviation was used in its computation."
+          "sourceAsset": "a38b270081b03ba09da7.png"
         },
         {
           "type": "paragraph",
@@ -191,10 +189,10 @@
         {
           "type": "image",
           "src": "content/figures/2ccbecb6fc5317f7554b.png",
-          "alt": "Equation, table, or diagram: Figure 8.3: Type I and Type II Errors in Hypothesis Testing",
-          "width": 415,
-          "height": 183,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 800,
+          "height": 353,
+          "alt": "Instructional visual diagram or table: 2ccbecb6fc5317f7554b.png"
         },
         {
           "type": "paragraph",
@@ -321,7 +319,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nt=\\frac{(\\bar X_1-\\bar X_2)-(\\mu_1-\\mu_2)}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\\\\ns_p^2=\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2},\\quad df=n_1+n_2-2\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nt=\\frac{(\\bar X_1-\\bar X_2)-(\\mu_1-\\mu_2)}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\\\[8pt]\ns_p^2=\\frac{(n_1-1)s_1^2+(n_2-1)s_2^2}{n_1+n_2-2},\\quad df=n_1+n_2-2\n\\end{gathered}",
           "display": true,
           "sourceAsset": "18a0c7fb21bd309fe325.png"
         },
@@ -384,10 +382,10 @@
         {
           "type": "image",
           "src": "content/figures/2650a486ca28254a17dc.png",
-          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
-          "width": 256,
-          "height": 112,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 494,
+          "height": 216,
+          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities."
         },
         {
           "type": "paragraph",
@@ -406,10 +404,12 @@
           "text": "Decision Rule for Two-Tailed t-Test"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, {\\mathrm{df}}=120 )\\\\[6pt]\\sum_{1}^{2.596} \\boxed{9596} \\uparrow\\natural^{2.596}\\\\[6pt]\\begin{array} {c | ccc} {{-1.980}} & {{}} & {{1.980}} \\\\ \\hline{{\\mid}} & {{}} & {{}} \\\\ \\hline{{\\mathrm{~ Reject ~ H_{o} ~}}} & {{\\mathrm{~ Fail ~ to ~ Reject ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ Reject ~ H_{o} ~}}} \\\\ \\hline{{\\mathrm{~ Reject ~ H_{o} ~}}} & {{}} & {{\\mathrm{~ Fail ~ to ~ Reject ~ H_{o} ~}}} & {{}} \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "ee7fb6439edbe3b04caf.png"
+          "type": "image",
+          "src": "content/figures/ee7fb6439edbe3b04caf.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 701,
+          "height": 494,
+          "alt": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 120."
         },
         {
           "type": "paragraph",
@@ -453,7 +453,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nt=\\frac{\\bar d-\\mu_d}{s_{\\bar d}},\\quad \\bar d=\\frac1n\\sum_{i=1}^{n}d_i,\\quad\ns_{\\bar d}=\\frac{s_d}{\\sqrt n}\\\\\ns_d=\\sqrt{\\frac{\\sum_{i=1}^{n}(d_i-\\bar d)^2}{n-1}},\\quad n=\\text{number of paired observations}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nt=\\frac{\\bar d-\\mu_d}{s_{\\bar d}},\\quad \\bar d=\\frac1n\\sum_{i=1}^{n}d_i,\\quad\ns_{\\bar d}=\\frac{s_d}{\\sqrt n}\\\\[8pt]\ns_d=\\sqrt{\\frac{\\sum_{i=1}^{n}(d_i-\\bar d)^2}{n-1}},\\quad n=\\text{number of paired observations}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "1b7cc19ce9ef01c0769f.png"
         },
@@ -488,10 +488,10 @@
         {
           "type": "image",
           "src": "content/figures/448f0b574d80ae590d30.png",
-          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
-          "width": 248,
-          "height": 114,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 478,
+          "height": 220,
+          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities."
         },
         {
           "type": "paragraph",
@@ -510,10 +510,12 @@
           "text": "Decision Rule for a Two-Tailed Paired Comparisons Test"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}( \\alpha=0.05 , \\, \\mathrm{df}=38 )\\\\[6pt]\\frac{2.596} {1} \\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\vert\\\\[6pt]\\begin{array} {c | cc | c} {{-2.024}} & {{}} & {{2.024}} \\\\ {{}} & {{}} & {{}} & {{}} \\\\ \\hline{{}} & {{}} & {{}} & {{}} \\\\ {{\\mathrm{Reject \\, H_{o}}}} & {{}} & {{\\mathrm{Fail ~ to ~ Reject \\, H_{o}}}} & {{}} & {{\\mathrm{Reject \\, H_{o}}}} \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "11369a9311fe8de699f7.png"
+          "type": "image",
+          "src": "content/figures/11369a9311fe8de699f7.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 674,
+          "height": 488,
+          "alt": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 38."
         },
         {
           "type": "paragraph",
@@ -594,10 +596,10 @@
         {
           "type": "image",
           "src": "content/figures/fd24dc32709058032574.png",
-          "alt": "Equation, table, or diagram: Figure 8.4: Decision Rule for a Two-Tailed Chi-Square Test",
-          "width": 316,
-          "height": 253,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 609,
+          "height": 486,
+          "alt": "Instructional visual diagram or table: fd24dc32709058032574.png"
         },
         {
           "type": "heading",
@@ -606,10 +608,10 @@
         {
           "type": "image",
           "src": "content/figures/ec0853b98c6f21d14c84.png",
-          "alt": "Equation, table, or diagram: Figure 8.5: Chi-Square Table",
-          "width": 472,
-          "height": 137,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 909,
+          "height": 265,
+          "alt": "Instructional visual diagram or table: ec0853b98c6f21d14c84.png"
         },
         {
           "type": "paragraph",
@@ -625,8 +627,7 @@
           "type": "math",
           "latex": "\\begin{gathered}\n\\text{The chi-square test statistic, } \\chi^2_{n-1}\\text{, is compared to a critical value at } n - 1 \\text{ degrees of freedom.} \\\\[4pt]\n\\text{Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative.}\n\\end{gathered}",
           "display": true,
-          "sourceAsset": "6806b7731d44425ea82c.png",
-          "prose": "Similar to other hypothesis tests, the chi-square test compares the test statistic, , to a critical chi-square value at a given level of significance and n − 1 degrees of freedom. Because the chi-square distribution is bounded below by zero, chi-square values cannot be negative."
+          "sourceAsset": "6806b7731d44425ea82c.png"
         },
         {
           "type": "heading",
@@ -675,10 +676,10 @@
         {
           "type": "image",
           "src": "content/figures/1f29a430552ac9b5702b.png",
-          "alt": "Equation, table, or diagram: Decision Rule for a Two-Tailed Chi-Square Test of a Single Population Variance",
-          "width": 363,
-          "height": 281,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 699,
+          "height": 541,
+          "alt": "Instructional visual diagram or table: 1f29a430552ac9b5702b.png"
         },
         {
           "type": "paragraph",
@@ -694,10 +695,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{~lf~we~let~} \\sigma_{1}^{2} \\mathrm{~and~} \\sigma_{2}^{2} \\mathrm{~represent~the~variances~of~normal~Population~1~and~Population~2,}} \\\\ {\\mathrm{~respectively,~the~hypotheses~for~the~two-tailed~} F \\mathrm{-test~of~differences~in~the~variances~cand~and~nond~non~2,}} \\\\ {\\mathrm{~be~structured~as~follows;}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\text{ lf we let } \\sigma_{1}^{2} \\mathrm{~and~} \\sigma_{2}^{2} \\text{ represent the variances of normal Population 1 and Population 2,}} \\\\ {\\text{ respectively, the hypotheses for the two-tailed } F \\text{-test of differences in the variances cand and nond non 2,}} \\\\ {\\text{ be structured as follows;}} \\\\ \\end{array}",
           "display": true,
-          "sourceAsset": "65ed8789c4c041ce2ba6.png",
-          "prose": "If we let represent the variances of normal Population 1 and Population 2, respectively, the hypotheses for the two-tailed F-test of differences in the variances can be structured as follows:"
+          "sourceAsset": "65ed8789c4c041ce2ba6.png"
         },
         {
           "type": "math",
@@ -721,7 +721,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {rl} {\\mathrm{F=} \\! \\displaystyle\\frac{s_{1}^{2}} {s_{2}^{2}}} \\\\ {\\mathrm{where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {{S_{1}^{2}=\\mathrm{variance~of~the~sample~of~} n_{1} \\mathrm{~observations~drawn~from~Population~1}}} \\\\ {{{}}} \\\\ {{S_{2}^{2}=\\mathrm{variance~of~the~sample~of~} n_{2} \\mathrm{~observations~drawn~from~Population~2}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {rl} {\\mathrm{F=} \\! \\displaystyle\\frac{s_{1}^{2}} {s_{2}^{2}}} \\\\[8pt] {\\mathrm{where:}} \\end{array}\\\\[6pt]\\begin{array} {l} {{S_{1}^{2}=\\text{variance of the sample of } n_{1} \\text{ observations drawn from Population 1}}} \\\\[8pt] {{{}}} \\\\[8pt] {{S_{2}^{2}=\\text{variance of the sample of } n_{2} \\text{ observations drawn from Population 2}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "b69f45974c05327fba42.png"
         },
@@ -752,10 +752,10 @@
         {
           "type": "image",
           "src": "content/figures/d08a345f77902d0c0c6d.png",
-          "alt": "Equation, table, or diagram: Figure 8.6: F-Distribution",
-          "width": 311,
-          "height": 273,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 599,
+          "height": 526,
+          "alt": "Instructional visual diagram or table: d08a345f77902d0c0c6d.png"
         },
         {
           "type": "paragraph",
@@ -799,10 +799,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{where~}^{s_{1}^{2}} \\mathrm{~is~the~larger~sample~variance.}",
+          "latex": "\\mathrm{where~}^{s_{1}^{2}} \\text{ is the larger sample variance.}",
           "display": true,
-          "sourceAsset": "9068d8699e95ffbed784.png",
-          "prose": "where is the larger sample variance."
+          "sourceAsset": "9068d8699e95ffbed784.png"
         },
         {
           "type": "paragraph",
@@ -819,10 +818,10 @@
         {
           "type": "image",
           "src": "content/figures/510d77a276c7184557a9.png",
-          "alt": "Equation, table, or diagram: Decision Rule for F-Test",
-          "width": 306,
-          "height": 271,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 590,
+          "height": 522,
+          "alt": "Instructional visual diagram or table: 510d77a276c7184557a9.png"
         },
         {
           "type": "paragraph",
@@ -902,10 +901,10 @@
     {
       "type": "image",
       "src": "content/figures/deb5a22a0f8120f6c7e7.png",
-      "alt": "Equation, table, or diagram:",
-      "width": 440,
-      "height": 132,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 847,
+      "height": 254,
+      "alt": "Instructional visual diagram or table: deb5a22a0f8120f6c7e7.png"
     },
     {
       "type": "question",

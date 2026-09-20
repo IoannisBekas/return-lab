@@ -86,7 +86,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{bf~approximate~ModDur}=\\frac{V_{-}-V_{+}} {2 V_{0} \\Delta YTM}",
+          "latex": "\\text{bf approximate ModDur}=\\frac{V_{-}-V_{+}} {2 V_{0} \\Delta YTM}",
           "display": true,
           "sourceAsset": "50fb28010f538714334a.png"
         },
@@ -112,10 +112,9 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{The~approximate~ModDur~is~} \\frac{88.127-85.092} {2 \\times86.59 \\times0.005}=3.505 \\mathrm{~and~the~approximate~change~in~of~}} \\\\ {\\mathrm{price~for~a~196~change~in~YTM~is~3.50576.~This~result~is~very~close~to~the~ModDur~of~}} \\\\ {3.50 \\mathrm{~calculated~in~an~earlier~example.~}} \\\\ \\end{array}",
+          "latex": "\\begin{gathered}\n\\text{Approximate ModDur} = \\frac{88.127 - 85.092}{2 \\times 86.59 \\times 0.005} = 3.505 \\\\[6pt]\n\\text{Approximate price change for a } 1\\% \\text{ change in YTM is } 3.505\\%.\n\\end{gathered}",
           "display": true,
-          "sourceAsset": "01643876b2d0c0c5564a.png",
-          "prose": "The approximate ModDur is and the approximate change in price for a 1% change in YTM is 3.505%. This result is very close to the ModDur of 3.50 calculated in an earlier example."
+          "sourceAsset": "01643876b2d0c0c5564a.png"
         },
         {
           "type": "paragraph",
@@ -128,10 +127,10 @@
         {
           "type": "image",
           "src": "content/figures/cd0af4b7234dbcce56b4.png",
-          "alt": "Equation, table, or diagram: Figure 57.1: Approximate ModDur",
-          "width": 463,
-          "height": 315,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 892,
+          "height": 606,
+          "alt": "Instructional visual diagram or table: cd0af4b7234dbcce56b4.png"
         },
         {
           "type": "heading",
@@ -389,7 +388,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\nV_-=100.979,\\quad V_+=99.035,\\quad V_0=100.000,\\quad \\Delta y=0.0025\\\\\n\\text{Approximate modified duration}\n=\\frac{V_--V_+}{2V_0\\Delta YTM}\n=\\frac{100.979-99.035}{2(100)(0.0025)}=3.888\n\\end{gathered}",
+              "latex": "\\begin{gathered}\nV_-=100.979,\\quad V_+=99.035,\\quad V_0=100.000,\\quad \\Delta y=0.0025\\\\[8pt]\n\\text{Approximate modified duration}\n=\\frac{V_--V_+}{2V_0\\Delta YTM}\n=\\frac{100.979-99.035}{2(100)(0.0025)}=3.888\n\\end{gathered}",
               "display": true,
               "sourceAsset": "1ee599d4c5c36e7a03b9.png"
             }

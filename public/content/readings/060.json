@@ -200,10 +200,10 @@
         {
           "type": "image",
           "src": "content/figures/37d4ab5a7d5be7fee01d.png",
-          "alt": "Equation, table, or diagram: Figure 60.1: Credit Rating Categories",
-          "width": 537,
-          "height": 391,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 752,
+          "alt": "Instructional visual diagram or table: 37d4ab5a7d5be7fee01d.png"
         },
         {
           "type": "paragraph",
@@ -412,7 +412,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{change~in~full~price~of~bond}=-\\mathrm{ModDur} \\, ( \\Delta S \\mathrm{pread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta S \\mathrm{pread} )^{2}",
+          "latex": "\\text{change in full price of bond}=-\\mathrm{ModDur} \\, ( \\Delta S \\mathrm{pread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta S \\mathrm{pread} )^{2}",
           "display": true,
           "sourceAsset": "eed0afd0c52815aa01bc.png"
         }
@@ -513,7 +513,7 @@
     },
     {
       "type": "math",
-      "latex": "\\mathrm{change~in~full~price~of~bond}=-\\mathrm{ModDur} \\, ( \\Delta\\mathrm{Spread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta\\mathrm{Spread} )^{2}",
+      "latex": "\\text{change in full price of bond}=-\\mathrm{ModDur} \\, ( \\Delta\\mathrm{Spread} )+{\\frac{1} {2}} \\, \\mathrm{convexity} ( \\Delta\\mathrm{Spread} )^{2}",
       "display": true,
       "sourceAsset": "90931d1cb718faa25f60.png"
     }

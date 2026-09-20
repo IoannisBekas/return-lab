@@ -230,10 +230,10 @@
         {
           "type": "image",
           "src": "content/figures/9d67ea1966abf6100143.png",
-          "alt": "Equation, table, or diagram: Figure 67.1: Profit/Loss Diagram for a Call Option",
-          "width": 439,
-          "height": 324,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 845,
+          "height": 623,
+          "alt": "Instructional visual diagram or table: 9d67ea1966abf6100143.png"
         },
         {
           "type": "heading",
@@ -258,10 +258,10 @@
         {
           "type": "image",
           "src": "content/figures/a95bfe5b80056592daae.png",
-          "alt": "Equation, table, or diagram: Figure 67.2: Profit/Loss Diagram for a Put Option",
-          "width": 385,
-          "height": 325,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 742,
+          "height": 625,
+          "alt": "Instructional visual diagram or table: a95bfe5b80056592daae.png"
         },
         {
           "type": "heading",

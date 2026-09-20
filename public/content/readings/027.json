@@ -125,10 +125,10 @@
         {
           "type": "image",
           "src": "content/figures/5d35fd24d5d659d777db.png",
-          "alt": "Equation, table, or diagram: Figure 27.1: SEC Required Filings",
-          "width": 537,
-          "height": 534,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 1028,
+          "alt": "Instructional visual diagram or table: 5d35fd24d5d659d777db.png"
         },
         {
           "type": "paragraph",
@@ -262,10 +262,10 @@
         {
           "type": "image",
           "src": "content/figures/70f5d4170642656171e3.png",
-          "alt": "Equation, table, or diagram: Figure 27.2: Significant Differences Between IFRS and U.S. GAAP",
-          "width": 537,
-          "height": 209,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 402,
+          "alt": "Instructional visual diagram or table: 70f5d4170642656171e3.png"
         },
         {
           "type": "paragraph",

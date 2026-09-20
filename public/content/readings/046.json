@@ -118,10 +118,10 @@
         {
           "type": "image",
           "src": "content/figures/9a0929da76789e85810f.png",
-          "alt": "Equation, table, or diagram: Figure 46.1: Dividend Payment Chronology",
-          "width": 407,
-          "height": 100,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 783,
+          "height": 194,
+          "alt": "Instructional visual diagram or table: 9a0929da76789e85810f.png"
         },
         {
           "type": "paragraph",
@@ -164,7 +164,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle{\\mathrm{boldmath{~ V ~}}}_{0}=\\mathrm{boldmath{~ \\sum_{t=1}^{\\infty}}} \\frac{{\\displaystyle{D}_{t}}} {\\left( 1+{\\bf k}_{\\bf e} \\right)^{t}}}} \\\\ {{\\displaystyle{\\mathrm{boldmath{~ where}}} {\\mathrm{boldmath{~}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{V_{0}=current ~ stock ~ value}}} \\\\ {{\\mathrm{D_{t}=dividend ~ at ~ time ~} t}} \\\\ {{\\mathrm{k_{e}=required ~ rate ~ of ~ return ~ on ~ common ~ equity}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\displaystyle{\\mathrm{boldmath{~ V ~}}}_{0}=\\mathrm{boldmath{~ \\sum_{t=1}^{\\infty}}} \\frac{{\\displaystyle{D}_{t}}} {\\left( 1+{\\bf k}_{\\bf e} \\right)^{t}}}} \\\\[8pt] {{\\displaystyle{\\mathrm{boldmath{~ where}}} {\\mathrm{boldmath{~}}}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{\\mathrm{V_{0}=current ~ stock ~ value}}} \\\\[8pt] {{\\mathrm{D_{t}=dividend ~ at ~ time ~} t}} \\\\[8pt] {{\\mathrm{k_{e}=required ~ rate ~ of ~ return ~ on ~ common ~ equity}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "580c3f875d3c648be0e3.png"
         },
@@ -200,7 +200,7 @@
         },
         {
           "type": "math",
-          "latex": "D_{1}=D_{0} \\times( 1+{\\mathrm{dividend~growth~rate}} )={\\$1.00} \\times( 1+0.05 )={\\$1.05}",
+          "latex": "D_{1}=D_{0} \\times( 1+{\\text{dividend growth rate}} )={\\$1.00} \\times( 1+0.05 )={\\$1.05}",
           "display": true,
           "sourceAsset": "732b19f99d2e1860ec4f.png"
         },
@@ -210,7 +210,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{dividend:} \\quad\\frac{\\$1.05} {1.132}=\\$0.93} \\\\ {\\mathrm{year-end~price:} \\quad\\frac{\\$13.45} {1.132}=\\$11.88} \\end{array}",
+          "latex": "\\begin{aligned}\n\\text{Dividend: } &\\quad \\frac{\\$1.05}{1.132} = \\$0.93 \\\\[8pt]\n\\text{Year-end price: } &\\quad \\frac{\\$13.45}{1.132} = \\$11.88\n\\end{aligned}",
           "display": true,
           "sourceAsset": "1ee43be87194145edb1c.png"
         },
@@ -220,7 +220,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{stock~value}=\\$0.93+\\$11.88=\\$12.81",
+          "latex": "\\text{stock value}=\\$0.93+\\$11.88=\\$12.81",
           "display": true,
           "sourceAsset": "5cc34c10d72c141887a5.png"
         },
@@ -268,7 +268,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nD_1=\\$1.50(1.08)=\\$1.62,\\quad D_2=\\$1.50(1.08)^2=\\$1.75,\\quad D_3=\\$1.50(1.08)^3=\\$1.89\\\\\nPV=\\frac{\\$1.62}{1.12}+\\frac{\\$1.75}{1.12^2}+\\frac{\\$1.89}{1.12^3}=\\$4.19\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nD_1=\\$1.50(1.08)=\\$1.62,\\quad D_2=\\$1.50(1.08)^2=\\$1.75,\\quad D_3=\\$1.50(1.08)^3=\\$1.89\\\\[8pt]\nPV=\\frac{\\$1.62}{1.12}+\\frac{\\$1.75}{1.12^2}+\\frac{\\$1.89}{1.12^3}=\\$4.19\n\\end{gathered}",
           "display": true,
           "sourceAsset": "88af6e3c10ce6064dbad.png"
         },
@@ -300,7 +300,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {c} {\\mathrm{FCFE=net~income+depreciation-increase~in~working~capital-fixed~capital}} \\\\ {\\mathrm{investment~(FCLnv)-debt~principal~repayments+new~debt~issues}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {c} {\\mathrm{FCFE=net~income+depreciation-increase~in~working~capital-fixed~capital}} \\\\ {\\text{investment (FCLnv)-debt principal repayments+new debt issues}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "a5493bc421416fe7e6a3.png"
         },
@@ -401,8 +401,7 @@
           "type": "math",
           "latex": "\\mathrm{Value ~ of ~ the ~ preferred ~ stock \\! : ~ D_{p} ~ / ~ k_{p}=\\$5.00 ~ / ~ 0.08=\\$62.50 ~}",
           "display": true,
-          "sourceAsset": "75d69b3100ae94c7752f.png",
-          "prose": "Value of the preferred stock:"
+          "sourceAsset": "75d69b3100ae94c7752f.png"
         },
         {
           "type": "question",
@@ -467,7 +466,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned}\nD_1 &= D_0(1+g_c)=\\$1.50(1.08)=\\$1.62 \\\\\n\\text{Stock value} &= \\frac{D_1}{k_e-g_c}\n=\\frac{\\$1.62}{0.12-0.08}=\\$40.50\n\\end{aligned}",
+          "latex": "\\begin{aligned}\nD_1 &= D_0(1+g_c)=\\$1.50(1.08)=\\$1.62 \\\\[8pt]\n\\text{Stock value} &= \\frac{D_1}{k_e-g_c}\n=\\frac{\\$1.62}{0.12-0.08}=\\$40.50\n\\end{aligned}",
           "display": true,
           "sourceAsset": "0aac0733302c99791356.png"
         },
@@ -527,7 +526,7 @@
         },
         {
           "type": "math",
-          "latex": "840.50-812.50=528.00",
+          "latex": "\\$40.50 - \\$12.50 = \\$28.00",
           "display": true,
           "sourceAsset": "0bc94af7839c3cf7e443.png"
         },
@@ -649,7 +648,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{value} \\,=\\, {\\cfrac{\\mathrm{D_{1}}} {( 1+\\mathrm{k_{e}} )}}+{\\cfrac{\\mathrm{D_{2}}} {( 1+\\mathrm{k_{e}} )^{2}}}+\\ldots+{\\cfrac{\\mathrm{D_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}+{\\cfrac{\\mathrm{P_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}}} \\\\ {{\\mathrm{where ~ P_{a}}={\\cfrac{\\mathrm{D_{a+1}}} {\\mathrm{k_{e}}-\\mathrm{g_{c}}}} \\, \\mathrm{is~the~terminal~stock~value,~assuming~that~dividends~at}}} \\end{array}\\\\[6pt]\\mathrm{t=n+1~and~beyond~grow~at~a~constant~rate~of~} g_{c} .\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{value} \\,=\\, {\\cfrac{\\mathrm{D_{1}}} {( 1+\\mathrm{k_{e}} )}}+{\\cfrac{\\mathrm{D_{2}}} {( 1+\\mathrm{k_{e}} )^{2}}}+\\ldots+{\\cfrac{\\mathrm{D_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}+{\\cfrac{\\mathrm{P_{a}}} {( 1+\\mathrm{k_{e}} )^{n}}}}} \\\\[8pt] {{\\mathrm{where ~ P_{a}}={\\cfrac{\\mathrm{D_{a+1}}} {\\mathrm{k_{e}}-\\mathrm{g_{c}}}} \\, \\text{is the terminal stock value, assuming that dividends at}}} \\end{array}\\\\[6pt]\\mathrm{t=n+1~and~beyond~grow~at~a~constant~rate~of~} g_{c} .\\end{gathered}",
           "display": true,
           "sourceAsset": "d7c37cc45fe4c602154b.png"
         },
@@ -691,7 +690,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {ll} {{\\displaystyle D_{1}=\\displaystyle D_{0} ( 1+\\mathrm{g}^{\\star} )=1.00 ( 1.15 )=\\$1.15}} \\\\ {{\\displaystyle D_{2}=\\displaystyle D_{1} ( 1+\\mathrm{g}^{\\star} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
+          "latex": "\\begin{array} {ll} {{\\displaystyle D_{1}=\\displaystyle D_{0} ( 1+\\mathrm{g}^{\\star} )=1.00 ( 1.15 )=\\$1.15}} \\\\[8pt] {{\\displaystyle D_{2}=\\displaystyle D_{1} ( 1+\\mathrm{g}^{\\star} )=1.15 ( 1.15 )=1.15^{2}=\\$1.32}} \\end{array}",
           "display": true,
           "sourceAsset": "0fe7ceafbd6d89d8085d.png"
         },
@@ -947,10 +946,10 @@
         {
           "type": "image",
           "src": "content/figures/f87fc37d047c47968b63.png",
-          "alt": "Equation, table, or diagram: The following figures are for Renee’s Bakery. All figures except the stock price are in millions.",
-          "width": 374,
-          "height": 159,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 721,
+          "height": 306,
+          "alt": "Instructional visual diagram or table: f87fc37d047c47968b63.png"
         },
         {
           "type": "paragraph",
@@ -958,7 +957,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lc} {\\mathrm{Lagging~Industry~Ratios}} & {\\quad20 X 3} \\\\ \\hline{\\mathrm{Price-to-earnings}} & {\\quad8.6} \\\\ {\\mathrm{Price-to-cash~flow}} & {\\quad4.6} \\\\ {\\mathrm{Price-to-sales}} & {\\quad1.4} \\\\ \\end{array}\\\\[6pt]\\mathrm{Price-to-book~value} \\qquad\\qquad\\qquad3.6\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lc} {\\text{Lagging Industry Ratios}} & {\\quad20 X 3} \\\\ \\hline{\\mathrm{Price-to-earnings}} & {\\quad8.6} \\\\ {\\text{Price-to-cash flow}} & {\\quad4.6} \\\\ {\\mathrm{Price-to-sales}} & {\\quad1.4} \\\\ \\end{array}\\\\[6pt]\\text{Price-to-book value} \\qquad\\qquad\\qquad3.6\\end{gathered}",
           "display": true,
           "sourceAsset": "b3eba3e322655226eb27.png"
         },
@@ -976,7 +975,7 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\mathrm{sales}} {\\mathrm{number~of~shares}} \\,=\\, \\frac{\\$77.30} {4.476} \\,=\\, 17.270",
+          "latex": "\\frac{\\mathrm{sales}} {\\text{number of shares}} \\,=\\, \\frac{\\$77.30} {4.476} \\,=\\, 17.270",
           "display": true,
           "sourceAsset": "1b1e3c496fc99b764053.png"
         },
@@ -986,7 +985,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\frac{\\mathrm{P}} {\\mathrm{S}}}={\\frac{\\mathrm{S11.40}} {\\mathrm{17.3}}}=\\, 0.7",
+          "latex": "\\frac{\\text{P}}{\\text{S}} = \\frac{\\$11.40}{\\$17.30} = 0.66",
           "display": true,
           "sourceAsset": "57b03ba3a79fd00bb8f5.png"
         },
@@ -1014,7 +1013,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {} & {{} \\mathrm{Company~average~P/E~20X1-20X3}} & {} & {{}} & {} & {{} 61.1} \\\\ {} & {{} \\mathrm{Company~average~P/CF~20X1-20X3}} & {} & {{}} & {} & {{} 3.5} \\\\ {} & {{} \\mathrm{Company~average~P/S~20X1-20X3}} & {} & {{}} & {} & {{} 0.7} \\\\ {} & {{} \\mathrm{Company~average~P/B~20X1-20X3}} & {} & {{}} & {} & {{} 1.0} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {} & {{} \\text{Company average P/E 20X1-20X3}} & {} & {{}} & {} & {{} 61.1} \\\\ {} & {{} \\text{Company average P/CF 20X1-20X3}} & {} & {{}} & {} & {{} 3.5} \\\\ {} & {{} \\text{Company average P/S 20X1-20X3}} & {} & {{}} & {} & {{} 0.7} \\\\ {} & {{} \\text{Company average P/B 20X1-20X3}} & {} & {{}} & {} & {{} 1.0} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "0034dae2da8d82c609e2.png"
         },
@@ -1033,7 +1032,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {\\mathrm{EV=market~value~of~common~and~preferred~stock+market~value~of~debt}} \\\\ {\\mathrm{-~cash~and~short-term~investments}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {l} {\\mathrm{EV=market~value~of~common~and~preferred~stock+market~value~of~debt}} \\\\ {\\text{- cash and short-term investments}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "b3ef5fb48dd0ed94c366.png"
         },
@@ -1063,7 +1062,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Stock price} & \\$45.00 \\\\\n\\text{Shares outstanding} & 10,000,000 \\\\\n\\hline\n\\end{array}",
+          "latex": "\\begin{array}{lc}\n\\hline\n\\text{Stock price} & \\$45.00 \\\\\n\\text{Shares outstanding} & 10{,}000{,}000 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "ee22ce734bc6fb8557cf.png"
         },
@@ -1133,10 +1132,10 @@
         {
           "type": "image",
           "src": "content/figures/e32586411aca90ecbf0c.png",
-          "alt": "Equation, table, or diagram: Using the selected financial results in the table, calculate the value of the firm’s net assets on a per-share basis.",
-          "width": 256,
-          "height": 236,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 494,
+          "height": 454,
+          "alt": "Instructional visual diagram or table: e32586411aca90ecbf0c.png"
         },
         {
           "type": "heading",
@@ -1482,7 +1481,7 @@
     },
     {
       "type": "math",
-      "latex": "{\\mathrm{preferred~stock~value}} \\,=\\, {\\frac{\\mathrm{D}_{\\ p}} {\\mathrm{k}_{\\ p}}}",
+      "latex": "{\\text{preferred stock value}} \\,=\\, {\\frac{\\mathrm{D}_{\\ p}} {\\mathrm{k}_{\\ p}}}",
       "display": true,
       "sourceAsset": "45e74577ae4be90a15e1.png"
     },
@@ -1507,7 +1506,7 @@
     },
     {
       "type": "math",
-      "latex": "g=b\\times ROE,\\quad b=1-\\text{dividend payout ratio},\\quad ROE=\\text{return on equity}",
+      "latex": "g = b \\times \\text{ROE}, \\quad b = 1 - \\text{dividend payout ratio}, \\quad \\text{ROE} = \\text{return on equity}",
       "display": true,
       "sourceAsset": "c7572c094ce9abfaf462.png"
     },
@@ -1517,7 +1516,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{gathered}{\\mathrm{value~}}={\\frac{\\mathrm{D}_{1}} {\\left( 1+\\mathbf{k_{e}} \\right)}}+{\\frac{\\mathrm{D}_{2}} {\\left( 1+\\mathbf{k_{e}} \\right)^{2}}}+\\ldots+{\\frac{\\mathrm{D}_{\\mathrm{a}}} {\\left( 1+\\mathbf{k_{e}} \\right)^{\\mathrm{a}}}}+{\\frac{\\mathrm{P}_{\\mathrm{a}}} {\\left( 1+\\mathbf{k_{e}} \\right)^{\\mathrm{a}}}}\\\\[6pt]\\begin{array} {l} {\\mathrm{where:}} \\\\ {\\mathrm{~ P_a=\\frac{D_{a+1}} {k_e-g_c} ~}} \\\\ {\\mathrm{~g_c=constant~growth~rate~of~dividends}} \\\\ {\\mathrm{~n~=~number~of~periods~of~supernormal~growth}} \\\\ \\end{array}\\end{gathered}",
+      "latex": "\\begin{gathered}\n\\text{Value} = \\frac{D_1}{(1+k_e)} + \\frac{D_2}{(1+k_e)^2} + \\dots + \\frac{D_n}{(1+k_e)^n} + \\frac{P_n}{(1+k_e)^n} \\\\[8pt]\n\\text{where: } P_n = \\frac{D_{n+1}}{k_e - g_c}\n\\end{gathered}",
       "display": true,
       "sourceAsset": "f0a261bf234635635e4c.png"
     },
@@ -1985,7 +1984,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {c} {{\\bf5. C} \\mathrm{~}} \\\\ {{\\bf D}_{3} \\!=\\! {\\bf D}_{2} \\! \\mathrm{(1+g)} \\!=\\! 1.56 \\times1.05 \\!=\\! 51.638 \\! \\mathrm{(L0S~46.h)}} \\\\ {{\\bf P}_{2} \\!=\\! {\\bf\\frac{D} {k_{e}-g_{e}}} \\!=\\! {\\bf\\frac{1.638} {0.11-0.05}} \\!={\\bf\\bar{x}} \\! \\mathrm{7.30}} \\end{array}\\\\[6pt]\\cfrac{1.25} {1.11}+\\cfrac{1.56+27.30} {( 1.11 )^{2}}=\\$24.55\\end{gathered}",
+              "latex": "\\begin{gathered}\\begin{array} {c} {{\\bf5. C} \\mathrm{~}} \\\\[8pt] {{\\bf D}_{3} \\!=\\! {\\bf D}_{2} \\! \\mathrm{(1+g)} \\!=\\! 1.56 \\times1.05 \\!=\\! 51.638 \\! \\text{(L0S 46.h)}} \\\\[8pt] {{\\bf P}_{2} \\!=\\! {\\bf\\frac{D} {k_{e}-g_{e}}} \\!=\\! {\\bf\\frac{1.638} {0.11-0.05}} \\!={\\bf\\bar{x}} \\! \\mathrm{7.30}} \\end{array}\\\\[6pt]\\cfrac{1.25} {1.11}+\\cfrac{1.56+27.30} {( 1.11 )^{2}}=\\$24.55\\end{gathered}",
               "display": true,
               "sourceAsset": "b0aa6445d5f8b35cac38.png"
             }
@@ -2018,7 +2017,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{gathered}\\begin{array} {ll} {6. \\mathbf{C} \\mathrm{~} \\mathrm{~} \\mathrm{D}_{1}=\\$1.00 ( 1.25 )=\\$1.25} & {\\mathrm{(L0S~46.h)}} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{D}_{2}=\\$1.25 ( 1.25 )=\\$1.5625} & {} \\\\ {\\mathrm{~} \\mathrm{D}_{3}=1.5625 \\times1.06=\\$1.6563} & {} \\\\ {\\mathrm{~} \\mathrm{~} \\mathrm{P}_{2}=\\frac{1.6563} {0.10-0.06}=\\$41.41} & {} \\\\ \\end{array}\\\\[6pt]\\frac{1.25} {1.10}+\\frac{1.5625+41.41} {( 1.10 )^{2}}=\\$36.65\\end{gathered}",
+              "latex": "\\begin{aligned}\nD_1 &= \\$1.00(1.25) = \\$1.25 \\\\[8pt]\nD_2 &= \\$1.25(1.25) = \\$1.5625 \\\\[8pt]\nD_3 &= \\$1.5625 \\times 1.06 = \\$1.6563 \\\\[6pt]\nP_2 &= \\frac{\\$1.6563}{0.10 - 0.06} = \\$41.41 \\\\[8pt]\nV_0 &= \\frac{\\$1.25}{1.10} + \\frac{\\$1.5625 + \\$41.41}{(1.10)^2} = \\$36.65\n\\end{aligned}",
               "display": true,
               "sourceAsset": "c0d266656dd457a5c5ae.png"
             }

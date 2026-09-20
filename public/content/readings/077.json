@@ -71,10 +71,10 @@
         {
           "type": "image",
           "src": "content/figures/07e7ceaae7b1462c4c0f.png",
-          "alt": "Equation, table, or diagram: Figure 77.1: J-Curve Example",
-          "width": 427,
-          "height": 225,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 822,
+          "height": 434,
+          "alt": "Instructional visual diagram or table: 07e7ceaae7b1462c4c0f.png"
         },
         {
           "type": "paragraph",
@@ -106,7 +106,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{B} \\right)-\\mathrm{r}_{B} \\mathrm{V}_{B}} {\\mathrm{V}_{0}}}",
+          "latex": "{\\text{leveraged return}}={\\frac{\\mathrm{r} \\! \\left( \\mathrm{V}_{0}+\\mathrm{V}_{B} \\right)-\\mathrm{r}_{B} \\mathrm{V}_{B}} {\\mathrm{V}_{0}}}",
           "display": true,
           "sourceAsset": "ac90bf6520e099459217.png"
         },
@@ -209,7 +209,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{r}={\\frac{\\mathrm{V}_{1}-\\mathrm{V}_{0}-\\mathrm{total~fees}} {\\mathrm{V}_{0}}}",
+          "latex": "\\mathrm{r}={\\frac{\\mathrm{V}_{1}-\\mathrm{V}_{0}-\\text{total fees}} {\\mathrm{V}_{0}}}",
           "display": true,
           "sourceAsset": "17dbd2ef55606cf28b4f.png"
         },
@@ -427,10 +427,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~investor's~one-year~return~after~fees~is:} \\; \\frac{70.97} {60}-1=18.396",
+          "latex": "\\text{The investor's one-year return after fees is:} \\; \\frac{70.97} {60}-1=18.396",
           "display": true,
-          "sourceAsset": "d0dbce70e1f1588c905f.png",
-          "prose": "The investor’s one-year return after fees is:"
+          "sourceAsset": "d0dbce70e1f1588c905f.png"
         },
         {
           "type": "paragraph",
@@ -440,8 +439,7 @@
           "type": "math",
           "latex": "\\frac{73}{60} - 1 = 21.7\\%",
           "display": true,
-          "sourceAsset": "adac6a6934a7033d477c.png",
-          "prose": "have returned ."
+          "sourceAsset": "adac6a6934a7033d477c.png"
         },
         {
           "type": "heading",
@@ -489,10 +487,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{investor's~return~on~investment:} \\, \\frac{130+80-6} {200}-1=296",
+          "latex": "\\text{Investor's return on investment} = \\frac{130 + 80 - 6}{200} - 1 = 2\\%",
           "display": true,
-          "sourceAsset": "2ab715a6f0de958dc0cd.png",
-          "prose": "investor’s return on investment:"
+          "sourceAsset": "2ab715a6f0de958dc0cd.png"
         },
         {
           "type": "paragraph",
@@ -500,10 +497,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{investor's~return~on~investment:} \\, \\frac{130+80-6} {200}-1=296",
+          "latex": "\\text{Investor's return on investment} = \\frac{130 + 80 - 6}{200} - 1 = 2\\%",
           "display": true,
-          "sourceAsset": "dd53dd2ba57ddf9493a0.png",
-          "prose": "investor’s return on investment:"
+          "sourceAsset": "dd53dd2ba57ddf9493a0.png"
         },
         {
           "type": "paragraph",
@@ -544,10 +540,9 @@
     },
     {
       "type": "math",
-      "latex": "\\mathbf{\\Sigma}_{\\mathrm{leveraged~return}}={\\frac{\\mathrm{r} ( \\mathrm{V_{0}}+\\mathrm{V_{B}} )-\\mathrm{r_{B} V_{B}}} {\\mathrm{V_{0}}}}",
+      "latex": "\\mathbf{\\Sigma}_{\\text{leveraged return}}={\\frac{\\mathrm{r} ( \\mathrm{V_{0}}+\\mathrm{V_{B}} )-\\mathrm{r_{B} V_{B}}} {\\mathrm{V_{0}}}}",
       "display": true,
-      "sourceAsset": "a346a147f68a5464b5e4.png",
-      "prose": "leveraged return"
+      "sourceAsset": "a346a147f68a5464b5e4.png"
     },
     {
       "type": "paragraph",

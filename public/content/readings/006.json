@@ -27,10 +27,10 @@
         {
           "type": "image",
           "src": "content/figures/0a3a511844bb550d3ed8.png",
-          "alt": "Equation, table, or diagram: Figure 6.1: Normal vs. Lognormal Distributions",
-          "width": 448,
-          "height": 175,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 862,
+          "height": 336,
+          "alt": "Instructional visual diagram or table: 0a3a511844bb550d3ed8.png"
         },
         {
           "type": "paragraph",

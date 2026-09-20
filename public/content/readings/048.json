@@ -22,7 +22,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array}{lcccc}\n\\hline\n\\text{Year} & 1 & 2 & 3 & 4 \\\\\n\\hline\n\\text{PMT} & \\$50 & \\$50 & \\$50 & \\$1,050 \\\\\n\\hline\n\\end{array}",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\text{Year} & 1 & 2 & 3 & 4 \\\\\n\\hline\n\\text{PMT} & \\$50 & \\$50 & \\$50 & \\$1{,}050 \\\\\n\\hline\n\\end{array}",
           "display": true,
           "sourceAsset": "f9e7bcefe95852081235.png"
         },

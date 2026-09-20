@@ -133,10 +133,10 @@
         {
           "type": "image",
           "src": "content/figures/171f0c75b0ec54825fa5.png",
-          "alt": "Equation, table, or diagram: The lease liability will be treated as if it were an amortizing loan.",
-          "width": 493,
-          "height": 212,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 950,
+          "height": 408,
+          "alt": "Instructional visual diagram or table: 171f0c75b0ec54825fa5.png"
         },
         {
           "type": "paragraph",
@@ -173,10 +173,10 @@
         {
           "type": "image",
           "src": "content/figures/004e4e43db850044a5b3.png",
-          "alt": "Equation, table, or diagram: The lease liability will be treated the same way as it is for a finance lease, but the book value of the ROU asset will remain equal to the book value of the lease liability.",
-          "width": 501,
-          "height": 215,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 965,
+          "height": 415,
+          "alt": "Instructional visual diagram or table: 004e4e43db850044a5b3.png"
         },
         {
           "type": "paragraph",
@@ -197,10 +197,10 @@
         {
           "type": "image",
           "src": "content/figures/24c9efeab5fdeedafb9c.png",
-          "alt": "Equation, table, or diagram: Comparison of finance and operating leases: U.S. GAAP",
-          "width": 410,
-          "height": 472,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 791,
+          "height": 908,
+          "alt": "Instructional visual diagram or table: 24c9efeab5fdeedafb9c.png"
         },
         {
           "type": "paragraph",
@@ -225,10 +225,10 @@
         {
           "type": "image",
           "src": "content/figures/0e599b3fe938861a8d0f.png",
-          "alt": "Equation, table, or diagram: Figure 34.1: Impact on Financial Statements",
-          "width": 536,
-          "height": 239,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 460,
+          "alt": "Instructional visual diagram or table: 0e599b3fe938861a8d0f.png"
         },
         {
           "type": "paragraph",
@@ -241,10 +241,10 @@
         {
           "type": "image",
           "src": "content/figures/aa19dd3e7ccbe523e642.png",
-          "alt": "Equation, table, or diagram: Figure 34.2: Lessee Accounting",
-          "width": 371,
-          "height": 147,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 715,
+          "height": 284,
+          "alt": "Instructional visual diagram or table: aa19dd3e7ccbe523e642.png"
         },
         {
           "type": "heading",
@@ -292,10 +292,9 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{The~present~value~of~the~expected~residual~value}={\\frac{52 , 000} {( 1.05 )^{4}}}={\\$1 , 645.} .",
+          "latex": "\\text{The present value of the expected residual value}={\\frac{52 , 000} {( 1.05 )^{4}}}={\\$1 , 645.} .",
           "display": true,
-          "sourceAsset": "811c3f36455300f5373f.png",
-          "prose": "The present value of the expected residual value ."
+          "sourceAsset": "811c3f36455300f5373f.png"
         },
         {
           "type": "paragraph",
@@ -304,10 +303,10 @@
         {
           "type": "image",
           "src": "content/figures/fc400033a0f08b1267b6.png",
-          "alt": "Equation, table, or diagram: The cost of sales is equal to the asset’s carrying value less the present value of the residual value: $30,000 − $1,645 = $28,355.",
-          "width": 463,
-          "height": 99,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 892,
+          "height": 192,
+          "alt": "Instructional visual diagram or table: fc400033a0f08b1267b6.png"
         },
         {
           "type": "heading",
@@ -328,10 +327,10 @@
         {
           "type": "image",
           "src": "content/figures/47a778e8d0cc4e8c245b.png",
-          "alt": "Equation, table, or diagram:  interest rate implicit in the lease is the internal rate of return that makes the present value of the lease payments received and the residual value equal the asset’s fair value.",
-          "width": 484,
-          "height": 275,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 931,
+          "height": 530,
+          "alt": "Instructional visual diagram or table: 47a778e8d0cc4e8c245b.png"
         },
         {
           "type": "paragraph",
@@ -366,10 +365,10 @@
         {
           "type": "image",
           "src": "content/figures/fbe9f55fff93a26af2cd.png",
-          "alt": "Equation, table, or diagram: the life of the lease. No lease receivable asset is created. Payments from the lessee are treated as rental income (lease revenue) on a straight-line basis in the income statement.",
-          "width": 420,
-          "height": 199,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 809,
+          "height": 383,
+          "alt": "Instructional visual diagram or table: fbe9f55fff93a26af2cd.png"
         },
         {
           "type": "paragraph",
@@ -382,10 +381,10 @@
         {
           "type": "image",
           "src": "content/figures/3e9cd88b54d911d57bf7.png",
-          "alt": "Equation, table, or diagram: Lessor: Finance vs. Operating Lease Comparison",
-          "width": 500,
-          "height": 311,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 963,
+          "height": 599,
+          "alt": "Instructional visual diagram or table: 3e9cd88b54d911d57bf7.png"
         },
         {
           "type": "paragraph",

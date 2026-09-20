@@ -109,10 +109,10 @@
         {
           "type": "image",
           "src": "content/figures/fc07326a2f0b8fbbbfb4.png",
-          "alt": "Equation, table, or diagram: Figure 36.1: Aggressive and Conservative Accounting",
-          "width": 503,
-          "height": 218,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 969,
+          "height": 421,
+          "alt": "Instructional visual diagram or table: fc07326a2f0b8fbbbfb4.png"
         },
         {
           "type": "paragraph",

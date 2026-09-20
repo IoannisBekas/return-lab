@@ -91,7 +91,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{vertical~common-size~balance~sheet~ratios}}={\\frac{\\mathrm{balance~sheet~account}} {\\mathrm{total~assets}}}",
+          "latex": "{\\text{vertical common-size balance sheet ratios}}={\\frac{\\text{balance sheet account}} {\\text{total assets}}}",
           "display": true,
           "sourceAsset": "7c5e48075a564ae2f960.png"
         },
@@ -101,7 +101,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{vertical~common-size~income~statement~ratios}}={\\frac{\\mathrm{income~statement~account}} {\\mathrm{sales}}}",
+          "latex": "{\\text{vertical common-size income statement ratios}}={\\frac{\\text{income statement account}} {\\mathrm{sales}}}",
           "display": true,
           "sourceAsset": "63c2b2e0a5816f90d366.png"
         },
@@ -120,18 +120,18 @@
         {
           "type": "image",
           "src": "content/figures/a487e195393d5926f459.png",
-          "alt": "Equation, table, or diagram: Figure 37.1: Vertical Common-Size Balance Sheet and Income Statement",
-          "width": 475,
-          "height": 434,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 914,
+          "height": 835,
+          "alt": "Instructional visual diagram or table: a487e195393d5926f459.png"
         },
         {
           "type": "image",
           "src": "content/figures/54183e56771cf041f20a.png",
-          "alt": "Equation, table, or diagram: Figure 37.1: Vertical Common-Size Balance Sheet and Income Statement",
-          "width": 476,
-          "height": 411,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 916,
+          "height": 793,
+          "alt": "Instructional visual diagram or table: 54183e56771cf041f20a.png"
         },
         {
           "type": "paragraph",
@@ -160,10 +160,10 @@
         {
           "type": "image",
           "src": "content/figures/5ed743d32ffb2b595cd6.png",
-          "alt": "Equation, table, or diagram: Figure 37.2: Horizontal Common-Size Balance Sheet Data",
-          "width": 347,
-          "height": 115,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 669,
+          "height": 222,
+          "alt": "Instructional visual diagram or table: 5ed743d32ffb2b595cd6.png"
         },
         {
           "type": "paragraph",
@@ -204,10 +204,10 @@
         {
           "type": "image",
           "src": "content/figures/f61a2df07126ade2843a.png",
-          "alt": "Equation, table, or diagram: Figure 37.3: Stacked Column (Stacked Bar) Graph",
-          "width": 377,
-          "height": 330,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 727,
+          "height": 635,
+          "alt": "Instructional visual diagram or table: f61a2df07126ade2843a.png"
         },
         {
           "type": "heading",
@@ -216,10 +216,10 @@
         {
           "type": "image",
           "src": "content/figures/738bcc4c48c2bf85ae21.png",
-          "alt": "Equation, table, or diagram: Figure 37.4: Line Graph",
-          "width": 379,
-          "height": 327,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 730,
+          "height": 629,
+          "alt": "Instructional visual diagram or table: 738bcc4c48c2bf85ae21.png"
         },
         {
           "type": "heading",
@@ -274,7 +274,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{receivables~turnover}}={\\frac{\\mathrm{annual~sales}} {\\mathrm{average~receivables}}}",
+          "latex": "{\\text{receivables turnover}}={\\frac{\\text{annual sales}} {\\text{average receivables}}}",
           "display": true,
           "sourceAsset": "9ef92185ea21fa514620.png"
         },
@@ -292,7 +292,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{days~of~sales~outstanding}=\\frac{365} {\\mathrm{receivables~turnover}}",
+          "latex": "\\text{days of sales outstanding}=\\frac{365} {\\text{receivables turnover}}",
           "display": true,
           "sourceAsset": "137b665109cfe4f64e18.png"
         },
@@ -302,7 +302,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{inventory~turnover}={\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~inventory}}}",
+          "latex": "\\text{inventory turnover}={\\frac{\\text{cost of goods sold}} {\\text{average inventory}}}",
           "display": true,
           "sourceAsset": "65d2bf275c4fcdefc07a.png"
         },
@@ -320,7 +320,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{days~of~inventory~on~hand}=\\frac{365} {\\mathrm{inventory~turnover}}",
+          "latex": "\\text{days of inventory on hand}=\\frac{365} {\\text{inventory turnover}}",
           "display": true,
           "sourceAsset": "a8cfd8b0bc1551caebb5.png"
         },
@@ -330,7 +330,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{payables~turnover}=\\frac{\\mathrm{cost~of~goods~sold}} {\\mathrm{average~trade~payables}}",
+          "latex": "\\text{payables turnover}=\\frac{\\text{cost of goods sold}} {\\text{average trade payables}}",
           "display": true,
           "sourceAsset": "475acbd03e5dd5d7d1e4.png"
         },
@@ -348,7 +348,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{number~of~days~of~payables}=\\frac{365} {\\mathrm{payables~turnover~ratio}}",
+          "latex": "\\text{number of days of payables}=\\frac{365} {\\text{payables turnover ratio}}",
           "display": true,
           "sourceAsset": "0da66a702b3e91c65ed9.png"
         },
@@ -366,7 +366,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{total~asset~turnover}={\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}}",
+          "latex": "\\text{total asset turnover}={\\frac{\\mathrm{revenue}} {\\text{average total assets}}}",
           "display": true,
           "sourceAsset": "9d6fdb9aeb7666683b55.png"
         },
@@ -380,7 +380,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{fixed~asset~turnover}=\\frac{\\mathrm{fevenue}} {\\mathrm{average~net~fixed~assets}}",
+          "latex": "\\text{Fixed asset turnover} = \\frac{\\text{Revenue}}{\\text{Average net fixed assets}}",
           "display": true,
           "sourceAsset": "13b2cc671486ba4043b0.png"
         },
@@ -394,7 +394,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{working~capital~turnover}}={\\frac{\\mathrm{fevenue}} {\\mathrm{average~working~capital}}}",
+          "latex": "\\text{Working capital turnover} = \\frac{\\text{Revenue}}{\\text{Average working capital}}",
           "display": true,
           "sourceAsset": "97023bdade95f1765bcd.png"
         },
@@ -416,7 +416,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{current~ratio}={\\frac{\\mathrm{current~assets}} {\\mathrm{current~liabilities}}}",
+          "latex": "\\text{current ratio}={\\frac{\\text{current assets}} {\\text{current liabilities}}}",
           "display": true,
           "sourceAsset": "80535e80109baa25ba1a.png"
         },
@@ -430,7 +430,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{quick~ratio}}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}+\\mathrm{receivables}} {\\mathrm{current~liabilities}}}",
+          "latex": "{\\text{quick ratio}}={\\frac{\\mathrm{cash}+\\text{marketable securities}+\\mathrm{receivables}} {\\text{current liabilities}}}",
           "display": true,
           "sourceAsset": "2cb11dd4fd77b7cac280.png"
         },
@@ -440,7 +440,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{cash~ratio}={\\frac{\\mathrm{cash}+\\mathrm{marketable~securities}} {\\mathrm{curreat~liabilities}}}",
+          "latex": "\\text{cash ratio}={\\frac{\\mathrm{cash}+\\text{marketable securities}} {\\text{curreat liabilities}}}",
           "display": true,
           "sourceAsset": "394717b83c58f082cf61.png"
         },
@@ -450,7 +450,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{defensive~interval}}={\\frac{\\operatorname{cash}+\\operatorname{marketable ~ securities}+\\operatorname{receivables}} {\\operatorname{average ~ daily ~ expenditures}}}",
+          "latex": "{\\text{defensive interval}}={\\frac{\\operatorname{cash}+\\operatorname{marketable ~ securities}+\\operatorname{receivables}} {\\operatorname{average ~ daily ~ expenditures}}}",
           "display": true,
           "sourceAsset": "65bb41c50fc3196402a0.png"
         },
@@ -464,7 +464,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {\\mathrm{cash~conversion~cycle}=\\mathrm{days\"~sales~outstanding}+\\mathrm{days~of~inventory~on~hand}} \\\\ {\\phantom{aaaaaaaaaaa}-\\mathrm{number~of~days~of~payables}} \\\\ \\end{array}",
+          "latex": "\\text{Cash conversion cycle} = \\text{Days sales outstanding} + \\text{Days of inventory on hand} - \\text{Number of days of payables}",
           "display": true,
           "sourceAsset": "e8c947293efad5eb6c70.png"
         },
@@ -532,7 +532,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{debt-to-assets}=\\frac{\\mathrm{total~debt}} {\\mathrm{total~assets}}",
+          "latex": "\\mathrm{debt-to-assets}=\\frac{\\text{total debt}} {\\text{total assets}}",
           "display": true,
           "sourceAsset": "9c51324757c2ec34eceb.png"
         },
@@ -542,7 +542,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{financial~leverage}}={\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~total~equity}}}",
+          "latex": "{\\text{financial leverage}}={\\frac{\\text{average total assets}} {\\text{average total equity}}}",
           "display": true,
           "sourceAsset": "8dff3ec36c503cb280ab.png"
         },
@@ -552,7 +552,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{interest~coverage}}={\\frac{\\mathrm{earnings~before~interest~and~taxes}} {\\mathrm{interest~payments}}}",
+          "latex": "{\\text{interest coverage}}={\\frac{\\text{earnings before interest and taxes}} {\\text{interest payments}}}",
           "display": true,
           "sourceAsset": "324dd3b403a5eaf3ab93.png"
         },
@@ -572,7 +572,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{fixed~charge~coverage}}={\\frac{\\mathrm{earmings~before~interest~and~taxes}+\\mathrm{lease~payments}} {\\mathrm{interest~payments}}}",
+          "latex": "{\\text{fixed charge coverage}}={\\frac{\\text{earmings before interest and taxes}+\\text{lease payments}} {\\text{interest payments}}}",
           "display": true,
           "sourceAsset": "42c62d9ee0e5f68949e5.png"
         },
@@ -602,7 +602,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{net~profit~margin}={\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}}",
+          "latex": "\\text{net profit margin}={\\frac{\\text{net income}} {\\mathrm{revenue}}}",
           "display": true,
           "sourceAsset": "ab8b24b3e8212c395b79.png"
         },
@@ -620,7 +620,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{gross~profit~margin}=\\frac{\\mathrm{gross~profit}} {\\mathrm{revenue}}",
+          "latex": "\\text{gross profit margin}=\\frac{\\text{gross profit}} {\\mathrm{revenue}}",
           "display": true,
           "sourceAsset": "ba901238b3e7e64df938.png"
         },
@@ -634,7 +634,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{operating~profit~margin}=\\frac{\\mathrm{operating~income}} {\\mathrm{revenue}} \\, \\mathrm{or} \\, \\frac{\\mathrm{EBIT}} {\\mathrm{revenue}}",
+          "latex": "\\text{operating profit margin}=\\frac{\\text{operating income}} {\\mathrm{revenue}} \\, \\mathrm{or} \\, \\frac{\\mathrm{EBIT}} {\\mathrm{revenue}}",
           "display": true,
           "sourceAsset": "33fcf80351aa39ab3ba1.png"
         },
@@ -644,7 +644,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{pretax~margin}=\\frac{\\mathrm{EBT}} {\\mathrm{revenue}}",
+          "latex": "\\text{pretax margin}=\\frac{\\mathrm{EBT}} {\\mathrm{revenue}}",
           "display": true,
           "sourceAsset": "89a63574f5b9bf1f0134.png"
         },
@@ -654,7 +654,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROA}={\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}}",
+          "latex": "\\mathrm{ROA}={\\frac{\\text{net income}} {\\text{average total assets}}}",
           "display": true,
           "sourceAsset": "3dea954f40444ad20c6e.png"
         },
@@ -664,7 +664,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROA}=\\ {\\frac{\\mathrm{net~income}+\\mathrm{interest~expense~(1-tax~rate)}} {\\mathrm{average~total~assets}}}",
+          "latex": "\\mathrm{ROA}=\\ {\\frac{\\text{net income}+\\text{interest expense (1-tax rate)}} {\\text{average total assets}}}",
           "display": true,
           "sourceAsset": "e3e3ee7431b18f3af615.png"
         },
@@ -674,7 +674,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{operating~ROA}}={\\frac{\\mathrm{operating~income}} {\\mathrm{average~total~assets}}} \\, {\\mathrm{or~}} \\, {\\frac{\\mathrm{EBIT}} {\\mathrm{average~total~assets}}}",
+          "latex": "{\\text{operating ROA}}={\\frac{\\text{operating income}} {\\text{average total assets}}} \\, {\\mathrm{or~}} \\, {\\frac{\\mathrm{EBIT}} {\\text{average total assets}}}",
           "display": true,
           "sourceAsset": "7dcdbad499f931d48b72.png"
         },
@@ -684,7 +684,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{return~on~invested~capital}}={\\frac{\\mathrm{after {-} tax ~ operating ~ profit}} {\\mathrm{average ~ long {-} term ~ capital}}}",
+          "latex": "{\\text{return on invested capital}}={\\frac{\\mathrm{after {-} tax ~ operating ~ profit}} {\\mathrm{average ~ long {-} term ~ capital}}}",
           "display": true,
           "sourceAsset": "fd4b3738615348379c01.png"
         },
@@ -694,7 +694,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}={\\frac{\\mathrm{net~income}} {\\mathrm{average~total~equity}}}",
+          "latex": "\\mathrm{ROE}={\\frac{\\text{net income}} {\\text{average total equity}}}",
           "display": true,
           "sourceAsset": "e48063d67b634894e55d.png"
         },
@@ -708,7 +708,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{return~on~common~equity}} & {{}=\\frac{\\mathrm{net~income-preferred~dividends}} {\\mathrm{average~common~equity}}} \\\\ {} & {{}=\\frac{\\mathrm{net~income~available~to~common}} {\\mathrm{average~common~equity}}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{return on common equity}} & {{}=\\frac{\\text{net income-preferred dividends}} {\\text{average common equity}}} \\\\[8pt] {} & {{}=\\frac{\\text{net income available to common}} {\\text{average common equity}}} \\\\[8pt] \\end{aligned}",
           "display": true,
           "sourceAsset": "ec404a8dec4c6a6a6b76.png"
         },
@@ -735,20 +735,22 @@
         {
           "type": "image",
           "src": "content/figures/0441f549559dfa88d182.png",
-          "alt": "Equation, table, or diagram: Sedgwick Company Balance Sheet",
-          "width": 450,
-          "height": 503,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 868,
+          "height": 968,
+          "alt": "Instructional visual diagram or table: 0441f549559dfa88d182.png"
         },
         {
           "type": "heading",
           "text": "Sedgwick Company Income Statement"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{} & {} & {\\mathrm{Current~Year}} \\\\ \\hline{} & {} & {\\$4 , 000} \\\\ {\\mathrm{Cost~of~goods~sold}} & {} & {\\frac{3 , 000} {3 , 000}} \\\\ {\\mathrm{Gross~profit}} & {} & {1 , 000} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {ll} {\\mathrm{Operating~expenses}} & {\\qquad\\qquad\\underline{{650}}} \\\\ {\\mathrm{Operating~profit}} & {\\qquad\\qquad350} \\\\ {\\mathrm{Interest~expense}} & {\\qquad\\qquad\\underline{{50}}} \\\\ {\\mathrm{Earnings~before~taxes}} & {\\qquad\\qquad300} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lcr} {\\mathrm{Taxes}} & {\\qquad} & {\\underline{{100}}} \\\\ {\\mathrm{Net~income}} & {\\qquad} & {\\underline{{200}}} \\\\ {\\mathrm{Common~dividends}} & {\\qquad} & {\\underline{{60}}} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "73dc12ecfc35b84f7ec5.png"
+          "type": "image",
+          "src": "content/figures/73dc12ecfc35b84f7ec5.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 524,
+          "height": 485,
+          "alt": "Comparative balance sheet extract showing current year asset balances."
         },
         {
           "type": "heading",
@@ -756,7 +758,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Current ratio}=\\frac{620}{325}=1.9,\\quad\n\\text{Total asset turnover}=\\frac{2{,}060}{(1{,}040+1{,}040)/2}=2.0\\\\\n\\text{Net profit margin}=\\frac{200}{4{,}000}=5.0\\%,\\quad\n\\text{Return on common equity}=\\frac{200}{(1{,}020+880)/2}=21.1\\%\\\\\n\\text{Debt-to-equity ratio}=\\frac{610+160+55}{1{,}020}=80.9\\%\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Current ratio}=\\frac{620}{325}=1.9,\\quad\n\\text{Total asset turnover}=\\frac{2{,}060}{(1{,}040+1{,}040)/2}=2.0\\\\[8pt]\n\\text{Net profit margin}=\\frac{200}{4{,}000}=5.0\\%,\\quad\n\\text{Return on common equity}=\\frac{200}{(1{,}020+880)/2}=21.1\\%\\\\[8pt]\n\\text{Debt-to-equity ratio}=\\frac{610+160+55}{1{,}020}=80.9\\%\n\\end{gathered}",
           "display": true,
           "sourceAsset": "54553945c671b82bf0cd.png"
         },
@@ -778,10 +780,12 @@
           "text": "An analyst calculates the following activity and liquidity ratios for a company over the last three years:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{\\begin{array} {l} \\hline{\\phantom{\\qquad} 20 \\mathbf X \\mathbf8} & {20 \\mathbf X 7} & {20 \\mathbf X 6} \\\\ \\hline{\\mathrm{Current~ratio}} \\\\ \\end{array}} & {\\begin{array} {cccc} {2.0} & {1.5} & {1.2} \\\\ {2.0} & {1.5} & {1.2} \\\\ {0.5} & {0.8} & {1.0} \\\\ {\\mathrm{Days~of~inventory}} \\\\ \\end{array}} \\\\ \\end{array}\\\\[6pt]\\mathrm{Days\"~sales~outstanding~} \\quad20 \\qquad30 \\qquad40\\end{gathered}",
-          "display": true,
-          "sourceAsset": "dd37716ec772b83ad750.png"
+          "type": "image",
+          "src": "content/figures/dd37716ec772b83ad750.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 579,
+          "height": 222,
+          "alt": "Multi-year liquidity and activity ratios comparison table for 20X8, 20X7, and 20X6."
         },
         {
           "type": "paragraph",
@@ -814,10 +818,10 @@
         {
           "type": "image",
           "src": "content/figures/62340509398a22ebb7f1.png",
-          "alt": "Equation, table, or diagram: ear to their prior-year values, the current industry average values, and industry average ratios for Sedgwick Company. These selected ratio values are shown in the following table.",
-          "width": 498,
-          "height": 137,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 959,
+          "height": 265,
+          "alt": "Instructional visual diagram or table: 62340509398a22ebb7f1.png"
         },
         {
           "type": "paragraph",
@@ -868,7 +872,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}={\\frac{\\mathrm{net~income}} {\\mathrm{average~equity}}}",
+          "latex": "\\mathrm{ROE}={\\frac{\\text{net income}} {\\text{average equity}}}",
           "display": true,
           "sourceAsset": "61a180c0bdc485b09fa3.png"
         },
@@ -878,7 +882,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\text{net income}} {\\text{average total assets}}} \\right) \\left( {\\frac{\\text{average total assets}} {\\text{average stockholders' equity}}} \\right)",
           "display": true,
           "sourceAsset": "827845f5838d90bbf222.png"
         },
@@ -888,7 +892,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}=\\mathrm{ROA} \\times\\mathrm{financial~leverage}",
+          "latex": "\\mathrm{ROE}=\\mathrm{ROA} \\times\\text{financial leverage}",
           "display": true,
           "sourceAsset": "7b4ce61306ec31d57383.png"
         },
@@ -898,7 +902,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{revenue}}} \\right) \\Bigl( {\\frac{\\mathrm{revenue}} {\\mathrm{average~total~assets}}} \\Bigr) \\Bigl( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}}} \\Bigr)",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\text{net income}} {\\mathrm{revenue}}} \\right) \\Bigl( {\\frac{\\mathrm{revenue}} {\\text{average total assets}}} \\Bigr) \\Bigl( {\\frac{\\text{average total assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}}} \\Bigr)",
           "display": true,
           "sourceAsset": "b1d6483d81b2fee21b1a.png"
         },
@@ -908,7 +912,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE=net~profit~margin} \\, \\times\\, \\mathrm{total~asset~turnover} \\, \\times\\, \\mathrm{financial~leverage}",
+          "latex": "\\mathrm{ROE=net~profit~margin} \\, \\times\\, \\text{total asset turnover} \\, \\times\\, \\text{financial leverage}",
           "display": true,
           "sourceAsset": "7a7a7700c09a6d0922e1.png"
         },
@@ -950,7 +954,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} {\\mathrm{Year}} & {\\mathrm{20X3}} & {\\mathrm{20X4}} & {\\mathrm{20X5}} \\\\ \\hline{\\mathrm{Net~income}} & {21.5} & {22.3} & {21.9} \\\\ {\\mathrm{Revenue}} & {305} & {350} & {410} \\\\ {\\mathrm{Average~equity}} & {119} & {124} & {126} \\\\ \\end{array}\\\\[6pt]\\mathrm{Average~assets~} \\quad230 \\quad\\ 290 \\quad\\ 350\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {lccc} {\\mathrm{Year}} & {\\mathrm{20X3}} & {\\mathrm{20X4}} & {\\mathrm{20X5}} \\\\ \\hline{\\text{Net income}} & {21.5} & {22.3} & {21.9} \\\\ {\\mathrm{Revenue}} & {305} & {350} & {410} \\\\ {\\text{Average equity}} & {119} & {124} & {126} \\\\ \\end{array}\\\\[6pt]\\text{Average assets } \\quad230 \\quad\\ 290 \\quad\\ 350\\end{gathered}",
           "display": true,
           "sourceAsset": "165fd4c0e6d9344cba6d.png"
         },
@@ -961,10 +965,10 @@
         {
           "type": "image",
           "src": "content/figures/6238aa1942b15e9eaac3.png",
-          "alt": "Equation, table, or diagram: Answer:",
-          "width": 187,
-          "height": 220,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 361,
+          "height": 425,
+          "alt": "Instructional visual diagram or table: 6238aa1942b15e9eaac3.png"
         },
         {
           "type": "paragraph",
@@ -980,7 +984,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{EBT}}} \\right) \\left( {\\frac{\\mathrm{EBT}} {\\mathrm{EBTT}}} \\right) \\left( {\\frac{\\mathrm{EBTT}} {\\mathrm{revenue}}} \\right) \\left( {\\frac{\\mathrm{revenue}} {\\mathrm{average~assets}}} \\right) \\left( {\\frac{\\mathrm{average~assets}} {\\mathrm{average~equity}}} \\right)",
+          "latex": "\\mathrm{ROE}=\\left( {\\frac{\\text{net income}} {\\mathrm{EBT}}} \\right) \\left( {\\frac{\\mathrm{EBT}} {\\mathrm{EBTT}}} \\right) \\left( {\\frac{\\mathrm{EBTT}} {\\mathrm{revenue}}} \\right) \\left( {\\frac{\\mathrm{revenue}} {\\text{average assets}}} \\right) \\left( {\\frac{\\text{average assets}} {\\text{average equity}}} \\right)",
           "display": true,
           "sourceAsset": "b3da2ce15d9d26badbe8.png"
         },
@@ -990,7 +994,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\frac{\\mathrm{net~income}} {\\mathrm{EBT}}} {\\mathrm{~is~called~the~tax~burden~and~is~equal~to~(1-tax~rate)}}} \\\\ {{{}}} \\\\ {{\\frac{\\mathrm{EBT}} {\\mathrm{EBT}} {\\mathrm{~is~called~the~interest~burden}}}} \\end{array}\\\\[6pt]{\\frac{\\mathrm{EBIT}} {\\mathrm{cevenue}}} \\, \\mathrm{is~called~the~EBIT~margin}\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\frac{\\text{Net income}}{\\text{EBT}} \\text{ is called the tax burden and is equal to } (1 - \\text{tax rate}) \\\\[8pt]\n\\frac{\\text{EBT}}{\\text{EBIT}} \\text{ is called the interest burden} \\\\[8pt]\n\\frac{\\text{EBIT}}{\\text{Revenue}} \\text{ is called the EBIT margin}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "d2b5bc4b4f0457b01cd9.png"
         },
@@ -1000,7 +1004,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{ROE}={\\binom{\\mathrm{tax}} {\\mathrm{burden}}} {\\binom{\\mathrm{interest}} {\\mathrm{burden}}} {\\binom{\\mathrm{EBIT}} {\\mathrm{margin}}} {\\binom{\\mathrm{total~asset}} {\\mathrm{turnover}}} {\\binom{\\mathrm{financial}} {\\mathrm{leverage}}}",
+          "latex": "\\mathrm{ROE}={\\binom{\\mathrm{tax}} {\\mathrm{burden}}} {\\binom{\\mathrm{interest}} {\\mathrm{burden}}} {\\binom{\\mathrm{EBIT}} {\\mathrm{margin}}} {\\binom{\\text{total asset}} {\\mathrm{turnover}}} {\\binom{\\mathrm{financial}} {\\mathrm{leverage}}}",
           "display": true,
           "sourceAsset": "144a523c551a6c055afb.png"
         },
@@ -1029,10 +1033,12 @@
           "text": "Selected Income and Balance Sheet Data"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lccc} \\hline{} & {\\mathrm{Company~A}} & {\\mathrm{Company~B~}} \\\\ \\hline{\\mathrm{Revenues}} & {\\$500} & {\\$900} \\\\ {\\mathrm{EBIT}} & {35} & {100} \\\\ {\\mathrm{Interest~expense}} & {5} & {0} \\\\ \\hline{} \\\\ \\end{array}\\\\[6pt]\\begin{array} {llrl} {\\mathrm{EBT}} & {\\qquad30 \\qquad} & {100} \\\\ {\\mathrm{Taxes}} & {\\qquad\\underline{{10}}} & {\\qquad\\underline{{40}}} \\\\ {\\mathrm{Net~income}} & {\\qquad20} & {\\qquad60} \\\\ {\\mathrm{Average~assets}} & {\\qquad250} & {\\qquad300} \\end{array}\\\\[6pt]\\begin{array} {llll} {{\\mathrm{Total~debt}}} & {{\\phantom{aaaaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaa}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} \\\\ {{\\mathrm{Average~equity}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} & {{\\phantom{aaaa}}} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "701ed5eff65b74fbfce9.png"
+          "type": "image",
+          "src": "content/figures/701ed5eff65b74fbfce9.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 566,
+          "height": 442,
+          "alt": "Comparative financial performance metrics between Company A and Company B."
         },
         {
           "type": "heading",
@@ -1179,7 +1185,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{CV~sales}={\\frac{standard ~ deviation ~ of ~ sales} {mean ~ sales}}}} \\\\ {{\\mathrm{CV~operating~income}={\\frac{standard ~ deviation ~ of ~ operating ~ income} {mean ~ operating ~ income}}}} \\end{array}\\\\[6pt]{\\mathrm{CV~net~income}}={\\frac{\\mathrm{standard~deviation~of~net~income}} {\\mathrm{mean~net~income}}}\\end{gathered}",
+          "latex": "\\begin{aligned}\n\\text{CV}_{\\text{sales}} &= \\frac{\\text{Standard deviation of sales}}{\\text{Mean sales}} \\\\[8pt]\n\\text{CV}_{\\text{operating income}} &= \\frac{\\text{Standard deviation of operating income}}{\\text{Mean operating income}} \\\\[8pt]\n\\text{CV}_{\\text{net income}} &= \\frac{\\text{Standard deviation of net income}}{\\text{Mean net income}}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "ccebc1ac52a37ebf0aa2.png"
         },
@@ -1270,7 +1276,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\left( {\\frac{\\mathrm{net~income}} {\\mathrm{average~total~assets}}} \\right) \\left( {\\frac{\\mathrm{average~total~assets}} {\\mathrm{average~stockholders'~equity}}} \\right)}} \\\\ {{\\mathrm{ROE}=\\mathrm{ROA} \\, \\times\\, \\mathrm{leverage}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\left( {\\frac{\\text{net income}} {\\text{average total assets}}} \\right) \\left( {\\frac{\\text{average total assets}} {\\text{average stockholders' equity}}} \\right)}} \\\\[8pt] {{\\mathrm{ROE}=\\mathrm{ROA} \\, \\times\\, \\mathrm{leverage}}} \\end{array}",
       "display": true,
       "sourceAsset": "21b48db85bd58eda4cf8.png"
     },
@@ -1280,7 +1286,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{sales}} \\Big) \\Big( \\frac{\\mathrm{sales}} {\\mathrm{average~total~assets}} \\Big) \\Big( \\frac{\\mathrm{average~total~assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{net~profit~margin} \\times\\mathrm{asset~turnover} \\times\\mathrm{leverage}}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\mathrm{ROE}=\\Big( \\frac{\\text{net income}} {\\mathrm{sales}} \\Big) \\Big( \\frac{\\mathrm{sales}} {\\text{average total assets}} \\Big) \\Big( \\frac{\\text{average total assets}} {\\mathrm{average ~ stockholders^{\\prime} ~ equity}} \\Big)}} \\\\[8pt] {{\\mathrm{ROE}=\\text{net profit margin} \\times\\text{asset turnover} \\times\\mathrm{leverage}}} \\end{array}",
       "display": true,
       "sourceAsset": "32b783f63ef714a2167e.png"
     },
@@ -1290,7 +1296,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {c} {{\\mathrm{ROE}=\\Big( \\frac{\\mathrm{net~income}} {\\mathrm{EBT}} \\Big) \\Big( \\frac{\\mathrm{EBT}} {\\mathrm{EBTT}} \\Big) \\Big( \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}} \\Big) \\Big( \\frac{\\mathrm{revenue}} {\\mathrm{total~assets}} \\Big) \\Big( \\frac{\\mathrm{total~assets}} {\\mathrm{total~equity}} \\Big)}} \\\\ {{\\mathrm{ROE}=\\mathrm{tax~burden} \\times\\mathrm{interest~burden} \\times\\mathrm{EBIT~margin} \\times\\mathrm{asset~turnoven}}} \\\\ {{\\mathrm{~} \\times\\mathrm{~leverage}}} \\end{array}",
+      "latex": "\\begin{array} {c} {{\\mathrm{ROE}=\\Big( \\frac{\\text{net income}} {\\mathrm{EBT}} \\Big) \\Big( \\frac{\\mathrm{EBT}} {\\mathrm{EBTT}} \\Big) \\Big( \\frac{\\mathrm{EBTT}} {\\mathrm{revenue}} \\Big) \\Big( \\frac{\\mathrm{revenue}} {\\text{total assets}} \\Big) \\Big( \\frac{\\text{total assets}} {\\text{total equity}} \\Big)}} \\\\[8pt] {{\\mathrm{ROE}=\\text{tax burden} \\times\\text{interest burden} \\times\\text{EBIT margin} \\times\\text{asset turnoven}}} \\\\[8pt] {{\\mathrm{~} \\times\\mathrm{~leverage}}} \\end{array}",
       "display": true,
       "sourceAsset": "7852d4cd5f8f74487783.png"
     },

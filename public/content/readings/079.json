@@ -31,10 +31,10 @@
         {
           "type": "image",
           "src": "content/figures/489b2d67b13bcdea028c.png",
-          "alt": "Equation, table, or diagram: Figure 79.1: Basic Forms of Real Estate Investments¹",
-          "width": 519,
-          "height": 302,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 999,
+          "height": 583,
+          "alt": "Instructional visual diagram or table: 489b2d67b13bcdea028c.png"
         },
         {
           "type": "paragraph",

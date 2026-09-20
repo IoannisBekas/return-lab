@@ -23,10 +23,10 @@
         {
           "type": "image",
           "src": "content/figures/26ace0c5299cabf5744d.png",
-          "alt": "Equation, table, or diagram: Figure 23.1: Cash Conversion Cycle",
-          "width": 326,
-          "height": 217,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 627,
+          "height": 419,
+          "alt": "Instructional visual diagram or table: 26ace0c5299cabf5744d.png"
         },
         {
           "type": "paragraph",
@@ -34,7 +34,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {r} {\\mathrm{cash~conversion~cycle}=\\mathrm{days~of~inventory~on~hand}+\\mathrm{days~sales~outstanding}} \\\\ {\\mathrm{} \\mathrm{} \\mathrm{} \\mathrm{}-\\mathrm{days~payables~outstanding}} \\\\ \\end{array}",
+          "latex": "\\begin{array} {r} {\\text{cash conversion cycle}=\\text{days of inventory on hand}+\\text{days sales outstanding}} \\\\ {\\mathrm{} \\mathrm{} \\mathrm{} \\mathrm{}-\\text{days payables outstanding}} \\\\ \\end{array}",
           "display": true,
           "sourceAsset": "07b01798ff4aaa7e4853.png"
         },
@@ -64,7 +64,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{EAR~of~supplier~financing=}} \\left( 1+{\\frac{a} {1-a}} \\right)^{\\left( {\\frac{365} {c-b}} \\right)}-1} \\\\ {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{a=\\mathrm{percent~discount}}} \\\\ {{b=\\mathrm{days~until~discount~expires}}} \\\\ {{c=\\mathrm{days~until~full~payment~is~due}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {l} {{\\mathrm{EAR~of~supplier~financing=}} \\left( 1+{\\frac{a} {1-a}} \\right)^{\\left( {\\frac{365} {c-b}} \\right)}-1} \\\\[8pt] {{\\mathrm{where:}}} \\end{array}\\\\[6pt]\\begin{array} {l} {{a=\\text{percent discount}}} \\\\[8pt] {{b=\\text{days until discount expires}}} \\\\[8pt] {{c=\\text{days until full payment is due}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "d13639a22d951ad74857.png"
         },
@@ -110,7 +110,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{aligned} {\\mathrm{total~working~capital}} & {{}=\\mathrm{current~assets-current~liabilities}} \\\\ {\\mathrm{net~working~capital}} & {{}=\\mathrm{current~assets~(except~cash~and~marketable~securities)}} \\\\ {} & {{} \\quad-\\mathrm{current~liabilities~(excluding~short-term~and~current~debt)}} \\\\ \\end{aligned}",
+          "latex": "\\begin{aligned} {\\text{total working capital}} & {{}=\\text{current assets-current liabilities}} \\\\ {\\text{net working capital}} & {{}=\\text{current assets (except cash and marketable securities)}} \\\\ {} & {{} \\quad-\\text{current liabilities (excluding short-term and current debt)}} \\\\ \\end{aligned}",
           "display": true,
           "sourceAsset": "a195c9739b28209d3e68.png"
         },
@@ -166,10 +166,10 @@
         {
           "type": "image",
           "src": "content/figures/de0b429405f641ab3bf4.png",
-          "alt": "Equation, table, or diagram: Drake Corporation has a sudden need for liquidity to meet its payroll at the end of the week. The company’s sources of liquidity and their costs are as shown here.",
-          "width": 451,
-          "height": 136,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 869,
+          "height": 261,
+          "alt": "Instructional visual diagram or table: de0b429405f641ab3bf4.png"
         },
         {
           "type": "paragraph",
@@ -186,10 +186,10 @@
         {
           "type": "image",
           "src": "content/figures/890263d6938a04faada4.png",
-          "alt": "Equation, table, or diagram: quidity is the discount to fair market value for which an asset is sold due to the need for immediate liquidity, rather than waiting for the normal time it takes to sell the asset.",
-          "width": 479,
-          "height": 215,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 922,
+          "height": 415,
+          "alt": "Instructional visual diagram or table: 890263d6938a04faada4.png"
         },
         {
           "type": "paragraph",
@@ -223,7 +223,7 @@
         },
         {
           "type": "math",
-          "latex": "{\\mathrm{quick~ratio}}={\\frac{( {\\mathrm{cash~and~marketable~securities}}+{\\mathrm{accounts~receivable}} )} {\\mathrm{current~liabilities}}}",
+          "latex": "{\\text{quick ratio}}={\\frac{( {\\text{cash and marketable securities}}+{\\text{accounts receivable}} )} {\\text{current liabilities}}}",
           "display": true,
           "sourceAsset": "b553b5009034910da5d7.png"
         },
@@ -233,7 +233,7 @@
         },
         {
           "type": "math",
-          "latex": "\\mathrm{cash~ratio}={\\frac{\\mathrm{cash~and~marketable~securities}} {\\mathrm{current~liabilities}}}",
+          "latex": "\\text{cash ratio}={\\frac{\\text{cash and marketable securities}} {\\text{current liabilities}}}",
           "display": true,
           "sourceAsset": "c65cab15d61657b95a8c.png"
         },
@@ -246,10 +246,12 @@
           "text": "The following information is available for Drake Corporation for the past two years:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{array}{lcc}\n\\hline\n\\text{Current Assets} & 20X1\\ (\\$'000) & 20X2\\ (\\$'000) \\\\\n\\hline\n\\text{Cash} & \\$100 & \\$150 \\\\\n\\text{Accounts receivable} & \\$200 & \\$250 \\\\\n\\text{Inventory} & \\$300 & \\$400 \\\\\n\\hline\n\\text{Total current assets} & \\$600 & \\$800 \\\\\n\\hline\n\\end{array}",
-          "display": true,
-          "sourceAsset": "163f536e1ea2a0f49728.png"
+          "type": "image",
+          "src": "content/figures/163f536e1ea2a0f49728.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 626,
+          "height": 441,
+          "alt": "Comparative current assets balance sheet table comparing 20X1 and 20X2."
         },
         {
           "type": "paragraph",
@@ -261,7 +263,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash}+\\text{marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\\n\\text{Cash ratio}=\\frac{\\text{cash}+\\text{marketable securities}}{\\text{current liabilities}}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash}+\\text{marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\[8pt]\n\\text{Cash ratio}=\\frac{\\text{cash}+\\text{marketable securities}}{\\text{current liabilities}}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "a727c24779dc4218bff2.png"
         },
@@ -337,7 +339,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{aligned} {\\mathrm{Total~working~capital}} & {{}=\\mathrm{current~assets-current~liabilities}} \\\\ {\\mathrm{Net~working~capital}} & {{}=\\mathrm{current~assets~(except~cash~and~marketable~securities)}} \\\\ {} & {{}-\\mathrm{current~liabilities~(excluding~short-term~and~current~debt)}} \\\\ \\end{aligned}",
+      "latex": "\\begin{aligned} {\\text{Total working capital}} & {{}=\\text{current assets-current liabilities}} \\\\ {\\text{Net working capital}} & {{}=\\text{current assets (except cash and marketable securities)}} \\\\ {} & {{}-\\text{current liabilities (excluding short-term and current debt)}} \\\\ \\end{aligned}",
       "display": true,
       "sourceAsset": "a6cdf2d29a44b2a6279e.png"
     },

@@ -144,10 +144,10 @@
         {
           "type": "image",
           "src": "content/figures/297803755043c81bcb67.png",
-          "alt": "Equation, table, or diagram: Figure 63.1: Structure of Fred Motor Company Asset Securitization",
-          "width": 350,
-          "height": 249,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 674,
+          "height": 479,
+          "alt": "Instructional visual diagram or table: 297803755043c81bcb67.png"
         },
         {
           "type": "paragraph",

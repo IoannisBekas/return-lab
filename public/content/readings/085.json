@@ -117,10 +117,10 @@
         {
           "type": "image",
           "src": "content/figures/c54ba02affce59fbccc9.png",
-          "alt": "Equation, table, or diagram: Figure 85.1: Characteristics of Different Types of Investors",
-          "width": 502,
-          "height": 229,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 967,
+          "height": 441,
+          "alt": "Instructional visual diagram or table: c54ba02affce59fbccc9.png"
         },
         {
           "type": "question",
@@ -301,10 +301,10 @@
     {
       "type": "image",
       "src": "content/figures/3c9dbbfb75f5fcebc850.png",
-      "alt": "Equation, table, or diagram: Types of investment management clients and their characteristics:",
-      "width": 528,
-      "height": 228,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 1017,
+      "height": 440,
+      "alt": "Instructional visual diagram or table: 3c9dbbfb75f5fcebc850.png"
     },
     {
       "type": "question",

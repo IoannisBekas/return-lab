@@ -35,10 +35,10 @@
         {
           "type": "image",
           "src": "content/figures/5cd0c5a01fc33431d8a2.png",
-          "alt": "Equation, table, or diagram: Figure 73.1: Call Option Moneyness",
-          "width": 288,
-          "height": 263,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 554,
+          "height": 507,
+          "alt": "Instructional visual diagram or table: 5cd0c5a01fc33431d8a2.png"
         },
         {
           "type": "paragraph",
@@ -55,10 +55,10 @@
         {
           "type": "image",
           "src": "content/figures/4a6b87d49267dda413df.png",
-          "alt": "Equation, table, or diagram: Figure 73.2: Put Option Moneyness",
-          "width": 293,
-          "height": 262,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 564,
+          "height": 506,
+          "alt": "Instructional visual diagram or table: 4a6b87d49267dda413df.png"
         },
         {
           "type": "heading",
@@ -119,7 +119,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {rl} {S_{t}} & {{}={\\mathrm{price~of~the~underlying~stock~at~time~}} t} \\\\ {X} & {{}={\\mathrm{~exercise~price~of~the~option}}} \\\\ {\\mathrm{T-t~=~time~to~expiration}} \\\\ {c_{t}} & {{}={\\mathrm{~price~of~a~European~call~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time~=T~}} t} \\end{array}\\\\[6pt]\\begin{array} {rl} {p_{t}} & {{}={\\mathrm{price~of~a~European~put~at~any~time~}} t {\\mathrm{~prior~to~expiration~at~time}}=T} \\\\ {{\\mathrm{Rf}}} & {{}={\\mathrm{risk-free~rate}}} \\end{array}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {rl} {S_{t}} & {{}={\\text{price of the underlying stock at time }} t} \\\\ {X} & {{}={\\text{ exercise price of the option}}} \\\\ {\\mathrm{T-t~=~time~to~expiration}} \\\\ {c_{t}} & {{}={\\text{ price of a European call at any time }} t {\\mathrm{~prior~to~expiration~at~time~=T~}} t} \\end{array}\\\\[6pt]\\begin{array} {rl} {p_{t}} & {{}={\\text{price of a European put at any time }} t {\\text{ prior to expiration at time}}=T} \\\\ {{\\mathrm{Rf}}} & {{}={\\text{risk-free rate}}} \\end{array}\\end{gathered}",
           "display": true,
           "sourceAsset": "097536336ff0d2b0df16.png"
         },
@@ -290,10 +290,10 @@
         {
           "type": "image",
           "src": "content/figures/07defe9b974203ee0a55.png",
-          "alt": "Equation, table, or diagram: Figure 73.3: Lower and Upper Bounds for Options",
-          "width": 515,
-          "height": 78,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 991,
+          "height": 151,
+          "alt": "Instructional visual diagram or table: 07defe9b974203ee0a55.png"
         },
         {
           "type": "heading",
@@ -406,10 +406,10 @@
     {
       "type": "image",
       "src": "content/figures/a3d4bd9e09fe6e397b5d.png",
-      "alt": "Equation, table, or diagram: Factors that determine the value of an option:",
-      "width": 533,
-      "height": 233,
-      "visualKind": "diagram-chart-or-table"
+      "visualKind": "diagram-chart-or-table",
+      "width": 1027,
+      "height": 449,
+      "alt": "Instructional visual diagram or table: a3d4bd9e09fe6e397b5d.png"
     }
   ],
   "practice": [],

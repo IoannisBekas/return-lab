@@ -201,7 +201,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {llll} \\hline{{\\mathrm{Revenues} \\qquad}} & {{\\quad1 , 000 \\oplus5100 \\qquad}} & {{\\quad5100 , 000}} \\\\ {{\\mathrm{COGS} \\qquad}} & {{\\quad1 , 000 \\oplus540 \\qquad}} & {{\\quad540 , 000}} \\\\ {{\\mathrm{Gross~profit} \\qquad}} & {{\\quad}} & {{\\quad\\quad560 , 000}} \\\\ {{\\mathrm{SGGEA} \\qquad}} & {{\\quad}} & {{\\quad}} & {{\\quad830 , 000}} \\end{array}\\\\[6pt]\\mathrm{Operating~profit} \\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\underline{{{\\$30 , 000}}}\\end{gathered}",
+          "latex": "\\begin{gathered}\\begin{array} {llll} \\hline{{\\mathrm{Revenues} \\qquad}} & {{\\quad1 , 000 \\oplus5100 \\qquad}} & {{\\quad5100 , 000}} \\\\ {{\\mathrm{COGS} \\qquad}} & {{\\quad1 , 000 \\oplus540 \\qquad}} & {{\\quad540 , 000}} \\\\ {{\\text{Gross profit} \\qquad}} & {{\\quad}} & {{\\quad\\quad560 , 000}} \\\\ {{\\mathrm{SGGEA} \\qquad}} & {{\\quad}} & {{\\quad}} & {{\\quad830 , 000}} \\end{array}\\\\[6pt]\\text{Operating profit} \\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\underline{{{\\$30 , 000}}}\\end{gathered}",
           "display": true,
           "sourceAsset": "a6c13866e56f12a68e5a.png"
         },
@@ -248,10 +248,10 @@
         {
           "type": "image",
           "src": "content/figures/3ad166e8f69d389954ed.png",
-          "alt": "Equation, table, or diagram: 2. a. 20X2, given an increase in unit price by $5 and no change in units sold:",
-          "width": 362,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 697,
+          "height": 310,
+          "alt": "Instructional visual diagram or table: 3ad166e8f69d389954ed.png"
         },
         {
           "type": "paragraph",
@@ -268,10 +268,10 @@
         {
           "type": "image",
           "src": "content/figures/a414e01d34293345478a.png",
-          "alt": "Equation, table, or diagram: a. 20X2, given an increase in unit price by $5 and a decrease of 50 in units sold:",
-          "width": 367,
-          "height": 159,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 706,
+          "height": 307,
+          "alt": "Instructional visual diagram or table: a414e01d34293345478a.png"
         },
         {
           "type": "paragraph",
@@ -288,10 +288,10 @@
         {
           "type": "image",
           "src": "content/figures/85130fb513dc68f0cbda.png",
-          "alt": "Equation, table, or diagram: c. 20X2, given an increase in unit price by $5 and a decrease of 100 in units sold:",
-          "width": 382,
-          "height": 161,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 736,
+          "height": 311,
+          "alt": "Instructional visual diagram or table: 85130fb513dc68f0cbda.png"
         },
         {
           "type": "paragraph",

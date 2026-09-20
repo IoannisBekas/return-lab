@@ -31,10 +31,10 @@
         {
           "type": "image",
           "src": "content/figures/dd14baf42741ba494d49.png",
-          "alt": "Equation, table, or diagram: Figure 49.1: Issuer Credit/Maturity Spectrum",
-          "width": 529,
-          "height": 422,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1019,
+          "height": 812,
+          "alt": "Instructional visual diagram or table: dd14baf42741ba494d49.png"
         },
         {
           "type": "heading",
@@ -79,10 +79,10 @@
         {
           "type": "image",
           "src": "content/figures/5136fa555016721788f2.png",
-          "alt": "Equation, table, or diagram: Figure 49.2: Investor Positioning in Credit/Maturity Spectrum",
-          "width": 530,
-          "height": 396,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1021,
+          "height": 762,
+          "alt": "Instructional visual diagram or table: 5136fa555016721788f2.png"
         },
         {
           "type": "paragraph",

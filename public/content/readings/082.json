@@ -83,10 +83,10 @@
         {
           "type": "image",
           "src": "content/figures/0ddb58387ccd4dc3e182.png",
-          "alt": "Equation, table, or diagram: Figure 82.1: Types of Digital Assets",
-          "width": 471,
-          "height": 176,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 907,
+          "height": 341,
+          "alt": "Instructional visual diagram or table: 0ddb58387ccd4dc3e182.png"
         },
         {
           "type": "paragraph",
@@ -272,10 +272,10 @@
         {
           "type": "image",
           "src": "content/figures/d682dee61cc9d8cca45b.png",
-          "alt": "Equation, table, or diagram: 2022)¹",
-          "width": 536,
-          "height": 141,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 272,
+          "alt": "Instructional visual diagram or table: d682dee61cc9d8cca45b.png"
         },
         {
           "type": "paragraph",
@@ -296,10 +296,10 @@
         {
           "type": "image",
           "src": "content/figures/5b15780f0fb7c3e70358.png",
-          "alt": "Equation, table, or diagram: Classes (January 2011–January 2022)²",
-          "width": 536,
-          "height": 141,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1032,
+          "height": 273,
+          "alt": "Instructional visual diagram or table: 5b15780f0fb7c3e70358.png"
         }
       ]
     }

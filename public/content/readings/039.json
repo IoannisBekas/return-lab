@@ -488,10 +488,12 @@
           "text": "Given the following information:"
         },
         {
-          "type": "math",
-          "latex": "\\begin{gathered}\\begin{array} {lc} {\\mathrm{Shares~purchased}} & {1 , 000} \\\\ {\\mathrm{Purchase~price~per~share}} & {\\$100} \\\\ {\\mathrm{Anmual~dividend~per~share}} & {\\$2.00} \\\\ {\\mathrm{Initial~margin~requirement}} & {4099} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lcr} {\\mathrm{Call~money~rate}} & {4 \\gamma_{0}} \\\\ {\\mathrm{Commission~per~share}} & {50.05} \\\\ {\\mathrm{Stock~price~after~one~year}} & {5110} \\\\ \\end{array}\\end{gathered}",
-          "display": true,
-          "sourceAsset": "fda5a48d0ac7e658f9e1.png"
+          "type": "image",
+          "src": "content/figures/fda5a48d0ac7e658f9e1.png",
+          "visualKind": "diagram-chart-or-table",
+          "width": 433,
+          "height": 291,
+          "alt": "Share purchase transactions and cost basis reference table."
         },
         {
           "type": "paragraph",
@@ -535,7 +537,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{array} {l} {{\\mathrm{margin~call~price} \\;=\\; \\mathrm{P}_{0} \\left( \\frac{1-\\mathrm{initial~margin}} {1-\\mathrm{maintenance~margin}} \\right)}} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P}_{0} \\;=\\; \\mathrm{initial~purchase~price}}} \\end{array}",
+          "latex": "\\begin{array} {l} {{\\text{margin call price} \\;=\\; \\mathrm{P}_{0} \\left( \\frac{1-\\text{initial margin}} {1-\\text{maintenance margin}} \\right)}} \\\\[8pt] {{\\mathrm{where:}}} \\\\[8pt] {{\\mathrm{P}_{0} \\;=\\; \\text{initial purchase price}}} \\end{array}",
           "display": true,
           "sourceAsset": "1b3a38df7d6257553a51.png"
         },
@@ -1061,7 +1063,7 @@
     },
     {
       "type": "math",
-      "latex": "\\begin{array} {l} {{\\mathrm{margin~call~price}} \\,=\\, \\mathrm{P}_{0} \\bigg( \\, {\\frac{1-\\mathrm{initial~margin}} {1-\\mathrm{maintenance~margin}}} \\, \\bigg)} \\\\ {{\\mathrm{where:}}} \\\\ {{\\mathrm{P}_{0}} \\,=\\, \\mathrm{initial~purchase~price}} \\end{array}",
+      "latex": "\\begin{array} {l} {{\\text{margin call price}} \\,=\\, \\mathrm{P}_{0} \\bigg( \\, {\\frac{1-\\text{initial margin}} {1-\\text{maintenance margin}}} \\, \\bigg)} \\\\[8pt] {{\\mathrm{where:}}} \\\\[8pt] {{\\mathrm{P}_{0}} \\,=\\, \\text{initial purchase price}} \\end{array}",
       "display": true,
       "sourceAsset": "de6a013e263f6ad1d5de.png"
     },

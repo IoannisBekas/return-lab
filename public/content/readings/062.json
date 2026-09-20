@@ -112,10 +112,10 @@
         {
           "type": "image",
           "src": "content/figures/456f381c3049da9ce338.png",
-          "alt": "Equation, table, or diagram: Figure 62.1: Financial Ratios for Corporate Credit Analysis",
-          "width": 537,
-          "height": 197,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 1034,
+          "height": 380,
+          "alt": "Instructional visual diagram or table: 456f381c3049da9ce338.png"
         },
         {
           "type": "heading",
@@ -128,10 +128,10 @@
         {
           "type": "image",
           "src": "content/figures/ba419a01ea9240df9ba9.png",
-          "alt": "Equation, table, or diagram: An analyst is assessing the credit quality of York, Inc., and Zale, Inc. Selected financial information appears in the following table.",
-          "width": 454,
-          "height": 206,
-          "visualKind": "diagram-chart-or-table"
+          "visualKind": "diagram-chart-or-table",
+          "width": 875,
+          "height": 397,
+          "alt": "Instructional visual diagram or table: ba419a01ea9240df9ba9.png"
         },
         {
           "type": "paragraph",
