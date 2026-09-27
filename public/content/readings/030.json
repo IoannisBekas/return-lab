@@ -396,12 +396,30 @@
           "text": "The steps in calculating CFO under the indirect method can be summarized as follows:"
         },
         {
-          "type": "image",
-          "src": "content/figures/5a8fbea51ecb510eb4cd.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 997,
-          "height": 400,
-          "alt": "Step-by-step cash flow from operations adjustment table."
+          "type": "worked-example",
+          "title": "Steps in Calculating CFO Under the Indirect Method",
+          "steps": [
+            {
+              "title": "Step 1: Begin with net income",
+              "body": [
+                "Start with reported net income from the income statement."
+              ]
+            },
+            {
+              "title": "Step 2: Adjust for noncash charges and revenues",
+              "body": [
+                "Add back all noncash charges (such as depreciation and amortization) and subtract all noncash components of revenue."
+              ]
+            },
+            {
+              "title": "Step 3: Adjust for changes in operating accounts",
+              "body": [
+                "Subtract increases in operating asset accounts (uses of cash), and add decreases (sources of cash).",
+                "Add increases in operating liability accounts (sources of cash), and subtract decreases (uses of cash)."
+              ]
+            }
+          ],
+          "sourceAsset": "5a8fbea51ecb510eb4cd.png"
         },
         {
           "type": "heading",

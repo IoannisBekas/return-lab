@@ -1,8 +1,8 @@
 {
   "summary": {
     "sourceAssetsClassified": 976,
-    "nativeMath": 820,
-    "meaningfulVisuals": 150,
+    "nativeMath": 822,
+    "meaningfulVisuals": 148,
     "rebuiltTables": 6,
     "lowConfidenceMath": 0
   },
@@ -4655,9 +4655,15 @@
     },
     {
       "asset": "5a8fbea51ecb510eb4cd.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{aligned}\n\\textit{Step 1:} &\\quad \\text{Begin with net income} \\\\\n\\textit{Step 2:} &\\quad \\text{Adjust for noncash charges and revenues} \\\\\n\\textit{Step 3:} &\\quad \\text{Adjust for changes in operating accounts}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:77:2"
       ]
@@ -13691,9 +13697,15 @@
     },
     {
       "asset": "f8259749ec97b07048f9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{aligned}\n\\text{Step 1:} &\\quad \\text{Identify and net cash flows} \\\\\n\\text{Step 2:} &\\quad 100 + \\frac{118}{1+r} = \\frac{264}{(1+r)^2} \\\\\n\\text{Step 3:} &\\quad r = 13.86\\%\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:20:0"
       ]

@@ -363,12 +363,74 @@
           "text": "Assume an investor buys a share of stock for $100 at t = 0, and at the end of the year (t = 1), she buys an additional share for $120. At the end of Year 2, the investor sells both shares for $130 each. At the end of each year in the holding period, the stock paid a $2 per share dividend. What is the money-weighted rate of return?"
         },
         {
-          "type": "image",
-          "src": "content/figures/f8259749ec97b07048f9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 941,
-          "height": 730,
-          "alt": "Money-weighted rate of return internal rate of return step-by-step calculation workflow."
+          "type": "heading",
+          "text": "Answer:"
+        },
+        {
+          "type": "worked-example",
+          "title": "Money-weighted return calculation",
+          "steps": [
+            {
+              "title": "Determine the timing and net cash flow for each period",
+              "body": [
+                "From the account perspective, contributions and purchases are inflows (+), while dividends and sale proceeds are outflows (−)."
+              ],
+              "rows": [
+                [
+                  "t = 0",
+                  "Purchase first share",
+                  "+$100.00 inflow to account"
+                ],
+                [
+                  "t = 1",
+                  "Purchase second share",
+                  "+$120.00"
+                ],
+                [
+                  "",
+                  "Dividend from first share",
+                  "−$2.00"
+                ],
+                [
+                  "",
+                  "Subtotal, t = 1",
+                  "+$118.00 inflow to account"
+                ],
+                [
+                  "t = 2",
+                  "Dividend from two shares",
+                  "−$4.00"
+                ],
+                [
+                  "",
+                  "Proceeds from selling shares",
+                  "−$260.00"
+                ],
+                [
+                  "",
+                  "Subtotal, t = 2",
+                  "−$264.00 outflow from account"
+                ]
+              ]
+            },
+            {
+              "title": "Net cash flows and equate PV of inflows to PV of outflows",
+              "equations": [
+                "\\mathrm{PV}_{\\text{inflows}} = \\mathrm{PV}_{\\text{outflows}}",
+                "\\$100 + \\frac{\\$118}{1 + r} = \\frac{\\$264}{(1 + r)^2}"
+              ]
+            },
+            {
+              "title": "Solve for the money-weighted rate of return (IRR)",
+              "body": [
+                "Solve for r using trial and error or a financial calculator / spreadsheet IRR function."
+              ],
+              "equations": [
+                "r = 13.86\\%"
+              ]
+            }
+          ],
+          "sourceAsset": "f8259749ec97b07048f9.png"
         },
         {
           "type": "paragraph",

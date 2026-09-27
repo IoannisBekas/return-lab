@@ -51,7 +51,7 @@ MANUAL_MEANINGFUL_VISUALS = {
     "31fa227e2b44ab1ae029.png", "384854301c0123597210.png",
     "3da67fad473aa701f24e.png", "510d77a276c7184557a9.png",
     "515855f8b9b9f78398d9.png", "54770f97b2405c7ba97c.png",
-    "5a8fbea51ecb510eb4cd.png", "5d68f4c1921b12dd0247.png",
+    "5d68f4c1921b12dd0247.png",
     "6238aa1942b15e9eaac3.png", "6535d7ff2e2fc55afa79.png",
     "673044e17d4a0215e36e.png", "866c622294530622f91f.png",
     "874dbb230795297b4341.png", "906b0829878cf9c4a3d6.png",
@@ -62,7 +62,6 @@ MANUAL_MEANINGFUL_VISUALS = {
     "e3ec694db1518a4d9436.png", "e7f54e5e6ee27c0ec0e7.png",
     "ee7fb6439edbe3b04caf.png", "f01e0cc2132ef3c85097.png",
     "f0f52342116a3e978bf1.png", "f814cc1eaa5656f9dda9.png",
-    "f8259749ec97b07048f9.png",
 }
 VISUAL_ALT_OVERRIDES = {
     "31fa227e2b44ab1ae029.png": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
@@ -91,9 +90,7 @@ VISUAL_ALT_OVERRIDES = {
     "ca036f8ef817fb8d1dd7.png": "Modified duration and convexity calculation reference table.",
     "515855f8b9b9f78398d9.png": "Margin transaction regulations, maintenance margin, and margin call price reference table.",
     "6535d7ff2e2fc55afa79.png": "Multistage dividend discount model multi-period cash flow timeline diagram.",
-    "f8259749ec97b07048f9.png": "Money-weighted rate of return internal rate of return step-by-step calculation workflow.",
     "701ed5eff65b74fbfce9.png": "Comparative financial performance metrics between Company A and Company B.",
-    "5a8fbea51ecb510eb4cd.png": "Step-by-step cash flow from operations adjustment table.",
     "b5078c1215465acab3c1.png": "Direct cash flow statement collection and disbursement adjustment table.",
     "a0db1a41b518f5fd261f.png": "Balance sheet data table comparing assets and liabilities across 20X7 and 20X6.",
     "d144f282ab1f00e08408.png": "Operating, investing, and financing cash flow transactions data table.",
@@ -378,26 +375,31 @@ WORKED_EXAMPLE_OVERRIDES = {
         "title": "Money-weighted return calculation",
         "steps": [
             {
-                "title": "Identify and net the cash flows",
-                "body": ["Use the portfolio-account perspective: contributions are inflows and dividends or sale proceeds are outflows."],
+                "title": "Determine the timing and net cash flow for each period",
+                "body": [
+                    "From the account perspective, contributions and purchases are inflows (+), while dividends and sale proceeds are outflows (−)."
+                ],
                 "rows": [
-                    ["t = 0", "Purchase first share", "+$100 inflow"],
-                    ["t = 1", "Purchase second share", "+$120 inflow"],
-                    ["t = 1", "Dividend from first share", "−$2 outflow"],
-                    ["t = 1", "Net cash flow", "+$118 inflow"],
-                    ["t = 2", "Dividends from two shares", "−$4 outflow"],
-                    ["t = 2", "Sale proceeds from two shares", "−$260 outflow"],
-                    ["t = 2", "Net cash flow", "−$264 outflow"],
+                    ["t = 0", "Purchase first share", "+$100.00 inflow to account"],
+                    ["t = 1", "Purchase second share", "+$120.00"],
+                    ["", "Dividend from first share", "−$2.00"],
+                    ["", "Subtotal, t = 1", "+$118.00 inflow to account"],
+                    ["t = 2", "Dividend from two shares", "−$4.00"],
+                    ["", "Proceeds from selling shares", "−$260.00"],
+                    ["", "Subtotal, t = 2", "−$264.00 outflow from account"],
                 ],
             },
             {
-                "title": "Set the present value of inflows equal to the present value of outflows",
-                "equations": [r"100+\frac{118}{1+r}=\frac{264}{(1+r)^2}"],
+                "title": "Net cash flows and equate PV of inflows to PV of outflows",
+                "equations": [
+                    r"\mathrm{PV}_{\text{inflows}} = \mathrm{PV}_{\text{outflows}}",
+                    r"\$100 + \frac{\$118}{1 + r} = \frac{\$264}{(1 + r)^2}",
+                ],
             },
             {
-                "title": "Solve for the periodic return",
-                "body": ["Solve for r with trial and error, a financial calculator, or a spreadsheet IRR function."],
-                "equations": [r"r=13.86\%"],
+                "title": "Solve for the money-weighted rate of return (IRR)",
+                "body": ["Solve for r using trial and error or a financial calculator / spreadsheet IRR function."],
+                "equations": [r"r = 13.86\%"],
             },
         ],
     },
