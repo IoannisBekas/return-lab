@@ -32,11 +32,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The calculator solution is as follows:"
+          "text": "Solving with the bond valuation parameters:"
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\nN=5;\\quad PMT=10;\\quad FV=100;\\quad I/Y=10;\\quad CPT\\to PV=-100\\\\\nN=\\text{years};\\quad PMT=\\text{annual coupon};\\quad I/Y=\\text{annual discount rate};\\quad FV=\\text{par value}\n\\end{gathered}",
+          "latex": "\\begin{gathered}\nN=5;\\quad PMT=10;\\quad FV=100;\\quad I/Y=10;\\quad \\to PV=-100\\\\\nN=\\text{years};\\quad PMT=\\text{annual coupon};\\quad I/Y=\\text{annual discount rate};\\quad FV=\\text{par value}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "3bb2014397890a07af61.png"
         },
@@ -50,7 +50,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Take note of a couple points here. The discount rate is entered as a whole number in a percentage, 10, not 0.10. The five coupon payments of $10 each are taken care of in the N = 5 and PMT = 10 entries. The principal repayment is in the FV = 100 entry. Lastly, note that the PV is negative; it will be the opposite sign to the sign of PMT and FV. The calculator is just “thinking” that to receive the payments and future value (to own the bond), you must pay the present value of the bond today (you must buy the bond). That’s why the PV amount is negative; it is a cash outflow to a bond buyer."
+          "text": "Take note of several key conventions here. The discount rate is expressed as a percentage, 10, not 0.10. The five coupon payments of $10 each correspond to N = 5 and PMT = 10. The principal repayment is FV = 100. Lastly, note that the present value is negative, reflecting the cash outflow required today to purchase the bond, while the coupon and principal payments represent future cash inflows (positive). That is why PV has the opposite sign to PMT and FV."
         },
         {
           "type": "paragraph",
@@ -64,11 +64,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The calculator solution is as follows:"
+          "text": "Solving with the bond valuation parameters:"
         },
         {
           "type": "paragraph",
-          "text": "N = 5; PMT = 10; FV = 100; I/Y = 8; CPT → PV = −107.99"
+          "text": "N = 5; PMT = 10; FV = 100; I/Y = 8 → PV = −107.99"
         },
         {
           "type": "paragraph",
@@ -86,11 +86,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The calculator solution is as follows:"
+          "text": "Solving with the bond valuation parameters:"
         },
         {
           "type": "paragraph",
-          "text": "N = 5; PMT = 10; FV = 100; I/Y = 12; CPT → PV = −92.79"
+          "text": "N = 5; PMT = 10; FV = 100; I/Y = 12 → PV = −92.79"
         },
         {
           "type": "paragraph",
@@ -120,11 +120,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The calculator solution is as follows:"
+          "text": "Solving with the bond valuation parameters:"
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PMT = 5; FV = 100; I/Y = 4; CPT → PV = −108.11"
+          "text": "N = 10; PMT = 5; FV = 100; I/Y = 4 → PV = −108.11"
         },
         {
           "type": "paragraph",
@@ -160,15 +160,15 @@
         },
         {
           "type": "paragraph",
-          "text": "We solve for the semiannual return of the bond using the following calculator inputs:"
+          "text": "We solve for the semiannual return of the bond using the following valuation parameters:"
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PMT = 5; FV = 100; PV = −105; CPT → I/Y = 4.37%"
+          "text": "N = 10; PMT = 5; FV = 100; PV = −105 → I/Y = 4.37%"
         },
         {
           "type": "paragraph",
-          "text": "This is the true semiannual return of the bond. To quote a YTM, we need to multiply by two to give a stated YTM of 4.37% × 2 = 8.74%. Also note the negative sign for the PV input: we must respect the direction of cash flows (negative for the cash outflow today, positive for the cash inflow later), or else the calculator will not be able to calculate a rate of return."
+          "text": "This is the true semiannual return of the bond. To quote a YTM, we need to multiply by two to give a stated YTM of 4.37% × 2 = 8.74%. Also note the negative sign for the PV input: we must respect the direction of cash flows (negative for the cash outflow today, positive for the cash inflow later), in order to solve for a valid rate of return."
         },
         {
           "type": "paragraph",
@@ -280,7 +280,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 4; PMT = 2.5; FV = 100; I/Y = 2; CPT → PV = −101.904"
+          "text": "N = 4; PMT = 2.5; FV = 100; I/Y = 2 → PV = −101.904"
         },
         {
           "type": "paragraph",
@@ -430,7 +430,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; PMT = 4; FV = 100; I/Y = 4.6; CPT → PV = −98.354"
+          "text": "N = 3; PMT = 4; FV = 100; I/Y = 4.6 → PV = −98.354"
         },
         {
           "type": "paragraph",
@@ -619,11 +619,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "N = 20; I/Y = 15; FV = 100; PMT = 10; and CPT → PV = −68.703",
+          "explanation": "Given: N = 20; I/Y = 15; FV = 100; PMT = 10 → PV = −68.703",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "N = 20; I/Y = 15; FV = 100; PMT = 10; and CPT → PV = −68.703"
+              "text": "Given: N = 20; I/Y = 15; FV = 100; PMT = 10 → PV = −68.703"
             }
           ]
         },
@@ -650,11 +650,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "N = 10; I/Y = 7.5; FV = 1,000; PMT = 50; and CPT → PV = −$828.40",
+          "explanation": "Given: N = 10; I/Y = 7.5; FV = 1,000; PMT = 50 → PV = −$828.40",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "N = 10; I/Y = 7.5; FV = 1,000; PMT = 50; and CPT → PV = −$828.40"
+              "text": "Given: N = 10; I/Y = 7.5; FV = 1,000; PMT = 50 → PV = −$828.40"
             }
           ]
         },
@@ -712,11 +712,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5% is N = 20; PMT = 50; FV = 1,000; I/Y = 6.5; and CPT → PV = −834.72. With N = 17, CPT → PV = −848.34, so the value will increase $13.62.",
+          "explanation": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5% is given by: N = 20; PMT = 50; FV = 1,000; I/Y = 6.5 → PV = −834.72. With N = 17, PV = −848.34, so the value will increase $13.62.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5% is N = 20; PMT = 50; FV = 1,000; I/Y = 6.5; and CPT → PV = −834.72. With N = 17, CPT → PV = −848.34, so the value will increase $13.62."
+              "text": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5% is given by: N = 20; PMT = 50; FV = 1,000; I/Y = 6.5 → PV = −834.72. With N = 17, PV = −848.34, so the value will increase $13.62."
             }
           ]
         },

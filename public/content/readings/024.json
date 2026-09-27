@@ -118,20 +118,12 @@
           "text": "The project has a positive NPV, so it should be accepted."
         },
         {
-          "type": "paragraph",
-          "text": "You may calculate NPV directly by using the cash flow (CF) keys on your calculator. The process is illustrated in Figure 24.2."
-        },
-        {
           "type": "heading",
-          "text": "Figure 24.2: Calculating NPV With the TI BA II Plus™"
+          "text": "Figure 24.2: Summary of Project Cash Flows and Net Present Value Valuation"
         },
         {
-          "type": "image",
-          "src": "content/figures/5542ca21f605a2cfa982.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 922,
-          "height": 535,
-          "alt": "Instructional visual diagram or table: 5542ca21f605a2cfa982.png"
+          "type": "paragraph",
+          "text": "The discounted cash flow breakdown for this project is as follows: Year 0 outlay = −$100.00 (PV = −$100.00); Year 1 inflow = $25.00 discounted at 9% (PV = $22.94); Year 2 inflow = $50.00 discounted at 9% (PV = $42.08); Year 3 inflow = $75.00 discounted at 9% (PV = $57.91). Summing the present values yields NPV = −$100.00 + $22.94 + $42.08 + $57.91 = +$22.93."
         },
         {
           "type": "heading",
@@ -187,11 +179,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The cash flows should be entered as in Figure 24.2 (if you haven’t changed or cleared them, they are still there from the previous calculation of NPV)."
-        },
-        {
-          "type": "paragraph",
-          "text": "With the TI calculator, the IRR can be calculated with [IRR] [CPT] to get 19.4377%."
+          "text": "Solving for the discount rate that equates the present value of the cash inflows to the $100 initial outlay yields an internal rate of return of IRR = 19.44%."
         },
         {
           "type": "paragraph",

@@ -503,7 +503,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We can also solve for the return on the margin transaction with the cash flow functions on a financial calculator. The initial cash outflow is the $40,000 initial margin + $50 purchase commission = $40,050. The inflow after one year is the $110,000 stock value + $2,000 dividends − $60,000 margin repayment − $2,400 margin interest − $50 sale commission = $49,550. Using the cash flow functions: CF0 = −40,050; CF1 = 49,550; CPT IRR = 23.72%."
+          "text": "We can also solve for the return on the margin transaction using internal rate of return (IRR). The initial cash outflow is the $40,000 initial margin + $50 purchase commission = $40,050. The net cash inflow after one year is the $110,000 stock value + $2,000 dividends − $60,000 margin repayment − $2,400 margin interest − $50 sale commission = $49,550. Netting these flows gives CF0 = −$40,050 and CF1 = $49,550, yielding an IRR of 23.72%."
         },
         {
           "type": "paragraph",

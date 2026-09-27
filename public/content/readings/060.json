@@ -360,7 +360,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PV = –99.5; PMT = 5; FV = 100; CPT→I/Y = 5.065"
+          "text": "N = 10; PV = –99.5; PMT = 5; FV = 100 → I/Y = 5.065%"
         },
         {
           "type": "paragraph",
@@ -368,7 +368,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PV = –100.5; PMT = 5; FV = 100; CPT→ I/Y = 4.935"
+          "text": "N = 10; PV = –100.5; PMT = 5; FV = 100 → I/Y = 4.935%"
         },
         {
           "type": "paragraph",

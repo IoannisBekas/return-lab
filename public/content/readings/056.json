@@ -82,7 +82,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; I/Y = 7; PMT = 6; FV = 100; CPT → PV = −97.376"
+          "text": "N = 3; I/Y = 7; PMT = 6; FV = 100 → PV = −97.376"
         },
         {
           "type": "paragraph",
@@ -94,7 +94,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; I/Y = 7; PV = 0; PMT = 6; CPT → FV = −19.289"
+          "text": "N = 3; I/Y = 7; PV = 0; PMT = 6 → FV = −19.289"
         },
         {
           "type": "paragraph",
@@ -160,7 +160,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 30; I/Y = 3; PMT = 2.5; FV = 100; CPT → PV = −90.20"
+          "text": "N = 30; I/Y = 3; PMT = 2.5; FV = 100 → PV = −90.20"
         },
         {
           "type": "paragraph",
@@ -184,7 +184,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 1; I/Y = 7; FV = 100; PMT = 6; CPT → PV = −99.065 which is the carrying value of the bond."
+          "text": "N = 1; I/Y = 7; FV = 100; PMT = 6 → PV = −99.065 which is the carrying value of the bond."
         },
         {
           "type": "paragraph",
@@ -196,7 +196,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 2; I/Y = 7; PV = 0; PMT = 6; CPT → FV = −12.420"
+          "text": "N = 2; I/Y = 7; PV = 0; PMT = 6 → FV = −12.420"
         },
         {
           "type": "paragraph",
@@ -238,7 +238,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; I/Y = 8; PV = 0; PMT = 6; CPT → FV = −19.478"
+          "text": "N = 3; I/Y = 8; PV = 0; PMT = 6 → FV = −19.478"
         },
         {
           "type": "paragraph",
@@ -268,7 +268,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; I/Y = 6; PV = 0; PMT = 6; CPT → FV = −19.102"
+          "text": "N = 3; I/Y = 6; PV = 0; PMT = 6 → FV = −19.102"
         },
         {
           "type": "paragraph",
@@ -306,7 +306,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 2; I/Y = 8; FV = 100; PMT = 6; CPT → PV = −96.433"
+          "text": "N = 2; I/Y = 8; FV = 100; PMT = 6 → PV = −96.433"
         },
         {
           "type": "paragraph",
@@ -332,7 +332,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 2; I/Y = 6; FV = 100; PMT = 6; CPT → PV = −100.00"
+          "text": "N = 2; I/Y = 6; FV = 100; PMT = 6 → PV = −100.00"
         },
         {
           "type": "paragraph",
@@ -420,7 +420,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 1; PMT = 11; FV = 100; I/Y = 14; CPT → PV = 97.368"
+          "text": "N = 1; PMT = 11; FV = 100; I/Y = 14 → PV = 97.368"
         },
         {
           "type": "paragraph",
@@ -428,7 +428,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 4; PMT = 11; PV = 0; I/Y = 14; CPT → FV = 54.133"
+          "text": "N = 4; PMT = 11; PV = 0; I/Y = 14 → FV = 54.133"
         },
         {
           "type": "paragraph",
@@ -448,7 +448,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 1; PMT = 11; FV = 100; I/Y = 16; CPT → PV = 95.690"
+          "text": "N = 1; PMT = 11; FV = 100; I/Y = 16 → PV = 95.690"
         },
         {
           "type": "paragraph",
@@ -456,7 +456,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 4; PMT = 11; PV = 0; I/Y = 16; CPT → FV = 55.731"
+          "text": "N = 4; PMT = 11; PV = 0; I/Y = 16 → FV = 55.731"
         },
         {
           "type": "paragraph",
@@ -677,7 +677,7 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "The interest portion of a bond’s return is the sum of the coupon payments and interest earned from reinvesting coupon payments over the holding period: N = 18; PMT = 50; PV = 0; I/Y = 5%; CPT → FV = −1,406.62",
+          "explanation": "The interest portion of a bond’s return is the sum of the coupon payments and interest earned from reinvesting coupon payments over the holding period: N = 18; PMT = 50; PV = 0; I/Y = 5% → FV = −1,406.62",
           "solutionBlocks": [
             {
               "type": "paragraph",
@@ -685,7 +685,7 @@
             },
             {
               "type": "paragraph",
-              "text": "N = 18; PMT = 50; PV = 0; I/Y = 5%; CPT → FV = −1,406.62"
+              "text": "N = 18; PMT = 50; PV = 0; I/Y = 5% → FV = −1,406.62"
             }
           ]
         },

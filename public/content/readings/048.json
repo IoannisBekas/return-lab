@@ -38,11 +38,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This constant PMT can be calculated using a financial calculator:"
-        },
-        {
-          "type": "paragraph",
-          "text": "N = 5; I/Y = 5; PV = 1,000; FV = 0; CPT → PMT = −230.97"
+          "text": "This constant payment is determined from the annuity relationship with N = 5, I/Y = 5%, PV = $1,000, and FV = 0, yielding PMT = −$230.97."
         },
         {
           "type": "paragraph",
@@ -60,11 +56,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This constant PMT can be calculated using a financial calculator:"
-        },
-        {
-          "type": "paragraph",
-          "text": "N = 5; I/Y = 5; PV = 1,000; FV = −200; CPT → PMT = −194.78"
+          "text": "This constant payment is determined from the annuity relationship with N = 5, I/Y = 5%, PV = $1,000, and FV = −$200, yielding PMT = −$194.78."
         },
         {
           "type": "paragraph",

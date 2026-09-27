@@ -74,7 +74,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 10; I/Y = 2.25; FV = 100; PMT = 2.1; CPT → PV = −98.67"
+          "text": "N = 10; I/Y = 2.25; FV = 100; PMT = 2.1 → PV = −98.67"
         },
         {
           "type": "paragraph",

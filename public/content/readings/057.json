@@ -62,7 +62,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 5; I/Y = 15.5; FV = 100; PMT = 11; CPT → PV = −85.092"
+          "text": "N = 5; I/Y = 15.5; FV = 100; PMT = 11 → PV = −85.092"
         },
         {
           "type": "paragraph",
@@ -210,7 +210,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 20; PV = −101.39; PMT = 6; FV = 100; CPT→ I/Y = 5.88"
+          "text": "N = 20; PV = −101.39; PMT = 6; FV = 100 → I/Y = 5.88%"
         },
         {
           "type": "paragraph",
@@ -218,11 +218,11 @@
         },
         {
           "type": "paragraph",
-          "text": "I/Y = 5.89; CPT → PV = −101.273 (V+)"
+          "text": "At I/Y = 5.89% → PV = −101.273 (V+)"
         },
         {
           "type": "paragraph",
-          "text": "I/Y = 5.87; CPT → PV = −101.507 (V−)"
+          "text": "At I/Y = 5.87% → PV = −101.507 (V−)"
         },
         {
           "type": "paragraph",
@@ -397,7 +397,7 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "PVBP = initial price − price if yield is changed by 1 basis point. First, we need to calculate the yield so we can calculate the price of the bond with a 1 basis point change in yield. Using a financial calculator, PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years; and CPT → I/Y = 2.49998, multiplied by 2 = 4.99995, or 5.00%. Next, compute the price of the bond at a yield of 5.00% + 0.01%, or 5.01%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2); CPT → PV = $1,028.63. Next, compute the price of the bond at a yield of 5.00% − 0.01%, or 4.99%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2); CPT → PV = $1,029.82. Finally, PVBP = ($1,029.82 − $1,028.63) / 2 = $0.595.",
+          "explanation": "PVBP = initial price − price if yield is changed by 1 basis point. First, calculate the semiannual yield given: PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years → periodic I/Y = 2.49998%, which gives an annualized yield of 2.49998% × 2 = 5.00%. Next, compute the price of the bond at an annualized yield of 5.00% + 0.01% = 5.01%: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2) → PV = $1,028.63. Next, compute the price at an annualized yield of 5.00% − 0.01% = 4.99%: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2) → PV = $1,029.82. Finally, PVBP = ($1,029.82 − $1,028.63) / 2 = $0.595.",
           "solutionBlocks": [
             {
               "type": "paragraph",
@@ -405,15 +405,15 @@
             },
             {
               "type": "paragraph",
-              "text": "First, we need to calculate the yield so we can calculate the price of the bond with a 1 basis point change in yield. Using a financial calculator, PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years; and CPT → I/Y = 2.49998, multiplied by 2 = 4.99995, or 5.00%."
+              "text": "First, calculate the semiannual yield given: PV = −1,029.23; FV = 1,000; PMT = 27.5 = (0.055 × 1,000) / 2; N = 14 = 2 × 7 years → periodic I/Y = 2.49998%, which gives an annualized yield of 2.49998% × 2 = 5.00%."
             },
             {
               "type": "paragraph",
-              "text": "Next, compute the price of the bond at a yield of 5.00% + 0.01%, or 5.01%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2); CPT → PV = $1,028.63."
+              "text": "Next, compute the price of the bond at an annualized yield of 5.00% + 0.01% = 5.01%: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.505 (5.01 / 2) → PV = $1,028.63."
             },
             {
               "type": "paragraph",
-              "text": "Next, compute the price of the bond at a yield of 5.00% − 0.01%, or 4.99%. Using the calculator: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2); CPT → PV = $1,029.82."
+              "text": "Next, compute the price at an annualized yield of 5.00% − 0.01% = 4.99%: FV = 1,000; PMT = 27.5; N = 14; I/Y = 2.495 (4.99 / 2) → PV = $1,029.82."
             },
             {
               "type": "paragraph",

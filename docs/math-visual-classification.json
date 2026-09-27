@@ -1,9 +1,9 @@
 {
   "summary": {
     "sourceAssetsClassified": 976,
-    "nativeMath": 822,
-    "meaningfulVisuals": 148,
-    "rebuiltTables": 6,
+    "nativeMath": 821,
+    "meaningfulVisuals": 147,
+    "rebuiltTables": 8,
     "lowConfidenceMath": 0
   },
   "assets": [
@@ -3875,15 +3875,9 @@
     },
     {
       "asset": "4b973189367edba55ab4.png",
-      "classification": "native-math",
-      "reason": "equation or compact mathematical layout",
+      "classification": "rebuilt-table",
+      "reason": "calculator keystroke procedure rebuilt as native worked-example",
       "occurrences": 1,
-      "latex": "\\begin{array}{llr}\n\\hline\n\\textbf{Keystroke} & \\textbf{Display} & \\textbf{Explanation} \\\\\n\\hline\n[\\text{CF}] & \\text{CF0 = 0} & \\text{Enter Cash Flow worksheet} \\\\\n[\\text{2nd}][\\text{CLR WORK}] & \\text{CF0 = 0} & \\text{Clear previous entries} \\\\\n50 [+/-][\\text{ENTER}] & \\text{CF0 = } -50 & \\text{Initial outlay} \\\\\n[\\downarrow] 100 [+/-][\\text{ENTER}] & \\text{C01 = } -100 & \\text{Cash flow Year 1} \\\\\n[\\downarrow][\\downarrow] 150 [\\text{ENTER}] & \\text{C02 = 150} & \\text{Cash flow Year 2} \\\\\n[\\text{IRR}][\\text{CPT}] & \\text{IRR = 0.00} & \\text{Compute IRR (0.0\\%)} \\\\\n\\hline\n\\end{array}",
-      "verification": [
-        "source-traced",
-        "manually-transcribed",
-        "katex-parse-checked"
-      ],
       "sourceIds": [
         "1:20:6"
       ]
@@ -4325,8 +4319,8 @@
     },
     {
       "asset": "5542ca21f605a2cfa982.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "rebuilt-table",
+      "reason": "calculator keystroke procedure rebuilt as native worked-example",
       "occurrences": 1,
       "sourceIds": [
         "1:256:1"

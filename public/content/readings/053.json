@@ -32,7 +32,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 5; PMT = 7; FV = 100; PV = −102.078; CPT → I/Y = 6.5%"
+          "text": "N = 5; PMT = 7; FV = 100; PV = −102.078 → I/Y = 6.5%"
         },
         {
           "type": "paragraph",
@@ -40,7 +40,7 @@
         },
         {
           "type": "math",
-          "latex": "\\begin{gathered}\n\\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^1} + \\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^2} + \\dots + \\frac{103.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^{10}} = 102.078 \\\\[8pt]\n\\text{N}=10; \\quad \\text{PMT}=3.5; \\quad \\text{FV}=100; \\quad \\text{PV}=-102.078; \\quad \\text{CPT } \\to \\text{I/Y}=3.253\\%\n\\end{gathered}",
+          "latex": "\\begin{gathered}\n\\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^1} + \\frac{3.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^2} + \\dots + \\frac{103.5}{\\left(1+\\frac{\\text{YTM}}{2}\\right)^{10}} = 102.078 \\\\[8pt]\n\\text{N}=10; \\quad \\text{PMT}=3.5; \\quad \\text{FV}=100; \\quad \\text{PV}=-102.078; \\quad \\to \\text{I/Y}=3.253\\%\n\\end{gathered}",
           "display": true,
           "sourceAsset": "7b2c0a64ad3b7eeaf1c9.png"
         },
@@ -236,7 +236,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PMT = 3; FV = 100; PV = −102; CPT → I/Y = 2.768%"
+          "text": "N = 10; PMT = 3; FV = 100; PV = −102 → I/Y = 2.768%"
         },
         {
           "type": "paragraph",
@@ -248,7 +248,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 6; PMT = 3; FV = 102; PV = −102; CPT → I/Y = 2.941%"
+          "text": "N = 6; PMT = 3; FV = 102; PV = −102 → I/Y = 2.941%"
         },
         {
           "type": "paragraph",
@@ -260,7 +260,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 8; PMT = 3; FV = 101; PV = −102; CPT → I/Y = 2.830%"
+          "text": "N = 8; PMT = 3; FV = 101; PV = −102 → I/Y = 2.830%"
         },
         {
           "type": "paragraph",
@@ -321,7 +321,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 6; PMT = 4; FV = 100; PV = −103.165; CPT → I/Y = 3.408%"
+          "text": "N = 6; PMT = 4; FV = 100; PV = −103.165 → I/Y = 3.408%"
         },
         {
           "type": "paragraph",
@@ -522,7 +522,7 @@
           "solutionBlocks": [
             {
               "type": "math",
-              "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\[8pt]\nCPT\\to I/Y&=3.750\\times2=7.500\\% \\\\[8pt]\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
+              "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\[8pt]\n\\to I/Y&=3.750\\times2=7.500\\% \\\\[8pt]\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
               "display": true,
               "sourceAsset": "1faede774541a1a6ade5.png"
             }
@@ -551,11 +551,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "N = 4; FV = 101; PMT = 3.5625; PV = −102.347; CPT → I/Y = 3.167 × 2 = 6.334%",
+          "explanation": "Given: N = 4; FV = 101; PMT = 3.5625; PV = −102.347 → I/Y = 3.167 × 2 = 6.334%",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "N = 4; FV = 101; PMT = 3.5625; PV = −102.347; CPT → I/Y = 3.167 × 2 = 6.334%"
+              "text": "Given: N = 4; FV = 101; PMT = 3.5625; PV = −102.347 → I/Y = 3.167 × 2 = 6.334%"
             }
           ]
         },

@@ -9,54 +9,6 @@
     {
       "type": "paragraph",
       "text": "The examples we use in this reading are meant to show how the time value of money appears throughout finance. Don’t worry if you are not yet familiar with the securities we describe in this reading. We will see these examples again when we cover bonds and forward interest rates in Fixed Income, stocks in Equity Investments, foreign exchange in Economics, and options in Derivatives."
-    },
-    {
-      "type": "heading",
-      "text": "WARM-UP: USING A FINANCIAL CALCULATOR"
-    },
-    {
-      "type": "paragraph",
-      "text": "For the exam, you must be able to use a financial calculator when working time value of money problems. You simply do not have the time to solve these problems any other way."
-    },
-    {
-      "type": "paragraph",
-      "text": "CFA Institute allows only two types of calculators to be used for the exam: (1) the Texas Instruments® TI BA II Plus™ (including the BA II Plus Professional™) and (2) the HP®"
-    },
-    {
-      "type": "paragraph",
-      "text": "12C (including the HP 12C Platinum). This reading is written primarily with the TI BA II Plus in mind. If you do not already own a calculator, purchase a TI BA II Plus! However, if you already own the HP 12C and are comfortable with it, by all means, continue to use it."
-    },
-    {
-      "type": "paragraph",
-      "text": "Before we begin working with financial calculators, you should familiarize yourself with your TI BA II Plus by locating the keys noted below. These are the only keys you need to know to calculate virtually all of the time value of money problems:"
-    },
-    {
-      "type": "paragraph",
-      "text": "N = number of compounding periods"
-    },
-    {
-      "type": "paragraph",
-      "text": "I/Y = interest rate per compounding period PV = present value FV = future value"
-    },
-    {
-      "type": "paragraph",
-      "text": "PMT = annuity payments, or constant periodic cash flow CPT = compute"
-    },
-    {
-      "type": "paragraph",
-      "text": "The TI BA II Plus comes preloaded from the factory with the periods per year function (P/Y) set to 12. This automatically converts the annual interest rate (I/Y) into monthly rates. While appropriate for many loan-type problems, this feature is not suitable for the vast majority of the time value of money applications we will be studying. So, before using these lessons, please set your P/Y key to “1” using the following sequence of keystrokes:"
-    },
-    {
-      "type": "paragraph",
-      "text": "[2nd] [P/Y] “1” [ENTER] [2nd] [QUIT]"
-    },
-    {
-      "type": "paragraph",
-      "text": "As long as you do not change the P/Y setting, it will remain set at one period per year until the battery from your calculator is removed (it does not change when you turn the calculator on and off). If you want to check this setting at any time, press [2nd] [P/Y]. The display should read P/Y = 1.0. If it does, press [2nd] [QUIT] to get out of the “programming” mode. If it does not, repeat the procedure previously described to set the P/Y key. With P/Y set to equal 1, it is now possible to think of I/Y as the interest rate per compounding period and N as the number of compounding periods under analysis. Thinking of these keys in this way should help you keep things straight as we work through time value of money problems."
-    },
-    {
-      "type": "heading",
-      "text": "Study note"
     }
   ],
   "modules": [
@@ -117,7 +69,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We can infer a bond’s yield from its price using the same relationship. Rather than solving for r with algebra, we typically use our financial calculators. For this example, if we were given the price of $555.26, the face value of $1,000, and annual compounding over 15 years, we would enter the following:"
+          "text": "We can infer a bond’s yield from its price using the same relationship. For this example, given the price of $555.26, face value of $1,000, and annual compounding over 15 years, the time value of money parameters are:"
         },
         {
           "type": "math",
@@ -127,7 +79,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Then, to get the yield, CPT I/Y = 4.00."
+          "text": "Solving for the annual interest rate yields r = 4.00%."
         },
         {
           "type": "heading",
@@ -195,15 +147,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The calculator solution is:"
-        },
-        {
-          "type": "paragraph",
-          "text": "N = 10; PMT = 100; FV = 1,000; I/Y = 8; CPT PV = −1,134.20"
-        },
-        {
-          "type": "paragraph",
-          "text": "The bond’s value is $1,134.20."
+          "text": "Evaluating this cash flow stream with N = 10, PMT = $100, FV = $1,000, and I/Y = 8% confirms the bond’s present value is $1,134.20."
         },
         {
           "type": "heading",
@@ -239,7 +183,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We can also determine an annuity payment using a financial calculator."
+          "text": "We can also determine an annuity payment using the TVM formula."
         },
         {
           "type": "heading",
@@ -259,7 +203,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 13; I/Y = 6; PV = −2,000; FV = 0; CPT → PMT = $225.92"
+          "text": "N = 13; I/Y = 6%; PV = −$2,000; FV = 0 → PMT = $225.92"
         },
         {
           "type": "heading",
@@ -454,7 +398,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 10; PMT = 100; FV = 1,000; PV = −1,085; CPT I/Y = 8.6934"
+          "text": "N = 10; PMT = $100; FV = $1,000; PV = −$1,085 → I/Y = 8.69%"
         },
         {
           "type": "paragraph",
@@ -533,11 +477,11 @@
         },
         {
           "type": "paragraph",
-          "text": "For the annuity: N = 4; PMT = 100; FV = 0; I/Y = 10; CPT → PV = −$316.99"
+          "text": "For the annuity: N = 4, PMT = $100, FV = 0, and I/Y = 10% → PV = −$316.99"
         },
         {
           "type": "paragraph",
-          "text": "For the single payment: N = 3; PMT = 0; FV = 300; I/Y = 10; CPT → PV = −$225.39"
+          "text": "For the single payment: N = 3, PMT = 0, FV = $300, and I/Y = 10% → PV = −$225.39"
         },
         {
           "type": "paragraph",
@@ -941,11 +885,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991.",
+          "explanation": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6%; PMT = 0.05 × $10,000,000 = $500,000; FV = $10,000,000; yielding PV = −$9,263,991.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991."
+              "text": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6%; PMT = 0.05 × $10,000,000 = $500,000; FV = $10,000,000; yielding PV = −$9,263,991."
             }
           ]
         }

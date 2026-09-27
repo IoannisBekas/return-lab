@@ -161,18 +161,7 @@
           "display": true,
           "sourceAsset": "da5f3ab26dc5a13391a1.png"
         },
-        {
-          "type": "paragraph",
-          "text": "Solve this type of problem with your calculator as follows:"
-        },
-        {
-          "type": "paragraph",
-          "text": "On the TI, enter 1.21903 [yx] 3 [1/x] [=]"
-        },
-        {
-          "type": "paragraph",
-          "text": "On the HP, enter 1.21903 [ENTER] 3 [1/x] [yx]"
-        },
+
         {
           "type": "paragraph",
           "text": "In the previous example, the geometric mean results in an annual rate of return because the holding periods were years. If the holding periods are other than years, the geometric mean is not the same as the annual return. The root for the geometric mean is the number of periods, while the root for the annual return is the number of years."
@@ -344,7 +333,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The money-weighted return applies the concept of the internal rate of return (IRR) to investment portfolios. An IRR is the interest rate at which a series of cash inflows and outflows sum to zero when discounted to their present value. That is, they have a net present value (NPV) of zero. The IRR and NPV are built-in functions on financial calculators that CFA Institute permits candidates to use for the exam."
+          "text": "The money-weighted return applies the concept of the internal rate of return (IRR) to investment portfolios. An IRR is the interest rate at which a series of cash inflows and outflows sum to zero when discounted to their present value. That is, they have a net present value (NPV) of zero."
         },
         {
           "type": "heading",
@@ -423,7 +412,7 @@
             {
               "title": "Solve for the money-weighted rate of return (IRR)",
               "body": [
-                "Solve for r using trial and error or a financial calculator / spreadsheet IRR function."
+                "Solve for r numerically or using standard IRR root-finding methods."
               ],
               "equations": [
                 "r = 13.86\\%"
@@ -438,31 +427,13 @@
         },
         {
           "type": "paragraph",
-          "text": "To compute this value with a financial calculator, use these net cash flows and follow the procedure(s) described to calculate the IRR:"
+          "text": "The net cash flows for the evaluation periods are summarized as follows:"
         },
         {
           "type": "math",
           "latex": "\\begin{aligned}\n\\text{Net cash flows: } \\mathrm{CF}_0 &= +100; \\\\[6pt]\n\\mathrm{CF}_1 &= +120 - 2 = +118; \\\\[6pt]\n\\mathrm{CF}_2 &= -260 + -4 = -264\n\\end{aligned}",
           "display": true,
           "sourceAsset": "65a2141ac33793ae54c9.png"
-        },
-        {
-          "type": "paragraph",
-          "text": "Calculating money-weighted return with the TI Business Analyst II Plus®"
-        },
-        {
-          "type": "paragraph",
-          "text": "Note the values for F01, F02, and so on, are all equal to 1."
-        },
-        {
-          "type": "math",
-          "latex": "\\begin{array}{llr}\n\\hline\n\\textbf{Keystroke} & \\textbf{Display} & \\textbf{Explanation} \\\\\n\\hline\n[\\text{CF}] & \\text{CF0 = 0} & \\text{Enter Cash Flow worksheet} \\\\\n[\\text{2nd}][\\text{CLR WORK}] & \\text{CF0 = 0} & \\text{Clear previous entries} \\\\\n50 [+/-][\\text{ENTER}] & \\text{CF0 = } -50 & \\text{Initial outlay} \\\\\n[\\downarrow] 100 [+/-][\\text{ENTER}] & \\text{C01 = } -100 & \\text{Cash flow Year 1} \\\\\n[\\downarrow][\\downarrow] 150 [\\text{ENTER}] & \\text{C02 = 150} & \\text{Cash flow Year 2} \\\\\n[\\text{IRR}][\\text{CPT}] & \\text{IRR = 0.00} & \\text{Compute IRR (0.0\\%)} \\\\\n\\hline\n\\end{array}",
-          "display": true,
-          "sourceAsset": "4b973189367edba55ab4.png"
-        },
-        {
-          "type": "paragraph",
-          "text": "The money-weighted rate of return for this problem is 13.86%."
         },
         {
           "type": "heading",
@@ -689,7 +660,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The mathematical limit of shortening the compounding period is known as continuous compounding. Given an HPR, we can use the natural logarithm (ln, or LN on your financial calculator) to state its associated continuously compounded return:"
+          "text": "The mathematical limit of shortening the compounding period is known as continuous compounding. Given an HPR, we can use the natural logarithm (ln) to state its associated continuously compounded return:"
         },
         {
           "type": "math",
@@ -1103,15 +1074,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Using the cash flow functions on your financial calculator, enter CF0 = −40; CF1 = −50 + 1 = −49; CF2 = 60 × 2 + 2 = 122; and CPT IRR = 23.82%.",
+          "explanation": "Setting up the net cash flows: CF0 = −$40; CF1 = −$50 + $1 = −$49; CF2 = ($60 × 2) + $2 = $122. Solving for the internal rate of return yields IRR = 23.82%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Using the cash flow functions on your financial calculator, enter CF0 = −40; CF1 ="
-            },
-            {
-              "type": "paragraph",
-              "text": "−50 + 1 = −49; CF2 = 60 × 2 + 2 = 122; and CPT IRR = 23.82%."
+              "text": "Setting up the net cash flows: CF0 = −$40; CF1 = −$50 + $1 = −$49; CF2 = ($60 × 2) + $2 = $122. Solving for the internal rate of return yields IRR = 23.82%."
             }
           ]
         },

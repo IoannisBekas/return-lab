@@ -70,7 +70,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 3; PMT = 5; FV = 100; PV = −100.180; CPT → I/Y = 4.93%"
+          "text": "N = 3; PMT = 5; FV = 100; PV = −100.180 → I/Y = 4.93%"
         },
         {
           "type": "heading",

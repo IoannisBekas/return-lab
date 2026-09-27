@@ -118,7 +118,7 @@
         },
         {
           "type": "math",
-          "latex": "N=4;\\quad I/Y=5;\\quad PMT=-10{,}000;\\quad FV=0;\\quad CPT\\to PV=35{,}460",
+          "latex": "N=4;\\quad I/Y=5;\\quad PMT=-10{,}000;\\quad FV=0;\\quad \\to PV=35{,}460",
           "display": true,
           "sourceAsset": "519d55f0688d01363b5e.png"
         },
