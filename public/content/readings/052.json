@@ -238,11 +238,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A bond’s full price (also known as its invoice price or dirty price) is the sum of its flat price and the accrued interest. However, we cannot simply calculate a flat price and add accrued interest to it. Instead we must calculate the full price and derive the flat price from it:"
-        },
-        {
-          "type": "paragraph",
-          "text": "flat price = full price − accrued interest"
+          "text": "A bond’s full price (also known as its invoice price or dirty price) is the sum of its flat price and the accrued interest. However, we cannot simply calculate a flat price and add accrued interest to it. Instead we must calculate the full price and derive the flat price from it: flat price = full price − accrued interest"
         },
         {
           "type": "paragraph",
@@ -254,11 +250,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 2: Compound this value at the YTM per period, over the number of days since the last coupon"
-        },
-        {
-          "type": "paragraph",
-          "text": "payment:"
+          "text": "Step 2: Compound this value at the YTM per period, over the number of days since the last coupon payment:"
         },
         {
           "type": "math",
@@ -284,11 +276,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: Calculate the value of the bond on the last coupon date (coupons are"
-        },
-        {
-          "type": "paragraph",
-          "text": "semiannual, so we use 4 / 2 = 2% for the periodic discount rate):"
+          "text": "Step 1: Calculate the value of the bond on the last coupon date (coupons are semiannual, so we use 4 / 2 = 2% for the periodic discount rate):"
         },
         {
           "type": "paragraph",
@@ -296,19 +284,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 2: Adjust for the number of days since the last coupon payment:"
-        },
-        {
-          "type": "paragraph",
-          "text": "days between June 15 and December 15 = 183 days"
-        },
-        {
-          "type": "paragraph",
-          "text": "days between June 15 and settlement on August 21 = 67 days"
-        },
-        {
-          "type": "paragraph",
-          "text": "full price = 101.904 × (1.02)⁶⁷/¹⁸³ = 102.645"
+          "text": "Step 2: Adjust for the number of days since the last coupon payment: days between June 15 and December 15 = 183 days days between June 15 and settlement on August 21 = 67 days full price = 101.904 × (1.02)⁶⁷/¹⁸³ = 102.645"
         },
         {
           "type": "paragraph",
@@ -337,31 +313,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. At a point in time, a decrease (increase) in a bond’s YTM will increase (decrease) its"
+          "text": "1. At a point in time, a decrease (increase) in a bond’s YTM will increase (decrease) its price. That is, there is an inverse relationship between yield and price."
         },
         {
           "type": "paragraph",
-          "text": "price. That is, there is an inverse relationship between yield and price.\n2. Other things equal, the price of a bond with a lower coupon rate is more sensitive to"
+          "text": "2. Other things equal, the price of a bond with a lower coupon rate is more sensitive to a change in yield than is the price of a bond with a higher coupon rate."
         },
         {
           "type": "paragraph",
-          "text": "a change in yield than is the price of a bond with a higher coupon rate."
+          "text": "3. Other things equal, the price of a bond with a longer maturity is more sensitive to a change in yield than is the price of a bond with a shorter maturity."
         },
         {
           "type": "paragraph",
-          "text": "3. Other things equal, the price of a bond with a longer maturity is more sensitive to a"
-        },
-        {
-          "type": "paragraph",
-          "text": "change in yield than is the price of a bond with a shorter maturity.\n4. The percentage decrease in value when the YTM increases by a given amount is"
-        },
-        {
-          "type": "paragraph",
-          "text": "smaller than the increase in value when the YTM decreases by the same amount (the"
-        },
-        {
-          "type": "paragraph",
-          "text": "price-yield relationship is convex)."
+          "text": "4. The percentage decrease in value when the YTM increases by a given amount is smaller than the increase in value when the YTM decreases by the same amount (the price-yield relationship is convex)."
         },
         {
           "type": "paragraph",
@@ -510,15 +474,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Interpolated 5-year Treasury bond YTM:"
-        },
-        {
-          "type": "paragraph",
-          "text": "= 1.48% + (2.15% − 1.48%) × [(5 years − 4 years) / (6 years − 4 years)]"
-        },
-        {
-          "type": "paragraph",
-          "text": "= 1.815%"
+          "text": "Interpolated 5-year Treasury bond YTM: = 1.48% + (2.15% − 1.48%) × [(5 years − 4 years) / (6 years − 4 years)] = 1.815%"
         },
         {
           "type": "paragraph",
@@ -729,11 +685,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The price-yield relationship is inverse. If the required yield decreases, the bond’s"
-            },
-            {
-              "type": "paragraph",
-              "text": "price will increase, and vice versa."
+              "text": "The price-yield relationship is inverse. If the required yield decreases, the bond’s price will increase, and vice versa."
             }
           ]
         },
@@ -764,11 +716,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5%"
-            },
-            {
-              "type": "paragraph",
-              "text": "is N = 20; PMT = 50; FV = 1,000; I/Y = 6.5; and CPT → PV = −834.72. With N = 17, CPT → PV = −848.34, so the value will increase $13.62."
+              "text": "With 20 years to maturity, the value of the bond with an annual-pay yield of 6.5% is N = 20; PMT = 50; FV = 1,000; I/Y = 6.5; and CPT → PV = −834.72. With N = 17, CPT → PV = −848.34, so the value will increase $13.62."
             }
           ]
         },
@@ -799,11 +747,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The full price includes accrued interest, while the flat price does not. Therefore,"
-            },
-            {
-              "type": "paragraph",
-              "text": "the flat (or clean) price is 105.904 − 2.354 = 103.550."
+              "text": "The full price includes accrued interest, while the flat price does not. Therefore, the flat (or clean) price is 105.904 − 2.354 = 103.550."
             }
           ]
         },
@@ -834,11 +778,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Using linear interpolation, the yield on a bond with six years to maturity should"
-            },
-            {
-              "type": "paragraph",
-              "text": "be 6.40% + (1 / 3)(7.20% − 6.40%) = 6.67%. A bond with a 7% coupon and a yield of 6.67% is at a premium to par value."
+              "text": "Using linear interpolation, the yield on a bond with six years to maturity should be 6.40% + (1 / 3)(7.20% − 6.40%) = 6.67%. A bond with a 7% coupon and a yield of 6.67% is at a premium to par value."
             }
           ]
         }

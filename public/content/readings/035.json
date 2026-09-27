@@ -83,11 +83,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A deferred tax liability (DTL) is created when the income tax expense (income statement) is greater than taxes payable (tax return) due to temporary differences. DTLs occur when"
-        },
-        {
-          "type": "paragraph",
-          "text": "revenues (or gains) are recognized in the income statement before they are included on the tax return due to temporary differences, and expenses (or losses) are tax deductible before they are recognized in the income statement."
+          "text": "A deferred tax liability (DTL) is created when the income tax expense (income statement) is greater than taxes payable (tax return) due to temporary differences. DTLs occur when revenues (or gains) are recognized in the income statement before they are included on the tax return due to temporary differences, and expenses (or losses) are tax deductible before they are recognized in the income statement."
         },
         {
           "type": "paragraph",
@@ -141,11 +137,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A deferred tax asset (DTA) is created when taxes payable (tax return) are greater than income tax expense (income statement) due to temporary differences. DTAs occur when"
-        },
-        {
-          "type": "paragraph",
-          "text": "revenues (or gains) are taxable before they are recognized in the income statement, expenses (or losses) are recognized in the income statement before they are tax deductible, and tax loss carryforwards are available to reduce future taxable income."
+          "text": "A deferred tax asset (DTA) is created when taxes payable (tax return) are greater than income tax expense (income statement) due to temporary differences. DTAs occur when revenues (or gains) are taxable before they are recognized in the income statement, expenses (or losses) are recognized in the income statement before they are tax deductible, and tax loss carryforwards are available to reduce future taxable income."
         },
         {
           "type": "paragraph",
@@ -215,11 +207,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Creation of, or increases in, DTLs increase tax expense. Creation of, or increases in, DTAs reduce tax expense. This is because DTAs are expected to provide future tax savings, while DTLs are expected to result in future cash outflows for tax. Because the firm’s actions in the current period either caused deferred tax items to be created or changed"
-        },
-        {
-          "type": "paragraph",
-          "text": "their values, the accruals concept requires the changes to be recognized in tax expense in the current period."
+          "text": "Creation of, or increases in, DTLs increase tax expense. Creation of, or increases in, DTAs reduce tax expense. This is because DTAs are expected to provide future tax savings, while DTLs are expected to result in future cash outflows for tax. Because the firm’s actions in the current period either caused deferred tax items to be created or changed their values, the accruals concept requires the changes to be recognized in tax expense in the current period."
         },
         {
           "type": "heading",
@@ -280,11 +268,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The first noticeable difference is the revenue figures. Remember that revenue is reported net of any returns and allowances in the income statement (e.g., items such as estimated warranty provisions and customer discounts). The tax return has a line for warranty costs, which indicates that these may be the source of some of the difference. Another significant difference between the two statements are the depreciation lines. Finally, the tax return shows tax payable on taxable income, which"
-        },
-        {
-          "type": "paragraph",
-          "text": "differs from the tax expense in the income statement. The latter includes tax payable and changes in DTAs and DTLs."
+          "text": "The first noticeable difference is the revenue figures. Remember that revenue is reported net of any returns and allowances in the income statement (e.g., items such as estimated warranty provisions and customer discounts). The tax return has a line for warranty costs, which indicates that these may be the source of some of the difference. Another significant difference between the two statements are the depreciation lines. Finally, the tax return shows tax payable on taxable income, which differs from the tax expense in the income statement. The latter includes tax payable and changes in DTAs and DTLs."
         },
         {
           "type": "heading",
@@ -747,11 +731,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Pretax income and income tax expense are not always linked because of temporary"
-            },
-            {
-              "type": "paragraph",
-              "text": "and permanent differences."
+              "text": "Pretax income and income tax expense are not always linked because of temporary and permanent differences."
             }
           ]
         },
@@ -782,11 +762,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Timing differences that do not reverse, referred to as permanent differences, do not"
-            },
-            {
-              "type": "paragraph",
-              "text": "result in the creation of DTAs or DTLs. If the timing difference was expected to reverse, a DTL would be created because carrying value > tax base."
+              "text": "Timing differences that do not reverse, referred to as permanent differences, do not result in the creation of DTAs or DTLs. If the timing difference was expected to reverse, a DTL would be created because carrying value > tax base."
             }
           ]
         },
@@ -817,15 +793,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Expenses that are tax deductible before they are recognized in the income"
-            },
-            {
-              "type": "paragraph",
-              "text": "statement result in deferred tax liabilities. For example, accelerated depreciation"
-            },
-            {
-              "type": "paragraph",
-              "text": "in the tax returns versus straight-line depreciation in the accounts results in more depreciation being recognized in the tax returns, in early periods, and results in carrying value exceeding the tax base. If revenues or gains are taxable before they are recognized in the income statement, DTAs are created. Unearned revenue is a good example of this. Tax loss carryforwards result from negative taxable income. Rather than triggering the tax authorities to pay tax to the firm, they are deferred and can be offset against future taxable income. As a result, the firm will pay less tax in the future, and a DTA is created."
+              "text": "Expenses that are tax deductible before they are recognized in the income statement result in deferred tax liabilities. For example, accelerated depreciation in the tax returns versus straight-line depreciation in the accounts results in more depreciation being recognized in the tax returns, in early periods, and results in carrying value exceeding the tax base. If revenues or gains are taxable before they are recognized in the income statement, DTAs are created. Unearned revenue is a good example of this. Tax loss carryforwards result from negative taxable income. Rather than triggering the tax authorities to pay tax to the firm, they are deferred and can be offset against future taxable income. As a result, the firm will pay less tax in the future, and a DTA is created."
             }
           ]
         },
@@ -856,11 +824,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The doubtful debt provision reduces the balance sheet carrying value, but not the"
-            },
-            {
-              "type": "paragraph",
-              "text": "tax base of receivables. If the tax base of the asset is greater than the carrying value, this results in a DTA."
+              "text": "The doubtful debt provision reduces the balance sheet carrying value, but not the tax base of receivables. If the tax base of the asset is greater than the carrying value, this results in a DTA."
             }
           ]
         },
@@ -971,11 +935,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the tax base of an asset exceeds the carrying value, a DTA is created. Taxable"
-            },
-            {
-              "type": "paragraph",
-              "text": "income will be lower in the future when the reversal occurs."
+              "text": "If the tax base of an asset exceeds the carrying value, a DTA is created. Taxable income will be lower in the future when the reversal occurs."
             }
           ]
         },
@@ -1006,11 +966,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The carrying value is higher than the tax base of the asset due to the use of"
-            },
-            {
-              "type": "paragraph",
-              "text": "accelerated depreciation in the tax returns versus straight-line in the accounts. As this year’s tax allowable depreciation is now lower than this year’s accounting depreciation, the DTL will begin to decline. Decreases in the DTL reduce the tax expense. The difference between carrying value and tax base will decrease as the timing difference reverses until, at the end of the asset’s life, they both equal zero."
+              "text": "The carrying value is higher than the tax base of the asset due to the use of accelerated depreciation in the tax returns versus straight-line in the accounts. As this year’s tax allowable depreciation is now lower than this year’s accounting depreciation, the DTL will begin to decline. Decreases in the DTL reduce the tax expense. The difference between carrying value and tax base will decrease as the timing difference reverses until, at the end of the asset’s life, they both equal zero."
             }
           ]
         },
@@ -1041,11 +997,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Recognizing a greater valuation allowance reduces the net value of a DTA, which"
-            },
-            {
-              "type": "paragraph",
-              "text": "increases income tax expense in the current period."
+              "text": "Recognizing a greater valuation allowance reduces the net value of a DTA, which increases income tax expense in the current period."
             }
           ]
         },
@@ -1076,11 +1028,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The DTL is not expected to reverse in the foreseeable future because the firm is"
-            },
-            {
-              "type": "paragraph",
-              "text": "expected to continue to increase its investment in depreciable assets, and accelerated depreciation for tax on the newly acquired assets delays the reversal of the DTL. The liability should be treated as equity at its full value."
+              "text": "The DTL is not expected to reverse in the foreseeable future because the firm is expected to continue to increase its investment in depreciable assets, and accelerated depreciation for tax on the newly acquired assets delays the reversal of the DTL. The liability should be treated as equity at its full value."
             }
           ]
         }
@@ -1118,11 +1066,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The effective rate is most useful for forecasting future earnings; however, it may"
-            },
-            {
-              "type": "paragraph",
-              "text": "need to be adjusted to remove the impact of transitory components. The statutory rate is the tax rate where the company is domiciled for reporting purposes. The cash tax rate is most applicable when forecasting future tax payments and cash flows."
+              "text": "The effective rate is most useful for forecasting future earnings; however, it may need to be adjusted to remove the impact of transitory components. The statutory rate is the tax rate where the company is domiciled for reporting purposes. The cash tax rate is most applicable when forecasting future tax payments and cash flows."
             }
           ]
         },
@@ -1197,11 +1141,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The effective tax rate is measured as the tax expense divided by earnings before"
-            },
-            {
-              "type": "paragraph",
-              "text": "tax."
+              "text": "The effective tax rate is measured as the tax expense divided by earnings before tax."
             },
             {
               "type": "math",

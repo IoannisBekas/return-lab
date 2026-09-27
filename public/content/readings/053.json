@@ -76,7 +76,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. When the periodicity of the bond is 2 (pays semiannually)?\n2. When the periodicity of the bond is 4 (pays quarterly)?"
+          "text": "1. When the periodicity of the bond is 2 (pays semiannually)?"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. When the periodicity of the bond is 4 (pays quarterly)?"
         },
         {
           "type": "heading",
@@ -160,11 +164,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The annual cash coupon payments total:"
-        },
-        {
-          "type": "paragraph",
-          "text": "annual cash coupon payment = par value × stated coupon rate = $1,000 × 0.06 = $60"
+          "text": "The annual cash coupon payments total: annual cash coupon payment = par value × stated coupon rate = $1,000 × 0.06 = $60"
         },
         {
           "type": "paragraph",
@@ -272,11 +272,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A callable bond can be viewed as an equivalent straight (option-free) bond combined with a short call option position (because the right to call the bond lies with the issuer, not the investor):"
-        },
-        {
-          "type": "paragraph",
-          "text": "callable bond value = straight bond value − call option value"
+          "text": "A callable bond can be viewed as an equivalent straight (option-free) bond combined with a short call option position (because the right to call the bond lies with the issuer, not the investor): callable bond value = straight bond value − call option value"
         },
         {
           "type": "paragraph",
@@ -419,11 +415,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If we calculate an OAS for a callable bond, it will be less than the bond’s Z-spread. The difference is the extra yield required to compensate bondholders for the call option. That extra yield is referred to as the option value. Thus, we can write the following:"
-        },
-        {
-          "type": "paragraph",
-          "text": "option value = Z-spread − OAS"
+          "text": "If we calculate an OAS for a callable bond, it will be less than the bond’s Z-spread. The difference is the extra yield required to compensate bondholders for the call option. That extra yield is referred to as the option value. Thus, we can write the following: option value = Z-spread − OAS"
         },
         {
           "type": "paragraph",
@@ -435,11 +427,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The interpretation here is that investors are demanding the Z-spread (180 bp) for the credit, liquidity, taxation, and optionality risks of the callable bond. When the"
-        },
-        {
-          "type": "paragraph",
-          "text": "component of the spread relating to optionality is removed, we are left with the OAS (120 bp) that rewards investors for facing credit, liquidity, and taxation risks."
+          "text": "The interpretation here is that investors are demanding the Z-spread (180 bp) for the credit, liquidity, taxation, and optionality risks of the callable bond. When the component of the spread relating to optionality is removed, we are left with the OAS (120 bp) that rewards investors for facing credit, liquidity, and taxation risks."
         }
       ]
     }
@@ -598,11 +586,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Due to their increased compounding frequency, bonds with higher periodicity will"
-            },
-            {
-              "type": "paragraph",
-              "text": "have a lower stated YTM for a certain level of effective annual yield (EAY). For example, for an EAY of 5% and periodicity of 2, the stated YTM must solve [1 + (YTM / 2)]² = 1.05. Hence, YTM = 2 (1.05¹/² − 1) = 4.94%. With periodicity of 4, the stated YTM must solve [1 + (YTM / 4)]⁴ = 1.05. Hence, YTM = 4 (1.05¹/⁴ − 1) = 4.91%."
+              "text": "Due to their increased compounding frequency, bonds with higher periodicity will have a lower stated YTM for a certain level of effective annual yield (EAY). For example, for an EAY of 5% and periodicity of 2, the stated YTM must solve [1 + (YTM / 2)]² = 1.05. Hence, YTM = 2 (1.05¹/² − 1) = 4.94%. With periodicity of 4, the stated YTM must solve [1 + (YTM / 4)]⁴ = 1.05. Hence, YTM = 4 (1.05¹/⁴ − 1) = 4.91%."
             }
           ]
         },
@@ -668,11 +652,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A callable bond will offer a higher yield than an equivalent straight bond because"
-            },
-            {
-              "type": "paragraph",
-              "text": "the investor faces the call risk of the option. Hence, the Z-spread, which includes the impact of the option, will be higher than the OAS, which has removed the impact of the option."
+              "text": "A callable bond will offer a higher yield than an equivalent straight bond because the investor faces the call risk of the option. Hence, the Z-spread, which includes the impact of the option, will be higher than the OAS, which has removed the impact of the option."
             }
           ]
         }

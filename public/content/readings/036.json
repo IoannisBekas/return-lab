@@ -51,39 +51,31 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Reporting is compliant with GAAP and decision useful; earnings are sustainable and"
+          "text": "1. Reporting is compliant with GAAP and decision useful; earnings are sustainable and adequate."
         },
         {
           "type": "paragraph",
-          "text": "adequate.\n2. Reporting is compliant with GAAP and decision useful, but earnings quality is low"
+          "text": "2. Reporting is compliant with GAAP and decision useful, but earnings quality is low"
         },
         {
           "type": "paragraph",
-          "text": "(earnings are not sustainable or not adequate).\n3. Reporting is compliant with GAAP, but earnings quality is low and reporting choices"
+          "text": "(earnings are not sustainable or not adequate)."
         },
         {
           "type": "paragraph",
-          "text": "and estimates are biased."
+          "text": "3. Reporting is compliant with GAAP, but earnings quality is low and reporting choices and estimates are biased."
         },
         {
           "type": "paragraph",
-          "text": "4. Reporting is compliant with GAAP, but the amount of earnings is actively managed to"
+          "text": "4. Reporting is compliant with GAAP, but the amount of earnings is actively managed to increase, decrease, or smooth reported earnings."
         },
         {
           "type": "paragraph",
-          "text": "increase, decrease, or smooth reported earnings."
+          "text": "5. Reporting is not compliant with GAAP, although the numbers presented are based on the company’s actual economic activities."
         },
         {
           "type": "paragraph",
-          "text": "5. Reporting is not compliant with GAAP, although the numbers presented are based on"
-        },
-        {
-          "type": "paragraph",
-          "text": "the company’s actual economic activities.\n6. Reporting is not compliant and includes numbers that are essentially fictitious or"
-        },
-        {
-          "type": "paragraph",
-          "text": "fraudulent."
+          "text": "6. Reporting is not compliant and includes numbers that are essentially fictitious or fraudulent."
         },
         {
           "type": "question",
@@ -169,11 +161,7 @@
         },
         {
           "type": "paragraph",
-          "text": "When earnings exceed benchmark levels, managers may make conservative accounting choices in ways that allow these earnings to be shown in future periods, increasing the"
-        },
-        {
-          "type": "paragraph",
-          "text": "probability that future period earnings will meet or exceed the relevant benchmark amount."
+          "text": "When earnings exceed benchmark levels, managers may make conservative accounting choices in ways that allow these earnings to be shown in future periods, increasing the probability that future period earnings will meet or exceed the relevant benchmark amount."
         },
         {
           "type": "paragraph",
@@ -218,11 +206,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Enforcement actions by securities regulators may include fines, suspension of participation in issuance and trading of securities, and public disclosure of the results"
-        },
-        {
-          "type": "paragraph",
-          "text": "of disciplinary proceedings. Regulators may also pursue criminal prosecution of fraudulent or otherwise illegal activities."
+          "text": "Enforcement actions by securities regulators may include fines, suspension of participation in issuance and trading of securities, and public disclosure of the results of disciplinary proceedings. Regulators may also pursue criminal prosecution of fraudulent or otherwise illegal activities."
         },
         {
           "type": "paragraph",
@@ -334,11 +318,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Another example of a contra account that can be used to manage earnings is a valuation allowance. Recall that a valuation allowance reduces the carrying value of a deferred"
-        },
-        {
-          "type": "paragraph",
-          "text": "tax asset based on the probability it will not be realized. Similar to the effects of an allowance for bad debt, increasing a valuation allowance will decrease the net deferred tax asset on the balance sheet and reduce net income for the period, while a decrease in the valuation allowance will increase the net deferred tax asset and increase net income for the period."
+          "text": "Another example of a contra account that can be used to manage earnings is a valuation allowance. Recall that a valuation allowance reduces the carrying value of a deferred tax asset based on the probability it will not be realized. Similar to the effects of an allowance for bad debt, increasing a valuation allowance will decrease the net deferred tax asset on the balance sheet and reduce net income for the period, while a decrease in the valuation allowance will increase the net deferred tax asset and increase net income for the period."
         },
         {
           "type": "paragraph",
@@ -378,11 +358,7 @@
         },
         {
           "type": "paragraph",
-          "text": "During periods of decreasing prices, the opposite is true; FIFO COGS are greater than weighted-average COGS and FIFO gross profits, gross margin, and earnings less than"
-        },
-        {
-          "type": "paragraph",
-          "text": "under the weighted-average method. With decreasing prices, balance sheet inventory will be less under FIFO than under the weighted-average cost method."
+          "text": "During periods of decreasing prices, the opposite is true; FIFO COGS are greater than weighted-average COGS and FIFO gross profits, gross margin, and earnings less than under the weighted-average method. With decreasing prices, balance sheet inventory will be less under FIFO than under the weighted-average cost method."
         },
         {
           "type": "paragraph",
@@ -418,11 +394,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Capitalizing interest expense will decrease cash flow from investing and increase cash flow from operations, along with its effects on the pattern of earnings from depreciating"
-        },
-        {
-          "type": "paragraph",
-          "text": "the interest expense over time rather than expensing it all in the current period. More generally, the ability under IFRS to classify interest and dividends paid as either CFO or CFF, and interest and dividends received as either CFO or CFI, gives management an additional way to manage reported operating cash flow."
+          "text": "Capitalizing interest expense will decrease cash flow from investing and increase cash flow from operations, along with its effects on the pattern of earnings from depreciating the interest expense over time rather than expensing it all in the current period. More generally, the ability under IFRS to classify interest and dividends paid as either CFO or CFF, and interest and dividends received as either CFO or CFI, gives management an additional way to manage reported operating cash flow."
         }
       ]
     },
@@ -712,11 +684,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because a large proportion of net income is due to a one-time gain, this period’s"
-            },
-            {
-              "type": "paragraph",
-              "text": "earnings are likely not sustainable and the firm may be said to have low quality of earnings for the period. Clear disclosure of this fact in the financial statements suggests high quality of financial reporting."
+              "text": "Because a large proportion of net income is due to a one-time gain, this period’s earnings are likely not sustainable and the firm may be said to have low quality of earnings for the period. Clear disclosure of this fact in the financial statements suggests high quality of financial reporting."
             }
           ]
         },
@@ -747,11 +715,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In the spectrum of financial reporting quality, financial reports that depart from"
-            },
-            {
-              "type": "paragraph",
-              "text": "generally accepted accounting principles are considered to be of lower quality than those that reflect biased accounting choices. Financial reports that reflect unsustainable earnings, such as one-time gains, can still be of high quality if they state the situation clearly."
+              "text": "In the spectrum of financial reporting quality, financial reports that depart from generally accepted accounting principles are considered to be of lower quality than those that reflect biased accounting choices. Financial reports that reflect unsustainable earnings, such as one-time gains, can still be of high quality if they state the situation clearly."
             }
           ]
         },
@@ -782,11 +746,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Financial reporting is most likely to be decision useful when accounting choices"
-            },
-            {
-              "type": "paragraph",
-              "text": "are neutral. Either aggressive or conservative accounting choices by management may be viewed as biases."
+              "text": "Financial reporting is most likely to be decision useful when accounting choices are neutral. Either aggressive or conservative accounting choices by management may be viewed as biases."
             }
           ]
         },
@@ -817,11 +777,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Reducing tax obligations would be a reason to underreport earnings. The other"
-            },
-            {
-              "type": "paragraph",
-              "text": "choices are motivations to overreport earnings."
+              "text": "Reducing tax obligations would be a reason to underreport earnings. The other choices are motivations to overreport earnings."
             }
           ]
         },
@@ -852,11 +808,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Ineffective internal controls are a condition that provides an opportunity for low-"
-            },
-            {
-              "type": "paragraph",
-              "text": "quality financial reporting."
+              "text": "Ineffective internal controls are a condition that provides an opportunity for low-quality financial reporting."
             }
           ]
         },
@@ -887,11 +839,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The objective of audits is to provide reasonable assurance that financial"
-            },
-            {
-              "type": "paragraph",
-              "text": "statements are presented fairly. A firm that is engaging in accounting fraud may deceive its auditor. Regulators in most countries require publicly traded firms to obtain independent audits of their financial statements. Auditors may issue a qualified opinion noting certain aspects of financial statements that are inconsistent with accounting principles or an adverse opinion if they find that financial statements are materially misstated and do not conform with GAAP."
+              "text": "The objective of audits is to provide reasonable assurance that financial statements are presented fairly. A firm that is engaging in accounting fraud may deceive its auditor. Regulators in most countries require publicly traded firms to obtain independent audits of their financial statements. Auditors may issue a qualified opinion noting certain aspects of financial statements that are inconsistent with accounting principles or an adverse opinion if they find that financial statements are materially misstated and do not conform with GAAP."
             }
           ]
         },
@@ -922,11 +870,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "IFRS require a firm that presents a nonstandard financial measure to reconcile"
-            },
-            {
-              "type": "paragraph",
-              "text": "that measure to an IFRS measure and explain why the firm believes the nonstandard measure is relevant to users of the financial statements. Presenting the nonstandard measure for prior periods is not a requirement."
+              "text": "IFRS require a firm that presents a nonstandard financial measure to reconcile that measure to an IFRS measure and explain why the firm believes the nonstandard measure is relevant to users of the financial statements. Presenting the nonstandard measure for prior periods is not a requirement."
             }
           ]
         }
@@ -962,11 +906,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Management may make inappropriate capitalization decisions to understate"
-            },
-            {
-              "type": "paragraph",
-              "text": "expenses by creating balance sheet assets for items that should instead be recognized as expenses in the current period, increasing net income in the current period. Revenues and liabilities are unlikely to be affected by capitalization decisions."
+              "text": "Management may make inappropriate capitalization decisions to understate expenses by creating balance sheet assets for items that should instead be recognized as expenses in the current period, increasing net income in the current period. Revenues and liabilities are unlikely to be affected by capitalization decisions."
             }
           ]
         },
@@ -995,11 +935,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Channel stuffing, which includes activities such as accelerating deliveries to"
-            },
-            {
-              "type": "paragraph",
-              "text": "distributors or sending customers unordered merchandise, would likely increase accounts receivable as a percentage of revenues. This would decrease the receivables turnover ratio and increase days of sales outstanding. Payables would not be affected."
+              "text": "Channel stuffing, which includes activities such as accelerating deliveries to distributors or sending customers unordered merchandise, would likely increase accounts receivable as a percentage of revenues. This would decrease the receivables turnover ratio and increase days of sales outstanding. Payables would not be affected."
             }
           ]
         }

@@ -30,11 +30,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We can improve our estimates of the price impact of a change in yield by introducing a second term. Convexity is a measure of the curvature of the price-yield relation. The"
-        },
-        {
-          "type": "paragraph",
-          "text": "more curved it is, the greater the convexity adjustment."
+          "text": "We can improve our estimates of the price impact of a change in yield by introducing a second term. Convexity is a measure of the curvature of the price-yield relation. The more curved it is, the greater the convexity adjustment."
         },
         {
           "type": "paragraph",
@@ -163,11 +159,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Analogous to money duration (MoneyDur), the money convexity (MoneyCon) of a bond position is expressed in currency units:"
-        },
-        {
-          "type": "paragraph",
-          "text": "money convexity = annual convexity × full price of bond position"
+          "text": "Analogous to money duration (MoneyDur), the money convexity (MoneyCon) of a bond position is expressed in currency units: money convexity = annual convexity × full price of bond position"
         },
         {
           "type": "paragraph",
@@ -322,11 +314,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Money convexity is stated in currency units and is sometimes expressed per 100 of bond value:"
-    },
-    {
-      "type": "paragraph",
-      "text": "money convexity = annual convexity × full price of bond position"
+      "text": "Money convexity is stated in currency units and is sometimes expressed per 100 of bond value: money convexity = annual convexity × full price of bond position"
     },
     {
       "type": "paragraph",
@@ -349,19 +337,11 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Calculate a single duration and convexity measure based on the aggregate cash flows"
+      "text": "1. Calculate a single duration and convexity measure based on the aggregate cash flows of the bond portfolio."
     },
     {
       "type": "paragraph",
-      "text": "of the bond portfolio."
-    },
-    {
-      "type": "paragraph",
-      "text": "2. Calculate the weighted average of durations of bonds in the portfolio. This method is"
-    },
-    {
-      "type": "paragraph",
-      "text": "used most often in practice, but it assumes a parallel shift of the yield curve."
+      "text": "2. Calculate the weighted average of durations of bonds in the portfolio. This method is used most often in practice, but it assumes a parallel shift of the yield curve."
     }
   ],
   "practice": [],
@@ -415,11 +395,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the bond is trading at par, its yield is equal to its coupon of 10%. The"
-            },
-            {
-              "type": "paragraph",
-              "text": "convexity of the first cash flow at Time 1 is (1 × 2) / (1.10)² = 1.653. The convexity of the second cash flow is (2 × 3) / (1.10)² = 4.959. The weights for each cash flow time are calculated as follows:"
+              "text": "Because the bond is trading at par, its yield is equal to its coupon of 10%. The convexity of the first cash flow at Time 1 is (1 × 2) / (1.10)² = 1.653. The convexity of the second cash flow is (2 × 3) / (1.10)² = 4.959. The weights for each cash flow time are calculated as follows:"
             },
             {
               "type": "math",
@@ -497,11 +473,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the bond is trading at par, its yield is equal to its coupon of 10%. Note"
-            },
-            {
-              "type": "paragraph",
-              "text": "that this is a semiannual coupon bond; hence, it has coupons of $5 every six months and has a periodic six-month return of 5%. The weights for each cash flow time are calculated as follows:"
+              "text": "Because the bond is trading at par, its yield is equal to its coupon of 10%. Note that this is a semiannual coupon bond; hence, it has coupons of $5 every six months and has a periodic six-month return of 5%. The weights for each cash flow time are calculated as follows:"
             },
             {
               "type": "math",
@@ -601,11 +573,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Portfolio duration is limited as a measure of interest rate risk because it assumes"
-            },
-            {
-              "type": "paragraph",
-              "text": "parallel shifts in the yield curve; that is, the discount rate at each maturity changes by the same amount."
+              "text": "Portfolio duration is limited as a measure of interest rate risk because it assumes parallel shifts in the yield curve; that is, the discount rate at each maturity changes by the same amount."
             }
           ]
         }

@@ -35,11 +35,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Under U.S. GAAP, companies that use inventory cost methods other than LIFO or the retail method report inventories at the lower of cost or NRV. For companies using LIFO or the retail method, inventory is reported on the balance sheet at the lower of cost or market. Market is usually equal to replacement cost, but it cannot be greater than NRV or less than NRV minus a normal profit margin. If replacement cost exceeds NRV, then"
-        },
-        {
-          "type": "paragraph",
-          "text": "market is NRV. If replacement cost is less than NRV minus a normal profit margin, then market is NRV minus a normal profit margin."
+          "text": "Under U.S. GAAP, companies that use inventory cost methods other than LIFO or the retail method report inventories at the lower of cost or NRV. For companies using LIFO or the retail method, inventory is reported on the balance sheet at the lower of cost or market. Market is usually equal to replacement cost, but it cannot be greater than NRV or less than NRV minus a normal profit margin. If replacement cost exceeds NRV, then market is NRV. If replacement cost is less than NRV minus a normal profit margin, then market is NRV minus a normal profit margin."
         },
         {
           "type": "heading",
@@ -89,11 +85,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Using the lower of cost or market, market is equal to the replacement cost of $197 because NRV of $203 is greater than replacement cost, and NRV minus a normal profit margin ($203 − $12 = $191) is less than replacement cost. Because original cost"
-        },
-        {
-          "type": "paragraph",
-          "text": "exceeds market (replacement cost), the inventory is written down to $197, and a $13 loss ($197 replacement cost − $210 original cost) is reported in the income statement."
+          "text": "Using the lower of cost or market, market is equal to the replacement cost of $197 because NRV of $203 is greater than replacement cost, and NRV minus a normal profit margin ($203 − $12 = $191) is less than replacement cost. Because original cost exceeds market (replacement cost), the inventory is written down to $197, and a $13 loss ($197 replacement cost − $210 original cost) is reported in the income statement."
         },
         {
           "type": "heading",
@@ -220,11 +212,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Changing prices can also produce significant differences between COGS under LIFO and FIFO. Recall that LIFO COGS is based on the most recent purchases. As a result, when prices are rising, LIFO COGS will be higher than FIFO COGS. When prices are falling, LIFO COGS will be lower than FIFO COGS. Because LIFO COGS is based on the most"
-        },
-        {
-          "type": "paragraph",
-          "text": "recent purchases, LIFO COGS produces a better approximation of current cost in the income statement."
+          "text": "Changing prices can also produce significant differences between COGS under LIFO and FIFO. Recall that LIFO COGS is based on the most recent purchases. As a result, when prices are rising, LIFO COGS will be higher than FIFO COGS. When prices are falling, LIFO COGS will be lower than FIFO COGS. Because LIFO COGS is based on the most recent purchases, LIFO COGS produces a better approximation of current cost in the income statement."
         },
         {
           "type": "paragraph",
@@ -276,11 +264,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A LIFO liquidation occurs when a LIFO firm’s inventory quantities decline. Older, lower costs are included in COGS compared to a situation in which inventory quantities"
-        },
-        {
-          "type": "paragraph",
-          "text": "are not declining. LIFO liquidation results in higher profit margins and higher income taxes compared to what they would be if inventory quantities were not declining. The extra profit reported with a LIFO liquidation inflates operating margins by recognizing historical inflationary gains from increasing inventory prices as income in the current period. Increases in profit margins from LIFO liquidation are not sustainable, however, because a firm cannot continue forever to sell existing inventory without replenishment."
+          "text": "A LIFO liquidation occurs when a LIFO firm’s inventory quantities decline. Older, lower costs are included in COGS compared to a situation in which inventory quantities are not declining. LIFO liquidation results in higher profit margins and higher income taxes compared to what they would be if inventory quantities were not declining. The extra profit reported with a LIFO liquidation inflates operating margins by recognizing historical inflationary gains from increasing inventory prices as income in the current period. Increases in profit margins from LIFO liquidation are not sustainable, however, because a firm cannot continue forever to sell existing inventory without replenishment."
         },
         {
           "type": "paragraph",
@@ -393,11 +377,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The inventory turnover ratio measures how quickly a firm is selling its inventory. Generally, high inventory turnover (low days of inventory on hand) is desirable. However, inventory turnover can be too high. A firm with an inventory turnover ratio that is too high may not be carrying enough inventory to satisfy customers’ needs,"
-        },
-        {
-          "type": "paragraph",
-          "text": "which can cause the firm to lose sales. High inventory turnover may also indicate that inventory write-downs have occurred. Write-downs are usually the result of poor inventory management."
+          "text": "The inventory turnover ratio measures how quickly a firm is selling its inventory. Generally, high inventory turnover (low days of inventory on hand) is desirable. However, inventory turnover can be too high. A firm with an inventory turnover ratio that is too high may not be carrying enough inventory to satisfy customers’ needs, which can cause the firm to lose sales. High inventory turnover may also indicate that inventory write-downs have occurred. Write-downs are usually the result of poor inventory management."
         },
         {
           "type": "paragraph",
@@ -499,11 +479,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If product obsolescence due to expected future decreases in sales was a significant factor, the valuation allowance for finished goods should have increased"
-        },
-        {
-          "type": "paragraph",
-          "text": "proportionally. Remember that the valuation allowance indicates that NRV has declined below cost."
+          "text": "If product obsolescence due to expected future decreases in sales was a significant factor, the valuation allowance for finished goods should have increased proportionally. Remember that the valuation allowance indicates that NRV has declined below cost."
         },
         {
           "type": "paragraph",
@@ -730,11 +706,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Market is equal to the replacement cost as long as replacement cost is within a"
-            },
-            {
-              "type": "paragraph",
-              "text": "specific range. The upper bound is net realizable value (NRV), which is equal to the selling price ($50) less selling costs ($3) for an NRV of $47. The lower bound is NRV ($47) less normal profit margin (10% of selling price = $5) for a net amount of $42. Since replacement cost is greater than NRV ($47), market equals NRV ($47). Additionally, we have to use the lower of cost ($43) or market ($47) principle, so the shoes should be recorded at cost of $43."
+              "text": "Market is equal to the replacement cost as long as replacement cost is within a specific range. The upper bound is net realizable value (NRV), which is equal to the selling price ($50) less selling costs ($3) for an NRV of $47. The lower bound is NRV ($47) less normal profit margin (10% of selling price = $5) for a net amount of $42. Since replacement cost is greater than NRV ($47), market equals NRV ($47). Additionally, we have to use the lower of cost ($43) or market ($47) principle, so the shoes should be recorded at cost of $43."
             }
           ]
         },
@@ -763,11 +735,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The write-down in inventory value from cost to NRV is reported on the income"
-            },
-            {
-              "type": "paragraph",
-              "text": "statement either as an addition to cost of sales or as a separate line item, not as other comprehensive income. Depreciation will not be affected as inventory is not depreciated."
+              "text": "The write-down in inventory value from cost to NRV is reported on the income statement either as an addition to cost of sales or as a separate line item, not as other comprehensive income. Depreciation will not be affected as inventory is not depreciated."
             }
           ]
         },
@@ -796,11 +764,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "When establishing market value, replacement cost should be used subject to upper"
-            },
-            {
-              "type": "paragraph",
-              "text": "and lower limits. The upper limit is net realizable value, and the lower limit is net realizable value minus the normal profit margin. The lower of cost or market value is only applicable to companies using either the LIFO or retail sales method. Companies using specific identification, FIFO, or average cost should use the lower of cost or NRV. Inventory write-downs under U.S. GAAP cannot be reversed."
+              "text": "When establishing market value, replacement cost should be used subject to upper and lower limits. The upper limit is net realizable value, and the lower limit is net realizable value minus the normal profit margin. The lower of cost or market value is only applicable to companies using either the LIFO or retail sales method. Companies using specific identification, FIFO, or average cost should use the lower of cost or NRV. Inventory write-downs under U.S. GAAP cannot be reversed."
             }
           ]
         },
@@ -829,15 +793,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The quick ratio [(cash + receivables + marketable securities) / current liabilities]"
-            },
-            {
-              "type": "paragraph",
-              "text": "will not be affected because the numerator does not include inventory. Inventory"
-            },
-            {
-              "type": "paragraph",
-              "text": "write-downs will decrease the carrying value of inventory in the balance sheet, reducing current and total assets. The write-down will decrease income for the period. Asset turnover (revenue / average total assets) will increase as revenue (sales) is not affected, but balance sheet assets decline. The debt-to-equity ratio (interest-bearing liabilities / stockholders’ equity) will increase as the write-down reduces net income and therefore retained earnings and stockholders’ equity."
+              "text": "The quick ratio [(cash + receivables + marketable securities) / current liabilities] will not be affected because the numerator does not include inventory. Inventory write-downs will decrease the carrying value of inventory in the balance sheet, reducing current and total assets. The write-down will decrease income for the period. Asset turnover (revenue / average total assets) will increase as revenue (sales) is not affected, but balance sheet assets decline. The debt-to-equity ratio (interest-bearing liabilities / stockholders’ equity) will increase as the write-down reduces net income and therefore retained earnings and stockholders’ equity."
             }
           ]
         },
@@ -866,11 +822,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Under FIFO, ending inventory is made up of the most recent purchases, thereby"
-            },
-            {
-              "type": "paragraph",
-              "text": "providing a closer approximation of current cost."
+              "text": "Under FIFO, ending inventory is made up of the most recent purchases, thereby providing a closer approximation of current cost."
             }
           ]
         },
@@ -899,11 +851,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Compared to FIFO, COGS calculated under LIFO will be higher because the most"
-            },
-            {
-              "type": "paragraph",
-              "text": "recent, higher-cost units are assumed to be the first units sold. Higher COGS under LIFO will result in lower gross profit (revenue − COGS)."
+              "text": "Compared to FIFO, COGS calculated under LIFO will be higher because the most recent, higher-cost units are assumed to be the first units sold. Higher COGS under LIFO will result in lower gross profit (revenue − COGS)."
             }
           ]
         },
@@ -932,11 +880,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a LIFO liquidation, older and lower costs are included in cost of sales. Thus, cost"
-            },
-            {
-              "type": "paragraph",
-              "text": "of sales per unit decreases and profit margins increase."
+              "text": "In a LIFO liquidation, older and lower costs are included in cost of sales. Thus, cost of sales per unit decreases and profit margins increase."
             }
           ]
         }
@@ -974,11 +918,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "While the separate carrying values of raw materials, work in progress, and finished"
-            },
-            {
-              "type": "paragraph",
-              "text": "goods are required disclosure for some firms, LIFO is not permitted under IFRS."
+              "text": "While the separate carrying values of raw materials, work in progress, and finished goods are required disclosure for some firms, LIFO is not permitted under IFRS."
             }
           ]
         },
@@ -1016,11 +956,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Redpine’s finished goods inventory is growing faster than sales, while work in"
-            },
-            {
-              "type": "paragraph",
-              "text": "progress inventory is growing more slowly than sales and raw materials inventory is decreasing. These data are consistent with Redpine reducing production in response to decreasing demand. Inventory turnover ratios cannot be calculated directly from the common-size data given, but finished goods inventory increasing faster than sales suggests inventory turnover is likely decreasing."
+              "text": "Redpine’s finished goods inventory is growing faster than sales, while work in progress inventory is growing more slowly than sales and raw materials inventory is decreasing. These data are consistent with Redpine reducing production in response to decreasing demand. Inventory turnover ratios cannot be calculated directly from the common-size data given, but finished goods inventory increasing faster than sales suggests inventory turnover is likely decreasing."
             }
           ]
         },
@@ -1051,11 +987,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "High inventory turnover coupled with low sales growth relative to the industry"
-            },
-            {
-              "type": "paragraph",
-              "text": "may be an indication of inadequate inventory levels. In this case, the firm may be losing sales by not carrying enough inventory."
+              "text": "High inventory turnover coupled with low sales growth relative to the industry may be an indication of inadequate inventory levels. In this case, the firm may be losing sales by not carrying enough inventory."
             }
           ]
         },
@@ -1086,11 +1018,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Compared to using LIFO, using FIFO would produce lower COGS, higher gross"
-            },
-            {
-              "type": "paragraph",
-              "text": "operating income, and higher ending inventory, so current assets and the current ratio would be higher. Consequently, gross margin would be higher and asset turnover would be lower under the FIFO inventory method."
+              "text": "Compared to using LIFO, using FIFO would produce lower COGS, higher gross operating income, and higher ending inventory, so current assets and the current ratio would be higher. Consequently, gross margin would be higher and asset turnover would be lower under the FIFO inventory method."
             }
           ]
         }

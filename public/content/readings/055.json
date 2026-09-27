@@ -127,11 +127,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If this type of calculation appears on the exam, the best tactic is to plug in the middle answer choice and see if it gives a value of 100. If it results in a value"
-        },
-        {
-          "type": "paragraph",
-          "text": "less than 100, the larger choice must be correct. If it produces a value greater than 100, the smaller choice must be correct. Algebraically solving for PMT can be done, but it takes much more time than simply trying the coupon rates in the answers."
+          "text": "If this type of calculation appears on the exam, the best tactic is to plug in the middle answer choice and see if it gives a value of 100. If it results in a value less than 100, the larger choice must be correct. If it produces a value greater than 100, the smaller choice must be correct. Algebraically solving for PMT can be done, but it takes much more time than simply trying the coupon rates in the answers."
         },
         {
           "type": "heading",
@@ -345,11 +341,7 @@
         },
         {
           "type": "paragraph",
-          "text": "(1 + S2)² = (1 + S1)(1 + 1y1y) for two periods, and"
-        },
-        {
-          "type": "paragraph",
-          "text": "(1 + S3)³ = (1 + S2)²(1 + 2y1y) for three periods"
+          "text": "(1 + S2)² = (1 + S1)(1 + 1y1y) for two periods, and (1 + S3)³ = (1 + S2)²(1 + 2y1y) for three periods"
         },
         {
           "type": "heading",
@@ -357,11 +349,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Simple averages also give decent approximations for calculating forward rates from spot rates (particularly when rates are small). In the preceding example, we had spot rates of 4% for one year and 8% for two years. Two years at 8%"
-        },
-        {
-          "type": "paragraph",
-          "text": "is 16%, so if the first-year rate is 4%, the second-year forward rate is close to 16 − 4 = 12% (actual is 12.154). Given a 2-year spot rate of 8% and a 3-year spot rate of 12%, we could approximate the 1-year forward rate from Time 2 to Time 3 as (3 × 12) − (2 × 8) = 20. That may be close enough (actual is 20.45) to answer a multiple-choice question—and, in any case, it serves as a good check to make sure the exact rate you calculate is reasonable."
+          "text": "Simple averages also give decent approximations for calculating forward rates from spot rates (particularly when rates are small). In the preceding example, we had spot rates of 4% for one year and 8% for two years. Two years at 8% is 16%, so if the first-year rate is 4%, the second-year forward rate is close to 16 − 4 = 12% (actual is 12.154). Given a 2-year spot rate of 8% and a 3-year spot rate of 12%, we could approximate the 1-year forward rate from Time 2 to Time 3 as (3 × 12) − (2 × 8) = 20. That may be close enough (actual is 20.45) to answer a multiple-choice question—and, in any case, it serves as a good check to make sure the exact rate you calculate is reasonable."
         },
         {
           "type": "paragraph",
@@ -464,11 +452,7 @@
         },
         {
           "type": "paragraph",
-          "text": "It might be helpful, once again, to approximate using simple averages to get a clear picture. Assume the 1-year spot rate is 1% and the 1y1y forward rate is 3%. Note that we have rising periodic rates here (the forward curve is rising with maturity). The annualized 2-year spot is approximated as (1% + 3%) / 2"
-        },
-        {
-          "type": "paragraph",
-          "text": "= 2%, so we can see the spot curve is also rising with maturity, but at a slower pace than forward rates. The yield of a 1-year annual coupon bond would be 1% because there would only be one cash flow at maturity for this bond, and it would therefore earn the 1-year spot rate. The 2-year yield would be a weighted average of the 1-year spot of 1% and the 2-year spot of 2%, but mostly 2% because that is where most of the 2-year bond’s cash flows occur. So, we can see that par yields, too, are rising with maturity—and are close to, but slightly below, spot rates. The key takeaway here is that forward rates drive spot rates, which in turn drive par yields."
+          "text": "It might be helpful, once again, to approximate using simple averages to get a clear picture. Assume the 1-year spot rate is 1% and the 1y1y forward rate is 3%. Note that we have rising periodic rates here (the forward curve is rising with maturity). The annualized 2-year spot is approximated as (1% + 3%) / 2 = 2%, so we can see the spot curve is also rising with maturity, but at a slower pace than forward rates. The yield of a 1-year annual coupon bond would be 1% because there would only be one cash flow at maturity for this bond, and it would therefore earn the 1-year spot rate. The 2-year yield would be a weighted average of the 1-year spot of 1% and the 2-year spot of 2%, but mostly 2% because that is where most of the 2-year bond’s cash flows occur. So, we can see that par yields, too, are rising with maturity—and are close to, but slightly below, spot rates. The key takeaway here is that forward rates drive spot rates, which in turn drive par yields."
         },
         {
           "type": "paragraph",
@@ -551,11 +535,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In an upward-sloping (normal) yield curve environment, forward rates will be higher than spot rates, which will be higher than par yields. In a downward-sloping (inverted) yield curve environment, forward rates will be lower than spot rates, which will be"
-    },
-    {
-      "type": "paragraph",
-      "text": "lower than par yields. In a flat yield curve environment, forward rates will be equal to spot rates, which will be equal to par yields across all maturities."
+      "text": "In an upward-sloping (normal) yield curve environment, forward rates will be higher than spot rates, which will be higher than par yields. In a downward-sloping (inverted) yield curve environment, forward rates will be lower than spot rates, which will be lower than par yields. In a flat yield curve environment, forward rates will be equal to spot rates, which will be equal to par yields across all maturities."
     }
   ],
   "practice": [],
@@ -642,11 +622,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A spot rate is a discount rate for a single future payment. Simple yield is a"
-            },
-            {
-              "type": "paragraph",
-              "text": "measure of a bond’s yield that accounts for coupon interest and assumes straight-line amortization of a discount or premium. A forward rate is an interest rate for a future period, such as a 3-month rate six months from today."
+              "text": "A spot rate is a discount rate for a single future payment. Simple yield is a measure of a bond’s yield that accounts for coupon interest and assumes straight-line amortization of a discount or premium. A forward rate is an interest rate for a future period, such as a 3-month rate six months from today."
             }
           ]
         },
@@ -677,11 +653,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Par bond yield curves are based on the theoretical yields that would cause bonds"
-            },
-            {
-              "type": "paragraph",
-              "text": "at each maturity to be priced at par. Coupon bond yields and forward interest rates can be observed directly from market transactions."
+              "text": "Par bond yield curves are based on the theoretical yields that would cause bonds at each maturity to be priced at par. Coupon bond yields and forward interest rates can be observed directly from market transactions."
             }
           ]
         },
@@ -778,11 +750,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The 2-year spot rate must reflect the periodic rates of 1% in the first period and"
-            },
-            {
-              "type": "paragraph",
-              "text": "3% in the second period—hence, the 2-year spot will be approximately 2%. Given that forward rates are rising with maturity, spot rates will be rising with maturity at a slower pace, and par yields will also be rising, but slightly below spot rates. So, the correct answer is that the 2-year spot is just below 2%, and the 2-year par yield is just below the 2-year spot rate."
+              "text": "The 2-year spot rate must reflect the periodic rates of 1% in the first period and 3% in the second period—hence, the 2-year spot will be approximately 2%. Given that forward rates are rising with maturity, spot rates will be rising with maturity at a slower pace, and par yields will also be rising, but slightly below spot rates. So, the correct answer is that the 2-year spot is just below 2%, and the 2-year par yield is just below the 2-year spot rate."
             }
           ]
         }

@@ -35,11 +35,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The market value of an asset is its current price. The intrinsic value or fundamental value of an asset is the value that a rational investor with full knowledge about the asset’s characteristics would willingly pay. For example, a bond investor would fully"
-        },
-        {
-          "type": "paragraph",
-          "text": "know and understand a bond’s coupon, maturity, default risk, liquidity, and other characteristics and would use these to estimate its intrinsic value."
+          "text": "The market value of an asset is its current price. The intrinsic value or fundamental value of an asset is the value that a rational investor with full knowledge about the asset’s characteristics would willingly pay. For example, a bond investor would fully know and understand a bond’s coupon, maturity, default risk, liquidity, and other characteristics and would use these to estimate its intrinsic value."
         },
         {
           "type": "paragraph",
@@ -80,11 +76,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Transaction and information costs. To the extent that the costs of information, analysis, and trading are greater than the potential profit from trading misvalued securities, market prices will be inefficient. It is generally accepted that markets are"
-        },
-        {
-          "type": "paragraph",
-          "text": "efficient if, after deducting costs, there are no risk-adjusted returns to be made from trading based on publicly available information."
+          "text": "Transaction and information costs. To the extent that the costs of information, analysis, and trading are greater than the potential profit from trading misvalued securities, market prices will be inefficient. It is generally accepted that markets are efficient if, after deducting costs, there are no risk-adjusted returns to be made from trading based on publicly available information."
         },
         {
           "type": "question",
@@ -101,19 +93,15 @@
         },
         {
           "type": "paragraph",
-          "text": "(EMH) states that current security prices fully reflect all currently available security market data. Thus, past price and volume (market) information will have no predictive power about the future direction of security prices because price changes will be independent from one period to the next. In a weak-form efficient market, an investor cannot achieve positive risk-adjusted returns on average by using technical analysis.\n2. Semi-strong-form market efficiency. The semi-strong form of the EMH holds that"
+          "text": "(EMH) states that current security prices fully reflect all currently available security market data. Thus, past price and volume (market) information will have no predictive power about the future direction of security prices because price changes will be independent from one period to the next. In a weak-form efficient market, an investor cannot achieve positive risk-adjusted returns on average by using technical analysis."
         },
         {
           "type": "paragraph",
-          "text": "security prices rapidly adjust without bias to the arrival of all new public information. As such, current security prices fully reflect all publicly available information. The semi-strong form says security prices include all past security market information and nonmarket information available to the public. The implication is that an investor cannot achieve positive risk-adjusted returns on average by using fundamental analysis."
+          "text": "2. Semi-strong-form market efficiency. The semi-strong form of the EMH holds that security prices rapidly adjust without bias to the arrival of all new public information. As such, current security prices fully reflect all publicly available information. The semi-strong form says security prices include all past security market information and nonmarket information available to the public. The implication is that an investor cannot achieve positive risk-adjusted returns on average by using fundamental analysis."
         },
         {
           "type": "paragraph",
-          "text": "3. Strong-form market efficiency. The strong form of the EMH states that security"
-        },
-        {
-          "type": "paragraph",
-          "text": "prices fully reflect all information from both public and private sources. The strong form includes all types of information: past security market information, public, and private (inside) information. This means that no group of investors has monopolistic access to information relevant to the formation of prices, and none should be able to consistently achieve positive abnormal returns."
+          "text": "3. Strong-form market efficiency. The strong form of the EMH states that security prices fully reflect all information from both public and private sources. The strong form includes all types of information: past security market information, public, and private (inside) information. This means that no group of investors has monopolistic access to information relevant to the formation of prices, and none should be able to consistently achieve positive abnormal returns."
         },
         {
           "type": "paragraph",
@@ -134,11 +122,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Abnormal profit (or risk-adjusted returns) calculations are often used to test market efficiency. To calculate abnormal profits, the expected return for a trading strategy is calculated given its risk, using a model of expected returns such as the CAPM or a"
-        },
-        {
-          "type": "paragraph",
-          "text": "multifactor model. If returns are, on average, greater than equilibrium expected returns, we can reject the hypothesis of efficient prices with respect to the information on which the strategy is based."
+          "text": "Abnormal profit (or risk-adjusted returns) calculations are often used to test market efficiency. To calculate abnormal profits, the expected return for a trading strategy is calculated given its risk, using a model of expected returns such as the CAPM or a multifactor model. If returns are, on average, greater than equilibrium expected returns, we can reject the hypothesis of efficient prices with respect to the information on which the strategy is based."
         },
         {
           "type": "paragraph",
@@ -174,11 +158,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If markets are semi-strong form efficient, investors should invest passively (i.e., invest in an index portfolio that replicates the returns on a market index). Indeed, the evidence"
-        },
-        {
-          "type": "paragraph",
-          "text": "shows that most mutual fund managers cannot outperform a passive index strategy over time."
+          "text": "If markets are semi-strong form efficient, investors should invest passively (i.e., invest in an index portfolio that replicates the returns on a market index). Indeed, the evidence shows that most mutual fund managers cannot outperform a passive index strategy over time."
         },
         {
           "type": "paragraph",
@@ -215,11 +195,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Other calendar anomalies that were found at one time but no longer appear to persist are the turn-of-the-month effect (stock returns are higher in the days surrounding month end), the day-of-the-week effect (average Monday returns are negative), the"
-        },
-        {
-          "type": "paragraph",
-          "text": "weekend effect (positive Friday returns are followed by negative Monday returns), and the holiday effect (pre-holiday returns are higher)."
+          "text": "Other calendar anomalies that were found at one time but no longer appear to persist are the turn-of-the-month effect (stock returns are higher in the days surrounding month end), the day-of-the-week effect (average Monday returns are negative), the weekend effect (positive Friday returns are followed by negative Monday returns), and the holiday effect (pre-holiday returns are higher)."
         },
         {
           "type": "paragraph",
@@ -288,11 +264,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Various types of investor irrationality have been proposed as explanations for reported pricing anomalies. Whether widespread investor irrationality is the underlying cause of reported returns anomalies is an open question. Market efficiency does not require an assumption that every investor acts rationally in accordance with traditional finance theory. Semi-strong form market efficiency requires that investors cannot earn positive abnormal returns on average (beat the market) using public information. The evidence on market efficiency certainly suggests that this is the case. Evidence that some"
-        },
-        {
-          "type": "paragraph",
-          "text": "investors exhibit bias, or other deviations from perfect rationality, in their investment decision making does not necessarily mean that market prices themselves are irrational, at least not in ways that lead to violations of market efficiency."
+          "text": "Various types of investor irrationality have been proposed as explanations for reported pricing anomalies. Whether widespread investor irrationality is the underlying cause of reported returns anomalies is an open question. Market efficiency does not require an assumption that every investor acts rationally in accordance with traditional finance theory. Semi-strong form market efficiency requires that investors cannot earn positive abnormal returns on average (beat the market) using public information. The evidence on market efficiency certainly suggests that this is the case. Evidence that some investors exhibit bias, or other deviations from perfect rationality, in their investment decision making does not necessarily mean that market prices themselves are irrational, at least not in ways that lead to violations of market efficiency."
         },
         {
           "type": "paragraph",
@@ -493,15 +465,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In informationally efficient capital markets, new information is quickly reflected"
-            },
-            {
-              "type": "paragraph",
-              "text": "in security prices. Investors react only to unexpected information releases because information releases that are expected will already be reflected in securities prices. Active strategies will underperform in an efficient market"
-            },
-            {
-              "type": "paragraph",
-              "text": "because they have greater transactions and management costs than passive strategies and will not consistently create positive abnormal returns after adjusting for risk."
+              "text": "In informationally efficient capital markets, new information is quickly reflected in security prices. Investors react only to unexpected information releases because information releases that are expected will already be reflected in securities prices. Active strategies will underperform in an efficient market because they have greater transactions and management costs than passive strategies and will not consistently create positive abnormal returns after adjusting for risk."
             }
           ]
         },
@@ -532,11 +496,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Intrinsic value changes as new information arrives in the marketplace. It cannot"
-            },
-            {
-              "type": "paragraph",
-              "text": "be known with certainty and can only be estimated. The price of an asset at a given point in time is its market value, which will differ from its intrinsic value if markets are not fully efficient."
+              "text": "Intrinsic value changes as new information arrives in the marketplace. It cannot be known with certainty and can only be estimated. The price of an asset at a given point in time is its market value, which will differ from its intrinsic value if markets are not fully efficient."
             }
           ]
         },
@@ -567,11 +527,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Short selling promotes market efficiency because the sales pressure from short"
-            },
-            {
-              "type": "paragraph",
-              "text": "selling can reduce the prices of assets that have become overvalued."
+              "text": "Short selling promotes market efficiency because the sales pressure from short selling can reduce the prices of assets that have become overvalued."
             }
           ]
         },
@@ -602,11 +558,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Weak-form EMH states that stock prices fully reflect all market (i.e., price and"
-            },
-            {
-              "type": "paragraph",
-              "text": "volume) information."
+              "text": "Weak-form EMH states that stock prices fully reflect all market (i.e., price and volume) information."
             }
           ]
         },
@@ -637,11 +589,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Tests indicate that mutual fund performance has been inferior to that of a passive"
-            },
-            {
-              "type": "paragraph",
-              "text": "index strategy."
+              "text": "Tests indicate that mutual fund performance has been inferior to that of a passive index strategy."
             }
           ]
         },
@@ -672,11 +620,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The majority of evidence is that anomalies are not violations of market efficiency"
-            },
-            {
-              "type": "paragraph",
-              "text": "but are due to the research methodologies used. Portfolio management based on anomalies will likely be unprofitable after transactions costs are considered."
+              "text": "The majority of evidence is that anomalies are not violations of market efficiency but are due to the research methodologies used. Portfolio management based on anomalies will likely be unprofitable after transactions costs are considered."
             }
           ]
         },
@@ -707,11 +651,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Loss aversion refers to the tendency of investors to be more risk averse when"
-            },
-            {
-              "type": "paragraph",
-              "text": "faced with potential losses and less risk averse when faced with potential gains. That is, they dislike losses more than they like gains of an equal amount. Their risk preferences are asymmetric."
+              "text": "Loss aversion refers to the tendency of investors to be more risk averse when faced with potential losses and less risk averse when faced with potential gains. That is, they dislike losses more than they like gains of an equal amount. Their risk preferences are asymmetric."
             }
           ]
         }

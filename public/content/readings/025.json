@@ -103,23 +103,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Start-up stage. Sales are just beginning, and operating earnings and cash flows tend to"
+          "text": "1. Start-up stage. Sales are just beginning, and operating earnings and cash flows tend to be low or negative. Business risk is relatively high. Company debt is quite risky and, if issued, would require high interest rates. Assets, both accounts receivable and fixed assets, typically are low; therefore, they are not available as collateral for debt. For these reasons, start-up companies are financed almost exclusively with equity. In some cases, high-growth companies with rapidly rising stock prices may find it possible to issue convertible debt, which allows the company to use a lower-cost source of capital and avoid immediate dilution of existing shareholders’ interests. Leasing assets is another source of debt financing available to companies in this stage of the life cycle."
         },
         {
           "type": "paragraph",
-          "text": "be low or negative. Business risk is relatively high. Company debt is quite risky and, if issued, would require high interest rates. Assets, both accounts receivable and fixed assets, typically are low; therefore, they are not available as collateral for debt. For these reasons, start-up companies are financed almost exclusively with equity. In some cases, high-growth companies with rapidly rising stock prices may find it possible to issue convertible debt, which allows the company to use a lower-cost source of capital and avoid immediate dilution of existing shareholders’ interests. Leasing assets is another source of debt financing available to companies in this stage of the life cycle."
+          "text": "2. Growth stage. Revenue and cash flow are rising, and business risk is somewhat reduced. Debt financing cost is somewhat reduced (i.e., usage is conservative), and investors may be willing to lend to the company, often with the loans secured by fixed assets or accounts receivable."
         },
         {
           "type": "paragraph",
-          "text": "2. Growth stage. Revenue and cash flow are rising, and business risk is somewhat"
-        },
-        {
-          "type": "paragraph",
-          "text": "reduced. Debt financing cost is somewhat reduced (i.e., usage is conservative), and investors may be willing to lend to the company, often with the loans secured by fixed assets or accounts receivable.\n3. Mature stage. In this stage, revenue growth is slowing and business risk is much"
-        },
-        {
-          "type": "paragraph",
-          "text": "lower. Cash flow is significant and relatively stable. Debt financing, including unsecured debt, is widely available at a relatively low cost."
+          "text": "3. Mature stage. In this stage, revenue growth is slowing and business risk is much lower. Cash flow is significant and relatively stable. Debt financing, including unsecured debt, is widely available at a relatively low cost."
         },
         {
           "type": "paragraph",
@@ -174,11 +166,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Consider why the pie analogy holds. The operating earnings (EBIT) of a firm are available to providers of capital. In a company with no debt, all of the operating earnings are available to equity holders, and the value of the company is the discounted present value of these earnings, with a discount rate that depends on the risk of (uncertainty about) earnings. If a company is financed partly by debt and partly by equity, operating earnings are divided between debtholders and equity holders. If one entity purchased all the debt and all the equity of the firm, it would be entitled to all of the EBIT of the firm, so the total value of its holdings must equal the value of an all-equity firm—which also has a claim to all the operating earnings of the firm. Under the"
-        },
-        {
-          "type": "paragraph",
-          "text": "assumption that operating earnings are unaffected by financing decisions, the total value of debt and equity will be unaffected by the proportions of debt and equity in a firm’s capital structure."
+          "text": "Consider why the pie analogy holds. The operating earnings (EBIT) of a firm are available to providers of capital. In a company with no debt, all of the operating earnings are available to equity holders, and the value of the company is the discounted present value of these earnings, with a discount rate that depends on the risk of (uncertainty about) earnings. If a company is financed partly by debt and partly by equity, operating earnings are divided between debtholders and equity holders. If one entity purchased all the debt and all the equity of the firm, it would be entitled to all of the EBIT of the firm, so the total value of its holdings must equal the value of an all-equity firm—which also has a claim to all the operating earnings of the firm. Under the assumption that operating earnings are unaffected by financing decisions, the total value of debt and equity will be unaffected by the proportions of debt and equity in a firm’s capital structure."
         },
         {
           "type": "heading",
@@ -274,23 +262,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Costs of financial distress and bankruptcy can be direct or indirect. Direct costs of"
+          "text": "1. Costs of financial distress and bankruptcy can be direct or indirect. Direct costs of financial distress include the cash expenses associated with the bankruptcy, such as legal fees and administrative fees. Indirect costs include foregone investment opportunities and the costs that result from losing the trust of customers, creditors, suppliers, and employees. Additionally, during periods of financial distress, conflicts of interest between managers (who represent equity owners) and debtholders impose additional costs, referred to as the agency costs of debt."
         },
         {
           "type": "paragraph",
-          "text": "financial distress include the cash expenses associated with the bankruptcy, such as legal fees and administrative fees. Indirect costs include foregone investment opportunities and the costs that result from losing the trust of customers, creditors, suppliers, and employees. Additionally, during periods of financial distress, conflicts of interest between managers (who represent equity owners) and debtholders impose additional costs, referred to as the agency costs of debt.\n2. The probability of financial distress is related to the firm’s use of operating and"
+          "text": "2. The probability of financial distress is related to the firm’s use of operating and financial leverage. In general, higher amounts of financial leverage increase the probability of financial distress (higher probability that cash flows will fall to an amount that is insufficient to make their promised debt payments). Other factors to consider include the quality of a firm’s management and the company’s corporate governance structure. Lower-quality management and poor corporate governance lead to a higher probability of financial distress."
         },
         {
           "type": "paragraph",
-          "text": "financial leverage. In general, higher amounts of financial leverage increase the probability of financial distress (higher probability that cash flows will fall to an amount that is insufficient to make their promised debt payments). Other factors to consider include the quality of a firm’s management and the company’s corporate governance structure. Lower-quality management and poor corporate governance lead to a higher probability of financial distress."
-        },
-        {
-          "type": "paragraph",
-          "text": "Higher expected costs of financial distress tend to discourage companies from using large proportions of debt in their capital structures, all else equal. The expected costs of"
-        },
-        {
-          "type": "paragraph",
-          "text": "financial distress shrink our pie as the proportion of debt financing is increased."
+          "text": "Higher expected costs of financial distress tend to discourage companies from using large proportions of debt in their capital structures, all else equal. The expected costs of financial distress shrink our pie as the proportion of debt financing is increased."
         },
         {
           "type": "question",
@@ -421,27 +401,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Monitoring costs are associated with supervising management and include the"
+          "text": "1. Monitoring costs are associated with supervising management and include the expenses of reporting to shareholders and paying the board of directors. Strong corporate governance systems reduce monitoring costs."
         },
         {
           "type": "paragraph",
-          "text": "expenses of reporting to shareholders and paying the board of directors. Strong corporate governance systems reduce monitoring costs.\n2. Bonding costs relate to assuring shareholders that the managers are working in the"
+          "text": "2. Bonding costs relate to assuring shareholders that the managers are working in the shareholders’ best interest. Examples of bonding costs include premiums for insurance to guarantee performance and implicit costs associated with noncompete agreements."
         },
         {
           "type": "paragraph",
-          "text": "shareholders’ best interest. Examples of bonding costs include premiums for"
-        },
-        {
-          "type": "paragraph",
-          "text": "insurance to guarantee performance and implicit costs associated with noncompete agreements."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. Residual losses may occur even with adequate monitoring and bonding provisions"
-        },
-        {
-          "type": "paragraph",
-          "text": "because such provisions do not provide a perfect guarantee."
+          "text": "3. Residual losses may occur even with adequate monitoring and bonding provisions because such provisions do not provide a perfect guarantee."
         },
         {
           "type": "paragraph",
@@ -609,11 +577,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "During the start-up stage, a firm is unlikely to have positive earnings and cash"
-            },
-            {
-              "type": "paragraph",
-              "text": "flows or significant assets that can be pledged as debt collateral, so firms in this stage are typically financed by equity only."
+              "text": "During the start-up stage, a firm is unlikely to have positive earnings and cash flows or significant assets that can be pledged as debt collateral, so firms in this stage are typically financed by equity only."
             }
           ]
         }
@@ -651,11 +615,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The optimal capital structure minimizes the firm’s WACC and maximizes the"
-            },
-            {
-              "type": "paragraph",
-              "text": "firm’s value (stock price)."
+              "text": "The optimal capital structure minimizes the firm’s WACC and maximizes the firm’s value (stock price)."
             }
           ]
         },
@@ -686,11 +646,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "MM’s Proposition II (with no taxes) states that capital structure is irrelevant"
-            },
-            {
-              "type": "paragraph",
-              "text": "because the decrease in a firm’s WACC from additional debt financing is just offset by the increase in WACC from a decrease in equity financing. The cost of debt is held constant, and the cost of equity financing increases as the proportion of debt in the capital structure is increased."
+              "text": "MM’s Proposition II (with no taxes) states that capital structure is irrelevant because the decrease in a firm’s WACC from additional debt financing is just offset by the increase in WACC from a decrease in equity financing. The cost of debt is held constant, and the cost of equity financing increases as the proportion of debt in the capital structure is increased."
             }
           ]
         },
@@ -721,11 +677,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "While it is a useful theoretical concept, in practice, determining an optimal capital"
-            },
-            {
-              "type": "paragraph",
-              "text": "structure based on the cost savings of debt and the expected costs of financial distress is not feasible. Because debt rating companies often use book values of debt, firms often use book values of debt when choosing financing sources. It is common for firms to match debt maturities to the economic lives of specific investments."
+              "text": "While it is a useful theoretical concept, in practice, determining an optimal capital structure based on the cost savings of debt and the expected costs of financial distress is not feasible. Because debt rating companies often use book values of debt, firms often use book values of debt when choosing financing sources. It is common for firms to match debt maturities to the economic lives of specific investments."
             }
           ]
         },
@@ -756,11 +708,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Pecking order theory is based on information asymmetry and the resulting signals"
-            },
-            {
-              "type": "paragraph",
-              "text": "that different financing choices send to investors. It suggests that retained earnings are the first choice for financing an investment, and issuing new equity is the least preferred choice."
+              "text": "Pecking order theory is based on information asymmetry and the resulting signals that different financing choices send to investors. It suggests that retained earnings are the first choice for financing an investment, and issuing new equity is the least preferred choice."
             }
           ]
         }

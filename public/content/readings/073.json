@@ -90,11 +90,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Prior to expiration, an option has time value in addition to its exercise value. The time value of an option is the amount by which the option premium (price) exceeds the exercise value and is sometimes called the speculative value of the option. This relationship can be written as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "option premium = exercise value + time value"
+          "text": "Prior to expiration, an option has time value in addition to its exercise value. The time value of an option is the amount by which the option premium (price) exceeds the exercise value and is sometimes called the speculative value of the option. This relationship can be written as: option premium = exercise value + time value"
         },
         {
           "type": "paragraph",
@@ -137,27 +133,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Logically the value of a put option cannot be more than its exercise price. This would be its exercise value if the underlying stock price goes to zero. However, because European puts cannot be exercised prior to expiration, their maximum value is the present value of the exercise price discounted at the risk-free rate. Even if the stock price goes to zero"
+          "text": "Logically the value of a put option cannot be more than its exercise price. This would be its exercise value if the underlying stock price goes to zero. However, because European puts cannot be exercised prior to expiration, their maximum value is the present value of the exercise price discounted at the risk-free rate. Even if the stock price goes to zero and is expected to stay at zero, the put buyer will not receive the intrinsic value, X, until the expiration date."
         },
         {
           "type": "paragraph",
-          "text": "and is expected to stay at zero, the put buyer will not receive the intrinsic value, X, until the expiration date."
+          "text": "At time t = 0, the upper boundary condition can be expressed for European put options as: p0 ≤ X (1 + Rf)−T"
         },
         {
           "type": "paragraph",
-          "text": "At time t = 0, the upper boundary condition can be expressed for European put options as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "p0 ≤ X (1 + Rf)−T"
-        },
-        {
-          "type": "paragraph",
-          "text": "At any time t during a European put option’s life, the upper boundary condition is:"
-        },
-        {
-          "type": "paragraph",
-          "text": "pt ≤ X (1 + Rf)−⁽T⁻t⁾"
+          "text": "At any time t during a European put option’s life, the upper boundary condition is: pt ≤ X (1 + Rf)−⁽T⁻t⁾"
         },
         {
           "type": "heading",
@@ -201,27 +185,11 @@
         },
         {
           "type": "paragraph",
-          "text": "To prevent arbitrage, any portfolio that has no possibility of a negative payoff cannot have a negative value. Thus, we can state the value of the portfolio at time t = 0 as:"
+          "text": "To prevent arbitrage, any portfolio that has no possibility of a negative payoff cannot have a negative value. Thus, we can state the value of the portfolio at time t = 0 as: c0 − S0 + X(1 + Rf)−T ≥ 0 which allows us to conclude that: c0 ≥ S0 − X(1 + Rf)−T"
         },
         {
           "type": "paragraph",
-          "text": "c0 − S0 + X(1 + Rf)−T ≥ 0"
-        },
-        {
-          "type": "paragraph",
-          "text": "which allows us to conclude that:"
-        },
-        {
-          "type": "paragraph",
-          "text": "c0 ≥ S0 − X(1 + Rf)−T"
-        },
-        {
-          "type": "paragraph",
-          "text": "Combining this result with the earlier minimum on the call value of zero, we can write:"
-        },
-        {
-          "type": "paragraph",
-          "text": "c0 ≥ Max[0, S0 − X(1 + Rf)−T]"
+          "text": "Combining this result with the earlier minimum on the call value of zero, we can write: c0 ≥ Max[0, S0 − X(1 + Rf)−T]"
         },
         {
           "type": "paragraph",
@@ -257,27 +225,11 @@
         },
         {
           "type": "paragraph",
-          "text": "At time t = 0, this condition can be written as:"
+          "text": "At time t = 0, this condition can be written as: p0 + S0 − X(1 + Rf)−T ≥ 0 and rearranged to state the minimum value for a European put option at time t = 0 as: p0 ≥ X(1 + Rf)−T − S0"
         },
         {
           "type": "paragraph",
-          "text": "p0 + S0 − X(1 + Rf)−T ≥ 0"
-        },
-        {
-          "type": "paragraph",
-          "text": "and rearranged to state the minimum value for a European put option at time t = 0 as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "p0 ≥ X(1 + Rf)−T − S0"
-        },
-        {
-          "type": "paragraph",
-          "text": "We have now established the minimum bound on the price of a European put option as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "p0 ≥ Max[0, X(1 + Rf)−T − S0]"
+          "text": "We have now established the minimum bound on the price of a European put option as: p0 ≥ Max[0, X(1 + Rf)−T − S0]"
         },
         {
           "type": "paragraph",
@@ -316,23 +268,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Price of the underlying asset. For call options, the higher the price of the"
+          "text": "1. Price of the underlying asset. For call options, the higher the price of the underlying, the greater its exercise value and the higher the value of the option. Conversely, the lower the price of the underlying, the less its exercise value and the lower the value of the call option. In general, call option values increase when the value of the underlying asset increases. For put options this relationship is reversed. An increase in the price of the underlying reduces the value of a put option."
         },
         {
           "type": "paragraph",
-          "text": "underlying, the greater its exercise value and the higher the value of the option. Conversely, the lower the price of the underlying, the less its exercise value and the lower the value of the call option. In general, call option values increase when the value of the underlying asset increases. For put options this relationship is reversed. An increase in the price of the underlying reduces the value of a put option.\n2. The exercise price. A higher exercise price decreases the values of call options and"
+          "text": "2. The exercise price. A higher exercise price decreases the values of call options and a lower exercise price increases the values of call options. A higher exercise price increases the values of put options and a lower exercise price decreases the values of put options."
         },
         {
           "type": "paragraph",
-          "text": "a lower exercise price increases the values of call options. A higher exercise price increases the values of put options and a lower exercise price decreases the values of put options."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. The risk-free rate of interest. An increase in the risk-free rate will increase call"
-        },
-        {
-          "type": "paragraph",
-          "text": "option values, and a decrease in the risk-free rate will decrease call option values."
+          "text": "3. The risk-free rate of interest. An increase in the risk-free rate will increase call option values, and a decrease in the risk-free rate will decrease call option values."
         },
         {
           "type": "paragraph",
@@ -348,23 +292,19 @@
         },
         {
           "type": "paragraph",
-          "text": "4. Volatility of the underlying. Volatility is what makes options valuable. If there were"
+          "text": "4. Volatility of the underlying. Volatility is what makes options valuable. If there were no volatility in the price of the underlying asset (its price remained constant), options would always be equal to their exercise values and time or speculative value would be zero. An increase in the volatility of the price of the underlying asset increases the values of both put and call options and a decrease in volatility of the price of the underlying decreases both put values and call values."
         },
         {
           "type": "paragraph",
-          "text": "no volatility in the price of the underlying asset (its price remained constant), options would always be equal to their exercise values and time or speculative value would be zero. An increase in the volatility of the price of the underlying asset increases the values of both put and call options and a decrease in volatility of the price of the underlying decreases both put values and call values.\n5. Time to expiration. Because volatility is expressed per unit of time, longer time to"
+          "text": "5. Time to expiration. Because volatility is expressed per unit of time, longer time to expiration effectively increases expected volatility and increases the value of a call option. Less time to expiration decreases the time value of a call option so that at expiration its value is simply its exercise value. For most put options, longer time to expiration will increase option values for the same reasons. For some European put options, however, extending the time to expiration can decrease the value of the put. In general, the deeper a put option is in the money, the higher the risk-free rate, and the longer the current time to expiration, the more likely that extending the option’s time to expiration will decrease its value."
         },
         {
           "type": "paragraph",
-          "text": "expiration effectively increases expected volatility and increases the value of a call option. Less time to expiration decreases the time value of a call option so that at expiration its value is simply its exercise value. For most put options, longer time to expiration will increase option values for the same reasons. For some European put options, however, extending the time to expiration can decrease the value of the put. In general, the deeper a put option is in the money, the higher the risk-free rate, and the longer the current time to expiration, the more likely that extending the option’s time to expiration will decrease its value."
+          "text": "To understand this possibility consider a put option at $20 on a stock with a value that has decreased to $1. The exercise value of the put is $19 so the upside is very limited, the downside (if the price of the underlying subsequently increases) is significant, and because no payment will be received until the expiration date, the current option value reflects the present value of any expected payment. Extending the time to expiration would decrease that present value. While overall we expect a longer time to expiration to increase the value of a European put option, in the case of a deep in-the-money put, a longer time to expiration could decrease its value."
         },
         {
           "type": "paragraph",
-          "text": "To understand this possibility consider a put option at $20 on a stock with a value that has decreased to $1. The exercise value of the put is $19 so the upside is very limited, the downside (if the price of the underlying subsequently increases) is significant, and because no payment will be received until the expiration date, the current option value reflects the present value of any expected payment. Extending the time to expiration would decrease that present value. While overall we expect a longer time to expiration to increase the value of a European put option, in the case of a deep in-the-money put, a longer time to expiration could decrease its value.\n6. Costs and benefits of holding the asset. If there are benefits of holding the"
-        },
-        {
-          "type": "paragraph",
-          "text": "underlying asset (dividend or interest payments on securities or a convenience yield on commodities), call values are decreased and put values are increased. The reason for this is most easily understood by considering cash benefits. When a stock pays a dividend, or a bond pays interest, this reduces the value of the asset. Decreases in the value of the underlying asset decrease call values and increase put values. Positive storage costs make it more costly to hold an asset. We can think of this as making a call option more valuable because call holders can have long exposure to the asset without paying the costs of actually owning the asset. Puts, on the other hand, are less valuable when storage costs are higher."
+          "text": "6. Costs and benefits of holding the asset. If there are benefits of holding the underlying asset (dividend or interest payments on securities or a convenience yield on commodities), call values are decreased and put values are increased. The reason for this is most easily understood by considering cash benefits. When a stock pays a dividend, or a bond pays interest, this reduces the value of the asset. Decreases in the value of the underlying asset decrease call values and increase put values. Positive storage costs make it more costly to hold an asset. We can think of this as making a call option more valuable because call holders can have long exposure to the asset without paying the costs of actually owning the asset. Puts, on the other hand, are less valuable when storage costs are higher."
         }
       ]
     }
@@ -386,11 +326,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The approach for pricing contingent claims is different from the model for forward commitments because contingent claims have one-sided payoffs and values at initiation"
-    },
-    {
-      "type": "paragraph",
-      "text": "that are not equal to zero. A replication model for European options is based on the value of a portfolio in which the option is combined with a pure discount bond and a long or short position in the underlying."
+      "text": "The approach for pricing contingent claims is different from the model for forward commitments because contingent claims have one-sided payoffs and values at initiation that are not equal to zero. A replication model for European options is based on the value of a portfolio in which the option is combined with a pure discount bond and a long or short position in the underlying."
     },
     {
       "type": "question",
@@ -459,11 +395,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because an out-of-the-money option has an exercise value of zero, its price is its"
-            },
-            {
-              "type": "paragraph",
-              "text": "time value."
+              "text": "Because an out-of-the-money option has an exercise value of zero, its price is its time value."
             }
           ]
         },
@@ -494,11 +426,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The lower bound for a European put ranges from zero to the present value of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "exercise price less the current stock price, where the exercise price is discounted at the risk-free rate."
+              "text": "The lower bound for a European put ranges from zero to the present value of the exercise price less the current stock price, where the exercise price is discounted at the risk-free rate."
             }
           ]
         },
@@ -529,11 +457,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A decrease in the risk-free rate will decrease call option values and increase put"
-            },
-            {
-              "type": "paragraph",
-              "text": "option values."
+              "text": "A decrease in the risk-free rate will decrease call option values and increase put option values."
             }
           ]
         }

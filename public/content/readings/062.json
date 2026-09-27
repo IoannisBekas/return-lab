@@ -42,11 +42,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Covenants. For unsecured investment-grade issuers, it is likely that covenants are primarily affirmative, relating to compliance with rules and laws, maintenance of company assets, and paying taxes. Analysts must assess the potential for management to issue additional debt that would dilute the claims of existing debtholders. High-yield issuers are likely to have negative covenants, restricting the issuer’s ability to pay dividends or issue further debt, in addition to affirmative covenants. Here, analysts need to assess the past actions of management for evidence of preferential"
-        },
-        {
-          "type": "paragraph",
-          "text": "treatment of equity investors over debt investors, particularly if this led to credit rating downgrades (e.g., a debt-financed stock buyback program)."
+          "text": "Covenants. For unsecured investment-grade issuers, it is likely that covenants are primarily affirmative, relating to compliance with rules and laws, maintenance of company assets, and paying taxes. Analysts must assess the potential for management to issue additional debt that would dilute the claims of existing debtholders. High-yield issuers are likely to have negative covenants, restricting the issuer’s ability to pay dividends or issue further debt, in addition to affirmative covenants. Here, analysts need to assess the past actions of management for evidence of preferential treatment of equity investors over debt investors, particularly if this led to credit rating downgrades (e.g., a debt-financed stock buyback program)."
         },
         {
           "type": "paragraph",
@@ -91,11 +87,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Earnings before interest, taxes, depreciation, and amortization (EBITDA). EBITDA is a commonly used measure that is calculated as operating income plus depreciation and amortization. A drawback to using this measure for credit analysis is that it does not adjust for capital expenditures and changes in working capital, which are necessary uses of funds for a going concern. Cash needed for these uses is not available to debtholders. Cash flow from operating activities (CFO). CFO is net cash paid or received in the continuing operations of the business. It is calculated as net income plus noncash"
-        },
-        {
-          "type": "paragraph",
-          "text": "charges minus increase in working capital. CFO is disclosed by companies in their cash flow statements."
+          "text": "Earnings before interest, taxes, depreciation, and amortization (EBITDA). EBITDA is a commonly used measure that is calculated as operating income plus depreciation and amortization. A drawback to using this measure for credit analysis is that it does not adjust for capital expenditures and changes in working capital, which are necessary uses of funds for a going concern. Cash needed for these uses is not available to debtholders. Cash flow from operating activities (CFO). CFO is net cash paid or received in the continuing operations of the business. It is calculated as net income plus noncash charges minus increase in working capital. CFO is disclosed by companies in their cash flow statements."
         },
         {
           "type": "paragraph",
@@ -205,11 +197,27 @@
         },
         {
           "type": "paragraph",
-          "text": "York: ($300,000 – $30,000) / ($1,900,000 – $500,000) = 19%"
+          "text": "York: ($300,000"
         },
         {
           "type": "paragraph",
-          "text": "Zale: ($850,000 – $200,000) / ($2,700,000 – $1,000,000) = 38%"
+          "text": "– $30,000) / ($1,900,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $500,000) = 19%"
+        },
+        {
+          "type": "paragraph",
+          "text": "Zale: ($850,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $200,000) / ($2,700,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $1,000,000) = 38%"
         },
         {
           "type": "paragraph",
@@ -234,11 +242,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Secured debt can be further distinguished as first lien (where a specific asset is pledged) or first mortgage (where a specific property is pledged), senior secured (second lien), or"
-        },
-        {
-          "type": "paragraph",
-          "text": "junior secured debt. Unsecured debt is further divided into senior, junior, and subordinated gradations. The highest rank of unsecured debt is senior unsecured. Subordinated debt ranks below other unsecured debt."
+          "text": "Secured debt can be further distinguished as first lien (where a specific asset is pledged) or first mortgage (where a specific property is pledged), senior secured (second lien), or junior secured debt. Unsecured debt is further divided into senior, junior, and subordinated gradations. The highest rank of unsecured debt is senior unsecured. Subordinated debt ranks below other unsecured debt."
         },
         {
           "type": "paragraph",
@@ -294,11 +298,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Another example of a factor that rating agencies consider when notching an issue credit rating is structural subordination. In a holding company structure, both the parent company and the subsidiaries may have outstanding debt. A subsidiary’s debt covenants may restrict the transfer of cash or assets “upstream” to the parent company before the subsidiary’s debt is serviced. In such a case, even though the parent company’s bonds are not junior to the subsidiary’s bonds, the subsidiary’s bonds have a"
-        },
-        {
-          "type": "paragraph",
-          "text": "priority claim to the subsidiary’s cash flows. Thus, the parent company’s bonds are effectively subordinated to the subsidiary’s bonds with respect to the subsidiary’s cash flows."
+          "text": "Another example of a factor that rating agencies consider when notching an issue credit rating is structural subordination. In a holding company structure, both the parent company and the subsidiaries may have outstanding debt. A subsidiary’s debt covenants may restrict the transfer of cash or assets “upstream” to the parent company before the subsidiary’s debt is serviced. In such a case, even though the parent company’s bonds are not junior to the subsidiary’s bonds, the subsidiary’s bonds have a priority claim to the subsidiary’s cash flows. Thus, the parent company’s bonds are effectively subordinated to the subsidiary’s bonds with respect to the subsidiary’s cash flows."
         },
         {
           "type": "paragraph",
@@ -439,11 +439,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "By offering secured debt, the issuer may attract investments from investors that"
-            },
-            {
-              "type": "paragraph",
-              "text": "would have otherwise considered the unsecured bond for the issuer to be too risky. It is likely that the security will decrease the cost of borrowing for the issuer. It is also likely that secured debt will have more covenants stating the legal rights that lenders have over the collateral pledged as security for the issue."
+              "text": "By offering secured debt, the issuer may attract investments from investors that would have otherwise considered the unsecured bond for the issuer to be too risky. It is likely that the security will decrease the cost of borrowing for the issuer. It is also likely that secured debt will have more covenants stating the legal rights that lenders have over the collateral pledged as security for the issue."
             }
           ]
         },
@@ -474,11 +470,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A negotiated bankruptcy settlement does not always follow the absolute priority"
-            },
-            {
-              "type": "paragraph",
-              "text": "of claims."
+              "text": "A negotiated bankruptcy settlement does not always follow the absolute priority of claims."
             }
           ]
         },
@@ -509,11 +501,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Notching refers to the credit rating agency practice of distinguishing between the"
-            },
-            {
-              "type": "paragraph",
-              "text": "credit rating of an issuer (generally for its senior unsecured debt) and the credit rating of particular debt issues from that issuer, which may differ from the issuer rating because of provisions such as seniority."
+              "text": "Notching refers to the credit rating agency practice of distinguishing between the credit rating of an issuer (generally for its senior unsecured debt) and the credit rating of particular debt issues from that issuer, which may differ from the issuer rating because of provisions such as seniority."
             }
           ]
         },

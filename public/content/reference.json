@@ -107,11 +107,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Because this is a one-tailed test with an alpha of 0.05, we need to find the value 0.95 in the cumulative z-table. The closest value is 0.9505, with a corresponding critical z-value"
-        },
-        {
-          "type": "paragraph",
-          "text": "of 1.65. Because the test statistic is less than the critical value, we fail to reject H0."
+          "text": "Because this is a one-tailed test with an alpha of 0.05, we need to find the value 0.95 in the cumulative z-table. The closest value is 0.9505, with a corresponding critical z-value of 1.65. Because the test statistic is less than the critical value, we fail to reject H0."
         },
         {
           "type": "heading",
@@ -347,19 +343,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. If an investor puts $2,000 into an account and 565 days later it has grown in value to"
+          "text": "1. If an investor puts $2,000 into an account and 565 days later it has grown in value to $2,700, the 565-day HPY is 2,700 / 2,000 − 1 = 35%."
         },
         {
           "type": "paragraph",
-          "text": "$2,700, the 565-day HPY is 2,700 / 2,000 − 1 = 35%."
-        },
-        {
-          "type": "paragraph",
-          "text": "2. If an investor buys a share of stock for $20/share, receives a $0.40 dividend, and sells"
-        },
-        {
-          "type": "paragraph",
-          "text": "the shares after nine months, the nine-month HPY is (22 + 0.40) / 20 − 1 = 12%."
+          "text": "2. If an investor buys a share of stock for $20/share, receives a $0.40 dividend, and sells the shares after nine months, the nine-month HPY is (22 + 0.40) / 20 − 1 = 12%."
         },
         {
           "type": "paragraph",
@@ -395,23 +383,15 @@
         },
         {
           "type": "paragraph",
-          "text": "6. A bank CD has a stated annual rate of 6% with annual compounding (periodicity of"
+          "text": "6. A bank CD has a stated annual rate of 6% with annual compounding (periodicity of 1); the effective annual rate is 6% and a $1,000 investment will return $1,000(1.06) = $1,060 at the end of one year."
         },
         {
           "type": "paragraph",
-          "text": "1); the effective annual rate is 6% and a $1,000 investment will return $1,000(1.06) = $1,060 at the end of one year."
+          "text": "7. A bank CD has a stated annual rate of 6% with semiannual compounding (periodicity of 2); the effective annual rate is (1 + 0.06 / 2)² = 1.03² − 1 = 6.09% and a $1,000 investment will return $1,000 (1.0609) = $1,060.90 at the end of one year."
         },
         {
           "type": "paragraph",
-          "text": "7. A bank CD has a stated annual rate of 6% with semiannual compounding (periodicity"
-        },
-        {
-          "type": "paragraph",
-          "text": "of 2); the effective annual rate is (1 + 0.06 / 2)² = 1.03² − 1 = 6.09% and a $1,000 investment will return $1,000 (1.0609) = $1,060.90 at the end of one year.\n8. A bank CD has a stated annual rate of 6% with quarterly compounding (periodicity"
-        },
-        {
-          "type": "paragraph",
-          "text": "of 4); the effective annual rate is (1 + 0.06 / 4)⁴ = 1.015⁴ − 1 = 6.136% and a $1,000 investment will return $1,000(1.06136) = $1,061.36 at the end of one year."
+          "text": "8. A bank CD has a stated annual rate of 6% with quarterly compounding (periodicity of 4); the effective annual rate is (1 + 0.06 / 4)⁴ = 1.015⁴ − 1 = 6.136% and a $1,000 investment will return $1,000(1.06136) = $1,061.36 at the end of one year."
         },
         {
           "type": "paragraph",
@@ -419,11 +399,7 @@
         },
         {
           "type": "paragraph",
-          "text": "9. A bank CD has a stated annual rate of 6%, continuously compounded; its effective"
-        },
-        {
-          "type": "paragraph",
-          "text": "annual yield is e ⁰.⁰⁶ − 1 = 6.184% and a $1,000 investment will return $1,000(1.06184) = $1,061.84 at the end of one year."
+          "text": "9. A bank CD has a stated annual rate of 6%, continuously compounded; its effective annual yield is e ⁰.⁰⁶ − 1 = 6.184% and a $1,000 investment will return $1,000(1.06184) = $1,061.84 at the end of one year."
         },
         {
           "type": "heading",
@@ -435,23 +411,15 @@
         },
         {
           "type": "paragraph",
-          "text": "10. A bond with a face value of $1,000 that pays a coupon of $50 once each year (an"
+          "text": "10. A bond with a face value of $1,000 that pays a coupon of $50 once each year (an annual-pay bond) has a coupon rate of 50 / 1,000 = 5% and we say it has a periodicity of 1."
         },
         {
           "type": "paragraph",
-          "text": "annual-pay bond) has a coupon rate of 50 / 1,000 = 5% and we say it has a periodicity of 1."
+          "text": "11. A bond with a face value of $1,000 that pays a coupon of $25 twice each year (a semiannual-pay bond) has a coupon rate of (25 + 25) / 1,000 = 5% and we say it has a periodicity of 2."
         },
         {
           "type": "paragraph",
-          "text": "11. A bond with a face value of $1,000 that pays a coupon of $25 twice each year (a"
-        },
-        {
-          "type": "paragraph",
-          "text": "semiannual-pay bond) has a coupon rate of (25 + 25) / 1,000 = 5% and we say it has a periodicity of 2.\n12. A bond with a face value of $1,000 that pays a coupon of $12.50(1.25%) four times"
-        },
-        {
-          "type": "paragraph",
-          "text": "each year (a quarterly-pay bond) has a coupon rate of (12.50 + 12.50 + 12.50 + 12.50) / 1,000 = 5% and we say it has a periodicity of 4."
+          "text": "12. A bond with a face value of $1,000 that pays a coupon of $12.50(1.25%) four times each year (a quarterly-pay bond) has a coupon rate of (12.50 + 12.50 + 12.50 + 12.50) / 1,000 = 5% and we say it has a periodicity of 4."
         },
         {
           "type": "paragraph",
@@ -459,19 +427,11 @@
         },
         {
           "type": "paragraph",
-          "text": "13. A bond with a stated coupon rate of 5% that is selling at 98.54% of face value has a"
+          "text": "13. A bond with a stated coupon rate of 5% that is selling at 98.54% of face value has a current yield of 5 / 98.54 = 5.074%."
         },
         {
           "type": "paragraph",
-          "text": "current yield of 5 / 98.54 = 5.074%."
-        },
-        {
-          "type": "paragraph",
-          "text": "14. A bond that is trading at $1,058 and makes annual coupon payments that sum to $50"
-        },
-        {
-          "type": "paragraph",
-          "text": "has a current yield of 50 / 1,058 = 4.726%."
+          "text": "14. A bond that is trading at $1,058 and makes annual coupon payments that sum to $50 has a current yield of 50 / 1,058 = 4.726%."
         },
         {
           "type": "paragraph",
@@ -483,11 +443,11 @@
         },
         {
           "type": "paragraph",
-          "text": "(effective annual yield) of (1 + 0.05 / 2)² − 1 = 5.0625%.\n16. A bond with a YTM of 5% on an annual basis has a YTM on a semiannual basis of"
+          "text": "(effective annual yield) of (1 + 0.05 / 2)² − 1 = 5.0625%."
         },
         {
           "type": "paragraph",
-          "text": "(1.05¹/² − 1) × 2 = 4.939%."
+          "text": "16. A bond with a YTM of 5% on an annual basis has a YTM on a semiannual basis of (1.05¹/² − 1) × 2 = 4.939%."
         },
         {
           "type": "heading",
@@ -499,11 +459,7 @@
         },
         {
           "type": "paragraph",
-          "text": "17. For the YTM of an annual-pay bond (YTM on an annual basis) on a coupon date with"
-        },
-        {
-          "type": "paragraph",
-          "text": "N years remaining until maturity, we calculate the annual IRR that satisfies:"
+          "text": "17. For the YTM of an annual-pay bond (YTM on an annual basis) on a coupon date with N years remaining until maturity, we calculate the annual IRR that satisfies:"
         },
         {
           "type": "math",
@@ -513,11 +469,7 @@
         },
         {
           "type": "paragraph",
-          "text": "18. For the YTM of a semiannual-pay bond on a coupon date with N years remaining"
-        },
-        {
-          "type": "paragraph",
-          "text": "until maturity, we calculate the IRR that satisfies:"
+          "text": "18. For the YTM of a semiannual-pay bond on a coupon date with N years remaining until maturity, we calculate the IRR that satisfies:"
         },
         {
           "type": "math",
@@ -539,15 +491,19 @@
         },
         {
           "type": "paragraph",
-          "text": "19. A T-bill that will pay $1,000 at maturity in 180 days is selling for $984, a discount of"
+          "text": "19. A T-bill that will pay $1,000 at maturity in 180 days is selling for $984, a discount of 1 − 984 / 1,000 = 1.6%. The annualized discount is 1.6% × 360 / 180 = 3.2%."
         },
         {
           "type": "paragraph",
-          "text": "1 − 984 / 1,000 = 1.6%. The annualized discount is 1.6% × 360 / 180 = 3.2%.\n20. A 120-day T-bill is quoted at a discount yield of 2.83%, its price is [1 − (0.0283 × 120"
+          "text": "20. A 120-day T-bill is quoted at a discount yield of 2.83%, its price is [1 − (0.0283 × 120"
         },
         {
           "type": "paragraph",
-          "text": "/ 360)] × 1,000 = $990.57. Its 120-day holding period return is 1,000 / 990.57 − 1 = 0.952%. Its effective annual yield is (1,000 / 990.57)³⁶⁵/¹²⁰ − 1 = 2.924%.\n21. HPY on a 30-day loan at a quoted market reference rate of 1.8% is 0.018 × 30 / 360 ="
+          "text": "/ 360)] × 1,000 = $990.57. Its 120-day holding period return is 1,000 / 990.57 − 1 = 0.952%. Its effective annual yield is (1,000 / 990.57)³⁶⁵/¹²⁰ − 1 = 2.924%."
+        },
+        {
+          "type": "paragraph",
+          "text": "21. HPY on a 30-day loan at a quoted market reference rate of 1.8% is 0.018 × 30 / 360 ="
         },
         {
           "type": "paragraph",
@@ -559,11 +515,7 @@
         },
         {
           "type": "paragraph",
-          "text": "22. A 120-day discount security with a maturity value of $1,000 that is priced at $995"
-        },
-        {
-          "type": "paragraph",
-          "text": "has a money market yield of (1,000 / 995 − 1) × 360 / 120 = 1.5075%."
+          "text": "22. A 120-day discount security with a maturity value of $1,000 that is priced at $995 has a money market yield of (1,000 / 995 − 1) × 360 / 120 = 1.5075%."
         },
         {
           "type": "heading",
@@ -579,11 +531,7 @@
         },
         {
           "type": "paragraph",
-          "text": "23. Given a 3-year spot rate expressed as a compound annual rate (S3) of 2%, a 3-year"
-        },
-        {
-          "type": "paragraph",
-          "text": "bond that makes a single payment of $1,000 in three years has a current value of 1,000 / (1 + 0.02)³ = $942.32."
+          "text": "23. Given a 3-year spot rate expressed as a compound annual rate (S3) of 2%, a 3-year bond that makes a single payment of $1,000 in three years has a current value of 1,000 / (1 + 0.02)³ = $942.32."
         },
         {
           "type": "paragraph",
@@ -591,11 +539,7 @@
         },
         {
           "type": "paragraph",
-          "text": "SN = [(1 + S1)(1 + 1y1y)(1 + 2y1y)…(1 + Ny1y)] ¹/N − 1"
-        },
-        {
-          "type": "paragraph",
-          "text": "and the annualized forward rate for M − N periods, N periods from now is:"
+          "text": "SN = [(1 + S1)(1 + 1y1y)(1 + 2y1y)…(1 + Ny1y)] ¹/N − 1 and the annualized forward rate for M − N periods, N periods from now is:"
         },
         {
           "type": "math",
@@ -605,11 +549,7 @@
         },
         {
           "type": "paragraph",
-          "text": "24. Given S5 = 2.4% and S7 = 2.6%, 5y2y = [(1.026)⁷ / (1.024)⁵]¹/² − 1 = 3.1017%, which"
-        },
-        {
-          "type": "paragraph",
-          "text": "is approximately equal to (7 × 2.6% − 5 × 2.4%) / 2 = 3.1%."
+          "text": "24. Given S5 = 2.4% and S7 = 2.6%, 5y2y = [(1.026)⁷ / (1.024)⁵]¹/² − 1 = 3.1017%, which is approximately equal to (7 × 2.6% − 5 × 2.4%) / 2 = 3.1%."
         },
         {
           "type": "paragraph",
@@ -617,11 +557,7 @@
         },
         {
           "type": "paragraph",
-          "text": "25. With spot rates of 1%, 2%, and 3%, a 3-year annual par bond will have a payment"
-        },
-        {
-          "type": "paragraph",
-          "text": "that will satisfy the following:"
+          "text": "25. With spot rates of 1%, 2%, and 3%, a 3-year annual par bond will have a payment that will satisfy the following:"
         },
         {
           "type": "math",
@@ -631,11 +567,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The payment is 2.96 and the par bond coupon rate is 2.96%."
-        },
-        {
-          "type": "paragraph",
-          "text": "duration gap = Macaulay duration − investment horizon"
+          "text": "The payment is 2.96 and the par bond coupon rate is 2.96%. duration gap = Macaulay duration − investment horizon"
         },
         {
           "type": "paragraph",
@@ -657,35 +589,7 @@
         },
         {
           "type": "paragraph",
-          "text": "no-arbitrage forward price: F0(T) = S0 (1 + Rf)T"
-        },
-        {
-          "type": "paragraph",
-          "text": "payoff to long forward at expiration = ST − F0(T)"
-        },
-        {
-          "type": "paragraph",
-          "text": "value of forward at time t: Vt(T) = [St + PVt (costs) − PVt(benefit)] − F0(T) (1 + Rf)−⁽T−t⁾"
-        },
-        {
-          "type": "paragraph",
-          "text": "exercise value of a call = Max[0, S − X]"
-        },
-        {
-          "type": "paragraph",
-          "text": "exercise value of a put = Max[0, X − S]"
-        },
-        {
-          "type": "paragraph",
-          "text": "option value = exercise value + time value"
-        },
-        {
-          "type": "paragraph",
-          "text": "put-call parity: c + X(1 + Rf)⁻T = S + p"
-        },
-        {
-          "type": "paragraph",
-          "text": "put-call-forward parity: F0 (T)(1 + Rf)⁻T + p0 = c0 + X(1 + Rf)⁻T"
+          "text": "no-arbitrage forward price: F0(T) = S0 (1 + Rf)T payoff to long forward at expiration = ST − F0(T) value of forward at time t: Vt(T) = [St + PVt (costs) − PVt(benefit)] − F0(T) (1 + Rf)−⁽T−t⁾ exercise value of a call = Max[0, S − X] exercise value of a put = Max[0, X − S] option value = exercise value + time value put-call parity: c + X(1 + Rf)⁻T = S + p put-call-forward parity: F0 (T)(1 + Rf)⁻T + p0 = c0 + X(1 + Rf)⁻T"
         }
       ]
     },
@@ -711,7 +615,11 @@
         },
         {
           "type": "paragraph",
-          "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs – convenience yield"
+          "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs"
+        },
+        {
+          "type": "paragraph",
+          "text": "– convenience yield"
         },
         {
           "type": "paragraph",
@@ -779,7 +687,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Capital Asset Pricing Model (CAPM): E(Ri) = Rf + βi[E(Rmkt) – Rf]"
+          "text": "Capital Asset Pricing Model (CAPM): E(Ri) = Rf + βi[E(Rmkt)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– Rf]"
         },
         {
           "type": "math",
@@ -801,7 +713,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Jensen’s alpha = αP = RP – [Rf + βP(RM – Rf)]"
+          "text": "Jensen’s alpha = αP = RP"
+        },
+        {
+          "type": "paragraph",
+          "text": "– [Rf + βP(RM"
+        },
+        {
+          "type": "paragraph",
+          "text": "– Rf)]"
         }
       ]
     }

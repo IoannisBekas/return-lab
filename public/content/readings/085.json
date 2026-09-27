@@ -47,11 +47,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: The planning step begins with an analysis of the investor’s risk tolerance,"
-        },
-        {
-          "type": "paragraph",
-          "text": "return objectives, time horizon, tax exposure, liquidity needs, income needs, and any unique circumstances or investor preferences."
+          "text": "Step 1: The planning step begins with an analysis of the investor’s risk tolerance, return objectives, time horizon, tax exposure, liquidity needs, income needs, and any unique circumstances or investor preferences."
         },
         {
           "type": "paragraph",
@@ -59,11 +55,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 2: The execution step involves an analysis of the risk and return characteristics of"
-        },
-        {
-          "type": "paragraph",
-          "text": "various asset classes to determine how funds will be allocated to the various asset types. Often, in what is referred to as a top-down analysis, a portfolio manager will examine current economic conditions and forecasts of such macroeconomic variables as GDP growth, inflation, and interest rates, in order to identify the asset classes that are most attractive. The resulting portfolio is typically diversified across such asset classes as cash, fixed-income securities, publicly traded equities, hedge funds, private equity, and real estate, as well as commodities and other real assets."
+          "text": "Step 2: The execution step involves an analysis of the risk and return characteristics of various asset classes to determine how funds will be allocated to the various asset types. Often, in what is referred to as a top-down analysis, a portfolio manager will examine current economic conditions and forecasts of such macroeconomic variables as GDP growth, inflation, and interest rates, in order to identify the asset classes that are most attractive. The resulting portfolio is typically diversified across such asset classes as cash, fixed-income securities, publicly traded equities, hedge funds, private equity, and real estate, as well as commodities and other real assets."
         },
         {
           "type": "paragraph",
@@ -71,11 +63,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 3: The feedback step is the final step. Over time, investor circumstances will"
-        },
-        {
-          "type": "paragraph",
-          "text": "change, risk and return characteristics of asset classes will change, and the actual weights of the assets in the portfolio will change with asset prices. The portfolio manager must monitor these changes and rebalance the portfolio periodically in response, adjusting the allocations to the various asset classes back to their desired percentages. The manager must also measure portfolio performance and evaluate it relative to the return on the benchmark portfolio identified in the IPS."
+          "text": "Step 3: The feedback step is the final step. Over time, investor circumstances will change, risk and return characteristics of asset classes will change, and the actual weights of the assets in the portfolio will change with asset prices. The portfolio manager must monitor these changes and rebalance the portfolio periodically in response, adjusting the allocations to the various asset classes back to their desired percentages. The manager must also measure portfolio performance and evaluate it relative to the return on the benchmark portfolio identified in the IPS."
         },
         {
           "type": "question",
@@ -267,15 +255,11 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Planning: Determine client needs and circumstances, including the client’s return"
+      "text": "1. Planning: Determine client needs and circumstances, including the client’s return objectives, risk tolerance, constraints, and preferences. Create, and then periodically review and update, an investment policy statement (IPS) that spells out these needs and circumstances."
     },
     {
       "type": "paragraph",
-      "text": "objectives, risk tolerance, constraints, and preferences. Create, and then periodically review and update, an investment policy statement (IPS) that spells out these needs and circumstances.\n2. Execution: Construct the client portfolio by determining suitable allocations to"
-    },
-    {
-      "type": "paragraph",
-      "text": "various asset classes based on the IPS and on expectations about macroeconomic variables such as inflation, interest rates, and GDP growth (top-down analysis)."
+      "text": "2. Execution: Construct the client portfolio by determining suitable allocations to various asset classes based on the IPS and on expectations about macroeconomic variables such as inflation, interest rates, and GDP growth (top-down analysis)."
     },
     {
       "type": "paragraph",
@@ -283,11 +267,7 @@
     },
     {
       "type": "paragraph",
-      "text": "3. Feedback: Monitor and rebalance the portfolio to adjust asset class allocations and"
-    },
-    {
-      "type": "paragraph",
-      "text": "securities holdings in response to market performance. Measure and report performance relative to the performance benchmark specified in the IPS."
+      "text": "3. Feedback: Monitor and rebalance the portfolio to adjust asset class allocations and securities holdings in response to market performance. Measure and report performance relative to the performance benchmark specified in the IPS."
     },
     {
       "type": "question",
@@ -426,11 +406,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Diversification provides an investor reduced risk. However, the expected return is"
-            },
-            {
-              "type": "paragraph",
-              "text": "generally similar or less than that expected from investing in a single risky security. Very high or very low returns become less likely."
+              "text": "Diversification provides an investor reduced risk. However, the expected return is generally similar or less than that expected from investing in a single risky security. Very high or very low returns become less likely."
             }
           ]
         },
@@ -461,11 +437,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An IPS should be updated at regular intervals and whenever there is a major"
-            },
-            {
-              "type": "paragraph",
-              "text": "change in the client’s objectives or constraints. Updating an IPS based on portfolio performance is not recommended."
+              "text": "An IPS should be updated at regular intervals and whenever there is a major change in the client’s objectives or constraints. Updating an IPS based on portfolio performance is not recommended."
             }
           ]
         },
@@ -496,11 +468,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A top-down analysis begins with an analysis of broad economic trends. After an"
-            },
-            {
-              "type": "paragraph",
-              "text": "industry that is expected to perform well is chosen, the most attractive companies within that industry are identified. A bottom-up analysis begins with criteria such as firms’ business prospects and quality of management."
+              "text": "A top-down analysis begins with an analysis of broad economic trends. After an industry that is expected to perform well is chosen, the most attractive companies within that industry are identified. A bottom-up analysis begins with criteria such as firms’ business prospects and quality of management."
             }
           ]
         },
@@ -531,11 +499,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Portfolio diversification has been shown to be relatively ineffective during severe"
-            },
-            {
-              "type": "paragraph",
-              "text": "market turmoil. Portfolio diversification is most effective when the securities have low correlation and the markets are operating normally."
+              "text": "Portfolio diversification has been shown to be relatively ineffective during severe market turmoil. Portfolio diversification is most effective when the securities have low correlation and the markets are operating normally."
             }
           ]
         },
@@ -566,11 +530,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Insurance companies need to be able to pay claims as they arise, which leads to"
-            },
-            {
-              "type": "paragraph",
-              "text": "insurance firms having low risk tolerance and high liquidity needs. Defined benefit pension plans and foundations both typically have high risk tolerance and low liquidity needs."
+              "text": "Insurance companies need to be able to pay claims as they arise, which leads to insurance firms having low risk tolerance and high liquidity needs. Defined benefit pension plans and foundations both typically have high risk tolerance and low liquidity needs."
             }
           ]
         },
@@ -601,11 +561,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An endowment has a long time horizon and low liquidity needs, as an endowment"
-            },
-            {
-              "type": "paragraph",
-              "text": "generally intends to fund its causes perpetually. Both insurance companies and banks require high liquidity."
+              "text": "An endowment has a long time horizon and low liquidity needs, as an endowment generally intends to fund its causes perpetually. Both insurance companies and banks require high liquidity."
             }
           ]
         },
@@ -671,11 +627,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a defined benefit plan, the employer promises a specific level of benefits to"
-            },
-            {
-              "type": "paragraph",
-              "text": "employees when they retire. Thus, the employer bears the investment risk."
+              "text": "In a defined benefit plan, the employer promises a specific level of benefits to employees when they retire. Thus, the employer bears the investment risk."
             }
           ]
         }
@@ -713,11 +665,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Open-end mutual funds do not have brokerage costs, as the shares are purchased"
-            },
-            {
-              "type": "paragraph",
-              "text": "from and redeemed with the fund company. Minimum investment amounts and management fees are typically higher for mutual funds."
+              "text": "Open-end mutual funds do not have brokerage costs, as the shares are purchased from and redeemed with the fund company. Minimum investment amounts and management fees are typically higher for mutual funds."
             }
           ]
         },
@@ -748,11 +696,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Private equity and venture capital funds play an active role in the management of"
-            },
-            {
-              "type": "paragraph",
-              "text": "companies. Private equity funds other than venture capital expect that the majority of investments will pay off. Venture capital funds do not typically restructure companies."
+              "text": "Private equity and venture capital funds play an active role in the management of companies. Private equity funds other than venture capital expect that the majority of investments will pay off. Venture capital funds do not typically restructure companies."
             }
           ]
         },
@@ -783,11 +727,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Hedge funds may not be offered for sale to the general public; they can be sold"
-            },
-            {
-              "type": "paragraph",
-              "text": "only to qualified investors who meet certain criteria. Hedge funds that hold equal values of long and short securities today make up only a small percentage of funds; many other kinds of hedge funds exist that make no attempt to be market neutral. Hedge funds have reporting requirements that are less strict than those of a typical investment firm."
+              "text": "Hedge funds may not be offered for sale to the general public; they can be sold only to qualified investors who meet certain criteria. Hedge funds that hold equal values of long and short securities today make up only a small percentage of funds; many other kinds of hedge funds exist that make no attempt to be market neutral. Hedge funds have reporting requirements that are less strict than those of a typical investment firm."
             }
           ]
         }

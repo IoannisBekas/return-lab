@@ -75,11 +75,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Wheat today and wheat six months from today are different products. Purchasing the commodity today will give the buyer the use of it if needed, while contracting for wheat to be delivered six months from today avoids storage costs (warehouse cost, insurance, and spoilage) and having cash tied up. An equation that considers these aspects is:"
+          "text": "Wheat today and wheat six months from today are different products. Purchasing the commodity today will give the buyer the use of it if needed, while contracting for wheat to be delivered six months from today avoids storage costs (warehouse cost, insurance, and spoilage) and having cash tied up. An equation that considers these aspects is: futures price ≈ spot price × (1 + risk-free rate) + storage costs"
         },
         {
           "type": "paragraph",
-          "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs – convenience yield"
+          "text": "– convenience yield"
         },
         {
           "type": "paragraph",
@@ -142,11 +142,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Exposure to commodity prices is most commonly achieved with derivatives. Other methods of exposure include commodity ETFs, managed futures funds, and specialized funds in specific commodity sectors."
-    },
-    {
-      "type": "paragraph",
-      "text": "futures price = spot price + net cost of carry"
+      "text": "Exposure to commodity prices is most commonly achieved with derivatives. Other methods of exposure include commodity ETFs, managed futures funds, and specialized funds in specific commodity sectors. futures price = spot price + net cost of carry"
     },
     {
       "type": "paragraph",
@@ -217,11 +213,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Timberland and farmland are relatively illiquid. While timberland mostly caters to"
-            },
-            {
-              "type": "paragraph",
-              "text": "institutional investors due to the large investment required, most farms are family owned (individual investors). Only timberland enjoys the flexibility option, whereby the trees can be cut when the market price of timber is high. Farm products need to be harvested when ready."
+              "text": "Timberland and farmland are relatively illiquid. While timberland mostly caters to institutional investors due to the large investment required, most farms are family owned (individual investors). Only timberland enjoys the flexibility option, whereby the trees can be cut when the market price of timber is high. Farm products need to be harvested when ready."
             }
           ]
         },
@@ -252,11 +244,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "When the cost of carry is negative, futures prices will be lower than the spot"
-            },
-            {
-              "type": "paragraph",
-              "text": "prices, which is called backwardation. Under backwardation, long-only investors will generally earn a higher return."
+              "text": "When the cost of carry is negative, futures prices will be lower than the spot prices, which is called backwardation. Under backwardation, long-only investors will generally earn a higher return."
             }
           ]
         },
@@ -287,11 +275,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because commodity prices tend to move with inflation rates (positive"
-            },
-            {
-              "type": "paragraph",
-              "text": "correlation), holding commodities can act as a hedge of inflation risk."
+              "text": "Because commodity prices tend to move with inflation rates (positive correlation), holding commodities can act as a hedge of inflation risk."
             }
           ]
         }

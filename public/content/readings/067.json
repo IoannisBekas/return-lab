@@ -62,7 +62,15 @@
         },
         {
           "type": "paragraph",
-          "text": "The exchange will credit the seller’s account for (1,950 – 1,947.50) × 100 = $250, increasing the margin balance to $5,250. The exchange will deduct (1,950 – 1,947.50) × 100 = $250 from the buyer’s account, decreasing the margin balance to $4,750. Because $4,750 is more than the maintenance (minimum) margin amount of $4,700, no additional deposit is required."
+          "text": "The exchange will credit the seller’s account for (1,950"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1,947.50) × 100 = $250, increasing the margin balance to $5,250. The exchange will deduct (1,950"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1,947.50) × 100 = $250 from the buyer’s account, decreasing the margin balance to $4,750. Because $4,750 is more than the maintenance (minimum) margin amount of $4,700, no additional deposit is required."
         },
         {
           "type": "paragraph",
@@ -70,11 +78,23 @@
         },
         {
           "type": "paragraph",
-          "text": "The exchange will credit the seller’s account for (1,947.50 – 1,945) × 100 = $250, increasing their margin balance to $5,500."
+          "text": "The exchange will credit the seller’s account for (1,947.50"
         },
         {
           "type": "paragraph",
-          "text": "The exchange will deduct (1,947.50 – 1,945) × 100 = $250 from the buyer’s account, decreasing the margin balance to $4,500. Because $4,500 is less than the maintenance (minimum) margin amount of $4,700, the buyer must deposit 5,000 – 4,500 = $500 into their margin account to return it to the initial margin amount of $5,000. At the end of Day 2, both parties have futures positions at the new settlement price of $1,945 per ounce."
+          "text": "– 1,945) × 100 = $250, increasing their margin balance to $5,500."
+        },
+        {
+          "type": "paragraph",
+          "text": "The exchange will deduct (1,947.50"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1,945) × 100 = $250 from the buyer’s account, decreasing the margin balance to $4,500. Because $4,500 is less than the maintenance (minimum) margin amount of $4,700, the buyer must deposit 5,000"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 4,500 = $500 into their margin account to return it to the initial margin amount of $5,000. At the end of Day 2, both parties have futures positions at the new settlement price of $1,945 per ounce."
         },
         {
           "type": "paragraph",
@@ -116,11 +136,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A company with 2-year floating-rate quarterly-pay note outstanding could enter such a swap as the fixed-rate payer, converting its floating-rate liability into a fixed-rate liability. It now makes fixed interest rate payments and can use the floating-rate payments from the counterparty to make the payments on its floating-rate debt. By"
-        },
-        {
-          "type": "paragraph",
-          "text": "entering into the swap, the company can hedge the interest rate risk (uncertainty about future quarterly rates) of their existing floating-rate liability."
+          "text": "A company with 2-year floating-rate quarterly-pay note outstanding could enter such a swap as the fixed-rate payer, converting its floating-rate liability into a fixed-rate liability. It now makes fixed interest rate payments and can use the floating-rate payments from the counterparty to make the payments on its floating-rate debt. By entering into the swap, the company can hedge the interest rate risk (uncertainty about future quarterly rates) of their existing floating-rate liability."
         },
         {
           "type": "paragraph",
@@ -177,11 +193,23 @@
         },
         {
           "type": "paragraph",
-          "text": "At expiration the payoff (value) of a call option to the owner is Max (0, S – X), where S is the price of the underlying at expiration and X is the exercise price of the call option. The Max () function tells us that if S < X at expiration, the option value is zero, that is, it expires worthless and will not be exercised."
+          "text": "At expiration the payoff (value) of a call option to the owner is Max (0, S"
         },
         {
           "type": "paragraph",
-          "text": "At expiration the payoff (value) of a put option to the owner is Max (0, X – S), where S is the price of the underlying at expiration and X is the exercise price of the put option. A put has a zero value at expiration unless X – S is positive."
+          "text": "– X), where S is the price of the underlying at expiration and X is the exercise price of the call option. The Max () function tells us that if S < X at expiration, the option value is zero, that is, it expires worthless and will not be exercised."
+        },
+        {
+          "type": "paragraph",
+          "text": "At expiration the payoff (value) of a put option to the owner is Max (0, X"
+        },
+        {
+          "type": "paragraph",
+          "text": "– S), where S is the price of the underlying at expiration and X is the exercise price of the put option. A put has a zero value at expiration unless X"
+        },
+        {
+          "type": "paragraph",
+          "text": "– S is positive."
         },
         {
           "type": "paragraph",
@@ -193,7 +221,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Note the risk exposures of call and put buyers and writers. The buyer of a put or call has no further obligation, so the maximum loss to the buyer is simply the amount they paid for the option. The writer of a call option has exposure to an unlimited loss because the maximum price of the underlying, S, is (theoretically) unlimited, so that the payoff S – X is unlimited. The payoff on a put option is X – S, so if the lower limit on S is zero, the maximum payoff on a put option is the exercise price, X."
+          "text": "Note the risk exposures of call and put buyers and writers. The buyer of a put or call has no further obligation, so the maximum loss to the buyer is simply the amount they paid for the option. The writer of a call option has exposure to an unlimited loss because the maximum price of the underlying, S, is (theoretically) unlimited, so that the payoff S"
+        },
+        {
+          "type": "paragraph",
+          "text": "– X is unlimited. The payoff on a put option is X"
+        },
+        {
+          "type": "paragraph",
+          "text": "– S, so if the lower limit on S is zero, the maximum payoff on a put option is the exercise price, X."
         },
         {
           "type": "heading",
@@ -201,11 +237,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Consider a call option with a premium of $5 and an exercise price of $50. This means the buyer pays $5 to the writer. At expiration, if the price of the stock is less than or equal to the $50 exercise price, the option has zero value, the buyer of the option is out $5, and the writer of the option is ahead $5. When the stock’s price exceeds $50, the option starts to gain (breakeven will come at $55, when the value of the stock equals the exercise price plus the option premium. Conversely, as the price of the stock moves"
-        },
-        {
-          "type": "paragraph",
-          "text": "upward, the seller of the option starts to lose (negative figures will start at $55, when the value of the stock equals the exercise price plus the option premium)."
+          "text": "Consider a call option with a premium of $5 and an exercise price of $50. This means the buyer pays $5 to the writer. At expiration, if the price of the stock is less than or equal to the $50 exercise price, the option has zero value, the buyer of the option is out $5, and the writer of the option is ahead $5. When the stock’s price exceeds $50, the option starts to gain (breakeven will come at $55, when the value of the stock equals the exercise price plus the option premium. Conversely, as the price of the stock moves upward, the seller of the option starts to lose (negative figures will start at $55, when the value of the stock equals the exercise price plus the option premium)."
         },
         {
           "type": "paragraph",
@@ -249,7 +281,15 @@
         },
         {
           "type": "paragraph",
-          "text": "The maximum loss for the buyer of the put is the $5 premium (at any S ≥ $50). The maximum gain to the buyer of the put is limited to the exercise price less the premium ($50 – $5 = $45). The potential loss to the writer of the put is the same amount. The breakeven price for the put buyer (seller) is the exercise price minus the option premium ($50 – $5 = $45). The maximum profit for the writer is the $5 premium (S ≥ $50). The profit (loss) of the put buyer will always equal the loss (profit) of the put writer."
+          "text": "The maximum loss for the buyer of the put is the $5 premium (at any S ≥ $50). The maximum gain to the buyer of the put is limited to the exercise price less the premium ($50"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $5 = $45). The potential loss to the writer of the put is the same amount. The breakeven price for the put buyer (seller) is the exercise price minus the option premium ($50"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $5 = $45). The maximum profit for the writer is the $5 premium (S ≥ $50). The profit (loss) of the put buyer will always equal the loss (profit) of the put writer."
         },
         {
           "type": "heading",
@@ -281,7 +321,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Profit will be computed as ending option value – initial option cost."
+          "text": "Profit will be computed as ending option value"
+        },
+        {
+          "type": "paragraph",
+          "text": "– initial option cost."
         },
         {
           "type": "paragraph",
@@ -289,19 +333,35 @@
         },
         {
           "type": "paragraph",
-          "text": "Long call: $0 – $3 = –$3. The option has no value, so the buyer loses the premium paid."
+          "text": "Long call: $0"
         },
         {
           "type": "paragraph",
-          "text": "Short call: $3 – $0 = $3. Because the option has no value, the call writer’s gain equals the premium received."
+          "text": "– $3 = –$3. The option has no value, so the buyer loses the premium paid."
         },
         {
           "type": "paragraph",
-          "text": "Long put: $5 – $0.75 = $4.25. The buyer paid $0.75 for an option that is now worth $5."
+          "text": "Short call: $3"
         },
         {
           "type": "paragraph",
-          "text": "Short put: $0.75 – $5 = –$4.25. The seller received $0.75 for writing the option, but the option will be exercised so the seller will lose $5 at expiration."
+          "text": "– $0 = $3. Because the option has no value, the call writer’s gain equals the premium received."
+        },
+        {
+          "type": "paragraph",
+          "text": "Long put: $5"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $0.75 = $4.25. The buyer paid $0.75 for an option that is now worth $5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Short put: $0.75"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $5 = –$4.25. The seller received $0.75 for writing the option, but the option will be exercised so the seller will lose $5 at expiration."
         },
         {
           "type": "paragraph",
@@ -309,11 +369,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Long call: –$3 + $3 = $0. The buyer paid $3 for the option, and it is now in the money by $3. Hence, the net profit is zero. Short call: $3 – $3 = $0. The seller received $3 for writing the option and now faces a –$3 valuation because the buyer will exercise the option, for a net profit of zero."
+          "text": "Long call: –$3 + $3 = $0. The buyer paid $3 for the option, and it is now in the money by $3. Hence, the net profit is zero. Short call: $3"
         },
         {
           "type": "paragraph",
-          "text": "Long put: –$0.75 – $0 = –$0.75. The buyer paid $0.75 for the put option and the option now has no value. Short put: $0.75 – $0 = $0.75. The seller received $0.75 for writing the option and it has zero value at expiration."
+          "text": "– $3 = $0. The seller received $3 for writing the option and now faces a –$3 valuation because the buyer will exercise the option, for a net profit of zero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Long put: –$0.75"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $0 = –$0.75. The buyer paid $0.75 for the put option and the option now has no value. Short put: $0.75"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $0 = $0.75. The seller received $0.75 for writing the option and it has zero value at expiration."
         },
         {
           "type": "paragraph",
@@ -451,11 +523,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Futures contracts are marked to market daily. Forward contracts typically are not,"
-            },
-            {
-              "type": "paragraph",
-              "text": "but could be if there is central clearing party."
+              "text": "Futures contracts are marked to market daily. Forward contracts typically are not, but could be if there is central clearing party."
             }
           ]
         },
@@ -486,11 +554,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Forward contracts involve counterparty risk; futures contracts trade through a"
-            },
-            {
-              "type": "paragraph",
-              "text": "clearinghouse. Because futures contracts trade on organized exchanges, they have greater liquidity and transparency than forward contracts."
+              "text": "Forward contracts involve counterparty risk; futures contracts trade through a clearinghouse. Because futures contracts trade on organized exchanges, they have greater liquidity and transparency than forward contracts."
             }
           ]
         }
@@ -528,11 +592,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A swap is an agreement to buy or sell an underlying asset periodically over the life"
-            },
-            {
-              "type": "paragraph",
-              "text": "of the swap contract. It is equivalent to a series of forward contracts."
+              "text": "A swap is an agreement to buy or sell an underlying asset periodically over the life of the swap contract. It is equivalent to a series of forward contracts."
             }
           ]
         },
@@ -592,11 +652,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The exercise value of a put option is positive at expiration if the underlying asset"
-            },
-            {
-              "type": "paragraph",
-              "text": "price is less than the exercise price. Its exercise value is zero if the underlying asset price is greater than or equal to the exercise price. The exercise value of an option cannot be negative because the holder can allow it to expire unexercised."
+              "text": "The exercise value of a put option is positive at expiration if the underlying asset price is less than the exercise price. Its exercise value is zero if the underlying asset price is greater than or equal to the exercise price. The exercise value of an option cannot be negative because the holder can allow it to expire unexercised."
             }
           ]
         },
@@ -627,11 +683,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the underlying asset price is greater than the exercise price of a call option, the"
-            },
-            {
-              "type": "paragraph",
-              "text": "value of the option is equal to the difference. If the underlying asset price is less than the exercise price, a call option expires with a value of zero."
+              "text": "If the underlying asset price is greater than the exercise price of a call option, the value of the option is equal to the difference. If the underlying asset price is less than the exercise price, a call option expires with a value of zero."
             }
           ]
         },
@@ -662,11 +714,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the stock price at expiration is less than the exercise price, the buyer of"
-            },
-            {
-              "type": "paragraph",
-              "text": "the put option will exercise it against the writer. The writer will have to pay $40 for the stock and can only sell it for $37 in the market. However, the put writer collected the $1 premium for writing the option, which reduces the net loss to $2."
+              "text": "Because the stock price at expiration is less than the exercise price, the buyer of the put option will exercise it against the writer. The writer will have to pay $40 for the stock and can only sell it for $37 in the market. However, the put writer collected the $1 premium for writing the option, which reduces the net loss to $2."
             }
           ]
         },

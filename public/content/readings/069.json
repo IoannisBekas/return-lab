@@ -54,11 +54,23 @@
         },
         {
           "type": "paragraph",
-          "text": "If the forward contract price is 32 (F0(1) > 31.50), the profitable arbitrage is to sell the forward (because the forward price is “too high”) and buy a share of stock. At t = 1, deliver the share under the forward contract and receive 32, for a return of 32/30 – 1 = 6.67%, which is higher than the risk-free rate. We can also view this transaction as borrowing 30 at the risk-free rate (5%) to buy the Acme share at t = 0, and at t = 1 paying 31.50 to settle the loan. The share delivered under the forward has a contract price of 32, so the arbitrageur has an arbitrage profit of 32 – 31.50 = 0.50 with no risk and no initial cost."
+          "text": "If the forward contract price is 32 (F0(1) > 31.50), the profitable arbitrage is to sell the forward (because the forward price is “too high”) and buy a share of stock. At t = 1, deliver the share under the forward contract and receive 32, for a return of 32/30"
         },
         {
           "type": "paragraph",
-          "text": "If the forward contract price is 31 (F0(1) < 31.50), the profitable arbitrage is to buy the forward and sell short an Acme share at t = 0. The proceeds of the short sale, 30, can be invested at the risk-free rate to produce 30(1.05) = 31.50 at t = 1. The forward contract requires the purchase of a share of Acme for 31, which the investor can return to close out the short position. The profit to an arbitrageur is 31.50 – 31 = 0.50. With no cash investment at t = 0, the investor receives an arbitrage profit of 0.50 at t = 1."
+          "text": "– 1 = 6.67%, which is higher than the risk-free rate. We can also view this transaction as borrowing 30 at the risk-free rate (5%) to buy the Acme share at t = 0, and at t = 1 paying 31.50 to settle the loan. The share delivered under the forward has a contract price of 32, so the arbitrageur has an arbitrage profit of 32"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 31.50 = 0.50 with no risk and no initial cost."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the forward contract price is 31 (F0(1) < 31.50), the profitable arbitrage is to buy the forward and sell short an Acme share at t = 0. The proceeds of the short sale, 30, can be invested at the risk-free rate to produce 30(1.05) = 31.50 at t = 1. The forward contract requires the purchase of a share of Acme for 31, which the investor can return to close out the short position. The profit to an arbitrageur is 31.50"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 31 = 0.50. With no cash investment at t = 0, the investor receives an arbitrage profit of 0.50 at t = 1."
         },
         {
           "type": "paragraph",
@@ -74,11 +86,23 @@
         },
         {
           "type": "paragraph",
-          "text": "A long forward on an Acme share can be replicated by borrowing 30 at 5% to purchase an Acme share, and repaying the loan on the settlement date of the forward. At settlement (t = 1), the payoff on the replication is S1 – 30(1.05) = S1 – 31.50 (value of one share minus the repayment of the loan), the same as the payoff on a long forward at 31.50, for any value of Acme shares at settlement."
+          "text": "A long forward on an Acme share can be replicated by borrowing 30 at 5% to purchase an Acme share, and repaying the loan on the settlement date of the forward. At settlement (t = 1), the payoff on the replication is S1"
         },
         {
           "type": "paragraph",
-          "text": "A short forward on an Acme share can be replicated by shorting an Acme share and investing the proceeds of 30 at 5%. At settlement the investor receives 31.50 from the investment of short sale proceeds, and must buy a share of Acme for S1. The payoff on the replicating portfolio is 31.50 – S1, the same as the payoff on a short forward at 31.50, for any value of Acme shares at settlement."
+          "text": "– 30(1.05) = S1"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 31.50 (value of one share minus the repayment of the loan), the same as the payoff on a long forward at 31.50, for any value of Acme shares at settlement."
+        },
+        {
+          "type": "paragraph",
+          "text": "A short forward on an Acme share can be replicated by shorting an Acme share and investing the proceeds of 30 at 5%. At settlement the investor receives 31.50 from the investment of short sale proceeds, and must buy a share of Acme for S1. The payoff on the replicating portfolio is 31.50"
+        },
+        {
+          "type": "paragraph",
+          "text": "– S1, the same as the payoff on a short forward at 31.50, for any value of Acme shares at settlement."
         },
         {
           "type": "paragraph",
@@ -135,11 +159,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Next consider a case where holding the asset has benefits, but no costs. Returning to our example of a 1-year forward on a share of Acme stock trading at 30, now consider the costs of buying and holding an Acme share that pays a dividend of $1 during the life of the forward contract. In this case, an arbitrageur can now borrow the present value of the dividend (discounted at Rf), and repay that loan when the dividend is received. The cost to buy and hold Acme stock with an annual dividend of $1 is [30 – PV0(1)] (1.05) = 30(1.05) – 1. This illustrates that benefits of holding an asset decrease its no-arbitrage forward price."
+          "text": "Next consider a case where holding the asset has benefits, but no costs. Returning to our example of a 1-year forward on a share of Acme stock trading at 30, now consider the costs of buying and holding an Acme share that pays a dividend of $1 during the life of the forward contract. In this case, an arbitrageur can now borrow the present value of the dividend (discounted at Rf), and repay that loan when the dividend is received. The cost to buy and hold Acme stock with an annual dividend of $1 is [30"
         },
         {
           "type": "paragraph",
-          "text": "The no-arbitrage price of a forward on an asset that has both costs and benefits of holding the asset is simply [S0 + PV0 (costs) – PV0(benefit)](1 + Rf)T."
+          "text": "– PV0(1)] (1.05) = 30(1.05)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1. This illustrates that benefits of holding an asset decrease its no-arbitrage forward price."
+        },
+        {
+          "type": "paragraph",
+          "text": "The no-arbitrage price of a forward on an asset that has both costs and benefits of holding the asset is simply [S0 + PV0 (costs)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– PV0(benefit)](1 + Rf)T."
         },
         {
           "type": "paragraph",
@@ -209,11 +245,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If we convert the effective annual rates to equivalent stated annual rates with continuous compounding, we get RUSD = ln 1.02 = 1.98% and REUR = ln 1.03 = 2.96%. In"
-        },
-        {
-          "type": "paragraph",
-          "text": "this case we can say: forward exchange rate = 1.10 × e⁽⁰.⁰¹⁹⁸−⁰.⁰²⁹⁶⁾ = 1.0893."
+          "text": "If we convert the effective annual rates to equivalent stated annual rates with continuous compounding, we get RUSD = ln 1.02 = 1.98% and REUR = ln 1.03 = 2.96%. In this case we can say: forward exchange rate = 1.10 × e⁽⁰.⁰¹⁹⁸−⁰.⁰²⁹⁶⁾ = 1.0893."
         }
       ]
     }
@@ -300,11 +332,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Derivatives pricing models use the risk-free rate to discount future cash flows"
-            },
-            {
-              "type": "paragraph",
-              "text": "because they are based on arbitrage relationships that are theoretically riskless."
+              "text": "Derivatives pricing models use the risk-free rate to discount future cash flows because they are based on arbitrage relationships that are theoretically riskless."
             }
           ]
         },
@@ -335,11 +363,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Arbitrage forces two assets with the same expected future value to sell for the"
-            },
-            {
-              "type": "paragraph",
-              "text": "same current price."
+              "text": "Arbitrage forces two assets with the same expected future value to sell for the same current price."
             }
           ]
         },
@@ -370,15 +394,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Convenience yield refers to nonmonetary benefits from holding an asset. One"
-            },
-            {
-              "type": "paragraph",
-              "text": "example of convenience yield is the advantage of owning an asset that is difficult"
-            },
-            {
-              "type": "paragraph",
-              "text": "to sell short when it is perceived to be overvalued. Interest and dividends are monetary benefits. Storage and insurance are carrying costs."
+              "text": "Convenience yield refers to nonmonetary benefits from holding an asset. One example of convenience yield is the advantage of owning an asset that is difficult to sell short when it is perceived to be overvalued. Interest and dividends are monetary benefits. Storage and insurance are carrying costs."
             }
           ]
         },
@@ -409,11 +425,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Borrowing S0 at Rf to buy the underlying asset at S0 has a zero cost and pays the"
-            },
-            {
-              "type": "paragraph",
-              "text": "spot price of the underlying asset minus the loan repayment of at time = T of S0(1"
+              "text": "Borrowing S0 at Rf to buy the underlying asset at S0 has a zero cost and pays the spot price of the underlying asset minus the loan repayment of at time = T of S0(1"
             },
             {
               "type": "paragraph",
@@ -448,11 +460,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "When the opportunity cost of funds (Rf) and storage costs just offset the benefits"
-            },
-            {
-              "type": "paragraph",
-              "text": "of holding the commodity, the no-arbitrage forward price is equal to the current spot price of the underlying commodity."
+              "text": "When the opportunity cost of funds (Rf) and storage costs just offset the benefits of holding the commodity, the no-arbitrage forward price is equal to the current spot price of the underlying commodity."
             }
           ]
         }

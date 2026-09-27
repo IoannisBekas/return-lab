@@ -208,11 +208,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Unexpected changes in tax laws or the regulatory environment can impose large costs on an organization. The political nature of such changes makes them quite difficult to predict. Subjective estimates, rather than data-driven quantitative estimates, are"
-        },
-        {
-          "type": "paragraph",
-          "text": "necessary. As is often the case, even a subjective, non-quantitative estimate of risk probabilities and magnitudes is better than not addressing the risk factor at all."
+          "text": "Unexpected changes in tax laws or the regulatory environment can impose large costs on an organization. The political nature of such changes makes them quite difficult to predict. Subjective estimates, rather than data-driven quantitative estimates, are necessary. As is often the case, even a subjective, non-quantitative estimate of risk probabilities and magnitudes is better than not addressing the risk factor at all."
         },
         {
           "type": "heading",
@@ -421,11 +417,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An investor can select securities to achieve a given level of portfolio risk. Returns"
-            },
-            {
-              "type": "paragraph",
-              "text": "cannot be controlled."
+              "text": "An investor can select securities to achieve a given level of portfolio risk. Returns cannot be controlled."
             }
           ]
         },
@@ -456,11 +448,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A risk management framework includes the procedures, analytical tools, and"
-            },
-            {
-              "type": "paragraph",
-              "text": "infrastructure to conduct the risk governance process. It includes all of the items listed with the exception of establishing position limits, which is an example of the operational implementation of a system of risk management."
+              "text": "A risk management framework includes the procedures, analytical tools, and infrastructure to conduct the risk governance process. It includes all of the items listed with the exception of establishing position limits, which is an example of the operational implementation of a system of risk management."
             }
           ]
         },
@@ -491,11 +479,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Risk governance should be approached from an enterprise view, with senior"
-            },
-            {
-              "type": "paragraph",
-              "text": "management determining risk tolerance and a risk management strategy on an organization-wide level."
+              "text": "Risk governance should be approached from an enterprise view, with senior management determining risk tolerance and a risk management strategy on an organization-wide level."
             }
           ]
         },
@@ -526,11 +510,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Risk management requires establishment of a risk tolerance (maximum"
-            },
-            {
-              "type": "paragraph",
-              "text": "acceptable level of risk) for the organization and will attempt to maximize expected returns for that level of risk. Some significant risks the firm is exposed to may be borne by the firm or even increased as a result of risk management."
+              "text": "Risk management requires establishment of a risk tolerance (maximum acceptable level of risk) for the organization and will attempt to maximize expected returns for that level of risk. Some significant risks the firm is exposed to may be borne by the firm or even increased as a result of risk management."
             }
           ]
         },
@@ -561,11 +541,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Risk budgeting refers to selecting assets or securities by their risk characteristics"
-            },
-            {
-              "type": "paragraph",
-              "text": "up to the maximum allowable amount of risk. The maximum amount of risk to be taken is established through risk governance."
+              "text": "Risk budgeting refers to selecting assets or securities by their risk characteristics up to the maximum allowable amount of risk. The maximum amount of risk to be taken is established through risk governance."
             }
           ]
         },
@@ -631,11 +607,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Risk shifting changes the distribution of possible outcomes, typically through the"
-            },
-            {
-              "type": "paragraph",
-              "text": "use of derivative securities. Risk shifting is one technique for mitigating risk. Transferring risk to an insurance company is termed risk transfer."
+              "text": "Risk shifting changes the distribution of possible outcomes, typically through the use of derivative securities. Risk shifting is one technique for mitigating risk. Transferring risk to an insurance company is termed risk transfer."
             }
           ]
         }

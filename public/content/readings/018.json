@@ -78,11 +78,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Consider a situation in which the nominal USD/EUR exchange rate is unchanged at 1.00 over a period and the price level in the United States is unchanged, while prices in the"
-        },
-        {
-          "type": "paragraph",
-          "text": "Eurozone have increased by 5%. Eurozone goods that cost 100 euros at the beginning of the period cost 105 euros at the end of the period. With the nominal exchange rate unchanged, the purchasing power of the USD in the Eurozone has decreased, because exchanging 100 USD for 100 EUR will now buy only 100 / 105 = 95.2% of the goods 100 EUR could buy at the beginning of the period."
+          "text": "Consider a situation in which the nominal USD/EUR exchange rate is unchanged at 1.00 over a period and the price level in the United States is unchanged, while prices in the Eurozone have increased by 5%. Eurozone goods that cost 100 euros at the beginning of the period cost 105 euros at the end of the period. With the nominal exchange rate unchanged, the purchasing power of the USD in the Eurozone has decreased, because exchanging 100 USD for 100 EUR will now buy only 100 / 105 = 95.2% of the goods 100 EUR could buy at the beginning of the period."
         },
         {
           "type": "paragraph",
@@ -124,11 +120,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In the following example, we calculate the end-of-period real $/£ exchange rate when the nominal $/£ exchange rate has decreased over the period (which tends to decrease the real exchange rate and increase the purchasing power of the price currency)—and when the price level in the United Kingdom has increased by more than the price level in the United States over the period (which tends to increase the real exchange rate and decrease the purchasing power of the price currency). The relative increase in U.K."
-        },
-        {
-          "type": "paragraph",
-          "text": "prices has reduced the effects of the decrease in the nominal exchange rate on the increase in the purchasing power of the USD."
+          "text": "In the following example, we calculate the end-of-period real $/£ exchange rate when the nominal $/£ exchange rate has decreased over the period (which tends to decrease the real exchange rate and increase the purchasing power of the price currency)—and when the price level in the United Kingdom has increased by more than the price level in the United States over the period (which tends to increase the real exchange rate and decrease the purchasing power of the price currency). The relative increase in U.K. prices has reduced the effects of the decrease in the nominal exchange rate on the increase in the purchasing power of the USD."
         },
         {
           "type": "heading",
@@ -168,11 +160,7 @@
         },
         {
           "type": "paragraph",
-          "text": "On the other hand, it is not correct to say that the dollar has appreciated by 2.11%. To calculate the percentage appreciation of the dollar, we need to convert the quotes to EUR/USD. So, our beginning quote of 1.42 USD/EUR becomes 1 / 1.42 = 0.7042 EUR/USD, and our ending quote of 1.39 USD/EUR becomes 1 / 1.39 = 0.7194 EUR/USD. Using these exchange rates, we can calculate the change in the euro price of a dollar as 0.7194 / 0.7042 − 1 = 0.0216 = 2.16%. In this case, it is correct to say that the dollar has appreciated 2.16% with respect to the euro. Note that for the given exchange rate"
-        },
-        {
-          "type": "paragraph",
-          "text": "quotes, the percentage appreciation of the dollar is not the same as the percentage depreciation in the euro."
+          "text": "On the other hand, it is not correct to say that the dollar has appreciated by 2.11%. To calculate the percentage appreciation of the dollar, we need to convert the quotes to EUR/USD. So, our beginning quote of 1.42 USD/EUR becomes 1 / 1.42 = 0.7042 EUR/USD, and our ending quote of 1.39 USD/EUR becomes 1 / 1.39 = 0.7194 EUR/USD. Using these exchange rates, we can calculate the change in the euro price of a dollar as 0.7194 / 0.7042 − 1 = 0.0216 = 2.16%. In this case, it is correct to say that the dollar has appreciated 2.16% with respect to the euro. Note that for the given exchange rate quotes, the percentage appreciation of the dollar is not the same as the percentage depreciation in the euro."
         }
       ]
     },
@@ -207,11 +195,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A currency board arrangement is an explicit commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate. A notable example of"
-        },
-        {
-          "type": "paragraph",
-          "text": "such an arrangement is Hong Kong. In Hong Kong, currency is (and may be) only issued when fully backed by holdings of an equivalent amount of U.S. dollars. The Hong Kong Monetary Authority can earn interest on its U.S. dollar balances. With dollarization, there is no such income, as the income is earned by the U.S. Federal Reserve when it buys interest-bearing assets with the U.S. currency it issues. While the monetary authority gives up the ability to conduct independent monetary policy and essentially imports the inflation rate of the outside currency, there may be some latitude to affect interest rates over the short term."
+          "text": "A currency board arrangement is an explicit commitment to exchange domestic currency for a specified foreign currency at a fixed exchange rate. A notable example of such an arrangement is Hong Kong. In Hong Kong, currency is (and may be) only issued when fully backed by holdings of an equivalent amount of U.S. dollars. The Hong Kong Monetary Authority can earn interest on its U.S. dollar balances. With dollarization, there is no such income, as the income is earned by the U.S. Federal Reserve when it buys interest-bearing assets with the U.S. currency it issues. While the monetary authority gives up the ability to conduct independent monetary policy and essentially imports the inflation rate of the outside currency, there may be some latitude to affect interest rates over the short term."
         },
         {
           "type": "paragraph",
@@ -457,11 +441,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An increase in the real exchange rate USD/EUR (the number of USD per one EUR)"
-            },
-            {
-              "type": "paragraph",
-              "text": "means that a euro is worth more in purchasing power (real) terms in the United States. Changes in a real exchange rate depend on the change in the nominal exchange rate relative to the difference in inflation. By itself, a real exchange rate does not indicate the directions or degrees of change in either the nominal exchange rate or the inflation difference."
+              "text": "An increase in the real exchange rate USD/EUR (the number of USD per one EUR) means that a euro is worth more in purchasing power (real) terms in the United States. Changes in a real exchange rate depend on the change in the nominal exchange rate relative to the difference in inflation. By itself, a real exchange rate does not indicate the directions or degrees of change in either the nominal exchange rate or the inflation difference."
             }
           ]
         },
@@ -558,11 +538,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The CAD has appreciated because it is worth a larger number of JPY. The"
-            },
-            {
-              "type": "paragraph",
-              "text": "percentage appreciation is (78 − 75) / 75 = 4.0%. To calculate the percentage depreciation of the JPY against the CAD, convert the exchange rates to make JPY the base currency: 1 / 75 = 0.0133 CAD/JPY and 1 / 78 = 0.0128 CAD/JPY. Percentage depreciation = (0.0128 − 0.0133) / 0.0133 = −3.8%."
+              "text": "The CAD has appreciated because it is worth a larger number of JPY. The percentage appreciation is (78 − 75) / 75 = 4.0%. To calculate the percentage depreciation of the JPY against the CAD, convert the exchange rates to make JPY the base currency: 1 / 75 = 0.0133 CAD/JPY and 1 / 78 = 0.0128 CAD/JPY. Percentage depreciation = (0.0128 − 0.0133) / 0.0133 = −3.8%."
             }
           ]
         }
@@ -600,11 +576,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "This exchange rate regime is a currency board arrangement. The country has not"
-            },
-            {
-              "type": "paragraph",
-              "text": "formally dollarized because it continues to issue a domestic currency. A conventional fixed peg allows for a small degree of fluctuation around the target exchange rate."
+              "text": "This exchange rate regime is a currency board arrangement. The country has not formally dollarized because it continues to issue a domestic currency. A conventional fixed peg allows for a small degree of fluctuation around the target exchange rate."
             }
           ]
         },
@@ -635,11 +607,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An improvement in a trade deficit requires that domestic saving increase relative"
-            },
-            {
-              "type": "paragraph",
-              "text": "to domestic investment, which would decrease a capital account surplus. Decreasing expenditures relative to income means domestic savings increase. Decreasing domestic saving relative to domestic investment is consistent with a larger capital account surplus (an increase in net foreign borrowing) and a greater trade deficit."
+              "text": "An improvement in a trade deficit requires that domestic saving increase relative to domestic investment, which would decrease a capital account surplus. Decreasing expenditures relative to income means domestic savings increase. Decreasing domestic saving relative to domestic investment is consistent with a larger capital account surplus (an increase in net foreign borrowing) and a greater trade deficit."
             }
           ]
         },
@@ -670,11 +638,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Decreasing the volatility of domestic asset prices may be a goal of a government"
-            },
-            {
-              "type": "paragraph",
-              "text": "that imposes capital restrictions. Other typical goals include keeping domestic interest rates low and protecting certain domestic industries, such as the defense industry."
+              "text": "Decreasing the volatility of domestic asset prices may be a goal of a government that imposes capital restrictions. Other typical goals include keeping domestic interest rates low and protecting certain domestic industries, such as the defense industry."
             }
           ]
         }

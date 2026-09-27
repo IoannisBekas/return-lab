@@ -249,7 +249,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. A linear relationship exists between the dependent and the independent variables.\n2. The variance of the residual term is constant for all observations"
+          "text": "1. A linear relationship exists between the dependent and the independent variables."
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The variance of the residual term is constant for all observations"
         },
         {
           "type": "paragraph",
@@ -257,11 +261,11 @@
         },
         {
           "type": "paragraph",
-          "text": "3. The residual term is independently distributed; that is, the residual for one"
+          "text": "3. The residual term is independently distributed; that is, the residual for one observation is not correlated with that of another observation (or, the paired x and y observations are independent of each other)."
         },
         {
           "type": "paragraph",
-          "text": "observation is not correlated with that of another observation (or, the paired x and y observations are independent of each other).\n4. The residual term is normally distributed."
+          "text": "4. The residual term is normally distributed."
         },
         {
           "type": "heading",
@@ -313,11 +317,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Suppose we collect a company’s monthly sales and plot them against monthly GDP as in"
-        },
-        {
-          "type": "paragraph",
-          "text": "Figure 10.5, Panel A, and observe that some prediction errors (the unfilled dots) are noticeably larger than others. To investigate this, we plot the residuals versus time, as in Panel B. The residuals plot illustrates that there are large prediction errors every 12 months (in December). This suggests that there is seasonality in sales such that December sales (the unfilled dots in Figure 10.5) are noticeably farther from their predicted values than sales for the other months. If the relationship between X and Y is not independent, the residuals are not independent, and our estimates of the model parameters’ variances will not be correct."
+          "text": "Suppose we collect a company’s monthly sales and plot them against monthly GDP as in Figure 10.5, Panel A, and observe that some prediction errors (the unfilled dots) are noticeably larger than others. To investigate this, we plot the residuals versus time, as in Panel B. The residuals plot illustrates that there are large prediction errors every 12 months (in December). This suggests that there is seasonality in sales such that December sales (the unfilled dots in Figure 10.5) are noticeably farther from their predicted values than sales for the other months. If the relationship between X and Y is not independent, the residuals are not independent, and our estimates of the model parameters’ variances will not be correct."
         },
         {
           "type": "heading",
@@ -411,11 +411,7 @@
         },
         {
           "type": "paragraph",
-          "text": "You probably will not be surprised to learn the following:"
-        },
-        {
-          "type": "paragraph",
-          "text": "total variation = explained variation + unexplained variation or: SST = SSR + SSE"
+          "text": "You probably will not be surprised to learn the following: total variation = explained variation + unexplained variation or: SST = SSR + SSE"
         },
         {
           "type": "paragraph",
@@ -627,11 +623,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The estimated slope coefficient from the ABC example is 0.64 with a standard error equal to 0.26. Assuming that the sample has 36 observations, determine if the"
-        },
-        {
-          "type": "paragraph",
-          "text": "estimated slope coefficient is significantly different than zero at a 5% level of significance."
+          "text": "The estimated slope coefficient from the ABC example is 0.64 with a standard error equal to 0.26. Assuming that the sample has 36 observations, determine if the estimated slope coefficient is significantly different than zero at a 5% level of significance."
         },
         {
           "type": "heading",
@@ -971,7 +963,15 @@
     },
     {
       "type": "paragraph",
-      "text": "1. A linear relationship exists between the dependent and the independent variable.\n2. The variance of the residual term is constant (homoskedasticity).\n3. The residual term is independently distributed (residuals are uncorrelated)."
+      "text": "1. A linear relationship exists between the dependent and the independent variable."
+    },
+    {
+      "type": "paragraph",
+      "text": "2. The variance of the residual term is constant (homoskedasticity)."
+    },
+    {
+      "type": "paragraph",
+      "text": "3. The residual term is independently distributed (residuals are uncorrelated)."
     },
     {
       "type": "paragraph",
@@ -1152,11 +1152,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The slope coefficient is best interpreted as the predicted change in the dependent"
-            },
-            {
-              "type": "paragraph",
-              "text": "variable for a 1-unit change in the independent variable; if the slope coefficient estimate is 10.0 and the independent variable changes by 1 unit, the dependent variable is expected to change by 10 units. The intercept term is best interpreted as the value of the dependent variable when the independent variable is equal to zero."
+              "text": "The slope coefficient is best interpreted as the predicted change in the dependent variable for a 1-unit change in the independent variable; if the slope coefficient estimate is 10.0 and the independent variable changes by 1 unit, the dependent variable is expected to change by 10 units. The intercept term is best interpreted as the value of the dependent variable when the independent variable is equal to zero."
             }
           ]
         },
@@ -1187,11 +1183,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The model does not assume that the dependent variable is uncorrelated with the"
-            },
-            {
-              "type": "paragraph",
-              "text": "residuals. It does assume that the independent variable is uncorrelated with the residuals."
+              "text": "The model does not assume that the dependent variable is uncorrelated with the residuals. It does assume that the independent variable is uncorrelated with the residuals."
             }
           ]
         }
@@ -1229,11 +1221,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In simple linear regression, the appropriate degrees of freedom for both"
-            },
-            {
-              "type": "paragraph",
-              "text": "confidence intervals is the number of observations in the sample (n) minus two."
+              "text": "In simple linear regression, the appropriate degrees of freedom for both confidence intervals is the number of observations in the sample (n) minus two."
             }
           ]
         },
@@ -1271,11 +1259,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In this regression, a1 is the intercept term. To test the statistical significance"
-            },
-            {
-              "type": "paragraph",
-              "text": "means to test the null hypothesis that a1 is equal to zero, versus the alternative that a1 is not equal to zero."
+              "text": "In this regression, a1 is the intercept term. To test the statistical significance means to test the null hypothesis that a1 is equal to zero, versus the alternative that a1 is not equal to zero."
             }
           ]
         },
@@ -1306,11 +1290,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The regression sum of squares measures the amount of variation in the dependent"
-            },
-            {
-              "type": "paragraph",
-              "text": "variable explained by the independent variable (i.e., the explained variation). The sum of squared errors measures the variation in the dependent variable not explained by the independent variable. The mean squared error is equal to the sum of squared errors divided by its degrees of freedom."
+              "text": "The regression sum of squares measures the amount of variation in the dependent variable explained by the independent variable (i.e., the explained variation). The sum of squared errors measures the variation in the dependent variable not explained by the independent variable. The mean squared error is equal to the sum of squared errors divided by its degrees of freedom."
             }
           ]
         }
@@ -1348,11 +1328,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The estimate of Y, given X = 10, is Y = 5 + 3.5(10) = 40. The critical value for a 90%"
-            },
-            {
-              "type": "paragraph",
-              "text": "confidence interval with a large sample size (z-statistic) is approximately 1.65. Given the standard error of the forecast of 2.5, the confidence interval for the estimated value of Y is 40 +/− 1.65(2.5) = 35.875 to 44.125."
+              "text": "The estimate of Y, given X = 10, is Y = 5 + 3.5(10) = 40. The critical value for a 90% confidence interval with a large sample size (z-statistic) is approximately 1.65. Given the standard error of the forecast of 2.5, the confidence interval for the estimated value of Y is 40 +/− 1.65(2.5) = 35.875 to 44.125."
             }
           ]
         },
@@ -1383,11 +1359,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The appropriate model would be a lin-log model, in which the values of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "dependent variable (Y ) are regressed on the natural logarithms of the independent variable (X ): Y = b0 + b1 ln(X)."
+              "text": "The appropriate model would be a lin-log model, in which the values of the dependent variable (Y ) are regressed on the natural logarithms of the independent variable (X ): Y = b0 + b1 ln(X)."
             }
           ]
         }

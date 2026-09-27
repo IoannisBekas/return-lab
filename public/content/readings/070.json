@@ -18,7 +18,11 @@
         },
         {
           "type": "paragraph",
-          "text": "S0(1 + Rf)T. At initiation, the value of such a forward is: V0(T) = S0 – F0(T) (1 + Rf)−T = 0."
+          "text": "S0(1 + Rf)T. At initiation, the value of such a forward is: V0(T) = S0"
+        },
+        {
+          "type": "paragraph",
+          "text": "– F0(T) (1 + Rf)−T = 0."
         },
         {
           "type": "paragraph",
@@ -26,7 +30,11 @@
         },
         {
           "type": "paragraph",
-          "text": "St – F0(T) (1 + Rf)−⁽T−t⁾. This is simply the current spot price of the asset minus the present value of the forward contract price."
+          "text": "St"
+        },
+        {
+          "type": "paragraph",
+          "text": "– F0(T) (1 + Rf)−⁽T−t⁾. This is simply the current spot price of the asset minus the present value of the forward contract price."
         },
         {
           "type": "paragraph",
@@ -38,7 +46,15 @@
         },
         {
           "type": "paragraph",
-          "text": "At expiration, time T, the value of a forward to the buyer is = ST – F0(T)(1 + Rf)−⁽T−T⁾ = ST – F0(T). The long buys an asset valued at ST for the forward contract price of F0(T), gaining if ST > F0(T), losing if ST < F0(T). If the forward buyer has a gain, the forward seller has an equal loss, and vice versa."
+          "text": "At expiration, time T, the value of a forward to the buyer is = ST"
+        },
+        {
+          "type": "paragraph",
+          "text": "– F0(T)(1 + Rf)−⁽T−T⁾ = ST"
+        },
+        {
+          "type": "paragraph",
+          "text": "– F0(T). The long buys an asset valued at ST for the forward contract price of F0(T), gaining if ST > F0(T), losing if ST < F0(T). If the forward buyer has a gain, the forward seller has an equal loss, and vice versa."
         },
         {
           "type": "paragraph",
@@ -46,7 +62,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Vt(T) = [St+ PVt (costs) – PVt(benefit)] – F0(T) (1 + Rf)−⁽T−t⁾"
+          "text": "Vt(T) = [St+ PVt (costs)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– PVt(benefit)]"
+        },
+        {
+          "type": "paragraph",
+          "text": "– F0(T) (1 + Rf)−⁽T−t⁾"
         },
         {
           "type": "question",
@@ -91,11 +115,7 @@
         },
         {
           "type": "paragraph",
-          "text": "As an example, lending for two years at Z2 would produce the same ending value as lending for one year at Z1 and, at t = 1, lending the proceeds of that loan for one year at"
-        },
-        {
-          "type": "paragraph",
-          "text": "F1,1. That is, (1 + Z2)² = (1 + Z1)(1 + F1,1). When this condition holds, F1,1 is the implied (no-arbitrage) forward rate."
+          "text": "As an example, lending for two years at Z2 would produce the same ending value as lending for one year at Z1 and, at t = 1, lending the proceeds of that loan for one year at F1,1. That is, (1 + Z2)² = (1 + Z1)(1 + F1,1). When this condition holds, F1,1 is the implied (no-arbitrage) forward rate."
         },
         {
           "type": "heading",
@@ -127,11 +147,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Lending $100 for two years at Z2 (2%) results in a payment of $100(1.02)² = $104.04 at t = 2, while lending $100 for three years at Z3 (3%) results in a payment of"
+          "text": "Lending $100 for two years at Z2 (2%) results in a payment of $100(1.02)² = $104.04 at t = 2, while lending $100 for three years at Z3 (3%) results in a payment of $100(1.03)³ = $109.27. The forward interest rate F2,1 must be 109.27/104.04"
         },
         {
           "type": "paragraph",
-          "text": "$100(1.03)³ = $109.27. The forward interest rate F2,1 must be 109.27/104.04 – 1 = 5.03%, the implied forward rate from t = 2 to t = 3."
+          "text": "– 1 = 5.03%, the implied forward rate from t = 2 to t = 3."
         },
         {
           "type": "paragraph",
@@ -143,7 +163,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Consider a 3-month forward on a 6-month MRR (F3m6m) with a notional principal of $1 million and a fixed rate of 1%. At settlement in three months, the buyer receives or pays the present value of (realized 6-month MRR – 1%) / 2 × $1 million. If the MRR is greater than 1%, the FRA buyer receives a net payment, which will offset the higher interest cost of the loan. If the MRR is less than 1%, the FRA buyer makes a net payment, but it will be offset by the lower interest cost of the loan."
+          "text": "Consider a 3-month forward on a 6-month MRR (F3m6m) with a notional principal of $1 million and a fixed rate of 1%. At settlement in three months, the buyer receives or pays the present value of (realized 6-month MRR"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 1%) / 2 × $1 million. If the MRR is greater than 1%, the FRA buyer receives a net payment, which will offset the higher interest cost of the loan. If the MRR is less than 1%, the FRA buyer makes a net payment, but it will be offset by the lower interest cost of the loan."
         },
         {
           "type": "heading",
@@ -300,11 +324,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the value of the underlying is greater than the forward price, this increases the"
-            },
-            {
-              "type": "paragraph",
-              "text": "value of the forward contract, which represents a gain for the buyer and a loss for the seller."
+              "text": "If the value of the underlying is greater than the forward price, this increases the value of the forward contract, which represents a gain for the buyer and a loss for the seller."
             }
           ]
         },
@@ -335,11 +355,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "2y3y is the 2-year forward 3-year rate, covering a period that begins two years"
-            },
-            {
-              "type": "paragraph",
-              "text": "from now and extends for three years after that."
+              "text": "2y3y is the 2-year forward 3-year rate, covering a period that begins two years from now and extends for three years after that."
             }
           ]
         },
@@ -370,11 +386,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The forward rate F2,2 extends four years into the future and cannot be derived"
-            },
-            {
-              "type": "paragraph",
-              "text": "using zero-coupon yields that only extend three years. From zero-coupon bond yields for 1, 2, and 3 years, we can derive implied forward rates F1,1, F1,2, and F2,1."
+              "text": "The forward rate F2,2 extends four years into the future and cannot be derived using zero-coupon yields that only extend three years. From zero-coupon bond yields for 1, 2, and 3 years, we can derive implied forward rates F1,1, F1,2, and F2,1."
             }
           ]
         }

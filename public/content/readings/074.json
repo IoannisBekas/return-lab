@@ -50,11 +50,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In either case, the payoff on a protective put is the same as the payoff on a fiduciary call. Our no-arbitrage condition holds that portfolios with identical payoffs regardless of future conditions must sell for the same price to prevent arbitrage. We can express the put-call parity relationship as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "c + X(1 + Rf)−T = S + p"
+          "text": "In either case, the payoff on a protective put is the same as the payoff on a fiduciary call. Our no-arbitrage condition holds that portfolios with identical payoffs regardless of future conditions must sell for the same price to prevent arbitrage. We can express the put-call parity relationship as: c + X(1 + Rf)−T = S + p"
         },
         {
           "type": "paragraph",
@@ -127,11 +123,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Put-call-forward parity is derived with a forward contract rather than the underlying asset itself. Consider a forward contract on an asset at time T with a contract price of F0(T). At contract initiation the forward contract has zero value. At time T, when the forward contract settles, the long must purchase the asset for F0(T). The purchase (at time = 0) of a pure discount bond that will pay F0(T) at maturity (time = T) will cost"
-        },
-        {
-          "type": "paragraph",
-          "text": "F0(T)(1 + Rf)−T."
+          "text": "Put-call-forward parity is derived with a forward contract rather than the underlying asset itself. Consider a forward contract on an asset at time T with a contract price of F0(T). At contract initiation the forward contract has zero value. At time T, when the forward contract settles, the long must purchase the asset for F0(T). The purchase (at time = 0) of a pure discount bond that will pay F0(T) at maturity (time = T) will cost F0(T)(1 + Rf)−T."
         },
         {
           "type": "paragraph",
@@ -139,23 +131,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The put-call-forward parity relationship is derived by substituting the synthetic asset for the underlying asset in the put-call parity relationship. Substituting F0(T)(1 + Rf)−T"
+          "text": "The put-call-forward parity relationship is derived by substituting the synthetic asset for the underlying asset in the put-call parity relationship. Substituting F0(T)(1 + Rf)−T for the asset price S0 in S + p = c + X(1 + Rf)−T gives us:"
         },
         {
           "type": "paragraph",
-          "text": "for the asset price S0 in S + p = c + X(1 + Rf)−T gives us:"
-        },
-        {
-          "type": "paragraph",
-          "text": "F0 (T)(1 + Rf)−T + p0 = c0 + X(1 + Rf)−T"
-        },
-        {
-          "type": "paragraph",
-          "text": "which is put-call-forward parity at time 0, the initiation of the forward contract, based on the principle of no arbitrage. By rearranging the terms, put-call-forward parity can also be expressed as:"
-        },
-        {
-          "type": "paragraph",
-          "text": "p0 − c0 = [X − F0(T)](1 + Rf)−T"
+          "text": "F0 (T)(1 + Rf)−T + p0 = c0 + X(1 + Rf)−T which is put-call-forward parity at time 0, the initiation of the forward contract, based on the principle of no arbitrage. By rearranging the terms, put-call-forward parity can also be expressed as: p0 − c0 = [X − F0(T)](1 + Rf)−T"
         },
         {
           "type": "heading",
@@ -219,7 +199,11 @@
         },
         {
           "type": "paragraph",
-          "text": "V0 = c0 + PV(D) – p0"
+          "text": "V0 = c0 + PV(D)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– p0"
         },
         {
           "type": "paragraph",
@@ -227,7 +211,11 @@
         },
         {
           "type": "paragraph",
-          "text": "These last two components, PV(D) – p0, make up the debtholders’ position, as we have seen. Therefore, the long call option, c0, must represent the shareholders’ position. This makes sense because the payoffs of the shareholders’ position as we have modeled it (combining a long put with a long position in the underlying assets) are equivalent to the payoffs of a call option. For this reason, these two ways of viewing the shareholders’ position (long a call, or long the assets and long a put) are consistent with each other."
+          "text": "These last two components, PV(D)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– p0, make up the debtholders’ position, as we have seen. Therefore, the long call option, c0, must represent the shareholders’ position. This makes sense because the payoffs of the shareholders’ position as we have modeled it (combining a long put with a long position in the underlying assets) are equivalent to the payoffs of a call option. For this reason, these two ways of viewing the shareholders’ position (long a call, or long the assets and long a put) are consistent with each other."
         }
       ]
     }
@@ -259,11 +247,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Because we can replicate the payoff on an asset by lending the present value of the forward price at the risk-free rate and taking a long position in a forward, we can write put-call-forward parity as:"
-    },
-    {
-      "type": "paragraph",
-      "text": "c0 + X(1 + Rf)−T = F0(T)(1 + Rf)−T + p0"
+      "text": "Because we can replicate the payoff on an asset by lending the present value of the forward price at the risk-free rate and taking a long position in a forward, we can write put-call-forward parity as: c0 + X(1 + Rf)−T = F0(T)(1 + Rf)−T + p0"
     },
     {
       "type": "paragraph",
@@ -324,11 +308,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Given call and put options on the same underlying asset with the same exercise"
-            },
-            {
-              "type": "paragraph",
-              "text": "price and expiration date, a protective put (underlying asset plus a put option) will have the same payoff as a fiduciary call (call option plus a risk-free bond that will pay the exercise price on the expiration date) regardless of the underlying asset price on the expiration date."
+              "text": "Given call and put options on the same underlying asset with the same exercise price and expiration date, a protective put (underlying asset plus a put option) will have the same payoff as a fiduciary call (call option plus a risk-free bond that will pay the exercise price on the expiration date) regardless of the underlying asset price on the expiration date."
             }
           ]
         },

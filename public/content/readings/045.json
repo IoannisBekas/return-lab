@@ -50,7 +50,11 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Assume results will converge to a historical base rate.\n3. Use management guidance."
+          "text": "2. Assume results will converge to a historical base rate."
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Use management guidance."
         },
         {
           "type": "paragraph",
@@ -147,27 +151,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Average selling prices (P) and volumes (Q). Forecasting P and Q separately and then"
+          "text": "1. Average selling prices (P) and volumes (Q). Forecasting P and Q separately and then multiplying them will generate a revenue forecast, assuming such information is readily available to the analyst."
         },
         {
           "type": "paragraph",
-          "text": "multiplying them will generate a revenue forecast, assuming such information is readily available to the analyst.\n2. Product line or segment revenues. An analyst may forecast revenues for separate"
+          "text": "2. Product line or segment revenues. An analyst may forecast revenues for separate products, business lines, geographic areas, or reporting segments, then combine them into a company-wide revenue forecast. This is only practical if a company provides such detailed information."
         },
         {
           "type": "paragraph",
-          "text": "products, business lines, geographic areas, or reporting segments, then combine them into a company-wide revenue forecast. This is only practical if a company provides such detailed information."
+          "text": "3. Capacity-based measures. An analyst may forecast revenue growth for a company’s existing locations, and add a separate forecast for its newly opened locations."
         },
         {
           "type": "paragraph",
-          "text": "3. Capacity-based measures. An analyst may forecast revenue growth for a company’s"
-        },
-        {
-          "type": "paragraph",
-          "text": "existing locations, and add a separate forecast for its newly opened locations.\n4. Return- or yield-based measures. These involve forecasting balance sheet items and"
-        },
-        {
-          "type": "paragraph",
-          "text": "the return the company will earn on them. For example, interest revenue forecasts for a bank require changes in loan balances (assets) and changes in customer deposits (liabilities)."
+          "text": "4. Return- or yield-based measures. These involve forecasting balance sheet items and the return the company will earn on them. For example, interest revenue forecasts for a bank require changes in loan balances (assets) and changes in customer deposits (liabilities)."
         },
         {
           "type": "paragraph",
@@ -258,11 +254,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Compared to COGS, selling, general, and administrative (SG&A) operating expenses are less sensitive to changes in sales volume. Their fixed cost component (e.g., research and development, corporate headquarters, management salaries) is generally larger than their variable cost component. Such costs might be modeled using a fixed growth rate"
-        },
-        {
-          "type": "paragraph",
-          "text": "that accounts for expected inflation. Selling and distribution costs may be more directly related to sales volume because a company likely needs to hire more salespeople to support higher sales."
+          "text": "Compared to COGS, selling, general, and administrative (SG&A) operating expenses are less sensitive to changes in sales volume. Their fixed cost component (e.g., research and development, corporate headquarters, management salaries) is generally larger than their variable cost component. Such costs might be modeled using a fixed growth rate that accounts for expected inflation. Selling and distribution costs may be more directly related to sales volume because a company likely needs to hire more salespeople to support higher sales."
         },
         {
           "type": "paragraph",
@@ -403,15 +395,7 @@
     },
     {
       "type": "paragraph",
-      "text": "In forecasting working capital, the following measures are relevant:"
-    },
-    {
-      "type": "paragraph",
-      "text": "forecast accounts receivable = DSO × (forecast revenues / 365)"
-    },
-    {
-      "type": "paragraph",
-      "text": "forecast inventory = DOH × (forecast COGS / 365) forecast accounts payable = DPO × (forecast COGS / 365)"
+      "text": "In forecasting working capital, the following measures are relevant: forecast accounts receivable = DSO × (forecast revenues / 365) forecast inventory = DOH × (forecast COGS / 365) forecast accounts payable = DPO × (forecast COGS / 365)"
     },
     {
       "type": "question",
@@ -497,11 +481,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An analyst’s discretionary forecast is most frequently used for companies in"
-            },
-            {
-              "type": "paragraph",
-              "text": "cyclical industries as well as companies that have few or no peers, those that do not provide management guidance, and those in the midst of a significant business transition."
+              "text": "An analyst’s discretionary forecast is most frequently used for companies in cyclical industries as well as companies that have few or no peers, those that do not provide management guidance, and those in the midst of a significant business transition."
             },
             {
               "type": "paragraph",
@@ -536,11 +516,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Free cash flow is an example of a summary measure as it combines several"
-            },
-            {
-              "type": "paragraph",
-              "text": "measures into one (e.g., net income, depreciation expense, fixed capital investment). Revenue is an individual financial statement line. A contingent liability (e.g., pending legal proceeding) is an ad hoc object."
+              "text": "Free cash flow is an example of a summary measure as it combines several measures into one (e.g., net income, depreciation expense, fixed capital investment). Revenue is an individual financial statement line. A contingent liability (e.g., pending legal proceeding) is an ad hoc object."
             }
           ]
         },

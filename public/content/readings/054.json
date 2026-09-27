@@ -95,11 +95,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The relation between a security’s yield quoted as an annualized add-on yield based on a 365-day year (also known as its bond-equivalent yield or BEY) and its holding period yield (HPY) is as follows:"
-        },
-        {
-          "type": "paragraph",
-          "text": "quoted add-on yield = HPY × 365 / days to maturity"
+          "text": "The relation between a security’s yield quoted as an annualized add-on yield based on a 365-day year (also known as its bond-equivalent yield or BEY) and its holding period yield (HPY) is as follows: quoted add-on yield = HPY × 365 / days to maturity"
         },
         {
           "type": "paragraph",
@@ -107,11 +103,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The relation between a quoted discount and the actual unannualized discount based on a 360-day year is as follows:"
-        },
-        {
-          "type": "paragraph",
-          "text": "quoted discount yield = actual discount on the security × 360 / days to maturity"
+          "text": "The relation between a quoted discount and the actual unannualized discount based on a 360-day year is as follows: quoted discount yield = actual discount on the security × 360 / days to maturity"
         },
         {
           "type": "paragraph",
@@ -127,27 +119,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. A $1,000 90-day T-bill is priced with an annualized discount of 1.2%. Calculate its"
+          "text": "1. A $1,000 90-day T-bill is priced with an annualized discount of 1.2%. Calculate its market price and its annualized add-on yield based on a 365-day year."
         },
         {
           "type": "paragraph",
-          "text": "market price and its annualized add-on yield based on a 365-day year."
+          "text": "2. A $1 million negotiable CD with 120 days to maturity is quoted with an add-on yield of 1.4% based on a 365-day year. Calculate the payment at maturity for this CD and its bond equivalent yield."
         },
         {
           "type": "paragraph",
-          "text": "2. A $1 million negotiable CD with 120 days to maturity is quoted with an add-on"
-        },
-        {
-          "type": "paragraph",
-          "text": "yield of 1.4% based on a 365-day year. Calculate the payment at maturity for this CD and its bond equivalent yield."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. A bank deposit for 100 days is quoted with an add-on yield of 1.5% based on a 360-"
-        },
-        {
-          "type": "paragraph",
-          "text": "day year. Calculate the bond equivalent yield and the yield on a semiannual bond basis."
+          "text": "3. A bank deposit for 100 days is quoted with an add-on yield of 1.5% based on a 360-day year. Calculate the bond equivalent yield and the yield on a semiannual bond basis."
         },
         {
           "type": "heading",
@@ -155,11 +135,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The discount from face value is 1.2% × 90 / 360 × 1,000 = $3, so the current price is"
-        },
-        {
-          "type": "paragraph",
-          "text": "1,000 − 3 = $997."
+          "text": "1. The discount from face value is 1.2% × 90 / 360 × 1,000 = $3, so the current price is 1,000 − 3 = $997."
         },
         {
           "type": "paragraph",
@@ -175,11 +151,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The quoted yield on the CD of 1.4% is already the bond equivalent yield by definition because it is an add-on yield annualized based on a 365-day year.\n3. Because the yield of 1.5% is an annualized yield calculated based on a 360-day year,"
+          "text": "The quoted yield on the CD of 1.4% is already the bond equivalent yield by definition because it is an add-on yield annualized based on a 365-day year."
         },
         {
           "type": "paragraph",
-          "text": "the bond equivalent yield, which is based on a 365-day year, is:"
+          "text": "3. Because the yield of 1.5% is an annualized yield calculated based on a 360-day year, the bond equivalent yield, which is based on a 365-day year, is:"
         },
         {
           "type": "paragraph",
@@ -274,11 +250,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the required margin is greater than the quoted margin, the credit quality of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "issue has decreased, and the price on the reset date will be less than par value."
+              "text": "If the required margin is greater than the quoted margin, the credit quality of the issue has decreased, and the price on the reset date will be less than par value."
             }
           ]
         },
@@ -340,11 +312,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The bond equivalent yield is defined as the add-on yield quoted on a 365-day"
-            },
-            {
-              "type": "paragraph",
-              "text": "basis."
+              "text": "The bond equivalent yield is defined as the add-on yield quoted on a 365-day basis."
             },
             {
               "type": "paragraph",

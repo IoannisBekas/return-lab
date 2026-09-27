@@ -48,11 +48,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A lower CCC is generally better as it indicates that a company can generate cash quickly and efficiently, meaning that less of the company’s capital is devoted to"
-        },
-        {
-          "type": "paragraph",
-          "text": "working capital. A high CCC may indicate that a company is taking longer to convert its investments into cash, which could lead to cash flow problems and potentially limit the company’s ability to invest in growth opportunities."
+          "text": "A lower CCC is generally better as it indicates that a company can generate cash quickly and efficiently, meaning that less of the company’s capital is devoted to working capital. A high CCC may indicate that a company is taking longer to convert its investments into cash, which could lead to cash flow problems and potentially limit the company’s ability to invest in growth opportunities."
         },
         {
           "type": "paragraph",
@@ -60,7 +56,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Reduced inventories of raw materials may create production bottlenecks due to supply chain disruptions. Reduced inventories of finished foods may mean an inability to meet spikes in customer demand. Reducing or tightening credit to customers may result in lost sales. We can think of accounts payable as an implicit source of credit from suppliers (as opposed to explicit sources such as bank loans). Suppliers offer payment terms in the form a/b net c, which means a percentage discount of a if the invoice is paid within b days, otherwise full payment is due within c days. Forgoing the discount for prompt payment amounts to borrowing money from the supplier for (c – b) days, at an effective annual rate we can calculate as follows:"
+          "text": "Reduced inventories of raw materials may create production bottlenecks due to supply chain disruptions. Reduced inventories of finished foods may mean an inability to meet spikes in customer demand. Reducing or tightening credit to customers may result in lost sales. We can think of accounts payable as an implicit source of credit from suppliers (as opposed to explicit sources such as bank loans). Suppliers offer payment terms in the form a/b net c, which means a percentage discount of a if the invoice is paid within b days, otherwise full payment is due within c days. Forgoing the discount for prompt payment amounts to borrowing money from the supplier for (c"
+        },
+        {
+          "type": "paragraph",
+          "text": "– b) days, at an effective annual rate we can calculate as follows:"
         },
         {
           "type": "math",
@@ -102,11 +102,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In addition to the CCC, overall levels of working capital can indicate how efficiently a company manages its liquidity. To compare companies of different sizes, analysts"
-        },
-        {
-          "type": "paragraph",
-          "text": "calculate working capital as a proportion of sales. Because the ratio varies by industry, care should be taken to compare firms in similar lines of business. Total working capital is current assets less current liabilities. Analysts often prefer to measure net working capital, using only operating current assets and operating current liabilities, because it is closely linked to the CCC:"
+          "text": "In addition to the CCC, overall levels of working capital can indicate how efficiently a company manages its liquidity. To compare companies of different sizes, analysts calculate working capital as a proportion of sales. Because the ratio varies by industry, care should be taken to compare firms in similar lines of business. Total working capital is current assets less current liabilities. Analysts often prefer to measure net working capital, using only operating current assets and operating current liabilities, because it is closely linked to the CCC:"
         },
         {
           "type": "math",
@@ -344,11 +340,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Primary liquidity sources include cash and marketable securities on hand, bank borrowings, and cash generated from the business. Secondary sources of liquidity include forgoing dividends, delaying capital investments, selling assets, issuing equity,"
-    },
-    {
-      "type": "paragraph",
-      "text": "restructuring debt, and bankruptcy protection filing. Using secondary liquidity sources sends a negative signal to the market and incurs a cost of liquidity."
+      "text": "Primary liquidity sources include cash and marketable securities on hand, bank borrowings, and cash generated from the business. Secondary sources of liquidity include forgoing dividends, delaying capital investments, selling assets, issuing equity, restructuring debt, and bankruptcy protection filing. Using secondary liquidity sources sends a negative signal to the market and incurs a cost of liquidity."
     },
     {
       "type": "paragraph",
@@ -466,11 +458,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The terms indicate that the company can pay $150,000(1 - 0.015) = $147,750 on"
-            },
-            {
-              "type": "paragraph",
-              "text": "day 15 (after the invoice date) or pay $150,000 on day 40—effectively gaining the use of $147,750 for 25 days at a cost of $2,250."
+              "text": "The terms indicate that the company can pay $150,000(1 - 0.015) = $147,750 on day 15 (after the invoice date) or pay $150,000 on day 40—effectively gaining the use of $147,750 for 25 days at a cost of $2,250."
             }
           ]
         },
@@ -501,11 +489,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Liquidity can be increased by reducing inventory. Extending repayment times"
-            },
-            {
-              "type": "paragraph",
-              "text": "would increase DSO, reducing liquidity. Paying suppliers earlier decreases DPO, thus reducing liquidity."
+              "text": "Liquidity can be increased by reducing inventory. Extending repayment times would increase DSO, reducing liquidity. Paying suppliers earlier decreases DPO, thus reducing liquidity."
             }
           ]
         },
@@ -536,11 +520,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Primary sources of liquidity include cash and marketable securities on hand, bank"
-            },
-            {
-              "type": "paragraph",
-              "text": "borrowings, and cash generated from the business. Delaying capital expenditure is a secondary source of liquidity."
+              "text": "Primary sources of liquidity include cash and marketable securities on hand, bank borrowings, and cash generated from the business. Delaying capital expenditure is a secondary source of liquidity."
             }
           ]
         },
@@ -571,11 +551,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Financing an increase in a current asset with long-term borrowing is an example"
-            },
-            {
-              "type": "paragraph",
-              "text": "of conservative working capital management. The other choices describe decreases in current assets and therefore more likely represent aggressive working capital management."
+              "text": "Financing an increase in a current asset with long-term borrowing is an example of conservative working capital management. The other choices describe decreases in current assets and therefore more likely represent aggressive working capital management."
             }
           ]
         }

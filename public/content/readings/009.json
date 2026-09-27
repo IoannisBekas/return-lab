@@ -50,11 +50,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Using the t-table with 42 − 2 = 40 degrees of freedom for a two-tailed test and a significance level of 5%, we can find the critical value of 2.021. Because our computed"
-        },
-        {
-          "type": "paragraph",
-          "text": "test statistic of 2.363 is greater than 2.021, we reject the hypothesis that the population correlation coefficient is zero and conclude that it is not equal to zero. That is, the two populations are correlated—in this case, positively."
+          "text": "Using the t-table with 42 − 2 = 40 degrees of freedom for a two-tailed test and a significance level of 5%, we can find the critical value of 2.021. Because our computed test statistic of 2.363 is greater than 2.021, we reject the hypothesis that the population correlation coefficient is zero and conclude that it is not equal to zero. That is, the two populations are correlated—in this case, positively."
         },
         {
           "type": "heading",
@@ -323,11 +319,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A contingency table is used to determine whether two characteristics of a group"
-            },
-            {
-              "type": "paragraph",
-              "text": "are independent."
+              "text": "A contingency table is used to determine whether two characteristics of a group are independent."
             }
           ]
         },
@@ -358,11 +350,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Degrees of freedom are n − 2 for a test of the hypothesis that correlation is equal"
-            },
-            {
-              "type": "paragraph",
-              "text": "to zero. The test statistic increases with sample size (degrees of freedom increase) and follows a t-distribution."
+              "text": "Degrees of freedom are n − 2 for a test of the hypothesis that correlation is equal to zero. The test statistic increases with sample size (degrees of freedom increase) and follows a t-distribution."
             }
           ]
         }

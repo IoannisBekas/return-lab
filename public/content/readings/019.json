@@ -107,11 +107,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If we are calculating a 30-, 90-, or 180-day forward exchange rate, we need to use interest rates for 30-, 90-, and 180-day periods rather than annual rates. Note that these"
-        },
-        {
-          "type": "paragraph",
-          "text": "shorter-term rates are quoted as money market yields."
+          "text": "If we are calculating a 30-, 90-, or 180-day forward exchange rate, we need to use interest rates for 30-, 90-, and 180-day periods rather than annual rates. Note that these shorter-term rates are quoted as money market yields."
         },
         {
           "type": "heading",
@@ -161,11 +157,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A forward exchange rate quote typically differs from the spot quotation and is expressed in terms of the difference between the spot exchange rate and the forward exchange rate. One way to indicate this is with points. The unit of points is the last decimal place in the spot rate quote. For a spot currency quote to four decimal places,"
-        },
-        {
-          "type": "paragraph",
-          "text": "such as 2.3481, each point is 0.0001, or 1/10,000th. A quote of +18.3 points for a 90-day forward exchange rate means that the forward rate is 0.00183 greater than the spot exchange rate."
+          "text": "A forward exchange rate quote typically differs from the spot quotation and is expressed in terms of the difference between the spot exchange rate and the forward exchange rate. One way to indicate this is with points. The unit of points is the last decimal place in the spot rate quote. For a spot currency quote to four decimal places, such as 2.3481, each point is 0.0001, or 1/10,000th. A quote of +18.3 points for a 90-day forward exchange rate means that the forward rate is 0.00183 greater than the spot exchange rate."
         },
         {
           "type": "heading",
@@ -391,11 +383,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "USD/NZD 0.3500 × NZD/SEK 0.3100 = USD/SEK 0.1085. Notice that the NZD term"
-            },
-            {
-              "type": "paragraph",
-              "text": "cancels in the multiplication."
+              "text": "USD/NZD 0.3500 × NZD/SEK 0.3100 = USD/SEK 0.1085. Notice that the NZD term cancels in the multiplication."
             }
           ]
         },
@@ -490,11 +478,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "To calculate a percentage forward premium or discount for the U.S. dollar, we use"
-            },
-            {
-              "type": "paragraph",
-              "text": "the dollar to be the base currency. The spot and forward quotes given are U.S. dollars per British pound (USD/GBP), so we must invert them to GBP/USD. The spot GBP/USD price is 1 / 1.533 = 0.6523 and the forward GBP/USD price is 1 / 1.508 = 0.6631. Because the forward price is greater than the spot price, we say the dollar is at a forward premium of 0.6631 / 0.6523 − 1 = 1.66%. Alternatively, we can calculate this premium with the given quotes as spot / forward − 1 to get 1.533 / 1.508 − 1 = 1.66%."
+              "text": "To calculate a percentage forward premium or discount for the U.S. dollar, we use the dollar to be the base currency. The spot and forward quotes given are U.S. dollars per British pound (USD/GBP), so we must invert them to GBP/USD. The spot GBP/USD price is 1 / 1.533 = 0.6523 and the forward GBP/USD price is 1 / 1.508 = 0.6631. Because the forward price is greater than the spot price, we say the dollar is at a forward premium of 0.6631 / 0.6523 − 1 = 1.66%. Alternatively, we can calculate this premium with the given quotes as spot / forward − 1 to get 1.533 / 1.508 − 1 = 1.66%."
             }
           ]
         },

@@ -265,35 +265,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Recognition lag. Discretionary fiscal policy decisions are made by a political"
+          "text": "1. Recognition lag. Discretionary fiscal policy decisions are made by a political process. The state of the economy is complex, and it may take policymakers time to recognize the nature and extent of the economic problems."
         },
         {
           "type": "paragraph",
-          "text": "process. The state of the economy is complex, and it may take policymakers time to recognize the nature and extent of the economic problems."
+          "text": "2. Action lag. Governments take time to discuss, vote on, and enact fiscal policy changes."
         },
         {
           "type": "paragraph",
-          "text": "2. Action lag. Governments take time to discuss, vote on, and enact fiscal policy"
+          "text": "3. Impact lag. Time elapses between the enactment of fiscal policy changes and when the impact of the changes on the economy actually takes place. It takes time for corporations and individuals to act on the fiscal policy changes, and fiscal multiplier effects occur only over time as well."
         },
         {
           "type": "paragraph",
-          "text": "changes."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. Impact lag. Time elapses between the enactment of fiscal policy changes and when"
-        },
-        {
-          "type": "paragraph",
-          "text": "the impact of the changes on the economy actually takes place. It takes time for corporations and individuals to act on the fiscal policy changes, and fiscal multiplier effects occur only over time as well."
-        },
-        {
-          "type": "paragraph",
-          "text": "These lags can actually make fiscal policy counterproductive. For example, if the economy is in a recession phase, fiscal stimulus may be deemed appropriate. However,"
-        },
-        {
-          "type": "paragraph",
-          "text": "by the time fiscal stimulus is implemented and has its full impact, the economy may already be on a path to a recovery driven by the private sector."
+          "text": "These lags can actually make fiscal policy counterproductive. For example, if the economy is in a recession phase, fiscal stimulus may be deemed appropriate. However, by the time fiscal stimulus is implemented and has its full impact, the economy may already be on a path to a recovery driven by the private sector."
         },
         {
           "type": "paragraph",
@@ -472,11 +456,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Both monetary and fiscal policies primarily strive to achieve economic targets"
-            },
-            {
-              "type": "paragraph",
-              "text": "such as inflation and GDP growth. Balancing the budget is not a goal for monetary policy and is a potential outcome of fiscal policy. Fiscal policy (but not monetary policy) may secondarily be used as a tool to redistribute income and wealth."
+              "text": "Both monetary and fiscal policies primarily strive to achieve economic targets such as inflation and GDP growth. Balancing the budget is not a goal for monetary policy and is a potential outcome of fiscal policy. Fiscal policy (but not monetary policy) may secondarily be used as a tool to redistribute income and wealth."
             }
           ]
         },
@@ -507,11 +487,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Influencing the level of aggregate demand through taxation and government"
-            },
-            {
-              "type": "paragraph",
-              "text": "spending is an objective of fiscal policy. Controlling inflation and interest rates are typical objectives of monetary policy."
+              "text": "Influencing the level of aggregate demand through taxation and government spending is an objective of fiscal policy. Controlling inflation and interest rates are typical objectives of monetary policy."
             }
           ]
         }
@@ -549,11 +525,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The amount of the spending program exactly offsets the amount of the tax"
-            },
-            {
-              "type": "paragraph",
-              "text": "increase, leaving the budget unaffected. The multiplier for government spending is greater than the multiplier for a tax increase. Therefore, the balanced budget multiplier is positive. All of the government spending enters the economy as increased expenditure, whereas spending is reduced by only a portion of the tax increase."
+              "text": "The amount of the spending program exactly offsets the amount of the tax increase, leaving the budget unaffected. The multiplier for government spending is greater than the multiplier for a tax increase. Therefore, the balanced budget multiplier is positive. All of the government spending enters the economy as increased expenditure, whereas spending is reduced by only a portion of the tax increase."
             }
           ]
         },
@@ -584,15 +556,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "fiscal multiplier = 1 / [1 − MPC (1 − T)] = 1 / [1 − 0.80(1 − 0.3)] = 2.27"
-            },
-            {
-              "type": "paragraph",
-              "text": "change in government spending = −$50 million"
-            },
-            {
-              "type": "paragraph",
-              "text": "change in aggregate demand = −(50 × 2.27) = −$113.64 million"
+              "text": "fiscal multiplier = 1 / [1 − MPC (1 − T)] = 1 / [1 − 0.80(1 − 0.3)] = 2.27 change in government spending = −$50 million change in aggregate demand = −(50 × 2.27) = −$113.64 million"
             }
           ]
         },
@@ -623,11 +587,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Crowding out refers to the possibility that government borrowing causes interest"
-            },
-            {
-              "type": "paragraph",
-              "text": "rates to increase and private investment to decrease. If government debt is financing the growth of productive capital, this should increase future economic growth and tax receipts to repay the debt. Ricardian equivalence is the theory that if government debt increases, private citizens will increase savings in anticipation of higher future taxes, and it is an argument against being concerned about the size of government debt and budget deficits."
+              "text": "Crowding out refers to the possibility that government borrowing causes interest rates to increase and private investment to decrease. If government debt is financing the growth of productive capital, this should increase future economic growth and tax receipts to repay the debt. Ricardian equivalence is the theory that if government debt increases, private citizens will increase savings in anticipation of higher future taxes, and it is an argument against being concerned about the size of government debt and budget deficits."
             }
           ]
         },
@@ -658,11 +618,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "More frequent and current economic data would make it easier for authorities to"
-            },
-            {
-              "type": "paragraph",
-              "text": "monitor the economy and to recognize problems. The reduction in the time between economic reports should reduce the recognition lag."
+              "text": "More frequent and current economic data would make it easier for authorities to monitor the economy and to recognize problems. The reduction in the time between economic reports should reduce the recognition lag."
             }
           ]
         },
@@ -693,11 +649,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Increases in government spending and decreases in taxes are expansionary fiscal"
-            },
-            {
-              "type": "paragraph",
-              "text": "policy. Decreases in spending and increases in taxes are contractionary fiscal policy."
+              "text": "Increases in government spending and decreases in taxes are expansionary fiscal policy. Decreases in spending and increases in taxes are contractionary fiscal policy."
             }
           ]
         }

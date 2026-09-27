@@ -18,11 +18,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Coupon and principal payments\n2. Interest earned on coupon payments that are reinvested over the investor’s holding"
+          "text": "1. Coupon and principal payments"
         },
         {
           "type": "paragraph",
-          "text": "period for the bond\n3. Any capital gain or loss if the bond is sold before maturity"
+          "text": "2. Interest earned on coupon payments that are reinvested over the investor’s holding period for the bond"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Any capital gain or loss if the bond is sold before maturity"
         },
         {
           "type": "paragraph",
@@ -34,15 +38,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. An investor who holds a fixed-rate bond to maturity will earn an annualized rate of"
+          "text": "1. An investor who holds a fixed-rate bond to maturity will earn an annualized rate of return equal to the YTM of the bond when purchased, if the YTM of the bond (and hence the reinvestment rate) does not change over the life of the bond."
         },
         {
           "type": "paragraph",
-          "text": "return equal to the YTM of the bond when purchased, if the YTM of the bond (and hence the reinvestment rate) does not change over the life of the bond.\n2. An investor who sells a bond before maturity will earn a rate of return equal to the"
+          "text": "2. An investor who sells a bond before maturity will earn a rate of return equal to the YTM at purchase if the YTM has not changed since purchase."
         },
         {
           "type": "paragraph",
-          "text": "YTM at purchase if the YTM has not changed since purchase.\n3. If the market YTM for the bond, our assumed reinvestment rate, increases"
+          "text": "3. If the market YTM for the bond, our assumed reinvestment rate, increases"
         },
         {
           "type": "paragraph",
@@ -50,15 +54,11 @@
         },
         {
           "type": "paragraph",
-          "text": "4. If the market YTM for the bond, our assumed reinvestment rate, increases after the"
+          "text": "4. If the market YTM for the bond, our assumed reinvestment rate, increases after the bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a short period."
         },
         {
           "type": "paragraph",
-          "text": "bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a short period.\n5. If the market YTM for the bond, our assumed reinvestment rate, decreases after the"
-        },
-        {
-          "type": "paragraph",
-          "text": "bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a long period."
+          "text": "5. If the market YTM for the bond, our assumed reinvestment rate, decreases after the bond is purchased but before the first coupon date, a bond investor will earn a rate of return that is lower than the YTM at bond purchase if the bond is held for a long period."
         },
         {
           "type": "paragraph",
@@ -184,11 +184,7 @@
         },
         {
           "type": "paragraph",
-          "text": "N = 1; I/Y = 7; FV = 100; PMT = 6; CPT → PV = −99.065"
-        },
-        {
-          "type": "paragraph",
-          "text": "which is the carrying value of the bond."
+          "text": "N = 1; I/Y = 7; FV = 100; PMT = 6; CPT → PV = −99.065 which is the carrying value of the bond."
         },
         {
           "type": "paragraph",
@@ -362,11 +358,7 @@
         },
         {
           "type": "paragraph",
-          "text": "For an investor with a short investment horizon, because they intend to sell the bond before maturity, price risk increases and reinvestment risk decreases. For the investor with a one-year investment horizon, there was no reinvestment risk because the bond was sold before any interest on coupon payments was earned. The investor had only price risk, so an increase in yield decreased the rate of return over the one-year holding"
-        },
-        {
-          "type": "paragraph",
-          "text": "period because the sale price was lower. Conversely, a decrease in yield increased the one-year holding period return to more than the YTM at purchase because the sale price was higher."
+          "text": "For an investor with a short investment horizon, because they intend to sell the bond before maturity, price risk increases and reinvestment risk decreases. For the investor with a one-year investment horizon, there was no reinvestment risk because the bond was sold before any interest on coupon payments was earned. The investor had only price risk, so an increase in yield decreased the rate of return over the one-year holding period because the sale price was lower. Conversely, a decrease in yield increased the one-year holding period return to more than the YTM at purchase because the sale price was higher."
         },
         {
           "type": "paragraph",
@@ -522,11 +514,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The difference between a bond’s Macaulay duration and the bondholder’s investment horizon is referred to as a duration gap. A positive duration gap (Macaulay duration greater than the investment horizon) exposes the investor to price risk from increasing"
-        },
-        {
-          "type": "paragraph",
-          "text": "interest rates. A negative duration gap (Macaulay duration less than the investment horizon) exposes the investor to reinvestment risk from decreasing interest rates."
+          "text": "The difference between a bond’s Macaulay duration and the bondholder’s investment horizon is referred to as a duration gap. A positive duration gap (Macaulay duration greater than the investment horizon) exposes the investor to price risk from increasing interest rates. A negative duration gap (Macaulay duration less than the investment horizon) exposes the investor to reinvestment risk from decreasing interest rates."
         }
       ]
     }
@@ -551,11 +539,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Changes in yield to maturity (YTM) produce price risk (uncertainty about a bond’s price) and reinvestment risk (uncertainty about income from reinvesting coupon"
-    },
-    {
-      "type": "paragraph",
-      "text": "payments). An increase (a decrease) in YTM decreases (increases) a bond’s price but increases (decreases) its reinvestment income."
+      "text": "Changes in yield to maturity (YTM) produce price risk (uncertainty about a bond’s price) and reinvestment risk (uncertainty about income from reinvesting coupon payments). An increase (a decrease) in YTM decreases (increases) a bond’s price but increases (decreases) its reinvestment income."
     },
     {
       "type": "question",
@@ -572,11 +556,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The Macaulay duration may be interpreted as the investment horizon for which a bond’s price risk and reinvestment risk offset each other:"
-    },
-    {
-      "type": "paragraph",
-      "text": "duration gap = Macaulay duration − investment horizon"
+      "text": "The Macaulay duration may be interpreted as the investment horizon for which a bond’s price risk and reinvestment risk offset each other: duration gap = Macaulay duration − investment horizon"
     },
     {
       "type": "question",
@@ -639,11 +619,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The increase in value of a zero-coupon bond over its life is interest income. A"
-            },
-            {
-              "type": "paragraph",
-              "text": "zero-coupon bond has no reinvestment risk over its life. A bond held to maturity has no capital gain or loss."
+              "text": "The increase in value of a zero-coupon bond over its life is interest income. A zero-coupon bond has no reinvestment risk over its life. A bond held to maturity has no capital gain or loss."
             }
           ]
         },
@@ -674,11 +650,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The investment horizon is maturity, which means that the investor faces"
-            },
-            {
-              "type": "paragraph",
-              "text": "reinvestment risk (on average, the cash flows of the bond are received before maturity) and zero price risk. The decrease in the YTM to 5.5% will decrease the reinvestment income over the life of the bond so that the investor will earn less than 6%, the YTM at purchase."
+              "text": "The investment horizon is maturity, which means that the investor faces reinvestment risk (on average, the cash flows of the bond are received before maturity) and zero price risk. The decrease in the YTM to 5.5% will decrease the reinvestment income over the life of the bond so that the investor will earn less than 6%, the YTM at purchase."
             }
           ]
         },
@@ -709,11 +681,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The interest portion of a bond’s return is the sum of the coupon payments and"
-            },
-            {
-              "type": "paragraph",
-              "text": "interest earned from reinvesting coupon payments over the holding period:"
+              "text": "The interest portion of a bond’s return is the sum of the coupon payments and interest earned from reinvesting coupon payments over the holding period:"
             },
             {
               "type": "paragraph",
@@ -748,11 +716,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The price of the bond after three years that will generate neither a capital gain nor"
-            },
-            {
-              "type": "paragraph",
-              "text": "a capital loss is the price if the YTM remains at 7.3%. After three years, the present value of the bond is 800,000 / 1.073¹² = 343,473.57, so she will have a capital gain relative to the bond’s carrying value."
+              "text": "The price of the bond after three years that will generate neither a capital gain nor a capital loss is the price if the YTM remains at 7.3%. After three years, the present value of the bond is 800,000 / 1.073¹² = 343,473.57, so she will have a capital gain relative to the bond’s carrying value."
             }
           ]
         },
@@ -783,11 +747,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Duration gap is the Macaulay duration minus the investment horizon. This bond"
-            },
-            {
-              "type": "paragraph",
-              "text": "has a Macaulay duration greater than six years, and the investment has a positive duration gap."
+              "text": "Duration gap is the Macaulay duration minus the investment horizon. This bond has a Macaulay duration greater than six years, and the investment has a positive duration gap."
             }
           ]
         },

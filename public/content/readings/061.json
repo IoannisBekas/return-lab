@@ -26,43 +26,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Institutions and policy factors address whether a government encourages political"
+          "text": "1. Institutions and policy factors address whether a government encourages political and economic stability. Economically, this means enforcement of basic legal protections and property rights, a culture of debt repayment, transparency and consistency in data reporting, and policies that encourage business activity. Politically, this means a stable political system and peaceful coexistence with neighboring countries. The willingness of a government to repay debt is also important (unlike with corporate issues) because bondholders usually have no legal recourse if a government refuses to pay its debts (national governments are said to have sovereign immunity)."
         },
         {
           "type": "paragraph",
-          "text": "and economic stability. Economically, this means enforcement of basic legal protections and property rights, a culture of debt repayment, transparency and consistency in data reporting, and policies that encourage business activity. Politically, this means a stable political system and peaceful coexistence with neighboring countries. The willingness of a government to repay debt is also important (unlike with corporate issues) because bondholders usually have no legal recourse if a government refuses to pay its debts (national governments are said to have sovereign immunity)."
+          "text": "2. Fiscal flexibility factors relate to the government’s ability to increase tax collection or decrease public spending to ensure debt service payments are made."
         },
         {
           "type": "paragraph",
-          "text": "2. Fiscal flexibility factors relate to the government’s ability to increase tax collection"
+          "text": "3. Monetary effectiveness factors relate to the ability of the central bank to vary the money supply and interest rates in a credible manner to encourage stable economic growth. A central bank that is independent from the government is less likely to print money to service government debts, reducing the risk of high inflation and currency weakness."
         },
         {
           "type": "paragraph",
-          "text": "or decrease public spending to ensure debt service payments are made."
+          "text": "4. Economic flexibility factors relate to growth trends, income per capita, and diversity of sources for economic growth."
         },
         {
           "type": "paragraph",
-          "text": "3. Monetary effectiveness factors relate to the ability of the central bank to vary the"
-        },
-        {
-          "type": "paragraph",
-          "text": "money supply and interest rates in a credible manner to encourage stable economic growth. A central bank that is independent from the government is less likely to print money to service government debts, reducing the risk of high inflation and currency weakness."
-        },
-        {
-          "type": "paragraph",
-          "text": "4. Economic flexibility factors relate to growth trends, income per capita, and diversity"
-        },
-        {
-          "type": "paragraph",
-          "text": "of sources for economic growth.\n5. External status factors relate to the standing of a country’s currency in international"
-        },
-        {
-          "type": "paragraph",
-          "text": "markets. Countries with reserve currencies, which are widely held as foreign exchange reserves at central banks across the world, have more ability to issue debt"
-        },
-        {
-          "type": "paragraph",
-          "text": "to foreign investors in their domestic currency and maintain larger budget deficits and higher levels of debt. Geopolitical risks relating to international conflict are also a consideration."
+          "text": "5. External status factors relate to the standing of a country’s currency in international markets. Countries with reserve currencies, which are widely held as foreign exchange reserves at central banks across the world, have more ability to issue debt to foreign investors in their domestic currency and maintain larger budget deficits and higher levels of debt. Geopolitical risks relating to international conflict are also a consideration."
         },
         {
           "type": "paragraph",
@@ -70,19 +50,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Fiscal strength is measured by low debt burden ratios (debt to GDP and debt to"
+          "text": "1. Fiscal strength is measured by low debt burden ratios (debt to GDP and debt to revenue) and low interest-to-GDP or interest-to-revenue ratios (which measure debt affordability)."
         },
         {
           "type": "paragraph",
-          "text": "revenue) and low interest-to-GDP or interest-to-revenue ratios (which measure debt affordability).\n2. Economic growth and stability is measured by high real GDP growth, large real"
+          "text": "2. Economic growth and stability is measured by high real GDP growth, large real economy size, high per-capita GDP, and low volatility of real GDP growth."
         },
         {
           "type": "paragraph",
-          "text": "economy size, high per-capita GDP, and low volatility of real GDP growth.\n3. External stability is measured by high foreign exchange reserves to GDP, high foreign"
-        },
-        {
-          "type": "paragraph",
-          "text": "exchange reserves to external debt, low long-term external debt to GDP, and low near-term external debt (due in the next 12 months) relative to GDP. Foreign exchange reserves are usually built up by a country that exports more than it imports (has a current account surplus). If exports are concentrated in a specific commodity, sovereign credit risk becomes aligned with the price of that commodity."
+          "text": "3. External stability is measured by high foreign exchange reserves to GDP, high foreign exchange reserves to external debt, low long-term external debt to GDP, and low near-term external debt (due in the next 12 months) relative to GDP. Foreign exchange reserves are usually built up by a country that exports more than it imports (has a current account surplus). If exports are concentrated in a specific commodity, sovereign credit risk becomes aligned with the price of that commodity."
         },
         {
           "type": "heading",
@@ -110,11 +86,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Unlike sovereigns, regional governments cannot use monetary policy to service their debt and usually must balance their operating budgets. Municipal governments’ ability to service their general obligation debt depends ultimately on the local"
-        },
-        {
-          "type": "paragraph",
-          "text": "economy (i.e., the tax base). Revenue bonds often have higher credit risk than GO bonds because the project is the sole source of funds to service the debt."
+          "text": "Unlike sovereigns, regional governments cannot use monetary policy to service their debt and usually must balance their operating budgets. Municipal governments’ ability to service their general obligation debt depends ultimately on the local economy (i.e., the tax base). Revenue bonds often have higher credit risk than GO bonds because the project is the sole source of funds to service the debt."
         },
         {
           "type": "paragraph",
@@ -183,11 +155,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Sovereign entities can print money to repay debt, while municipal borrowers"
-            },
-            {
-              "type": "paragraph",
-              "text": "cannot. Both sovereign and municipal entities have taxing powers, and both are affected by economic conditions."
+              "text": "Sovereign entities can print money to repay debt, while municipal borrowers cannot. Both sovereign and municipal entities have taxing powers, and both are affected by economic conditions."
             }
           ]
         },
@@ -218,11 +186,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A foreign exchange reserve ratio looks at the level of foreign exchange reserves"
-            },
-            {
-              "type": "paragraph",
-              "text": "relative to external debt. A high ratio implies higher credit quality on an external stability basis. Debt burden ratios measure the level of sovereign debt relative to GDP or tax revenue. As such, a higher ratio indicates a more indebted nation and therefore lower credit quality due to less fiscal strength. Debt affordability ratios compare interest payments to GDP or revenue. When these ratios are high, this suggests lower credit quality on a fiscal strength basis."
+              "text": "A foreign exchange reserve ratio looks at the level of foreign exchange reserves relative to external debt. A high ratio implies higher credit quality on an external stability basis. Debt burden ratios measure the level of sovereign debt relative to GDP or tax revenue. As such, a higher ratio indicates a more indebted nation and therefore lower credit quality due to less fiscal strength. Debt affordability ratios compare interest payments to GDP or revenue. When these ratios are high, this suggests lower credit quality on a fiscal strength basis."
             }
           ]
         }

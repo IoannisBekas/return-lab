@@ -124,11 +124,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Another technique is to use a winsorized mean. Instead of discarding the highest and lowest observations, we substitute a value for them. To calculate a 90% winsorized mean, for example, we would determine the 5th and 95th percentile of the observations, substitute the 5th percentile for any values lower than that, substitute the 95th"
-        },
-        {
-          "type": "paragraph",
-          "text": "percentile for any values higher than that, and then calculate the mean of the revised dataset. Percentiles are measures of location, which we will address next."
+          "text": "Another technique is to use a winsorized mean. Instead of discarding the highest and lowest observations, we substitute a value for them. To calculate a 90% winsorized mean, for example, we would determine the 5th and 95th percentile of the observations, substitute the 5th percentile for any values lower than that, substitute the 95th percentile for any values higher than that, and then calculate the mean of the revised dataset. Percentiles are measures of location, which we will address next."
         },
         {
           "type": "heading",
@@ -152,11 +148,7 @@
         },
         {
           "type": "paragraph",
-          "text": "To visualize a dataset based on quantiles, we can create a box and whisker plot, as shown in Figure 3.1. In a box and whisker plot, the box represents the central portion of the data, such as the interquartile range. The vertical line represents the entire range. In"
-        },
-        {
-          "type": "paragraph",
-          "text": "Figure 3.2, we can see that the largest observation is farther away from the center than is the smallest observation. This suggests that the data might include one or more outliers on the high side."
+          "text": "To visualize a dataset based on quantiles, we can create a box and whisker plot, as shown in Figure 3.1. In a box and whisker plot, the box represents the central portion of the data, such as the interquartile range. The vertical line represents the entire range. In Figure 3.2, we can see that the largest observation is farther away from the center than is the smallest observation. This suggests that the data might include one or more outliers on the high side."
         },
         {
           "type": "heading",
@@ -181,11 +173,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The range is a relatively simple measure of variability, but when used with other measures, it provides useful information. The range is the distance between the largest and the smallest value in the dataset:"
-        },
-        {
-          "type": "paragraph",
-          "text": "range = maximum value − minimum value"
+          "text": "The range is a relatively simple measure of variability, but when used with other measures, it provides useful information. The range is the distance between the largest and the smallest value in the dataset: range = maximum value − minimum value"
         },
         {
           "type": "heading",
@@ -844,11 +832,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The winsorized mean substitutes a value for some of the largest and smallest"
-            },
-            {
-              "type": "paragraph",
-              "text": "observations. The trimmed mean removes some of the largest and smallest observations."
+              "text": "The winsorized mean substitutes a value for some of the largest and smallest observations. The trimmed mean removes some of the largest and smallest observations."
             }
           ]
         },
@@ -886,11 +870,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The sample mean is [22% + 5% + −7% + 11% + 2% + 11%] / 6 = 7.3%. The sample"
-            },
-            {
-              "type": "paragraph",
-              "text": "standard deviation is the square root of the sample variance:"
+              "text": "The sample mean is [22% + 5% + −7% + 11% + 2% + 11%] / 6 = 7.3%. The sample standard deviation is the square root of the sample variance:"
             },
             {
               "type": "math",
@@ -1006,11 +986,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A distribution with a mean greater than its median is positively skewed, or"
-            },
-            {
-              "type": "paragraph",
-              "text": "skewed to the right. The skew pulls the mean. Kurtosis deals with the overall shape of a distribution, not its skewness."
+              "text": "A distribution with a mean greater than its median is positively skewed, or skewed to the right. The skew pulls the mean. Kurtosis deals with the overall shape of a distribution, not its skewness."
             }
           ]
         },
@@ -1041,11 +1017,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A distribution that has a greater percentage of small deviations from the mean"
-            },
-            {
-              "type": "paragraph",
-              "text": "and a greater percentage of extremely large deviations from the mean will be leptokurtic and will exhibit excess kurtosis (positive). The distribution will be more peaked and have fatter tails than a normal distribution."
+              "text": "A distribution that has a greater percentage of small deviations from the mean and a greater percentage of extremely large deviations from the mean will be leptokurtic and will exhibit excess kurtosis (positive). The distribution will be more peaked and have fatter tails than a normal distribution."
             }
           ]
         },
@@ -1076,11 +1048,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A correlation of +0.25 indicates a positive linear relationship between the"
-            },
-            {
-              "type": "paragraph",
-              "text": "variables—one tends to be above its mean when the other is above its mean. The value 0.25 indicates that the linear relationship is not particularly strong. Correlation does not imply causation."
+              "text": "A correlation of +0.25 indicates a positive linear relationship between the variables—one tends to be above its mean when the other is above its mean. The value 0.25 indicates that the linear relationship is not particularly strong. Correlation does not imply causation."
             },
             {
               "type": "paragraph",

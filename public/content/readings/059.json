@@ -83,11 +83,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A putable bond always has positive convexity. In Figure 59.2, we illustrate the price-yield relation for a putable bond. At higher yields, the put becomes more valuable, so that the value of the putable bond decreases less than that of an option-free bond as"
-        },
-        {
-          "type": "paragraph",
-          "text": "yield increases. This means the duration of a putable bond is less than that of an equivalent option-free bond at high yields."
+          "text": "A putable bond always has positive convexity. In Figure 59.2, we illustrate the price-yield relation for a putable bond. At higher yields, the put becomes more valuable, so that the value of the putable bond decreases less than that of an option-free bond as yield increases. This means the duration of a putable bond is less than that of an equivalent option-free bond at high yields."
         },
         {
           "type": "heading",
@@ -263,11 +259,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Macaulay, modified, and effective duration are examples of analytical duration. Empirical duration is estimated from historical data using models. Empirical duration may be lower than analytical duration in interest rate environments where the"
-    },
-    {
-      "type": "paragraph",
-      "text": "assumptions underlying analytical duration may not hold, such as for credit-risky bonds in a flight-to-quality scenario."
+      "text": "Macaulay, modified, and effective duration are examples of analytical duration. Empirical duration is estimated from historical data using models. Empirical duration may be lower than analytical duration in interest rate environments where the assumptions underlying analytical duration may not hold, such as for credit-risky bonds in a flight-to-quality scenario."
     }
   ],
   "practice": [],
@@ -326,11 +318,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because bonds with embedded options have cash flows that are uncertain and"
-            },
-            {
-              "type": "paragraph",
-              "text": "depend on future interest rates, effective duration must be used."
+              "text": "Because bonds with embedded options have cash flows that are uncertain and depend on future interest rates, effective duration must be used."
             }
           ]
         },
@@ -361,11 +349,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Embedded options decrease the duration of the bond relative to an equivalent"
-            },
-            {
-              "type": "paragraph",
-              "text": "option-free bond when the option has significant value."
+              "text": "Embedded options decrease the duration of the bond relative to an equivalent option-free bond when the option has significant value."
             }
           ]
         },
@@ -396,11 +380,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Negative convexity is exhibited only by callable bonds in a low-yield environment"
-            },
-            {
-              "type": "paragraph",
-              "text": "where the call price creates a ceiling on the price of the callable bond, causing the rate of price rises to decrease as yields fall. Putable bonds never exhibit negative convexity."
+              "text": "Negative convexity is exhibited only by callable bonds in a low-yield environment where the call price creates a ceiling on the price of the callable bond, causing the rate of price rises to decrease as yields fall. Putable bonds never exhibit negative convexity."
             }
           ]
         },
@@ -431,11 +411,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Key rate duration refers to the sensitivity of a bond or portfolio value to a change"
-            },
-            {
-              "type": "paragraph",
-              "text": "in one specific maturity yield."
+              "text": "Key rate duration refers to the sensitivity of a bond or portfolio value to a change in one specific maturity yield."
             }
           ]
         },
@@ -466,11 +442,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Total estimated price change = (duration effect + convexity effect)"
-            },
-            {
-              "type": "paragraph",
-              "text": "= {[−10.5 × (−0.02)] + [1/2 × 97.3 × (−0.02)²]} × 100 = 21.0% + 1.95% = 22.95%"
+              "text": "Total estimated price change = (duration effect + convexity effect) = {[−10.5 × (−0.02)] + [1/2 × 97.3 × (−0.02)²]} × 100 = 21.0% + 1.95% = 22.95%"
             }
           ]
         }

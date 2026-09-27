@@ -152,11 +152,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The floating-rate receiver (fixed-rate payer) in a fixed-for-floating interest-rate"
-            },
-            {
-              "type": "paragraph",
-              "text": "swap has a position similar to issuing a fixed-coupon bond and buying a floating-rate note."
+              "text": "The floating-rate receiver (fixed-rate payer) in a fixed-for-floating interest-rate swap has a position similar to issuing a fixed-coupon bond and buying a floating-rate note."
             }
           ]
         },
@@ -187,11 +183,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The price of a fixed-for-floating interest-rate swap is defined as the fixed rate"
-            },
-            {
-              "type": "paragraph",
-              "text": "specified in the swap contract. Typically a swap will be priced such that it has a value of zero at initiation and neither party pays the other to enter the swap."
+              "text": "The price of a fixed-for-floating interest-rate swap is defined as the fixed rate specified in the swap contract. Typically a swap will be priced such that it has a value of zero at initiation and neither party pays the other to enter the swap."
             }
           ]
         }

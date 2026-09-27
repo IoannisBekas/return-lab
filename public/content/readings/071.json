@@ -32,11 +32,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Interest rate futures contracts are available on many market reference rates. We may view these as exchange-traded equivalents to forward rate agreements. One key difference is that interest rate futures are quoted on a price basis. For a market reference rate from time A to time B, an interest rate futures price is stated as follows:"
+          "text": "Interest rate futures contracts are available on many market reference rates. We may view these as exchange-traded equivalents to forward rate agreements. One key difference is that interest rate futures are quoted on a price basis. For a market reference rate from time A to time B, an interest rate futures price is stated as follows: futures price = 100"
         },
         {
           "type": "paragraph",
-          "text": "futures price = 100 – (100 × MRRA, B–A)"
+          "text": "– (100 × MRRA, B–A)"
         },
         {
           "type": "paragraph",
@@ -114,11 +114,11 @@
     },
     {
       "type": "paragraph",
-      "text": "Unlike forward rate agreements, interest rate futures are quoted on a price basis:"
+      "text": "Unlike forward rate agreements, interest rate futures are quoted on a price basis: futures price = 100"
     },
     {
       "type": "paragraph",
-      "text": "futures price = 100 – (100 × MRRA, B–A)"
+      "text": "– (100 × MRRA, B–A)"
     },
     {
       "type": "question",
@@ -180,11 +180,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For an asset with no holding costs or benefits, the forward price must equal the"
-            },
-            {
-              "type": "paragraph",
-              "text": "future value of the current spot price, compounded at the risk-free rate over the term of the forward contract, for the contract to have a value of zero at initiation. Otherwise an arbitrage opportunity would exist."
+              "text": "For an asset with no holding costs or benefits, the forward price must equal the future value of the current spot price, compounded at the risk-free rate over the term of the forward contract, for the contract to have a value of zero at initiation. Otherwise an arbitrage opportunity would exist."
             }
           ]
         },
@@ -215,11 +211,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If interest rates are positively correlated with futures prices, interest earned on"
-            },
-            {
-              "type": "paragraph",
-              "text": "cash from daily settlement gains on futures contracts will be greater than the opportunity cost of interest on daily settlement losses, and a futures contract is more attractive than an otherwise equivalent forward contract that does not feature daily settlement."
+              "text": "If interest rates are positively correlated with futures prices, interest earned on cash from daily settlement gains on futures contracts will be greater than the opportunity cost of interest on daily settlement losses, and a futures contract is more attractive than an otherwise equivalent forward contract that does not feature daily settlement."
             }
           ]
         }

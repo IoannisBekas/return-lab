@@ -54,11 +54,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Modified duration provides an estimate for the percentage change in a bond’s price given a 1% change in YTM:"
-        },
-        {
-          "type": "paragraph",
-          "text": "approximate percentage change in bond price = −ModDur × ΔYTM"
+          "text": "Modified duration provides an estimate for the percentage change in a bond’s price given a 1% change in YTM: approximate percentage change in bond price = −ModDur × ΔYTM"
         },
         {
           "type": "paragraph",
@@ -138,11 +134,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The money duration of a bond position (also called dollar duration) is expressed in currency units:"
-        },
-        {
-          "type": "paragraph",
-          "text": "money duration = annual ModDur × full price of bond position"
+          "text": "The money duration of a bond position (also called dollar duration) is expressed in currency units: money duration = annual ModDur × full price of bond position"
         },
         {
           "type": "paragraph",
@@ -154,11 +146,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Calculate the money duration on a coupon date of a $2 million par value bond that"
-        },
-        {
-          "type": "paragraph",
-          "text": "has a ModDur of 7.42 and a full price of 101.32, expressed for the whole bond and per $100 of face value."
+          "text": "1. Calculate the money duration on a coupon date of a $2 million par value bond that has a ModDur of 7.42 and a full price of 101.32, expressed for the whole bond and per $100 of face value."
         },
         {
           "type": "paragraph",
@@ -288,11 +276,7 @@
     },
     {
       "type": "paragraph",
-      "text": "ModDur = MacDur / (1 + periodic return of bond) For an expected change in yield, ΔYTM, the expected change in the bond’s price is given by the following:"
-    },
-    {
-      "type": "paragraph",
-      "text": "approximate percentage change in bond price = −ModDur × ΔYTM"
+      "text": "ModDur = MacDur / (1 + periodic return of bond) For an expected change in yield, ΔYTM, the expected change in the bond’s price is given by the following: approximate percentage change in bond price = −ModDur × ΔYTM"
     },
     {
       "type": "paragraph",
@@ -306,11 +290,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Money duration is stated in currency units and is sometimes expressed per 100 of bond value:"
-    },
-    {
-      "type": "paragraph",
-      "text": "money duration = annual ModDur × full price of bond position"
+      "text": "Money duration is stated in currency units and is sometimes expressed per 100 of bond value: money duration = annual ModDur × full price of bond position"
     },
     {
       "type": "paragraph",
@@ -499,11 +479,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The price risk of the FRN is very low because at the next coupon payment date,"
-            },
-            {
-              "type": "paragraph",
-              "text": "the coupons will reset to market rates, and the FRN price will reset to par. Lower coupons, all else equal, lead to greater price risk. Therefore the 2-year zero-coupon bond will have more price risk than the 2-year 10% semiannual-pay bond."
+              "text": "The price risk of the FRN is very low because at the next coupon payment date, the coupons will reset to market rates, and the FRN price will reset to par. Lower coupons, all else equal, lead to greater price risk. Therefore the 2-year zero-coupon bond will have more price risk than the 2-year 10% semiannual-pay bond."
             }
           ]
         }

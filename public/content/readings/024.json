@@ -47,23 +47,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1:  Idea generation. The most important step in the capital allocation process is"
+          "text": "Step 1: Idea generation. The most important step in the capital allocation process is generating good project ideas. Ideas can come from a number of sources, including senior management, functional divisions, employees, or sources outside the company."
         },
         {
           "type": "paragraph",
-          "text": "generating good project ideas. Ideas can come from a number of sources, including senior management, functional divisions, employees, or sources outside the company. Step 2:  Analyzing project proposals. Because the decision to accept or reject a capital"
+          "text": "Step 2: Analyzing project proposals. Because the decision to accept or reject a capital project is based on the project’s expected future cash flows, a cash flow forecast must be made for each project to determine its expected profitability."
         },
         {
           "type": "paragraph",
-          "text": "project is based on the project’s expected future cash flows, a cash flow forecast must be made for each project to determine its expected profitability. Step 3:  Create the firm-wide capital budget. Firms must prioritize profitable projects"
+          "text": "Step 3: Create the firm-wide capital budget. Firms must prioritize profitable projects according to the timing of the project’s cash flows, available company resources, and the company’s overall strategic plan. Many projects that are attractive individually may not make sense strategically."
         },
         {
           "type": "paragraph",
-          "text": "according to the timing of the project’s cash flows, available company resources, and the company’s overall strategic plan. Many projects that are attractive individually may not make sense strategically. Step 4:  Monitoring decisions and conducting a post-audit. It is important to follow up"
-        },
-        {
-          "type": "paragraph",
-          "text": "on all capital allocation decisions. An analyst should compare the actual results to the projected results, and project managers should explain why projections did or did not match actual performance. Because the capital allocation process is only as good as the estimates of the inputs into the model used to forecast cash flows, a post-audit should be used to identify systematic errors in the forecasting process and improve company operations."
+          "text": "Step 4: Monitoring decisions and conducting a post-audit. It is important to follow up on all capital allocation decisions. An analyst should compare the actual results to the projected results, and project managers should explain why projections did or did not match actual performance. Because the capital allocation process is only as good as the estimates of the inputs into the model used to forecast cash flows, a post-audit should be used to identify systematic errors in the forecasting process and improve company operations."
         },
         {
           "type": "heading",
@@ -177,11 +173,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Continuing with the cash flows presented in Figure 24.1 for the previous example, calculate the IRR of the project and determine whether it should be accepted or"
-        },
-        {
-          "type": "paragraph",
-          "text": "rejected. Assume that the required rate of return is 9%."
+          "text": "Continuing with the cash flows presented in Figure 24.1 for the previous example, calculate the IRR of the project and determine whether it should be accepted or rejected. Assume that the required rate of return is 9%."
         },
         {
           "type": "heading",
@@ -279,19 +271,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Because accounting treatments differ, ROIC may not be comparable across"
+          "text": "1. Because accounting treatments differ, ROIC may not be comparable across companies."
         },
         {
           "type": "paragraph",
-          "text": "companies.\n2. ROIC is backward-looking and can be volatile from year to year."
+          "text": "2. ROIC is backward-looking and can be volatile from year to year."
         },
         {
           "type": "paragraph",
-          "text": "3. Because ROIC is for the whole company, it may let profitable projects and good"
-        },
-        {
-          "type": "paragraph",
-          "text": "decisions mask unprofitable projects and poor decisions."
+          "text": "3. Because ROIC is for the whole company, it may let profitable projects and good decisions mask unprofitable projects and poor decisions."
         }
       ]
     },
@@ -371,19 +359,11 @@
         },
         {
           "type": "paragraph",
-          "text": "–  Price-setting options allow the company to change the price of a product. For example, the"
+          "text": "– Price-setting options allow the company to change the price of a product. For example, the company may raise prices if demand for a product is high in order to benefit from that demand without increasing production."
         },
         {
           "type": "paragraph",
-          "text": "company may raise prices if demand for a product is high in order to benefit from that demand without increasing production."
-        },
-        {
-          "type": "paragraph",
-          "text": "–  Production-flexibility options may include paying workers overtime, using different materials as"
-        },
-        {
-          "type": "paragraph",
-          "text": "inputs, or producing a different variety of product. Fundamental options are projects that are options themselves because the payoffs depend on the price of an underlying asset. For example, the payoff for a copper mine is dependent on the market price for copper. If copper prices are low, it may not make sense to open a copper mine, but if copper prices are high, opening the copper mine could be very profitable. The operator has the option to close the mine when prices are low and open it when prices are high."
+          "text": "– Production-flexibility options may include paying workers overtime, using different materials as inputs, or producing a different variety of product. Fundamental options are projects that are options themselves because the payoffs depend on the price of an underlying asset. For example, the payoff for a copper mine is dependent on the market price for copper. If copper prices are low, it may not make sense to open a copper mine, but if copper prices are high, opening the copper mine could be very profitable. The operator has the option to close the mine when prices are low and open it when prices are high."
         },
         {
           "type": "paragraph",
@@ -534,11 +514,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Going concern projects are those to maintain the business or to increase the"
-            },
-            {
-              "type": "paragraph",
-              "text": "efficiency of existing operations. The other two projects are business growth investments that increase the size of the company."
+              "text": "Going concern projects are those to maintain the business or to increase the efficiency of existing operations. The other two projects are business growth investments that increase the size of the company."
             }
           ]
         },
@@ -569,11 +545,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A post-audit identifies what went right and what went wrong. It is used to"
-            },
-            {
-              "type": "paragraph",
-              "text": "improve forecasting and operations."
+              "text": "A post-audit identifies what went right and what went wrong. It is used to improve forecasting and operations."
             }
           ]
         },
@@ -642,11 +614,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Cash flows should be after-tax and include any tax savings from non-cash"
-            },
-            {
-              "type": "paragraph",
-              "text": "deductions (e.g., depreciation and amortization). While sunk costs should be ignored, the impact on other parts of the business (positive or negative) should be accounted for by adjusting cash flows. Accounting net income, which includes non-cash expenses, is irrelevant. Incremental cash flows are essential for making correct capital allocation decisions."
+              "text": "Cash flows should be after-tax and include any tax savings from non-cash deductions (e.g., depreciation and amortization). While sunk costs should be ignored, the impact on other parts of the business (positive or negative) should be accounted for by adjusting cash flows. Accounting net income, which includes non-cash expenses, is irrelevant. Incremental cash flows are essential for making correct capital allocation decisions."
             }
           ]
         },
@@ -677,11 +645,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "It is quite possible that offering a matching dryer will increase sales of their"
-            },
-            {
-              "type": "paragraph",
-              "text": "washers because some consumers will prefer a matching set. The increased sales of their washers is a positive impact, and those incremental profits should be considered in the analysis. A negative impact on another part of the business would be a consideration if introducing dryers could be expected to decrease washer sales. Sunk costs should not be considered in project analysis."
+              "text": "It is quite possible that offering a matching dryer will increase sales of their washers because some consumers will prefer a matching set. The increased sales of their washers is a positive impact, and those incremental profits should be considered in the analysis. A negative impact on another part of the business would be a consideration if introducing dryers could be expected to decrease washer sales. Sunk costs should not be considered in project analysis."
             }
           ]
         },
@@ -712,11 +676,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The cost of the marketing survey should not be included because it is a sunk cost;"
-            },
-            {
-              "type": "paragraph",
-              "text": "it will be incurred whether they decide to do the project or not. The decrease in sales of their current sauce if the spicier version is introduced (cannibalization) should be considered in the analysis. The cost of recipe development should be included because it will only be incurred if they decide to go ahead with the introduction of the new spicier sauce."
+              "text": "The cost of the marketing survey should not be included because it is a sunk cost; it will be incurred whether they decide to do the project or not. The decrease in sales of their current sauce if the spicier version is introduced (cannibalization) should be considered in the analysis. The cost of recipe development should be included because it will only be incurred if they decide to go ahead with the introduction of the new spicier sauce."
             }
           ]
         },

@@ -172,11 +172,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The final result of our analysis here is not surprising; investors who are less risk averse will select portfolios with more risk. Recall that the lower an investor’s risk aversion, the flatter his indifference curves. As illustrated in Figure 83.5, the flatter indifference"
-        },
-        {
-          "type": "paragraph",
-          "text": "curve for Investor B (IB) results in an optimal (tangency) portfolio that lies to the right of the one that results from a steeper indifference curve, such as that for Investor A (IA). An investor who is less risk averse should optimally choose a portfolio with more invested in the risky asset portfolio and less invested in the risk-free asset."
+          "text": "The final result of our analysis here is not surprising; investors who are less risk averse will select portfolios with more risk. Recall that the lower an investor’s risk aversion, the flatter his indifference curves. As illustrated in Figure 83.5, the flatter indifference curve for Investor B (IB) results in an optimal (tangency) portfolio that lies to the right of the one that results from a steeper indifference curve, such as that for Investor A (IA). An investor who is less risk averse should optimally choose a portfolio with more invested in the risky asset portfolio and less invested in the risk-free asset."
         },
         {
           "type": "heading",
@@ -275,7 +271,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The term ρ1,2 is called the correlation coefficient between the returns of securities 1 and\n2. The correlation coefficient has no units. It is a pure measure of the co-movement of the two stocks’ returns and is bounded by -1 and +1."
+          "text": "The term ρ1,2 is called the correlation coefficient between the returns of securities 1 and"
+        },
+        {
+          "type": "paragraph",
+          "text": "2. The correlation coefficient has no units. It is a pure measure of the co-movement of the two stocks’ returns and is bounded by -1 and +1."
         },
         {
           "type": "paragraph",
@@ -421,15 +421,7 @@
         },
         {
           "type": "paragraph",
-          "text": "This might be easier to see by examining the algebra in reverse. If w1σ1 + w2σ2 equals the square root of the term under the radical in this special case,"
-        },
-        {
-          "type": "paragraph",
-          "text": "then (w1σ1 + w2σ2)² should equal the term under the radical. If we expand"
-        },
-        {
-          "type": "paragraph",
-          "text": "(w1σ1 + w2σ2)², we get:"
+          "text": "This might be easier to see by examining the algebra in reverse. If w1σ1 + w2σ2 equals the square root of the term under the radical in this special case, then (w1σ1 + w2σ2)² should equal the term under the radical. If we expand (w1σ1 + w2σ2)², we get:"
         },
         {
           "type": "math",
@@ -771,11 +763,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Liquidity can be a concern for emerging market stocks and for securities that"
-            },
-            {
-              "type": "paragraph",
-              "text": "trade infrequently, such as low-quality corporate bonds. U.S. Treasuries exhibit high degrees of liquidity."
+              "text": "Liquidity can be a concern for emerging market stocks and for securities that trade infrequently, such as low-quality corporate bonds. U.S. Treasuries exhibit high degrees of liquidity."
             }
           ]
         },
@@ -806,11 +794,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Small-cap stocks have had the highest annual return and standard deviation of"
-            },
-            {
-              "type": "paragraph",
-              "text": "return over time. Large-cap stocks and bonds have historically had lower risk and return than small-cap stocks."
+              "text": "Small-cap stocks have had the highest annual return and standard deviation of return over time. Large-cap stocks and bonds have historically had lower risk and return than small-cap stocks."
             }
           ]
         }
@@ -848,11 +832,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Risk-averse investors are generally willing to invest in risky investments, if the"
-            },
-            {
-              "type": "paragraph",
-              "text": "expected return of the investment is sufficient to reward the investor for taking on this risk. Participants in securities markets are generally assumed to be risk-averse investors."
+              "text": "Risk-averse investors are generally willing to invest in risky investments, if the expected return of the investment is sufficient to reward the investor for taking on this risk. Participants in securities markets are generally assumed to be risk-averse investors."
             }
           ]
         },
@@ -883,11 +863,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An investor’s optimal portfolio will lie somewhere on the capital allocation line,"
-            },
-            {
-              "type": "paragraph",
-              "text": "which begins at the risk-free asset and runs through the optimal risky portfolio."
+              "text": "An investor’s optimal portfolio will lie somewhere on the capital allocation line, which begins at the risk-free asset and runs through the optimal risky portfolio."
             }
           ]
         }
@@ -939,11 +915,7 @@
             },
             {
               "type": "paragraph",
-              "text": "sum of squared deviations = 14.44 + 17.64 + 27.04 + 0.64 + 23.04 = 82.8 sample variance = 82.8 / (5 - 1) = 20.7"
-            },
-            {
-              "type": "paragraph",
-              "text": "sample standard deviation = 20.7¹/² = 4.55%"
+              "text": "sum of squared deviations = 14.44 + 17.64 + 27.04 + 0.64 + 23.04 = 82.8 sample variance = 82.8 / (5 - 1) = 20.7 sample standard deviation = 20.7¹/² = 4.55%"
             }
           ]
         },
@@ -974,11 +946,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The covariance is defined as the co-movement of the returns of two assets or how well the returns"
-            },
-            {
-              "type": "paragraph",
-              "text": "of two risky assets move together. Range and standard deviation are measures of dispersion and measure risk, not how assets move together."
+              "text": "The covariance is defined as the co-movement of the returns of two assets or how well the returns of two risky assets move together. Range and standard deviation are measures of dispersion and measure risk, not how assets move together."
             }
           ]
         },
@@ -1009,11 +977,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A zero-variance portfolio can only be constructed if the correlation coefficient"
-            },
-            {
-              "type": "paragraph",
-              "text": "between assets is -1. Diversification benefits can be had when correlation is less than +1, and the lower the correlation, the greater the expected benefit."
+              "text": "A zero-variance portfolio can only be constructed if the correlation coefficient between assets is -1. Diversification benefits can be had when correlation is less than +1, and the lower the correlation, the greater the expected benefit."
             }
           ]
         },
@@ -1117,11 +1081,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the correlation of returns between the two assets is -1, the set of possible"
-            },
-            {
-              "type": "paragraph",
-              "text": "portfolio risk/return combinations becomes two straight lines (see Figure 83.6). A portfolio of these two assets will have a positive returns variance unless the portfolio weights are those that minimize the portfolio variance. Covariance is equal to the correlation coefficient multiplied by the product of the standard deviations of the returns of the two stocks in a 2-stock portfolio. If covariance is zero, then correlation is also zero, which implies that there is no linear relationship between the two stocks’ returns."
+              "text": "If the correlation of returns between the two assets is -1, the set of possible portfolio risk/return combinations becomes two straight lines (see Figure 83.6). A portfolio of these two assets will have a positive returns variance unless the portfolio weights are those that minimize the portfolio variance. Covariance is equal to the correlation coefficient multiplied by the product of the standard deviations of the returns of the two stocks in a 2-stock portfolio. If covariance is zero, then correlation is also zero, which implies that there is no linear relationship between the two stocks’ returns."
             }
           ]
         },
@@ -1152,11 +1112,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Portfolio B must be the portfolio that falls below the Markowitz efficient frontier"
-            },
-            {
-              "type": "paragraph",
-              "text": "because there is a portfolio (Portfolio C) that offers a higher return and lower risk."
+              "text": "Portfolio B must be the portfolio that falls below the Markowitz efficient frontier because there is a portfolio (Portfolio C) that offers a higher return and lower risk."
             }
           ]
         }

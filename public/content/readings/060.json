@@ -50,11 +50,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The sources of repayment for a debt issuer depend on the nature of the borrower and the specifics of the loan or bond issue. Secured corporate debt is backed primarily by"
-        },
-        {
-          "type": "paragraph",
-          "text": "the operating cash flows and investments of the business plus cash flows generated from collateral specifically pledged as security for the debt. Unsecured corporate debt is only backed by the operating cash flows and investments of the issuer (as well as secondary sources of cash flow such as asset sales, divestures of subsidiaries, or additional debt/equity issuance). Credit risk for a corporate issuer may come from poor economic and market conditions, increased competition, low profitability, or having excessive debt levels."
+          "text": "The sources of repayment for a debt issuer depend on the nature of the borrower and the specifics of the loan or bond issue. Secured corporate debt is backed primarily by the operating cash flows and investments of the business plus cash flows generated from collateral specifically pledged as security for the debt. Unsecured corporate debt is only backed by the operating cash flows and investments of the issuer (as well as secondary sources of cash flow such as asset sales, divestures of subsidiaries, or additional debt/equity issuance). Credit risk for a corporate issuer may come from poor economic and market conditions, increased competition, low profitability, or having excessive debt levels."
         },
         {
           "type": "paragraph",
@@ -74,11 +70,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Credit risk is measured by assessing the expected loss from a debt investment in the event of default:"
-        },
-        {
-          "type": "paragraph",
-          "text": "expected loss = probability of default × loss given default"
+          "text": "Credit risk is measured by assessing the expected loss from a debt investment in the event of default: expected loss = probability of default × loss given default"
         },
         {
           "type": "paragraph",
@@ -94,7 +86,11 @@
         },
         {
           "type": "paragraph",
-          "text": "LGD% = expected exposure × (1 – recovery rate)"
+          "text": "LGD% = expected exposure × (1"
+        },
+        {
+          "type": "paragraph",
+          "text": "– recovery rate)"
         },
         {
           "type": "heading",
@@ -106,11 +102,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We can use the annualized expected loss (as a percentage) as an estimate of the annualized credit spread over a risk-free benchmark that an investor should demand for facing the credit risk of the investment:"
-        },
-        {
-          "type": "paragraph",
-          "text": "credit spread ≈ probability of default × LGD%"
+          "text": "We can use the annualized expected loss (as a percentage) as an estimate of the annualized credit spread over a risk-free benchmark that an investor should demand for facing the credit risk of the investment: credit spread ≈ probability of default × LGD%"
         },
         {
           "type": "paragraph",
@@ -130,19 +122,23 @@
         },
         {
           "type": "paragraph",
-          "text": "The bond is trading at par, so its coupon of 4% is also its yield. The actual credit spread of the bond is, therefore, 4% – 2.5% = 1.5%."
+          "text": "The bond is trading at par, so its coupon of 4% is also its yield. The actual credit spread of the bond is, therefore, 4%"
         },
         {
           "type": "paragraph",
-          "text": "The estimated credit spread for the bond is its probability of default times (1 – recovery rate):"
+          "text": "– 2.5% = 1.5%."
         },
         {
           "type": "paragraph",
-          "text": "= 0.03 × (1 – 0.75)"
+          "text": "The estimated credit spread for the bond is its probability of default times (1"
         },
         {
           "type": "paragraph",
-          "text": "= 0.0075, or 0.75%"
+          "text": "– recovery rate): = 0.03 × (1"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 0.75) = 0.0075, or 0.75%"
         },
         {
           "type": "paragraph",
@@ -219,27 +215,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Credit ratings lag market pricing. Market prices and credit spreads can change much"
+          "text": "1. Credit ratings lag market pricing. Market prices and credit spreads can change much faster than credit ratings. Additionally, two bonds with the same rating can trade at different yields because credit ratings focus on expected loss, whereas market pricing for distressed debt focuses more on default timing and expected recoveries."
         },
         {
           "type": "paragraph",
-          "text": "faster than credit ratings. Additionally, two bonds with the same rating can trade at different yields because credit ratings focus on expected loss, whereas market pricing for distressed debt focuses more on default timing and expected recoveries.\n2. Some risks are difficult to assess. Risks such as litigation, natural disasters,"
+          "text": "2. Some risks are difficult to assess. Risks such as litigation, natural disasters, environmental risks, acquisitions, and equity buybacks using debt are not easily predicted, or captured in credit ratings. Agencies may take different views on the likelihood of such events, leading to split ratings where the same debt issue gets assigned different ratings from different agencies."
         },
         {
           "type": "paragraph",
-          "text": "environmental risks, acquisitions, and equity buybacks using debt are not easily predicted, or captured in credit ratings. Agencies may take different views on the likelihood of such events, leading to split ratings where the same debt issue gets assigned different ratings from different agencies.\n3. Rating agencies are not perfect. Mistakes occur from time to time. Infamously,"
+          "text": "3. Rating agencies are not perfect. Mistakes occur from time to time. Infamously, subprime mortgage securities were assigned much higher ratings than they deserved in the lead-up to the global financial crisis of 2008–2009. Cases of corporate fraud can also lead to companies with high credit ratings suddenly defaulting."
         },
         {
           "type": "paragraph",
-          "text": "subprime mortgage securities were assigned much higher ratings than they deserved in the lead-up to the global financial crisis of 2008–2009. Cases of corporate fraud can also lead to companies with high credit ratings suddenly defaulting."
-        },
-        {
-          "type": "paragraph",
-          "text": "Investors should also do their own due diligence when assessing credit risk and not rely purely on credit ratings. Investors who trade correctly in anticipation of credit rating"
-        },
-        {
-          "type": "paragraph",
-          "text": "changes will experience far superior performance to those who trade in reaction to rating changes."
+          "text": "Investors should also do their own due diligence when assessing credit risk and not rely purely on credit ratings. Investors who trade correctly in anticipation of credit rating changes will experience far superior performance to those who trade in reaction to rating changes."
         },
         {
           "type": "question",
@@ -268,19 +256,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Yield spreads usually increase with maturity because the probability of default increases over longer time frames, giving rise to upward-sloping credit spread curves (plots of credit spread vs. maturity). -During economic contractions (recessions), high-yield and investment grade"
+          "text": "Yield spreads usually increase with maturity because the probability of default increases over longer time frames, giving rise to upward-sloping credit spread curves (plots of credit spread vs. maturity). -During economic contractions (recessions), high-yield and investment grade credit curves rise and flatten as the probability of a near-term default increases. The high-yield credit curve may even invert (turn downward sloping) in this stage of the economic cycle."
         },
         {
           "type": "paragraph",
-          "text": "credit curves rise and flatten as the probability of a near-term default increases. The high-yield credit curve may even invert (turn downward sloping) in this stage of the economic cycle."
-        },
-        {
-          "type": "paragraph",
-          "text": "-During economic expansions, high-yield and investment grade credit curves fall"
-        },
-        {
-          "type": "paragraph",
-          "text": "and steepen as the probability of a near-term default decreases. Credit curves will be lowest and most steep at the peak of the cycle."
+          "text": "-During economic expansions, high-yield and investment grade credit curves fall and steepen as the probability of a near-term default decreases. Credit curves will be lowest and most steep at the peak of the cycle."
         },
         {
           "type": "paragraph",
@@ -292,11 +272,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Notice that two different kinds of spread are involved here. The yield spread of a bond is the extra return over benchmark risk-free yields. A bid–offer spread is the difference between the prices at which a bond dealer is willing to buy or sell a bond. Pay attention to which spread an exam question is"
-        },
-        {
-          "type": "paragraph",
-          "text": "referring, particularly when the component of yield spread relating to liquidity risk is identified through analyzing the size of bid–offer spreads."
+          "text": "Notice that two different kinds of spread are involved here. The yield spread of a bond is the extra return over benchmark risk-free yields. A bid–offer spread is the difference between the prices at which a bond dealer is willing to buy or sell a bond. Pay attention to which spread an exam question is referring, particularly when the component of yield spread relating to liquidity risk is identified through analyzing the size of bid–offer spreads."
         },
         {
           "type": "paragraph",
@@ -364,11 +340,7 @@
         },
         {
           "type": "paragraph",
-          "text": "First, we assess the yield spread of the bond based on the midprice quote, which is the average of the bid and offer prices."
-        },
-        {
-          "type": "paragraph",
-          "text": "midprice quote = (99.5 + 100.5) / 2 = 100"
+          "text": "First, we assess the yield spread of the bond based on the midprice quote, which is the average of the bid and offer prices. midprice quote = (99.5 + 100.5) / 2 = 100"
         },
         {
           "type": "paragraph",
@@ -376,7 +348,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The yield spread of the bond over the benchmark yield is 5% – 3% = 2%."
+          "text": "The yield spread of the bond over the benchmark yield is 5%"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 3% = 2%."
         },
         {
           "type": "paragraph",
@@ -396,15 +372,19 @@
         },
         {
           "type": "paragraph",
-          "text": "The liquidity spread of the bond is the bid yield minus the offer yield:"
+          "text": "The liquidity spread of the bond is the bid yield minus the offer yield: liquidity spread = 5.065%"
         },
         {
           "type": "paragraph",
-          "text": "liquidity spread = 5.065% – 4.935% = 0.13%"
+          "text": "– 4.935% = 0.13%"
         },
         {
           "type": "paragraph",
-          "text": "The credit component of the yield spread is therefore 2% – 0.13% = 1.87%."
+          "text": "The credit component of the yield spread is therefore 2%"
+        },
+        {
+          "type": "paragraph",
+          "text": "– 0.13% = 1.87%."
         },
         {
           "type": "paragraph",
@@ -443,11 +423,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Expected loss as a percentage is an estimate of the credit spread investors should demand:"
-    },
-    {
-      "type": "paragraph",
-      "text": "credit spread ≈ POD × LGD%"
+      "text": "Expected loss as a percentage is an estimate of the credit spread investors should demand: credit spread ≈ POD × LGD%"
     },
     {
       "type": "paragraph",
@@ -569,11 +545,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Expected loss is composed of probability of default and loss severity. Yield spreads"
-            },
-            {
-              "type": "paragraph",
-              "text": "reflect the credit risk of a borrower, but they are a reflection of expected loss rather than a component of it."
+              "text": "Expected loss is composed of probability of default and loss severity. Yield spreads reflect the credit risk of a borrower, but they are a reflection of expected loss rather than a component of it."
             }
           ]
         },
@@ -604,11 +576,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An increase in the recovery rate means that the loss severity has decreased, which"
-            },
-            {
-              "type": "paragraph",
-              "text": "decreases expected loss."
+              "text": "An increase in the recovery rate means that the loss severity has decreased, which decreases expected loss."
             }
           ]
         },
@@ -639,11 +607,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Top-down credit analysis factors include country, conditions, and currency. Capital"
-            },
-            {
-              "type": "paragraph",
-              "text": "is a bottom-up factor relating to the reliance of the issuer on debt and the availability of other sources of funding."
+              "text": "Top-down credit analysis factors include country, conditions, and currency. Capital is a bottom-up factor relating to the reliance of the issuer on debt and the availability of other sources of funding."
             }
           ]
         },
@@ -709,11 +673,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A low debt/capital ratio is an indicator of low leverage. An issuer rated AAA is"
-            },
-            {
-              "type": "paragraph",
-              "text": "likely to have a high operating margin and a high cash flow/debt ratio compared to its industry group."
+              "text": "A low debt/capital ratio is an indicator of low leverage. An issuer rated AAA is likely to have a high operating margin and a high cash flow/debt ratio compared to its industry group."
             }
           ]
         },
@@ -744,11 +704,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Credit spreads widen as economic conditions worsen. Spreads narrow as the"
-            },
-            {
-              "type": "paragraph",
-              "text": "credit cycle improves and as broker-dealers provide more capital to bond markets."
+              "text": "Credit spreads widen as economic conditions worsen. Spreads narrow as the credit cycle improves and as broker-dealers provide more capital to bond markets."
             }
           ]
         },
@@ -779,11 +735,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Longer-duration bonds usually have longer maturities and carry more uncertainty"
-            },
-            {
-              "type": "paragraph",
-              "text": "of future creditworthiness."
+              "text": "Longer-duration bonds usually have longer maturities and carry more uncertainty of future creditworthiness."
             }
           ]
         }

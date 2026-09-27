@@ -75,19 +75,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Information directly from the company (e.g., annual or quarterly regulatory filings,"
+          "text": "1. Information directly from the company (e.g., annual or quarterly regulatory filings, investor presentations, press releases, investor relations department, website)"
         },
         {
           "type": "paragraph",
-          "text": "investor presentations, press releases, investor relations department, website)"
+          "text": "2. Publicly available third-party information (e.g., analyst reports, government research and reports, news outlets, social media)"
         },
         {
           "type": "paragraph",
-          "text": "2. Publicly available third-party information (e.g., analyst reports, government research"
-        },
-        {
-          "type": "paragraph",
-          "text": "and reports, news outlets, social media)\n3. Proprietary third-party information (e.g., analyst reports, Bloomberg)"
+          "text": "3. Proprietary third-party information (e.g., analyst reports, Bloomberg)"
         },
         {
           "type": "paragraph",
@@ -193,7 +189,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The term (P – VC) in this equation is known as the contribution margin (CM) per unit. A company will earn profits when the CM per unit is positive and Q is large enough that the total contribution margin is greater than fixed costs."
+          "text": "The term (P"
+        },
+        {
+          "type": "paragraph",
+          "text": "– VC) in this equation is known as the contribution margin (CM) per unit. A company will earn profits when the CM per unit is positive and Q is large enough that the total contribution margin is greater than fixed costs."
         },
         {
           "type": "paragraph",
@@ -457,11 +457,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Subsequent research reports update the recommendation and rationale from an"
-            },
-            {
-              "type": "paragraph",
-              "text": "initial research report. The primary audience for an initial company report is those who are not already knowledgeable about the issuer or security."
+              "text": "Subsequent research reports update the recommendation and rationale from an initial research report. The primary audience for an initial company report is those who are not already knowledgeable about the issuer or security."
             }
           ]
         },
@@ -492,11 +488,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Reports and data from platforms such as Bloomberg and FactSet are classified as"
-            },
-            {
-              "type": "paragraph",
-              "text": "proprietary third-party sources, available for a fee. They are not publicly available for free (e.g., general news, social media), and the information provided is not primary research."
+              "text": "Reports and data from platforms such as Bloomberg and FactSet are classified as proprietary third-party sources, available for a fee. They are not publicly available for free (e.g., general news, social media), and the information provided is not primary research."
             }
           ]
         }
@@ -534,11 +526,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Market share = revenue / market size = 0.10 = $500 million / market size. So,"
-            },
-            {
-              "type": "paragraph",
-              "text": "market size = $5 billion."
+              "text": "Market share = revenue / market size = 0.10 = $500 million / market size. So, market size = $5 billion."
             }
           ]
         },
@@ -569,15 +557,27 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Jayco’s operating income is $12,000. If its sales increase by 1%, its operating"
+              "text": "Jayco’s operating income is $12,000. If its sales increase by 1%, its operating income will increase to 1.01(10,000)($5"
             },
             {
               "type": "paragraph",
-              "text": "income will increase to 1.01(10,000)($5 – $3) – $8,000 = $12,200, which is an increase of $200 / $12,000 = 0.0167 or 1.67%. Therefore Jayco’s DOL is 1.67% / 1% = 1.67."
+              "text": "– $3)"
             },
             {
               "type": "paragraph",
-              "text": "Jayco’s net income is $12,000 – $2,000 = $10,000. If its operating income increases by 1% to 1.01($12,000) = $12,120, its net income will increase to $12,120 – $2,000 = $10,120, which is an increase of $120 / $10,000 = 0.012 or 1.2%. Therefore Jayco’s DFL is 1.20% / 1% = 1.20."
+              "text": "– $8,000 = $12,200, which is an increase of $200 / $12,000 = 0.0167 or 1.67%. Therefore Jayco’s DOL is 1.67% / 1% = 1.67."
+            },
+            {
+              "type": "paragraph",
+              "text": "Jayco’s net income is $12,000"
+            },
+            {
+              "type": "paragraph",
+              "text": "– $2,000 = $10,000. If its operating income increases by 1% to 1.01($12,000) = $12,120, its net income will increase to $12,120"
+            },
+            {
+              "type": "paragraph",
+              "text": "– $2,000 = $10,120, which is an increase of $120 / $10,000 = 0.012 or 1.2%. Therefore Jayco’s DFL is 1.20% / 1% = 1.20."
             }
           ]
         }

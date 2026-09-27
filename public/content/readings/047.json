@@ -34,19 +34,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Principal (par or face value). The par value of a bond is the principal amount that will be repaid. Repayment of principal typically occurs at maturity, but debt instruments may specify that principal is paid back gradually over the life of the instrument, such as with a mortgage loan. Coupon rate and frequency. The coupon rate on a bond is the annual percentage of its par value that will be paid to bondholders. Some bonds make coupon interest payments annually, while others make semiannual, quarterly, or monthly payments. A"
+          "text": "Principal (par or face value). The par value of a bond is the principal amount that will be repaid. Repayment of principal typically occurs at maturity, but debt instruments may specify that principal is paid back gradually over the life of the instrument, such as with a mortgage loan. Coupon rate and frequency. The coupon rate on a bond is the annual percentage of its par value that will be paid to bondholders. Some bonds make coupon interest payments annually, while others make semiannual, quarterly, or monthly payments. A $1,000 par value semiannual-pay bond with a fixed 5% coupon would pay 2.5% of $1,000, or $25, every six months."
         },
         {
           "type": "paragraph",
-          "text": "$1,000 par value semiannual-pay bond with a fixed 5% coupon would pay 2.5% of $1,000, or $25, every six months. –  Some bonds pay coupons based on a variable market rate of interest at the date of"
+          "text": "– Some bonds pay coupons based on a variable market rate of interest at the date of coupon payment. These bonds are called floating-rate notes (FRNs) or floaters. The variable market rate of interest is called the market reference rate (MRR), and an FRN promises to pay the variable reference rate plus a fixed margin. This added margin is typically expressed in basis points, which are hundredths of 1%."
         },
         {
           "type": "paragraph",
-          "text": "coupon payment. These bonds are called floating-rate notes (FRNs) or floaters. The variable market rate of interest is called the market reference rate (MRR), and an FRN promises to pay the variable reference rate plus a fixed margin. This added margin is typically expressed in basis points, which are hundredths of 1%. –  Some bonds pay no interest before maturity and are called zero-coupon bonds or"
-        },
-        {
-          "type": "paragraph",
-          "text": "pure discount bonds. Pure discount refers to the fact that these bonds are sold at a discount to their par value, and the interest is all paid at maturity when bondholders receive the par value. A 10-year, $1,000, zero-coupon bond yielding 7% would sell for a bit more than $500 initially and pay $1,000 at maturity. (In our reading on Fixed-Income Bond Valuation we will show how to calculate the exact price.)"
+          "text": "– Some bonds pay no interest before maturity and are called zero-coupon bonds or pure discount bonds. Pure discount refers to the fact that these bonds are sold at a discount to their par value, and the interest is all paid at maturity when bondholders receive the par value. A 10-year, $1,000, zero-coupon bond yielding 7% would sell for a bit more than $500 initially and pay $1,000 at maturity. (In our reading on Fixed-Income Bond Valuation we will show how to calculate the exact price.)"
         },
         {
           "type": "paragraph",
@@ -115,11 +111,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sovereign (national government) bonds are repaid from taxes on economic activity and, in some cases, the ability of a government to create new currency. This tends to result"
-        },
-        {
-          "type": "paragraph",
-          "text": "in sovereign debt being perceived as the lowest credit risk in a particular region."
+          "text": "Sovereign (national government) bonds are repaid from taxes on economic activity and, in some cases, the ability of a government to create new currency. This tends to result in sovereign debt being perceived as the lowest credit risk in a particular region."
         },
         {
           "type": "paragraph",
@@ -151,19 +143,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Negative covenants place restrictions on the issuer. These can include restrictions on:"
-        },
-        {
-          "type": "paragraph",
-          "text": "entering into asset sales and leaseback agreements; pledges of collateral (the company cannot use the same assets to back several debt issues simultaneously);"
-        },
-        {
-          "type": "paragraph",
-          "text": "issuance of debt that ranks more senior than existing debt (referred to as a negative pledge clause); and"
-        },
-        {
-          "type": "paragraph",
-          "text": "additional borrowings, share repurchases, or dividend payments. These actions can be subject to an incurrence test relating to the financial ratios of the company—for example, they can only be carried out if debt/EBITDA is below a specified threshold."
+          "text": "Negative covenants place restrictions on the issuer. These can include restrictions on: entering into asset sales and leaseback agreements; pledges of collateral (the company cannot use the same assets to back several debt issues simultaneously); issuance of debt that ranks more senior than existing debt (referred to as a negative pledge clause); and additional borrowings, share repurchases, or dividend payments. These actions can be subject to an incurrence test relating to the financial ratios of the company—for example, they can only be carried out if debt/EBITDA is below a specified threshold."
         },
         {
           "type": "paragraph",
@@ -192,11 +172,7 @@
     },
     {
       "type": "paragraph",
-      "text": "The source of repayment for sovereign bonds is the country’s taxing authority. For non-sovereign government bonds, the sources may be taxing authority or revenues from a"
-    },
-    {
-      "type": "paragraph",
-      "text": "project. Corporate bonds are repaid with funds from the firm’s operations. Securitized bonds are repaid with cash flows from a pool of financial assets."
+      "text": "The source of repayment for sovereign bonds is the country’s taxing authority. For non-sovereign government bonds, the sources may be taxing authority or revenues from a project. Corporate bonds are repaid with funds from the firm’s operations. Securitized bonds are repaid with cash flows from a pool of financial assets."
     },
     {
       "type": "paragraph",
@@ -293,11 +269,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For fixed-coupon bonds, prices and yields have an inverse relationship. If the price"
-            },
-            {
-              "type": "paragraph",
-              "text": "of the bond is falling, then the return (yield) from buying the bond at the lower price is rising."
+              "text": "For fixed-coupon bonds, prices and yields have an inverse relationship. If the price of the bond is falling, then the return (yield) from buying the bond at the lower price is rising."
             }
           ]
         },
@@ -328,11 +300,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An indenture is the contract between the company and its bondholders and"
-            },
-            {
-              "type": "paragraph",
-              "text": "contains the bond’s covenants."
+              "text": "An indenture is the contract between the company and its bondholders and contains the bond’s covenants."
             }
           ]
         },
@@ -363,11 +331,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Affirmative covenants require the borrower to perform certain actions. Negative"
-            },
-            {
-              "type": "paragraph",
-              "text": "covenants restrict the borrower from performing certain actions. Trust deed is another name for a bond indenture."
+              "text": "Affirmative covenants require the borrower to perform certain actions. Negative covenants restrict the borrower from performing certain actions. Trust deed is another name for a bond indenture."
             }
           ]
         }

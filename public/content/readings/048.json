@@ -46,11 +46,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Note that the constant yearly payment of $230.97, here, is partly interest and partly principal loan repayment. For example, in the first year, the interest component is 0.05 × $1,000 = $50; hence, the principal component is $230.97 − $50 = $180.97. The opening principal balance for the second year is, therefore, $1,000 − $180.97 = $819.03. In"
-        },
-        {
-          "type": "paragraph",
-          "text": "subsequent years, the interest component of the $230.97 will decrease and the proportion relating to principal repayment will increase."
+          "text": "Note that the constant yearly payment of $230.97, here, is partly interest and partly principal loan repayment. For example, in the first year, the interest component is 0.05 × $1,000 = $50; hence, the principal component is $230.97 − $50 = $180.97. The opening principal balance for the second year is, therefore, $1,000 − $180.97 = $819.03. In subsequent years, the interest component of the $230.97 will decrease and the proportion relating to principal repayment will increase."
         },
         {
           "type": "paragraph",
@@ -232,11 +228,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Convertible bonds give bondholders the option to exchange the bond for a specific number of shares of the issuing corporation’s common stock. This gives bondholders the opportunity to profit from increases in the value of the common shares. Because the"
-        },
-        {
-          "type": "paragraph",
-          "text": "conversion option is valuable to bondholders, convertible bonds can be issued with higher prices (and, therefore, lower yields, which is an advantage to the issuer) compared to otherwise identical straight bonds."
+          "text": "Convertible bonds give bondholders the option to exchange the bond for a specific number of shares of the issuing corporation’s common stock. This gives bondholders the opportunity to profit from increases in the value of the common shares. Because the conversion option is valuable to bondholders, convertible bonds can be issued with higher prices (and, therefore, lower yields, which is an advantage to the issuer) compared to otherwise identical straight bonds."
         },
         {
           "type": "paragraph",
@@ -277,11 +269,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Bonds are subject to different legal and regulatory requirements that depend on where they are issued and traded. Bonds of issuers domiciled in the same country as the market in which the bonds are issued and traded are referred to as domestic bonds. Bonds of issuers from countries other than the market in which the bond trades are referred to as foreign bonds. For example, a U.K. company raising U.S. dollars to expand"
-        },
-        {
-          "type": "paragraph",
-          "text": "their U.S. operations by issuing bonds that trade in the United States is a foreign bond issuance."
+          "text": "Bonds are subject to different legal and regulatory requirements that depend on where they are issued and traded. Bonds of issuers domiciled in the same country as the market in which the bonds are issued and traded are referred to as domestic bonds. Bonds of issuers from countries other than the market in which the bond trades are referred to as foreign bonds. For example, a U.K. company raising U.S. dollars to expand their U.S. operations by issuing bonds that trade in the United States is a foreign bond issuance."
         },
         {
           "type": "paragraph",
@@ -428,11 +416,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A balloon payment in a loan schedule is a partial payment of principal that is"
-            },
-            {
-              "type": "paragraph",
-              "text": "made at the end of the loan’s life. Compared to an otherwise equivalent fully amortizing loan, the existence of the balloon payment will lead to lower periodic payments over the life of the loan because the borrower has to repay less principal before maturity. There will be a higher final payment, however, at maturity."
+              "text": "A balloon payment in a loan schedule is a partial payment of principal that is made at the end of the loan’s life. Compared to an otherwise equivalent fully amortizing loan, the existence of the balloon payment will lead to lower periodic payments over the life of the loan because the borrower has to repay less principal before maturity. There will be a higher final payment, however, at maturity."
             }
           ]
         },
@@ -463,11 +447,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "With a sinking fund, the issuer must redeem part of the issue before maturity, but"
-            },
-            {
-              "type": "paragraph",
-              "text": "the specific bonds to be redeemed are not known. Floating-rate notes have an unknown future coupon because it relates to a variable market reference rate; however, they have a known maturity date. In an issue with a term maturity structure, all the bonds are scheduled to mature on the same date."
+              "text": "With a sinking fund, the issuer must redeem part of the issue before maturity, but the specific bonds to be redeemed are not known. Floating-rate notes have an unknown future coupon because it relates to a variable market reference rate; however, they have a known maturity date. In an issue with a term maturity structure, all the bonds are scheduled to mature on the same date."
             }
           ]
         },
@@ -498,11 +478,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "This pattern describes a deferred-coupon bond. The first payment of $229.25 is the"
-            },
-            {
-              "type": "paragraph",
-              "text": "value of the accrued coupon payments for the first three years."
+              "text": "This pattern describes a deferred-coupon bond. The first payment of $229.25 is the value of the accrued coupon payments for the first three years."
             }
           ]
         },
@@ -533,11 +509,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the price of the bond increases above the call price stipulated in the bond"
-            },
-            {
-              "type": "paragraph",
-              "text": "indenture, it will benefit the issuer to call the bond. Theoretically, the price of a currently callable bond should never rise above its call price."
+              "text": "If the price of the bond increases above the call price stipulated in the bond indenture, it will benefit the issuer to call the bond. Theoretically, the price of a currently callable bond should never rise above its call price."
             }
           ]
         },
@@ -568,11 +540,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Tax authorities typically treat the increase in value of a pure-discount bond"
-            },
-            {
-              "type": "paragraph",
-              "text": "toward par as interest income to the bondholder. In many jurisdictions, this interest income is taxed periodically during the life of the bond, even though the bondholder does not receive any cash until maturity."
+              "text": "Tax authorities typically treat the increase in value of a pure-discount bond toward par as interest income to the bondholder. In many jurisdictions, this interest income is taxed periodically during the life of the bond, even though the bondholder does not receive any cash until maturity."
             }
           ]
         }

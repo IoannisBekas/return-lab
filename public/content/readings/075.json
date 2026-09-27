@@ -70,7 +70,11 @@
         },
         {
           "type": "paragraph",
-          "text": "The initial value of our portfolio, V0, is hS0 – c0 (remember we are short the call option)."
+          "text": "The initial value of our portfolio, V0, is hS0"
+        },
+        {
+          "type": "paragraph",
+          "text": "– c0 (remember we are short the call option)."
         },
         {
           "type": "math",
@@ -112,7 +116,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Now we can solve for the value of the call option, c0. Recall that V0 = hS0 – c0, so c0 = hS0 – V0. Here, c0 = 0.278($50) – $11.34 = $2.56."
+          "text": "Now we can solve for the value of the call option, c0. Recall that V0 = hS0"
+        },
+        {
+          "type": "paragraph",
+          "text": "– c0, so c0 = hS0"
+        },
+        {
+          "type": "paragraph",
+          "text": "– V0. Here, c0 = 0.278($50)"
+        },
+        {
+          "type": "paragraph",
+          "text": "– $11.34 = $2.56."
         },
         {
           "type": "heading",
@@ -283,11 +299,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Next, determine the payoffs on the option in each state. If the stock moves up to $34.50, a call option with an exercise price of $30 will pay $4.50. If the stock moves"
-        },
-        {
-          "type": "paragraph",
-          "text": "down to $26.10, the call option will expire worthless. The option payoffs are illustrated in the following figure."
+          "text": "Next, determine the payoffs on the option in each state. If the stock moves up to $34.50, a call option with an exercise price of $30 will pay $4.50. If the stock moves down to $26.10, the call option will expire worthless. The option payoffs are illustrated in the following figure."
         },
         {
           "type": "math",
@@ -369,11 +381,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Note that the actual probabilities of an up-move and a down-move do not enter directly into our calculation of option value. The size of the up-move and down-move, along with the risk-free rate, determines the risk-neutral probabilities we use to calculate the"
-        },
-        {
-          "type": "paragraph",
-          "text": "expected payoff at option expiration. Remember, the risk-neutral probabilities come from constructing a hedge that creates a certain payoff. Because their calculation is based on an arbitrage relationship, we can discount the expected payoff based on risk-neutral probabilities, using the risk-free rate."
+          "text": "Note that the actual probabilities of an up-move and a down-move do not enter directly into our calculation of option value. The size of the up-move and down-move, along with the risk-free rate, determines the risk-neutral probabilities we use to calculate the expected payoff at option expiration. Remember, the risk-neutral probabilities come from constructing a hedge that creates a certain payoff. Because their calculation is based on an arbitrage relationship, we can discount the expected payoff based on risk-neutral probabilities, using the risk-free rate."
         }
       ]
     }
@@ -448,11 +456,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A one-period binomial model can be constructed based on replication and no-"
-            },
-            {
-              "type": "paragraph",
-              "text": "arbitrage pricing, without regard to the probabilities of an up-move or a down-move."
+              "text": "A one-period binomial model can be constructed based on replication and no-arbitrage pricing, without regard to the probabilities of an up-move or a down-move."
             }
           ]
         },
@@ -483,11 +487,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a one-period binomial model based on risk-neutral probabilities, the value of an"
-            },
-            {
-              "type": "paragraph",
-              "text": "option is the present value of a probability-weighted average of two possible option payoffs at the end of a single period, during which the price of the underlying asset is assumed to move either up or down to specific values."
+              "text": "In a one-period binomial model based on risk-neutral probabilities, the value of an option is the present value of a probability-weighted average of two possible option payoffs at the end of a single period, during which the price of the underlying asset is assumed to move either up or down to specific values."
             }
           ]
         },
@@ -518,11 +518,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because a one-period binomial model is based on a no-arbitrage relationship, we"
-            },
-            {
-              "type": "paragraph",
-              "text": "can discount the expected payoff at the risk-free rate."
+              "text": "Because a one-period binomial model is based on a no-arbitrage relationship, we can discount the expected payoff at the risk-free rate."
             }
           ]
         }

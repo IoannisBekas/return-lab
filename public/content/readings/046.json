@@ -22,31 +22,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The larger the percentage difference between market prices and estimated values, the"
+          "text": "1. The larger the percentage difference between market prices and estimated values, the more likely the investor is to take a position based on the estimate of intrinsic value. Small differences between market prices and estimates of intrinsic values are to be expected."
         },
         {
           "type": "paragraph",
-          "text": "more likely the investor is to take a position based on the estimate of intrinsic value. Small differences between market prices and estimates of intrinsic values are to be expected.\n2. The more confident the investor is about the appropriateness of the valuation model"
+          "text": "2. The more confident the investor is about the appropriateness of the valuation model used, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued."
         },
         {
           "type": "paragraph",
-          "text": "used, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued.\n3. The more confident the investor is about the estimated inputs used in the valuation"
+          "text": "3. The more confident the investor is about the estimated inputs used in the valuation model, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued. Analysts must also consider the sensitivity of a model value to each of its inputs in deciding whether to act on a difference between model values and market prices. If a decrease of one-half percent in the long-term growth rate used in the valuation model would produce an estimated value equal to the market price, an analyst would have to be quite sure of the model’s growth estimate to take a position in the stock based on its estimated value."
         },
         {
           "type": "paragraph",
-          "text": "model, the more likely the investor is to take an investment position in a stock that is identified as overvalued or undervalued. Analysts must also consider the sensitivity of a model value to each of its inputs in deciding whether to act on a difference between model values and market prices. If a decrease of one-half percent in the long-term growth rate used in the valuation model would produce an estimated value equal to the market price, an analyst would have to be quite sure of the model’s growth estimate to take a position in the stock based on its estimated value."
+          "text": "4. Even if we assume that market prices sometimes deviate from intrinsic values, market prices must be treated as fairly reliable indications of intrinsic value. Investors must consider why a stock is mispriced in the market. Investors may be more confident about estimates of value that differ from market prices when few analysts follow a particular security."
         },
         {
           "type": "paragraph",
-          "text": "4. Even if we assume that market prices sometimes deviate from intrinsic values,"
-        },
-        {
-          "type": "paragraph",
-          "text": "market prices must be treated as fairly reliable indications of intrinsic value. Investors must consider why a stock is mispriced in the market. Investors may be more confident about estimates of value that differ from market prices when few analysts follow a particular security.\n5. Finally, to take a position in a stock identified as mispriced in the market, an investor"
-        },
-        {
-          "type": "paragraph",
-          "text": "must believe that the market price will actually move toward (and certainly not away from) its estimated intrinsic value and that it will do so to a significant extent within the investment time horizon."
+          "text": "5. Finally, to take a position in a stock identified as mispriced in the market, an investor must believe that the market price will actually move toward (and certainly not away from) its estimated intrinsic value and that it will do so to a significant extent within the investment time horizon."
         },
         {
           "type": "question",
@@ -244,11 +236,7 @@
         },
         {
           "type": "paragraph",
-          "text": "It is useful to think of the subscript t on dividends (Dt ) and prices (Pt ) as the end of period t. For example, in the preceding equation, P2 is the price at the"
-        },
-        {
-          "type": "paragraph",
-          "text": "end of Year 2. Think of it as the selling price of a share, immediately after D2 is received."
+          "text": "It is useful to think of the subscript t on dividends (Dt ) and prices (Pt ) as the end of period t. For example, in the preceding equation, P2 is the price at the end of Year 2. Think of it as the selling price of a share, immediately after D2 is received."
         },
         {
           "type": "heading",
@@ -316,11 +304,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In the second formula, net borrowing is the increase in debt during the period (i.e., amount borrowed minus amount repaid) and is assumed to be available to shareholders. Fixed capital investment must be subtracted because the firm must invest"
-        },
-        {
-          "type": "paragraph",
-          "text": "in assets to sustain itself. FCFE is projected for future periods using the firm’s financial statements."
+          "text": "In the second formula, net borrowing is the increase in debt during the period (i.e., amount borrowed minus amount repaid) and is assumed to be available to shareholders. Fixed capital investment must be subtracted because the firm must invest in assets to sustain itself. FCFE is projected for future periods using the firm’s financial statements."
         },
         {
           "type": "paragraph",
@@ -410,11 +394,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The Gordon growth model (or constant growth model) assumes the annual growth rate of dividends, gc, is constant. Hence, next period’s dividend, D1, is D0(1 + gc), the"
-        },
-        {
-          "type": "paragraph",
-          "text": "second year’s dividend, D2, is D0(1 + gc)², and so on. The extended equation using this assumption gives the present value of the expected future dividends (V0) as:"
+          "text": "The Gordon growth model (or constant growth model) assumes the annual growth rate of dividends, gc, is constant. Hence, next period’s dividend, D1, is D0(1 + gc), the second year’s dividend, D2, is D0(1 + gc)², and so on. The extended equation using this assumption gives the present value of the expected future dividends (V0) as:"
         },
         {
           "type": "math",
@@ -544,15 +524,15 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Use the median industry dividend growth rate.\n3. Estimate the sustainable growth rate."
+          "text": "2. Use the median industry dividend growth rate."
         },
         {
           "type": "paragraph",
-          "text": "The sustainable growth rate is the rate at which equity, earnings, and dividends can continue to grow indefinitely assuming that ROE is constant, the dividend payout ratio is constant, and no new equity is sold."
+          "text": "3. Estimate the sustainable growth rate."
         },
         {
           "type": "paragraph",
-          "text": "sustainable growth = (1 − dividend payout ratio) × ROE"
+          "text": "The sustainable growth rate is the rate at which equity, earnings, and dividends can continue to grow indefinitely assuming that ROE is constant, the dividend payout ratio is constant, and no new equity is sold. sustainable growth = (1 − dividend payout ratio) × ROE"
         },
         {
           "type": "paragraph",
@@ -594,7 +574,11 @@
         },
         {
           "type": "paragraph",
-          "text": "A firm currently pays no dividend but is expected to pay a dividend at the end of Year\n4. Year 4 earnings are expected to be $1.64, and the firm will maintain a dividend payout ratio of 50%. Assuming a constant growth rate of 5% and a required rate of return of 10%, estimate the current value of this stock."
+          "text": "A firm currently pays no dividend but is expected to pay a dividend at the end of Year"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Year 4 earnings are expected to be $1.64, and the firm will maintain a dividend payout ratio of 50%. Assuming a constant growth rate of 5% and a required rate of return of 10%, estimate the current value of this stock."
         },
         {
           "type": "heading",
@@ -831,11 +815,7 @@
         },
         {
           "type": "paragraph",
-          "text": "D1 / E1 = expected dividend payout ratio."
-        },
-        {
-          "type": "paragraph",
-          "text": "k = required rate of return on the stock. g = expected constant growth rate of dividends."
+          "text": "D1 / E1 = expected dividend payout ratio. k = required rate of return on the stock. g = expected constant growth rate of dividends."
         },
         {
           "type": "heading",
@@ -929,11 +909,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The disadvantages of using price multiples based on comparables are (1) a stock may appear overvalued by the comparable method but undervalued by the fundamental"
-        },
-        {
-          "type": "paragraph",
-          "text": "method, or vice versa; (2) different accounting methods can result in price multiples that are not comparable across firms, especially internationally; and (3) price multiples for cyclical firms may be greatly affected by economic conditions at a given point in time."
+          "text": "The disadvantages of using price multiples based on comparables are (1) a stock may appear overvalued by the comparable method but undervalued by the fundamental method, or vice versa; (2) different accounting methods can result in price multiples that are not comparable across firms, especially internationally; and (3) price multiples for cyclical firms may be greatly affected by economic conditions at a given point in time."
         },
         {
           "type": "heading",
@@ -1040,11 +1016,7 @@
         },
         {
           "type": "paragraph",
-          "text": "EBITDA (earnings before interest, taxes, depreciation, and amortization are subtracted) is probably the most frequently used denominator for EV multiples; operating income can also be used. Because the numerator represents total company value, it should be compared to earnings of both debt and equity owners. An advantage of using EBITDA"
-        },
-        {
-          "type": "paragraph",
-          "text": "instead of net income is that EBITDA is usually positive even when earnings are not. When net income is negative, value multiples based on earnings are meaningless. A disadvantage of using EBITDA is that it often includes non-cash revenues and expenses."
+          "text": "EBITDA (earnings before interest, taxes, depreciation, and amortization are subtracted) is probably the most frequently used denominator for EV multiples; operating income can also be used. Because the numerator represents total company value, it should be compared to earnings of both debt and equity owners. An advantage of using EBITDA instead of net income is that EBITDA is usually positive even when earnings are not. When net income is negative, value multiples based on earnings are meaningless. A disadvantage of using EBITDA is that it often includes non-cash revenues and expenses."
         },
         {
           "type": "paragraph",
@@ -1400,15 +1372,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Estimates are very sensitive to inputs. For the Gordon growth model specifically: –  Very sensitive to the k − g denominator."
+      "text": "Estimates are very sensitive to inputs. For the Gordon growth model specifically:"
     },
     {
       "type": "paragraph",
-      "text": "–  Required return on equity must be greater than the growth rate. –  Required return on equity and growth rate must remain constant."
+      "text": "– Very sensitive to the k − g denominator."
     },
     {
       "type": "paragraph",
-      "text": "–  Firm must pay dividends."
+      "text": "– Required return on equity must be greater than the growth rate."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Required return on equity and growth rate must remain constant."
+    },
+    {
+      "type": "paragraph",
+      "text": "– Firm must pay dividends."
     },
     {
       "type": "paragraph",
@@ -1584,11 +1564,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Enterprise value (EV) measures total company value:"
-    },
-    {
-      "type": "paragraph",
-      "text": "enterprise value = market value of common and preferred stock + market value of debt − cash and short-term investments"
+      "text": "Enterprise value (EV) measures total company value: enterprise value = market value of common and preferred stock + market value of debt − cash and short-term investments"
     },
     {
       "type": "paragraph",
@@ -1705,11 +1681,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the analyst is more confident of his input values, he is more likely to conclude"
-            },
-            {
-              "type": "paragraph",
-              "text": "that the security is overvalued. The market price is more likely to be correct for a security followed by many analysts and less likely correct when few analysts follow the security."
+              "text": "If the analyst is more confident of his input values, he is more likely to conclude that the security is overvalued. The market price is more likely to be correct for a security followed by many analysts and less likely correct when few analysts follow the security."
             }
           ]
         },
@@ -1740,11 +1712,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "One example of a present value model is valuation based on the present value of"
-            },
-            {
-              "type": "paragraph",
-              "text": "future cash flows available to equity holders."
+              "text": "One example of a present value model is valuation based on the present value of future cash flows available to equity holders."
             }
           ]
         },
@@ -1775,11 +1743,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Both a 50% stock dividend and a 3-for-2 stock split will increase the number of"
-            },
-            {
-              "type": "paragraph",
-              "text": "shares by 50%, while neither will affect value of the company. Therefore, the decrease in the share price should be the same in either case."
+              "text": "Both a 50% stock dividend and a 3-for-2 stock split will increase the number of shares by 50%, while neither will affect value of the company. Therefore, the decrease in the share price should be the same in either case."
             }
           ]
         },
@@ -1810,11 +1774,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The chronology of a dividend payout is declaration date, ex-dividend date, holder-"
-            },
-            {
-              "type": "paragraph",
-              "text": "of-record date, and payment date. The ex-dividend date is the cutoff date for receiving the dividend: stocks purchased on or after the ex-dividend date will not receive the dividend."
+              "text": "The chronology of a dividend payout is declaration date, ex-dividend date, holder-of-record date, and payment date. The ex-dividend date is the cutoff date for receiving the dividend: stocks purchased on or after the ex-dividend date will not receive the dividend."
             }
           ]
         }
@@ -1852,11 +1812,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For the constant growth model, the constant growth rate (g) must be less than the"
-            },
-            {
-              "type": "paragraph",
-              "text": "required rate of return (k)."
+              "text": "For the constant growth model, the constant growth rate (g) must be less than the required rate of return (k)."
             }
           ]
         },
@@ -2046,11 +2002,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The constant growth DDM assumes that the dividend growth rate is constant. The"
-            },
-            {
-              "type": "paragraph",
-              "text": "most likely choice here is the bread and snack producer. Auto manufacturers are more likely to be cyclical than to experience constant growth. A biotechnology firm in existence for two years is unlikely to pay a dividend, and if it does, dividend growth is unlikely to be constant."
+              "text": "The constant growth DDM assumes that the dividend growth rate is constant. The most likely choice here is the bread and snack producer. Auto manufacturers are more likely to be cyclical than to experience constant growth. A biotechnology firm in existence for two years is unlikely to pay a dividend, and if it does, dividend growth is unlikely to be constant."
             }
           ]
         }
@@ -2088,11 +2040,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The fundamental P/E ratio is sensitive to its inputs. It uses the DDM as its"
-            },
-            {
-              "type": "paragraph",
-              "text": "framework, and the denominator k − g in both has a large impact on the calculated P/E or stock value."
+              "text": "The fundamental P/E ratio is sensitive to its inputs. It uses the DDM as its framework, and the denominator k − g in both has a large impact on the calculated P/E or stock value."
             }
           ]
         },
@@ -2154,11 +2102,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Enterprise value is market value of equity plus market value of debt minus cash"
-            },
-            {
-              "type": "paragraph",
-              "text": "and short-term investments."
+              "text": "Enterprise value is market value of equity plus market value of debt minus cash and short-term investments."
             }
           ]
         },
@@ -2189,11 +2133,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The energy exploration firm would be most appropriately valued using an asset-"
-            },
-            {
-              "type": "paragraph",
-              "text": "based model. Its near-term cash flows are likely negative, so a forward-looking model is of limited use. Furthermore, it has valuable assets in the form of drilling rights that likely have a readily determined market value. The paper firm would likely not be appropriately valued using an asset-based model because high inflation makes the values of a firm’s assets more difficult to estimate. An asset-based model would not be appropriate to value the software firm because the firm’s value largely consists of internally developed intangible assets."
+              "text": "The energy exploration firm would be most appropriately valued using an asset-based model. Its near-term cash flows are likely negative, so a forward-looking model is of limited use. Furthermore, it has valuable assets in the form of drilling rights that likely have a readily determined market value. The paper firm would likely not be appropriately valued using an asset-based model because high inflation makes the values of a firm’s assets more difficult to estimate. An asset-based model would not be appropriate to value the software firm because the firm’s value largely consists of internally developed intangible assets."
             }
           ]
         },
@@ -2224,11 +2164,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Results that may not be comparable across firms are considered a disadvantage of"
-            },
-            {
-              "type": "paragraph",
-              "text": "valuation models based on price multiples."
+              "text": "Results that may not be comparable across firms are considered a disadvantage of valuation models based on price multiples."
             }
           ]
         }

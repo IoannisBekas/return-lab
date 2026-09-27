@@ -50,47 +50,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The formative stage refers to investments made during a firm’s earliest period and"
+          "text": "1. The formative stage refers to investments made during a firm’s earliest period and comprises three different phases: - Pre-seed capital or angel investing is the capital provided at the idea stage. The investment funds are used for business plans and assessing market potential. The amount of financing is usually small, coming from individuals (“angels”) rather than VC funds."
         },
         {
           "type": "paragraph",
-          "text": "comprises three different phases: - Pre-seed capital or angel investing is the capital provided at the idea stage. The"
+          "text": "- Seed-stage financing or seed capital generally supports product development, marketing, and market research. This is the first stage at which VC funds usually invest."
         },
         {
           "type": "paragraph",
-          "text": "investment funds are used for business plans and assessing market potential. The amount of financing is usually small, coming from individuals (“angels”) rather than VC funds."
+          "text": "- Early-stage financing or start-up stage financing refers to investments made to fund operations in the lead-up to production and sales."
         },
         {
           "type": "paragraph",
-          "text": "- Seed-stage financing or seed capital generally supports product development,"
+          "text": "2. Later-stage financing or expansion venture capital comes after production and sales have begun. Investment funds provided at this stage are used to support initial growth, expansion, product improvement, or marketing. In this stage, the owners (typically the founders and managers of the company) often sell control of the company to VC investors."
         },
         {
           "type": "paragraph",
-          "text": "marketing, and market research. This is the first stage at which VC funds usually invest."
-        },
-        {
-          "type": "paragraph",
-          "text": "- Early-stage financing or start-up stage financing refers to investments made to"
-        },
-        {
-          "type": "paragraph",
-          "text": "fund operations in the lead-up to production and sales."
-        },
-        {
-          "type": "paragraph",
-          "text": "2. Later-stage financing or expansion venture capital comes after production and"
-        },
-        {
-          "type": "paragraph",
-          "text": "sales have begun. Investment funds provided at this stage are used to support initial growth, expansion, product improvement, or marketing. In this stage, the owners (typically the founders and managers of the company) often sell control of the company to VC investors."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. Mezzanine-stage financing refers to capital provided to prepare the firm for an"
-        },
-        {
-          "type": "paragraph",
-          "text": "initial public offering (IPO). The term mezzanine stage is used to indicate the timing of the financing rather than the method. A similar term, mezzanine financing, refers to hybrids of equity and debt, such as convertible securities. Mezzanine-stage financing can use these, but more often, it consists of equity or short-term debt."
+          "text": "3. Mezzanine-stage financing refers to capital provided to prepare the firm for an initial public offering (IPO). The term mezzanine stage is used to indicate the timing of the financing rather than the method. A similar term, mezzanine financing, refers to hybrids of equity and debt, such as convertible securities. Mezzanine-stage financing can use these, but more often, it consists of equity or short-term debt."
         },
         {
           "type": "paragraph",
@@ -106,47 +82,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Trade sale. Sell a portion of the private company to a strategic buyer via direct sale"
+          "text": "1. Trade sale. Sell a portion of the private company to a strategic buyer via direct sale or auction. An advantage of a trade sale is that the strategic investor typically pays a premium to realize synergies with an existing business. Advantages compared with an IPO include faster execution and lower transaction costs. Disadvantages of a trade sale include potential resistance from the portfolio company’s management and employees, as well as a limited universe of potential buyers."
         },
         {
           "type": "paragraph",
-          "text": "or auction. An advantage of a trade sale is that the strategic investor typically pays a premium to realize synergies with an existing business. Advantages compared with an IPO include faster execution and lower transaction costs. Disadvantages of a trade sale include potential resistance from the portfolio company’s management and employees, as well as a limited universe of potential buyers."
+          "text": "2. Public listing. Listing on a stock exchange can take place through an IPO, a direct listing, or a special purpose acquisition company: - IPOs are the most common method of public listing, using investment banks to underwrite the offering. Compared to other methods, IPOs typically realize a higher price for the portfolio company. They may also improve its visibility to investors and the public, which can be positive for the value of shares that the private equity fund retains. However, IPOs involve high transaction and compliance costs and might not always be received favorably by the investing public. Portfolio companies best suited for exit via IPO are large firms in growing industries that have stable finances and clear strategies. - A less frequently used alternative to an IPO is a direct listing, in which the stock of the company is floated on the public market directly without underwriters. This decreases the cost of the transaction, but does not raise new capital for the portfolio company. - A special purpose acquisition company (SPAC) is an entity (sometimes referred to as a blank check company) set up solely to raise capital that it will use to acquire an unspecified private company within a stated time period; otherwise, it must return the capital to investors. This method can be more flexible than an IPO and reduce the uncertainty about the valuation of the portfolio company, as well as provide access to investors who transact regularly with the sponsors. However, SPACs have numerous disadvantages, including dilutive effects from SPAC shares and warrants, a spread between the value of the SPAC and the value of the acquired company, deal risk in the acquisition, and stockholder overhang from SPAC shareholders selling shares after the acquisition is announced. Scrutiny from securities regulators is also increasing."
         },
         {
           "type": "paragraph",
-          "text": "2. Public listing. Listing on a stock exchange can take place through an IPO, a direct"
+          "text": "3. Recapitalization. The company issues debt to fund a dividend distribution to equity holders. This is not an exit, in that the fund still controls the company, but a recapitalization allows the private equity fund to extract money from the company to pay its investors."
         },
         {
           "type": "paragraph",
-          "text": "listing, or a special purpose acquisition company: - IPOs are the most common method of public listing, using investment banks to"
+          "text": "4. Secondary sale. Sell a portfolio company to another private equity firm or a group of investors."
         },
         {
           "type": "paragraph",
-          "text": "underwrite the offering. Compared to other methods, IPOs typically realize a higher price for the portfolio company. They may also improve its visibility to investors and the public, which can be positive for the value of shares that the private equity fund retains. However, IPOs involve high transaction and compliance costs and might not always be received favorably by the investing public. Portfolio companies best suited for exit via IPO are large firms in growing industries that have stable finances and clear strategies. - A less frequently used alternative to an IPO is a direct listing, in which the stock of"
-        },
-        {
-          "type": "paragraph",
-          "text": "the company is floated on the public market directly without underwriters. This decreases the cost of the transaction, but does not raise new capital for the portfolio company. - A special purpose acquisition company (SPAC) is an entity (sometimes referred"
-        },
-        {
-          "type": "paragraph",
-          "text": "to as a blank check company) set up solely to raise capital that it will use to acquire an unspecified private company within a stated time period; otherwise, it must return the capital to investors. This method can be more flexible than an IPO and reduce the uncertainty about the valuation of the portfolio company, as well as provide access to investors who transact regularly with the sponsors. However, SPACs have numerous disadvantages, including dilutive effects from SPAC shares and warrants, a spread between the value of the SPAC and the value of the acquired company, deal risk in the acquisition, and stockholder overhang from SPAC shareholders selling shares after the acquisition is announced. Scrutiny from securities regulators is also increasing."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. Recapitalization. The company issues debt to fund a dividend distribution to equity"
-        },
-        {
-          "type": "paragraph",
-          "text": "holders. This is not an exit, in that the fund still controls the company, but a recapitalization allows the private equity fund to extract money from the company to pay its investors.\n4. Secondary sale. Sell a portfolio company to another private equity firm or a group"
-        },
-        {
-          "type": "paragraph",
-          "text": "of investors.\n5. Write-off/liquidation. Reassess and take losses from an unsuccessful investment in"
-        },
-        {
-          "type": "paragraph",
-          "text": "a portfolio company."
+          "text": "5. Write-off/liquidation. Reassess and take losses from an unsuccessful investment in a portfolio company."
         },
         {
           "type": "heading",
@@ -167,19 +119,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Direct lending refers to loans made directly to a private company without an"
+          "text": "1. Direct lending refers to loans made directly to a private company without an intermediary. The debt is typically senior and secured, with covenants to protect the lender. A leveraged loan is a loan made by a private debt fund using money borrowed from other sources. That is, the fund’s portfolio of loans is leveraged to magnify returns."
         },
         {
           "type": "paragraph",
-          "text": "intermediary. The debt is typically senior and secured, with covenants to protect the lender. A leveraged loan is a loan made by a private debt fund using money borrowed from other sources. That is, the fund’s portfolio of loans is leveraged to magnify returns."
+          "text": "2. Venture debt is funding that provides VC backing to start-up or early-stage firms that are not yet profitable. Venture debt is often convertible to stock or combined with warrants. Managers of young companies may favor venture debt because it allows them to maintain ownership and control."
         },
         {
           "type": "paragraph",
-          "text": "2. Venture debt is funding that provides VC backing to start-up or early-stage firms"
-        },
-        {
-          "type": "paragraph",
-          "text": "that are not yet profitable. Venture debt is often convertible to stock or combined with warrants. Managers of young companies may favor venture debt because it allows them to maintain ownership and control.\n3. Mezzanine debt is private debt that is subordinated to senior secured debt."
+          "text": "3. Mezzanine debt is private debt that is subordinated to senior secured debt."
         },
         {
           "type": "paragraph",
@@ -187,15 +135,11 @@
         },
         {
           "type": "paragraph",
-          "text": "4. Distressed debt is the debt of mature companies in financial trouble, such as"
+          "text": "4. Distressed debt is the debt of mature companies in financial trouble, such as bankruptcy or default. In many cases, the fund becomes active in restructuring the existing debt or making other changes that increase the value of the acquired debt. Some distressed debt investors specialize in identifying otherwise good companies with temporary cash flow problems, anticipating that the value of the company and its debt will recover. Others focus on turnaround situations, acquiring a company’s debt with an intent to be active in managing and restructuring the company."
         },
         {
           "type": "paragraph",
-          "text": "bankruptcy or default. In many cases, the fund becomes active in restructuring the existing debt or making other changes that increase the value of the acquired debt. Some distressed debt investors specialize in identifying otherwise good companies with temporary cash flow problems, anticipating that the value of the company and its debt will recover. Others focus on turnaround situations, acquiring a company’s debt with an intent to be active in managing and restructuring the company.\n5. Unitranche debt combines different classes of debt (secured and unsecured) into a"
-        },
-        {
-          "type": "paragraph",
-          "text": "single loan with an interest rate that reflects the blend of debt classes. The resulting debt typically ranks between senior and subordinated debt."
+          "text": "5. Unitranche debt combines different classes of debt (secured and unsecured) into a single loan with an interest rate that reflects the blend of debt classes. The resulting debt typically ranks between senior and subordinated debt."
         },
         {
           "type": "paragraph",
@@ -216,11 +160,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Private capital investments can provide some diversification benefit to a portfolio of traditional investments. Empirical evidence indicates that correlations of private"
-        },
-        {
-          "type": "paragraph",
-          "text": "capital fund index returns with public market index returns range from 0.63 to 0.83.¹"
+          "text": "Private capital investments can provide some diversification benefit to a portfolio of traditional investments. Empirical evidence indicates that correlations of private capital fund index returns with public market index returns range from 0.63 to 0.83.¹"
         },
         {
           "type": "paragraph",
@@ -329,11 +269,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "VC funds typically make their initial investments during a firm’s seed stage for"
-            },
-            {
-              "type": "paragraph",
-              "text": "product development, marketing, and market research. At the angel investing stage, the funding source is usually individuals rather than VC funds. The start-up stage or early stage follows the seed stage and refers to investments made to fund initial commercial production and sales."
+              "text": "VC funds typically make their initial investments during a firm’s seed stage for product development, marketing, and market research. At the angel investing stage, the funding source is usually individuals rather than VC funds. The start-up stage or early stage follows the seed stage and refers to investments made to fund initial commercial production and sales."
             }
           ]
         },
@@ -364,11 +300,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a secondary sale, a private capital firm sells one of its portfolio companies to"
-            },
-            {
-              "type": "paragraph",
-              "text": "another private capital fund or group of private investors. Selling a portfolio company to a competitor in its industry is known as a trade sale. Selling a portfolio company to the public requires an IPO."
+              "text": "In a secondary sale, a private capital firm sells one of its portfolio companies to another private capital fund or group of private investors. Selling a portfolio company to a competitor in its industry is known as a trade sale. Selling a portfolio company to the public requires an IPO."
             }
           ]
         },
@@ -399,11 +331,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Unitranche debt refers to combining different classes of debt into a single loan"
-            },
-            {
-              "type": "paragraph",
-              "text": "with an interest rate that reflects the blend of debt classes."
+              "text": "Unitranche debt refers to combining different classes of debt into a single loan with an interest rate that reflects the blend of debt classes."
             }
           ]
         },
@@ -434,11 +362,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Funds with vintage years during contractions are likely to earn higher rates of"
-            },
-            {
-              "type": "paragraph",
-              "text": "return if they specialize in distressed companies. Funds with vintage years during expansions are likely to earn higher rates of return if they specialize in early-stage companies."
+              "text": "Funds with vintage years during contractions are likely to earn higher rates of return if they specialize in distressed companies. Funds with vintage years during expansions are likely to earn higher rates of return if they specialize in early-stage companies."
             }
           ]
         }

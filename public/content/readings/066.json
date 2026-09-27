@@ -38,11 +38,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The spot price, or the market price of the underlying, is $30, equal to the forward"
-        },
-        {
-          "type": "paragraph",
-          "text": "price of $30."
+          "text": "1. The spot price, or the market price of the underlying, is $30, equal to the forward price of $30."
         },
         {
           "type": "paragraph",
@@ -62,11 +58,7 @@
         },
         {
           "type": "paragraph",
-          "text": "3. The spot price of Acme shares is $25 at settlement, less than the forward price of"
-        },
-        {
-          "type": "paragraph",
-          "text": "$30."
+          "text": "3. The spot price of Acme shares is $25 at settlement, less than the forward price of $30."
         },
         {
           "type": "paragraph",
@@ -345,11 +337,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Exchange-traded derivatives have relatively low default risk (counterparty credit"
-            },
-            {
-              "type": "paragraph",
-              "text": "risk) because the clearinghouse stands between the counterparties involved, in most contracts."
+              "text": "Exchange-traded derivatives have relatively low default risk (counterparty credit risk) because the clearinghouse stands between the counterparties involved, in most contracts."
             }
           ]
         }

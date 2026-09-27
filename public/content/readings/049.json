@@ -66,11 +66,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Common positioning for different types of fixed-income investors is summarized in"
-        },
-        {
-          "type": "paragraph",
-          "text": "Figure 49.2."
+          "text": "Common positioning for different types of fixed-income investors is summarized in Figure 49.2."
         },
         {
           "type": "heading",
@@ -103,19 +99,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Fixed-income indexes differ from equity indexes in the following three ways:\n1. Corporate bond issuers can, and often do, have many different bonds outstanding,"
+          "text": "Fixed-income indexes differ from equity indexes in the following three ways:"
         },
         {
           "type": "paragraph",
-          "text": "while they will likely have no more than two or three different classes of shares. This leads to fixed-income indexes having many more constituents than equity indexes. Consequently, bond tracker funds employ sampling techniques rather than purchasing all the constituents of a fixed-income index to keep transaction complexity reasonable.\n2. Bonds maturing and being issued more frequently cause a higher frequency of"
+          "text": "1. Corporate bond issuers can, and often do, have many different bonds outstanding, while they will likely have no more than two or three different classes of shares. This leads to fixed-income indexes having many more constituents than equity indexes. Consequently, bond tracker funds employ sampling techniques rather than purchasing all the constituents of a fixed-income index to keep transaction complexity reasonable."
         },
         {
           "type": "paragraph",
-          "text": "removal and replacement of constituents (called turnover) in fixed-income indexes versus in equity indexes.\n3. Bonds are issued across multiple sectors. Usually, governments are the largest issuer"
+          "text": "2. Bonds maturing and being issued more frequently cause a higher frequency of removal and replacement of constituents (called turnover) in fixed-income indexes versus in equity indexes."
         },
         {
           "type": "paragraph",
-          "text": "of bonds; hence, broad bond indexes have large weights in sovereign bonds. Changes in debt issuance trends in terms of maturity and credit quality affect the weights of fixed-income indexes over time. Bond indexes that contain a broad selection of bonds are called aggregate indexes. An example of an aggregate index is the Bloomberg Barclays Aggregate Index, which includes bonds from all sectors across 28 currencies. The index excludes high-yield and unrated issues and bonds that do not meet minimum size for inclusion."
+          "text": "3. Bonds are issued across multiple sectors. Usually, governments are the largest issuer of bonds; hence, broad bond indexes have large weights in sovereign bonds. Changes in debt issuance trends in terms of maturity and credit quality affect the weights of fixed-income indexes over time. Bond indexes that contain a broad selection of bonds are called aggregate indexes. An example of an aggregate index is the Bloomberg Barclays Aggregate Index, which includes bonds from all sectors across 28 currencies. The index excludes high-yield and unrated issues and bonds that do not meet minimum size for inclusion."
         },
         {
           "type": "paragraph",
@@ -140,11 +136,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Sales of newly issued bonds are referred to as primary market transactions, whereby the issuer sells new securities to investors and receives new capital in return. Newly issued bonds can be registered with securities regulators for sale to the public (a public offering) or sold only to selected investors (a private placement). Both are usually"
-        },
-        {
-          "type": "paragraph",
-          "text": "carried out through financial intermediaries (i.e., investment banks). An issuer that is offering its first-ever bond is referred to as a debut issuer and is typically a growing and maturing firm that is replacing bank loans in its capital structure with the proceeds from the bond issue."
+          "text": "Sales of newly issued bonds are referred to as primary market transactions, whereby the issuer sells new securities to investors and receives new capital in return. Newly issued bonds can be registered with securities regulators for sale to the public (a public offering) or sold only to selected investors (a private placement). Both are usually carried out through financial intermediaries (i.e., investment banks). An issuer that is offering its first-ever bond is referred to as a debut issuer and is typically a growing and maturing firm that is replacing bank loans in its capital structure with the proceeds from the bond issue."
         },
         {
           "type": "paragraph",
@@ -305,11 +297,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Corporations are most likely to fund short-term seasonal investment in working"
-            },
-            {
-              "type": "paragraph",
-              "text": "capital by issuing short-term commercial paper because its maturity (less than a year) will match the required investment period in working capital. Intermediate-term corporate bonds are usually issued to invest in longer-term working capital requirements and medium-term fixed capital investments. A corporation cannot issue Treasury notes, which are intermediate-term securities issued by governments."
+              "text": "Corporations are most likely to fund short-term seasonal investment in working capital by issuing short-term commercial paper because its maturity (less than a year) will match the required investment period in working capital. Intermediate-term corporate bonds are usually issued to invest in longer-term working capital requirements and medium-term fixed capital investments. A corporation cannot issue Treasury notes, which are intermediate-term securities issued by governments."
             }
           ]
         },
@@ -340,11 +328,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Aggregate fixed-income indexes include constituents from all sectors. Hence,"
-            },
-            {
-              "type": "paragraph",
-              "text": "fixed-income indexes will have higher weights allocated to sovereign issuers and lower weights to corporate issuers than equity indexes, which are based purely on corporate issuers of equity. A fixed-income index is expected to have higher turnover (due to maturing bonds and frequent re-issues) and a higher number of constituents (due to a single issuer typically having more bond issues in existence than equity issues)."
+              "text": "Aggregate fixed-income indexes include constituents from all sectors. Hence, fixed-income indexes will have higher weights allocated to sovereign issuers and lower weights to corporate issuers than equity indexes, which are based purely on corporate issuers of equity. A fixed-income index is expected to have higher turnover (due to maturing bonds and frequent re-issues) and a higher number of constituents (due to a single issuer typically having more bond issues in existence than equity issues)."
             }
           ]
         },
@@ -375,11 +359,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a best-efforts offering, the investment bank or banks do not underwrite (i.e.,"
-            },
-            {
-              "type": "paragraph",
-              "text": "purchase all of) a bond issue, but rather sell the bonds on a commission basis."
+              "text": "In a best-efforts offering, the investment bank or banks do not underwrite (i.e., purchase all of) a bond issue, but rather sell the bonds on a commission basis."
             },
             {
               "type": "paragraph",
@@ -414,11 +394,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The secondary market for bonds is primarily a dealer market in which dealers"
-            },
-            {
-              "type": "paragraph",
-              "text": "post bid and ask prices."
+              "text": "The secondary market for bonds is primarily a dealer market in which dealers post bid and ask prices."
             }
           ]
         },
@@ -449,11 +425,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Sovereign bonds are described as “on the run” when they represent the most"
-            },
-            {
-              "type": "paragraph",
-              "text": "recent issue in a specific maturity."
+              "text": "Sovereign bonds are described as “on the run” when they represent the most recent issue in a specific maturity."
             }
           ]
         }

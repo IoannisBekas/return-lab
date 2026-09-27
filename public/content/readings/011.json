@@ -47,11 +47,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Velocity refers to how quickly data are communicated. Real-time data such as stock market price feeds are said to have low latency. Data that are only communicated"
-        },
-        {
-          "type": "paragraph",
-          "text": "periodically or with a lag are said to have high latency."
+          "text": "Velocity refers to how quickly data are communicated. Real-time data such as stock market price feeds are said to have low latency. Data that are only communicated periodically or with a lag are said to have high latency."
         },
         {
           "type": "paragraph",
@@ -91,11 +87,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In supervised learning, the input and output data are labeled, the machine learns to model the outputs from the inputs, and then the machine is given new data on which to use the model. In unsupervised learning, the input data are not labeled, and the machine learns to describe the structure of the data. Deep learning is a technique that"
-        },
-        {
-          "type": "paragraph",
-          "text": "uses layers of neural networks to identify patterns, beginning with simple patterns and advancing to more complex ones. Deep learning may employ supervised or unsupervised learning. Some of the applications of deep learning include image and speech recognition."
+          "text": "In supervised learning, the input and output data are labeled, the machine learns to model the outputs from the inputs, and then the machine is given new data on which to use the model. In unsupervised learning, the input data are not labeled, and the machine learns to describe the structure of the data. Deep learning is a technique that uses layers of neural networks to identify patterns, beginning with simple patterns and advancing to more complex ones. Deep learning may employ supervised or unsupervised learning. Some of the applications of deep learning include image and speech recognition."
         },
         {
           "type": "paragraph",
@@ -221,11 +213,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Fintech is the application of technology to the financial services industry and to"
-            },
-            {
-              "type": "paragraph",
-              "text": "companies that are involved in developing and applying technology for financial services. Cryptocurrencies and distributed ledger technology are examples of fintech-related developments."
+              "text": "Fintech is the application of technology to the financial services industry and to companies that are involved in developing and applying technology for financial services. Cryptocurrencies and distributed ledger technology are examples of fintech-related developments."
             }
           ]
         },
@@ -256,15 +244,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Machine learning is a computer programming technique useful for identifying and"
-            },
-            {
-              "type": "paragraph",
-              "text": "modeling patterns in large volumes of data. The Internet of Things is the network of devices that is one of the sources of Big Data. Capture is one aspect of"
-            },
-            {
-              "type": "paragraph",
-              "text": "processing data. Latency is the lag between when data is generated and when it is needed."
+              "text": "Machine learning is a computer programming technique useful for identifying and modeling patterns in large volumes of data. The Internet of Things is the network of devices that is one of the sources of Big Data. Capture is one aspect of processing data. Latency is the lag between when data is generated and when it is needed."
             }
           ]
         }

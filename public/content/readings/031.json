@@ -34,11 +34,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Operating cash flow provides a check on the quality of a firm’s earnings. A stable relationship of operating cash flow and net income is an indication of quality earnings. Earnings that significantly exceed operating cash flow may be an indication of"
-        },
-        {
-          "type": "paragraph",
-          "text": "aggressive (or even improper) accounting choices such as recognizing revenues too soon or delaying the recognition of expenses. An analyst should also evaluate the variability of net income and operating cash flow as an indicator of a firm’s risk."
+          "text": "Operating cash flow provides a check on the quality of a firm’s earnings. A stable relationship of operating cash flow and net income is an indication of quality earnings. Earnings that significantly exceed operating cash flow may be an indication of aggressive (or even improper) accounting choices such as recognizing revenues too soon or delaying the recognition of expenses. An analyst should also evaluate the variability of net income and operating cash flow as an indicator of a firm’s risk."
         },
         {
           "type": "paragraph",
@@ -205,27 +201,15 @@
         },
         {
           "type": "paragraph",
-          "text": "FCFF = CFO + [cash interest paid × (1 − tax rate)] − fixed capital investment"
+          "text": "FCFF = CFO + [cash interest paid × (1 − tax rate)] − fixed capital investment = $50,000 + $500(1 − 0.4) − $0 = $50,300"
         },
         {
           "type": "paragraph",
-          "text": "= $50,000 + $500(1 − 0.4) − $0 = $50,300"
+          "text": "FCFE = CFO − fixed capital investment + net borrowing = $50,000 − $0 + $5,000 = $55,000"
         },
         {
           "type": "paragraph",
-          "text": "FCFE = CFO − fixed capital investment + net borrowing"
-        },
-        {
-          "type": "paragraph",
-          "text": "= $50,000 − $0 + $5,000 = $55,000"
-        },
-        {
-          "type": "paragraph",
-          "text": "Alternatively, FCFE = FCFF − [interest paid × (1 − tax rate)] + net borrowing"
-        },
-        {
-          "type": "paragraph",
-          "text": "= $50,300 − $500(1 − 0.4) + $5,000 = $55,000"
+          "text": "Alternatively, FCFE = FCFF − [interest paid × (1 − tax rate)] + net borrowing = $50,300 − $500(1 − 0.4) + $5,000 = $55,000"
         },
         {
           "type": "heading",
@@ -456,11 +440,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The cash flow statement can be converted to common-size format by expressing"
-            },
-            {
-              "type": "paragraph",
-              "text": "each line item as a percentage of revenue."
+              "text": "The cash flow statement can be converted to common-size format by expressing each line item as a percentage of revenue."
             }
           ]
         },
@@ -491,11 +471,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "FCFF can be calculated from CFO by adding interest expense net of tax and"
-            },
-            {
-              "type": "paragraph",
-              "text": "subtracting fixed capital investment."
+              "text": "FCFF can be calculated from CFO by adding interest expense net of tax and subtracting fixed capital investment."
             }
           ]
         },

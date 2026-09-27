@@ -42,11 +42,7 @@
         },
         {
           "type": "paragraph",
-          "text": "MBSs are like callable bonds, where the borrower has the right to repay the loan early, which leads to negative convexity for prices at low yields (i.e.,"
-        },
-        {
-          "type": "paragraph",
-          "text": "prices rise at a slower rate as yields fall)."
+          "text": "MBSs are like callable bonds, where the borrower has the right to repay the loan early, which leads to negative convexity for prices at low yields (i.e., prices rise at a slower rate as yields fall)."
         },
         {
           "type": "paragraph",
@@ -293,11 +289,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The debt service coverage ratio (DSCR, or DSC ratio) is a basic cash flow"
-        },
-        {
-          "type": "paragraph",
-          "text": "coverage ratio of the amount of cash flow from a commercial property available to make debt service payments, compared to the required debt service cost:"
+          "text": "1. The debt service coverage ratio (DSCR, or DSC ratio) is a basic cash flow coverage ratio of the amount of cash flow from a commercial property available to make debt service payments, compared to the required debt service cost:"
         },
         {
           "type": "math",
@@ -307,11 +299,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Net operating income is calculated as rental income less cash operating expenses and a noncash replacement reserve that represents the depreciation of the property over time. This ratio indicates greater protection to the lender when it is higher.\n2. The loan-to-value ratio (LTV) compares the loan amount on the property to its"
+          "text": "Net operating income is calculated as rental income less cash operating expenses and a noncash replacement reserve that represents the depreciation of the property over time. This ratio indicates greater protection to the lender when it is higher."
         },
         {
           "type": "paragraph",
-          "text": "current fair market or appraisal value:"
+          "text": "2. The loan-to-value ratio (LTV) compares the loan amount on the property to its current fair market or appraisal value:"
         },
         {
           "type": "math",
@@ -523,11 +515,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An investor concerned about extension risk would prefer to purchase a tranche"
-            },
-            {
-              "type": "paragraph",
-              "text": "that is paid back sooner than other tranches; hence, the investor would prefer Tranche A."
+              "text": "An investor concerned about extension risk would prefer to purchase a tranche that is paid back sooner than other tranches; hence, the investor would prefer Tranche A."
             }
           ]
         },
@@ -558,11 +546,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Balloon risk is the possibility that a commercial mortgage borrower will not be"
-            },
-            {
-              "type": "paragraph",
-              "text": "able to refinance the principal that is due at the maturity date of the mortgage. This results in a default that is typically resolved by extending the term of the loan during a workout period. Thus, balloon risk is a source of extension risk for CMBS investors."
+              "text": "Balloon risk is the possibility that a commercial mortgage borrower will not be able to refinance the principal that is due at the maturity date of the mortgage. This results in a default that is typically resolved by extending the term of the loan during a workout period. Thus, balloon risk is a source of extension risk for CMBS investors."
             }
           ]
         }

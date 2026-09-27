@@ -65,19 +65,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Specify the probability distributions of stock prices and of the relevant interest rate,"
+          "text": "1. Specify the probability distributions of stock prices and of the relevant interest rate, as well as the parameters (e.g., mean, variance, skewness) of the distributions."
         },
         {
           "type": "paragraph",
-          "text": "as well as the parameters (e.g., mean, variance, skewness) of the distributions."
+          "text": "2. Randomly generate values for both stock prices and interest rates."
         },
         {
           "type": "paragraph",
-          "text": "2. Randomly generate values for both stock prices and interest rates.\n3. Value the options for each pair of risk factor values.\n4. After many iterations, calculate the mean option value and use that as your estimate"
+          "text": "3. Value the options for each pair of risk factor values."
         },
         {
           "type": "paragraph",
-          "text": "of the option’s value."
+          "text": "4. After many iterations, calculate the mean option value and use that as your estimate of the option’s value."
         },
         {
           "type": "paragraph",
@@ -242,11 +242,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The ability to address “what if” questions (i.e., using input data outside the range"
-            },
-            {
-              "type": "paragraph",
-              "text": "that has been observed historically) is an advantage of Monte Carlo simulation."
+              "text": "The ability to address “what if” questions (i.e., using input data outside the range that has been observed historically) is an advantage of Monte Carlo simulation."
             }
           ]
         },
@@ -277,11 +273,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "One of the strengths of bootstrapping is that it offers a good representation of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "statistical features of a population. However, this method does not provide exact results, and the inputs can be limited by the distribution of actual outcomes."
+              "text": "One of the strengths of bootstrapping is that it offers a good representation of the statistical features of a population. However, this method does not provide exact results, and the inputs can be limited by the distribution of actual outcomes."
             }
           ]
         }

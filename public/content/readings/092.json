@@ -39,43 +39,39 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Fundamentals of Compliance. The fundamental issues involved in complying with"
+          "text": "1. Fundamentals of Compliance. The fundamental issues involved in complying with GIPS are (a) defining the firm, (b) providing GIPS-compliant reports to all clients and prospects, (c) complying with applicable regulations and laws, and (d) presenting information that is neither false nor misleading."
         },
         {
           "type": "paragraph",
-          "text": "GIPS are (a) defining the firm, (b) providing GIPS-compliant reports to all clients and"
+          "text": "2. Input Data and Calculation Methodology. Input data should be consistent in order to establish full, fair, and comparable investment performance presentations. Certain methodologies are required for portfolio return calculations, and certain other methodologies are required for composite return calculations. Uniformity in methods across firms is required so that their results are comparable."
         },
         {
           "type": "paragraph",
-          "text": "prospects, (c) complying with applicable regulations and laws, and (d) presenting information that is neither false nor misleading."
+          "text": "3. Composite and Pooled Fund Maintenance. Creation of meaningful, asset-weighted composites is important to achieve a fair presentation. Composite performance is based on the performance of one or more portfolios that have the same investment strategy or investment objective. Composite returns are the asset-weighted average (not a simple average) of the returns on the portfolios that are included in each composite. Pooled funds must be included in a composite if they fit its definition."
         },
         {
           "type": "paragraph",
-          "text": "2. Input Data and Calculation Methodology. Input data should be consistent in order to"
+          "text": "4. Composite Time-Weighted Return Report."
         },
         {
           "type": "paragraph",
-          "text": "establish full, fair, and comparable investment performance presentations. Certain methodologies are required for portfolio return calculations, and certain other methodologies are required for composite return calculations. Uniformity in methods across firms is required so that their results are comparable."
+          "text": "5. Composite Money-Weighted Return Report."
         },
         {
           "type": "paragraph",
-          "text": "3. Composite and Pooled Fund Maintenance. Creation of meaningful, asset-weighted"
+          "text": "6. Pooled Fund Time-Weighted Return Report."
         },
         {
           "type": "paragraph",
-          "text": "composites is important to achieve a fair presentation. Composite performance is based on the performance of one or more portfolios that have the same investment strategy or investment objective. Composite returns are the asset-weighted average (not a simple average) of the returns on the portfolios that are included in each composite. Pooled funds must be included in a composite if they fit its definition.\n4. Composite Time-Weighted Return Report.\n5. Composite Money-Weighted Return Report."
+          "text": "7. Pooled Fund Money-Weighted Return Report."
         },
         {
           "type": "paragraph",
-          "text": "6. Pooled Fund Time-Weighted Return Report.\n7. Pooled Fund Money-Weighted Return Report."
+          "text": "Sections 4 through 7 contain required and recommended procedures for reporting the performance of composites and pooled funds, as well as the necessary disclosures. There are some disclosures that all firms must make, but some disclosures may not apply to all firms. If a disclosure is not applicable to a specific firm, the firm is not required to include any statement regarding it. A firm that has met all the requirements of GIPS may include an appropriate claim of compliance."
         },
         {
           "type": "paragraph",
-          "text": "Sections 4 through 7 contain required and recommended procedures for reporting the performance of composites and pooled funds, as well as the necessary disclosures. There are some disclosures that all firms must make, but some disclosures may not apply to all firms. If a disclosure is not applicable to a specific firm, the firm is not required to include any statement regarding it. A firm that has met all the requirements of GIPS may include an appropriate claim of compliance.\n8. GIPS Advertising Guidelines. If an advertisement includes a claim of compliance with"
-        },
-        {
-          "type": "paragraph",
-          "text": "GIPS, the advertisement must comply with these guidelines. The guidelines do not apply to advertisements that do not reference the firm’s GIPS compliance."
+          "text": "8. GIPS Advertising Guidelines. If an advertisement includes a claim of compliance with GIPS, the advertisement must comply with these guidelines. The guidelines do not apply to advertisements that do not reference the firm’s GIPS compliance."
         },
         {
           "type": "question",
@@ -152,15 +148,31 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Fundamentals of Compliance.\n2. Input Data and Calculation Methodology."
+      "text": "1. Fundamentals of Compliance."
     },
     {
       "type": "paragraph",
-      "text": "3. Composite and Pooled Fund Maintenance.\n4. Composite Time-Weighted Return Report."
+      "text": "2. Input Data and Calculation Methodology."
     },
     {
       "type": "paragraph",
-      "text": "5. Composite Money-Weighted Return Report.\n6. Pooled Fund Time-Weighted Return Report.\n7. Pooled Fund Money-Weighted Return Report."
+      "text": "3. Composite and Pooled Fund Maintenance."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Composite Time-Weighted Return Report."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Composite Money-Weighted Return Report."
+    },
+    {
+      "type": "paragraph",
+      "text": "6. Pooled Fund Time-Weighted Return Report."
+    },
+    {
+      "type": "paragraph",
+      "text": "7. Pooled Fund Money-Weighted Return Report."
     },
     {
       "type": "paragraph",
@@ -195,11 +207,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Firms are encouraged to pursue independent verification of GIPS compliance. If they seek verification, it must be performed by a third party, not by the firm itself. The third-party verifier must attest that (1) the firm has complied with all GIPS requirements for composite construction on a firmwide basis and (2) the firm’s processes and procedures are established to present performance in accordance with the calculation"
-    },
-    {
-      "type": "paragraph",
-      "text": "methodology required by GIPS, the data requirements of GIPS, and in the format required by GIPS."
+      "text": "Firms are encouraged to pursue independent verification of GIPS compliance. If they seek verification, it must be performed by a third party, not by the firm itself. The third-party verifier must attest that (1) the firm has complied with all GIPS requirements for composite construction on a firmwide basis and (2) the firm’s processes and procedures are established to present performance in accordance with the calculation methodology required by GIPS, the data requirements of GIPS, and in the format required by GIPS."
     }
   ],
   "practice": [],
@@ -263,11 +271,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "GIPS apply to investment management firms. They are intended to serve"
-            },
-            {
-              "type": "paragraph",
-              "text": "prospective and existing clients of investment management firms and consultants who advise these clients."
+              "text": "GIPS apply to investment management firms. They are intended to serve prospective and existing clients of investment management firms and consultants who advise these clients."
             }
           ]
         },
@@ -298,11 +302,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "To comply with GIPS, a composite must include all fee-paying, discretionary"
-            },
-            {
-              "type": "paragraph",
-              "text": "portfolios managed according to the same investment objective, strategy, or mandate. The composite or composites in which a portfolio will be included must be determined on an ex ante basis (i.e., before the period for which the composite’s performance will be calculated). A GIPS-compliant composite must include terminated accounts."
+              "text": "To comply with GIPS, a composite must include all fee-paying, discretionary portfolios managed according to the same investment objective, strategy, or mandate. The composite or composites in which a portfolio will be included must be determined on an ex ante basis (i.e., before the period for which the composite’s performance will be calculated). A GIPS-compliant composite must include terminated accounts."
             }
           ]
         },
@@ -333,11 +333,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Verification of GIPS compliance is optional, but if a firm chooses to seek third-"
-            },
-            {
-              "type": "paragraph",
-              "text": "party verification, the report must be issued with respect to the whole firm. GIPS verification cannot be carried out for a single composite."
+              "text": "Verification of GIPS compliance is optional, but if a firm chooses to seek third-party verification, the report must be issued with respect to the whole firm. GIPS verification cannot be carried out for a single composite."
             }
           ]
         }

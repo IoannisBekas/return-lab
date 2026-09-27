@@ -22,15 +22,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. It must refer to a specific asset.\n2. It must give the lessee effectively all the asset’s economic benefits during the term of"
+          "text": "1. It must refer to a specific asset."
         },
         {
           "type": "paragraph",
-          "text": "the lease.\n3. It must give the lessee the right to determine how to use the asset during the term of"
+          "text": "2. It must give the lessee effectively all the asset’s economic benefits during the term of the lease."
         },
         {
           "type": "paragraph",
-          "text": "the lease."
+          "text": "3. It must give the lessee the right to determine how to use the asset during the term of the lease."
         },
         {
           "type": "paragraph",
@@ -54,19 +54,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Ownership of the leased asset transfers to the lessee.\n2. The lessee has an option to buy the asset and is expected to exercise it.\n3. The lease is for most of the asset’s useful life."
+          "text": "1. Ownership of the leased asset transfers to the lessee."
         },
         {
           "type": "paragraph",
-          "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair"
+          "text": "2. The lessee has an option to buy the asset and is expected to exercise it."
         },
         {
           "type": "paragraph",
-          "text": "value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only"
+          "text": "3. The lease is for most of the asset’s useful life."
         },
         {
           "type": "paragraph",
-          "text": "suitable for use by the lessee)."
+          "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair value."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable for use by the lessee)."
         },
         {
           "type": "paragraph",
@@ -306,11 +310,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The sum of the present value of lease payments and the salvage value is referred to the net investment in the lease and will be the initial value of the lease receivable asset in the balance sheet."
-        },
-        {
-          "type": "paragraph",
-          "text": "net investment in the lease = $35,460 + $1,645 = $37,105"
+          "text": "The sum of the present value of lease payments and the salvage value is referred to the net investment in the lease and will be the initial value of the lease receivable asset in the balance sheet. net investment in the lease = $35,460 + $1,645 = $37,105"
         },
         {
           "type": "paragraph",
@@ -405,11 +405,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A defined contribution plan is a retirement plan in which the firm contributes a sum each period to the employee’s retirement account. The firm’s contribution can be based on any number of factors, including years of service, the employee’s age, compensation, profitability, or even a percentage of the employee’s contribution. In any event, the firm"
-        },
-        {
-          "type": "paragraph",
-          "text": "makes no promise to the employee regarding the future value of the plan assets. The investment decisions are left to the employee, who assumes all of the investment risk."
+          "text": "A defined contribution plan is a retirement plan in which the firm contributes a sum each period to the employee’s retirement account. The firm’s contribution can be based on any number of factors, including years of service, the employee’s age, compensation, profitability, or even a percentage of the employee’s contribution. In any event, the firm makes no promise to the employee regarding the future value of the plan assets. The investment decisions are left to the employee, who assumes all of the investment risk."
         },
         {
           "type": "paragraph",
@@ -457,15 +453,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Service cost. This represents the present value of the additional benefits employees"
+          "text": "1. Service cost. This represents the present value of the additional benefits employees are entitled to after retirement because they have worked an additional year. This element also includes “past service costs,” which represent changes to the benefits earned in previous periods resulting from alterations to the plan and other factors."
         },
         {
           "type": "paragraph",
-          "text": "are entitled to after retirement because they have worked an additional year. This element also includes “past service costs,” which represent changes to the benefits earned in previous periods resulting from alterations to the plan and other factors.\n2. Net interest expense or income. This is calculated as the net pension asset or"
-        },
-        {
-          "type": "paragraph",
-          "text": "liability times the plan’s discount rate. If the plan’s beginning funded status is a net asset, the company will report interest income; if the plan is underfunded at the start of the year, the company will report interest expense."
+          "text": "2. Net interest expense or income. This is calculated as the net pension asset or liability times the plan’s discount rate. If the plan’s beginning funded status is a net asset, the company will report interest income; if the plan is underfunded at the start of the year, the company will report interest expense."
         },
         {
           "type": "heading",
@@ -477,11 +469,7 @@
         },
         {
           "type": "paragraph",
-          "text": "3. Remeasurements. There are two sources of remeasurement: actuarial gains and"
-        },
-        {
-          "type": "paragraph",
-          "text": "losses, and the difference between actual and expected returns on plan assets. Actuarial gains and losses are changes in the net pension asset or liability that result from changing actuarial estimates, such as the rate of salary growth, discount rate, employee turnover, retirement age, and mortality rates. The difference between expected and actual return on plan assets results from the expected return being included in the income statement and the actual return being a component of funded status in the balance sheet."
+          "text": "3. Remeasurements. There are two sources of remeasurement: actuarial gains and losses, and the difference between actual and expected returns on plan assets. Actuarial gains and losses are changes in the net pension asset or liability that result from changing actuarial estimates, such as the rate of salary growth, discount rate, employee turnover, retirement age, and mortality rates. The difference between expected and actual return on plan assets results from the expected return being included in the income statement and the actual return being a component of funded status in the balance sheet."
         },
         {
           "type": "paragraph",
@@ -501,11 +489,19 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Interest expense or income.\n3. The expected return on plan assets."
+          "text": "2. Interest expense or income."
         },
         {
           "type": "paragraph",
-          "text": "4. Past service costs.\n5. Actuarial gains and losses."
+          "text": "3. The expected return on plan assets."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Past service costs."
+        },
+        {
+          "type": "paragraph",
+          "text": "5. Actuarial gains and losses."
         },
         {
           "type": "paragraph",
@@ -533,19 +529,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Stock grants. These are shares awarded outright, with restrictions, or contingent on"
+          "text": "1. Stock grants. These are shares awarded outright, with restrictions, or contingent on performance. The fair value of the stock grant is the share price on the grant date. If vesting is not immediate, the compensation expense will be recognized between the grant date and the vesting date, which is known at the service period. If vesting is immediate, then the full fair value is recognized as an expense in the income statement on the grant date."
         },
         {
           "type": "paragraph",
-          "text": "performance. The fair value of the stock grant is the share price on the grant date. If vesting is not immediate, the compensation expense will be recognized between the grant date and the vesting date, which is known at the service period. If vesting is immediate, then the full fair value is recognized as an expense in the income statement on the grant date."
-        },
-        {
-          "type": "paragraph",
-          "text": "2. Performance shares. These are stock grants that depend on meeting a set"
-        },
-        {
-          "type": "paragraph",
-          "text": "performance target. Typically, the performance targets are not share price related, but instead focus on metrics like return on equity. While this addresses the concern that the individual may have little influence over share price, it may create incentives for managers to manipulate financial statements."
+          "text": "2. Performance shares. These are stock grants that depend on meeting a set performance target. Typically, the performance targets are not share price related, but instead focus on metrics like return on equity. While this addresses the concern that the individual may have little influence over share price, it may create incentives for managers to manipulate financial statements."
         },
         {
           "type": "paragraph",
@@ -553,11 +541,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Employee stock options are options to invest in the company’s stock at a given price (the exercise price) at a future date. Unlike stock grants, which have value as long as the stock price is greater than zero, an option only has value if the stock price is above the exercise price. If an employee stock option is exercised, the company issues new shares in return for the exercise price. Option valuation models, such as the Black-Scholes-Merton or binomial models, are needed to compute the fair value of the option on the grant date. Some of the inputs that the models require are highly subjective—in"
-        },
-        {
-          "type": "paragraph",
-          "text": "particular, the assumed volatility of the company’s stock price over the life of the option. The fair value is then expensed between the grant date and the vesting date (the date the option can first be exercised)."
+          "text": "Employee stock options are options to invest in the company’s stock at a given price (the exercise price) at a future date. Unlike stock grants, which have value as long as the stock price is greater than zero, an option only has value if the stock price is above the exercise price. If an employee stock option is exercised, the company issues new shares in return for the exercise price. Option valuation models, such as the Black-Scholes-Merton or binomial models, are needed to compute the fair value of the option on the grant date. Some of the inputs that the models require are highly subjective—in particular, the assumed volatility of the company’s stock price over the life of the option. The fair value is then expensed between the grant date and the vesting date (the date the option can first be exercised)."
         },
         {
           "type": "paragraph",
@@ -565,27 +549,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The grant date is when the fair value is established. Fair value is normally the market"
+          "text": "1. The grant date is when the fair value is established. Fair value is normally the market price on this date."
         },
         {
           "type": "paragraph",
-          "text": "price on this date.\n2. If vesting is immediate, the full fair value is expensed to the income statement, and"
+          "text": "2. If vesting is immediate, the full fair value is expensed to the income statement, and both common stock and additional paid-in capital (APIC) are increased by this amount."
         },
         {
           "type": "paragraph",
-          "text": "both common stock and additional paid-in capital (APIC) are increased by this amount.\n3. If there is a length of time between the grant date and the vesting period (service"
+          "text": "3. If there is a length of time between the grant date and the vesting period (service period), a compensation expense is recognized in each year over the service period in the income statement on a straight-line basis. This appears in equity in an account such as a share-based compensation reserve or APIC. Over the entire service period, the total amount of the fair value of the option on the grant date will have been expensed to the income statement."
         },
         {
           "type": "paragraph",
-          "text": "period), a compensation expense is recognized in each year over the service period in the income statement on a straight-line basis. This appears in equity in an account such as a share-based compensation reserve or APIC. Over the entire service period, the total amount of the fair value of the option on the grant date will have been expensed to the income statement."
-        },
-        {
-          "type": "paragraph",
-          "text": "4. At the end of the service period, any amount remaining in an equity reserve will be"
-        },
-        {
-          "type": "paragraph",
-          "text": "recycled into common stock and APIC."
+          "text": "4. At the end of the service period, any amount remaining in an equity reserve will be recycled into common stock and APIC."
         },
         {
           "type": "paragraph",
@@ -593,27 +569,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The fair value of the option is established using the option valuation methodology"
+          "text": "1. The fair value of the option is established using the option valuation methodology adopted."
         },
         {
           "type": "paragraph",
-          "text": "adopted.\n2. As with grants, at the grant date, there is no impact on common stock or APIC, and"
+          "text": "2. As with grants, at the grant date, there is no impact on common stock or APIC, and the fair value is spread, straight-line, over the service period as a compensation expense in the income statement and an increase in APIC or a shared-based compensation reserve (IFRS 2 does not specify a required equity account)."
         },
         {
           "type": "paragraph",
-          "text": "the fair value is spread, straight-line, over the service period as a compensation expense in the income statement and an increase in APIC or a shared-based compensation reserve (IFRS 2 does not specify a required equity account)."
+          "text": "3. For both grants and options, the expense in the income statement reduces retained earnings; however, stockholders’ equity remains constant by increasing equity by the same amount."
         },
         {
           "type": "paragraph",
-          "text": "3. For both grants and options, the expense in the income statement reduces retained"
-        },
-        {
-          "type": "paragraph",
-          "text": "earnings; however, stockholders’ equity remains constant by increasing equity by the same amount.\n4. On exercise of the option, cash increases by the exercise price received. Stockholders’"
-        },
-        {
-          "type": "paragraph",
-          "text": "equity increases by the same amount, split between common stock at par and APIC, with any amount in an equity reserve also being recycled into APIC."
+          "text": "4. On exercise of the option, cash increases by the exercise price received. Stockholders’ equity increases by the same amount, split between common stock at par and APIC, with any amount in an equity reserve also being recycled into APIC."
         },
         {
           "type": "paragraph",
@@ -674,23 +642,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Quantitative and qualitative information on the following: –  The nature of the leasing activities"
+          "text": "Quantitative and qualitative information on the following:"
         },
         {
           "type": "paragraph",
-          "text": "–  Future cash outflows to which the lessee is exposed to that are not reflected in the"
+          "text": "– The nature of the leasing activities"
         },
         {
           "type": "paragraph",
-          "text": "lease liability (could include any guarantees of the leased asset’s residual value) –  Restrictions and covenants imposed by the lease"
+          "text": "– Future cash outflows to which the lessee is exposed to that are not reflected in the lease liability (could include any guarantees of the leased asset’s residual value)"
         },
         {
           "type": "paragraph",
-          "text": "–  Sale and leaseback transactions (where the lessee sells the asset to the lessor and"
+          "text": "– Restrictions and covenants imposed by the lease"
         },
         {
           "type": "paragraph",
-          "text": "then immediately leases it back)"
+          "text": "– Sale and leaseback transactions (where the lessee sells the asset to the lessor and then immediately leases it back)"
         },
         {
           "type": "paragraph",
@@ -714,11 +682,15 @@
         },
         {
           "type": "paragraph",
-          "text": "The underlying asset remains in the lessor’s balance sheet and must comply with the disclosure for the following: –  IAS 16 for leases of property, plant and equipment, disaggregated by class"
+          "text": "The underlying asset remains in the lessor’s balance sheet and must comply with the disclosure for the following:"
         },
         {
           "type": "paragraph",
-          "text": "–  IAS 36: Impairments"
+          "text": "– IAS 16 for leases of property, plant and equipment, disaggregated by class"
+        },
+        {
+          "type": "paragraph",
+          "text": "– IAS 36: Impairments"
         },
         {
           "type": "heading",
@@ -734,19 +706,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Explain the characteristics and risks of its defined benefit plan. Much of the risk in"
+          "text": "1. Explain the characteristics and risks of its defined benefit plan. Much of the risk in defined benefit plans relates to the funded status of the plan—and in particular, underfunded plans."
         },
         {
           "type": "paragraph",
-          "text": "defined benefit plans relates to the funded status of the plan—and in particular, underfunded plans."
+          "text": "2. Identify amounts in the financial statements relating to defined benefit plans."
         },
         {
           "type": "paragraph",
-          "text": "2. Identify amounts in the financial statements relating to defined benefit plans.\n3. Describe how defined benefit plans affect amounts, timings, and uncertainties relating"
-        },
-        {
-          "type": "paragraph",
-          "text": "to future cash flows. (Note that the cash flows relating to defined benefit plans are the employers’ contribution.)"
+          "text": "3. Describe how defined benefit plans affect amounts, timings, and uncertainties relating to future cash flows. (Note that the cash flows relating to defined benefit plans are the employers’ contribution.)"
         },
         {
           "type": "paragraph",
@@ -803,19 +771,23 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Ownership of the leased asset transfers to the lessee.\n2. The lessee has an option to buy the asset and is expected to exercise it."
+      "text": "1. Ownership of the leased asset transfers to the lessee."
     },
     {
       "type": "paragraph",
-      "text": "3. The lease is for most of the asset’s useful life.\n4. The present value of the lease payments is greater than or equal to the asset’s fair"
+      "text": "2. The lessee has an option to buy the asset and is expected to exercise it."
     },
     {
       "type": "paragraph",
-      "text": "value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only"
+      "text": "3. The lease is for most of the asset’s useful life."
     },
     {
       "type": "paragraph",
-      "text": "suitable for use by the lessee)."
+      "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair value."
+    },
+    {
+      "type": "paragraph",
+      "text": "5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable for use by the lessee)."
     },
     {
       "type": "paragraph",
@@ -904,11 +876,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Stock grants can have immediate or delayed vesting. The fair value of a stock grant is established on the grant date and is equal to the stock’s fair value. If vesting is immediate, the fair value is expensed to the income statement, and common stock and additional paid-in capital (APIC) are adjusted in the balance sheet, as if the company was issuing shares. If there is a period between the grant and vesting, it is referred to as the service period. The fair value of the stock grant is spread straight-line as a"
-    },
-    {
-      "type": "paragraph",
-      "text": "compensation expense in the income statement and increases common stock and APIC in the balance sheet."
+      "text": "Stock grants can have immediate or delayed vesting. The fair value of a stock grant is established on the grant date and is equal to the stock’s fair value. If vesting is immediate, the fair value is expensed to the income statement, and common stock and additional paid-in capital (APIC) are adjusted in the balance sheet, as if the company was issuing shares. If there is a period between the grant and vesting, it is referred to as the service period. The fair value of the stock grant is spread straight-line as a compensation expense in the income statement and increases common stock and APIC in the balance sheet."
     },
     {
       "type": "paragraph",
@@ -975,11 +943,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Avoiding the risk of obsolescence is one of the advantages of leasing assets instead"
-            },
-            {
-              "type": "paragraph",
-              "text": "of purchasing them. At the end of a lease, the lessee often returns the leased asset to the lessor, and therefore does not bear the risk of an unexpected decline in the asset’s end-of-lease value. The interest rate implicit in a lease contract may be less than the interest rate on a loan to purchase the asset. The terms of a lease may not require all the covenants typically included in loan agreements or bond indentures."
+              "text": "Avoiding the risk of obsolescence is one of the advantages of leasing assets instead of purchasing them. At the end of a lease, the lessee often returns the leased asset to the lessor, and therefore does not bear the risk of an unexpected decline in the asset’s end-of-lease value. The interest rate implicit in a lease contract may be less than the interest rate on a loan to purchase the asset. The terms of a lease may not require all the covenants typically included in loan agreements or bond indentures."
             }
           ]
         },
@@ -1010,11 +974,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Both operating leases and finance leases report an ROU asset and a lease liability,"
-            },
-            {
-              "type": "paragraph",
-              "text": "and both are accounted for identically. Under U.S. GAAP, operating and financing leases also report both an ROU asset and lease liability; however, the accounting for the two types is slightly different. Exceptions exist for low-value assets and leases with durations of less than one year under IFRS (U.S. GAAP has no monetary value criteria)."
+              "text": "Both operating leases and finance leases report an ROU asset and a lease liability, and both are accounted for identically. Under U.S. GAAP, operating and financing leases also report both an ROU asset and lease liability; however, the accounting for the two types is slightly different. Exceptions exist for low-value assets and leases with durations of less than one year under IFRS (U.S. GAAP has no monetary value criteria)."
             }
           ]
         },
@@ -1045,11 +1005,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "At lease inception, the lessee records a right-of-use (ROU) asset and a lease"
-            },
-            {
-              "type": "paragraph",
-              "text": "liability, both equal to the present value of the lease payments. In each period over the life of the lease, the lessee recognizes interest expense for the interest portion of the lease payments and amortization expense on the ROU asset."
+              "text": "At lease inception, the lessee records a right-of-use (ROU) asset and a lease liability, both equal to the present value of the lease payments. In each period over the life of the lease, the lessee recognizes interest expense for the interest portion of the lease payments and amortization expense on the ROU asset."
             }
           ]
         },
@@ -1080,11 +1036,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "IFRS and U.S. GAAP treat a lease as a finance lease (for both lessee and lessor) if"
-            },
-            {
-              "type": "paragraph",
-              "text": "any of the following criteria are met:"
+              "text": "IFRS and U.S. GAAP treat a lease as a finance lease (for both lessee and lessor) if any of the following criteria are met:"
             },
             {
               "type": "paragraph",
@@ -1100,11 +1052,11 @@
             },
             {
               "type": "paragraph",
-              "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair value.\n5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable"
+              "text": "4. The present value of the lease payments is greater than or equal to the asset’s fair value."
             },
             {
               "type": "paragraph",
-              "text": "for use by the lessee)."
+              "text": "5. The lessor has no other use for the asset (i.e., the asset is of a specialized nature only suitable for use by the lessee)."
             }
           ]
         },
@@ -1135,11 +1087,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For a lessor, the asset remains in their balance sheet if treated as an operating"
-            },
-            {
-              "type": "paragraph",
-              "text": "lease, and is depreciated over its life. There is no derecognition of the asset, so there is no gain or loss at the outset of the lease. Payments from the lessee are treated as rental income."
+              "text": "For a lessor, the asset remains in their balance sheet if treated as an operating lease, and is depreciated over its life. There is no derecognition of the asset, so there is no gain or loss at the outset of the lease. Payments from the lessee are treated as rental income."
             }
           ]
         },
@@ -1236,11 +1184,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Finance leases for a lessor may be classified as either sales-type leases or direct"
-            },
-            {
-              "type": "paragraph",
-              "text": "financing leases. If the lessor is a manufacturer or dealer of the leased equipment, the asset is treated as inventory sold at the outset of the lease. Revenue is reported as well as a cost of sales amount. The revenue is the present value of lease receipts. Cost of sales is the carrying value of the asset less the present value of any residual value. The lease is a direct financing lease if the lessor is a financing company (buying an asset on behalf of the lessee and leasing it out). Any gain or loss on derecognition of the asset does not affect the income statement on lease initiation. The gain or loss is deferred and recognized in the income statement, as interest, over the life of the lease. For an operating lease, revenue is recognized when lease payments from the lessee fall due."
+              "text": "Finance leases for a lessor may be classified as either sales-type leases or direct financing leases. If the lessor is a manufacturer or dealer of the leased equipment, the asset is treated as inventory sold at the outset of the lease. Revenue is reported as well as a cost of sales amount. The revenue is the present value of lease receipts. Cost of sales is the carrying value of the asset less the present value of any residual value. The lease is a direct financing lease if the lessor is a financing company (buying an asset on behalf of the lessee and leasing it out). Any gain or loss on derecognition of the asset does not affect the income statement on lease initiation. The gain or loss is deferred and recognized in the income statement, as interest, over the life of the lease. For an operating lease, revenue is recognized when lease payments from the lessee fall due."
             }
           ]
         }
@@ -1278,11 +1222,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Defined benefit pension plans can be overfunded and result in a net pension asset,"
-            },
-            {
-              "type": "paragraph",
-              "text": "or they can be underfunded and result in a net pension liability. Defined contribution plans do not result in balance sheet assets or liabilities because they are neither owned by the sponsoring firm nor obligations of the sponsoring firm."
+              "text": "Defined benefit pension plans can be overfunded and result in a net pension asset, or they can be underfunded and result in a net pension liability. Defined contribution plans do not result in balance sheet assets or liabilities because they are neither owned by the sponsoring firm nor obligations of the sponsoring firm."
             }
           ]
         },
@@ -1348,11 +1288,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "On exercise, the company receives the option’s exercise price (a cash inflow to the"
-            },
-            {
-              "type": "paragraph",
-              "text": "company) and creates new shares. This dilutes existing stockholders’ ownership proportions in the company. The fair value of the option at the grant date requires subjective estimation—in particular, the volatility of the company’s stock price over the service period. By nature, options have binary payoffs, being either zero if the stock price is below the exercise price or positive if the stock price is above the exercise price. This may lead to excessive risk taking because the option holder gains if the stock price increases, but if the stock price decreases the option holder does not experience losses except in the sense that the options go unexercised."
+              "text": "On exercise, the company receives the option’s exercise price (a cash inflow to the company) and creates new shares. This dilutes existing stockholders’ ownership proportions in the company. The fair value of the option at the grant date requires subjective estimation—in particular, the volatility of the company’s stock price over the service period. By nature, options have binary payoffs, being either zero if the stock price is below the exercise price or positive if the stock price is above the exercise price. This may lead to excessive risk taking because the option holder gains if the stock price increases, but if the stock price decreases the option holder does not experience losses except in the sense that the options go unexercised."
             }
           ]
         }

@@ -30,11 +30,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Stratified random sampling uses a classification system to separate the population into smaller groups based on one or more distinguishing characteristics. From each subgroup, or stratum, a random sample is taken and the results are pooled. The size of"
-        },
-        {
-          "type": "paragraph",
-          "text": "the samples from each stratum is based on the size of the stratum relative to the population."
+          "text": "Stratified random sampling uses a classification system to separate the population into smaller groups based on one or more distinguishing characteristics. From each subgroup, or stratum, a random sample is taken and the results are pooled. The size of the samples from each stratum is based on the size of the stratum relative to the population."
         },
         {
           "type": "paragraph",
@@ -187,11 +183,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The result of the preceding two examples illustrates an important property of sampling distributions. Notice that the value of the standard error of the sample mean decreased from 3.6% to 1.4% as the sample size increased from 30 to 200. This is because as the"
-        },
-        {
-          "type": "paragraph",
-          "text": "sample size increases, the sample mean gets closer, on average, to the true mean of the population. In other words, the distribution of the sample means about the population mean gets smaller and smaller, so the standard error of the sample mean decreases."
+          "text": "The result of the preceding two examples illustrates an important property of sampling distributions. Notice that the value of the standard error of the sample mean decreased from 3.6% to 1.4% as the sample size increased from 30 to 200. This is because as the sample size increases, the sample mean gets closer, on average, to the true mean of the population. In other words, the distribution of the sample means about the population mean gets smaller and smaller, so the standard error of the sample mean decreases."
         },
         {
           "type": "question",
@@ -333,11 +325,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In a simple random sample, each element of the population has an equal"
-            },
-            {
-              "type": "paragraph",
-              "text": "probability of being selected. The 1% chance answer option allows for an equal chance, but only if there are 100 elements in the population from which the random sample is drawn."
+              "text": "In a simple random sample, each element of the population has an equal probability of being selected. The 1% chance answer option allows for an equal chance, but only if there are 100 elements in the population from which the random sample is drawn."
             }
           ]
         },
@@ -399,11 +387,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Bootstrap resampling, repeatedly drawing samples of equal size from a large"
-            },
-            {
-              "type": "paragraph",
-              "text": "dataset, is more computationally demanding than the jackknife. We have not defined systematic resampling as a specific technique."
+              "text": "Bootstrap resampling, repeatedly drawing samples of equal size from a large dataset, is more computationally demanding than the jackknife. We have not defined systematic resampling as a specific technique."
             }
           ]
         }

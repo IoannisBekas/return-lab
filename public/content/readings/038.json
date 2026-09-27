@@ -18,39 +18,39 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: Estimate revenue growth and future revenue, based on market growth and"
+          "text": "Step 1: Estimate revenue growth and future revenue, based on market growth and market share, a trend growth rate, or growth relative to GDP."
         },
         {
           "type": "paragraph",
-          "text": "market share, a trend growth rate, or growth relative to GDP. Step 2: Estimate COGS based on a percentage of sales, or on a more detailed method"
+          "text": "Step 2: Estimate COGS based on a percentage of sales, or on a more detailed method based on business strategy or competitive environment."
         },
         {
           "type": "paragraph",
-          "text": "based on business strategy or competitive environment. Step 3: Estimate SG&A as either fixed, growing with revenue, or using some other"
+          "text": "Step 3: Estimate SG&A as either fixed, growing with revenue, or using some other estimation technique."
         },
         {
           "type": "paragraph",
-          "text": "estimation technique. Step 4: Estimate financing costs using interest rates, debt levels, and the effects of any"
+          "text": "Step 4: Estimate financing costs using interest rates, debt levels, and the effects of any large anticipated increases or decreases in capital expenditures or anticipated changes in financial structure."
         },
         {
           "type": "paragraph",
-          "text": "large anticipated increases or decreases in capital expenditures or anticipated changes in financial structure. Step 5: Estimate income tax expense and cash taxes using historical effective rates and"
+          "text": "Step 5: Estimate income tax expense and cash taxes using historical effective rates and trends, segment information for different tax jurisdictions, and anticipated growth in high- and low-tax segments, taking into account changes in deferred tax items."
         },
         {
           "type": "paragraph",
-          "text": "trends, segment information for different tax jurisdictions, and anticipated growth in high- and low-tax segments, taking into account changes in deferred tax items. Step 6: Model the balance sheet based on items that flow from the income statement"
+          "text": "Step 6: Model the balance sheet based on items that flow from the income statement"
         },
         {
           "type": "paragraph",
-          "text": "(working capital accounts). Step 7: Use depreciation and capital expenditures (for maintenance and for growth) to"
+          "text": "(working capital accounts)."
         },
         {
           "type": "paragraph",
-          "text": "estimate capital expenditures and net PP&E for the balance sheet. Step 8: Use the completed pro forma income statement and balance sheet to construct a"
+          "text": "Step 7: Use depreciation and capital expenditures (for maintenance and for growth) to estimate capital expenditures and net PP&E for the balance sheet."
         },
         {
           "type": "paragraph",
-          "text": "pro forma cash flow statement."
+          "text": "Step 8: Use the completed pro forma income statement and balance sheet to construct a pro forma cash flow statement."
         },
         {
           "type": "question",
@@ -63,39 +63,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Overconfidence bias. This is having too much faith in one’s own work. Analysts may"
+          "text": "1. Overconfidence bias. This is having too much faith in one’s own work. Analysts may underestimate their forecasting errors; hence, they have a narrower confidence interval for their forecasts than warranted. Research has shown that analysts who “go against the grain” (i.e., forecasting what others are not) are more likely to suffer from overconfidence bias. This bias may be mitigated by sharing forecasts and soliciting critique. Analysts should evaluate their past forecasts and learn from their own forecasting errors, which should lead to a widening of their confidence intervals. Using scenario analysis to produce a range of forecasts may help to identify any shortcomings."
         },
         {
           "type": "paragraph",
-          "text": "underestimate their forecasting errors; hence, they have a narrower confidence interval for their forecasts than warranted. Research has shown that analysts who “go against the grain” (i.e., forecasting what others are not) are more likely to suffer from overconfidence bias. This bias may be mitigated by sharing forecasts and soliciting critique. Analysts should evaluate their past forecasts and learn from their own forecasting errors, which should lead to a widening of their confidence intervals. Using scenario analysis to produce a range of forecasts may help to identify any shortcomings."
+          "text": "2. Illusion of control bias. This is related to overconfidence, but refers specifically to overestimating what an analyst can control and trying to control things an analyst cannot control. This bias is manifested in two primary ways: seeking “expert” opinions to justify a forecast, and making a model more complex (e.g., by including more independent variables). Overfitted models perform poorly out of sample and can also conceal assumptions that need to be updated based on new information. Illusion of control can be mitigated by focusing only on variables with known explanatory power, and by seeking outside opinions only from those who have a relevant perspective."
         },
         {
           "type": "paragraph",
-          "text": "2. Illusion of control bias. This is related to overconfidence, but refers specifically to"
+          "text": "3. Conservatism bias. This is also called anchoring, where the analyst makes only small adjustments to their prior forecasts when new information becomes available. Usually, conservatism results in reluctance to incorporate new negative information; however, it could also lead to lags in incorporating positive news. Mitigating this bias requires periodic evaluation of forecasting errors, and using simpler models that are easier to adjust for new or changed assumptions."
         },
         {
           "type": "paragraph",
-          "text": "overestimating what an analyst can control and trying to control things an analyst cannot control. This bias is manifested in two primary ways: seeking “expert” opinions to justify a forecast, and making a model more complex (e.g., by including more independent variables). Overfitted models perform poorly out of sample and can also conceal assumptions that need to be updated based on new information. Illusion of control can be mitigated by focusing only on variables with known explanatory power, and by seeking outside opinions only from those who have a relevant perspective.\n3. Conservatism bias. This is also called anchoring, where the analyst makes only"
+          "text": "4. Representativeness bias. This bias occurs due to a tendency to rely on known classifications. Sometimes, new information may only be superficially similar to a known classification but may be better viewed from a fresh perspective. One common form of representativeness bias is base-rate neglect, where an observation’s membership (its base rate, or rate of incidence in a larger population) is neglected in favor of situation or member-specific information. Fixating on a firm’s company-specific factors is known as the inside view, while viewing the company as a member of a particular industry (focusing on the base rate) is sometimes known as the outside view. Analysts should consider both inside and outside views to generate forecasts."
         },
         {
           "type": "paragraph",
-          "text": "small adjustments to their prior forecasts when new information becomes available. Usually, conservatism results in reluctance to incorporate new negative information; however, it could also lead to lags in incorporating positive news. Mitigating this bias requires periodic evaluation of forecasting errors, and using simpler models that are easier to adjust for new or changed assumptions."
-        },
-        {
-          "type": "paragraph",
-          "text": "4. Representativeness bias. This bias occurs due to a tendency to rely on known"
-        },
-        {
-          "type": "paragraph",
-          "text": "classifications. Sometimes, new information may only be superficially similar to a known classification but may be better viewed from a fresh perspective. One common form of representativeness bias is base-rate neglect, where an observation’s membership (its base rate, or rate of incidence in a larger population) is neglected in favor of situation or member-specific information. Fixating on a firm’s company-specific factors is known as the inside view, while viewing the company as a member of a particular industry (focusing on the base rate) is sometimes known as the outside view. Analysts should consider both inside and outside views to generate forecasts.\n5. Confirmation bias. Confirmation bias causes an analyst to seek out (or pay attention"
-        },
-        {
-          "type": "paragraph",
-          "text": "to) data that affirms their earlier convictions, and to disregard or underestimate information that calls those opinions into question. For example, an analyst who has a positive view of a particular company may choose to discuss the firm with colleagues who share the same point of view. Two ways to reduce confirmation bias are to keep abreast of research from analysts who have an opposite view, and to seek"
-        },
-        {
-          "type": "paragraph",
-          "text": "out the points of view of colleagues who have no emotional investment in the opinion. Analysts should also be aware of their own confirmation bias when they evaluate a company management’s representations. Managements tend to portray their companies in a positive way, and analysts who have (or want to have) positive outlooks on companies must be careful not to simply take management’s comments at face value."
+          "text": "5. Confirmation bias. Confirmation bias causes an analyst to seek out (or pay attention to) data that affirms their earlier convictions, and to disregard or underestimate information that calls those opinions into question. For example, an analyst who has a positive view of a particular company may choose to discuss the firm with colleagues who share the same point of view. Two ways to reduce confirmation bias are to keep abreast of research from analysts who have an opposite view, and to seek out the points of view of colleagues who have no emotional investment in the opinion. Analysts should also be aware of their own confirmation bias when they evaluate a company management’s representations. Managements tend to portray their companies in a positive way, and analysts who have (or want to have) positive outlooks on companies must be careful not to simply take management’s comments at face value."
         },
         {
           "type": "heading",
@@ -120,31 +104,23 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Companies have more pricing power when the threat of substitute products is low"
+          "text": "1. Companies have more pricing power when the threat of substitute products is low and switching costs are high. They have less pricing power when good substitutes are or may become available, and when it is less costly for customers to switch to those products."
         },
         {
           "type": "paragraph",
-          "text": "and switching costs are high. They have less pricing power when good substitutes are or may become available, and when it is less costly for customers to switch to those products.\n2. Companies have more pricing power when the intensity of industry rivalry is low,"
+          "text": "2. Companies have more pricing power when the intensity of industry rivalry is low, and less pricing power when competitive intensity is high. Industry rivalry tends to be more intense when an industry has many competitors (is less concentrated), when fixed costs and exit barriers are high, when industry growth is slow or negative, and when products are not differentiated significantly."
         },
         {
           "type": "paragraph",
-          "text": "and less pricing power when competitive intensity is high. Industry rivalry tends to be more intense when an industry has many competitors (is less concentrated), when fixed costs and exit barriers are high, when industry growth is slow or negative, and when products are not differentiated significantly."
+          "text": "3. Pressure on a company’s costs may be higher, and its prospects for earnings growth lower, when the bargaining power of suppliers is high. If suppliers are few, they may be able to extract a larger portion of any value added."
         },
         {
           "type": "paragraph",
-          "text": "3. Pressure on a company’s costs may be higher, and its prospects for earnings growth"
+          "text": "4. Companies have less pricing power when the bargaining power of customers is higher, especially if a small number of customers are responsible for a large proportion of a firm’s sales, or if switching costs are low."
         },
         {
           "type": "paragraph",
-          "text": "lower, when the bargaining power of suppliers is high. If suppliers are few, they may be able to extract a larger portion of any value added.\n4. Companies have less pricing power when the bargaining power of customers is"
-        },
-        {
-          "type": "paragraph",
-          "text": "higher, especially if a small number of customers are responsible for a large proportion of a firm’s sales, or if switching costs are low.\n5. Companies have more pricing power and better prospects for earnings growth when"
-        },
-        {
-          "type": "paragraph",
-          "text": "the threat of new entrants is low. Significant barriers to entry into an industry make it possible for existing companies to sustain economic profits over time."
+          "text": "5. Companies have more pricing power and better prospects for earnings growth when the threat of new entrants is low. Significant barriers to entry into an industry make it possible for existing companies to sustain economic profits over time."
         },
         {
           "type": "question",
@@ -207,27 +183,23 @@
         },
         {
           "type": "paragraph",
-          "text": "For 20X2, the input costs (COGS) will increase by $5 per unit.\n1. Calculate the gross margin and operating margin for Alfredo, Inc., for 20X1.\n2. Calculate the 20X2 gross margin and operating margin assuming the following:"
+          "text": "For 20X2, the input costs (COGS) will increase by $5 per unit."
         },
         {
           "type": "paragraph",
-          "text": "a. The entire increase in input cost is passed on to the customers through an equal"
+          "text": "1. Calculate the gross margin and operating margin for Alfredo, Inc., for 20X1."
         },
         {
           "type": "paragraph",
-          "text": "increase in selling price. The number of units sold is not affected. b. The selling price is increased by 5% and the number of units sold decreases by"
+          "text": "2. Calculate the 20X2 gross margin and operating margin assuming the following:"
         },
         {
           "type": "paragraph",
-          "text": "5%."
+          "text": "a. The entire increase in input cost is passed on to the customers through an equal increase in selling price. The number of units sold is not affected. b. The selling price is increased by 5% and the number of units sold decreases by 5%."
         },
         {
           "type": "paragraph",
-          "text": "c. The selling price is increased by 5% and the number of units sold decreases by"
-        },
-        {
-          "type": "paragraph",
-          "text": "10%."
+          "text": "c. The selling price is increased by 5% and the number of units sold decreases by 10%."
         },
         {
           "type": "heading",
@@ -235,11 +207,7 @@
         },
         {
           "type": "paragraph",
-          "text": "1. gross margin = gross profit / sales = $60,000 / $100,000 = 60%"
-        },
-        {
-          "type": "paragraph",
-          "text": "operating margin = operating profit / sales = $30,000 / $100,000 = 30%"
+          "text": "1. gross margin = gross profit / sales = $60,000 / $100,000 = 60% operating margin = operating profit / sales = $30,000 / $100,000 = 30%"
         },
         {
           "type": "paragraph",
@@ -253,11 +221,7 @@
         },
         {
           "type": "paragraph",
-          "text": "gross margin = gross profit / sales = $60,000 / $105,000 = 57%"
-        },
-        {
-          "type": "paragraph",
-          "text": "operating margin = operating profit / sales = $30,000 / $105,000 = 29%"
+          "text": "gross margin = gross profit / sales = $60,000 / $105,000 = 57% operating margin = operating profit / sales = $30,000 / $105,000 = 29%"
         },
         {
           "type": "paragraph",
@@ -271,11 +235,7 @@
         },
         {
           "type": "paragraph",
-          "text": "gross margin = gross profit / sales = $57,000 / $99,750 = 57%"
-        },
-        {
-          "type": "paragraph",
-          "text": "operating margin = operating profit / sales = $27,000 / $99,750 = 27%"
+          "text": "gross margin = gross profit / sales = $57,000 / $99,750 = 57% operating margin = operating profit / sales = $27,000 / $99,750 = 27%"
         },
         {
           "type": "paragraph",
@@ -289,11 +249,7 @@
         },
         {
           "type": "paragraph",
-          "text": "gross margin = gross profit / sales = $54,000 / $94,500 = 57%"
-        },
-        {
-          "type": "paragraph",
-          "text": "operating margin = operating profit / sales = $24,000 / $94,500 = 25%"
+          "text": "gross margin = gross profit / sales = $54,000 / $94,500 = 57% operating margin = operating profit / sales = $24,000 / $94,500 = 25%"
         },
         {
           "type": "question",
@@ -359,23 +315,35 @@
     },
     {
       "type": "paragraph",
-      "text": "Step 1: Estimate revenue growth and future expected revenue. Step 2: Estimate COGS. Step 3: Estimate SG&A. Step 4: Estimate financing costs. Step 5: Estimate income tax expense and cash taxes, taking into account changes in"
+      "text": "Step 1: Estimate revenue growth and future expected revenue."
     },
     {
       "type": "paragraph",
-      "text": "deferred tax items. Step 6: Model the balance sheet based on items that flow from the income statement"
+      "text": "Step 2: Estimate COGS."
     },
     {
       "type": "paragraph",
-      "text": "and estimates for important working capital accounts. Step 7: Use historical depreciation and capital expenditures to estimate future capital"
+      "text": "Step 3: Estimate SG&A."
     },
     {
       "type": "paragraph",
-      "text": "expenditures and net PP&E for the balance sheet. Step 8: Use the completed pro forma income statement and balance sheet to construct a"
+      "text": "Step 4: Estimate financing costs."
     },
     {
       "type": "paragraph",
-      "text": "pro forma cash flow statement."
+      "text": "Step 5: Estimate income tax expense and cash taxes, taking into account changes in deferred tax items."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 6: Model the balance sheet based on items that flow from the income statement and estimates for important working capital accounts."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 7: Use historical depreciation and capital expenditures to estimate future capital expenditures and net PP&E for the balance sheet."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 8: Use the completed pro forma income statement and balance sheet to construct a pro forma cash flow statement."
     },
     {
       "type": "question",
@@ -388,11 +356,23 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Overconfidence bias\n2. Illusion of control bias"
+      "text": "1. Overconfidence bias"
     },
     {
       "type": "paragraph",
-      "text": "3. Conservatism bias or anchoring\n4. Representativeness bias\n5. Confirmation bias"
+      "text": "2. Illusion of control bias"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Conservatism bias or anchoring"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Representativeness bias"
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Confirmation bias"
     },
     {
       "type": "question",
@@ -405,15 +385,19 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Companies have less (more) pricing power when the threat of substitute products is"
+      "text": "1. Companies have less (more) pricing power when the threat of substitute products is high (low) and switching costs are low (high)."
     },
     {
       "type": "paragraph",
-      "text": "high (low) and switching costs are low (high).\n2. Companies have less (more) pricing power when the intensity of industry rivalry is"
+      "text": "2. Companies have less (more) pricing power when the intensity of industry rivalry is high (low)."
     },
     {
       "type": "paragraph",
-      "text": "high (low).\n3. Pressure on input costs is higher when the bargaining power of suppliers is high.\n4. Companies have less pricing power when the bargaining power of customers is high."
+      "text": "3. Pressure on input costs is higher when the bargaining power of suppliers is high."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Companies have less pricing power when the bargaining power of customers is high."
     },
     {
       "type": "paragraph",
@@ -426,11 +410,7 @@
     },
     {
       "type": "paragraph",
-      "text": "Increases in input costs will increase COGS unless the company has hedged the risk of input price increases with derivatives or contracts for future delivery. Vertically"
-    },
-    {
-      "type": "paragraph",
-      "text": "integrated companies are likely to be less affected by increasing input costs. The effect on sales of increasing product prices to reflect higher COGS will depend on the elasticity of demand for the products and on the timing and amount of competitors’ price increases."
+      "text": "Increases in input costs will increase COGS unless the company has hedged the risk of input price increases with derivatives or contracts for future delivery. Vertically integrated companies are likely to be less affected by increasing input costs. The effect on sales of increasing product prices to reflect higher COGS will depend on the elasticity of demand for the products and on the timing and amount of competitors’ price increases."
     },
     {
       "type": "question",
@@ -519,11 +499,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Making a forecasting model overly complex, even when doing so brings no"
-            },
-            {
-              "type": "paragraph",
-              "text": "significant improvement, most likely reflects illusion of control bias."
+              "text": "Making a forecasting model overly complex, even when doing so brings no significant improvement, most likely reflects illusion of control bias."
             }
           ]
         },
@@ -554,11 +530,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Of Porter’s five forces, bargaining power of suppliers has the most direct influence"
-            },
-            {
-              "type": "paragraph",
-              "text": "on a company’s input costs. The other four forces more directly affect a company’s pricing power."
+              "text": "Of Porter’s five forces, bargaining power of suppliers has the most direct influence on a company’s input costs. The other four forces more directly affect a company’s pricing power."
             }
           ]
         },
@@ -589,11 +561,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The forecast horizon for a cyclical company should include the midpoint of a"
-            },
-            {
-              "type": "paragraph",
-              "text": "business cycle, at which the company is expected to produce normalized earnings."
+              "text": "The forecast horizon for a cyclical company should include the midpoint of a business cycle, at which the company is expected to produce normalized earnings."
             }
           ]
         }

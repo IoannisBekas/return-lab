@@ -51,11 +51,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In any case, the IPS will, at a minimum, contain a clear statement of client circumstances and constraints, an investment strategy based on these, and some"
-        },
-        {
-          "type": "paragraph",
-          "text": "benchmark against which to evaluate the account performance."
+          "text": "In any case, the IPS will, at a minimum, contain a clear statement of client circumstances and constraints, an investment strategy based on these, and some benchmark against which to evaluate the account performance."
         },
         {
           "type": "question",
@@ -134,11 +130,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Time horizon: In general, the longer an investor’s time horizon, the more risk and less liquidity the investor can accept in the portfolio. While the expected returns on a broad equities portfolio may not be too risky for an investor with a 20-year investment horizon, they likely are too risky for an investor who must fund a large purchase at the"
-        },
-        {
-          "type": "paragraph",
-          "text": "end of this year. For such an investor, government securities or a bank certificate of deposit may be the most appropriate investments because of their low risk and high liquidity at the time when the funds will be needed."
+          "text": "Time horizon: In general, the longer an investor’s time horizon, the more risk and less liquidity the investor can accept in the portfolio. While the expected returns on a broad equities portfolio may not be too risky for an investor with a 20-year investment horizon, they likely are too risky for an investor who must fund a large purchase at the end of this year. For such an investor, government securities or a bank certificate of deposit may be the most appropriate investments because of their low risk and high liquidity at the time when the funds will be needed."
         },
         {
           "type": "paragraph",
@@ -167,11 +159,7 @@
         },
         {
           "type": "paragraph",
-          "text": "After having determined the investor objectives and constraints through the exercise of creating an IPS, a strategic asset allocation is developed which specifies the percentage allocations to the included asset classes. In choosing which asset classes to consider when developing the strategic asset allocation for the account, the correlations of returns within an asset class should be relatively high, indicating that the assets within the class are similar in their investment performance. On the other"
-        },
-        {
-          "type": "paragraph",
-          "text": "hand, it is low correlations of returns between asset classes that leads to risk reduction through portfolio diversification."
+          "text": "After having determined the investor objectives and constraints through the exercise of creating an IPS, a strategic asset allocation is developed which specifies the percentage allocations to the included asset classes. In choosing which asset classes to consider when developing the strategic asset allocation for the account, the correlations of returns within an asset class should be relatively high, indicating that the assets within the class are similar in their investment performance. On the other hand, it is low correlations of returns between asset classes that leads to risk reduction through portfolio diversification."
         },
         {
           "type": "paragraph",
@@ -216,11 +204,7 @@
         },
         {
           "type": "paragraph",
-          "text": "So far, we have not concerned ourselves with deviations from strategic asset allocations or with selection of individual securities within individual asset classes. These"
-        },
-        {
-          "type": "paragraph",
-          "text": "activities are referred to as active (versus passive) portfolio management strategies. A manager who varies from strategic asset allocation weights in order to take advantage of perceived short-term opportunities is adding tactical asset allocation to the portfolio strategy. Security selection refers to deviations from index weights on individual securities within an asset class. For example, a portfolio manager might overweight energy stocks and underweight financial stocks, relative to the index weights for U.S. large-cap equities as an asset class. For some asset classes, such as hedge funds, individual real estate properties, and artwork, investable indexes are not available. For these asset classes, selection of individual assets is required by the nature of the asset class."
+          "text": "So far, we have not concerned ourselves with deviations from strategic asset allocations or with selection of individual securities within individual asset classes. These activities are referred to as active (versus passive) portfolio management strategies. A manager who varies from strategic asset allocation weights in order to take advantage of perceived short-term opportunities is adding tactical asset allocation to the portfolio strategy. Security selection refers to deviations from index weights on individual securities within an asset class. For example, a portfolio manager might overweight energy stocks and underweight financial stocks, relative to the index weights for U.S. large-cap equities as an asset class. For some asset classes, such as hedge funds, individual real estate properties, and artwork, investable indexes are not available. For these asset classes, selection of individual assets is required by the nature of the asset class."
         },
         {
           "type": "paragraph",
@@ -232,19 +216,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. An investor may have multiple managers actively managing to the same benchmark"
+          "text": "1. An investor may have multiple managers actively managing to the same benchmark for the same asset class (or may have significant benchmark overlap). In this case, one manager may overweight an index stock while another may underweight the same stock. Taken together, there is no net active management risk, although each manager has reported active management risk. Overall, the risk budget is underutilized as there is less net active management than gross active management."
         },
         {
           "type": "paragraph",
-          "text": "for the same asset class (or may have significant benchmark overlap). In this case, one manager may overweight an index stock while another may underweight the same stock. Taken together, there is no net active management risk, although each manager has reported active management risk. Overall, the risk budget is underutilized as there is less net active management than gross active management."
-        },
-        {
-          "type": "paragraph",
-          "text": "2. When all managers are actively managing portfolios relative to an index, trading may"
-        },
-        {
-          "type": "paragraph",
-          "text": "be excessive overall. This extra trading could have negative tax consequences, specifically potentially higher capital gains taxes, compared to an overall efficient tax strategy."
+          "text": "2. When all managers are actively managing portfolios relative to an index, trading may be excessive overall. This extra trading could have negative tax consequences, specifically potentially higher capital gains taxes, compared to an overall efficient tax strategy."
         },
         {
           "type": "paragraph",
@@ -512,11 +488,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An investment policy statement is considered to be the starting point of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "portfolio management process. The IPS is a plan for achieving investment success."
+              "text": "An investment policy statement is considered to be the starting point of the portfolio management process. The IPS is a plan for achieving investment success."
             }
           ]
         },
@@ -547,11 +519,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Investment objectives are defined based on both the investor’s return"
-            },
-            {
-              "type": "paragraph",
-              "text": "requirements and risk tolerance. Investment constraints include the investor’s time horizon, liquidity needs, tax considerations, legal and regulatory requirements, and unique needs and preferences. Policies regarding permitted asset types and the amount of leverage to use are best characterized as investment guidelines."
+              "text": "Investment objectives are defined based on both the investor’s return requirements and risk tolerance. Investment constraints include the investor’s time horizon, liquidity needs, tax considerations, legal and regulatory requirements, and unique needs and preferences. Policies regarding permitted asset types and the amount of leverage to use are best characterized as investment guidelines."
             }
           ]
         },
@@ -582,11 +550,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Both risk and return objectives can be defined either in absolute terms or relative"
-            },
-            {
-              "type": "paragraph",
-              "text": "to some benchmark."
+              "text": "Both risk and return objectives can be defined either in absolute terms or relative to some benchmark."
             }
           ]
         },
@@ -617,11 +581,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "When assigning an overall risk tolerance, the prudent approach is to use the lower"
-            },
-            {
-              "type": "paragraph",
-              "text": "of ability to take risk and willingness to take risk."
+              "text": "When assigning an overall risk tolerance, the prudent approach is to use the lower of ability to take risk and willingness to take risk."
             }
           ]
         },
@@ -681,11 +641,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Asset classes should be defined such that correlations of returns within the asset"
-            },
-            {
-              "type": "paragraph",
-              "text": "class are relatively high (because assets within a class should perform alike over time), while correlations of returns among asset classes are relatively low (to benefit from diversification)."
+              "text": "Asset classes should be defined such that correlations of returns within the asset class are relatively high (because assets within a class should perform alike over time), while correlations of returns among asset classes are relatively low (to benefit from diversification)."
             }
           ]
         },
@@ -716,11 +672,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An adviser’s forecasts of the expected returns and expected volatilities (risk) of"
-            },
-            {
-              "type": "paragraph",
-              "text": "different asset classes are an important part of determining an appropriate asset allocation."
+              "text": "An adviser’s forecasts of the expected returns and expected volatilities (risk) of different asset classes are an important part of determining an appropriate asset allocation."
             }
           ]
         }

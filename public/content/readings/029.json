@@ -234,19 +234,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Securities measured at amortized cost (corresponds to the treatment of held-to-‐"
+          "text": "1. Securities measured at amortized cost (corresponds to the treatment of held-to-‐ maturity securities under U.S. GAAP): IFRS requires that cash flows are solely interest and principal and that the business model is to hold the security to maturity."
         },
         {
           "type": "paragraph",
-          "text": "maturity securities under U.S. GAAP): IFRS requires that cash flows are solely interest and principal and that the business model is to hold the security to maturity.\n2. Securities measured at fair value through other comprehensive income (corresponds"
+          "text": "2. Securities measured at fair value through other comprehensive income (corresponds to the treatment of available-for-sale securities under U.S. GAAP)"
         },
         {
           "type": "paragraph",
-          "text": "to the treatment of available-for-sale securities under U.S. GAAP)\n3. Securities measured at fair value through profit and loss (corresponds to the"
-        },
-        {
-          "type": "paragraph",
-          "text": "treatment of trading securities under U.S. GAAP)"
+          "text": "3. Securities measured at fair value through profit and loss (corresponds to the treatment of trading securities under U.S. GAAP)"
         },
         {
           "type": "paragraph",
@@ -283,11 +279,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Long-term financial liabilities include bank loans, notes payable, bonds payable, and some derivatives. If the financial liabilities are not issued at face value, the liabilities are usually reported on the balance sheet at amortized cost. If the issuance value differs from face value, any premium or discount is amortized through interest expense over the life of the liability. Amortized cost at any point in the liability’s life is equal to the issue price minus any principal payments, plus any amortized discount or minus any"
-        },
-        {
-          "type": "paragraph",
-          "text": "amortized premium. Amortizing premiums and discounts causes the balance sheet liability to move toward face value at maturity of the liability."
+          "text": "Long-term financial liabilities include bank loans, notes payable, bonds payable, and some derivatives. If the financial liabilities are not issued at face value, the liabilities are usually reported on the balance sheet at amortized cost. If the issuance value differs from face value, any premium or discount is amortized through interest expense over the life of the liability. Amortized cost at any point in the liability’s life is equal to the issue price minus any principal payments, plus any amortized discount or minus any amortized premium. Amortizing premiums and discounts causes the balance sheet liability to move toward face value at maturity of the liability."
         },
         {
           "type": "paragraph",
@@ -551,11 +543,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Product development costs may be capitalized under IFRS if certain criteria are"
-            },
-            {
-              "type": "paragraph",
-              "text": "met (e.g., the company has identified a customer base, has sufficient resources to complete the product, and intends to sell the product). U.S. GAAP requires all product development expenditure to be expensed."
+              "text": "Product development costs may be capitalized under IFRS if certain criteria are met (e.g., the company has identified a customer base, has sufficient resources to complete the product, and intends to sell the product). U.S. GAAP requires all product development expenditure to be expensed."
             }
           ]
         },
@@ -586,11 +574,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Goodwill developed internally is expensed as incurred. The purchased patent is"
-            },
-            {
-              "type": "paragraph",
-              "text": "reported on the balance sheet."
+              "text": "Goodwill developed internally is expensed as incurred. The purchased patent is reported on the balance sheet."
             }
           ]
         },
@@ -621,11 +605,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The purchase price of $7,500,000 ($15 per share × 500,000 shares) − fair value of"
-            },
-            {
-              "type": "paragraph",
-              "text": "net assets of $7,000,000 ($6,000,000 book value + $1,000,000 increase in property and equipment) = goodwill of $500,000."
+              "text": "The purchase price of $7,500,000 ($15 per share × 500,000 shares) − fair value of net assets of $7,000,000 ($6,000,000 book value + $1,000,000 increase in property and equipment) = goodwill of $500,000."
             }
           ]
         },
@@ -656,11 +636,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Debt securities acquired with the intent to sell before maturity are reported on the"
-            },
-            {
-              "type": "paragraph",
-              "text": "balance sheet at their fair values."
+              "text": "Debt securities acquired with the intent to sell before maturity are reported on the balance sheet at their fair values."
             }
           ]
         }
@@ -729,11 +705,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The current ratio, quick ratio, and cash ratio measure liquidity. The debt-to-equity,"
-            },
-            {
-              "type": "paragraph",
-              "text": "the total debt ratio, and the financial leverage ratio measure solvency."
+              "text": "The current ratio, quick ratio, and cash ratio measure liquidity. The debt-to-equity, the total debt ratio, and the financial leverage ratio measure solvency."
             }
           ]
         }

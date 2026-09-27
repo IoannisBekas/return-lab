@@ -34,11 +34,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The null hypothesis, designated H0, is the hypothesis that the researcher wants to reject. It is the hypothesis that is actually tested and is the basis for the selection of the test statistics. The null is generally stated as a simple statement about a population parameter. A typical statement of the null hypothesis for the population mean is H0: μ ="
-        },
-        {
-          "type": "paragraph",
-          "text": "μ0, where μ is the population mean and μ0 is the hypothesized value of the population mean."
+          "text": "The null hypothesis, designated H0, is the hypothesis that the researcher wants to reject. It is the hypothesis that is actually tested and is the basis for the selection of the test statistics. The null is generally stated as a simple statement about a population parameter. A typical statement of the null hypothesis for the population mean is H0: μ = μ0, where μ is the population mean and μ0 is the hypothesized value of the population mean."
         },
         {
           "type": "heading",
@@ -355,11 +351,7 @@
         },
         {
           "type": "paragraph",
-          "text": "H0: μ1 − μ2 = 0 versus Ha: μ1 − μ2 ≠ 0"
-        },
-        {
-          "type": "paragraph",
-          "text": "where:"
+          "text": "H0: μ1 − μ2 = 0 versus Ha: μ1 − μ2 ≠ 0 where:"
         },
         {
           "type": "paragraph",
@@ -533,11 +525,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Again, the says “[c]onstruct hypothesis tests and determine their statistical significance …” We can’t believe candidates are expected to memorize these formulas (or that you would be a better analyst if you did). You should instead focus on the fact that both of these tests involve t-statistics and depend on the degrees of freedom. Also note that when samples are independent, you can use the difference in means test, and when they are dependent, we must use the paired comparison (mean differences) test. In that"
-        },
-        {
-          "type": "paragraph",
-          "text": "case, with a null hypothesis that there is no difference in means, the test statistic is simply the mean of the differences between each pair of observations, divided by the standard error of those differences. This is just a straightforward t-test of whether the mean of a sample is zero, which might be considered fair game for the exam."
+          "text": "Again, the says “[c]onstruct hypothesis tests and determine their statistical significance …” We can’t believe candidates are expected to memorize these formulas (or that you would be a better analyst if you did). You should instead focus on the fact that both of these tests involve t-statistics and depend on the degrees of freedom. Also note that when samples are independent, you can use the difference in means test, and when they are dependent, we must use the paired comparison (mean differences) test. In that case, with a null hypothesis that there is no difference in means, the test statistic is simply the mean of the differences between each pair of observations, divided by the standard error of those differences. This is just a straightforward t-test of whether the mean of a sample is zero, which might be considered fair game for the exam."
         },
         {
           "type": "heading",
@@ -549,11 +537,7 @@
         },
         {
           "type": "paragraph",
-          "text": "2"
-        },
-        {
-          "type": "paragraph",
-          "text": "represent the hypothesized variance, the hypotheses for a two-tailed test of a single population variance are structured as follows:"
+          "text": "2 represent the hypothesized variance, the hypotheses for a two-tailed test of a single population variance are structured as follows:"
         },
         {
           "type": "math",
@@ -761,11 +745,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Annie Cower is examining the earnings for two different industries. Cower suspects that the variance of earnings in the textile industry is different from the variance of"
-        },
-        {
-          "type": "paragraph",
-          "text": "earnings in the paper industry. To confirm this suspicion, Cower has looked at a sample of 31 textile manufacturers and a sample of 41 paper companies. She measured the sample standard deviation of earnings across the textile industry to be $4.30, and that of the paper industry companies to be $3.80. Cower calculates a test statistic of 1.2805. Using a 5% significance level, determine if the earnings of the textile industry have a different standard deviation than those of the paper industry."
+          "text": "Annie Cower is examining the earnings for two different industries. Cower suspects that the variance of earnings in the textile industry is different from the variance of earnings in the paper industry. To confirm this suspicion, Cower has looked at a sample of 31 textile manufacturers and a sample of 41 paper companies. She measured the sample standard deviation of earnings across the textile industry to be $4.30, and that of the paper industry companies to be $3.80. Cower calculates a test statistic of 1.2805. Using a 5% significance level, determine if the earnings of the textile industry have a different standard deviation than those of the paper industry."
         },
         {
           "type": "heading",
@@ -840,19 +820,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The assumptions about the distribution of the random variable that support a"
+          "text": "1. The assumptions about the distribution of the random variable that support a parametric test are not met. An example would be a hypothesis test of the mean value for a variable that comes from a distribution that is not normal and is of small size, so that neither the t-test nor the z-test is appropriate."
         },
         {
           "type": "paragraph",
-          "text": "parametric test are not met. An example would be a hypothesis test of the mean value for a variable that comes from a distribution that is not normal and is of small size, so that neither the t-test nor the z-test is appropriate.\n2. A nonparametric test is called for when data are ranks (an ordinal measurement"
+          "text": "2. A nonparametric test is called for when data are ranks (an ordinal measurement scale) rather than values."
         },
         {
           "type": "paragraph",
-          "text": "scale) rather than values.\n3. The hypothesis does not involve the parameters of the distribution, such as testing"
-        },
-        {
-          "type": "paragraph",
-          "text": "whether a variable is normally distributed. We can use a nonparametric test, called a runs test, to determine whether data are random. A runs test provides an estimate of the probability that a series of changes (e.g., +, +, −, −, +, −,….) are random."
+          "text": "3. The hypothesis does not involve the parameters of the distribution, such as testing whether a variable is normally distributed. We can use a nonparametric test, called a runs test, to determine whether data are random. A runs test provides an estimate of the probability that a series of changes (e.g., +, +, −, −, +, −,….) are random."
         }
       ]
     }
@@ -959,11 +935,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A Type I error is rejecting the null hypothesis when it is true. The probability of"
-            },
-            {
-              "type": "paragraph",
-              "text": "rejecting a false null is [1 − Prob Type II] = [1 − 0.60] = 40%, which is called the power of the test. The other answer choices are not necessarily true, because the null may be false and the probability of rejection unknown."
+              "text": "A Type I error is rejecting the null hypothesis when it is true. The probability of rejecting a false null is [1 − Prob Type II] = [1 − 0.60] = 40%, which is called the power of the test. The other answer choices are not necessarily true, because the null may be false and the probability of rejection unknown."
             }
           ]
         },
@@ -1032,11 +1004,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The difference in means test does not require the two population variances to be"
-            },
-            {
-              "type": "paragraph",
-              "text": "known."
+              "text": "The difference in means test does not require the two population variances to be known."
             }
           ]
         },

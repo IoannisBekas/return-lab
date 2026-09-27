@@ -106,11 +106,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Basis risk arises when the underlying of a derivative differs from a position being hedged with the derivative. For a manager with a portfolio of 50 large-cap U.S. stocks,"
+          "text": "Basis risk arises when the underlying of a derivative differs from a position being hedged with the derivative. For a manager with a portfolio of 50 large-cap U.S. stocks, selling a forward with the S&P 500 Index as the underlying (in an amount equal to the portfolio value) would hedge portfolio risk, but would not eliminate it because of the possibility that returns on the portfolio and returns on the index may differ over the life of the forward. Basis risk also arises in a situation where an investor’s horizon and the settlement date of the hedging derivative differ, such as hedging the value of a corn harvest that will occur on September 15 by selling corn futures that settle on October"
         },
         {
           "type": "paragraph",
-          "text": "selling a forward with the S&P 500 Index as the underlying (in an amount equal to the portfolio value) would hedge portfolio risk, but would not eliminate it because of the possibility that returns on the portfolio and returns on the index may differ over the life of the forward. Basis risk also arises in a situation where an investor’s horizon and the settlement date of the hedging derivative differ, such as hedging the value of a corn harvest that will occur on September 15 by selling corn futures that settle on October\n1. Again the hedge may be effective but will not be perfect, and the corn producer is said to have basis risk."
+          "text": "1. Again the hedge may be effective but will not be perfect, and the corn producer is said to have basis risk."
         },
         {
           "type": "heading",
@@ -151,11 +151,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Corporate users of derivative instruments are considered issuers of derivatives. A non-financial corporation may have risks associated with changes in asset and liability"
-        },
-        {
-          "type": "paragraph",
-          "text": "values as well as earnings volatility from changes in various underlying securities or interest rates. Some examples are:"
+          "text": "Corporate users of derivative instruments are considered issuers of derivatives. A non-financial corporation may have risks associated with changes in asset and liability values as well as earnings volatility from changes in various underlying securities or interest rates. Some examples are:"
         },
         {
           "type": "paragraph",
@@ -262,11 +258,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Basis risk arises when the underlying of a derivative differs from a position being"
-            },
-            {
-              "type": "paragraph",
-              "text": "hedged. Ease of taking short positions with derivatives compared to their underlying assets, and the information about implied volatility that is revealed by option prices, are two of the advantages of derivative instruments."
+              "text": "Basis risk arises when the underlying of a derivative differs from a position being hedged. Ease of taking short positions with derivatives compared to their underlying assets, and the information about implied volatility that is revealed by option prices, are two of the advantages of derivative instruments."
             }
           ]
         },
@@ -297,11 +289,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Modifying the risk exposure of a securities portfolio is an example of derivatives"
-            },
-            {
-              "type": "paragraph",
-              "text": "use by investors. Hedging against price risk for inventory and stabilizing the balance sheet value of a foreign subsidiary are examples of derivatives use by issuers."
+              "text": "Modifying the risk exposure of a securities portfolio is an example of derivatives use by investors. Hedging against price risk for inventory and stabilizing the balance sheet value of a foreign subsidiary are examples of derivatives use by issuers."
             }
           ]
         }

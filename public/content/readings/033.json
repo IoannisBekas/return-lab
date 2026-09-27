@@ -47,11 +47,7 @@
         },
         {
           "type": "paragraph",
-          "text": "An unidentifiable intangible asset is one that cannot be purchased separately and may have an indefinite life. The most common example of an unidentifiable intangible"
-        },
-        {
-          "type": "paragraph",
-          "text": "asset is goodwill. Goodwill is the excess of purchase price over the fair value of the identifiable assets (net of liabilities) acquired in a business combination."
+          "text": "An unidentifiable intangible asset is one that cannot be purchased separately and may have an indefinite life. The most common example of an unidentifiable intangible asset is goodwill. Goodwill is the excess of purchase price over the fair value of the identifiable assets (net of liabilities) acquired in a business combination."
         },
         {
           "type": "paragraph",
@@ -91,11 +87,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A company that generates its intangible assets internally will have lower balance sheet assets than a company that purchases its intangibles. Internally generated intangibles"
-        },
-        {
-          "type": "paragraph",
-          "text": "are typically expensed, while purchased intangibles are capitalized. This can have a considerable impact on financial statements and ratios."
+          "text": "A company that generates its intangible assets internally will have lower balance sheet assets than a company that purchases its intangibles. Internally generated intangibles are typically expensed, while purchased intangibles are capitalized. This can have a considerable impact on financial statements and ratios."
         },
         {
           "type": "heading",
@@ -226,11 +218,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The carrying value of the equipment is $900,000 original cost − $100,000 accumulated depreciation = $800,000, and the recoverable amount under IFRS is $785,000 (greater of $785,000 value in use and $760,000 fair value less selling costs). Under IFRS, the asset is written down on the balance sheet to the $785,000"
-        },
-        {
-          "type": "paragraph",
-          "text": "recoverable amount, and a $15,000 loss ($800,000 carrying value − $785,000 recoverable amount) is recognized in the income statement."
+          "text": "The carrying value of the equipment is $900,000 original cost − $100,000 accumulated depreciation = $800,000, and the recoverable amount under IFRS is $785,000 (greater of $785,000 value in use and $760,000 fair value less selling costs). Under IFRS, the asset is written down on the balance sheet to the $785,000 recoverable amount, and a $15,000 loss ($800,000 carrying value − $785,000 recoverable amount) is recognized in the income statement."
         },
         {
           "type": "paragraph",
@@ -320,11 +308,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A spinoff is the transfer of assets that constitute an entire division or subsidiary into a new legal entity, upon which the shares of the spinnee are subsequently distributed to"
-        },
-        {
-          "type": "paragraph",
-          "text": "its shareholders, and the shareholders do not surrender any stock of the spinnor.¹ See Figure 33.3 as follows."
+          "text": "A spinoff is the transfer of assets that constitute an entire division or subsidiary into a new legal entity, upon which the shares of the spinnee are subsequently distributed to its shareholders, and the shareholders do not surrender any stock of the spinnor.¹ See Figure 33.3 as follows."
         },
         {
           "type": "heading",
@@ -459,11 +443,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Fixed-asset turnover shows revenue per dollar of fixed assets and indicates how efficiently a firm is using its long-term assets to generate sales. A higher ratio is"
-        },
-        {
-          "type": "paragraph",
-          "text": "interpreted as greater efficiency."
+          "text": "Fixed-asset turnover shows revenue per dollar of fixed assets and indicates how efficiently a firm is using its long-term assets to generate sales. A higher ratio is interpreted as greater efficiency."
         },
         {
           "type": "math",
@@ -477,11 +457,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Older, less-efficient assets may make a firm less competitive.\n2. The average age of assets helps an analyst to estimate the timing of major capital"
+          "text": "1. Older, less-efficient assets may make a firm less competitive."
         },
         {
           "type": "paragraph",
-          "text": "expenditures and a firm’s future financing requirements."
+          "text": "2. The average age of assets helps an analyst to estimate the timing of major capital expenditures and a firm’s future financing requirements."
         },
         {
           "type": "paragraph",
@@ -643,11 +623,7 @@
     },
     {
       "type": "paragraph",
-      "text": "If a long-lived asset is exchanged for another asset, a gain or loss is computed by comparing the carrying value of the old asset with fair value of the old asset (or fair"
-    },
-    {
-      "type": "paragraph",
-      "text": "value of the new asset, if more clearly evident)."
+      "text": "If a long-lived asset is exchanged for another asset, a gain or loss is computed by comparing the carrying value of the old asset with fair value of the old asset (or fair value of the new asset, if more clearly evident)."
     },
     {
       "type": "question",
@@ -728,11 +704,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The cost of an intangible asset is amortized if the asset has a finite life and was"
-            },
-            {
-              "type": "paragraph",
-              "text": "purchased or acquired in a business combination. Development costs for internally generated intangible assets may be capitalized under IFRS, but research costs are expensed as incurred."
+              "text": "The cost of an intangible asset is amortized if the asset has a finite life and was purchased or acquired in a business combination. Development costs for internally generated intangible assets may be capitalized under IFRS, but research costs are expensed as incurred."
             }
           ]
         },
@@ -763,11 +735,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Any identifiable internally generated intangible assets that the targeted company"
-            },
-            {
-              "type": "paragraph",
-              "text": "had previously expensed must be included in the balance sheet assets acquired. Internally generated goodwill is not an identifiable intangible asset and would not be included in the fair market value of assets acquired. The capitalization of previously unrecognized identifiable intangibles will increase the fair market value of assets acquired and reduce the amount of the purchase price allocated to goodwill."
+              "text": "Any identifiable internally generated intangible assets that the targeted company had previously expensed must be included in the balance sheet assets acquired. Internally generated goodwill is not an identifiable intangible asset and would not be included in the fair market value of assets acquired. The capitalization of previously unrecognized identifiable intangibles will increase the fair market value of assets acquired and reduce the amount of the purchase price allocated to goodwill."
             }
           ]
         },
@@ -798,15 +766,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Development costs for software intended for external sale may be capitalized once"
-            },
-            {
-              "type": "paragraph",
-              "text": "the software is considered technically feasible. Development costs for software intended for use within the business may be capitalized once it is probable that the software will be completed and used as intended. Capitalization stores costs in the balance sheet rather than recognizing them in the income statement at the time it is incurred, resulting in higher earnings in the year of capitalization. Future"
-            },
-            {
-              "type": "paragraph",
-              "text": "earnings will be lower if costs are capitalized, as the intangible asset is amortized over the period it generates benefits."
+              "text": "Development costs for software intended for external sale may be capitalized once the software is considered technically feasible. Development costs for software intended for use within the business may be capitalized once it is probable that the software will be completed and used as intended. Capitalization stores costs in the balance sheet rather than recognizing them in the income statement at the time it is incurred, resulting in higher earnings in the year of capitalization. Future earnings will be lower if costs are capitalized, as the intangible asset is amortized over the period it generates benefits."
             }
           ]
         }
@@ -886,7 +846,11 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The carrying value of the asset is equal to $250,000 – $150,000 = $100,000. Under"
+              "text": "The carrying value of the asset is equal to $250,000"
+            },
+            {
+              "type": "paragraph",
+              "text": "– $150,000 = $100,000. Under"
             },
             {
               "type": "paragraph",
@@ -921,11 +885,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because a finite-lived identifiable intangible asset would be amortized,"
-            },
-            {
-              "type": "paragraph",
-              "text": "amortization expense in the year after the reduction from the impairment charge would be lower (the carrying value of the asset would most likely be lower), increasing net income."
+              "text": "Because a finite-lived identifiable intangible asset would be amortized, amortization expense in the year after the reduction from the impairment charge would be lower (the carrying value of the asset would most likely be lower), increasing net income."
             }
           ]
         },
@@ -956,11 +916,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Gain or loss is equal to the sale proceeds minus the carrying value (cost minus"
-            },
-            {
-              "type": "paragraph",
-              "text": "accumulated depreciation) at the time of sale. Given the loss of $15,000 and carrying value of $40,000 ($100,000 − $60,000), we can solve for the proceeds of $25,000 (-15,000 + 40,000)."
+              "text": "Gain or loss is equal to the sale proceeds minus the carrying value (cost minus accumulated depreciation) at the time of sale. Given the loss of $15,000 and carrying value of $40,000 ($100,000 − $60,000), we can solve for the proceeds of $25,000 (-15,000 + 40,000)."
             }
           ]
         },
@@ -991,11 +947,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An upward revaluation will increase the book value of assets and increase"
-            },
-            {
-              "type": "paragraph",
-              "text": "depreciation expense in future periods (decreasing net income), both of which reduce ROA. Impairment would have the opposite effects, reducing the carrying value of assets and decreasing future depreciation. Derecognizing an asset may increase, decrease, or not affect ROA in future periods."
+              "text": "An upward revaluation will increase the book value of assets and increase depreciation expense in future periods (decreasing net income), both of which reduce ROA. Impairment would have the opposite effects, reducing the carrying value of assets and decreasing future depreciation. Derecognizing an asset may increase, decrease, or not affect ROA in future periods."
             }
           ]
         },
@@ -1026,11 +978,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The gain or loss on an asset’s exchange is calculated as the difference between the"
-            },
-            {
-              "type": "paragraph",
-              "text": "fair value of the asset that has been disposed of and the carrying value of the disposed asset. The new asset should be recorded in the balance sheet at the fair value of the asset disposed of. If the fair value of the disposed asset is difficult to estimate, then the gain or loss on disposal is computed as the fair value of the asset acquired in the exchange less the carrying value of the asset disposed of. The new asset would be recorded at its fair value in the balance sheet. If neither the fair value of the asset disposed of nor acquired can be established, the new asset will be recorded at the carrying value of the disposed asset. In this situation, there will be no gain or loss recorded on disposal."
+              "text": "The gain or loss on an asset’s exchange is calculated as the difference between the fair value of the asset that has been disposed of and the carrying value of the disposed asset. The new asset should be recorded in the balance sheet at the fair value of the asset disposed of. If the fair value of the disposed asset is difficult to estimate, then the gain or loss on disposal is computed as the fair value of the asset acquired in the exchange less the carrying value of the asset disposed of. The new asset would be recorded at its fair value in the balance sheet. If neither the fair value of the asset disposed of nor acquired can be established, the new asset will be recorded at the carrying value of the disposed asset. In this situation, there will be no gain or loss recorded on disposal."
             }
           ]
         }
@@ -1068,11 +1016,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The average age is not a required disclosure. However, it can be calculated given"
-            },
-            {
-              "type": "paragraph",
-              "text": "other disclosures."
+              "text": "The average age is not a required disclosure. However, it can be calculated given other disclosures."
             }
           ]
         },
@@ -1103,11 +1047,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The remaining useful life can be estimated as ending net PP&E value divided by"
-            },
-            {
-              "type": "paragraph",
-              "text": "annual depreciation, so (300 − 80) / 15 = 14.66 years."
+              "text": "The remaining useful life can be estimated as ending net PP&E value divided by annual depreciation, so (300 − 80) / 15 = 14.66 years."
             }
           ]
         },
@@ -1138,11 +1078,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The average age can be estimated as ending accumulated depreciation value"
-            },
-            {
-              "type": "paragraph",
-              "text": "divided by annual depreciation, so 200 / 90 = 2.22 years."
+              "text": "The average age can be estimated as ending accumulated depreciation value divided by annual depreciation, so 200 / 90 = 2.22 years."
             }
           ]
         },

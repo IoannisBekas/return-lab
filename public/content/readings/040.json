@@ -129,11 +129,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The advantage of market capitalization-weighted indexes of either type is that index security weights represent proportions of total market value. The primary disadvantage of value-weighted indexes is that the relative impact of a stock’s return on the index increases as its price rises and decreases as its price falls. This means that stocks that"
-        },
-        {
-          "type": "paragraph",
-          "text": "are possibly overvalued are given disproportionately high weights in the index and stocks that are possibly undervalued are given disproportionately low weights. Holding a portfolio that tracks a value-weighted index is, therefore, similar to following a momentum strategy, under which the most successful stocks are given the greatest weights and poor performing stocks are underweighted."
+          "text": "The advantage of market capitalization-weighted indexes of either type is that index security weights represent proportions of total market value. The primary disadvantage of value-weighted indexes is that the relative impact of a stock’s return on the index increases as its price rises and decreases as its price falls. This means that stocks that are possibly overvalued are given disproportionately high weights in the index and stocks that are possibly undervalued are given disproportionately low weights. Holding a portfolio that tracks a value-weighted index is, therefore, similar to following a momentum strategy, under which the most successful stocks are given the greatest weights and poor performing stocks are underweighted."
         },
         {
           "type": "paragraph",
@@ -429,11 +425,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Multi-market index with fundamental weighting. Uses market capitalization-weighting for the country indexes but then weights the country index returns in the global index by a fundamental factor (e.g., GDP). This prevents a country with previously high stock returns from being overweighted in a multi-market index. Sector index. Measures the returns for an industry sector such as health care, financial, or consumer goods firms. Investors can use these indexes in cyclical analysis because some sectors do better than others in various phases of the business"
-        },
-        {
-          "type": "paragraph",
-          "text": "cycle. Sector indexes can be for a particular country or global. These indexes are used to evaluate portfolio managers and to construct index portfolios."
+          "text": "Multi-market index with fundamental weighting. Uses market capitalization-weighting for the country indexes but then weights the country index returns in the global index by a fundamental factor (e.g., GDP). This prevents a country with previously high stock returns from being overweighted in a multi-market index. Sector index. Measures the returns for an industry sector such as health care, financial, or consumer goods firms. Investors can use these indexes in cyclical analysis because some sectors do better than others in various phases of the business cycle. Sector indexes can be for a particular country or global. These indexes are used to evaluate portfolio managers and to construct index portfolios."
         },
         {
           "type": "paragraph",
@@ -498,11 +490,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Real estate indexes can be constructed using returns based on appraisals of properties, repeat property sales, or the performance of Real Estate Investment Trusts (REITs). REITs are similar to closed-end mutual funds in that they invest in properties"
-        },
-        {
-          "type": "paragraph",
-          "text": "or mortgages and then issue ownership interests in the pool of assets to investors. While real properties are quite illiquid, REIT shares trade like any common shares and many offer very good liquidity to investors. FTSE International produces a family of REIT indexes."
+          "text": "Real estate indexes can be constructed using returns based on appraisals of properties, repeat property sales, or the performance of Real Estate Investment Trusts (REITs). REITs are similar to closed-end mutual funds in that they invest in properties or mortgages and then issue ownership interests in the pool of assets to investors. While real properties are quite illiquid, REIT shares trade like any common shares and many offer very good liquidity to investors. FTSE International produces a family of REIT indexes."
         },
         {
           "type": "paragraph",
@@ -785,11 +773,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "To be useful, a security market index must have a numerical value. Selecting the"
-            },
-            {
-              "type": "paragraph",
-              "text": "target market and determining the weighting method are among the choices that must be made when constructing a securities index."
+              "text": "To be useful, a security market index must have a numerical value. Selecting the target market and determining the weighting method are among the choices that must be made when constructing a securities index."
             }
           ]
         },
@@ -934,11 +918,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Market float represents shares available to the investing public and excludes"
-            },
-            {
-              "type": "paragraph",
-              "text": "shares held by controlling shareholders. Free float is a narrower measure that also excludes shares that are not available to foreign investors."
+              "text": "Market float represents shares available to the investing public and excludes shares held by controlling shareholders. Free float is a narrower measure that also excludes shares that are not available to foreign investors."
             }
           ]
         },
@@ -969,11 +949,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An equal-weighted index will be rebalanced most frequently because as stock"
-            },
-            {
-              "type": "paragraph",
-              "text": "prices change, their representation in the index needs to be adjusted. Price-weighted and market capitalization-weighted indexes do not usually need rebalancing."
+              "text": "An equal-weighted index will be rebalanced most frequently because as stock prices change, their representation in the index needs to be adjusted. Price-weighted and market capitalization-weighted indexes do not usually need rebalancing."
             }
           ]
         }
@@ -1011,11 +987,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Changing the constituent securities of an index is referred to as reconstituting the"
-            },
-            {
-              "type": "paragraph",
-              "text": "index. Rebalancing refers to adjusting the index weights to their target levels."
+              "text": "Changing the constituent securities of an index is referred to as reconstituting the index. Rebalancing refers to adjusting the index weights to their target levels."
             }
           ]
         },
@@ -1046,11 +1018,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Comparing a small-cap manager against a broad market would be an inappropriate"
-            },
-            {
-              "type": "paragraph",
-              "text": "use of an index. A benchmark should be consistent with the manager’s investment approach and style. A manager’s performance will depend to a large degree on its chosen style."
+              "text": "Comparing a small-cap manager against a broad market would be an inappropriate use of an index. A benchmark should be consistent with the manager’s investment approach and style. A manager’s performance will depend to a large degree on its chosen style."
             }
           ]
         },
@@ -1081,11 +1049,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An index for mid-cap growth stocks is best described as a style index. Sector"
-            },
-            {
-              "type": "paragraph",
-              "text": "indexes typically measure returns for a specific industry or sector of the economy (e.g., utilities or financial services firms)."
+              "text": "An index for mid-cap growth stocks is best described as a style index. Sector indexes typically measure returns for a specific industry or sector of the economy (e.g., utilities or financial services firms)."
             }
           ]
         },
@@ -1116,11 +1080,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Fixed-income securities are largely traded by dealers and trade infrequently. Data"
-            },
-            {
-              "type": "paragraph",
-              "text": "are therefore difficult to obtain."
+              "text": "Fixed-income securities are largely traded by dealers and trade infrequently. Data are therefore difficult to obtain."
             }
           ]
         },
@@ -1151,11 +1111,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Commodity indexes are typically calculated from prices of commodity futures"
-            },
-            {
-              "type": "paragraph",
-              "text": "contracts."
+              "text": "Commodity indexes are typically calculated from prices of commodity futures contracts."
             }
           ]
         },
@@ -1186,11 +1142,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Most global security indexes are market capitalization-weighted with a float"
-            },
-            {
-              "type": "paragraph",
-              "text": "adjustment to reflect the amount of shares available to investors."
+              "text": "Most global security indexes are market capitalization-weighted with a float adjustment to reflect the amount of shares available to investors."
             }
           ]
         }

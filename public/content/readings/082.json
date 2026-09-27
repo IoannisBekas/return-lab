@@ -149,11 +149,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Inherent value differences. Most digital assets are not backed by underlying assets or the cash flows they generate, such as interest or dividends. Because digital assets lack expected earnings, they have no fundamental value. In general, digital asset prices are determined by projected asset growth, which is based on scarcity (due to the limited currency supply) and the ability to transfer value in the future. Transaction validation differences. Traditional financial instruments are typically recorded on private ledgers maintained by central intermediaries. In contrast, digital assets are typically recorded on decentralized digital ledgers. Medium of exchange differences. Traditional financial assets are traded and priced in globally accepted fiat currencies. Financial systems rely on these fiat currencies as a medium of exchange. In contrast, digital assets are used as an alternative to fiat currencies and are mainly used for online transactions. However, the mainstream"
-        },
-        {
-          "type": "paragraph",
-          "text": "financial system is hesitant to accept cryptocurrencies as a medium of exchange. This is due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries. CBDCs are currently being evaluated as tokenized forms of fiat currencies."
+          "text": "Inherent value differences. Most digital assets are not backed by underlying assets or the cash flows they generate, such as interest or dividends. Because digital assets lack expected earnings, they have no fundamental value. In general, digital asset prices are determined by projected asset growth, which is based on scarcity (due to the limited currency supply) and the ability to transfer value in the future. Transaction validation differences. Traditional financial instruments are typically recorded on private ledgers maintained by central intermediaries. In contrast, digital assets are typically recorded on decentralized digital ledgers. Medium of exchange differences. Traditional financial assets are traded and priced in globally accepted fiat currencies. Financial systems rely on these fiat currencies as a medium of exchange. In contrast, digital assets are used as an alternative to fiat currencies and are mainly used for online transactions. However, the mainstream financial system is hesitant to accept cryptocurrencies as a medium of exchange. This is due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries. CBDCs are currently being evaluated as tokenized forms of fiat currencies."
         },
         {
           "type": "paragraph",
@@ -186,11 +182,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The centralized exchange FTX became one of the largest crypto and stablecoin exchanges in 2021. However, falling cryptocurrency prices, increasing interest rates, and fraudulent management decisions led to extreme"
-        },
-        {
-          "type": "paragraph",
-          "text": "illiquidity issues for the exchange. In November 2022 these issues triggered substantial investor withdrawals, which ultimately led to the bankruptcy of FTX."
+          "text": "The centralized exchange FTX became one of the largest crypto and stablecoin exchanges in 2021. However, falling cryptocurrency prices, increasing interest rates, and fraudulent management decisions led to extreme illiquidity issues for the exchange. In November 2022 these issues triggered substantial investor withdrawals, which ultimately led to the bankruptcy of FTX."
         },
         {
           "type": "heading",
@@ -434,11 +426,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "By enabling electronic proof of ownership, tokenization has the potential to"
-            },
-            {
-              "type": "paragraph",
-              "text": "streamline transfers of physical assets such as real estate. The high cost and difficulty of manipulating past records is a strength of blockchain technology. Permissionless networks do not require trust between the parties to a transaction because the record of a transaction is unchangeable and visible to all network participants."
+              "text": "By enabling electronic proof of ownership, tokenization has the potential to streamline transfers of physical assets such as real estate. The high cost and difficulty of manipulating past records is a strength of blockchain technology. Permissionless networks do not require trust between the parties to a transaction because the record of a transaction is unchangeable and visible to all network participants."
             }
           ]
         },
@@ -469,11 +457,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The large amount of computational power needed for verifying transactions is"
-            },
-            {
-              "type": "paragraph",
-              "text": "considered a disadvantage of DLT. Benefits include accuracy, transparency, and security of transactions; rapid ownership transfer; and peer-to-peer interactions for creating, trading, and monitoring digital assets."
+              "text": "The large amount of computational power needed for verifying transactions is considered a disadvantage of DLT. Benefits include accuracy, transparency, and security of transactions; rapid ownership transfer; and peer-to-peer interactions for creating, trading, and monitoring digital assets."
             }
           ]
         },
@@ -504,11 +488,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The PoW protocol involves miners using powerful computers to verify"
-            },
-            {
-              "type": "paragraph",
-              "text": "transactions by solving cryptographic problems. The proof of stake (PoS) protocol involves network participants pledging collateral to guarantee the validity of a block. In both cases, a large number of network participants help to prevent malicious attacks; however, the term validators applies specifically to the PoS consensus mechanism."
+              "text": "The PoW protocol involves miners using powerful computers to verify transactions by solving cryptographic problems. The proof of stake (PoS) protocol involves network participants pledging collateral to guarantee the validity of a block. In both cases, a large number of network participants help to prevent malicious attacks; however, the term validators applies specifically to the PoS consensus mechanism."
             }
           ]
         },
@@ -539,11 +519,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Smart contracts are often associated with the Ethereum blockchain and can help"
-            },
-            {
-              "type": "paragraph",
-              "text": "programmable blockchains add value beyond being only a store of value. Stablecoins involve pegging values to another asset, and central bank digital currencies involve creating a digital version of a bank note or coin issued by a central bank."
+              "text": "Smart contracts are often associated with the Ethereum blockchain and can help programmable blockchains add value beyond being only a store of value. Stablecoins involve pegging values to another asset, and central bank digital currencies involve creating a digital version of a bank note or coin issued by a central bank."
             }
           ]
         },
@@ -574,11 +550,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An example of a security token is the ICO, an unregulated process in which"
-            },
-            {
-              "type": "paragraph",
-              "text": "companies offer crypto tokens for money or other cryptocurrency."
+              "text": "An example of a security token is the ICO, an unregulated process in which companies offer crypto tokens for money or other cryptocurrency."
             }
           ]
         }
@@ -616,11 +588,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Most digital assets are not backed by underlying assets or the cash flows that they"
-            },
-            {
-              "type": "paragraph",
-              "text": "generate. Also, digital assets lack well-developed regulatory standards, and they are typically recorded on decentralized digital ledgers."
+              "text": "Most digital assets are not backed by underlying assets or the cash flows that they generate. Also, digital assets lack well-developed regulatory standards, and they are typically recorded on decentralized digital ledgers."
             }
           ]
         },
@@ -651,11 +619,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Financial systems are hesitant to accept cryptocurrencies as a medium of"
-            },
-            {
-              "type": "paragraph",
-              "text": "exchange due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries."
+              "text": "Financial systems are hesitant to accept cryptocurrencies as a medium of exchange due to high transaction costs, cryptocurrencies not being legal tender in many jurisdictions, and cryptocurrencies being heavily restricted in several countries."
             }
           ]
         },
@@ -686,11 +650,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For decentralized exchanges, multiple computers service the exchange, so if one"
-            },
-            {
-              "type": "paragraph",
-              "text": "computer is attacked, the exchange will remain operational. Thus, attacks on decentralized exchanges are more difficult than on centralized exchanges. However, centralized exchanges are the prevalent type of cryptocurrency exchange. Both types of exchange currently lack significant regulatory oversight."
+              "text": "For decentralized exchanges, multiple computers service the exchange, so if one computer is attacked, the exchange will remain operational. Thus, attacks on decentralized exchanges are more difficult than on centralized exchanges. However, centralized exchanges are the prevalent type of cryptocurrency exchange. Both types of exchange currently lack significant regulatory oversight."
             }
           ]
         },
@@ -721,11 +681,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Asset-backed tokens represent digital ownership of physical assets or financial"
-            },
-            {
-              "type": "paragraph",
-              "text": "assets (i.e., nondigital assets). A cryptocurrency exchange-traded product is an example of an indirect exposure to digital assets. Purchasing tokens on a cryptocurrency exchange is an example of a direct investment in digital assets."
+              "text": "Asset-backed tokens represent digital ownership of physical assets or financial assets (i.e., nondigital assets). A cryptocurrency exchange-traded product is an example of an indirect exposure to digital assets. Purchasing tokens on a cryptocurrency exchange is an example of a direct investment in digital assets."
             }
           ]
         },
@@ -756,19 +712,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Cryptocurrency values are based largely on asset appreciation, given that these"
-            },
-            {
-              "type": "paragraph",
-              "text": "digital assets have no underlying cash flows. The supply of several cryptocurrencies is limited, which is a key driver of price increases. Cryptocurrencies exhibit extreme price volatility, which reflects investor uncertainty with this asset class."
-            },
-            {
-              "type": "paragraph",
-              "text": "from CFA Institute."
-            },
-            {
-              "type": "paragraph",
-              "text": "from CFA Institute."
+              "text": "Cryptocurrency values are based largely on asset appreciation, given that these digital assets have no underlying cash flows. The supply of several cryptocurrencies is limited, which is a key driver of price increases. Cryptocurrencies exhibit extreme price volatility, which reflects investor uncertainty with this asset class. from CFA Institute. from CFA Institute."
             }
           ]
         }

@@ -42,31 +42,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1:   Define the industry. This involves some subjectivity as to what factors define an"
+          "text": "Step 1: Define the industry. This involves some subjectivity as to what factors define an industry (such as product similarity or geographical region) and how to treat companies that operate in multiple industries. Classification systems produced by third parties can be useful."
         },
         {
           "type": "paragraph",
-          "text": "industry (such as product similarity or geographical region) and how to treat"
+          "text": "Step 2: Survey the industry in terms of its size, growth rate, profitability, and trends in the market shares of its participants."
         },
         {
           "type": "paragraph",
-          "text": "companies that operate in multiple industries. Classification systems produced by third parties can be useful. Step 2:   Survey the industry in terms of its size, growth rate, profitability, and trends in"
+          "text": "Step 3: Analyze the industry structure using a framework such as Porter’s five forces and determine which forces are key for the industry’s profitability."
         },
         {
           "type": "paragraph",
-          "text": "the market shares of its participants. Step 3:   Analyze the industry structure using a framework such as Porter’s five forces"
+          "text": "Step 4: Examine external influences on the industry, such as political, economic, social, technological, legal, and environmental impacts (PESTLE)."
         },
         {
           "type": "paragraph",
-          "text": "and determine which forces are key for the industry’s profitability. Step 4:   Examine external influences on the industry, such as political, economic, social,"
-        },
-        {
-          "type": "paragraph",
-          "text": "technological, legal, and environmental impacts (PESTLE). Step 5:   Analyze companies’ competitive strategies in terms of how each company fits"
-        },
-        {
-          "type": "paragraph",
-          "text": "within the industry and what competitive advantages each company has."
+          "text": "Step 5: Analyze companies’ competitive strategies in terms of how each company fits within the industry and what competitive advantages each company has."
         },
         {
           "type": "question",
@@ -111,19 +103,39 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Financials\n3. Basic materials"
+          "text": "2. Financials"
         },
         {
           "type": "paragraph",
-          "text": "4. Information technology\n5. Industrials"
+          "text": "3. Basic materials"
         },
         {
           "type": "paragraph",
-          "text": "6. Telecommunications services\n7. Consumer discretionary/cyclicals\n8. Utilities"
+          "text": "4. Information technology"
         },
         {
           "type": "paragraph",
-          "text": "9. Consumer staples/noncyclicals\n10. Real estate"
+          "text": "5. Industrials"
+        },
+        {
+          "type": "paragraph",
+          "text": "6. Telecommunications services"
+        },
+        {
+          "type": "paragraph",
+          "text": "7. Consumer discretionary/cyclicals"
+        },
+        {
+          "type": "paragraph",
+          "text": "8. Utilities"
+        },
+        {
+          "type": "paragraph",
+          "text": "9. Consumer staples/noncyclicals"
+        },
+        {
+          "type": "paragraph",
+          "text": "10. Real estate"
         },
         {
           "type": "paragraph",
@@ -252,11 +264,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Business cycle sensitivity also needs to be considered. Cyclical industries experience more volatility in returns, but varying perceptions of the duration and severity of"
-        },
-        {
-          "type": "paragraph",
-          "text": "business cycles can result in a wide range of valuations."
+          "text": "Business cycle sensitivity also needs to be considered. Cyclical industries experience more volatility in returns, but varying perceptions of the duration and severity of business cycles can result in a wide range of valuations."
         },
         {
           "type": "paragraph",
@@ -296,11 +304,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In general (with notable exceptions in the case of local industries and highly differentiated products), low or decreasing concentration implies higher competitive intensity, less pricing power, and lower profitability; while high or increasing"
-        },
-        {
-          "type": "paragraph",
-          "text": "concentration implies lower competitive intensity, more pricing power, and greater profitability."
+          "text": "In general (with notable exceptions in the case of local industries and highly differentiated products), low or decreasing concentration implies higher competitive intensity, less pricing power, and lower profitability; while high or increasing concentration implies lower competitive intensity, more pricing power, and greater profitability."
         }
       ]
     },
@@ -323,55 +327,51 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Rivalry among existing competitors. Rivalry increases when many firms of relatively"
+          "text": "1. Rivalry among existing competitors. Rivalry increases when many firms of relatively equal size compete within an industry. Slow growth leads to competition as firms fight for market share, and high fixed costs lead to price decreases as firms try to operate at full capacity. For example, the high fixed costs in the auto industry from capital investments and labor contracts force firms to produce a large number of vehicles that they can only sell at low margins. Industries with products that are undifferentiated or have barriers (are costly) to exit tend to have high levels of competition."
         },
         {
           "type": "paragraph",
-          "text": "equal size compete within an industry. Slow growth leads to competition as firms fight for market share, and high fixed costs lead to price decreases as firms try to operate at full capacity. For example, the high fixed costs in the auto industry from capital investments and labor contracts force firms to produce a large number of vehicles that they can only sell at low margins. Industries with products that are undifferentiated or have barriers (are costly) to exit tend to have high levels of competition.\n2. Threat of entry. Industries that have significant barriers to entry (e.g., large capital"
+          "text": "2. Threat of entry. Industries that have significant barriers to entry (e.g., large capital outlays for facilities) will find it easier to maintain premium pricing. It is costly to enter the steel or oil production industries. Those industries have high barriers to entry and thus less competition from newcomers. An analyst should identify factors that discourage new entrants, such as economies of scale."
         },
         {
           "type": "paragraph",
-          "text": "outlays for facilities) will find it easier to maintain premium pricing. It is costly to enter the steel or oil production industries. Those industries have high barriers to entry and thus less competition from newcomers. An analyst should identify factors that discourage new entrants, such as economies of scale.\n3. Threat of substitutes. Substitute products limit the profit potential of an industry"
+          "text": "3. Threat of substitutes. Substitute products limit the profit potential of an industry because they limit the prices firms can charge by increasing the elasticity of demand. Commodity-like products have high levels of competition and low profit margins. The more differentiated the products are within an industry, the less price competition there will be. For example, in the pharmaceutical industry, patents protect a producer from competition in the markets for patented drugs."
         },
         {
           "type": "paragraph",
-          "text": "because they limit the prices firms can charge by increasing the elasticity of demand. Commodity-like products have high levels of competition and low profit margins. The more differentiated the products are within an industry, the less price"
+          "text": "4. Power of buyers. Buyers’ ability to bargain for lower prices or higher quality influences industry profitability. Bargaining by governments and ever-larger health care providers have put downward pressure even on patented drugs."
         },
         {
           "type": "paragraph",
-          "text": "competition there will be. For example, in the pharmaceutical industry, patents protect a producer from competition in the markets for patented drugs."
+          "text": "5. Power of suppliers. Suppliers’ ability to raise prices or limit supply influences industry profitability. Suppliers are more powerful if there are just a few of them and their products are scarce. For example, Microsoft is one of the few suppliers of operating system software and thus has pricing power."
         },
         {
           "type": "paragraph",
-          "text": "4. Power of buyers. Buyers’ ability to bargain for lower prices or higher quality"
+          "text": "The first two forces deserve further attention because almost all firms must be concerned about the threat of new entrants and competition that would erode profits. Studying these forces also helps the analyst better understand the subject firm’s competitors and prospects. The following summary describes how these two factors influence the competitive environment in an industry:"
         },
         {
           "type": "paragraph",
-          "text": "influences industry profitability. Bargaining by governments and ever-larger health care providers have put downward pressure even on patented drugs.\n5. Power of suppliers. Suppliers’ ability to raise prices or limit supply influences"
+          "text": "– Higher barriers to entry reduce competition."
         },
         {
           "type": "paragraph",
-          "text": "industry profitability. Suppliers are more powerful if there are just a few of them and their products are scarce. For example, Microsoft is one of the few suppliers of operating system software and thus has pricing power."
+          "text": "– Greater concentration (a small number of firms control a large part of the market) reduces competition, whereas market fragmentation (a large number of firms, each with a small market share) increases competition."
         },
         {
           "type": "paragraph",
-          "text": "The first two forces deserve further attention because almost all firms must be concerned about the threat of new entrants and competition that would erode profits. Studying these forces also helps the analyst better understand the subject firm’s competitors and prospects. The following summary describes how these two factors influence the competitive environment in an industry: –  Higher barriers to entry reduce competition."
+          "text": "– Unused capacity in an industry, especially if prolonged, results in intense price competition. For example, underutilized capacity in the auto industry has resulted in very competitive pricing."
         },
         {
           "type": "paragraph",
-          "text": "–  Greater concentration (a small number of firms control a large part of the market)"
+          "text": "– Stability in market share reduces competition. For example, loyalty of a firm’s customers tends to stabilize market share and profits."
         },
         {
           "type": "paragraph",
-          "text": "reduces competition, whereas market fragmentation (a large number of firms, each with a small market share) increases competition. –  Unused capacity in an industry, especially if prolonged, results in intense price"
+          "text": "– More price sensitivity in customer buying decisions results in greater competition."
         },
         {
           "type": "paragraph",
-          "text": "competition. For example, underutilized capacity in the auto industry has resulted in very competitive pricing. –  Stability in market share reduces competition. For example, loyalty of a firm’s"
-        },
-        {
-          "type": "paragraph",
-          "text": "customers tends to stabilize market share and profits. –  More price sensitivity in customer buying decisions results in greater competition. –  Greater maturity of an industry results in slowing growth."
+          "text": "– Greater maturity of an industry results in slowing growth."
         },
         {
           "type": "paragraph",
@@ -395,11 +395,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Broadly speaking, the substitute for retail is consumer services (e.g., restaurants, travel, health care), which also includes digital services (e.g., streaming video subscriptions and gaming). Most categories of goods, however, are not easily replaceable with services (e.g., apparel and home decor), or they enjoy a cost"
-        },
-        {
-          "type": "paragraph",
-          "text": "advantage because of lower labor intensity (e.g., fresh food). There have been periods when services grew faster than goods, but as shown in an earlier exhibit, retail sales have grown essentially in line with U.S. nominal output/income. Retail is arguably one of the oldest industries, and while it has evolved over time, it has yet to be replaced."
+          "text": "Broadly speaking, the substitute for retail is consumer services (e.g., restaurants, travel, health care), which also includes digital services (e.g., streaming video subscriptions and gaming). Most categories of goods, however, are not easily replaceable with services (e.g., apparel and home decor), or they enjoy a cost advantage because of lower labor intensity (e.g., fresh food). There have been periods when services grew faster than goods, but as shown in an earlier exhibit, retail sales have grown essentially in line with U.S. nominal output/income. Retail is arguably one of the oldest industries, and while it has evolved over time, it has yet to be replaced."
         },
         {
           "type": "heading",
@@ -443,27 +439,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Governments desire low and stable energy prices to maintain their popularity with"
+          "text": "1. Governments desire low and stable energy prices to maintain their popularity with the general public, who would otherwise have to bear most of the burden of rising energy prices."
         },
         {
           "type": "paragraph",
-          "text": "the general public, who would otherwise have to bear most of the burden of rising energy prices."
+          "text": "2. Climate agreements and regulations, which are aimed at reducing emissions, conflict with the desire for low prices for nonrenewable energy sources (mainly fossil fuels). If governments remain focused on reducing fossil fuel use in the future, higher energy prices are unavoidable."
         },
         {
           "type": "paragraph",
-          "text": "2. Climate agreements and regulations, which are aimed at reducing emissions, conflict"
-        },
-        {
-          "type": "paragraph",
-          "text": "with the desire for low prices for nonrenewable energy sources (mainly fossil fuels). If governments remain focused on reducing fossil fuel use in the future, higher energy prices are unavoidable."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. The Organization of the Petroleum Exporting Countries (OPEC) has significant"
-        },
-        {
-          "type": "paragraph",
-          "text": "influence on energy prices. It is likely that as a group, the OPEC members desire to maintain low energy prices to lengthen the move to renewable energy sources."
+          "text": "3. The Organization of the Petroleum Exporting Countries (OPEC) has significant influence on energy prices. It is likely that as a group, the OPEC members desire to maintain low energy prices to lengthen the move to renewable energy sources."
         },
         {
           "type": "paragraph",
@@ -557,7 +541,15 @@
     },
     {
       "type": "paragraph",
-      "text": "2. Survey the industry’s size, growth, profitability, and market share trends\n3. Analyze the industry’s structure\n4. Analyze external influences on the industry"
+      "text": "2. Survey the industry’s size, growth, profitability, and market share trends"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Analyze the industry’s structure"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Analyze external influences on the industry"
     },
     {
       "type": "paragraph",
@@ -620,11 +612,19 @@
     },
     {
       "type": "paragraph",
-      "text": "2. Threat of substitutes\n3. Bargaining power of customers"
+      "text": "2. Threat of substitutes"
     },
     {
       "type": "paragraph",
-      "text": "4. Bargaining power of suppliers\n5. Rivalry among existing competitors"
+      "text": "3. Bargaining power of customers"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Bargaining power of suppliers"
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Rivalry among existing competitors"
     },
     {
       "type": "paragraph",
@@ -632,11 +632,23 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Political influences\n2. Economic influences\n3. Social influences"
+      "text": "1. Political influences"
     },
     {
       "type": "paragraph",
-      "text": "4. Technology influences\n5. Legal influences"
+      "text": "2. Economic influences"
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Social influences"
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Technology influences"
+    },
+    {
+      "type": "paragraph",
+      "text": "5. Legal influences"
     },
     {
       "type": "paragraph",
@@ -721,11 +733,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Commercial classification systems (e.g., GICS, ICB, and TRBC) classify firms"
-            },
-            {
-              "type": "paragraph",
-              "text": "according to the product or service they produce."
+              "text": "Commercial classification systems (e.g., GICS, ICB, and TRBC) classify firms according to the product or service they produce."
             }
           ]
         },
@@ -756,11 +764,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For industry analysis, cyclical firms and industries are those with earnings that are"
-            },
-            {
-              "type": "paragraph",
-              "text": "highly dependent on the business cycle, while defensive firms and industries are those with earnings that are relatively less sensitive to the business cycle."
+              "text": "For industry analysis, cyclical firms and industries are those with earnings that are highly dependent on the business cycle, while defensive firms and industries are those with earnings that are relatively less sensitive to the business cycle."
             }
           ]
         }
@@ -798,11 +802,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Porter’s five forces are rivalry among existing competitors, threat of entry, threat"
-            },
-            {
-              "type": "paragraph",
-              "text": "of substitutes, bargaining power of buyers, and bargaining power of suppliers."
+              "text": "Porter’s five forces are rivalry among existing competitors, threat of entry, threat of substitutes, bargaining power of buyers, and bargaining power of suppliers."
             }
           ]
         },
@@ -833,15 +833,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Firms that use a cost leadership strategy should have managerial incentives to"
-            },
-            {
-              "type": "paragraph",
-              "text": "create efficient operations. In a cost leadership strategy, the firm seeks to generate a high-enough sales volume to make a superior return. Investments in customer service and proprietary distribution channels are key elements of a differentiation strategy."
-            },
-            {
-              "type": "paragraph",
-              "text": "pp. 78–93."
+              "text": "Firms that use a cost leadership strategy should have managerial incentives to create efficient operations. In a cost leadership strategy, the firm seeks to generate a high-enough sales volume to make a superior return. Investments in customer service and proprietary distribution channels are key elements of a differentiation strategy. pp. 78–93."
             }
           ]
         }

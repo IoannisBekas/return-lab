@@ -86,11 +86,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Revenue recognition standards affect when a sale is recorded in the income statement, but not the timing of cash flows from the customer. If a firm receives cash from a customer in advance of the sale being recorded in the income statement (unearned revenue), the cash received will appear in the cash flow statement at the time of payment, not when the sale is recorded. For example, if a company provided a service agreement to a customer, the cash received is reflected in the cash flow statement when"
-        },
-        {
-          "type": "paragraph",
-          "text": "the customer pays for the contract (normally in advance), but revenue recognized in the income statement is spread over the life of the contract."
+          "text": "Revenue recognition standards affect when a sale is recorded in the income statement, but not the timing of cash flows from the customer. If a firm receives cash from a customer in advance of the sale being recorded in the income statement (unearned revenue), the cash received will appear in the cash flow statement at the time of payment, not when the sale is recorded. For example, if a company provided a service agreement to a customer, the cash received is reflected in the cash flow statement when the customer pays for the contract (normally in advance), but revenue recognized in the income statement is spread over the life of the contract."
         },
         {
           "type": "heading",
@@ -341,11 +337,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Under the indirect method, we also need to adjust net income for any change in balance sheet accounts, just as we do with the direct method. If, for example, accounts receivable went up during the period, we know that sales during the period were"
-        },
-        {
-          "type": "paragraph",
-          "text": "greater than the cash collected from customers. We need to reduce net income to reflect the fact that sales, rather than cash collected, were used in calculating net income."
+          "text": "Under the indirect method, we also need to adjust net income for any change in balance sheet accounts, just as we do with the direct method. If, for example, accounts receivable went up during the period, we know that sales during the period were greater than the cash collected from customers. We need to reduce net income to reflect the fact that sales, rather than cash collected, were used in calculating net income."
         },
         {
           "type": "paragraph",
@@ -487,11 +479,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Both IFRS and U.S. GAAP encourage the use of a statement of cash flows in the direct format. Under U.S. GAAP, a statement of cash flows under the direct method must include footnote disclosure of the indirect method. Most companies, however, report"
-        },
-        {
-          "type": "paragraph",
-          "text": "cash flows using the indirect method, which requires no additional disclosure. Later in this reading we will illustrate the method an analyst can use to create a statement of cash flows in the direct method format when the company reports using the indirect method."
+          "text": "Both IFRS and U.S. GAAP encourage the use of a statement of cash flows in the direct format. Under U.S. GAAP, a statement of cash flows under the direct method must include footnote disclosure of the indirect method. Most companies, however, report cash flows using the indirect method, which requires no additional disclosure. Later in this reading we will illustrate the method an analyst can use to create a statement of cash flows in the direct method format when the company reports using the indirect method."
         }
       ]
     },
@@ -573,15 +561,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The value (X) we need to calculate is the cost of the assets that have been disposed of; that is, the gross book value the company recorded when it first acquired these assets. By rearranging the reconciliation, the gross cost of the disposed asset is computed as follows:"
-        },
-        {
-          "type": "paragraph",
-          "text": "beginning PP&E + acquisitions − ending gross PP&E = disposals gross cost"
-        },
-        {
-          "type": "paragraph",
-          "text": "disposals gross cost = $60,000 + $25,000 − $69,000 = $16,000"
+          "text": "The value (X) we need to calculate is the cost of the assets that have been disposed of; that is, the gross book value the company recorded when it first acquired these assets. By rearranging the reconciliation, the gross cost of the disposed asset is computed as follows: beginning PP&E + acquisitions − ending gross PP&E = disposals gross cost disposals gross cost = $60,000 + $25,000 − $69,000 = $16,000"
         },
         {
           "type": "paragraph",
@@ -625,11 +605,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Carrying value of assets disposed = beginning carrying value − depreciation expense + additions to PP&E − ending carrying value"
-        },
-        {
-          "type": "paragraph",
-          "text": "= $51,000 − $7,000 + $25,000 − $57,000 = $12,000"
+          "text": "Carrying value of assets disposed = beginning carrying value − depreciation expense + additions to PP&E − ending carrying value = $51,000 − $7,000 + $25,000 − $57,000 = $12,000"
         },
         {
           "type": "paragraph",
@@ -647,11 +623,7 @@
         },
         {
           "type": "paragraph",
-          "text": "We carry out similar calculations for the disposal of land. This will be simpler because land is not depreciated, so the carrying value is its gross cost. Because the"
-        },
-        {
-          "type": "paragraph",
-          "text": "footnotes do not mention any acquisitions of land, the carrying value of the land disposed of is the change in carrying value reported on the balance sheet."
+          "text": "We carry out similar calculations for the disposal of land. This will be simpler because land is not depreciated, so the carrying value is its gross cost. Because the footnotes do not mention any acquisitions of land, the carrying value of the land disposed of is the change in carrying value reported on the balance sheet."
         },
         {
           "type": "paragraph",
@@ -805,11 +777,7 @@
         },
         {
           "type": "paragraph",
-          "text": "For bonds issued at a premiums or discounts, the difference relative to par is amortized over the life of the bond. Amortization of premiums and discounts are not cash flows:"
-        },
-        {
-          "type": "paragraph",
-          "text": "coupon + amortized discount − amortized premium = interest expense"
+          "text": "For bonds issued at a premiums or discounts, the difference relative to par is amortized over the life of the bond. Amortization of premiums and discounts are not cash flows: coupon + amortized discount − amortized premium = interest expense"
         },
         {
           "type": "paragraph",
@@ -829,11 +797,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A second simplification in the Level I curriculum is to assume that stock buybacks are transacted at the same price that the shares were initially issued"
-        },
-        {
-          "type": "paragraph",
-          "text": "for. In practice, this is unlikely, and if the buyback price differs from issue price, adjustments to retained earnings are made."
+          "text": "A second simplification in the Level I curriculum is to assume that stock buybacks are transacted at the same price that the shares were initially issued for. In practice, this is unlikely, and if the buyback price differs from issue price, adjustments to retained earnings are made."
         },
         {
           "type": "question",
@@ -858,11 +822,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: Aggregate all revenues and gains and all expenses and losses. Step 2: Remove all noncash charges and disaggregate the remaining items. Step 3: Convert from accruals to cash flows by adjusting for the change in working"
+          "text": "Step 1: Aggregate all revenues and gains and all expenses and losses."
         },
         {
           "type": "paragraph",
-          "text": "capital."
+          "text": "Step 2: Remove all noncash charges and disaggregate the remaining items."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 3: Convert from accruals to cash flows by adjusting for the change in working capital."
         },
         {
           "type": "heading",
@@ -905,11 +873,7 @@
         },
         {
           "type": "paragraph",
-          "text": "International Financial Reporting Standards (IFRS) allow more flexibility in the classification of cash flows. Under IFRS, interest and dividends received may be"
-        },
-        {
-          "type": "paragraph",
-          "text": "classified as either operating or investing cash inflows. Dividends paid to the company’s shareholders and interest paid on the company’s debt may be classified as either operating or financing cash outflows."
+          "text": "International Financial Reporting Standards (IFRS) allow more flexibility in the classification of cash flows. Under IFRS, interest and dividends received may be classified as either operating or investing cash inflows. Dividends paid to the company’s shareholders and interest paid on the company’s debt may be classified as either operating or financing cash outflows."
         },
         {
           "type": "paragraph",
@@ -984,11 +948,7 @@
     },
     {
       "type": "paragraph",
-      "text": "An indirect cash flow statement can be converted to a direct cash flow statement by adjusting each income statement account for changes in associated balance sheet"
-    },
-    {
-      "type": "paragraph",
-      "text": "accounts and by eliminating noncash and nonoperating items (i.e., applying the direct method)."
+      "text": "An indirect cash flow statement can be converted to a direct cash flow statement by adjusting each income statement account for changes in associated balance sheet accounts and by eliminating noncash and nonoperating items (i.e., applying the direct method)."
     },
     {
       "type": "question",
@@ -1063,11 +1023,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "$150,000 sales + $10,000 decrease in accounts receivable = $160,000 cash"
-            },
-            {
-              "type": "paragraph",
-              "text": "collections. The change in accounts payable does not affect cash collections. Accounts payable result from a firm’s purchases from its suppliers. (Module 30.1,"
+              "text": "$150,000 sales + $10,000 decrease in accounts receivable = $160,000 cash collections. The change in accounts payable does not affect cash collections. Accounts payable result from a firm’s purchases from its suppliers. (Module 30.1,"
             }
           ]
         },
@@ -1124,11 +1080,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Revenue must be adjusted for the change in accounts receivable asset and"
-            },
-            {
-              "type": "paragraph",
-              "text": "unearned revenue liability:"
+              "text": "Revenue must be adjusted for the change in accounts receivable asset and unearned revenue liability:"
             },
             {
               "type": "math",
@@ -1166,11 +1118,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The income statement tax expense must first be adjusted to remove the impact of"
-            },
-            {
-              "type": "paragraph",
-              "text": "any changes to deferred tax assets and liabilities to arrive at tax payable. Tax payable represents the tax owed to the tax authorities on this period’s earnings. The tax-payable figure then must be adjusted for changes in tax-payable liabilities to arrive at the cash tax paid."
+              "text": "The income statement tax expense must first be adjusted to remove the impact of any changes to deferred tax assets and liabilities to arrive at tax payable. Tax payable represents the tax owed to the tax authorities on this period’s earnings. The tax-payable figure then must be adjusted for changes in tax-payable liabilities to arrive at the cash tax paid."
             },
             {
               "type": "math",
@@ -1208,11 +1156,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The cost of goods sold needs to be adjusted for both change in inventory and"
-            },
-            {
-              "type": "paragraph",
-              "text": "change in accounts payable."
+              "text": "The cost of goods sold needs to be adjusted for both change in inventory and change in accounts payable."
             },
             {
               "type": "math",
@@ -1254,11 +1198,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Net income − profits from sale of land + depreciation + decrease in receivables −"
-            },
-            {
-              "type": "paragraph",
-              "text": "increase in inventories + increase in accounts payable − decrease in wages payable + increase in deferred tax liabilities = 120 − 2 + 25 + 20 − 10 + 7 − 5 + 15 = $170. Note that the profit on the sale of land should be subtracted from net income because this transaction is classified as investing, not operating."
+              "text": "Net income − profits from sale of land + depreciation + decrease in receivables − increase in inventories + increase in accounts payable − decrease in wages payable + increase in deferred tax liabilities = 120 − 2 + 25 + 20 − 10 + 7 − 5 + 15 = $170. Note that the profit on the sale of land should be subtracted from net income because this transaction is classified as investing, not operating."
             }
           ]
         },
@@ -1318,11 +1258,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The indirect method reconciles the difference between net income and CFO. The"
-            },
-            {
-              "type": "paragraph",
-              "text": "direct method shows operating cash received and paid—and, therefore, provides more information on its face than the indirect method."
+              "text": "The indirect method reconciles the difference between net income and CFO. The direct method shows operating cash received and paid—and, therefore, provides more information on its face than the indirect method."
             }
           ]
         }
@@ -1400,11 +1336,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Sale of preferred stock + issuance of bonds − principal payments on bank"
-            },
-            {
-              "type": "paragraph",
-              "text": "borrowings − repurchase of common stock − dividends paid = 35 + 50 − 15 − 30 −"
+              "text": "Sale of preferred stock + issuance of bonds − principal payments on bank borrowings − repurchase of common stock − dividends paid = 35 + 50 − 15 − 30 −"
             },
             {
               "type": "paragraph",
@@ -1466,11 +1398,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Depreciation does not represent a cash flow. To the extent that it affects the firm’s"
-            },
-            {
-              "type": "paragraph",
-              "text": "taxes, an increase in depreciation changes operating cash flows, but not investing cash flows."
+              "text": "Depreciation does not represent a cash flow. To the extent that it affects the firm’s taxes, an increase in depreciation changes operating cash flows, but not investing cash flows."
             }
           ]
         },
@@ -1557,11 +1485,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Financing cash flows are linked primarily to changes in long-term liabilities and"
-            },
-            {
-              "type": "paragraph",
-              "text": "equity. Changes in current assets and liabilities tend to be linked to operating cash flows. Changes in long-lived assets are typically linked to investing cash flows."
+              "text": "Financing cash flows are linked primarily to changes in long-term liabilities and equity. Changes in current assets and liabilities tend to be linked to operating cash flows. Changes in long-lived assets are typically linked to investing cash flows."
             }
           ]
         },
@@ -1590,11 +1514,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Under IFRS, interest expense can be classified as either an operating cash flow or"
-            },
-            {
-              "type": "paragraph",
-              "text": "financing cash flow."
+              "text": "Under IFRS, interest expense can be classified as either an operating cash flow or financing cash flow."
             }
           ]
         },

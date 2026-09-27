@@ -18,27 +18,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: A bank making loans or a corporation extending credit to customers (referred to"
+          "text": "Step 1: A bank making loans or a corporation extending credit to customers (referred to as the originator) creates a pool of debt-based assets."
         },
         {
           "type": "paragraph",
-          "text": "as the originator) creates a pool of debt-based assets."
+          "text": "Step 2: The pool of assets (referred to as the collateral) is sold to a separate legal entity, referred to as a special purpose entity (SPE)."
         },
         {
           "type": "paragraph",
-          "text": "Step 2: The pool of assets (referred to as the collateral) is sold to a separate legal entity,"
-        },
-        {
-          "type": "paragraph",
-          "text": "referred to as a special purpose entity (SPE)."
-        },
-        {
-          "type": "paragraph",
-          "text": "Step 3: The SPE issues fixed-income securities (referred to as asset-backed securities, or"
-        },
-        {
-          "type": "paragraph",
-          "text": "ABSs) supported by the cash flows from the collateral (i.e., the borrowers making repayments on their loans). These ABSs are purchased by investors, such as pension funds or fixed-income funds, that deem the risk/reward of the underlying collateral to be attractive."
+          "text": "Step 3: The SPE issues fixed-income securities (referred to as asset-backed securities, or ABSs) supported by the cash flows from the collateral (i.e., the borrowers making repayments on their loans). These ABSs are purchased by investors, such as pension funds or fixed-income funds, that deem the risk/reward of the underlying collateral to be attractive."
         },
         {
           "type": "paragraph",
@@ -282,11 +270,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Companies that securitize loans they hold as assets receive cash with which they"
-            },
-            {
-              "type": "paragraph",
-              "text": "can make additional loans. The primary benefits of securitization to the economy include reducing firms’ funding costs and increasing the liquidity of the financial assets that are securitized."
+              "text": "Companies that securitize loans they hold as assets receive cash with which they can make additional loans. The primary benefits of securitization to the economy include reducing firms’ funding costs and increasing the liquidity of the financial assets that are securitized."
             }
           ]
         },
@@ -317,15 +301,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "ABSs are issued by a special purpose entity (SPE), which is an entity created for"
-            },
-            {
-              "type": "paragraph",
-              "text": "that specific purpose. In a securitization, the firm that is securitizing financial"
-            },
-            {
-              "type": "paragraph",
-              "text": "assets is described as the seller because it sells the assets to the SPE. The servicer is the entity that deals with collections on the securitized assets."
+              "text": "ABSs are issued by a special purpose entity (SPE), which is an entity created for that specific purpose. In a securitization, the firm that is securitizing financial assets is described as the seller because it sells the assets to the SPE. The servicer is the entity that deals with collections on the securitized assets."
             }
           ]
         }

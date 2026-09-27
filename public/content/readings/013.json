@@ -76,11 +76,7 @@
         },
         {
           "type": "paragraph",
-          "text": "When an expansion is approaching its peak, sales growth begins to slow, and unsold inventories accumulate. This can be seen in an increase in the inventory-sales ratio above its normal level. Firms respond to this unplanned increase in inventory by reducing production, which is one of the causes of the subsequent contraction in the"
-        },
-        {
-          "type": "paragraph",
-          "text": "economy. An increase in inventories is counted in the GDP statistics as economic output whether the increase is planned or unplanned. An analyst who looks only at GDP growth, rather than the inventory-sales ratio, might see economic strength rather than the beginning of weakness."
+          "text": "When an expansion is approaching its peak, sales growth begins to slow, and unsold inventories accumulate. This can be seen in an increase in the inventory-sales ratio above its normal level. Firms respond to this unplanned increase in inventory by reducing production, which is one of the causes of the subsequent contraction in the economy. An increase in inventories is counted in the GDP statistics as economic output whether the increase is planned or unplanned. An analyst who looks only at GDP growth, rather than the inventory-sales ratio, might see economic strength rather than the beginning of weakness."
         },
         {
           "type": "paragraph",
@@ -120,27 +116,19 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Mortgage rates. Low interest rates tend to increase home buying and"
+          "text": "1. Mortgage rates. Low interest rates tend to increase home buying and construction, while high interest rates tend to reduce home buying and construction."
         },
         {
           "type": "paragraph",
-          "text": "construction, while high interest rates tend to reduce home buying and construction."
+          "text": "2. Housing costs relative to income. When incomes are cyclically high (low) relative to home costs, including mortgage financing costs, home buying and construction tend to increase (decrease). Housing activity can decrease even when incomes are rising if home prices are rising faster than incomes, as often occurs late in expansions."
         },
         {
           "type": "paragraph",
-          "text": "2. Housing costs relative to income. When incomes are cyclically high (low) relative to"
+          "text": "3. Speculative activity. As we saw in the housing sector in 2007–08 in many economies, rising home prices can lead to purchases based on expectations of further gains. Higher prices led to more construction and eventually excess building. This resulted in falling prices that decreased or eliminated speculative demand and led to dramatic decreases in house prices and in housing activity overall."
         },
         {
           "type": "paragraph",
-          "text": "home costs, including mortgage financing costs, home buying and construction tend to increase (decrease). Housing activity can decrease even when incomes are rising if home prices are rising faster than incomes, as often occurs late in expansions.\n3. Speculative activity. As we saw in the housing sector in 2007–08 in many economies,"
-        },
-        {
-          "type": "paragraph",
-          "text": "rising home prices can lead to purchases based on expectations of further gains. Higher prices led to more construction and eventually excess building. This resulted in falling prices that decreased or eliminated speculative demand and led to dramatic decreases in house prices and in housing activity overall.\n4. Demographic factors. The proportion of the population in the 25- to 40-year-old"
-        },
-        {
-          "type": "paragraph",
-          "text": "segment is positively related to activity in the housing sector because these are the ages of greatest household formation. Strong population shifts from rural areas to cities, as may occur in newly industrializing economies, may require large increases in construction of new housing to accommodate those needs."
+          "text": "4. Demographic factors. The proportion of the population in the 25- to 40-year-old segment is positively related to activity in the housing sector because these are the ages of greatest household formation. Strong population shifts from rural areas to cities, as may occur in newly industrializing economies, may require large increases in construction of new housing to accommodate those needs."
         },
         {
           "type": "heading",
@@ -168,35 +156,43 @@
         },
         {
           "type": "paragraph",
-          "text": "–  The GDP growth rate changes from negative to positive."
+          "text": "– The GDP growth rate changes from negative to positive."
         },
         {
           "type": "paragraph",
-          "text": "–  There is a high unemployment rate, and an increasing use of overtime and temporary workers."
+          "text": "– There is a high unemployment rate, and an increasing use of overtime and temporary workers."
         },
         {
           "type": "paragraph",
-          "text": "–  Spending on consumer durable goods and housing may increase."
+          "text": "– Spending on consumer durable goods and housing may increase."
         },
         {
           "type": "paragraph",
-          "text": "–  There is a moderate or decreasing inflation rate. Expansion:"
+          "text": "– There is a moderate or decreasing inflation rate."
         },
         {
           "type": "paragraph",
-          "text": "–  The GDP growth rate increases. –  The unemployment rate decreases as hiring accelerates."
+          "text": "Expansion:"
         },
         {
           "type": "paragraph",
-          "text": "–  There are investment increases in producers’ equipment and home construction."
+          "text": "– The GDP growth rate increases."
         },
         {
           "type": "paragraph",
-          "text": "–  The inflation rate may increase."
+          "text": "– The unemployment rate decreases as hiring accelerates."
         },
         {
           "type": "paragraph",
-          "text": "–  Imports increase as domestic income growth accelerates."
+          "text": "– There are investment increases in producers’ equipment and home construction."
+        },
+        {
+          "type": "paragraph",
+          "text": "– The inflation rate may increase."
+        },
+        {
+          "type": "paragraph",
+          "text": "– Imports increase as domestic income growth accelerates."
         },
         {
           "type": "paragraph",
@@ -204,15 +200,19 @@
         },
         {
           "type": "paragraph",
-          "text": "–  The GDP growth rate decreases. –  The unemployment rate decreases, but hiring slows."
+          "text": "– The GDP growth rate decreases."
         },
         {
           "type": "paragraph",
-          "text": "–  Consumer spending and business investments grow at slower rates."
+          "text": "– The unemployment rate decreases, but hiring slows."
         },
         {
           "type": "paragraph",
-          "text": "–  The inflation rate increases."
+          "text": "– Consumer spending and business investments grow at slower rates."
+        },
+        {
+          "type": "paragraph",
+          "text": "– The inflation rate increases."
         },
         {
           "type": "paragraph",
@@ -220,19 +220,23 @@
         },
         {
           "type": "paragraph",
-          "text": "–  The GDP growth rate is negative."
+          "text": "– The GDP growth rate is negative."
         },
         {
           "type": "paragraph",
-          "text": "–  Hours worked decrease; unemployment rate increases. –  Consumer spending, home construction, and business investments decrease."
+          "text": "– Hours worked decrease; unemployment rate increases."
         },
         {
           "type": "paragraph",
-          "text": "–  The inflation rate decreases with a lag."
+          "text": "– Consumer spending, home construction, and business investments decrease."
         },
         {
           "type": "paragraph",
-          "text": "–  Imports decrease as domestic income growth slows."
+          "text": "– The inflation rate decreases with a lag."
+        },
+        {
+          "type": "paragraph",
+          "text": "– Imports decrease as domestic income growth slows."
         },
         {
           "type": "heading",
@@ -281,15 +285,19 @@
     },
     {
       "type": "paragraph",
-      "text": "1. Expansion. Real GDP is increasing (or GDP growth relative to trend is increasing).\n2. Peak. Real GDP stops increasing/begins decreasing (GDP growth relative to trend"
+      "text": "1. Expansion. Real GDP is increasing (or GDP growth relative to trend is increasing)."
     },
     {
       "type": "paragraph",
-      "text": "peaks).\n3. Contraction. Real GDP is decreasing (or GDP growth relative to trend is decreasing).\n4. Trough. Real GDP stops decreasing/begins increasing (GDP growth relative to trend"
+      "text": "2. Peak. Real GDP stops increasing/begins decreasing (GDP growth relative to trend peaks)."
     },
     {
       "type": "paragraph",
-      "text": "reaches a low)."
+      "text": "3. Contraction. Real GDP is decreasing (or GDP growth relative to trend is decreasing)."
+    },
+    {
+      "type": "paragraph",
+      "text": "4. Trough. Real GDP stops decreasing/begins increasing (GDP growth relative to trend reaches a low)."
     },
     {
       "type": "paragraph",
@@ -401,11 +409,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Early in an expansion, inventory-sales ratios typically decrease below their"
-            },
-            {
-              "type": "paragraph",
-              "text": "normal levels as accelerating sales draw down inventories of produced goods."
+              "text": "Early in an expansion, inventory-sales ratios typically decrease below their normal levels as accelerating sales draw down inventories of produced goods."
             }
           ]
         },
@@ -436,11 +440,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An economic contraction is likely to feature increasing unemployment (i.e.,"
-            },
-            {
-              "type": "paragraph",
-              "text": "decreasing employment), along with declining economic output and decreasing inflation pressure."
+              "text": "An economic contraction is likely to feature increasing unemployment (i.e., decreasing employment), along with declining economic output and decreasing inflation pressure."
             }
           ]
         },
@@ -471,11 +471,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Credit cycles are associated with interest rates and the availability of credit,"
-            },
-            {
-              "type": "paragraph",
-              "text": "which is important in the financing of construction and the purchase of property."
+              "text": "Credit cycles are associated with interest rates and the availability of credit, which is important in the financing of construction and the purchase of property."
             }
           ]
         },
@@ -506,11 +502,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Lagging indicators have turning points that occur after business cycle turning"
-            },
-            {
-              "type": "paragraph",
-              "text": "points."
+              "text": "Lagging indicators have turning points that occur after business cycle turning points."
             }
           ]
         },
@@ -541,11 +533,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Physical capital adjustments to downturns typically are made through aging of"
-            },
-            {
-              "type": "paragraph",
-              "text": "equipment plus postponing maintenance."
+              "text": "Physical capital adjustments to downturns typically are made through aging of equipment plus postponing maintenance."
             }
           ]
         }

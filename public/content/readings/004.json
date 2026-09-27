@@ -204,11 +204,7 @@
         },
         {
           "type": "paragraph",
-          "text": "In the figure just presented, we have multiplied the probabilities to calculate the probabilities of each of the four outcome pairs. Note that these sum to 1. Given that"
-        },
-        {
-          "type": "paragraph",
-          "text": "the stock has gains, what is our updated probability of an outperforming economy? We sum the probability of stock gains in both states (outperform and underperform) to get 42% + 8% = 50%. Given that the stock has gains and using Bayes’ formula, the"
+          "text": "In the figure just presented, we have multiplied the probabilities to calculate the probabilities of each of the four outcome pairs. Note that these sum to 1. Given that the stock has gains, what is our updated probability of an outperforming economy? We sum the probability of stock gains in both states (outperform and underperform) to get 42% + 8% = 50%. Given that the stock has gains and using Bayes’ formula, the"
         },
         {
           "type": "math",

@@ -165,11 +165,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The coupon rate and the yield to maturity are two different things. We only use the coupon rate to determine the coupon payment (PMT). The yield to maturity (I/Y) is the"
-        },
-        {
-          "type": "paragraph",
-          "text": "discount rate implied by the bond’s price."
+          "text": "The coupon rate and the yield to maturity are two different things. We only use the coupon rate to determine the coupon payment (PMT). The yield to maturity (I/Y) is the discount rate implied by the bond’s price."
         },
         {
           "type": "heading",
@@ -313,15 +309,11 @@
         },
         {
           "type": "paragraph",
-          "text": "1. Assume a constant future dividend. Under this assumption, we can value a common"
+          "text": "1. Assume a constant future dividend. Under this assumption, we can value a common stock the same way we value a preferred stock, using the perpetuity formula."
         },
         {
           "type": "paragraph",
-          "text": "stock the same way we value a preferred stock, using the perpetuity formula.\n2. Assume a constant growth rate of dividends. With this assumption, we can apply the"
-        },
-        {
-          "type": "paragraph",
-          "text": "constant growth DDM, also known as the Gordon growth model. In this model, we state the value of a common share as follows:"
+          "text": "2. Assume a constant growth rate of dividends. With this assumption, we can apply the constant growth DDM, also known as the Gordon growth model. In this model, we state the value of a common share as follows:"
         },
         {
           "type": "math",
@@ -353,11 +345,7 @@
         },
         {
           "type": "paragraph",
-          "text": "3. Assume a changing growth rate of dividends. This can be done in many ways. The"
-        },
-        {
-          "type": "paragraph",
-          "text": "example we will use here (and the one that is required for the Level I CFA exam) is known as a multistage DDM. Essentially, we assume a pattern of dividends in the short term, such as a period of high growth, followed by a constant growth rate of dividends in the long term. To use a multistage DDM, we discount the expected dividends in the short term as individual cash flows, then apply the constant growth DDM to the long term. As we saw in the previous example, the constant growth DDM gives us a value for an equity share one period before the dividend we use in the numerator."
+          "text": "3. Assume a changing growth rate of dividends. This can be done in many ways. The example we will use here (and the one that is required for the Level I CFA exam) is known as a multistage DDM. Essentially, we assume a pattern of dividends in the short term, such as a period of high growth, followed by a constant growth rate of dividends in the long term. To use a multistage DDM, we discount the expected dividends in the short term as individual cash flows, then apply the constant growth DDM to the long term. As we saw in the previous example, the constant growth DDM gives us a value for an equity share one period before the dividend we use in the numerator."
         },
         {
           "type": "heading",
@@ -541,11 +529,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The additivity principle tells us that to get the PV of the original series, we can just add the PVs of cash flow series #1 (a 4-period annuity) and cash flow series #2 (a"
-        },
-        {
-          "type": "paragraph",
-          "text": "single payment three periods from now)."
+          "text": "The additivity principle tells us that to get the PV of the original series, we can just add the PVs of cash flow series #1 (a 4-period annuity) and cash flow series #2 (a single payment three periods from now)."
         },
         {
           "type": "paragraph",
@@ -961,11 +945,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the required yield is greater than the coupon rate, the present value of the"
-            },
-            {
-              "type": "paragraph",
-              "text": "bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991."
+              "text": "Because the required yield is greater than the coupon rate, the present value of the bonds is less than their face value: N = 10; I/Y = 6; PMT = 0.05 × $10,000,00 = $500,000; FV = $10,000,000; and CPT PV = −$9,263,991."
             }
           ]
         }

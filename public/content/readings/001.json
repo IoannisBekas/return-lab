@@ -420,11 +420,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: Value the portfolio immediately preceding significant additions or withdrawals. Form subperiods"
-        },
-        {
-          "type": "paragraph",
-          "text": "over the evaluation period that correspond to the dates of deposits and withdrawals."
+          "text": "Step 1: Value the portfolio immediately preceding significant additions or withdrawals. Form subperiods over the evaluation period that correspond to the dates of deposits and withdrawals."
         },
         {
           "type": "paragraph",
@@ -432,11 +428,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 3: Compute the product of (1 + HPR) for each subperiod to obtain a total return for the entire"
-        },
-        {
-          "type": "paragraph",
-          "text": "measurement period [i.e., (1 + HPR1) × (1 + HPR2) … (1 + HPRn)] − 1. If the total investment period is greater than one year, you must take the geometric mean of the measurement period return to find the annual time-weighted rate of return."
+          "text": "Step 3: Compute the product of (1 + HPR) for each subperiod to obtain a total return for the entire measurement period [i.e., (1 + HPR1) × (1 + HPR2) … (1 + HPRn)] − 1. If the total investment period is greater than one year, you must take the geometric mean of the measurement period return to find the annual time-weighted rate of return."
         },
         {
           "type": "heading",
@@ -490,11 +482,7 @@
         },
         {
           "type": "paragraph",
-          "text": "The time-weighted rate of return is not affected by the timing of cash inflows and outflows. In the investment management industry, time-weighted return is the preferred method of performance measurement because portfolio managers typically"
-        },
-        {
-          "type": "paragraph",
-          "text": "do not control the timing of deposits to and withdrawals from the accounts they manage."
+          "text": "The time-weighted rate of return is not affected by the timing of cash inflows and outflows. In the investment management industry, time-weighted return is the preferred method of performance measurement because portfolio managers typically do not control the timing of deposits to and withdrawals from the accounts they manage."
         },
         {
           "type": "paragraph",
@@ -671,11 +659,7 @@
         },
         {
           "type": "paragraph",
-          "text": "If we had been given the return (20%) instead, the calculation is this:"
-        },
-        {
-          "type": "paragraph",
-          "text": "ln (1 + 0.20) = 18.232%"
+          "text": "If we had been given the return (20%) instead, the calculation is this: ln (1 + 0.20) = 18.232%"
         },
         {
           "type": "paragraph",
@@ -688,11 +672,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Gross return refers to the total return on a security portfolio before deducting fees for the management and administration of the investment account. Net return refers to the return after these fees have been deducted. Commissions on trades and other costs"
-        },
-        {
-          "type": "paragraph",
-          "text": "that are necessary to generate the investment returns are deducted in both gross and net return measures."
+          "text": "Gross return refers to the total return on a security portfolio before deducting fees for the management and administration of the investment account. Net return refers to the return after these fees have been deducted. Commissions on trades and other costs that are necessary to generate the investment returns are deducted in both gross and net return measures."
         },
         {
           "type": "paragraph",
@@ -919,11 +899,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Interest rates can be interpreted as required rates of return, discount rates, or"
-            },
-            {
-              "type": "paragraph",
-              "text": "opportunity costs of current consumption. A risk premium can be, but is not always, a component of an interest rate."
+              "text": "Interest rates can be interpreted as required rates of return, discount rates, or opportunity costs of current consumption. A risk premium can be, but is not always, a component of an interest rate."
             }
           ]
         },
@@ -1208,11 +1184,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Gross return is the total return after deducting commissions on trades and other"
-            },
-            {
-              "type": "paragraph",
-              "text": "costs necessary to generate the returns, but before deducting fees for the management and administration of the investment account. Net return is the return after management and administration fees have been deducted."
+              "text": "Gross return is the total return after deducting commissions on trades and other costs necessary to generate the returns, but before deducting fees for the management and administration of the investment account. Net return is the return after management and administration fees have been deducted."
             }
           ]
         }

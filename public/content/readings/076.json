@@ -66,35 +66,15 @@
         },
         {
           "type": "paragraph",
-          "text": "- As the name suggests, private equity funds invest in the equity of companies that"
+          "text": "- As the name suggests, private equity funds invest in the equity of companies that are not publicly traded, or in the equity of publicly traded firms that the funds intend to take private. These firms are often in the mature or decline stages of their industry life cycle. Leveraged buyout (LBO) funds use borrowed money to purchase equity in established companies and comprise most private equity investment funds. Venture capital funds invest in young, unproven companies at the start-up or early stages in their life cycles. - Private debt funds may make loans directly to companies, lend to early-stage firms"
         },
         {
           "type": "paragraph",
-          "text": "are not publicly traded, or in the equity of publicly traded firms that the funds intend to take private. These firms are often in the mature or decline stages of their industry life cycle. Leveraged buyout (LBO) funds use borrowed money to purchase equity in established companies and comprise most private equity investment funds. Venture capital funds invest in young, unproven companies at the start-up or early stages in their life cycles. - Private debt funds may make loans directly to companies, lend to early-stage firms"
+          "text": "(venture debt), or invest in the debt of firms that are struggling to make their debt payments or have entered bankruptcy (distressed debt)."
         },
         {
           "type": "paragraph",
-          "text": "(venture debt), or invest in the debt of firms that are struggling to make their debt payments or have entered bankruptcy (distressed debt).\n2. Real assets include real estate, infrastructure, natural resources, and other assets"
-        },
-        {
-          "type": "paragraph",
-          "text": "such as digital assets: - Real estate investments include residential or commercial properties, as well as"
-        },
-        {
-          "type": "paragraph",
-          "text": "real estate–backed debt. These investments are held in various structures, including full or leveraged ownership of individual properties, individual real estate–backed loans, private and publicly traded securities backed by pools of properties or mortgages, and limited partnerships. - Natural resources include commodities, farmland, and timberland. To gain"
-        },
-        {
-          "type": "paragraph",
-          "text": "exposure to commodities, investors can own physical commodities, commodity derivatives, or the equity of commodity-producing firms. Some funds seek exposure to the returns on various commodity indices, often by holding derivatives contracts (futures) that are expected to track a specific commodity index. Farmland can produce income from leasing the land out for farming or from raising crops or livestock for harvest and sale. Timberland investment involves purchasing forested land and harvesting trees to generate cash flows. - Infrastructure refers to long-lived assets that provide public services. These"
-        },
-        {
-          "type": "paragraph",
-          "text": "include economic infrastructure assets (e.g., roads, airports, and utility grids) and social infrastructure assets (e.g., schools and hospitals). While often financed and constructed by government entities, infrastructure investments have more recently been undertaken by public-private partnerships, with each holding a significant stake in the infrastructure assets. Various deal structures are employed, and the asset may revert to public ownership at some future date. - Other types of real assets include collectibles such as art, intangible assets such as"
-        },
-        {
-          "type": "paragraph",
-          "text": "patents, and digital assets such as cryptocurrencies."
+          "text": "2. Real assets include real estate, infrastructure, natural resources, and other assets such as digital assets: - Real estate investments include residential or commercial properties, as well as real estate–backed debt. These investments are held in various structures, including full or leveraged ownership of individual properties, individual real estate–backed loans, private and publicly traded securities backed by pools of properties or mortgages, and limited partnerships. - Natural resources include commodities, farmland, and timberland. To gain exposure to commodities, investors can own physical commodities, commodity derivatives, or the equity of commodity-producing firms. Some funds seek exposure to the returns on various commodity indices, often by holding derivatives contracts (futures) that are expected to track a specific commodity index. Farmland can produce income from leasing the land out for farming or from raising crops or livestock for harvest and sale. Timberland investment involves purchasing forested land and harvesting trees to generate cash flows. - Infrastructure refers to long-lived assets that provide public services. These include economic infrastructure assets (e.g., roads, airports, and utility grids) and social infrastructure assets (e.g., schools and hospitals). While often financed and constructed by government entities, infrastructure investments have more recently been undertaken by public-private partnerships, with each holding a significant stake in the infrastructure assets. Various deal structures are employed, and the asset may revert to public ownership at some future date. - Other types of real assets include collectibles such as art, intangible assets such as patents, and digital assets such as cryptocurrencies."
         },
         {
           "type": "paragraph",
@@ -102,11 +82,7 @@
         },
         {
           "type": "paragraph",
-          "text": "These funds may use leverage, hold long and short positions, use derivatives, and invest in illiquid assets. Managers of hedge funds use many different strategies in"
-        },
-        {
-          "type": "paragraph",
-          "text": "attempting to generate investment gains. They do not necessarily hedge risk, as the name might imply."
+          "text": "These funds may use leverage, hold long and short positions, use derivatives, and invest in illiquid assets. Managers of hedge funds use many different strategies in attempting to generate investment gains. They do not necessarily hedge risk, as the name might imply."
         },
         {
           "type": "question",
@@ -140,11 +116,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Alternative investments are often structured as limited partnerships. In a limited partnership, the general partner (GP) is the fund manager and makes all the investment decisions. The limited partners (LPs) are the investors, who own a partnership share proportional to their investment amounts. The LPs typically have no say in how the fund is managed and no liability beyond their investment in the partnership. The GP takes on the liabilities of the partnership, including the repayment"
-        },
-        {
-          "type": "paragraph",
-          "text": "of any partnership debt. Partnerships typically set a maximum number of LPs that may participate."
+          "text": "Alternative investments are often structured as limited partnerships. In a limited partnership, the general partner (GP) is the fund manager and makes all the investment decisions. The limited partners (LPs) are the investors, who own a partnership share proportional to their investment amounts. The LPs typically have no say in how the fund is managed and no liability beyond their investment in the partnership. The GP takes on the liabilities of the partnership, including the repayment of any partnership debt. Partnerships typically set a maximum number of LPs that may participate."
         },
         {
           "type": "paragraph",
@@ -176,11 +148,7 @@
         },
         {
           "type": "paragraph",
-          "text": "For example, consider a fund with a hurdle rate of 8% that has produced a return of 12% for the year. We will use a performance fee structure of 20% of gains. If the 8% is a"
-        },
-        {
-          "type": "paragraph",
-          "text": "soft hurdle rate, the performance fee will be 20% of the entire 12%, or 2.4%. If the 8% is a hard hurdle rate, the performance fee will be 20% of the gains above the hurdle rate (12% - 8% = 4%), which would be 0.8%."
+          "text": "For example, consider a fund with a hurdle rate of 8% that has produced a return of 12% for the year. We will use a performance fee structure of 20% of gains. If the 8% is a soft hurdle rate, the performance fee will be 20% of the entire 12%, or 2.4%. If the 8% is a hard hurdle rate, the performance fee will be 20% of the gains above the hurdle rate (12% - 8% = 4%), which would be 0.8%."
         },
         {
           "type": "paragraph",
@@ -321,11 +289,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Traditional investments typically have lower fees, require less specialized"
-            },
-            {
-              "type": "paragraph",
-              "text": "knowledge by investment managers, and are more liquid than alternative investments."
+              "text": "Traditional investments typically have lower fees, require less specialized knowledge by investment managers, and are more liquid than alternative investments."
             }
           ]
         },
@@ -356,11 +320,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "With fund investing, due diligence on the fund’s portfolio investments is a"
-            },
-            {
-              "type": "paragraph",
-              "text": "responsibility of the fund manager rather than the fund investors. Direct investing and co-investing require greater due diligence of individual deals on the part of the investor."
+              "text": "With fund investing, due diligence on the fund’s portfolio investments is a responsibility of the fund manager rather than the fund investors. Direct investing and co-investing require greater due diligence of individual deals on the part of the investor."
             }
           ]
         },
@@ -391,11 +351,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "For a private capital fund, management fees are a percentage of committed capital"
-            },
-            {
-              "type": "paragraph",
-              "text": "rather than invested capital. For a hedge fund, management fees are a percentage of assets under management."
+              "text": "For a private capital fund, management fees are a percentage of committed capital rather than invested capital. For a hedge fund, management fees are a percentage of assets under management."
             }
           ]
         },
@@ -426,11 +382,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An American-style waterfall structure has a deal-by-deal calculation of incentive"
-            },
-            {
-              "type": "paragraph",
-              "text": "fees to the GP. In this case, a successful deal where incentive fees are paid, followed by the sale of a holding that has losses in the same year, can result in incentive fees greater than those calculated using a European-style (whole-of-fund) waterfall. A clawback provision benefits the limited partners by allowing them to recover performance fees paid earlier if the fund realizes losses later. A clawback provision, coupled with an American-style waterfall, will result in the same overall performance fees as a European-style waterfall if the transactions occur in subsequent years."
+              "text": "An American-style waterfall structure has a deal-by-deal calculation of incentive fees to the GP. In this case, a successful deal where incentive fees are paid, followed by the sale of a holding that has losses in the same year, can result in incentive fees greater than those calculated using a European-style (whole-of-fund) waterfall. A clawback provision benefits the limited partners by allowing them to recover performance fees paid earlier if the fund realizes losses later. A clawback provision, coupled with an American-style waterfall, will result in the same overall performance fees as a European-style waterfall if the transactions occur in subsequent years."
             }
           ]
         }

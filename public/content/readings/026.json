@@ -86,11 +86,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Licensing and franchising. For a biotech company that has developed a new and effective drug, it may be most profitable to license the production of the drug to an"
-        },
-        {
-          "type": "paragraph",
-          "text": "established drug maker with a large sales force and established distribution channels, rather than developing those resources itself for the single drug. A franchisee typically is permitted to sell in a specific area and pays a percentage of sales to the franchisor, which provides some level of product and marketing support."
+          "text": "Licensing and franchising. For a biotech company that has developed a new and effective drug, it may be most profitable to license the production of the drug to an established drug maker with a large sales force and established distribution channels, rather than developing those resources itself for the single drug. A franchisee typically is permitted to sell in a specific area and pays a percentage of sales to the franchisor, which provides some level of product and marketing support."
         },
         {
           "type": "heading",
@@ -110,7 +106,15 @@
         },
         {
           "type": "paragraph",
-          "text": "2. Operations\n3. Outbound logistics\n4. Marketing"
+          "text": "2. Operations"
+        },
+        {
+          "type": "paragraph",
+          "text": "3. Outbound logistics"
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Marketing"
         },
         {
           "type": "paragraph",
@@ -218,11 +222,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Detailed forecasts of revenue in expenses would be in a financial plan, but"
-            },
-            {
-              "type": "paragraph",
-              "text": "typically not in a business model. A firm’s largest customers and information about its workforce and its value are likely elements of a business model."
+              "text": "Detailed forecasts of revenue in expenses would be in a financial plan, but typically not in a business model. A firm’s largest customers and information about its workforce and its value are likely elements of a business model."
             }
           ]
         },
@@ -253,11 +253,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Freemium pricing offers a product with basic functionality at no cost, but sells or"
-            },
-            {
-              "type": "paragraph",
-              "text": "unlocks other functionality for a fee."
+              "text": "Freemium pricing offers a product with basic functionality at no cost, but sells or unlocks other functionality for a fee."
             }
           ]
         },
@@ -288,11 +284,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Network effects refer to the increase in the value of the business as its user base"
-            },
-            {
-              "type": "paragraph",
-              "text": "grows. In this instance, the network is two-sided; a sufficient number of customers and service providers are needed for the business to succeed."
+              "text": "Network effects refer to the increase in the value of the business as its user base grows. In this instance, the network is two-sided; a sufficient number of customers and service providers are needed for the business to succeed."
             }
           ]
         }

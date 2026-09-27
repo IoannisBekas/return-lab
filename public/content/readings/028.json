@@ -30,7 +30,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Step 1: Identify the contract(s) with a customer. Step 2: Identify the separate or distinct performance obligations in the contract. Step 3: Determine the transaction price. Step 4: Allocate the transaction price to the performance obligations in the contract. Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation."
+          "text": "Step 1: Identify the contract(s) with a customer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 2: Identify the separate or distinct performance obligations in the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 3: Determine the transaction price."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 4: Allocate the transaction price to the performance obligations in the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation."
         },
         {
           "type": "paragraph",
@@ -66,27 +82,15 @@
         },
         {
           "type": "paragraph",
-          "text": "1. The customer receives and benefits from the good or service over time as the"
+          "text": "1. The customer receives and benefits from the good or service over time as the supplier meets the obligations of the contract (e.g., service and maintenance contracts)."
         },
         {
           "type": "paragraph",
-          "text": "supplier meets the obligations of the contract (e.g., service and maintenance contracts)."
+          "text": "2. The supplier enhances an existing asset or creates a new asset that the customer controls over the period in which the asset is created or enhanced."
         },
         {
           "type": "paragraph",
-          "text": "2. The supplier enhances an existing asset or creates a new asset that the customer"
-        },
-        {
-          "type": "paragraph",
-          "text": "controls over the period in which the asset is created or enhanced."
-        },
-        {
-          "type": "paragraph",
-          "text": "3. The asset has no alternative use for the supplier, and the supplier has the right to"
-        },
-        {
-          "type": "paragraph",
-          "text": "enforce payment for work completed to date (e.g., constructing equipment specific to the needs of a single customer)."
+          "text": "3. The asset has no alternative use for the supplier, and the supplier has the right to enforce payment for work completed to date (e.g., constructing equipment specific to the needs of a single customer)."
         },
         {
           "type": "paragraph",
@@ -118,35 +122,55 @@
         },
         {
           "type": "paragraph",
-          "text": "The percentage of total costs incurred over the first two years is now ($4 million + $2 million) / $8 million = 75%. The total revenue to be recognized to date is 0.75 × $10 million = $7.5 million. Because $5 million of revenue had been recognized in Year 1, $2.5 million (= $7.5 million – $5 million) of revenue will be recognized in Year 2."
+          "text": "The percentage of total costs incurred over the first two years is now ($4 million + $2 million) / $8 million = 75%. The total revenue to be recognized to date is 0.75 × $10 million = $7.5 million. Because $5 million of revenue had been recognized in Year 1, $2.5 million (= $7.5 million"
         },
         {
           "type": "paragraph",
-          "text": "This treatment is consistent with the percentage of completion method previously in use, although the new standards do not call it that.\n2. Acting as an agent"
+          "text": "– $5 million) of revenue will be recognized in Year 2."
         },
         {
           "type": "paragraph",
-          "text": "Consider a travel agent who arranges a first-class ticket for a customer flying to Singapore. The ticket price is $10,000, made by nonrefundable payment at purchase, and the travel agent receives a $1,000 commission on the sale. Because the travel agent is not responsible for providing the flight and bears no inventory or credit risk, they are acting as an agent. Because they are an agent, rather than a principal, they should report revenue equal to their commission of $1,000, the net amount of the sale. If they were a principal in the transaction, they would report revenue of $10,000, the gross amount of the sale, and an expense of $9,000 for the ticket. Note that while gross profit is the same ($1,000) regardless of selling as a principal or agent, the gross profit margin is very different. If treated as a principal, the margin would be $1,000 / $10,000 = 10%, but as an agent, the margin would be $1,000 / $1,000 = 100%.\n3. Franchising and licensing"
+          "text": "This treatment is consistent with the percentage of completion method previously in use, although the new standards do not call it that."
         },
         {
           "type": "paragraph",
-          "text": "Consider a fast food company that both operates restaurants and grants franchisees rights to operate restaurants using its brand name under license, and supplies franchisees with some products used in daily operations. As well as charging a license fee, the company also receives a royalty fee of 2% of the franchisee’s"
+          "text": "2. Acting as an agent"
         },
         {
           "type": "paragraph",
-          "text": "turnover. Accounting standards require revenue to be split into categories that have similar characteristics (nature, amounts, timings, and risk factors)."
+          "text": "Consider a travel agent who arranges a first-class ticket for a customer flying to Singapore. The ticket price is $10,000, made by nonrefundable payment at purchase, and the travel agent receives a $1,000 commission on the sale. Because the travel agent is not responsible for providing the flight and bears no inventory or credit risk, they are acting as an agent. Because they are an agent, rather than a principal, they should report revenue equal to their commission of $1,000, the net amount of the sale. If they were a principal in the transaction, they would report revenue of $10,000, the gross amount of the sale, and an expense of $9,000 for the ticket. Note that while gross profit is the same ($1,000) regardless of selling as a principal or agent, the gross profit margin is very different. If treated as a principal, the margin would be $1,000 / $10,000 = 10%, but as an agent, the margin would be $1,000 / $1,000 = 100%."
         },
         {
           "type": "paragraph",
-          "text": "The fast food company would disaggregate revenue into these categories: –  Revenue from company-owned restaurants"
+          "text": "3. Franchising and licensing"
         },
         {
           "type": "paragraph",
-          "text": "–  Franchise royalties and fees –  Revenue from supplies to franchises (equipment and food materials)"
+          "text": "Consider a fast food company that both operates restaurants and grants franchisees rights to operate restaurants using its brand name under license, and supplies franchisees with some products used in daily operations. As well as charging a license fee, the company also receives a royalty fee of 2% of the franchisee’s turnover. Accounting standards require revenue to be split into categories that have similar characteristics (nature, amounts, timings, and risk factors)."
         },
         {
           "type": "paragraph",
-          "text": "Franchise fees often grant the franchisee the right to operate over numerous periods and would initially be treated as deferred revenue. Subsequently, it would be amortized to revenue in the income statement over the life of the franchise contract period. Royalty fees would be included periodically in the franchisor’s accounts when they become contractually payable by the franchisee under the terms of the contract.\n4. Service versus license"
+          "text": "The fast food company would disaggregate revenue into these categories:"
+        },
+        {
+          "type": "paragraph",
+          "text": "– Revenue from company-owned restaurants"
+        },
+        {
+          "type": "paragraph",
+          "text": "– Franchise royalties and fees"
+        },
+        {
+          "type": "paragraph",
+          "text": "– Revenue from supplies to franchises (equipment and food materials)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Franchise fees often grant the franchisee the right to operate over numerous periods and would initially be treated as deferred revenue. Subsequently, it would be amortized to revenue in the income statement over the life of the franchise contract period. Royalty fees would be included periodically in the franchisor’s accounts when they become contractually payable by the franchisee under the terms of the contract."
+        },
+        {
+          "type": "paragraph",
+          "text": "4. Service versus license"
         },
         {
           "type": "paragraph",
@@ -178,15 +202,15 @@
         },
         {
           "type": "paragraph",
-          "text": "If customers access the software without taking physical possession of the software (i.e., cloud-based access), the contract is for a service, and revenue should be recognized over the life of the contract.\n5. Bill-and-hold agreements"
+          "text": "If customers access the software without taking physical possession of the software (i.e., cloud-based access), the contract is for a service, and revenue should be recognized over the life of the contract."
         },
         {
           "type": "paragraph",
-          "text": "Bill-and-hold agreements are a type of sales agreement that involves the customer paying for goods ahead of shipping. Typically, when a customer pays ahead of delivery, the revenue is treated as deferred, but revenue may be recorded before shipping if the supplier can demonstrate that its performance obligations are complete and the customer has control over the good. IFRS criteria include the following: the customer asked for the arrangement, the goods are identified as"
+          "text": "5. Bill-and-hold agreements"
         },
         {
           "type": "paragraph",
-          "text": "belonging to the customer, the goods are complete and ready for transfer to the customer, and the goods cannot be redirected to another customer."
+          "text": "Bill-and-hold agreements are a type of sales agreement that involves the customer paying for goods ahead of shipping. Typically, when a customer pays ahead of delivery, the revenue is treated as deferred, but revenue may be recorded before shipping if the supplier can demonstrate that its performance obligations are complete and the customer has control over the good. IFRS criteria include the following: the customer asked for the arrangement, the goods are identified as belonging to the customer, the goods are complete and ready for transfer to the customer, and the goods cannot be redirected to another customer."
         },
         {
           "type": "paragraph",
@@ -221,11 +245,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Under the accrual method of accounting, expense recognition is in the period in which the economic benefits of the expenditure are consumed. Three different methods are"
-        },
-        {
-          "type": "paragraph",
-          "text": "used to achieve this: the matching principle, expensing as incurred, and capitalization."
+          "text": "Under the accrual method of accounting, expense recognition is in the period in which the economic benefits of the expenditure are consumed. Three different methods are used to achieve this: the matching principle, expensing as incurred, and capitalization."
         },
         {
           "type": "paragraph",
@@ -435,19 +455,15 @@
         },
         {
           "type": "paragraph",
-          "text": "These differences narrow over the asset’s life until they are identical at the end. This convergence is caused by two factors:\n1. The carrying value of the asset decreases as it is depreciated under the"
+          "text": "These differences narrow over the asset’s life until they are identical at the end. This convergence is caused by two factors:"
         },
         {
           "type": "paragraph",
-          "text": "capitalization approach."
+          "text": "1. The carrying value of the asset decreases as it is depreciated under the capitalization approach."
         },
         {
           "type": "paragraph",
-          "text": "2. Although net income is lower in Year 1 if the cost is expensed, it is higher in all the"
-        },
-        {
-          "type": "paragraph",
-          "text": "subsequent years."
+          "text": "2. Although net income is lower in Year 1 if the cost is expensed, it is higher in all the subsequent years."
         },
         {
           "type": "heading",
@@ -529,11 +545,7 @@
         },
         {
           "type": "paragraph",
-          "text": "When a firm constructs an asset for its own use or, in limited circumstances, for resale, the interest that accrues during the construction period is capitalized as a part of the asset’s cost. The reasons for capitalizing interest are to accurately measure the cost of"
-        },
-        {
-          "type": "paragraph",
-          "text": "the asset and to better match the cost with the revenues generated by the constructed asset. The treatment of construction interest is similar under U.S. GAAP and IFRS."
+          "text": "When a firm constructs an asset for its own use or, in limited circumstances, for resale, the interest that accrues during the construction period is capitalized as a part of the asset’s cost. The reasons for capitalizing interest are to accurately measure the cost of the asset and to better match the cost with the revenues generated by the constructed asset. The treatment of construction interest is similar under U.S. GAAP and IFRS."
         },
         {
           "type": "paragraph",
@@ -666,11 +678,7 @@
         },
         {
           "type": "paragraph",
-          "text": "A discontinued operation is one that management has decided to dispose of, but either has not yet done so, or has disposed of in the current year after the operation had"
-        },
-        {
-          "type": "paragraph",
-          "text": "generated income or losses. To be accounted for as a discontinued operation, the business must be physically and operationally distinct from the rest of the firm, in terms of assets, operations, and investing and financing activities."
+          "text": "A discontinued operation is one that management has decided to dispose of, but either has not yet done so, or has disposed of in the current year after the operation had generated income or losses. To be accounted for as a discontinued operation, the business must be physically and operationally distinct from the rest of the firm, in terms of assets, operations, and investing and financing activities."
         },
         {
           "type": "paragraph",
@@ -1009,11 +1017,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Compute the increase in common stock outstanding if the convertible debt is converted to common stock at the beginning of 20X6:"
-        },
-        {
-          "type": "paragraph",
-          "text": "shares issuable for debt conversion = (2,000)(120) = 240,000 shares"
+          "text": "Compute the increase in common stock outstanding if the convertible debt is converted to common stock at the beginning of 20X6: shares issuable for debt conversion = (2,000)(120) = 240,000 shares"
         },
         {
           "type": "paragraph",
@@ -1021,11 +1025,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Therefore, it is necessary to increase YYY’s after-tax net income for the after-tax effect of the decrease in interest expense:"
-        },
-        {
-          "type": "paragraph",
-          "text": "increase in income = [(2,000)($1,000)(0.05)] (1 − 0.30) = $70,000"
+          "text": "Therefore, it is necessary to increase YYY’s after-tax net income for the after-tax effect of the decrease in interest expense: increase in income = [(2,000)($1,000)(0.05)] (1 − 0.30) = $70,000"
         },
         {
           "type": "paragraph",
@@ -1087,11 +1087,7 @@
         },
         {
           "type": "paragraph",
-          "text": "During 20X6, XXX Corp. reported earnings available to common shareholders of $1.2 million and had 500,000 shares of common stock outstanding for the entire year, for basic EPS of $2.40. XXX has 100,000 stock options outstanding the entire year. Each option allows its holder to purchase one share of common stock at $15 per share. The"
-        },
-        {
-          "type": "paragraph",
-          "text": "average market price of XXX’s common stock during 20X6 is $20 per share. Calculate diluted EPS."
+          "text": "During 20X6, XXX Corp. reported earnings available to common shareholders of $1.2 million and had 500,000 shares of common stock outstanding for the entire year, for basic EPS of $2.40. XXX has 100,000 stock options outstanding the entire year. Each option allows its holder to purchase one share of common stock at $15 per share. The average market price of XXX’s common stock during 20X6 is $20 per share. Calculate diluted EPS."
         },
         {
           "type": "heading",
@@ -1154,11 +1150,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Notice that North is significantly larger and more profitable than South when measured in absolute dollars. North’s gross profit is $22,500,000, as compared to South’s gross"
-        },
-        {
-          "type": "paragraph",
-          "text": "profit of $2,800,000. Similarly, North’s operating profit of $7,500,000 is significantly greater than South’s operating profit of $1,575,000."
+          "text": "Notice that North is significantly larger and more profitable than South when measured in absolute dollars. North’s gross profit is $22,500,000, as compared to South’s gross profit of $2,800,000. Similarly, North’s operating profit of $7,500,000 is significantly greater than South’s operating profit of $1,575,000."
         },
         {
           "type": "paragraph",
@@ -1212,11 +1204,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Any subtotal found in the income statement can be expressed as a percentage of revenue. For example, operating profit divided by revenue is known as operating profit"
-        },
-        {
-          "type": "paragraph",
-          "text": "margin. Pretax accounting profit divided by revenue is known as pretax margin."
+          "text": "Any subtotal found in the income statement can be expressed as a percentage of revenue. For example, operating profit divided by revenue is known as operating profit margin. Pretax accounting profit divided by revenue is known as pretax margin."
         }
       ]
     }
@@ -1237,7 +1225,23 @@
     },
     {
       "type": "paragraph",
-      "text": "Step 1: Identify the contract(s) with a customer. Step 2: Identify the performance obligations in the contract. Step 3: Determine the transaction price. Step 4: Allocate the transaction price to the performance obligations in the contract. Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation. Information that can influence the choice of revenue recognition method includes progress toward completion of a performance obligation, variable considerations and their likelihood of being earned, revisions to contracts, and whether the firm is acting as a principal or an agent in a transaction."
+      "text": "Step 1: Identify the contract(s) with a customer."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 2: Identify the performance obligations in the contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 3: Determine the transaction price."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 4: Allocate the transaction price to the performance obligations in the contract."
+    },
+    {
+      "type": "paragraph",
+      "text": "Step 5: Recognize revenue when (or as) the entity satisfies a performance obligation. Information that can influence the choice of revenue recognition method includes progress toward completion of a performance obligation, variable considerations and their likelihood of being earned, revisions to contracts, and whether the firm is acting as a principal or an agent in a transaction."
     },
     {
       "type": "question",
@@ -1393,7 +1397,23 @@
             },
             {
               "type": "paragraph",
-              "text": "Step 1:   Identify the contract or contracts with the customer. Step 2:   Identify the performance obligations in the contract(s). Step 3:   Determine a transaction price. Step 4:   Allocate the transaction price to the performance obligations. Step 5:   Recognize revenue when (or as) the performance obligations have been satisfied."
+              "text": "Step 1: Identify the contract or contracts with the customer."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 2: Identify the performance obligations in the contract(s)."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 3: Determine a transaction price."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 4: Allocate the transaction price to the performance obligations."
+            },
+            {
+              "type": "paragraph",
+              "text": "Step 5: Recognize revenue when (or as) the performance obligations have been satisfied."
             }
           ]
         },
@@ -1424,11 +1444,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "In Year 1, the contractor has incurred 38.5% ($2.5 million / $6.5 million) of"
-            },
-            {
-              "type": "paragraph",
-              "text": "expected total costs and should recognize 38.5% of total revenue ($10 million × 38.5% = $3.85 million). By the end of Year 2, a total of $3.5 million costs have been incurred, 53.8% of expected total costs. Cumulatively, by the end of Year 2, total revenue of 53.8% × $10 million = $5.38 million should have been recognized, leaving $1.53 million ($5.38 million − $3.85 million) to be recognized in Year 2. The amount paid by the client does not affect revenue."
+              "text": "In Year 1, the contractor has incurred 38.5% ($2.5 million / $6.5 million) of expected total costs and should recognize 38.5% of total revenue ($10 million × 38.5% = $3.85 million). By the end of Year 2, a total of $3.5 million costs have been incurred, 53.8% of expected total costs. Cumulatively, by the end of Year 2, total revenue of 53.8% × $10 million = $5.38 million should have been recognized, leaving $1.53 million ($5.38 million − $3.85 million) to be recognized in Year 2. The amount paid by the client does not affect revenue."
             }
           ]
         },
@@ -1459,11 +1475,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The realtor is acting as an agent, and so should recognize only the commission as"
-            },
-            {
-              "type": "paragraph",
-              "text": "revenue. Revenue should therefore be: ($1.4 million × 3%) = $42,000. Gross profit will be $42,000 − $15,000 = $27,000."
+              "text": "The realtor is acting as an agent, and so should recognize only the commission as revenue. Revenue should therefore be: ($1.4 million × 3%) = $42,000. Gross profit will be $42,000 − $15,000 = $27,000."
             }
           ]
         }
@@ -1501,11 +1513,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "If the future economic benefits of a purchase are highly uncertain, a company"
-            },
-            {
-              "type": "paragraph",
-              "text": "should expense the purchase in the period it is incurred."
+              "text": "If the future economic benefits of a purchase are highly uncertain, a company should expense the purchase in the period it is incurred."
             }
           ]
         },
@@ -1536,11 +1544,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "As compared to a firm that capitalizes its expenditures, a firm that immediately"
-            },
-            {
-              "type": "paragraph",
-              "text": "expenses expenditures will report lower assets. Thus, asset turnover (revenue / average assets) will be higher for the expensing firm (lower denominator)."
+              "text": "As compared to a firm that capitalizes its expenditures, a firm that immediately expenses expenditures will report lower assets. Thus, asset turnover (revenue / average assets) will be higher for the expensing firm (lower denominator)."
             }
           ]
         }
@@ -1578,11 +1582,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A change in an accounting estimate is reported prospectively. No restatement of"
-            },
-            {
-              "type": "paragraph",
-              "text": "prior-period statements is necessary."
+              "text": "A change in an accounting estimate is reported prospectively. No restatement of prior-period statements is necessary."
             }
           ]
         },
@@ -1613,11 +1613,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A physically and operationally distinct division that is currently for sale is treated"
-            },
-            {
-              "type": "paragraph",
-              "text": "as a discontinued operation. The income from the division is reported net of tax below income from continuing operations. Gains and losses on sales of operating assets, as well as depreciation expense, are reported pretax, above income from continuing operations."
+              "text": "A physically and operationally distinct division that is currently for sale is treated as a discontinued operation. The income from the division is reported net of tax below income from continuing operations. Gains and losses on sales of operating assets, as well as depreciation expense, are reported pretax, above income from continuing operations."
             }
           ]
         },
@@ -1648,11 +1644,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A change in accounting principle requires retrospective application; that is, all"
-            },
-            {
-              "type": "paragraph",
-              "text": "prior-period financial statements currently presented are restated to reflect the change."
+              "text": "A change in accounting principle requires retrospective application; that is, all prior-period financial statements currently presented are restated to reflect the change."
             }
           ]
         }
@@ -1690,15 +1682,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The new stock is weighted by 8 / 12. The bonds are weighted by 4 / 12 and are not"
-            },
-            {
-              "type": "paragraph",
-              "text": "affected by the stock dividend."
-            },
-            {
-              "type": "paragraph",
-              "text": "basic shares = {[100,000 × (12 / 12)] + [30,000 × (8 / 12)]} × 1.10 = 132,000 diluted shares = 132,000 + [21,000 × (4 / 12)] = 139,000"
+              "text": "The new stock is weighted by 8 / 12. The bonds are weighted by 4 / 12 and are not affected by the stock dividend. basic shares = {[100,000 × (12 / 12)] + [30,000 × (8 / 12)]} × 1.10 = 132,000 diluted shares = 132,000 + [21,000 × (4 / 12)] = 139,000"
             }
           ]
         },
@@ -1729,11 +1713,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because the exercise price of the warrants is less than the average share price, the"
-            },
-            {
-              "type": "paragraph",
-              "text": "warrants are dilutive. Use the Treasury stock method to determine the denominator impact:"
+              "text": "Because the exercise price of the warrants is less than the average share price, the warrants are dilutive. Use the Treasury stock method to determine the denominator impact:"
             },
             {
               "type": "math",
@@ -1784,15 +1764,7 @@
             },
             {
               "type": "paragraph",
-              "text": "Next, check if the convertible bonds are dilutive:"
-            },
-            {
-              "type": "paragraph",
-              "text": "numerator impact = (1,000 × 1,000 × 0.07) × (1 − 0.4) = $42,000"
-            },
-            {
-              "type": "paragraph",
-              "text": "denominator impact = (1,000 × 25) = 25,000 shares"
+              "text": "Next, check if the convertible bonds are dilutive: numerator impact = (1,000 × 1,000 × 0.07) × (1 − 0.4) = $42,000 denominator impact = (1,000 × 25) = 25,000 shares"
             },
             {
               "type": "math",
@@ -1833,11 +1805,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The warrants, in this case, are antidilutive. The average price per share of $15 is"
-            },
-            {
-              "type": "paragraph",
-              "text": "less than the exercise price of $20. The year-end price per share is not relevant. The denominator consists of only the common stock for basic EPS."
+              "text": "The warrants, in this case, are antidilutive. The average price per share of $15 is less than the exercise price of $20. The year-end price per share is not relevant. The denominator consists of only the common stock for basic EPS."
             }
           ]
         }
@@ -1910,11 +1878,7 @@
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A 5% decrease in per unit production cost will increase gross profit by reducing"
-            },
-            {
-              "type": "paragraph",
-              "text": "the cost of goods sold. Assuming no fixed costs, gross profit margin will remain the same if sale quantities increase. Administrative expenses are not included in gross profit margin."
+              "text": "A 5% decrease in per unit production cost will increase gross profit by reducing the cost of goods sold. Assuming no fixed costs, gross profit margin will remain the same if sale quantities increase. Administrative expenses are not included in gross profit margin."
             }
           ]
         }
