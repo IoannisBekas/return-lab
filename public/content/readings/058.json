@@ -59,12 +59,10 @@
           "text": "For a 5-year, 11% annual coupon bond priced at 86.59 (a 15% yield to maturity), the convexity of the coupon at Time 1 is (1 × 2) / 1.15² = 1.512, and the convexity of the coupon at Time 2 is (2 × 3) / 1.15² = 4.537. The following table completes the calculations for all five of the bond’s cash flows:"
         },
         {
-          "type": "image",
-          "src": "content/figures/9ca4fb017d5c655a23b8.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1077,
-          "height": 320,
-          "alt": "Instructional visual diagram or table: 9ca4fb017d5c655a23b8.png"
+          "type": "math",
+          "latex": "\\begin{array}{lllll r}\n\\hline\n& & & & & \\underline{\\textbf{Convexity}} \\\\\nC_1 = 11 & \\text{PV}_1 = 11 / 1.15 & = 9.565 & W_1 = 9.565 / 86.59 & = 0.1105 & \\mathbf{1.512} \\\\\nC_2 = 11 & \\text{PV}_2 = 11 / 1.15^2 & = 8.318 & W_2 = 8.318 / 86.59 & = 0.0961 & \\mathbf{4.537} \\\\\nC_3 = 11 & \\text{PV}_3 = 11 / 1.15^3 & = 7.233 & W_3 = 7.233 / 86.59 & = 0.0835 & \\mathbf{9.074} \\\\\nC_4 = 11 & \\text{PV}_4 = 11 / 1.15^4 & = 6.289 & W_4 = 6.289 / 86.59 & = 0.0726 & \\mathbf{15.123} \\\\\nC_5 = 111 & \\text{PV}_5 = 111 / 1.15^5 & = \\underline{55.187} & W_5 = 55.187 / 86.59 & = \\underline{0.6373} & \\mathbf{22.684} \\\\\n\\hline\n& & \\mathbf{86.59} & & \\mathbf{1.0000} & \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "9ca4fb017d5c655a23b8.png"
         },
         {
           "type": "paragraph",
@@ -506,12 +504,10 @@
               "text": "that this is a semiannual coupon bond; hence, it has coupons of $5 every six months and has a periodic six-month return of 5%. The weights for each cash flow time are calculated as follows:"
             },
             {
-              "type": "image",
-              "src": "content/figures/a9abb4ccbda249ca69e9.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 1034,
-              "height": 267,
-              "alt": "Instructional visual diagram or table: a9abb4ccbda249ca69e9.png"
+              "type": "math",
+              "latex": "\\begin{array}{lllll r}\n\\hline\n& & & & & \\underline{\\textbf{Convexity}} \\\\\nC_1 = 5 & \\text{PV}_1 = 5 / 1.05 & = 4.762 & W_1 = 4.762 / 100 & = 0.0476 & \\mathbf{1.8141} \\\\\nC_2 = 5 & \\text{PV}_2 = 5 / 1.05^2 & = 4.535 & W_2 = 4.535 / 100 & = 0.0454 & \\mathbf{5.4422} \\\\\nC_3 = 5 & \\text{PV}_3 = 5 / 1.05^3 & = 4.319 & W_3 = 4.319 / 100 & = 0.0432 & \\mathbf{10.8844} \\\\\nC_4 = 105 & \\text{PV}_4 = 105 / 1.05^4 & = \\underline{86.384} & W_4 = 86.384 / 100 & = 0.8638 & \\mathbf{18.1406} \\\\\n\\hline\n& & \\mathbf{100} & & & \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "a9abb4ccbda249ca69e9.png"
             },
             {
               "type": "paragraph",

@@ -37,12 +37,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/f814cc1eaa5656f9dda9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 663,
-          "height": 385,
-          "alt": "Instructional visual diagram or table: f814cc1eaa5656f9dda9.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{100\\% Equity} & \\textbf{50\\% Debt, 50\\% Equity} \\\\\n\\hline\n\\text{Revenues} & \\$1{,}000 & \\$1{,}000 \\\\\n\\text{Cash operating expense} & 800 & 800 \\\\\n\\text{Interest expense} & 0 & 50 \\\\\n\\text{Net income} & \\$200 & \\$150 \\\\\n\\\\[2pt]\n\\text{Equity} & \\$1{,}000 & \\$500 \\\\\n\\text{ROE} & 20\\% & 30\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "f814cc1eaa5656f9dda9.png"
         },
         {
           "type": "paragraph",
@@ -61,12 +59,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/150bd1337203ccc4d538.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 661,
-          "height": 385,
-          "alt": "Instructional visual diagram or table: 150bd1337203ccc4d538.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{100\\% Equity} & \\textbf{50\\% Debt, 50\\% Equity} \\\\\n\\hline\n\\text{Revenues} & \\$850 & \\$850 \\\\\n\\text{Cash operating expense} & 800 & 800 \\\\\n\\text{Interest expense} & 0 & 50 \\\\\n\\text{Net income} & \\$50 & \\$0 \\\\\n\\\\[2pt]\n\\text{Equity} & \\$1{,}000 & \\$500 \\\\\n\\text{ROE} & 5\\% & 0\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "150bd1337203ccc4d538.png"
         },
         {
           "type": "paragraph",

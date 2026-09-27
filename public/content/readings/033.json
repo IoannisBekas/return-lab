@@ -110,12 +110,10 @@
           "text": "Figure 33.1: Goodwill"
         },
         {
-          "type": "image",
-          "src": "content/figures/43c99139ca697b0ef270.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 933,
-          "height": 179,
-          "alt": "Instructional visual diagram or table: 43c99139ca697b0ef270.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\text{Purchase price} & \\text{X} \\\\\n\\text{Fair market value of net assets acquired} & \\text{(X)} \\\\\n\\text{Fair market value of identifiable intangibles previously not recognized} & \\underline{\\text{(X)}} \\\\\n\\text{Goodwill} & \\text{X} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "43c99139ca697b0ef270.png"
         },
         {
           "type": "paragraph",
@@ -213,12 +211,10 @@
           "text": "Information related to equipment owned by Brownfield Company follows:"
         },
         {
-          "type": "image",
-          "src": "content/figures/4ded731434f7fca8f53a.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 566,
-          "height": 267,
-          "alt": "Long-lived asset impairment testing data comparing carrying value, fair value, and value in use."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\text{Original cost} & \\$900{,}000 \\\\\n\\text{Accumulated depreciation to date} & \\$100{,}000 \\\\\n\\text{Expected future cash flows} & \\$795{,}000 \\\\\n\\text{Fair value} & \\$790{,}000 \\\\\n\\text{Value in use} & \\$785{,}000 \\\\\n\\text{Selling costs} & \\$30{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "4ded731434f7fca8f53a.png"
         },
         {
           "type": "paragraph",
@@ -305,12 +301,10 @@
           "text": "Figure 33.2: Derecognition of Long-Term Assets"
         },
         {
-          "type": "image",
-          "src": "content/figures/53c07c4fbdf87468fb43.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1034,
-          "height": 134,
-          "alt": "Instructional visual diagram or table: 53c07c4fbdf87468fb43.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrl}\n\\hline\n\\text{Disposal proceeds} & \\text{X} & \\text{Cash flow from investing} \\\\\n\\text{Carrying value before disposal} & \\underline{\\text{(X)}} & \\text{Removed from balance sheet} \\\\\n\\text{Disposal gain (loss)} & \\text{X/(X)} & \\text{Accounting gain or (loss) in income statement} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "53c07c4fbdf87468fb43.png"
         },
         {
           "type": "paragraph",

@@ -299,12 +299,10 @@
       "text": "Types of investment management clients and their characteristics:"
     },
     {
-      "type": "image",
-      "src": "content/figures/3c9dbbfb75f5fcebc850.png",
-      "visualKind": "diagram-chart-or-table",
-      "width": 1017,
-      "height": 440,
-      "alt": "Instructional visual diagram or table: 3c9dbbfb75f5fcebc850.png"
+      "type": "math",
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Investor Type} & \\textbf{Risk Tolerance} & \\textbf{Investment Horizon} & \\textbf{Liquidity Needs} & \\textbf{Income Needs} \\\\\n\\hline\n\\text{Individuals} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} \\\\\n\\text{Banks} & \\text{Low} & \\text{Short} & \\text{High} & \\text{Pay interest} \\\\\n\\text{Endowments} & \\text{High} & \\text{Long} & \\text{Low} & \\text{Spending level} \\\\\n\\text{Insurance} & \\text{Low} & \\begin{array}{c} \\text{Long---life} \\\\ \\text{Short---P\\&C} \\end{array} & \\text{High} & \\text{Low} \\\\\n\\text{Mutual funds} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} & \\text{High} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} \\\\\n\\text{Defined benefit pension} & \\text{High} & \\text{Long} & \\text{Low} & \\text{Depends on age} \\\\\n\\hline\n\\end{array}",
+      "display": true,
+      "sourceAsset": "3c9dbbfb75f5fcebc850.png"
     },
     {
       "type": "question",

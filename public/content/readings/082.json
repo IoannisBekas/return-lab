@@ -270,12 +270,10 @@
           "text": "2022)¹"
         },
         {
-          "type": "image",
-          "src": "content/figures/d682dee61cc9d8cca45b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1032,
-          "height": 272,
-          "alt": "Instructional visual diagram or table: d682dee61cc9d8cca45b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{Bitcoin (In USD)} & \\begin{array}{c} \\text{S\\&P 500} \\\\ \\text{Total Return} \\end{array} & \\begin{array}{c} \\text{MSCI World} \\\\ \\text{Index Return} \\end{array} & \\begin{array}{c} \\text{Bloomberg Global} \\\\ \\text{Aggregate Index} \\end{array} \\\\\n\\hline\n\\text{Average} & 8.84\\% & 1.13\\% & 0.66\\% & 0.16\\% \\\\\n\\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\\\\n\\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "d682dee61cc9d8cca45b.png"
         },
         {
           "type": "paragraph",
@@ -294,12 +292,10 @@
           "text": "Classes (January 2011–January 2022)²"
         },
         {
-          "type": "image",
-          "src": "content/figures/5b15780f0fb7c3e70358.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1032,
-          "height": 273,
-          "alt": "Instructional visual diagram or table: 5b15780f0fb7c3e70358.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{Bitcoin (In USD)} & \\begin{array}{c} \\text{S\\&P 500} \\\\ \\text{Total Return} \\end{array} & \\begin{array}{c} \\text{MSCI World} \\\\ \\text{Index Return} \\end{array} & \\begin{array}{c} \\text{Bloomberg Global} \\\\ \\text{Aggregate Index} \\end{array} \\\\\n\\hline\n\\text{Average} & 8.84\\% & 1.13\\% & 0.66\\% & 0.16\\% \\\\\n\\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\\\\n\\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5b15780f0fb7c3e70358.png"
         }
       ]
     }

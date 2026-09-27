@@ -394,12 +394,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/f01e0cc2132ef3c85097.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 684,
-          "height": 507,
-          "alt": "Instructional visual diagram or table: f01e0cc2132ef3c85097.png"
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\begin{array}{lcc}\n\\hline\n\\textbf{Return} & \\textbf{Deviation From Mean} & \\textbf{Deviation From Target Return} \\\\[8pt]\n\\hline\n30\\% & 30\\% - 22\\% = 8\\% & 30\\% - 24\\% = 6\\% \\\\[8pt]\n12\\% & 12\\% - 22\\% = -10\\% & 12\\% - 24\\% = -12\\% \\\\[8pt]\n25\\% & 25\\% - 22\\% = 3\\% & 25\\% - 24\\% = 1\\% \\\\[8pt]\n20\\% & 20\\% - 22\\% = -2\\% & 20\\% - 24\\% = -4\\% \\\\[8pt]\n23\\% & 23\\% - 22\\% = 1\\% & 23\\% - 24\\% = -1\\% \\\\[8pt]\n\\hline\n\\end{array}\n\\\\[12pt]\ns_{22\\%} = \\sqrt{\\frac{(-10)^2 + (-2)^2}{5-1}} = 5.10\\%\n\\\\[8pt]\ns_{24\\%} = \\sqrt{\\frac{(-12)^2 + (-4)^2 + (-1)^2}{5-1}} = 6.34\\%\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "f01e0cc2132ef3c85097.png"
         }
       ]
     },

@@ -77,12 +77,10 @@
           "text": "Triple Y Corporation"
         },
         {
-          "type": "image",
-          "src": "content/figures/740e8bf422d1a74b9e15.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 819,
-          "height": 788,
-          "alt": "Instructional visual diagram or table: 740e8bf422d1a74b9e15.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Cash Flow Statement (\\% of Revenues)} & \\textbf{20X9} & \\textbf{20X8} & \\textbf{20X7} \\\\\n\\hline\n\\text{Cash from operating activities (CFO)} & 14.2\\% & 13.8\\% & 12.5\\% \\\\\n\\text{Cash from investing activities (CFI)} & -8.5\\% & -9.1\\% & -7.8\\% \\\\\n\\text{Cash from financing activities (CFF)} & \\underline{-3.2\\%} & \\underline{-2.5\\%} & \\underline{-3.0\\%} \\\\\n\\textbf{Net change in cash} & 2.5\\% & 2.2\\% & 1.7\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "740e8bf422d1a74b9e15.png"
         },
         {
           "type": "heading",
@@ -186,20 +184,16 @@
           "text": "Using the financial statement extracts presented next, calculate the company’s FCFF and FCFE. Assume a tax rate of 40%."
         },
         {
-          "type": "image",
-          "src": "content/figures/ca6ef3f4adc88bf5b0b4.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 613,
-          "height": 749,
-          "alt": "Statement of cash flows operating activities section prepared under the indirect method."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{\\$} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\textbf{Noncash charges} & \\\\\n\\quad\\text{Depreciation} & 7{,}000 \\\\\n\\quad\\text{Increase in deferred tax liability} & 5{,}000 \\\\\n\\quad\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\quad\\text{Gain from sale of land} & \\underline{(10{,}000)} \\\\\n\\text{Subtotal} & 43{,}000 \\\\\n\\textbf{Investment in working capital} & \\\\\n\\quad\\text{Increase in receivables} & (1{,}000) \\\\\n\\quad\\text{Decrease in inventories} & 2{,}000 \\\\\n\\quad\\text{Increase in accounts payable} & 4{,}000 \\\\\n\\quad\\text{Decrease in wages payable} & (3{,}500) \\\\\n\\quad\\text{Increase in interest payable} & 500 \\\\\n\\quad\\text{Increase in unearned revenue liability} & 4{,}000 \\\\\n\\quad\\text{Increase in taxes payable} & \\underline{1{,}000} \\\\\n\\textbf{Operating cash flows} & \\mathbf{50{,}000} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "ca6ef3f4adc88bf5b0b4.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/a76fcd5d6139f16612bc.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 742,
-          "height": 623,
-          "alt": "Instructional visual diagram or table: a76fcd5d6139f16612bc.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Cash Flow Statement Extracts} & \\textbf{20X9} & \\textbf{20X8} & \\textbf{20X7} \\\\\n\\hline\n\\text{Interest paid (operating cash flow)} & \\$12{,}000 & \\$10{,}500 & \\$9{,}800 \\\\\n\\text{Capital expenditures (CFI)} & (45{,}000) & (40{,}000) & (35{,}000) \\\\\n\\text{Principal debt repayments (CFF)} & (15{,}000) & (12{,}000) & (10{,}000) \\\\\n\\text{Dividends paid (CFF)} & (20{,}000) & (18{,}000) & (15{,}000) \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a76fcd5d6139f16612bc.png"
         },
         {
           "type": "heading",

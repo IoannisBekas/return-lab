@@ -456,12 +456,10 @@
       "text": "Interaction of monetary and fiscal policies:"
     },
     {
-      "type": "image",
-      "src": "content/figures/5e4e36a280ec13ad21f8.png",
-      "visualKind": "diagram-chart-or-table",
-      "width": 804,
-      "height": 286,
-      "alt": "Instructional visual diagram or table: 5e4e36a280ec13ad21f8.png"
+      "type": "math",
+      "latex": "\\begin{array}{l|ll}\n\\hline\n& \\textbf{Tight Monetary Policy} & \\textbf{Easy Monetary Policy} \\\\\n\\hline\n\\textbf{Tight Fiscal Policy} & \\begin{array}{l} \\text{Real interest rates: Higher} \\\\ \\text{Aggregate output: Lower} \\\\ \\text{Public sector: Shrinking} \\end{array} & \\begin{array}{l} \\text{Real interest rates: Lower} \\\\ \\text{Aggregate output: Uncertain} \\\\ \\text{Private sector: Expanding} \\end{array} \\\\[12pt]\n\\textbf{Easy Fiscal Policy} & \\begin{array}{l} \\text{Real interest rates: Higher} \\\\ \\text{Aggregate output: Uncertain} \\\\ \\text{Public sector: Expanding} \\end{array} & \\begin{array}{l} \\text{Real interest rates: Lower} \\\\ \\text{Aggregate output: Higher} \\\\ \\text{Private \\& Public: Expanding} \\end{array} \\\\\n\\hline\n\\end{array}",
+      "display": true,
+      "sourceAsset": "5e4e36a280ec13ad21f8.png"
     }
   ],
   "practice": [],

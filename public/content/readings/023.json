@@ -164,12 +164,10 @@
           "text": "Drake Corporation has a sudden need for liquidity to meet its payroll at the end of the week. The company’s sources of liquidity and their costs are as shown here."
         },
         {
-          "type": "image",
-          "src": "content/figures/de0b429405f641ab3bf4.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 869,
-          "height": 261,
-          "alt": "Instructional visual diagram or table: de0b429405f641ab3bf4.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Source} & \\begin{array}{c} \\text{Fair Market Value} \\\\ \\text{(\\$000s)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\%)} \\end{array} \\\\\n\\hline\n\\text{Cash and marketable securities} & 100 & 0\\% \\\\\n\\text{Inventory and receivables} & 200 & 15\\% \\\\\n\\text{Empty warehouse} & \\underline{300} & 30\\% \\\\\n\\textbf{Total} & \\underline{\\underline{600}} & \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "de0b429405f641ab3bf4.png"
         },
         {
           "type": "paragraph",
@@ -184,12 +182,10 @@
           "text": "The cost of liquidity is the discount to fair market value for which an asset is sold due to the need for immediate liquidity, rather than waiting for the normal time it takes to sell the asset."
         },
         {
-          "type": "image",
-          "src": "content/figures/890263d6938a04faada4.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 922,
-          "height": 415,
-          "alt": "Instructional visual diagram or table: 890263d6938a04faada4.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Source} & \\begin{array}{c} \\text{Fair Market} \\\\ \\text{Value (\\$000s)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\%)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\$)} \\end{array} & \\begin{array}{c} \\text{Net} \\\\ \\text{Proceeds} \\end{array} \\\\\n\\hline\n\\text{Cash and marketable securities} & \\$100 & 0\\% & \\$0 & \\$100 \\\\\n\\text{Inventory and receivables} & \\$200 & 15\\% & \\$30 & \\$170 \\\\\n\\text{Empty warehouse} & \\underline{\\$300} & 30\\% & \\underline{\\$90} & \\underline{\\$210} \\\\\n\\textbf{Total} & \\underline{\\underline{\\$600}} & & \\underline{\\underline{\\$120}} & \\underline{\\underline{\\$480}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "890263d6938a04faada4.png"
         },
         {
           "type": "paragraph",
@@ -246,12 +242,10 @@
           "text": "The following information is available for Drake Corporation for the past two years:"
         },
         {
-          "type": "image",
-          "src": "content/figures/163f536e1ea2a0f49728.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 626,
-          "height": 441,
-          "alt": "Comparative current assets balance sheet table comparing 20X1 and 20X2."
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\text{Current Assets} & 20X1\\ (\\$'000) & 20X2\\ (\\$'000) \\\\\n\\hline\n\\text{Cash} & \\$100 & \\$150 \\\\\n\\text{Accounts receivable} & \\$200 & \\$250 \\\\\n\\text{Inventory} & \\$300 & \\$400 \\\\\n\\hline\n\\text{Total current assets} & \\$600 & \\$800 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "163f536e1ea2a0f49728.png"
         },
         {
           "type": "paragraph",

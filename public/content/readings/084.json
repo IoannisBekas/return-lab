@@ -461,12 +461,10 @@
           "text": "The line described by this last equation is presented in Figure 84.8, where we let the"
         },
         {
-          "type": "image",
-          "src": "content/figures/f2f4fd1cb3e37e778906.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 832,
-          "height": 98,
-          "alt": "Instructional visual diagram or table: f2f4fd1cb3e37e778906.png"
+          "type": "math",
+          "latex": "\\text{Standardized covariance term: } \\frac{\\operatorname{Cov}_{im}}{\\sigma_m^2}",
+          "display": true,
+          "sourceAsset": "f2f4fd1cb3e37e778906.png"
         },
         {
           "type": "paragraph",
@@ -485,12 +483,10 @@
           "alt": "Instructional visual diagram or table: 73de09a9a85d8de3ae53.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/eb7f359c65a0d3f19f81.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1094,
-          "height": 90,
-          "alt": "Instructional visual diagram or table: eb7f359c65a0d3f19f81.png"
+          "type": "math",
+          "latex": "\\text{So, we can define beta: } \\beta = \\frac{\\operatorname{Cov}_{im}}{\\sigma_m^2} \\text{ as a standardized measure of systematic risk.}",
+          "display": true,
+          "sourceAsset": "eb7f359c65a0d3f19f81.png"
         },
         {
           "type": "paragraph",
@@ -636,12 +632,10 @@
           "text": "Forecast Data"
         },
         {
-          "type": "image",
-          "src": "content/figures/9dc5da52e5cce1eda307.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 794,
-          "height": 202,
-          "alt": "Instructional visual diagram or table: 9dc5da52e5cce1eda307.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Stock} & \\textbf{Price Today} & \\begin{array}{c} \\text{E(Price)} \\\\ \\text{in 1 Year} \\end{array} & \\begin{array}{c} \\text{E(Dividend)} \\\\ \\text{in 1 Year} \\end{array} & \\textbf{Beta} \\\\\n\\hline\n\\text{A} & \\$25 & \\$27 & \\$1.00 & 1.0 \\\\\n\\text{B} & 40 & 45 & 2.00 & 0.8 \\\\\n\\text{C} & 15 & 17 & 0.50 & 1.2 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "9dc5da52e5cce1eda307.png"
         },
         {
           "type": "heading",
@@ -656,12 +650,10 @@
           "text": "Forecasts vs. Required Returns"
         },
         {
-          "type": "image",
-          "src": "content/figures/7599db3f980f38142f2b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 901,
-          "height": 188,
-          "alt": "Instructional visual diagram or table: 7599db3f980f38142f2b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Stock} & \\textbf{Forecast Return} & \\textbf{Required Return} \\\\\n\\hline\n\\text{A} & (\\$27 - \\$25 + \\$1) / \\$25 = 12.0\\% & 0.07 + (1.0)(0.15 - 0.07) = 15.0\\% \\\\\n\\text{B} & (\\$45 - \\$40 + \\$2) / \\$40 = 17.5\\% & 0.07 + (0.8)(0.15 - 0.07) = 13.4\\% \\\\\n\\text{C} & (\\$17 - \\$15 + \\$0.5) / \\$15 = 16.6\\% & 0.07 + (1.2)(0.15 - 0.07) = 16.6\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "7599db3f980f38142f2b.png"
         },
         {
           "type": "paragraph",

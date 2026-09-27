@@ -246,12 +246,10 @@
           "text": "2. a. 20X2, given an increase in unit price by $5 and no change in units sold:"
         },
         {
-          "type": "image",
-          "src": "content/figures/3ad166e8f69d389954ed.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 697,
-          "height": 310,
-          "alt": "Instructional visual diagram or table: 3ad166e8f69d389954ed.png"
+          "type": "math",
+          "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 1{,}000\\text{ units @ }\\$105 & \\$105{,}000 \\\\\n\\text{COGS} & 1{,}000\\text{ units @ }\\$45 & \\underline{\\$45{,}000} \\\\\n\\text{Gross profit} & & \\$60{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$30{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 29\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "3ad166e8f69d389954ed.png"
         },
         {
           "type": "paragraph",
@@ -266,12 +264,10 @@
           "text": "a. 20X2, given an increase in unit price by $5 and a decrease of 50 in units sold:"
         },
         {
-          "type": "image",
-          "src": "content/figures/a414e01d34293345478a.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 706,
-          "height": 307,
-          "alt": "Instructional visual diagram or table: a414e01d34293345478a.png"
+          "type": "math",
+          "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 950\\text{ units @ }\\$105 & \\$99{,}750 \\\\\n\\text{COGS} & 950\\text{ units @ }\\$45 & \\underline{\\$42{,}750} \\\\\n\\text{Gross profit} & & \\$57{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$27{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 27\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a414e01d34293345478a.png"
         },
         {
           "type": "paragraph",
@@ -286,12 +282,10 @@
           "text": "c. 20X2, given an increase in unit price by $5 and a decrease of 100 in units sold:"
         },
         {
-          "type": "image",
-          "src": "content/figures/85130fb513dc68f0cbda.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 736,
-          "height": 311,
-          "alt": "Instructional visual diagram or table: 85130fb513dc68f0cbda.png"
+          "type": "math",
+          "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 900\\text{ units @ }\\$105 & \\$94{,}500 \\\\\n\\text{COGS} & 900\\text{ units @ }\\$45 & \\underline{\\$40{,}500} \\\\\n\\text{Gross profit} & & \\$54{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$24{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 25\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "85130fb513dc68f0cbda.png"
         },
         {
           "type": "paragraph",

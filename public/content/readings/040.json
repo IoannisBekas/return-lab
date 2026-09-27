@@ -179,12 +179,10 @@
           "text": "Index Firm Data"
         },
         {
-          "type": "image",
-          "src": "content/figures/cf286e73fdd3d5bfdacd.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 667,
-          "height": 211,
-          "alt": "Instructional visual diagram or table: cf286e73fdd3d5bfdacd.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n& \\textbf{Share Price Dec 31, 20X6} & \\textbf{Share Price Jan 31, 20X7} \\\\\n\\hline\n\\text{Stock X} & \\$10 & \\$20 \\\\\n\\text{Stock Y} & \\$20 & \\$15 \\\\\n\\text{Stock Z} & \\$60 & \\$40 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "cf286e73fdd3d5bfdacd.png"
         },
         {
           "type": "heading",
@@ -265,12 +263,10 @@
           "text": "Index Firm Data"
         },
         {
-          "type": "image",
-          "src": "content/figures/d0de22b301608827e621.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 783,
-          "height": 211,
-          "alt": "Instructional visual diagram or table: d0de22b301608827e621.png"
+          "type": "math",
+          "latex": "\\begin{array}{cccc}\n\\hline\n\\textbf{Company} & \\textbf{Number of Shares (000s)} & \\textbf{Stock Price} & \\textbf{Capitalization} \\\\\n\\hline\n\\text{A} & 100 & \\$100 & \\$10{,}000{,}000 \\\\\n\\text{B} & 1{,}000 & \\$10 & \\$10{,}000{,}000 \\\\\n\\text{C} & 20{,}000 & \\$1 & \\$20{,}000{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "d0de22b301608827e621.png"
         },
         {
           "type": "heading",
@@ -453,12 +449,10 @@
           "text": "The following table summarizes some of the noteworthy characteristics of various global indexes. Notice from the table that most security market indexes are market capitalization-weighted and often adjusted for the float (securities actually available for purchase). The number of securities in many of these indexes can vary."
         },
         {
-          "type": "image",
-          "src": "content/figures/e4933d08a761e2b5810d.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1120,
-          "height": 1357,
-          "alt": "Instructional visual diagram or table: e4933d08a761e2b5810d.png"
+          "type": "math",
+          "latex": "\\begin{array}{llcl}\n\\hline\n\\textbf{Index} & \\textbf{Reflects} & \\textbf{Securities} & \\textbf{Weighting Method} \\\\\n\\hline\n\\text{Dow Jones Industrial Average} & \\text{Large U.S. stocks} & 30 & \\text{Price} \\\\\n\\text{Nikkei Stock Average} & \\text{Large Japanese stocks} & 225 & \\text{Modified price} \\\\\n\\text{TOPIX} & \\text{Tokyo Stock Exchange First Section} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{MSCI All Country World Index} & 23\\text{ developed \\& }24\\text{ emerging markets} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{S\\&P Developed Ex-U.S. BMI Energy} & \\text{Global energy outside U.S.} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{Barclays Capital Global Aggregate} & \\text{Global investment-grade bonds} & \\text{Variable} & \\text{Market cap} \\\\\n\\text{Markit iBoxx Euro High-Yield} & \\text{Below investment-grade bonds} & \\text{Variable} & \\text{Market cap} \\\\\n\\text{FTSE EPRA/NAREIT Global Real Estate} & \\text{Global real estate} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{HFRX Global Hedge Fund Index} & \\text{Global hedge funds} & \\text{Variable} & \\text{Asset weighted} \\\\\n\\text{HFRX Equal Weighted EUR Index} & \\text{Global hedge funds} & \\text{Variable} & \\text{Equal weighted} \\\\\n\\text{Morningstar Style Indexes} & \\text{U.S. stocks by value/growth \\& cap} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "e4933d08a761e2b5810d.png"
         },
         {
           "type": "question",
@@ -812,12 +806,10 @@
               "text": "Use the information in the following table to answer Questions 2 through 4."
             },
             {
-              "type": "image",
-              "src": "content/figures/d9dc8b8fdd4ad6fc9027.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 915,
-              "height": 279,
-              "alt": "Index constituent stock prices and shares outstanding table for January 1 and December 31."
+              "type": "math",
+              "latex": "\\begin{array}{lcccc}\n\\hline\n& \\begin{array}{c} \\textbf{Jan 1} \\\\ \\textbf{Price} \\end{array} & \\begin{array}{c} \\textbf{Jan 1 Shares} \\\\ \\textbf{(thousands)} \\end{array} & \\begin{array}{c} \\textbf{Dec 31} \\\\ \\textbf{Price} \\end{array} & \\begin{array}{c} \\textbf{Dec 31 Shares} \\\\ \\textbf{(thousands)} \\end{array} \\\\\n\\hline\n\\text{Stock A} & \\$22 & 1{,}500 & \\$28 & 1{,}500 \\\\\n\\text{Stock B} & \\$40 & 10{,}000 & \\$50 & 10{,}000 \\\\\n\\text{Stock C} & \\$34 & 3{,}000 & \\$30 & 3{,}000 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "d9dc8b8fdd4ad6fc9027.png"
             }
           ],
           "options": [

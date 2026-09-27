@@ -110,12 +110,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/cd4273ac668e90e54170.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 961,
-          "height": 198,
-          "alt": "Instructional visual diagram or table: cd4273ac668e90e54170.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrrrr}\n\\hline\n& \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} & \\textbf{Year 6} & \\textbf{Total} \\\\\n\\hline\n\\text{Accounting depreciation} & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$30{,}000 \\\\\n\\text{Tax return depreciation} & \\$10{,}000 & \\$6{,}667 & \\$4{,}444 & \\$2{,}963 & \\$1{,}975 & \\$3{,}951 & \\$30{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "cd4273ac668e90e54170.png"
         },
         {
           "type": "paragraph",
@@ -259,12 +257,10 @@
           "text": "Firebird Corporation is a new subsidiary set up at the start of the year by its parent company, Wraith Incorporated. Firebird’s statutory tax rate is 30%, and it has no permanent timing differences. Tax returns and income statements are presented for the first three years of its operation."
         },
         {
-          "type": "image",
-          "src": "content/figures/ccd6c0dfb6444503d784.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 626,
-          "height": 1070,
-          "alt": "Instructional visual diagram or table: ccd6c0dfb6444503d784.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Tax return: Firebird Corporation} & \\textbf{Year 1 (\\$000)} & \\textbf{Year 2 (\\$000)} & \\textbf{Year 3 (\\$000)} \\\\\n\\hline\n\\text{Revenue} & 100{,}000 & 120{,}000 & 130{,}000 \\\\\n\\text{Cost of sales} & 28{,}500 & 34{,}200 & 37{,}050 \\\\\n\\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\\\\n\\text{Depreciation} & 10{,}000 & 10{,}000 & 10{,}000 \\\\\n\\text{Warranty costs} & 2{,}000 & 5{,}000 & 8{,}000 \\\\\n\\text{Interest expense} & \\underline{10{,}000} & \\underline{12{,}000} & \\underline{12{,}500} \\\\\n\\text{Taxable income} & 29{,}550 & 34{,}860 & 36{,}515 \\\\\n\\textbf{Tax payable (30\\%)} & 8{,}865 & 10{,}458 & 10{,}955 \\\\\n\\hline\n\\hline\n\\textbf{Income statement: Firebird Corporation} & \\textbf{Year 1 (\\$000)} & \\textbf{Year 2 (\\$000)} & \\textbf{Year 3 (\\$000)} \\\\\n\\hline\n\\text{Revenue} & 95{,}000 & 114{,}000 & 123{,}500 \\\\\n\\text{Cost of sales} & \\underline{28{,}500} & \\underline{34{,}200} & \\underline{37{,}050} \\\\\n\\text{Gross profit} & 66{,}500 & 79{,}800 & 86{,}450 \\\\\n\\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\\\\n\\text{Depreciation} & 8{,}000 & 8{,}000 & 8{,}000 \\\\\n\\text{Interest expense} & \\underline{10{,}000} & \\underline{12{,}000} & \\underline{12{,}500} \\\\\n\\text{Earnings before tax} & 28{,}550 & 35{,}860 & 40{,}015 \\\\\n\\text{Tax expense} & \\underline{8{,}565} & \\underline{10{,}758} & \\underline{12{,}005} \\\\\n\\textbf{Net income} & 19{,}985 & 25{,}102 & 28{,}010 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "ccd6c0dfb6444503d784.png"
         },
         {
           "type": "paragraph",
@@ -305,12 +301,10 @@
           "text": "In total, $40 million of depreciation will pass through the tax returns and income statements, but different amounts will be reported for each individual year. Depreciation will be higher in the tax returns than in the income statement for each of the first four years. Firebird will recognize a DTL because the firm pays lower tax initially and higher tax on the reversal of the timing difference. We may also say the asset’s carrying value is greater than its tax base, resulting in a DTL. After Year 4, depreciation in the tax return will be zero, while depreciation in the income statement will continue, causing the timing difference to reverse."
         },
         {
-          "type": "image",
-          "src": "content/figures/5192b64bec7da308db37.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 834,
-          "height": 344,
-          "alt": "Instructional visual diagram or table: 5192b64bec7da308db37.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{DTL Schedule (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} \\\\\n\\hline\n\\text{Accounting depreciation} & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 \\\\\n\\text{Tax depreciation} & \\underline{33{,}330} & \\underline{44{,}450} & \\underline{14{,}810} & \\underline{7{,}410} & \\underline{0} \\\\\n\\text{Temporary difference} & (13{,}330) & (24{,}450) & 5{,}190 & 12{,}590 & 20{,}000 \\\\\n\\textbf{DTL Change @ 30\\%} & +\\$4{,}000 & +\\$7{,}335 & -\\$1{,}557 & -\\$3{,}777 & -\\$6{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5192b64bec7da308db37.png"
         },
         {
           "type": "paragraph",
@@ -339,12 +333,10 @@
           "text": "The balance sheet liability will increase by each year’s warranty provision, offset by the actual expense incurred:"
         },
         {
-          "type": "image",
-          "src": "content/figures/a1901e95615ba6b26051.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 785,
-          "height": 267,
-          "alt": "Instructional visual diagram or table: a1901e95615ba6b26051.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Warranty Liability Roll-Forward (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Beginning balance} & \\$0 & \\$1{,}000 & \\$2{,}000 \\\\\n\\text{Plus: Warranty expense recognized} & 2{,}000 & 5{,}000 & 8{,}000 \\\\\n\\text{Less: Warranty payments made} & \\underline{(1{,}000)} & \\underline{(4{,}000)} & \\underline{(4{,}500)} \\\\\n\\textbf{Ending warranty liability (Balance Sheet)} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$2{,}000}} & \\underline{\\underline{\\$5{,}500}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a1901e95615ba6b26051.png"
         },
         {
           "type": "paragraph",
@@ -355,12 +347,10 @@
           "text": "Recall that we have assumed all of the year-end liability values for warranties are likely to pass through future tax returns as the expenditure is incurred. This will result in a zero value for the tax base in each year."
         },
         {
-          "type": "image",
-          "src": "content/figures/7bc6afde6ef40f0475a6.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 545,
-          "height": 317,
-          "alt": "Instructional visual diagram or table: 7bc6afde6ef40f0475a6.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Timing Difference \\& DTA Schedule (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Warranty expense (accrual for book)} & \\$2{,}000 & \\$5{,}000 & \\$8{,}000 \\\\\n\\text{Warranty paid (deductible for tax)} & \\underline{1{,}000} & \\underline{4{,}000} & \\underline{4{,}500} \\\\\n\\text{Cumulative temporary difference} & \\$1{,}000 & \\$2{,}000 & \\$5{,}500 \\\\\n\\textbf{Ending Deferred Tax Asset @ 30\\%} & \\underline{\\underline{\\$300}} & \\underline{\\underline{\\$600}} & \\underline{\\underline{\\$1{,}650}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "7bc6afde6ef40f0475a6.png"
         },
         {
           "type": "heading",
@@ -371,12 +361,10 @@
           "text": "Now that we have calculated the deferred tax items, we can illustrate how income tax expense was determined for financial statement reporting."
         },
         {
-          "type": "image",
-          "src": "content/figures/6fae291f3cddc6447638.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 541,
-          "height": 280,
-          "alt": "Instructional visual diagram or table: 6fae291f3cddc6447638.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Tax Expense Breakdown (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Current tax payable} & \\$8{,}865 & \\$10{,}458 & \\$10{,}955 \\\\\n\\text{Deferred tax adjustment} & \\underline{(300)} & \\underline{300} & \\underline{1{,}050} \\\\\n\\textbf{Income tax expense (Income Statement)} & \\underline{\\underline{\\$8{,}565}} & \\underline{\\underline{\\$10{,}758}} & \\underline{\\underline{\\$12{,}005}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "6fae291f3cddc6447638.png"
         },
         {
           "type": "heading",
@@ -470,12 +458,10 @@
           "text": "Statutory U.S. federal income tax rate reconciliation"
         },
         {
-          "type": "image",
-          "src": "content/figures/a93e6133f2de169c1ab4.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 935,
-          "height": 428,
-          "alt": "Instructional visual diagram or table: a93e6133f2de169c1ab4.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Statutory Tax Rate Reconciliation} & \\textbf{20X3} & \\textbf{20X2} & \\textbf{20X1} \\\\\n\\hline\n\\text{U.S. statutory tax rate} & 35.0\\% & 35.0\\% & 35.0\\% \\\\\n\\text{Tax differential on foreign earnings} & -3.2\\% & -4.0\\% & -3.8\\% \\\\\n\\text{State and local taxes (net of federal benefit)} & +2.4\\% & +2.1\\% & +2.3\\% \\\\\n\\text{Research and development tax credits} & -1.8\\% & -1.5\\% & -1.2\\% \\\\\n\\text{Other non-deductible permanent items} & \\underline{+0.6\\%} & \\underline{+0.4\\%} & \\underline{+0.7\\%} \\\\\n\\textbf{Effective tax rate} & \\underline{\\underline{33.0\\%}} & \\underline{\\underline{32.0\\%}} & \\underline{\\underline{33.0\\%}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a93e6133f2de169c1ab4.png"
         },
         {
           "type": "heading",
@@ -539,12 +525,10 @@
           "text": "Deferred tax disclosures"
         },
         {
-          "type": "image",
-          "src": "content/figures/0cbea1828ba82ba95a45.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 868,
-          "height": 442,
-          "alt": "Instructional visual diagram or table: 0cbea1828ba82ba95a45.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Deferred Tax Disclosures (\\$000s)} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\textbf{Deferred Tax Assets (DTAs):} & & \\\\\n\\text{Accrued warranty liabilities} & \\$12{,}000 & \\$9{,}500 \\\\\n\\text{Loss carryforwards} & 8{,}500 & 6{,}000 \\\\\n\\text{Valuation allowance} & \\underline{(2{,}000)} & \\underline{(1{,}500)} \\\\\n\\text{Net deferred tax asset} & \\$18{,}500 & \\$14{,}000 \\\\\n\\hline\n\\textbf{Deferred Tax Liabilities (DTLs):} & & \\\\\n\\text{Accelerated depreciation (PP\\&E)} & \\underline{\\$25{,}000} & \\underline{\\$20{,}000} \\\\\n\\text{Total deferred tax liability} & \\$25{,}000 & \\$20{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "0cbea1828ba82ba95a45.png"
         },
         {
           "type": "paragraph",
@@ -889,12 +873,10 @@
           "prompt": "Roadrunner, Inc., reported the following information in its tax returns and financial statements: Which of the following is closest to the tax expense reported in Roadrunner’s 20X7 income statement?",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/f732ba150e273bf26f0f.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 582,
-              "height": 306,
-              "alt": "Instructional visual diagram or table: f732ba150e273bf26f0f.png"
+              "type": "math",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Tax return extract:} & \\textbf{\\$} \\\\\n\\hline\n\\text{Tax payable for the year ended 20X7} & 500{,}000 \\\\\n\\hline\n\\textbf{Balance sheet extracts:} & \\\\\n\\text{DTA year-end 20X7} & 300{,}000 \\\\\n\\text{DTA year-end 20X6} & 350{,}000 \\\\\n\\text{DTL year-end 20X7} & 500{,}000 \\\\\n\\text{DTL year-end 20X6} & 400{,}000 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "f732ba150e273bf26f0f.png"
             }
           ],
           "options": [
@@ -1190,12 +1172,10 @@
           "prompt": "Reactor SA is a French firm with significant global operations: The effective tax rate was highest in:",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/b665660817cda5de60a9.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 588,
-              "height": 715,
-              "alt": "Instructional visual diagram or table: b665660817cda5de60a9.png"
+              "type": "math",
+              "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Earnings Before Tax} & \\textbf{Year 1 (\\text{EUR }m)} & \\textbf{Year 2 (\\text{EUR }m)} & \\textbf{Year 3 (\\text{EUR }m)} \\\\\n\\hline\n\\text{French operations} & 200 & 150 & 210 \\\\\n\\text{Overseas operations} & \\underline{50} & \\underline{75} & \\underline{90} \\\\\n\\textbf{Total} & 250 & 225 & 300 \\\\\n\\hline\n\\hline\n\\textbf{Income Taxes (Income Statement)} & \\textbf{Year 1 (\\text{EUR }m)} & \\textbf{Year 2 (\\text{EUR }m)} & \\textbf{Year 3 (\\text{EUR }m)} \\\\\n\\hline\n\\text{Current: French operations} & 56 & 30 & 59 \\\\\n\\text{Current: Overseas operations} & \\underline{12} & \\underline{20} & \\underline{21} \\\\\n\\text{Current income taxes} & 68 & 50 & 80 \\\\\n\\text{Deferred: French operations} & 8 & (4) & 6 \\\\\n\\text{Deferred: Overseas operations} & \\underline{(1)} & \\underline{2} & \\underline{2} \\\\\n\\text{Deferred income taxes} & 7 & 2 & 8 \\\\\n\\textbf{Total tax expense} & 75 & 48 & 88 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "b665660817cda5de60a9.png"
             }
           ],
           "options": [

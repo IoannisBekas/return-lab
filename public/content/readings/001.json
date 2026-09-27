@@ -393,12 +393,10 @@
           "text": "Note the values for F01, F02, and so on, are all equal to 1."
         },
         {
-          "type": "image",
-          "src": "content/figures/4b973189367edba55ab4.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 956,
-          "height": 280,
-          "alt": "Instructional visual diagram or table: 4b973189367edba55ab4.png"
+          "type": "math",
+          "latex": "\\begin{array}{llr}\n\\hline\n\\textbf{Keystroke} & \\textbf{Display} & \\textbf{Explanation} \\\\\n\\hline\n[\\text{CF}] & \\text{CF0 = 0} & \\text{Enter Cash Flow worksheet} \\\\\n[\\text{2nd}][\\text{CLR WORK}] & \\text{CF0 = 0} & \\text{Clear previous entries} \\\\\n50 [+/-][\\text{ENTER}] & \\text{CF0 = } -50 & \\text{Initial outlay} \\\\\n[\\downarrow] 100 [+/-][\\text{ENTER}] & \\text{C01 = } -100 & \\text{Cash flow Year 1} \\\\\n[\\downarrow][\\downarrow] 150 [\\text{ENTER}] & \\text{C02 = 150} & \\text{Cash flow Year 2} \\\\\n[\\text{IRR}][\\text{CPT}] & \\text{IRR = 0.00} & \\text{Compute IRR (0.0\\%)} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "4b973189367edba55ab4.png"
         },
         {
           "type": "paragraph",
@@ -1002,12 +1000,10 @@
           "prompt": "XYZ Corp. Annual Stock Returns The mean annual return on XYZ stock is most appropriately calculated using the:",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/f420d9455267c8f1a99b.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 648,
-              "height": 91,
-              "alt": "Instructional visual diagram or table: f420d9455267c8f1a99b.png"
+              "type": "math",
+              "latex": "\\begin{array}{lcccccc}\n\\hline\n\\textbf{Year} & \\textbf{20X1} & \\textbf{20X2} & \\textbf{20X3} & \\textbf{20X4} & \\textbf{20X5} & \\textbf{20X6} \\\\\n\\hline\n\\text{Return} & 22.0\\% & 5.0\\% & -7.0\\% & 11.0\\% & 2.0\\% & 11.0\\% \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "f420d9455267c8f1a99b.png"
             }
           ],
           "options": [

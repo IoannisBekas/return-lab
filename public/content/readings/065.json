@@ -185,12 +185,10 @@
           "text": "An MBS contains the three mortgages A, B, and C, with details displayed in the following table."
         },
         {
-          "type": "image",
-          "src": "content/figures/33bc7352159d403f46bb.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 933,
-          "height": 241,
-          "alt": "Instructional visual diagram or table: 33bc7352159d403f46bb.png"
+          "type": "math",
+          "latex": "\\begin{array}{cccccc}\n\\hline\n\\textbf{Mortgage} & \\textbf{Interest Rate} & \\begin{array}{c} \\text{Beginning Balance} \\\\ \\text{(000 USD)} \\end{array} & \\begin{array}{c} \\text{Current Balance} \\\\ \\text{(000 USD)} \\end{array} & \\begin{array}{c} \\text{Original Term} \\\\ \\text{(Months)} \\end{array} & \\begin{array}{c} \\text{Months to} \\\\ \\text{Maturity} \\end{array} \\\\\n\\hline\n\\text{A} & 2.6\\% & 100 & 90 & 240 & 210 \\\\\n\\text{B} & 1.0\\% & 200 & 72 & 300 & 100 \\\\\n\\text{C} & 5.4\\% & 300 & 247 & 360 & 280 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "33bc7352159d403f46bb.png"
         },
         {
           "type": "paragraph",

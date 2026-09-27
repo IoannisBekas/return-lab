@@ -231,12 +231,10 @@
           "text": "Assume that a company’s COGS as a percentage of sales equals 25% and that the quantity sold is the same in Period 2 as in Period 1. If input costs double in Period 2 and the company can pass the entire increase on to its customers through a 25% price increase, COGS as a percentage of sales will increase (to 40%) because an equal absolute amount has been added to the numerator and to the denominator."
         },
         {
-          "type": "image",
-          "src": "content/figures/e061b63a0bca50ca861e.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 693,
-          "height": 267,
-          "alt": "Instructional visual diagram or table: e061b63a0bca50ca861e.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n& \\textbf{Period 1} & \\textbf{Period 2} \\\\\n\\hline\n\\text{Sales} & 100.0 & 125.0 \\\\\n\\text{COGS} & 25.0 & 50.0 \\\\\n\\text{Gross profit} & 75.0 & 75.0 \\\\\n\\text{COGS as \\% of sales} & 25\\% & 40\\% \\\\\n\\text{Gross margin \\%} & 75\\% & 60\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "e061b63a0bca50ca861e.png"
         },
         {
           "type": "paragraph",

@@ -1,8 +1,8 @@
 {
   "summary": {
     "sourceAssetsClassified": 976,
-    "nativeMath": 687,
-    "meaningfulVisuals": 283,
+    "nativeMath": 820,
+    "meaningfulVisuals": 150,
     "rebuiltTables": 6,
     "lowConfidenceMath": 0
   },
@@ -25,9 +25,15 @@
     },
     {
       "asset": "004e4e43db850044a5b3.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning} \\\\ \\text{Liability} \\end{array} & \\begin{array}{c} \\text{Lease} \\\\ \\text{Payment} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Expense (6\\%)} \\end{array} & \\begin{array}{c} \\text{Principal} \\\\ \\text{Reduction} \\end{array} & \\begin{array}{c} \\text{Ending} \\\\ \\text{Liability} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:140:4"
       ]
@@ -204,9 +210,15 @@
     },
     {
       "asset": "0441f549559dfa88d182.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{Current Year (\\$)} & \\textbf{Previous Year (\\$)} \\\\\n\\hline\n\\textbf{Assets} & & \\\\\n\\text{Cash and marketable securities} & \\$105 & \\$95 \\\\\n\\text{Receivables} & 205 & 195 \\\\\n\\text{Inventories} & \\underline{310} & \\underline{290} \\\\\n\\text{Total current assets} & 620 & 580 \\\\\n\\text{Gross property, plant, and equipment} & 1{,}800 & 1{,}700 \\\\\n\\text{Accumulated depreciation} & \\underline{360} & \\underline{340} \\\\\n\\text{Net property, plant, and equipment} & \\underline{1{,}440} & \\underline{1{,}360} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$2{,}060}} & \\underline{\\underline{\\$1{,}940}} \\\\\n\\hline\n\\textbf{Liabilities} & & \\\\\n\\text{Payables} & \\$110 & \\$90 \\\\\n\\text{Short-term debt} & 160 & 140 \\\\\n\\text{Current portion of long-term debt} & \\underline{55} & \\underline{45} \\\\\n\\text{Current liabilities} & 325 & 275 \\\\\n\\text{Long-term debt} & 610 & 690 \\\\\n\\text{Deferred taxes} & 105 & 95 \\\\\n\\text{Common stock at par} & 300 & 300 \\\\\n\\text{Additional paid in capital} & 400 & 400 \\\\\n\\text{Retained earnings} & \\underline{320} & \\underline{180} \\\\\n\\text{Common shareholders' equity} & \\underline{1{,}020} & \\underline{880} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$2{,}060}} & \\underline{\\underline{\\$1{,}940}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:211:0"
       ]
@@ -294,9 +306,15 @@
     },
     {
       "asset": "07a9a732d4e8c6fe8820.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Taxes Paid Reconciliation} & \\textbf{Amount} \\\\\n\\hline\n\\text{Income tax expense} & \\$270{,}000 \\\\\n\\text{Less: Increase in income tax payable} & -15{,}000 \\\\\n\\text{Less: Increase in deferred tax liability} & \\underline{-5{,}000} \\\\\n\\textbf{Cash taxes paid} & \\underline{\\underline{\\$(250{,}000)}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:93:0"
       ]
@@ -319,9 +337,15 @@
     },
     {
       "asset": "07defe9b974203ee0a55.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Option} & \\textbf{Minimum Value} & \\textbf{Maximum Value} \\\\\n\\hline\n\\text{European call} & c_t \\ge \\operatorname{Max}[0, S_t - X(1 + R_f)^{-(T-t)}] & S_t \\\\\n\\text{European put} & p_t \\ge \\operatorname{Max}[0, X(1 + R_f)^{-(T-t)} - S_t] & X(1 + R_f)^{-(T-t)} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:210:19"
       ]
@@ -474,9 +498,15 @@
     },
     {
       "asset": "0a88218aa63cbad38f1c.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{R}_B = 20\\% & \\textbf{R}_B = 15\\% & \\textbf{R}_B = 4\\% & \\textbf{Total } P(R_A) \\\\\n\\hline\n\\textbf{R}_A = 25\\% & 0.20 & 0.05 & 0.00 & 0.25 \\\\\n\\textbf{R}_A = 12\\% & 0.15 & 0.30 & 0.05 & 0.50 \\\\\n\\textbf{R}_A = -10\\% & 0.00 & 0.05 & 0.20 & 0.25 \\\\\n\\hline\n\\textbf{Total } P(R_B) & 0.35 & 0.40 & 0.25 & 1.00 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:70:7"
       ]
@@ -633,9 +663,15 @@
     },
     {
       "asset": "0cbea1828ba82ba95a45.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Deferred Tax Disclosures (\\$000s)} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\textbf{Deferred Tax Assets (DTAs):} & & \\\\\n\\text{Accrued warranty liabilities} & \\$12{,}000 & \\$9{,}500 \\\\\n\\text{Loss carryforwards} & 8{,}500 & 6{,}000 \\\\\n\\text{Valuation allowance} & \\underline{(2{,}000)} & \\underline{(1{,}500)} \\\\\n\\text{Net deferred tax asset} & \\$18{,}500 & \\$14{,}000 \\\\\n\\hline\n\\textbf{Deferred Tax Liabilities (DTLs):} & & \\\\\n\\text{Accelerated depreciation (PP\\&E)} & \\underline{\\$25{,}000} & \\underline{\\$20{,}000} \\\\\n\\text{Total deferred tax liability} & \\$25{,}000 & \\$20{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:173:1"
       ]
@@ -657,9 +693,15 @@
     },
     {
       "asset": "0d10a4b9c0de22f7e2bb.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Income Statement: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\\\\n\\text{Depreciation expense} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{90{,}000} \\\\\n\\text{Operating income} & 70{,}000 & 70{,}000 & 70{,}000 & 210{,}000 \\\\\n\\text{Tax expense (30\\%)} & \\underline{21{,}000} & \\underline{21{,}000} & \\underline{21{,}000} & \\underline{63{,}000} \\\\\n\\textbf{Net income} & 49{,}000 & 49{,}000 & 49{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:33:8"
       ]
@@ -1054,9 +1096,15 @@
     },
     {
       "asset": "150bd1337203ccc4d538.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{100\\% Equity} & \\textbf{50\\% Debt, 50\\% Equity} \\\\\n\\hline\n\\text{Revenues} & \\$850 & \\$850 \\\\\n\\text{Cash operating expense} & 800 & 800 \\\\\n\\text{Interest expense} & 0 & 50 \\\\\n\\text{Net income} & \\$50 & \\$0 \\\\\n\\\\[2pt]\n\\text{Equity} & \\$1{,}000 & \\$500 \\\\\n\\text{ROE} & 5\\% & 0\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:231:5"
       ]
@@ -1113,18 +1161,30 @@
     },
     {
       "asset": "1609b14359161a326d07.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Income Statement for 20X7} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$200{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{(100{,}000)} \\\\\n\\text{Gross profit} & \\$100{,}000 \\\\\n\\text{Salary and administrative expenses} & (40{,}000) \\\\\n\\text{Depreciation expense} & (7{,}000) \\\\\n\\text{Gain on sale of land} & +10{,}000 \\\\\n\\text{Loss on disposal of equipment} & \\underline{(2{,}000)} \\\\\n\\text{Operating income} & \\$61{,}000 \\\\\n\\text{Interest expense} & (5{,}000) \\\\\n\\text{Income tax expense} & \\underline{(17{,}000)} \\\\\n\\textbf{Net income} & \\underline{\\underline{\\$39{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:72:8"
       ]
     },
     {
       "asset": "163f536e1ea2a0f49728.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\text{Current Assets} & 20X1\\ (\\$'000) & 20X2\\ (\\$'000) \\\\\n\\hline\n\\text{Cash} & \\$100 & \\$150 \\\\\n\\text{Accounts receivable} & \\$200 & \\$250 \\\\\n\\text{Inventory} & \\$300 & \\$400 \\\\\n\\hline\n\\text{Total current assets} & \\$600 & \\$800 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:249:7"
       ]
@@ -1171,9 +1231,15 @@
     },
     {
       "asset": "171f0c75b0ec54825fa5.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning} \\\\ \\text{ROU Asset} \\end{array} & \\begin{array}{c} \\text{Lease} \\\\ \\text{Cost} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Accretion (6\\%)} \\end{array} & \\begin{array}{c} \\text{Amortization} \\\\ \\text{ROU Asset} \\end{array} & \\begin{array}{c} \\text{Ending} \\\\ \\text{ROU Asset} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:139:5"
       ]
@@ -1281,9 +1347,15 @@
     },
     {
       "asset": "193f95c3e98c04c2dcc5.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Collections with Unearned Revenue} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$2{,}000{,}000 \\\\\n\\text{Less: Increase in accounts receivable} & -30{,}000 \\\\\n\\text{Plus: Increase in unearned revenue} & \\underline{+50{,}000} \\\\\n\\textbf{Cash collected from customers} & \\underline{\\underline{\\$2{,}020{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:92:10"
       ]
@@ -1803,18 +1875,30 @@
     },
     {
       "asset": "24346a116202b57c819e.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n& \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Beginning inventory (units)} & 0 & 100 & 150 \\\\\n\\text{Units purchased} & 500 & 400 & 450 \\\\\n\\text{Purchase price per unit} & \\$10.00 & \\$11.00 & \\$12.00 \\\\\n\\text{Units sold} & 400 & 350 & 400 \\\\\n\\text{Selling price per unit} & \\$15.00 & \\$16.00 & \\$18.00 \\\\\n\\text{Ending inventory (units)} & 100 & 150 & 200 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:109:5"
       ]
     },
     {
       "asset": "24c9efeab5fdeedafb9c.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Statement Metric} & \\textbf{Finance Lease} & \\textbf{Operating Lease} \\\\\n\\hline\n\\textbf{Balance Sheet} & & \\\\\n\\text{ROU Asset \\& Lease Liability} & \\text{Recognized on BS} & \\text{Recognized on BS} \\\\\n\\text{Total Assets and Total Debt} & \\text{Higher} & \\text{Higher} \\\\\n\\hline\n\\textbf{Income Statement} & & \\\\\n\\text{Components} & \\text{Depreciation + Interest} & \\text{Single Lease Expense} \\\\\n\\text{Front-loading of expenses} & \\text{Yes (higher early)} & \\text{No (straight-line)} \\\\\n\\text{Operating Income (EBIT)} & \\text{Higher} & \\text{Lower} \\\\\n\\text{EBITDA} & \\text{Higher} & \\text{Lower} \\\\\n\\hline\n\\textbf{Cash Flow Statement} & & \\\\\n\\text{Principal reduction} & \\text{Financing outflow (CFF)} & \\text{Operating outflow (CFO)} \\\\\n\\text{Operating cash flow (CFO)} & \\text{Higher} & \\text{Lower} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:141:0"
       ]
@@ -1838,9 +1922,15 @@
     },
     {
       "asset": "25e2d203ad6aa41283ae.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{\\$} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\textbf{Noncash charges} & \\\\\n\\quad\\text{Depreciation} & 7{,}000 \\\\\n\\quad\\text{Increase in deferred tax liability} & 5{,}000 \\\\\n\\quad\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\quad\\text{Gain from sale of land} & \\underline{(10{,}000)} \\\\\n\\text{Subtotal} & 43{,}000 \\\\\n\\textbf{Investment in working capital} & \\\\\n\\quad\\text{Increase in receivables} & (1{,}000) \\\\\n\\quad\\text{Decrease in inventories} & 2{,}000 \\\\\n\\quad\\text{Increase in accounts payable} & 4{,}000 \\\\\n\\quad\\text{Decrease in wages payable} & (3{,}500) \\\\\n\\quad\\text{Increase in interest payable} & 500 \\\\\n\\quad\\text{Increase in unearned revenue liability} & 4{,}000 \\\\\n\\quad\\text{Increase in taxes payable} & \\underline{1{,}000} \\\\\n\\textbf{Operating cash flows} & \\mathbf{50{,}000} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:78:0"
       ]
@@ -1862,9 +1952,15 @@
     },
     {
       "asset": "2650a486ca28254a17dc.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{df} & \\textbf{p = 0.10} & \\textbf{p = 0.05} & \\textbf{p = 0.025} \\\\\n\\hline\n110 & 1.289 & 1.659 & 1.982 \\\\\n120 & 1.289 & 1.658 & 1.980 \\\\\n200 & 1.286 & 1.653 & 1.972 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:94:14"
       ]
@@ -1925,9 +2021,15 @@
     },
     {
       "asset": "284193a7c2047e6687d1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\begin{array}{lrrr}\n\\hline\n\\textbf{FIFO Gross Profit} & \\textbf{Year 1 (\\$)} & \\textbf{Year 2 (\\$)} & \\textbf{Year 3 (\\$)} \\\\\n\\hline\n\\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\\\\n\\text{Beginning inventory} & 0 & 320{,}000 & 588{,}000 \\\\\n\\text{Purchases} & \\underline{1{,}120{,}000} & \\underline{1{,}260{,}000} & \\underline{880{,}000} \\\\\n\\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}468{,}000 \\\\\n\\text{Ending inventory} & \\underline{-320{,}000} & \\underline{-588{,}000} & \\underline{-88{,}000} \\\\\n\\text{Cost of goods sold} & 800{,}000 & 992{,}000 & 1{,}380{,}000 \\\\\n\\text{Gross profit} & \\$200{,}000 & \\$268{,}000 & \\$380{,}000 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lrrr}\n\\hline\n\\textbf{LIFO Gross Profit} & \\textbf{Year 1 (\\$)} & \\textbf{Year 2 (\\$)} & \\textbf{Year 3 (\\$)} \\\\\n\\hline\n\\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\\\\n\\text{Beginning inventory} & 0 & 320{,}000 & 572{,}000 \\\\\n\\text{Purchases} & \\underline{1{,}120{,}000} & \\underline{1{,}260{,}000} & \\underline{880{,}000} \\\\\n\\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}452{,}000 \\\\\n\\text{Ending inventory} & \\underline{-320{,}000} & \\underline{-572{,}000} & \\underline{-80{,}000} \\\\\n\\text{Cost of goods sold} & 800{,}000 & 1{,}008{,}000 & 1{,}372{,}000 \\\\\n\\text{Gross profit} & \\$200{,}000 & \\$252{,}000 & \\$388{,}000 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:110:0"
       ]
@@ -2076,9 +2178,15 @@
     },
     {
       "asset": "2b9cfd2ac28cbd8ecd52.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Matching COGS to Units Sold} & \\textbf{Units} & \\textbf{Unit Cost} & \\textbf{Total} \\\\\n\\hline\n\\text{Beginning inventory} & 100 & \\$10.00 & \\$1{,}000 \\\\\n\\text{Purchases during period} & \\underline{400} & \\$11.00 & \\underline{\\$4{,}400} \\\\\n\\text{Total available for sale} & 500 & & \\$5{,}400 \\\\\n\\text{Ending inventory} & \\underline{150} & \\$11.00 & \\underline{\\$1{,}650} \\\\\n\\textbf{Cost of goods sold (COGS)} & 350 & & \\$3{,}750 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:30:8"
       ]
@@ -2115,9 +2223,15 @@
     },
     {
       "asset": "2c2db45830118eb1d1fc.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Ratio} & \\textbf{Capitalizing} & \\textbf{Expensing} \\\\\n\\hline\n\\text{Total asset turnover} & \\text{Lower in early years} & \\text{Higher in early years} \\\\\n\\text{Operating margin} & \\text{Higher in early years} & \\text{Lower in early years} \\\\\n\\text{Return on equity (ROE)} & \\text{Higher in early years} & \\text{Lower in early years} \\\\\n\\text{Debt-to-equity ratio} & \\text{Lower} & \\text{Higher} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:35:10"
       ]
@@ -2274,18 +2388,30 @@
     },
     {
       "asset": "2e57847cc10f6916fc4f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Income Statement: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\\\\n\\text{Equipment expense} & \\underline{90{,}000} & \\underline{0} & \\underline{0} & \\underline{90{,}000} \\\\\n\\text{Operating income} & 10{,}000 & 100{,}000 & 100{,}000 & 210{,}000 \\\\\n\\text{Tax expense (30\\%)} & \\underline{3{,}000} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{63{,}000} \\\\\n\\textbf{Net income} & 7{,}000 & 70{,}000 & 70{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:34:0"
       ]
     },
     {
       "asset": "2fe33f96124c0fbd1e18.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Day 0} & \\text{Price} = \\text{settlement price of } 1{,}870 & \\text{MTM value} = 0 \\\\[4pt]\n\\textbf{Day 1} & \\text{Settlement price} = 1{,}875 & \\text{MTM value} = \\$500 \\\\\n& \\$500 \\text{ addition to margin account} & \\\\\n& \\text{New futures price} = 1{,}875 & \\text{MTM value} = 0 \\\\[4pt]\n\\textbf{Day 2} & \\text{Settlement price} = 1{,}855 & \\text{MTM value} = -\\$2{,}000 \\\\\n& \\$2{,}000 \\text{ deduction from margin account} & \\\\\n& \\text{New futures price} = 1{,}855 & \\text{MTM value} = 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:198:6"
       ]
@@ -2364,9 +2490,15 @@
     },
     {
       "asset": "32d91591473b94441c8f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Balance Sheet: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Equipment (gross)} & 90{,}000 & 90{,}000 & 90{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(30{,}000)} & \\underline{(60{,}000)} & \\underline{(90{,}000)} \\\\\n\\text{Net property, plant, and equipment} & 60{,}000 & 30{,}000 & 0 \\\\\n\\textbf{Total Assets Impact} & 60{,}000 & 30{,}000 & 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:34:3"
       ]
@@ -2422,9 +2554,15 @@
     },
     {
       "asset": "33bc7352159d403f46bb.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{cccccc}\n\\hline\n\\textbf{Mortgage} & \\textbf{Interest Rate} & \\begin{array}{c} \\text{Beginning Balance} \\\\ \\text{(000 USD)} \\end{array} & \\begin{array}{c} \\text{Current Balance} \\\\ \\text{(000 USD)} \\end{array} & \\begin{array}{c} \\text{Original Term} \\\\ \\text{(Months)} \\end{array} & \\begin{array}{c} \\text{Months to} \\\\ \\text{Maturity} \\end{array} \\\\\n\\hline\n\\text{A} & 2.6\\% & 100 & 90 & 240 & 210 \\\\\n\\text{B} & 1.0\\% & 200 & 72 & 300 & 100 \\\\\n\\text{C} & 5.4\\% & 300 & 247 & 360 & 280 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:155:9"
       ]
@@ -2622,9 +2760,15 @@
     },
     {
       "asset": "384854301c0123597210.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\begin{array}{lrr}\n\\hline\n\\textbf{Balance sheet extract} & \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\text{Land} & 35{,}000 & 40{,}000 \\\\\n\\text{Gross PP\\&E} & 69{,}000 & 60{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(12{,}000)} & \\underline{(9{,}000)} \\\\\n\\text{Net PP\\&E} & 57{,}000 & 51{,}000 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lr}\n\\hline\n\\textbf{Income statement extract} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Depreciation} & 7{,}000 \\\\\n\\text{Gain on sale of land} & 10{,}000 \\\\\n\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:82:0"
       ]
@@ -2728,9 +2872,15 @@
     },
     {
       "asset": "3993dbc1b6188bda044b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Balance Sheet: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Net property, plant, and equipment} & 0 & 0 & 0 \\\\\n\\text{Retained earnings impact} & 7{,}000 & 77{,}000 & 147{,}000 \\\\\n\\textbf{Total Assets Impact} & 0 & 0 & 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:34:5"
       ]
@@ -2792,18 +2942,30 @@
     },
     {
       "asset": "3ad166e8f69d389954ed.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 1{,}000\\text{ units @ }\\$105 & \\$105{,}000 \\\\\n\\text{COGS} & 1{,}000\\text{ units @ }\\$45 & \\underline{\\$45{,}000} \\\\\n\\text{Gross profit} & & \\$60{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$30{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 29\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:229:14"
       ]
     },
     {
       "asset": "3b212816f81575ac9df8.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Footnote Disclosure: Inventory (\\$000s)} & \\textbf{20X7} & \\textbf{20X6} & \\textbf{20X5} \\\\\n\\hline\n\\text{Inventory at FIFO cost} & \\$42{,}000 & \\$38{,}000 & \\$35{,}000 \\\\\n\\text{Less: LIFO reserve} & \\underline{(6{,}000)} & \\underline{(4{,}500)} & \\underline{(3{,}800)} \\\\\n\\textbf{Inventory at LIFO (reported on balance sheet)} & \\$36{,}000 & \\$33{,}500 & \\$31{,}200 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:114:3"
       ]
@@ -2903,18 +3065,30 @@
     },
     {
       "asset": "3c5c5a60d2869949ed95.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Index Analysis (Base Year 1 = 100)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} \\\\\n\\hline\n\\text{Sales index} & 100.0 & 112.5 & 124.0 & 138.5 \\\\\n\\text{Inventory index} & 100.0 & 118.0 & 135.2 & 156.4 \\\\\n\\text{COGS index} & 100.0 & 110.0 & 121.5 & 134.0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:117:10"
       ]
     },
     {
       "asset": "3c9dbbfb75f5fcebc850.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Investor Type} & \\textbf{Risk Tolerance} & \\textbf{Investment Horizon} & \\textbf{Liquidity Needs} & \\textbf{Income Needs} \\\\\n\\hline\n\\text{Individuals} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{individual} \\end{array} \\\\\n\\text{Banks} & \\text{Low} & \\text{Short} & \\text{High} & \\text{Pay interest} \\\\\n\\text{Endowments} & \\text{High} & \\text{Long} & \\text{Low} & \\text{Spending level} \\\\\n\\text{Insurance} & \\text{Low} & \\begin{array}{c} \\text{Long---life} \\\\ \\text{Short---P\\&C} \\end{array} & \\text{High} & \\text{Low} \\\\\n\\text{Mutual funds} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} & \\text{High} & \\begin{array}{c} \\text{Depends on} \\\\ \\text{fund} \\end{array} \\\\\n\\text{Defined benefit pension} & \\text{High} & \\text{Long} & \\text{Low} & \\text{Depends on age} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:115:5"
       ]
@@ -2945,9 +3119,15 @@
     },
     {
       "asset": "3da67fad473aa701f24e.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llr}\n\\hline\n& & \\textbf{(\\$)} \\\\\n\\hline\n\\textit{Step 1:} & \\text{Total revenues and gains} & 114{,}000 \\\\\n& \\text{Total expenses and losses} & \\underline{75{,}000} \\\\\n& \\text{Net income} & 39{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:87:10"
       ]
@@ -3040,9 +3220,15 @@
     },
     {
       "asset": "3e9cd88b54d911d57bf7.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Lessor Classification} & \\textbf{Finance Lease} & \\textbf{Operating Lease} \\\\\n\\hline\n\\text{Balance Sheet} & \\text{Derecognize asset; add lease receivable} & \\text{Retain asset on BS; record depreciation} \\\\\n\\text{Income Statement} & \\text{Interest revenue} & \\text{Rental income less depreciation} \\\\\n\\text{Cash Flow Statement} & \\text{Principal in CFI, Interest in CFO} & \\text{Full rental payment in CFO} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:145:3"
       ]
@@ -3348,9 +3534,15 @@
     },
     {
       "asset": "43c99139ca697b0ef270.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\text{Purchase price} & \\text{X} \\\\\n\\text{Fair market value of net assets acquired} & \\text{(X)} \\\\\n\\text{Fair market value of identifiable intangibles previously not recognized} & \\underline{\\text{(X)}} \\\\\n\\text{Goodwill} & \\text{X} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:123:4"
       ]
@@ -3373,9 +3565,15 @@
     },
     {
       "asset": "448f0b574d80ae590d30.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{df} & \\textbf{p = 0.10} & \\textbf{p = 0.05} & \\textbf{p = 0.025} \\\\\n\\hline\n38 & 1.304 & 1.686 & 2.024 \\\\\n39 & 1.304 & 1.685 & 2.023 \\\\\n40 & 1.303 & 1.684 & 2.021 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:97:0"
       ]
@@ -3498,9 +3696,15 @@
     },
     {
       "asset": "47a778e8d0cc4e8c245b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning Lease} \\\\ \\text{Receivable} \\end{array} & \\begin{array}{c} \\text{Payment} \\\\ \\text{Received} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Income (6\\%)} \\end{array} & \\begin{array}{c} \\text{Principal} \\\\ \\text{Collected} \\end{array} & \\begin{array}{c} \\text{Ending Lease} \\\\ \\text{Receivable} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:144:0"
       ]
@@ -3656,18 +3860,30 @@
     },
     {
       "asset": "4b028243ef1b6d3cbc39.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Costs Expensed When Incurred} & \\textbf{Amount} \\\\\n\\hline\n\\text{Training costs for employees operating equipment} & \\$7{,}500 \\\\\n\\text{Administrative overhead allocated to project} & \\underline{\\$35{,}000} \\\\\n\\textbf{Total Costs Expensed} & \\underline{\\underline{\\$42{,}500}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:33:1"
       ]
     },
     {
       "asset": "4b973189367edba55ab4.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llr}\n\\hline\n\\textbf{Keystroke} & \\textbf{Display} & \\textbf{Explanation} \\\\\n\\hline\n[\\text{CF}] & \\text{CF0 = 0} & \\text{Enter Cash Flow worksheet} \\\\\n[\\text{2nd}][\\text{CLR WORK}] & \\text{CF0 = 0} & \\text{Clear previous entries} \\\\\n50 [+/-][\\text{ENTER}] & \\text{CF0 = } -50 & \\text{Initial outlay} \\\\\n[\\downarrow] 100 [+/-][\\text{ENTER}] & \\text{C01 = } -100 & \\text{Cash flow Year 1} \\\\\n[\\downarrow][\\downarrow] 150 [\\text{ENTER}] & \\text{C02 = 150} & \\text{Cash flow Year 2} \\\\\n[\\text{IRR}][\\text{CPT}] & \\text{IRR = 0.00} & \\text{Compute IRR (0.0\\%)} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:20:6"
       ]
@@ -3737,9 +3953,15 @@
     },
     {
       "asset": "4ded731434f7fca8f53a.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\text{Original cost} & \\$900{,}000 \\\\\n\\text{Accumulated depreciation to date} & \\$100{,}000 \\\\\n\\text{Expected future cash flows} & \\$795{,}000 \\\\\n\\text{Fair value} & \\$790{,}000 \\\\\n\\text{Value in use} & \\$785{,}000 \\\\\n\\text{Selling costs} & \\$30{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:125:8"
       ]
@@ -3890,9 +4112,15 @@
     },
     {
       "asset": "515855f8b9b9f78398d9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\text{Margin call price}=P_0\\left(\\frac{1-\\text{initial margin}}{1-\\text{maintenance margin}}\\right),\n\\quad P_0=\\text{initial purchase price} \\\\[6pt]\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks in index adjusted for splits}} \\\\[6pt]\n\\text{Market capitalization-weighted index}\n=\\frac{\\text{current total market value of index stocks}}{\\text{base-year total market value of index stocks}}\n\\times\\text{base-year index value} \\\\[6pt]\n\\text{Equal-weighted index}\n=(1+\\text{average percentage change in index stocks})\\times\\text{initial index value} \\\\[6pt]\n[Q(P-VC)]-FC,\n\\quad Q=\\text{units sold},\\ P=\\text{price per unit},\\ VC=\\text{variable costs},\\ FC=\\text{fixed costs} \\\\[6pt]\nDOL=\\frac{\\%\\Delta\\text{ operating profit}}{\\%\\Delta\\text{ sales}},\n\\qquad DFL=\\frac{\\%\\Delta\\text{ net income}}{\\%\\Delta\\text{ operating income}} \\\\[6pt]\n\\text{Preferred stock value}=\\frac{D_p}{k_p} \\\\[6pt]\n\\text{Constant-growth dividend discount model:}\\qquad V_0=\\frac{D_1}{k_e-g_c} \\\\[6pt]\n\\text{Sustainable growth rate:}\\qquad g=b\\times ROE,\\quad\nb=1-\\text{dividend payout rate}\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:367:0"
       ]
@@ -3914,9 +4142,15 @@
     },
     {
       "asset": "5192b64bec7da308db37.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{DTL Schedule (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} \\\\\n\\hline\n\\text{Accounting depreciation} & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 & \\$20{,}000 \\\\\n\\text{Tax depreciation} & \\underline{33{,}330} & \\underline{44{,}450} & \\underline{14{,}810} & \\underline{7{,}410} & \\underline{0} \\\\\n\\text{Temporary difference} & (13{,}330) & (24{,}450) & 5{,}190 & 12{,}590 & 20{,}000 \\\\\n\\textbf{DTL Change @ 30\\%} & +\\$4{,}000 & +\\$7{,}335 & -\\$1{,}557 & -\\$3{,}777 & -\\$6{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:167:4"
       ]
@@ -3993,9 +4227,15 @@
     },
     {
       "asset": "53c07c4fbdf87468fb43.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrl}\n\\hline\n\\text{Disposal proceeds} & \\text{X} & \\text{Cash flow from investing} \\\\\n\\text{Carrying value before disposal} & \\underline{\\text{(X)}} & \\text{Removed from balance sheet} \\\\\n\\text{Disposal gain (loss)} & \\text{X/(X)} & \\text{Accounting gain or (loss) in income statement} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:127:7"
       ]
@@ -4424,27 +4664,45 @@
     },
     {
       "asset": "5afb9617c177725ce881.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Collected From Customers} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$100{,}000 \\\\\n\\text{Decrease in accounts receivable} & \\underline{+7{,}000} \\\\\n\\textbf{Cash collected from customers} & \\underline{\\underline{\\$107{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:74:0"
       ]
     },
     {
       "asset": "5b15780f0fb7c3e70358.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{Bitcoin (In USD)} & \\begin{array}{c} \\text{S\\&P 500} \\\\ \\text{Total Return} \\end{array} & \\begin{array}{c} \\text{MSCI World} \\\\ \\text{Index Return} \\end{array} & \\begin{array}{c} \\text{Bloomberg Global} \\\\ \\text{Aggregate Index} \\end{array} \\\\\n\\hline\n\\text{Average} & 8.84\\% & 1.13\\% & 0.66\\% & 0.16\\% \\\\\n\\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\\\\n\\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:62:4"
       ]
     },
     {
       "asset": "5b22f1b5f283284f5c7f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Net Principal Flow on Bonds Payable} & \\textbf{Amount} \\\\\n\\hline\n\\text{Beginning bonds payable} & \\$10{,}000 \\\\\n\\text{New bond issuance} & +8{,}000 \\\\\n\\text{Bond retirements / principal repayments} & \\underline{-3{,}000} \\\\\n\\textbf{Ending bonds payable} & \\underline{\\underline{\\$15{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:85:0"
       ]
@@ -4564,9 +4822,15 @@
     },
     {
       "asset": "5d68f4c1921b12dd0247.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Key ratios summary} & \\textbf{20X6} & \\textbf{20X7} \\\\\n\\hline\n\\text{Inventory turnover} & 3.7 & 6.8 \\\\\n\\text{Days of inventory on hand} & 98 & 53 \\\\\n\\text{Gross profit margin} & 53\\% & 45\\% \\\\\n\\text{Sales growth} & 4\\% & 36\\% \\\\\n\\text{Current ratio} & 4.24 & 3.98 \\\\\n\\text{Quick ratio} & 3.20 & 3.78 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:115:2"
       ]
@@ -4589,9 +4853,15 @@
     },
     {
       "asset": "5e4e36a280ec13ad21f8.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{l|ll}\n\\hline\n& \\textbf{Tight Monetary Policy} & \\textbf{Easy Monetary Policy} \\\\\n\\hline\n\\textbf{Tight Fiscal Policy} & \\begin{array}{l} \\text{Real interest rates: Higher} \\\\ \\text{Aggregate output: Lower} \\\\ \\text{Public sector: Shrinking} \\end{array} & \\begin{array}{l} \\text{Real interest rates: Lower} \\\\ \\text{Aggregate output: Uncertain} \\\\ \\text{Private sector: Expanding} \\end{array} \\\\[12pt]\n\\textbf{Easy Fiscal Policy} & \\begin{array}{l} \\text{Real interest rates: Higher} \\\\ \\text{Aggregate output: Uncertain} \\\\ \\text{Public sector: Expanding} \\end{array} & \\begin{array}{l} \\text{Real interest rates: Lower} \\\\ \\text{Aggregate output: Higher} \\\\ \\text{Private \\& Public: Expanding} \\end{array} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:186:5"
       ]
@@ -4668,9 +4938,15 @@
     },
     {
       "asset": "5f069797e6e810c80e3f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Common-Size Balance Sheet (\\%)} & \\textbf{East Co.} & \\textbf{West Co.} \\\\\n\\hline\n\\text{Cash and equivalents} & 5.0\\% & 4.0\\% \\\\\n\\text{Accounts receivable} & 12.0\\% & 12.0\\% \\\\\n\\text{Inventory} & \\underline{18.0\\%} & \\underline{14.0\\%} \\\\\n\\text{Total current assets} & 35.0\\% & 30.0\\% \\\\\n\\text{Net PP\\&E} & \\underline{65.0\\%} & \\underline{70.0\\%} \\\\\n\\textbf{Total assets} & \\underline{\\underline{100.0\\%}} & \\underline{\\underline{100.0\\%}} \\\\\n\\hline\n\\text{Current liabilities} & 20.0\\% & 20.0\\% \\\\\n\\text{Long-term debt} & 30.0\\% & 30.0\\% \\\\\n\\text{Shareholders' equity} & \\underline{50.0\\%} & \\underline{50.0\\%} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{100.0\\%}} & \\underline{\\underline{100.0\\%}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:64:0"
       ]
@@ -4852,18 +5128,30 @@
     },
     {
       "asset": "62340509398a22ebb7f1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n& \\textbf{Current Year} & \\textbf{Previous Year} & \\textbf{Industry Average} \\\\\n\\hline\n\\text{Current ratio} & 1.9 & 2.1 & 1.5 \\\\\n\\text{Total asset turnover} & 2.0 & 2.3 & 2.4 \\\\\n\\text{Net profit margin} & 5.0\\% & 5.8\\% & 6.5\\% \\\\\n\\text{Return on common equity} & 21.1\\% & 24.1\\% & 19.8\\% \\\\\n\\text{Debt-to-equity} & 80.9\\% & 99.4\\% & 35.7\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:213:3"
       ]
     },
     {
       "asset": "6238aa1942b15e9eaac3.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{aligned}\n\\textbf{ROE:} & \\\\\n\\text{20X3:} &\\quad 21.5 / 119 = 18.1\\% \\\\\n\\text{20X4:} &\\quad 22.3 / 124 = 18.0\\% \\\\\n\\text{20X5:} &\\quad 21.9 / 126 = 17.4\\% \\\\\n\\\\[6pt]\n\\textbf{DuPont:} & \\\\\n\\text{20X3:} &\\quad 7.0\\% \\times 1.33 \\times 1.93 \\\\\n\\text{20X4:} &\\quad 6.4\\% \\times 1.21 \\times 2.34 \\\\\n\\text{20X5:} &\\quad 5.3\\% \\times 1.17 \\times 2.78\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:216:6"
       ]
@@ -5303,9 +5591,15 @@
     },
     {
       "asset": "68211594bc802b33c92a.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Date} & \\textbf{Transaction} & \\textbf{Units} & \\textbf{Unit Price / Cost} \\\\\n\\hline\n\\text{Jan 1} & \\text{Beginning inventory} & 200 & \\$10.00 \\\\\n\\text{Mar 15} & \\text{Purchase} & 300 & \\$11.00 \\\\\n\\text{Jun 20} & \\text{Sale} & 350 & \\$15.00 \\\\\n\\text{Sep 10} & \\text{Purchase} & 400 & \\$12.00 \\\\\n\\text{Dec 5} & \\text{Sale} & 250 & \\$16.00 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:31:0"
       ]
@@ -5633,9 +5927,15 @@
     },
     {
       "asset": "6fae291f3cddc6447638.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Tax Expense Breakdown (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Current tax payable} & \\$8{,}865 & \\$10{,}458 & \\$10{,}955 \\\\\n\\text{Deferred tax adjustment} & \\underline{(300)} & \\underline{300} & \\underline{1{,}050} \\\\\n\\textbf{Income tax expense (Income Statement)} & \\underline{\\underline{\\$8{,}565}} & \\underline{\\underline{\\$10{,}758}} & \\underline{\\underline{\\$12{,}005}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:168:8"
       ]
@@ -5659,18 +5959,30 @@
     },
     {
       "asset": "701ed5eff65b74fbfce9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{Company A} & \\textbf{Company B} \\\\\n\\hline\n\\text{Revenues} & \\$500 & \\$900 \\\\\n\\text{EBIT} & 35 & 100 \\\\\n\\text{Interest expense} & 5 & 0 \\\\\n\\text{EBT} & 30 & 100 \\\\\n\\text{Taxes} & \\underline{10} & \\underline{40} \\\\\n\\text{Net income} & 20 & 60 \\\\\n\\text{Average assets} & 250 & 300 \\\\\n\\text{Total debt} & 100 & 50 \\\\\n\\text{Average equity} & \\$150 & \\$250 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:217:9"
       ]
     },
     {
       "asset": "7031d0f4fd277ce9a3f9.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\text{value after a down-move, } c_1^d \\text{ is } \\operatorname{Max}(0, \\$42 - \\$55) = 0.",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:221:0",
         "3:221:1",
@@ -5876,9 +6188,15 @@
     },
     {
       "asset": "73dc12ecfc35b84f7ec5.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{Current Year} \\\\\n\\hline\n\\text{Sales} & \\$4{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{3{,}000} \\\\\n\\text{Gross profit} & 1{,}000 \\\\\n\\text{Operating expenses} & \\underline{650} \\\\\n\\text{Operating profit} & 350 \\\\\n\\text{Interest expense} & \\underline{50} \\\\\n\\text{Earnings before taxes} & 300 \\\\\n\\text{Taxes} & \\underline{100} \\\\\n\\text{Net income} & \\underline{200} \\\\\n\\text{Common dividends} & \\underline{60} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:211:2"
       ]
@@ -5909,9 +6227,15 @@
     },
     {
       "asset": "740e8bf422d1a74b9e15.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Cash Flow Statement (\\% of Revenues)} & \\textbf{20X9} & \\textbf{20X8} & \\textbf{20X7} \\\\\n\\hline\n\\text{Cash from operating activities (CFO)} & 14.2\\% & 13.8\\% & 12.5\\% \\\\\n\\text{Cash from investing activities (CFI)} & -8.5\\% & -9.1\\% & -7.8\\% \\\\\n\\text{Cash from financing activities (CFF)} & \\underline{-3.2\\%} & \\underline{-2.5\\%} & \\underline{-3.0\\%} \\\\\n\\textbf{Net change in cash} & 2.5\\% & 2.2\\% & 1.7\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:97:0"
       ]
@@ -5958,9 +6282,15 @@
     },
     {
       "asset": "7599db3f980f38142f2b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Stock} & \\textbf{Forecast Return} & \\textbf{Required Return} \\\\\n\\hline\n\\text{A} & (\\$27 - \\$25 + \\$1) / \\$25 = 12.0\\% & 0.07 + (1.0)(0.15 - 0.07) = 15.0\\% \\\\\n\\text{B} & (\\$45 - \\$40 + \\$2) / \\$40 = 17.5\\% & 0.07 + (0.8)(0.15 - 0.07) = 13.4\\% \\\\\n\\text{C} & (\\$17 - \\$15 + \\$0.5) / \\$15 = 16.6\\% & 0.07 + (1.2)(0.15 - 0.07) = 16.6\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:99:1"
       ]
@@ -6354,9 +6684,15 @@
     },
     {
       "asset": "7bc6afde6ef40f0475a6.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Timing Difference \\& DTA Schedule (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Warranty expense (accrual for book)} & \\$2{,}000 & \\$5{,}000 & \\$8{,}000 \\\\\n\\text{Warranty paid (deductible for tax)} & \\underline{1{,}000} & \\underline{4{,}000} & \\underline{4{,}500} \\\\\n\\text{Cumulative temporary difference} & \\$1{,}000 & \\$2{,}000 & \\$5{,}500 \\\\\n\\textbf{Ending Deferred Tax Asset @ 30\\%} & \\underline{\\underline{\\$300}} & \\underline{\\underline{\\$600}} & \\underline{\\underline{\\$1{,}650}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:168:5"
       ]
@@ -6526,9 +6862,15 @@
     },
     {
       "asset": "7dc657bd79cecbffc2f8.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Cash Flow Item} & \\textbf{U.S. GAAP} & \\textbf{IFRS} \\\\\n\\hline\n\\text{Interest received} & \\text{Operating} & \\text{Operating or Investing} \\\\\n\\text{Interest paid} & \\text{Operating} & \\text{Operating or Financing} \\\\\n\\text{Dividends received} & \\text{Operating} & \\text{Operating or Investing} \\\\\n\\text{Dividends paid} & \\text{Financing} & \\text{Operating or Financing} \\\\\n\\text{Taxes paid} & \\text{Operating} & \\text{Operating (unless specific)} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:92:3"
       ]
@@ -7010,9 +7352,15 @@
     },
     {
       "asset": "85130fb513dc68f0cbda.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 900\\text{ units @ }\\$105 & \\$94{,}500 \\\\\n\\text{COGS} & 900\\text{ units @ }\\$45 & \\underline{\\$40{,}500} \\\\\n\\text{Gross profit} & & \\$54{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$24{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 25\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:230:4"
       ]
@@ -7236,9 +7584,15 @@
     },
     {
       "asset": "890263d6938a04faada4.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Source} & \\begin{array}{c} \\text{Fair Market} \\\\ \\text{Value (\\$000s)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\%)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\$)} \\end{array} & \\begin{array}{c} \\text{Net} \\\\ \\text{Proceeds} \\end{array} \\\\\n\\hline\n\\text{Cash and marketable securities} & \\$100 & 0\\% & \\$0 & \\$100 \\\\\n\\text{Inventory and receivables} & \\$200 & 15\\% & \\$30 & \\$170 \\\\\n\\text{Empty warehouse} & \\underline{\\$300} & 30\\% & \\underline{\\$90} & \\underline{\\$210} \\\\\n\\textbf{Total} & \\underline{\\underline{\\$600}} & & \\underline{\\underline{\\$120}} & \\underline{\\underline{\\$480}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:248:6"
       ]
@@ -7517,9 +7871,15 @@
     },
     {
       "asset": "906b0829878cf9c4a3d6.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{North Co.} & \\textbf{South Co.} \\\\\n\\hline\n\\text{Revenue} & \\$75{,}000{,}000 & \\$3{,}500{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{52{,}500{,}000} & \\underline{700{,}000} \\\\\n\\text{Gross profit} & \\$22{,}500{,}000 & \\$2{,}800{,}000 \\\\\n\\text{Administrative expense} & 11{,}250{,}000 & 525{,}000 \\\\\n\\text{Research expense} & \\underline{3{,}750{,}000} & \\underline{700{,}000} \\\\\n\\text{Operating profit} & \\$7{,}500{,}000 & \\$1{,}575{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:49:17"
       ]
@@ -7955,18 +8315,30 @@
     },
     {
       "asset": "988c7893d36a8a1bd8ca.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Model Form} & \\textbf{Equation} & \\textbf{Slope Interpretation } \\beta_1 \\\\\n\\hline\n\\text{Linear-Linear} & Y = \\beta_0 + \\beta_1 X & \\text{A 1-unit increase in } X \\text{ leads to a } \\beta_1 \\text{-unit change in } Y \\\\\n\\text{Log-Linear} & \\ln(Y) = \\beta_0 + \\beta_1 X & \\text{A 1-unit increase in } X \\text{ leads to a } (\\beta_1 \\times 100)\\% \\text{ change in } Y \\\\\n\\text{Linear-Log} & Y = \\beta_0 + \\beta_1 \\ln(X) & \\text{A 1\\% increase in } X \\text{ leads to a } (\\beta_1 / 100) \\text{-unit change in } Y \\\\\n\\text{Log-Log} & \\ln(Y) = \\beta_0 + \\beta_1 \\ln(X) & \\text{A 1\\% increase in } X \\text{ leads to a } \\beta_1\\% \\text{ change in } Y \\text{ (elasticity)} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:130:1"
       ]
     },
     {
       "asset": "99a395b3005dcf9a0cf9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{Economic State} & \\textbf{Probability } P(s) & \\textbf{Return } R(s) & P(s)[R(s) - E(R)]^2 \\\\\n\\hline\n\\text{Boom} & 0.30 & 20.0\\% & 0.30(0.20 - 0.117)^2 = 0.002067 \\\\\n\\text{Normal} & 0.50 & 10.0\\% & 0.50(0.10 - 0.117)^2 = 0.000145 \\\\\n\\text{Slow} & 0.20 & 4.0\\% & 0.20(0.04 - 0.117)^2 = 0.001186 \\\\\n\\hline\n\\textbf{Total / Variance } \\sigma^2 & & & 0.003398 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:62:4"
       ]
@@ -8012,9 +8384,15 @@
     },
     {
       "asset": "9ad5a7f96f9ef4ed4e1c.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Paid to Suppliers} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cost of goods sold (COGS)} & \\$40{,}000 \\\\\n\\text{Decrease in inventory} & -8{,}000 \\\\\n\\text{Decrease in accounts payable} & \\underline{+2{,}000} \\\\\n\\textbf{Cash paid to suppliers} & \\underline{\\underline{\\$(34{,}000)}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:74:2"
       ]
@@ -8079,9 +8457,15 @@
     },
     {
       "asset": "9c18dc208c7a2ef8e227.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "hS_1^u-c_1^u=hS_1^d-c_1^d",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:221:3",
         "3:221:4",
@@ -8134,9 +8518,15 @@
     },
     {
       "asset": "9ca4fb017d5c655a23b8.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lllll r}\n\\hline\n& & & & & \\underline{\\textbf{Convexity}} \\\\\nC_1 = 11 & \\text{PV}_1 = 11 / 1.15 & = 9.565 & W_1 = 9.565 / 86.59 & = 0.1105 & \\mathbf{1.512} \\\\\nC_2 = 11 & \\text{PV}_2 = 11 / 1.15^2 & = 8.318 & W_2 = 8.318 / 86.59 & = 0.0961 & \\mathbf{4.537} \\\\\nC_3 = 11 & \\text{PV}_3 = 11 / 1.15^3 & = 7.233 & W_3 = 7.233 / 86.59 & = 0.0835 & \\mathbf{9.074} \\\\\nC_4 = 11 & \\text{PV}_4 = 11 / 1.15^4 & = 6.289 & W_4 = 6.289 / 86.59 & = 0.0726 & \\mathbf{15.123} \\\\\nC_5 = 111 & \\text{PV}_5 = 111 / 1.15^5 & = \\underline{55.187} & W_5 = 55.187 / 86.59 & = \\underline{0.6373} & \\mathbf{22.684} \\\\\n\\hline\n& & \\mathbf{86.59} & & \\mathbf{1.0000} & \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:104:7"
       ]
@@ -8192,9 +8582,15 @@
     },
     {
       "asset": "9daa03cc4a34d1747f8b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Hyzer Corporation: Income Statement Extracts} & \\textbf{20X7 (LIFO)} & \\textbf{20X7 (FIFO)} \\\\\n\\hline\n\\text{Revenue} & \\$350{,}000 & \\$350{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{220{,}000} & \\underline{218{,}500} \\\\\n\\text{Gross profit} & \\$130{,}000 & \\$131{,}500 \\\\\n\\text{Operating expenses} & \\underline{70{,}000} & \\underline{70{,}000} \\\\\n\\text{Operating income} & \\$60{,}000 & \\$61{,}500 \\\\\n\\text{Taxes (40\\%)} & \\underline{24{,}000} & \\underline{24{,}600} \\\\\n\\textbf{Net income} & \\underline{\\underline{\\$36{,}000}} & \\underline{\\underline{\\$36{,}900}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:114:0"
       ]
@@ -8217,18 +8613,30 @@
     },
     {
       "asset": "9dc5da52e5cce1eda307.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Stock} & \\textbf{Price Today} & \\begin{array}{c} \\text{E(Price)} \\\\ \\text{in 1 Year} \\end{array} & \\begin{array}{c} \\text{E(Dividend)} \\\\ \\text{in 1 Year} \\end{array} & \\textbf{Beta} \\\\\n\\hline\n\\text{A} & \\$25 & \\$27 & \\$1.00 & 1.0 \\\\\n\\text{B} & 40 & 45 & 2.00 & 0.8 \\\\\n\\text{C} & 15 & 17 & 0.50 & 1.2 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:98:9"
       ]
     },
     {
       "asset": "9e5716d3827f249ab639.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Feature} & \\begin{array}{c} \\textbf{Sole} \\\\ \\textbf{Proprietorship} \\end{array} & \\begin{array}{c} \\textbf{General} \\\\ \\textbf{Partnership} \\end{array} & \\begin{array}{c} \\textbf{Limited} \\\\ \\textbf{Partnership} \\end{array} & \\textbf{Corporation} \\\\\n\\hline\n\\text{Separate legal entity} & \\text{No} & \\text{No} & \\text{Yes} & \\text{Yes} \\\\\n\\text{Owner liability} & \\text{Unlimited} & \\text{Unlimited} & \\text{Limited (LPs)} & \\text{Limited} \\\\\n\\text{Taxation} & \\text{Pass-through} & \\text{Pass-through} & \\text{Pass-through} & \\text{Double taxation} \\\\\n\\text{Access to capital} & \\text{Very limited} & \\text{Limited} & \\text{Moderate} & \\text{Extensive} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:228:1"
       ]
@@ -8353,18 +8761,30 @@
     },
     {
       "asset": "a0db1a41b518f5fd261f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\textbf{Long-lived assets} & & \\\\\n\\text{Deferred tax} & 30{,}000 & 20{,}000 \\\\\n\\textbf{Current assets} & & \\\\\n\\text{Accounts receivable} & 200{,}000 & 150{,}000 \\\\\n\\text{Inventory} & 260{,}000 & 280{,}000 \\\\\n\\textbf{Current liabilities} & & \\\\\n\\text{Accounts payable} & 120{,}000 & 150{,}000 \\\\\n\\text{Unearned revenue} & 220{,}000 & 150{,}000 \\\\\n\\text{Tax payable} & 150{,}000 & 240{,}000 \\\\\n\\textbf{Long-term liabilities} & & \\\\\n\\text{Deferred tax} & 150{,}000 & 100{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:79:10"
       ]
     },
     {
       "asset": "a1901e95615ba6b26051.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Warranty Liability Roll-Forward (\\$000s)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Beginning balance} & \\$0 & \\$1{,}000 & \\$2{,}000 \\\\\n\\text{Plus: Warranty expense recognized} & 2{,}000 & 5{,}000 & 8{,}000 \\\\\n\\text{Less: Warranty payments made} & \\underline{(1{,}000)} & \\underline{(4{,}000)} & \\underline{(4{,}500)} \\\\\n\\textbf{Ending warranty liability (Balance Sheet)} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$2{,}000}} & \\underline{\\underline{\\$5{,}500}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:168:2"
       ]
@@ -8547,9 +8967,15 @@
     },
     {
       "asset": "a3d4bd9e09fe6e397b5d.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Increase in:} & \\textbf{Effect on Call Option Values} & \\textbf{Effect on Put Option Values} \\\\\n\\hline\n\\text{Price of underlying asset} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Exercise price} & \\text{Decrease} & \\text{Increase} \\\\\n\\text{Risk-free rate} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Volatility of underlying asset} & \\text{Increase} & \\text{Increase} \\\\\n\\text{Time to expiration} & \\text{Increase} & \\begin{array}{l} \\text{Increase, except some} \\\\ \\text{European puts} \\end{array} \\\\\n\\text{Costs of holding underlying asset} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Benefits of holding underlying asset} & \\text{Decrease} & \\text{Increase} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:213:3"
       ]
@@ -8571,9 +8997,15 @@
     },
     {
       "asset": "a414e01d34293345478a.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llr}\n\\hline\n\\text{Revenues} & 950\\text{ units @ }\\$105 & \\$99{,}750 \\\\\n\\text{COGS} & 950\\text{ units @ }\\$45 & \\underline{\\$42{,}750} \\\\\n\\text{Gross profit} & & \\$57{,}000 \\\\\n\\text{SG\\&A} & & \\underline{\\$30{,}000} \\\\\n\\textbf{Operating profit} & & \\underline{\\underline{\\$27{,}000}} \\\\\n\\text{Gross margin} & & 57\\% \\\\\n\\text{Operating margin} & & 27\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:230:0"
       ]
@@ -8605,9 +9037,15 @@
     },
     {
       "asset": "a4a3be627992c67d0103.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Carrying Value and Proceeds of PP\\&E Disposal} & \\textbf{Amount} \\\\\n\\hline\n\\text{Original cost of equipment sold} & \\$20{,}000 \\\\\n\\text{Less: Accumulated depreciation} & \\underline{-8{,}000} \\\\\n\\text{Carrying value at date of sale} & \\$12{,}000 \\\\\n\\text{Less: Loss on sale of equipment} & \\underline{-2{,}000} \\\\\n\\textbf{Cash proceeds from sale} & \\underline{\\underline{\\$10{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:83:3"
       ]
@@ -8676,9 +9114,15 @@
     },
     {
       "asset": "a59a1286e797537fd1d0.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Hyzer Corporation: Balance Sheet Extracts} & \\textbf{20X7 (LIFO)} & \\textbf{20X7 (FIFO)} \\\\\n\\hline\n\\text{Cash} & \\$20{,}000 & \\$19{,}400 \\\\\n\\text{Accounts receivable} & 35{,}000 & 35{,}000 \\\\\n\\text{Inventory} & \\underline{36{,}000} & \\underline{42{,}000} \\\\\n\\text{Total current assets} & \\$91{,}000 & \\$96{,}400 \\\\\n\\text{Net PP\\&E} & \\underline{120{,}000} & \\underline{120{,}000} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$211{,}000}} & \\underline{\\underline{\\$216{,}400}} \\\\\n\\hline\n\\text{Current liabilities} & \\$30{,}000 & \\$30{,}000 \\\\\n\\text{Long-term debt} & 60{,}000 & 60{,}000 \\\\\n\\text{Common stock} & 50{,}000 & 50{,}000 \\\\\n\\text{Retained earnings} & \\underline{71{,}000} & \\underline{76{,}400} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$211{,}000}} & \\underline{\\underline{\\$216{,}400}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:113:4"
       ]
@@ -8798,9 +9242,15 @@
     },
     {
       "asset": "a76fcd5d6139f16612bc.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Cash Flow Statement Extracts} & \\textbf{20X9} & \\textbf{20X8} & \\textbf{20X7} \\\\\n\\hline\n\\text{Interest paid (operating cash flow)} & \\$12{,}000 & \\$10{,}500 & \\$9{,}800 \\\\\n\\text{Capital expenditures (CFI)} & (45{,}000) & (40{,}000) & (35{,}000) \\\\\n\\text{Principal debt repayments (CFF)} & (15{,}000) & (12{,}000) & (10{,}000) \\\\\n\\text{Dividends paid (CFF)} & (20{,}000) & (18{,}000) & (15{,}000) \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:99:4"
       ]
@@ -8862,9 +9312,15 @@
     },
     {
       "asset": "a93e6133f2de169c1ab4.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Statutory Tax Rate Reconciliation} & \\textbf{20X3} & \\textbf{20X2} & \\textbf{20X1} \\\\\n\\hline\n\\text{U.S. statutory tax rate} & 35.0\\% & 35.0\\% & 35.0\\% \\\\\n\\text{Tax differential on foreign earnings} & -3.2\\% & -4.0\\% & -3.8\\% \\\\\n\\text{State and local taxes (net of federal benefit)} & +2.4\\% & +2.1\\% & +2.3\\% \\\\\n\\text{Research and development tax credits} & -1.8\\% & -1.5\\% & -1.2\\% \\\\\n\\text{Other non-deductible permanent items} & \\underline{+0.6\\%} & \\underline{+0.4\\%} & \\underline{+0.7\\%} \\\\\n\\textbf{Effective tax rate} & \\underline{\\underline{33.0\\%}} & \\underline{\\underline{32.0\\%}} & \\underline{\\underline{33.0\\%}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:171:4"
       ]
@@ -8880,9 +9336,15 @@
     },
     {
       "asset": "a9abb4ccbda249ca69e9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lllll r}\n\\hline\n& & & & & \\underline{\\textbf{Convexity}} \\\\\nC_1 = 5 & \\text{PV}_1 = 5 / 1.05 & = 4.762 & W_1 = 4.762 / 100 & = 0.0476 & \\mathbf{1.8141} \\\\\nC_2 = 5 & \\text{PV}_2 = 5 / 1.05^2 & = 4.535 & W_2 = 4.535 / 100 & = 0.0454 & \\mathbf{5.4422} \\\\\nC_3 = 5 & \\text{PV}_3 = 5 / 1.05^3 & = 4.319 & W_3 = 4.319 / 100 & = 0.0432 & \\mathbf{10.8844} \\\\\nC_4 = 105 & \\text{PV}_4 = 105 / 1.05^4 & = \\underline{86.384} & W_4 = 86.384 / 100 & = 0.8638 & \\mathbf{18.1406} \\\\\n\\hline\n& & \\mathbf{100} & & & \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:109:15"
       ]
@@ -9112,9 +9574,15 @@
     },
     {
       "asset": "ad827ab290b1c8660a15.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Year} & \\textbf{Stock A Return} & \\textbf{Stock B Return} & [R_A - \\bar{R}_A] & [R_B - \\bar{R}_B] \\\\\n\\hline\n\\text{20X1} & 10.0\\% & 12.0\\% & 10.0 - 8.0 = 2.0\\% & 12.0 - 9.0 = 3.0\\% \\\\\n\\text{20X2} & 6.0\\% & 8.0\\% & 6.0 - 8.0 = -2.0\\% & 8.0 - 9.0 = -1.0\\% \\\\\n\\text{20X3} & 8.0\\% & 7.0\\% & 8.0 - 8.0 = 0.0\\% & 7.0 - 9.0 = -2.0\\% \\\\\n\\hline\n\\textbf{Mean} & 8.0\\% & 9.0\\% & & \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:70:15"
       ]
@@ -9419,9 +9887,15 @@
     },
     {
       "asset": "b433e6e32eee7e9616c8.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Portfolio} & \\textbf{Expected Return } E(R) & \\textbf{Standard Deviation } \\sigma \\\\\n\\hline\n\\text{A} & 12.0\\% & 18.0\\% \\\\\n\\text{B} & 10.0\\% & 12.0\\% \\\\\n\\text{C} & 8.0\\% & 7.0\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:73:15"
       ]
@@ -9459,9 +9933,15 @@
     },
     {
       "asset": "b5078c1215465acab3c1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Step 2: Revenues less noncash charges} & \\mathbf{104{,}000} \\\\\n\\quad(\\$114{,}000 - \\$10{,}000) & \\\\\n\\quad\\$10{,}000 = \\text{gain on asset disposal} & \\\\\n\\textbf{Expenses less noncash charges} & \\mathbf{61{,}000} \\\\\n\\quad(\\$75{,}000 - \\$7{,}000 - \\$2{,}000 - \\$5{,}000) & \\\\\n\\quad\\$7{,}000 = \\text{depreciation} & \\\\\n\\quad\\$2{,}000 = \\text{loss on disposal of PP\\&E} & \\\\\n\\quad\\$5{,}000 = \\text{change in deferred tax liability} & \\\\\n\\quad\\text{Cost of goods sold} & 40{,}000 \\\\\n\\quad\\text{Wages} & 5{,}000 \\\\\n\\quad\\text{Interest} & 1{,}000 \\\\\n\\quad\\text{Tax payable} & \\underline{15{,}000} \\\\\n\\quad(\\text{Tax provision} - \\text{increase in DTL}) & \\\\\n\\textbf{Total} & \\mathbf{61{,}000} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:88:0"
       ]
@@ -9553,18 +10033,30 @@
     },
     {
       "asset": "b648b7cd86830bb56841.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Income Statement} & \\textbf{\\$} & \\textbf{\\$} \\\\\n\\hline\n\\text{Revenue} & & 3{,}500 \\\\\n\\text{Beginning inventory} & 400 & \\\\\n\\text{Purchases} & \\underline{2{,}330} & \\\\\n\\text{Available for sale} & 2{,}730 & \\\\\n\\text{Ending inventory} & \\underline{(296)} & \\\\\n\\text{Cost of goods sold} & & \\underline{2{,}434} \\\\\n\\textbf{Gross profit} & & 1{,}066 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:31:4"
       ]
     },
     {
       "asset": "b665660817cda5de60a9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Earnings Before Tax} & \\textbf{Year 1 (\\text{EUR }m)} & \\textbf{Year 2 (\\text{EUR }m)} & \\textbf{Year 3 (\\text{EUR }m)} \\\\\n\\hline\n\\text{French operations} & 200 & 150 & 210 \\\\\n\\text{Overseas operations} & \\underline{50} & \\underline{75} & \\underline{90} \\\\\n\\textbf{Total} & 250 & 225 & 300 \\\\\n\\hline\n\\hline\n\\textbf{Income Taxes (Income Statement)} & \\textbf{Year 1 (\\text{EUR }m)} & \\textbf{Year 2 (\\text{EUR }m)} & \\textbf{Year 3 (\\text{EUR }m)} \\\\\n\\hline\n\\text{Current: French operations} & 56 & 30 & 59 \\\\\n\\text{Current: Overseas operations} & \\underline{12} & \\underline{20} & \\underline{21} \\\\\n\\text{Current income taxes} & 68 & 50 & 80 \\\\\n\\text{Deferred: French operations} & 8 & (4) & 6 \\\\\n\\text{Deferred: Overseas operations} & \\underline{(1)} & \\underline{2} & \\underline{2} \\\\\n\\text{Deferred income taxes} & 7 & 2 & 8 \\\\\n\\textbf{Total tax expense} & 75 & 48 & 88 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:174:0"
       ]
@@ -9722,9 +10214,15 @@
     },
     {
       "asset": "b8f7f76b5f0bf28f896b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Portfolio} & \\textbf{Calculation } [E(R) - R_L] / \\sigma & \\textbf{SFRatio} \\\\\n\\hline\n\\text{A} & (12.0 - 5.0) / 18.0 & 0.389 \\\\\n\\text{B} & (10.0 - 5.0) / 12.0 & 0.417 \\\\\n\\text{C} & (8.0 - 5.0) / 7.0 & 0.429 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:73:3"
       ]
@@ -9816,9 +10314,15 @@
     },
     {
       "asset": "ba419a01ea9240df9ba9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{York, Inc.} & \\textbf{Zale, Inc.} \\\\\n\\hline\n\\text{Revenue} & \\$2{,}200{,}000 & \\$11{,}000{,}000 \\\\\n\\text{Depreciation and amortization} & \\$220{,}000 & \\$900{,}000 \\\\\n\\text{Earnings before interest and taxes} & \\$550{,}000 & \\$2{,}250{,}000 \\\\\n\\text{Cash flow from operations} & \\$300{,}000 & \\$850{,}000 \\\\\n\\text{Interest expense} & \\$40{,}000 & \\$160{,}000 \\\\\n\\text{Total debt} & \\$1{,}900{,}000 & \\$2{,}700{,}000 \\\\\n\\text{Cash and marketable securities} & \\$500{,}000 & \\$1{,}000{,}000 \\\\\n\\text{Dividends} & \\$30{,}000 & \\$200{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:134:7"
       ]
@@ -10049,9 +10553,15 @@
     },
     {
       "asset": "bee5e481e40d6ac920ad.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lllll}\n\\hline\nC_1 = 3.5 & \\text{PV}_1 = 3.5 / 1.025 & = 3.415 & W_1 = 3.415 / 103.762 & = 0.0329 \\\\\nC_2 = 3.5 & \\text{PV}_2 = 3.5 / 1.025^2 & = 3.331 & W_2 = 3.331 / 103.762 & = 0.0321 \\\\\nC_3 = 3.5 & \\text{PV}_3 = 3.5 / 1.025^3 & = 3.250 & W_3 = 3.250 / 103.762 & = 0.0313 \\\\\nC_4 = 103.5 & \\text{PV}_4 = 103.5 / 1.025^4 & = \\underline{93.766} & W_4 = 93.766 / 103.762 & = \\underline{0.9037} \\\\\n\\hline\n& & \\mathbf{103.762} & & \\mathbf{1.0000} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:95:0"
       ]
@@ -10100,9 +10610,15 @@
     },
     {
       "asset": "c0931084e800172bb17d.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Cash Flow: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Cash from operations (CFO)} & 79{,}000 & 79{,}000 & 79{,}000 & 237{,}000 \\\\\n\\text{Cash from investing (CFI)} & \\underline{(90{,}000)} & \\underline{0} & \\underline{0} & \\underline{(90{,}000)} \\\\\n\\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:35:3"
       ]
@@ -10173,9 +10689,15 @@
     },
     {
       "asset": "c1ff69501c6d5344b906.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Key Inventory Ratios} & \\textbf{LIFO} & \\textbf{FIFO} \\\\[8pt]\n\\hline\n\\text{Gross profit margin} & \\frac{\\$130{,}000}{\\$350{,}000} = 37.1\\% & \\frac{\\$131{,}500}{\\$350{,}000} = 37.6\\% \\\\[6pt]\n\\text{Current ratio} & \\frac{\\$91{,}000}{\\$30{,}000} = 3.03 & \\frac{\\$96{,}400}{\\$30{,}000} = 3.21 \\\\[8pt]\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:110:4"
       ]
@@ -10253,9 +10775,15 @@
     },
     {
       "asset": "c385d8af112fa9891a22.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Computation of CFF} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cash from bond issuance} & +\\$10{,}000 \\\\\n\\text{Repayment of long-term debt} & -12{,}500 \\\\\n\\text{Dividends paid to shareholders} & \\underline{-6{,}000} \\\\\n\\textbf{Net cash flow from financing activities (CFF)} & \\underline{\\underline{\\$(8{,}500)}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:86:1"
       ]
@@ -10317,9 +10845,15 @@
     },
     {
       "asset": "c5ecd9b39ffb55f3619e.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n\\begin{array}{c} \\text{Source of} \\\\ \\text{Variation} \\end{array} & \\begin{array}{c} \\text{Degrees of} \\\\ \\text{Freedom (df)} \\end{array} & \\begin{array}{c} \\text{Sum of} \\\\ \\text{Squares} \\end{array} & \\begin{array}{c} \\text{Mean Sum of} \\\\ \\text{Squares} \\end{array} \\\\\n\\hline\n\\text{Regression (explained)} & 1 & \\text{SSR} & \\text{MSR} = \\frac{\\text{SSR}}{k} = \\frac{\\text{SSR}}{1} = \\text{SSR} \\\\[6pt]\n\\text{Error (unexplained)} & n - 2 & \\text{SSE} & \\text{MSE} = \\frac{\\text{SSE}}{n - 2} \\\\\n\\textbf{Total} & n - 1 & \\text{SST} & \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:129:5"
       ]
@@ -10569,18 +11103,30 @@
     },
     {
       "asset": "ca036f8ef817fb8d1dd7.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\text{Approximate modified duration}=\\frac{V_--V_+}{2V_0\\Delta YTM},\\quad\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0}\\\\[8pt]\n\\text{Portfolio duration}=w_1D_1+w_2D_2+\\cdots+w_ND_N\\\\[8pt]\n\\text{Effective duration}=\\frac{V_--V_+}{2V_0\\Delta\\text{Curve}},\\quad\n\\text{Effective convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta\\text{Curve})^2V_0}\\\\[8pt]\n\\text{Expected loss}=\\text{probability of default}\\times\\text{loss given default},\\quad\n\\text{Loan-to-value ratio}=\\frac{\\text{current mortgage amount}}{\\text{current appraised value}}\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:232:5"
       ]
     },
     {
       "asset": "ca6ef3f4adc88bf5b0b4.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{\\$} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\textbf{Noncash charges} & \\\\\n\\quad\\text{Depreciation} & 7{,}000 \\\\\n\\quad\\text{Increase in deferred tax liability} & 5{,}000 \\\\\n\\quad\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\quad\\text{Gain from sale of land} & \\underline{(10{,}000)} \\\\\n\\text{Subtotal} & 43{,}000 \\\\\n\\textbf{Investment in working capital} & \\\\\n\\quad\\text{Increase in receivables} & (1{,}000) \\\\\n\\quad\\text{Decrease in inventories} & 2{,}000 \\\\\n\\quad\\text{Increase in accounts payable} & 4{,}000 \\\\\n\\quad\\text{Decrease in wages payable} & (3{,}500) \\\\\n\\quad\\text{Increase in interest payable} & 500 \\\\\n\\quad\\text{Increase in unearned revenue liability} & 4{,}000 \\\\\n\\quad\\text{Increase in taxes payable} & \\underline{1{,}000} \\\\\n\\textbf{Operating cash flows} & \\mathbf{50{,}000} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:99:3"
       ]
@@ -10611,9 +11157,15 @@
     },
     {
       "asset": "cb6dc61edd5459cc54eb.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Cash Flow: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Cash from operations (CFO)} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\text{Cash from investing (CFI)} & \\underline{0} & \\underline{0} & \\underline{0} & \\underline{0} \\\\\n\\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:35:7"
       ]
@@ -10661,9 +11213,15 @@
     },
     {
       "asset": "ccd6c0dfb6444503d784.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Tax return: Firebird Corporation} & \\textbf{Year 1 (\\$000)} & \\textbf{Year 2 (\\$000)} & \\textbf{Year 3 (\\$000)} \\\\\n\\hline\n\\text{Revenue} & 100{,}000 & 120{,}000 & 130{,}000 \\\\\n\\text{Cost of sales} & 28{,}500 & 34{,}200 & 37{,}050 \\\\\n\\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\\\\n\\text{Depreciation} & 10{,}000 & 10{,}000 & 10{,}000 \\\\\n\\text{Warranty costs} & 2{,}000 & 5{,}000 & 8{,}000 \\\\\n\\text{Interest expense} & \\underline{10{,}000} & \\underline{12{,}000} & \\underline{12{,}500} \\\\\n\\text{Taxable income} & 29{,}550 & 34{,}860 & 36{,}515 \\\\\n\\textbf{Tax payable (30\\%)} & 8{,}865 & 10{,}458 & 10{,}955 \\\\\n\\hline\n\\hline\n\\textbf{Income statement: Firebird Corporation} & \\textbf{Year 1 (\\$000)} & \\textbf{Year 2 (\\$000)} & \\textbf{Year 3 (\\$000)} \\\\\n\\hline\n\\text{Revenue} & 95{,}000 & 114{,}000 & 123{,}500 \\\\\n\\text{Cost of sales} & \\underline{28{,}500} & \\underline{34{,}200} & \\underline{37{,}050} \\\\\n\\text{Gross profit} & 66{,}500 & 79{,}800 & 86{,}450 \\\\\n\\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\\\\n\\text{Depreciation} & 8{,}000 & 8{,}000 & 8{,}000 \\\\\n\\text{Interest expense} & \\underline{10{,}000} & \\underline{12{,}000} & \\underline{12{,}500} \\\\\n\\text{Earnings before tax} & 28{,}550 & 35{,}860 & 40{,}015 \\\\\n\\text{Tax expense} & \\underline{8{,}565} & \\underline{10{,}758} & \\underline{12{,}005} \\\\\n\\textbf{Net income} & 19{,}985 & 25{,}102 & 28{,}010 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:166:0"
       ]
@@ -10709,9 +11267,15 @@
     },
     {
       "asset": "cd4273ac668e90e54170.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrrrr}\n\\hline\n& \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} & \\textbf{Year 6} & \\textbf{Total} \\\\\n\\hline\n\\text{Accounting depreciation} & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$5{,}000 & \\$30{,}000 \\\\\n\\text{Tax return depreciation} & \\$10{,}000 & \\$6{,}667 & \\$4{,}444 & \\$2{,}963 & \\$1{,}975 & \\$3{,}951 & \\$30{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:161:8"
       ]
@@ -10742,18 +11306,30 @@
     },
     {
       "asset": "ce6fcbe2940ba0415182.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Paid to Suppliers Reconciliation} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cost of goods sold} & \\$1{,}400{,}000 \\\\\n\\text{Plus: Increase in inventory} & +30{,}000 \\\\\n\\text{Purchases from suppliers} & \\$1{,}430{,}000 \\\\\n\\text{Less: Increase in accounts payable} & \\underline{-20{,}000} \\\\\n\\textbf{Cash paid to suppliers} & \\underline{\\underline{\\$(1{,}410{,}000)}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:93:4"
       ]
     },
     {
       "asset": "cf286e73fdd3d5bfdacd.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n& \\textbf{Share Price Dec 31, 20X6} & \\textbf{Share Price Jan 31, 20X7} \\\\\n\\hline\n\\text{Stock X} & \\$10 & \\$20 \\\\\n\\text{Stock Y} & \\$20 & \\$15 \\\\\n\\text{Stock Z} & \\$60 & \\$40 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:264:11"
       ]
@@ -10801,9 +11377,15 @@
     },
     {
       "asset": "d00cfd67de1bafe37f99.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Financial year} & \\textbf{20X2} & \\textbf{20X1} \\\\\n& \\text{\\pounds m} & \\text{\\pounds m} \\\\\n\\hline\n\\textbf{Income statement extract} & & \\\\\n\\text{Revenues} & 2{,}000{,}000 & 1{,}800{,}000 \\\\\n\\textbf{Balance sheet extract} & & \\\\\n\\text{Accounts receivable} & 900{,}000 & 500{,}000 \\\\\n\\text{Unearned revenue (deferred)} & 1{,}000{,}000 & 300{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:70:4"
       ]
@@ -10900,9 +11482,15 @@
     },
     {
       "asset": "d0de22b301608827e621.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{cccc}\n\\hline\n\\textbf{Company} & \\textbf{Number of Shares (000s)} & \\textbf{Stock Price} & \\textbf{Capitalization} \\\\\n\\hline\n\\text{A} & 100 & \\$100 & \\$10{,}000{,}000 \\\\\n\\text{B} & 1{,}000 & \\$10 & \\$10{,}000{,}000 \\\\\n\\text{C} & 20{,}000 & \\$1 & \\$20{,}000{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:266:3"
       ]
@@ -10925,9 +11513,15 @@
     },
     {
       "asset": "d132d3c009563ca041ca.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Balance Sheets as of Dec 31} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\textbf{Assets} & & \\\\\n\\text{Cash} & \\$25{,}000 & \\$15{,}000 \\\\\n\\text{Accounts receivable} & 35{,}000 & 30{,}000 \\\\\n\\text{Inventory} & 42{,}000 & 38{,}000 \\\\\n\\text{Prepaid expenses} & \\underline{5{,}000} & \\underline{6{,}000} \\\\\n\\text{Total current assets} & \\$107{,}000 & \\$89{,}000 \\\\\n\\text{Land} & 35{,}000 & 40{,}000 \\\\\n\\text{Gross property, plant, and equipment} & 69{,}000 & 60{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(12{,}000)} & \\underline{(9{,}000)} \\\\\n\\text{Net PP\\&E} & \\underline{57{,}000} & \\underline{51{,}000} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$199{,}000}} & \\underline{\\underline{\\$180{,}000}} \\\\\n\\hline\n\\textbf{Liabilities and Equity} & & \\\\\n\\text{Accounts payable} & \\$28{,}000 & \\$25{,}000 \\\\\n\\text{Accrued liabilities} & 9{,}000 & 7{,}000 \\\\\n\\text{Income taxes payable} & \\underline{6{,}000} & \\underline{4{,}000} \\\\\n\\text{Total current liabilities} & \\$43{,}000 & \\$36{,}000 \\\\\n\\text{Long-term debt} & 40{,}000 & 45{,}000 \\\\\n\\text{Deferred tax liability} & \\underline{10{,}000} & \\underline{5{,}000} \\\\\n\\text{Total liabilities} & \\$93{,}000 & \\$86{,}000 \\\\\n\\text{Common stock} & 50{,}000 & 45{,}000 \\\\\n\\text{Retained earnings} & \\underline{56{,}000} & \\underline{49{,}000} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$199{,}000}} & \\underline{\\underline{\\$180{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:73:0"
       ]
@@ -10950,9 +11544,15 @@
     },
     {
       "asset": "d144f282ab1f00e08408.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\text{Net income} & \\$45 \\\\\n\\text{Depreciation} & 75 \\\\\n\\text{Taxes paid} & 25 \\\\\n\\text{Interest paid} & 5 \\\\\n\\text{Dividends paid} & 10 \\\\\n\\text{Cash received from sale of company building} & 40 \\\\\n\\text{Issuance of preferred stock} & 35 \\\\\n\\text{Repurchase of common stock} & 30 \\\\\n\\text{Purchase of machinery} & 20 \\\\\n\\text{Issuance of bonds} & 50 \\\\\n\\text{Debt retired through issuance of common stock} & 45 \\\\\n\\text{Paid off long-term bank borrowings} & 15 \\\\\n\\text{Profit on sale of building} & 20 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:90:2"
       ]
@@ -10974,9 +11574,15 @@
     },
     {
       "asset": "d192ade09369af125bf7.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{aligned}\nC_1 &= 11 & \\text{PV}_1 &= 11 / 1.15 = 9.565 & W_1 &= 9.565 / 86.59 = 0.1105 \\\\\nC_2 &= 11 & \\text{PV}_2 &= 11 / 1.15^2 = 8.318 & W_2 &= 8.318 / 86.59 = 0.0961 \\\\\nC_3 &= 11 & \\text{PV}_3 &= 11 / 1.15^3 = 7.233 & W_3 &= 7.233 / 86.59 = 0.0835 \\\\\nC_4 &= 11 & \\text{PV}_4 &= 11 / 1.15^4 = 6.289 & W_4 &= 6.289 / 86.59 = 0.0726 \\\\\nC_5 &= 111 & \\text{PV}_5 &= 111 / 1.15^5 = \\underline{55.187} & W_5 &= 55.187 / 86.59 = \\underline{0.6373} \\\\\n& & & \\qquad\\quad 86.59 & & \\qquad\\quad 1.0000\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:92:6"
       ]
@@ -11191,9 +11797,15 @@
     },
     {
       "asset": "d682dee61cc9d8cca45b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{Bitcoin (In USD)} & \\begin{array}{c} \\text{S\\&P 500} \\\\ \\text{Total Return} \\end{array} & \\begin{array}{c} \\text{MSCI World} \\\\ \\text{Index Return} \\end{array} & \\begin{array}{c} \\text{Bloomberg Global} \\\\ \\text{Aggregate Index} \\end{array} \\\\\n\\hline\n\\text{Average} & 8.84\\% & 1.13\\% & 0.66\\% & 0.16\\% \\\\\n\\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\\\\n\\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:61:9"
       ]
@@ -11266,9 +11878,15 @@
     },
     {
       "asset": "d843edeaafc984cf511d.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{(a) 100\\% payout} & \\textbf{(b) 40\\% payout} \\\\\n\\hline\n\\text{Earnings before tax} & \\$10{,}000{,}000 & \\$10{,}000{,}000 \\\\\n(-) \\text{ Corporate income tax @ 25\\%} & \\underline{2{,}500{,}000} & \\underline{2{,}500{,}000} \\\\\n(=) \\text{ After-tax income} & 7{,}500{,}000 & 7{,}500{,}000 \\\\\n\\text{Dividends} & 7{,}500{,}000 & 3{,}000{,}000 \\\\\n\\text{Tax on dividends @ 20\\%} & 1{,}500{,}000 & 600{,}000 \\\\\n\\text{Total tax paid} & 4{,}000{,}000 & 3{,}100{,}000 \\\\\n\\text{Effective tax rate} & & \\\\\n= \\text{Total tax / earnings before tax} & 40\\% & 31\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:226:7"
       ]
@@ -11294,9 +11912,15 @@
     },
     {
       "asset": "d8be056bd0ca5ca9b3fd.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{c|cc}\n\\hline\n& \\textbf{Germany: Low Output} & \\textbf{Germany: High Output} \\\\\n\\hline\n\\textbf{France: Low Output} & (\\text{EUR }8\\text{B}, \\text{EUR }8\\text{B}) & (\\text{EUR }2\\text{B}, \\text{EUR }10\\text{B}) \\\\\n\\textbf{France: High Output} & (\\text{EUR }10\\text{B}, \\text{EUR }2\\text{B}) & (\\text{EUR }4\\text{B}, \\text{EUR }4\\text{B}) \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:152:3"
       ]
@@ -11336,9 +11960,15 @@
     },
     {
       "asset": "d9dc8b8fdd4ad6fc9027.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n& \\begin{array}{c} \\textbf{Jan 1} \\\\ \\textbf{Price} \\end{array} & \\begin{array}{c} \\textbf{Jan 1 Shares} \\\\ \\textbf{(thousands)} \\end{array} & \\begin{array}{c} \\textbf{Dec 31} \\\\ \\textbf{Price} \\end{array} & \\begin{array}{c} \\textbf{Dec 31 Shares} \\\\ \\textbf{(thousands)} \\end{array} \\\\\n\\hline\n\\text{Stock A} & \\$22 & 1{,}500 & \\$28 & 1{,}500 \\\\\n\\text{Stock B} & \\$40 & 10{,}000 & \\$50 & 10{,}000 \\\\\n\\text{Stock C} & \\$34 & 3{,}000 & \\$30 & 3{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:267:15"
       ]
@@ -11545,9 +12175,15 @@
     },
     {
       "asset": "dd37716ec772b83ad750.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lccc}\n\\hline\n& \\textbf{20X8} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\text{Current ratio} & 2.0 & 1.5 & 1.2 \\\\\n\\text{Quick ratio} & 0.5 & 0.8 & 1.0 \\\\\n\\text{Days of inventory} & 60 & 50 & 30 \\\\\n\\text{Days' sales outstanding} & 20 & 30 & 40 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:212:5"
       ]
@@ -11585,9 +12221,15 @@
     },
     {
       "asset": "de0b429405f641ab3bf4.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Source} & \\begin{array}{c} \\text{Fair Market Value} \\\\ \\text{(\\$000s)} \\end{array} & \\begin{array}{c} \\text{Liquidation} \\\\ \\text{Cost (\\%)} \\end{array} \\\\\n\\hline\n\\text{Cash and marketable securities} & 100 & 0\\% \\\\\n\\text{Inventory and receivables} & 200 & 15\\% \\\\\n\\text{Empty warehouse} & \\underline{300} & 30\\% \\\\\n\\textbf{Total} & \\underline{\\underline{600}} & \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:248:2"
       ]
@@ -11625,18 +12267,30 @@
     },
     {
       "asset": "deb5a22a0f8120f6c7e7.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llc}\n\\hline\n\\textbf{Hypothesis tests of:} & \\textbf{Use a:} & \\textbf{With degrees of freedom:} \\\\\n\\hline\n\\text{One population mean} & t\\text{-statistic} & n - 1 \\\\\n\\text{Two population means} & t\\text{-statistic} & n - 1 \\\\\n\\text{One population variance} & \\text{Chi-square statistic} & n - 1 \\\\\n\\text{Two population variances} & F\\text{-statistic} & n_1 - 1,\\, n_2 - 1 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:104:8"
       ]
     },
     {
       "asset": "df741b1ff136551718ef.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Common-Size Income Statement} & \\textbf{North Co. (\\%)} & \\textbf{South Co. (\\%)} \\\\\n\\hline\n\\text{Revenue} & 100.0\\% & 100.0\\% \\\\\n\\text{Cost of goods sold} & \\underline{70.0\\%} & \\underline{20.0\\%} \\\\\n\\text{Gross profit} & 30.0\\% & 80.0\\% \\\\\n\\text{Administrative expense} & 15.0\\% & 15.0\\% \\\\\n\\text{Research expense} & \\underline{5.0\\%} & \\underline{20.0\\%} \\\\\n\\textbf{Operating profit} & 10.0\\% & 45.0\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:50:2"
       ]
@@ -11689,18 +12343,30 @@
     },
     {
       "asset": "dff6a67daea83870cfac.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Statement Effect} & \\textbf{Capitalizing} & \\textbf{Expensing} \\\\\n\\hline\n\\text{Initial net income} & \\text{Higher} & \\text{Lower} \\\\\n\\text{Subsequent net income} & \\text{Lower} & \\text{Higher} \\\\\n\\text{Total net income (all years)} & \\text{Same} & \\text{Same} \\\\\n\\text{Operating cash flow (CFO)} & \\text{Higher} & \\text{Lower} \\\\\n\\text{Investing cash flow (CFI)} & \\text{Lower} & \\text{Higher} \\\\\n\\text{Total cash flow} & \\text{Same} & \\text{Same} \\\\\n\\text{Assets and equity} & \\text{Higher initially} & \\text{Lower initially} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:36:5"
       ]
     },
     {
       "asset": "e061b63a0bca50ca861e.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n& \\textbf{Period 1} & \\textbf{Period 2} \\\\\n\\hline\n\\text{Sales} & 100.0 & 125.0 \\\\\n\\text{COGS} & 25.0 & 50.0 \\\\\n\\text{Gross profit} & 75.0 & 75.0 \\\\\n\\text{COGS as \\% of sales} & 25\\% & 40\\% \\\\\n\\text{Gross margin \\%} & 75\\% & 60\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:329:3"
       ]
@@ -11845,9 +12511,15 @@
     },
     {
       "asset": "e32586411aca90ecbf0c.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\text{Cash} & \\$10{,}000 \\\\\n\\text{Accounts receivable} & \\$20{,}000 \\\\\n\\text{Inventories} & \\$50{,}000 \\\\\n\\text{Net fixed assets} & \\underline{\\$120{,}000} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$200{,}000}} \\\\\n\\hline\n\\text{Accounts payable} & \\$5{,}000 \\\\\n\\text{Notes payable} & \\$30{,}000 \\\\\n\\text{Term loans} & \\$45{,}000 \\\\\n\\text{Common stockholder equity} & \\underline{\\$120{,}000} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$200{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:353:7"
       ]
@@ -11879,9 +12551,15 @@
     },
     {
       "asset": "e3ec694db1518a4d9436.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{aligned}\n\\textit{Step 1:} &\\quad \\text{Start with net income of } \\$39{,}000. \\\\\n\\textit{Step 2:} &\\quad \\text{Add back noncash charges:} \\\\\n&\\qquad \\text{Depreciation} = \\$7{,}000 \\\\\n&\\qquad \\text{Change in deferred tax liability} = \\$5{,}000 \\\\\n&\\qquad \\text{Loss on disposal of PP\\&E} = \\$2{,}000 \\\\\n&\\quad \\text{Deduct noncash gains:} \\\\\n&\\qquad \\text{Gain from sale of land} = \\$10{,}000 \\\\\n\\textit{Step 3:} &\\quad \\text{Subtract increases in receivables and inventories and add increases in payables.}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:77:6"
       ]
@@ -11918,9 +12596,15 @@
     },
     {
       "asset": "e4933d08a761e2b5810d.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{llcl}\n\\hline\n\\textbf{Index} & \\textbf{Reflects} & \\textbf{Securities} & \\textbf{Weighting Method} \\\\\n\\hline\n\\text{Dow Jones Industrial Average} & \\text{Large U.S. stocks} & 30 & \\text{Price} \\\\\n\\text{Nikkei Stock Average} & \\text{Large Japanese stocks} & 225 & \\text{Modified price} \\\\\n\\text{TOPIX} & \\text{Tokyo Stock Exchange First Section} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{MSCI All Country World Index} & 23\\text{ developed \\& }24\\text{ emerging markets} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{S\\&P Developed Ex-U.S. BMI Energy} & \\text{Global energy outside U.S.} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{Barclays Capital Global Aggregate} & \\text{Global investment-grade bonds} & \\text{Variable} & \\text{Market cap} \\\\\n\\text{Markit iBoxx Euro High-Yield} & \\text{Below investment-grade bonds} & \\text{Variable} & \\text{Market cap} \\\\\n\\text{FTSE EPRA/NAREIT Global Real Estate} & \\text{Global real estate} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\text{HFRX Global Hedge Fund Index} & \\text{Global hedge funds} & \\text{Variable} & \\text{Asset weighted} \\\\\n\\text{HFRX Equal Weighted EUR Index} & \\text{Global hedge funds} & \\text{Variable} & \\text{Equal weighted} \\\\\n\\text{Morningstar Style Indexes} & \\text{U.S. stocks by value/growth \\& cap} & \\text{Variable} & \\text{Market cap, float-adjusted} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:271:0"
       ]
@@ -11942,9 +12626,15 @@
     },
     {
       "asset": "e5a28a11d341b77a5e29.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\text{The call option will be in the money after an up-move, or out of the money after a down-move.}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "3:220:16",
         "3:220:17",
@@ -12040,9 +12730,15 @@
     },
     {
       "asset": "e70c384060069a333c4a.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Capitalized Costs Breakdown} & \\textbf{Amount} \\\\\n\\hline\n\\text{Purchase price of machinery} & \\$250{,}000 \\\\\n\\text{Freight and delivery charges} & 10{,}000 \\\\\n\\text{Installation and calibration} & \\underline{85{,}000} \\\\\n\\textbf{Total Capitalized Cost} & \\underline{\\underline{\\$345{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:32:9"
       ]
@@ -12065,18 +12761,30 @@
     },
     {
       "asset": "e784f812f521b3b450fe.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Significance Level } \\alpha & \\textbf{Two-Tailed Critical Value } z_{\\alpha/2} & \\textbf{One-Tailed Critical Value } z_\\alpha \\\\\n\\hline\n0.10 \\ (90\\% \\text{ confidence}) & \\pm 1.65 & 1.28 \\\\\n0.05 \\ (95\\% \\text{ confidence}) & \\pm 1.96 & 1.65 \\\\\n0.01 \\ (99\\% \\text{ confidence}) & \\pm 2.58 & 2.33 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:89:5"
       ]
     },
     {
       "asset": "e7f54e5e6ee27c0ec0e7.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\begin{array}{lrr}\n\\hline\n\\textbf{Balance sheet extract} & \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\textbf{Current liabilities} & & \\\\\n\\text{Dividends payable} & 6{,}000 & 1{,}000 \\\\\n\\textbf{Noncurrent liabilities} & & \\\\\n\\text{Bonds payable} & 15{,}000 & 10{,}000 \\\\\n\\textbf{Stockholders' equity} & & \\\\\n\\text{Common stock} & 15{,}000 & 20{,}000 \\\\\n\\text{Additional paid-in capital} & \\underline{25{,}000} & \\underline{30{,}000} \\\\\n\\text{Contributed capital} & 40{,}000 & 50{,}000 \\\\\n\\text{Retained earnings} & 61{,}000 & 30{,}500 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lr}\n\\hline\n\\textbf{Other financial statement data} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\text{Dividend declared} & 8{,}500 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:84:9"
       ]
@@ -12185,9 +12893,15 @@
     },
     {
       "asset": "e98a2249f50bbd26673e.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Source of Variation} & \\textbf{Degrees of Freedom} & \\textbf{Sum of Squares} & \\textbf{Mean Square} & \\textbf{F-Statistic} \\\\[8pt]\n\\hline\n\\text{Regression (SSR)} & k = 1 & 0.00350 & 0.00350 & \\frac{0.00350}{0.00045} = 7.78 \\\\[8pt]\n\\text{Error / Residual (SSE)} & n - k - 1 = 34 & 0.01530 & 0.00045 & \\\\[8pt]\n\\hline\n\\textbf{Total (SST)} & n - 1 = 35 & 0.01880 & & \\\\[8pt]\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:121:6"
       ]
@@ -12237,9 +12951,15 @@
     },
     {
       "asset": "eb7f359c65a0d3f19f81.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\text{So, we can define beta: } \\beta = \\frac{\\operatorname{Cov}_{im}}{\\sigma_m^2} \\text{ as a standardized measure of systematic risk.}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:95:7",
         "4:95:8",
@@ -12524,9 +13244,15 @@
     },
     {
       "asset": "f01e0cc2132ef3c85097.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{gathered}\n\\begin{array}{lcc}\n\\hline\n\\textbf{Return} & \\textbf{Deviation From Mean} & \\textbf{Deviation From Target Return} \\\\[8pt]\n\\hline\n30\\% & 30\\% - 22\\% = 8\\% & 30\\% - 24\\% = 6\\% \\\\[8pt]\n12\\% & 12\\% - 22\\% = -10\\% & 12\\% - 24\\% = -12\\% \\\\[8pt]\n25\\% & 25\\% - 22\\% = 3\\% & 25\\% - 24\\% = 1\\% \\\\[8pt]\n20\\% & 20\\% - 22\\% = -2\\% & 20\\% - 24\\% = -4\\% \\\\[8pt]\n23\\% & 23\\% - 22\\% = 1\\% & 23\\% - 24\\% = -1\\% \\\\[8pt]\n\\hline\n\\end{array}\n\\\\[12pt]\ns_{22\\%} = \\sqrt{\\frac{(-10)^2 + (-2)^2}{5-1}} = 5.10\\%\n\\\\[8pt]\ns_{24\\%} = \\sqrt{\\frac{(-12)^2 + (-4)^2 + (-1)^2}{5-1}} = 6.34\\%\n\\end{gathered}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:50:7"
       ]
@@ -12542,9 +13268,15 @@
     },
     {
       "asset": "f036f2265f279b7b9f27.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Balance Sheet (\\$ millions)} & \\textbf{East Co.} & \\textbf{West Co.} \\\\\n\\hline\n\\text{Cash and equivalents} & \\$50 & \\$20 \\\\\n\\text{Accounts receivable} & 120 & 60 \\\\\n\\text{Inventory} & \\underline{180} & \\underline{70} \\\\\n\\text{Total current assets} & 350 & 150 \\\\\n\\text{Net PP\\&E} & \\underline{650} & \\underline{350} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$500}} \\\\\n\\hline\n\\text{Current liabilities} & \\$200 & \\$100 \\\\\n\\text{Long-term debt} & 300 & 150 \\\\\n\\text{Shareholders' equity} & \\underline{500} & \\underline{250} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$500}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:63:6"
       ]
@@ -12581,9 +13313,15 @@
     },
     {
       "asset": "f0f52342116a3e978bf1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Reconciliation of retained earnings} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Beginning retained earnings} & 30{,}500 \\\\\n\\text{Net income} & 39{,}000 \\\\\n\\text{Dividend declared} & \\underline{(X)} \\\\\n\\text{Ending retained earnings} & 61{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:85:8"
       ]
@@ -12605,9 +13343,15 @@
     },
     {
       "asset": "f116b8b224ba2e5416f1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{ccc}\n\\hline\n\\mathbf{x_i} & \\mathbf{P(x_i \\mid Y = 1)} & \\mathbf{P(x_i \\mid Y = 2)} \\\\\n\\hline\n0 & 0.2 & 0.1 \\\\\n5 & 0.4 & 0.8 \\\\\n10 & 0.4 & 0.1 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:65:8"
       ]
@@ -12677,9 +13421,15 @@
     },
     {
       "asset": "f2f4fd1cb3e37e778906.png",
-      "classification": "meaningful-visual",
-      "reason": "captioned diagram, chart, or table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\text{Standardized covariance term: } \\frac{\\operatorname{Cov}_{im}}{\\sigma_m^2}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "4:95:1",
         "4:95:2",
@@ -12749,18 +13499,30 @@
     },
     {
       "asset": "f420d9455267c8f1a99b.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lcccccc}\n\\hline\n\\textbf{Year} & \\textbf{20X1} & \\textbf{20X2} & \\textbf{20X3} & \\textbf{20X4} & \\textbf{20X5} & \\textbf{20X6} \\\\\n\\hline\n\\text{Return} & 22.0\\% & 5.0\\% & -7.0\\% & 11.0\\% & 2.0\\% & 11.0\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:19:2"
       ]
     },
     {
       "asset": "f4317f64cf15a17f66fd.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Non-Cash Working Capital} & \\textbf{20X7} & \\textbf{20X6} & \\textbf{Change} \\\\\n\\hline\n\\text{Accounts receivable} & \\$35{,}000 & \\$30{,}000 & +\\$5{,}000 \\\\\n\\text{Inventory} & 42{,}000 & 38{,}000 & +4{,}000 \\\\\n\\text{Prepaid expenses} & \\underline{5{,}000} & \\underline{6{,}000} & \\underline{-1{,}000} \\\\\n\\text{Total operating current assets} & \\$82{,}000 & \\$74{,}000 & +\\$8{,}000 \\\\\n\\hline\n\\text{Accounts payable} & \\$28{,}000 & \\$25{,}000 & +\\$3{,}000 \\\\\n\\text{Accrued liabilities} & \\underline{9{,}000} & \\underline{7{,}000} & \\underline{+2{,}000} \\\\\n\\text{Total operating current liabilities} & \\$37{,}000 & \\$32{,}000 & +\\$5{,}000 \\\\\n\\hline\n\\textbf{Net working capital requirement} & & & \\underline{\\underline{-\\$3{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:78:2"
       ]
@@ -12868,9 +13630,15 @@
     },
     {
       "asset": "f732ba150e273bf26f0f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Tax return extract:} & \\textbf{\\$} \\\\\n\\hline\n\\text{Tax payable for the year ended 20X7} & 500{,}000 \\\\\n\\hline\n\\textbf{Balance sheet extracts:} & \\\\\n\\text{DTA year-end 20X7} & 300{,}000 \\\\\n\\text{DTA year-end 20X6} & 350{,}000 \\\\\n\\text{DTL year-end 20X7} & 500{,}000 \\\\\n\\text{DTL year-end 20X6} & 400{,}000 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:164:16"
       ]
@@ -12908,9 +13676,15 @@
     },
     {
       "asset": "f814cc1eaa5656f9dda9.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{100\\% Equity} & \\textbf{50\\% Debt, 50\\% Equity} \\\\\n\\hline\n\\text{Revenues} & \\$1{,}000 & \\$1{,}000 \\\\\n\\text{Cash operating expense} & 800 & 800 \\\\\n\\text{Interest expense} & 0 & 50 \\\\\n\\text{Net income} & \\$200 & \\$150 \\\\\n\\\\[2pt]\n\\text{Equity} & \\$1{,}000 & \\$500 \\\\\n\\text{ROE} & 20\\% & 30\\% \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "1:231:0"
       ]
@@ -12941,9 +13715,15 @@
     },
     {
       "asset": "f87fc37d047c47968b63.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Fiscal Year-End} & \\textbf{20X3} & \\textbf{20X2} & \\textbf{20X1} \\\\\n\\hline\n\\text{Total stockholder's equity} & \\$55.60 & \\$54.10 & \\$52.60 \\\\\n\\text{Net revenues} & \\$77.30 & \\$73.60 & \\$70.80 \\\\\n\\text{Net income} & \\$3.20 & \\$1.10 & \\$0.40 \\\\\n\\text{Net cash flow from operations} & \\$17.90 & \\$15.20 & \\$12.20 \\\\\n\\text{Stock price} & \\$11.40 & \\$14.40 & \\$12.05 \\\\\n\\text{Shares outstanding} & 4.476 & 3.994 & 3.823 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:350:3"
       ]
@@ -13088,9 +13868,15 @@
     },
     {
       "asset": "fbe9f55fff93a26af2cd.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Lessor Operating Schedule} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} \\\\\n\\hline\n\\text{Lease revenue (CFO)} & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 \\\\\n\\text{Depreciation expense} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} \\\\\n\\textbf{Operating profit} & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:145:0"
       ]
@@ -13121,9 +13907,15 @@
     },
     {
       "asset": "fc400033a0f08b1267b6.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Manufacturer/Dealer Lessor Profit} & \\textbf{Amount} \\\\\n\\hline\n\\text{Sales revenue (PV of lease payments)} & \\$100{,}000 \\\\\n\\text{Less: Cost of goods sold (carrying value of asset)} & \\underline{(80{,}000)} \\\\\n\\textbf{Dealer selling profit} & \\underline{\\underline{\\$20{,}000}} \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:143:12"
       ]
@@ -13265,9 +14057,15 @@
     },
     {
       "asset": "fda5a48d0ac7e658f9e1.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
+      "latex": "\\begin{array}{lr}\n\\hline\n\\text{Shares purchased} & 1{,}000 \\\\\n\\text{Purchase price per share} & \\$100 \\\\\n\\text{Annual dividend per share} & \\$2.00 \\\\\n\\text{Initial margin requirement} & 40\\% \\\\\n\\text{Call money rate} & 4\\% \\\\\n\\text{Commission per share} & \\$0.05 \\\\\n\\text{Stock price after one year} & \\$110 \\\\\n\\hline\n\\end{array}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
+      ],
       "sourceIds": [
         "2:245:6"
       ]

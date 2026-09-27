@@ -236,12 +236,10 @@
           "text": "Joint Probability Function"
         },
         {
-          "type": "image",
-          "src": "content/figures/0a88218aa63cbad38f1c.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 667,
-          "height": 194,
-          "alt": "Instructional visual diagram or table: 0a88218aa63cbad38f1c.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n& \\textbf{R}_B = 20\\% & \\textbf{R}_B = 15\\% & \\textbf{R}_B = 4\\% & \\textbf{Total } P(R_A) \\\\\n\\hline\n\\textbf{R}_A = 25\\% & 0.20 & 0.05 & 0.00 & 0.25 \\\\\n\\textbf{R}_A = 12\\% & 0.15 & 0.30 & 0.05 & 0.50 \\\\\n\\textbf{R}_A = -10\\% & 0.00 & 0.05 & 0.20 & 0.25 \\\\\n\\hline\n\\textbf{Total } P(R_B) & 0.35 & 0.40 & 0.25 & 1.00 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "0a88218aa63cbad38f1c.png"
         },
         {
           "type": "paragraph",
@@ -272,12 +270,10 @@
           "text": "Covariance Calculation"
         },
         {
-          "type": "image",
-          "src": "content/figures/ad827ab290b1c8660a15.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 913,
-          "height": 185,
-          "alt": "Instructional visual diagram or table: ad827ab290b1c8660a15.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcccc}\n\\hline\n\\textbf{Year} & \\textbf{Stock A Return} & \\textbf{Stock B Return} & [R_A - \\bar{R}_A] & [R_B - \\bar{R}_B] \\\\\n\\hline\n\\text{20X1} & 10.0\\% & 12.0\\% & 10.0 - 8.0 = 2.0\\% & 12.0 - 9.0 = 3.0\\% \\\\\n\\text{20X2} & 6.0\\% & 8.0\\% & 6.0 - 8.0 = -2.0\\% & 8.0 - 9.0 = -1.0\\% \\\\\n\\text{20X3} & 8.0\\% & 7.0\\% & 8.0 - 8.0 = 0.0\\% & 7.0 - 9.0 = -2.0\\% \\\\\n\\hline\n\\textbf{Mean} & 8.0\\% & 9.0\\% & & \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "ad827ab290b1c8660a15.png"
         },
         {
           "type": "paragraph",
@@ -367,12 +363,10 @@
           "text": "Roy’s Safety-First Ratios"
         },
         {
-          "type": "image",
-          "src": "content/figures/b8f7f76b5f0bf28f896b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 783,
-          "height": 201,
-          "alt": "Instructional visual diagram or table: b8f7f76b5f0bf28f896b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Portfolio} & \\textbf{Calculation } [E(R) - R_L] / \\sigma & \\textbf{SFRatio} \\\\\n\\hline\n\\text{A} & (12.0 - 5.0) / 18.0 & 0.389 \\\\\n\\text{B} & (10.0 - 5.0) / 12.0 & 0.417 \\\\\n\\text{C} & (8.0 - 5.0) / 7.0 & 0.429 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "b8f7f76b5f0bf28f896b.png"
         },
         {
           "type": "paragraph",
@@ -568,12 +562,10 @@
           "prompt": "Expected returns and standard deviations of returns for three portfolios are as follows: Given a threshold level of return of 4%, the optimal portfolio using Roy’s safety-first criterion is:",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/b433e6e32eee7e9616c8.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 683,
-              "height": 136,
-              "alt": "Instructional visual diagram or table: b433e6e32eee7e9616c8.png"
+              "type": "math",
+              "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Portfolio} & \\textbf{Expected Return } E(R) & \\textbf{Standard Deviation } \\sigma \\\\\n\\hline\n\\text{A} & 12.0\\% & 18.0\\% \\\\\n\\text{B} & 10.0\\% & 12.0\\% \\\\\n\\text{C} & 8.0\\% & 7.0\\% \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "b433e6e32eee7e9616c8.png"
             }
           ],
           "options": [

@@ -733,24 +733,20 @@
           "text": "Sedgwick Company Balance Sheet"
         },
         {
-          "type": "image",
-          "src": "content/figures/0441f549559dfa88d182.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 868,
-          "height": 968,
-          "alt": "Instructional visual diagram or table: 0441f549559dfa88d182.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{Current Year (\\$)} & \\textbf{Previous Year (\\$)} \\\\\n\\hline\n\\textbf{Assets} & & \\\\\n\\text{Cash and marketable securities} & \\$105 & \\$95 \\\\\n\\text{Receivables} & 205 & 195 \\\\\n\\text{Inventories} & \\underline{310} & \\underline{290} \\\\\n\\text{Total current assets} & 620 & 580 \\\\\n\\text{Gross property, plant, and equipment} & 1{,}800 & 1{,}700 \\\\\n\\text{Accumulated depreciation} & \\underline{360} & \\underline{340} \\\\\n\\text{Net property, plant, and equipment} & \\underline{1{,}440} & \\underline{1{,}360} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$2{,}060}} & \\underline{\\underline{\\$1{,}940}} \\\\\n\\hline\n\\textbf{Liabilities} & & \\\\\n\\text{Payables} & \\$110 & \\$90 \\\\\n\\text{Short-term debt} & 160 & 140 \\\\\n\\text{Current portion of long-term debt} & \\underline{55} & \\underline{45} \\\\\n\\text{Current liabilities} & 325 & 275 \\\\\n\\text{Long-term debt} & 610 & 690 \\\\\n\\text{Deferred taxes} & 105 & 95 \\\\\n\\text{Common stock at par} & 300 & 300 \\\\\n\\text{Additional paid in capital} & 400 & 400 \\\\\n\\text{Retained earnings} & \\underline{320} & \\underline{180} \\\\\n\\text{Common shareholders' equity} & \\underline{1{,}020} & \\underline{880} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$2{,}060}} & \\underline{\\underline{\\$1{,}940}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "0441f549559dfa88d182.png"
         },
         {
           "type": "heading",
           "text": "Sedgwick Company Income Statement"
         },
         {
-          "type": "image",
-          "src": "content/figures/73dc12ecfc35b84f7ec5.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 524,
-          "height": 485,
-          "alt": "Comparative balance sheet extract showing current year asset balances."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{Current Year} \\\\\n\\hline\n\\text{Sales} & \\$4{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{3{,}000} \\\\\n\\text{Gross profit} & 1{,}000 \\\\\n\\text{Operating expenses} & \\underline{650} \\\\\n\\text{Operating profit} & 350 \\\\\n\\text{Interest expense} & \\underline{50} \\\\\n\\text{Earnings before taxes} & 300 \\\\\n\\text{Taxes} & \\underline{100} \\\\\n\\text{Net income} & \\underline{200} \\\\\n\\text{Common dividends} & \\underline{60} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "73dc12ecfc35b84f7ec5.png"
         },
         {
           "type": "heading",
@@ -780,12 +776,10 @@
           "text": "An analyst calculates the following activity and liquidity ratios for a company over the last three years:"
         },
         {
-          "type": "image",
-          "src": "content/figures/dd37716ec772b83ad750.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 579,
-          "height": 222,
-          "alt": "Multi-year liquidity and activity ratios comparison table for 20X8, 20X7, and 20X6."
+          "type": "math",
+          "latex": "\\begin{array}{lccc}\n\\hline\n& \\textbf{20X8} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\text{Current ratio} & 2.0 & 1.5 & 1.2 \\\\\n\\text{Quick ratio} & 0.5 & 0.8 & 1.0 \\\\\n\\text{Days of inventory} & 60 & 50 & 30 \\\\\n\\text{Days' sales outstanding} & 20 & 30 & 40 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "dd37716ec772b83ad750.png"
         },
         {
           "type": "paragraph",
@@ -816,12 +810,10 @@
           "text": "An analyst is comparing the values of several ratios for the current year to their prior-year values, the current industry average values, and industry average ratios for Sedgwick Company. These selected ratio values are shown in the following table."
         },
         {
-          "type": "image",
-          "src": "content/figures/62340509398a22ebb7f1.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 959,
-          "height": 265,
-          "alt": "Instructional visual diagram or table: 62340509398a22ebb7f1.png"
+          "type": "math",
+          "latex": "\\begin{array}{lccc}\n\\hline\n& \\textbf{Current Year} & \\textbf{Previous Year} & \\textbf{Industry Average} \\\\\n\\hline\n\\text{Current ratio} & 1.9 & 2.1 & 1.5 \\\\\n\\text{Total asset turnover} & 2.0 & 2.3 & 2.4 \\\\\n\\text{Net profit margin} & 5.0\\% & 5.8\\% & 6.5\\% \\\\\n\\text{Return on common equity} & 21.1\\% & 24.1\\% & 19.8\\% \\\\\n\\text{Debt-to-equity} & 80.9\\% & 99.4\\% & 35.7\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "62340509398a22ebb7f1.png"
         },
         {
           "type": "paragraph",
@@ -963,12 +955,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/6238aa1942b15e9eaac3.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 361,
-          "height": 425,
-          "alt": "Instructional visual diagram or table: 6238aa1942b15e9eaac3.png"
+          "type": "math",
+          "latex": "\\begin{aligned}\n\\textbf{ROE:} & \\\\\n\\text{20X3:} &\\quad 21.5 / 119 = 18.1\\% \\\\\n\\text{20X4:} &\\quad 22.3 / 124 = 18.0\\% \\\\\n\\text{20X5:} &\\quad 21.9 / 126 = 17.4\\% \\\\\n\\\\[6pt]\n\\textbf{DuPont:} & \\\\\n\\text{20X3:} &\\quad 7.0\\% \\times 1.33 \\times 1.93 \\\\\n\\text{20X4:} &\\quad 6.4\\% \\times 1.21 \\times 2.34 \\\\\n\\text{20X5:} &\\quad 5.3\\% \\times 1.17 \\times 2.78\n\\end{aligned}",
+          "display": true,
+          "sourceAsset": "6238aa1942b15e9eaac3.png"
         },
         {
           "type": "paragraph",
@@ -1033,12 +1023,10 @@
           "text": "Selected Income and Balance Sheet Data"
         },
         {
-          "type": "image",
-          "src": "content/figures/701ed5eff65b74fbfce9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 566,
-          "height": 442,
-          "alt": "Comparative financial performance metrics between Company A and Company B."
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{Company A} & \\textbf{Company B} \\\\\n\\hline\n\\text{Revenues} & \\$500 & \\$900 \\\\\n\\text{EBIT} & 35 & 100 \\\\\n\\text{Interest expense} & 5 & 0 \\\\\n\\text{EBT} & 30 & 100 \\\\\n\\text{Taxes} & \\underline{10} & \\underline{40} \\\\\n\\text{Net income} & 20 & 60 \\\\\n\\text{Average assets} & 250 & 300 \\\\\n\\text{Total debt} & 100 & 50 \\\\\n\\text{Average equity} & \\$150 & \\$250 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "701ed5eff65b74fbfce9.png"
         },
         {
           "type": "heading",

@@ -126,12 +126,10 @@
           "text": "An analyst is assessing the credit quality of York, Inc., and Zale, Inc. Selected financial information appears in the following table."
         },
         {
-          "type": "image",
-          "src": "content/figures/ba419a01ea9240df9ba9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 875,
-          "height": 397,
-          "alt": "Instructional visual diagram or table: ba419a01ea9240df9ba9.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{York, Inc.} & \\textbf{Zale, Inc.} \\\\\n\\hline\n\\text{Revenue} & \\$2{,}200{,}000 & \\$11{,}000{,}000 \\\\\n\\text{Depreciation and amortization} & \\$220{,}000 & \\$900{,}000 \\\\\n\\text{Earnings before interest and taxes} & \\$550{,}000 & \\$2{,}250{,}000 \\\\\n\\text{Cash flow from operations} & \\$300{,}000 & \\$850{,}000 \\\\\n\\text{Interest expense} & \\$40{,}000 & \\$160{,}000 \\\\\n\\text{Total debt} & \\$1{,}900{,}000 & \\$2{,}700{,}000 \\\\\n\\text{Cash and marketable securities} & \\$500{,}000 & \\$1{,}000{,}000 \\\\\n\\text{Dividends} & \\$30{,}000 & \\$200{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "ba419a01ea9240df9ba9.png"
         },
         {
           "type": "paragraph",

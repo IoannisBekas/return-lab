@@ -51,28 +51,22 @@
           "alt": "Instructional visual diagram or table: 200010cf420acffe0c43.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/e5a28a11d341b77a5e29.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1144,
-          "height": 79,
-          "alt": "Instructional visual diagram or table: e5a28a11d341b77a5e29.png"
+          "type": "math",
+          "latex": "\\text{The call option will be in the money after an up-move, or out of the money after a down-move.}",
+          "display": true,
+          "sourceAsset": "e5a28a11d341b77a5e29.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/7031d0f4fd277ce9a3f9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 711,
-          "height": 44,
-          "alt": "Instructional visual diagram or table: 7031d0f4fd277ce9a3f9.png"
+          "type": "math",
+          "latex": "\\text{value after a down-move, } c_1^d \\text{ is } \\operatorname{Max}(0, \\$42 - \\$55) = 0.",
+          "display": true,
+          "sourceAsset": "7031d0f4fd277ce9a3f9.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/9c18dc208c7a2ef8e227.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1175,
-          "height": 241,
-          "alt": "Instructional visual diagram or table: 9c18dc208c7a2ef8e227.png"
+          "type": "math",
+          "latex": "hS_1^u-c_1^u=hS_1^d-c_1^d",
+          "display": true,
+          "sourceAsset": "9c18dc208c7a2ef8e227.png"
         },
         {
           "type": "paragraph",

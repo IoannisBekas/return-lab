@@ -314,12 +314,10 @@
           "alt": "Financial leverage, debt-to-equity, and fixed charge coverage ratios reference poster."
         },
         {
-          "type": "image",
-          "src": "content/figures/515855f8b9b9f78398d9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 1124,
-          "height": 1477,
-          "alt": "Margin transaction regulations, maintenance margin, and margin call price reference table."
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Margin call price}=P_0\\left(\\frac{1-\\text{initial margin}}{1-\\text{maintenance margin}}\\right),\n\\quad P_0=\\text{initial purchase price} \\\\[6pt]\n\\text{Price-weighted index}=\\frac{\\text{sum of stock prices}}{\\text{number of stocks in index adjusted for splits}} \\\\[6pt]\n\\text{Market capitalization-weighted index}\n=\\frac{\\text{current total market value of index stocks}}{\\text{base-year total market value of index stocks}}\n\\times\\text{base-year index value} \\\\[6pt]\n\\text{Equal-weighted index}\n=(1+\\text{average percentage change in index stocks})\\times\\text{initial index value} \\\\[6pt]\n[Q(P-VC)]-FC,\n\\quad Q=\\text{units sold},\\ P=\\text{price per unit},\\ VC=\\text{variable costs},\\ FC=\\text{fixed costs} \\\\[6pt]\nDOL=\\frac{\\%\\Delta\\text{ operating profit}}{\\%\\Delta\\text{ sales}},\n\\qquad DFL=\\frac{\\%\\Delta\\text{ net income}}{\\%\\Delta\\text{ operating income}} \\\\[6pt]\n\\text{Preferred stock value}=\\frac{D_p}{k_p} \\\\[6pt]\n\\text{Constant-growth dividend discount model:}\\qquad V_0=\\frac{D_1}{k_e-g_c} \\\\[6pt]\n\\text{Sustainable growth rate:}\\qquad g=b\\times ROE,\\quad\nb=1-\\text{dividend payout rate}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "515855f8b9b9f78398d9.png"
         },
         {
           "type": "image",
@@ -652,12 +650,10 @@
           "text": "Modified duration (semiannual-pay bond):"
         },
         {
-          "type": "image",
-          "src": "content/figures/ca036f8ef817fb8d1dd7.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 815,
-          "height": 1056,
-          "alt": "Modified duration and convexity calculation reference table."
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\text{Approximate modified duration}=\\frac{V_--V_+}{2V_0\\Delta YTM},\\quad\n\\text{Approximate convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta YTM)^2V_0}\\\\[8pt]\n\\text{Portfolio duration}=w_1D_1+w_2D_2+\\cdots+w_ND_N\\\\[8pt]\n\\text{Effective duration}=\\frac{V_--V_+}{2V_0\\Delta\\text{Curve}},\\quad\n\\text{Effective convexity}=\\frac{V_-+V_+-2V_0}{(\\Delta\\text{Curve})^2V_0}\\\\[8pt]\n\\text{Expected loss}=\\text{probability of default}\\times\\text{loss given default},\\quad\n\\text{Loan-to-value ratio}=\\frac{\\text{current mortgage amount}}{\\text{current appraised value}}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "ca036f8ef817fb8d1dd7.png"
         },
         {
           "type": "paragraph",

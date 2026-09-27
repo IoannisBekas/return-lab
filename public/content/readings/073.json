@@ -288,12 +288,10 @@
           "text": "Figure 73.3: Lower and Upper Bounds for Options"
         },
         {
-          "type": "image",
-          "src": "content/figures/07defe9b974203ee0a55.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 991,
-          "height": 151,
-          "alt": "Instructional visual diagram or table: 07defe9b974203ee0a55.png"
+          "type": "math",
+          "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Option} & \\textbf{Minimum Value} & \\textbf{Maximum Value} \\\\\n\\hline\n\\text{European call} & c_t \\ge \\operatorname{Max}[0, S_t - X(1 + R_f)^{-(T-t)}] & S_t \\\\\n\\text{European put} & p_t \\ge \\operatorname{Max}[0, X(1 + R_f)^{-(T-t)} - S_t] & X(1 + R_f)^{-(T-t)} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "07defe9b974203ee0a55.png"
         },
         {
           "type": "heading",
@@ -404,12 +402,10 @@
       "text": "Factors that determine the value of an option:"
     },
     {
-      "type": "image",
-      "src": "content/figures/a3d4bd9e09fe6e397b5d.png",
-      "visualKind": "diagram-chart-or-table",
-      "width": 1027,
-      "height": 449,
-      "alt": "Instructional visual diagram or table: a3d4bd9e09fe6e397b5d.png"
+      "type": "math",
+      "latex": "\\begin{array}{lll}\n\\hline\n\\textbf{Increase in:} & \\textbf{Effect on Call Option Values} & \\textbf{Effect on Put Option Values} \\\\\n\\hline\n\\text{Price of underlying asset} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Exercise price} & \\text{Decrease} & \\text{Increase} \\\\\n\\text{Risk-free rate} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Volatility of underlying asset} & \\text{Increase} & \\text{Increase} \\\\\n\\text{Time to expiration} & \\text{Increase} & \\begin{array}{l} \\text{Increase, except some} \\\\ \\text{European puts} \\end{array} \\\\\n\\text{Costs of holding underlying asset} & \\text{Increase} & \\text{Decrease} \\\\\n\\text{Benefits of holding underlying asset} & \\text{Decrease} & \\text{Increase} \\\\\n\\hline\n\\end{array}",
+      "display": true,
+      "sourceAsset": "a3d4bd9e09fe6e397b5d.png"
     }
   ],
   "practice": [],

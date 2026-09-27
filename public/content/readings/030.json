@@ -105,12 +105,10 @@
           "text": "Selected Financial Statement Data: Loftus Communications Limited"
         },
         {
-          "type": "image",
-          "src": "content/figures/d00cfd67de1bafe37f99.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 659,
-          "height": 310,
-          "alt": "Financial statement extracts comparing revenue and working capital accounts between 20X2 and 20X1."
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Financial year} & \\textbf{20X2} & \\textbf{20X1} \\\\\n& \\text{\\pounds m} & \\text{\\pounds m} \\\\\n\\hline\n\\textbf{Income statement extract} & & \\\\\n\\text{Revenues} & 2{,}000{,}000 & 1{,}800{,}000 \\\\\n\\textbf{Balance sheet extract} & & \\\\\n\\text{Accounts receivable} & 900{,}000 & 500{,}000 \\\\\n\\text{Unearned revenue (deferred)} & 1{,}000{,}000 & 300{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "d00cfd67de1bafe37f99.png"
         },
         {
           "type": "paragraph",
@@ -228,24 +226,20 @@
           "text": "Income Statement for 20X7"
         },
         {
-          "type": "image",
-          "src": "content/figures/1609b14359161a326d07.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 575,
-          "height": 662,
-          "alt": "Instructional visual diagram or table: 1609b14359161a326d07.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Income Statement for 20X7} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$200{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{(100{,}000)} \\\\\n\\text{Gross profit} & \\$100{,}000 \\\\\n\\text{Salary and administrative expenses} & (40{,}000) \\\\\n\\text{Depreciation expense} & (7{,}000) \\\\\n\\text{Gain on sale of land} & +10{,}000 \\\\\n\\text{Loss on disposal of equipment} & \\underline{(2{,}000)} \\\\\n\\text{Operating income} & \\$61{,}000 \\\\\n\\text{Interest expense} & (5{,}000) \\\\\n\\text{Income tax expense} & \\underline{(17{,}000)} \\\\\n\\textbf{Net income} & \\underline{\\underline{\\$39{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "1609b14359161a326d07.png"
         },
         {
           "type": "heading",
           "text": "Balance Sheets for 20X7 and 20X6"
         },
         {
-          "type": "image",
-          "src": "content/figures/d132d3c009563ca041ca.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 766,
-          "height": 1495,
-          "alt": "Instructional visual diagram or table: d132d3c009563ca041ca.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Balance Sheets as of Dec 31} & \\textbf{20X7} & \\textbf{20X6} \\\\\n\\hline\n\\textbf{Assets} & & \\\\\n\\text{Cash} & \\$25{,}000 & \\$15{,}000 \\\\\n\\text{Accounts receivable} & 35{,}000 & 30{,}000 \\\\\n\\text{Inventory} & 42{,}000 & 38{,}000 \\\\\n\\text{Prepaid expenses} & \\underline{5{,}000} & \\underline{6{,}000} \\\\\n\\text{Total current assets} & \\$107{,}000 & \\$89{,}000 \\\\\n\\text{Land} & 35{,}000 & 40{,}000 \\\\\n\\text{Gross property, plant, and equipment} & 69{,}000 & 60{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(12{,}000)} & \\underline{(9{,}000)} \\\\\n\\text{Net PP\\&E} & \\underline{57{,}000} & \\underline{51{,}000} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$199{,}000}} & \\underline{\\underline{\\$180{,}000}} \\\\\n\\hline\n\\textbf{Liabilities and Equity} & & \\\\\n\\text{Accounts payable} & \\$28{,}000 & \\$25{,}000 \\\\\n\\text{Accrued liabilities} & 9{,}000 & 7{,}000 \\\\\n\\text{Income taxes payable} & \\underline{6{,}000} & \\underline{4{,}000} \\\\\n\\text{Total current liabilities} & \\$43{,}000 & \\$36{,}000 \\\\\n\\text{Long-term debt} & 40{,}000 & 45{,}000 \\\\\n\\text{Deferred tax liability} & \\underline{10{,}000} & \\underline{5{,}000} \\\\\n\\text{Total liabilities} & \\$93{,}000 & \\$86{,}000 \\\\\n\\text{Common stock} & 50{,}000 & 45{,}000 \\\\\n\\text{Retained earnings} & \\underline{56{,}000} & \\underline{49{,}000} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$199{,}000}} & \\underline{\\underline{\\$180{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "d132d3c009563ca041ca.png"
         },
         {
           "type": "heading",
@@ -256,24 +250,20 @@
           "text": "Start at the top of the income statement and adjust each line for the change in balance sheet asset and liabilities that arise due to the accruals process."
         },
         {
-          "type": "image",
-          "src": "content/figures/5afb9617c177725ce881.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 599,
-          "height": 222,
-          "alt": "Instructional visual diagram or table: 5afb9617c177725ce881.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Collected From Customers} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$100{,}000 \\\\\n\\text{Decrease in accounts receivable} & \\underline{+7{,}000} \\\\\n\\textbf{Cash collected from customers} & \\underline{\\underline{\\$107{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5afb9617c177725ce881.png"
         },
         {
           "type": "paragraph",
           "text": "To calculate cash paid to suppliers, adjust cost of goods sold for the change in inventory (the result is purchases for the period) and for the change in accounts payable."
         },
         {
-          "type": "image",
-          "src": "content/figures/9ad5a7f96f9ef4ed4e1c.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 494,
-          "height": 267,
-          "alt": "Instructional visual diagram or table: 9ad5a7f96f9ef4ed4e1c.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Paid to Suppliers} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cost of goods sold (COGS)} & \\$40{,}000 \\\\\n\\text{Decrease in inventory} & -8{,}000 \\\\\n\\text{Decrease in accounts payable} & \\underline{+2{,}000} \\\\\n\\textbf{Cash paid to suppliers} & \\underline{\\underline{\\$(34{,}000)}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "9ad5a7f96f9ef4ed4e1c.png"
         },
         {
           "type": "paragraph",
@@ -434,32 +424,52 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/e3ec694db1518a4d9436.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 892,
-          "height": 481,
-          "alt": "Indirect cash flow reconciliation step-by-step adjustment schedule."
+          "type": "worked-example",
+          "title": "CFO Calculation Under Indirect Method",
+          "steps": [
+            {
+              "title": "Step 1: Start with net income",
+              "equations": [
+                "\\text{Net income} = \\$39{,}000"
+              ]
+            },
+            {
+              "title": "Step 2: Adjust for noncash items and gains/losses",
+              "body": [
+                "Add back noncash charges: Depreciation of $7,000; Change in deferred tax liability of $5,000; Loss on disposal of PP&E of $2,000.",
+                "Deduct noncash gains: Gain from sale of land of $10,000."
+              ],
+              "equations": [
+                "\\text{Depreciation} = +\\$7{,}000",
+                "\\text{Deferred tax liability change} = +\\$5{,}000",
+                "\\text{Loss on disposal of PP\\&E} = +\\$2{,}000",
+                "\\text{Gain from sale of land} = -\\$10{,}000"
+              ]
+            },
+            {
+              "title": "Step 3: Adjust for working capital changes",
+              "body": [
+                "Subtract increases in receivables and inventories, and add increases in payables."
+              ]
+            }
+          ],
+          "sourceAsset": "e3ec694db1518a4d9436.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/25e2d203ad6aa41283ae.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 656,
-          "height": 749,
-          "alt": "Statement of cash flows operating activities section prepared under the indirect method."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n& \\textbf{\\$} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\textbf{Noncash charges} & \\\\\n\\quad\\text{Depreciation} & 7{,}000 \\\\\n\\quad\\text{Increase in deferred tax liability} & 5{,}000 \\\\\n\\quad\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\quad\\text{Gain from sale of land} & \\underline{(10{,}000)} \\\\\n\\text{Subtotal} & 43{,}000 \\\\\n\\textbf{Investment in working capital} & \\\\\n\\quad\\text{Increase in receivables} & (1{,}000) \\\\\n\\quad\\text{Decrease in inventories} & 2{,}000 \\\\\n\\quad\\text{Increase in accounts payable} & 4{,}000 \\\\\n\\quad\\text{Decrease in wages payable} & (3{,}500) \\\\\n\\quad\\text{Increase in interest payable} & 500 \\\\\n\\quad\\text{Increase in unearned revenue liability} & 4{,}000 \\\\\n\\quad\\text{Increase in taxes payable} & \\underline{1{,}000} \\\\\n\\textbf{Operating cash flows} & \\mathbf{50{,}000} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "25e2d203ad6aa41283ae.png"
         },
         {
           "type": "paragraph",
           "text": "Alternatively, we can look at noncash working capital in aggregate rather than line by line."
         },
         {
-          "type": "image",
-          "src": "content/figures/f4317f64cf15a17f66fd.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 633,
-          "height": 530,
-          "alt": "Instructional visual diagram or table: f4317f64cf15a17f66fd.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Non-Cash Working Capital} & \\textbf{20X7} & \\textbf{20X6} & \\textbf{Change} \\\\\n\\hline\n\\text{Accounts receivable} & \\$35{,}000 & \\$30{,}000 & +\\$5{,}000 \\\\\n\\text{Inventory} & 42{,}000 & 38{,}000 & +4{,}000 \\\\\n\\text{Prepaid expenses} & \\underline{5{,}000} & \\underline{6{,}000} & \\underline{-1{,}000} \\\\\n\\text{Total operating current assets} & \\$82{,}000 & \\$74{,}000 & +\\$8{,}000 \\\\\n\\hline\n\\text{Accounts payable} & \\$28{,}000 & \\$25{,}000 & +\\$3{,}000 \\\\\n\\text{Accrued liabilities} & \\underline{9{,}000} & \\underline{7{,}000} & \\underline{+2{,}000} \\\\\n\\text{Total operating current liabilities} & \\$37{,}000 & \\$32{,}000 & +\\$5{,}000 \\\\\n\\hline\n\\textbf{Net working capital requirement} & & & \\underline{\\underline{-\\$3{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "f4317f64cf15a17f66fd.png"
         },
         {
           "type": "paragraph",
@@ -534,12 +544,10 @@
           "text": "Returning to the financial statements we used in our CFO examples, we will use the following information to compute CFI:"
         },
         {
-          "type": "image",
-          "src": "content/figures/384854301c0123597210.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 579,
-          "height": 485,
-          "alt": "Instructional visual diagram or table: 384854301c0123597210.png"
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\begin{array}{lrr}\n\\hline\n\\textbf{Balance sheet extract} & \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\text{Land} & 35{,}000 & 40{,}000 \\\\\n\\text{Gross PP\\&E} & 69{,}000 & 60{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(12{,}000)} & \\underline{(9{,}000)} \\\\\n\\text{Net PP\\&E} & 57{,}000 & 51{,}000 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lr}\n\\hline\n\\textbf{Income statement extract} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Depreciation} & 7{,}000 \\\\\n\\text{Gain on sale of land} & 10{,}000 \\\\\n\\text{Loss on disposal of PP\\&E} & 2{,}000 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "384854301c0123597210.png"
         },
         {
           "type": "paragraph",
@@ -596,12 +604,10 @@
           "sourceAsset": "384499f807c2b9d9336f.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/a4a3be627992c67d0103.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 566,
-          "height": 211,
-          "alt": "Instructional visual diagram or table: a4a3be627992c67d0103.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Carrying Value and Proceeds of PP\\&E Disposal} & \\textbf{Amount} \\\\\n\\hline\n\\text{Original cost of equipment sold} & \\$20{,}000 \\\\\n\\text{Less: Accumulated depreciation} & \\underline{-8{,}000} \\\\\n\\text{Carrying value at date of sale} & \\$12{,}000 \\\\\n\\text{Less: Loss on sale of equipment} & \\underline{-2{,}000} \\\\\n\\textbf{Cash proceeds from sale} & \\underline{\\underline{\\$10{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a4a3be627992c67d0103.png"
         },
         {
           "type": "heading",
@@ -684,12 +690,10 @@
           "text": "Returning to the financial statements from our CFO examples, we will need the following information to compute CFF:"
         },
         {
-          "type": "image",
-          "src": "content/figures/e7f54e5e6ee27c0ec0e7.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 618,
-          "height": 616,
-          "alt": "Instructional visual diagram or table: e7f54e5e6ee27c0ec0e7.png"
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\begin{array}{lrr}\n\\hline\n\\textbf{Balance sheet extract} & \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\textbf{Current liabilities} & & \\\\\n\\text{Dividends payable} & 6{,}000 & 1{,}000 \\\\\n\\textbf{Noncurrent liabilities} & & \\\\\n\\text{Bonds payable} & 15{,}000 & 10{,}000 \\\\\n\\textbf{Stockholders' equity} & & \\\\\n\\text{Common stock} & 15{,}000 & 20{,}000 \\\\\n\\text{Additional paid-in capital} & \\underline{25{,}000} & \\underline{30{,}000} \\\\\n\\text{Contributed capital} & 40{,}000 & 50{,}000 \\\\\n\\text{Retained earnings} & 61{,}000 & 30{,}500 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lr}\n\\hline\n\\textbf{Other financial statement data} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Net income} & 39{,}000 \\\\\n\\text{Dividend declared} & 8{,}500 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "e7f54e5e6ee27c0ec0e7.png"
         },
         {
           "type": "paragraph",
@@ -704,12 +708,10 @@
           "text": "We can begin by determining cash flows from issuing or repaying bonds:"
         },
         {
-          "type": "image",
-          "src": "content/figures/5b22f1b5f283284f5c7f.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 429,
-          "height": 179,
-          "alt": "Instructional visual diagram or table: 5b22f1b5f283284f5c7f.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Net Principal Flow on Bonds Payable} & \\textbf{Amount} \\\\\n\\hline\n\\text{Beginning bonds payable} & \\$10{,}000 \\\\\n\\text{New bond issuance} & +8{,}000 \\\\\n\\text{Bond retirements / principal repayments} & \\underline{-3{,}000} \\\\\n\\textbf{Ending bonds payable} & \\underline{\\underline{\\$15{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5b22f1b5f283284f5c7f.png"
         },
         {
           "type": "math",
@@ -744,12 +746,10 @@
           "text": "In this example, the dividend declared of $8,500 was given. If it had not been, we could compute it based on the change in retained earnings:"
         },
         {
-          "type": "image",
-          "src": "content/figures/f0f52342116a3e978bf1.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 569,
-          "height": 224,
-          "alt": "Reconciliation of retained earnings schedule showing net income and dividends paid."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Reconciliation of retained earnings} & \\textbf{(\\$)} \\\\\n\\hline\n\\text{Beginning retained earnings} & 30{,}500 \\\\\n\\text{Net income} & 39{,}000 \\\\\n\\text{Dividend declared} & \\underline{(X)} \\\\\n\\text{Ending retained earnings} & 61{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "f0f52342116a3e978bf1.png"
         },
         {
           "type": "math",
@@ -772,12 +772,10 @@
           "text": "Computation of CFF"
         },
         {
-          "type": "image",
-          "src": "content/figures/c385d8af112fa9891a22.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 742,
-          "height": 222,
-          "alt": "Instructional visual diagram or table: c385d8af112fa9891a22.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Computation of CFF} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cash from bond issuance} & +\\$10{,}000 \\\\\n\\text{Repayment of long-term debt} & -12{,}500 \\\\\n\\text{Dividends paid to shareholders} & \\underline{-6{,}000} \\\\\n\\textbf{Net cash flow from financing activities (CFF)} & \\underline{\\underline{\\$(8{,}500)}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "c385d8af112fa9891a22.png"
         },
         {
           "type": "paragraph",
@@ -875,20 +873,16 @@
           "text": "Using the same data as the direct and indirect examples, the three stages are as follows:"
         },
         {
-          "type": "image",
-          "src": "content/figures/3da67fad473aa701f24e.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 721,
-          "height": 172,
-          "alt": "Instructional visual diagram or table: 3da67fad473aa701f24e.png"
+          "type": "math",
+          "latex": "\\begin{array}{llr}\n\\hline\n& & \\textbf{(\\$)} \\\\\n\\hline\n\\textit{Step 1:} & \\text{Total revenues and gains} & 114{,}000 \\\\\n& \\text{Total expenses and losses} & \\underline{75{,}000} \\\\\n& \\text{Net income} & 39{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "3da67fad473aa701f24e.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/b5078c1215465acab3c1.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 721,
-          "height": 646,
-          "alt": "Direct cash flow statement collection and disbursement adjustment table."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Step 2: Revenues less noncash charges} & \\mathbf{104{,}000} \\\\\n\\quad(\\$114{,}000 - \\$10{,}000) & \\\\\n\\quad\\$10{,}000 = \\text{gain on asset disposal} & \\\\\n\\textbf{Expenses less noncash charges} & \\mathbf{61{,}000} \\\\\n\\quad(\\$75{,}000 - \\$7{,}000 - \\$2{,}000 - \\$5{,}000) & \\\\\n\\quad\\$7{,}000 = \\text{depreciation} & \\\\\n\\quad\\$2{,}000 = \\text{loss on disposal of PP\\&E} & \\\\\n\\quad\\$5{,}000 = \\text{change in deferred tax liability} & \\\\\n\\quad\\text{Cost of goods sold} & 40{,}000 \\\\\n\\quad\\text{Wages} & 5{,}000 \\\\\n\\quad\\text{Interest} & 1{,}000 \\\\\n\\quad\\text{Tax payable} & \\underline{15{,}000} \\\\\n\\quad(\\text{Tax provision} - \\text{increase in DTL}) & \\\\\n\\textbf{Total} & \\mathbf{61{,}000} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "b5078c1215465acab3c1.png"
         },
         {
           "type": "math",
@@ -1006,12 +1000,10 @@
       "text": "Differences in cash flow classifications between U.S. GAAP and IFRS:"
     },
     {
-      "type": "image",
-      "src": "content/figures/7dc657bd79cecbffc2f8.png",
-      "visualKind": "diagram-chart-or-table",
-      "width": 1034,
-      "height": 635,
-      "alt": "Instructional visual diagram or table: 7dc657bd79cecbffc2f8.png"
+      "type": "math",
+      "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Cash Flow Item} & \\textbf{U.S. GAAP} & \\textbf{IFRS} \\\\\n\\hline\n\\text{Interest received} & \\text{Operating} & \\text{Operating or Investing} \\\\\n\\text{Interest paid} & \\text{Operating} & \\text{Operating or Financing} \\\\\n\\text{Dividends received} & \\text{Operating} & \\text{Operating or Investing} \\\\\n\\text{Dividends paid} & \\text{Financing} & \\text{Operating or Financing} \\\\\n\\text{Taxes paid} & \\text{Operating} & \\text{Operating (unless specific)} \\\\\n\\hline\n\\end{array}",
+      "display": true,
+      "sourceAsset": "7dc657bd79cecbffc2f8.png"
     }
   ],
   "practice": [],
@@ -1107,12 +1099,10 @@
               "text": "Balance sheet selected data:"
             },
             {
-              "type": "image",
-              "src": "content/figures/a0db1a41b518f5fd261f.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 765,
-              "height": 534,
-              "alt": "Balance sheet data table comparing assets and liabilities across 20X7 and 20X6."
+              "type": "math",
+              "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{20X7 (\\$)} & \\textbf{20X6 (\\$)} \\\\\n\\hline\n\\textbf{Long-lived assets} & & \\\\\n\\text{Deferred tax} & 30{,}000 & 20{,}000 \\\\\n\\textbf{Current assets} & & \\\\\n\\text{Accounts receivable} & 200{,}000 & 150{,}000 \\\\\n\\text{Inventory} & 260{,}000 & 280{,}000 \\\\\n\\textbf{Current liabilities} & & \\\\\n\\text{Accounts payable} & 120{,}000 & 150{,}000 \\\\\n\\text{Unearned revenue} & 220{,}000 & 150{,}000 \\\\\n\\text{Tax payable} & 150{,}000 & 240{,}000 \\\\\n\\textbf{Long-term liabilities} & & \\\\\n\\text{Deferred tax} & 150{,}000 & 100{,}000 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "a0db1a41b518f5fd261f.png"
             }
           ],
           "options": [
@@ -1141,12 +1131,10 @@
               "text": "unearned revenue liability:"
             },
             {
-              "type": "image",
-              "src": "content/figures/193f95c3e98c04c2dcc5.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 541,
-              "height": 223,
-              "alt": "Instructional visual diagram or table: 193f95c3e98c04c2dcc5.png"
+              "type": "math",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Collections with Unearned Revenue} & \\textbf{Amount} \\\\\n\\hline\n\\text{Revenues} & \\$2{,}000{,}000 \\\\\n\\text{Less: Increase in accounts receivable} & -30{,}000 \\\\\n\\text{Plus: Increase in unearned revenue} & \\underline{+50{,}000} \\\\\n\\textbf{Cash collected from customers} & \\underline{\\underline{\\$2{,}020{,}000}} \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "193f95c3e98c04c2dcc5.png"
             }
           ]
         },
@@ -1185,12 +1173,10 @@
               "text": "any changes to deferred tax assets and liabilities to arrive at tax payable. Tax payable represents the tax owed to the tax authorities on this period’s earnings. The tax-payable figure then must be adjusted for changes in tax-payable liabilities to arrive at the cash tax paid."
             },
             {
-              "type": "image",
-              "src": "content/figures/07a9a732d4e8c6fe8820.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 548,
-              "height": 310,
-              "alt": "Instructional visual diagram or table: 07a9a732d4e8c6fe8820.png"
+              "type": "math",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Taxes Paid Reconciliation} & \\textbf{Amount} \\\\\n\\hline\n\\text{Income tax expense} & \\$270{,}000 \\\\\n\\text{Less: Increase in income tax payable} & -15{,}000 \\\\\n\\text{Less: Increase in deferred tax liability} & \\underline{-5{,}000} \\\\\n\\textbf{Cash taxes paid} & \\underline{\\underline{\\$(250{,}000)}} \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "07a9a732d4e8c6fe8820.png"
             }
           ]
         },
@@ -1229,12 +1215,10 @@
               "text": "change in accounts payable."
             },
             {
-              "type": "image",
-              "src": "content/figures/ce6fcbe2940ba0415182.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 541,
-              "height": 268,
-              "alt": "Instructional visual diagram or table: ce6fcbe2940ba0415182.png"
+              "type": "math",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Cash Paid to Suppliers Reconciliation} & \\textbf{Amount} \\\\\n\\hline\n\\text{Cost of goods sold} & \\$1{,}400{,}000 \\\\\n\\text{Plus: Increase in inventory} & +30{,}000 \\\\\n\\text{Purchases from suppliers} & \\$1{,}430{,}000 \\\\\n\\text{Less: Increase in accounts payable} & \\underline{-20{,}000} \\\\\n\\textbf{Cash paid to suppliers} & \\underline{\\underline{\\$(1{,}410{,}000)}} \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "ce6fcbe2940ba0415182.png"
             }
           ]
         },
@@ -1362,12 +1346,10 @@
               "text": "Assuming U.S. GAAP, use the following data to answer Questions 1 and 2."
             },
             {
-              "type": "image",
-              "src": "content/figures/d144f282ab1f00e08408.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 749,
-              "height": 567,
-              "alt": "Operating, investing, and financing cash flow transactions data table."
+              "type": "math",
+              "latex": "\\begin{array}{lr}\n\\hline\n\\text{Net income} & \\$45 \\\\\n\\text{Depreciation} & 75 \\\\\n\\text{Taxes paid} & 25 \\\\\n\\text{Interest paid} & 5 \\\\\n\\text{Dividends paid} & 10 \\\\\n\\text{Cash received from sale of company building} & 40 \\\\\n\\text{Issuance of preferred stock} & 35 \\\\\n\\text{Repurchase of common stock} & 30 \\\\\n\\text{Purchase of machinery} & 20 \\\\\n\\text{Issuance of bonds} & 50 \\\\\n\\text{Debt retired through issuance of common stock} & 45 \\\\\n\\text{Paid off long-term bank borrowings} & 15 \\\\\n\\text{Profit on sale of building} & 20 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "d144f282ab1f00e08408.png"
             }
           ],
           "options": [

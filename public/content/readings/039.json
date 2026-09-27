@@ -488,12 +488,10 @@
           "text": "Given the following information:"
         },
         {
-          "type": "image",
-          "src": "content/figures/fda5a48d0ac7e658f9e1.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 433,
-          "height": 291,
-          "alt": "Share purchase transactions and cost basis reference table."
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\text{Shares purchased} & 1{,}000 \\\\\n\\text{Purchase price per share} & \\$100 \\\\\n\\text{Annual dividend per share} & \\$2.00 \\\\\n\\text{Initial margin requirement} & 40\\% \\\\\n\\text{Call money rate} & 4\\% \\\\\n\\text{Commission per share} & \\$0.05 \\\\\n\\text{Stock price after one year} & \\$110 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "fda5a48d0ac7e658f9e1.png"
         },
         {
           "type": "paragraph",

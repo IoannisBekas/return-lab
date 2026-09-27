@@ -12,7 +12,11 @@ from pathlib import Path
 
 import numpy as np
 from PIL import Image
-from pix2text import Pix2Text
+
+try:
+    from pix2text import Pix2Text
+except ImportError:
+    Pix2Text = None
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -40,87 +44,25 @@ REFERENCE_TABLES = {
     "9c7480bee3dd12df7efa.png",
 }
 MANUAL_MEANINGFUL_VISUALS = {
-    "0a88218aa63cbad38f1c.png",  # joint-probability table
-    "0f8b04065cedff265396.png",  # probability tree
-    "673044e17d4a0215e36e.png",  # one-period binomial tree
-    "988c7893d36a8a1bd8ca.png",  # regression model interpretation table
-    "c34a22880904740b85c0.png",  # security market line chart
-    "e061b63a0bca50ca861e.png",  # comparative income statement table
-    "e4933d08a761e2b5810d.png",  # securities index reference table
-    "e70c384060069a333c4a.png",  # capitalized-cost calculation table
-    "f814cc1eaa5656f9dda9.png",  # capital structure comparison table
-    # Source-verified tables, charts, and decision trees found during the
-    # full KaTeX render audit. These remain visual because their spatial
-    # relationships carry meaning beyond a linear equation transcription.
-    "004e4e43db850044a5b3.png", "0441f549559dfa88d182.png",
-    "07a9a732d4e8c6fe8820.png", "0cbea1828ba82ba95a45.png",
-    "0d10a4b9c0de22f7e2bb.png", "150bd1337203ccc4d538.png",
-    "1609b14359161a326d07.png", "171f0c75b0ec54825fa5.png",
-    "193f95c3e98c04c2dcc5.png", "19cea061ab7f4e0a9e99.png",
-    "1f29a430552ac9b5702b.png", "24346a116202b57c819e.png",
-    "24c9efeab5fdeedafb9c.png", "284193a7c2047e6687d1.png",
-    "2b9cfd2ac28cbd8ecd52.png", "2c2db45830118eb1d1fc.png",
-    "2e57847cc10f6916fc4f.png", "32d91591473b94441c8f.png",
-    "33bc7352159d403f46bb.png", "384854301c0123597210.png",
-    "3993dbc1b6188bda044b.png", "3ad166e8f69d389954ed.png",
-    "3b212816f81575ac9df8.png", "3c5c5a60d2869949ed95.png",
-    "3c9dbbfb75f5fcebc850.png", "3da67fad473aa701f24e.png",
-    "3e9cd88b54d911d57bf7.png", "47a778e8d0cc4e8c245b.png",
-    "4b028243ef1b6d3cbc39.png", "510d77a276c7184557a9.png",
-    "5192b64bec7da308db37.png", "5afb9617c177725ce881.png",
-    "5b15780f0fb7c3e70358.png", "5b22f1b5f283284f5c7f.png",
-    "5d68f4c1921b12dd0247.png", "5e4e36a280ec13ad21f8.png",
-    "5f069797e6e810c80e3f.png", "62340509398a22ebb7f1.png",
-    "6238aa1942b15e9eaac3.png", "68211594bc802b33c92a.png",
-    "6fae291f3cddc6447638.png", "740e8bf422d1a74b9e15.png",
-    "7599db3f980f38142f2b.png", "7bc6afde6ef40f0475a6.png",
-    "7dc657bd79cecbffc2f8.png", "85130fb513dc68f0cbda.png",
-    "874dbb230795297b4341.png", "890263d6938a04faada4.png",
-    "906b0829878cf9c4a3d6.png", "99a395b3005dcf9a0cf9.png",
-    "9ad5a7f96f9ef4ed4e1c.png", "9ca4fb017d5c655a23b8.png",
-    "9daa03cc4a34d1747f8b.png", "a1901e95615ba6b26051.png",
-    "a3d4bd9e09fe6e397b5d.png", "a414e01d34293345478a.png",
-    "a4a3be627992c67d0103.png", "a59a1286e797537fd1d0.png",
-    "a76fcd5d6139f16612bc.png", "a93e6133f2de169c1ab4.png",
-    "a9abb4ccbda249ca69e9.png", "ad827ab290b1c8660a15.png",
-    "b411d4a82216ae464aef.png", "b433e6e32eee7e9616c8.png",
-    "b665660817cda5de60a9.png", "b8f7f76b5f0bf28f896b.png",
-    "ba419a01ea9240df9ba9.png", "bee5e481e40d6ac920ad.png",
-    "c0931084e800172bb17d.png", "c1ff69501c6d5344b906.png",
-    "c385d8af112fa9891a22.png", "c5ecd9b39ffb55f3619e.png",
-    "cb6dc61edd5459cc54eb.png", "ccd6c0dfb6444503d784.png",
-    "ce6fcbe2940ba0415182.png", "cf286e73fdd3d5bfdacd.png",
-    "d0de22b301608827e621.png", "d132d3c009563ca041ca.png",
-    "d192ade09369af125bf7.png", "d682dee61cc9d8cca45b.png",
-    "d843edeaafc984cf511d.png", "d8be056bd0ca5ca9b3fd.png",
-    "dc31279e9262d8e1f0de.png", "de0b429405f641ab3bf4.png",
-    "deb5a22a0f8120f6c7e7.png", "df741b1ff136551718ef.png",
-    "e32586411aca90ecbf0c.png", "e784f812f521b3b450fe.png",
-    "e7f54e5e6ee27c0ec0e7.png", "e98a2249f50bbd26673e.png",
-    "f01e0cc2132ef3c85097.png", "f036f2265f279b7b9f27.png",
-    "f420d9455267c8f1a99b.png", "f4317f64cf15a17f66fd.png",
-    "f732ba150e273bf26f0f.png", "f87fc37d047c47968b63.png",
-    "fbe9f55fff93a26af2cd.png", "fc400033a0f08b1267b6.png",
-    "4b973189367edba55ab4.png", "9dc5da52e5cce1eda307.png",
-    "cd4273ac668e90e54170.png", "31fa227e2b44ab1ae029.png",
-    "54770f97b2405c7ba97c.png", "2650a486ca28254a17dc.png",
-    "448f0b574d80ae590d30.png",
-    # Additional complex instructional tables and rejection region diagrams
-    "11369a9311fe8de699f7.png", "ee7fb6439edbe3b04caf.png",
-    "9e5716d3827f249ab639.png", "ca6ef3f4adc88bf5b0b4.png",
-    "25e2d203ad6aa41283ae.png", "2fe33f96124c0fbd1e18.png",
-    "73dc12ecfc35b84f7ec5.png", "b648b7cd86830bb56841.png",
-    "dd37716ec772b83ad750.png", "d00cfd67de1bafe37f99.png",
-    "4ded731434f7fca8f53a.png", "f116b8b224ba2e5416f1.png",
-    "fda5a48d0ac7e658f9e1.png", "f0f52342116a3e978bf1.png",
-    "163f536e1ea2a0f49728.png", "09066eb4f2ed2e35dae2.png",
-    "bd49737c238d983f9c2d.png", "866c622294530622f91f.png",
-    "ca036f8ef817fb8d1dd7.png", "515855f8b9b9f78398d9.png",
-    "6535d7ff2e2fc55afa79.png", "f8259749ec97b07048f9.png",
-    "701ed5eff65b74fbfce9.png", "e3ec694db1518a4d9436.png",
-    "5a8fbea51ecb510eb4cd.png", "b5078c1215465acab3c1.png",
-    "a0db1a41b518f5fd261f.png", "d144f282ab1f00e08408.png",
-    "d9dc8b8fdd4ad6fc9027.png",
+    "09066eb4f2ed2e35dae2.png", "0f8b04065cedff265396.png",
+    "11369a9311fe8de699f7.png", "150bd1337203ccc4d538.png",
+    "163f536e1ea2a0f49728.png", "19cea061ab7f4e0a9e99.png",
+    "1f29a430552ac9b5702b.png", "284193a7c2047e6687d1.png",
+    "31fa227e2b44ab1ae029.png", "384854301c0123597210.png",
+    "3da67fad473aa701f24e.png", "510d77a276c7184557a9.png",
+    "515855f8b9b9f78398d9.png", "54770f97b2405c7ba97c.png",
+    "5a8fbea51ecb510eb4cd.png", "5d68f4c1921b12dd0247.png",
+    "6238aa1942b15e9eaac3.png", "6535d7ff2e2fc55afa79.png",
+    "673044e17d4a0215e36e.png", "866c622294530622f91f.png",
+    "874dbb230795297b4341.png", "906b0829878cf9c4a3d6.png",
+    "b411d4a82216ae464aef.png", "bd49737c238d983f9c2d.png",
+    "c34a22880904740b85c0.png", "ca036f8ef817fb8d1dd7.png",
+    "cd4273ac668e90e54170.png", "d192ade09369af125bf7.png",
+    "d843edeaafc984cf511d.png", "dc31279e9262d8e1f0de.png",
+    "e3ec694db1518a4d9436.png", "e7f54e5e6ee27c0ec0e7.png",
+    "ee7fb6439edbe3b04caf.png", "f01e0cc2132ef3c85097.png",
+    "f0f52342116a3e978bf1.png", "f814cc1eaa5656f9dda9.png",
+    "f8259749ec97b07048f9.png",
 }
 VISUAL_ALT_OVERRIDES = {
     "31fa227e2b44ab1ae029.png": "Probability tree showing joint and conditional probabilities for events A, B, C, and D.",
@@ -142,7 +84,6 @@ VISUAL_ALT_OVERRIDES = {
     "4ded731434f7fca8f53a.png": "Long-lived asset impairment testing data comparing carrying value, fair value, and value in use.",
     "f116b8b224ba2e5416f1.png": "Joint probability distribution table showing outcomes conditional on macroeconomic states.",
     "fda5a48d0ac7e658f9e1.png": "Share purchase transactions and cost basis reference table.",
-    "f0f52342116a3e978bf1.png": "Reconciliation of retained earnings schedule showing net income and dividends paid.",
     "163f536e1ea2a0f49728.png": "Comparative current assets balance sheet table comparing 20X1 and 20X2.",
     "09066eb4f2ed2e35dae2.png": "Comprehensive cash flow and coverage ratios formula summary reference poster.",
     "bd49737c238d983f9c2d.png": "Vertical common-size income statement and asset activity ratios reference poster.",
@@ -152,7 +93,6 @@ VISUAL_ALT_OVERRIDES = {
     "6535d7ff2e2fc55afa79.png": "Multistage dividend discount model multi-period cash flow timeline diagram.",
     "f8259749ec97b07048f9.png": "Money-weighted rate of return internal rate of return step-by-step calculation workflow.",
     "701ed5eff65b74fbfce9.png": "Comparative financial performance metrics between Company A and Company B.",
-    "e3ec694db1518a4d9436.png": "Indirect cash flow reconciliation step-by-step adjustment schedule.",
     "5a8fbea51ecb510eb4cd.png": "Step-by-step cash flow from operations adjustment table.",
     "b5078c1215465acab3c1.png": "Direct cash flow statement collection and disbursement adjustment table.",
     "a0db1a41b518f5fd261f.png": "Balance sheet data table comparing assets and liabilities across 20X7 and 20X6.",
@@ -160,6 +100,220 @@ VISUAL_ALT_OVERRIDES = {
     "d9dc8b8fdd4ad6fc9027.png": "Index constituent stock prices and shares outstanding table for January 1 and December 31.",
 }
 LATEX_OVERRIDES = {
+    "f01e0cc2132ef3c85097.png": r"""\begin{gathered}
+\begin{array}{lcc}
+\hline
+\textbf{Return} & \textbf{Deviation From Mean} & \textbf{Deviation From Target Return} \\
+\hline
+30\% & 30\% - 22\% = 8\% & 30\% - 24\% = 6\% \\
+12\% & 12\% - 22\% = -10\% & 12\% - 24\% = -12\% \\
+25\% & 25\% - 22\% = 3\% & 25\% - 24\% = 1\% \\
+20\% & 20\% - 22\% = -2\% & 20\% - 24\% = -4\% \\
+23\% & 23\% - 22\% = 1\% & 23\% - 24\% = -1\% \\
+\hline
+\end{array}
+\\[12pt]
+s_{22\%} = \sqrt{\frac{(-10)^2 + (-2)^2}{5-1}} = 5.10\%
+\\[8pt]
+s_{24\%} = \sqrt{\frac{(-12)^2 + (-4)^2 + (-1)^2}{5-1}} = 6.34\%
+\end{gathered}""",
+    "d843edeaafc984cf511d.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{(a) 100\% payout} & \textbf{(b) 40\% payout} \\
+\hline
+\text{Earnings before tax} & \$10{,}000{,}000 & \$10{,}000{,}000 \\
+(-) \text{ Corporate income tax @ 25\%} & \underline{2{,}500{,}000} & \underline{2{,}500{,}000} \\
+(=) \text{ After-tax income} & 7{,}500{,}000 & 7{,}500{,}000 \\
+\text{Dividends} & 7{,}500{,}000 & 3{,}000{,}000 \\
+\text{Tax on dividends @ 20\%} & 1{,}500{,}000 & 600{,}000 \\
+\text{Total tax paid} & 4{,}000{,}000 & 3{,}100{,}000 \\
+\text{Effective tax rate} & & \\
+= \text{Total tax / earnings before tax} & 40\% & 31\% \\
+\hline
+\end{array}""",
+    "150bd1337203ccc4d538.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{100\% Equity} & \textbf{50\% Debt, 50\% Equity} \\
+\hline
+\text{Revenues} & \$850 & \$850 \\
+\text{Cash operating expense} & 800 & 800 \\
+\text{Interest expense} & 0 & 50 \\
+\text{Net income} & \$50 & \$0 \\
+\\[2pt]
+\text{Equity} & \$1{,}000 & \$500 \\
+\text{ROE} & 5\% & 0\% \\
+\hline
+\end{array}""",
+    "f814cc1eaa5656f9dda9.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{100\% Equity} & \textbf{50\% Debt, 50\% Equity} \\
+\hline
+\text{Revenues} & \$1{,}000 & \$1{,}000 \\
+\text{Cash operating expense} & 800 & 800 \\
+\text{Interest expense} & 0 & 50 \\
+\text{Net income} & \$200 & \$150 \\
+\\[2pt]
+\text{Equity} & \$1{,}000 & \$500 \\
+\text{ROE} & 20\% & 30\% \\
+\hline
+\end{array}""",
+    "906b0829878cf9c4a3d6.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{North Co.} & \textbf{South Co.} \\
+\hline
+\text{Revenue} & \$75{,}000{,}000 & \$3{,}500{,}000 \\
+\text{Cost of goods sold} & \underline{52{,}500{,}000} & \underline{700{,}000} \\
+\text{Gross profit} & \$22{,}500{,}000 & \$2{,}800{,}000 \\
+\text{Administrative expense} & 11{,}250{,}000 & 525{,}000 \\
+\text{Research expense} & \underline{3{,}750{,}000} & \underline{700{,}000} \\
+\text{Operating profit} & \$7{,}500{,}000 & \$1{,}575{,}000 \\
+\hline
+\end{array}""",
+    "384854301c0123597210.png": r"""\begin{gathered}
+\begin{array}{lrr}
+\hline
+\textbf{Balance sheet extract} & \textbf{20X7 (\$)} & \textbf{20X6 (\$)} \\
+\hline
+\text{Land} & 35{,}000 & 40{,}000 \\
+\text{Gross PP\&E} & 69{,}000 & 60{,}000 \\
+\text{Accumulated depreciation} & \underline{(12{,}000)} & \underline{(9{,}000)} \\
+\text{Net PP\&E} & 57{,}000 & 51{,}000 \\
+\hline
+\end{array}
+\\[12pt]
+\begin{array}{lr}
+\hline
+\textbf{Income statement extract} & \textbf{(\$)} \\
+\hline
+\text{Depreciation} & 7{,}000 \\
+\text{Gain on sale of land} & 10{,}000 \\
+\text{Loss on disposal of PP\&E} & 2{,}000 \\
+\hline
+\end{array}
+\end{gathered}""",
+    "3da67fad473aa701f24e.png": r"""\begin{array}{llr}
+\hline
+& & \textbf{(\$)} \\
+\hline
+\textit{Step 1:} & \text{Total revenues and gains} & 114{,}000 \\
+& \text{Total expenses and losses} & \underline{75{,}000} \\
+& \text{Net income} & 39{,}000 \\
+\hline
+\end{array}""",
+    "e3ec694db1518a4d9436.png": r"""\begin{aligned}
+\textit{Step 1:} &\quad \text{Start with net income of } \$39{,}000. \\
+\textit{Step 2:} &\quad \text{Add back noncash charges:} \\
+&\qquad \text{Depreciation} = \$7{,}000 \\
+&\qquad \text{Change in deferred tax liability} = \$5{,}000 \\
+&\qquad \text{Loss on disposal of PP\&E} = \$2{,}000 \\
+&\quad \text{Deduct noncash gains:} \\
+&\qquad \text{Gain from sale of land} = \$10{,}000 \\
+\textit{Step 3:} &\quad \text{Subtract increases in receivables and inventories and add increases in payables.}
+\end{aligned}""",
+    "e7f54e5e6ee27c0ec0e7.png": r"""\begin{gathered}
+\begin{array}{lrr}
+\hline
+\textbf{Balance sheet extract} & \textbf{20X7 (\$)} & \textbf{20X6 (\$)} \\
+\hline
+\textbf{Current liabilities} & & \\
+\text{Dividends payable} & 6{,}000 & 1{,}000 \\
+\textbf{Noncurrent liabilities} & & \\
+\text{Bonds payable} & 15{,}000 & 10{,}000 \\
+\textbf{Stockholders' equity} & & \\
+\text{Common stock} & 15{,}000 & 20{,}000 \\
+\text{Additional paid-in capital} & \underline{25{,}000} & \underline{30{,}000} \\
+\text{Contributed capital} & 40{,}000 & 50{,}000 \\
+\text{Retained earnings} & 61{,}000 & 30{,}500 \\
+\hline
+\end{array}
+\\[12pt]
+\begin{array}{lr}
+\hline
+\textbf{Other financial statement data} & \textbf{(\$)} \\
+\hline
+\text{Net income} & 39{,}000 \\
+\text{Dividend declared} & 8{,}500 \\
+\hline
+\end{array}
+\end{gathered}""",
+    "f0f52342116a3e978bf1.png": r"""\begin{array}{lr}
+\hline
+\textbf{Reconciliation of retained earnings} & \textbf{(\$)} \\
+\hline
+\text{Beginning retained earnings} & 30{,}500 \\
+\text{Net income} & 39{,}000 \\
+\text{Dividend declared} & \underline{(X)} \\
+\text{Ending retained earnings} & 61{,}000 \\
+\hline
+\end{array}""",
+    "284193a7c2047e6687d1.png": r"""\begin{gathered}
+\begin{array}{lrrr}
+\hline
+\textbf{FIFO Gross Profit} & \textbf{Year 1 (\$)} & \textbf{Year 2 (\$)} & \textbf{Year 3 (\$)} \\
+\hline
+\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\
+\text{Beginning inventory} & 0 & 320{,}000 & 588{,}000 \\
+\text{Purchases} & \underline{1{,}120{,}000} & \underline{1{,}260{,}000} & \underline{880{,}000} \\
+\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}468{,}000 \\
+\text{Ending inventory} & \underline{-320{,}000} & \underline{-588{,}000} & \underline{-88{,}000} \\
+\text{Cost of goods sold} & 800{,}000 & 992{,}000 & 1{,}380{,}000 \\
+\text{Gross profit} & \$200{,}000 & \$268{,}000 & \$380{,}000 \\
+\hline
+\end{array}
+\\[12pt]
+\begin{array}{lrrr}
+\hline
+\textbf{LIFO Gross Profit} & \textbf{Year 1 (\$)} & \textbf{Year 2 (\$)} & \textbf{Year 3 (\$)} \\
+\hline
+\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\
+\text{Beginning inventory} & 0 & 320{,}000 & 572{,}000 \\
+\text{Purchases} & \underline{1{,}120{,}000} & \underline{1{,}260{,}000} & \underline{880{,}000} \\
+\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}452{,}000 \\
+\text{Ending inventory} & \underline{-320{,}000} & \underline{-572{,}000} & \underline{-80{,}000} \\
+\text{Cost of goods sold} & 800{,}000 & 1{,}008{,}000 & 1{,}372{,}000 \\
+\text{Gross profit} & \$200{,}000 & \$252{,}000 & \$388{,}000 \\
+\hline
+\end{array}
+\end{gathered}""",
+    "5d68f4c1921b12dd0247.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Key ratios summary} & \textbf{20X6} & \textbf{20X7} \\
+\hline
+\text{Inventory turnover} & 3.7 & 6.8 \\
+\text{Days of inventory on hand} & 98 & 53 \\
+\text{Gross profit margin} & 53\% & 45\% \\
+\text{Sales growth} & 4\% & 36\% \\
+\text{Current ratio} & 4.24 & 3.98 \\
+\text{Quick ratio} & 3.20 & 3.78 \\
+\hline
+\end{array}""",
+    "cd4273ac668e90e54170.png": r"""\begin{array}{lrrrrrrr}
+\hline
+& \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Year 4} & \textbf{Year 5} & \textbf{Year 6} & \textbf{Total} \\
+\hline
+\text{Accounting depreciation} & \$5{,}000 & \$5{,}000 & \$5{,}000 & \$5{,}000 & \$5{,}000 & \$5{,}000 & \$30{,}000 \\
+\text{Tax return depreciation} & \$10{,}000 & \$6{,}667 & \$4{,}444 & \$2{,}963 & \$1{,}975 & \$3{,}951 & \$30{,}000 \\
+\hline
+\end{array}""",
+    "6238aa1942b15e9eaac3.png": r"""\begin{aligned}
+\textbf{ROE:} & \\
+\text{20X3:} &\quad 21.5 / 119 = 18.1\% \\
+\text{20X4:} &\quad 22.3 / 124 = 18.0\% \\
+\text{20X5:} &\quad 21.9 / 126 = 17.4\% \\
+\\[6pt]
+\textbf{DuPont:} & \\
+\text{20X3:} &\quad 7.0\% \times 1.33 \times 1.93 \\
+\text{20X4:} &\quad 6.4\% \times 1.21 \times 2.34 \\
+\text{20X5:} &\quad 5.3\% \times 1.17 \times 2.78
+\end{aligned}""",
+    "d192ade09369af125bf7.png": r"""\begin{aligned}
+C_1 &= 11 & \text{PV}_1 &= 11 / 1.15 = 9.565 & W_1 &= 9.565 / 86.59 = 0.1105 \\
+C_2 &= 11 & \text{PV}_2 &= 11 / 1.15^2 = 8.318 & W_2 &= 8.318 / 86.59 = 0.0961 \\
+C_3 &= 11 & \text{PV}_3 &= 11 / 1.15^3 = 7.233 & W_3 &= 7.233 / 86.59 = 0.0835 \\
+C_4 &= 11 & \text{PV}_4 &= 11 / 1.15^4 = 6.289 & W_4 &= 6.289 / 86.59 = 0.0726 \\
+C_5 &= 111 & \text{PV}_5 &= 111 / 1.15^5 = \underline{55.187} & W_5 &= 55.187 / 86.59 = \underline{0.6373} \\
+& & & \qquad\quad 86.59 & & \qquad\quad 1.0000
+\end{aligned}""",
     "0aac0733302c99791356.png": r"""\begin{aligned}
 D_1 &= D_0(1+g_c)=\$1.50(1.08)=\$1.62 \\
 \text{Stock value} &= \frac{D_1}{k_e-g_c}
@@ -1303,6 +1457,8 @@ def clean_latex(latex: str) -> str:
 def visual_category(block: dict, previous_text: str, section: str) -> tuple[str, str]:
     context = f"{previous_text} {block.get('alt', '')}"
     name = Path(block.get("src", "")).name
+    if name in LATEX_OVERRIDES:
+        return "native-math", "equation or compact mathematical layout"
     if name in MANUAL_MEANINGFUL_VISUALS:
         return "meaningful-visual", "source-verified instructional table, chart, or decision tree"
     if block.get("visualKindHint") == "table":
@@ -1337,6 +1493,1315 @@ def collect_blocks(value, section: str, occurrences: list[dict]) -> None:
             if key in {"supportingBlocks", "solutionBlocks"}:
                 child_section = "quiz"
             collect_blocks(child, child_section, occurrences)
+
+
+
+# Phase 2: Transcribed Tables and Financial Statements
+LATEX_OVERRIDES.update({
+    "004e4e43db850044a5b3.png": r"""\begin{array}{lrrrrr}
+\hline
+\textbf{Year} & \begin{array}{c} \text{Beginning} \\ \text{Liability} \end{array} & \begin{array}{c} \text{Lease} \\ \text{Payment} \end{array} & \begin{array}{c} \text{Interest} \\ \text{Expense (6\%)} \end{array} & \begin{array}{c} \text{Principal} \\ \text{Reduction} \end{array} & \begin{array}{c} \text{Ending} \\ \text{Liability} \end{array} \\
+\hline
+1 & \$100{,}000 & \$23{,}740 & \$6{,}000 & \$17{,}740 & \$82{,}260 \\
+2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\
+3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\
+4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\
+5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\
+\hline
+\end{array}""",
+    "0441f549559dfa88d182.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{Current Year (\$)} & \textbf{Previous Year (\$)} \\
+\hline
+\textbf{Assets} & & \\
+\text{Cash and marketable securities} & \$105 & \$95 \\
+\text{Receivables} & 205 & 195 \\
+\text{Inventories} & \underline{310} & \underline{290} \\
+\text{Total current assets} & 620 & 580 \\
+\text{Gross property, plant, and equipment} & 1{,}800 & 1{,}700 \\
+\text{Accumulated depreciation} & \underline{360} & \underline{340} \\
+\text{Net property, plant, and equipment} & \underline{1{,}440} & \underline{1{,}360} \\
+\textbf{Total assets} & \underline{\underline{\$2{,}060}} & \underline{\underline{\$1{,}940}} \\
+\hline
+\textbf{Liabilities} & & \\
+\text{Payables} & \$110 & \$90 \\
+\text{Short-term debt} & 160 & 140 \\
+\text{Current portion of long-term debt} & \underline{55} & \underline{45} \\
+\text{Current liabilities} & 325 & 275 \\
+\text{Long-term debt} & 610 & 690 \\
+\text{Deferred taxes} & 105 & 95 \\
+\text{Common stock at par} & 300 & 300 \\
+\text{Additional paid in capital} & 400 & 400 \\
+\text{Retained earnings} & \underline{320} & \underline{180} \\
+\text{Common shareholders' equity} & \underline{1{,}020} & \underline{880} \\
+\textbf{Total liabilities and equity} & \underline{\underline{\$2{,}060}} & \underline{\underline{\$1{,}940}} \\
+\hline
+\end{array}""",
+    "07a9a732d4e8c6fe8820.png": r"""\begin{array}{lr}
+\hline
+\textbf{Cash Taxes Paid Reconciliation} & \textbf{Amount} \\
+\hline
+\text{Income tax expense} & \$270{,}000 \\
+\text{Less: Increase in income tax payable} & -15{,}000 \\
+\text{Less: Increase in deferred tax liability} & \underline{-5{,}000} \\
+\textbf{Cash taxes paid} & \underline{\underline{\$(250{,}000)}} \\
+\hline
+\end{array}""",
+    "0a88218aa63cbad38f1c.png": r"""\begin{array}{lcccc}
+\hline
+& \textbf{R}_B = 20\% & \textbf{R}_B = 15\% & \textbf{R}_B = 4\% & \textbf{Total } P(R_A) \\
+\hline
+\textbf{R}_A = 25\% & 0.20 & 0.05 & 0.00 & 0.25 \\
+\textbf{R}_A = 12\% & 0.15 & 0.30 & 0.05 & 0.50 \\
+\textbf{R}_A = -10\% & 0.00 & 0.05 & 0.20 & 0.25 \\
+\hline
+\textbf{Total } P(R_B) & 0.35 & 0.40 & 0.25 & 1.00 \\
+\hline
+\end{array}""",
+    "0cbea1828ba82ba95a45.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Deferred Tax Disclosures (\$000s)} & \textbf{20X7} & \textbf{20X6} \\
+\hline
+\textbf{Deferred Tax Assets (DTAs):} & & \\
+\text{Accrued warranty liabilities} & \$12{,}000 & \$9{,}500 \\
+\text{Loss carryforwards} & 8{,}500 & 6{,}000 \\
+\text{Valuation allowance} & \underline{(2{,}000)} & \underline{(1{,}500)} \\
+\text{Net deferred tax asset} & \$18{,}500 & \$14{,}000 \\
+\hline
+\textbf{Deferred Tax Liabilities (DTLs):} & & \\
+\text{Accelerated depreciation (PP\&E)} & \underline{\$25{,}000} & \underline{\$20{,}000} \\
+\text{Total deferred tax liability} & \$25{,}000 & \$20{,}000 \\
+\hline
+\end{array}""",
+    "0d10a4b9c0de22f7e2bb.png": r"""\begin{array}{lrrrr}
+\hline
+\textbf{Income Statement: Capitalization (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Total} \\
+\hline
+\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\
+\text{Depreciation expense} & \underline{30{,}000} & \underline{30{,}000} & \underline{30{,}000} & \underline{90{,}000} \\
+\text{Operating income} & 70{,}000 & 70{,}000 & 70{,}000 & 210{,}000 \\
+\text{Tax expense (30\%)} & \underline{21{,}000} & \underline{21{,}000} & \underline{21{,}000} & \underline{63{,}000} \\
+\textbf{Net income} & 49{,}000 & 49{,}000 & 49{,}000 & 147{,}000 \\
+\hline
+\end{array}""",
+    "1609b14359161a326d07.png": r"""\begin{array}{lr}
+\hline
+\textbf{Income Statement for 20X7} & \textbf{Amount} \\
+\hline
+\text{Revenues} & \$200{,}000 \\
+\text{Cost of goods sold} & \underline{(100{,}000)} \\
+\text{Gross profit} & \$100{,}000 \\
+\text{Salary and administrative expenses} & (40{,}000) \\
+\text{Depreciation expense} & (7{,}000) \\
+\text{Gain on sale of land} & +10{,}000 \\
+\text{Loss on disposal of equipment} & \underline{(2{,}000)} \\
+\text{Operating income} & \$61{,}000 \\
+\text{Interest expense} & (5{,}000) \\
+\text{Income tax expense} & \underline{(17{,}000)} \\
+\textbf{Net income} & \underline{\underline{\$39{,}000}} \\
+\hline
+\end{array}""",
+    "171f0c75b0ec54825fa5.png": r"""\begin{array}{lrrrrr}
+\hline
+\textbf{Year} & \begin{array}{c} \text{Beginning} \\ \text{ROU Asset} \end{array} & \begin{array}{c} \text{Lease} \\ \text{Cost} \end{array} & \begin{array}{c} \text{Interest} \\ \text{Accretion (6\%)} \end{array} & \begin{array}{c} \text{Amortization} \\ \text{ROU Asset} \end{array} & \begin{array}{c} \text{Ending} \\ \text{ROU Asset} \end{array} \\
+\hline
+1 & \$100{,}000 & \$23{,}740 & \$6{,}000 & \$17{,}740 & \$82{,}260 \\
+2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\
+3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\
+4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\
+5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\
+\hline
+\end{array}""",
+    "193f95c3e98c04c2dcc5.png": r"""\begin{array}{lr}
+\hline
+\textbf{Cash Collections with Unearned Revenue} & \textbf{Amount} \\
+\hline
+\text{Revenues} & \$2{,}000{,}000 \\
+\text{Less: Increase in accounts receivable} & -30{,}000 \\
+\text{Plus: Increase in unearned revenue} & \underline{+50{,}000} \\
+\textbf{Cash collected from customers} & \underline{\underline{\$2{,}020{,}000}} \\
+\hline
+\end{array}""",
+    "24346a116202b57c819e.png": r"""\begin{array}{lrrr}
+\hline
+& \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Beginning inventory (units)} & 0 & 100 & 150 \\
+\text{Units purchased} & 500 & 400 & 450 \\
+\text{Purchase price per unit} & \$10.00 & \$11.00 & \$12.00 \\
+\text{Units sold} & 400 & 350 & 400 \\
+\text{Selling price per unit} & \$15.00 & \$16.00 & \$18.00 \\
+\text{Ending inventory (units)} & 100 & 150 & 200 \\
+\hline
+\end{array}""",
+    "24c9efeab5fdeedafb9c.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Financial Statement Metric} & \textbf{Finance Lease} & \textbf{Operating Lease} \\
+\hline
+\textbf{Balance Sheet} & & \\
+\text{ROU Asset \& Lease Liability} & \text{Recognized on BS} & \text{Recognized on BS} \\
+\text{Total Assets and Total Debt} & \text{Higher} & \text{Higher} \\
+\hline
+\textbf{Income Statement} & & \\
+\text{Components} & \text{Depreciation + Interest} & \text{Single Lease Expense} \\
+\text{Front-loading of expenses} & \text{Yes (higher early)} & \text{No (straight-line)} \\
+\text{Operating Income (EBIT)} & \text{Higher} & \text{Lower} \\
+\text{EBITDA} & \text{Higher} & \text{Lower} \\
+\hline
+\textbf{Cash Flow Statement} & & \\
+\text{Principal reduction} & \text{Financing outflow (CFF)} & \text{Operating outflow (CFO)} \\
+\text{Operating cash flow (CFO)} & \text{Higher} & \text{Lower} \\
+\hline
+\end{array}""",
+    "25e2d203ad6aa41283ae.png": r"""\begin{array}{lr}
+\hline
+& \textbf{\$} \\
+\hline
+\text{Net income} & 39{,}000 \\
+\textbf{Noncash charges} & \\
+\quad\text{Depreciation} & 7{,}000 \\
+\quad\text{Increase in deferred tax liability} & 5{,}000 \\
+\quad\text{Loss on disposal of PP\&E} & 2{,}000 \\
+\quad\text{Gain from sale of land} & \underline{(10{,}000)} \\
+\text{Subtotal} & 43{,}000 \\
+\textbf{Investment in working capital} & \\
+\quad\text{Increase in receivables} & (1{,}000) \\
+\quad\text{Decrease in inventories} & 2{,}000 \\
+\quad\text{Increase in accounts payable} & 4{,}000 \\
+\quad\text{Decrease in wages payable} & (3{,}500) \\
+\quad\text{Increase in interest payable} & 500 \\
+\quad\text{Increase in unearned revenue liability} & 4{,}000 \\
+\quad\text{Increase in taxes payable} & \underline{1{,}000} \\
+\textbf{Operating cash flows} & \mathbf{50{,}000} \\
+\hline
+\end{array}""",
+    "2650a486ca28254a17dc.png": r"""\begin{array}{lccc}
+\hline
+\textbf{df} & \textbf{p = 0.10} & \textbf{p = 0.05} & \textbf{p = 0.025} \\
+\hline
+110 & 1.289 & 1.659 & 1.982 \\
+120 & 1.289 & 1.658 & 1.980 \\
+200 & 1.286 & 1.653 & 1.972 \\
+\hline
+\end{array}""",
+    "2b9cfd2ac28cbd8ecd52.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Matching COGS to Units Sold} & \textbf{Units} & \textbf{Unit Cost} & \textbf{Total} \\
+\hline
+\text{Beginning inventory} & 100 & \$10.00 & \$1{,}000 \\
+\text{Purchases during period} & \underline{400} & \$11.00 & \underline{\$4{,}400} \\
+\text{Total available for sale} & 500 & & \$5{,}400 \\
+\text{Ending inventory} & \underline{150} & \$11.00 & \underline{\$1{,}650} \\
+\textbf{Cost of goods sold (COGS)} & 350 & & \$3{,}750 \\
+\hline
+\end{array}""",
+    "2c2db45830118eb1d1fc.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Financial Ratio} & \textbf{Capitalizing} & \textbf{Expensing} \\
+\hline
+\text{Total asset turnover} & \text{Lower in early years} & \text{Higher in early years} \\
+\text{Operating margin} & \text{Higher in early years} & \text{Lower in early years} \\
+\text{Return on equity (ROE)} & \text{Higher in early years} & \text{Lower in early years} \\
+\text{Debt-to-equity ratio} & \text{Lower} & \text{Higher} \\
+\hline
+\end{array}""",
+    "2e57847cc10f6916fc4f.png": r"""\begin{array}{lrrrr}
+\hline
+\textbf{Income Statement: Expensing (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Total} \\
+\hline
+\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\
+\text{Equipment expense} & \underline{90{,}000} & \underline{0} & \underline{0} & \underline{90{,}000} \\
+\text{Operating income} & 10{,}000 & 100{,}000 & 100{,}000 & 210{,}000 \\
+\text{Tax expense (30\%)} & \underline{3{,}000} & \underline{30{,}000} & \underline{30{,}000} & \underline{63{,}000} \\
+\textbf{Net income} & 7{,}000 & 70{,}000 & 70{,}000 & 147{,}000 \\
+\hline
+\end{array}""",
+    "2fe33f96124c0fbd1e18.png": r"""\begin{array}{lll}
+\hline
+\textbf{Day 0} & \text{Price} = \text{settlement price of } 1{,}870 & \text{MTM value} = 0 \\[4pt]
+\textbf{Day 1} & \text{Settlement price} = 1{,}875 & \text{MTM value} = \$500 \\
+& \$500 \text{ addition to margin account} & \\
+& \text{New futures price} = 1{,}875 & \text{MTM value} = 0 \\[4pt]
+\textbf{Day 2} & \text{Settlement price} = 1{,}855 & \text{MTM value} = -\$2{,}000 \\
+& \$2{,}000 \text{ deduction from margin account} & \\
+& \text{New futures price} = 1{,}855 & \text{MTM value} = 0 \\
+\hline
+\end{array}""",
+    "32d91591473b94441c8f.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Balance Sheet: Capitalization (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Equipment (gross)} & 90{,}000 & 90{,}000 & 90{,}000 \\
+\text{Accumulated depreciation} & \underline{(30{,}000)} & \underline{(60{,}000)} & \underline{(90{,}000)} \\
+\text{Net property, plant, and equipment} & 60{,}000 & 30{,}000 & 0 \\
+\textbf{Total Assets Impact} & 60{,}000 & 30{,}000 & 0 \\
+\hline
+\end{array}""",
+    "33bc7352159d403f46bb.png": r"""\begin{array}{cccccc}
+\hline
+\textbf{Mortgage} & \textbf{Interest Rate} & \begin{array}{c} \text{Beginning Balance} \\ \text{(000 USD)} \end{array} & \begin{array}{c} \text{Current Balance} \\ \text{(000 USD)} \end{array} & \begin{array}{c} \text{Original Term} \\ \text{(Months)} \end{array} & \begin{array}{c} \text{Months to} \\ \text{Maturity} \end{array} \\
+\hline
+\text{A} & 2.6\% & 100 & 90 & 240 & 210 \\
+\text{B} & 1.0\% & 200 & 72 & 300 & 100 \\
+\text{C} & 5.4\% & 300 & 247 & 360 & 280 \\
+\hline
+\end{array}""",
+    "3993dbc1b6188bda044b.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Balance Sheet: Expensing (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Net property, plant, and equipment} & 0 & 0 & 0 \\
+\text{Retained earnings impact} & 7{,}000 & 77{,}000 & 147{,}000 \\
+\textbf{Total Assets Impact} & 0 & 0 & 0 \\
+\hline
+\end{array}""",
+    "3ad166e8f69d389954ed.png": r"""\begin{array}{llr}
+\hline
+\text{Revenues} & 1{,}000\text{ units @ }\$105 & \$105{,}000 \\
+\text{COGS} & 1{,}000\text{ units @ }\$45 & \underline{\$45{,}000} \\
+\text{Gross profit} & & \$60{,}000 \\
+\text{SG\&A} & & \underline{\$30{,}000} \\
+\textbf{Operating profit} & & \underline{\underline{\$30{,}000}} \\
+\text{Gross margin} & & 57\% \\
+\text{Operating margin} & & 29\% \\
+\hline
+\end{array}""",
+    "3b212816f81575ac9df8.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Footnote Disclosure: Inventory (\$000s)} & \textbf{20X7} & \textbf{20X6} & \textbf{20X5} \\
+\hline
+\text{Inventory at FIFO cost} & \$42{,}000 & \$38{,}000 & \$35{,}000 \\
+\text{Less: LIFO reserve} & \underline{(6{,}000)} & \underline{(4{,}500)} & \underline{(3{,}800)} \\
+\textbf{Inventory at LIFO (reported on balance sheet)} & \$36{,}000 & \$33{,}500 & \$31{,}200 \\
+\hline
+\end{array}""",
+    "3c5c5a60d2869949ed95.png": r"""\begin{array}{lrrrr}
+\hline
+\textbf{Index Analysis (Base Year 1 = 100)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Year 4} \\
+\hline
+\text{Sales index} & 100.0 & 112.5 & 124.0 & 138.5 \\
+\text{Inventory index} & 100.0 & 118.0 & 135.2 & 156.4 \\
+\text{COGS index} & 100.0 & 110.0 & 121.5 & 134.0 \\
+\hline
+\end{array}""",
+    "3c9dbbfb75f5fcebc850.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Investor Type} & \textbf{Risk Tolerance} & \textbf{Investment Horizon} & \textbf{Liquidity Needs} & \textbf{Income Needs} \\
+\hline
+\text{Individuals} & \begin{array}{c} \text{Depends on} \\ \text{individual} \end{array} & \begin{array}{c} \text{Depends on} \\ \text{individual} \end{array} & \begin{array}{c} \text{Depends on} \\ \text{individual} \end{array} & \begin{array}{c} \text{Depends on} \\ \text{individual} \end{array} \\
+\text{Banks} & \text{Low} & \text{Short} & \text{High} & \text{Pay interest} \\
+\text{Endowments} & \text{High} & \text{Long} & \text{Low} & \text{Spending level} \\
+\text{Insurance} & \text{Low} & \begin{array}{c} \text{Long---life} \\ \text{Short---P\&C} \end{array} & \text{High} & \text{Low} \\
+\text{Mutual funds} & \begin{array}{c} \text{Depends on} \\ \text{fund} \end{array} & \begin{array}{c} \text{Depends on} \\ \text{fund} \end{array} & \text{High} & \begin{array}{c} \text{Depends on} \\ \text{fund} \end{array} \\
+\text{Defined benefit pension} & \text{High} & \text{Long} & \text{Low} & \text{Depends on age} \\
+\hline
+\end{array}""",
+    "3e9cd88b54d911d57bf7.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Lessor Classification} & \textbf{Finance Lease} & \textbf{Operating Lease} \\
+\hline
+\text{Balance Sheet} & \text{Derecognize asset; add lease receivable} & \text{Retain asset on BS; record depreciation} \\
+\text{Income Statement} & \text{Interest revenue} & \text{Rental income less depreciation} \\
+\text{Cash Flow Statement} & \text{Principal in CFI, Interest in CFO} & \text{Full rental payment in CFO} \\
+\hline
+\end{array}""",
+    "448f0b574d80ae590d30.png": r"""\begin{array}{lccc}
+\hline
+\textbf{df} & \textbf{p = 0.10} & \textbf{p = 0.05} & \textbf{p = 0.025} \\
+\hline
+38 & 1.304 & 1.686 & 2.024 \\
+39 & 1.304 & 1.685 & 2.023 \\
+40 & 1.303 & 1.684 & 2.021 \\
+\hline
+\end{array}""",
+    "47a778e8d0cc4e8c245b.png": r"""\begin{array}{lrrrrr}
+\hline
+\textbf{Year} & \begin{array}{c} \text{Beginning Lease} \\ \text{Receivable} \end{array} & \begin{array}{c} \text{Payment} \\ \text{Received} \end{array} & \begin{array}{c} \text{Interest} \\ \text{Income (6\%)} \end{array} & \begin{array}{c} \text{Principal} \\ \text{Collected} \end{array} & \begin{array}{c} \text{Ending Lease} \\ \text{Receivable} \end{array} \\
+\hline
+1 & \$100{,}000 & \$23{,}740 & \$6{,}000 & \$17{,}740 & \$82{,}260 \\
+2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\
+3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\
+4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\
+5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\
+\hline
+\end{array}""",
+    "4b028243ef1b6d3cbc39.png": r"""\begin{array}{lr}
+\hline
+\textbf{Costs Expensed When Incurred} & \textbf{Amount} \\
+\hline
+\text{Training costs for employees operating equipment} & \$7{,}500 \\
+\text{Administrative overhead allocated to project} & \underline{\$35{,}000} \\
+\textbf{Total Costs Expensed} & \underline{\underline{\$42{,}500}} \\
+\hline
+\end{array}""",
+    "4b973189367edba55ab4.png": r"""\begin{array}{llr}
+\hline
+\textbf{Keystroke} & \textbf{Display} & \textbf{Explanation} \\
+\hline
+[\text{CF}] & \text{CF0 = 0} & \text{Enter Cash Flow worksheet} \\
+[\text{2nd}][\text{CLR WORK}] & \text{CF0 = 0} & \text{Clear previous entries} \\
+50 [+/-][\text{ENTER}] & \text{CF0 = } -50 & \text{Initial outlay} \\
+[\downarrow] 100 [+/-][\text{ENTER}] & \text{C01 = } -100 & \text{Cash flow Year 1} \\
+[\downarrow][\downarrow] 150 [\text{ENTER}] & \text{C02 = 150} & \text{Cash flow Year 2} \\
+[\text{IRR}][\text{CPT}] & \text{IRR = 0.00} & \text{Compute IRR (0.0\%)} \\
+\hline
+\end{array}""",
+    "4ded731434f7fca8f53a.png": r"""\begin{array}{lr}
+\hline
+\text{Original cost} & \$900{,}000 \\
+\text{Accumulated depreciation to date} & \$100{,}000 \\
+\text{Expected future cash flows} & \$795{,}000 \\
+\text{Fair value} & \$790{,}000 \\
+\text{Value in use} & \$785{,}000 \\
+\text{Selling costs} & \$30{,}000 \\
+\hline
+\end{array}""",
+    "5192b64bec7da308db37.png": r"""\begin{array}{lrrrrr}
+\hline
+\textbf{DTL Schedule (\$000s)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Year 4} & \textbf{Year 5} \\
+\hline
+\text{Accounting depreciation} & \$20{,}000 & \$20{,}000 & \$20{,}000 & \$20{,}000 & \$20{,}000 \\
+\text{Tax depreciation} & \underline{33{,}330} & \underline{44{,}450} & \underline{14{,}810} & \underline{7{,}410} & \underline{0} \\
+\text{Temporary difference} & (13{,}330) & (24{,}450) & 5{,}190 & 12{,}590 & 20{,}000 \\
+\textbf{DTL Change @ 30\%} & +\$4{,}000 & +\$7{,}335 & -\$1{,}557 & -\$3{,}777 & -\$6{,}000 \\
+\hline
+\end{array}""",
+    "5afb9617c177725ce881.png": r"""\begin{array}{lr}
+\hline
+\textbf{Cash Collected From Customers} & \textbf{Amount} \\
+\hline
+\text{Revenues} & \$100{,}000 \\
+\text{Decrease in accounts receivable} & \underline{+7{,}000} \\
+\textbf{Cash collected from customers} & \underline{\underline{\$107{,}000}} \\
+\hline
+\end{array}""",
+    "5b15780f0fb7c3e70358.png": r"""\begin{array}{lcccc}
+\hline
+& \textbf{Bitcoin (In USD)} & \begin{array}{c} \text{S\&P 500} \\ \text{Total Return} \end{array} & \begin{array}{c} \text{MSCI World} \\ \text{Index Return} \end{array} & \begin{array}{c} \text{Bloomberg Global} \\ \text{Aggregate Index} \end{array} \\
+\hline
+\text{Average} & 8.84\% & 1.13\% & 0.66\% & 0.16\% \\
+\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\
+\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\
+\hline
+\end{array}""",
+    "5b22f1b5f283284f5c7f.png": r"""\begin{array}{lr}
+\hline
+\textbf{Net Principal Flow on Bonds Payable} & \textbf{Amount} \\
+\hline
+\text{Beginning bonds payable} & \$10{,}000 \\
+\text{New bond issuance} & +8{,}000 \\
+\text{Bond retirements / principal repayments} & \underline{-3{,}000} \\
+\textbf{Ending bonds payable} & \underline{\underline{\$15{,}000}} \\
+\hline
+\end{array}""",
+    "5e4e36a280ec13ad21f8.png": r"""\begin{array}{l|ll}
+\hline
+& \textbf{Tight Monetary Policy} & \textbf{Easy Monetary Policy} \\
+\hline
+\textbf{Tight Fiscal Policy} & \begin{array}{l} \text{Real interest rates: Higher} \\ \text{Aggregate output: Lower} \\ \text{Public sector: Shrinking} \end{array} & \begin{array}{l} \text{Real interest rates: Lower} \\ \text{Aggregate output: Uncertain} \\ \text{Private sector: Expanding} \end{array} \\[12pt]
+\textbf{Easy Fiscal Policy} & \begin{array}{l} \text{Real interest rates: Higher} \\ \text{Aggregate output: Uncertain} \\ \text{Public sector: Expanding} \end{array} & \begin{array}{l} \text{Real interest rates: Lower} \\ \text{Aggregate output: Higher} \\ \text{Private \& Public: Expanding} \end{array} \\
+\hline
+\end{array}""",
+    "5f069797e6e810c80e3f.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Common-Size Balance Sheet (\%)} & \textbf{East Co.} & \textbf{West Co.} \\
+\hline
+\text{Cash and equivalents} & 5.0\% & 4.0\% \\
+\text{Accounts receivable} & 12.0\% & 12.0\% \\
+\text{Inventory} & \underline{18.0\%} & \underline{14.0\%} \\
+\text{Total current assets} & 35.0\% & 30.0\% \\
+\text{Net PP\&E} & \underline{65.0\%} & \underline{70.0\%} \\
+\textbf{Total assets} & \underline{\underline{100.0\%}} & \underline{\underline{100.0\%}} \\
+\hline
+\text{Current liabilities} & 20.0\% & 20.0\% \\
+\text{Long-term debt} & 30.0\% & 30.0\% \\
+\text{Shareholders' equity} & \underline{50.0\%} & \underline{50.0\%} \\
+\textbf{Total liabilities and equity} & \underline{\underline{100.0\%}} & \underline{\underline{100.0\%}} \\
+\hline
+\end{array}""",
+    "62340509398a22ebb7f1.png": r"""\begin{array}{lccc}
+\hline
+& \textbf{Current Year} & \textbf{Previous Year} & \textbf{Industry Average} \\
+\hline
+\text{Current ratio} & 1.9 & 2.1 & 1.5 \\
+\text{Total asset turnover} & 2.0 & 2.3 & 2.4 \\
+\text{Net profit margin} & 5.0\% & 5.8\% & 6.5\% \\
+\text{Return on common equity} & 21.1\% & 24.1\% & 19.8\% \\
+\text{Debt-to-equity} & 80.9\% & 99.4\% & 35.7\% \\
+\hline
+\end{array}""",
+    "68211594bc802b33c92a.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Date} & \textbf{Transaction} & \textbf{Units} & \textbf{Unit Price / Cost} \\
+\hline
+\text{Jan 1} & \text{Beginning inventory} & 200 & \$10.00 \\
+\text{Mar 15} & \text{Purchase} & 300 & \$11.00 \\
+\text{Jun 20} & \text{Sale} & 350 & \$15.00 \\
+\text{Sep 10} & \text{Purchase} & 400 & \$12.00 \\
+\text{Dec 5} & \text{Sale} & 250 & \$16.00 \\
+\hline
+\end{array}""",
+    "6fae291f3cddc6447638.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Tax Expense Breakdown (\$000s)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Current tax payable} & \$8{,}865 & \$10{,}458 & \$10{,}955 \\
+\text{Deferred tax adjustment} & \underline{(300)} & \underline{300} & \underline{1{,}050} \\
+\textbf{Income tax expense (Income Statement)} & \underline{\underline{\$8{,}565}} & \underline{\underline{\$10{,}758}} & \underline{\underline{\$12{,}005}} \\
+\hline
+\end{array}""",
+    "701ed5eff65b74fbfce9.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{Company A} & \textbf{Company B} \\
+\hline
+\text{Revenues} & \$500 & \$900 \\
+\text{EBIT} & 35 & 100 \\
+\text{Interest expense} & 5 & 0 \\
+\text{EBT} & 30 & 100 \\
+\text{Taxes} & \underline{10} & \underline{40} \\
+\text{Net income} & 20 & 60 \\
+\text{Average assets} & 250 & 300 \\
+\text{Total debt} & 100 & 50 \\
+\text{Average equity} & \$150 & \$250 \\
+\hline
+\end{array}""",
+    "73dc12ecfc35b84f7ec5.png": r"""\begin{array}{lr}
+\hline
+& \textbf{Current Year} \\
+\hline
+\text{Sales} & \$4{,}000 \\
+\text{Cost of goods sold} & \underline{3{,}000} \\
+\text{Gross profit} & 1{,}000 \\
+\text{Operating expenses} & \underline{650} \\
+\text{Operating profit} & 350 \\
+\text{Interest expense} & \underline{50} \\
+\text{Earnings before taxes} & 300 \\
+\text{Taxes} & \underline{100} \\
+\text{Net income} & \underline{200} \\
+\text{Common dividends} & \underline{60} \\
+\hline
+\end{array}""",
+    "740e8bf422d1a74b9e15.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Cash Flow Statement (\% of Revenues)} & \textbf{20X9} & \textbf{20X8} & \textbf{20X7} \\
+\hline
+\text{Cash from operating activities (CFO)} & 14.2\% & 13.8\% & 12.5\% \\
+\text{Cash from investing activities (CFI)} & -8.5\% & -9.1\% & -7.8\% \\
+\text{Cash from financing activities (CFF)} & \underline{-3.2\%} & \underline{-2.5\%} & \underline{-3.0\%} \\
+\textbf{Net change in cash} & 2.5\% & 2.2\% & 1.7\% \\
+\hline
+\end{array}""",
+    "7599db3f980f38142f2b.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Stock} & \textbf{Forecast Return} & \textbf{Required Return} \\
+\hline
+\text{A} & (\$27 - \$25 + \$1) / \$25 = 12.0\% & 0.07 + (1.0)(0.15 - 0.07) = 15.0\% \\
+\text{B} & (\$45 - \$40 + \$2) / \$40 = 17.5\% & 0.07 + (0.8)(0.15 - 0.07) = 13.4\% \\
+\text{C} & (\$17 - \$15 + \$0.5) / \$15 = 16.6\% & 0.07 + (1.2)(0.15 - 0.07) = 16.6\% \\
+\hline
+\end{array}""",
+    "7bc6afde6ef40f0475a6.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Timing Difference \& DTA Schedule (\$000s)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Warranty expense (accrual for book)} & \$2{,}000 & \$5{,}000 & \$8{,}000 \\
+\text{Warranty paid (deductible for tax)} & \underline{1{,}000} & \underline{4{,}000} & \underline{4{,}500} \\
+\text{Cumulative temporary difference} & \$1{,}000 & \$2{,}000 & \$5{,}500 \\
+\textbf{Ending Deferred Tax Asset @ 30\%} & \underline{\underline{\$300}} & \underline{\underline{\$600}} & \underline{\underline{\$1{,}650}} \\
+\hline
+\end{array}""",
+    "7dc657bd79cecbffc2f8.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Cash Flow Item} & \textbf{U.S. GAAP} & \textbf{IFRS} \\
+\hline
+\text{Interest received} & \text{Operating} & \text{Operating or Investing} \\
+\text{Interest paid} & \text{Operating} & \text{Operating or Financing} \\
+\text{Dividends received} & \text{Operating} & \text{Operating or Investing} \\
+\text{Dividends paid} & \text{Financing} & \text{Operating or Financing} \\
+\text{Taxes paid} & \text{Operating} & \text{Operating (unless specific)} \\
+\hline
+\end{array}""",
+    "85130fb513dc68f0cbda.png": r"""\begin{array}{llr}
+\hline
+\text{Revenues} & 900\text{ units @ }\$105 & \$94{,}500 \\
+\text{COGS} & 900\text{ units @ }\$45 & \underline{\$40{,}500} \\
+\text{Gross profit} & & \$54{,}000 \\
+\text{SG\&A} & & \underline{\$30{,}000} \\
+\textbf{Operating profit} & & \underline{\underline{\$24{,}000}} \\
+\text{Gross margin} & & 57\% \\
+\text{Operating margin} & & 25\% \\
+\hline
+\end{array}""",
+    "890263d6938a04faada4.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Source} & \begin{array}{c} \text{Fair Market} \\ \text{Value (\$000s)} \end{array} & \begin{array}{c} \text{Liquidation} \\ \text{Cost (\%)} \end{array} & \begin{array}{c} \text{Liquidation} \\ \text{Cost (\$)} \end{array} & \begin{array}{c} \text{Net} \\ \text{Proceeds} \end{array} \\
+\hline
+\text{Cash and marketable securities} & \$100 & 0\% & \$0 & \$100 \\
+\text{Inventory and receivables} & \$200 & 15\% & \$30 & \$170 \\
+\text{Empty warehouse} & \underline{\$300} & 30\% & \underline{\$90} & \underline{\$210} \\
+\textbf{Total} & \underline{\underline{\$600}} & & \underline{\underline{\$120}} & \underline{\underline{\$480}} \\
+\hline
+\end{array}""",
+    "988c7893d36a8a1bd8ca.png": r"""\begin{array}{lll}
+\hline
+\textbf{Model Form} & \textbf{Equation} & \textbf{Slope Interpretation } \beta_1 \\
+\hline
+\text{Linear-Linear} & Y = \beta_0 + \beta_1 X & \text{A 1-unit increase in } X \text{ leads to a } \beta_1 \text{-unit change in } Y \\
+\text{Log-Linear} & \ln(Y) = \beta_0 + \beta_1 X & \text{A 1-unit increase in } X \text{ leads to a } (\beta_1 \times 100)\% \text{ change in } Y \\
+\text{Linear-Log} & Y = \beta_0 + \beta_1 \ln(X) & \text{A 1\% increase in } X \text{ leads to a } (\beta_1 / 100) \text{-unit change in } Y \\
+\text{Log-Log} & \ln(Y) = \beta_0 + \beta_1 \ln(X) & \text{A 1\% increase in } X \text{ leads to a } \beta_1\% \text{ change in } Y \text{ (elasticity)} \\
+\hline
+\end{array}""",
+    "99a395b3005dcf9a0cf9.png": r"""\begin{array}{lccc}
+\hline
+\textbf{Economic State} & \textbf{Probability } P(s) & \textbf{Return } R(s) & P(s)[R(s) - E(R)]^2 \\
+\hline
+\text{Boom} & 0.30 & 20.0\% & 0.30(0.20 - 0.117)^2 = 0.002067 \\
+\text{Normal} & 0.50 & 10.0\% & 0.50(0.10 - 0.117)^2 = 0.000145 \\
+\text{Slow} & 0.20 & 4.0\% & 0.20(0.04 - 0.117)^2 = 0.001186 \\
+\hline
+\textbf{Total / Variance } \sigma^2 & & & 0.003398 \\
+\hline
+\end{array}""",
+    "9ad5a7f96f9ef4ed4e1c.png": r"""\begin{array}{lr}
+\hline
+\textbf{Cash Paid to Suppliers} & \textbf{Amount} \\
+\hline
+\text{Cost of goods sold (COGS)} & \$40{,}000 \\
+\text{Decrease in inventory} & -8{,}000 \\
+\text{Decrease in accounts payable} & \underline{+2{,}000} \\
+\textbf{Cash paid to suppliers} & \underline{\underline{\$(34{,}000)}} \\
+\hline
+\end{array}""",
+    "9ca4fb017d5c655a23b8.png": r"""\begin{array}{lllll r}
+\hline
+& & & & & \underline{\textbf{Convexity}} \\
+C_1 = 11 & \text{PV}_1 = 11 / 1.15 & = 9.565 & W_1 = 9.565 / 86.59 & = 0.1105 & \mathbf{1.512} \\
+C_2 = 11 & \text{PV}_2 = 11 / 1.15^2 & = 8.318 & W_2 = 8.318 / 86.59 & = 0.0961 & \mathbf{4.537} \\
+C_3 = 11 & \text{PV}_3 = 11 / 1.15^3 & = 7.233 & W_3 = 7.233 / 86.59 & = 0.0835 & \mathbf{9.074} \\
+C_4 = 11 & \text{PV}_4 = 11 / 1.15^4 & = 6.289 & W_4 = 6.289 / 86.59 & = 0.0726 & \mathbf{15.123} \\
+C_5 = 111 & \text{PV}_5 = 111 / 1.15^5 & = \underline{55.187} & W_5 = 55.187 / 86.59 & = \underline{0.6373} & \mathbf{22.684} \\
+\hline
+& & \mathbf{86.59} & & \mathbf{1.0000} & \\
+\hline
+\end{array}""",
+    "9daa03cc4a34d1747f8b.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Hyzer Corporation: Income Statement Extracts} & \textbf{20X7 (LIFO)} & \textbf{20X7 (FIFO)} \\
+\hline
+\text{Revenue} & \$350{,}000 & \$350{,}000 \\
+\text{Cost of goods sold} & \underline{220{,}000} & \underline{218{,}500} \\
+\text{Gross profit} & \$130{,}000 & \$131{,}500 \\
+\text{Operating expenses} & \underline{70{,}000} & \underline{70{,}000} \\
+\text{Operating income} & \$60{,}000 & \$61{,}500 \\
+\text{Taxes (40\%)} & \underline{24{,}000} & \underline{24{,}600} \\
+\textbf{Net income} & \underline{\underline{\$36{,}000}} & \underline{\underline{\$36{,}900}} \\
+\hline
+\end{array}""",
+    "9dc5da52e5cce1eda307.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Stock} & \textbf{Price Today} & \begin{array}{c} \text{E(Price)} \\ \text{in 1 Year} \end{array} & \begin{array}{c} \text{E(Dividend)} \\ \text{in 1 Year} \end{array} & \textbf{Beta} \\
+\hline
+\text{A} & \$25 & \$27 & \$1.00 & 1.0 \\
+\text{B} & 40 & 45 & 2.00 & 0.8 \\
+\text{C} & 15 & 17 & 0.50 & 1.2 \\
+\hline
+\end{array}""",
+    "9e5716d3827f249ab639.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Feature} & \begin{array}{c} \textbf{Sole} \\ \textbf{Proprietorship} \end{array} & \begin{array}{c} \textbf{General} \\ \textbf{Partnership} \end{array} & \begin{array}{c} \textbf{Limited} \\ \textbf{Partnership} \end{array} & \textbf{Corporation} \\
+\hline
+\text{Separate legal entity} & \text{No} & \text{No} & \text{Yes} & \text{Yes} \\
+\text{Owner liability} & \text{Unlimited} & \text{Unlimited} & \text{Limited (LPs)} & \text{Limited} \\
+\text{Taxation} & \text{Pass-through} & \text{Pass-through} & \text{Pass-through} & \text{Double taxation} \\
+\text{Access to capital} & \text{Very limited} & \text{Limited} & \text{Moderate} & \text{Extensive} \\
+\hline
+\end{array}""",
+    "a0db1a41b518f5fd261f.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{20X7 (\$)} & \textbf{20X6 (\$)} \\
+\hline
+\textbf{Long-lived assets} & & \\
+\text{Deferred tax} & 30{,}000 & 20{,}000 \\
+\textbf{Current assets} & & \\
+\text{Accounts receivable} & 200{,}000 & 150{,}000 \\
+\text{Inventory} & 260{,}000 & 280{,}000 \\
+\textbf{Current liabilities} & & \\
+\text{Accounts payable} & 120{,}000 & 150{,}000 \\
+\text{Unearned revenue} & 220{,}000 & 150{,}000 \\
+\text{Tax payable} & 150{,}000 & 240{,}000 \\
+\textbf{Long-term liabilities} & & \\
+\text{Deferred tax} & 150{,}000 & 100{,}000 \\
+\hline
+\end{array}""",
+    "a1901e95615ba6b26051.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Warranty Liability Roll-Forward (\$000s)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} \\
+\hline
+\text{Beginning balance} & \$0 & \$1{,}000 & \$2{,}000 \\
+\text{Plus: Warranty expense recognized} & 2{,}000 & 5{,}000 & 8{,}000 \\
+\text{Less: Warranty payments made} & \underline{(1{,}000)} & \underline{(4{,}000)} & \underline{(4{,}500)} \\
+\textbf{Ending warranty liability (Balance Sheet)} & \underline{\underline{\$1{,}000}} & \underline{\underline{\$2{,}000}} & \underline{\underline{\$5{,}500}} \\
+\hline
+\end{array}""",
+    "a3d4bd9e09fe6e397b5d.png": r"""\begin{array}{lll}
+\hline
+\textbf{Increase in:} & \textbf{Effect on Call Option Values} & \textbf{Effect on Put Option Values} \\
+\hline
+\text{Price of underlying asset} & \text{Increase} & \text{Decrease} \\
+\text{Exercise price} & \text{Decrease} & \text{Increase} \\
+\text{Risk-free rate} & \text{Increase} & \text{Decrease} \\
+\text{Volatility of underlying asset} & \text{Increase} & \text{Increase} \\
+\text{Time to expiration} & \text{Increase} & \begin{array}{l} \text{Increase, except some} \\ \text{European puts} \end{array} \\
+\text{Costs of holding underlying asset} & \text{Increase} & \text{Decrease} \\
+\text{Benefits of holding underlying asset} & \text{Decrease} & \text{Increase} \\
+\hline
+\end{array}""",
+    "a414e01d34293345478a.png": r"""\begin{array}{llr}
+\hline
+\text{Revenues} & 950\text{ units @ }\$105 & \$99{,}750 \\
+\text{COGS} & 950\text{ units @ }\$45 & \underline{\$42{,}750} \\
+\text{Gross profit} & & \$57{,}000 \\
+\text{SG\&A} & & \underline{\$30{,}000} \\
+\textbf{Operating profit} & & \underline{\underline{\$27{,}000}} \\
+\text{Gross margin} & & 57\% \\
+\text{Operating margin} & & 27\% \\
+\hline
+\end{array}""",
+    "a4a3be627992c67d0103.png": r"""\begin{array}{lr}
+\hline
+\textbf{Carrying Value and Proceeds of PP\&E Disposal} & \textbf{Amount} \\
+\hline
+\text{Original cost of equipment sold} & \$20{,}000 \\
+\text{Less: Accumulated depreciation} & \underline{-8{,}000} \\
+\text{Carrying value at date of sale} & \$12{,}000 \\
+\text{Less: Loss on sale of equipment} & \underline{-2{,}000} \\
+\textbf{Cash proceeds from sale} & \underline{\underline{\$10{,}000}} \\
+\hline
+\end{array}""",
+    "a59a1286e797537fd1d0.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Hyzer Corporation: Balance Sheet Extracts} & \textbf{20X7 (LIFO)} & \textbf{20X7 (FIFO)} \\
+\hline
+\text{Cash} & \$20{,}000 & \$19{,}400 \\
+\text{Accounts receivable} & 35{,}000 & 35{,}000 \\
+\text{Inventory} & \underline{36{,}000} & \underline{42{,}000} \\
+\text{Total current assets} & \$91{,}000 & \$96{,}400 \\
+\text{Net PP\&E} & \underline{120{,}000} & \underline{120{,}000} \\
+\textbf{Total assets} & \underline{\underline{\$211{,}000}} & \underline{\underline{\$216{,}400}} \\
+\hline
+\text{Current liabilities} & \$30{,}000 & \$30{,}000 \\
+\text{Long-term debt} & 60{,}000 & 60{,}000 \\
+\text{Common stock} & 50{,}000 & 50{,}000 \\
+\text{Retained earnings} & \underline{71{,}000} & \underline{76{,}400} \\
+\textbf{Total liabilities and equity} & \underline{\underline{\$211{,}000}} & \underline{\underline{\$216{,}400}} \\
+\hline
+\end{array}""",
+    "a76fcd5d6139f16612bc.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Cash Flow Statement Extracts} & \textbf{20X9} & \textbf{20X8} & \textbf{20X7} \\
+\hline
+\text{Interest paid (operating cash flow)} & \$12{,}000 & \$10{,}500 & \$9{,}800 \\
+\text{Capital expenditures (CFI)} & (45{,}000) & (40{,}000) & (35{,}000) \\
+\text{Principal debt repayments (CFF)} & (15{,}000) & (12{,}000) & (10{,}000) \\
+\text{Dividends paid (CFF)} & (20{,}000) & (18{,}000) & (15{,}000) \\
+\hline
+\end{array}""",
+    "a93e6133f2de169c1ab4.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Statutory Tax Rate Reconciliation} & \textbf{20X3} & \textbf{20X2} & \textbf{20X1} \\
+\hline
+\text{U.S. statutory tax rate} & 35.0\% & 35.0\% & 35.0\% \\
+\text{Tax differential on foreign earnings} & -3.2\% & -4.0\% & -3.8\% \\
+\text{State and local taxes (net of federal benefit)} & +2.4\% & +2.1\% & +2.3\% \\
+\text{Research and development tax credits} & -1.8\% & -1.5\% & -1.2\% \\
+\text{Other non-deductible permanent items} & \underline{+0.6\%} & \underline{+0.4\%} & \underline{+0.7\%} \\
+\textbf{Effective tax rate} & \underline{\underline{33.0\%}} & \underline{\underline{32.0\%}} & \underline{\underline{33.0\%}} \\
+\hline
+\end{array}""",
+    "a9abb4ccbda249ca69e9.png": r"""\begin{array}{lllll r}
+\hline
+& & & & & \underline{\textbf{Convexity}} \\
+C_1 = 5 & \text{PV}_1 = 5 / 1.05 & = 4.762 & W_1 = 4.762 / 100 & = 0.0476 & \mathbf{1.8141} \\
+C_2 = 5 & \text{PV}_2 = 5 / 1.05^2 & = 4.535 & W_2 = 4.535 / 100 & = 0.0454 & \mathbf{5.4422} \\
+C_3 = 5 & \text{PV}_3 = 5 / 1.05^3 & = 4.319 & W_3 = 4.319 / 100 & = 0.0432 & \mathbf{10.8844} \\
+C_4 = 105 & \text{PV}_4 = 105 / 1.05^4 & = \underline{86.384} & W_4 = 86.384 / 100 & = 0.8638 & \mathbf{18.1406} \\
+\hline
+& & \mathbf{100} & & & \\
+\hline
+\end{array}""",
+    "ad827ab290b1c8660a15.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Year} & \textbf{Stock A Return} & \textbf{Stock B Return} & [R_A - \bar{R}_A] & [R_B - \bar{R}_B] \\
+\hline
+\text{20X1} & 10.0\% & 12.0\% & 10.0 - 8.0 = 2.0\% & 12.0 - 9.0 = 3.0\% \\
+\text{20X2} & 6.0\% & 8.0\% & 6.0 - 8.0 = -2.0\% & 8.0 - 9.0 = -1.0\% \\
+\text{20X3} & 8.0\% & 7.0\% & 8.0 - 8.0 = 0.0\% & 7.0 - 9.0 = -2.0\% \\
+\hline
+\textbf{Mean} & 8.0\% & 9.0\% & & \\
+\hline
+\end{array}""",
+    "b433e6e32eee7e9616c8.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Portfolio} & \textbf{Expected Return } E(R) & \textbf{Standard Deviation } \sigma \\
+\hline
+\text{A} & 12.0\% & 18.0\% \\
+\text{B} & 10.0\% & 12.0\% \\
+\text{C} & 8.0\% & 7.0\% \\
+\hline
+\end{array}""",
+    "b5078c1215465acab3c1.png": r"""\begin{array}{lr}
+\hline
+\textbf{Step 2: Revenues less noncash charges} & \mathbf{104{,}000} \\
+\quad(\$114{,}000 - \$10{,}000) & \\
+\quad\$10{,}000 = \text{gain on asset disposal} & \\
+\textbf{Expenses less noncash charges} & \mathbf{61{,}000} \\
+\quad(\$75{,}000 - \$7{,}000 - \$2{,}000 - \$5{,}000) & \\
+\quad\$7{,}000 = \text{depreciation} & \\
+\quad\$2{,}000 = \text{loss on disposal of PP\&E} & \\
+\quad\$5{,}000 = \text{change in deferred tax liability} & \\
+\quad\text{Cost of goods sold} & 40{,}000 \\
+\quad\text{Wages} & 5{,}000 \\
+\quad\text{Interest} & 1{,}000 \\
+\quad\text{Tax payable} & \underline{15{,}000} \\
+\quad(\text{Tax provision} - \text{increase in DTL}) & \\
+\textbf{Total} & \mathbf{61{,}000} \\
+\hline
+\end{array}""",
+    "b648b7cd86830bb56841.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Income Statement} & \textbf{\$} & \textbf{\$} \\
+\hline
+\text{Revenue} & & 3{,}500 \\
+\text{Beginning inventory} & 400 & \\
+\text{Purchases} & \underline{2{,}330} & \\
+\text{Available for sale} & 2{,}730 & \\
+\text{Ending inventory} & \underline{(296)} & \\
+\text{Cost of goods sold} & & \underline{2{,}434} \\
+\textbf{Gross profit} & & 1{,}066 \\
+\hline
+\end{array}""",
+    "b665660817cda5de60a9.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Earnings Before Tax} & \textbf{Year 1 (\text{EUR }m)} & \textbf{Year 2 (\text{EUR }m)} & \textbf{Year 3 (\text{EUR }m)} \\
+\hline
+\text{French operations} & 200 & 150 & 210 \\
+\text{Overseas operations} & \underline{50} & \underline{75} & \underline{90} \\
+\textbf{Total} & 250 & 225 & 300 \\
+\hline
+\hline
+\textbf{Income Taxes (Income Statement)} & \textbf{Year 1 (\text{EUR }m)} & \textbf{Year 2 (\text{EUR }m)} & \textbf{Year 3 (\text{EUR }m)} \\
+\hline
+\text{Current: French operations} & 56 & 30 & 59 \\
+\text{Current: Overseas operations} & \underline{12} & \underline{20} & \underline{21} \\
+\text{Current income taxes} & 68 & 50 & 80 \\
+\text{Deferred: French operations} & 8 & (4) & 6 \\
+\text{Deferred: Overseas operations} & \underline{(1)} & \underline{2} & \underline{2} \\
+\text{Deferred income taxes} & 7 & 2 & 8 \\
+\textbf{Total tax expense} & 75 & 48 & 88 \\
+\hline
+\end{array}""",
+    "b8f7f76b5f0bf28f896b.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Portfolio} & \textbf{Calculation } [E(R) - R_L] / \sigma & \textbf{SFRatio} \\
+\hline
+\text{A} & (12.0 - 5.0) / 18.0 & 0.389 \\
+\text{B} & (10.0 - 5.0) / 12.0 & 0.417 \\
+\text{C} & (8.0 - 5.0) / 7.0 & 0.429 \\
+\hline
+\end{array}""",
+    "ba419a01ea9240df9ba9.png": r"""\begin{array}{lrr}
+\hline
+& \textbf{York, Inc.} & \textbf{Zale, Inc.} \\
+\hline
+\text{Revenue} & \$2{,}200{,}000 & \$11{,}000{,}000 \\
+\text{Depreciation and amortization} & \$220{,}000 & \$900{,}000 \\
+\text{Earnings before interest and taxes} & \$550{,}000 & \$2{,}250{,}000 \\
+\text{Cash flow from operations} & \$300{,}000 & \$850{,}000 \\
+\text{Interest expense} & \$40{,}000 & \$160{,}000 \\
+\text{Total debt} & \$1{,}900{,}000 & \$2{,}700{,}000 \\
+\text{Cash and marketable securities} & \$500{,}000 & \$1{,}000{,}000 \\
+\text{Dividends} & \$30{,}000 & \$200{,}000 \\
+\hline
+\end{array}""",
+    "bee5e481e40d6ac920ad.png": r"""\begin{array}{lllll}
+\hline
+C_1 = 3.5 & \text{PV}_1 = 3.5 / 1.025 & = 3.415 & W_1 = 3.415 / 103.762 & = 0.0329 \\
+C_2 = 3.5 & \text{PV}_2 = 3.5 / 1.025^2 & = 3.331 & W_2 = 3.331 / 103.762 & = 0.0321 \\
+C_3 = 3.5 & \text{PV}_3 = 3.5 / 1.025^3 & = 3.250 & W_3 = 3.250 / 103.762 & = 0.0313 \\
+C_4 = 103.5 & \text{PV}_4 = 103.5 / 1.025^4 & = \underline{93.766} & W_4 = 93.766 / 103.762 & = \underline{0.9037} \\
+\hline
+& & \mathbf{103.762} & & \mathbf{1.0000} \\
+\hline
+\end{array}""",
+    "c0931084e800172bb17d.png": r"""\begin{array}{lrrrr}
+\hline
+\textbf{Cash Flow: Capitalization (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Total} \\
+\hline
+\text{Cash from operations (CFO)} & 79{,}000 & 79{,}000 & 79{,}000 & 237{,}000 \\
+\text{Cash from investing (CFI)} & \underline{(90{,}000)} & \underline{0} & \underline{0} & \underline{(90{,}000)} \\
+\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\
+\hline
+\end{array}""",
+    "c1ff69501c6d5344b906.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Key Inventory Ratios} & \textbf{LIFO} & \textbf{FIFO} \\
+\hline
+\text{Gross profit margin} & \frac{\$130{,}000}{\$350{,}000} = 37.1\% & \frac{\$131{,}500}{\$350{,}000} = 37.6\% \\[6pt]
+\text{Current ratio} & \frac{\$91{,}000}{\$30{,}000} = 3.03 & \frac{\$96{,}400}{\$30{,}000} = 3.21 \\
+\hline
+\end{array}""",
+    "c385d8af112fa9891a22.png": r"""\begin{array}{lr}
+\hline
+\textbf{Computation of CFF} & \textbf{Amount} \\
+\hline
+\text{Cash from bond issuance} & +\$10{,}000 \\
+\text{Repayment of long-term debt} & -12{,}500 \\
+\text{Dividends paid to shareholders} & \underline{-6{,}000} \\
+\textbf{Net cash flow from financing activities (CFF)} & \underline{\underline{\$(8{,}500)}} \\
+\hline
+\end{array}""",
+    "c5ecd9b39ffb55f3619e.png": r"""\begin{array}{lccc}
+\hline
+\begin{array}{c} \text{Source of} \\ \text{Variation} \end{array} & \begin{array}{c} \text{Degrees of} \\ \text{Freedom (df)} \end{array} & \begin{array}{c} \text{Sum of} \\ \text{Squares} \end{array} & \begin{array}{c} \text{Mean Sum of} \\ \text{Squares} \end{array} \\
+\hline
+\text{Regression (explained)} & 1 & \text{SSR} & \text{MSR} = \frac{\text{SSR}}{k} = \frac{\text{SSR}}{1} = \text{SSR} \\[6pt]
+\text{Error (unexplained)} & n - 2 & \text{SSE} & \text{MSE} = \frac{\text{SSE}}{n - 2} \\
+\textbf{Total} & n - 1 & \text{SST} & \\
+\hline
+\end{array}""",
+    "ca6ef3f4adc88bf5b0b4.png": r"""\begin{array}{lr}
+\hline
+& \textbf{\$} \\
+\hline
+\text{Net income} & 39{,}000 \\
+\textbf{Noncash charges} & \\
+\quad\text{Depreciation} & 7{,}000 \\
+\quad\text{Increase in deferred tax liability} & 5{,}000 \\
+\quad\text{Loss on disposal of PP\&E} & 2{,}000 \\
+\quad\text{Gain from sale of land} & \underline{(10{,}000)} \\
+\text{Subtotal} & 43{,}000 \\
+\textbf{Investment in working capital} & \\
+\quad\text{Increase in receivables} & (1{,}000) \\
+\quad\text{Decrease in inventories} & 2{,}000 \\
+\quad\text{Increase in accounts payable} & 4{,}000 \\
+\quad\text{Decrease in wages payable} & (3{,}500) \\
+\quad\text{Increase in interest payable} & 500 \\
+\quad\text{Increase in unearned revenue liability} & 4{,}000 \\
+\quad\text{Increase in taxes payable} & \underline{1{,}000} \\
+\textbf{Operating cash flows} & \mathbf{50{,}000} \\
+\hline
+\end{array}""",
+    "cb6dc61edd5459cc54eb.png": r"""\begin{array}{lrrrr}
+\hline
+\textbf{Cash Flow: Expensing (\pounds)} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Total} \\
+\hline
+\text{Cash from operations (CFO)} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\
+\text{Cash from investing (CFI)} & \underline{0} & \underline{0} & \underline{0} & \underline{0} \\
+\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\
+\hline
+\end{array}""",
+    "ccd6c0dfb6444503d784.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Tax return: Firebird Corporation} & \textbf{Year 1 (\$000)} & \textbf{Year 2 (\$000)} & \textbf{Year 3 (\$000)} \\
+\hline
+\text{Revenue} & 100{,}000 & 120{,}000 & 130{,}000 \\
+\text{Cost of sales} & 28{,}500 & 34{,}200 & 37{,}050 \\
+\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\
+\text{Depreciation} & 10{,}000 & 10{,}000 & 10{,}000 \\
+\text{Warranty costs} & 2{,}000 & 5{,}000 & 8{,}000 \\
+\text{Interest expense} & \underline{10{,}000} & \underline{12{,}000} & \underline{12{,}500} \\
+\text{Taxable income} & 29{,}550 & 34{,}860 & 36{,}515 \\
+\textbf{Tax payable (30\%)} & 8{,}865 & 10{,}458 & 10{,}955 \\
+\hline
+\hline
+\textbf{Income statement: Firebird Corporation} & \textbf{Year 1 (\$000)} & \textbf{Year 2 (\$000)} & \textbf{Year 3 (\$000)} \\
+\hline
+\text{Revenue} & 95{,}000 & 114{,}000 & 123{,}500 \\
+\text{Cost of sales} & \underline{28{,}500} & \underline{34{,}200} & \underline{37{,}050} \\
+\text{Gross profit} & 66{,}500 & 79{,}800 & 86{,}450 \\
+\text{Other expenses} & 19{,}950 & 23{,}940 & 25{,}935 \\
+\text{Depreciation} & 8{,}000 & 8{,}000 & 8{,}000 \\
+\text{Interest expense} & \underline{10{,}000} & \underline{12{,}000} & \underline{12{,}500} \\
+\text{Earnings before tax} & 28{,}550 & 35{,}860 & 40{,}015 \\
+\text{Tax expense} & \underline{8{,}565} & \underline{10{,}758} & \underline{12{,}005} \\
+\textbf{Net income} & 19{,}985 & 25{,}102 & 28{,}010 \\
+\hline
+\end{array}""",
+    "ce6fcbe2940ba0415182.png": r"""\begin{array}{lr}
+\hline
+\textbf{Cash Paid to Suppliers Reconciliation} & \textbf{Amount} \\
+\hline
+\text{Cost of goods sold} & \$1{,}400{,}000 \\
+\text{Plus: Increase in inventory} & +30{,}000 \\
+\text{Purchases from suppliers} & \$1{,}430{,}000 \\
+\text{Less: Increase in accounts payable} & \underline{-20{,}000} \\
+\textbf{Cash paid to suppliers} & \underline{\underline{\$(1{,}410{,}000)}} \\
+\hline
+\end{array}""",
+    "cf286e73fdd3d5bfdacd.png": r"""\begin{array}{lcc}
+\hline
+& \textbf{Share Price Dec 31, 20X6} & \textbf{Share Price Jan 31, 20X7} \\
+\hline
+\text{Stock X} & \$10 & \$20 \\
+\text{Stock Y} & \$20 & \$15 \\
+\text{Stock Z} & \$60 & \$40 \\
+\hline
+\end{array}""",
+    "d00cfd67de1bafe37f99.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Financial year} & \textbf{20X2} & \textbf{20X1} \\
+& \text{\pounds m} & \text{\pounds m} \\
+\hline
+\textbf{Income statement extract} & & \\
+\text{Revenues} & 2{,}000{,}000 & 1{,}800{,}000 \\
+\textbf{Balance sheet extract} & & \\
+\text{Accounts receivable} & 900{,}000 & 500{,}000 \\
+\text{Unearned revenue (deferred)} & 1{,}000{,}000 & 300{,}000 \\
+\hline
+\end{array}""",
+    "d0de22b301608827e621.png": r"""\begin{array}{cccc}
+\hline
+\textbf{Company} & \textbf{Number of Shares (000s)} & \textbf{Stock Price} & \textbf{Capitalization} \\
+\hline
+\text{A} & 100 & \$100 & \$10{,}000{,}000 \\
+\text{B} & 1{,}000 & \$10 & \$10{,}000{,}000 \\
+\text{C} & 20{,}000 & \$1 & \$20{,}000{,}000 \\
+\hline
+\end{array}""",
+    "d132d3c009563ca041ca.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Balance Sheets as of Dec 31} & \textbf{20X7} & \textbf{20X6} \\
+\hline
+\textbf{Assets} & & \\
+\text{Cash} & \$25{,}000 & \$15{,}000 \\
+\text{Accounts receivable} & 35{,}000 & 30{,}000 \\
+\text{Inventory} & 42{,}000 & 38{,}000 \\
+\text{Prepaid expenses} & \underline{5{,}000} & \underline{6{,}000} \\
+\text{Total current assets} & \$107{,}000 & \$89{,}000 \\
+\text{Land} & 35{,}000 & 40{,}000 \\
+\text{Gross property, plant, and equipment} & 69{,}000 & 60{,}000 \\
+\text{Accumulated depreciation} & \underline{(12{,}000)} & \underline{(9{,}000)} \\
+\text{Net PP\&E} & \underline{57{,}000} & \underline{51{,}000} \\
+\textbf{Total assets} & \underline{\underline{\$199{,}000}} & \underline{\underline{\$180{,}000}} \\
+\hline
+\textbf{Liabilities and Equity} & & \\
+\text{Accounts payable} & \$28{,}000 & \$25{,}000 \\
+\text{Accrued liabilities} & 9{,}000 & 7{,}000 \\
+\text{Income taxes payable} & \underline{6{,}000} & \underline{4{,}000} \\
+\text{Total current liabilities} & \$43{,}000 & \$36{,}000 \\
+\text{Long-term debt} & 40{,}000 & 45{,}000 \\
+\text{Deferred tax liability} & \underline{10{,}000} & \underline{5{,}000} \\
+\text{Total liabilities} & \$93{,}000 & \$86{,}000 \\
+\text{Common stock} & 50{,}000 & 45{,}000 \\
+\text{Retained earnings} & \underline{56{,}000} & \underline{49{,}000} \\
+\textbf{Total liabilities and equity} & \underline{\underline{\$199{,}000}} & \underline{\underline{\$180{,}000}} \\
+\hline
+\end{array}""",
+    "d144f282ab1f00e08408.png": r"""\begin{array}{lr}
+\hline
+\text{Net income} & \$45 \\
+\text{Depreciation} & 75 \\
+\text{Taxes paid} & 25 \\
+\text{Interest paid} & 5 \\
+\text{Dividends paid} & 10 \\
+\text{Cash received from sale of company building} & 40 \\
+\text{Issuance of preferred stock} & 35 \\
+\text{Repurchase of common stock} & 30 \\
+\text{Purchase of machinery} & 20 \\
+\text{Issuance of bonds} & 50 \\
+\text{Debt retired through issuance of common stock} & 45 \\
+\text{Paid off long-term bank borrowings} & 15 \\
+\text{Profit on sale of building} & 20 \\
+\hline
+\end{array}""",
+    "d682dee61cc9d8cca45b.png": r"""\begin{array}{lcccc}
+\hline
+& \textbf{Bitcoin (In USD)} & \begin{array}{c} \text{S\&P 500} \\ \text{Total Return} \end{array} & \begin{array}{c} \text{MSCI World} \\ \text{Index Return} \end{array} & \begin{array}{c} \text{Bloomberg Global} \\ \text{Aggregate Index} \end{array} \\
+\hline
+\text{Average} & 8.84\% & 1.13\% & 0.66\% & 0.16\% \\
+\text{Standard deviation} & 0.32 & 0.04 & 0.04 & 0.01 \\
+\text{Coefficient of variation} & 3.66 & 3.43 & 6.09 & 8.16 \\
+\hline
+\end{array}""",
+    "d8be056bd0ca5ca9b3fd.png": r"""\begin{array}{c|cc}
+\hline
+& \textbf{Germany: Low Output} & \textbf{Germany: High Output} \\
+\hline
+\textbf{France: Low Output} & (\text{EUR }8\text{B}, \text{EUR }8\text{B}) & (\text{EUR }2\text{B}, \text{EUR }10\text{B}) \\
+\textbf{France: High Output} & (\text{EUR }10\text{B}, \text{EUR }2\text{B}) & (\text{EUR }4\text{B}, \text{EUR }4\text{B}) \\
+\hline
+\end{array}""",
+    "d9dc8b8fdd4ad6fc9027.png": r"""\begin{array}{lcccc}
+\hline
+& \begin{array}{c} \textbf{Jan 1} \\ \textbf{Price} \end{array} & \begin{array}{c} \textbf{Jan 1 Shares} \\ \textbf{(thousands)} \end{array} & \begin{array}{c} \textbf{Dec 31} \\ \textbf{Price} \end{array} & \begin{array}{c} \textbf{Dec 31 Shares} \\ \textbf{(thousands)} \end{array} \\
+\hline
+\text{Stock A} & \$22 & 1{,}500 & \$28 & 1{,}500 \\
+\text{Stock B} & \$40 & 10{,}000 & \$50 & 10{,}000 \\
+\text{Stock C} & \$34 & 3{,}000 & \$30 & 3{,}000 \\
+\hline
+\end{array}""",
+    "dd37716ec772b83ad750.png": r"""\begin{array}{lccc}
+\hline
+& \textbf{20X8} & \textbf{20X7} & \textbf{20X6} \\
+\hline
+\text{Current ratio} & 2.0 & 1.5 & 1.2 \\
+\text{Quick ratio} & 0.5 & 0.8 & 1.0 \\
+\text{Days of inventory} & 60 & 50 & 30 \\
+\text{Days' sales outstanding} & 20 & 30 & 40 \\
+\hline
+\end{array}""",
+    "de0b429405f641ab3bf4.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Source} & \begin{array}{c} \text{Fair Market Value} \\ \text{(\$000s)} \end{array} & \begin{array}{c} \text{Liquidation} \\ \text{Cost (\%)} \end{array} \\
+\hline
+\text{Cash and marketable securities} & 100 & 0\% \\
+\text{Inventory and receivables} & 200 & 15\% \\
+\text{Empty warehouse} & \underline{300} & 30\% \\
+\textbf{Total} & \underline{\underline{600}} & \\
+\hline
+\end{array}""",
+    "deb5a22a0f8120f6c7e7.png": r"""\begin{array}{llc}
+\hline
+\textbf{Hypothesis tests of:} & \textbf{Use a:} & \textbf{With degrees of freedom:} \\
+\hline
+\text{One population mean} & t\text{-statistic} & n - 1 \\
+\text{Two population means} & t\text{-statistic} & n - 1 \\
+\text{One population variance} & \text{Chi-square statistic} & n - 1 \\
+\text{Two population variances} & F\text{-statistic} & n_1 - 1,\, n_2 - 1 \\
+\hline
+\end{array}""",
+    "df741b1ff136551718ef.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Common-Size Income Statement} & \textbf{North Co. (\%)} & \textbf{South Co. (\%)} \\
+\hline
+\text{Revenue} & 100.0\% & 100.0\% \\
+\text{Cost of goods sold} & \underline{70.0\%} & \underline{20.0\%} \\
+\text{Gross profit} & 30.0\% & 80.0\% \\
+\text{Administrative expense} & 15.0\% & 15.0\% \\
+\text{Research expense} & \underline{5.0\%} & \underline{20.0\%} \\
+\textbf{Operating profit} & 10.0\% & 45.0\% \\
+\hline
+\end{array}""",
+    "dff6a67daea83870cfac.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Financial Statement Effect} & \textbf{Capitalizing} & \textbf{Expensing} \\
+\hline
+\text{Initial net income} & \text{Higher} & \text{Lower} \\
+\text{Subsequent net income} & \text{Lower} & \text{Higher} \\
+\text{Total net income (all years)} & \text{Same} & \text{Same} \\
+\text{Operating cash flow (CFO)} & \text{Higher} & \text{Lower} \\
+\text{Investing cash flow (CFI)} & \text{Lower} & \text{Higher} \\
+\text{Total cash flow} & \text{Same} & \text{Same} \\
+\text{Assets and equity} & \text{Higher initially} & \text{Lower initially} \\
+\hline
+\end{array}""",
+    "e061b63a0bca50ca861e.png": r"""\begin{array}{lcc}
+\hline
+& \textbf{Period 1} & \textbf{Period 2} \\
+\hline
+\text{Sales} & 100.0 & 125.0 \\
+\text{COGS} & 25.0 & 50.0 \\
+\text{Gross profit} & 75.0 & 75.0 \\
+\text{COGS as \% of sales} & 25\% & 40\% \\
+\text{Gross margin \%} & 75\% & 60\% \\
+\hline
+\end{array}""",
+    "e32586411aca90ecbf0c.png": r"""\begin{array}{lr}
+\hline
+\text{Cash} & \$10{,}000 \\
+\text{Accounts receivable} & \$20{,}000 \\
+\text{Inventories} & \$50{,}000 \\
+\text{Net fixed assets} & \underline{\$120{,}000} \\
+\textbf{Total assets} & \underline{\underline{\$200{,}000}} \\
+\hline
+\text{Accounts payable} & \$5{,}000 \\
+\text{Notes payable} & \$30{,}000 \\
+\text{Term loans} & \$45{,}000 \\
+\text{Common stockholder equity} & \underline{\$120{,}000} \\
+\textbf{Total liabilities and equity} & \underline{\underline{\$200{,}000}} \\
+\hline
+\end{array}""",
+    "e4933d08a761e2b5810d.png": r"""\begin{array}{llcl}
+\hline
+\textbf{Index} & \textbf{Reflects} & \textbf{Securities} & \textbf{Weighting Method} \\
+\hline
+\text{Dow Jones Industrial Average} & \text{Large U.S. stocks} & 30 & \text{Price} \\
+\text{Nikkei Stock Average} & \text{Large Japanese stocks} & 225 & \text{Modified price} \\
+\text{TOPIX} & \text{Tokyo Stock Exchange First Section} & \text{Variable} & \text{Market cap, float-adjusted} \\
+\text{MSCI All Country World Index} & 23\text{ developed \& }24\text{ emerging markets} & \text{Variable} & \text{Market cap, float-adjusted} \\
+\text{S\&P Developed Ex-U.S. BMI Energy} & \text{Global energy outside U.S.} & \text{Variable} & \text{Market cap, float-adjusted} \\
+\text{Barclays Capital Global Aggregate} & \text{Global investment-grade bonds} & \text{Variable} & \text{Market cap} \\
+\text{Markit iBoxx Euro High-Yield} & \text{Below investment-grade bonds} & \text{Variable} & \text{Market cap} \\
+\text{FTSE EPRA/NAREIT Global Real Estate} & \text{Global real estate} & \text{Variable} & \text{Market cap, float-adjusted} \\
+\text{HFRX Global Hedge Fund Index} & \text{Global hedge funds} & \text{Variable} & \text{Asset weighted} \\
+\text{HFRX Equal Weighted EUR Index} & \text{Global hedge funds} & \text{Variable} & \text{Equal weighted} \\
+\text{Morningstar Style Indexes} & \text{U.S. stocks by value/growth \& cap} & \text{Variable} & \text{Market cap, float-adjusted} \\
+\hline
+\end{array}""",
+    "e70c384060069a333c4a.png": r"""\begin{array}{lr}
+\hline
+\textbf{Capitalized Costs Breakdown} & \textbf{Amount} \\
+\hline
+\text{Purchase price of machinery} & \$250{,}000 \\
+\text{Freight and delivery charges} & 10{,}000 \\
+\text{Installation and calibration} & \underline{85{,}000} \\
+\textbf{Total Capitalized Cost} & \underline{\underline{\$345{,}000}} \\
+\hline
+\end{array}""",
+    "e784f812f521b3b450fe.png": r"""\begin{array}{lcc}
+\hline
+\textbf{Significance Level } \alpha & \textbf{Two-Tailed Critical Value } z_{\alpha/2} & \textbf{One-Tailed Critical Value } z_\alpha \\
+\hline
+0.10 \ (90\% \text{ confidence}) & \pm 1.65 & 1.28 \\
+0.05 \ (95\% \text{ confidence}) & \pm 1.96 & 1.65 \\
+0.01 \ (99\% \text{ confidence}) & \pm 2.58 & 2.33 \\
+\hline
+\end{array}""",
+    "e98a2249f50bbd26673e.png": r"""\begin{array}{lcccc}
+\hline
+\textbf{Source of Variation} & \textbf{Degrees of Freedom} & \textbf{Sum of Squares} & \textbf{Mean Square} & \textbf{F-Statistic} \\
+\hline
+\text{Regression (SSR)} & k = 1 & 0.00350 & 0.00350 & \frac{0.00350}{0.00045} = 7.78 \\
+\text{Error / Residual (SSE)} & n - k - 1 = 34 & 0.01530 & 0.00045 & \\
+\hline
+\textbf{Total (SST)} & n - 1 = 35 & 0.01880 & & \\
+\hline
+\end{array}""",
+    "f036f2265f279b7b9f27.png": r"""\begin{array}{lrr}
+\hline
+\textbf{Balance Sheet (\$ millions)} & \textbf{East Co.} & \textbf{West Co.} \\
+\hline
+\text{Cash and equivalents} & \$50 & \$20 \\
+\text{Accounts receivable} & 120 & 60 \\
+\text{Inventory} & \underline{180} & \underline{70} \\
+\text{Total current assets} & 350 & 150 \\
+\text{Net PP\&E} & \underline{650} & \underline{350} \\
+\textbf{Total assets} & \underline{\underline{\$1{,}000}} & \underline{\underline{\$500}} \\
+\hline
+\text{Current liabilities} & \$200 & \$100 \\
+\text{Long-term debt} & 300 & 150 \\
+\text{Shareholders' equity} & \underline{500} & \underline{250} \\
+\textbf{Total liabilities and equity} & \underline{\underline{\$1{,}000}} & \underline{\underline{\$500}} \\
+\hline
+\end{array}""",
+    "f116b8b224ba2e5416f1.png": r"""\begin{array}{ccc}
+\hline
+\mathbf{x_i} & \mathbf{P(x_i \mid Y = 1)} & \mathbf{P(x_i \mid Y = 2)} \\
+\hline
+0 & 0.2 & 0.1 \\
+5 & 0.4 & 0.8 \\
+10 & 0.4 & 0.1 \\
+\hline
+\end{array}""",
+    "f420d9455267c8f1a99b.png": r"""\begin{array}{lcccccc}
+\hline
+\textbf{Year} & \textbf{20X1} & \textbf{20X2} & \textbf{20X3} & \textbf{20X4} & \textbf{20X5} & \textbf{20X6} \\
+\hline
+\text{Return} & 22.0\% & 5.0\% & -7.0\% & 11.0\% & 2.0\% & 11.0\% \\
+\hline
+\end{array}""",
+    "f4317f64cf15a17f66fd.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Non-Cash Working Capital} & \textbf{20X7} & \textbf{20X6} & \textbf{Change} \\
+\hline
+\text{Accounts receivable} & \$35{,}000 & \$30{,}000 & +\$5{,}000 \\
+\text{Inventory} & 42{,}000 & 38{,}000 & +4{,}000 \\
+\text{Prepaid expenses} & \underline{5{,}000} & \underline{6{,}000} & \underline{-1{,}000} \\
+\text{Total operating current assets} & \$82{,}000 & \$74{,}000 & +\$8{,}000 \\
+\hline
+\text{Accounts payable} & \$28{,}000 & \$25{,}000 & +\$3{,}000 \\
+\text{Accrued liabilities} & \underline{9{,}000} & \underline{7{,}000} & \underline{+2{,}000} \\
+\text{Total operating current liabilities} & \$37{,}000 & \$32{,}000 & +\$5{,}000 \\
+\hline
+\textbf{Net working capital requirement} & & & \underline{\underline{-\$3{,}000}} \\
+\hline
+\end{array}""",
+    "f732ba150e273bf26f0f.png": r"""\begin{array}{lr}
+\hline
+\textbf{Tax return extract:} & \textbf{\$} \\
+\hline
+\text{Tax payable for the year ended 20X7} & 500{,}000 \\
+\hline
+\textbf{Balance sheet extracts:} & \\
+\text{DTA year-end 20X7} & 300{,}000 \\
+\text{DTA year-end 20X6} & 350{,}000 \\
+\text{DTL year-end 20X7} & 500{,}000 \\
+\text{DTL year-end 20X6} & 400{,}000 \\
+\hline
+\end{array}""",
+    "f87fc37d047c47968b63.png": r"""\begin{array}{lrrr}
+\hline
+\textbf{Fiscal Year-End} & \textbf{20X3} & \textbf{20X2} & \textbf{20X1} \\
+\hline
+\text{Total stockholder's equity} & \$55.60 & \$54.10 & \$52.60 \\
+\text{Net revenues} & \$77.30 & \$73.60 & \$70.80 \\
+\text{Net income} & \$3.20 & \$1.10 & \$0.40 \\
+\text{Net cash flow from operations} & \$17.90 & \$15.20 & \$12.20 \\
+\text{Stock price} & \$11.40 & \$14.40 & \$12.05 \\
+\text{Shares outstanding} & 4.476 & 3.994 & 3.823 \\
+\hline
+\end{array}""",
+    "fbe9f55fff93a26af2cd.png": r"""\begin{array}{lrrrrr}
+\hline
+\textbf{Lessor Operating Schedule} & \textbf{Year 1} & \textbf{Year 2} & \textbf{Year 3} & \textbf{Year 4} & \textbf{Year 5} \\
+\hline
+\text{Lease revenue (CFO)} & \$23{,}740 & \$23{,}740 & \$23{,}740 & \$23{,}740 & \$23{,}740 \\
+\text{Depreciation expense} & \underline{(20{,}000)} & \underline{(20{,}000)} & \underline{(20{,}000)} & \underline{(20{,}000)} & \underline{(20{,}000)} \\
+\textbf{Operating profit} & \$3{,}740 & \$3{,}740 & \$3{,}740 & \$3{,}740 & \$3{,}740 \\
+\hline
+\end{array}""",
+    "fc400033a0f08b1267b6.png": r"""\begin{array}{lr}
+\hline
+\textbf{Manufacturer/Dealer Lessor Profit} & \textbf{Amount} \\
+\hline
+\text{Sales revenue (PV of lease payments)} & \$100{,}000 \\
+\text{Less: Cost of goods sold (carrying value of asset)} & \underline{(80{,}000)} \\
+\textbf{Dealer selling profit} & \underline{\underline{\$20{,}000}} \\
+\hline
+\end{array}""",
+    "fda5a48d0ac7e658f9e1.png": r"""\begin{array}{lr}
+\hline
+\text{Shares purchased} & 1{,}000 \\
+\text{Purchase price per share} & \$100 \\
+\text{Annual dividend per share} & \$2.00 \\
+\text{Initial margin requirement} & 40\% \\
+\text{Call money rate} & 4\% \\
+\text{Commission per share} & \$0.05 \\
+\text{Stock price after one year} & \$110 \\
+\hline
+\end{array}""",
+})
+
+
+
+# Additional converted tables and formulas
+LATEX_OVERRIDES.update({
+    "7031d0f4fd277ce9a3f9.png": r"\text{value after a down-move, } c_1^d \text{ is } \operatorname{Max}(0, \$42 - \$55) = 0.",
+    "43c99139ca697b0ef270.png": r"""\begin{array}{lr}
+\hline
+\text{Purchase price} & \text{X} \\
+\text{Fair market value of net assets acquired} & \text{(X)} \\
+\text{Fair market value of identifiable intangibles previously not recognized} & \underline{\text{(X)}} \\
+\text{Goodwill} & \text{X} \\
+\hline
+\end{array}""",
+    "53c07c4fbdf87468fb43.png": r"""\begin{array}{lrl}
+\hline
+\text{Disposal proceeds} & \text{X} & \text{Cash flow from investing} \\
+\text{Carrying value before disposal} & \underline{\text{(X)}} & \text{Removed from balance sheet} \\
+\text{Disposal gain (loss)} & \text{X/(X)} & \text{Accounting gain or (loss) in income statement} \\
+\hline
+\end{array}""",
+    "07defe9b974203ee0a55.png": r"""\begin{array}{lll}
+\hline
+\textbf{Option} & \textbf{Minimum Value} & \textbf{Maximum Value} \\
+\hline
+\text{European call} & c_t \ge \operatorname{Max}[0, S_t - X(1 + R_f)^{-(T-t)}] & S_t \\
+\text{European put} & p_t \ge \operatorname{Max}[0, X(1 + R_f)^{-(T-t)} - S_t] & X(1 + R_f)^{-(T-t)} \\
+\hline
+\end{array}""",
+})
 
 
 def formula_segments(image: Image.Image) -> list[Image.Image]:
@@ -1374,6 +2839,7 @@ def recognize(paths: list[str], cache: dict[str, str], scores: dict[str, float],
     pending.sort(key=lambda name: Image.open(CONTENT / "figures" / name).width * Image.open(CONTENT / "figures" / name).height)
     if not pending:
         return cache, scores, segmented
+    assert Pix2Text is not None, "pix2text is required to recognize new uncached formulas"
     model = Pix2Text.from_config(enable_table=False)
     batch_size = 8
     for phase, names_to_process in (("recognized", pending),):

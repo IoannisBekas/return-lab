@@ -101,12 +101,10 @@
           "text": "Recall from the prerequisite readings that candidates are expected to know the most frequently used critical values for hypothesis tests with z-statistics:"
         },
         {
-          "type": "image",
-          "src": "content/figures/e784f812f521b3b450fe.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 792,
-          "height": 252,
-          "alt": "Instructional visual diagram or table: e784f812f521b3b450fe.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Significance Level } \\alpha & \\textbf{Two-Tailed Critical Value } z_{\\alpha/2} & \\textbf{One-Tailed Critical Value } z_\\alpha \\\\\n\\hline\n0.10 \\ (90\\% \\text{ confidence}) & \\pm 1.65 & 1.28 \\\\\n0.05 \\ (95\\% \\text{ confidence}) & \\pm 1.96 & 1.65 \\\\\n0.01 \\ (99\\% \\text{ confidence}) & \\pm 2.58 & 2.33 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "e784f812f521b3b450fe.png"
         },
         {
           "type": "paragraph",
@@ -380,12 +378,10 @@
           "text": "Partial t-Table"
         },
         {
-          "type": "image",
-          "src": "content/figures/2650a486ca28254a17dc.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 494,
-          "height": 216,
-          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities."
+          "type": "math",
+          "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{df} & \\textbf{p = 0.10} & \\textbf{p = 0.05} & \\textbf{p = 0.025} \\\\\n\\hline\n110 & 1.289 & 1.659 & 1.982 \\\\\n120 & 1.289 & 1.658 & 1.980 \\\\\n200 & 1.286 & 1.653 & 1.972 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "2650a486ca28254a17dc.png"
         },
         {
           "type": "paragraph",
@@ -486,12 +482,10 @@
           "text": "Partial t-Table"
         },
         {
-          "type": "image",
-          "src": "content/figures/448f0b574d80ae590d30.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 478,
-          "height": 220,
-          "alt": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities."
+          "type": "math",
+          "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{df} & \\textbf{p = 0.10} & \\textbf{p = 0.05} & \\textbf{p = 0.025} \\\\\n\\hline\n38 & 1.304 & 1.686 & 2.024 \\\\\n39 & 1.304 & 1.685 & 2.023 \\\\\n40 & 1.303 & 1.684 & 2.021 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "448f0b574d80ae590d30.png"
         },
         {
           "type": "paragraph",
@@ -899,12 +893,10 @@
       "text": "How do we construct hypothesis tests and determine their statistical significance, the associated Type I and Type II errors, and power of the test given a significance level?"
     },
     {
-      "type": "image",
-      "src": "content/figures/deb5a22a0f8120f6c7e7.png",
-      "visualKind": "diagram-chart-or-table",
-      "width": 847,
-      "height": 254,
-      "alt": "Instructional visual diagram or table: deb5a22a0f8120f6c7e7.png"
+      "type": "math",
+      "latex": "\\begin{array}{llc}\n\\hline\n\\textbf{Hypothesis tests of:} & \\textbf{Use a:} & \\textbf{With degrees of freedom:} \\\\\n\\hline\n\\text{One population mean} & t\\text{-statistic} & n - 1 \\\\\n\\text{Two population means} & t\\text{-statistic} & n - 1 \\\\\n\\text{One population variance} & \\text{Chi-square statistic} & n - 1 \\\\\n\\text{Two population variances} & F\\text{-statistic} & n_1 - 1,\\, n_2 - 1 \\\\\n\\hline\n\\end{array}",
+      "display": true,
+      "sourceAsset": "deb5a22a0f8120f6c7e7.png"
     },
     {
       "type": "question",

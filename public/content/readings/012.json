@@ -1089,12 +1089,10 @@
           "prompt": "Consider an agreement between France and Germany that will restrict wine production so that maximum economic profit can be realized. The possible outcomes of the agreement are presented in the following table. Based on the concept of a Nash equilibrium, the most likely strategy followed by the two countries with respect to whether they comply with or default on the agreement will be:",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/d8be056bd0ca5ca9b3fd.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 873,
-              "height": 218,
-              "alt": "Instructional visual diagram or table: d8be056bd0ca5ca9b3fd.png"
+              "type": "math",
+              "latex": "\\begin{array}{c|cc}\n\\hline\n& \\textbf{Germany: Low Output} & \\textbf{Germany: High Output} \\\\\n\\hline\n\\textbf{France: Low Output} & (\\text{EUR }8\\text{B}, \\text{EUR }8\\text{B}) & (\\text{EUR }2\\text{B}, \\text{EUR }10\\text{B}) \\\\\n\\textbf{France: High Output} & (\\text{EUR }10\\text{B}, \\text{EUR }2\\text{B}) & (\\text{EUR }4\\text{B}, \\text{EUR }4\\text{B}) \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "d8be056bd0ca5ca9b3fd.png"
             }
           ],
           "options": [

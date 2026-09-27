@@ -69,12 +69,10 @@
           "text": "Using the probabilities given in the following table, calculate the expected return on Stock A, the variance of returns on Stock A, and the standard deviation of returns on Stock A."
         },
         {
-          "type": "image",
-          "src": "content/figures/99a395b3005dcf9a0cf9.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 948,
-          "height": 316,
-          "alt": "Instructional visual diagram or table: 99a395b3005dcf9a0cf9.png"
+          "type": "math",
+          "latex": "\\begin{array}{lccc}\n\\hline\n\\textbf{Economic State} & \\textbf{Probability } P(s) & \\textbf{Return } R(s) & P(s)[R(s) - E(R)]^2 \\\\\n\\hline\n\\text{Boom} & 0.30 & 20.0\\% & 0.30(0.20 - 0.117)^2 = 0.002067 \\\\\n\\text{Normal} & 0.50 & 10.0\\% & 0.50(0.10 - 0.117)^2 = 0.000145 \\\\\n\\text{Slow} & 0.20 & 4.0\\% & 0.20(0.04 - 0.117)^2 = 0.001186 \\\\\n\\hline\n\\textbf{Total / Variance } \\sigma^2 & & & 0.003398 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "99a395b3005dcf9a0cf9.png"
         },
         {
           "type": "heading",
@@ -254,8 +252,8 @@
       "type": "image",
       "src": "content/figures/31fa227e2b44ab1ae029.png",
       "visualKind": "diagram-chart-or-table",
-      "width": 571,
-      "height": 312,
+      "width": 1750,
+      "height": 950,
       "alt": "Probability tree showing joint and conditional probabilities for events A, B, C, and D."
     },
     {
@@ -317,12 +315,10 @@
           "prompt": "Given the conditional probabilities in the following table and the unconditional probabilities P(Y = 1) = 0.3 and P(Y = 2) = 0.7, what is the expected value of X?",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/f116b8b224ba2e5416f1.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 445,
-              "height": 177,
-              "alt": "Joint probability distribution table showing outcomes conditional on macroeconomic states."
+              "type": "math",
+              "latex": "\\begin{array}{ccc}\n\\hline\n\\mathbf{x_i} & \\mathbf{P(x_i \\mid Y = 1)} & \\mathbf{P(x_i \\mid Y = 2)} \\\\\n\\hline\n0 & 0.2 & 0.1 \\\\\n5 & 0.4 & 0.8 \\\\\n10 & 0.4 & 0.1 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "f116b8b224ba2e5416f1.png"
             }
           ],
           "options": [

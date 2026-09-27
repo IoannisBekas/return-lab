@@ -131,12 +131,10 @@
           "text": "The lease liability will be treated as if it were an amortizing loan."
         },
         {
-          "type": "image",
-          "src": "content/figures/171f0c75b0ec54825fa5.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 950,
-          "height": 408,
-          "alt": "Instructional visual diagram or table: 171f0c75b0ec54825fa5.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning} \\\\ \\text{ROU Asset} \\end{array} & \\begin{array}{c} \\text{Lease} \\\\ \\text{Cost} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Accretion (6\\%)} \\end{array} & \\begin{array}{c} \\text{Amortization} \\\\ \\text{ROU Asset} \\end{array} & \\begin{array}{c} \\text{Ending} \\\\ \\text{ROU Asset} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "171f0c75b0ec54825fa5.png"
         },
         {
           "type": "paragraph",
@@ -171,12 +169,10 @@
           "text": "The lease liability will be treated the same way as it is for a finance lease, but the book value of the ROU asset will remain equal to the book value of the lease liability."
         },
         {
-          "type": "image",
-          "src": "content/figures/004e4e43db850044a5b3.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 965,
-          "height": 415,
-          "alt": "Instructional visual diagram or table: 004e4e43db850044a5b3.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning} \\\\ \\text{Liability} \\end{array} & \\begin{array}{c} \\text{Lease} \\\\ \\text{Payment} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Expense (6\\%)} \\end{array} & \\begin{array}{c} \\text{Principal} \\\\ \\text{Reduction} \\end{array} & \\begin{array}{c} \\text{Ending} \\\\ \\text{Liability} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "004e4e43db850044a5b3.png"
         },
         {
           "type": "paragraph",
@@ -195,12 +191,10 @@
           "text": "Comparison of finance and operating leases: U.S. GAAP"
         },
         {
-          "type": "image",
-          "src": "content/figures/24c9efeab5fdeedafb9c.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 791,
-          "height": 908,
-          "alt": "Instructional visual diagram or table: 24c9efeab5fdeedafb9c.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Statement Metric} & \\textbf{Finance Lease} & \\textbf{Operating Lease} \\\\\n\\hline\n\\textbf{Balance Sheet} & & \\\\\n\\text{ROU Asset \\& Lease Liability} & \\text{Recognized on BS} & \\text{Recognized on BS} \\\\\n\\text{Total Assets and Total Debt} & \\text{Higher} & \\text{Higher} \\\\\n\\hline\n\\textbf{Income Statement} & & \\\\\n\\text{Components} & \\text{Depreciation + Interest} & \\text{Single Lease Expense} \\\\\n\\text{Front-loading of expenses} & \\text{Yes (higher early)} & \\text{No (straight-line)} \\\\\n\\text{Operating Income (EBIT)} & \\text{Higher} & \\text{Lower} \\\\\n\\text{EBITDA} & \\text{Higher} & \\text{Lower} \\\\\n\\hline\n\\textbf{Cash Flow Statement} & & \\\\\n\\text{Principal reduction} & \\text{Financing outflow (CFF)} & \\text{Operating outflow (CFO)} \\\\\n\\text{Operating cash flow (CFO)} & \\text{Higher} & \\text{Lower} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "24c9efeab5fdeedafb9c.png"
         },
         {
           "type": "paragraph",
@@ -301,12 +295,10 @@
           "text": "The cost of sales is equal to the asset’s carrying value less the present value of the residual value: $30,000 − $1,645 = $28,355."
         },
         {
-          "type": "image",
-          "src": "content/figures/fc400033a0f08b1267b6.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 892,
-          "height": 192,
-          "alt": "Instructional visual diagram or table: fc400033a0f08b1267b6.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Manufacturer/Dealer Lessor Profit} & \\textbf{Amount} \\\\\n\\hline\n\\text{Sales revenue (PV of lease payments)} & \\$100{,}000 \\\\\n\\text{Less: Cost of goods sold (carrying value of asset)} & \\underline{(80{,}000)} \\\\\n\\textbf{Dealer selling profit} & \\underline{\\underline{\\$20{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "fc400033a0f08b1267b6.png"
         },
         {
           "type": "heading",
@@ -325,12 +317,10 @@
           "text": "The net investment in the lease is equal to the asset’s fair value. This is because the interest rate implicit in the lease is the internal rate of return that makes the present value of the lease payments received and the residual value equal the asset’s fair value."
         },
         {
-          "type": "image",
-          "src": "content/figures/47a778e8d0cc4e8c245b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 931,
-          "height": 530,
-          "alt": "Instructional visual diagram or table: 47a778e8d0cc4e8c245b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Year} & \\begin{array}{c} \\text{Beginning Lease} \\\\ \\text{Receivable} \\end{array} & \\begin{array}{c} \\text{Payment} \\\\ \\text{Received} \\end{array} & \\begin{array}{c} \\text{Interest} \\\\ \\text{Income (6\\%)} \\end{array} & \\begin{array}{c} \\text{Principal} \\\\ \\text{Collected} \\end{array} & \\begin{array}{c} \\text{Ending Lease} \\\\ \\text{Receivable} \\end{array} \\\\\n\\hline\n1 & \\$100{,}000 & \\$23{,}740 & \\$6{,}000 & \\$17{,}740 & \\$82{,}260 \\\\\n2 & 82{,}260 & 23{,}740 & 4{,}936 & 18{,}804 & 63{,}456 \\\\\n3 & 63{,}456 & 23{,}740 & 3{,}807 & 19{,}933 & 43{,}523 \\\\\n4 & 43{,}523 & 23{,}740 & 2{,}611 & 21{,}129 & 22{,}394 \\\\\n5 & 22{,}394 & 23{,}740 & 1{,}346 & 22{,}394 & 0 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "47a778e8d0cc4e8c245b.png"
         },
         {
           "type": "paragraph",
@@ -363,12 +353,10 @@
           "sourceAsset": "7a12c76e9972775acc06.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/fbe9f55fff93a26af2cd.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 809,
-          "height": 383,
-          "alt": "Instructional visual diagram or table: fbe9f55fff93a26af2cd.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrrr}\n\\hline\n\\textbf{Lessor Operating Schedule} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} & \\textbf{Year 5} \\\\\n\\hline\n\\text{Lease revenue (CFO)} & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 & \\$23{,}740 \\\\\n\\text{Depreciation expense} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} & \\underline{(20{,}000)} \\\\\n\\textbf{Operating profit} & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 & \\$3{,}740 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "fbe9f55fff93a26af2cd.png"
         },
         {
           "type": "paragraph",
@@ -379,12 +367,10 @@
           "text": "Lessor: Finance vs. Operating Lease Comparison"
         },
         {
-          "type": "image",
-          "src": "content/figures/3e9cd88b54d911d57bf7.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 963,
-          "height": 599,
-          "alt": "Instructional visual diagram or table: 3e9cd88b54d911d57bf7.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Lessor Classification} & \\textbf{Finance Lease} & \\textbf{Operating Lease} \\\\\n\\hline\n\\text{Balance Sheet} & \\text{Derecognize asset; add lease receivable} & \\text{Retain asset on BS; record depreciation} \\\\\n\\text{Income Statement} & \\text{Interest revenue} & \\text{Rental income less depreciation} \\\\\n\\text{Cash Flow Statement} & \\text{Principal in CFI, Interest in CFO} & \\text{Full rental payment in CFO} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "3e9cd88b54d911d57bf7.png"
         },
         {
           "type": "paragraph",

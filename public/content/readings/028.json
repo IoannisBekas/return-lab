@@ -256,24 +256,20 @@
           "text": "Matching Cost of Goods Sold to the Number of Units Sold"
         },
         {
-          "type": "image",
-          "src": "content/figures/2b9cfd2ac28cbd8ecd52.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 802,
-          "height": 310,
-          "alt": "Instructional visual diagram or table: 2b9cfd2ac28cbd8ecd52.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Matching COGS to Units Sold} & \\textbf{Units} & \\textbf{Unit Cost} & \\textbf{Total} \\\\\n\\hline\n\\text{Beginning inventory} & 100 & \\$10.00 & \\$1{,}000 \\\\\n\\text{Purchases during period} & \\underline{400} & \\$11.00 & \\underline{\\$4{,}400} \\\\\n\\text{Total available for sale} & 500 & & \\$5{,}400 \\\\\n\\text{Ending inventory} & \\underline{150} & \\$11.00 & \\underline{\\$1{,}650} \\\\\n\\textbf{Cost of goods sold (COGS)} & 350 & & \\$3{,}750 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "2b9cfd2ac28cbd8ecd52.png"
         },
         {
           "type": "paragraph",
           "text": "Assume the firm had the following transactions in the period:"
         },
         {
-          "type": "image",
-          "src": "content/figures/68211594bc802b33c92a.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 614,
-          "height": 353,
-          "alt": "Instructional visual diagram or table: 68211594bc802b33c92a.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Date} & \\textbf{Transaction} & \\textbf{Units} & \\textbf{Unit Price / Cost} \\\\\n\\hline\n\\text{Jan 1} & \\text{Beginning inventory} & 200 & \\$10.00 \\\\\n\\text{Mar 15} & \\text{Purchase} & 300 & \\$11.00 \\\\\n\\text{Jun 20} & \\text{Sale} & 350 & \\$15.00 \\\\\n\\text{Sep 10} & \\text{Purchase} & 400 & \\$12.00 \\\\\n\\text{Dec 5} & \\text{Sale} & 250 & \\$16.00 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "68211594bc802b33c92a.png"
         },
         {
           "type": "paragraph",
@@ -290,12 +286,10 @@
           "sourceAsset": "0905ad2c3b40bd6d09b9.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/b648b7cd86830bb56841.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 521,
-          "height": 355,
-          "alt": "Inventory cost of goods sold and gross profit calculation summary table."
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Income Statement} & \\textbf{\\$} & \\textbf{\\$} \\\\\n\\hline\n\\text{Revenue} & & 3{,}500 \\\\\n\\text{Beginning inventory} & 400 & \\\\\n\\text{Purchases} & \\underline{2{,}330} & \\\\\n\\text{Available for sale} & 2{,}730 & \\\\\n\\text{Ending inventory} & \\underline{(296)} & \\\\\n\\text{Cost of goods sold} & & \\underline{2{,}434} \\\\\n\\textbf{Gross profit} & & 1{,}066 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "b648b7cd86830bb56841.png"
         },
         {
           "type": "paragraph",
@@ -350,12 +344,10 @@
           "text": "Northwood should capitalize all costs that provide future economic benefits, including the costs that are necessary to get the asset ready for use. Rebuilding the equipment’s motors extended its life; thus, it increased its future benefits."
         },
         {
-          "type": "image",
-          "src": "content/figures/e70c384060069a333c4a.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 753,
-          "height": 223,
-          "alt": "Instructional visual diagram or table: e70c384060069a333c4a.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Capitalized Costs Breakdown} & \\textbf{Amount} \\\\\n\\hline\n\\text{Purchase price of machinery} & \\$250{,}000 \\\\\n\\text{Freight and delivery charges} & 10{,}000 \\\\\n\\text{Installation and calibration} & \\underline{85{,}000} \\\\\n\\textbf{Total Capitalized Cost} & \\underline{\\underline{\\$345{,}000}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "e70c384060069a333c4a.png"
         },
         {
           "type": "paragraph",
@@ -366,12 +358,10 @@
           "text": "Rather, the training costs are necessary to get the employees ready to use the asset. Thus, the training costs are immediately expensed. Repair and maintenance costs are operating expenditures that do not extend the life of the equipment."
         },
         {
-          "type": "image",
-          "src": "content/figures/4b028243ef1b6d3cbc39.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 541,
-          "height": 179,
-          "alt": "Instructional visual diagram or table: 4b028243ef1b6d3cbc39.png"
+          "type": "math",
+          "latex": "\\begin{array}{lr}\n\\hline\n\\textbf{Costs Expensed When Incurred} & \\textbf{Amount} \\\\\n\\hline\n\\text{Training costs for employees operating equipment} & \\$7{,}500 \\\\\n\\text{Administrative overhead allocated to project} & \\underline{\\$35{,}000} \\\\\n\\textbf{Total Costs Expensed} & \\underline{\\underline{\\$42{,}500}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "4b028243ef1b6d3cbc39.png"
         },
         {
           "type": "heading",
@@ -400,24 +390,20 @@
           "text": "Income Statement: Capitalization of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/0d10a4b9c0de22f7e2bb.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 881,
-          "height": 353,
-          "alt": "Instructional visual diagram or table: 0d10a4b9c0de22f7e2bb.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Income Statement: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\\\\n\\text{Depreciation expense} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{90{,}000} \\\\\n\\text{Operating income} & 70{,}000 & 70{,}000 & 70{,}000 & 210{,}000 \\\\\n\\text{Tax expense (30\\%)} & \\underline{21{,}000} & \\underline{21{,}000} & \\underline{21{,}000} & \\underline{63{,}000} \\\\\n\\textbf{Net income} & 49{,}000 & 49{,}000 & 49{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "0d10a4b9c0de22f7e2bb.png"
         },
         {
           "type": "heading",
           "text": "Income Statement: Expensing of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/2e57847cc10f6916fc4f.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 881,
-          "height": 355,
-          "alt": "Instructional visual diagram or table: 2e57847cc10f6916fc4f.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Income Statement: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Revenues} & 100{,}000 & 100{,}000 & 100{,}000 & 300{,}000 \\\\\n\\text{Equipment expense} & \\underline{90{,}000} & \\underline{0} & \\underline{0} & \\underline{90{,}000} \\\\\n\\text{Operating income} & 10{,}000 & 100{,}000 & 100{,}000 & 210{,}000 \\\\\n\\text{Tax expense (30\\%)} & \\underline{3{,}000} & \\underline{30{,}000} & \\underline{30{,}000} & \\underline{63{,}000} \\\\\n\\textbf{Net income} & 7{,}000 & 70{,}000 & 70{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "2e57847cc10f6916fc4f.png"
         },
         {
           "type": "paragraph",
@@ -428,24 +414,20 @@
           "text": "Balance Sheet: Capitalization of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/32d91591473b94441c8f.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 868,
-          "height": 420,
-          "alt": "Instructional visual diagram or table: 32d91591473b94441c8f.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Balance Sheet: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Equipment (gross)} & 90{,}000 & 90{,}000 & 90{,}000 \\\\\n\\text{Accumulated depreciation} & \\underline{(30{,}000)} & \\underline{(60{,}000)} & \\underline{(90{,}000)} \\\\\n\\text{Net property, plant, and equipment} & 60{,}000 & 30{,}000 & 0 \\\\\n\\textbf{Total Assets Impact} & 60{,}000 & 30{,}000 & 0 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "32d91591473b94441c8f.png"
         },
         {
           "type": "heading",
           "text": "Balance Sheet: Expensing of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/3993dbc1b6188bda044b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 838,
-          "height": 357,
-          "alt": "Instructional visual diagram or table: 3993dbc1b6188bda044b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Balance Sheet: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Net property, plant, and equipment} & 0 & 0 & 0 \\\\\n\\text{Retained earnings impact} & 7{,}000 & 77{,}000 & 147{,}000 \\\\\n\\textbf{Total Assets Impact} & 0 & 0 & 0 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "3993dbc1b6188bda044b.png"
         },
         {
           "type": "paragraph",
@@ -472,12 +454,10 @@
           "text": "Cash Flow Statement: Capitalization of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/c0931084e800172bb17d.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 860,
-          "height": 271,
-          "alt": "Instructional visual diagram or table: c0931084e800172bb17d.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Cash Flow: Capitalization (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Cash from operations (CFO)} & 79{,}000 & 79{,}000 & 79{,}000 & 237{,}000 \\\\\n\\text{Cash from investing (CFI)} & \\underline{(90{,}000)} & \\underline{0} & \\underline{0} & \\underline{(90{,}000)} \\\\\n\\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "c0931084e800172bb17d.png"
         },
         {
           "type": "paragraph",
@@ -494,12 +474,10 @@
           "text": "Cash Flow Statement: Expensing of Equipment Cost"
         },
         {
-          "type": "image",
-          "src": "content/figures/cb6dc61edd5459cc54eb.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 862,
-          "height": 402,
-          "alt": "Instructional visual diagram or table: cb6dc61edd5459cc54eb.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Cash Flow: Expensing (\\pounds)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Total} \\\\\n\\hline\n\\text{Cash from operations (CFO)} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\text{Cash from investing (CFI)} & \\underline{0} & \\underline{0} & \\underline{0} & \\underline{0} \\\\\n\\textbf{Net Change in Cash} & (11{,}000) & 79{,}000 & 79{,}000 & 147{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "cb6dc61edd5459cc54eb.png"
         },
         {
           "type": "paragraph",
@@ -510,12 +488,10 @@
           "text": "Financial statement ratios: Capitalization vs. expensing"
         },
         {
-          "type": "image",
-          "src": "content/figures/2c2db45830118eb1d1fc.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 918,
-          "height": 310,
-          "alt": "Instructional visual diagram or table: 2c2db45830118eb1d1fc.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Ratio} & \\textbf{Capitalizing} & \\textbf{Expensing} \\\\\n\\hline\n\\text{Total asset turnover} & \\text{Lower in early years} & \\text{Higher in early years} \\\\\n\\text{Operating margin} & \\text{Higher in early years} & \\text{Lower in early years} \\\\\n\\text{Return on equity (ROE)} & \\text{Higher in early years} & \\text{Lower in early years} \\\\\n\\text{Debt-to-equity ratio} & \\text{Lower} & \\text{Higher} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "2c2db45830118eb1d1fc.png"
         },
         {
           "type": "paragraph",
@@ -538,12 +514,10 @@
           "text": "Figure 28.1: Financial Statement Effects"
         },
         {
-          "type": "image",
-          "src": "content/figures/dff6a67daea83870cfac.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 820,
-          "height": 442,
-          "alt": "Instructional visual diagram or table: dff6a67daea83870cfac.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Financial Statement Effect} & \\textbf{Capitalizing} & \\textbf{Expensing} \\\\\n\\hline\n\\text{Initial net income} & \\text{Higher} & \\text{Lower} \\\\\n\\text{Subsequent net income} & \\text{Lower} & \\text{Higher} \\\\\n\\text{Total net income (all years)} & \\text{Same} & \\text{Same} \\\\\n\\text{Operating cash flow (CFO)} & \\text{Higher} & \\text{Lower} \\\\\n\\text{Investing cash flow (CFI)} & \\text{Lower} & \\text{Higher} \\\\\n\\text{Total cash flow} & \\text{Same} & \\text{Same} \\\\\n\\text{Assets and equity} & \\text{Higher initially} & \\text{Lower initially} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "dff6a67daea83870cfac.png"
         },
         {
           "type": "paragraph",
@@ -1173,12 +1147,10 @@
           "text": "A vertical common-size income statement expresses each category of the income statement as a percentage of revenue. The common-size format standardizes the income statement by eliminating the effects of size. This allows for comparison of income statement items over time (time-series analysis) and across firms (cross-sectional analysis). For example, the following are year-end income statements of industry competitors North Company and South Company:"
         },
         {
-          "type": "image",
-          "src": "content/figures/906b0829878cf9c4a3d6.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 817,
-          "height": 310,
-          "alt": "Instructional visual diagram or table: 906b0829878cf9c4a3d6.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n& \\textbf{North Co.} & \\textbf{South Co.} \\\\\n\\hline\n\\text{Revenue} & \\$75{,}000{,}000 & \\$3{,}500{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{52{,}500{,}000} & \\underline{700{,}000} \\\\\n\\text{Gross profit} & \\$22{,}500{,}000 & \\$2{,}800{,}000 \\\\\n\\text{Administrative expense} & 11{,}250{,}000 & 525{,}000 \\\\\n\\text{Research expense} & \\underline{3{,}750{,}000} & \\underline{700{,}000} \\\\\n\\text{Operating profit} & \\$7{,}500{,}000 & \\$1{,}575{,}000 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "906b0829878cf9c4a3d6.png"
         },
         {
           "type": "paragraph",
@@ -1193,12 +1165,10 @@
           "text": "Once we convert the income statements to common-size format, we can see that South is the more profitable firm on a relative basis. South’s gross profit of 80% and operating profit of 45% are significantly greater than North’s gross profit of 30% and operating profit of 10%."
         },
         {
-          "type": "image",
-          "src": "content/figures/df741b1ff136551718ef.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 777,
-          "height": 311,
-          "alt": "Instructional visual diagram or table: df741b1ff136551718ef.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Common-Size Income Statement} & \\textbf{North Co. (\\%)} & \\textbf{South Co. (\\%)} \\\\\n\\hline\n\\text{Revenue} & 100.0\\% & 100.0\\% \\\\\n\\text{Cost of goods sold} & \\underline{70.0\\%} & \\underline{20.0\\%} \\\\\n\\text{Gross profit} & 30.0\\% & 80.0\\% \\\\\n\\text{Administrative expense} & 15.0\\% & 15.0\\% \\\\\n\\text{Research expense} & \\underline{5.0\\%} & \\underline{20.0\\%} \\\\\n\\textbf{Operating profit} & 10.0\\% & 45.0\\% \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "df741b1ff136551718ef.png"
         },
         {
           "type": "paragraph",

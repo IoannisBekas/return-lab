@@ -299,24 +299,20 @@
           "text": "Willock Corporation is a retailer incorporated at the start of Year 1. Sales prices and purchase costs have been inflating at 5% per annum. Using the data provided on sales and purchase units and prices compute Willocks gross profit and gross profit margin using FIFO and LIFO cost flow methodology. (Assume all purchases each year are made at the beginning of the year for the indicated prices.)"
         },
         {
-          "type": "image",
-          "src": "content/figures/24346a116202b57c819e.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 858,
-          "height": 472,
-          "alt": "Instructional visual diagram or table: 24346a116202b57c819e.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n& \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} \\\\\n\\hline\n\\text{Beginning inventory (units)} & 0 & 100 & 150 \\\\\n\\text{Units purchased} & 500 & 400 & 450 \\\\\n\\text{Purchase price per unit} & \\$10.00 & \\$11.00 & \\$12.00 \\\\\n\\text{Units sold} & 400 & 350 & 400 \\\\\n\\text{Selling price per unit} & \\$15.00 & \\$16.00 & \\$18.00 \\\\\n\\text{Ending inventory (units)} & 100 & 150 & 200 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "24346a116202b57c819e.png"
         },
         {
           "type": "heading",
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/284193a7c2047e6687d1.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 854,
-          "height": 822,
-          "alt": "Instructional visual diagram or table: 284193a7c2047e6687d1.png"
+          "type": "math",
+          "latex": "\\begin{gathered}\n\\begin{array}{lrrr}\n\\hline\n\\textbf{FIFO Gross Profit} & \\textbf{Year 1 (\\$)} & \\textbf{Year 2 (\\$)} & \\textbf{Year 3 (\\$)} \\\\\n\\hline\n\\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\\\\n\\text{Beginning inventory} & 0 & 320{,}000 & 588{,}000 \\\\\n\\text{Purchases} & \\underline{1{,}120{,}000} & \\underline{1{,}260{,}000} & \\underline{880{,}000} \\\\\n\\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}468{,}000 \\\\\n\\text{Ending inventory} & \\underline{-320{,}000} & \\underline{-588{,}000} & \\underline{-88{,}000} \\\\\n\\text{Cost of goods sold} & 800{,}000 & 992{,}000 & 1{,}380{,}000 \\\\\n\\text{Gross profit} & \\$200{,}000 & \\$268{,}000 & \\$380{,}000 \\\\\n\\hline\n\\end{array}\n\\\\[12pt]\n\\begin{array}{lrrr}\n\\hline\n\\textbf{LIFO Gross Profit} & \\textbf{Year 1 (\\$)} & \\textbf{Year 2 (\\$)} & \\textbf{Year 3 (\\$)} \\\\\n\\hline\n\\text{Sales} & 1{,}000{,}000 & 1{,}260{,}000 & 1{,}760{,}000 \\\\\n\\text{Beginning inventory} & 0 & 320{,}000 & 572{,}000 \\\\\n\\text{Purchases} & \\underline{1{,}120{,}000} & \\underline{1{,}260{,}000} & \\underline{880{,}000} \\\\\n\\text{Available for sale} & 1{,}120{,}000 & 1{,}580{,}000 & 1{,}452{,}000 \\\\\n\\text{Ending inventory} & \\underline{-320{,}000} & \\underline{-572{,}000} & \\underline{-80{,}000} \\\\\n\\text{Cost of goods sold} & 800{,}000 & 1{,}008{,}000 & 1{,}372{,}000 \\\\\n\\text{Gross profit} & \\$200{,}000 & \\$252{,}000 & \\$388{,}000 \\\\\n\\hline\n\\end{array}\n\\end{gathered}",
+          "display": true,
+          "sourceAsset": "284193a7c2047e6687d1.png"
         },
         {
           "type": "paragraph",
@@ -331,12 +327,10 @@
           "text": "In Year 3, LIFO gives a higher gross margin even though purchase prices are inflating. This unusual result is caused by a LIFO liquidation. Inventory levels decreased during the year because the number of units purchased was less than the number of units sold."
         },
         {
-          "type": "image",
-          "src": "content/figures/c1ff69501c6d5344b906.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 854,
-          "height": 136,
-          "alt": "Instructional visual diagram or table: c1ff69501c6d5344b906.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Key Inventory Ratios} & \\textbf{LIFO} & \\textbf{FIFO} \\\\[8pt]\n\\hline\n\\text{Gross profit margin} & \\frac{\\$130{,}000}{\\$350{,}000} = 37.1\\% & \\frac{\\$131{,}500}{\\$350{,}000} = 37.6\\% \\\\[6pt]\n\\text{Current ratio} & \\frac{\\$91{,}000}{\\$30{,}000} = 3.03 & \\frac{\\$96{,}400}{\\$30{,}000} = 3.21 \\\\[8pt]\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "c1ff69501c6d5344b906.png"
         },
         {
           "type": "paragraph",
@@ -418,20 +412,16 @@
           "text": "Hyzer Corporation is a U.S. manufacturer of products for use in the sport of disc golf. Hyzer presents the following financial statements data:"
         },
         {
-          "type": "image",
-          "src": "content/figures/a59a1286e797537fd1d0.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 646,
-          "height": 829,
-          "alt": "Instructional visual diagram or table: a59a1286e797537fd1d0.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Hyzer Corporation: Balance Sheet Extracts} & \\textbf{20X7 (LIFO)} & \\textbf{20X7 (FIFO)} \\\\\n\\hline\n\\text{Cash} & \\$20{,}000 & \\$19{,}400 \\\\\n\\text{Accounts receivable} & 35{,}000 & 35{,}000 \\\\\n\\text{Inventory} & \\underline{36{,}000} & \\underline{42{,}000} \\\\\n\\text{Total current assets} & \\$91{,}000 & \\$96{,}400 \\\\\n\\text{Net PP\\&E} & \\underline{120{,}000} & \\underline{120{,}000} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$211{,}000}} & \\underline{\\underline{\\$216{,}400}} \\\\\n\\hline\n\\text{Current liabilities} & \\$30{,}000 & \\$30{,}000 \\\\\n\\text{Long-term debt} & 60{,}000 & 60{,}000 \\\\\n\\text{Common stock} & 50{,}000 & 50{,}000 \\\\\n\\text{Retained earnings} & \\underline{71{,}000} & \\underline{76{,}400} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$211{,}000}} & \\underline{\\underline{\\$216{,}400}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "a59a1286e797537fd1d0.png"
         },
         {
-          "type": "image",
-          "src": "content/figures/9daa03cc4a34d1747f8b.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 644,
-          "height": 908,
-          "alt": "Instructional visual diagram or table: 9daa03cc4a34d1747f8b.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Hyzer Corporation: Income Statement Extracts} & \\textbf{20X7 (LIFO)} & \\textbf{20X7 (FIFO)} \\\\\n\\hline\n\\text{Revenue} & \\$350{,}000 & \\$350{,}000 \\\\\n\\text{Cost of goods sold} & \\underline{220{,}000} & \\underline{218{,}500} \\\\\n\\text{Gross profit} & \\$130{,}000 & \\$131{,}500 \\\\\n\\text{Operating expenses} & \\underline{70{,}000} & \\underline{70{,}000} \\\\\n\\text{Operating income} & \\$60{,}000 & \\$61{,}500 \\\\\n\\text{Taxes (40\\%)} & \\underline{24{,}000} & \\underline{24{,}600} \\\\\n\\textbf{Net income} & \\underline{\\underline{\\$36{,}000}} & \\underline{\\underline{\\$36{,}900}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "9daa03cc4a34d1747f8b.png"
         },
         {
           "type": "paragraph",
@@ -442,12 +432,10 @@
           "text": "The following footnote disclosure is given for inventory balances:"
         },
         {
-          "type": "image",
-          "src": "content/figures/3b212816f81575ac9df8.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 609,
-          "height": 531,
-          "alt": "Instructional visual diagram or table: 3b212816f81575ac9df8.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrrr}\n\\hline\n\\textbf{Footnote Disclosure: Inventory (\\$000s)} & \\textbf{20X7} & \\textbf{20X6} & \\textbf{20X5} \\\\\n\\hline\n\\text{Inventory at FIFO cost} & \\$42{,}000 & \\$38{,}000 & \\$35{,}000 \\\\\n\\text{Less: LIFO reserve} & \\underline{(6{,}000)} & \\underline{(4{,}500)} & \\underline{(3{,}800)} \\\\\n\\textbf{Inventory at LIFO (reported on balance sheet)} & \\$36{,}000 & \\$33{,}500 & \\$31{,}200 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "3b212816f81575ac9df8.png"
         },
         {
           "type": "paragraph",
@@ -466,12 +454,10 @@
           "text": "Answer:"
         },
         {
-          "type": "image",
-          "src": "content/figures/5d68f4c1921b12dd0247.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 551,
-          "height": 310,
-          "alt": "Instructional visual diagram or table: 5d68f4c1921b12dd0247.png"
+          "type": "math",
+          "latex": "\\begin{array}{lcc}\n\\hline\n\\textbf{Key ratios summary} & \\textbf{20X6} & \\textbf{20X7} \\\\\n\\hline\n\\text{Inventory turnover} & 3.7 & 6.8 \\\\\n\\text{Days of inventory on hand} & 98 & 53 \\\\\n\\text{Gross profit margin} & 53\\% & 45\\% \\\\\n\\text{Sales growth} & 4\\% & 36\\% \\\\\n\\text{Current ratio} & 4.24 & 3.98 \\\\\n\\text{Quick ratio} & 3.20 & 3.78 \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5d68f4c1921b12dd0247.png"
         },
         {
           "type": "paragraph",
@@ -1005,12 +991,10 @@
           "prompt": "Paul Neimer calculates the following horizontal common-size inventory data for Redpine Manufacturing, Inc.: Based on these data, Neimer should most likely conclude that Redpine:",
           "supportingBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/3c5c5a60d2869949ed95.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 694,
-              "height": 263,
-              "alt": "Instructional visual diagram or table: 3c5c5a60d2869949ed95.png"
+              "type": "math",
+              "latex": "\\begin{array}{lrrrr}\n\\hline\n\\textbf{Index Analysis (Base Year 1 = 100)} & \\textbf{Year 1} & \\textbf{Year 2} & \\textbf{Year 3} & \\textbf{Year 4} \\\\\n\\hline\n\\text{Sales index} & 100.0 & 112.5 & 124.0 & 138.5 \\\\\n\\text{Inventory index} & 100.0 & 118.0 & 135.2 & 156.4 \\\\\n\\text{COGS index} & 100.0 & 110.0 & 121.5 & 134.0 \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "3c5c5a60d2869949ed95.png"
             }
           ],
           "options": [

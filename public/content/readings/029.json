@@ -329,12 +329,10 @@
           "text": "The following are the balance sheets of industry competitors East Company (East) and West Company (West)."
         },
         {
-          "type": "image",
-          "src": "content/figures/f036f2265f279b7b9f27.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 577,
-          "height": 618,
-          "alt": "Instructional visual diagram or table: f036f2265f279b7b9f27.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Balance Sheet (\\$ millions)} & \\textbf{East Co.} & \\textbf{West Co.} \\\\\n\\hline\n\\text{Cash and equivalents} & \\$50 & \\$20 \\\\\n\\text{Accounts receivable} & 120 & 60 \\\\\n\\text{Inventory} & \\underline{180} & \\underline{70} \\\\\n\\text{Total current assets} & 350 & 150 \\\\\n\\text{Net PP\\&E} & \\underline{650} & \\underline{350} \\\\\n\\textbf{Total assets} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$500}} \\\\\n\\hline\n\\text{Current liabilities} & \\$200 & \\$100 \\\\\n\\text{Long-term debt} & 300 & 150 \\\\\n\\text{Shareholders' equity} & \\underline{500} & \\underline{250} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{\\$1{,}000}} & \\underline{\\underline{\\$500}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "f036f2265f279b7b9f27.png"
         },
         {
           "type": "paragraph",
@@ -349,12 +347,10 @@
           "text": "East is obviously the larger company. By converting the balance sheets to common-size format, we can eliminate the size effect."
         },
         {
-          "type": "image",
-          "src": "content/figures/5f069797e6e810c80e3f.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 523,
-          "height": 618,
-          "alt": "Instructional visual diagram or table: 5f069797e6e810c80e3f.png"
+          "type": "math",
+          "latex": "\\begin{array}{lrr}\n\\hline\n\\textbf{Common-Size Balance Sheet (\\%)} & \\textbf{East Co.} & \\textbf{West Co.} \\\\\n\\hline\n\\text{Cash and equivalents} & 5.0\\% & 4.0\\% \\\\\n\\text{Accounts receivable} & 12.0\\% & 12.0\\% \\\\\n\\text{Inventory} & \\underline{18.0\\%} & \\underline{14.0\\%} \\\\\n\\text{Total current assets} & 35.0\\% & 30.0\\% \\\\\n\\text{Net PP\\&E} & \\underline{65.0\\%} & \\underline{70.0\\%} \\\\\n\\textbf{Total assets} & \\underline{\\underline{100.0\\%}} & \\underline{\\underline{100.0\\%}} \\\\\n\\hline\n\\text{Current liabilities} & 20.0\\% & 20.0\\% \\\\\n\\text{Long-term debt} & 30.0\\% & 30.0\\% \\\\\n\\text{Shareholders' equity} & \\underline{50.0\\%} & \\underline{50.0\\%} \\\\\n\\textbf{Total liabilities and equity} & \\underline{\\underline{100.0\\%}} & \\underline{\\underline{100.0\\%}} \\\\\n\\hline\n\\end{array}",
+          "display": true,
+          "sourceAsset": "5f069797e6e810c80e3f.png"
         },
         {
           "type": "paragraph",

@@ -495,12 +495,10 @@
           "text": "Consider the bond in the example. The present values of each of the bond’s promised payments, discounted at the bond’s YTM of 15%, and their weights in the calculation of Macaulay duration, are shown in the following table."
         },
         {
-          "type": "image",
-          "src": "content/figures/d192ade09369af125bf7.png",
-          "visualKind": "diagram-chart-or-table",
-          "width": 942,
-          "height": 267,
-          "alt": "Instructional visual diagram or table: d192ade09369af125bf7.png"
+          "type": "math",
+          "latex": "\\begin{aligned}\nC_1 &= 11 & \\text{PV}_1 &= 11 / 1.15 = 9.565 & W_1 &= 9.565 / 86.59 = 0.1105 \\\\\nC_2 &= 11 & \\text{PV}_2 &= 11 / 1.15^2 = 8.318 & W_2 &= 8.318 / 86.59 = 0.0961 \\\\\nC_3 &= 11 & \\text{PV}_3 &= 11 / 1.15^3 = 7.233 & W_3 &= 7.233 / 86.59 = 0.0835 \\\\\nC_4 &= 11 & \\text{PV}_4 &= 11 / 1.15^4 = 6.289 & W_4 &= 6.289 / 86.59 = 0.0726 \\\\\nC_5 &= 111 & \\text{PV}_5 &= 111 / 1.15^5 = \\underline{55.187} & W_5 &= 55.187 / 86.59 = \\underline{0.6373} \\\\\n& & & \\qquad\\quad 86.59 & & \\qquad\\quad 1.0000\n\\end{aligned}",
+          "display": true,
+          "sourceAsset": "d192ade09369af125bf7.png"
         },
         {
           "type": "paragraph",
@@ -819,12 +817,10 @@
           "explanation": "The Macaulay duration is, therefore, calculated as weighted average time as follows: 0.0329(1) + 0.0321(2) + 0.0313(3) + 0.9037(4) = 3.806 Then, the annualized Macaulay duration is 3.806 / 2 = 1.90 years.",
           "solutionBlocks": [
             {
-              "type": "image",
-              "src": "content/figures/bee5e481e40d6ac920ad.png",
-              "visualKind": "diagram-chart-or-table",
-              "width": 1029,
-              "height": 217,
-              "alt": "Instructional visual diagram or table: bee5e481e40d6ac920ad.png"
+              "type": "math",
+              "latex": "\\begin{array}{lllll}\n\\hline\nC_1 = 3.5 & \\text{PV}_1 = 3.5 / 1.025 & = 3.415 & W_1 = 3.415 / 103.762 & = 0.0329 \\\\\nC_2 = 3.5 & \\text{PV}_2 = 3.5 / 1.025^2 & = 3.331 & W_2 = 3.331 / 103.762 & = 0.0321 \\\\\nC_3 = 3.5 & \\text{PV}_3 = 3.5 / 1.025^3 & = 3.250 & W_3 = 3.250 / 103.762 & = 0.0313 \\\\\nC_4 = 103.5 & \\text{PV}_4 = 103.5 / 1.025^4 & = \\underline{93.766} & W_4 = 93.766 / 103.762 & = \\underline{0.9037} \\\\\n\\hline\n& & \\mathbf{103.762} & & \\mathbf{1.0000} \\\\\n\\hline\n\\end{array}",
+              "display": true,
+              "sourceAsset": "bee5e481e40d6ac920ad.png"
             },
             {
               "type": "paragraph",
