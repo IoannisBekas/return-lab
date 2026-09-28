@@ -40,11 +40,9 @@ REFERENCE_TABLES = {
     "4c03d785ccda6e4dbc55.png",
     "a5cbb7719f7458f34a22.png",
     "fd7cdf02d96a2690be89.png",
-    "3bf1c773e8d459b24845.png",
-    "9c7480bee3dd12df7efa.png",
 }
 MANUAL_MEANINGFUL_VISUALS = {
-    "09066eb4f2ed2e35dae2.png", "0f8b04065cedff265396.png",
+    "0f8b04065cedff265396.png",
     "11369a9311fe8de699f7.png", "150bd1337203ccc4d538.png",
     "163f536e1ea2a0f49728.png", "19cea061ab7f4e0a9e99.png",
     "1f29a430552ac9b5702b.png", "284193a7c2047e6687d1.png",
@@ -52,10 +50,10 @@ MANUAL_MEANINGFUL_VISUALS = {
     "3da67fad473aa701f24e.png", "510d77a276c7184557a9.png",
     "515855f8b9b9f78398d9.png", "54770f97b2405c7ba97c.png",
     "5d68f4c1921b12dd0247.png",
-    "6238aa1942b15e9eaac3.png", "6535d7ff2e2fc55afa79.png",
-    "673044e17d4a0215e36e.png", "866c622294530622f91f.png",
+    "6238aa1942b15e9eaac3.png",
+    "673044e17d4a0215e36e.png",
     "874dbb230795297b4341.png", "906b0829878cf9c4a3d6.png",
-    "b411d4a82216ae464aef.png", "bd49737c238d983f9c2d.png",
+    "b411d4a82216ae464aef.png",
     "c34a22880904740b85c0.png", "ca036f8ef817fb8d1dd7.png",
     "cd4273ac668e90e54170.png", "d192ade09369af125bf7.png",
     "d843edeaafc984cf511d.png", "dc31279e9262d8e1f0de.png",
@@ -68,8 +66,6 @@ VISUAL_ALT_OVERRIDES = {
     "54770f97b2405c7ba97c.png": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio.",
     "2650a486ca28254a17dc.png": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
     "448f0b574d80ae590d30.png": "Student's t-distribution critical values for selected degrees of freedom and one-tailed probabilities.",
-    "3bf1c773e8d459b24845.png": "Quantitative methods formula reference chart, first section.",
-    "9c7480bee3dd12df7efa.png": "Quantitative methods formula reference chart, second section.",
     "11369a9311fe8de699f7.png": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 38.",
     "ee7fb6439edbe3b04caf.png": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 120.",
     "9e5716d3827f249ab639.png": "Comparative structure table of sole proprietorships, general partnerships, limited partnerships, and corporations.",
@@ -84,12 +80,8 @@ VISUAL_ALT_OVERRIDES = {
     "f116b8b224ba2e5416f1.png": "Joint probability distribution table showing outcomes conditional on macroeconomic states.",
     "fda5a48d0ac7e658f9e1.png": "Share purchase transactions and cost basis reference table.",
     "163f536e1ea2a0f49728.png": "Comparative current assets balance sheet table comparing 20X1 and 20X2.",
-    "09066eb4f2ed2e35dae2.png": "Comprehensive cash flow and coverage ratios formula summary reference poster.",
-    "bd49737c238d983f9c2d.png": "Vertical common-size income statement and asset activity ratios reference poster.",
-    "866c622294530622f91f.png": "Financial leverage, debt-to-equity, and fixed charge coverage ratios reference poster.",
     "ca036f8ef817fb8d1dd7.png": "Modified duration and convexity calculation reference table.",
     "515855f8b9b9f78398d9.png": "Margin transaction regulations, maintenance margin, and margin call price reference table.",
-    "6535d7ff2e2fc55afa79.png": "Multistage dividend discount model multi-period cash flow timeline diagram.",
     "701ed5eff65b74fbfce9.png": "Comparative financial performance metrics between Company A and Company B.",
     "b5078c1215465acab3c1.png": "Direct cash flow statement collection and disbursement adjustment table.",
     "a0db1a41b518f5fd261f.png": "Balance sheet data table comparing assets and liabilities across 20X7 and 20X6.",
@@ -97,6 +89,114 @@ VISUAL_ALT_OVERRIDES = {
     "d9dc8b8fdd4ad6fc9027.png": "Index constituent stock prices and shares outstanding table for January 1 and December 31.",
 }
 LATEX_OVERRIDES = {
+    "3bf1c773e8d459b24845.png": r"""\begin{aligned}
+\text{Future Value (FV)}: \quad \text{FV} &= \text{PV}\,(1 + r)^t \\[6pt]
+\text{Present Value (PV)}: \quad \text{PV} &= \frac{\text{FV}}{(1 + r)^t} = \text{FV}\,(1 + r)^{-t} \\[6pt]
+\text{where:}\quad r &= \text{interest rate per compounding period} \\
+t &= \text{number of compounding periods} \\[8pt]
+\text{Continuous Compounding}: \quad \text{FV} &= \text{PV} \times e^{rt}, \quad \text{PV} = \text{FV} \times e^{-rt} \\[8pt]
+\text{PV of a Perpetuity} &= \frac{\text{payment}}{r} \\[8pt]
+\text{Annuity Payment} &= \frac{r \times \text{PV}}{1 - (1 + r)^{-t}} \\[6pt]
+\text{where:}\quad r &= \text{interest rate per period}, \quad t = \text{number of periods}, \quad \text{PV} = \text{present value (principal)} \\[8pt]
+\text{Constant Growth DDM}: \quad V_0 &= \frac{D_1}{k_e - g_c} \\[6pt]
+\text{Required Rate of Return}: \quad k_e &= \frac{D_1}{V_0} + g_c, \quad \text{Implied Growth Rate}: \quad g_c = k_e - \frac{D_1}{V_0} \\[8pt]
+\text{Sample Mean}: \quad \bar{X} &= \frac{\sum_{i=1}^n X_i}{n} \\[6pt]
+\text{Range} &= \text{maximum value} - \text{minimum value} \\[8pt]
+\text{Mean Absolute Deviation (MAD)} &= \frac{\sum_{i=1}^n |X_i - \bar{X}|}{n} \\[8pt]
+\text{Sample Variance}: \quad s^2 &= \frac{\sum_{i=1}^n (X_i - \bar{X})^2}{n - 1} \\[8pt]
+\text{Sample Standard Deviation}: \quad s &= \sqrt{\frac{\sum_{i=1}^n (X_i - \bar{X})^2}{n - 1}} \\[8pt]
+\text{Coefficient of Variation (CV)} &= \frac{s_x}{\bar{X}} = \frac{\text{standard deviation of } X}{\text{average value of } X}
+\end{aligned}""",
+    "9c7480bee3dd12df7efa.png": r"""\begin{aligned}
+\text{Target Downside Deviation}: \quad s_{\text{target}} &= \sqrt{\frac{\sum_{\text{all } X_i < B} (X_i - B)^2}{n - 1}}, \quad \text{where } B = \text{target value} \\[8pt]
+\text{Sample Covariance}: \quad s_{X,Y} &= \frac{\sum_{i=1}^n (X_i - \bar{X})(Y_i - \bar{Y})}{n - 1} \\[6pt]
+\text{where:}\quad X_i &= \text{observation of variable } X, \quad Y_i = \text{observation of variable } Y \\
+\bar{X} &= \text{mean of variable } X, \quad \bar{Y} = \text{mean of variable } Y, \quad n = \text{number of periods} \\[8pt]
+\text{Correlation Coefficient}: \quad \rho_{XY} &= \frac{s_{XY}}{s_X s_Y} \\[8pt]
+\text{Bayes' Formula}: \quad P(I \mid O) &= \frac{P(O \mid I)}{P(O)} \times P(I) \\[8pt]
+\text{Simple Linear Regression Slope}: \quad \hat{b}_1 &= \frac{\operatorname{cov}_{XY}}{\sigma_X^2} \\[6pt]
+\text{Simple Linear Regression Intercept}: \quad \hat{b}_0 &= \bar{Y} - \hat{b}_1 \bar{X} \\[8pt]
+\text{Total Sum of Squares (SST)}: \quad \text{SST} &= \sum_{i=1}^n (Y_i - \bar{Y})^2 \\[6pt]
+\text{Sum of Squares Regression (SSR)}: \quad \text{SSR} &= \sum_{i=1}^n (\hat{Y}_i - \bar{Y})^2 \\[6pt]
+\text{Sum of Squared Errors (SSE)}: \quad \text{SSE} &= \sum_{i=1}^n (Y_i - \hat{Y}_i)^2 \\[8pt]
+\text{Coefficient of Determination}: \quad R^2 &= \frac{\text{SSR}}{\text{SST}} \\[8pt]
+F\text{-statistic}: \quad F &= \frac{\text{MSR}}{\text{MSE}} = \frac{\text{SSR} / k}{\text{SSE} / (n - k - 1)} \\[6pt]
+\text{where:}\quad \text{MSR} &= \text{mean regression sum of squares}, \quad \text{MSE} = \text{mean squared error}
+\end{aligned}""",
+    "09066eb4f2ed2e35dae2.png": r"""\begin{aligned}
+\text{Cash-flow-to-revenue ratio} &= \frac{\text{CFO}}{\text{net revenue}} \\[8pt]
+\text{Cash-return-on-assets ratio} &= \frac{\text{CFO}}{\text{average total assets}} \\[8pt]
+\text{Cash-return-on-equity ratio} &= \frac{\text{CFO}}{\text{average total equity}} \\[8pt]
+\text{Cash-to-income ratio} &= \frac{\text{CFO}}{\text{operating income}} \\[8pt]
+\text{Cash flow per share} &= \frac{\text{CFO} - \text{preferred dividends}}{\text{weighted average number of common shares}} \\[8pt]
+\text{Debt coverage} &= \frac{\text{CFO}}{\text{total debt}} \\[8pt]
+\text{Interest coverage} &= \frac{\text{CFO} + \text{interest paid} + \text{taxes paid}}{\text{interest paid}} \\[8pt]
+\text{Reinvestment} &= \frac{\text{CFO}}{\text{cash paid for long-term assets}} \\[8pt]
+\text{Debt payment} &= \frac{\text{CFO}}{\text{cash long-term debt repayment}} \\[8pt]
+\text{Dividend payment} &= \frac{\text{CFO}}{\text{dividends paid}} \\[8pt]
+\text{Investing and financing} &= \frac{\text{CFO}}{\text{cash outflows from investing and financing activities}} \\[8pt]
+\text{Average age of PP\&E} &= \frac{\text{accumulated depreciation}}{\text{annual depreciation expense}} \\[8pt]
+\text{Total useful life} &= \frac{\text{historical cost (gross cost)}}{\text{annual depreciation expense}} \\[8pt]
+\text{Remaining useful life} &= \frac{\text{ending net PP\&E}}{\text{annual depreciation expense}} \\[8pt]
+\text{Income tax expense} &= \text{tax payable} + \Delta\text{DTL} - \Delta\text{DTA} \\[8pt]
+\text{Effective tax rate} &= \frac{\text{income tax expense}}{\text{pretax income}} \\[8pt]
+\text{Cash tax rate} &= \frac{\text{tax paid (cash)}}{\text{pretax income}} \\[8pt]
+\text{Vertical common-size balance sheet ratio} &= \frac{\text{balance sheet account}}{\text{total assets}}
+\end{aligned}""",
+    "bd49737c238d983f9c2d.png": r"""\begin{aligned}
+\text{Vertical common-size income statement ratio} &= \frac{\text{income statement account}}{\text{sales}} \\[8pt]
+\text{Receivables turnover} &= \frac{\text{annual sales}}{\text{average receivables}} \\[8pt]
+\text{Days of sales outstanding (DSO)} &= \frac{365}{\text{receivables turnover}} \\[8pt]
+\text{Inventory turnover} &= \frac{\text{cost of goods sold}}{\text{average inventory}} \\[8pt]
+\text{Days of inventory on hand (DOH)} &= \frac{365}{\text{inventory turnover}} \\[8pt]
+\text{Payables turnover} &= \frac{\text{cost of goods sold}}{\text{average trade payables}} \\[8pt]
+\text{Number of days of payables} &= \frac{365}{\text{payables turnover ratio}} \\[8pt]
+\text{Total asset turnover} &= \frac{\text{revenue}}{\text{average total assets}} \\[8pt]
+\text{Fixed asset turnover} &= \frac{\text{revenue}}{\text{average net fixed assets}} \\[8pt]
+\text{Working capital turnover} &= \frac{\text{revenue}}{\text{average working capital}} \\[8pt]
+\text{Current ratio} &= \frac{\text{current assets}}{\text{current liabilities}} \\[8pt]
+\text{Quick ratio} &= \frac{\text{cash} + \text{marketable securities} + \text{receivables}}{\text{current liabilities}} \\[8pt]
+\text{Cash ratio} &= \frac{\text{cash} + \text{marketable securities}}{\text{current liabilities}} \\[8pt]
+\text{Defensive interval} &= \frac{\text{cash} + \text{marketable securities} + \text{receivables}}{\text{average daily expenditures}} \\[8pt]
+\text{Cash conversion cycle} &= \text{days of sales outstanding} + \text{days of inventory on hand} - \text{number of days of payables} \\[8pt]
+\text{Debt-to-equity} &= \frac{\text{total debt}}{\text{total shareholders' equity}} \\[8pt]
+\text{Debt-to-capital} &= \frac{\text{total debt}}{\text{total debt} + \text{total shareholders' equity}} \\[8pt]
+\text{Debt-to-assets} &= \frac{\text{total debt}}{\text{total assets}} \\[8pt]
+\text{Financial leverage} &= \frac{\text{average total assets}}{\text{average total equity}} \\[8pt]
+\text{Interest coverage} &= \frac{\text{earnings before interest and taxes (EBIT)}}{\text{interest payments}}
+\end{aligned}""",
+    "866c622294530622f91f.png": r"""\begin{aligned}
+\text{Debt-to-EBITDA} &= \frac{\text{total debt}}{\text{EBITDA}} \\[8pt]
+\text{Fixed charge coverage} &= \frac{\text{earnings before interest and taxes} + \text{lease payments}}{\text{interest payments} + \text{lease payments}} \\[8pt]
+\text{Net profit margin} &= \frac{\text{net income}}{\text{revenue}} \\[8pt]
+\text{Gross profit margin} &= \frac{\text{gross profit}}{\text{revenue}} \\[8pt]
+\text{Operating profit margin} &= \frac{\text{operating income}}{\text{revenue}} = \frac{\text{EBIT}}{\text{revenue}} \\[8pt]
+\text{Pretax margin} &= \frac{\text{EBT}}{\text{revenue}} \\[8pt]
+\text{Return on assets (ROA)} &= \frac{\text{net income}}{\text{average total assets}} \\[8pt]
+\text{Operating return on assets} &= \frac{\text{operating income}}{\text{average total assets}} = \frac{\text{EBIT}}{\text{average total assets}} \\[8pt]
+\text{Return on invested capital (ROIC)} &= \frac{\text{after-tax operating profit}}{\text{average long-term capital}} \\[8pt]
+\text{Return on equity (ROE)} &= \frac{\text{net income}}{\text{average total equity}} \\[8pt]
+\text{Return on common equity} &= \frac{\text{net income} - \text{preferred dividends}}{\text{average common equity}} = \frac{\text{net income available to common}}{\text{average common equity}} \\[10pt]
+\textbf{Original DuPont Decomposition}: & \\[6pt]
+\text{ROE} &= \left(\frac{\text{net income}}{\text{revenue}}\right) \left(\frac{\text{revenue}}{\text{average total assets}}\right) \left(\frac{\text{average total assets}}{\text{average stockholders' equity}}\right) \\[10pt]
+\textbf{Extended DuPont Decomposition}: & \\[6pt]
+\text{ROE} &= \left(\frac{\text{net income}}{\text{EBT}}\right) \left(\frac{\text{EBT}}{\text{EBIT}}\right) \left(\frac{\text{EBIT}}{\text{revenue}}\right) \left(\frac{\text{revenue}}{\text{average assets}}\right) \left(\frac{\text{average assets}}{\text{average equity}}\right) \\[10pt]
+\textbf{Coefficients of Variation}: & \\[6pt]
+\text{CV}_{\text{sales}} &= \frac{\text{standard deviation of sales}}{\text{mean sales}} \\[8pt]
+\text{CV}_{\text{operating income}} &= \frac{\text{standard deviation of operating income}}{\text{mean operating income}} \\[8pt]
+\text{CV}_{\text{net income}} &= \frac{\text{standard deviation of net income}}{\text{mean net income}}
+\end{aligned}""",
+    "6535d7ff2e2fc55afa79.png": r"""\begin{aligned}
+\textbf{Multistage Dividend Discount Model}: & \\[6pt]
+\text{Value} &= \frac{D_1}{1 + k_e} + \frac{D_2}{(1 + k_e)^2} + \dots + \frac{D_n}{(1 + k_e)^n} + \frac{P_n}{(1 + k_e)^n} \\[8pt]
+\text{where:}\quad P_n &= \frac{D_{n+1}}{k_e - g_c} \\[6pt]
+g_c &= \text{constant growth rate of dividends} \\
+n &= \text{number of periods of supernormal growth} \\[10pt]
+\textbf{Justified P/E Ratio}: & \\[6pt]
+\frac{P_0}{E_1} &= \frac{D_1 / E_1}{k - g} \\[10pt]
+\textbf{Enterprise Value}: & \\[6pt]
+\text{Enterprise value} &= \text{market value of common and preferred stock} + \text{market value of debt} - \text{cash and short-term investments}
+\end{aligned}""",
     "f01e0cc2132ef3c85097.png": r"""\begin{gathered}
 \begin{array}{lcc}
 \hline

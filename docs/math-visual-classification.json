@@ -1,8 +1,8 @@
 {
   "summary": {
     "sourceAssetsClassified": 976,
-    "nativeMath": 821,
-    "meaningfulVisuals": 147,
+    "nativeMath": 827,
+    "meaningfulVisuals": 141,
     "rebuiltTables": 8,
     "lowConfidenceMath": 0
   },
@@ -449,11 +449,17 @@
     },
     {
       "asset": "09066eb4f2ed2e35dae2.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "2:364:0"
+      ],
+      "latex": "\\begin{aligned}\n\\text{Cash-flow-to-revenue ratio} &= \\frac{\\text{CFO}}{\\text{net revenue}} \\\\[8pt]\n\\text{Cash-return-on-assets ratio} &= \\frac{\\text{CFO}}{\\text{average total assets}} \\\\[8pt]\n\\text{Cash-return-on-equity ratio} &= \\frac{\\text{CFO}}{\\text{average total equity}} \\\\[8pt]\n\\text{Cash-to-income ratio} &= \\frac{\\text{CFO}}{\\text{operating income}} \\\\[8pt]\n\\text{Cash flow per share} &= \\frac{\\text{CFO} - \\text{preferred dividends}}{\\text{weighted average number of common shares}} \\\\[8pt]\n\\text{Debt coverage} &= \\frac{\\text{CFO}}{\\text{total debt}} \\\\[8pt]\n\\text{Interest coverage} &= \\frac{\\text{CFO} + \\text{interest paid} + \\text{taxes paid}}{\\text{interest paid}} \\\\[8pt]\n\\text{Reinvestment} &= \\frac{\\text{CFO}}{\\text{cash paid for long-term assets}} \\\\[8pt]\n\\text{Debt payment} &= \\frac{\\text{CFO}}{\\text{cash long-term debt repayment}} \\\\[8pt]\n\\text{Dividend payment} &= \\frac{\\text{CFO}}{\\text{dividends paid}} \\\\[8pt]\n\\text{Investing and financing} &= \\frac{\\text{CFO}}{\\text{cash outflows from investing and financing activities}} \\\\[8pt]\n\\text{Average age of PP\\&E} &= \\frac{\\text{accumulated depreciation}}{\\text{annual depreciation expense}} \\\\[8pt]\n\\text{Total useful life} &= \\frac{\\text{historical cost (gross cost)}}{\\text{annual depreciation expense}} \\\\[8pt]\n\\text{Remaining useful life} &= \\frac{\\text{ending net PP\\&E}}{\\text{annual depreciation expense}} \\\\[8pt]\n\\text{Income tax expense} &= \\text{tax payable} + \\Delta\\text{DTL} - \\Delta\\text{DTA} \\\\[8pt]\n\\text{Effective tax rate} &= \\frac{\\text{income tax expense}}{\\text{pretax income}} \\\\[8pt]\n\\text{Cash tax rate} &= \\frac{\\text{tax paid (cash)}}{\\text{pretax income}} \\\\[8pt]\n\\text{Vertical common-size balance sheet ratio} &= \\frac{\\text{balance sheet account}}{\\text{total assets}}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
@@ -3040,11 +3046,17 @@
     },
     {
       "asset": "3bf1c773e8d459b24845.png",
-      "classification": "meaningful-visual",
-      "reason": "statistical reference table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "1:284:1"
+      ],
+      "latex": "\\begin{aligned}\n\\text{Future Value (FV)}: \\quad \\text{FV} &= \\text{PV}\\,(1 + r)^t \\\\[6pt]\n\\text{Present Value (PV)}: \\quad \\text{PV} &= \\frac{\\text{FV}}{(1 + r)^t} = \\text{FV}\\,(1 + r)^{-t} \\\\[6pt]\n\\text{where:}\\quad r &= \\text{interest rate per compounding period} \\\\\nt &= \\text{number of compounding periods} \\\\[8pt]\n\\text{Continuous Compounding}: \\quad \\text{FV} &= \\text{PV} \\times e^{rt}, \\quad \\text{PV} = \\text{FV} \\times e^{-rt} \\\\[8pt]\n\\text{PV of a Perpetuity} &= \\frac{\\text{payment}}{r} \\\\[8pt]\n\\text{Annuity Payment} &= \\frac{r \\times \\text{PV}}{1 - (1 + r)^{-t}} \\\\[6pt]\n\\text{where:}\\quad r &= \\text{interest rate per period}, \\quad t = \\text{number of periods}, \\quad \\text{PV} = \\text{present value (principal)} \\\\[8pt]\n\\text{Constant Growth DDM}: \\quad V_0 &= \\frac{D_1}{k_e - g_c} \\\\[6pt]\n\\text{Required Rate of Return}: \\quad k_e &= \\frac{D_1}{V_0} + g_c, \\quad \\text{Implied Growth Rate}: \\quad g_c = k_e - \\frac{D_1}{V_0} \\\\[8pt]\n\\text{Sample Mean}: \\quad \\bar{X} &= \\frac{\\sum_{i=1}^n X_i}{n} \\\\[6pt]\n\\text{Range} &= \\text{maximum value} - \\text{minimum value} \\\\[8pt]\n\\text{Mean Absolute Deviation (MAD)} &= \\frac{\\sum_{i=1}^n |X_i - \\bar{X}|}{n} \\\\[8pt]\n\\text{Sample Variance}: \\quad s^2 &= \\frac{\\sum_{i=1}^n (X_i - \\bar{X})^2}{n - 1} \\\\[8pt]\n\\text{Sample Standard Deviation}: \\quad s &= \\sqrt{\\frac{\\sum_{i=1}^n (X_i - \\bar{X})^2}{n - 1}} \\\\[8pt]\n\\text{Coefficient of Variation (CV)} &= \\frac{s_x}{\\bar{X}} = \\frac{\\text{standard deviation of } X}{\\text{average value of } X}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
@@ -5366,11 +5378,17 @@
     },
     {
       "asset": "6535d7ff2e2fc55afa79.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "2:368:0"
+      ],
+      "latex": "\\begin{aligned}\n\\textbf{Multistage Dividend Discount Model}: & \\\\[6pt]\n\\text{Value} &= \\frac{D_1}{1 + k_e} + \\frac{D_2}{(1 + k_e)^2} + \\dots + \\frac{D_n}{(1 + k_e)^n} + \\frac{P_n}{(1 + k_e)^n} \\\\[8pt]\n\\text{where:}\\quad P_n &= \\frac{D_{n+1}}{k_e - g_c} \\\\[6pt]\ng_c &= \\text{constant growth rate of dividends} \\\\\nn &= \\text{number of periods of supernormal growth} \\\\[10pt]\n\\textbf{Justified P/E Ratio}: & \\\\[6pt]\n\\frac{P_0}{E_1} &= \\frac{D_1 / E_1}{k - g} \\\\[10pt]\n\\textbf{Enterprise Value}: & \\\\[6pt]\n\\text{Enterprise value} &= \\text{market value of common and preferred stock} + \\text{market value of debt} - \\text{cash and short-term investments}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
@@ -7423,11 +7441,17 @@
     },
     {
       "asset": "866c622294530622f91f.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "2:366:0"
+      ],
+      "latex": "\\begin{aligned}\n\\text{Debt-to-EBITDA} &= \\frac{\\text{total debt}}{\\text{EBITDA}} \\\\[8pt]\n\\text{Fixed charge coverage} &= \\frac{\\text{earnings before interest and taxes} + \\text{lease payments}}{\\text{interest payments} + \\text{lease payments}} \\\\[8pt]\n\\text{Net profit margin} &= \\frac{\\text{net income}}{\\text{revenue}} \\\\[8pt]\n\\text{Gross profit margin} &= \\frac{\\text{gross profit}}{\\text{revenue}} \\\\[8pt]\n\\text{Operating profit margin} &= \\frac{\\text{operating income}}{\\text{revenue}} = \\frac{\\text{EBIT}}{\\text{revenue}} \\\\[8pt]\n\\text{Pretax margin} &= \\frac{\\text{EBT}}{\\text{revenue}} \\\\[8pt]\n\\text{Return on assets (ROA)} &= \\frac{\\text{net income}}{\\text{average total assets}} \\\\[8pt]\n\\text{Operating return on assets} &= \\frac{\\text{operating income}}{\\text{average total assets}} = \\frac{\\text{EBIT}}{\\text{average total assets}} \\\\[8pt]\n\\text{Return on invested capital (ROIC)} &= \\frac{\\text{after-tax operating profit}}{\\text{average long-term capital}} \\\\[8pt]\n\\text{Return on equity (ROE)} &= \\frac{\\text{net income}}{\\text{average total equity}} \\\\[8pt]\n\\text{Return on common equity} &= \\frac{\\text{net income} - \\text{preferred dividends}}{\\text{average common equity}} = \\frac{\\text{net income available to common}}{\\text{average common equity}} \\\\[10pt]\n\\textbf{Original DuPont Decomposition}: & \\\\[6pt]\n\\text{ROE} &= \\left(\\frac{\\text{net income}}{\\text{revenue}}\\right) \\left(\\frac{\\text{revenue}}{\\text{average total assets}}\\right) \\left(\\frac{\\text{average total assets}}{\\text{average stockholders' equity}}\\right) \\\\[10pt]\n\\textbf{Extended DuPont Decomposition}: & \\\\[6pt]\n\\text{ROE} &= \\left(\\frac{\\text{net income}}{\\text{EBT}}\\right) \\left(\\frac{\\text{EBT}}{\\text{EBIT}}\\right) \\left(\\frac{\\text{EBIT}}{\\text{revenue}}\\right) \\left(\\frac{\\text{revenue}}{\\text{average assets}}\\right) \\left(\\frac{\\text{average assets}}{\\text{average equity}}\\right) \\\\[10pt]\n\\textbf{Coefficients of Variation}: & \\\\[6pt]\n\\text{CV}_{\\text{sales}} &= \\frac{\\text{standard deviation of sales}}{\\text{mean sales}} \\\\[8pt]\n\\text{CV}_{\\text{operating income}} &= \\frac{\\text{standard deviation of operating income}}{\\text{mean operating income}} \\\\[8pt]\n\\text{CV}_{\\text{net income}} &= \\frac{\\text{standard deviation of net income}}{\\text{mean net income}}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
@@ -8509,11 +8533,17 @@
     },
     {
       "asset": "9c7480bee3dd12df7efa.png",
-      "classification": "meaningful-visual",
-      "reason": "statistical reference table",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "1:285:0"
+      ],
+      "latex": "\\begin{aligned}\n\\text{Target Downside Deviation}: \\quad s_{\\text{target}} &= \\sqrt{\\frac{\\sum_{\\text{all } X_i < B} (X_i - B)^2}{n - 1}}, \\quad \\text{where } B = \\text{target value} \\\\[8pt]\n\\text{Sample Covariance}: \\quad s_{X,Y} &= \\frac{\\sum_{i=1}^n (X_i - \\bar{X})(Y_i - \\bar{Y})}{n - 1} \\\\[6pt]\n\\text{where:}\\quad X_i &= \\text{observation of variable } X, \\quad Y_i = \\text{observation of variable } Y \\\\\n\\bar{X} &= \\text{mean of variable } X, \\quad \\bar{Y} = \\text{mean of variable } Y, \\quad n = \\text{number of periods} \\\\[8pt]\n\\text{Correlation Coefficient}: \\quad \\rho_{XY} &= \\frac{s_{XY}}{s_X s_Y} \\\\[8pt]\n\\text{Bayes' Formula}: \\quad P(I \\mid O) &= \\frac{P(O \\mid I)}{P(O)} \\times P(I) \\\\[8pt]\n\\text{Simple Linear Regression Slope}: \\quad \\hat{b}_1 &= \\frac{\\operatorname{cov}_{XY}}{\\sigma_X^2} \\\\[6pt]\n\\text{Simple Linear Regression Intercept}: \\quad \\hat{b}_0 &= \\bar{Y} - \\hat{b}_1 \\bar{X} \\\\[8pt]\n\\text{Total Sum of Squares (SST)}: \\quad \\text{SST} &= \\sum_{i=1}^n (Y_i - \\bar{Y})^2 \\\\[6pt]\n\\text{Sum of Squares Regression (SSR)}: \\quad \\text{SSR} &= \\sum_{i=1}^n (\\hat{Y}_i - \\bar{Y})^2 \\\\[6pt]\n\\text{Sum of Squared Errors (SSE)}: \\quad \\text{SSE} &= \\sum_{i=1}^n (Y_i - \\hat{Y}_i)^2 \\\\[8pt]\n\\text{Coefficient of Determination}: \\quad R^2 &= \\frac{\\text{SSR}}{\\text{SST}} \\\\[8pt]\nF\\text{-statistic}: \\quad F &= \\frac{\\text{MSR}}{\\text{MSE}} = \\frac{\\text{SSR} / k}{\\text{SSE} / (n - k - 1)} \\\\[6pt]\n\\text{where:}\\quad \\text{MSR} &= \\text{mean regression sum of squares}, \\quad \\text{MSE} = \\text{mean squared error}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
@@ -10454,11 +10484,17 @@
     },
     {
       "asset": "bd49737c238d983f9c2d.png",
-      "classification": "meaningful-visual",
-      "reason": "source-verified instructional table, chart, or decision tree",
+      "classification": "native-math",
+      "reason": "equation or compact mathematical layout",
       "occurrences": 1,
       "sourceIds": [
         "2:365:0"
+      ],
+      "latex": "\\begin{aligned}\n\\text{Vertical common-size income statement ratio} &= \\frac{\\text{income statement account}}{\\text{sales}} \\\\[8pt]\n\\text{Receivables turnover} &= \\frac{\\text{annual sales}}{\\text{average receivables}} \\\\[8pt]\n\\text{Days of sales outstanding (DSO)} &= \\frac{365}{\\text{receivables turnover}} \\\\[8pt]\n\\text{Inventory turnover} &= \\frac{\\text{cost of goods sold}}{\\text{average inventory}} \\\\[8pt]\n\\text{Days of inventory on hand (DOH)} &= \\frac{365}{\\text{inventory turnover}} \\\\[8pt]\n\\text{Payables turnover} &= \\frac{\\text{cost of goods sold}}{\\text{average trade payables}} \\\\[8pt]\n\\text{Number of days of payables} &= \\frac{365}{\\text{payables turnover ratio}} \\\\[8pt]\n\\text{Total asset turnover} &= \\frac{\\text{revenue}}{\\text{average total assets}} \\\\[8pt]\n\\text{Fixed asset turnover} &= \\frac{\\text{revenue}}{\\text{average net fixed assets}} \\\\[8pt]\n\\text{Working capital turnover} &= \\frac{\\text{revenue}}{\\text{average working capital}} \\\\[8pt]\n\\text{Current ratio} &= \\frac{\\text{current assets}}{\\text{current liabilities}} \\\\[8pt]\n\\text{Quick ratio} &= \\frac{\\text{cash} + \\text{marketable securities} + \\text{receivables}}{\\text{current liabilities}} \\\\[8pt]\n\\text{Cash ratio} &= \\frac{\\text{cash} + \\text{marketable securities}}{\\text{current liabilities}} \\\\[8pt]\n\\text{Defensive interval} &= \\frac{\\text{cash} + \\text{marketable securities} + \\text{receivables}}{\\text{average daily expenditures}} \\\\[8pt]\n\\text{Cash conversion cycle} &= \\text{days of sales outstanding} + \\text{days of inventory on hand} - \\text{number of days of payables} \\\\[8pt]\n\\text{Debt-to-equity} &= \\frac{\\text{total debt}}{\\text{total shareholders' equity}} \\\\[8pt]\n\\text{Debt-to-capital} &= \\frac{\\text{total debt}}{\\text{total debt} + \\text{total shareholders' equity}} \\\\[8pt]\n\\text{Debt-to-assets} &= \\frac{\\text{total debt}}{\\text{total assets}} \\\\[8pt]\n\\text{Financial leverage} &= \\frac{\\text{average total assets}}{\\text{average total equity}} \\\\[8pt]\n\\text{Interest coverage} &= \\frac{\\text{earnings before interest and taxes (EBIT)}}{\\text{interest payments}}\n\\end{aligned}",
+      "verification": [
+        "source-traced",
+        "manually-transcribed",
+        "katex-parse-checked"
       ]
     },
     {
