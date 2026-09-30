@@ -352,11 +352,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Sample sizes of 30 or greater are typically considered large.",
+          "explanation": "By standard statistical convention, a sample size of n ≥ 30 is generally considered sufficiently large for the central limit theorem to ensure that the distribution of the sample mean is approximately normal, regardless of the underlying population's distribution.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Sample sizes of 30 or greater are typically considered large."
+              "text": "By standard statistical convention, a sample size of n ≥ 30 is generally considered sufficiently large for the central limit theorem to ensure that the distribution of the sample mean is approximately normal, regardless of the underlying population's distribution."
             }
           ]
         },

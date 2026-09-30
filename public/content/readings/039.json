@@ -1468,11 +1468,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "The primary market refers to the market for newly issued securities.",
+          "explanation": "The primary market is where issuers sell newly created securities to investors for the first time (such as in an IPO or seasoned offering), raising capital for the issuer. The secondary market involves trading existing securities between investors.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The primary market refers to the market for newly issued securities."
+              "text": "The primary market is where issuers sell newly created securities to investors for the first time (such as in an IPO or seasoned offering), raising capital for the issuer. The secondary market involves trading existing securities between investors."
             }
           ]
         },

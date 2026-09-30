@@ -494,15 +494,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "1 – 1 / 1.01 = 0.0099, or 0.99%.",
+          "explanation": "The haircut is the percentage discount applied to the market value of the collateral: Haircut = 1 − (1 / Initial Margin) = 1 − (1 / 1.01) = 1 − 0.990099 = 0.009901, or 0.99%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "1"
-            },
-            {
-              "type": "paragraph",
-              "text": "– 1 / 1.01 = 0.0099, or 0.99%."
+              "text": "The haircut is the percentage discount applied to the market value of the collateral: Haircut = 1 − (1 / Initial Margin) = 1 − (1 / 1.01) = 1 − 0.990099 = 0.009901, or 0.99%."
             }
           ]
         },

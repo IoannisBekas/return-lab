@@ -497,8 +497,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "",
+          "explanation": "From the relationship Cov(A,B) = Corr(A,B) × σ_A × σ_B, we can solve for Stock A's standard deviation: σ_A = Cov(A,B) / [Corr(A,B) × σ_B] = 0.0043 / [0.50 × 0.26] = 0.0043 / 0.13 = 0.033077 (3.31%). The variance is σ_A^2 = (0.033077)^2 ≈ 0.001094, or 0.0011.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "From the relationship Cov(A,B) = Corr(A,B) × σ_A × σ_B, we can solve for Stock A's standard deviation: σ_A = Cov(A,B) / [Corr(A,B) × σ_B] = 0.0043 / [0.50 × 0.26] = 0.0043 / 0.13 = 0.033077 (3.31%). The variance is σ_A^2 = (0.033077)^2 ≈ 0.001094, or 0.0011."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\\operatorname{Corr} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)={\\frac{\\operatorname{Cov} \\! \\left( \\operatorname{R}_{\\operatorname{A}} , \\mathbb{R}_{\\operatorname{B}} \\right)} {\\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{A}} \\right) \\right] \\left[ \\sigma\\! \\left( \\operatorname{R}_{\\operatorname{B}} \\right) \\right]}}\\\\[6pt]\\sigma^{2} \\! \\left( \\mathrm{R}_{\\mathrm{A}} \\right)=\\left[ \\frac{\\mathrm{Cov} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} {\\sigma\\! \\left( \\mathrm{R}_{\\mathrm{B}} \\right) \\mathrm{Corr} \\! \\left( \\mathrm{R}_{\\mathrm{A}} , \\mathrm{R}_{\\mathrm{B}} \\right)} \\right]^{2}\\\\[6pt]\\qquad\\qquad\\qquad=\\left[ {\\frac{0.0043} {( 0.26 ) ( 0.5 )}} \\right]^{2}=0.0331^{2}=0.0011\\end{gathered}",

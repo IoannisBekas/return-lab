@@ -518,8 +518,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "",
+          "explanation": "For a 15-year zero coupon bond with semiannual compounding, there are n = 30 semiannual periods. Solving $331.40 = $1,000 / (1 + r/2)^30 gives: (1 + r/2)^30 = 1,000 / 331.40 = 3.01750. Taking the 30th root: 1 + r/2 = (3.01750)^(1/30) = 1.03750, so r/2 = 3.750% per half-year. Annualized on a semiannual bond basis: YTM = 3.750% × 2 = 7.500%.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "For a 15-year zero coupon bond with semiannual compounding, there are n = 30 semiannual periods. Solving $331.40 = $1,000 / (1 + r/2)^30 gives: (1 + r/2)^30 = 1,000 / 331.40 = 3.01750. Taking the 30th root: 1 + r/2 = (3.01750)^(1/30) = 1.03750, so r/2 = 3.750% per half-year. Annualized on a semiannual bond basis: YTM = 3.750% × 2 = 7.500%."
+            },
             {
               "type": "math",
               "latex": "\\begin{aligned}\nN&=30;\\quad FV=1{,}000;\\quad PMT=0;\\quad PV=-331.40; \\\\[8pt]\n\\to I/Y&=3.750\\times2=7.500\\% \\\\[8pt]\n\\text{Alternatively,}\\quad\n\\left[\\left(\\frac{1{,}000}{331.4}\\right)^{\\!1/30}-1\\right]\\times2&=7.5\\%\n\\end{aligned}",
@@ -551,11 +555,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Given: N = 4; FV = 101; PMT = 3.5625; PV = −102.347 → I/Y = 3.167 × 2 = 6.334%",
+          "explanation": "Yield to call (YTC) is calculated using the cash flows to the call date: 4 semiannual periods (2 years), semiannual coupon payment of 3.5625% (7.125% / 2), call price of 101, and current price of 102.347. Solving 102.347 = Σ [3.5625 / (1 + y)^t] + 101 / (1 + y)^4 yields a semiannual rate of y ≈ 3.167%. Annualized on a bond equivalent basis, YTC = 3.167% × 2 = 6.334%, or closest to 6.3%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Given: N = 4; FV = 101; PMT = 3.5625; PV = −102.347 → I/Y = 3.167 × 2 = 6.334%"
+              "text": "Yield to call (YTC) is calculated using the cash flows to the call date: 4 semiannual periods (2 years), semiannual coupon payment of 3.5625% (7.125% / 2), call price of 101, and current price of 102.347. Solving 102.347 = Σ [3.5625 / (1 + y)^t] + 101 / (1 + y)^4 yields a semiannual rate of y ≈ 3.167%. Annualized on a bond equivalent basis, YTC = 3.167% × 2 = 6.334%, or closest to 6.3%."
             }
           ]
         },

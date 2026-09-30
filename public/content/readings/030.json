@@ -1241,8 +1241,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "",
+          "explanation": "Under the indirect method, Cash Flow from Operations begins with Net Income ($78,000), adds back non-cash Depreciation ($12,000), deducts the unrealized gain on trading securities (−$15,000), subtracts the increase in Accounts Receivable ($121,000 − $69,000 = −$52,000), and adds the increase in Accounts Payable ($72,000 − $43,000 = +$29,000): CFO = $78,000 + $12,000 − $15,000 − $52,000 + $29,000 = $52,000.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Under the indirect method, Cash Flow from Operations begins with Net Income ($78,000), adds back non-cash Depreciation ($12,000), deducts the unrealized gain on trading securities (−$15,000), subtracts the increase in Accounts Receivable ($121,000 − $69,000 = −$52,000), and adds the increase in Accounts Payable ($72,000 − $43,000 = +$29,000): CFO = $78,000 + $12,000 − $15,000 − $52,000 + $29,000 = $52,000."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\\begin{array} {ll} {\\text{ Net income }} & {578 , 000} \\\\ {\\mathrm{~Depreciation~}} & {12 , 000} \\\\ {\\text{ Unrealized gain }} & {( 15 , 000 )} \\\\ {\\text{ Increase in accounts receivable }} & {( 52 , 000 )} \\\\ \\end{array}\\\\[6pt]\\begin{array} {lll} {\\text{Increase in accounts payable}} & {} & {\\underline{{29 , 000}}} \\\\ {\\text{Cash flow from operations}} & {} & {\\$52 , 000} \\\\ \\end{array}\\end{gathered}",
@@ -1383,11 +1387,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "The payment of interest on debt is an operating cash flow under U.S. GAAP.",
+          "explanation": "Under U.S. GAAP, interest paid is strictly classified as an operating cash flow (CFO), because it affects net income. In contrast, issuing bonds and paying dividends to shareholders are classified as financing activities (CFF).",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The payment of interest on debt is an operating cash flow under U.S. GAAP."
+              "text": "Under U.S. GAAP, interest paid is strictly classified as an operating cash flow (CFO), because it affects net income. In contrast, issuing bonds and paying dividends to shareholders are classified as financing activities (CFF)."
             }
           ]
         },
@@ -1441,11 +1445,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Issuing bonds is classified as a financing activity.",
+          "explanation": "Cash received from issuing debt securities (such as bonds or notes payable) represents capital obtained from creditors and is classified as a cash flow from financing activities (CFF).",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Issuing bonds is classified as a financing activity."
+              "text": "Cash received from issuing debt securities (such as bonds or notes payable) represents capital obtained from creditors and is classified as a cash flow from financing activities (CFF)."
             }
           ]
         },
@@ -1470,11 +1474,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "The sale of land is classified as an investing activity.",
+          "explanation": "Purchases and sales of long-term productive assets, property, plant, and equipment (PPE), including land, are classified as cash flows from investing activities (CFI).",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The sale of land is classified as an investing activity."
+              "text": "Purchases and sales of long-term productive assets, property, plant, and equipment (PPE), including land, are classified as cash flows from investing activities (CFI)."
             }
           ]
         },

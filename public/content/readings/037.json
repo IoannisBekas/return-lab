@@ -1575,11 +1575,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "(365 / 10 + 365 / 5 − 365 / 9) = 69 days",
+          "explanation": "The cash conversion cycle equals Days of Sales Outstanding (DSO) + Days of Inventory on Hand (DOH) − Number of Days of Payables: DSO = 365 / 10 = 36.5 days; DOH = 365 / 5 = 73.0 days; Days of Payables = 365 / 9 = 40.56 days. Cash Conversion Cycle = 36.5 + 73.0 − 40.56 = 68.94 ≈ 69 days.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "(365 / 10 + 365 / 5 − 365 / 9) = 69 days"
+              "text": "The cash conversion cycle equals Days of Sales Outstanding (DSO) + Days of Inventory on Hand (DOH) − Number of Days of Payables: DSO = 365 / 10 = 36.5 days; DOH = 365 / 5 = 73.0 days; Days of Payables = 365 / 9 = 40.56 days. Cash Conversion Cycle = 36.5 + 73.0 − 40.56 = 68.94 ≈ 69 days."
             }
           ]
         },
@@ -1635,11 +1635,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "interest coverage ratio = EBIT / interest = (1,000 − 400 − 300) / 100 = 3 times",
+          "explanation": "Operating profit (EBIT) = Sales − COGS − Operating Expenses = $1,000 − $400 − $300 = $300. The interest coverage ratio is EBIT / Interest Expense = $300 / $100 = 3.0 times.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "interest coverage ratio = EBIT / interest = (1,000 − 400 − 300) / 100 = 3 times"
+              "text": "Operating profit (EBIT) = Sales − COGS − Operating Expenses = $1,000 − $400 − $300 = $300. The interest coverage ratio is EBIT / Interest Expense = $300 / $100 = 3.0 times."
             }
           ]
         }

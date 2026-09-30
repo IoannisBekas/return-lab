@@ -958,11 +958,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "Real interest rates are those that have been adjusted for inflation.",
+          "explanation": "A real interest rate is a nominal interest rate adjusted to remove the effect of expected inflation (Nominal Rate − Inflation Premium = Real Rate). In contrast, the real risk-free rate represents the single-period return on a completely default-free security in the absence of inflation, and a general risk-free rate includes an inflation premium.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Real interest rates are those that have been adjusted for inflation."
+              "text": "A real interest rate is a nominal interest rate adjusted to remove the effect of expected inflation (Nominal Rate − Inflation Premium = Real Rate). In contrast, the real risk-free rate represents the single-period return on a completely default-free security in the absence of inflation, and a general risk-free rate includes an inflation premium."
             }
           ]
         },
@@ -989,8 +989,12 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "",
+          "explanation": "The harmonic mean is calculated as the number of observations divided by the sum of their reciprocals: H = 3 / (1/3 + 1/4 + 1/5) = 3 / (20/60 + 15/60 + 12/60) = 3 / (47/60) = 180 / 47 ≈ 3.8298, or 3.83.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The harmonic mean is calculated as the number of observations divided by the sum of their reciprocals: H = 3 / (1/3 + 1/4 + 1/5) = 3 / (20/60 + 15/60 + 12/60) = 3 / (47/60) = 180 / 47 ≈ 3.8298, or 3.83."
+            },
             {
               "type": "math",
               "latex": "\\overline{{{\\mathrm{X}}}}_{\\mathrm{H}}=\\frac{3} {\\frac{1} {3}+\\frac{1} {4}+\\frac{1} {5}}=3.83",
@@ -1029,11 +1033,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Because returns are compounded, the geometric mean is appropriate.",
+          "explanation": "Because investment returns compound over multiple sequential periods, the geometric mean return is the appropriate measure of compound annual growth rate. The arithmetic mean overstates terminal compounding performance, while the harmonic mean is suited for dollar-cost averaging rather than multi-year investment growth.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Because returns are compounded, the geometric mean is appropriate."
+              "text": "Because investment returns compound over multiple sequential periods, the geometric mean return is the appropriate measure of compound annual growth rate. The arithmetic mean overstates terminal compounding performance, while the harmonic mean is suited for dollar-cost averaging rather than multi-year investment growth."
             },
             {
               "type": "math",
@@ -1104,8 +1108,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "",
+          "explanation": "The time-weighted rate of return measures compound growth independent of cash flow timing. For Period 1: HPR_1 = (P1 + D1 − P0) / P0 = (50 + 1 − 40) / 40 = 27.50%. For Period 2: HPR_2 = (P2 + D2 − P1) / P1 = (60 + 1 − 50) / 50 = 22.00%. The annualized time-weighted return is [(1 + 0.2750)(1 + 0.2200)]^(1/2) − 1 = (1.5555)^0.5 − 1 ≈ 24.72%, or 24.7%.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The time-weighted rate of return measures compound growth independent of cash flow timing. For Period 1: HPR_1 = (P1 + D1 − P0) / P0 = (50 + 1 − 40) / 40 = 27.50%. For Period 2: HPR_2 = (P2 + D2 − P1) / P1 = (60 + 1 − 50) / 50 = 22.00%. The annualized time-weighted return is [(1 + 0.2750)(1 + 0.2200)]^(1/2) − 1 = (1.5555)^0.5 − 1 ≈ 24.72%, or 24.7%."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\n\\begin{aligned}\n\\text{HPR}_1 &= \\frac{50+1}{40} - 1 = 27.5\\% \\\\[6pt]\n\\text{HPR}_2 &= \\frac{120+2}{100} - 1 = 22.0\\%\n\\end{aligned} \\\\[8pt]\n\\text{TWR} = \\sqrt{(1+0.275)(1+0.22)} - 1 = 24.72\\%\n\\end{gathered}",
@@ -1144,8 +1152,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Annualized return",
+          "explanation": "Annualizing a holding period return on a 365-day basis using compound annualization gives: Annualized Return = (1 + HPR)^(365 / days) − 1 = (1 − 0.03)^(365 / 120) − 1 = (0.97)^3.04167 − 1 ≈ 0.91147 − 1 = −8.85%, which is closest to −9.0%.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Annualizing a holding period return on a 365-day basis using compound annualization gives: Annualized Return = (1 + HPR)^(365 / days) − 1 = (1 − 0.03)^(365 / 120) − 1 = (0.97)^3.04167 − 1 ≈ 0.91147 − 1 = −8.85%, which is closest to −9.0%."
+            },
             {
               "type": "math",
               "latex": "(1-0.03)^{365/120}-1=-0.0885=-8.85\\%",
@@ -1177,11 +1189,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "ln (23/20) = 0.1398",
+          "explanation": "The continuously compounded rate of return is the natural logarithm of the ending price divided by the beginning price: r_cc = ln(S1 / S0) = ln(23 / 20) = ln(1.15) ≈ 0.13976, or 13.98%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "ln (23/20) = 0.1398"
+              "text": "The continuously compounded rate of return is the natural logarithm of the ending price divided by the beginning price: r_cc = ln(S1 / S0) = ln(23 / 20) = ln(1.15) ≈ 0.13976, or 13.98%."
             }
           ]
         },

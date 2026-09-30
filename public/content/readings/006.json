@@ -207,11 +207,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "A lognormally distributed variable is never negative.",
+          "explanation": "A lognormal distribution is bounded below by zero, meaning that a lognormally distributed variable cannot take negative values (P(X < 0) = 0). It is skewed to the right (positively skewed), so its mean exceeds its median and mode, making it an appropriate model for asset prices.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A lognormally distributed variable is never negative."
+              "text": "A lognormal distribution is bounded below by zero, meaning that a lognormally distributed variable cannot take negative values (P(X < 0) = 0). It is skewed to the right (positively skewed), so its mean exceeds its median and mode, making it an appropriate model for asset prices."
             }
           ]
         },

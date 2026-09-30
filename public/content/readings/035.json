@@ -893,11 +893,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "An increase in the tax rate will increase any DTAs and DTLs.",
+          "explanation": "Deferred tax assets (DTAs) and deferred tax liabilities (DTLs) are measured using the enacted tax rate expected to apply when the temporary difference reverses. A higher tax rate increases the future tax deduction value represented by a DTA, increasing its carrying balance on the balance sheet.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An increase in the tax rate will increase any DTAs and DTLs."
+              "text": "Deferred tax assets (DTAs) and deferred tax liabilities (DTLs) are measured using the enacted tax rate expected to apply when the temporary difference reverses. A higher tax rate increases the future tax deduction value represented by a DTA, increasing its carrying balance on the balance sheet."
             }
           ]
         }
@@ -1093,11 +1093,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Tax in Germany = €100 million × 30% = €30 million",
+          "explanation": "Effective tax rate is Total Tax Expense divided by Total Pretax Income: German tax = €100M × 30% = €30M. Italian tax = €100M × 20% = €20M. Total tax = €30M + €20M = €50M. Total pretax income = €100M + €100M = €200M. Effective tax rate = €50M / €200M = 25.0%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Tax in Germany = €100 million × 30% = €30 million"
+              "text": "Effective tax rate is Total Tax Expense divided by Total Pretax Income: German tax = €100M × 30% = €30M. Italian tax = €100M × 20% = €20M. Total tax = €30M + €20M = €50M. Total pretax income = €100M + €100M = €200M. Effective tax rate = €50M / €200M = 25.0%."
             },
             {
               "type": "math",

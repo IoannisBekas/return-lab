@@ -1839,11 +1839,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "The share value is 7.0 / 0.0775 = $90.32.",
+          "explanation": "Perpetual preferred stock is valued by discounting its constant dividend stream: Value = Dividend / Required Return = $7.00 / 0.0775 = $90.32.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The share value is 7.0 / 0.0775 = $90.32."
+              "text": "Perpetual preferred stock is valued by discounting its constant dividend stream: Value = Dividend / Required Return = $7.00 / 0.0775 = $90.32."
             }
           ]
         },
@@ -1870,11 +1870,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "($40 + $2) / 1.15 = $36.52",
+          "explanation": "The intrinsic value for a one-year holding period is the present value of the expected dividend plus ending price: V_0 = (D_1 + P_1) / (1 + r) = ($2.00 + $40.00) / 1.15 = $42.00 / 1.15 ≈ $36.52.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "($40 + $2) / 1.15 = $36.52"
+              "text": "The intrinsic value for a one-year holding period is the present value of the expected dividend plus ending price: V_0 = (D_1 + P_1) / (1 + r) = ($2.00 + $40.00) / 1.15 = $42.00 / 1.15 ≈ $36.52."
             }
           ]
         },
@@ -1901,11 +1901,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Using the constant growth model, $1(1.05) / (0.10 − 0.05) = $21.00.",
+          "explanation": "Using the Gordon constant growth model, first determine next year's dividend D_1 = D_0(1 + g) = $1.00 × 1.05 = $1.05. Then: V_0 = D_1 / (r − g) = $1.05 / (0.10 − 0.05) = $1.05 / 0.05 = $21.00.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Using the constant growth model, $1(1.05) / (0.10 − 0.05) = $21.00."
+              "text": "Using the Gordon constant growth model, first determine next year's dividend D_1 = D_0(1 + g) = $1.00 × 1.05 = $1.05. Then: V_0 = D_1 / (r − g) = $1.05 / (0.10 − 0.05) = $1.05 / 0.05 = $21.00."
             }
           ]
         },
@@ -1932,8 +1932,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "",
+          "explanation": "First, find the dividend in Year 3: D_3 = D_2(1 + g) = $1.56 × 1.05 = $1.638. Next, calculate terminal stock price at Year 2: P_2 = D_3 / (k_e − g) = $1.638 / (0.11 − 0.05) = $1.638 / 0.06 = $27.30. Finally, discount cash flows back to t = 0: V_0 = $1.25 / (1.11)^1 + ($1.56 + $27.30) / (1.11)^2 = $1.1261 + $28.86 / 1.2321 = $1.1261 + $23.4234 = $24.55.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "First, find the dividend in Year 3: D_3 = D_2(1 + g) = $1.56 × 1.05 = $1.638. Next, calculate terminal stock price at Year 2: P_2 = D_3 / (k_e − g) = $1.638 / (0.11 − 0.05) = $1.638 / 0.06 = $27.30. Finally, discount cash flows back to t = 0: V_0 = $1.25 / (1.11)^1 + ($1.56 + $27.30) / (1.11)^2 = $1.1261 + $28.86 / 1.2321 = $1.1261 + $23.4234 = $24.55."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\\begin{array} {c} {{\\bf5. C} \\mathrm{~}} \\\\[8pt] {{\\bf D}_{3} \\!=\\! {\\bf D}_{2} \\! \\mathrm{(1+g)} \\!=\\! 1.56 \\times1.05 \\!=\\! 51.638 \\! \\text{(L0S 46.h)}} \\\\[8pt] {{\\bf P}_{2} \\!=\\! {\\bf\\frac{D} {k_{e}-g_{e}}} \\!=\\! {\\bf\\frac{1.638} {0.11-0.05}} \\!={\\bf\\bar{x}} \\! \\mathrm{7.30}} \\end{array}\\\\[6pt]\\cfrac{1.25} {1.11}+\\cfrac{1.56+27.30} {( 1.11 )^{2}}=\\$24.55\\end{gathered}",
@@ -1965,8 +1969,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "",
+          "explanation": "Step 1: Forecast non-constant dividends: D_1 = $1.00(1.25) = $1.25; D_2 = $1.25(1.25) = $1.5625. Step 2: Forecast the first constant growth dividend: D_3 = $1.5625(1.06) = $1.65625. Step 3: Compute terminal value at t = 2: P_2 = D_3 / (r − g) = $1.65625 / (0.10 − 0.06) = $41.40625. Step 4: Discount all cash flows to present: V_0 = $1.25 / 1.10 + ($1.5625 + $41.40625) / (1.10)^2 = $1.1364 + $42.96875 / 1.21 = $1.1364 + $35.5114 = $36.65.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Step 1: Forecast non-constant dividends: D_1 = $1.00(1.25) = $1.25; D_2 = $1.25(1.25) = $1.5625. Step 2: Forecast the first constant growth dividend: D_3 = $1.5625(1.06) = $1.65625. Step 3: Compute terminal value at t = 2: P_2 = D_3 / (r − g) = $1.65625 / (0.10 − 0.06) = $41.40625. Step 4: Discount all cash flows to present: V_0 = $1.25 / 1.10 + ($1.5625 + $41.40625) / (1.10)^2 = $1.1364 + $42.96875 / 1.21 = $1.1364 + $35.5114 = $36.65."
+            },
             {
               "type": "math",
               "latex": "\\begin{aligned}\nD_1 &= \\$1.00(1.25) = \\$1.25 \\\\[8pt]\nD_2 &= \\$1.25(1.25) = \\$1.5625 \\\\[8pt]\nD_3 &= \\$1.5625 \\times 1.06 = \\$1.6563 \\\\[6pt]\nP_2 &= \\frac{\\$1.6563}{0.10 - 0.06} = \\$41.41 \\\\[8pt]\nV_0 &= \\frac{\\$1.25}{1.10} + \\frac{\\$1.5625 + \\$41.41}{(1.10)^2} = \\$36.65\n\\end{aligned}",
@@ -2067,11 +2075,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Using the earnings multiplier model, 0.6 / (0.15 − 0.07) = 7.5×.",
+          "explanation": "The justified forward P/E ratio based on fundamentals is P_0 / E_1 = (Payout Ratio) / (r − g) = 0.60 / (0.15 − 0.07) = 0.60 / 0.08 = 7.5×.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Using the earnings multiplier model, 0.6 / (0.15 − 0.07) = 7.5×."
+              "text": "The justified forward P/E ratio based on fundamentals is P_0 / E_1 = (Payout Ratio) / (r − g) = 0.60 / (0.15 − 0.07) = 0.60 / 0.08 = 7.5×."
             }
           ]
         },

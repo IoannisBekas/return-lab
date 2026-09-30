@@ -606,11 +606,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "Return objectives are part of a policy statement’s objectives, not constraints.",
+          "explanation": "Return objectives (such as targeting an 8% minimum total return) and risk tolerance form the investment objectives section of an Investment Policy Statement (IPS). Portfolio constraints encompass the five RRTTLL factors: Liquidity, Time horizon, Tax concerns, Legal/regulatory factors, and Unique circumstances.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Return objectives are part of a policy statement’s objectives, not constraints."
+              "text": "Return objectives (such as targeting an 8% minimum total return) and risk tolerance form the investment objectives section of an Investment Policy Statement (IPS). Portfolio constraints encompass the five RRTTLL factors: Liquidity, Time horizon, Tax concerns, Legal/regulatory factors, and Unique circumstances."
             }
           ]
         },

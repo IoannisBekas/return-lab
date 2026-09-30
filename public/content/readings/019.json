@@ -408,11 +408,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "The 180-day forward exchange rate is 1.3050 − 0.00425 = CHF/GBP 1.30075.",
+          "explanation": "Forward points are quoted in units of the last decimal place (1 point = 0.0001 for a four-decimal rate). A quote of −42.5 points equals −0.00425. Thus, the forward rate is Spot + Forward Points = 1.3050 + (−0.00425) = 1.30075, or 1.3008.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The 180-day forward exchange rate is 1.3050 − 0.00425 = CHF/GBP 1.30075."
+              "text": "Forward points are quoted in units of the last decimal place (1 point = 0.0001 for a four-decimal rate). A quote of −42.5 points equals −0.00425. Thus, the forward rate is Spot + Forward Points = 1.3050 + (−0.00425) = 1.30075, or 1.3008."
             }
           ]
         },

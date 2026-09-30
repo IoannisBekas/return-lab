@@ -54,6 +54,7 @@ function ReadingQuiz({ readingId, quizSets, onZoom }: { readingId: number; quizS
   const questions = quizSets.flatMap((set) => set.questions.map((question) => ({ ...question, setTitle: set.title })));
   const storageKey = `return-lab-imported-quiz-v1-${readingId}`;
   const [current, setCurrent] = useState(0);
+  const [filterMode, setFilterMode] = useState<"all" | "unanswered" | "incorrect">("all");
   const [answers, setAnswers] = useState<Record<string, QuizAnswer>>(() => {
     try {
       const value: unknown = JSON.parse(localStorage.getItem(storageKey) || "{}");
@@ -67,13 +68,44 @@ function ReadingQuiz({ readingId, quizSets, onZoom }: { readingId: number; quizS
   const correct = answer?.selected === question.correctOptionId;
   const attempted = questions.filter((item) => answers[item.id]?.checked).length;
   const score = questions.filter((item) => answers[item.id]?.checked && answers[item.id]?.selected === item.correctOptionId).length;
+  const incorrectCount = questions.filter((item) => answers[item.id]?.checked && answers[item.id]?.selected !== item.correctOptionId).length;
+  const unansweredCount = questions.length - attempted;
   const complete = attempted === questions.length;
   const choose = (selected: string) => setAnswers((value) => ({ ...value, [question.id]: { selected, checked: false } }));
   const retry = () => setAnswers((value) => ({ ...value, [question.id]: { checked: false } }));
-  const reset = () => { setAnswers({}); setCurrent(0); };
+  const reset = () => { setAnswers({}); setCurrent(0); setFilterMode("all"); };
+
+  const matchingIndices = questions
+    .map((q, i) => ({ q, i }))
+    .filter(({ q }) => {
+      const ans = answers[q.id];
+      if (filterMode === "unanswered") return !ans?.checked;
+      if (filterMode === "incorrect") return ans?.checked && ans.selected !== q.correctOptionId;
+      return true;
+    })
+    .map(({ i }) => i);
+
+  const prevIndex = matchingIndices.filter((i) => i < current).pop();
+  const nextIndex = matchingIndices.find((i) => i > current);
+
   return (
     <section className="full-reading-quiz" id="full-quiz" aria-labelledby="full-quiz-title">
       <header><div><span className="section-code">KNOWLEDGE CHECK</span><h3 id="full-quiz-title">Choose, commit, then learn from the result.</h3></div><strong>{score}/{questions.length} correct</strong></header>
+      
+      <div className="full-quiz-filters" role="group" aria-label="Filter questions">
+        <button className={filterMode === "all" ? "active" : ""} onClick={() => setFilterMode("all")} type="button">All ({questions.length})</button>
+        <button className={filterMode === "unanswered" ? "active" : ""} onClick={() => {
+          setFilterMode("unanswered");
+          const firstUnanswered = questions.findIndex((q) => !answers[q.id]?.checked);
+          if (firstUnanswered !== -1) setCurrent(firstUnanswered);
+        }} type="button">Unanswered ({unansweredCount})</button>
+        <button className={filterMode === "incorrect" ? "active" : ""} onClick={() => {
+          setFilterMode("incorrect");
+          const firstIncorrect = questions.findIndex((q) => answers[q.id]?.checked && answers[q.id]?.selected !== q.correctOptionId);
+          if (firstIncorrect !== -1) setCurrent(firstIncorrect);
+        }} type="button">Needs Review ({incorrectCount})</button>
+      </div>
+
       <div className="full-quiz-progress"><span>Question {current + 1} of {questions.length}</span><span>{attempted} answered</span></div>
       <div className="full-quiz-progress-bar" aria-label={`${attempted} of ${questions.length} questions answered`}><span style={{ width: `${attempted / questions.length * 100}%` }} /></div>
       <article className="full-quiz-card">
@@ -90,7 +122,28 @@ function ReadingQuiz({ readingId, quizSets, onZoom }: { readingId: number; quizS
         {!answer?.checked ? <div className="full-quiz-actions"><button disabled={!answer?.selected} onClick={() => setAnswers((value) => ({ ...value, [question.id]: { ...value[question.id], checked: true } }))} type="button">Check answer</button><button className="secondary" onClick={() => setAnswers((value) => ({ ...value, [question.id]: { checked: true, revealed: true } }))} type="button">Reveal answer</button></div> : null}
         {answer?.checked ? <div className={`full-quiz-feedback${correct ? " correct" : answer.revealed ? " revealed" : ""}`} role="status"><strong>{answer.revealed ? `Answer: ${question.correctOptionId}` : correct ? "Correct" : `The correct answer is ${question.correctOptionId}`}</strong>{question.explanation ? <p>{question.explanation}</p> : null}{question.solutionBlocks.length ? <details><summary>Show the step-by-step solution</summary><ol className="full-quiz-steps">{question.solutionBlocks.map((block, index) => <li key={index}><div className="full-reading-prose"><ReadingBlocks blocks={[block]} onZoom={onZoom} /></div></li>)}</ol></details> : null}<button className="secondary" type="button" onClick={retry}>Try this question again</button></div> : null}
       </article>
-      <nav className="full-quiz-navigation" aria-label="Quiz question navigation"><button type="button" disabled={current === 0} onClick={() => setCurrent((value) => value - 1)}>← Previous</button><div>{questions.map((item, index) => <button aria-label={`Question ${index + 1}${answers[item.id]?.checked ? ", answered" : ""}`} className={index === current ? "current" : answers[item.id]?.checked ? "answered" : ""} key={item.id} onClick={() => setCurrent(index)} type="button">{index + 1}</button>)}</div><button type="button" disabled={current === questions.length - 1} onClick={() => setCurrent((value) => value + 1)}>Next →</button></nav>
+      <nav className="full-quiz-navigation" aria-label="Quiz question navigation">
+        <button type="button" disabled={prevIndex === undefined} onClick={() => prevIndex !== undefined && setCurrent(prevIndex)}>← Previous</button>
+        <div>{questions.map((item, index) => {
+          const ans = answers[item.id];
+          const isChecked = ans?.checked;
+          const isCorrect = isChecked && ans?.selected === item.correctOptionId;
+          const isIncorrect = isChecked && ans?.selected !== item.correctOptionId;
+          const isFilteredOut = (filterMode === "unanswered" && isChecked) || (filterMode === "incorrect" && (!isChecked || isCorrect));
+          return (
+            <button
+              aria-label={`Question ${index + 1}${isChecked ? (isCorrect ? ", correct" : ", incorrect") : ", unanswered"}`}
+              className={`${index === current ? "current" : ""} ${isChecked ? "answered" : ""} ${isCorrect ? "is-correct" : isIncorrect ? "is-incorrect" : ""} ${isFilteredOut ? "filtered-out" : ""}`}
+              key={item.id}
+              onClick={() => setCurrent(index)}
+              type="button"
+            >
+              {index + 1}{isCorrect ? " ✓" : isIncorrect ? " ✗" : ""}
+            </button>
+          );
+        })}</div>
+        <button type="button" disabled={nextIndex === undefined} onClick={() => nextIndex !== undefined && setCurrent(nextIndex)}>Next →</button>
+      </nav>
       {complete ? <div className="full-quiz-final" role="status"><span>Final score</span><strong>{score} / {questions.length}</strong><p>{Math.round(score / questions.length * 100)}% correct</p><button type="button" onClick={reset}>Retry the full quiz</button></div> : null}
     </section>
   );

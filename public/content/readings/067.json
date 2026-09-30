@@ -741,11 +741,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "This type of custom contract is a forward commitment.",
+          "explanation": "A forward commitment is a binding contractual agreement between counterparties to engage in a transaction at a future date on terms established today. Interest rate swaps, forward contracts, and futures contracts are forward commitments. Options and credit default swaps are contingent claims.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "This type of custom contract is a forward commitment."
+              "text": "A forward commitment is a binding contractual agreement between counterparties to engage in a transaction at a future date on terms established today. Interest rate swaps, forward contracts, and futures contracts are forward commitments. Options and credit default swaps are contingent claims."
             }
           ]
         }

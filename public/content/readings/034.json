@@ -1149,11 +1149,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "Cash flows from a lease are operating cash inflows for the lessor.",
+          "explanation": "For a lessor, lease receipts represent operational income from leasing assets to customers and are classified under operating cash flows (CFO).",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Cash flows from a lease are operating cash inflows for the lessor."
+              "text": "For a lessor, lease receipts represent operational income from leasing assets to customers and are classified under operating cash flows (CFO)."
             }
           ]
         },

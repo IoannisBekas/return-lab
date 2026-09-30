@@ -619,11 +619,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "Given: N = 20; I/Y = 15; FV = 100; PMT = 10 → PV = −68.703",
+          "explanation": "The bond's price is the present value of its 20 annual coupon payments of 10 plus the par value of 100 discounted at the 15% yield: Price = Σ [10 / (1.15)^t] + 100 / (1.15)^20 = 10 × [(1 − (1.15)^−20) / 0.15] + 100 / (1.15)^20 = 10 × 6.25933 + 6.11003 = 62.5933 + 6.1100 = 68.703.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Given: N = 20; I/Y = 15; FV = 100; PMT = 10 → PV = −68.703"
+              "text": "The bond's price is the present value of its 20 annual coupon payments of 10 plus the par value of 100 discounted at the 15% yield: Price = Σ [10 / (1.15)^t] + 100 / (1.15)^20 = 10 × [(1 − (1.15)^−20) / 0.15] + 100 / (1.15)^20 = 10 × 6.25933 + 6.11003 = 62.5933 + 6.1100 = 68.703."
             }
           ]
         },
@@ -650,11 +650,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "Given: N = 10; I/Y = 7.5; FV = 1,000; PMT = 50 → PV = −$828.40",
+          "explanation": "With semiannual compounding over 5 years (n = 10 periods), the coupon is £50 per period (£1,000 × 5%) and the semiannual yield is 7.5% (15% / 2). Value = Σ [50 / (1.075)^t] + 1,000 / (1.075)^10 = 50 × [(1 − (1.075)^−10) / 0.075] + 1,000 / (1.075)^10 = 50 × 6.86408 + 485.194 = £343.204 + £485.194 = £828.40.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "Given: N = 10; I/Y = 7.5; FV = 1,000; PMT = 50 → PV = −$828.40"
+              "text": "With semiannual compounding over 5 years (n = 10 periods), the coupon is £50 per period (£1,000 × 5%) and the semiannual yield is 7.5% (15% / 2). Value = Σ [50 / (1.075)^t] + 1,000 / (1.075)^10 = 50 × [(1 − (1.075)^−10) / 0.075] + 1,000 / (1.075)^10 = 50 × 6.86408 + 485.194 = £343.204 + £485.194 = £828.40."
             }
           ]
         },

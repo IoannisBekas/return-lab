@@ -560,11 +560,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "CF0 = −5,000; CF1 = 3,000; CF2 = 2,000; CF3 = 2,000; I / Y = 10; NPV = $883.",
+          "explanation": "The net present value discounts each cash flow at the 10% cost of capital: NPV = −$5,000 + $3,000 / (1.10)^1 + $2,000 / (1.10)^2 + $2,000 / (1.10)^3 = −$5,000 + $2,727.27 + $1,652.89 + $1,502.63 = $5,882.79 − $5,000 = +$882.79, or approximately +$883.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "CF0 = −5,000; CF1 = 3,000; CF2 = 2,000; CF3 = 2,000; I / Y = 10; NPV = $883."
+              "text": "The net present value discounts each cash flow at the 10% cost of capital: NPV = −$5,000 + $3,000 / (1.10)^1 + $2,000 / (1.10)^2 + $2,000 / (1.10)^3 = −$5,000 + $2,727.27 + $1,652.89 + $1,502.63 = $5,882.79 − $5,000 = +$882.79, or approximately +$883."
             }
           ]
         }

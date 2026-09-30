@@ -316,41 +316,471 @@ export function CashFlowBridge() {
   );
 }
 
+export type OptionStrategy = "call" | "put" | "covered-call" | "protective-put" | "bull-spread";
+
 export function OptionPayoffExplorer() {
+  const [strategy, setStrategy] = useState<OptionStrategy>("call");
   const [spot, setSpot] = useState(100);
-  const [optionType, setOptionType] = useState<"call" | "put">("call");
+  const id = useId();
+
+  // Strategy payoff and profit models (underlying baseline $100):
   const strike = 100;
   const premium = 6;
-  const id = useId();
-  const profit = (underlying: number) => optionType === "call"
-    ? Math.max(underlying - strike, 0) - premium
-    : Math.max(strike - underlying, 0) - premium;
-  const samples = Array.from({ length: 101 }, (_, index) => ({ underlying: 50 + index, value: profit(50 + index) }));
+
+  const calculateStrategy = (underlying: number, strat: OptionStrategy) => {
+    if (strat === "call") {
+      const intrinsic = Math.max(underlying - strike, 0);
+      const profit = intrinsic - premium;
+      return { intrinsic, profit };
+    }
+    if (strat === "put") {
+      const intrinsic = Math.max(strike - underlying, 0);
+      const profit = intrinsic - premium;
+      return { intrinsic, profit };
+    }
+    if (strat === "covered-call") {
+      // Long stock at 100 + Short call at K=105 (prem 4)
+      const stockProfit = underlying - 100;
+      const shortCallProfit = 4 - Math.max(underlying - 105, 0);
+      const totalProfit = stockProfit + shortCallProfit;
+      return { intrinsic: Math.max(0, underlying - 96), profit: totalProfit };
+    }
+    if (strat === "protective-put") {
+      // Long stock at 100 + Long put at K=95 (prem 4)
+      const stockProfit = underlying - 100;
+      const longPutProfit = Math.max(95 - underlying, 0) - 4;
+      const totalProfit = stockProfit + longPutProfit;
+      return { intrinsic: Math.max(underlying - 95, 0), profit: totalProfit };
+    }
+    // Bull call spread: Long call K1=95 (prem 7) + Short call K2=105 (prem 2), net cost = 5
+    const c1 = Math.max(underlying - 95, 0) - 7;
+    const c2 = 2 - Math.max(underlying - 105, 0);
+    const totalProfit = c1 + c2;
+    return { intrinsic: Math.max(underlying - 95, 0) - Math.max(underlying - 105, 0), profit: totalProfit };
+  };
+
+  const samples = Array.from({ length: 101 }, (_, index) => {
+    const underlying = 50 + index;
+    return { underlying, value: calculateStrategy(underlying, strategy).profit };
+  });
+
   const x = (underlying: number) => (underlying - 50) / 100 * WIDTH;
-  const y = (value: number) => HEIGHT - (value + 10) / 60 * HEIGHT;
-  const path = samples.map((sample, index) => `${index ? "L" : "M"}${x(sample.underlying)},${y(sample.value)}`).join(" ");
-  const selectedProfit = profit(spot);
-  const breakEven = optionType === "call" ? strike + premium : strike - premium;
+  const y = (value: number) => HEIGHT - (value + 20) / 70 * HEIGHT;
+  const path = samples.map((sample, index) => `${index ? "L" : "M"}${x(sample.underlying)},${Math.max(0, Math.min(HEIGHT, y(sample.value)))}`).join(" ");
+
+  const currentResult = calculateStrategy(spot, strategy);
+  const selectedProfit = currentResult.profit;
+
+  const metadata: Record<OptionStrategy, { title: string; breakeven: string; maxGain: string; maxLoss: string; description: string }> = {
+    call: {
+      title: "Long Call",
+      breakeven: `${strike + premium}`,
+      maxGain: "Unlimited",
+      maxLoss: `−${premium}`,
+      description: `Strike ${strike}, premium ${premium}. Profit turns positive when the underlying exceeds ${strike + premium}.`,
+    },
+    put: {
+      title: "Long Put",
+      breakeven: `${strike - premium}`,
+      maxGain: `${strike - premium}`,
+      maxLoss: `−${premium}`,
+      description: `Strike ${strike}, premium ${premium}. Profit turns positive when the underlying drops below ${strike - premium}.`,
+    },
+    "covered-call": {
+      title: "Covered Call (Long Stock + Short Call)",
+      breakeven: "96",
+      maxGain: "+9 (above 105)",
+      maxLoss: "−96 (if stock hits 0)",
+      description: "Generates income ($4 premium) while capping upside at strike $105. Downside is cushioned by the premium received.",
+    },
+    "protective-put": {
+      title: "Protective Put (Long Stock + Long Put)",
+      breakeven: "104",
+      maxGain: "Unlimited",
+      maxLoss: "−9 (below 95)",
+      description: "Floors downside risk at strike $95 for an upfront cost of $4 premium. Preserves unlimited upside participation above $104.",
+    },
+    "bull-spread": {
+      title: "Bull Call Spread (Long 95 Call / Short 105 Call)",
+      breakeven: "100",
+      maxGain: "+5 (above 105)",
+      maxLoss: "−5 (below 95)",
+      description: "Moderately bullish strategy with capped upside (+5) and strictly capped downside loss (−5), reducing upfront option cost.",
+    },
+  };
+
+  const meta = metadata[strategy];
+
   return (
     <figure className="finance-visual">
-      <figcaption><h3>Separate option payoff from profit</h3><p>Choose a long call or long put and move the expiration price. Premium shifts the profit line below the payoff line.</p></figcaption>
+      <figcaption>
+        <h3>Interactive Option Payoffs & Strategies</h3>
+        <p>Explore directional positions and multi-leg strategies. Observe how premium payments and strikes define breakeven points and risk profiles.</p>
+      </figcaption>
       <div className="fv-controls">
-        <div className="fv-segmented" role="group" aria-label="Option type">
-          <button type="button" aria-pressed={optionType === "call"} onClick={() => setOptionType("call")}>Long call</button>
-          <button type="button" aria-pressed={optionType === "put"} onClick={() => setOptionType("put")}>Long put</button>
+        <div className="fv-segmented" role="group" aria-label="Option strategy">
+          <button type="button" aria-pressed={strategy === "call"} onClick={() => setStrategy("call")}>Long call</button>
+          <button type="button" aria-pressed={strategy === "put"} onClick={() => setStrategy("put")}>Long put</button>
+          <button type="button" aria-pressed={strategy === "covered-call"} onClick={() => setStrategy("covered-call")}>Covered call</button>
+          <button type="button" aria-pressed={strategy === "protective-put"} onClick={() => setStrategy("protective-put")}>Protective put</button>
+          <button type="button" aria-pressed={strategy === "bull-spread"} onClick={() => setStrategy("bull-spread")}>Bull call spread</button>
         </div>
         <label htmlFor={`${id}-spot`}>Expiration price: <strong>{number(spot)}</strong></label>
         <input id={`${id}-spot`} type="range" min="50" max="150" step="1" value={spot} onChange={(event) => setSpot(Number(event.target.value))} />
-        <button type="button" onClick={() => { setSpot(100); setOptionType("call"); }}>Reset option</button>
+        <button type="button" onClick={() => { setSpot(100); setStrategy("call"); }}>Reset position</button>
       </div>
-      <Plot title={`${optionType === "call" ? "Long call" : "Long put"} profit at expiration`} description={`Strike ${strike}, premium ${premium}. At an underlying price of ${spot}, profit is ${number(selectedProfit)} and break-even is ${breakEven}.`} yLabel="Profit" yTicks={["50", "20", "−10"]} xLabel="Underlying price at expiration" xTicks={["50", "100", "150"]}>
+      <Plot
+        title={`${meta.title} profit at expiration`}
+        description={`${meta.description} At an underlying price of ${spot}, net profit is ${number(selectedProfit)}.`}
+        yLabel="Net Profit / Loss ($)"
+        yTicks={["+50", "0", "−20"]}
+        xLabel="Underlying Price at Expiration ($)"
+        xTicks={["50", "100", "150"]}
+      >
         <line className="fv-zero-line" x1="0" x2={WIDTH} y1={y(0)} y2={y(0)} />
         <path className="fv-line fv-primary" d={path} />
-        <circle className="fv-selected" cx={x(spot)} cy={y(selectedProfit)} r="6" />
+        <circle className="fv-selected" cx={x(spot)} cy={Math.max(0, Math.min(HEIGHT, y(selectedProfit)))} r="6" />
       </Plot>
-      <dl className="fv-results"><div><dt>Intrinsic value</dt><dd>{number(optionType === "call" ? Math.max(spot - strike, 0) : Math.max(strike - spot, 0))}</dd></div><div><dt>Profit</dt><dd>{number(selectedProfit)}</dd></div><div><dt>Break-even</dt><dd>{number(breakEven)}</dd></div></dl>
-      <p className="fv-note">European option held to expiration; strike = 100, premium = 6, one unit, no time value after expiration, fees and financing excluded. The buyer’s maximum loss is the premium.</p>
-      <DataTable caption="Selected option outcome" headers={["Measure", "Value"]} rows={[["Position", `Long ${optionType}`], ["Expiration price", number(spot)], ["Strike", strike], ["Premium paid", premium], ["Profit", number(selectedProfit)], ["Break-even", breakEven]]} />
+      <dl className="fv-results">
+        <div><dt>Net Profit / (Loss)</dt><dd>{number(selectedProfit)}</dd></div>
+        <div><dt>Breakeven Point</dt><dd>${meta.breakeven}</dd></div>
+        <div><dt>Risk / Return Profile</dt><dd>Max Gain: {meta.maxGain} · Max Loss: {meta.maxLoss}</dd></div>
+      </dl>
+      <p className="fv-note">European contracts evaluated strictly at expiration. Financing costs, transaction commissions, and intermediate early exercises are excluded for clean pedagogical comparison.</p>
+      <DataTable
+        caption="Strategy performance summary"
+        headers={["Strategy", "Underlying Price", "Net Profit", "Breakeven", "Max Gain", "Max Loss"]}
+        rows={[[meta.title, number(spot), number(selectedProfit), `$${meta.breakeven}`, meta.maxGain, meta.maxLoss]]}
+      />
     </figure>
   );
 }
+
+export function SMLSecurityMarketLine() {
+  const [rf, setRf] = useState(3.5);
+  const [rm, setRm] = useState(9.5);
+  const [beta, setBeta] = useState(1.2);
+  const [forecastReturn, setForecastReturn] = useState(12.0);
+  const id = useId();
+
+  const marketPremium = rm - rf;
+  const requiredReturn = rf + beta * marketPremium;
+  const alpha = forecastReturn - requiredReturn;
+
+  const maxBeta = 2.5;
+  const maxReturn = 22.0;
+
+  const x = (b: number) => (b / maxBeta) * WIDTH;
+  const y = (ret: number) => HEIGHT - (ret / maxReturn) * HEIGHT;
+
+  const smlPath = `M${x(0)},${y(rf)} L${x(maxBeta)},${y(rf + maxBeta * marketPremium)}`;
+
+  const valuationStatus =
+    alpha > 0.05
+      ? { text: "Undervalued / Attractive (Alpha > 0)", class: "fv-positive", badge: "BUY / OVERWEIGHT" }
+      : alpha < -0.05
+      ? { text: "Overvalued / Costly (Alpha < 0)", class: "fv-negative", badge: "SELL / UNDERWEIGHT" }
+      : { text: "Fairly Priced on SML (Alpha ≈ 0)", class: "fv-neutral", badge: "HOLD / NEUTRAL" };
+
+  return (
+    <figure className="finance-visual">
+      <figcaption>
+        <h3>Capital Asset Pricing Model & Security Market Line</h3>
+        <p>Plot an asset against the Security Market Line (SML). Compare its forecasted return against the return required for its systematic risk (Beta).</p>
+      </figcaption>
+      <div className="fv-controls">
+        <label htmlFor={`${id}-rf`}>Risk-free rate (R<sub>f</sub>): <strong>{rf.toFixed(1)}%</strong></label>
+        <input id={`${id}-rf`} type="range" min="1.0" max="8.0" step="0.5" value={rf} onChange={(e) => setRf(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-rm`}>Expected market return E(R<sub>m</sub>): <strong>{rm.toFixed(1)}%</strong></label>
+        <input id={`${id}-rm`} type="range" min="5.0" max="16.0" step="0.5" value={rm} onChange={(e) => setRm(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-beta`}>Asset systematic risk (Beta β): <strong>{beta.toFixed(2)}</strong></label>
+        <input id={`${id}-beta`} type="range" min="0.0" max="2.5" step="0.1" value={beta} onChange={(e) => setBeta(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-forecast`}>Analyst forecast return E(R<sub>i</sub>): <strong>{forecastReturn.toFixed(1)}%</strong></label>
+        <input id={`${id}-forecast`} type="range" min="1.0" max="20.0" step="0.5" value={forecastReturn} onChange={(e) => setForecastReturn(Number(e.target.value))} />
+
+        <button type="button" onClick={() => { setRf(3.5); setRm(9.5); setBeta(1.2); setForecastReturn(12.0); }}>
+          Reset SML parameters
+        </button>
+      </div>
+
+      <ul className="fv-legend">
+        <li><span className="fv-swatch fv-solid" />Security Market Line (SML)</li>
+        <li><span className="fv-swatch fv-dashed" />Required return reference</li>
+        <li>● Market Portfolio (β = 1.0)</li>
+        <li>◆ Evaluated Asset</li>
+      </ul>
+
+      <Plot
+        title="Security Market Line (SML)"
+        description={`SML with Rf = ${rf}%, Rm = ${rm}%, Market Risk Premium = ${marketPremium.toFixed(1)}%. Asset Beta is ${beta.toFixed(2)}, required return is ${requiredReturn.toFixed(2)}%, forecast return is ${forecastReturn.toFixed(2)}%, and Jensen's alpha is ${alpha > 0 ? "+" : ""}${alpha.toFixed(2)}%.`}
+        yLabel="Expected / Required Return (%)"
+        yTicks={[`${maxReturn.toFixed(0)}%`, `${(maxReturn / 2).toFixed(0)}%`, "0%"]}
+        xLabel="Systematic Risk (Beta β)"
+        xTicks={["0.0", "1.0 (Market)", `${maxBeta.toFixed(1)}`]}
+      >
+        <path className="fv-line fv-primary" d={smlPath} />
+        {/* Market Portfolio dot at (1.0, rm) */}
+        <circle cx={x(1.0)} cy={y(rm)} r="5" fill="#285d70" />
+        <line x1={x(beta)} x2={x(beta)} y1={HEIGHT} y2={y(forecastReturn)} stroke="#485257" strokeDasharray="3 3" />
+        <line x1="0" x2={x(beta)} y1={y(requiredReturn)} y2={y(requiredReturn)} stroke="#a52f45" strokeDasharray="3 3" />
+        {/* Evaluated asset diamond */}
+        <path
+          d={`M${x(beta)},${y(forecastReturn) - 7} l7,7 l-7,7 l-7,-7 Z`}
+          fill={alpha >= 0 ? "#137333" : "#c5221f"}
+          stroke="#fff"
+          strokeWidth="1.5"
+        />
+      </Plot>
+
+      <dl className="fv-results">
+        <div><dt>CAPM Required Return (k<sub>i</sub>)</dt><dd>{requiredReturn.toFixed(2)}%</dd></div>
+        <div><dt>Jensen&apos;s Alpha (α)</dt><dd>{alpha > 0 ? "+" : ""}{alpha.toFixed(2)}%</dd></div>
+        <div>
+          <dt>Valuation Assessment</dt>
+          <dd><span className={`fv-alpha-badge ${valuationStatus.class}`}>{valuationStatus.badge}</span></dd>
+        </div>
+      </dl>
+
+      <p className="fv-note">
+        <strong>Takeaway:</strong> Assets plotting <em>above</em> the SML provide higher return than required for their systematic risk and are <strong>undervalued</strong>. Assets plotting <em>below</em> the SML offer insufficient return for their beta and are <strong>overvalued</strong>.
+      </p>
+
+      <DataTable
+        caption="SML and Asset Parameters"
+        headers={["Parameter", "Symbol / Formula", "Value"]}
+        rows={[
+          ["Risk-Free Rate", "R_f", `${rf.toFixed(2)}%`],
+          ["Market Expected Return", "E(R_m)", `${rm.toFixed(2)}%`],
+          ["Market Risk Premium", "E(R_m) − R_f", `${marketPremium.toFixed(2)}%`],
+          ["Asset Beta", "β_i", beta.toFixed(2)],
+          ["Required Return", "R_f + β_i × [E(R_m) − R_f]", `${requiredReturn.toFixed(2)}%`],
+          ["Forecast Return", "E(R_i)", `${forecastReturn.toFixed(2)}%`],
+          ["Jensen's Alpha", "E(R_i) − k_i", `${alpha > 0 ? "+" : ""}${alpha.toFixed(2)}%`],
+          ["Conclusion", "Pricing Status", valuationStatus.text],
+        ]}
+      />
+    </figure>
+  );
+}
+
+export function YieldCurveTermStructure() {
+  const [curveType, setCurveType] = useState<"normal" | "inverted" | "flat" | "humped">("normal");
+  const [shiftBps, setShiftBps] = useState(0);
+  const id = useId();
+
+  const baseSpots: Record<string, number[]> = {
+    normal: [3.2, 3.6, 4.0, 4.4, 4.7, 5.0, 5.3, 5.5],
+    inverted: [5.5, 5.1, 4.7, 4.3, 4.0, 3.8, 3.7, 3.6],
+    flat: [4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5, 4.5],
+    humped: [3.5, 4.8, 5.1, 4.9, 4.6, 4.3, 4.1, 4.0],
+  };
+
+  const maturities = [1, 2, 3, 5, 7, 10, 20, 30];
+  const spotRates = baseSpots[curveType].map((rate) => rate + shiftBps / 100);
+
+  // Calculate 1-year forward rates: f(t-1, 1) = [(1 + s_t)^t / (1 + s_{t-1})^{t-1}] - 1
+  const forwards = spotRates.map((s, idx) => {
+    if (idx === 0) return s;
+    const t = maturities[idx];
+    const prevT = maturities[idx - 1];
+    const prevS = spotRates[idx - 1];
+    const compoundT = Math.pow(1 + s / 100, t);
+    const compoundPrev = Math.pow(1 + prevS / 100, prevT);
+    const annualizedFwd = (Math.pow(compoundT / compoundPrev, 1 / (t - prevT)) - 1) * 100;
+    return annualizedFwd;
+  });
+
+  const slope2_10 = (spotRates[5] - spotRates[1]) * 100; // 10Y minus 2Y in bps
+  const fwd1y1y = ((Math.pow(1 + spotRates[1] / 100, 2) / (1 + spotRates[0] / 100)) - 1) * 100;
+
+  const minRate = 1.0;
+  const maxRate = 8.0;
+
+  const x = (tenor: number) => (Math.log(tenor) / Math.log(30)) * WIDTH;
+  const y = (rate: number) => HEIGHT - ((rate - minRate) / (maxRate - minRate)) * HEIGHT;
+
+  const spotPath = spotRates.map((r, i) => `${i ? "L" : "M"}${x(maturities[i])},${y(r)}`).join(" ");
+  const forwardPath = forwards.map((r, i) => `${i ? "L" : "M"}${x(maturities[i])},${Math.max(0, Math.min(HEIGHT, y(r)))}`).join(" ");
+
+  const curveDescriptions: Record<string, string> = {
+    normal: "Upward sloping: Long-term yields exceed short-term rates due to positive maturity/term premium and healthy economic expansion expectations.",
+    inverted: "Inverted: Short-term rates exceed long-term yields. Historically a reliable harbinger of economic deceleration or monetary policy tightening.",
+    flat: "Flat: Yields are uniform across tenors, often reflecting transitional monetary phases between tightening and easing cycles.",
+    humped: "Humped: Intermediate yields peak above both short- and long-term rates, reflecting medium-term inflation pressure or expected rate hikes followed by cuts.",
+  };
+
+  return (
+    <figure className="finance-visual">
+      <figcaption>
+        <h3>Term Structure of Interest Rates & Implied Forwards</h3>
+        <p>Explore yield curve shapes and shifts. Follow how spot rate curves imply forward rates via no-arbitrage relationships.</p>
+      </figcaption>
+      <div className="fv-controls">
+        <div className="fv-segmented" role="group" aria-label="Yield curve shape">
+          <button type="button" aria-pressed={curveType === "normal"} onClick={() => setCurveType("normal")}>Normal</button>
+          <button type="button" aria-pressed={curveType === "inverted"} onClick={() => setCurveType("inverted")}>Inverted</button>
+          <button type="button" aria-pressed={curveType === "flat"} onClick={() => setCurveType("flat")}>Flat</button>
+          <button type="button" aria-pressed={curveType === "humped"} onClick={() => setCurveType("humped")}>Humped</button>
+        </div>
+        <label htmlFor={`${id}-shift`}>Parallel curve shift: <strong>{shiftBps > 0 ? "+" : ""}{shiftBps} bps</strong></label>
+        <input id={`${id}-shift`} type="range" min="-150" max="150" step="10" value={shiftBps} onChange={(e) => setShiftBps(Number(e.target.value))} />
+        <button type="button" onClick={() => { setCurveType("normal"); setShiftBps(0); }}>Reset curve</button>
+      </div>
+
+      <ul className="fv-legend">
+        <li><span className="fv-swatch fv-solid" />Spot Yield Curve</li>
+        <li><span className="fv-swatch fv-dashed" style={{ borderColor: "#d97706" }} />Implied Forward Rates</li>
+      </ul>
+
+      <Plot
+        title="Yield Curve and Forward Rates"
+        description={`${curveDescriptions[curveType]} At 2Y spot rate ${spotRates[1].toFixed(2)}% and 10Y spot rate ${spotRates[5].toFixed(2)}%, the 2Y-10Y slope is ${slope2_10.toFixed(0)} bps.`}
+        yLabel="Annualized Yield (%)"
+        yTicks={[`${maxRate.toFixed(1)}%`, `${((maxRate + minRate) / 2).toFixed(1)}%`, `${minRate.toFixed(1)}%`]}
+        xLabel="Maturity Tenor (Logarithmic Scale)"
+        xTicks={["1Y", "5Y", "30Y"]}
+      >
+        <path className="fv-line fv-primary" d={spotPath} />
+        <path className="fv-line fv-forward-line" d={forwardPath} />
+        {maturities.map((tenor, i) => (
+          <circle key={tenor} cx={x(tenor)} cy={y(spotRates[i])} r="4" fill="#285d70" />
+        ))}
+      </Plot>
+
+      <dl className="fv-results">
+        <div><dt>2Y / 10Y Slope Spread</dt><dd>{slope2_10 > 0 ? "+" : ""}{slope2_10.toFixed(0)} bps</dd></div>
+        <div><dt>1Y Implied Forward Rate (1y1y)</dt><dd>{fwd1y1y.toFixed(2)}%</dd></div>
+        <div><dt>Market Curve Status</dt><dd>{curveType.toUpperCase()}</dd></div>
+      </dl>
+
+      <p className="fv-note">
+        <strong>Interpretation:</strong> When the spot curve is upward sloping, implied forward rates lie <em>above</em> the spot curve (forward rate &gt; spot rate). When the spot curve is inverted, forward rates lie <em>below</em> spot rates.
+      </p>
+
+      <DataTable
+        caption="Spot Rates and Implied Forward Rates by Maturity"
+        headers={["Maturity", "Spot Rate", "Implied Forward Rate"]}
+        rows={maturities.map((m, i) => [
+          `${m} Year${m > 1 ? "s" : ""}`,
+          `${spotRates[i].toFixed(2)}%`,
+          `${forwards[i].toFixed(2)}%`,
+        ])}
+      />
+    </figure>
+  );
+}
+
+export function DuPontDecomposition() {
+  const [taxBurden, setTaxBurden] = useState(0.75);
+  const [interestBurden, setInterestBurden] = useState(0.85);
+  const [ebitMargin, setEbitMargin] = useState(0.12);
+  const [assetTurnover, setAssetTurnover] = useState(1.10);
+  const [financialLeverage, setFinancialLeverage] = useState(2.20);
+  const id = useId();
+
+  const operatingROA = ebitMargin * assetTurnover;
+  const netProfitMargin = taxBurden * interestBurden * ebitMargin;
+  const roa = netProfitMargin * assetTurnover;
+  const roe = roa * financialLeverage;
+
+  return (
+    <figure className="finance-visual">
+      <figcaption>
+        <h3>Five-Stage DuPont Analysis Framework</h3>
+        <p>Decompose Return on Equity (ROE) into operational efficiency, asset utilization, tax efficiency, and financial leverage.</p>
+      </figcaption>
+
+      <div className="fv-controls">
+        <label htmlFor={`${id}-tax`}>Tax Burden (Net Income / EBT): <strong>{taxBurden.toFixed(2)}</strong></label>
+        <input id={`${id}-tax`} type="range" min="0.50" max="0.95" step="0.01" value={taxBurden} onChange={(e) => setTaxBurden(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-interest`}>Interest Burden (EBT / EBIT): <strong>{interestBurden.toFixed(2)}</strong></label>
+        <input id={`${id}-interest`} type="range" min="0.50" max="1.00" step="0.01" value={interestBurden} onChange={(e) => setInterestBurden(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-margin`}>EBIT Operating Margin (EBIT / Revenue): <strong>{(ebitMargin * 100).toFixed(1)}%</strong></label>
+        <input id={`${id}-margin`} type="range" min="0.02" max="0.30" step="0.01" value={ebitMargin} onChange={(e) => setEbitMargin(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-turnover`}>Asset Turnover (Revenue / Assets): <strong>{assetTurnover.toFixed(2)}x</strong></label>
+        <input id={`${id}-turnover`} type="range" min="0.30" max="3.00" step="0.05" value={assetTurnover} onChange={(e) => setAssetTurnover(Number(e.target.value))} />
+
+        <label htmlFor={`${id}-leverage`}>Financial Leverage (Assets / Equity): <strong>{financialLeverage.toFixed(2)}x</strong></label>
+        <input id={`${id}-leverage`} type="range" min="1.00" max="5.00" step="0.10" value={financialLeverage} onChange={(e) => setFinancialLeverage(Number(e.target.value))} />
+
+        <button
+          type="button"
+          onClick={() => {
+            setTaxBurden(0.75);
+            setInterestBurden(0.85);
+            setEbitMargin(0.12);
+            setAssetTurnover(1.10);
+            setFinancialLeverage(2.20);
+          }}
+        >
+          Reset DuPont parameters
+        </button>
+      </div>
+
+      <div className="fv-dupont-flow">
+        <div className="fv-dupont-factor">
+          <span>1. Tax Burden</span>
+          <strong>{taxBurden.toFixed(2)}</strong>
+          <small>Net Income / EBT (Retention of earnings after taxes)</small>
+        </div>
+        <div className="fv-dupont-factor">
+          <span>2. Interest Burden</span>
+          <strong>{interestBurden.toFixed(2)}</strong>
+          <small>EBT / EBIT (Share of operating profit left after interest)</small>
+        </div>
+        <div className="fv-dupont-factor">
+          <span>3. EBIT Margin</span>
+          <strong>{(ebitMargin * 100).toFixed(1)}%</strong>
+          <small>EBIT / Revenue (Core operating profitability)</small>
+        </div>
+        <div className="fv-dupont-factor">
+          <span>4. Asset Turnover</span>
+          <strong>{assetTurnover.toFixed(2)}x</strong>
+          <small>Revenue / Assets (Efficiency in generating revenue)</small>
+        </div>
+        <div className="fv-dupont-factor">
+          <span>5. Leverage</span>
+          <strong>{financialLeverage.toFixed(2)}x</strong>
+          <small>Assets / Equity (Balance sheet leverage multiplier)</small>
+        </div>
+        <div className="fv-dupont-factor fv-dupont-hero">
+          <span>Result: ROE</span>
+          <strong>{(roe * 100).toFixed(2)}%</strong>
+          <small>Return on Equity = Factor 1 × 2 × 3 × 4 × 5</small>
+        </div>
+      </div>
+
+      <dl className="fv-results">
+        <div><dt>Operating ROA (EBIT Margin × Turnover)</dt><dd>{(operatingROA * 100).toFixed(2)}%</dd></div>
+        <div><dt>Net Profit Margin (Tax × Interest × EBIT Margin)</dt><dd>{(netProfitMargin * 100).toFixed(2)}%</dd></div>
+        <div><dt>Return on Assets (ROA)</dt><dd>{(roa * 100).toFixed(2)}%</dd></div>
+      </dl>
+
+      <p className="fv-note">
+        <strong>Strategic Insight:</strong> A company can boost ROE through higher margins, faster asset turnover, or greater financial leverage. However, leverage increases debt service risks, while margin and turnover improvements reflect genuine operational excellence.
+      </p>
+
+      <DataTable
+        caption="DuPont Five-Factor Calculation Table"
+        headers={["Step / Component", "Ratio Formula", "Metric Value"]}
+        rows={[
+          ["1. Tax Retention", "Net Income / EBT", taxBurden.toFixed(3)],
+          ["2. Interest Preservation", "EBT / EBIT", interestBurden.toFixed(3)],
+          ["3. Operating Margin", "EBIT / Revenue", `${(ebitMargin * 100).toFixed(2)}%`],
+          ["4. Total Asset Turnover", "Revenue / Total Assets", `${assetTurnover.toFixed(2)}x`],
+          ["5. Financial Leverage", "Total Assets / Total Equity", `${financialLeverage.toFixed(2)}x`],
+          ["Net Profit Margin", "Step 1 × Step 2 × Step 3", `${(netProfitMargin * 100).toFixed(2)}%`],
+          ["Return on Assets (ROA)", "Net Profit Margin × Asset Turnover", `${(roa * 100).toFixed(2)}%`],
+          ["Return on Equity (ROE)", "ROA × Financial Leverage", `${(roe * 100).toFixed(2)}%`],
+        ]}
+      />
+    </figure>
+  );
+}
+

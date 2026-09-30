@@ -432,11 +432,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "The approximate convexity of the bond is calculated as follows:",
+          "explanation": "Approximate convexity is calculated using the formula: Convexity = (V_− + V_+ − 2V_0) / [(Δy)^2 × V_0]. Given V_0 = 104.4518, V_− = 104.9108, V_+ = 103.9954, and Δy = 0.0010: Convexity = (104.9108 + 103.9954 − 2 × 104.4518) / [(0.001)^2 × 104.4518] = (208.9062 − 208.9036) / (0.000001 × 104.4518) = 0.0026 / 0.0001044518 ≈ 24.89.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The approximate convexity of the bond is calculated as follows:"
+              "text": "Approximate convexity is calculated using the formula: Convexity = (V_− + V_+ − 2V_0) / [(Δy)^2 × V_0]. Given V_0 = 104.4518, V_− = 104.9108, V_+ = 103.9954, and Δy = 0.0010: Convexity = (104.9108 + 103.9954 − 2 × 104.4518) / [(0.001)^2 × 104.4518] = (208.9062 − 208.9036) / (0.000001 × 104.4518) = 0.0026 / 0.0001044518 ≈ 24.89."
             },
             {
               "type": "math",

@@ -1334,15 +1334,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "6 + 1.2(12 – 6) = 13.2%",
+          "explanation": "Using the Capital Asset Pricing Model (CAPM): E(R_i) = R_f + β_i × [E(R_m) − R_f] = 6% + 1.2 × (12% − 6%) = 6% + 1.2 × (6%) = 6% + 7.2% = 13.2%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "6 + 1.2(12"
-            },
-            {
-              "type": "paragraph",
-              "text": "– 6) = 13.2%"
+              "text": "Using the Capital Asset Pricing Model (CAPM): E(R_i) = R_f + β_i × [E(R_m) − R_f] = 6% + 1.2 × (12% − 6%) = 6% + 1.2 × (6%) = 6% + 7.2% = 13.2%."
             }
           ]
         },
@@ -1369,15 +1365,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "7 + 0.7(14 – 7) = 11.9%",
+          "explanation": "Using the Capital Asset Pricing Model (CAPM): E(R_i) = R_f + β_i × [E(R_m) − R_f] = 7% + 0.7 × (14% − 7%) = 7% + 0.7 × (7%) = 7% + 4.9% = 11.9%.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "7 + 0.7(14"
-            },
-            {
-              "type": "paragraph",
-              "text": "– 7) = 11.9%"
+              "text": "Using the Capital Asset Pricing Model (CAPM): E(R_i) = R_f + β_i × [E(R_m) − R_f] = 7% + 0.7 × (14% − 7%) = 7% + 0.7 × (7%) = 7% + 4.9% = 11.9%."
             }
           ]
         },

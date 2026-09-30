@@ -962,11 +962,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "The power of a test is 1 − P(Type II error) = 1 − 0.15 = 0.85.",
+          "explanation": "The power of a statistical test is defined as 1 − P(Type II error) = 1 − β. Given β = 0.15, the power of the test is 1 − 0.15 = 0.850. Power represents the probability of correctly rejecting a false null hypothesis.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The power of a test is 1 − P(Type II error) = 1 − 0.15 = 0.85."
+              "text": "The power of a statistical test is defined as 1 − P(Type II error) = 1 − β. Given β = 0.15, the power of the test is 1 − 0.15 = 0.850. Power represents the probability of correctly rejecting a false null hypothesis."
             }
           ]
         }
@@ -1031,11 +1031,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "The F-test is the appropriate test.",
+          "explanation": "An F-test (using the F-distributed ratio of sample variances, s1^2 / s2^2) is used to test hypotheses regarding the equality of variances of two independent, normally distributed populations. The t-test is used for population means, and the chi-square test is used for a single population variance.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The F-test is the appropriate test."
+              "text": "An F-test (using the F-distributed ratio of sample variances, s1^2 / s2^2) is used to test hypotheses regarding the equality of variances of two independent, normally distributed populations. The t-test is used for population means, and the chi-square test is used for a single population variance."
             }
           ]
         },
@@ -1062,11 +1062,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "A test of the population variance is a chi-square test.",
+          "explanation": "A chi-square (χ²) test statistic, calculated as (n − 1)s^2 / σ_0^2 with n − 1 degrees of freedom, is used to test hypotheses concerning the variance of a single normally distributed population.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A test of the population variance is a chi-square test."
+              "text": "A chi-square (χ²) test statistic, calculated as (n − 1)s^2 / σ_0^2 with n − 1 degrees of freedom, is used to test hypotheses concerning the variance of a single normally distributed population."
             }
           ]
         }

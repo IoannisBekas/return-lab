@@ -1004,8 +1004,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "correlation = 0.006 / [(0.30)(0.20)] = 0.10",
+          "explanation": "First calculate the standard deviation for each stock: σ_A = √(0.09) = 0.30; σ_B = √(0.04) = 0.20. The correlation coefficient is Corr(A,B) = Cov(A,B) / (σ_A × σ_B) = 0.006 / (0.30 × 0.20) = 0.006 / 0.060 = 0.10.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "First calculate the standard deviation for each stock: σ_A = √(0.09) = 0.30; σ_B = √(0.04) = 0.20. The correlation coefficient is Corr(A,B) = Cov(A,B) / (σ_A × σ_B) = 0.006 / (0.30 × 0.20) = 0.006 / 0.060 = 0.10."
+            },
             {
               "type": "math",
               "latex": "\\begin{aligned} {\\sqrt{A}} & {{}=\\sqrt{0.09}=0.30} \\\\ {\\sqrt{B}} & {{}=\\sqrt{0.04}=0.20} \\\\ {\\mathrm{correlation}} & {{}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10 \\mathrm{correlation}=0.006 \\ / \\ [ ( 0.30 ) ( 0.20 ) ]=0.10} \\\\ \\end{aligned}",
@@ -1037,8 +1041,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "",
+          "explanation": "The portfolio variance for a two-asset portfolio is: σ_p^2 = w_A^2 × σ_A^2 + w_B^2 × σ_B^2 + 2 × w_A × w_B × σ_A × σ_B × ρ = (0.25)^2(0.15)^2 + (0.75)^2(0.10)^2 + 2(0.25)(0.75)(0.15)(0.10)(−0.75) = 0.00140625 + 0.00562500 − 0.00421875 = 0.00281250. Taking the square root: σ_p = √(0.00281250) ≈ 0.05303, or 5.3%.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The portfolio variance for a two-asset portfolio is: σ_p^2 = w_A^2 × σ_A^2 + w_B^2 × σ_B^2 + 2 × w_A × w_B × σ_A × σ_B × ρ = (0.25)^2(0.15)^2 + (0.75)^2(0.10)^2 + 2(0.25)(0.75)(0.15)(0.10)(−0.75) = 0.00140625 + 0.00562500 − 0.00421875 = 0.00281250. Taking the square root: σ_p = √(0.00281250) ≈ 0.05303, or 5.3%."
+            },
             {
               "type": "math",
               "latex": "\\begin{aligned}\n&\\sqrt{(0.25)^2(0.15)^2 + (0.75)^2(0.10)^2 + 2(0.25)(0.75)(0.15)(0.10)(-0.75)} \\\\[6pt]\n&\\quad = \\sqrt{0.001406 + 0.005625 - 0.004219} = \\sqrt{0.002812} = 0.053 = 5.3\\%\n\\end{aligned}",

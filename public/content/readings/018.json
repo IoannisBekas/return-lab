@@ -503,11 +503,11 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "1 / 1.311 = 0.7628 GBP/USD",
+          "explanation": "The inverse of the exchange rate USD/GBP gives the quote in GBP/USD: GBP/USD = 1 / (USD/GBP) = 1 / 1.3110 ≈ 0.762776, or 0.7628.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "1 / 1.311 = 0.7628 GBP/USD"
+              "text": "The inverse of the exchange rate USD/GBP gives the quote in GBP/USD: GBP/USD = 1 / (USD/GBP) = 1 / 1.3110 ≈ 0.762776, or 0.7628."
             }
           ]
         },

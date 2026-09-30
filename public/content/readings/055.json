@@ -585,8 +585,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "",
+          "explanation": "Discount each annual cash flow ($4,000 coupon in years 1 and 2, and $104,000 coupon plus principal in year 3) by its respective zero-coupon spot rate: Price = $4,000 / (1.032)^1 + $4,000 / (1.034)^2 + $104,000 / (1.035)^3 = $3,875.97 + $3,741.24 + $93,802.07 = $101,419.28, which rounds to $101,420.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Discount each annual cash flow ($4,000 coupon in years 1 and 2, and $104,000 coupon plus principal in year 3) by its respective zero-coupon spot rate: Price = $4,000 / (1.032)^1 + $4,000 / (1.034)^2 + $104,000 / (1.035)^3 = $3,875.97 + $3,741.24 + $93,802.07 = $101,419.28, which rounds to $101,420."
+            },
             {
               "type": "math",
               "latex": "1. \\mathbf{A} {\\text{  bond value}}={\\frac{4 {,} 000} {1.032}}+{\\frac{4 {,} 000} {( 1.034 )^{2}}}+{\\frac{104 {,} 000} {( 1.035 )^{3}}}={\\cfrac{5} {101 ,} {}} 419.28",
@@ -680,8 +684,12 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "",
+          "explanation": "Under the no-arbitrage condition, investing for 4 years at the 4-year spot rate equals investing for 3 years at the 3-year spot rate followed by 1 year at the forward rate f(3,1): (1 + s_4)^4 = (1 + s_3)^3 × (1 + f(3,1)). Rearranging: 1 + f(3,1) = (1.0945)^4 / (1.0985)^3 = 1.43521 / 1.32575 = 1.082579, so f(3,1) = 8.258%.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Under the no-arbitrage condition, investing for 4 years at the 4-year spot rate equals investing for 3 years at the 3-year spot rate followed by 1 year at the forward rate f(3,1): (1 + s_4)^4 = (1 + s_3)^3 × (1 + f(3,1)). Rearranging: 1 + f(3,1) = (1.0945)^4 / (1.0985)^3 = 1.43521 / 1.32575 = 1.082579, so f(3,1) = 8.258%."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\n(1.0945)^4=(1.0985)^3(1+3y_{1y})\\\\[8pt]\n3y_{1y}=\\frac{(1.0945)^4}{(1.0985)^3}-1=8.258\\%,\\qquad\n\\text{Approximate forward rate}=4(9.45\\%)-3(9.85\\%)=8.25\\%\n\\end{gathered}",
@@ -713,8 +721,12 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "",
+          "explanation": "The cash flows are $100 at Year 1, $100 at Year 2, $100 at Year 3, and $1,100 at Year 4. Discounting each cash flow using the path of forward rates: Year 1 PV = 100 / 1.055 = $94.79; Year 2 PV = 100 / (1.055 × 1.0763) = $88.07; Year 3 PV = 100 / (1.055 × 1.0763 × 1.1218) = $78.50; Year 4 PV = 1,100 / (1.055 × 1.0763 × 1.1218 × 1.155) = $747.67. Total Value = $94.79 + $88.07 + $78.50 + $747.67 = $1,009.03, which is closest to $1,009.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "The cash flows are $100 at Year 1, $100 at Year 2, $100 at Year 3, and $1,100 at Year 4. Discounting each cash flow using the path of forward rates: Year 1 PV = 100 / 1.055 = $94.79; Year 2 PV = 100 / (1.055 × 1.0763) = $88.07; Year 3 PV = 100 / (1.055 × 1.0763 × 1.1218) = $78.50; Year 4 PV = 1,100 / (1.055 × 1.0763 × 1.1218 × 1.155) = $747.67. Total Value = $94.79 + $88.07 + $78.50 + $747.67 = $1,009.03, which is closest to $1,009."
+            },
             {
               "type": "math",
               "latex": "\\text{Bond value}=\\frac{100}{1.055}+\\frac{100}{(1.055)(1.0763)}\n+\\frac{100}{(1.055)(1.0763)(1.1218)}+\\frac{1{,}100}{(1.055)(1.0763)(1.1218)(1.155)}=1{,}009.03",

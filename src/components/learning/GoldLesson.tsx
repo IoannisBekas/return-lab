@@ -21,11 +21,14 @@ import type {
 import {
   CashFlowBridge,
   CashFlowTimeline,
+  DuPontDecomposition,
   DurationPriceCurve,
   EfficientFrontier,
   EthicsDecisionFlow,
   OptionPayoffExplorer,
+  SMLSecurityMarketLine,
   SupplyDemandExplorer,
+  YieldCurveTermStructure,
 } from "./FinanceVisuals";
 import { MathText } from "./MathText";
 import "./GoldLesson.css";
@@ -104,11 +107,14 @@ function visualFor(readingId: number) {
   if (readingId === 57) return <DurationPriceCurve />;
   if (readingId === 83) return <EfficientFrontier />;
   if (readingId === 91) return <EthicsDecisionFlow />;
-  if ([2, 24, 46, 52, 69, 70, 77].includes(readingId)) return <CashFlowTimeline />;
+  if ([2, 24, 46, 50, 77].includes(readingId)) return <CashFlowTimeline />;
   if ([12, 13, 14, 15, 17, 18, 19].includes(readingId)) return <SupplyDemandExplorer />;
+  if ([29, 32, 33, 34].includes(readingId)) return <DuPontDecomposition />;
   if ([27, 28, 30, 31, 36, 37, 38].includes(readingId)) return <CashFlowBridge />;
+  if ([51, 52, 53, 54, 55].includes(readingId)) return <YieldCurveTermStructure />;
   if ([56, 58, 59].includes(readingId)) return <DurationPriceCurve />;
-  if ([73, 74, 75].includes(readingId)) return <OptionPayoffExplorer />;
+  if ([41, 42, 85, 87].includes(readingId)) return <SMLSecurityMarketLine />;
+  if ([66, 70, 73, 74, 75].includes(readingId)) return <OptionPayoffExplorer />;
   if ([84, 86, 88].includes(readingId)) return <EfficientFrontier />;
   if ([89, 90, 92, 93].includes(readingId)) return <EthicsDecisionFlow />;
   return null;

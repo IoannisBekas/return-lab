@@ -277,11 +277,11 @@
             }
           ],
           "correctOptionId": "A",
-          "explanation": "An add-on yield based on a 365-day year is a bond equivalent yield.",
+          "explanation": "A bond equivalent yield (BEY) is an annualized add-on yield based on a 365-day year (or 366 days in a leap year). Money market discount yields and 360-day add-on yields understate the true annual yield compared to a bond equivalent basis.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "An add-on yield based on a 365-day year is a bond equivalent yield."
+              "text": "A bond equivalent yield (BEY) is an annualized add-on yield based on a 365-day year (or 366 days in a leap year). Money market discount yields and 360-day add-on yields understate the true annual yield compared to a bond equivalent basis."
             }
           ]
         },

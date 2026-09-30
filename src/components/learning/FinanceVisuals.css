@@ -87,9 +87,64 @@
   .fv-bridge > b { justify-self: center; }
 }
 
+.fv-forward-line { stroke: #d97706; stroke-width: 2.5; stroke-dasharray: 6 4; fill: none; vector-effect: non-scaling-stroke; }
+.fv-alpha-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font: 12px var(--mono, monospace);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.fv-alpha-badge.fv-positive { background: #e6f4ea; color: #137333; border: 1px solid #ceead6; }
+.fv-alpha-badge.fv-negative { background: #fce8e6; color: #c5221f; border: 1px solid #fad2cf; }
+.fv-alpha-badge.fv-neutral { background: #f1f3f4; color: #5f6368; border: 1px solid #dadce0; }
+
+.fv-dupont-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 24px 0;
+}
+.fv-dupont-factor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 14px;
+  border: 1px solid #cdd2ce;
+  background: var(--white, #fbfcf9);
+}
+.fv-dupont-factor > span {
+  font: 11px var(--mono, monospace);
+  text-transform: uppercase;
+  color: #485257;
+}
+.fv-dupont-factor > strong {
+  font-size: clamp(20px, 2.5vw, 26px);
+  margin: 6px 0;
+  overflow-wrap: anywhere;
+}
+.fv-dupont-factor > small {
+  font-size: 12px;
+  color: #485257;
+  line-height: 1.35;
+}
+.fv-dupont-hero {
+  background: var(--fv-primary);
+  color: #fff;
+  border-color: var(--fv-primary);
+}
+.fv-dupont-hero > span, .fv-dupont-hero > small {
+  color: #dbe7e9;
+}
+
 @media (max-width: 480px) {
   .fv-results { grid-template-columns: 1fr; gap: 0; }
   .fv-plot-body { column-gap: 7px; }
   .fv-y-ticks, .fv-x-ticks { font-size: 11px; }
   .fv-controls { padding: 12px; }
+  .fv-dupont-flow { grid-template-columns: 1fr; }
 }
+

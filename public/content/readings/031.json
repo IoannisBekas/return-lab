@@ -498,11 +498,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "The reinvestment ratio is CFO/cash paid for long-term assets.",
+          "explanation": "The reinvestment ratio is defined as Cash Flow from Operations (CFO) divided by cash paid for long-term productive assets (capital expenditures). It measures the extent to which operating cash flows can sustain capital investment and asset acquisition without needing external debt or equity financing.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "The reinvestment ratio is CFO/cash paid for long-term assets."
+              "text": "The reinvestment ratio is defined as Cash Flow from Operations (CFO) divided by cash paid for long-term productive assets (capital expenditures). It measures the extent to which operating cash flows can sustain capital investment and asset acquisition without needing external debt or equity financing."
             }
           ]
         }

@@ -302,11 +302,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "A derivative’s value is derived from another asset or an interest rate.",
+          "explanation": "A derivative is a financial instrument whose value and contractual payoff are derived from the performance of an underlying asset, index, interest rate, or other reference benchmark. Derivatives do not necessarily increase risk (they are widely used to hedge risk) and typically have defined expiration dates.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "A derivative’s value is derived from another asset or an interest rate."
+              "text": "A derivative is a financial instrument whose value and contractual payoff are derived from the performance of an underlying asset, index, interest rate, or other reference benchmark. Derivatives do not necessarily increase risk (they are widely used to hedge risk) and typically have defined expiration dates."
             }
           ]
         },

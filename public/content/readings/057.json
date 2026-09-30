@@ -364,8 +364,12 @@
             }
           ],
           "correctOptionId": "B",
-          "explanation": "",
+          "explanation": "Approximate modified duration is calculated as (V_− − V_+) / (2 × V_0 × Δy). Because the bond trades at par (V_0 = 100), when yield decreases by 25 bps to 13.75%, the bond price rises to V_− = 100.979. When yield increases by 25 bps to 14.25%, the price falls to V_+ = 99.035. Approximate modified duration = (100.979 − 99.035) / (2 × 100.0 × 0.0025) = 1.944 / 0.500 = 3.888.",
           "solutionBlocks": [
+            {
+              "type": "paragraph",
+              "text": "Approximate modified duration is calculated as (V_− − V_+) / (2 × V_0 × Δy). Because the bond trades at par (V_0 = 100), when yield decreases by 25 bps to 13.75%, the bond price rises to V_− = 100.979. When yield increases by 25 bps to 14.25%, the price falls to V_+ = 99.035. Approximate modified duration = (100.979 − 99.035) / (2 × 100.0 × 0.0025) = 1.944 / 0.500 = 3.888."
+            },
             {
               "type": "math",
               "latex": "\\begin{gathered}\nV_-=100.979,\\quad V_+=99.035,\\quad V_0=100.000,\\quad \\Delta y=0.0025\\\\[8pt]\n\\text{Approximate modified duration}\n=\\frac{V_--V_+}{2V_0\\Delta YTM}\n=\\frac{100.979-99.035}{2(100)(0.0025)}=3.888\n\\end{gathered}",
@@ -444,11 +448,11 @@
             }
           ],
           "correctOptionId": "C",
-          "explanation": "−7.87 × (−1.10%) = 8.657%",
+          "explanation": "The linear duration estimate for percentage price change is: %ΔP ≈ −Modified Duration × Δy. With Δy = −110 bps = −0.0110: %ΔP ≈ −7.87 × (−0.0110) = +0.08657, or +8.657%. A decrease in yield leads to an increase in bond price.",
           "solutionBlocks": [
             {
               "type": "paragraph",
-              "text": "−7.87 × (−1.10%) = 8.657%"
+              "text": "The linear duration estimate for percentage price change is: %ΔP ≈ −Modified Duration × Δy. With Δy = −110 bps = −0.0110: %ΔP ≈ −7.87 × (−0.0110) = +0.08657, or +8.657%. A decrease in yield leads to an increase in bond price."
             }
           ]
         },
