@@ -50,7 +50,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 862,
           "height": 565,
-          "alt": "Instructional visual diagram or table: b1f1a12cd1d52c9b5334.png"
+          "alt": "Figure 84.1: Linear Capital Allocation Line connecting the risk-free rate Rf to risky portfolio P on an expected return versus standard deviation coordinate system."
         },
         {
           "type": "question",
@@ -71,7 +71,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 820,
           "height": 567,
-          "alt": "Instructional visual diagram or table: 38bbc7eb089de5e88e55.png"
+          "alt": "Figure 84.2: Markowitz efficient frontier with multiple Capital Allocation Lines illustrating that the tangent line achieves the maximum Sharpe ratio."
         },
         {
           "type": "paragraph",
@@ -103,7 +103,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 817,
           "height": 560,
-          "alt": "Capital Market Line tangent to the efficient frontier at the optimal risky market portfolio."
+          "alt": "Figure 84.3: Capital Market Line (CML) tangent to the efficient frontier at the optimal market portfolio M assuming homogeneous investor expectations."
         },
         {
           "type": "paragraph",
@@ -153,7 +153,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 946,
           "height": 621,
-          "alt": "Instructional visual diagram or table: 853ba8e8cc02b4cd6a13.png"
+          "alt": "Figure 84.4: Capital Market Line diagram illustrating lending portfolios (below market portfolio M) and leveraged borrowing portfolios (above market portfolio M)."
         },
         {
           "type": "paragraph",
@@ -186,7 +186,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 659,
           "height": 475,
-          "alt": "Instructional visual diagram or table: 0c67b0ae6bfd5406b1b5.png"
+          "alt": "Figure 84.5: Diversification curve illustrating portfolio total risk declining toward non-diversifiable systematic market risk as the number of portfolio assets increases."
         },
         {
           "type": "heading",
@@ -388,7 +388,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 937,
           "height": 580,
-          "alt": "Instructional visual diagram or table: b8a8e0722a8acfaa2703.png"
+          "alt": "Figure 84.6: Security Characteristic Line (SCL) regression plot of an individual asset's excess return against market excess return, where the slope represents beta."
         },
         {
           "type": "paragraph",
@@ -430,7 +430,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 659,
           "height": 460,
-          "alt": "Instructional visual diagram or table: d51ed93c1b0872cc3b93.png"
+          "alt": "Figure 84.7: Security Market Line (SML) plotting expected return against systematic risk (beta), with slope equal to the market risk premium."
         },
         {
           "type": "paragraph",
@@ -476,7 +476,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 640,
           "height": 458,
-          "alt": "Instructional visual diagram or table: 73de09a9a85d8de3ae53.png"
+          "alt": "Figure 84.8: Capital Asset Pricing Model (CAPM) pricing graph showing fair expected return for any security given its systematic covariance risk beta."
         },
         {
           "type": "math",
@@ -576,7 +576,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 800,
           "height": 1077,
-          "alt": "Instructional visual diagram or table: 9bc56c65e5dbd991498b.png"
+          "alt": "Figure 84.9: Side-by-side comparison diagram of the Capital Market Line (total risk on horizontal axis) versus the Security Market Line (beta systematic risk on horizontal axis)."
         },
         {
           "type": "paragraph",
@@ -685,7 +685,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 697,
           "height": 427,
-          "alt": "Instructional visual diagram or table: c34a22880904740b85c0.png"
+          "alt": "Security Market Line evaluation graph showing undervalued Stock B plotting above the SML (positive alpha) and overvalued Stock A plotting below the SML (negative alpha)."
         },
         {
           "type": "heading",
@@ -744,7 +744,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 925,
           "height": 451,
-          "alt": "Instructional visual diagram or table: db07dafad4c5b4570ed2.png"
+          "alt": "Figure 84.10: Risk-adjusted performance diagram illustrating the Sharpe ratio as the slope of the line connecting the risk-free rate to the portfolio return."
         },
         {
           "type": "paragraph",
@@ -766,7 +766,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 775,
           "height": 389,
-          "alt": "Instructional visual diagram or table: e5d02d0e339378b8eb6b.png"
+          "alt": "Figure 84.11: Modigliani-Modigliani (M-squared) risk-adjusted performance measure diagram showing the excess return of a levered portfolio matched to market volatility."
         },
         {
           "type": "paragraph",
@@ -808,7 +808,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 772,
           "height": 460,
-          "alt": "Instructional visual diagram or table: a6f9f340aa67b6b629a0.png"
+          "alt": "Figure 84.12: Treynor ratio and Jensen's alpha evaluation diagram plotting portfolios against the Security Market Line."
         },
         {
           "type": "paragraph",

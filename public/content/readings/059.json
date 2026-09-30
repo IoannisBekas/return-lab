@@ -79,7 +79,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 877,
           "height": 532,
-          "alt": "Instructional visual diagram or table: 7a435d62f34d9005f653.png"
+          "alt": "Figure 59.1: Price-yield function of a callable bond exhibiting negative convexity at lower yields as price is capped near the call price."
         },
         {
           "type": "paragraph",
@@ -95,7 +95,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 967,
           "height": 494,
-          "alt": "Instructional visual diagram or table: d1e38ef8eea046d0f3c7.png"
+          "alt": "Figure 59.2: Comparison graph of price-yield curves for option-free, callable, and putable bonds showing price floors provided by put options."
         },
         {
           "type": "paragraph",

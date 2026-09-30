@@ -135,7 +135,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1004,
           "height": 562,
-          "alt": "Instructional visual diagram or table: dbce15c32e7f233b9acd.png"
+          "alt": "Figure 4.1: Probability tree diagram illustrating first-stage macroeconomic state probabilities and second-stage industry performance outcomes."
         },
         {
           "type": "paragraph",
@@ -200,7 +200,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 864,
           "height": 435,
-          "alt": "Instructional visual diagram or table: 0f8b04065cedff265396.png"
+          "alt": "Probability tree illustrating joint and conditional probabilities for stock performance (outperform vs. underperform) and subsequent price gains."
         },
         {
           "type": "paragraph",
@@ -250,7 +250,7 @@
       "visualKind": "diagram-chart-or-table",
       "width": 1750,
       "height": 950,
-      "alt": "Probability tree showing joint and conditional probabilities for events A, B, C, and D."
+      "alt": "Probability tree diagram showing joint and conditional probabilities for events A, B, C, and D across successive outcomes."
     },
     {
       "type": "paragraph",
@@ -389,7 +389,7 @@
               "visualKind": "diagram-chart-or-table",
               "width": 878,
               "height": 389,
-              "alt": "Instructional visual diagram or table: dc31279e9262d8e1f0de.png"
+              "alt": "Probability tree diagram illustrating conditional probabilities of analyst earnings forecast revisions given EPS threshold outcomes."
             }
           ]
         }

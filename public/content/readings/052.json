@@ -341,7 +341,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 849,
           "height": 485,
-          "alt": "Instructional visual diagram or table: 8adc7ab21674bb09ec87.png"
+          "alt": "Figure 52.1: Inverse price-yield curve for an 8% coupon bond illustrating convexity and asymmetric price changes for equal yield increases and decreases."
         },
         {
           "type": "heading",
@@ -361,7 +361,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 777,
           "height": 386,
-          "alt": "Instructional visual diagram or table: 484a28cf39e95750e504.png"
+          "alt": "Figure 52.2: Bond price convergence paths over time showing premium bond price pulling down to par and discount bond price pulling up to par at maturity."
         },
         {
           "type": "paragraph",
@@ -377,7 +377,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 997,
           "height": 546,
-          "alt": "Instructional visual diagram or table: eb35c23d463125aa873b.png"
+          "alt": "Figure 52.3: Comparative table outlining the relationship between coupon rate, current yield, and yield to maturity for premium, par, and discount bonds."
         },
         {
           "type": "question",

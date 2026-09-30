@@ -160,7 +160,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 999,
           "height": 590,
-          "alt": "Instructional visual diagram or table: 97e98af8fc5291307d5c.png"
+          "alt": "Figure 3.1: Box and whisker plot illustrating the minimum value, first quartile (Q1), median (Q2), third quartile (Q3), maximum value, and interquartile range."
         },
         {
           "type": "question",
@@ -444,7 +444,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 640,
           "height": 1096,
-          "alt": "Instructional visual diagram or table: 0abb7ae175098e266ea2.png"
+          "alt": "Figure 3.2: Comparison of probability distributions displaying the relative positions of mean, median, and mode under positive skewness, symmetry, and negative skewness."
         },
         {
           "type": "paragraph",
@@ -490,7 +490,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 723,
           "height": 308,
-          "alt": "Instructional visual diagram or table: 8b6dbaf0a943ad03050a.png"
+          "alt": "Figure 3.3: Probability density curves comparing leptokurtic (fat-tailed), mesokurtic (normal), and platykurtic (thin-tailed) kurtosis distributions."
         },
         {
           "type": "paragraph",
@@ -537,7 +537,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 942,
           "height": 826,
-          "alt": "Instructional visual diagram or table: 601aa84f8a5e0448fd55.png"
+          "alt": "Figure 3.4: Scatter plots illustrating positive linear correlation, negative linear correlation, and absence of linear relationship between two variables."
         },
         {
           "type": "paragraph",

@@ -551,7 +551,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 787,
           "height": 362,
-          "alt": "Instructional visual diagram or table: b411d4a82216ae464aef.png"
+          "alt": "Timeline diagram illustrating the calculation of a 1-year forward rate one year from today (1y1y) from 1-year and 2-year spot rates."
         },
         {
           "type": "paragraph",
@@ -689,7 +689,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 430,
           "height": 201,
-          "alt": "Instructional visual diagram or table: af267f54944c49376754.png"
+          "alt": "Figure 2.1: One-period binomial tree diagram showing stock price up-move and down-move paths with call option intrinsic values at expiration."
         },
         {
           "type": "paragraph",

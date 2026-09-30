@@ -26,7 +26,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 963,
           "height": 325,
-          "alt": "Instructional visual diagram or table: 64eafcc24c6871ad8c1d.png"
+          "alt": "Figure 83.1: Historical risk-return scatter plot of major U.S. asset classes (1926–2017) comparing small-cap stocks, large-cap stocks, corporate bonds, and Treasury bills."
         },
         {
           "type": "paragraph",
@@ -104,7 +104,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 774,
           "height": 531,
-          "alt": "Instructional visual diagram or table: 82dd442559bf99218e58.png"
+          "alt": "Figure 83.2: Convex indifference curves on a risk-return plane illustrating increasing investor utility toward the upper-left."
         },
         {
           "type": "paragraph",
@@ -152,7 +152,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 888,
           "height": 533,
-          "alt": "Instructional visual diagram or table: 7d4f3ed23815cd023232.png"
+          "alt": "Figure 83.3: Capital Allocation Line (CAL) plotting expected return against standard deviation for portfolios combining a risk-free asset with a risky asset basket."
         },
         {
           "type": "paragraph",
@@ -168,7 +168,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 772,
           "height": 527,
-          "alt": "Instructional visual diagram or table: d55fad9de3c1cc8c86a2.png"
+          "alt": "Figure 83.4: Indifference curves comparing risk-averse, risk-neutral, and risk-seeking investor utility profiles."
         },
         {
           "type": "paragraph",
@@ -184,7 +184,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 770,
           "height": 531,
-          "alt": "Instructional visual diagram or table: b5e73489a1bc733e739c.png"
+          "alt": "Figure 83.5: Portfolio selection diagram showing optimal portfolios as the points of tangency between the Capital Allocation Line and individual investors' indifference curves."
         }
       ]
     },
@@ -525,7 +525,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1014,
           "height": 427,
-          "alt": "Instructional visual diagram or table: 1db93d5da685ddbe21f7.png"
+          "alt": "Figure 83.6: Two-asset portfolio risk-return curves under varying correlation coefficients rho = +1.0, 0.0, and -1.0 demonstrating diversification benefits."
         },
         {
           "type": "paragraph",
@@ -558,7 +558,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 849,
           "height": 532,
-          "alt": "Instructional visual diagram or table: a2f54fe32d85ff40101f.png"
+          "alt": "Figure 83.7: Markowitz portfolio theory diagram showing the minimum-variance frontier and upper efficient frontier bounding all attainable risky portfolios."
         }
       ]
     }

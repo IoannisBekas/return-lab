@@ -107,7 +107,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 633,
           "height": 265,
-          "alt": "Instructional visual diagram or table: cdeaad3ccf1b311495a8.png"
+          "alt": "Figure 9.1: Contingency table format displaying observed frequencies across rows and columns for two categorical variables."
         },
         {
           "type": "paragraph",
@@ -171,7 +171,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 708,
           "height": 222,
-          "alt": "Instructional visual diagram or table: bcb83a7a80c17a1f4534.png"
+          "alt": "Figure 9.2: Contingency table of expected frequencies calculated under the null hypothesis of independence between row and column categories."
         },
         {
           "type": "paragraph",
@@ -187,7 +187,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 757,
           "height": 272,
-          "alt": "Instructional visual diagram or table: b0c855a8963d32275a89.png"
+          "alt": "Figure 9.3: Grid displaying calculated squared differences between observed and expected frequencies divided by expected frequencies for the Chi-square test."
         },
         {
           "type": "paragraph",

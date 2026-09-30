@@ -60,7 +60,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 999,
           "height": 593,
-          "alt": "Instructional visual diagram or table: 9da1c0fc74f15ff5640f.png"
+          "alt": "Figure 10.1: Scatter plot of stock excess returns against market index excess returns showing individual observation points."
         },
         {
           "type": "paragraph",
@@ -192,7 +192,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1006,
           "height": 612,
-          "alt": "Instructional visual diagram or table: d7950b109124bca7e783.png"
+          "alt": "Figure 10.2: Estimated ordinary least squares (OLS) regression line fitted through scatter plot points, indicating slope and intercept."
         },
         {
           "type": "heading",
@@ -285,7 +285,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 732,
           "height": 858,
-          "alt": "Instructional visual diagram or table: e9fe437d2cbb78649eeb.png"
+          "alt": "Figure 10.3: Scatter plot illustrating a curvilinear/nonlinear relationship between independent and dependent variables."
         },
         {
           "type": "heading",
@@ -305,7 +305,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 704,
           "height": 835,
-          "alt": "Instructional visual diagram or table: e378b5d3ab7a386e8075.png"
+          "alt": "Figure 10.4: Residual plot displaying heteroskedasticity with residual variance expanding as the independent variable increases."
         },
         {
           "type": "paragraph",
@@ -329,7 +329,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 740,
           "height": 833,
-          "alt": "Instructional visual diagram or table: 026b7fda06c5d5aea4d2.png"
+          "alt": "Figure 10.5: Residual plot illustrating independence and constant variance (homoskedasticity) with residuals randomly scattered around zero."
         },
         {
           "type": "heading",
@@ -427,7 +427,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 759,
           "height": 342,
-          "alt": "Instructional visual diagram or table: c8eb2e282deb8c77134a.png"
+          "alt": "Figure 10.6: Geometric partition diagram showing total deviation decomposed into explained deviation (regression) and unexplained deviation (residual error)."
         },
         {
           "type": "paragraph",
@@ -443,7 +443,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1032,
           "height": 280,
-          "alt": "Instructional visual diagram or table: 79f79c5f771dc0c6d232.png"
+          "alt": "Figure 10.7: Analysis of variance (ANOVA) table structure for simple linear regression showing degrees of freedom, sum of squares, mean squares, and F-statistic."
         },
         {
           "type": "heading",
@@ -823,7 +823,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 779,
           "height": 619,
-          "alt": "Instructional visual diagram or table: 507b49cf9328de958f2e.png"
+          "alt": "Figure 10.8: Residual plot exhibiting a parabolic pattern indicating model misspecification due to omitting a nonlinear term."
         },
         {
           "type": "paragraph",
@@ -869,7 +869,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 862,
           "height": 467,
-          "alt": "Instructional visual diagram or table: 563550489501c9e73a39.png"
+          "alt": "Figure 10.9: Log-linear regression plot showing natural log of earnings per share modeled against time with steady percentage growth."
         },
         {
           "type": "heading",

@@ -88,7 +88,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 659,
           "height": 184,
-          "alt": "Instructional visual diagram or table: 745bc52701b2b9451cfc.png"
+          "alt": "Figure 5.1: Covariance matrix layout for a three-asset portfolio (Assets A, B, and C) highlighting variances on the diagonal and pairwise covariances off-diagonal."
         },
         {
           "type": "paragraph",
@@ -162,7 +162,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 950,
           "height": 209,
-          "alt": "Instructional visual diagram or table: 9b0a3f99e30c7ffe5158.png"
+          "alt": "Figure 5.2: Three-asset covariance matrix showing calculated numerical variances and symmetric covariance values."
         },
         {
           "type": "paragraph",
@@ -212,7 +212,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 950,
           "height": 211,
-          "alt": "Instructional visual diagram or table: bb5e586146c55e47237c.png"
+          "alt": "Figure 5.3: Three-asset correlation matrix displaying unit values on the main diagonal and pairwise correlation coefficients between assets."
         },
         {
           "type": "paragraph",
@@ -322,7 +322,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 954,
           "height": 745,
-          "alt": "Instructional visual diagram or table: b77962b177f73d87f044.png"
+          "alt": "Figure 5.4: Roy's safety-first criterion diagram showing portfolio return distributions, threshold return level, and the shortfall risk area in the lower tail."
         },
         {
           "type": "paragraph",

@@ -265,7 +265,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 845,
           "height": 623,
-          "alt": "Instructional visual diagram or table: 9d67ea1966abf6100143.png"
+          "alt": "Figure 67.1: Payoff and profit/loss diagram for a long call option position showing unlimited upside potential above strike price and loss limited to option premium."
         },
         {
           "type": "heading",
@@ -301,7 +301,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 742,
           "height": 625,
-          "alt": "Instructional visual diagram or table: a95bfe5b80056592daae.png"
+          "alt": "Figure 67.2: Payoff and profit/loss diagram for a long put option position showing downside gains below strike price and loss limited to option premium."
         },
         {
           "type": "heading",

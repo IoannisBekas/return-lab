@@ -26,7 +26,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 834,
           "height": 659,
-          "alt": "Instructional visual diagram or table: 6b3f5a22c6fac9c014ac.png"
+          "alt": "Figure 58.1: Convex price-yield curve for an option-free 20-year bond demonstrating positive curvature and greater price increase than decrease for yield shifts."
         },
         {
           "type": "paragraph",
@@ -227,7 +227,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 955,
           "height": 571,
-          "alt": "Instructional visual diagram or table: 540393c39595254c6f51.png"
+          "alt": "Figure 58.2: Diagram comparing linear duration-based price approximation error against actual curved bond prices, highlighting the convexity adjustment."
         },
         {
           "type": "question",

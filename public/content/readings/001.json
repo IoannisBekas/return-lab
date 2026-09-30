@@ -161,7 +161,6 @@
           "display": true,
           "sourceAsset": "da5f3ab26dc5a13391a1.png"
         },
-
         {
           "type": "paragraph",
           "text": "In the previous example, the geometric mean results in an annual rate of return because the holding periods were years. If the holding periods are other than years, the geometric mean is not the same as the annual return. The root for the geometric mean is the number of periods, while the root for the annual return is the number of years."

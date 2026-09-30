@@ -162,7 +162,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 781,
           "height": 272,
-          "alt": "Instructional visual diagram or table: 3d8e55b607417527f927.png"
+          "alt": "Figure 25.1: Modigliani-Miller Proposition I (without taxes) graph showing firm value remaining constant regardless of leverage ratio."
         },
         {
           "type": "paragraph",
@@ -204,7 +204,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 678,
           "height": 454,
-          "alt": "Instructional visual diagram or table: d28e321fce19050c46cc.png"
+          "alt": "Figure 25.2: Modigliani-Miller Proposition II (without taxes) graph showing cost of equity rising linearly with debt-to-equity ratio while WACC remains constant."
         },
         {
           "type": "paragraph",
@@ -250,7 +250,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 742,
           "height": 456,
-          "alt": "Instructional visual diagram or table: a265036044abb2af4c89.png"
+          "alt": "Figure 25.3: Modigliani-Miller Proposition II (with corporate taxes) graph showing decreasing WACC due to the interest tax shield."
         },
         {
           "type": "paragraph",
@@ -309,7 +309,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 717,
           "height": 573,
-          "alt": "Instructional visual diagram or table: 59d8c89cd55cf0482eb1.png"
+          "alt": "Figure 25.4: Static tradeoff theory graph showing the U-shaped WACC curve reaching a minimum at optimal capital structure balancing tax shields against financial distress costs."
         },
         {
           "type": "paragraph",
@@ -325,7 +325,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 907,
           "height": 666,
-          "alt": "Instructional visual diagram or table: 3895bfd131e7a1d49018.png"
+          "alt": "Figure 25.5: Static tradeoff theory graph showing firm value peaking at optimal debt level where marginal tax shield equals marginal cost of financial distress."
         },
         {
           "type": "paragraph",

@@ -48,7 +48,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 430,
           "height": 199,
-          "alt": "Instructional visual diagram or table: 200010cf420acffe0c43.png"
+          "alt": "Figure 75.1: One-period binomial lattice diagram showing initial stock price S0 branching into up-state S1u and down-state S1d."
         },
         {
           "type": "math",
@@ -247,7 +247,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 496,
           "height": 199,
-          "alt": "Instructional visual diagram or table: 4c7ec7163d19385257e8.png"
+          "alt": "Figure 75.2: One-period binomial call option valuation lattice displaying derivative payoffs and risk-neutral probability calculation."
         },
         {
           "type": "paragraph",
@@ -321,7 +321,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 689,
           "height": 243,
-          "alt": "Instructional visual diagram or table: 673044e17d4a0215e36e.png"
+          "alt": "One-period binomial call option lattice with initial stock price $30 and strike price $30, showing up-step value $34.50 (call payoff $4.50) and down-step value $26.10 (call payoff $0.00)."
         },
         {
           "type": "paragraph",

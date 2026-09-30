@@ -30,7 +30,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 997,
           "height": 546,
-          "alt": "Instructional visual diagram or table: 56512ee0e05d283785ae.png"
+          "alt": "Figure 8.1: Flowchart illustrating the systematic seven-step hypothesis testing procedure from stating hypotheses to making the investment decision."
         },
         {
           "type": "paragraph",
@@ -82,7 +82,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 620,
           "height": 394,
-          "alt": "Instructional visual diagram or table: 62247c76b2a3dfe8951a.png"
+          "alt": "Figure 8.2: Standard normal distribution bell curve showing a two-tailed hypothesis test with critical values ±1.96 and rejection regions in both tails (alpha = 0.05)."
         },
         {
           "type": "paragraph",
@@ -186,7 +186,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 800,
           "height": 353,
-          "alt": "Instructional visual diagram or table: 2ccbecb6fc5317f7554b.png"
+          "alt": "Figure 8.3: Decision grid table defining Type I error (rejecting true null) and Type II error (failing to reject false null) against true state of nature."
         },
         {
           "type": "paragraph",
@@ -397,7 +397,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 701,
           "height": 494,
-          "alt": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 120."
+          "alt": "Student's t-distribution curve with 120 degrees of freedom showing two-tailed rejection regions and critical values at ±1.980 for alpha = 0.05."
         },
         {
           "type": "paragraph",
@@ -501,7 +501,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 674,
           "height": 488,
-          "alt": "Student's t-distribution two-tailed rejection regions and critical values at alpha = 0.05 and df = 38."
+          "alt": "Student's t-distribution curve with 38 degrees of freedom showing two-tailed rejection regions and critical values at ±2.024 for alpha = 0.05."
         },
         {
           "type": "paragraph",
@@ -577,7 +577,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 609,
           "height": 486,
-          "alt": "Instructional visual diagram or table: fd24dc32709058032574.png"
+          "alt": "Figure 8.4: Chi-square (χ²) distribution curve showing critical rejection regions for testing the variance of a normally distributed population."
         },
         {
           "type": "heading",
@@ -589,7 +589,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 909,
           "height": 265,
-          "alt": "Instructional visual diagram or table: ec0853b98c6f21d14c84.png"
+          "alt": "Figure 8.4: Detailed Chi-square test decision rule diagram showing asymmetric rejection boundaries for a two-tailed test of variance."
         },
         {
           "type": "paragraph",
@@ -657,7 +657,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 699,
           "height": 541,
-          "alt": "Instructional visual diagram or table: 1f29a430552ac9b5702b.png"
+          "alt": "Chi-squared distribution curve with 23 degrees of freedom showing lower critical value 11.689 and upper critical value 38.076 for alpha = 0.05."
         },
         {
           "type": "paragraph",
@@ -733,7 +733,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 599,
           "height": 526,
-          "alt": "Instructional visual diagram or table: d08a345f77902d0c0c6d.png"
+          "alt": "Figure 8.6: F-distribution curve showing the right-skewed shape, lower bound at zero, and upper-tail rejection region for comparing two sample variances."
         },
         {
           "type": "paragraph",
@@ -795,7 +795,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 590,
           "height": 522,
-          "alt": "Instructional visual diagram or table: 510d77a276c7184557a9.png"
+          "alt": "F-distribution curve with degrees of freedom (30, 40) showing upper 2.5% rejection region and critical value 1.94."
         },
         {
           "type": "paragraph",

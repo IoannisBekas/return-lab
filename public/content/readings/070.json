@@ -95,7 +95,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 952,
           "height": 224,
-          "alt": "Instructional visual diagram or table: 6c280119591a1c902e62.png"
+          "alt": "Figure 70.1: Forward contract timeline diagram illustrating inception pricing (value = 0), intermediate valuation, and expiration settlement."
         },
         {
           "type": "paragraph",
@@ -143,7 +143,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 477,
           "height": 226,
-          "alt": "Instructional visual diagram or table: 17e494178314731d85e6.png"
+          "alt": "Figure 70.2: Timeline diagram illustrating the no-arbitrage implied forward rate relationship across multi-period compounding terms."
         },
         {
           "type": "paragraph",
@@ -191,7 +191,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 955,
           "height": 492,
-          "alt": "Instructional visual diagram or table: 166332d92fa56b78f1dd.png"
+          "alt": "Figure 70.3: Timeline illustrating cash flows and settlement conventions for a 3-month forward rate agreement on a 6-month market reference rate (FRA 3x9)."
         },
         {
           "type": "heading",

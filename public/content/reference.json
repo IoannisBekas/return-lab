@@ -147,7 +147,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1021,
           "height": 1551,
-          "alt": "Instructional visual diagram or table: 236c50cbc08d6783fb2c.png"
+          "alt": "Cumulative standard normal distribution table providing left-tail probabilities P(Z <= z) for negative Z-values from -3.4 to 0.0."
         },
         {
           "type": "heading",
@@ -167,7 +167,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1017,
           "height": 1394,
-          "alt": "Instructional visual diagram or table: d6ad52dc87eef482d15b.png"
+          "alt": "Cumulative standard normal distribution table providing left-tail probabilities P(Z <= z) for non-negative Z-values from 0.0 to 3.0."
         },
         {
           "type": "heading",
@@ -179,7 +179,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 993,
           "height": 1457,
-          "alt": "Instructional visual diagram or table: 5463b8f4d7dbe4792cb4.png"
+          "alt": "Student's t-distribution critical values table showing t-scores for selected one-tailed and two-tailed significance levels across degrees of freedom."
         },
         {
           "type": "heading",
@@ -203,7 +203,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1126,
           "height": 1171,
-          "alt": "Instructional visual diagram or table: 4c03d785ccda6e4dbc55.png"
+          "alt": "F-distribution critical values table at the 5% level of significance in the upper tail across numerator and denominator degrees of freedom."
         },
         {
           "type": "heading",
@@ -227,7 +227,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1269,
           "height": 1171,
-          "alt": "Instructional visual diagram or table: a5cbb7719f7458f34a22.png"
+          "alt": "F-distribution critical values table at the 2.5% level of significance in the upper tail across numerator and denominator degrees of freedom."
         },
         {
           "type": "heading",
@@ -247,7 +247,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 1113,
           "height": 1295,
-          "alt": "Instructional visual diagram or table: fd7cdf02d96a2690be89.png"
+          "alt": "Chi-squared (χ²) distribution critical values table showing right-tail critical values across various degrees of freedom."
         }
       ]
     },

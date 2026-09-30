@@ -38,7 +38,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 554,
           "height": 507,
-          "alt": "Instructional visual diagram or table: 5cd0c5a01fc33431d8a2.png"
+          "alt": "Figure 73.1: Call option moneyness diagram displaying in-the-money (S > X), at-the-money (S = X), and out-of-the-money (S < X) price zones."
         },
         {
           "type": "paragraph",
@@ -58,7 +58,7 @@
           "visualKind": "diagram-chart-or-table",
           "width": 564,
           "height": 506,
-          "alt": "Instructional visual diagram or table: 4a6b87d49267dda413df.png"
+          "alt": "Figure 73.2: Put option moneyness diagram displaying in-the-money (S < X), at-the-money (S = X), and out-of-the-money (S > X) price zones."
         },
         {
           "type": "heading",
