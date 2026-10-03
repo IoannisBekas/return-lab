@@ -25,6 +25,7 @@
   --red: #d64158;
   --blue: #a8c3cd;
   --mono: "IBM Plex Mono", monospace;
+  --sans: "Outfit", Arial, sans-serif;
 }
 
 * {
@@ -1709,3 +1710,47 @@ footer small {
     transition-duration: 0.01ms !important;
   }
 }
+
+.mobile-menu-toggle, .lesson-outline-toggle { display: none; }
+.resume-context { margin: 18px 0 0; color: #485257; font-size: 15px; line-height: 1.5; }
+.study-dashboard { display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, .65fr); gap: 40px; padding: 42px 6vw; border-bottom: 1px solid var(--line); background: var(--white); }
+.study-dashboard h2 { margin: 14px 0; font-size: clamp(26px, 3vw, 40px); line-height: 1.15; font-weight: 550; }
+.study-dashboard p { max-width: 65ch; line-height: 1.6; }
+.study-dashboard-actions { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 18px; }
+.study-dashboard-actions button { padding: 0; background: none; border: 0; cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+.study-dashboard-actions .primary-action { white-space: normal; }
+.progress-strip p a { display: inline-block; padding: 6px 0; text-decoration: underline; text-underline-offset: 4px; }
+.reading-mastery-summary { color: #485257 !important; margin-top: 16px !important; letter-spacing: 0 !important; text-transform: none !important; font: 14px/1.5 var(--sans) !important; }
+.guided-study-toggle { padding: 28px 0; border-bottom: 1px solid var(--line); }
+.guided-study-toggle h2 { font-size: 25px; line-height: 1.2; font-weight: 550; }
+.guided-study-toggle p { max-width: 70ch; line-height: 1.6; color: #485257; }
+.guided-study-toggle button { min-height: 44px; padding: 12px 18px; background: var(--ink); color: var(--white); border: 1px solid var(--ink); cursor: pointer; }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid var(--red); outline-offset: 4px; }
+@media (max-width: 1100px) {
+  .site-header { grid-template-columns: minmax(0, 1fr) auto auto; gap: 14px; }
+  .mobile-menu-toggle { display: block; min-height: 44px; padding: 8px 12px; background: var(--white); border: 1px solid var(--ink); cursor: pointer; }
+  .site-header nav.is-open { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); position: absolute; top: 100%; left: 0; right: 0; gap: 0; padding: 12px 20px; background: var(--paper); border-bottom: 1px solid var(--ink); box-shadow: 0 8px 16px #171b2014; }
+  .site-header nav.is-open a { min-height: 44px; display: flex; align-items: center; padding: 12px; }
+}
+@media (max-width: 760px) {
+  .site-header { gap: 8px; padding-inline: 14px; }
+  .brand { gap: 8px; font-size: 13px; letter-spacing: .08em; }
+  .brand img { width: 30px; height: 30px; }
+  .header-progress { font-size: 14px; }
+  .mobile-menu-toggle { padding-inline: 10px; font-size: 13px; }
+  .study-dashboard { grid-template-columns: 1fr; padding: 28px 22px; gap: 14px; }
+  .hero-media { min-height: 220px; height: 260px; }
+  .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topic-card { min-height: 154px; padding: 18px 14px; }
+  .topic-card h3 { font-size: 17px; overflow-wrap: anywhere; }
+  .topic-card img { width: 30px; height: 30px; }
+  .lesson-outline { position: sticky; top: 66px; z-index: 15; padding: 0 16px; max-height: min(65vh, 540px); overflow-y: auto; background: var(--paper); box-shadow: 0 4px 12px #171b2010; }
+  .desktop-outline-heading { display: none; }
+  .lesson-outline-toggle { width: 100%; min-height: 48px; display: flex; justify-content: space-between; align-items: center; border: 0; background: transparent; font-weight: 600; cursor: pointer; }
+  .lesson-outline ol { display: none; margin: 0 0 12px; }
+  .lesson-outline ol.is-open { display: block; }
+  .lesson-outline a { min-height: 44px; display: flex; align-items: center; }
+  .overview-card h2 { font-size: clamp(27px, 7.5vw, 40px); }
+  .lesson-content [id] { scroll-margin-top: 132px; }
+}
+@media print { .site-header, .lesson-outline, .study-dashboard-actions, .guided-study-toggle { display: none !important; } }

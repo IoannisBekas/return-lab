@@ -1,9 +1,12 @@
 import { Component, lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import curriculumData from "./data/manifest.json";
+import { getReadingProgress, rememberStudyPosition, readStudyState, studyPositionRoute, useStudyState } from "./lib/learning";
 
 const GoldLesson = lazy(() => import("./components/learning/GoldLesson"));
 const FullReading = lazy(() => import("./components/learning/FullReading"));
 const ReferenceLibrary = lazy(() => import("./components/learning/ReferenceLibrary"));
+const ReviewPage = lazy(() => import("./components/learning/ReviewPage"));
+type AppRoute = number | "reference" | "review" | null;
 
 type ModuleSummary = {
   id: string;
@@ -59,7 +62,8 @@ class LessonErrorBoundary extends Component<{ children: ReactNode }, { failed: b
 }
 
 function readRoute() {
-  if (/^#\/reference(?:\/|$)/.test(window.location.hash)) return "reference";
+  if (/^#\/reference(?:[/?]|$)/.test(window.location.hash)) return "reference";
+  if (/^#\/review(?:[/?]|$)/.test(window.location.hash)) return "review";
   const match = window.location.hash.match(/^#\/reading\/(\d+)/);
   return match ? Number(match[1]) : null;
 }
@@ -89,7 +93,7 @@ function openReading(number: number) {
 }
 
 function App() {
-  const [readingNumber, setReadingNumber] = useState<number | "reference" | null>(() =>
+  const [readingNumber, setReadingNumber] = useState<AppRoute>(() =>
     readRoute(),
   );
   const reading = readingNumber === null
@@ -99,11 +103,13 @@ function App() {
 
   useEffect(() => {
     const updateRoute = () => {
-      setReadingNumber(readRoute());
+      const route = readRoute();
+      setReadingNumber(route);
+      if (typeof route === "number") rememberStudyPosition(route, readSection() || undefined, new URLSearchParams(window.location.hash.split("?")[1]).get("question") || undefined);
       scrollToRouteSection();
     };
     window.addEventListener("hashchange", updateRoute);
-    scrollToRouteSection();
+    updateRoute();
     return () => window.removeEventListener("hashchange", updateRoute);
   }, []);
 
@@ -128,6 +134,8 @@ function App() {
       <Header completed={complete.length} />
       {readingNumber === "reference" ? (
         <LessonErrorBoundary><Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the reference…</p>}><ReferenceLibrary /></Suspense></LessonErrorBoundary>
+      ) : readingNumber === "review" ? (
+        <LessonErrorBoundary><Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Preparing your review…</p>}><ReviewPage /></Suspense></LessonErrorBoundary>
       ) : readingNumber !== null && reading ? (
         <LessonPage
           key={reading.number}
@@ -156,27 +164,39 @@ function ReadingLoadState({ error }: { error: string }) {
 }
 
 function Header({ completed }: { completed: number }) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuButton = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    const close = () => setMenuOpen(false);
+    const escape = (event: KeyboardEvent) => { if (event.key === "Escape" && menuButton.current?.getAttribute("aria-expanded") === "true") { close(); menuButton.current.focus(); } };
+    window.addEventListener("hashchange", close);
+    window.addEventListener("keydown", escape);
+    return () => { window.removeEventListener("hashchange", close); window.removeEventListener("keydown", escape); };
+  }, []);
   return (
     <header className="site-header">
       <a className="brand" href="#/" aria-label="Return Lab home">
         <img src={asset("assets/generated/brand-mark.png")} alt="" />
         <span>RETURN LAB</span>
       </a>
-      <nav aria-label="Primary navigation">
+      <button ref={menuButton} className="mobile-menu-toggle" type="button" aria-expanded={menuOpen} aria-controls="primary-navigation" onClick={() => setMenuOpen((open) => !open)}>{menuOpen ? "Close menu" : "Menu"}</button>
+      <nav id="primary-navigation" className={menuOpen ? "is-open" : ""} aria-label="Primary navigation" onClick={() => setMenuOpen(false)}>
         <a href="#/section/curriculum">Curriculum</a>
         <a href="#/section/topics">Topics</a>
         <a href="#/reference">Reference</a>
+        <a href="#/review">Review</a>
         <a href="#/section/progress">Progress</a>
       </nav>
       <div className="header-progress">
         <span>{completed}/93</span>
-        <small>readings complete</small>
+        <small>readings read</small>
       </div>
     </header>
   );
 }
 
 function HomePage({ complete }: { complete: number[] }) {
+  const study = useStudyState();
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState("All topics");
 
@@ -198,6 +218,9 @@ function HomePage({ complete }: { complete: number[] }) {
   const nextReading = curriculum.find(
     (reading) => !complete.includes(reading.number),
   );
+  const resumeReading = curriculum.find((reading) => reading.number === study.resume?.readingId);
+  const dueReviews = Object.values(study.questions).filter((question) => question.dueAt <= Date.now()).length;
+  const mastered = curriculum.filter((reading) => getReadingProgress(study, reading.number, complete.includes(reading.number)).status === "Mastered").length;
 
   return (
     <main>
@@ -213,14 +236,15 @@ function HomePage({ complete }: { complete: number[] }) {
           <div className="hero-actions">
             <button
               className="primary-action"
-              onClick={() => openReading(nextReading?.number || 1)}
+              onClick={() => { if (study.resume) window.location.hash = studyPositionRoute(study.resume).slice(1); else openReading(nextReading?.number || 1); }}
               type="button"
             >
-              {complete.length ? "Continue learning" : "Start reading 01"}
+              {resumeReading ? `Resume reading ${String(resumeReading.number).padStart(2, "0")}` : complete.length ? "Continue learning" : "Start reading 01"}
               <span aria-hidden="true">→</span>
             </button>
             <a href="#/section/curriculum">Explore all readings</a>
           </div>
+          {resumeReading ? <p className="resume-context">{resumeReading.title}{study.resume?.questionId ? " · saved question" : study.resume?.sectionId ? " · saved section" : ""}</p> : null}
           <dl className="hero-stats">
             <div>
               <dt>93</dt>
@@ -244,10 +268,14 @@ function HomePage({ complete }: { complete: number[] }) {
           <span className="section-code">YOUR PROGRESS</span>
           <strong>{Math.round((complete.length / 93) * 100)}%</strong>
         </div>
-        <div className="progress-bar" aria-label={`${complete.length} of 93 readings complete`}>
+        <div className="progress-bar" aria-label={`${complete.length} of 93 readings read`}>
           <span style={{ width: `${(complete.length / 93) * 100}%` }} />
         </div>
-        <p>{complete.length} complete / {93 - complete.length} remaining</p>
+        <p>{complete.length} read · {mastered} mastered<br /><a href="#/review">{dueReviews} question{dueReviews === 1 ? "" : "s"} due for review →</a></p>
+      </section>
+      <section className="study-dashboard" aria-label="Your study plan">
+        <div><span className="section-code">YOUR NEXT SESSION</span><h2>{resumeReading ? resumeReading.title : "Start with a single module."}</h2><p>Study a module, check your understanding, then revisit the concepts that need practice.</p></div>
+        <div className="study-dashboard-actions"><a className="primary-action" href={study.resume ? studyPositionRoute(study.resume) : "#/reading/1"}>{resumeReading ? "Resume saved position" : "Start learning"} →</a><a href="#/review">Review mistakes and due questions →</a><button type="button" onClick={() => openReading(nextReading?.number || 1)}>Next unread reading →</button></div>
       </section>
 
       <section className="topic-section" id="topics">
@@ -338,8 +366,8 @@ function HomePage({ complete }: { complete: number[] }) {
                 </ul>
               </div>
               <div className="reading-actions">
-                <span className={complete.includes(reading.number) ? "status done" : "status"}>
-                  {complete.includes(reading.number) ? "Complete" : "Ready"}
+                <span className={getReadingProgress(study, reading.number, complete.includes(reading.number)).status === "Mastered" || complete.includes(reading.number) ? "status done" : "status"}>
+                  {getReadingProgress(study, reading.number, complete.includes(reading.number)).status}
                 </span>
                 <button onClick={() => openReading(reading.number)} type="button">
                   Open lesson <span aria-hidden="true">→</span>
@@ -364,6 +392,27 @@ function LessonPage({
 }) {
   const previous = curriculum[reading.number - 2];
   const next = curriculum[reading.number];
+  const study = useStudyState();
+  const progress = getReadingProgress(study, reading.number, complete);
+  const [outlineOpen, setOutlineOpen] = useState(false);
+  const [guidedOpen, setGuidedOpen] = useState(() => /\/section\/(deep-|assessment-|learning-lab)/.test(window.location.hash));
+
+  useEffect(() => {
+    const update = () => { if (/\/section\/(deep-|assessment-|learning-lab)/.test(window.location.hash)) setGuidedOpen(true); setOutlineOpen(false); };
+    window.addEventListener("hashchange", update);
+    let timer: ReturnType<typeof setTimeout>;
+    const saveVisibleSection = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const sections = Array.from(document.querySelectorAll<HTMLElement>(".lesson-content [id]"))
+          .filter((element) => /^(full-module-|deep-module-|assessment-|full-quiz$|full-review$|deep-assessment$|knowledge-check$|return-lab$|learning-lab$)/.test(element.id));
+        const visible = sections.filter((element) => { const box = element.getBoundingClientRect(); return box.top <= 180 && box.bottom > 100; }).pop();
+        if (visible) rememberStudyPosition(reading.number, visible.id, visible.id === "full-quiz" ? readStudyState().quizPositions[reading.number] : undefined);
+      }, 350);
+    };
+    window.addEventListener("scroll", saveVisibleSection, { passive: true });
+    return () => { clearTimeout(timer); window.removeEventListener("hashchange", update); window.removeEventListener("scroll", saveVisibleSection); };
+  }, [reading.number]);
 
   useEffect(() => {
     document.title = `${String(reading.number).padStart(2, "0")} ${reading.title} | Return Lab`;
@@ -381,20 +430,22 @@ function LessonPage({
           <p>{reading.topic}</p>
           <h1>{reading.title}</h1>
           <strong>Complete lesson · guided practice</strong>
+          <p className="reading-mastery-summary">{progress.status}{progress.total ? ` · ${progress.correct}/${progress.total} practice questions correct` : ""}</p>
         </div>
         <button
           className={complete ? "complete-action is-complete" : "complete-action"}
           onClick={onToggleComplete}
           type="button"
         >
-          {complete ? "✓ Reading complete" : "Mark reading complete"}
+          {complete ? "✓ Marked as read" : "Mark as read"}
         </button>
       </header>
 
       <div className="lesson-layout">
         <aside className="lesson-outline">
-          <span className="section-code">IN THIS READING</span>
-          <ol>
+          <button className="lesson-outline-toggle" type="button" aria-expanded={outlineOpen} aria-controls="lesson-outline-links" onClick={() => setOutlineOpen((open) => !open)}>In this reading <span aria-hidden="true">{outlineOpen ? "−" : "+"}</span></button>
+          <span className="section-code desktop-outline-heading">IN THIS READING</span>
+          <ol id="lesson-outline-links" className={outlineOpen ? "is-open" : ""} onClick={() => setOutlineOpen(false)}>
             <li><a href={`#/reading/${reading.number}/section/overview`}>Core idea</a></li>
             <li><a href={`#/reading/${reading.number}/section/full-reading`}>Complete lesson</a></li>
             {reading.modules.map((module) => (
@@ -404,8 +455,10 @@ function LessonPage({
             <li><a href={`#/reading/${reading.number}/section/deep-dive`}>Guided examples and practice</a></li>
             <li><a href={`#/reading/${reading.number}/section/deep-assessment`}>Application check</a></li>
             {reading.number === 1 ? <li><a href={`#/reading/${reading.number}/section/return-lab`}>Interactive return lab</a></li> : null}
+            {[70, 74, 75, 92].includes(reading.number) ? <li><a href={`#/reading/${reading.number}/section/learning-lab`}>Interactive learning lab</a></li> : null}
             <li><a href={`#/reading/${reading.number}/section/knowledge-check`}>Reflection check</a></li>
             <li><a href="#/reference">Formula and statistical reference</a></li>
+            <li><a href="#/review">My review plan</a></li>
           </ol>
         </aside>
 
@@ -427,11 +480,12 @@ function LessonPage({
             </Suspense>
           </LessonErrorBoundary>
 
-          <LessonErrorBoundary key={reading.number}>
+          <section className="guided-study-toggle"><h2>Guided examples and application practice</h2><p>Work through examples, explore the interactive lab, and complete the application check. Mastery requires attempting both the module quiz and application check, with at least 80% correct.</p><button type="button" aria-expanded={guidedOpen} aria-controls="guided-study-content" onClick={() => setGuidedOpen((open) => !open)}>{guidedOpen ? "Hide guided practice" : "Open guided practice"}</button></section>
+          {guidedOpen ? <div id="guided-study-content"><LessonErrorBoundary key={reading.number}>
             <Suspense fallback={<p className="deep-lesson-loading" aria-live="polite">Loading the lesson…</p>}>
               <GoldLesson readingId={reading.number} />
             </Suspense>
-          </LessonErrorBoundary>
+          </LessonErrorBoundary></div> : null}
 
           {reading.number === 1 ? <ReturnCalculator /> : null}
           <KnowledgeCheck reading={reading} />

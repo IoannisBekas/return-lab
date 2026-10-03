@@ -1,4 +1,5 @@
 import { useId, useState, type ReactNode } from "react";
+import { ExploreChallenge } from "./ActivityLab";
 import "./FinanceVisuals.css";
 
 const percent = (value: number) => `${(value * 100).toFixed(2)}%`;
@@ -154,6 +155,7 @@ export function DurationPriceCurve({ faceValue = 100, couponRate = 0.05, maturit
       <dl className="fv-results"><div><dt>Exact price</dt><dd>{number(exact)}</dd></div><div><dt>Duration estimate</dt><dd>{number(estimate)}</dd></div><div><dt>Modified duration</dt><dd>{number(modifiedDuration)} years</dd></div></dl>
       <p className="fv-note">Annual coupons, fixed cash flows, no embedded options; valuation is immediately after a coupon payment. ΔP/P ≈ −modified duration × Δyield. The yield change is entered as a decimal (100 bp = 0.01). The approximation can become unreliable for large changes.</p>
       <DataTable caption="Selected yield and bond valuation" headers={["Measure", "Value"]} rows={[["Yield", percent(selectedYield)], ["Exact price", number(exact)], ["Duration estimate", number(estimate)], ["Exact minus estimate", number(exact - estimate)], ["Exact price change", percent(exact / currentPrice - 1)]]} />
+      <ExploreChallenge storageId={`duration-${faceValue}-${couponRate}-${maturityYears}-${baseYield}`} prompt="Predict the price direction when this fixed-cash-flow bond’s yield rises by 100 basis points." choices={["The price rises", "The price falls", "The price is unchanged"]} correctIndex={1} changeInstruction="Move the yield-change slider from 0 to +100 basis points. Compare exact repricing with the duration estimate." changed={shockBps === 100} explanation={`The discount rate rises, so the present value falls from ${number(currentPrice)} to ${number(bondPrice(faceValue, couponRate, maturityYears, baseYield + 0.01))}. Duration estimates ${number(currentPrice * (1 - modifiedDuration * 0.01))}. Convexity explains why the exact price is above the tangent-line estimate in this fixed-cash-flow model.`} onStart={() => setShockBps(0)} />
     </figure>
   );
 }
@@ -207,6 +209,7 @@ export function EfficientFrontier({ returnA = 0.06, returnB = 0.10, volatilityA 
       <dl className="fv-results"><div><dt>Expected return</dt><dd>{percent(selected.expectedReturn)}</dd></div><div><dt>Volatility</dt><dd>{percent(selected.risk)}</dd></div><div><dt>Within this set</dt><dd>{efficient ? "Efficient segment" : "Dominated segment"}</dd></div></dl>
       <p className="fv-note">A: {percent(returnA)} expected return, {percent(volatilityA)} volatility. B: {percent(returnB)} expected return, {percent(volatilityB)} volatility. Weights sum to 100%; no short selling or risk-free asset. These are illustrative assumptions, not forecasts. “Efficient” describes only this two-asset set.</p>
       <DataTable caption="Two-asset portfolio examples at the selected correlation" headers={["Weight in B", "Expected return", "Volatility"]} rows={[0, 0.25, 0.5, 0.75, 1].map((weight) => { const point = portfolio(weight); return [percent(weight), percent(point.expectedReturn), percent(point.risk)]; })} />
+      <ExploreChallenge storageId={`portfolio-${returnA}-${returnB}-${volatilityA}-${volatilityB}`} prompt="At 50/50 weights, predict what happens when correlation falls from +0.2 to −0.5 while the asset return and volatility inputs stay fixed." choices={["Volatility falls; expected return stays the same", "Volatility and expected return both fall", "Volatility rises; expected return stays the same"]} correctIndex={0} changeInstruction="Keep Asset B at 50%; move correlation to −0.5." changed={weightB === 50 && Math.abs(correlation + 0.5) < 1e-9} explanation={`The covariance term falls, reducing volatility from ${percent(Math.sqrt(0.25 * volatilityA ** 2 + 0.25 * volatilityB ** 2 + 0.1 * volatilityA * volatilityB))} to ${percent(Math.sqrt(0.25 * volatilityA ** 2 + 0.25 * volatilityB ** 2 - 0.25 * volatilityA * volatilityB))}. Expected return remains ${percent((returnA + returnB) / 2)} because correlation does not enter the weighted-mean equation.`} onStart={() => { setCorrelation(0.2); setWeightB(50); }} />
     </figure>
   );
 }
@@ -783,4 +786,3 @@ export function DuPontDecomposition() {
     </figure>
   );
 }
-

@@ -39,17 +39,19 @@
 
 .reference-mode-switch {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
 .reference-mode-btn {
-  height: 44px;
-  padding: 0 18px;
+  min-height: 44px;
+  padding: 9px 18px;
   border: 1px solid var(--ink, #171b20);
   background: #fff;
   color: var(--ink, #171b20);
   font: 14px var(--sans, sans-serif);
   font-weight: 600;
+  line-height: 1.35;
   cursor: pointer;
   transition: all 0.15s ease;
 }
@@ -60,12 +62,13 @@
 }
 
 .reference-print-btn {
-  height: 44px;
-  padding: 0 14px;
+  min-height: 44px;
+  padding: 9px 14px;
   border: 1px solid #737c78;
   background: transparent;
   color: var(--ink, #171b20);
   font: 14px var(--sans, sans-serif);
+  line-height: 1.35;
   cursor: pointer;
 }
 
@@ -76,7 +79,8 @@
 }
 
 .reference-chip {
-  padding: 6px 14px;
+  min-height: 38px;
+  padding: 8px 14px;
   border: 1px solid var(--line, #cdd2ce);
   background: #fff;
   color: #485257;
@@ -102,6 +106,29 @@
   color: #485257;
   margin: -10px 0 16px;
 }
+.reference-intro .reference-formula-hint { margin-top: 10px; font-size: 14px; line-height: 1.5; color: #485257; }
+
+.reference-entry {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 110px;
+}
+
+.reference-entry:last-child { border-bottom: 0; }
+.reference-lesson-link { display: inline-block; margin-top: 12px; font-size: 14px; color: #285d70; }
+.reference-content { min-width: 0; }
+@media screen {
+  .reference-page .math-text--display { height: auto !important; overflow-x: auto; overflow-y: hidden; padding: 4px 0; }
+  .reference-page .math-text--display .katex-display { transform: none !important; width: auto !important; }
+}
+.reference-outline-toggle { display: none; }
+.reference-review-queue { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.reference-review-queue p { flex: 1 1 280px; margin: 0 0 0 8px; color: #485257; font-size: 14px; }
+.reference-review-queue button { min-height: 40px; padding: 8px 14px; border: 1px solid var(--ink); background: #fff; font: 14px var(--sans); cursor: pointer; }
+.reference-review-queue button.active { background: var(--ink); color: #fff; }
+.flashcard-review-message, .flashcard-next-review { font-size: 14px; color: #485257; overflow-wrap: anywhere; }
+.flashcard-review-message:empty { display: none; }
 
 /* Flashcard Mode Styles */
 .reference-flashcard-stage {
@@ -163,8 +190,9 @@
 .flashcard-reveal-btn {
   align-self: flex-start;
   margin: 20px 0 10px;
-  height: 48px;
-  padding: 0 24px;
+  min-height: 48px;
+  padding: 12px 24px;
+  line-height: 1.35;
   background: var(--ink, #171b20);
   color: #fff;
   font: 15px var(--sans, sans-serif);
@@ -179,6 +207,10 @@
   background: #fbfcf9;
   border: 1px solid var(--line, #cdd2ce);
   border-left: 4px solid #285d70;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  overflow-x: auto;
+  scroll-margin-top: 110px;
 }
 
 .flashcard-answer-box .full-reading-math {
@@ -217,17 +249,21 @@
 
 .flashcard-rating-actions {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .flashcard-rate-btn {
-  height: 40px;
-  padding: 0 16px;
+  min-height: 44px;
+  padding: 8px 16px;
   font: 13px var(--mono, monospace);
   font-weight: 600;
   border: 1px solid;
   cursor: pointer;
 }
+
+.flashcard-rate-btn small { display: block; margin-top: 5px; font: 12px var(--sans); }
+.flashcard-rate-btn.hard { background: #fff; border-color: #7d570d; color: #7d570d; }
 
 .flashcard-rate-btn.needs-review {
   background: #fff;
@@ -253,17 +289,44 @@
 
 .flashcard-nav-buttons {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
 }
 
 .flashcard-nav-buttons button {
-  height: 40px;
-  padding: 0 16px;
+  min-height: 44px;
+  padding: 8px 16px;
   background: #fff;
   border: 1px solid var(--ink, #171b20);
   color: var(--ink, #171b20);
   font: 13px var(--mono, monospace);
   cursor: pointer;
+}
+
+.flashcard-nav-buttons button:disabled { cursor: default; color: #66706c; border-color: #b5beb8; background: #f1f3ef; }
+
+@media (max-width: 1100px) {
+  .reference-page .lesson-layout { grid-template-columns: minmax(0, 1fr); }
+  .reference-outline-toggle { display: block; position: sticky; top: 90px; z-index: 3; min-height: 44px; width: 100%; padding: 10px 14px; border: 1px solid var(--line); background: #fff; text-align: left; font: 15px var(--sans); }
+  .reference-page .lesson-outline { display: none; position: static; max-height: none; padding: 18px; border: 1px solid var(--line); }
+  .reference-page .lesson-outline.reference-outline-open { display: block; }
+}
+
+@media (max-width: 600px) {
+  .reference-tools-bar { padding: 14px; gap: 12px; }
+  .reference-search-wrapper { flex-basis: 100%; min-width: 0; }
+  .reference-mode-switch { width: 100%; }
+  .reference-mode-btn { flex: 1 1 135px; padding: 10px 12px; }
+  .reference-print-btn { flex: 1 1 100%; }
+  .reference-chip { font-size: 12px; padding: 8px 10px; }
+  .reference-review-queue p { margin: 4px 0 0; }
+  .reference-flashcard-stage { padding: 16px; }
+  .flashcard-answer-box { padding: 14px; }
+  .flashcard-nav-buttons { width: 100%; }
+  .flashcard-nav-buttons button { flex: 1 1 85px; padding: 8px 10px; }
+  .flashcard-rating-actions { width: 100%; }
+  .flashcard-rate-btn { flex: 1 1 75px; padding: 8px 10px; }
+  .flashcard-reveal-btn { width: 100%; padding: 12px; }
 }
 
 .flashcard-nav-buttons button:hover {
@@ -282,6 +345,7 @@
   .reference-print-btn {
     display: none !important;
   }
+  .reference-outline-toggle, .reference-lesson-link { display: none !important; }
   .reference-page,
   .lesson-layout,
   .reference-content {

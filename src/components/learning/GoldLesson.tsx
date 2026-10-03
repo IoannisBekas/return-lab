@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import {
   goldDecisionLessonDetails,
   type AssessmentItem,
@@ -31,6 +31,8 @@ import {
   YieldCurveTermStructure,
 } from "./FinanceVisuals";
 import { MathText } from "./MathText";
+import { BinomialLab, ForwardPricingLab, GipsLab, PracticeSteps, PutCallParityLab } from "./ActivityLab";
+import { recordQuestionAttempt, registerQuestions, rememberStudyPosition, useStudyState } from "../../lib/learning";
 import "./GoldLesson.css";
 
 const quantLessonsByReading = new Map(
@@ -42,12 +44,15 @@ const decisionLessonsByReading = new Map<number, DecisionLessonDetail>(
 
 type SourceManifestEntry = {
   readingId: number;
+  moduleId: string;
+  moduleTitle: string;
   objectives: { id: string; sourceStatement: string }[];
 };
 
 type DeepDataModule = Record<string, DeepLesson[]>;
 
 const sourceManifest = sourceManifestData as SourceManifestEntry[];
+const objectiveModules = new Map(sourceManifest.flatMap((entry) => entry.objectives.map((objective) => [objective.id, entry] as const)));
 const objectiveQuestions = new Map((objectiveQuestionsData as { id: string; question: string }[]).map((item) => [item.id, item.question]));
 const deepDataLoaders = import.meta.glob<DeepDataModule>("../../data/deep/*.ts");
 
@@ -92,6 +97,10 @@ export function hasGoldLesson(readingId: number) {
 }
 
 function visualFor(readingId: number) {
+  if (readingId === 70) return <ForwardPricingLab />;
+  if (readingId === 74) return <PutCallParityLab />;
+  if (readingId === 75) return <BinomialLab />;
+  if (readingId === 92) return <GipsLab />;
   if (readingId === 1) {
     return (
       <CashFlowTimeline
@@ -114,9 +123,9 @@ function visualFor(readingId: number) {
   if ([51, 52, 53, 54, 55].includes(readingId)) return <YieldCurveTermStructure />;
   if ([56, 58, 59].includes(readingId)) return <DurationPriceCurve />;
   if ([41, 42, 85, 87].includes(readingId)) return <SMLSecurityMarketLine />;
-  if ([66, 70, 73, 74, 75].includes(readingId)) return <OptionPayoffExplorer />;
+  if ([66, 73].includes(readingId)) return <OptionPayoffExplorer />;
   if ([84, 86, 88].includes(readingId)) return <EfficientFrontier />;
-  if ([89, 90, 92, 93].includes(readingId)) return <EthicsDecisionFlow />;
+  if ([89, 90, 93].includes(readingId)) return <EthicsDecisionFlow />;
   return null;
 }
 
@@ -170,6 +179,18 @@ function DecisionFormulaCard({ formula }: { formula: LessonFormula }) {
   );
 }
 
+const exampleNumericChecks: Record<string, { prompt: string; expected: number; unit: string; tolerance: number }> = {
+  "returns-timing": { prompt: "Calculate the two-year cumulative TWR", expected: -1, unit: "%", tolerance: 0.001 },
+  "returns-average": { prompt: "Calculate the ending capital", expected: 96, unit: "currency", tolerance: 0.01 },
+  "duration-position": { prompt: "Calculate the estimated new full position value", expected: 999600, unit: "currency", tolerance: 1 },
+  "portfolio-two-assets": { prompt: "Calculate portfolio volatility at correlation 0.25", expected: 13.56466, unit: "%", tolerance: 0.005 },
+  "portfolio-cal-mix": { prompt: "Calculate utility for the half-risky mix", expected: 0.0312, unit: "decimal utility", tolerance: 0.00005 },
+  "70.1-worked": { prompt: "Calculate the existing long forward’s value", expected: 10, unit: "currency/unit", tolerance: 0.01 },
+  "74.1-worked": { prompt: "Calculate the fair put price", expected: 8, unit: "currency/unit", tolerance: 0.01 },
+  "75.1-worked": { prompt: "Calculate the call price today", expected: 9.52381, unit: "currency/unit", tolerance: 0.01 },
+  "92.1-worked": { prompt: "Calculate the illustrated composite return", expected: 8, unit: "%", tolerance: 0.01 },
+};
+
 function QuantWorkedExample({ example }: { example: GoldQuantLesson["workedExamples"][number] }) {
   return (
     <article className="gold-worked-example">
@@ -177,26 +198,15 @@ function QuantWorkedExample({ example }: { example: GoldQuantLesson["workedExamp
       <div className="gold-example-brief">
         <section><strong>Given</strong><ul>{example.given.map((item) => <li key={item}>{item}</li>)}</ul></section>
         <section><strong>Find</strong><p>{example.find}</p></section>
-        <section><strong>Plan</strong><p>{example.plan}</p></section>
       </div>
-      <ol className="gold-calculation-steps">
-        {example.calculate.map((step, index) => (
-          <li key={`${example.id}-${index}`}>
-            <div><span>{index + 1}</span><strong>{step.description}</strong></div>
-            <MathText display latex={step.latex} />
-            <p>{step.result}</p>
-          </li>
-        ))}
-      </ol>
-      <div className="gold-example-close">
-        <section><strong>Interpret</strong><p>{example.interpret}</p></section>
-        <section><strong>Sanity check</strong><p>{example.sanityCheck}</p></section>
-      </div>
+      <PracticeSteps storageId={example.id} steps={example.calculate.map((step) => ({ label: step.description, latex: step.latex, result: step.result }))} hint={example.plan} interpret={example.interpret} sanityCheck={example.sanityCheck} numeric={exampleNumericChecks[example.id]} />
     </article>
   );
 }
 
 function AssessmentSet({ readingId, items }: { readingId: number; items: AssessmentView[] }) {
+  const study = useStudyState();
+  const handledRetry = useRef("");
   const storageKey = `return-lab-assessments-v1-${readingId}`;
   const [answers, setAnswers] = useState<Record<string, { selected: string; checked: boolean }>>(() => {
     try {
@@ -226,6 +236,37 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
     }
   }, [answers, storageKey]);
 
+  useEffect(() => { registerQuestions(readingId, items.map((item) => `application:${readingId}:${item.id}`)); }, [items, readingId]);
+
+  useEffect(() => {
+    const handleRetryRoute = () => {
+      const hash = window.location.hash;
+      const section = hash.match(/\/section\/([^/?#]+)/)?.[1];
+      const params = new URLSearchParams(hash.split("?")[1] || "");
+      const retry = params.get("retry") === "1";
+      const item = items.find((candidate) => `assessment-${candidate.id}` === section);
+      if (!retry || !item) { handledRetry.current = ""; return; }
+      if (handledRetry.current === hash) return;
+      handledRetry.current = hash;
+      setAnswers((current) => ({ ...current, [item.id]: { selected: "", checked: false } }));
+      params.delete("retry");
+      window.history.replaceState(window.history.state, "", `${hash.split("?")[0]}${params.size ? `?${params}` : ""}`);
+      rememberStudyPosition(readingId, `assessment-${item.id}`);
+    };
+    handleRetryRoute();
+    window.addEventListener("hashchange", handleRetryRoute);
+    return () => window.removeEventListener("hashchange", handleRetryRoute);
+  }, [items, readingId]);
+
+  const checkAnswer = (item: AssessmentView) => {
+    const selected = answers[item.id]?.selected;
+    if (!selected || answers[item.id]?.checked) return;
+    const sectionId = `assessment-${item.id}`;
+    recordQuestionAttempt({ questionId: `application:${readingId}:${item.id}`, readingId, prompt: item.prompt, sectionId, objectiveIds: item.objective.split(",").map((value) => value.trim()).filter(Boolean), correct: selected === item.correctOptionId });
+    rememberStudyPosition(readingId, sectionId);
+    setAnswers((current) => ({ ...current, [item.id]: { selected, checked: true } }));
+  };
+
   const score = items.filter((item) => answers[item.id]?.checked && answers[item.id]?.selected === item.correctOptionId).length;
   const attempted = items.filter((item) => answers[item.id]?.checked).length;
 
@@ -241,8 +282,10 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
         const selectedOption = item.options.find((option) => option.id === answer?.selected);
         const correct = answer?.selected === item.correctOptionId;
         const promptId = `${item.id}-prompt`;
+        const history = study.questions[`application:${readingId}:${item.id}`];
+        const reviewModules = [...new Map(item.objective.split(",").map((value) => objectiveModules.get(value.trim())).filter((entry): entry is SourceManifestEntry => Boolean(entry)).map((entry) => [entry.moduleId, entry])).values()];
         return (
-          <article className="gold-question" key={item.id}>
+          <article className="gold-question" id={`assessment-${item.id}`} key={item.id} onFocus={() => rememberStudyPosition(readingId, `assessment-${item.id}`)}>
             <p className="gold-question-meta">QUESTION {itemIndex + 1}{item.skill ? ` · ${item.skill.toUpperCase()}` : ""}</p>
             <h3 id={promptId}><span>{itemIndex + 1}</span>{item.prompt}</h3>
             <div aria-labelledby={promptId} className="gold-options" role="radiogroup">
@@ -250,6 +293,7 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
                 <label className={answer?.selected === option.id ? "selected" : ""} key={option.id}>
                   <input
                     checked={answer?.selected === option.id}
+                    disabled={answer?.checked}
                     name={`${item.id}-answer`}
                     onChange={() => setAnswers((current) => ({ ...current, [item.id]: { selected: option.id, checked: false } }))}
                     type="radio"
@@ -260,19 +304,22 @@ function AssessmentSet({ readingId, items }: { readingId: number; items: Assessm
               ))}
             </div>
             <button
-              disabled={!answer?.selected}
-              onClick={() => setAnswers((current) => ({ ...current, [item.id]: { ...current[item.id], checked: true } }))}
+              disabled={!answer?.selected || answer.checked}
+              onClick={() => checkAnswer(item)}
               type="button"
             >
-              Check answer
+              {answer?.checked ? "Answer checked" : "Check answer"}
             </button>
+            {answer?.checked ? <button type="button" onClick={() => setAnswers((current) => ({ ...current, [item.id]: { selected: "", checked: false } }))}>Try again</button> : null}
             {answer?.checked && selectedOption ? (
               <div className={correct ? "gold-feedback correct" : "gold-feedback"} role="status">
                 <strong>{correct ? "Correct" : `Review the ${item.correctOptionId} option`}</strong>
                 <p>{selectedOption.feedback}</p>
                 <details><summary>Show the complete reasoning</summary><ol>{item.solution.map((step) => <li key={step}>{step}</li>)}</ol></details>
+                {reviewModules.length ? <nav className="gold-remediation" aria-label="Review related concepts"><strong>Review this concept</strong>{reviewModules.map((entry) => <a href={`#/reading/${entry.readingId}/section/full-module-${entry.moduleId}`} key={entry.moduleId}>{entry.moduleTitle} →</a>)}</nav> : null}
               </div>
             ) : null}
+            {history ? <details className="gold-attempt-history"><summary>Attempt history ({history.attempts.length}) · First answer: {history.firstCorrect === undefined ? "not yet checked" : history.firstCorrect ? "correct" : "needs review"}</summary><ol>{history.attempts.map((attempt, index) => <li key={`${attempt.at}-${index}`}><span>Attempt {index + 1}: {attempt.revealed ? "answer revealed" : attempt.correct ? "correct" : "needs review"}</span><time dateTime={new Date(attempt.at).toISOString()}>{new Date(attempt.at).toLocaleString()}</time></li>)}</ol></details> : null}
           </article>
         );
       })}
@@ -374,7 +421,8 @@ function DecisionLesson({ lesson }: { lesson: DecisionLessonDetail }) {
       </section>
       <section className="gold-worked-example gold-decision-case">
         <header><span>INTEGRATED DECISION CASE</span><h3>{lesson.workedDecisionCase.title}</h3></header>
-        <div className="gold-case-grid"><CaseList title="Given" items={lesson.workedDecisionCase.given} /><CaseList title="Find" items={lesson.workedDecisionCase.find} /><CaseList title="Plan" items={lesson.workedDecisionCase.plan} /><CaseList title="Analysis" items={lesson.workedDecisionCase.analysis} /><CaseList title="Decision" items={lesson.workedDecisionCase.decision} /><CaseList title="Sanity check" items={lesson.workedDecisionCase.sanityCheck} /></div>
+        <div className="gold-case-grid"><CaseList title="Given" items={lesson.workedDecisionCase.given} /><CaseList title="Find" items={lesson.workedDecisionCase.find} /></div>
+        <PracticeSteps storageId={`decision-case-${lesson.readingId}`} steps={[...lesson.workedDecisionCase.analysis.map((result, index) => ({ label: `Analyze step ${index + 1}`, result })), ...lesson.workedDecisionCase.decision.map((result, index) => ({ label: `Make decision ${index + 1}`, result }))]} hint={lesson.workedDecisionCase.plan.join(" ")} interpret={lesson.workedDecisionCase.decision.join(" ")} sanityCheck={lesson.workedDecisionCase.sanityCheck.join(" ")} />
       </section>
       <Misconceptions items={lesson.misconceptions} />
       <AssessmentSet items={decisionAssessments(lesson.assessments)} readingId={lesson.readingId} />
@@ -414,21 +462,8 @@ function DeepWorkedExampleCard({ example }: { example: DeepWorkedExample }) {
       <div className="gold-example-brief">
         <section><strong>Given</strong><ul>{example.given.map((item) => <li key={item}>{item}</li>)}</ul></section>
         <section><strong>Find</strong><p>{example.find}</p></section>
-        <section><strong>Plan</strong><p>{example.plan}</p></section>
       </div>
-      <ol className="gold-calculation-steps">
-        {example.steps.map((step, index) => (
-          <li key={`${example.id}-${index}`}>
-            <div><span>{index + 1}</span><strong>{step.label}</strong></div>
-            {step.latex ? <MathText display latex={step.latex} /> : null}
-            <p>{step.result}</p>
-          </li>
-        ))}
-      </ol>
-      <div className="gold-example-close">
-        <section><strong>Interpret</strong><p>{example.interpret}</p></section>
-        <section><strong>Sanity check</strong><p>{example.sanityCheck}</p></section>
-      </div>
+      <PracticeSteps storageId={example.id} steps={example.steps} hint={example.plan} interpret={example.interpret} sanityCheck={example.sanityCheck} numeric={exampleNumericChecks[example.id]} />
     </article>
   );
 }

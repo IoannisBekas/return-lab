@@ -1,0 +1,52 @@
+.activity-worked { min-width: 0; }
+.activity-worked-intro { padding: 23px; border-top: 1px solid #4b5052; }
+.activity-worked-intro > p { color: #c9cecc; line-height: 1.5; }
+.activity-worked button, .explore-challenge button, .model-lab button { min-height: 44px; padding: 10px 14px; border: 1px solid currentColor; background: var(--white, #fbfcf9); color: var(--ink, #171b20); font: inherit; cursor: pointer; }
+.activity-worked button:disabled, .explore-challenge button:disabled, .model-lab button:disabled { opacity: .55; cursor: not-allowed; }
+.activity-worked :focus-visible, .explore-challenge :focus-visible, .model-lab :focus-visible { outline: 3px solid #4282a0; outline-offset: 3px; }
+.activity-worked label, .explore-challenge label, .activity-input-grid label, .activity-numeric label { display: grid; min-width: 0; gap: 8px; font-size: 15px; line-height: 1.5; }
+.activity-worked textarea, .explore-challenge textarea, .activity-numeric input, .activity-input-grid input, .activity-input-grid select { display: block; width: 100%; min-width: 0; max-width: 100%; padding: 10px; border: 1px solid #778184; background: #fff; color: #171b20; border-radius: 0; font: inherit; }
+.activity-worked textarea, .explore-challenge textarea { resize: vertical; }
+.gold-calculation-steps .activity-step-attempt { grid-column: 2; min-width: 0; }
+.activity-step-attempt details { margin: 14px 0; }
+.activity-step-attempt summary { min-height: 44px; padding: 10px 0; cursor: pointer; }
+.activity-step-attempt p { color: var(--muted); line-height: 1.5; }
+.gold-calculation-steps > li > .activity-saved-attempt { padding: 12px; background: var(--paper); white-space: pre-wrap; overflow-wrap: anywhere; }
+.activity-interpret { padding: 23px; border-top: 1px solid #4b5052; }
+.activity-interpret > button { margin-top: 14px; }
+.activity-interpret .gold-example-close { margin: 22px -23px -23px; }
+.activity-worked-footer { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding: 20px 23px; border-top: 1px solid #4b5052; }
+.activity-worked-footer > span { font: 12px var(--mono); color: #c9cecc; }
+.activity-numeric { display: grid; gap: 12px; margin: 20px 0; }
+.activity-numeric > button { justify-self: start; }
+.activity-feedback, .activity-success { padding: 12px; border-left: 3px solid #a52f45; background: #f9edf0; color: #6d2635; font-size: 15px; line-height: 1.5; }
+.activity-success { border-color: #3f7d63; background: #eaf4ef; color: #22583f; }
+.explore-challenge { margin-top: 24px; padding: 20px; border: 1px solid #809496; background: #edf2f3; color: #171b20; }
+.explore-challenge h4, .model-lab h4 { margin: 0 0 12px; font-size: 20px; line-height: 1.3; }
+.explore-challenge fieldset { min-width: 0; padding: 12px; margin: 12px 0; border: 1px solid #a4b1b3; }
+.explore-challenge fieldset label { display: flex; align-items: start; gap: 10px; padding: 10px 0; }
+.explore-challenge input[type="radio"] { margin-top: 4px; flex-shrink: 0; width: 18px; height: 18px; accent-color: #285d70; }
+.explore-challenge > button { margin-top: 14px; }
+.explore-challenge .activity-secondary { display: block; background: transparent; }
+.activity-comparison { margin-top: 20px; padding: 18px; background: #fbfcf9; border-left: 3px solid #285d70; line-height: 1.55; }
+.activity-comparison p:last-child { margin-bottom: 0; }
+.activity-help { color: #485257; font-size: 14px; }
+.activity-instruction { padding: 10px 0; }
+.model-lab { scroll-margin-top: 110px; }
+.model-lab > header h3 { font-size: clamp(23px, 3vw, 32px); line-height: 1.2; margin: 12px 0; }
+.model-lab .activity-assumptions { padding: 14px; background: var(--paper, #f0f2ee); font-size: 14px; color: #434b4f; }
+.activity-input-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 24px 0; }
+.activity-model-result { margin: 20px 0; padding: 15px; border: 1px solid #a4b1b3; }
+.activity-model-result > summary { min-height: 44px; cursor: pointer; font-size: 15px; line-height: 1.5; }
+.activity-table-scroll { overflow-x: auto; max-width: 100%; }
+.activity-table-scroll table { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 14px; }
+.activity-table-scroll caption { text-align: left; padding: 14px 0; font-weight: 600; }
+.activity-table-scroll th, .activity-table-scroll td { padding: 12px 9px; border-bottom: 1px solid #b9c5c3; text-align: left; overflow-wrap: anywhere; }
+.activity-composite { margin: 22px 0; padding: 15px; border: 1px solid #a4b1b3; min-width: 0; }
+.activity-composite label { display: flex; gap: 12px; align-items: start; padding: 15px 0; border-bottom: 1px solid #cdd2ce; cursor: pointer; }
+.activity-composite label:last-child { border-bottom: 0; }
+.activity-composite input { flex-shrink: 0; width: 20px; height: 20px; margin: 2px 0 0; accent-color: #285d70; }
+.activity-composite strong, .activity-composite small { display: block; line-height: 1.5; }
+.activity-composite small { margin-top: 5px; color: #485257; }
+@media (max-width: 1100px) { .gold-calculation-steps .activity-step-attempt { grid-column: 1; } }
+@media (max-width: 540px) { .activity-input-grid { grid-template-columns: 1fr; } .explore-challenge { padding: 15px; } .activity-worked-intro, .activity-interpret { padding: 18px; } .activity-interpret .gold-example-close { margin: 22px -18px -18px; } }

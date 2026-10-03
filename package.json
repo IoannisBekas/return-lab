@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "test:learning": "tsx scripts/test-learning-state.ts && tsx scripts/test-reference-study.ts && tsx scripts/validate-activities.ts",
     "dev": "vite",
     "build": "npm run content:split && npm run validate:content && npm run validate:deep && npm run validate:full && tsc --noEmit && vite build",
     "content:split": "node scripts/split-curriculum.mjs",

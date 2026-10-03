@@ -12,9 +12,13 @@ Every reading includes:
 - application questions with feedback for every answer choice and stepwise solutions;
 - module quizzes with answers and explanations hidden until the learner chooses to reveal them.
 
-Selected topics also include interactive diagrams for cash flow timing, supply and demand, statement links, bond price sensitivity, option payoffs, portfolio risk and return, and ethical decision making. Progress and assessment attempts are stored in the learner's browser.
+Readings open as module study sessions with estimated time, recall prompts, recaps, and scoped checkpoints. Learners can also browse the full reading. The home page resumes the saved module or question; the lesson outline and main navigation remain available on mobile.
 
-The formula and statistical reference is available from the main navigation, lesson outline, and footer. Equations, tables, and diagrams can be enlarged for detailed study.
+Worked examples invite learners to attempt each step before revealing it. Selected examples include calculation checks with explicit units and rounding tolerances. Interactive diagrams cover cash flow timing, supply and demand, statement links, bond price sensitivity, option payoffs, portfolio risk and return, and ethical decision making. Readings 70, 74, 75, and 92 have focused forward-pricing, put–call parity, binomial-replication, and composite-construction labs.
+
+Progress, reflection notes, and practice attempts are stored in the learner's browser. Quiz retries preserve first-attempt history. Readings distinguish study completion from mastery: mastery requires attempting both the module quiz and application questions, with at least 80% correct on the latest independent attempts. Revealing an answer does not earn mastery. The review page links missed questions to their concepts and schedules later recall; self-rated review changes the schedule without changing assessment scores. Existing reading and answer storage keys remain compatible. Study history is local to this browser and device.
+
+The formula and statistical reference is available from the main navigation, lesson outline, and footer. Search and topic filters preserve complete formula entries with their equations, definitions, and conditions. Formula flashcards have due/all queues, lesson links, and Again/Hard/Good review ratings after recall. Equations, tables, and diagrams can be enlarged for detailed study.
 
 Use the published course at [ioannisbekas.github.io/return-lab-live](https://ioannisbekas.github.io/return-lab-live/).
 
@@ -34,6 +38,7 @@ npm run build
 Useful content commands:
 
 ```bash
+npm run test:learning
 npm run content:split
 npm run validate:curriculum
 npm run validate:content
@@ -49,6 +54,10 @@ npm run validate:full
 src/App.tsx                                  Routing, curriculum index, and progress
 src/components/learning/FullReading.tsx      Complete reading, review, figures, and solutions
 src/components/learning/ReferenceLibrary.tsx Formula and statistical reference
+src/components/learning/ReviewPage.tsx       Personal question and flashcard review plan
+src/components/learning/ActivityLab.tsx      Active examples and focused finance labs
+src/components/learning/activityModels.ts   Finance calculation models and identities
+src/lib/learning.ts                         Study position, question history, and mastery
 src/components/learning/GoldLesson.tsx       Deep lesson loader and shared renderer
 src/components/learning/FinanceVisuals.tsx   Accessible interactive finance diagrams
 src/components/learning/MathText.tsx         Shared KaTeX renderer
@@ -93,3 +102,5 @@ Set `VITE_BASE_PATH` when the deployment repository uses a different path from t
 ```bash
 VITE_BASE_PATH=/return-lab-live/ npm run build
 ```
+
+On PowerShell, use `$env:VITE_BASE_PATH='/return-lab-live/'` before `npm run build`. The `return-lab` source repository workflow publishes at `/return-lab/`; the published course link above uses the `return-lab-live` repository and a build made with `/return-lab-live/`. Copy the complete `dist/` output, including `content/`, to that static repository and retain its `.nojekyll` file. Run `npm run test:learning`, the production build, and browser checks before publishing.

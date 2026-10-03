@@ -16,6 +16,10 @@
           "sourceAsset": "3bf1c773e8d459b24845.png"
         },
         {
+          "type": "paragraph",
+          "text": "Use rates and cash-flow periods consistently. An ordinary perpetuity pays at the end of each period; the constant-growth dividend model requires a discount rate greater than its perpetual growth rate."
+        },
+        {
           "type": "heading",
           "text": "Quantitative Methods: Dispersion, Probability, and Regression"
         },
@@ -44,6 +48,20 @@
           "latex": "\\begin{gathered}\n\\text{Cash conversion cycle}=\\text{days of inventory on hand}+\\text{days sales outstanding}-\\text{days payables outstanding}\\\\[8pt]\n\\text{Total working capital}=\\text{current assets}-\\text{current liabilities}\\\\[8pt]\n\\text{Net working capital}=\\text{current assets excluding cash and marketable securities}\n-\\text{current liabilities excluding short-term and current debt}\\\\[8pt]\n\\text{Current ratio}=\\frac{\\text{current assets}}{\\text{current liabilities}},\\quad\n\\text{Quick ratio}=\\frac{\\text{cash and marketable securities}+\\text{accounts receivable}}{\\text{current liabilities}}\\\\[8pt]\n\\text{Cash ratio}=\\frac{\\text{cash and marketable securities}}{\\text{current liabilities}},\\quad\nNPV=CF_0+\\sum_{t=1}^{n}\\frac{CF_t}{(1+k)^t}\\\\[8pt]\nROIC=\\frac{\\text{net operating profit after tax}}{\\text{average book value of total capital}}\n\\end{gathered}",
           "display": true,
           "sourceAsset": "35e2f1e7f1dbc851fcc2.png"
+        },
+        {
+          "type": "heading",
+          "text": "Weighted Average Cost of Capital (WACC)"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{array} {c} {\\mathrm{WACC}=\\left[ \\text{weight of debt} \\times\\text{pretax cost of debt} \\times\\left( 1-\\text{tax rate} \\right) \\right]+} \\\\ {\\left( \\text{weight of equity} \\times\\text{cost of equity} \\right)} \\\\ \\end{array}",
+          "display": true,
+          "sourceAsset": "e71cfb5fe7732c9303b3.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "Use target market-value capital weights. The tax rate is the marginal corporate rate, and the cost of debt is reduced by the interest tax shield. Add the weighted cost of preferred stock when it is part of the financing mix."
         },
         {
           "type": "heading",
@@ -127,7 +145,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Because this is a two-tailed test with an alpha of 0.01, there is a 0.005 rejection region in both tails. Thus, we need to find the value 0.995 (1.0 − 0.005) in the table. The closest value is 0.9951, which corresponds to a critical z-value of 2.58. Because the test statistic is less than the critical value, we fail to reject H0 and conclude that the stock’s return equals 0.0%."
+          "text": "Because this is a two-tailed test with an alpha of 0.01, there is a 0.005 rejection region in both tails. Thus, we need to find the value 0.995 (1.0 − 0.005) in the table. The closest value is 0.9951, which corresponds to a critical z-value of 2.58. Because the test statistic is less than the critical value, we fail to reject H0 because the evidence is insufficient to conclude that the mean return differs from 0.0%. Failing to reject does not prove the null hypothesis."
         },
         {
           "type": "heading",
@@ -249,6 +267,139 @@
           "height": 1295,
           "alt": "Chi-squared (χ²) distribution critical values table showing right-tail critical values across various degrees of freedom."
         }
+      ],
+      "entries": [
+        {
+          "id": "reference-tvm",
+          "title": "Time value of money and descriptive statistics",
+          "categories": [
+            "Quantitative Methods",
+            "Equity Valuation"
+          ],
+          "start": 0,
+          "end": 3,
+          "lessonHref": "#/reading/2/section/full-module-2.1"
+        },
+        {
+          "id": "reference-probability-regression",
+          "title": "Dispersion, probability, and regression",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 3,
+          "end": 5,
+          "lessonHref": "#/reading/10/section/full-module-10.1"
+        },
+        {
+          "id": "reference-real-fx",
+          "title": "Real exchange rate",
+          "categories": [
+            "Economics"
+          ],
+          "start": 5,
+          "end": 7,
+          "lessonHref": "#/reading/19/section/full-module-19.1"
+        },
+        {
+          "id": "reference-working-capital",
+          "title": "Working capital, liquidity, NPV, and ROIC",
+          "categories": [
+            "Corporate Issuers"
+          ],
+          "start": 7,
+          "end": 9,
+          "lessonHref": "#/reading/23/section/full-module-23.1"
+        },
+        {
+          "id": "reference-wacc",
+          "title": "Weighted average cost of capital (WACC)",
+          "categories": [
+            "Corporate Issuers"
+          ],
+          "start": 9,
+          "end": 12,
+          "lessonHref": "#/reading/25/section/full-module-25.1"
+        },
+        {
+          "id": "reference-normal-example",
+          "title": "Normal probabilities and cumulative Z-table example",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 12,
+          "end": 21,
+          "lessonHref": "#/reading/7/section/full-module-7.1"
+        },
+        {
+          "id": "reference-one-tailed",
+          "title": "One-tailed hypothesis test",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 21,
+          "end": 27,
+          "lessonHref": "#/reading/8/section/full-module-8.1"
+        },
+        {
+          "id": "reference-two-tailed",
+          "title": "Two-tailed hypothesis test",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 27,
+          "end": 32,
+          "lessonHref": "#/reading/8/section/full-module-8.1"
+        },
+        {
+          "id": "reference-z-table",
+          "title": "Cumulative standard normal distribution tables",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 32,
+          "end": 40,
+          "lessonHref": "#/reading/7/section/full-module-7.1"
+        },
+        {
+          "id": "reference-t-table",
+          "title": "Student's t-distribution",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 40,
+          "end": 42,
+          "lessonHref": "#/reading/8/section/full-module-8.1"
+        },
+        {
+          "id": "reference-f-table-5",
+          "title": "F-table at 5%",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 42,
+          "end": 47,
+          "lessonHref": "#/reading/10/section/full-module-10.2"
+        },
+        {
+          "id": "reference-f-table-25",
+          "title": "F-table at 2.5%",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 47,
+          "end": 52,
+          "lessonHref": "#/reading/10/section/full-module-10.2"
+        },
+        {
+          "id": "reference-chi-squared",
+          "title": "Chi-squared distribution",
+          "categories": [
+            "Quantitative Methods"
+          ],
+          "start": 52,
+          "end": 56,
+          "lessonHref": "#/reading/9/section/full-module-9.1"
+        }
       ]
     },
     {
@@ -288,6 +439,10 @@
           "latex": "\\begin{aligned}\n\\text{FCFE} &= \\text{CFO} - \\text{FC}_{\\text{Inv}} + \\text{Net borrowing} \\\\[6pt]\n\\text{where:}\\quad \\text{FC}_{\\text{Inv}} &= \\text{fixed capital investment (net capital expenditures)} \\\\\n\\text{Net borrowing} &= \\text{debt issued} - \\text{debt repaid}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "b52fe3c51c6c1ecf0276.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "NI = net income; NCC = noncash charges; Int = interest expense; CFO = cash flow from operations; FCInv = fixed-capital investment; WCInv = investment in operating working capital. Discount FCFF at WACC and FCFE at the required equity return."
         },
         {
           "type": "heading",
@@ -330,6 +485,10 @@
           "sourceAsset": "515855f8b9b9f78398d9.png"
         },
         {
+          "type": "paragraph",
+          "text": "DOL = degree of operating leverage; DFL = degree of financial leverage. The constant-growth model requires ke > gc. Retention rate b is one minus the dividend payout ratio."
+        },
+        {
           "type": "heading",
           "text": "Equity Valuation: Multistage Dividend Discount Model"
         },
@@ -338,6 +497,71 @@
           "latex": "\\begin{aligned}\n\\textbf{Multistage Dividend Discount Model}: & \\\\[6pt]\n\\text{Value} &= \\frac{D_1}{1 + k_e} + \\frac{D_2}{(1 + k_e)^2} + \\dots + \\frac{D_n}{(1 + k_e)^n} + \\frac{P_n}{(1 + k_e)^n} \\\\[8pt]\n\\text{where:}\\quad P_n &= \\frac{D_{n+1}}{k_e - g_c} \\\\[6pt]\ng_c &= \\text{constant growth rate of dividends} \\\\\nn &= \\text{number of periods of supernormal growth} \\\\[10pt]\n\\textbf{Justified P/E Ratio}: & \\\\[6pt]\n\\frac{P_0}{E_1} &= \\frac{D_1 / E_1}{k - g} \\\\[10pt]\n\\textbf{Enterprise Value}: & \\\\[6pt]\n\\text{Enterprise value} &= \\text{market value of common and preferred stock} + \\text{market value of debt} - \\text{cash and short-term investments}\n\\end{aligned}",
           "display": true,
           "sourceAsset": "6535d7ff2e2fc55afa79.png"
+        }
+      ],
+      "entries": [
+        {
+          "id": "reference-free-cash-flow",
+          "title": "Free cash flow to the firm and equity",
+          "categories": [
+            "Financial Statement Analysis",
+            "Equity Valuation"
+          ],
+          "start": 0,
+          "end": 8,
+          "lessonHref": "#/reading/31/section/full-module-31.1"
+        },
+        {
+          "id": "reference-cash-flow-ratios",
+          "title": "Cash flow ratios, depreciation, and taxes",
+          "categories": [
+            "Financial Statement Analysis"
+          ],
+          "start": 8,
+          "end": 10,
+          "lessonHref": "#/reading/31/section/full-module-31.1"
+        },
+        {
+          "id": "reference-financial-ratios",
+          "title": "Activity, liquidity, and solvency ratios",
+          "categories": [
+            "Financial Statement Analysis",
+            "Corporate Issuers"
+          ],
+          "start": 10,
+          "end": 12,
+          "lessonHref": "#/reading/37/section/full-module-37.2"
+        },
+        {
+          "id": "reference-dupont",
+          "title": "Profitability ratios and DuPont analysis",
+          "categories": [
+            "Financial Statement Analysis"
+          ],
+          "start": 12,
+          "end": 14,
+          "lessonHref": "#/reading/37/section/full-module-37.4"
+        },
+        {
+          "id": "reference-equity-fundamentals",
+          "title": "Trading, margin, indexes, dividends, and leverage",
+          "categories": [
+            "Equity Valuation",
+            "Corporate Issuers"
+          ],
+          "start": 14,
+          "end": 17,
+          "lessonHref": "#/reading/46/section/full-module-46.2"
+        },
+        {
+          "id": "reference-equity-valuation",
+          "title": "Multistage DDM, justified P/E, and enterprise value",
+          "categories": [
+            "Equity Valuation"
+          ],
+          "start": 17,
+          "end": 19,
+          "lessonHref": "#/reading/46/section/full-module-46.2"
         }
       ]
     },
@@ -577,25 +801,47 @@
         },
         {
           "type": "math",
-          "latex": "\\frac{\\text{PMT}}{1.01} + \\frac{\\text{PMT}}{(1.02)^2} + \\frac{\\text{PMT} + 100}{(1.03)^3}",
+          "latex": "\\frac{\\text{PMT}}{1.01} + \\frac{\\text{PMT}}{(1.02)^2} + \\frac{\\text{PMT} + 100}{(1.03)^3} = 100",
           "display": true,
           "sourceAsset": "58de1c97dd9050c2bf4f.png"
         },
         {
           "type": "paragraph",
-          "text": "The payment is 2.96 and the par bond coupon rate is 2.96%. duration gap = Macaulay duration − investment horizon"
+          "text": "The payment is 2.96 and the par bond coupon rate is 2.96%."
+        },
+        {
+          "type": "heading",
+          "text": "Duration and Convexity"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{Duration gap}=\\text{Macaulay duration}-\\text{investment horizon}",
+          "display": true,
+          "sourceAsset": "reference-text-duration.png"
         },
         {
           "type": "paragraph",
           "text": "Modified duration (annual-pay bond):"
         },
         {
-          "type": "paragraph",
-          "text": "ModDur = MacDur / (1 + YTM)"
+          "type": "math",
+          "latex": "\\text{ModDur}=\\frac{\\text{MacDur}}{1+YTM}",
+          "display": true,
+          "sourceAsset": "reference-text-duration.png"
         },
         {
           "type": "paragraph",
           "text": "Modified duration (semiannual-pay bond):"
+        },
+        {
+          "type": "math",
+          "latex": "\\text{ModDur}=\\frac{\\text{MacDur}}{1+YTM/2}",
+          "display": true,
+          "sourceAsset": "reference-text-duration.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "MacDur is Macaulay duration in years; YTM is the annual yield quoted with the stated compounding frequency. In general, divide by 1 + YTM/m for m payments per year. Yield changes in the price approximation are annual yields expressed as decimals."
         },
         {
           "type": "math",
@@ -605,7 +851,155 @@
         },
         {
           "type": "paragraph",
-          "text": "no-arbitrage forward price: F0(T) = S0 (1 + Rf)T payoff to long forward at expiration = ST − F0(T) value of forward at time t: Vt(T) = [St + PVt (costs) − PVt(benefit)] − F0(T) (1 + Rf)−⁽T−t⁾ exercise value of a call = Max[0, S − X] exercise value of a put = Max[0, X − S] option value = exercise value + time value put-call parity: c + X(1 + Rf)⁻T = S + p put-call-forward parity: F0 (T)(1 + Rf)⁻T + p0 = c0 + X(1 + Rf)⁻T"
+          "text": "V0 is the current bond value; V− and V+ are values after equal downward and upward yield shocks. ΔYTM and ΔCurve are the positive shock magnitudes in decimal form. Portfolio weights wi are market-value weights. Effective measures reprice cash flows for a curve shift and accommodate embedded options."
+        },
+        {
+          "type": "heading",
+          "text": "Forward Pricing and Contract Value"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned}F_0(T)&=S_0(1+R_f)^T\\\\[6pt]\\text{Long forward payoff at expiry}&=S_T-F_0(T)\\\\[6pt]V_t(T)&=S_t+PV_t(\\text{costs})-PV_t(\\text{benefits})-\\frac{F_0(T)}{(1+R_f)^{T-t}}\\end{aligned}",
+          "display": true,
+          "sourceAsset": "reference-text-forward.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "S0 and St are spot prices; F0(T) is the contracted delivery price; Rf is the annual risk-free rate; T and t are measured in years. The first equation assumes no costs or benefits of carrying the asset. Contract value after initiation includes the present values of remaining carry costs and benefits."
+        },
+        {
+          "type": "heading",
+          "text": "Option Exercise and Time Value"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned}\\text{Call exercise value}&=\\max(0,S-X)\\\\[6pt]\\text{Put exercise value}&=\\max(0,X-S)\\\\[6pt]\\text{Option value}&=\\text{exercise value}+\\text{time value}\\end{aligned}",
+          "display": true,
+          "sourceAsset": "reference-text-options.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "S is the current underlying price and X is the strike. At expiration, time value is zero and these expressions become the option payoffs. Before expiry, European options cannot be exercised early; discounting and dividends can affect the sign of value minus current exercise value."
+        },
+        {
+          "type": "heading",
+          "text": "European Put-Call Parity"
+        },
+        {
+          "type": "math",
+          "latex": "\\begin{aligned}c_0+\\frac{X}{(1+R_f)^T}&=S_0+p_0\\\\[6pt]\\frac{F_0(T)}{(1+R_f)^T}+p_0&=c_0+\\frac{X}{(1+R_f)^T}\\end{aligned}",
+          "display": true,
+          "sourceAsset": "reference-text-parity.png"
+        },
+        {
+          "type": "paragraph",
+          "text": "c0 and p0 are European call and put prices on the same underlying with identical strike X and expiry T. The first relation assumes a non-dividend-paying asset; for known dividends, subtract their present value from S0. The second uses the current forward price for that expiry. The annual risk-free rate is compounded consistently with T."
+        }
+      ],
+      "entries": [
+        {
+          "id": "reference-returns",
+          "title": "Holding period and effective annual returns",
+          "categories": [
+            "Quantitative Methods",
+            "Fixed Income"
+          ],
+          "start": 0,
+          "end": 11,
+          "lessonHref": "#/reading/1/section/full-module-1.3"
+        },
+        {
+          "id": "reference-compounding",
+          "title": "Compounding frequency",
+          "categories": [
+            "Quantitative Methods",
+            "Fixed Income"
+          ],
+          "start": 11,
+          "end": 18,
+          "lessonHref": "#/reading/1/section/full-module-1.3"
+        },
+        {
+          "id": "reference-bond-yields",
+          "title": "Bond quotations and yields",
+          "categories": [
+            "Fixed Income"
+          ],
+          "start": 18,
+          "end": 30,
+          "lessonHref": "#/reading/53/section/full-module-53.1"
+        },
+        {
+          "id": "reference-irr",
+          "title": "Internal rate of return (IRR)",
+          "categories": [
+            "Fixed Income",
+            "Corporate Issuers",
+            "Quantitative Methods"
+          ],
+          "start": 30,
+          "end": 37,
+          "lessonHref": "#/reading/52/section/full-module-52.1"
+        },
+        {
+          "id": "reference-money-market",
+          "title": "Money market securities",
+          "categories": [
+            "Fixed Income"
+          ],
+          "start": 37,
+          "end": 46,
+          "lessonHref": "#/reading/54/section/full-module-54.1"
+        },
+        {
+          "id": "reference-spot-forward",
+          "title": "Spot, forward, and par rates",
+          "categories": [
+            "Fixed Income"
+          ],
+          "start": 46,
+          "end": 58,
+          "lessonHref": "#/reading/55/section/full-module-55.1"
+        },
+        {
+          "id": "reference-duration",
+          "title": "Duration and convexity",
+          "categories": [
+            "Fixed Income"
+          ],
+          "start": 58,
+          "end": 67,
+          "lessonHref": "#/reading/57/section/full-module-57.1"
+        },
+        {
+          "id": "reference-forwards",
+          "title": "Forward pricing and contract value",
+          "categories": [
+            "Derivatives"
+          ],
+          "start": 67,
+          "end": 70,
+          "lessonHref": "#/reading/70/section/full-module-70.1"
+        },
+        {
+          "id": "reference-option-payoffs",
+          "title": "Option exercise and time value",
+          "categories": [
+            "Derivatives"
+          ],
+          "start": 70,
+          "end": 73,
+          "lessonHref": "#/reading/73/section/full-module-73.1"
+        },
+        {
+          "id": "reference-put-call-parity",
+          "title": "European put-call and put-call-forward parity",
+          "categories": [
+            "Derivatives"
+          ],
+          "start": 73,
+          "end": 76,
+          "lessonHref": "#/reading/74/section/full-module-74.1"
         }
       ]
     },
@@ -613,6 +1007,10 @@
       "id": "reference-4",
       "title": "Portfolio management and performance",
       "blocks": [
+        {
+          "type": "heading",
+          "text": "Leveraged Return and Return After Fees"
+        },
         {
           "type": "math",
           "latex": "\\text{Leveraged return} = \\frac{r(V_0 + V_B) - V_B \\times r_B}{V_0}",
@@ -631,11 +1029,27 @@
         },
         {
           "type": "paragraph",
+          "text": "V0 is the investor's equity; VB is borrowed capital; rB is the borrowing rate; r is the gross investment return in the leverage equation. In the fee equation, V1 is ending value and total fees are monetary amounts."
+        },
+        {
+          "type": "heading",
+          "text": "Futures Cost of Carry"
+        },
+        {
+          "type": "paragraph",
           "text": "futures price ≈ spot price × (1 + risk-free rate) + storage costs"
         },
         {
           "type": "paragraph",
           "text": "– convenience yield"
+        },
+        {
+          "type": "paragraph",
+          "text": "This approximation uses a one-period risk-free rate. Storage costs raise the price; convenience yield lowers it. Express all amounts for the same contract period and underlying quantity."
+        },
+        {
+          "type": "heading",
+          "text": "Portfolio Risk and Correlation"
         },
         {
           "type": "paragraph",
@@ -649,7 +1063,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Standard deviation of returns from historical data:"
+          "text": "Sample variance of returns from historical data (take the square root for standard deviation):"
         },
         {
           "type": "math",
@@ -678,6 +1092,10 @@
           "sourceAsset": "f988d835f752b8e9d75e.png"
         },
         {
+          "type": "heading",
+          "text": "Asset Beta and the Capital Market Line"
+        },
+        {
           "type": "paragraph",
           "text": "Beta of Asset i with the market:"
         },
@@ -702,12 +1120,22 @@
           "text": "total risk = systematic risk + unsystematic risk"
         },
         {
-          "type": "paragraph",
-          "text": "Capital Asset Pricing Model (CAPM): E(Ri) = Rf + βi[E(Rmkt)"
+          "type": "heading",
+          "text": "Capital Asset Pricing Model (CAPM)"
+        },
+        {
+          "type": "math",
+          "latex": "E(R_i)=R_f+\\beta_i[E(R_m)-R_f]",
+          "display": true,
+          "sourceAsset": "40e4f9f579c995838c9f.png"
         },
         {
           "type": "paragraph",
-          "text": "– Rf]"
+          "text": "Rf is the risk-free return; E(Rm) is the expected market return; βi measures systematic risk. CAPM links expected required return to beta rather than total volatility."
+        },
+        {
+          "type": "heading",
+          "text": "Portfolio Performance Measures"
         },
         {
           "type": "math",
@@ -728,16 +1156,77 @@
           "sourceAsset": "dc4a14f515b2202d88f0.png"
         },
         {
-          "type": "paragraph",
-          "text": "Jensen’s alpha = αP = RP"
+          "type": "math",
+          "latex": "\\alpha_P=R_P-[R_f+\\beta_P(R_M-R_f)]",
+          "display": true,
+          "sourceAsset": "reference-text-jensen.png"
         },
         {
           "type": "paragraph",
-          "text": "– [Rf + βP(RM"
+          "text": "RP is portfolio return; RM is market return; Rf is the risk-free return; σP and σM are portfolio and market standard deviations; βP is portfolio beta. Use total risk for Sharpe and M-squared, and systematic risk for Treynor and Jensen's alpha. All returns and risk measures must cover the same period."
+        }
+      ],
+      "entries": [
+        {
+          "id": "reference-leverage-fees",
+          "title": "Leveraged return and return after fees",
+          "categories": [
+            "Portfolio Management"
+          ],
+          "start": 0,
+          "end": 5,
+          "lessonHref": "#/reading/83/section/full-module-83.1"
         },
         {
-          "type": "paragraph",
-          "text": "– Rf)]"
+          "id": "reference-futures-carry",
+          "title": "Futures cost of carry",
+          "categories": [
+            "Derivatives"
+          ],
+          "start": 5,
+          "end": 9,
+          "lessonHref": "#/reading/71/section/full-module-71.1"
+        },
+        {
+          "id": "reference-portfolio-risk",
+          "title": "Portfolio standard deviation, covariance, and correlation",
+          "categories": [
+            "Portfolio Management",
+            "Quantitative Methods"
+          ],
+          "start": 9,
+          "end": 18,
+          "lessonHref": "#/reading/83/section/full-module-83.3"
+        },
+        {
+          "id": "reference-beta-cml",
+          "title": "Asset beta and capital market line",
+          "categories": [
+            "Portfolio Management"
+          ],
+          "start": 18,
+          "end": 24,
+          "lessonHref": "#/reading/84/section/full-module-84.1"
+        },
+        {
+          "id": "reference-capm",
+          "title": "Capital asset pricing model (CAPM)",
+          "categories": [
+            "Portfolio Management"
+          ],
+          "start": 24,
+          "end": 27,
+          "lessonHref": "#/reading/84/section/full-module-84.2"
+        },
+        {
+          "id": "reference-performance",
+          "title": "Sharpe ratio, M-squared, Treynor, and Jensen's alpha",
+          "categories": [
+            "Portfolio Management"
+          ],
+          "start": 27,
+          "end": 33,
+          "lessonHref": "#/reading/84/section/full-module-84.2"
         }
       ]
     }

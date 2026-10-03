@@ -52,6 +52,202 @@
   background: var(--paper);
 }
 
+.full-reading-navigation a[aria-current="step"] {
+  box-shadow: inset 4px 0 var(--red);
+  background: var(--paper);
+}
+
+.full-reading-navigation a small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font: 11px/1.5 var(--mono);
+}
+
+.full-reading-session-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+
+.full-reading-session-tools button,
+.full-reading-module-actions button,
+.full-reading-session-finish button,
+.full-reading-step-actions button {
+  min-height: 44px;
+  padding: 11px 16px;
+  border: 1px solid var(--ink);
+  background: var(--white);
+  color: var(--ink);
+  line-height: 1.4;
+  cursor: pointer;
+}
+
+.full-reading-session-tools button[aria-pressed="true"],
+.full-reading-module-actions button,
+.full-reading-session-finish button {
+  background: var(--ink);
+  color: var(--white);
+}
+
+.full-reading-session-tools > span {
+  margin-left: auto;
+  color: var(--muted);
+  font: 12px/1.5 var(--mono);
+}
+
+.full-reading-module-recap {
+  margin-top: 40px;
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.full-reading-module-recap > h4 {
+  margin: 0 0 12px;
+  font-size: 23px;
+}
+
+.full-reading-module-recap p,
+.full-reading-module-recap li {
+  line-height: 1.6;
+}
+
+.full-reading-module-recap ul {
+  padding-left: 22px;
+}
+
+.full-reading-module-recap li + li {
+  margin-top: 10px;
+}
+
+.full-reading-module-recap summary {
+  padding: 14px 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.full-reading-module-recap details > div {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.full-reading-module-actions,
+.full-reading-session-finish {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin: 22px 0 12px;
+}
+
+.full-reading-module-actions a,
+.full-reading-session-finish a,
+.full-reading-next-action,
+.full-quiz-remediation a {
+  display: inline-block;
+  padding: 10px 0;
+  color: var(--red);
+  line-height: 1.5;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.full-reading-module-recap > small {
+  display: block;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.full-reading-learning-question {
+  scroll-margin-top: 106px;
+}
+
+.full-reading-worked-intro,
+.full-reading-step-hint,
+.full-reading-step-compare {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.full-reading-step-response {
+  display: block;
+  color: var(--muted);
+  font: 14px/1.5 var(--sans);
+}
+
+.full-reading-step-response textarea {
+  display: block;
+  width: 100%;
+  min-height: 84px;
+  margin-top: 10px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--white);
+  color: var(--ink);
+  font: 16px/1.5 var(--sans);
+  resize: vertical;
+}
+
+.full-reading-step-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0;
+}
+
+.full-reading-step-actions button {
+  font-size: 14px;
+}
+
+.full-reading-step-solution {
+  margin-top: 20px;
+}
+
+.full-reading-step-response textarea:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 3px;
+}
+
+.full-quiz-history-summary,
+.full-quiz-empty {
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.full-quiz-attempt-history {
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.full-quiz-attempt-history summary {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.full-quiz-remediation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 16px;
+  margin-top: 16px;
+}
+
+.full-quiz-remediation > span {
+  flex-basis: 100%;
+  font-weight: 600;
+}
+
 .full-reading-navigation a span {
   flex: 0 0 auto;
   color: var(--red);
@@ -207,7 +403,8 @@
   margin: 12px 0;
   padding: 14px;
   background: #f6f3ec;
-  overflow: hidden;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .full-reading-worked-equation .katex-display {
@@ -612,6 +809,16 @@
 }
 
 @media (max-width: 760px) {
+  .full-reading-session-tools > span {
+    flex-basis: 100%;
+    margin-left: 0;
+  }
+
+  .full-reading-session-finish,
+  .full-reading-module-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
   .full-reading-navigation {
     grid-template-columns: 1fr;
   }
@@ -662,6 +869,33 @@
   .full-quiz-navigation > div {
     grid-column: 1 / -1;
     grid-row: 2;
+  }
+}
+
+@media print {
+  .full-reading-module[hidden],
+  .full-reading-review[hidden],
+  .full-reading-prose[hidden],
+  .full-reading-step-solution[hidden] {
+    display: block;
+  }
+
+  .full-reading-session-tools,
+  .full-reading-navigation,
+  .full-reading-module-recap,
+  .full-reading-quiz-container,
+  .full-reading-step-response,
+  .full-reading-step-actions,
+  .full-reading-step-hint,
+  .full-reading-step-compare,
+  .full-reading-next-action {
+    display: none;
+  }
+
+  .full-reading-worked,
+  .full-reading-worked-step,
+  .full-reading-math {
+    break-inside: avoid;
   }
 }
 
